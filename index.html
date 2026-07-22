@@ -7,9 +7,12 @@
   <meta name="description" content="Official BuccaneerSalvage hub by Rustjack: dark AI music, rusty mechanical treasures on eBay, Square shop, and public record links. Carbondale, PA." />
   <meta name="keywords" content="BuccaneerSalvage, Rustjack, dark AI music, eBay salvage, vintage industrial, Carbondale PA" />
   <meta name="author" content="Rustjack · BuccaneerSalvage" />
-  <meta name="robots" content="index, follow" />
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
   <meta name="theme-color" content="#050403" />
   <link rel="canonical" href="https://buccaneersalvage.github.io/" />
+  <link rel="sitemap" type="application/xml" title="Sitemap" href="https://buccaneersalvage.github.io/sitemap.xml" />
+  <link rel="sitemap" type="application/xml" title="Sitemap index" href="https://buccaneersalvage.github.io/sitemap-index.xml" />
+  <link rel="alternate" type="application/rss+xml" title="Ukiri WARNING chapters" href="https://buccaneersalvage.github.io/ukiri/sitemap.xml" />
 
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="BuccaneerSalvage" />
@@ -43,23 +46,32 @@
         "@type": "WebSite",
         "@id": "https://buccaneersalvage.github.io/#website",
         "name": "BuccaneerSalvage",
+        "alternateName": ["Rustjack", "Cap'n Jules the Rustjack"],
         "url": "https://buccaneersalvage.github.io/",
         "description": "Official BuccaneerSalvage hub by Rustjack: dark AI music, rusty mechanical treasures, Square shop, and public warning record.",
-        "publisher": {
-          "@type": "Person",
-          "@id": "https://buccaneersalvage.github.io/#rustjack",
-          "name": "Cap'n Jules the Rustjack",
-          "alternateName": "Julian Deuerlein",
-          "url": "https://buccaneersalvage.github.io/",
-          "sameAs": [
-            "https://www.youtube.com/@BuccaneerSalvage",
-            "https://x.com/jollyroger1480",
-            "https://www.ebay.com/str/buccaneersalvage",
-            "https://buccaneersalvage.square.site/",
-            "https://cash.app/$jollyroger1480"
-          ]
-        },
         "inLanguage": "en-US",
+        "publisher": {"@id": "https://buccaneersalvage.github.io/#organization"},
+        "author": {"@id": "https://buccaneersalvage.github.io/#rustjack"},
+        "sameAs": [
+          "https://www.youtube.com/@BuccaneerSalvage",
+          "https://x.com/jollyroger1480",
+          "https://www.ebay.com/str/buccaneersalvage",
+          "https://buccaneersalvage.square.site/",
+          "https://cash.app/$jollyroger1480",
+          "https://buccaneersalvage.github.io/ukiri/"
+        ]
+      },
+      {
+        "@type": "Organization",
+        "@id": "https://buccaneersalvage.github.io/#organization",
+        "name": "BuccaneerSalvage",
+        "url": "https://buccaneersalvage.github.io/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://buccaneersalvage.github.io/assets/crest-rustjack-web.jpg"
+        },
+        "image": "https://buccaneersalvage.github.io/assets/og-share.jpg",
+        "founder": {"@id": "https://buccaneersalvage.github.io/#rustjack"},
         "sameAs": [
           "https://www.youtube.com/@BuccaneerSalvage",
           "https://x.com/jollyroger1480",
@@ -69,8 +81,44 @@
         ]
       },
       {
+        "@type": "Person",
+        "@id": "https://buccaneersalvage.github.io/#rustjack",
+        "name": "Cap'n Jules the Rustjack",
+        "alternateName": ["Julian Deuerlein", "Rustjack", "jollyroger1480"],
+        "url": "https://buccaneersalvage.github.io/",
+        "image": "https://buccaneersalvage.github.io/assets/crest-rustjack-web.jpg",
+        "jobTitle": "Creator · salvager · dark AI music",
+        "homeLocation": {
+          "@type": "Place",
+          "name": "Carbondale, Pennsylvania"
+        },
+        "sameAs": [
+          "https://www.youtube.com/@BuccaneerSalvage",
+          "https://x.com/jollyroger1480",
+          "https://www.ebay.com/str/buccaneersalvage",
+          "https://buccaneersalvage.square.site/",
+          "https://cash.app/$jollyroger1480"
+        ]
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://buccaneersalvage.github.io/#webpage",
+        "url": "https://buccaneersalvage.github.io/",
+        "name": "BuccaneerSalvage — Rustjack · Music & Salvage",
+        "description": "Official BuccaneerSalvage hub by Rustjack: dark AI music, rusty mechanical treasures on eBay, Square shop, and public record links. Carbondale, PA.",
+        "isPartOf": {"@id": "https://buccaneersalvage.github.io/#website"},
+        "about": {"@id": "https://buccaneersalvage.github.io/#organization"},
+        "primaryImageOfPage": {
+          "@type": "ImageObject",
+          "url": "https://buccaneersalvage.github.io/assets/og-share.jpg"
+        },
+        "inLanguage": "en-US"
+      },
+      {
         "@type": "ItemList",
+        "@id": "https://buccaneersalvage.github.io/#destinations",
         "name": "BuccaneerSalvage destinations",
+        "numberOfItems": 10,
         "itemListElement": [
           {"@type": "ListItem", "position": 1, "name": "YouTube @BuccaneerSalvage", "url": "https://www.youtube.com/@BuccaneerSalvage"},
           {"@type": "ListItem", "position": 2, "name": "X @jollyroger1480", "url": "https://x.com/jollyroger1480"},

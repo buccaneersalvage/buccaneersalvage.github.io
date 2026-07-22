@@ -1,4 +1,8 @@
+# BuccaneerSalvage hub — crawl everything; socials discovered via on-page links + sameAs
 User-agent: *
 Allow: /
 
+# Prefer full hub sitemap (includes every Ukiri chapter)
 Sitemap: https://buccaneersalvage.github.io/sitemap.xml
+Sitemap: https://buccaneersalvage.github.io/ukiri/sitemap.xml
+Sitemap: https://buccaneersalvage.github.io/sitemap-index.xml
