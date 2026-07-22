@@ -985,6 +985,17 @@ ul { list-style: none; }
 }
 .nav-drawer a:last-child { border-bottom: 0; color: var(--gold-bright); }
 
+/* Public WARNING port — crimson cue in desktop nav */
+.nav-links a.nav-warn {
+  color: #fca5a5;
+}
+.nav-links a.nav-warn:hover {
+  color: #fecaca;
+}
+.nav-drawer a[href="/ukiri/"] {
+  color: #fca5a5;
+}
+
 /* Reduced motion ---------------------------------------------------------- */
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
