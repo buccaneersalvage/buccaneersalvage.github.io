@@ -6,7 +6,7 @@
     <meta name="description" content="Cap'n Jules - Dark AI Music & Rusty Salvage. Explore curated music videos, cinematic works, and artistic visual experiences.">
     <meta name="keywords" content="music videos, dark country, AI music, rusty salvage, youtube videos, music production, Cap'n Jules">
     <meta name="author" content="Cap'n Jules the Rustjack">
-    <meta name="theme-color" content="#1a1a1a">
+    <meta name="theme-color" content="#0a0e27">
     <meta property="og:title" content="Video Gallery - Cap'n Jules">
     <meta property="og:description" content="Curated collection of music videos and visual art from Cap'n Jules the Rustjack">
     <meta property="og:type" content="website">
@@ -49,23 +49,19 @@
         }
 
         :root {
-            --primary: #1a1a1a;
-            --secondary: #2d2d2d;
-            --accent: #ff6b35;
-            --text: #e0e0e0;
+            --primary: #0a0e27;
+            --primary-light: #1a1f3a;
+            --accent-1: #ff006e;
+            --accent-2: #00f5ff;
+            --accent-3: #ffb700;
+            --accent-4: #8338ec;
+            --neon-pink: #ff006e;
+            --neon-cyan: #00f5ff;
+            --neon-purple: #8338ec;
+            --neon-orange: #fb5607;
+            --text: #f0f0f0;
             --text-light: #b0b0b0;
-            --border: #3a3a3a;
-        }
-
-        @media (prefers-color-scheme: dark) {
-            :root {
-                --primary: #0a0a0a;
-                --secondary: #1a1a1a;
-                --accent: #ff6b35;
-                --text: #e0e0e0;
-                --text-light: #999;
-                --border: #2a2a2a;
-            }
+            --border: #2a2f4a;
         }
 
         html {
@@ -74,49 +70,99 @@
 
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+            background: linear-gradient(135deg, var(--primary) 0%, #1a1f4a 25%, #2a0845 50%, var(--primary) 75%, #001a3a 100%);
+            background-attachment: fixed;
             color: var(--text);
             line-height: 1.6;
             min-height: 100vh;
+            overflow-x: hidden;
+        }
+
+        /* Animated background */
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background:
+                radial-gradient(ellipse at 20% 50%, rgba(255, 0, 110, 0.1) 0%, transparent 50%),
+                radial-gradient(ellipse at 80% 80%, rgba(0, 245, 255, 0.05) 0%, transparent 50%),
+                radial-gradient(ellipse at 50% 0%, rgba(131, 56, 236, 0.08) 0%, transparent 50%);
+            animation: bgShift 15s ease-in-out infinite;
+            pointer-events: none;
+            z-index: 0;
+        }
+
+        @keyframes bgShift {
+            0%, 100% { opacity: 0.5; }
+            50% { opacity: 0.8; }
         }
 
         /* Header */
         header {
-            background: rgba(26, 26, 26, 0.95);
-            backdrop-filter: blur(10px);
-            border-bottom: 2px solid var(--accent);
+            position: relative;
+            background: rgba(10, 14, 39, 0.8);
+            backdrop-filter: blur(20px);
+            border-bottom: 2px solid;
+            border-image: linear-gradient(90deg, var(--neon-pink), var(--neon-cyan), var(--neon-purple)) 1;
             padding: 3rem 2rem;
             text-align: center;
-            position: sticky;
+            z-index: 10;
+            overflow: hidden;
+        }
+
+        header::before {
+            content: '';
+            position: absolute;
             top: 0;
-            z-index: 100;
+            left: 0;
+            right: 0;
+            height: 1px;
+            background: linear-gradient(90deg, transparent, var(--neon-pink), transparent);
+            animation: neonGlow 3s ease-in-out infinite;
+        }
+
+        @keyframes neonGlow {
+            0%, 100% { opacity: 0.3; }
+            50% { opacity: 1; }
         }
 
         h1 {
-            font-size: 3.5rem;
+            font-size: 4rem;
             font-weight: 900;
-            background: linear-gradient(135deg, var(--accent) 0%, #ff9a56 100%);
+            margin-bottom: 0.5rem;
+            letter-spacing: -1px;
+            text-transform: uppercase;
+            background: linear-gradient(135deg, var(--neon-pink) 0%, var(--neon-cyan) 25%, var(--neon-orange) 50%, var(--neon-purple) 75%, var(--neon-pink) 100%);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-clip: text;
-            margin-bottom: 0.5rem;
-            letter-spacing: -2px;
-            text-transform: uppercase;
+            animation: gradientShift 8s ease infinite;
+            text-shadow: 0 0 30px rgba(255, 0, 110, 0.3);
+        }
+
+        @keyframes gradientShift {
+            0% { filter: hue-rotate(0deg); }
+            100% { filter: hue-rotate(360deg); }
         }
 
         .tagline {
-            font-size: 1.2rem;
-            color: var(--text-light);
+            font-size: 1.3rem;
+            color: var(--neon-cyan);
             font-weight: 300;
-            letter-spacing: 2px;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            text-shadow: 0 0 20px rgba(0, 245, 255, 0.5);
         }
 
         /* Navigation */
         nav {
             display: flex;
             justify-content: center;
-            gap: 2rem;
-            margin-top: 2rem;
+            gap: 2.5rem;
+            margin-top: 2.5rem;
             flex-wrap: wrap;
         }
 
@@ -125,34 +171,72 @@
             text-decoration: none;
             font-size: 0.95rem;
             text-transform: uppercase;
-            letter-spacing: 1px;
+            letter-spacing: 1.5px;
             transition: all 0.3s ease;
-            padding: 0.5rem 1rem;
+            padding: 0.75rem 1.5rem;
             border: 1px solid transparent;
+            position: relative;
+            background: linear-gradient(135deg, rgba(255, 0, 110, 0), rgba(0, 245, 255, 0));
+        }
+
+        nav a::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(90deg, var(--neon-pink), var(--neon-cyan));
+            border-radius: 4px;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+            z-index: -1;
         }
 
         nav a:hover {
-            color: var(--accent);
-            border-bottom: 2px solid var(--accent);
+            color: white;
+            border-color: var(--neon-cyan);
+            box-shadow: 0 0 20px rgba(0, 245, 255, 0.6), inset 0 0 20px rgba(255, 0, 110, 0.2);
+            text-shadow: 0 0 10px rgba(0, 245, 255, 0.8);
         }
 
         /* Main Container */
         main {
-            max-width: 1400px;
-            margin: 4rem auto;
-            padding: 0 2rem;
+            max-width: 1600px;
+            margin: 0 auto;
+            padding: 4rem 2rem;
+            position: relative;
+            z-index: 1;
         }
 
         /* Intro Section */
         .intro {
             text-align: center;
             margin-bottom: 5rem;
+            animation: fadeInDown 1s ease;
+        }
+
+        @keyframes fadeInDown {
+            from {
+                opacity: 0;
+                transform: translateY(-30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .intro h2 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            background: linear-gradient(135deg, var(--neon-cyan), var(--neon-pink));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
         }
 
         .intro p {
-            font-size: 1.1rem;
+            font-size: 1.15rem;
             color: var(--text-light);
-            max-width: 800px;
+            max-width: 900px;
             margin: 1rem auto;
             line-height: 1.8;
         }
@@ -160,8 +244,8 @@
         /* Gallery Grid */
         .gallery {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 2rem;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 2.5rem;
             margin: 3rem 0;
         }
 
@@ -169,23 +253,61 @@
             group: 1;
             position: relative;
             overflow: hidden;
-            border-radius: 12px;
-            background: var(--secondary);
+            border-radius: 16px;
+            background: rgba(26, 31, 58, 0.6);
+            backdrop-filter: blur(10px);
             border: 1px solid var(--border);
             transition: all 0.4s cubic-bezier(0.23, 1, 0.320, 1);
             cursor: pointer;
+            animation: cardFade 0.8s ease forwards;
+            opacity: 0;
+        }
+
+        @keyframes cardFade {
+            from {
+                opacity: 0;
+                transform: translateY(40px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .video-card:nth-child(1) { animation-delay: 0.1s; }
+        .video-card:nth-child(2) { animation-delay: 0.2s; }
+        .video-card:nth-child(3) { animation-delay: 0.3s; }
+        .video-card:nth-child(4) { animation-delay: 0.4s; }
+        .video-card:nth-child(5) { animation-delay: 0.5s; }
+        .video-card:nth-child(6) { animation-delay: 0.6s; }
+
+        .video-card::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(135deg, rgba(255, 0, 110, 0.1), rgba(0, 245, 255, 0.1), rgba(131, 56, 236, 0.1));
+            opacity: 0;
+            transition: opacity 0.4s ease;
+            z-index: -1;
         }
 
         .video-card:hover {
-            transform: translateY(-8px);
-            border-color: var(--accent);
-            box-shadow: 0 20px 40px rgba(255, 107, 53, 0.2);
+            transform: translateY(-12px) scale(1.02);
+            border-color: var(--neon-cyan);
+            box-shadow:
+                0 30px 60px rgba(255, 0, 110, 0.2),
+                0 0 40px rgba(0, 245, 255, 0.2),
+                inset 0 1px 0 rgba(255, 255, 255, 0.1);
+        }
+
+        .video-card:hover::before {
+            opacity: 1;
         }
 
         .video-thumbnail {
             width: 100%;
             aspect-ratio: 16 / 9;
-            background: linear-gradient(135deg, var(--secondary) 0%, #333 100%);
+            background: linear-gradient(135deg, rgba(131, 56, 236, 0.3), rgba(255, 0, 110, 0.2));
             display: flex;
             align-items: center;
             justify-content: center;
@@ -194,127 +316,190 @@
             position: relative;
         }
 
+        .video-thumbnail::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(135deg, transparent 0%, rgba(0, 245, 255, 0.3) 100%);
+            opacity: 0;
+            transition: opacity 0.4s ease;
+        }
+
+        .video-card:hover .video-thumbnail::before {
+            opacity: 1;
+        }
+
         .video-thumbnail img {
             width: 100%;
             height: 100%;
             object-fit: cover;
-            transition: transform 0.4s ease;
+            transition: transform 0.5s cubic-bezier(0.23, 1, 0.320, 1);
         }
 
         .video-card:hover .video-thumbnail img {
-            transform: scale(1.08);
+            transform: scale(1.12) rotate(1deg);
         }
 
         .play-button {
             position: absolute;
-            width: 70px;
-            height: 70px;
-            background: rgba(255, 107, 53, 0.9);
+            width: 80px;
+            height: 80px;
+            background: linear-gradient(135deg, var(--neon-pink), var(--neon-purple));
             border-radius: 50%;
             display: flex;
             align-items: center;
             justify-content: center;
-            font-size: 2rem;
-            transition: all 0.3s ease;
+            font-size: 2.5rem;
+            transition: all 0.4s cubic-bezier(0.23, 1, 0.320, 1);
             opacity: 0;
+            box-shadow: 0 0 40px rgba(255, 0, 110, 0.5);
         }
 
         .video-card:hover .play-button {
             opacity: 1;
+            transform: scale(1.2);
+            box-shadow: 0 0 60px rgba(255, 0, 110, 0.8), 0 0 30px rgba(131, 56, 236, 0.8);
         }
 
         /* Video Info */
         .video-info {
-            padding: 1.5rem;
+            padding: 2rem;
         }
 
         .video-title {
-            font-size: 1.3rem;
-            font-weight: 700;
-            margin-bottom: 0.5rem;
+            font-size: 1.4rem;
+            font-weight: 800;
+            margin-bottom: 0.75rem;
             color: var(--text);
-            transition: color 0.3s ease;
+            transition: all 0.3s ease;
+            background: linear-gradient(135deg, var(--text), var(--neon-cyan));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
         }
 
         .video-card:hover .video-title {
-            color: var(--accent);
+            text-shadow: 0 0 20px rgba(0, 245, 255, 0.5);
         }
 
         .video-description {
             font-size: 0.95rem;
             color: var(--text-light);
-            margin-bottom: 1rem;
-            line-height: 1.6;
+            margin-bottom: 1.25rem;
+            line-height: 1.7;
         }
 
         .video-meta {
             display: flex;
             justify-content: space-between;
             align-items: center;
-            font-size: 0.85rem;
+            font-size: 0.9rem;
             color: var(--text-light);
         }
 
         .video-stats {
             display: flex;
-            gap: 1rem;
+            gap: 1.5rem;
+        }
+
+        .video-stats span {
+            background: linear-gradient(135deg, rgba(255, 0, 110, 0.1), rgba(0, 245, 255, 0.1));
+            padding: 0.4rem 0.9rem;
+            border-radius: 20px;
+            border: 1px solid var(--border);
+            transition: all 0.3s ease;
+        }
+
+        .video-card:hover .video-stats span {
+            border-color: var(--neon-cyan);
+            box-shadow: 0 0 15px rgba(0, 245, 255, 0.3);
         }
 
         .watch-btn {
-            background: linear-gradient(135deg, var(--accent) 0%, #ff9a56 100%);
+            background: linear-gradient(135deg, var(--neon-pink) 0%, var(--neon-purple) 100%);
             color: white;
-            border: none;
-            padding: 0.75rem 1.5rem;
-            border-radius: 6px;
-            font-weight: 600;
+            border: 1px solid var(--neon-pink);
+            padding: 0.85rem 1.8rem;
+            border-radius: 8px;
+            font-weight: 700;
             cursor: pointer;
-            transition: all 0.3s ease;
+            transition: all 0.4s cubic-bezier(0.23, 1, 0.320, 1);
             text-transform: uppercase;
             font-size: 0.85rem;
-            letter-spacing: 1px;
+            letter-spacing: 1.2px;
+            text-decoration: none;
+            display: inline-block;
+            box-shadow: 0 0 30px rgba(255, 0, 110, 0.4);
         }
 
         .watch-btn:hover {
-            transform: scale(1.05);
-            box-shadow: 0 10px 25px rgba(255, 107, 53, 0.3);
+            transform: scale(1.1) translateY(-3px);
+            box-shadow: 0 0 50px rgba(255, 0, 110, 0.7), 0 15px 35px rgba(131, 56, 236, 0.4);
+            text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
         }
 
         /* Filter Section */
         .filters {
             display: flex;
             justify-content: center;
-            gap: 1rem;
-            margin: 2rem 0;
+            gap: 1.5rem;
+            margin: 3rem 0;
             flex-wrap: wrap;
         }
 
         .filter-btn {
-            background: var(--secondary);
+            background: rgba(26, 31, 58, 0.5);
             color: var(--text-light);
             border: 1px solid var(--border);
-            padding: 0.75rem 1.5rem;
-            border-radius: 25px;
+            padding: 0.9rem 2rem;
+            border-radius: 30px;
             cursor: pointer;
-            transition: all 0.3s ease;
+            transition: all 0.4s cubic-bezier(0.23, 1, 0.320, 1);
             text-transform: uppercase;
             font-size: 0.85rem;
-            letter-spacing: 1px;
+            letter-spacing: 1.2px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .filter-btn::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(90deg, var(--neon-pink), var(--neon-cyan), var(--neon-purple));
+            opacity: 0;
+            transition: opacity 0.4s ease;
+            z-index: -1;
         }
 
         .filter-btn:hover,
         .filter-btn.active {
-            background: var(--accent);
             color: white;
-            border-color: var(--accent);
+            border-color: var(--neon-cyan);
+            background: linear-gradient(135deg, rgba(255, 0, 110, 0.2), rgba(0, 245, 255, 0.2));
+            box-shadow: 0 0 30px rgba(0, 245, 255, 0.5), inset 0 0 20px rgba(131, 56, 236, 0.1);
+            text-shadow: 0 0 10px rgba(0, 245, 255, 0.8);
         }
 
         /* Footer */
         footer {
-            background: var(--primary);
-            border-top: 1px solid var(--border);
-            padding: 3rem 2rem;
+            background: rgba(10, 14, 39, 0.8);
+            border-top: 2px solid;
+            border-image: linear-gradient(90deg, var(--neon-purple), var(--neon-pink), var(--neon-cyan)) 1;
+            padding: 4rem 2rem;
             text-align: center;
-            margin-top: 5rem;
+            margin-top: 6rem;
+            position: relative;
+            z-index: 5;
+        }
+
+        footer h3 {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+            background: linear-gradient(135deg, var(--neon-cyan), var(--neon-pink));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
         }
 
         .footer-content {
@@ -326,22 +511,40 @@
             display: flex;
             justify-content: center;
             gap: 2rem;
-            margin: 1.5rem 0;
+            margin: 2rem 0;
+            flex-wrap: wrap;
         }
 
         .social-links a {
-            color: var(--accent);
+            color: var(--neon-cyan);
             text-decoration: none;
-            font-weight: 600;
+            font-weight: 700;
             transition: all 0.3s ease;
-            padding: 0.5rem 1rem;
-            border: 1px solid var(--accent);
-            border-radius: 6px;
+            padding: 0.75rem 1.5rem;
+            border: 1px solid var(--neon-cyan);
+            border-radius: 8px;
+            text-transform: uppercase;
+            font-size: 0.85rem;
+            letter-spacing: 1px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .social-links a::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(90deg, var(--neon-pink), var(--neon-cyan));
+            opacity: 0;
+            transition: opacity 0.3s ease;
+            z-index: -1;
         }
 
         .social-links a:hover {
-            background: var(--accent);
             color: white;
+            border-color: var(--neon-pink);
+            box-shadow: 0 0 30px rgba(0, 245, 255, 0.6);
+            text-shadow: 0 0 10px rgba(0, 245, 255, 0.8);
         }
 
         .copyright {
@@ -358,10 +561,14 @@
 
             .gallery {
                 grid-template-columns: 1fr;
-                gap: 1.5rem;
+                gap: 2rem;
             }
 
             nav {
+                gap: 1rem;
+            }
+
+            .filters {
                 gap: 1rem;
             }
         }
@@ -373,41 +580,18 @@
                 transition: none !important;
             }
         }
-
-        /* Loading Animation */
-        @keyframes fadeIn {
-            from {
-                opacity: 0;
-                transform: translateY(20px);
-            }
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
-
-        .video-card {
-            animation: fadeIn 0.6s ease forwards;
-        }
-
-        .video-card:nth-child(1) { animation-delay: 0.1s; }
-        .video-card:nth-child(2) { animation-delay: 0.2s; }
-        .video-card:nth-child(3) { animation-delay: 0.3s; }
-        .video-card:nth-child(4) { animation-delay: 0.4s; }
-        .video-card:nth-child(5) { animation-delay: 0.5s; }
-        .video-card:nth-child(6) { animation-delay: 0.6s; }
     </style>
 </head>
 <body>
     <!-- Header -->
     <header>
-        <h1>🎬 Video Gallery</h1>
-        <p class="tagline">Dark AI Music · Rusty Salvage · Visual Art</p>
+        <h1>🎬 CINEMATIC VAULT</h1>
+        <p class="tagline">Cap'n Jules · Dark AI Music · Rusty Salvage</p>
         <nav>
             <a href="/">Home</a>
             <a href="/ukiri/">Ukiri</a>
-            <a href="#gallery">Videos</a>
-            <a href="#contact">Contact</a>
+            <a href="#gallery">Gallery</a>
+            <a href="https://www.youtube.com/@buccaneersalvage" target="_blank">YouTube</a>
         </nav>
     </header>
 
@@ -416,14 +600,13 @@
         <!-- Intro -->
         <section class="intro">
             <h2>Curated Video Collection</h2>
-            <p>Explore a collection of music videos, visual art pieces, and cinematic experiences. Each piece is a unique blend of dark AI music production and artistic direction.</p>
+            <p>Dark AI music videos, cinematic visual art, and Norse metal masterpieces. Each piece crafted with industrial aesthetics and cosmic vision by Cap'n Jules the Rustjack.</p>
         </section>
 
         <!-- Filters -->
         <div class="filters">
             <button class="filter-btn active" data-filter="all">All Videos</button>
             <button class="filter-btn" data-filter="music">Music Videos</button>
-            <button class="filter-btn" data-filter="visual">Visual Art</button>
             <button class="filter-btn" data-filter="featured">Featured</button>
         </div>
 
@@ -437,7 +620,7 @@
                 </div>
                 <div class="video-info">
                     <h3 class="video-title">Monster in the Darkness</h3>
-                    <p class="video-description">Pearl Audrey Yanick (PsychoSinger) — Dark Alt-Rock AI Music Video. A hauntingly beautiful exploration of darkness and inner demons.</p>
+                    <p class="video-description">Pearl Audrey Yanick (PsychoSinger) — Dark Alt-Rock AI Music Video</p>
                     <div class="video-meta">
                         <div class="video-stats">
                             <span>👁️ 2</span>
@@ -456,7 +639,7 @@
                 </div>
                 <div class="video-info">
                     <h3 class="video-title">Old Gods, Three Asks</h3>
-                    <p class="video-description">Grey Sorcerer War Chant — Cap'n Jules the Rustjack Nordic Ritual MV. A Norse metal epic steeped in ancient power.</p>
+                    <p class="video-description">Grey Sorcerer War Chant — Nordic Ritual MV by Cap'n Jules</p>
                     <div class="video-meta">
                         <div class="video-stats">
                             <span>👁️ 11</span>
@@ -468,14 +651,14 @@
             </article>
 
             <!-- Video Card 3 -->
-            <article class="video-card" data-category="music">
+            <article class="video-card" data-category="music featured">
                 <div class="video-thumbnail">
                     <img src="https://img.youtube.com/vi/CHZMBp44VL4/maxresdefault.jpg" alt="The Jackal's Reckoning">
                     <div class="play-button">▶</div>
                 </div>
                 <div class="video-info">
-                    <h3 class="video-title">The Jackal's Reckoning (Remastered)</h3>
-                    <p class="video-description">Dark Norse Metal Official Music Video. A powerful tale of vengeance and dark justice with thunderous production.</p>
+                    <h3 class="video-title">The Jackal's Reckoning</h3>
+                    <p class="video-description">Dark Norse Metal Official Music Video (Remastered)</p>
                     <div class="video-meta">
                         <div class="video-stats">
                             <span>👁️ 63</span>
@@ -494,7 +677,7 @@
                 </div>
                 <div class="video-info">
                     <h3 class="video-title">The Lantern and the Scales</h3>
-                    <p class="video-description">Dark Tarot Metal Official Music Video. A mystical journey through divine judgment and cosmic reckoning.</p>
+                    <p class="video-description">Dark Tarot Metal Official Music Video</p>
                     <div class="video-meta">
                         <div class="video-stats">
                             <span>👁️ 14</span>
@@ -513,7 +696,7 @@
                 </div>
                 <div class="video-info">
                     <h3 class="video-title">Binding Ward</h3>
-                    <p class="video-description">Salt-Thunder Reckoning — Dark Viking Metal AI Music Video. Intense battle cry with Norse mythology and industrial aesthetics.</p>
+                    <p class="video-description">Salt-Thunder Reckoning — Dark Viking Metal AI Music Video</p>
                     <div class="video-meta">
                         <div class="video-stats">
                             <span>👁️ 7</span>
@@ -532,7 +715,7 @@
                 </div>
                 <div class="video-info">
                     <h3 class="video-title">Predator's Reckoning</h3>
-                    <p class="video-description">No Grave Deep Enough — Dark Industrial Metal AI Music Video. A relentless anthem of primal fury and industrial domination.</p>
+                    <p class="video-description">No Grave Deep Enough — Dark Industrial Metal AI Video</p>
                     <div class="video-meta">
                         <div class="video-stats">
                             <span>👁️ 9</span>
@@ -559,7 +742,7 @@
 
             <div class="copyright">
                 <p>&copy; 2026 Cap'n Jules the Rustjack. All rights reserved.</p>
-                <p>Dark AI Music • Industrial Visuals • Rusty Salvage Aesthetics</p>
+                <p>Fair winds and following seas ⚓</p>
             </div>
         </div>
     </footer>
@@ -576,13 +759,13 @@
                 document.querySelectorAll('.video-card').forEach(card => {
                     if (filter === 'all' || card.dataset.category.includes(filter)) {
                         card.style.display = '';
+                        card.style.animation = 'cardFade 0.6s ease forwards';
                     } else {
                         card.style.display = 'none';
                     }
                 });
             });
         });
-
 
         // Lazy load images when they appear
         if ('IntersectionObserver' in window) {
@@ -599,6 +782,16 @@
                 observer.observe(card);
             });
         }
+
+        // Smooth scroll spy for active nav
+        window.addEventListener('scroll', () => {
+            const header = document.querySelector('header');
+            if (window.scrollY > 50) {
+                header.style.boxShadow = '0 10px 40px rgba(0, 245, 255, 0.1)';
+            } else {
+                header.style.boxShadow = 'none';
+            }
+        });
     </script>
 </body>
 </html>
