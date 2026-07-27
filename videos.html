@@ -78,7 +78,7 @@
             overflow-x: hidden;
         }
 
-        /* Animated background */
+        /* Animated background with ocean waves */
         body::before {
             content: '';
             position: fixed;
@@ -89,10 +89,29 @@
             background:
                 radial-gradient(ellipse at 20% 50%, rgba(255, 0, 110, 0.1) 0%, transparent 50%),
                 radial-gradient(ellipse at 80% 80%, rgba(0, 245, 255, 0.05) 0%, transparent 50%),
-                radial-gradient(ellipse at 50% 0%, rgba(131, 56, 236, 0.08) 0%, transparent 50%);
+                radial-gradient(ellipse at 50% 0%, rgba(131, 56, 236, 0.08) 0%, transparent 50%),
+                repeating-linear-gradient(0deg, rgba(0, 100, 150, 0.03) 0px, transparent 2px, transparent 4px, rgba(0, 100, 150, 0.03) 6px);
             animation: bgShift 15s ease-in-out infinite;
             pointer-events: none;
             z-index: 0;
+        }
+
+        /* Decorative skull watermark */
+        body::after {
+            content: '☠ ⚓ ☠';
+            position: fixed;
+            bottom: 2rem;
+            right: 2rem;
+            font-size: 3rem;
+            opacity: 0.03;
+            pointer-events: none;
+            z-index: 0;
+            animation: float 8s ease-in-out infinite;
+        }
+
+        @keyframes float {
+            0%, 100% { transform: translateY(0px); }
+            50% { transform: translateY(-20px); }
         }
 
         @keyframes bgShift {
@@ -122,6 +141,18 @@
             height: 1px;
             background: linear-gradient(90deg, transparent, var(--neon-pink), transparent);
             animation: neonGlow 3s ease-in-out infinite;
+        }
+
+        header::after {
+            content: '☠ THE DARK FLEET ☠';
+            position: absolute;
+            top: -2rem;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 0.7rem;
+            letter-spacing: 0.3rem;
+            opacity: 0.3;
+            color: var(--neon-cyan);
         }
 
         @keyframes neonGlow {
@@ -155,6 +186,14 @@
             letter-spacing: 3px;
             text-transform: uppercase;
             text-shadow: 0 0 20px rgba(0, 245, 255, 0.5);
+        }
+
+        .tagline::before {
+            content: '⚓ ';
+        }
+
+        .tagline::after {
+            content: ' ⚓';
         }
 
         /* Navigation */
@@ -239,6 +278,16 @@
             max-width: 900px;
             margin: 1rem auto;
             line-height: 1.8;
+        }
+
+        /* Nautical divider */
+        .intro::after {
+            content: '⚓ ☠ ⚓';
+            display: block;
+            margin-top: 2rem;
+            font-size: 1.5rem;
+            opacity: 0.5;
+            letter-spacing: 1rem;
         }
 
         /* Gallery Grid */
@@ -513,6 +562,16 @@
             background-clip: text;
         }
 
+        footer h3::before {
+            content: '⚓ ';
+            margin-right: 0.5rem;
+        }
+
+        footer h3::after {
+            content: ' ⚓';
+            margin-left: 0.5rem;
+        }
+
         .footer-content {
             max-width: 1200px;
             margin: 0 auto;
@@ -609,8 +668,8 @@
     <main>
         <!-- Intro -->
         <section class="intro">
-            <h2>Curated Video Collection</h2>
-            <p>Dark AI music videos, cinematic visual art, and Norse metal masterpieces. Each piece crafted with industrial aesthetics and cosmic vision by Cap'n Jules the Rustjack.</p>
+            <h2>⚓ The Plundered Vault ⚓</h2>
+            <p>Dark AI music videos, cinematic visual art, and Norse metal masterpieces. Treasured broadcasts from the deep seas — each piece forged with industrial fire and dark cosmic vision by Cap'n Jules the Rustjack. Haul these bounties aboard.</p>
         </section>
 
         <!-- Filters -->
@@ -757,8 +816,8 @@
             </div>
 
             <div class="copyright">
-                <p>&copy; 2026 Cap'n Jules the Rustjack. All rights reserved.</p>
-                <p>Fair winds and following seas ⚓</p>
+                <p>&copy; 2026 Cap'n Jules the Rustjack. All rights reserved. ☠</p>
+                <p>Fair winds and following seas ⚓ No quarter, no mercy, only cinema. 🏴‍☠️</p>
             </div>
         </div>
     </footer>
