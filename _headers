@@ -1,0 +1,47 @@
+# Security Headers for BuccaneerSalvage
+
+# Apply to all paths
+/*
+  # Content Security Policy - prevents XSS attacks
+  Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; font-src 'self'; connect-src 'self'
+
+  # Prevent MIME type sniffing
+  X-Content-Type-Options: nosniff
+
+  # Prevent clickjacking
+  X-Frame-Options: SAMEORIGIN
+
+  # Enable XSS protection in older browsers
+  X-XSS-Protection: 1; mode=block
+
+  # Referrer policy for privacy
+  Referrer-Policy: strict-origin-when-cross-origin
+
+  # Permissions policy
+  Permissions-Policy: geolocation=(), microphone=(), camera=()
+
+  # Additional security headers
+  Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+
+  # Cache control for assets
+  Cache-Control: public, max-age=3600
+
+# Apply to HTML pages specifically
+/*.html
+  Cache-Control: public, max-age=300
+  Content-Type: text/html; charset=utf-8
+
+# Apply to CSS
+/*.css
+  Cache-Control: public, max-age=31536000
+  Content-Type: text/css; charset=utf-8
+
+# Apply to JavaScript
+/*.js
+  Cache-Control: public, max-age=31536000
+  Content-Type: application/javascript; charset=utf-8
+
+# Apply to images
+/assets/*
+  Cache-Control: public, max-age=31536000
+  Content-Type: image/*
