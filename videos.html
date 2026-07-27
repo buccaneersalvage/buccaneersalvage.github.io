@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Cap'n Jules - Dark AI Music & Rusty Salvage. Explore curated music videos, cinematic works, and artistic visual experiences.">
+    <meta name="keywords" content="music videos, dark country, AI music, rusty salvage, youtube videos, music production, Cap'n Jules">
+    <meta name="author" content="Cap'n Jules the Rustjack">
+    <meta name="theme-color" content="#1a1a1a">
+    <meta property="og:title" content="Video Gallery - Cap'n Jules">
+    <meta property="og:description" content="Curated collection of music videos and visual art from Cap'n Jules the Rustjack">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://buccaneersalvage.github.io/videos.html">
+    <meta property="og:image" content="https://buccaneersalvage.github.io/assets/og-image.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Video Gallery - Cap'n Jules">
+    <meta name="twitter:description" content="Music videos, visual art, and cinematic experiences">
+    <meta name="twitter:image" content="https://buccaneersalvage.github.io/assets/og-image.jpg">
+    <link rel="canonical" href="https://buccaneersalvage.github.io/videos.html">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='75' font-size='75'>🎬</text></svg>">
+    <title>Video Gallery - Cap'n Jules | Dark AI Music & Visual Art</title>
+
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "CollectionPage",
+        "name": "Video Gallery - Cap'n Jules",
+        "description": "Curated music video collection",
+        "url": "https://buccaneersalvage.github.io/videos.html",
+        "creator": {
+            "@type": "Person",
+            "name": "Cap'n Jules the Rustjack",
+            "url": "https://buccaneersalvage.github.io"
+        },
+        "mainEntity": {
+            "@type": "VideoObject",
+            "name": "Cap'n Jules Music Videos",
+            "description": "Dark AI music and rusty salvage visual art"
+        }
+    }
+    </script>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --primary: #1a1a1a;
+            --secondary: #2d2d2d;
+            --accent: #ff6b35;
+            --text: #e0e0e0;
+            --text-light: #b0b0b0;
+            --border: #3a3a3a;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --primary: #0a0a0a;
+                --secondary: #1a1a1a;
+                --accent: #ff6b35;
+                --text: #e0e0e0;
+                --text-light: #999;
+                --border: #2a2a2a;
+            }
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+            color: var(--text);
+            line-height: 1.6;
+            min-height: 100vh;
+        }
+
+        /* Header */
+        header {
+            background: rgba(26, 26, 26, 0.95);
+            backdrop-filter: blur(10px);
+            border-bottom: 2px solid var(--accent);
+            padding: 3rem 2rem;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        h1 {
+            font-size: 3.5rem;
+            font-weight: 900;
+            background: linear-gradient(135deg, var(--accent) 0%, #ff9a56 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 0.5rem;
+            letter-spacing: -2px;
+            text-transform: uppercase;
+        }
+
+        .tagline {
+            font-size: 1.2rem;
+            color: var(--text-light);
+            font-weight: 300;
+            letter-spacing: 2px;
+        }
+
+        /* Navigation */
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            margin-top: 2rem;
+            flex-wrap: wrap;
+        }
+
+        nav a {
+            color: var(--text-light);
+            text-decoration: none;
+            font-size: 0.95rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            transition: all 0.3s ease;
+            padding: 0.5rem 1rem;
+            border: 1px solid transparent;
+        }
+
+        nav a:hover {
+            color: var(--accent);
+            border-bottom: 2px solid var(--accent);
+        }
+
+        /* Main Container */
+        main {
+            max-width: 1400px;
+            margin: 4rem auto;
+            padding: 0 2rem;
+        }
+
+        /* Intro Section */
+        .intro {
+            text-align: center;
+            margin-bottom: 5rem;
+        }
+
+        .intro p {
+            font-size: 1.1rem;
+            color: var(--text-light);
+            max-width: 800px;
+            margin: 1rem auto;
+            line-height: 1.8;
+        }
+
+        /* Gallery Grid */
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin: 3rem 0;
+        }
+
+        .video-card {
+            group: 1;
+            position: relative;
+            overflow: hidden;
+            border-radius: 12px;
+            background: var(--secondary);
+            border: 1px solid var(--border);
+            transition: all 0.4s cubic-bezier(0.23, 1, 0.320, 1);
+            cursor: pointer;
+        }
+
+        .video-card:hover {
+            transform: translateY(-8px);
+            border-color: var(--accent);
+            box-shadow: 0 20px 40px rgba(255, 107, 53, 0.2);
+        }
+
+        .video-thumbnail {
+            width: 100%;
+            aspect-ratio: 16 / 9;
+            background: linear-gradient(135deg, var(--secondary) 0%, #333 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 3rem;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .video-thumbnail img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.4s ease;
+        }
+
+        .video-card:hover .video-thumbnail img {
+            transform: scale(1.08);
+        }
+
+        .play-button {
+            position: absolute;
+            width: 70px;
+            height: 70px;
+            background: rgba(255, 107, 53, 0.9);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2rem;
+            transition: all 0.3s ease;
+            opacity: 0;
+        }
+
+        .video-card:hover .play-button {
+            opacity: 1;
+        }
+
+        /* Video Info */
+        .video-info {
+            padding: 1.5rem;
+        }
+
+        .video-title {
+            font-size: 1.3rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+            color: var(--text);
+            transition: color 0.3s ease;
+        }
+
+        .video-card:hover .video-title {
+            color: var(--accent);
+        }
+
+        .video-description {
+            font-size: 0.95rem;
+            color: var(--text-light);
+            margin-bottom: 1rem;
+            line-height: 1.6;
+        }
+
+        .video-meta {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 0.85rem;
+            color: var(--text-light);
+        }
+
+        .video-stats {
+            display: flex;
+            gap: 1rem;
+        }
+
+        .watch-btn {
+            background: linear-gradient(135deg, var(--accent) 0%, #ff9a56 100%);
+            color: white;
+            border: none;
+            padding: 0.75rem 1.5rem;
+            border-radius: 6px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-transform: uppercase;
+            font-size: 0.85rem;
+            letter-spacing: 1px;
+        }
+
+        .watch-btn:hover {
+            transform: scale(1.05);
+            box-shadow: 0 10px 25px rgba(255, 107, 53, 0.3);
+        }
+
+        /* Filter Section */
+        .filters {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            margin: 2rem 0;
+            flex-wrap: wrap;
+        }
+
+        .filter-btn {
+            background: var(--secondary);
+            color: var(--text-light);
+            border: 1px solid var(--border);
+            padding: 0.75rem 1.5rem;
+            border-radius: 25px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-transform: uppercase;
+            font-size: 0.85rem;
+            letter-spacing: 1px;
+        }
+
+        .filter-btn:hover,
+        .filter-btn.active {
+            background: var(--accent);
+            color: white;
+            border-color: var(--accent);
+        }
+
+        /* Footer */
+        footer {
+            background: var(--primary);
+            border-top: 1px solid var(--border);
+            padding: 3rem 2rem;
+            text-align: center;
+            margin-top: 5rem;
+        }
+
+        .footer-content {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .social-links {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            margin: 1.5rem 0;
+        }
+
+        .social-links a {
+            color: var(--accent);
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            padding: 0.5rem 1rem;
+            border: 1px solid var(--accent);
+            border-radius: 6px;
+        }
+
+        .social-links a:hover {
+            background: var(--accent);
+            color: white;
+        }
+
+        .copyright {
+            color: var(--text-light);
+            font-size: 0.9rem;
+            margin-top: 2rem;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2.5rem;
+            }
+
+            .gallery {
+                grid-template-columns: 1fr;
+                gap: 1.5rem;
+            }
+
+            nav {
+                gap: 1rem;
+            }
+        }
+
+        /* Accessibility */
+        @media (prefers-reduced-motion: reduce) {
+            * {
+                animation: none !important;
+                transition: none !important;
+            }
+        }
+
+        /* Loading Animation */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .video-card {
+            animation: fadeIn 0.6s ease forwards;
+        }
+
+        .video-card:nth-child(1) { animation-delay: 0.1s; }
+        .video-card:nth-child(2) { animation-delay: 0.2s; }
+        .video-card:nth-child(3) { animation-delay: 0.3s; }
+        .video-card:nth-child(4) { animation-delay: 0.4s; }
+        .video-card:nth-child(5) { animation-delay: 0.5s; }
+        .video-card:nth-child(6) { animation-delay: 0.6s; }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>🎬 Video Gallery</h1>
+        <p class="tagline">Dark AI Music · Rusty Salvage · Visual Art</p>
+        <nav>
+            <a href="/">Home</a>
+            <a href="/ukiri/">Ukiri</a>
+            <a href="#gallery">Videos</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Intro -->
+        <section class="intro">
+            <h2>Curated Video Collection</h2>
+            <p>Explore a collection of music videos, visual art pieces, and cinematic experiences. Each piece is a unique blend of dark AI music production and artistic direction.</p>
+        </section>
+
+        <!-- Filters -->
+        <div class="filters">
+            <button class="filter-btn active" data-filter="all">All Videos</button>
+            <button class="filter-btn" data-filter="music">Music Videos</button>
+            <button class="filter-btn" data-filter="visual">Visual Art</button>
+            <button class="filter-btn" data-filter="featured">Featured</button>
+        </div>
+
+        <!-- Gallery -->
+        <section class="gallery" id="gallery">
+            <!-- Video Card 1 -->
+            <article class="video-card" data-category="music featured">
+                <div class="video-thumbnail">
+                    🎵
+                    <div class="play-button">▶</div>
+                </div>
+                <div class="video-info">
+                    <h3 class="video-title">Dark Country Masterpiece</h3>
+                    <p class="video-description">An exploration of dark country themes with AI-generated accompaniment.</p>
+                    <div class="video-meta">
+                        <div class="video-stats">
+                            <span>👁️ 15K</span>
+                            <span>❤️ 842</span>
+                        </div>
+                        <button class="watch-btn">Watch</button>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Video Card 2 -->
+            <article class="video-card" data-category="visual featured">
+                <div class="video-thumbnail">
+                    🎨
+                    <div class="play-button">▶</div>
+                </div>
+                <div class="video-info">
+                    <h3 class="video-title">Rusty Salvage Dreams</h3>
+                    <p class="video-description">Visual storytelling through industrial and salvage imagery with cinematic flair.</p>
+                    <div class="video-meta">
+                        <div class="video-stats">
+                            <span>👁️ 8.2K</span>
+                            <span>❤️ 564</span>
+                        </div>
+                        <button class="watch-btn">Watch</button>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Video Card 3 -->
+            <article class="video-card" data-category="music">
+                <div class="video-thumbnail">
+                    🎼
+                    <div class="play-button">▶</div>
+                </div>
+                <div class="video-info">
+                    <h3 class="video-title">Neon Nights</h3>
+                    <p class="video-description">Electronic composition meeting rustic imagery in a hypnotic visual journey.</p>
+                    <div class="video-meta">
+                        <div class="video-stats">
+                            <span>👁️ 12K</span>
+                            <span>❤️ 723</span>
+                        </div>
+                        <button class="watch-btn">Watch</button>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Video Card 4 -->
+            <article class="video-card" data-category="visual">
+                <div class="video-thumbnail">
+                    🌌
+                    <div class="play-button">▶</div>
+                </div>
+                <div class="video-info">
+                    <h3 class="video-title">Cosmic Salvage</h3>
+                    <p class="video-description">A surreal blend of space imagery and industrial aesthetics, exploring themes of decay and rebirth.</p>
+                    <div class="video-meta">
+                        <div class="video-stats">
+                            <span>👁️ 9.5K</span>
+                            <span>❤️ 687</span>
+                        </div>
+                        <button class="watch-btn">Watch</button>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Video Card 5 -->
+            <article class="video-card" data-category="music featured">
+                <div class="video-thumbnail">
+                    🎸
+                    <div class="play-button">▶</div>
+                </div>
+                <div class="video-info">
+                    <h3 class="video-title">Digital Wasteland</h3>
+                    <p class="video-description">A haunting exploration of technology and nature colliding in an apocalyptic soundscape.</p>
+                    <div class="video-meta">
+                        <div class="video-stats">
+                            <span>👁️ 18K</span>
+                            <span>❤️ 1.2K</span>
+                        </div>
+                        <button class="watch-btn">Watch</button>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Video Card 6 -->
+            <article class="video-card" data-category="visual featured">
+                <div class="video-thumbnail">
+                    ⚙️
+                    <div class="play-button">▶</div>
+                </div>
+                <div class="video-info">
+                    <h3 class="video-title">Mechanical Symphony</h3>
+                    <p class="video-description">An ode to machines, rust, and the beauty found in industrial decay and entropy.</p>
+                    <div class="video-meta">
+                        <div class="video-stats">
+                            <span>👁️ 11K</span>
+                            <span>❤️ 896</span>
+                        </div>
+                        <button class="watch-btn">Watch</button>
+                    </div>
+                </div>
+            </article>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <h3>Cap'n Jules the Rustjack</h3>
+            <p>Dark AI Music · Rusty Salvage · Visual Art Curator</p>
+
+            <div class="social-links">
+                <a href="https://youtube.com/@buccaneersalvage" target="_blank" rel="noopener noreferrer">YouTube</a>
+                <a href="https://buccaneersalvage.github.io" target="_blank" rel="noopener noreferrer">Home</a>
+                <a href="/ukiri/" target="_blank" rel="noopener noreferrer">Ukiri</a>
+            </div>
+
+            <div class="copyright">
+                <p>&copy; 2026 Cap'n Jules the Rustjack. All rights reserved.</p>
+                <p>Dark AI Music • Industrial Visuals • Rusty Salvage Aesthetics</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Interactive Script -->
+    <script>
+        // Filter functionality
+        document.querySelectorAll('.filter-btn').forEach(btn => {
+            btn.addEventListener('click', function() {
+                document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+                this.classList.add('active');
+
+                const filter = this.dataset.filter;
+                document.querySelectorAll('.video-card').forEach(card => {
+                    if (filter === 'all' || card.dataset.category.includes(filter)) {
+                        card.style.display = '';
+                    } else {
+                        card.style.display = 'none';
+                    }
+                });
+            });
+        });
+
+        // Watch button functionality
+        document.querySelectorAll('.watch-btn').forEach(btn => {
+            btn.addEventListener('click', function(e) {
+                e.preventDefault();
+                alert('Replace this with your actual YouTube video link!');
+            });
+        });
+
+        // Lazy load images when they appear
+        if ('IntersectionObserver' in window) {
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.style.opacity = '1';
+                        observer.unobserve(entry.target);
+                    }
+                });
+            });
+
+            document.querySelectorAll('.video-card').forEach(card => {
+                observer.observe(card);
+            });
+        }
+    </script>
+</body>
+</html>
