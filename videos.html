@@ -52,6 +52,7 @@
             --text: #f0f0f0;
             --text-light: #b0b0b0;
             --border: #3a3a3a;
+            --ease: cubic-bezier(0.22, 1, 0.36, 1);
         }
 
         html {
@@ -65,7 +66,61 @@
             color: var(--text);
             line-height: 1.6;
             min-height: 100vh;
+            overflow-x: hidden;
         }
+
+        ::selection {
+            background: rgba(212, 175, 55, 0.35);
+            color: #fff;
+        }
+
+        ::-webkit-scrollbar { width: 10px; }
+        ::-webkit-scrollbar-track { background: var(--primary); }
+        ::-webkit-scrollbar-thumb {
+            background: linear-gradient(var(--accent-gold), #6b5518);
+            border-radius: 5px;
+        }
+
+        /* Atmosphere: film grain + drifting orbs (same recipe as home port) */
+        .grain {
+            pointer-events: none;
+            position: fixed;
+            inset: 0;
+            z-index: 90;
+            opacity: 0.045;
+            mix-blend-mode: overlay;
+            background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+            background-size: 180px;
+        }
+
+        .orb {
+            pointer-events: none;
+            position: fixed;
+            border-radius: 50%;
+            z-index: 0;
+            filter: blur(70px);
+        }
+
+        .orb-a {
+            width: 480px;
+            height: 480px;
+            top: -10%;
+            right: -8%;
+            background: radial-gradient(circle, rgba(197, 160, 40, 0.14), transparent 65%);
+            animation: drift-a 26s ease-in-out infinite alternate;
+        }
+
+        .orb-b {
+            width: 560px;
+            height: 560px;
+            bottom: -15%;
+            left: -10%;
+            background: radial-gradient(circle, rgba(40, 80, 130, 0.16), transparent 65%);
+            animation: drift-b 32s ease-in-out infinite alternate;
+        }
+
+        @keyframes drift-a { to { transform: translate(-6%, 8%) scale(1.15); } }
+        @keyframes drift-b { to { transform: translate(7%, -6%) scale(1.1); } }
 
         /* Header - Hidden */
         header.nav {
@@ -77,16 +132,36 @@
             max-width: 1400px;
             margin: 0 auto;
             padding: 4rem 2rem;
+            position: relative;
+            z-index: 1;
         }
 
         /* Hero Section */
         .hero {
             text-align: center;
-            margin-bottom: 6rem;
+            margin-bottom: 0;
             padding: 4rem 2rem;
             border: 1px solid var(--accent-gold);
             background: rgba(10, 8, 4, 0.5);
             position: relative;
+            animation: hero-breathe 5s ease-in-out infinite;
+        }
+
+        @keyframes hero-breathe {
+            50% {
+                box-shadow: 0 0 45px rgba(212, 175, 55, 0.12), inset 0 0 60px rgba(212, 175, 55, 0.04);
+            }
+        }
+
+        .hero > * {
+            animation: rise 0.9s var(--ease) both;
+        }
+
+        .hero > *:nth-child(2) { animation-delay: 0.12s; }
+        .hero > *:nth-child(3) { animation-delay: 0.24s; }
+
+        @keyframes rise {
+            from { opacity: 0; transform: translateY(24px); }
         }
 
         .hero::before {
@@ -97,15 +172,29 @@
             transform: translateX(-50%);
             font-size: 2rem;
             opacity: 0.3;
+            animation: bob 4s ease-in-out infinite;
+        }
+
+        @keyframes bob {
+            50% { transform: translateX(-50%) translateY(-6px); }
         }
 
         h1 {
             font-family: 'Cormorant Garamond', serif;
             font-size: 4rem;
             font-weight: 700;
-            color: var(--accent-gold);
             margin: 2rem 0 1rem;
             letter-spacing: 2px;
+            background: linear-gradient(100deg, #8a6d1f 0%, var(--accent-gold) 25%, #ffe9a8 50%, var(--accent-gold) 75%, #8a6d1f 100%);
+            background-size: 200% auto;
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            animation: shimmer 6s linear infinite;
+        }
+
+        @keyframes shimmer {
+            to { background-position: 200% center; }
         }
 
         .tagline {
@@ -124,6 +213,48 @@
             font-style: italic;
         }
 
+        /* Ticker (same marquee as home port) */
+        .ticker {
+            overflow: hidden;
+            border-top: 1px solid rgba(212, 175, 55, 0.25);
+            border-bottom: 1px solid rgba(212, 175, 55, 0.25);
+            padding: 0.9rem 0;
+            margin: 0 0 5rem;
+            background: rgba(10, 8, 4, 0.6);
+            mask-image: linear-gradient(90deg, transparent, #000 8%, #000 92%, transparent);
+            -webkit-mask-image: linear-gradient(90deg, transparent, #000 8%, #000 92%, transparent);
+        }
+
+        .ticker-track {
+            display: flex;
+            align-items: center;
+            gap: 2.5rem;
+            width: max-content;
+            animation: marquee 30s linear infinite;
+        }
+
+        .ticker:hover .ticker-track {
+            animation-play-state: paused;
+        }
+
+        .ticker-track span {
+            font-family: 'IBM Plex Mono', monospace;
+            font-size: 0.8rem;
+            letter-spacing: 0.14em;
+            text-transform: uppercase;
+            color: var(--text-light);
+            white-space: nowrap;
+        }
+
+        .ticker-track em {
+            color: var(--accent-gold);
+            font-style: normal;
+        }
+
+        @keyframes marquee {
+            to { transform: translateX(-50%); }
+        }
+
         /* Gallery Grid */
         .gallery {
             display: grid;
@@ -132,18 +263,69 @@
             margin: 3rem 0;
         }
 
+        @property --card-angle {
+            syntax: '<angle>';
+            initial-value: 0deg;
+            inherits: false;
+        }
+
         .video-card {
             border: 1px solid var(--accent-brass);
+            border-radius: 12px;
             background: rgba(26, 20, 16, 0.6);
             overflow: hidden;
-            transition: all 0.4s ease;
+            transition: transform 0.5s var(--ease), border-color 0.35s ease, box-shadow 0.5s var(--ease), opacity 0.32s ease;
             position: relative;
+        }
+
+        /* rotating conic border light on hover */
+        .video-card::before {
+            content: "";
+            position: absolute;
+            inset: -1px;
+            border-radius: 12px;
+            padding: 1px;
+            background: conic-gradient(from var(--card-angle), transparent 0%, rgba(255, 233, 168, 0.9) 8%, rgba(212, 175, 55, 0.6) 14%, transparent 24%);
+            -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+            -webkit-mask-composite: xor;
+            mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+            mask-composite: exclude;
+            opacity: 0;
+            transition: opacity 0.4s ease;
+            animation: spin-angle 4s linear infinite;
+            pointer-events: none;
+            z-index: 2;
+        }
+
+        @keyframes spin-angle {
+            to { --card-angle: 360deg; }
         }
 
         .video-card:hover {
             border-color: var(--accent-gold);
-            box-shadow: 0 0 30px rgba(212, 175, 55, 0.2);
-            transform: translateY(-5px);
+            box-shadow: 0 24px 50px rgba(0, 0, 0, 0.5), 0 0 40px rgba(212, 175, 55, 0.18);
+            transform: translateY(-6px);
+        }
+
+        .video-card:hover::before {
+            opacity: 1;
+        }
+
+        /* filter fade + scroll reveal states */
+        .video-card.is-hidden {
+            opacity: 0;
+            transform: scale(0.92) translateY(10px);
+            pointer-events: none;
+        }
+
+        .video-card.reveal {
+            opacity: 0;
+            transform: translateY(26px);
+        }
+
+        .video-card.reveal.is-in {
+            opacity: 1;
+            transform: none;
         }
 
         .video-thumbnail {
@@ -169,30 +351,87 @@
             width: 100%;
             height: 100%;
             object-fit: cover;
-            transition: transform 0.4s ease;
+            transform: scale(1.02);
+            transition: transform 0.7s var(--ease), filter 0.5s ease;
         }
 
         .video-card:hover .video-thumbnail img {
-            transform: scale(1.08);
+            transform: scale(1.09);
+            filter: saturate(1.15) contrast(1.05);
+        }
+
+        /* bottom scrim + shine sweep */
+        .video-thumbnail::before {
+            content: "";
+            position: absolute;
+            inset: 0;
+            z-index: 1;
+            background: linear-gradient(180deg, rgba(5, 4, 3, 0) 55%, rgba(5, 4, 3, 0.55) 100%);
+            opacity: 0;
+            transition: opacity 0.5s ease;
+            pointer-events: none;
+        }
+
+        .video-card:hover .video-thumbnail::before {
+            opacity: 1;
+        }
+
+        .video-thumbnail::after {
+            content: "";
+            position: absolute;
+            inset: 0;
+            z-index: 1;
+            background: linear-gradient(105deg, transparent 40%, rgba(255, 236, 170, 0.22) 50%, transparent 60%);
+            transform: translateX(-130%) skewX(-8deg);
+            transition: transform 0.9s var(--ease);
+            pointer-events: none;
+        }
+
+        .video-card:hover .video-thumbnail::after {
+            transform: translateX(130%) skewX(-8deg);
         }
 
         .play-button {
             position: absolute;
+            z-index: 2;
             width: 70px;
             height: 70px;
-            background: rgba(212, 175, 55, 0.8);
+            background: rgba(212, 175, 55, 0.85);
+            backdrop-filter: blur(6px);
+            -webkit-backdrop-filter: blur(6px);
             border-radius: 50%;
             display: flex;
             align-items: center;
             justify-content: center;
             font-size: 2rem;
+            color: var(--primary);
             opacity: 0;
-            transition: all 0.3s ease;
+            transform: scale(0.7);
+            transition: all 0.35s var(--ease);
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+        }
+
+        .play-button::after {
+            content: "";
+            position: absolute;
+            inset: 0;
+            border-radius: 50%;
+            border: 2px solid rgba(212, 175, 55, 0.7);
+            opacity: 0;
         }
 
         .video-card:hover .play-button {
             opacity: 1;
-            transform: scale(1.2);
+            transform: scale(1);
+        }
+
+        .video-card:hover .play-button::after {
+            animation: pulse-ring 1.6s ease-out infinite;
+        }
+
+        @keyframes pulse-ring {
+            0% { transform: scale(1); opacity: 0.8; }
+            100% { transform: scale(1.9); opacity: 0; }
         }
 
         .video-info {
@@ -252,6 +491,7 @@
             top: 0;
             z-index: 10;
             backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
         }
 
         .filter-btn {
@@ -268,16 +508,33 @@
             letter-spacing: 1.5px;
             font-family: 'IBM Plex Mono', monospace;
             font-weight: 600;
+            position: relative;
+        }
+
+        .filter-btn::after {
+            content: "";
+            position: absolute;
+            left: 50%;
+            bottom: -2px;
+            width: 0;
+            height: 2px;
+            background: var(--accent-gold);
+            box-shadow: 0 0 10px rgba(212, 175, 55, 0.8);
+            transition: width 0.35s var(--ease), left 0.35s var(--ease);
         }
 
         .filter-btn:hover {
             color: var(--accent-gold);
-            border-bottom-color: var(--accent-gold);
+        }
+
+        .filter-btn:hover::after,
+        .filter-btn.active::after {
+            width: 100%;
+            left: 0;
         }
 
         .filter-btn.active {
             color: var(--accent-gold);
-            border-bottom-color: var(--accent-gold);
             background: rgba(212, 175, 55, 0.05);
         }
 
@@ -288,6 +545,8 @@
             padding: 4rem 2rem;
             text-align: center;
             margin-top: 6rem;
+            position: relative;
+            z-index: 1;
         }
 
         footer h3 {
@@ -308,7 +567,7 @@
             color: var(--accent-gold);
             text-decoration: none;
             font-weight: 600;
-            transition: all 0.3s ease;
+            transition: all 0.3s var(--ease);
             padding: 0.75rem 1.5rem;
             border: 1px solid var(--accent-gold);
             text-transform: uppercase;
@@ -319,6 +578,8 @@
         .social-links a:hover {
             background: var(--accent-gold);
             color: var(--primary);
+            box-shadow: 0 0 24px rgba(212, 175, 55, 0.45);
+            transform: translateY(-2px);
         }
 
         .copyright {
@@ -352,6 +613,9 @@
     </style>
 </head>
 <body>
+    <div class="grain" aria-hidden="true"></div>
+    <div class="orb orb-a" aria-hidden="true"></div>
+    <div class="orb orb-b" aria-hidden="true"></div>
     <main>
         <!-- Hero -->
         <section class="hero">
@@ -359,6 +623,24 @@
             <p class="tagline">⚓ Cap'n Jules the Rustjack ⚓</p>
             <p class="hero-description">Treasured broadcasts from the deep seas — dark AI music videos, Norse metal masterpieces, and cinematic visual art. Each piece forged with industrial fire and cosmic vision. Haul these bounties aboard.</p>
         </section>
+
+        <!-- Ticker -->
+        <div class="ticker" aria-hidden="true">
+            <div class="ticker-track">
+                <span>Monster in the Darkness</span><span><em>◆</em></span>
+                <span>Old Gods, Three Asks</span><span><em>◆</em></span>
+                <span>The Jackal's Reckoning</span><span><em>◆</em></span>
+                <span>The Lantern and the Scales</span><span><em>◆</em></span>
+                <span>Binding Ward</span><span><em>◆</em></span>
+                <span>Predator's Reckoning</span><span><em>◆</em></span>
+                <span>Monster in the Darkness</span><span><em>◆</em></span>
+                <span>Old Gods, Three Asks</span><span><em>◆</em></span>
+                <span>The Jackal's Reckoning</span><span><em>◆</em></span>
+                <span>The Lantern and the Scales</span><span><em>◆</em></span>
+                <span>Binding Ward</span><span><em>◆</em></span>
+                <span>Predator's Reckoning</span><span><em>◆</em></span>
+            </div>
+        </div>
 
         <!-- Filters -->
         <div class="filters">
@@ -502,17 +784,42 @@
     </footer>
 
     <script>
+        // Scroll reveal (added by JS only — no-JS keeps cards visible)
+        const cards = document.querySelectorAll('.video-card');
+        cards.forEach((card, i) => {
+            card.classList.add('reveal');
+            card.style.transitionDelay = (i % 3) * 0.09 + 's';
+        });
+        const io = new IntersectionObserver(entries => {
+            entries.forEach(e => {
+                if (e.isIntersecting) {
+                    e.target.classList.add('is-in');
+                    io.unobserve(e.target);
+                    setTimeout(() => { e.target.style.transitionDelay = '0s'; }, 900);
+                }
+            });
+        }, { threshold: 0.12 });
+        cards.forEach(card => io.observe(card));
+
+        // Filters with fade transition
         document.querySelectorAll('.filter-btn').forEach(btn => {
             btn.addEventListener('click', function() {
                 document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
                 this.classList.add('active');
 
                 const filter = this.dataset.filter;
-                document.querySelectorAll('.video-card').forEach(card => {
-                    if (filter === 'all' || card.dataset.category.includes(filter)) {
+                cards.forEach(card => {
+                    const show = filter === 'all' || card.dataset.category.includes(filter);
+                    if (show) {
                         card.style.display = '';
+                        requestAnimationFrame(() => requestAnimationFrame(() => {
+                            card.classList.remove('is-hidden');
+                        }));
                     } else {
-                        card.style.display = 'none';
+                        card.classList.add('is-hidden');
+                        setTimeout(() => {
+                            if (card.classList.contains('is-hidden')) card.style.display = 'none';
+                        }, 320);
                     }
                 });
             });
