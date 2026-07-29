@@ -144,13 +144,21 @@
             border: 1px solid var(--accent-gold);
             background: rgba(10, 8, 4, 0.5);
             position: relative;
+        }
+
+        /* glow via pseudo-element opacity pulse — compositor-only, no per-frame repaint */
+        .hero::after {
+            content: "";
+            position: absolute;
+            inset: 0;
+            pointer-events: none;
+            box-shadow: 0 0 45px rgba(212, 175, 55, 0.12), inset 0 0 60px rgba(212, 175, 55, 0.04);
+            opacity: 0;
             animation: hero-breathe 5s ease-in-out infinite;
         }
 
         @keyframes hero-breathe {
-            50% {
-                box-shadow: 0 0 45px rgba(212, 175, 55, 0.12), inset 0 0 60px rgba(212, 175, 55, 0.04);
-            }
+            50% { opacity: 1; }
         }
 
         .hero > * {
@@ -292,7 +300,6 @@
             mask-composite: exclude;
             opacity: 0;
             transition: opacity 0.4s ease;
-            animation: spin-angle 4s linear infinite;
             pointer-events: none;
             z-index: 2;
         }
@@ -307,8 +314,10 @@
             transform: translateY(-6px);
         }
 
+        /* spin only while hovered — never animates on an idle page */
         .video-card:hover::before {
             opacity: 1;
+            animation: spin-angle 4s linear infinite;
         }
 
         /* filter fade + scroll reveal states */
