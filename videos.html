@@ -485,68 +485,6 @@
         .video-stats span {
             display: inline-block;
         }
-
-        /* Filters - Main Navigation */
-        .filters {
-            display: flex;
-            justify-content: center;
-            gap: 0;
-            margin: 0;
-            flex-wrap: wrap;
-            background: rgba(10, 8, 4, 0.95);
-            border-bottom: 1px solid var(--accent-gold);
-            padding: 1.5rem 2rem;
-            position: sticky;
-            top: 0;
-            z-index: 10;
-            backdrop-filter: blur(10px);
-            -webkit-backdrop-filter: blur(10px);
-        }
-
-        .filter-btn {
-            background: transparent;
-            color: var(--text-light);
-            border: none;
-            border-bottom: 2px solid transparent;
-            padding: 0.75rem 2rem;
-            border-radius: 0;
-            cursor: pointer;
-            transition: all 0.3s ease;
-            text-transform: uppercase;
-            font-size: 0.85rem;
-            letter-spacing: 1.5px;
-            font-family: 'IBM Plex Mono', monospace;
-            font-weight: 600;
-            position: relative;
-        }
-
-        .filter-btn::after {
-            content: "";
-            position: absolute;
-            left: 50%;
-            bottom: -2px;
-            width: 0;
-            height: 2px;
-            background: var(--accent-gold);
-            box-shadow: 0 0 10px rgba(212, 175, 55, 0.8);
-            transition: width 0.35s var(--ease), left 0.35s var(--ease);
-        }
-
-        .filter-btn:hover {
-            color: var(--accent-gold);
-        }
-
-        .filter-btn:hover::after,
-        .filter-btn.active::after {
-            width: 100%;
-            left: 0;
-        }
-
-        .filter-btn.active {
-            color: var(--accent-gold);
-            background: rgba(212, 175, 55, 0.05);
-        }
-
         /* Footer */
         footer {
             background: rgba(10, 8, 4, 0.95);
@@ -651,129 +589,12 @@
             </div>
         </div>
 
-        <!-- Filters -->
-        <div class="filters">
-            <button class="filter-btn active" data-filter="all">All Videos</button>
-            <button class="filter-btn" data-filter="music">Music Videos</button>
-            <button class="filter-btn" data-filter="featured">Featured</button>
-        </div>
+        <!-- Gallery — random pick from the channel catalog on every visit -->
+        <section class="gallery" id="gallery"></section>
 
-        <!-- Gallery -->
-        <section class="gallery" id="gallery">
-            <article class="video-card" data-category="music featured">
-                <div class="video-thumbnail">
-                    <a href="https://www.youtube.com/watch?v=Nrtqjdc88VM" target="_blank" rel="noopener noreferrer">
-                        <img src="https://img.youtube.com/vi/Nrtqjdc88VM/maxresdefault.jpg" alt="Monster in the Darkness">
-                        <div class="play-button">▶</div>
-                    </a>
-                </div>
-                <div class="video-info">
-                    <h3 class="video-title">Monster in the Darkness</h3>
-                    <p class="video-description">Pearl Audrey Yanick (PsychoSinger) — Dark Alt-Rock AI Music Video</p>
-                    <div class="video-meta">
-                        <div class="video-stats">
-                            <span>👁️ 2</span>
-                            <span>⏱️ 4:40</span>
-                        </div>
-                    </div>
-                </div>
-            </article>
-
-            <article class="video-card" data-category="music featured">
-                <div class="video-thumbnail">
-                    <a href="https://www.youtube.com/watch?v=v1SULGZfHo0" target="_blank" rel="noopener noreferrer">
-                        <img src="https://img.youtube.com/vi/v1SULGZfHo0/maxresdefault.jpg" alt="Old Gods, Three Asks — Grey Sorcerer War Chant">
-                        <div class="play-button">▶</div>
-                    </a>
-                </div>
-                <div class="video-info">
-                    <h3 class="video-title">Old Gods, Three Asks — Grey Sorcerer War Chant</h3>
-                    <p class="video-description">Cap'n Jules Nordic Ritual MV — Peace, Love, Vengeance</p>
-                    <div class="video-meta">
-                        <div class="video-stats">
-                            <span>👁️ 7</span>
-                            <span>⏱️ 4:47</span>
-                        </div>
-                    </div>
-                </div>
-            </article>
-
-            <article class="video-card" data-category="music featured">
-                <div class="video-thumbnail">
-                    <a href="https://www.youtube.com/watch?v=CHZMBp44VL4" target="_blank" rel="noopener noreferrer">
-                        <img src="https://img.youtube.com/vi/CHZMBp44VL4/maxresdefault.jpg" alt="The Jackal's Reckoning">
-                        <div class="play-button">▶</div>
-                    </a>
-                </div>
-                <div class="video-info">
-                    <h3 class="video-title">The Jackal's Reckoning</h3>
-                    <p class="video-description">Dark Norse Metal Official Music Video (Remastered)</p>
-                    <div class="video-meta">
-                        <div class="video-stats">
-                            <span>👁️ 63</span>
-                            <span>⏱️ 4:38</span>
-                        </div>
-                    </div>
-                </div>
-            </article>
-
-            <article class="video-card" data-category="music featured">
-                <div class="video-thumbnail">
-                    <a href="https://www.youtube.com/watch?v=D_OpW3zWS2U" target="_blank" rel="noopener noreferrer">
-                        <img src="https://img.youtube.com/vi/D_OpW3zWS2U/maxresdefault.jpg" alt="The Lantern and the Scales">
-                        <div class="play-button">▶</div>
-                    </a>
-                </div>
-                <div class="video-info">
-                    <h3 class="video-title">The Lantern and the Scales</h3>
-                    <p class="video-description">Dark Tarot Metal Official Music Video</p>
-                    <div class="video-meta">
-                        <div class="video-stats">
-                            <span>👁️ 14</span>
-                            <span>⏱️ 4:34</span>
-                        </div>
-                    </div>
-                </div>
-            </article>
-
-            <article class="video-card" data-category="music featured">
-                <div class="video-thumbnail">
-                    <a href="https://www.youtube.com/watch?v=xg3wKc_KZCY" target="_blank" rel="noopener noreferrer">
-                        <img src="https://img.youtube.com/vi/xg3wKc_KZCY/maxresdefault.jpg" alt="Binding Ward">
-                        <div class="play-button">▶</div>
-                    </a>
-                </div>
-                <div class="video-info">
-                    <h3 class="video-title">Binding Ward</h3>
-                    <p class="video-description">Salt-Thunder Reckoning — Dark Viking Metal AI Music Video</p>
-                    <div class="video-meta">
-                        <div class="video-stats">
-                            <span>👁️ 7</span>
-                            <span>⏱️ 3:59</span>
-                        </div>
-                    </div>
-                </div>
-            </article>
-
-            <article class="video-card" data-category="music featured">
-                <div class="video-thumbnail">
-                    <a href="https://www.youtube.com/watch?v=JFE89gAS6Wc" target="_blank" rel="noopener noreferrer">
-                        <img src="https://img.youtube.com/vi/JFE89gAS6Wc/maxresdefault.jpg" alt="Predator's Reckoning">
-                        <div class="play-button">▶</div>
-                    </a>
-                </div>
-                <div class="video-info">
-                    <h3 class="video-title">Predator's Reckoning</h3>
-                    <p class="video-description">No Grave Deep Enough — Dark Industrial Metal AI Video</p>
-                    <div class="video-meta">
-                        <div class="video-stats">
-                            <span>👁️ 9</span>
-                            <span>⏱️ 3:49</span>
-                        </div>
-                    </div>
-                </div>
-            </article>
-        </section>
+        <!-- VIDEOS-DATA:BEGIN -->
+        <script id="videos-data" type="application/json">[{"id":"0Q8aHuzLJ_I","title":"Old Gods, Three Asks 🐦‍⬛ Peace, Love, Vengeance | Full MV in description","published":"Jul 29, 2026"},{"id":"v1SULGZfHo0","title":"Old Gods, Three Asks — Grey Sorcerer War Chant | Cap'n Jules Nordic Ritual MV","published":"Jul 29, 2026"},{"id":"wP2bLldAOWc","title":"Dodgin' Drones Like A Video Game? Cap'n Jules War Roast 🎮 #Shorts","published":"Jul 28, 2026"},{"id":"bnS7QZybbbQ","title":"I Found The Monster That Keeps Haunting Me #Shorts | Pearl Audrey Yanick (PsychoSinger)","published":"Jul 26, 2026"},{"id":"Nrtqjdc88VM","title":"Monster in the Darkness - Pearl Audrey Yanick (PsychoSinger) | Dark Alt-Rock (AI Music Video)","published":"Jul 26, 2026"},{"id":"7sKopj1RsLI","title":"RESTART REQUIRED ⚡ #Shorts","published":"Jul 22, 2026"},{"id":"zfr8oYerHmM","title":"INSTALL OR DIE 🔄 #Shorts","published":"Jul 22, 2026"},{"id":"AsBpy7a4s_4","title":"ONE PERCENT LEFT 🔋 #Shorts","published":"Jul 22, 2026"},{"id":"3jHtjgDUspM","title":"They Couldn't Stand 🛋️ COUCHLOCK #Shorts","published":"Jul 22, 2026"},{"id":"jgoPwtcdrXs","title":"NO SIGNAL 📶 Bar Bar Bars #Shorts","published":"Jul 22, 2026"},{"id":"9jPI1dWD3-Q","title":"They Fought for THE CRUNCH 🍟 #Shorts","published":"Jul 22, 2026"},{"id":"POOGLMPh1xM","title":"Reboot Reboot Reboot ⚡ Epic MAD MAX Parody Music Video (Jumpstyle Anthem)","published":"Jul 22, 2026"},{"id":"Qgo0FXsoR78","title":"Indica vs Sativa — PICK A SIDE ⚔️ #Shorts","published":"Jul 22, 2026"},{"id":"DAwUAJ8RoAg","title":"The Last Update 🔄 Epic MAD MAX Parody Music Video (Jumpstyle Anthem)","published":"Jul 22, 2026"},{"id":"nC9Nm1kf0Sg","title":"Percent Percent Percent 🔋 Epic MAD MAX Parody Music Video (Jumpstyle Anthem)","published":"Jul 22, 2026"}]</script>
+        <!-- VIDEOS-DATA:END -->
     </main>
 
     <!-- Footer -->
@@ -793,6 +614,49 @@
     </footer>
 
     <script>
+        // Random pick from the channel catalog on every visit.
+        // Catalog lives in #videos-data (JSON) — refresh with: update-dark-fleet-videos
+        const PICK = 6;
+        const catalog = JSON.parse(document.getElementById('videos-data').textContent);
+        for (let i = catalog.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [catalog[i], catalog[j]] = [catalog[j], catalog[i]];
+        }
+        const gallery = document.getElementById('gallery');
+        catalog.slice(0, PICK).forEach(v => {
+            const card = document.createElement('article');
+            card.className = 'video-card';
+
+            const thumb = document.createElement('div');
+            thumb.className = 'video-thumbnail';
+            const a = document.createElement('a');
+            a.href = 'https://www.youtube.com/watch?v=' + v.id;
+            a.target = '_blank';
+            a.rel = 'noopener noreferrer';
+            const img = document.createElement('img');
+            img.src = 'https://img.youtube.com/vi/' + v.id + '/hqdefault.jpg';
+            img.alt = v.title;
+            img.loading = 'lazy';
+            const play = document.createElement('div');
+            play.className = 'play-button';
+            play.textContent = '\u25B6';
+            a.append(img, play);
+            thumb.appendChild(a);
+
+            const info = document.createElement('div');
+            info.className = 'video-info';
+            const h3 = document.createElement('h3');
+            h3.className = 'video-title';
+            h3.textContent = v.title;
+            const desc = document.createElement('p');
+            desc.className = 'video-description';
+            desc.textContent = 'Watch on YouTube \u00B7 ' + v.published;
+            info.append(h3, desc);
+
+            card.append(thumb, info);
+            gallery.appendChild(card);
+        });
+
         // Scroll reveal (added by JS only — no-JS keeps cards visible)
         const cards = document.querySelectorAll('.video-card');
         cards.forEach((card, i) => {
@@ -809,30 +673,6 @@
             });
         }, { threshold: 0.12 });
         cards.forEach(card => io.observe(card));
-
-        // Filters with fade transition
-        document.querySelectorAll('.filter-btn').forEach(btn => {
-            btn.addEventListener('click', function() {
-                document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
-                this.classList.add('active');
-
-                const filter = this.dataset.filter;
-                cards.forEach(card => {
-                    const show = filter === 'all' || card.dataset.category.includes(filter);
-                    if (show) {
-                        card.style.display = '';
-                        requestAnimationFrame(() => requestAnimationFrame(() => {
-                            card.classList.remove('is-hidden');
-                        }));
-                    } else {
-                        card.classList.add('is-hidden');
-                        setTimeout(() => {
-                            if (card.classList.contains('is-hidden')) card.style.display = 'none';
-                        }, 320);
-                    }
-                });
-            });
-        });
     </script>
 </body>
 </html>
