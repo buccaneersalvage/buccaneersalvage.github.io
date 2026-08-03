@@ -3,20 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="The Dark Fleet — Curated music videos and visual art from Cap'n Jules the Rustjack. Dark AI music, Norse metal, cinematic masterpieces.">
-    <meta name="keywords" content="music videos, dark country, AI music, rusty salvage, youtube videos, music production, Cap'n Jules">
+    <meta name="description" content="The Dark Fleet — Dark AI music videos and absurdist comedy shorts from Cap'n Jules the Rustjack. Toggle fleets on one page. No reload.">
+    <meta name="keywords" content="music videos, comedy shorts, AI comedy, dark country, AI music, Afterlife Caller, Cap'n Jules, BuccaneerSalvage">
     <meta name="author" content="Cap'n Jules the Rustjack">
     <meta name="theme-color" content="#0a0804">
-    <meta property="og:title" content="The Dark Fleet - Cap'n Jules">
-    <meta property="og:description" content="The Dark Fleet: Curated music videos and visual art from Cap'n Jules the Rustjack">
+    <meta property="og:title" content="The Dark Fleet — Music & Comedy | Cap'n Jules">
+    <meta property="og:description" content="Toggle between dark AI music videos and absurdist comedy shorts — one page, zero reloads.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://buccaneersalvage.github.io/videos.html">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="The Dark Fleet - Cap'n Jules">
-    <meta name="twitter:description" content="Dark AI music videos, visual art, and cinematic experiences">
+    <meta name="twitter:title" content="The Dark Fleet — Music & Comedy | Cap'n Jules">
+    <meta name="twitter:description" content="Dark AI music + hell-desk comedy shorts. Flip fleets live.">
     <link rel="canonical" href="https://buccaneersalvage.github.io/videos.html">
     <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='75' font-size='75'>🎬</text></svg>">
-    <title>The Dark Fleet - Cap'n Jules | Music Videos & Visual Art</title>
+    <title>The Dark Fleet — Music &amp; Comedy | Cap'n Jules the Rustjack</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -261,6 +261,166 @@
 
         @keyframes marquee {
             to { transform: translateX(-50%); }
+        }
+
+        /* ── Fleet switcher (in-page, no second load) ── */
+        .fleet-dock {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 1.1rem;
+            margin: 0 0 2.75rem;
+            position: sticky;
+            top: 0.75rem;
+            z-index: 40;
+        }
+
+        .fleet-switch {
+            --pad: 5px;
+            position: relative;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 0;
+            padding: var(--pad);
+            width: min(540px, 100%);
+            border-radius: 999px;
+            border: 1px solid rgba(212, 175, 55, 0.55);
+            background:
+                linear-gradient(180deg, rgba(26, 20, 16, 0.92), rgba(10, 8, 4, 0.95));
+            box-shadow:
+                0 12px 40px rgba(0, 0, 0, 0.45),
+                inset 0 1px 0 rgba(255, 233, 168, 0.08);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+        }
+
+        .fleet-glider {
+            position: absolute;
+            top: var(--pad);
+            bottom: var(--pad);
+            left: var(--pad);
+            width: calc(50% - var(--pad));
+            border-radius: 999px;
+            background: linear-gradient(135deg, #8a6d1f 0%, var(--accent-gold) 45%, #ffe9a8 100%);
+            box-shadow: 0 0 28px rgba(212, 175, 55, 0.45), inset 0 1px 0 rgba(255, 255, 255, 0.35);
+            transition: transform 0.45s var(--ease);
+            z-index: 0;
+            pointer-events: none;
+        }
+
+        .fleet-switch[data-active="comedy"] .fleet-glider {
+            transform: translateX(100%);
+        }
+
+        .fleet-switch button {
+            position: relative;
+            z-index: 1;
+            appearance: none;
+            border: 0;
+            background: transparent;
+            color: var(--text-light);
+            font-family: 'Outfit', sans-serif;
+            font-weight: 600;
+            font-size: 0.95rem;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+            padding: 0.95rem 1.1rem;
+            border-radius: 999px;
+            cursor: pointer;
+            transition: color 0.3s ease;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.45rem;
+        }
+
+        .fleet-switch button[aria-pressed="true"] {
+            color: var(--primary);
+        }
+
+        .fleet-switch button:focus-visible {
+            outline: 2px solid #ffe9a8;
+            outline-offset: 3px;
+        }
+
+        .fleet-switch .ico {
+            font-size: 1.05rem;
+            line-height: 1;
+        }
+
+        .fleet-meta {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            gap: 0.75rem 1.25rem;
+            font-family: 'IBM Plex Mono', monospace;
+            font-size: 0.78rem;
+            letter-spacing: 0.12em;
+            text-transform: uppercase;
+            color: var(--text-light);
+        }
+
+        .fleet-meta strong {
+            color: var(--accent-gold);
+            font-weight: 500;
+        }
+
+        .fleet-chip {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.4rem;
+            padding: 0.35rem 0.75rem;
+            border-radius: 999px;
+            border: 1px solid rgba(212, 175, 55, 0.28);
+            background: rgba(10, 8, 4, 0.55);
+        }
+
+        .fleet-chip em {
+            color: var(--accent-gold);
+            font-style: normal;
+        }
+
+        .gallery-shell {
+            position: relative;
+            min-height: 280px;
+        }
+
+        .gallery.is-swapping {
+            opacity: 0;
+            transform: translateY(12px) scale(0.985);
+            filter: blur(2px);
+            pointer-events: none;
+            transition: opacity 0.28s ease, transform 0.28s var(--ease), filter 0.28s ease;
+        }
+
+        .gallery.is-ready {
+            opacity: 1;
+            transform: none;
+            filter: none;
+            transition: opacity 0.38s var(--ease), transform 0.38s var(--ease), filter 0.38s ease;
+        }
+
+        .video-card .kind-badge {
+            position: absolute;
+            top: 0.75rem;
+            left: 0.75rem;
+            z-index: 3;
+            font-family: 'IBM Plex Mono', monospace;
+            font-size: 0.65rem;
+            letter-spacing: 0.14em;
+            text-transform: uppercase;
+            padding: 0.35rem 0.55rem;
+            border-radius: 4px;
+            background: rgba(10, 8, 4, 0.78);
+            border: 1px solid rgba(212, 175, 55, 0.45);
+            color: var(--accent-gold);
+            backdrop-filter: blur(4px);
+        }
+
+        .video-card[data-kind="comedy"] .kind-badge {
+            border-color: rgba(255, 120, 80, 0.55);
+            color: #ffb08a;
         }
 
         /* Gallery Grid */
@@ -546,6 +706,12 @@
                 grid-template-columns: 1fr;
             }
 
+            .fleet-switch button {
+                font-size: 0.78rem;
+                padding: 0.85rem 0.55rem;
+                letter-spacing: 0.04em;
+            }
+
             .nav-links {
                 gap: 1rem;
             }
@@ -567,33 +733,40 @@
         <!-- Hero -->
         <section class="hero">
             <h1>THE DARK FLEET</h1>
-            <p class="tagline">⚓ Cap'n Jules the Rustjack ⚓</p>
-            <p class="hero-description">Treasured broadcasts from the deep seas — dark AI music videos, Norse metal masterpieces, and cinematic visual art. Each piece forged with industrial fire and cosmic vision. Haul these bounties aboard.</p>
+            <p class="tagline">⚓ Cap'n Jules the Rustjack · BuccaneerSalvage ⚓</p>
+            <p class="hero-description" id="hero-blurb">Treasured broadcasts from the deep seas — dark AI music videos, Norse metal, and absurdist comedy shorts. Flip fleets below — no second page, no reload.</p>
         </section>
 
-        <!-- Ticker -->
-        <div class="ticker" aria-hidden="true">
-            <div class="ticker-track">
-                <span>Monster in the Darkness</span><span><em>◆</em></span>
-                <span>Old Gods, Three Asks</span><span><em>◆</em></span>
-                <span>The Jackal's Reckoning</span><span><em>◆</em></span>
-                <span>The Lantern and the Scales</span><span><em>◆</em></span>
-                <span>Binding Ward</span><span><em>◆</em></span>
-                <span>Predator's Reckoning</span><span><em>◆</em></span>
-                <span>Monster in the Darkness</span><span><em>◆</em></span>
-                <span>Old Gods, Three Asks</span><span><em>◆</em></span>
-                <span>The Jackal's Reckoning</span><span><em>◆</em></span>
-                <span>The Lantern and the Scales</span><span><em>◆</em></span>
-                <span>Binding Ward</span><span><em>◆</em></span>
-                <span>Predator's Reckoning</span><span><em>◆</em></span>
+        <!-- Fleet switcher: in-page toggle -->
+        <div class="fleet-dock">
+            <div class="fleet-switch" id="fleet-switch" data-active="music" role="tablist" aria-label="Dark Fleet gallery mode">
+                <span class="fleet-glider" aria-hidden="true"></span>
+                <button type="button" role="tab" id="tab-music" data-fleet="music" aria-selected="true" aria-pressed="true" aria-controls="gallery">
+                    <span class="ico" aria-hidden="true">🎵</span> Music Videos
+                </button>
+                <button type="button" role="tab" id="tab-comedy" data-fleet="comedy" aria-selected="false" aria-pressed="false" aria-controls="gallery">
+                    <span class="ico" aria-hidden="true">😂</span> Comedy Shorts
+                </button>
+            </div>
+            <div class="fleet-meta" id="fleet-meta" aria-live="polite">
+                <span class="fleet-chip">Fleet <em id="fleet-label">Music</em></span>
+                <span class="fleet-chip">Showing <strong id="fleet-count">—</strong></span>
+                <span class="fleet-chip">Shuffled each visit</span>
             </div>
         </div>
 
-        <!-- Gallery — random pick from the channel catalog on every visit -->
-        <section class="gallery" id="gallery"></section>
+        <!-- Ticker -->
+        <div class="ticker" aria-hidden="true">
+            <div class="ticker-track" id="ticker-track"></div>
+        </div>
+
+        <!-- Gallery — filtered in-page by fleet toggle -->
+        <div class="gallery-shell">
+            <section class="gallery is-ready" id="gallery" role="tabpanel" aria-labelledby="tab-music"></section>
+        </div>
 
         <!-- VIDEOS-DATA:BEGIN -->
-        <script id="videos-data" type="application/json">[{"id":"0Q8aHuzLJ_I","title":"Old Gods, Three Asks 🐦‍⬛ Peace, Love, Vengeance | Full MV in description","published":"Jul 29, 2026"},{"id":"v1SULGZfHo0","title":"Old Gods, Three Asks — Grey Sorcerer War Chant | Cap'n Jules Nordic Ritual MV","published":"Jul 29, 2026"},{"id":"wP2bLldAOWc","title":"Dodgin' Drones Like A Video Game? Cap'n Jules War Roast 🎮 #Shorts","published":"Jul 28, 2026"},{"id":"bnS7QZybbbQ","title":"I Found The Monster That Keeps Haunting Me #Shorts | Pearl Audrey Yanick (PsychoSinger)","published":"Jul 26, 2026"},{"id":"Nrtqjdc88VM","title":"Monster in the Darkness - Pearl Audrey Yanick (PsychoSinger) | Dark Alt-Rock (AI Music Video)","published":"Jul 26, 2026"},{"id":"7sKopj1RsLI","title":"RESTART REQUIRED ⚡ #Shorts","published":"Jul 22, 2026"},{"id":"zfr8oYerHmM","title":"INSTALL OR DIE 🔄 #Shorts","published":"Jul 22, 2026"},{"id":"AsBpy7a4s_4","title":"ONE PERCENT LEFT 🔋 #Shorts","published":"Jul 22, 2026"},{"id":"3jHtjgDUspM","title":"They Couldn't Stand 🛋️ COUCHLOCK #Shorts","published":"Jul 22, 2026"},{"id":"jgoPwtcdrXs","title":"NO SIGNAL 📶 Bar Bar Bars #Shorts","published":"Jul 22, 2026"},{"id":"9jPI1dWD3-Q","title":"They Fought for THE CRUNCH 🍟 #Shorts","published":"Jul 22, 2026"},{"id":"POOGLMPh1xM","title":"Reboot Reboot Reboot ⚡ Epic MAD MAX Parody Music Video (Jumpstyle Anthem)","published":"Jul 22, 2026"},{"id":"Qgo0FXsoR78","title":"Indica vs Sativa — PICK A SIDE ⚔️ #Shorts","published":"Jul 22, 2026"},{"id":"DAwUAJ8RoAg","title":"The Last Update 🔄 Epic MAD MAX Parody Music Video (Jumpstyle Anthem)","published":"Jul 22, 2026"},{"id":"nC9Nm1kf0Sg","title":"Percent Percent Percent 🔋 Epic MAD MAX Parody Music Video (Jumpstyle Anthem)","published":"Jul 22, 2026"}]</script>
+        <script id="videos-data" type="application/json">[{"id":"xSTeuYSlw60","title":"Died Mid-Deed → Valhalla Said NO → Hell Made Him DINNER 😂 | Afterlife Caller","published":"Aug 03, 2026","kind":"comedy"},{"id":"1FsZQt4h5QE","title":"Heaven's Grace (Dark Country) — For Dad (Rock n' Roll) | Memorial Truck Ballad","published":"Aug 02, 2026","kind":"music"},{"id":"z_emDDP7OIw","title":"Heaven's Grace (Dark Country Memorial Truck Ballad) — (Rock n' Roll) #Shorts","published":"Aug 02, 2026","kind":"music"},{"id":"0Q8aHuzLJ_I","title":"Old Gods, Three Asks 🐦‍⬛ Peace, Love, Vengeance | Full MV in description","published":"Jul 29, 2026","kind":"music"},{"id":"v1SULGZfHo0","title":"Old Gods, Three Asks — Grey Sorcerer War Chant | Cap'n Jules Nordic Ritual MV","published":"Jul 29, 2026","kind":"music"},{"id":"wP2bLldAOWc","title":"Dodgin' Drones Like A Video Game? Cap'n Jules War Roast 🎮 #Shorts","published":"Jul 28, 2026","kind":"comedy"},{"id":"bnS7QZybbbQ","title":"I Found The Monster That Keeps Haunting Me #Shorts | Pearl Audrey Yanick (PsychoSinger)","published":"Jul 26, 2026","kind":"music"},{"id":"Nrtqjdc88VM","title":"Monster in the Darkness - Pearl Audrey Yanick (PsychoSinger) | Dark Alt-Rock (AI Music Video)","published":"Jul 26, 2026","kind":"music"},{"id":"7sKopj1RsLI","title":"RESTART REQUIRED ⚡ #Shorts","published":"Jul 22, 2026","kind":"comedy"},{"id":"zfr8oYerHmM","title":"INSTALL OR DIE 🔄 #Shorts","published":"Jul 22, 2026","kind":"comedy"},{"id":"AsBpy7a4s_4","title":"ONE PERCENT LEFT 🔋 #Shorts","published":"Jul 22, 2026","kind":"comedy"},{"id":"3jHtjgDUspM","title":"They Couldn't Stand 🛋️ COUCHLOCK #Shorts","published":"Jul 22, 2026","kind":"comedy"},{"id":"jgoPwtcdrXs","title":"NO SIGNAL 📶 Bar Bar Bars #Shorts","published":"Jul 22, 2026","kind":"comedy"},{"id":"9jPI1dWD3-Q","title":"They Fought for THE CRUNCH 🍟 #Shorts","published":"Jul 22, 2026","kind":"comedy"},{"id":"POOGLMPh1xM","title":"Reboot Reboot Reboot ⚡ Epic MAD MAX Parody Music Video (Jumpstyle Anthem)","published":"Jul 22, 2026","kind":"comedy"},{"id":"Qgo0FXsoR78","title":"Indica vs Sativa — PICK A SIDE ⚔️ #Shorts","published":"Jul 22, 2026","kind":"comedy"},{"id":"DAwUAJ8RoAg","title":"The Last Update 🔄 Epic MAD MAX Parody Music Video (Jumpstyle Anthem)","published":"Jul 22, 2026","kind":"comedy"},{"id":"nC9Nm1kf0Sg","title":"Percent Percent Percent 🔋 Epic MAD MAX Parody Music Video (Jumpstyle Anthem)","published":"Jul 22, 2026","kind":"comedy"},{"id":"6H6LOul7nyw","title":"Bar Bar Bars 📶 Epic MAD MAX Parody Music Video (Jumpstyle Anthem)","published":"Jul 22, 2026","kind":"comedy"},{"id":"eU8COc6hJe4","title":"Couch Couch Couchlock 🛋️ Epic MAD MAX Parody Music Video (Jumpstyle Anthem)","published":"Jul 22, 2026","kind":"comedy"},{"id":"HajYMuTbXwc","title":"Munch Munch Munchies 🍟 Epic MAD MAX Parody Music Video (Jumpstyle Anthem)","published":"Jul 22, 2026","kind":"comedy"},{"id":"RBgq8FdE-u4","title":"Indica vs Sativa ⚔️ Epic MAD MAX Parody Music Video (Jumpstyle Anthem)","published":"Jul 22, 2026","kind":"comedy"},{"id":"-qHnKXvx2yk","title":"They Worship THE STICKY 🌿 #Shorts","published":"Jul 21, 2026","kind":"comedy"},{"id":"wYV3efXiN68","title":"Stick Stick Sticky Stick 🌿 Epic MAD MAX Parody Music Video (Jumpstyle Anthem)","published":"Jul 21, 2026","kind":"comedy"},{"id":"2Kf34licGTM","title":"Burger Burger Cheeseburger 🍔 Epic DUNE Parody Music Video (TikTok Jumpstyle)","published":"Jul 21, 2026","kind":"comedy"},{"id":"Zxer-1ev6hM","title":"They Worship the SAUCE 🍔 #Shorts","published":"Jul 21, 2026","kind":"comedy"},{"id":"E6E47nodO10","title":"Binding Ward ⚡ Salt-Thunder Chorus | Full MV 👇 #Shorts","published":"Jul 21, 2026","kind":"music"},{"id":"yt4N_7sep0M","title":"Scum Shall Pay 🔥 Dark Country Revenge | Full MV 👇 #Shorts","published":"Jul 21, 2026","kind":"music"},{"id":"XZODndX2xio","title":"Jill Was Jack 😂 Sleeper Cab Reveal | Full MV 👇 #Shorts","published":"Jul 21, 2026","kind":"comedy"},{"id":"CdA3QloG5DY","title":"Jill Was Jack 😂 Sleeper Cab Surprise | Dark Country Trucker Tale","published":"Jul 21, 2026","kind":"comedy"},{"id":"4XN4F4nTYSM","title":"Olga the Amish Man-Eater 😂 #Shorts","published":"Jul 21, 2026","kind":"comedy"},{"id":"hP7lD4mDrHM","title":"Return to Sender 🌕🐎 #Shorts","published":"Jul 21, 2026","kind":"music"},{"id":"SEw5KjNiBv8","title":"Olga the Amish Man-Eater 😂 Trucker Horror Story | Dark Country Roast","published":"Jul 21, 2026","kind":"comedy"},{"id":"NG-P2bO92bI","title":"Return to Sender — Dark Country Western Revenge Ballad | Pale Rider AI Music Video","published":"Jul 21, 2026","kind":"music"},{"id":"I3iYLxeQQps","title":"Hormuz Is Burnin' 😂 #Shorts","published":"Jul 21, 2026","kind":"comedy"},{"id":"ckFbZKXbNMo","title":"Shadows Over Hormuz (Tankers Sinkin' Like My Ex's Alibi) 😂 Dark Country Roast","published":"Jul 21, 2026","kind":"comedy"},{"id":"as8q9DZbjOU","title":"Scum Shall Pay (Dark Country) | Outlaw Country Revenge | Official Music Video","published":"Jul 21, 2026","kind":"music"},{"id":"CHZMBp44VL4","title":"The Jackal's Reckoning (REMASTERED) | Dark Norse Metal | Official Music Video","published":"Jul 19, 2026","kind":"music"},{"id":"9mabJ3dD6Ug","title":"Jackal! Choke on the pain you caused us! | REMASTERED Full MV 👇 #Shorts","published":"Jul 19, 2026","kind":"music"},{"id":"QoatsvppXeI","title":"F*CK KARMA | Dark Gothic FAFO Metal | Official Music Video","published":"Jul 19, 2026","kind":"music"},{"id":"vR0bXlfAsgc","title":"F*CK KARMA | Purple Choke → Arrows FAFO | Full MV 👇 #Shorts","published":"Jul 19, 2026","kind":"music"},{"id":"juW--GAExlw","title":"I Am the Lantern | Full MV in description 👇 #Shorts","published":"Jul 19, 2026","kind":"music"},{"id":"D_OpW3zWS2U","title":"The Lantern and the Scales | Dark Tarot Metal | Official Music Video","published":"Jul 19, 2026","kind":"music"},{"id":"ydGBFpkNE0g","title":"Pirate Jules Lighting Up the Dark 🎆 #Shorts","published":"Jul 17, 2026","kind":"comedy"},{"id":"KqCpdrSDcMw","title":"Late Night Fireworks with Pirate Jules 🎆","published":"Jul 17, 2026","kind":"comedy"},{"id":"xg3wKc_KZCY","title":"Binding Ward - Salt-Thunder Reckoning | Dark Viking Metal AI Music Video","published":"Jul 14, 2026","kind":"music"},{"id":"U5x3y2Iv3H4","title":"I Curse You With a Burning Rectal Itch 🧙‍♂️ Norse Wizard's Filthy Imp Curse (You Deserved This)","published":"Jul 13, 2026","kind":"music"},{"id":"6IaMXcC8tfg","title":"Jackal! Feel the pain you caused us! | Full MV 👇 #Shorts","published":"Jul 13, 2026","kind":"music"},{"id":"OCO9RCIN3uE","title":"No mercy. No God. You will burn. 🔥 #Shorts","published":"Jul 13, 2026","kind":"music"},{"id":"vi2AaRC-JKY","title":"Al-geez rise! ⚡ #Shorts","published":"Jul 13, 2026","kind":"music"},{"id":"JFE89gAS6Wc","title":"Predator's Reckoning - No Grave Deep Enough | Dark Industrial Metal AI Music Video","published":"Jul 12, 2026","kind":"music"},{"id":"fZIu7fI2KrI","title":"The Jackal's Reckoning | Dark Norse Metal | Official Music Video","published":"Jul 12, 2026","kind":"music"}]</script>
         <!-- VIDEOS-DATA:END -->
     </main>
 
@@ -614,65 +787,223 @@
     </footer>
 
     <script>
-        // Random pick from the channel catalog on every visit.
-        // Catalog lives in #videos-data (JSON) — refresh with: update-dark-fleet-videos
-        const PICK = 6;
-        const catalog = JSON.parse(document.getElementById('videos-data').textContent);
-        for (let i = catalog.length - 1; i > 0; i--) {
-            const j = Math.floor(Math.random() * (i + 1));
-            [catalog[i], catalog[j]] = [catalog[j], catalog[i]];
-        }
-        const gallery = document.getElementById('gallery');
-        catalog.slice(0, PICK).forEach(v => {
-            const card = document.createElement('article');
-            card.className = 'video-card';
+        /**
+         * Dark Fleet gallery — in-page Music ↔ Comedy toggle (no second page).
+         * Catalog: #videos-data JSON (kind: music|comedy). Refresh: update-dark-fleet-videos
+         */
+        (() => {
+            const PICK = 9;
+            const BLURBS = {
+                music: "Dark AI music videos — Norse metal, dark country, memorial ballads, and ritual heat. Forged with industrial fire. Haul these bounties aboard.",
+                comedy: "Absurdist / raunchy comedy shorts — Valhalla denials, hell spit-roast dinners, jumpstyle wasteland parodies. You died wrong. Bureaucracy said no."
+            };
+            const LABELS = { music: "Music Videos", comedy: "Comedy Shorts" };
 
-            const thumb = document.createElement('div');
-            thumb.className = 'video-thumbnail';
-            const a = document.createElement('a');
-            a.href = 'https://www.youtube.com/watch?v=' + v.id;
-            a.target = '_blank';
-            a.rel = 'noopener noreferrer';
-            const img = document.createElement('img');
-            img.src = 'https://img.youtube.com/vi/' + v.id + '/hqdefault.jpg';
-            img.alt = v.title;
-            img.loading = 'lazy';
-            const play = document.createElement('div');
-            play.className = 'play-button';
-            play.textContent = '\u25B6';
-            a.append(img, play);
-            thumb.appendChild(a);
+            const catalog = JSON.parse(document.getElementById("videos-data").textContent);
+            const byKind = {
+                music: catalog.filter((v) => (v.kind || "music") === "music"),
+                comedy: catalog.filter((v) => v.kind === "comedy")
+            };
 
-            const info = document.createElement('div');
-            info.className = 'video-info';
-            const h3 = document.createElement('h3');
-            h3.className = 'video-title';
-            h3.textContent = v.title;
-            const desc = document.createElement('p');
-            desc.className = 'video-description';
-            desc.textContent = 'Watch on YouTube \u00B7 ' + v.published;
-            info.append(h3, desc);
+            const gallery = document.getElementById("gallery");
+            const fleetSwitch = document.getElementById("fleet-switch");
+            const heroBlurb = document.getElementById("hero-blurb");
+            const fleetLabel = document.getElementById("fleet-label");
+            const fleetCount = document.getElementById("fleet-count");
+            const tickerTrack = document.getElementById("ticker-track");
+            const prefersReduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
-            card.append(thumb, info);
-            gallery.appendChild(card);
-        });
+            let io = null;
+            let active = "music";
+            let swapping = false;
 
-        // Scroll reveal (added by JS only — no-JS keeps cards visible)
-        const cards = document.querySelectorAll('.video-card');
-        cards.forEach((card, i) => {
-            card.classList.add('reveal');
-            card.style.transitionDelay = (i % 3) * 0.09 + 's';
-        });
-        const io = new IntersectionObserver(entries => {
-            entries.forEach(e => {
-                if (e.isIntersecting) {
-                    e.target.classList.add('is-in');
-                    io.unobserve(e.target);
-                    setTimeout(() => { e.target.style.transitionDelay = '0s'; }, 900);
+            function shuffle(arr) {
+                const a = arr.slice();
+                for (let i = a.length - 1; i > 0; i--) {
+                    const j = Math.floor(Math.random() * (i + 1));
+                    [a[i], a[j]] = [a[j], a[i]];
                 }
+                return a;
+            }
+
+            function shortTitle(t) {
+                return String(t || "")
+                    .replace(/\s*[|·•].*$/, "")
+                    .replace(/#\w+/g, "")
+                    .replace(/\s+/g, " ")
+                    .trim()
+                    .slice(0, 42);
+            }
+
+            function buildTicker(kind) {
+                if (!tickerTrack) return;
+                const pool = byKind[kind].length ? byKind[kind] : catalog;
+                const names = shuffle(pool).slice(0, 8).map((v) => shortTitle(v.title) || "Dark Fleet");
+                const loop = names.length ? names : ["Dark Fleet"];
+                const parts = [...loop, ...loop];
+                tickerTrack.innerHTML = "";
+                parts.forEach((name, i) => {
+                    const span = document.createElement("span");
+                    span.textContent = name;
+                    tickerTrack.appendChild(span);
+                    const diamond = document.createElement("span");
+                    diamond.innerHTML = "<em>◆</em>";
+                    tickerTrack.appendChild(diamond);
+                });
+            }
+
+            function makeCard(v) {
+                const kind = v.kind || "music";
+                const card = document.createElement("article");
+                card.className = "video-card reveal";
+                card.dataset.kind = kind;
+
+                const thumb = document.createElement("div");
+                thumb.className = "video-thumbnail";
+
+                const badge = document.createElement("span");
+                badge.className = "kind-badge";
+                badge.textContent = kind === "comedy" ? "Comedy" : "Music";
+
+                const a = document.createElement("a");
+                a.href = "https://www.youtube.com/watch?v=" + v.id;
+                a.target = "_blank";
+                a.rel = "noopener noreferrer";
+                a.setAttribute("aria-label", "Watch " + v.title + " on YouTube");
+
+                const img = document.createElement("img");
+                img.src = "https://img.youtube.com/vi/" + v.id + "/hqdefault.jpg";
+                img.alt = v.title;
+                img.loading = "lazy";
+                img.decoding = "async";
+
+                const play = document.createElement("div");
+                play.className = "play-button";
+                play.setAttribute("aria-hidden", "true");
+                play.textContent = "\u25B6";
+
+                a.append(img, play);
+                thumb.append(badge, a);
+
+                const info = document.createElement("div");
+                info.className = "video-info";
+                const h3 = document.createElement("h3");
+                h3.className = "video-title";
+                h3.textContent = v.title;
+                const desc = document.createElement("p");
+                desc.className = "video-description";
+                desc.textContent = "Watch on YouTube · " + v.published;
+                info.append(h3, desc);
+
+                card.append(thumb, info);
+                return card;
+            }
+
+            function wireReveal(cards) {
+                if (io) {
+                    io.disconnect();
+                    io = null;
+                }
+                if (prefersReduced || !("IntersectionObserver" in window)) {
+                    cards.forEach((c) => c.classList.add("is-in"));
+                    return;
+                }
+                cards.forEach((card, i) => {
+                    card.style.transitionDelay = (i % 3) * 0.09 + "s";
+                });
+                io = new IntersectionObserver(
+                    (entries) => {
+                        entries.forEach((e) => {
+                            if (e.isIntersecting) {
+                                e.target.classList.add("is-in");
+                                io.unobserve(e.target);
+                                setTimeout(() => {
+                                    e.target.style.transitionDelay = "0s";
+                                }, 900);
+                            }
+                        });
+                    },
+                    { threshold: 0.12 }
+                );
+                cards.forEach((c) => io.observe(c));
+            }
+
+            function render(kind, { animate } = { animate: true }) {
+                const pool = byKind[kind] || [];
+                const picks = shuffle(pool).slice(0, Math.min(PICK, pool.length || 0));
+
+                const paint = () => {
+                    gallery.innerHTML = "";
+                    if (!picks.length) {
+                        const empty = document.createElement("p");
+                        empty.className = "hero-description";
+                        empty.style.gridColumn = "1 / -1";
+                        empty.textContent = "No vessels in this fleet yet — check back after the next haul.";
+                        gallery.appendChild(empty);
+                    } else {
+                        picks.forEach((v) => gallery.appendChild(makeCard(v)));
+                    }
+                    wireReveal([...gallery.querySelectorAll(".video-card")]);
+                    fleetLabel.textContent = LABELS[kind] || kind;
+                    fleetCount.textContent = picks.length + " of " + pool.length;
+                    heroBlurb.textContent = BLURBS[kind] || BLURBS.music;
+                    gallery.setAttribute("aria-labelledby", kind === "comedy" ? "tab-comedy" : "tab-music");
+                    buildTicker(kind);
+                    gallery.classList.remove("is-swapping");
+                    gallery.classList.add("is-ready");
+                    swapping = false;
+                };
+
+                if (!animate || prefersReduced) {
+                    paint();
+                    return;
+                }
+
+                swapping = true;
+                gallery.classList.remove("is-ready");
+                gallery.classList.add("is-swapping");
+                setTimeout(paint, 280);
+            }
+
+            function setFleet(kind, { pushHash } = { pushHash: true }) {
+                if (kind !== "music" && kind !== "comedy") kind = "music";
+                if (swapping && kind === active) return;
+                active = kind;
+                fleetSwitch.dataset.active = kind;
+                fleetSwitch.querySelectorAll("button[data-fleet]").forEach((btn) => {
+                    const on = btn.dataset.fleet === kind;
+                    btn.setAttribute("aria-pressed", on ? "true" : "false");
+                    btn.setAttribute("aria-selected", on ? "true" : "false");
+                });
+                if (pushHash) {
+                    const url = new URL(window.location.href);
+                    url.hash = kind === "comedy" ? "comedy" : "music";
+                    history.replaceState(null, "", url.pathname + url.search + url.hash);
+                }
+                render(kind, { animate: true });
+            }
+
+            fleetSwitch.querySelectorAll("button[data-fleet]").forEach((btn) => {
+                btn.addEventListener("click", () => setFleet(btn.dataset.fleet));
             });
-        }, { threshold: 0.12 });
-        cards.forEach(card => io.observe(card));
+
+            // keyboard: left/right on tabs
+            fleetSwitch.addEventListener("keydown", (e) => {
+                if (e.key !== "ArrowLeft" && e.key !== "ArrowRight") return;
+                e.preventDefault();
+                setFleet(active === "music" ? "comedy" : "music");
+            });
+
+            // deep-link: #comedy or #music — no page hop
+            const hash = (location.hash || "").replace(/^#/, "").toLowerCase();
+            const start = hash === "comedy" || hash === "shorts" ? "comedy" : "music";
+            setFleet(start, { pushHash: false });
+
+            window.addEventListener("hashchange", () => {
+                const h = (location.hash || "").replace(/^#/, "").toLowerCase();
+                if (h === "comedy" || h === "music") setFleet(h, { pushHash: false });
+            });
+        })();
     </script>
 </body>
 </html>
