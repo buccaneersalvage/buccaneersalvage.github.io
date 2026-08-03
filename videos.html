@@ -11,29 +11,48 @@
     <meta property="og:description" content="Toggle between dark AI music videos and absurdist comedy shorts — one page, zero reloads.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://buccaneersalvage.github.io/videos.html">
+    <meta property="og:image" content="https://img.youtube.com/vi/xSTeuYSlw60/maxresdefault.jpg">
+    <meta property="og:site_name" content="BuccaneerSalvage">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="The Dark Fleet — Music & Comedy | Cap'n Jules">
     <meta name="twitter:description" content="Dark AI music + hell-desk comedy shorts. Flip fleets live.">
+    <meta name="twitter:image" content="https://img.youtube.com/vi/xSTeuYSlw60/maxresdefault.jpg">
+    <meta name="robots" content="index,follow,max-image-preview:large">
     <link rel="canonical" href="https://buccaneersalvage.github.io/videos.html">
     <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='75' font-size='75'>🎬</text></svg>">
     <title>The Dark Fleet — Music &amp; Comedy | Cap'n Jules the Rustjack</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://img.youtube.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=IBM+Plex+Mono:wght@400;500&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
         "@type": "CollectionPage",
-        "name": "The Dark Fleet - Cap'n Jules",
-        "description": "Curated music video collection",
+        "name": "The Dark Fleet — Cap'n Jules the Rustjack",
+        "description": "Dark AI music videos and absurdist comedy shorts from Cap'n Jules the Rustjack. Music fleet and comedy shorts on one page.",
         "url": "https://buccaneersalvage.github.io/videos.html",
+        "isPartOf": {
+            "@type": "WebSite",
+            "name": "BuccaneerSalvage",
+            "url": "https://buccaneersalvage.github.io"
+        },
         "creator": {
             "@type": "Person",
             "name": "Cap'n Jules the Rustjack",
-            "url": "https://buccaneersalvage.github.io"
-        }
+            "alternateName": "BuccaneerSalvage",
+            "url": "https://buccaneersalvage.github.io",
+            "sameAs": [
+                "https://youtube.com/@buccaneersalvage",
+                "https://buccaneersalvage.github.io"
+            ]
+        },
+        "about": [
+            {"@type": "Thing", "name": "AI music video"},
+            {"@type": "Thing", "name": "Comedy short"}
+        ]
     }
     </script>
 
@@ -235,14 +254,23 @@
             transform: translateZ(0);
         }
 
+        /* Dual prebuilt ticker slots — toggle visibility only (no replaceChildren hitch) */
+        .ticker-slot {
+            overflow: hidden;
+        }
+
+        .ticker-slot[hidden] {
+            display: none !important;
+        }
+
         .ticker-track {
             display: flex;
             flex-direction: row;
             flex-wrap: nowrap;
             width: max-content;
-            /* compositor layer; keyframes set in JS as exact pixel distance */
+            /* compositor layer; WAAPI sets exact pixel distance */
             transform: translate3d(0, 0, 0);
-            will-change: transform;
+            /* will-change only while running — set in JS when intersecting */
             backface-visibility: hidden;
             pointer-events: none;
         }
@@ -317,7 +345,7 @@
             transition: transform 0.22s var(--ease);
             z-index: 0;
             pointer-events: none;
-            will-change: transform;
+            /* short transition only — no permanent will-change (soft-GL layer spam) */
         }
 
         .fleet-switch[data-active="comedy"] .fleet-glider {
@@ -379,6 +407,7 @@
             letter-spacing: 0.1em;
             text-transform: uppercase;
             color: var(--text-light);
+            contain: layout style;
         }
 
         .fleet-meta strong {
@@ -846,9 +875,14 @@
             </div>
         </div>
 
-        <!-- Single WAAPI marquee (pixel-exact loop — no CSS -50% / RAF rounding stutter) -->
+        <!-- Dual WAAPI marquees — prebuilt per fleet; visibility swap only -->
         <div class="ticker" id="ticker" aria-hidden="true">
-            <div class="ticker-track" id="ticker-track"></div>
+            <div class="ticker-slot" id="ticker-slot-music" data-kind="music">
+                <div class="ticker-track" id="ticker-track-music"></div>
+            </div>
+            <div class="ticker-slot" id="ticker-slot-comedy" data-kind="comedy" hidden>
+                <div class="ticker-track" id="ticker-track-comedy"></div>
+            </div>
         </div>
 
         <!-- Dual prebuilt fleets — toggle swaps panels only (no rebuild) -->
@@ -881,8 +915,8 @@
     <script>
         /**
          * Dark Fleet — Music ↔ Comedy toggle (no second page, no DOM rebuild).
-         * Perf (2026-08-03 free-agent review): dual prebuilt panels, no backdrop-filter,
-         * no filter:blur swap, no 280ms wipe, touch targets ≥48px, reduced-motion instant.
+         * Perf: dual prebuilt panels + dual tickers, WAAPI px marquee, no backdrop-filter.
+         * Free-agent pass 2026-08-03: no toggle img thrash, resize guard, IO cache, will-change on.
          * Catalog: #videos-data (kind). Refresh: update-dark-fleet-videos
          */
         (() => {
@@ -893,10 +927,16 @@
             };
             const LABELS = { music: "Music Videos", comedy: "Comedy Shorts" };
 
-            const catalog = JSON.parse(document.getElementById("videos-data").textContent);
+            let catalog = [];
+            try {
+                catalog = JSON.parse(document.getElementById("videos-data").textContent || "[]");
+                if (!Array.isArray(catalog)) catalog = [];
+            } catch (e) {
+                catalog = [];
+            }
             const byKind = {
-                music: catalog.filter((v) => (v.kind || "music") === "music"),
-                comedy: catalog.filter((v) => v.kind === "comedy")
+                music: catalog.filter((v) => v && (v.kind || "music") === "music" && /^[\w-]{6,}$/.test(v.id || "")),
+                comedy: catalog.filter((v) => v && v.kind === "comedy" && /^[\w-]{6,}$/.test(v.id || ""))
             };
 
             const panels = {
@@ -908,19 +948,28 @@
             const fleetLabel = document.getElementById("fleet-label");
             const fleetCount = document.getElementById("fleet-count");
             const tickerEl = document.getElementById("ticker");
-            const tickerTrack = document.getElementById("ticker-track");
+            const tickerSlots = {
+                music: document.getElementById("ticker-slot-music"),
+                comedy: document.getElementById("ticker-slot-comedy")
+            };
+            const tickerTracks = {
+                music: document.getElementById("ticker-track-music"),
+                comedy: document.getElementById("ticker-track-comedy")
+            };
             const prefersReduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
             const counts = { music: 0, comedy: 0 };
             let active = "music";
+            const bootHash = (location.hash || "").replace(/^#/, "").toLowerCase();
+            const bootKind = bootHash === "comedy" || bootHash === "shorts" ? "comedy" : "music";
 
-            /* ── Smooth marquee: Web Animations API, pixel-exact loop ──
-               CSS -50% keyframes + RAF Math.round both stutter on soft-GL;
-               browser compositor interpolates linear translate3d(px) cleanly. */
+            /* ── Dual WAAPI marquees (prebuilt; fleet switch = show/hide only) ── */
             const tickerState = {
-                half: 0,
-                anim: null,
+                kind: bootKind,
+                anims: { music: null, comedy: null },
+                half: { music: 0, comedy: 0 },
+                lastWidth: { music: 0, comedy: 0 },
                 paused: false,
-                /* px/s — crawl pace; duration derived from measured half-width */
+                onScreen: true,
                 speed: 48,
                 names: { music: [], comedy: [] }
             };
@@ -968,98 +1017,107 @@
                 });
             }
 
-            function measureHalf() {
-                const seq = tickerTrack && tickerTrack.firstElementChild;
-                /* offsetWidth = integer CSS px — seamless wrap, no subpixel seam */
-                tickerState.half = seq ? seq.offsetWidth : 0;
-                return tickerState.half;
+            function stopTickerAnim(kind) {
+                const a = tickerState.anims[kind];
+                if (!a) return;
+                try {
+                    a.cancel();
+                } catch (e) { /* ignore */ }
+                tickerState.anims[kind] = null;
             }
 
-            function stopTickerAnim() {
-                if (tickerState.anim) {
-                    try {
-                        tickerState.anim.cancel();
-                    } catch (e) { /* ignore */ }
-                    tickerState.anim = null;
-                }
+            function setTrackWillChange(kind, on) {
+                const track = tickerTracks[kind];
+                if (track) track.style.willChange = on ? "transform" : "auto";
             }
 
-            function restartTickerAnim() {
-                if (!tickerTrack || prefersReduced) return;
-                stopTickerAnim();
-                /* force layout after DOM swap so half is real */
-                void tickerTrack.offsetWidth;
-                const half = measureHalf();
+            function restartTickerAnim(kind) {
+                const track = tickerTracks[kind];
+                if (!track || prefersReduced) return;
+                stopTickerAnim(kind);
+                void track.offsetWidth;
+                const seq = track.firstElementChild;
+                const half = seq ? seq.offsetWidth : 0;
+                tickerState.half[kind] = half;
+                tickerState.lastWidth[kind] = track.scrollWidth || 0;
                 if (half < 2) return;
 
                 const ms = Math.max(12000, Math.round((half / tickerState.speed) * 1000));
-                /* Element.animate → compositor; linear; exact -half px loop */
-                tickerState.anim = tickerTrack.animate(
+                tickerState.anims[kind] = track.animate(
                     [
                         { transform: "translate3d(0,0,0)" },
                         { transform: "translate3d(" + -half + "px,0,0)" }
                     ],
-                    {
-                        duration: ms,
-                        iterations: Infinity,
-                        easing: "linear"
-                    }
+                    { duration: ms, iterations: Infinity, easing: "linear" }
                 );
-                if (tickerState.paused) {
+                const shouldRun = !tickerState.paused && tickerState.onScreen && kind === tickerState.kind && !document.hidden;
+                setTrackWillChange(kind, shouldRun);
+                if (!shouldRun) {
                     try {
-                        tickerState.anim.pause();
+                        tickerState.anims[kind].pause();
                     } catch (e) { /* ignore */ }
                 }
             }
 
+            function applyTickerPauseState() {
+                const paused = tickerState.paused || !tickerState.onScreen || document.hidden;
+                ["music", "comedy"].forEach((kind) => {
+                    const a = tickerState.anims[kind];
+                    const activeKind = kind === tickerState.kind;
+                    const run = !paused && activeKind;
+                    setTrackWillChange(kind, run);
+                    if (!a) return;
+                    try {
+                        if (run) a.play();
+                        else a.pause();
+                    } catch (e) { /* ignore */ }
+                });
+            }
+
             function setTickerPaused(paused) {
                 tickerState.paused = !!paused;
-                if (!tickerState.anim) return;
-                try {
-                    if (tickerState.paused) tickerState.anim.pause();
-                    else tickerState.anim.play();
-                } catch (e) { /* ignore */ }
+                applyTickerPauseState();
             }
 
-            function loadTickerContent(kind) {
-                if (!tickerTrack || prefersReduced) return;
+            function buildTicker(kind) {
+                const track = tickerTracks[kind];
+                if (!track || prefersReduced) return;
                 const names = tickerState.names[kind] || tickerState.names.music;
-                tickerTrack.replaceChildren(makeSeq(names), makeSeq(names));
-                restartTickerAnim();
-            }
-
-            function startTicker() {
-                if (prefersReduced || !tickerTrack) {
-                    if (tickerEl) tickerEl.style.display = "none";
-                    return;
-                }
-                if (!tickerState.anim) restartTickerAnim();
+                track.replaceChildren(makeSeq(names), makeSeq(names));
+                restartTickerAnim(kind);
             }
 
             function showTicker(kind) {
                 if (prefersReduced) return;
-                loadTickerContent(kind);
+                if (kind !== "music" && kind !== "comedy") kind = "music";
+                tickerState.kind = kind;
+                Object.keys(tickerSlots).forEach((k) => {
+                    const slot = tickerSlots[k];
+                    if (!slot) return;
+                    const on = k === kind;
+                    slot.hidden = !on;
+                });
+                applyTickerPauseState();
             }
 
-            /* Pause when tab hidden or ticker off-screen — WAAPI freezes mid-frame (no catch-up jump) */
+            function startTickers() {
+                if (prefersReduced) {
+                    if (tickerEl) tickerEl.style.display = "none";
+                    return;
+                }
+                buildTicker("music");
+                buildTicker("comedy");
+                showTicker(tickerState.kind);
+            }
+
             document.addEventListener("visibilitychange", () => {
-                if (document.hidden) {
-                    setTickerPaused(true);
-                    return;
-                }
-                if (!tickerEl) {
-                    setTickerPaused(false);
-                    return;
-                }
-                const r = tickerEl.getBoundingClientRect();
-                const onScreen = r.bottom > 0 && r.top < (window.innerHeight || 0);
-                setTickerPaused(!onScreen);
+                applyTickerPauseState();
             });
             if (tickerEl && "IntersectionObserver" in window) {
                 const tio = new IntersectionObserver(
                     (entries) => {
-                        if (document.hidden) return;
-                        setTickerPaused(!entries[0].isIntersecting);
+                        tickerState.onScreen = !!(entries[0] && entries[0].isIntersecting);
+                        applyTickerPauseState();
                     },
                     { threshold: 0.01 }
                 );
@@ -1072,7 +1130,13 @@
                     return () => {
                         clearTimeout(t);
                         t = setTimeout(() => {
-                            if (tickerTrack && tickerTrack.firstElementChild) restartTickerAnim();
+                            const kind = tickerState.kind;
+                            const track = tickerTracks[kind];
+                            if (!track || !track.firstElementChild) return;
+                            const w = track.scrollWidth;
+                            if (w === tickerState.lastWidth[kind]) return;
+                            tickerState.lastWidth[kind] = w;
+                            restartTickerAnim(kind);
                         }, 150);
                     };
                 })(),
@@ -1093,19 +1157,22 @@
                 badge.textContent = kind === "comedy" ? "Comedy" : "Music";
 
                 const a = document.createElement("a");
+                /* id already filtered to [\w-] — still encode for URL safety */
                 a.href = "https://www.youtube.com/watch?v=" + encodeURIComponent(v.id);
                 a.target = "_blank";
                 a.rel = "noopener noreferrer";
+                a.referrerPolicy = "strict-origin-when-cross-origin";
                 a.setAttribute("aria-label", "Watch " + v.title + " on YouTube");
 
                 const img = document.createElement("img");
-                img.src = "https://img.youtube.com/vi/" + v.id + "/hqdefault.jpg";
-                img.alt = v.title;
+                img.src = "https://img.youtube.com/vi/" + encodeURIComponent(v.id) + "/hqdefault.jpg";
+                img.alt = v.title || "YouTube video";
                 img.decoding = "async";
-                /* first panel eager-ish; off-panel stays lazy until shown */
                 img.loading = eager ? "eager" : "lazy";
+                if (eager) img.fetchPriority = "high";
                 img.width = 480;
                 img.height = 360;
+                img.referrerPolicy = "no-referrer-when-downgrade";
 
                 const play = document.createElement("div");
                 play.className = "play-button";
@@ -1122,7 +1189,7 @@
                 h3.textContent = v.title;
                 const desc = document.createElement("p");
                 desc.className = "video-description";
-                desc.textContent = "Watch on YouTube · " + v.published;
+                desc.textContent = "Watch on YouTube · " + (v.published || "");
                 info.append(h3, desc);
 
                 card.append(thumb, info);
@@ -1131,6 +1198,7 @@
 
             function fillPanel(kind) {
                 const panel = panels[kind];
+                if (!panel) return;
                 const pool = byKind[kind] || [];
                 const picks = shuffle(pool).slice(0, Math.min(PICK, pool.length));
                 counts[kind] = { shown: picks.length, total: pool.length };
@@ -1142,8 +1210,8 @@
                     empty.textContent = "No vessels in this fleet yet — check back after the next haul.";
                     frag.appendChild(empty);
                 } else {
-                    /* eager only for the default-visible fleet's first row */
-                    picks.forEach((v, i) => frag.appendChild(makeCard(v, kind === "music" && i < 3)));
+                    /* eager only for boot-visible fleet's first row — never thrash on toggle */
+                    picks.forEach((v, i) => frag.appendChild(makeCard(v, kind === bootKind && i < 3)));
                 }
                 panel.replaceChildren(frag);
             }
@@ -1151,16 +1219,11 @@
             function showPanel(kind) {
                 Object.keys(panels).forEach((k) => {
                     const p = panels[k];
+                    if (!p) return;
                     const on = k === kind;
                     p.classList.toggle("is-on", on);
                     p.classList.toggle("is-off", !on);
                     p.hidden = !on;
-                    if (on) {
-                        /* promote lazy imgs when panel first shown */
-                        p.querySelectorAll('img[loading="lazy"]').forEach((img, i) => {
-                            if (i < 3) img.loading = "eager";
-                        });
-                    }
                 });
             }
 
@@ -1174,9 +1237,6 @@
 
             function setFleet(kind, { pushHash } = { pushHash: true }) {
                 if (kind !== "music" && kind !== "comedy") kind = "music";
-                if (kind === active && panels[kind] && !panels[kind].hidden) {
-                    /* still update hash if needed */
-                }
                 active = kind;
                 fleetSwitch.dataset.active = kind;
                 fleetSwitch.querySelectorAll("button[data-fleet]").forEach((btn) => {
@@ -1194,17 +1254,12 @@
                 }
             }
 
-            /* Build BOTH fleets once; marquee content swaps by kind via WAAPI engine */
+            /* Build BOTH fleets + both tickers once; toggle = visibility only */
             fillPanel("music");
             fillPanel("comedy");
             prepareTickerNames();
             const bootTicker = () => {
-                loadTickerContent(
-                    (location.hash || "").replace(/^#/, "").toLowerCase() === "comedy"
-                        ? "comedy"
-                        : "music"
-                );
-                startTicker();
+                startTickers();
             };
             if (document.fonts && document.fonts.ready) {
                 document.fonts.ready.then(bootTicker).catch(bootTicker);
@@ -1224,9 +1279,7 @@
                 setFleet(active === "music" ? "comedy" : "music");
             });
 
-            const hash = (location.hash || "").replace(/^#/, "").toLowerCase();
-            const start = hash === "comedy" || hash === "shorts" ? "comedy" : "music";
-            setFleet(start, { pushHash: false });
+            setFleet(bootKind, { pushHash: false });
 
             window.addEventListener("hashchange", () => {
                 const h = (location.hash || "").replace(/^#/, "").toLowerCase();

@@ -2,8 +2,8 @@
 
 # Apply to all paths
 /*
-  # Content Security Policy - prevents XSS attacks
-  Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; font-src 'self'; connect-src 'self'
+  # Content Security Policy — allow YT thumbs + Google Fonts used by hub pages
+  Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; img-src 'self' data: https://img.youtube.com https://i.ytimg.com https:; font-src 'self' data: https://fonts.gstatic.com; connect-src 'self'; base-uri 'self'; form-action 'self'; frame-ancestors 'self'; object-src 'none'
 
   # Prevent MIME type sniffing
   X-Content-Type-Options: nosniff
