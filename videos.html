@@ -1094,9 +1094,12 @@
                 Object.keys(tickerSlots).forEach((k) => {
                     const slot = tickerSlots[k];
                     if (!slot) return;
-                    const on = k === kind;
-                    slot.hidden = !on;
+                    slot.hidden = k !== kind;
                 });
+                /* Hidden slots measure as width 0 — (re)start WAAPI only once visible */
+                if (!tickerState.anims[kind] || tickerState.half[kind] < 2) {
+                    restartTickerAnim(kind);
+                }
                 applyTickerPauseState();
             }
 
