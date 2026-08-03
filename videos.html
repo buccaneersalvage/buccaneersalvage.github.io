@@ -221,89 +221,56 @@
             font-style: italic;
         }
 
-        /* Ticker — dual prebuilt tracks, GPU-friendly loop (no rebuild on fleet switch) */
+        /* Ticker — WAAPI linear translate3d(px) (not CSS -50%, not RAF Math.round) */
         .ticker {
             overflow: hidden;
             border-top: 1px solid rgba(212, 175, 55, 0.25);
             border-bottom: 1px solid rgba(212, 175, 55, 0.25);
-            padding: 0.85rem 0;
-            margin: 0 0 3.5rem;
-            background: rgba(10, 8, 4, 0.75);
+            padding: 0.75rem 0;
+            margin: 0 0 3rem;
+            background: #0c0a06;
             position: relative;
-        }
-
-        /* Soft edge fade without CSS mask (mask thrash on soft-GL) */
-        .ticker::before,
-        .ticker::after {
-            content: "";
-            position: absolute;
-            top: 0;
-            bottom: 0;
-            width: 2.5rem;
-            z-index: 1;
-            pointer-events: none;
-        }
-
-        .ticker::before {
-            left: 0;
-            background: linear-gradient(90deg, rgba(10, 8, 4, 0.95), transparent);
-        }
-
-        .ticker::after {
-            right: 0;
-            background: linear-gradient(270deg, rgba(10, 8, 4, 0.95), transparent);
-        }
-
-        .ticker-slot {
-            /* one visible marquee at a time */
-        }
-
-        .ticker-slot[hidden] {
-            display: none !important;
+            /* isolate from page paints; no mask-image (soft-GL stutter) */
+            contain: layout style paint;
+            transform: translateZ(0);
         }
 
         .ticker-track {
             display: flex;
-            align-items: center;
+            flex-direction: row;
+            flex-wrap: nowrap;
             width: max-content;
-            /* translate3d = compositor layer; duration set via --marquee-s */
-            animation: marquee var(--marquee-s, 45s) linear infinite;
+            /* compositor layer; keyframes set in JS as exact pixel distance */
+            transform: translate3d(0, 0, 0);
             will-change: transform;
             backface-visibility: hidden;
+            pointer-events: none;
         }
 
         .ticker-seq {
             display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
             align-items: center;
-            gap: 2rem;
-            padding-right: 2rem;
-            flex-shrink: 0;
-        }
-
-        @media (hover: hover) and (pointer: fine) {
-            .ticker:hover .ticker-track {
-                animation-play-state: paused;
-            }
+            gap: 1.75rem;
+            padding-right: 1.75rem;
+            flex: 0 0 auto;
         }
 
         .ticker-seq span {
             font-family: 'IBM Plex Mono', monospace;
-            font-size: 0.8rem;
-            letter-spacing: 0.12em;
+            font-size: 0.78rem;
+            letter-spacing: 0.1em;
             text-transform: uppercase;
             color: var(--text-light);
             white-space: nowrap;
+            flex: 0 0 auto;
         }
 
         .ticker-seq .sep {
             color: var(--accent-gold);
-            opacity: 0.85;
-            flex-shrink: 0;
-        }
-
-        @keyframes marquee {
-            from { transform: translate3d(0, 0, 0); }
-            to   { transform: translate3d(-50%, 0, 0); }
+            opacity: 0.8;
+            flex: 0 0 auto;
         }
 
         /* ── Fleet switcher (in-page, no second load) ──
@@ -808,19 +775,23 @@
                 background-position: center;
             }
 
-            .ticker-track {
-                /* slightly slower on mobile = fewer paints / smoother soft-GL */
-                animation-duration: calc(var(--marquee-s, 48s) * 1.15);
-            }
-
-            .ticker::before,
-            .ticker::after {
-                width: 1.25rem;
-            }
-
             .nav-links {
                 gap: 1rem;
             }
+        }
+
+        /* Videos page: kill continuous background anims — fight ticker for GPU */
+        .orb {
+            display: none !important;
+        }
+
+        .grain {
+            display: none !important;
+        }
+
+        h1 {
+            animation: none !important;
+            background-position: 50% center;
         }
 
         @media (prefers-reduced-motion: reduce) {
@@ -839,9 +810,8 @@
                 transition: none !important;
             }
 
-            .ticker-track {
-                animation: none !important;
-                transform: none !important;
+            .ticker {
+                display: none !important;
             }
         }
     </style>
@@ -876,14 +846,9 @@
             </div>
         </div>
 
-        <!-- Dual prebuilt marquees — switch visibility only (no restart glitch) -->
-        <div class="ticker" aria-hidden="true">
-            <div class="ticker-slot" id="ticker-music" data-kind="music">
-                <div class="ticker-track" style="--marquee-s: 48s"></div>
-            </div>
-            <div class="ticker-slot" id="ticker-comedy" data-kind="comedy" hidden>
-                <div class="ticker-track" style="--marquee-s: 48s"></div>
-            </div>
+        <!-- Single WAAPI marquee (pixel-exact loop — no CSS -50% / RAF rounding stutter) -->
+        <div class="ticker" id="ticker" aria-hidden="true">
+            <div class="ticker-track" id="ticker-track"></div>
         </div>
 
         <!-- Dual prebuilt fleets — toggle swaps panels only (no rebuild) -->
@@ -942,13 +907,23 @@
             const heroBlurb = document.getElementById("hero-blurb");
             const fleetLabel = document.getElementById("fleet-label");
             const fleetCount = document.getElementById("fleet-count");
-            const tickerSlots = {
-                music: document.getElementById("ticker-music"),
-                comedy: document.getElementById("ticker-comedy")
-            };
+            const tickerEl = document.getElementById("ticker");
+            const tickerTrack = document.getElementById("ticker-track");
             const prefersReduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
             const counts = { music: 0, comedy: 0 };
             let active = "music";
+
+            /* ── Smooth marquee: Web Animations API, pixel-exact loop ──
+               CSS -50% keyframes + RAF Math.round both stutter on soft-GL;
+               browser compositor interpolates linear translate3d(px) cleanly. */
+            const tickerState = {
+                half: 0,
+                anim: null,
+                paused: false,
+                /* px/s — crawl pace; duration derived from measured half-width */
+                speed: 48,
+                names: { music: [], comedy: [] }
+            };
 
             function shuffle(arr) {
                 const a = arr.slice();
@@ -965,13 +940,13 @@
                     .replace(/#\w+/g, "")
                     .replace(/\s+/g, " ")
                     .trim()
-                    .slice(0, 36);
+                    .slice(0, 34);
             }
 
             function makeSeq(names) {
                 const seq = document.createElement("div");
                 seq.className = "ticker-seq";
-                names.forEach((name, i) => {
+                names.forEach((name) => {
                     const span = document.createElement("span");
                     span.textContent = name;
                     seq.appendChild(span);
@@ -984,32 +959,125 @@
                 return seq;
             }
 
-            /** Build once per fleet — two identical halves for seamless -50% loop */
-            function fillTicker(kind) {
-                const slot = tickerSlots[kind];
-                if (!slot) return;
-                const track = slot.querySelector(".ticker-track");
-                if (!track) return;
-                const pool = byKind[kind].length ? byKind[kind] : catalog;
-                const names = (pool.length ? pool : [{ title: "Dark Fleet" }])
-                    .slice(0, 10)
-                    .map((v) => shortTitle(v.title) || "Dark Fleet");
-                /* ~4.5s per label, clamped — steady crawl, not frantic */
-                const secs = Math.max(36, Math.min(70, names.length * 4.5));
-                track.style.setProperty("--marquee-s", secs + "s");
-                track.replaceChildren(makeSeq(names), makeSeq(names));
-                if (prefersReduced) {
-                    track.style.animation = "none";
+            function prepareTickerNames() {
+                ["music", "comedy"].forEach((kind) => {
+                    const pool = byKind[kind].length ? byKind[kind] : catalog;
+                    tickerState.names[kind] = (pool.length ? pool : [{ title: "Dark Fleet" }])
+                        .slice(0, 12)
+                        .map((v) => shortTitle(v.title) || "Dark Fleet");
+                });
+            }
+
+            function measureHalf() {
+                const seq = tickerTrack && tickerTrack.firstElementChild;
+                /* offsetWidth = integer CSS px — seamless wrap, no subpixel seam */
+                tickerState.half = seq ? seq.offsetWidth : 0;
+                return tickerState.half;
+            }
+
+            function stopTickerAnim() {
+                if (tickerState.anim) {
+                    try {
+                        tickerState.anim.cancel();
+                    } catch (e) { /* ignore */ }
+                    tickerState.anim = null;
                 }
             }
 
-            function showTicker(kind) {
-                Object.keys(tickerSlots).forEach((k) => {
-                    const slot = tickerSlots[k];
-                    if (!slot) return;
-                    slot.hidden = k !== kind;
-                });
+            function restartTickerAnim() {
+                if (!tickerTrack || prefersReduced) return;
+                stopTickerAnim();
+                /* force layout after DOM swap so half is real */
+                void tickerTrack.offsetWidth;
+                const half = measureHalf();
+                if (half < 2) return;
+
+                const ms = Math.max(12000, Math.round((half / tickerState.speed) * 1000));
+                /* Element.animate → compositor; linear; exact -half px loop */
+                tickerState.anim = tickerTrack.animate(
+                    [
+                        { transform: "translate3d(0,0,0)" },
+                        { transform: "translate3d(" + -half + "px,0,0)" }
+                    ],
+                    {
+                        duration: ms,
+                        iterations: Infinity,
+                        easing: "linear"
+                    }
+                );
+                if (tickerState.paused) {
+                    try {
+                        tickerState.anim.pause();
+                    } catch (e) { /* ignore */ }
+                }
             }
+
+            function setTickerPaused(paused) {
+                tickerState.paused = !!paused;
+                if (!tickerState.anim) return;
+                try {
+                    if (tickerState.paused) tickerState.anim.pause();
+                    else tickerState.anim.play();
+                } catch (e) { /* ignore */ }
+            }
+
+            function loadTickerContent(kind) {
+                if (!tickerTrack || prefersReduced) return;
+                const names = tickerState.names[kind] || tickerState.names.music;
+                tickerTrack.replaceChildren(makeSeq(names), makeSeq(names));
+                restartTickerAnim();
+            }
+
+            function startTicker() {
+                if (prefersReduced || !tickerTrack) {
+                    if (tickerEl) tickerEl.style.display = "none";
+                    return;
+                }
+                if (!tickerState.anim) restartTickerAnim();
+            }
+
+            function showTicker(kind) {
+                if (prefersReduced) return;
+                loadTickerContent(kind);
+            }
+
+            /* Pause when tab hidden or ticker off-screen — WAAPI freezes mid-frame (no catch-up jump) */
+            document.addEventListener("visibilitychange", () => {
+                if (document.hidden) {
+                    setTickerPaused(true);
+                    return;
+                }
+                if (!tickerEl) {
+                    setTickerPaused(false);
+                    return;
+                }
+                const r = tickerEl.getBoundingClientRect();
+                const onScreen = r.bottom > 0 && r.top < (window.innerHeight || 0);
+                setTickerPaused(!onScreen);
+            });
+            if (tickerEl && "IntersectionObserver" in window) {
+                const tio = new IntersectionObserver(
+                    (entries) => {
+                        if (document.hidden) return;
+                        setTickerPaused(!entries[0].isIntersecting);
+                    },
+                    { threshold: 0.01 }
+                );
+                tio.observe(tickerEl);
+            }
+            window.addEventListener(
+                "resize",
+                (() => {
+                    let t = 0;
+                    return () => {
+                        clearTimeout(t);
+                        t = setTimeout(() => {
+                            if (tickerTrack && tickerTrack.firstElementChild) restartTickerAnim();
+                        }, 150);
+                    };
+                })(),
+                { passive: true }
+            );
 
             function makeCard(v, eager) {
                 const kind = v.kind || "music";
@@ -1126,11 +1194,23 @@
                 }
             }
 
-            /* Build BOTH fleets + marquees once — toggle only flips visibility */
+            /* Build BOTH fleets once; marquee content swaps by kind via WAAPI engine */
             fillPanel("music");
             fillPanel("comedy");
-            fillTicker("music");
-            fillTicker("comedy");
+            prepareTickerNames();
+            const bootTicker = () => {
+                loadTickerContent(
+                    (location.hash || "").replace(/^#/, "").toLowerCase() === "comedy"
+                        ? "comedy"
+                        : "music"
+                );
+                startTicker();
+            };
+            if (document.fonts && document.fonts.ready) {
+                document.fonts.ready.then(bootTicker).catch(bootTicker);
+            } else {
+                bootTicker();
+            }
 
             fleetSwitch.querySelectorAll("button[data-fleet]").forEach((btn) => {
                 btn.addEventListener("click", () => setFleet(btn.dataset.fleet));
