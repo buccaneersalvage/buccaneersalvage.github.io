@@ -221,46 +221,89 @@
             font-style: italic;
         }
 
-        /* Ticker (same marquee as home port) */
+        /* Ticker — dual prebuilt tracks, GPU-friendly loop (no rebuild on fleet switch) */
         .ticker {
             overflow: hidden;
             border-top: 1px solid rgba(212, 175, 55, 0.25);
             border-bottom: 1px solid rgba(212, 175, 55, 0.25);
-            padding: 0.9rem 0;
-            margin: 0 0 5rem;
-            background: rgba(10, 8, 4, 0.6);
-            mask-image: linear-gradient(90deg, transparent, #000 8%, #000 92%, transparent);
-            -webkit-mask-image: linear-gradient(90deg, transparent, #000 8%, #000 92%, transparent);
+            padding: 0.85rem 0;
+            margin: 0 0 3.5rem;
+            background: rgba(10, 8, 4, 0.75);
+            position: relative;
+        }
+
+        /* Soft edge fade without CSS mask (mask thrash on soft-GL) */
+        .ticker::before,
+        .ticker::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            width: 2.5rem;
+            z-index: 1;
+            pointer-events: none;
+        }
+
+        .ticker::before {
+            left: 0;
+            background: linear-gradient(90deg, rgba(10, 8, 4, 0.95), transparent);
+        }
+
+        .ticker::after {
+            right: 0;
+            background: linear-gradient(270deg, rgba(10, 8, 4, 0.95), transparent);
+        }
+
+        .ticker-slot {
+            /* one visible marquee at a time */
+        }
+
+        .ticker-slot[hidden] {
+            display: none !important;
         }
 
         .ticker-track {
             display: flex;
             align-items: center;
-            gap: 2.5rem;
             width: max-content;
-            animation: marquee 30s linear infinite;
+            /* translate3d = compositor layer; duration set via --marquee-s */
+            animation: marquee var(--marquee-s, 45s) linear infinite;
+            will-change: transform;
+            backface-visibility: hidden;
         }
 
-        .ticker:hover .ticker-track {
-            animation-play-state: paused;
+        .ticker-seq {
+            display: flex;
+            align-items: center;
+            gap: 2rem;
+            padding-right: 2rem;
+            flex-shrink: 0;
         }
 
-        .ticker-track span {
+        @media (hover: hover) and (pointer: fine) {
+            .ticker:hover .ticker-track {
+                animation-play-state: paused;
+            }
+        }
+
+        .ticker-seq span {
             font-family: 'IBM Plex Mono', monospace;
             font-size: 0.8rem;
-            letter-spacing: 0.14em;
+            letter-spacing: 0.12em;
             text-transform: uppercase;
             color: var(--text-light);
             white-space: nowrap;
         }
 
-        .ticker-track em {
+        .ticker-seq .sep {
             color: var(--accent-gold);
-            font-style: normal;
+            opacity: 0.85;
+            flex-shrink: 0;
         }
 
         @keyframes marquee {
-            to { transform: translateX(-50%); }
+            from { transform: translate3d(0, 0, 0); }
+            to   { transform: translate3d(-50%, 0, 0); }
         }
 
         /* ── Fleet switcher (in-page, no second load) ──
@@ -765,6 +808,16 @@
                 background-position: center;
             }
 
+            .ticker-track {
+                /* slightly slower on mobile = fewer paints / smoother soft-GL */
+                animation-duration: calc(var(--marquee-s, 48s) * 1.15);
+            }
+
+            .ticker::before,
+            .ticker::after {
+                width: 1.25rem;
+            }
+
             .nav-links {
                 gap: 1rem;
             }
@@ -784,6 +837,11 @@
 
             .fleet-glider {
                 transition: none !important;
+            }
+
+            .ticker-track {
+                animation: none !important;
+                transform: none !important;
             }
         }
     </style>
@@ -818,9 +876,14 @@
             </div>
         </div>
 
-        <!-- Ticker -->
+        <!-- Dual prebuilt marquees — switch visibility only (no restart glitch) -->
         <div class="ticker" aria-hidden="true">
-            <div class="ticker-track" id="ticker-track"></div>
+            <div class="ticker-slot" id="ticker-music" data-kind="music">
+                <div class="ticker-track" style="--marquee-s: 48s"></div>
+            </div>
+            <div class="ticker-slot" id="ticker-comedy" data-kind="comedy" hidden>
+                <div class="ticker-track" style="--marquee-s: 48s"></div>
+            </div>
         </div>
 
         <!-- Dual prebuilt fleets — toggle swaps panels only (no rebuild) -->
@@ -879,7 +942,10 @@
             const heroBlurb = document.getElementById("hero-blurb");
             const fleetLabel = document.getElementById("fleet-label");
             const fleetCount = document.getElementById("fleet-count");
-            const tickerTrack = document.getElementById("ticker-track");
+            const tickerSlots = {
+                music: document.getElementById("ticker-music"),
+                comedy: document.getElementById("ticker-comedy")
+            };
             const prefersReduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
             const counts = { music: 0, comedy: 0 };
             let active = "music";
@@ -899,26 +965,50 @@
                     .replace(/#\w+/g, "")
                     .replace(/\s+/g, " ")
                     .trim()
-                    .slice(0, 42);
+                    .slice(0, 36);
             }
 
-            function buildTicker(kind) {
-                if (!tickerTrack) return;
-                const pool = byKind[kind].length ? byKind[kind] : catalog;
-                const names = pool.slice(0, 8).map((v) => shortTitle(v.title) || "Dark Fleet");
-                const loop = names.length ? names : ["Dark Fleet"];
-                const frag = document.createDocumentFragment();
-                [...loop, ...loop].forEach((name) => {
+            function makeSeq(names) {
+                const seq = document.createElement("div");
+                seq.className = "ticker-seq";
+                names.forEach((name, i) => {
                     const span = document.createElement("span");
                     span.textContent = name;
-                    frag.appendChild(span);
-                    const diamond = document.createElement("span");
-                    const em = document.createElement("em");
-                    em.textContent = "◆";
-                    diamond.appendChild(em);
-                    frag.appendChild(diamond);
+                    seq.appendChild(span);
+                    const sep = document.createElement("span");
+                    sep.className = "sep";
+                    sep.textContent = "◆";
+                    sep.setAttribute("aria-hidden", "true");
+                    seq.appendChild(sep);
                 });
-                tickerTrack.replaceChildren(frag);
+                return seq;
+            }
+
+            /** Build once per fleet — two identical halves for seamless -50% loop */
+            function fillTicker(kind) {
+                const slot = tickerSlots[kind];
+                if (!slot) return;
+                const track = slot.querySelector(".ticker-track");
+                if (!track) return;
+                const pool = byKind[kind].length ? byKind[kind] : catalog;
+                const names = (pool.length ? pool : [{ title: "Dark Fleet" }])
+                    .slice(0, 10)
+                    .map((v) => shortTitle(v.title) || "Dark Fleet");
+                /* ~4.5s per label, clamped — steady crawl, not frantic */
+                const secs = Math.max(36, Math.min(70, names.length * 4.5));
+                track.style.setProperty("--marquee-s", secs + "s");
+                track.replaceChildren(makeSeq(names), makeSeq(names));
+                if (prefersReduced) {
+                    track.style.animation = "none";
+                }
+            }
+
+            function showTicker(kind) {
+                Object.keys(tickerSlots).forEach((k) => {
+                    const slot = tickerSlots[k];
+                    if (!slot) return;
+                    slot.hidden = k !== kind;
+                });
             }
 
             function makeCard(v, eager) {
@@ -1011,7 +1101,7 @@
                 fleetLabel.textContent = LABELS[kind] || kind;
                 fleetCount.textContent = c.shown + " of " + c.total;
                 heroBlurb.textContent = BLURBS[kind] || BLURBS.music;
-                buildTicker(kind);
+                showTicker(kind);
             }
 
             function setFleet(kind, { pushHash } = { pushHash: true }) {
@@ -1036,9 +1126,11 @@
                 }
             }
 
-            /* Build BOTH fleets once at load — toggle only flips visibility */
+            /* Build BOTH fleets + marquees once — toggle only flips visibility */
             fillPanel("music");
             fillPanel("comedy");
+            fillTicker("music");
+            fillTicker("comedy");
 
             fleetSwitch.querySelectorAll("button[data-fleet]").forEach((btn) => {
                 btn.addEventListener("click", () => setFleet(btn.dataset.fleet));
