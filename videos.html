@@ -263,20 +263,24 @@
             to { transform: translateX(-50%); }
         }
 
-        /* ── Fleet switcher (in-page, no second load) ── */
+        /* ── Fleet switcher (in-page, no second load) ──
+           Perf: solid bg (no backdrop-filter), dual prebuilt panels, opacity-only swap */
         .fleet-dock {
             display: flex;
             flex-direction: column;
             align-items: center;
-            gap: 1.1rem;
-            margin: 0 0 2.75rem;
+            gap: 0.85rem;
+            margin: 0 0 2.25rem;
             position: sticky;
-            top: 0.75rem;
+            top: 0;
             z-index: 40;
+            padding: 0.55rem 0.5rem 0.65rem;
+            /* solid dock — no live blur (kills soft-GL / mobile) */
+            background: linear-gradient(180deg, rgba(10, 8, 4, 0.97) 0%, rgba(10, 8, 4, 0.88) 70%, transparent 100%);
         }
 
         .fleet-switch {
-            --pad: 5px;
+            --pad: 4px;
             position: relative;
             display: grid;
             grid-template-columns: 1fr 1fr;
@@ -285,13 +289,10 @@
             width: min(540px, 100%);
             border-radius: 999px;
             border: 1px solid rgba(212, 175, 55, 0.55);
-            background:
-                linear-gradient(180deg, rgba(26, 20, 16, 0.92), rgba(10, 8, 4, 0.95));
+            background: #14100c;
             box-shadow:
-                0 12px 40px rgba(0, 0, 0, 0.45),
+                0 10px 28px rgba(0, 0, 0, 0.4),
                 inset 0 1px 0 rgba(255, 233, 168, 0.08);
-            backdrop-filter: blur(12px);
-            -webkit-backdrop-filter: blur(12px);
         }
 
         .fleet-glider {
@@ -302,14 +303,15 @@
             width: calc(50% - var(--pad));
             border-radius: 999px;
             background: linear-gradient(135deg, #8a6d1f 0%, var(--accent-gold) 45%, #ffe9a8 100%);
-            box-shadow: 0 0 28px rgba(212, 175, 55, 0.45), inset 0 1px 0 rgba(255, 255, 255, 0.35);
-            transition: transform 0.45s var(--ease);
+            box-shadow: 0 0 22px rgba(212, 175, 55, 0.4), inset 0 1px 0 rgba(255, 255, 255, 0.35);
+            transition: transform 0.22s var(--ease);
             z-index: 0;
             pointer-events: none;
+            will-change: transform;
         }
 
         .fleet-switch[data-active="comedy"] .fleet-glider {
-            transform: translateX(100%);
+            transform: translate3d(100%, 0, 0);
         }
 
         .fleet-switch button {
@@ -321,21 +323,29 @@
             color: var(--text-light);
             font-family: 'Outfit', sans-serif;
             font-weight: 600;
-            font-size: 0.95rem;
+            font-size: 0.92rem;
             letter-spacing: 0.08em;
             text-transform: uppercase;
-            padding: 0.95rem 1.1rem;
+            /* ≥44px touch target */
+            min-height: 48px;
+            padding: 0.85rem 1rem;
             border-radius: 999px;
             cursor: pointer;
-            transition: color 0.3s ease;
+            transition: color 0.2s ease;
             display: inline-flex;
             align-items: center;
             justify-content: center;
             gap: 0.45rem;
+            -webkit-tap-highlight-color: transparent;
+            touch-action: manipulation;
         }
 
         .fleet-switch button[aria-pressed="true"] {
             color: var(--primary);
+        }
+
+        .fleet-switch button:active {
+            transform: scale(0.98);
         }
 
         .fleet-switch button:focus-visible {
@@ -353,10 +363,10 @@
             flex-wrap: wrap;
             align-items: center;
             justify-content: center;
-            gap: 0.75rem 1.25rem;
+            gap: 0.55rem 1rem;
             font-family: 'IBM Plex Mono', monospace;
-            font-size: 0.78rem;
-            letter-spacing: 0.12em;
+            font-size: 0.8rem;
+            letter-spacing: 0.1em;
             text-transform: uppercase;
             color: var(--text-light);
         }
@@ -370,10 +380,10 @@
             display: inline-flex;
             align-items: center;
             gap: 0.4rem;
-            padding: 0.35rem 0.75rem;
+            padding: 0.4rem 0.75rem;
             border-radius: 999px;
             border: 1px solid rgba(212, 175, 55, 0.28);
-            background: rgba(10, 8, 4, 0.55);
+            background: rgba(10, 8, 4, 0.75);
         }
 
         .fleet-chip em {
@@ -383,22 +393,30 @@
 
         .gallery-shell {
             position: relative;
-            min-height: 280px;
+            min-height: 240px;
         }
 
-        .gallery.is-swapping {
-            opacity: 0;
-            transform: translateY(12px) scale(0.985);
-            filter: blur(2px);
-            pointer-events: none;
-            transition: opacity 0.28s ease, transform 0.28s var(--ease), filter 0.28s ease;
+        /* Dual prebuilt panels — toggle visibility only (no DOM rebuild / no filter blur) */
+        .gallery-panel {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 2.5rem;
+            margin: 3rem 0;
         }
 
-        .gallery.is-ready {
-            opacity: 1;
-            transform: none;
-            filter: none;
-            transition: opacity 0.38s var(--ease), transform 0.38s var(--ease), filter 0.38s ease;
+        .gallery-panel[hidden],
+        .gallery-panel.is-off {
+            display: none !important;
+        }
+
+        .gallery-panel.is-on {
+            display: grid;
+            animation: fleet-in 0.18s var(--ease) both;
+        }
+
+        @keyframes fleet-in {
+            from { opacity: 0.35; transform: translate3d(0, 6px, 0); }
+            to   { opacity: 1; transform: translate3d(0, 0, 0); }
         }
 
         .video-card .kind-badge {
@@ -412,10 +430,10 @@
             text-transform: uppercase;
             padding: 0.35rem 0.55rem;
             border-radius: 4px;
-            background: rgba(10, 8, 4, 0.78);
+            background: rgba(10, 8, 4, 0.88);
             border: 1px solid rgba(212, 175, 55, 0.45);
             color: var(--accent-gold);
-            backdrop-filter: blur(4px);
+            /* no backdrop-filter */
         }
 
         .video-card[data-kind="comedy"] .kind-badge {
@@ -442,8 +460,11 @@
             border-radius: 12px;
             background: rgba(26, 20, 16, 0.6);
             overflow: hidden;
-            transition: transform 0.5s var(--ease), border-color 0.35s ease, box-shadow 0.5s var(--ease), opacity 0.32s ease;
+            transition: transform 0.35s var(--ease), border-color 0.25s ease, box-shadow 0.35s var(--ease);
             position: relative;
+            contain: content;
+            content-visibility: auto;
+            contain-intrinsic-size: 360px 320px;
         }
 
         /* rotating conic border light on hover */
@@ -474,10 +495,12 @@
             transform: translateY(-6px);
         }
 
-        /* spin only while hovered — never animates on an idle page */
-        .video-card:hover::before {
-            opacity: 1;
-            animation: spin-angle 4s linear infinite;
+        /* Spin only on fine-pointer hover — never on touch / idle page */
+        @media (hover: hover) and (pointer: fine) {
+            .video-card:hover::before {
+                opacity: 1;
+                animation: spin-angle 4s linear infinite;
+            }
         }
 
         /* filter fade + scroll reveal states */
@@ -524,9 +547,11 @@
             transition: transform 0.7s var(--ease), filter 0.5s ease;
         }
 
-        .video-card:hover .video-thumbnail img {
-            transform: scale(1.09);
-            filter: saturate(1.15) contrast(1.05);
+        /* Hover zoom only on real hover devices — skips touch-hover sticky bugs + GPU cost */
+        @media (hover: hover) and (pointer: fine) {
+            .video-card:hover .video-thumbnail img {
+                transform: scale(1.07);
+            }
         }
 
         /* bottom scrim + shine sweep */
@@ -565,9 +590,7 @@
             z-index: 2;
             width: 70px;
             height: 70px;
-            background: rgba(212, 175, 55, 0.85);
-            backdrop-filter: blur(6px);
-            -webkit-backdrop-filter: blur(6px);
+            background: rgba(212, 175, 55, 0.9);
             border-radius: 50%;
             display: flex;
             align-items: center;
@@ -702,14 +725,44 @@
                 font-size: 2.5rem;
             }
 
-            .gallery {
+            main {
+                padding: 2rem 1rem;
+            }
+
+            .hero {
+                padding: 2.5rem 1.15rem;
+            }
+
+            .gallery,
+            .gallery-panel {
                 grid-template-columns: 1fr;
+                gap: 1.5rem;
+                margin: 1.5rem 0;
             }
 
             .fleet-switch button {
                 font-size: 0.78rem;
-                padding: 0.85rem 0.55rem;
+                padding: 0.75rem 0.4rem;
                 letter-spacing: 0.04em;
+                min-height: 48px;
+            }
+
+            .fleet-meta {
+                font-size: 0.72rem;
+            }
+
+            /* Kill continuous atmosphere on small screens / soft GPU */
+            .orb {
+                display: none;
+            }
+
+            .grain {
+                opacity: 0.03;
+            }
+
+            h1 {
+                animation: none;
+                background-position: center;
             }
 
             .nav-links {
@@ -718,8 +771,18 @@
         }
 
         @media (prefers-reduced-motion: reduce) {
-            * {
+            *,
+            *::before,
+            *::after {
                 animation: none !important;
+                transition: none !important;
+            }
+
+            .gallery-panel.is-on {
+                animation: none !important;
+            }
+
+            .fleet-glider {
                 transition: none !important;
             }
         }
@@ -760,9 +823,10 @@
             <div class="ticker-track" id="ticker-track"></div>
         </div>
 
-        <!-- Gallery — filtered in-page by fleet toggle -->
+        <!-- Dual prebuilt fleets — toggle swaps panels only (no rebuild) -->
         <div class="gallery-shell">
-            <section class="gallery is-ready" id="gallery" role="tabpanel" aria-labelledby="tab-music"></section>
+            <section class="gallery-panel is-on" id="gallery-music" role="tabpanel" aria-labelledby="tab-music" data-kind="music"></section>
+            <section class="gallery-panel is-off" id="gallery-comedy" role="tabpanel" aria-labelledby="tab-comedy" data-kind="comedy" hidden></section>
         </div>
 
         <!-- VIDEOS-DATA:BEGIN -->
@@ -788,8 +852,10 @@
 
     <script>
         /**
-         * Dark Fleet gallery — in-page Music ↔ Comedy toggle (no second page).
-         * Catalog: #videos-data JSON (kind: music|comedy). Refresh: update-dark-fleet-videos
+         * Dark Fleet — Music ↔ Comedy toggle (no second page, no DOM rebuild).
+         * Perf (2026-08-03 free-agent review): dual prebuilt panels, no backdrop-filter,
+         * no filter:blur swap, no 280ms wipe, touch targets ≥48px, reduced-motion instant.
+         * Catalog: #videos-data (kind). Refresh: update-dark-fleet-videos
          */
         (() => {
             const PICK = 9;
@@ -805,17 +871,18 @@
                 comedy: catalog.filter((v) => v.kind === "comedy")
             };
 
-            const gallery = document.getElementById("gallery");
+            const panels = {
+                music: document.getElementById("gallery-music"),
+                comedy: document.getElementById("gallery-comedy")
+            };
             const fleetSwitch = document.getElementById("fleet-switch");
             const heroBlurb = document.getElementById("hero-blurb");
             const fleetLabel = document.getElementById("fleet-label");
             const fleetCount = document.getElementById("fleet-count");
             const tickerTrack = document.getElementById("ticker-track");
             const prefersReduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-
-            let io = null;
+            const counts = { music: 0, comedy: 0 };
             let active = "music";
-            let swapping = false;
 
             function shuffle(arr) {
                 const a = arr.slice();
@@ -838,24 +905,26 @@
             function buildTicker(kind) {
                 if (!tickerTrack) return;
                 const pool = byKind[kind].length ? byKind[kind] : catalog;
-                const names = shuffle(pool).slice(0, 8).map((v) => shortTitle(v.title) || "Dark Fleet");
+                const names = pool.slice(0, 8).map((v) => shortTitle(v.title) || "Dark Fleet");
                 const loop = names.length ? names : ["Dark Fleet"];
-                const parts = [...loop, ...loop];
-                tickerTrack.innerHTML = "";
-                parts.forEach((name, i) => {
+                const frag = document.createDocumentFragment();
+                [...loop, ...loop].forEach((name) => {
                     const span = document.createElement("span");
                     span.textContent = name;
-                    tickerTrack.appendChild(span);
+                    frag.appendChild(span);
                     const diamond = document.createElement("span");
-                    diamond.innerHTML = "<em>◆</em>";
-                    tickerTrack.appendChild(diamond);
+                    const em = document.createElement("em");
+                    em.textContent = "◆";
+                    diamond.appendChild(em);
+                    frag.appendChild(diamond);
                 });
+                tickerTrack.replaceChildren(frag);
             }
 
-            function makeCard(v) {
+            function makeCard(v, eager) {
                 const kind = v.kind || "music";
                 const card = document.createElement("article");
-                card.className = "video-card reveal";
+                card.className = "video-card is-in";
                 card.dataset.kind = kind;
 
                 const thumb = document.createElement("div");
@@ -866,7 +935,7 @@
                 badge.textContent = kind === "comedy" ? "Comedy" : "Music";
 
                 const a = document.createElement("a");
-                a.href = "https://www.youtube.com/watch?v=" + v.id;
+                a.href = "https://www.youtube.com/watch?v=" + encodeURIComponent(v.id);
                 a.target = "_blank";
                 a.rel = "noopener noreferrer";
                 a.setAttribute("aria-label", "Watch " + v.title + " on YouTube");
@@ -874,8 +943,11 @@
                 const img = document.createElement("img");
                 img.src = "https://img.youtube.com/vi/" + v.id + "/hqdefault.jpg";
                 img.alt = v.title;
-                img.loading = "lazy";
                 img.decoding = "async";
+                /* first panel eager-ish; off-panel stays lazy until shown */
+                img.loading = eager ? "eager" : "lazy";
+                img.width = 480;
+                img.height = 360;
 
                 const play = document.createElement("div");
                 play.className = "play-button";
@@ -899,102 +971,87 @@
                 return card;
             }
 
-            function wireReveal(cards) {
-                if (io) {
-                    io.disconnect();
-                    io = null;
+            function fillPanel(kind) {
+                const panel = panels[kind];
+                const pool = byKind[kind] || [];
+                const picks = shuffle(pool).slice(0, Math.min(PICK, pool.length));
+                counts[kind] = { shown: picks.length, total: pool.length };
+                const frag = document.createDocumentFragment();
+                if (!picks.length) {
+                    const empty = document.createElement("p");
+                    empty.className = "hero-description";
+                    empty.style.gridColumn = "1 / -1";
+                    empty.textContent = "No vessels in this fleet yet — check back after the next haul.";
+                    frag.appendChild(empty);
+                } else {
+                    /* eager only for the default-visible fleet's first row */
+                    picks.forEach((v, i) => frag.appendChild(makeCard(v, kind === "music" && i < 3)));
                 }
-                if (prefersReduced || !("IntersectionObserver" in window)) {
-                    cards.forEach((c) => c.classList.add("is-in"));
-                    return;
-                }
-                cards.forEach((card, i) => {
-                    card.style.transitionDelay = (i % 3) * 0.09 + "s";
-                });
-                io = new IntersectionObserver(
-                    (entries) => {
-                        entries.forEach((e) => {
-                            if (e.isIntersecting) {
-                                e.target.classList.add("is-in");
-                                io.unobserve(e.target);
-                                setTimeout(() => {
-                                    e.target.style.transitionDelay = "0s";
-                                }, 900);
-                            }
-                        });
-                    },
-                    { threshold: 0.12 }
-                );
-                cards.forEach((c) => io.observe(c));
+                panel.replaceChildren(frag);
             }
 
-            function render(kind, { animate } = { animate: true }) {
-                const pool = byKind[kind] || [];
-                const picks = shuffle(pool).slice(0, Math.min(PICK, pool.length || 0));
-
-                const paint = () => {
-                    gallery.innerHTML = "";
-                    if (!picks.length) {
-                        const empty = document.createElement("p");
-                        empty.className = "hero-description";
-                        empty.style.gridColumn = "1 / -1";
-                        empty.textContent = "No vessels in this fleet yet — check back after the next haul.";
-                        gallery.appendChild(empty);
-                    } else {
-                        picks.forEach((v) => gallery.appendChild(makeCard(v)));
+            function showPanel(kind) {
+                Object.keys(panels).forEach((k) => {
+                    const p = panels[k];
+                    const on = k === kind;
+                    p.classList.toggle("is-on", on);
+                    p.classList.toggle("is-off", !on);
+                    p.hidden = !on;
+                    if (on) {
+                        /* promote lazy imgs when panel first shown */
+                        p.querySelectorAll('img[loading="lazy"]').forEach((img, i) => {
+                            if (i < 3) img.loading = "eager";
+                        });
                     }
-                    wireReveal([...gallery.querySelectorAll(".video-card")]);
-                    fleetLabel.textContent = LABELS[kind] || kind;
-                    fleetCount.textContent = picks.length + " of " + pool.length;
-                    heroBlurb.textContent = BLURBS[kind] || BLURBS.music;
-                    gallery.setAttribute("aria-labelledby", kind === "comedy" ? "tab-comedy" : "tab-music");
-                    buildTicker(kind);
-                    gallery.classList.remove("is-swapping");
-                    gallery.classList.add("is-ready");
-                    swapping = false;
-                };
+                });
+            }
 
-                if (!animate || prefersReduced) {
-                    paint();
-                    return;
-                }
-
-                swapping = true;
-                gallery.classList.remove("is-ready");
-                gallery.classList.add("is-swapping");
-                setTimeout(paint, 280);
+            function setMeta(kind) {
+                const c = counts[kind] || { shown: 0, total: 0 };
+                fleetLabel.textContent = LABELS[kind] || kind;
+                fleetCount.textContent = c.shown + " of " + c.total;
+                heroBlurb.textContent = BLURBS[kind] || BLURBS.music;
+                buildTicker(kind);
             }
 
             function setFleet(kind, { pushHash } = { pushHash: true }) {
                 if (kind !== "music" && kind !== "comedy") kind = "music";
-                if (swapping && kind === active) return;
+                if (kind === active && panels[kind] && !panels[kind].hidden) {
+                    /* still update hash if needed */
+                }
                 active = kind;
                 fleetSwitch.dataset.active = kind;
                 fleetSwitch.querySelectorAll("button[data-fleet]").forEach((btn) => {
                     const on = btn.dataset.fleet === kind;
                     btn.setAttribute("aria-pressed", on ? "true" : "false");
                     btn.setAttribute("aria-selected", on ? "true" : "false");
+                    btn.tabIndex = on ? 0 : -1;
                 });
+                showPanel(kind);
+                setMeta(kind);
                 if (pushHash) {
                     const url = new URL(window.location.href);
                     url.hash = kind === "comedy" ? "comedy" : "music";
                     history.replaceState(null, "", url.pathname + url.search + url.hash);
                 }
-                render(kind, { animate: true });
             }
+
+            /* Build BOTH fleets once at load — toggle only flips visibility */
+            fillPanel("music");
+            fillPanel("comedy");
 
             fleetSwitch.querySelectorAll("button[data-fleet]").forEach((btn) => {
                 btn.addEventListener("click", () => setFleet(btn.dataset.fleet));
             });
 
-            // keyboard: left/right on tabs
             fleetSwitch.addEventListener("keydown", (e) => {
-                if (e.key !== "ArrowLeft" && e.key !== "ArrowRight") return;
+                if (e.key !== "ArrowLeft" && e.key !== "ArrowRight" && e.key !== "Home" && e.key !== "End") return;
                 e.preventDefault();
+                if (e.key === "Home") return setFleet("music");
+                if (e.key === "End") return setFleet("comedy");
                 setFleet(active === "music" ? "comedy" : "music");
             });
 
-            // deep-link: #comedy or #music — no page hop
             const hash = (location.hash || "").replace(/^#/, "").toLowerCase();
             const start = hash === "comedy" || hash === "shorts" ? "comedy" : "music";
             setFleet(start, { pushHash: false });
@@ -1003,6 +1060,10 @@
                 const h = (location.hash || "").replace(/^#/, "").toLowerCase();
                 if (h === "comedy" || h === "music") setFleet(h, { pushHash: false });
             });
+
+            if (prefersReduced) {
+                document.documentElement.classList.add("rm");
+            }
         })();
     </script>
 </body>
