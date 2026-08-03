@@ -26,6 +26,7 @@
     <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='75' font-size='75'>🎬</text></svg>">
     <title>The Dark Fleet — Music &amp; Comedy | Cap'n Jules the Rustjack</title>
     <link rel="preconnect" href="https://img.youtube.com" crossorigin>
+    <link rel="preload" href="assets/fonts.css" as="style">
     <link rel="stylesheet" href="assets/fonts.css">
 
     <script type="application/ld+json">
@@ -848,13 +849,30 @@
                 display: none !important;
             }
         }
+
+        .skip-link {
+            position: absolute;
+            left: 0.75rem;
+            top: -3.5rem;
+            z-index: 200;
+            padding: 0.55rem 0.9rem;
+            background: #d4af37;
+            color: #0a0804;
+            font-family: 'IBM Plex Mono', monospace;
+            font-size: 0.8rem;
+            font-weight: 600;
+            text-decoration: none;
+            border-radius: 4px;
+        }
+        .skip-link:focus { top: 0.75rem; outline: 2px solid #fff; outline-offset: 2px; }
     </style>
 </head>
 <body>
+    <a class="skip-link" href="#main">Skip to content</a>
     <div class="grain" aria-hidden="true"></div>
     <div class="orb orb-a" aria-hidden="true"></div>
     <div class="orb orb-b" aria-hidden="true"></div>
-    <main>
+    <main id="main">
         <!-- Hero -->
         <section class="hero">
             <h1>THE DARK FLEET</h1>

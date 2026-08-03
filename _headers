@@ -1,4 +1,6 @@
-# Security Headers for BuccaneerSalvage
+# NOT HONORED BY GITHUB PAGES — use HTML <meta http-equiv> CSP / nosniff / referrer.
+# Kept as documentation for a future host that supports Cloudflare-style _headers.
+
 
 # Apply to all paths
 /*

@@ -36,6 +36,7 @@
 
   <link rel="icon" type="image/jpeg" href="assets/crest-rustjack-web.jpg" />
   <link rel="apple-touch-icon" href="assets/crest-rustjack-web.jpg" />
+  <link rel="preload" href="assets/fonts.css" as="style" />
   <link rel="stylesheet" href="assets/fonts.css" />
   <link rel="stylesheet" href="styles.css" />
   <script type="application/ld+json">
@@ -140,12 +141,13 @@
   </script>
 </head>
 <body>
+  <a class="skip-link" href="#main">Skip to content</a>
   <div class="grain" aria-hidden="true"></div>
   <div class="orb orb-gold" aria-hidden="true"></div>
   <div class="orb orb-blood" aria-hidden="true"></div>
   <div class="orb orb-sky" aria-hidden="true"></div>
 
-  <header class="nav" id="nav">
+  <header class="nav" role="banner" id="nav">
     <div class="nav-inner">
       <a class="nav-brand" href="#top" aria-label="BuccaneerSalvage home">
         <img class="nav-mark" src="assets/crest-rustjack-web.jpg" width="38" height="38" alt="" />
@@ -193,7 +195,8 @@
     </div>
   </header>
 
-  <main id="top">
+  <main  id="main">
+    <span id="top" hidden></span>
     <section class="hero">
       <div class="hero-bg" aria-hidden="true"></div>
       <div class="hero-frame">
@@ -400,7 +403,7 @@
     </section>
   </main>
 
-  <footer class="footer">
+  <footer role="contentinfo" class="footer">
     <div class="shell footer-grid">
       <div class="footer-brand">
         <strong>BuccaneerSalvage</strong>

@@ -1006,3 +1006,24 @@ ul { list-style: none; }
   .port-media img,
   .btn { transition: none; }
 }
+
+.skip-link {
+  position: absolute;
+  left: 0.75rem;
+  top: -3.5rem;
+  z-index: 200;
+  padding: 0.55rem 0.9rem;
+  background: #d4af37;
+  color: #0a0804;
+  font-family: var(--font-mono, monospace);
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: top 0.15s ease;
+}
+.skip-link:focus {
+  top: 0.75rem;
+  outline: 2px solid #fff;
+  outline-offset: 2px;
+}
