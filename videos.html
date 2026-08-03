@@ -19,17 +19,14 @@
     <meta name="twitter:image" content="https://img.youtube.com/vi/xSTeuYSlw60/maxresdefault.jpg">
     <meta name="robots" content="index,follow,max-image-preview:large">
     <!-- GH Pages ignores _headers — meta CSP is the enforceable path here -->
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; img-src 'self' data: https://img.youtube.com https://i.ytimg.com https:; font-src 'self' data: https://fonts.gstatic.com; connect-src 'self'; base-uri 'self'; object-src 'none';">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://img.youtube.com https://i.ytimg.com https:; font-src 'self' data:; connect-src 'self'; base-uri 'self'; object-src 'none';">
     <meta http-equiv="X-Content-Type-Options" content="nosniff">
     <meta name="referrer" content="strict-origin-when-cross-origin">
     <link rel="canonical" href="https://buccaneersalvage.github.io/videos.html">
     <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='75' font-size='75'>🎬</text></svg>">
     <title>The Dark Fleet — Music &amp; Comedy | Cap'n Jules the Rustjack</title>
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://img.youtube.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=IBM+Plex+Mono:wght@400;500&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/fonts.css">
 
     <script type="application/ld+json">
     {
@@ -1322,9 +1319,11 @@
                 showPanel(kind);
                 setMeta(kind);
                 if (pushHash) {
-                    const url = new URL(window.location.href);
-                    url.hash = kind === "comedy" ? "comedy" : "music";
-                    history.replaceState(null, "", url.pathname + url.search + url.hash);
+                    /* pushState so browser Back flips fleets (free-agent UX/SEO note) */
+                    const want = kind === "comedy" ? "#comedy" : "#music";
+                    if ((location.hash || "#music") !== want) {
+                        history.pushState({ fleet: kind }, "", location.pathname + location.search + want);
+                    }
                 }
             }
 
@@ -1355,9 +1354,17 @@
 
             setFleet(bootKind, { pushHash: false });
 
-            window.addEventListener("hashchange", () => {
+            function fleetFromHash() {
                 const h = (location.hash || "").replace(/^#/, "").toLowerCase();
-                if (h === "comedy" || h === "music") setFleet(h, { pushHash: false });
+                return h === "comedy" || h === "shorts" ? "comedy" : h === "music" ? "music" : null;
+            }
+            window.addEventListener("popstate", () => {
+                const k = fleetFromHash();
+                setFleet(k || "music", { pushHash: false });
+            });
+            window.addEventListener("hashchange", () => {
+                const k = fleetFromHash();
+                if (k) setFleet(k, { pushHash: false });
             });
 
             if (prefersReduced) {
