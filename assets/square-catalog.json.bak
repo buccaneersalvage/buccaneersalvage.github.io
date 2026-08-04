@@ -1,7 +1,7 @@
 {
-  "updated": "2026-08-04T04:58:08Z",
+  "updated": "2026-08-04T04:51:35Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 71,
+  "count": 67,
   "items": [
     {
       "id": "S4IZBA4AG65C6HI2ZDIRMSJR",
@@ -11,7 +11,6 @@
       "url": "https://square.link/u/gN5em13I",
       "category": "turbo",
       "checkout": true,
-      "variation_id": "GT3PTOYSYUZHAQ25KQFDGPXN",
       "part_numbers": [
         "Holset X63 160583P2",
         "X63 160583P2"
@@ -46,7 +45,9 @@
         "source": "ebay_listing+title",
         "confidence": "medium",
         "ebay_item_id": "398246339681"
-      }
+      },
+      "vehicle_count_raw": 1,
+      "ebay_item_id": "398246339681"
     },
     {
       "id": "AGEWYOLANWBWUWDDESOE3EIG",
@@ -56,7 +57,6 @@
       "url": "https://square.link/u/dQnHSiDn",
       "category": "pump",
       "checkout": true,
-      "variation_id": "BHU7RQPLZS4RDV6K6GRAA5CO",
       "part_numbers": [
         "Mack 8VBB-1100-6472C1",
         "8VBB-1100-6472C1"
@@ -77,7 +77,9 @@
         "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398246323881"
-      }
+      },
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398246323881"
     },
     {
       "id": "5LLWTR3B27YDLV6ZR6XMBPWL",
@@ -132,7 +134,9 @@
         "source": "airspring_inventory+airspring_xref_pull+ebay_listing+updates_table",
         "confidence": "high",
         "ebay_item_id": "398037019572"
-      }
+      },
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398037019572"
     },
     {
       "id": "AZNN7T4GEP4SBDATK42PTAUJ",
@@ -169,7 +173,9 @@
         "source": "airspring_inventory+airspring_xref_pull+ebay_listing+updates_table",
         "confidence": "high",
         "ebay_item_id": "398035089377"
-      }
+      },
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398035089377"
     },
     {
       "id": "XFXQE4DMDFWZDO6TVOL6DEYD",
@@ -210,7 +216,9 @@
         "source": "airspring_inventory+airspring_xref_pull+ebay_listing+updates_table",
         "confidence": "high",
         "ebay_item_id": "398035060823"
-      }
+      },
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398035060823"
     },
     {
       "id": "U7WKMHOVTIULP53SYVFR773L",
@@ -247,7 +255,9 @@
         "source": "airspring_inventory+airspring_xref_pull+ebay_listing+updates_table",
         "confidence": "high",
         "ebay_item_id": "398081146603"
-      }
+      },
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398081146603"
     },
     {
       "id": "5JADFNOGZU4ORSIITZGU6T3I",
@@ -291,7 +301,9 @@
         "source": "airspring_inventory+airspring_xref_pull+ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398104794577"
-      }
+      },
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398104794577"
     },
     {
       "id": "VWXBTBCTIL7WXP2Q7DSE3JHD",
@@ -330,7 +342,9 @@
         "source": "airspring_inventory+airspring_xref_pull+ebay_listing+updates_table",
         "confidence": "high",
         "ebay_item_id": "398030468076"
-      }
+      },
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398030468076"
     },
     {
       "id": "XH7TUMSNXXRPP27X4TVSG7IR",
@@ -379,7 +393,9 @@
         "source": "airspring_inventory+airspring_xref_pull+ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398104804442"
-      }
+      },
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398104804442"
     },
     {
       "id": "63GLHEZRBSGQMW33N4D6AWUT",
@@ -419,7 +435,9 @@
         "source": "airspring_inventory+airspring_xref_pull+ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398104795532"
-      }
+      },
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398104795532"
     },
     {
       "id": "FCIYTGLD3XXOCK65EW6MFRFY",
@@ -456,7 +474,9 @@
         "source": "airspring_inventory+airspring_xref_pull+ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398104796478"
-      }
+      },
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398104796478"
     },
     {
       "id": "YNXPTKKZK2DQPVY5SQOL7EP7",
@@ -503,7 +523,9 @@
         "source": "airspring_inventory+airspring_xref_pull+ebay_listing+updates_table",
         "confidence": "high",
         "ebay_item_id": "398037039620"
-      }
+      },
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398037039620"
     },
     {
       "id": "QIJQVWWEI5FXTGFGA3C6HFM3",
@@ -544,7 +566,9 @@
         "source": "airspring_inventory+airspring_xref_pull+ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398057929368"
-      }
+      },
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398057929368"
     },
     {
       "id": "CQKA7SGC6VXWPEFAEQMCCWKK",
@@ -593,7 +617,9 @@
         "source": "airspring_inventory+airspring_xref_pull+ebay_listing+updates_table",
         "confidence": "high",
         "ebay_item_id": "398028808009"
-      }
+      },
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398028808009"
     },
     {
       "id": "WJBEKHBAYPDY23OGOOUNLSRL",
@@ -629,7 +655,9 @@
         "source": "airspring_inventory+airspring_xref_pull+ebay_listing+updates_table",
         "confidence": "medium",
         "ebay_item_id": "398028801246"
-      }
+      },
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398028801246"
     },
     {
       "id": "7NAXP4RPHKF5YNTTVR65YYFC",
@@ -680,37 +708,50 @@
         "source": "airspring_inventory+airspring_xref_pull+ebay_listing+updates_table",
         "confidence": "high",
         "ebay_item_id": "398027125795"
-      }
+      },
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398027125795"
     },
     {
-      "id": "3647PYOGAQX7TBLOIUPAJ6BC",
-      "name": "Automann ABSP3B32RA-7847 Air Spring Rolling Lobe New W01-358-7847 FT 530-35 457",
-      "price": 166.49,
-      "image": "",
-      "url": "https://square.link/u/1P1IHsuc",
+      "id": "HGCIRMAUON4CWAJQHKZ6ZULM",
+      "name": "ContiTech Continental 9 10-14 P825 Rolling Lobe Air Spring 65912 New",
+      "price": 199.0,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/dedaf3299ec8fcb7d0d6a0a3b8532b60de4420e8/original.jpeg",
+      "url": "https://square.link/u/SQoz6KR7",
       "category": "air-spring",
       "checkout": true,
-      "variation_id": "Y2FPIT6SHTYR5QNMKFIJM44P"
-    },
-    {
-      "id": "MJAQDKIB2WT55I26Q552PZXS",
-      "name": "Automann ABSP3B32RA-7859 Rolling Lobe Air Spring New W01-358-7859",
-      "price": 193.49,
-      "image": "",
-      "url": "https://square.link/u/Vj5cDK52",
-      "category": "air-spring",
-      "checkout": true,
-      "variation_id": "7VDZG35VVPI73CIBRNKLAO43"
-    },
-    {
-      "id": "2FVY6OUQDM3PKSGRDEIR62X4",
-      "name": "Continental ContiTech FT 530-32 329 CT Air Spring Convoluted New W01-358-7798",
-      "price": 185.39,
-      "image": "",
-      "url": "https://square.link/u/uIOP4pdh",
-      "category": "air-spring",
-      "checkout": true,
-      "variation_id": "PG5VTKPA42MCDU7Y7B7P3XEO"
+      "variation_id": "45HHRUVQ3AVCYZBQ6X2XSFPY",
+      "part_numbers": [
+        "ContiTech ABSP2B12R-7788",
+        "ABSP2B12R-7788",
+        "65912"
+      ],
+      "interchange": [
+        "W01-358-7788",
+        "AS 9 10-14 P825 CT"
+      ],
+      "vehicles": [],
+      "fitment_source": "airspring_xref_pull+ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "ContiTech ABSP2B12R-7788",
+          "ABSP2B12R-7788",
+          "65912"
+        ],
+        "interchange": [
+          "W01-358-7788",
+          "AS 9 10-14 P825 CT"
+        ],
+        "vehicles": [],
+        "vehicle_labels": [],
+        "raw_compat_rows": 0,
+        "source": "airspring_xref_pull+ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398036928762"
+      },
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398036928762"
     },
     {
       "id": "W2ILAVDVIPQAQS6GBTCIERZH",
@@ -751,46 +792,9 @@
         "source": "airspring_xref_pull+ebay_listing+updates_table",
         "confidence": "high",
         "ebay_item_id": "398035010183"
-      }
-    },
-    {
-      "id": "HGCIRMAUON4CWAJQHKZ6ZULM",
-      "name": "ContiTech Continental 9 10-14 P825 Rolling Lobe Air Spring 65912 New",
-      "price": 199.0,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/dedaf3299ec8fcb7d0d6a0a3b8532b60de4420e8/original.jpeg",
-      "url": "https://square.link/u/SQoz6KR7",
-      "category": "air-spring",
-      "checkout": true,
-      "variation_id": "45HHRUVQ3AVCYZBQ6X2XSFPY",
-      "part_numbers": [
-        "ContiTech ABSP2B12R-7788",
-        "ABSP2B12R-7788",
-        "65912"
-      ],
-      "interchange": [
-        "W01-358-7788",
-        "AS 9 10-14 P825 CT"
-      ],
-      "vehicles": [],
-      "fitment_source": "airspring_xref_pull+ebay_listing",
-      "fitment_confidence": "high",
-      "fitment": {
-        "part_numbers": [
-          "ContiTech ABSP2B12R-7788",
-          "ABSP2B12R-7788",
-          "65912"
-        ],
-        "interchange": [
-          "W01-358-7788",
-          "AS 9 10-14 P825 CT"
-        ],
-        "vehicles": [],
-        "vehicle_labels": [],
-        "raw_compat_rows": 0,
-        "source": "airspring_xref_pull+ebay_listing",
-        "confidence": "high",
-        "ebay_item_id": "398036928762"
-      }
+      },
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398035010183"
     },
     {
       "id": "7DI4HYOTVRKCB4NZKHT2ESPU",
@@ -841,7 +845,9 @@
         "source": "airspring_inventory+airspring_xref_pull+ebay_listing+title+updates_table",
         "confidence": "medium",
         "ebay_item_id": "398030456836"
-      }
+      },
+      "vehicle_count_raw": 1,
+      "ebay_item_id": "398030456836"
     },
     {
       "id": "EDGQUKVAWVX7M537BWG4FDPA",
@@ -888,7 +894,9 @@
         "source": "airspring_inventory+airspring_xref_pull+ebay_listing+updates_table",
         "confidence": "high",
         "ebay_item_id": "398051021929"
-      }
+      },
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398051021929"
     },
     {
       "id": "Y6M4E3EQLZL24OW2FRCYAPTI",
@@ -941,7 +949,9 @@
         "source": "airspring_inventory+airspring_xref_pull+ebay_listing+updates_table",
         "confidence": "high",
         "ebay_item_id": "398028783790"
-      }
+      },
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398028783790"
     },
     {
       "id": "LNLXWYITGZSNJI77RVDIUSN3",
@@ -992,17 +1002,9 @@
         "source": "airspring_inventory+airspring_xref_pull+ebay_listing+updates_table",
         "confidence": "high",
         "ebay_item_id": "398028776873"
-      }
-    },
-    {
-      "id": "QONRZTGROGA27RO7HMZAFW4C",
-      "name": "Goodyear 2B9-229 Super-Cushion Air Spring Replaces W01-358-6897 New",
-      "price": 146.69,
-      "image": "",
-      "url": "https://square.link/u/XYC4Pzfc",
-      "category": "air-spring",
-      "checkout": true,
-      "variation_id": "FBBCMYOAJJEPJIL3JDDAUJW5"
+      },
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398028776873"
     },
     {
       "id": "ANR3BBW6OOATXTZGVDUJPH52",
@@ -1041,7 +1043,9 @@
         "source": "airspring_inventory+airspring_xref_pull+ebay_listing+updates_table",
         "confidence": "high",
         "ebay_item_id": "398030473993"
-      }
+      },
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398030473993"
     },
     {
       "id": "SXESABEQ2LVDHXMEKH2JEHVF",
@@ -1110,7 +1114,9 @@
         "source": "airspring_inventory+airspring_xref_pull+ebay_listing+updates_table",
         "confidence": "high",
         "ebay_item_id": "398027136709"
-      }
+      },
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398027136709"
     },
     {
       "id": "GGLHED43Y7A46CBFE2DY5FPY",
@@ -1169,7 +1175,9 @@
         "source": "airspring_xref_pull+ebay_listing+updates_table",
         "confidence": "high",
         "ebay_item_id": "398057891975"
-      }
+      },
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398057891975"
     },
     {
       "id": "S4BE3QQTDYS7EDGCVVYMROID",
@@ -1206,7 +1214,9 @@
         "source": "airspring_inventory+airspring_xref_pull+ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398104793577"
-      }
+      },
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398104793577"
     },
     {
       "id": "M3Z2BJDH5EPFYABLLZPDUTWJ",
@@ -1247,7 +1257,9 @@
         "source": "airspring_inventory+airspring_xref_pull+ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398104794071"
-      }
+      },
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398104794071"
     },
     {
       "id": "VT32GAYJXZR7RYOQVHVZHKS2",
@@ -1290,7 +1302,9 @@
         "source": "airspring_inventory+airspring_xref_pull+ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398104793065"
-      }
+      },
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398104793065"
     },
     {
       "id": "SCZQEUWMBB4U5WK65UMMW5UP",
@@ -1376,7 +1390,9 @@
         "source": "ebay_listing+carlson_specs",
         "confidence": "high",
         "ebay_item_id": "398072989873"
-      }
+      },
+      "vehicle_count_raw": 62,
+      "ebay_item_id": "398072989873"
     },
     {
       "id": "P4ZTODX5NKR42HZA4IAPFTOK",
@@ -1510,7 +1526,9 @@
         "source": "ebay_listing+carlson_specs",
         "confidence": "high",
         "ebay_item_id": "398085066604"
-      }
+      },
+      "vehicle_count_raw": 217,
+      "ebay_item_id": "398085066604"
     },
     {
       "id": "KN7R2NFJUHA6U6BNO2WTN7EU",
@@ -1632,7 +1650,9 @@
         "source": "ebay_listing+carlson_specs",
         "confidence": "high",
         "ebay_item_id": "398081728362"
-      }
+      },
+      "vehicle_count_raw": 179,
+      "ebay_item_id": "398081728362"
     },
     {
       "id": "DZNQEVC74YL2E6SWJ3FYFLFL",
@@ -1682,7 +1702,9 @@
         "source": "ebay_listing+carlson_specs",
         "confidence": "high",
         "ebay_item_id": "398081729607"
-      }
+      },
+      "vehicle_count_raw": 14,
+      "ebay_item_id": "398081729607"
     },
     {
       "id": "QMBDXKEAMPHIUN2J7KACJMOF",
@@ -1828,7 +1850,9 @@
         "source": "ebay_listing+carlson_specs",
         "confidence": "high",
         "ebay_item_id": "398081923329"
-      }
+      },
+      "vehicle_count_raw": 357,
+      "ebay_item_id": "398081923329"
     },
     {
       "id": "C2V65AJ6VSMMSCIJ5JW6UFLX",
@@ -2010,7 +2034,9 @@
         "source": "ebay_listing+carlson_specs",
         "confidence": "high",
         "ebay_item_id": "398085067068"
-      }
+      },
+      "vehicle_count_raw": 225,
+      "ebay_item_id": "398085067068"
     },
     {
       "id": "NXP65X4BVMZJDKW5BPUS7V55",
@@ -2132,7 +2158,9 @@
         "source": "ebay_listing+carlson_specs",
         "confidence": "high",
         "ebay_item_id": "398085067140"
-      }
+      },
+      "vehicle_count_raw": 345,
+      "ebay_item_id": "398085067140"
     },
     {
       "id": "7ZJVONEVIV3FVT3FAWETNWQW",
@@ -2266,7 +2294,9 @@
         "source": "ebay_listing+carlson_specs",
         "confidence": "high",
         "ebay_item_id": "398085067223"
-      }
+      },
+      "vehicle_count_raw": 167,
+      "ebay_item_id": "398085067223"
     },
     {
       "id": "C2LKTK5OKSGH3QPILFO4AWBE",
@@ -2904,7 +2934,9 @@
         "source": "ebay_listing+carlson_specs",
         "confidence": "high",
         "ebay_item_id": "398081924673"
-      }
+      },
+      "vehicle_count_raw": 3000,
+      "ebay_item_id": "398081924673"
     },
     {
       "id": "7FPKAWIESMAQJKSS2EAJKFD4",
@@ -3158,7 +3190,9 @@
         "source": "ebay_listing+carlson_specs",
         "confidence": "high",
         "ebay_item_id": "398081926955"
-      }
+      },
+      "vehicle_count_raw": 1469,
+      "ebay_item_id": "398081926955"
     },
     {
       "id": "2FZFMLMESYCNR7TBIGE47XGL",
@@ -3592,7 +3626,9 @@
         "source": "ebay_listing+carlson_specs",
         "confidence": "high",
         "ebay_item_id": "398081736319"
-      }
+      },
+      "vehicle_count_raw": 1671,
+      "ebay_item_id": "398081736319"
     },
     {
       "id": "I36VKJZGX6Z57IBLNXMUN2NU",
@@ -3774,7 +3810,9 @@
         "source": "ebay_listing+carlson_specs",
         "confidence": "high",
         "ebay_item_id": "398081854295"
-      }
+      },
+      "vehicle_count_raw": 1733,
+      "ebay_item_id": "398081854295"
     },
     {
       "id": "ZPXYRDQRMNYYU7OJRVP7QLM2",
@@ -3956,7 +3994,9 @@
         "source": "ebay_listing+carlson_specs",
         "confidence": "high",
         "ebay_item_id": "398081854393"
-      }
+      },
+      "vehicle_count_raw": 1733,
+      "ebay_item_id": "398081854393"
     },
     {
       "id": "772E3FGP4EQF743Q4BVQX4PH",
@@ -4330,7 +4370,9 @@
         "source": "ebay_listing+carlson_specs",
         "confidence": "high",
         "ebay_item_id": "398085067294"
-      }
+      },
+      "vehicle_count_raw": 486,
+      "ebay_item_id": "398085067294"
     },
     {
       "id": "VFED2WSLJBERZFVVSCX2ON7X",
@@ -4440,7 +4482,9 @@
         "source": "ebay_listing+carlson_specs",
         "confidence": "high",
         "ebay_item_id": "398081931640"
-      }
+      },
+      "vehicle_count_raw": 585,
+      "ebay_item_id": "398081931640"
     },
     {
       "id": "7RAUHXIOW4TEBC5SRBCGTOA7",
@@ -4562,7 +4606,9 @@
         "source": "ebay_listing+carlson_specs",
         "confidence": "high",
         "ebay_item_id": "398081933575"
-      }
+      },
+      "vehicle_count_raw": 519,
+      "ebay_item_id": "398081933575"
     },
     {
       "id": "JUTLODEIKQIBLVUUCGNHO3SS",
@@ -4720,7 +4766,9 @@
         "source": "ebay_listing+carlson_specs",
         "confidence": "high",
         "ebay_item_id": "398081937101"
-      }
+      },
+      "vehicle_count_raw": 636,
+      "ebay_item_id": "398081937101"
     },
     {
       "id": "WOJXBQC7VPSEJP7GW6PVOUKM",
@@ -4866,7 +4914,9 @@
         "source": "ebay_listing+carlson_specs",
         "confidence": "high",
         "ebay_item_id": "398081742131"
-      }
+      },
+      "vehicle_count_raw": 77,
+      "ebay_item_id": "398081742131"
     },
     {
       "id": "SQRSJTMYJ5NBRMRQMFJWJJDH",
@@ -5084,7 +5134,9 @@
         "source": "ebay_listing+carlson_specs",
         "confidence": "high",
         "ebay_item_id": "398081938006"
-      }
+      },
+      "vehicle_count_raw": 282,
+      "ebay_item_id": "398081938006"
     },
     {
       "id": "7FBVPLQXCVT425MXBO7FPT4X",
@@ -5278,7 +5330,9 @@
         "source": "ebay_listing+carlson_specs",
         "confidence": "high",
         "ebay_item_id": "398081742288"
-      }
+      },
+      "vehicle_count_raw": 258,
+      "ebay_item_id": "398081742288"
     },
     {
       "id": "SANPBEMDHQIV2SJMCCLHBP2J",
@@ -5376,7 +5430,9 @@
         "source": "ebay_listing+carlson_specs",
         "confidence": "high",
         "ebay_item_id": "398081742565"
-      }
+      },
+      "vehicle_count_raw": 182,
+      "ebay_item_id": "398081742565"
     },
     {
       "id": "2FHOOMAG7ITLKRVTEZEFXQXB",
@@ -5486,7 +5542,9 @@
         "source": "ebay_listing+carlson_specs",
         "confidence": "high",
         "ebay_item_id": "398081939912"
-      }
+      },
+      "vehicle_count_raw": 355,
+      "ebay_item_id": "398081939912"
     },
     {
       "id": "S3UB27RNQJ7N5FFV6XGZYAIJ",
@@ -5596,7 +5654,9 @@
         "source": "ebay_listing+carlson_specs",
         "confidence": "high",
         "ebay_item_id": "398081940163"
-      }
+      },
+      "vehicle_count_raw": 324,
+      "ebay_item_id": "398081940163"
     },
     {
       "id": "DOSHB75JVLQCQ3DTEUXI7RFG",
@@ -5694,7 +5754,9 @@
         "source": "ebay_listing+carlson_specs",
         "confidence": "high",
         "ebay_item_id": "398079910238"
-      }
+      },
+      "vehicle_count_raw": 190,
+      "ebay_item_id": "398079910238"
     },
     {
       "id": "3WGRNSNM7YRYRFTIZUPFRDWL",
@@ -5852,7 +5914,9 @@
         "source": "ebay_listing+carlson_specs",
         "confidence": "high",
         "ebay_item_id": "398081940540"
-      }
+      },
+      "vehicle_count_raw": 104,
+      "ebay_item_id": "398081940540"
     },
     {
       "id": "YUE4BUX4MHLAIFD7SJQHN3DT",
@@ -5914,7 +5978,9 @@
         "source": "ebay_listing+carlson_specs",
         "confidence": "high",
         "ebay_item_id": "398070091739"
-      }
+      },
+      "vehicle_count_raw": 130,
+      "ebay_item_id": "398070091739"
     },
     {
       "id": "56GXRPYVBJM2GXYYVTXP4ORY",
@@ -6012,7 +6078,9 @@
         "source": "ebay_listing+carlson_specs",
         "confidence": "high",
         "ebay_item_id": "398081742963"
-      }
+      },
+      "vehicle_count_raw": 2203,
+      "ebay_item_id": "398081742963"
     },
     {
       "id": "OBFDECUAZPN4KJPULBJSF77E",
@@ -6041,7 +6109,9 @@
         "source": "title",
         "confidence": "low",
         "ebay_item_id": "398081941437"
-      }
+      },
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398081941437"
     },
     {
       "id": "MVORQ6SQ7RP5JWOPX7ULXKUU",
@@ -6074,7 +6144,9 @@
         "source": "carlson_specs",
         "confidence": "medium",
         "ebay_item_id": "398081854616"
-      }
+      },
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398081854616"
     },
     {
       "id": "E4FVHDJYHINOZ4RGHAIINOYW",
@@ -6121,7 +6193,9 @@
         "source": "carlson_specs+title",
         "confidence": "medium",
         "ebay_item_id": "398080042479"
-      }
+      },
+      "vehicle_count_raw": 1,
+      "ebay_item_id": "398080042479"
     },
     {
       "id": "7EXQLYTFI6F2NWZ2535TO6KR",
@@ -6154,7 +6228,9 @@
         "source": "carlson_specs",
         "confidence": "medium",
         "ebay_item_id": "398080322662"
-      }
+      },
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398080322662"
     },
     {
       "id": "WWT36JXFOVHFIPPT7OXWBUTF",
@@ -6187,7 +6263,9 @@
         "source": "carlson_specs",
         "confidence": "medium",
         "ebay_item_id": "398081941738"
-      }
+      },
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398081941738"
     },
     {
       "id": "PDNCGK5GZLLDUON7DLWH5XJ6",
@@ -6220,7 +6298,9 @@
         "source": "carlson_specs",
         "confidence": "medium",
         "ebay_item_id": "398081743945"
-      }
+      },
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398081743945"
     },
     {
       "id": "QQ4UASMFRAGBOQ3EF5OZGK3D",
@@ -6253,7 +6333,9 @@
         "source": "carlson_specs",
         "confidence": "medium",
         "ebay_item_id": "398081744136"
-      }
+      },
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398081744136"
     },
     {
       "id": "VVJ5DBQ6U4A7PU2A3P5SCSHS",
@@ -6286,7 +6368,9 @@
         "source": "carlson_specs",
         "confidence": "medium",
         "ebay_item_id": "398081745085"
-      }
+      },
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398081745085"
     },
     {
       "id": "7QVRIXU7MJO67CDOOVA5ODR4",
@@ -6319,7 +6403,9 @@
         "source": "carlson_specs",
         "confidence": "medium",
         "ebay_item_id": "398081745345"
-      }
+      },
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398081745345"
     },
     {
       "id": "GCYBELIKT4IDG4FXQEUQZM2O",
@@ -6352,7 +6438,9 @@
         "source": "carlson_specs",
         "confidence": "medium",
         "ebay_item_id": "398081745474"
-      }
+      },
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398081745474"
     },
     {
       "id": "OIEKBY47T4B7SOUC5WDL34PA",
@@ -6385,7 +6473,9 @@
         "source": "carlson_specs",
         "confidence": "medium",
         "ebay_item_id": "398070178226"
-      }
+      },
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398070178226"
     },
     {
       "id": "DPRSU7RX4SKAHPRFDDTPFKZR",
@@ -6424,7 +6514,10 @@
         "source": "title",
         "confidence": "low",
         "ebay_item_id": "398081262922"
-      }
+      },
+      "vehicle_count_raw": 1,
+      "ebay_item_id": "398081262922"
     }
-  ]
+  ],
+  "fitment_built": "2026-08-04T04:51:35Z"
 }
