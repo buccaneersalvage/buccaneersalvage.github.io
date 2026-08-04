@@ -1716,7 +1716,7 @@ ul.pagination .disabled .page {
   }
 }
 
-/* ────── Store eBay banner — compact strip, full art ──────────────────── */
+/* ────── Store eBay banner — compact width, full art (no max-height crop) ─ */
 .st-ebay-banner {
   background: transparent;
   padding: 0.5rem 0 0.35rem;
@@ -1724,7 +1724,7 @@ ul.pagination .disabled .page {
 }
 .st-banner-link {
   display: block;
-  max-width: 720px; /* smaller on-page footprint */
+  max-width: 640px; /* smaller footprint; height follows image (~226px) */
   margin: 0 auto;
   text-decoration: none;
   border-radius: 10px;
@@ -1745,13 +1745,11 @@ ul.pagination .disabled .page {
   width: 100%;
   height: auto;
   max-width: 100%;
-  max-height: 220px; /* hard cap so strip stays compact */
   object-fit: contain;
   object-position: center center;
 }
 @media (max-width: 520px) {
   .st-banner-link { max-width: 100%; border-radius: 8px; }
-  .st-banner-image { max-height: 160px; }
 }
 
 /* ────── Product Detail Page (PDP) ──────────────────────────────────────── */
