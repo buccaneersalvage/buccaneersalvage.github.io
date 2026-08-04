@@ -1,10 +1,5 @@
 User-agent: *
-Disallow:
+Allow: /
 
 Sitemap: https://buccaneersalvage.github.io/sitemap.xml
 Sitemap: https://buccaneersalvage.github.io/sitemap.txt
-Sitemap: https://buccaneersalvage.github.io/sitemap-index.xml
-Sitemap: https://buccaneersalvage.github.io/sitemap-hub.xml
-Sitemap: https://buccaneersalvage.github.io/sitemap-store.xml
-Sitemap: https://buccaneersalvage.github.io/sitemap-media.xml
-Sitemap: https://buccaneersalvage.github.io/ukiri/sitemap.xml
