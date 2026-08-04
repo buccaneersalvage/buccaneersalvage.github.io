@@ -1743,10 +1743,9 @@ ul.pagination .disabled .page {
   display: block;
   width: 100%;
   height: auto;
-  aspect-ratio: 4 / 1;
-  object-fit: contain;
-  object-position: center center;
-  vertical-align: middle;
+  aspect-ratio: 10 / 3; /* 1600×480 strip from v1 art */
+  object-fit: cover;
+  object-position: center top;
 }
 @media (max-width: 520px) {
   .st-banner-link { max-width: 100%; border-radius: 8px; }
