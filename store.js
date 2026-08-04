@@ -6,7 +6,7 @@
    * Search + category + price filter + sort + pagination (not all 67 at once).
    * Commerce-style facets; brand-dark gold cards; cores warn on-card.
    */
-  const CATALOG_URL = "assets/square-catalog.json?v=20260804w";
+  const CATALOG_URL = "assets/square-catalog.json?v=20260804y";
   const CORE_WARN = "FOR PARTS OR REBUILD · UNTESTED · NO RETURNS";
   const DEFAULT_PAGE = 12;
 
@@ -227,8 +227,9 @@
     const imgUrl = safeUrl(item.image);
     const price = item.price != null ? Number(item.price) : "";
     const priceLabel = money(item.price);
+    const imgAlt = (item.name || catLabel(item.category) || "Part").slice(0, 120);
     const img = imgUrl !== "#"
-      ? `<img class="st-img" src="${escapeAttr(imgUrl)}" alt="" width="400" height="400" loading="${featured ? "eager" : "lazy"}" decoding="async" />`
+      ? `<img class="st-img" src="${escapeAttr(imgUrl)}" alt="${escapeAttr(imgAlt)}" width="400" height="400" loading="${featured ? "eager" : "lazy"}" decoding="async" />`
       : `<div class="st-card-ph" aria-hidden="true">—</div>`;
     const ribbon = core ? `<span class="st-ribbon">FOR PARTS · NO RETURNS</span>` : "";
     const warn = core ? `<p class="st-warn">${escapeHtml(CORE_WARN)}</p>` : "";
