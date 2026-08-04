@@ -513,6 +513,7 @@
               aria-label="FBI Ukiri GODMODE full roast — AI satire, public record framing"
             >
               <source id="mainSource" src="assets/video/godmode-full-roast-720p.mp4" type="video/mp4" />
+              <track id="mainCaptions" kind="captions" srclang="en" label="English" src="assets/video/godmode-full-roast.vtt" default />
               Your browser does not support embedded video.
               <a href="assets/video/godmode-full-roast-720p.mp4">Download the MP4</a>.
             </video>
@@ -543,7 +544,7 @@
         </header>
 
         <div class="video-gallery reveal">
-          <button type="button" class="video-card is-active" data-src="assets/video/godmode-full-roast-720p.mp4" data-poster="assets/video/godmode-poster.jpg" data-title="FBI Ukiri GODMODE Full Roast" data-meta="~165s · full arc · AI satire · not for kids">
+          <button type="button" class="video-card is-active" data-src="assets/video/godmode-full-roast-720p.mp4" data-captions="assets/video/godmode-full-roast.vtt" data-poster="assets/video/godmode-poster.jpg" data-title="FBI Ukiri GODMODE Full Roast" data-meta="~165s · full arc · AI satire · not for kids">
             <div class="video-thumbnail">
               <img src="assets/video/godmode-poster.jpg" width="640" height="360" alt="GODMODE full roast poster" loading="lazy" />
               <span class="play-button" aria-hidden="true">▶</span>
@@ -556,7 +557,7 @@
             </div>
           </button>
 
-          <button type="button" class="video-card" data-src="assets/video/interview-roast.mp4" data-poster="assets/video/poster-interview.jpg" data-title="FBI Interview GODMODE Roast" data-meta="~99s · Imagine Agent dialogue · accounts / Copart / nuclear closer">
+          <button type="button" class="video-card" data-src="assets/video/interview-roast.mp4" data-captions="assets/video/interview-roast.vtt" data-poster="assets/video/poster-interview.jpg" data-title="FBI Interview GODMODE Roast" data-meta="~99s · Imagine Agent dialogue · accounts / Copart / nuclear closer">
             <div class="video-thumbnail">
               <img src="assets/video/poster-interview.jpg" width="640" height="360" alt="Interview roast poster" loading="lazy" />
               <span class="play-button" aria-hidden="true">▶</span>
@@ -569,7 +570,7 @@
             </div>
           </button>
 
-          <button type="button" class="video-card" data-src="assets/video/dredge-escape.mp4" data-poster="assets/video/poster-dredge.jpg" data-title="Dredge Escape Roast" data-meta="~63s · walk-past FBI · NDMEA dredge · Nigeria-bound">
+          <button type="button" class="video-card" data-src="assets/video/dredge-escape.mp4" data-captions="assets/video/dredge-escape.vtt" data-poster="assets/video/poster-dredge.jpg" data-title="Dredge Escape Roast" data-meta="~63s · walk-past FBI · NDMEA dredge · Nigeria-bound">
             <div class="video-thumbnail">
               <img src="assets/video/poster-dredge.jpg" width="640" height="360" alt="Dredge escape roast poster" loading="lazy" />
               <span class="play-button" aria-hidden="true">▶</span>
@@ -881,14 +882,25 @@ https://buccaneersalvage.github.io/ukiri/
       var title = document.getElementById("playerTitle");
       var meta = document.getElementById("playerMeta");
       var dl = document.getElementById("playerDownload");
+      var captions = document.getElementById("mainCaptions");
       if (!player || !source) return;
       document.querySelectorAll(".video-card[data-src]").forEach(function (card) {
         card.addEventListener("click", function () {
           var src = card.getAttribute("data-src");
           var poster = card.getAttribute("data-poster") || "";
+          var cap = card.getAttribute("data-captions") || "";
           var t = card.getAttribute("data-title") || "Ukiri roast";
           var m = card.getAttribute("data-meta") || "";
           source.src = src;
+          if (captions) {
+            if (cap) {
+              captions.src = cap;
+              captions.default = true;
+              captions.track && (captions.track.mode = "showing");
+            } else {
+              captions.removeAttribute("src");
+            }
+          }
           player.poster = poster;
           player.load();
           player.scrollIntoView({ behavior: "smooth", block: "center" });
