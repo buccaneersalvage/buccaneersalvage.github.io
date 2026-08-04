@@ -1716,40 +1716,44 @@ ul.pagination .disabled .page {
   }
 }
 
-/* ────── Store eBay banner — compact strip, full art (no max-height crop) ─ */
+/* ────── Store eBay banner — full art scaled to strip height (no crop) ─ */
 .st-ebay-banner {
   background: transparent;
-  padding: 0.4rem 0 0.3rem;
-  margin: 0.25rem 0 0.55rem;
+  padding: 0.35rem 0 0.25rem;
+  margin: 0.2rem 0 0.5rem;
 }
 .st-banner-link {
   display: block;
-  max-width: 880px; /* wider strip; height follows art (~330px at 1600×600) */
+  width: fit-content;
+  max-width: min(100%, 640px); /* ~1/3 of prior ~495px tall pic → ~185px tall @ 16:9 */
   margin: 0 auto;
   text-decoration: none;
-  border-radius: 10px;
+  border-radius: 8px;
   overflow: hidden;
   border: 1px solid rgba(197, 160, 40, 0.32);
   background: #0c0a08;
-  box-shadow: 0 3px 14px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.4);
   transition: border-color 0.2s ease, box-shadow 0.2s ease;
   line-height: 0;
 }
 .st-banner-link:hover {
   border-color: rgba(212, 175, 55, 0.6);
-  box-shadow: 0 5px 18px rgba(212, 175, 55, 0.14);
+  box-shadow: 0 5px 16px rgba(212, 175, 55, 0.14);
   transform: none;
 }
+/* Whole picture scaled down — true banner footprint, never cover-crop */
 .st-banner-image {
   display: block;
-  width: 100%;
+  width: auto;
   height: auto;
   max-width: 100%;
+  max-height: 185px; /* ~1/3 of full-frame display height */
   object-fit: contain;
   object-position: center center;
 }
-@media (max-width: 920px) {
-  .st-banner-link { max-width: min(100%, 880px); border-radius: 8px; }
+@media (max-width: 520px) {
+  .st-banner-link { max-width: 100%; border-radius: 8px; }
+  .st-banner-image { max-height: 150px; }
 }
 
 /* ────── Product Detail Page (PDP) ──────────────────────────────────────── */
