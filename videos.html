@@ -158,16 +158,116 @@
         @keyframes drift-a { to { transform: translate(-6%, 8%) scale(1.15); } }
         @keyframes drift-b { to { transform: translate(7%, -6%) scale(1.1); } }
 
-        /* Header - Hidden */
-        header.nav {
+        /* Site nav — was display:none (trapped users with only footer Home) */
+        header.site-nav {
+            position: sticky;
+            top: 0;
+            z-index: 50;
+            background: rgba(5, 4, 3, 0.92);
+            border-bottom: 1px solid rgba(212, 175, 55, 0.22);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+        }
+        .site-nav-inner {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 0.75rem;
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 0.75rem 1.25rem;
+        }
+        .site-nav-brand {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.6rem;
+            text-decoration: none;
+            color: #e8c547;
+            font-family: 'Cormorant Garamond', serif;
+            font-weight: 600;
+            font-size: 1.15rem;
+            letter-spacing: 0.04em;
+            white-space: nowrap;
+        }
+        .site-nav-brand img {
+            width: 36px;
+            height: 36px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 1.5px solid #d4af37;
+        }
+        .site-nav-links {
             display: none;
+            align-items: center;
+            gap: 0.15rem;
+            flex-wrap: wrap;
+            justify-content: flex-end;
+        }
+        .site-nav-links a {
+            font-family: 'IBM Plex Mono', monospace;
+            font-size: 0.72rem;
+            font-weight: 500;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            color: #a89878;
+            text-decoration: none;
+            padding: 0.5rem 0.7rem;
+            border-radius: 999px;
+            transition: color 0.2s, background 0.2s;
+        }
+        .site-nav-links a:hover {
+            color: #f0e6d0;
+            background: rgba(255, 255, 255, 0.04);
+        }
+        .site-nav-links a[aria-current="page"] {
+            color: #e8c547;
+        }
+        .site-nav-links a.nav-warn { color: #e07070; }
+        .site-nav-toggle {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 42px;
+            height: 42px;
+            border: 1px solid rgba(212, 175, 55, 0.35);
+            border-radius: 8px;
+            background: transparent;
+            color: #e8c547;
+            cursor: pointer;
+            font-size: 1.25rem;
+            line-height: 1;
+        }
+        .site-nav-drawer {
+            display: none;
+            flex-direction: column;
+            gap: 0.15rem;
+            padding: 0.5rem 1.25rem 1rem;
+            border-top: 1px solid rgba(212, 175, 55, 0.15);
+            background: rgba(5, 4, 3, 0.96);
+        }
+        .site-nav-drawer.is-open { display: flex; }
+        .site-nav-drawer a {
+            font-family: 'IBM Plex Mono', monospace;
+            font-size: 0.85rem;
+            color: #c8b898;
+            text-decoration: none;
+            padding: 0.65rem 0.4rem;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+        }
+        .site-nav-drawer a:hover { color: #e8c547; }
+        .site-nav-drawer a[aria-current="page"] { color: #e8c547; }
+        @media (min-width: 820px) {
+            .site-nav-links { display: flex; }
+            .site-nav-toggle { display: none; }
+            .site-nav-drawer,
+            .site-nav-drawer.is-open { display: none !important; }
         }
 
         /* Main */
         main {
             max-width: 1400px;
             margin: 0 auto;
-            padding: 4rem 2rem;
+            padding: 2rem 2rem 4rem;
             position: relative;
             z-index: 1;
         }
@@ -883,6 +983,33 @@
     <div class="grain" aria-hidden="true"></div>
     <div class="orb orb-a" aria-hidden="true"></div>
     <div class="orb orb-b" aria-hidden="true"></div>
+
+    <header class="site-nav" role="banner" id="nav">
+        <div class="site-nav-inner">
+            <a class="site-nav-brand" href="index.html" aria-label="BuccaneerSalvage home">
+                <img src="assets/crest-rustjack-web.jpg" width="36" height="36" alt="" />
+                <span>BuccaneerSalvage</span>
+            </a>
+            <nav class="site-nav-links" aria-label="Primary">
+                <a href="index.html">Home</a>
+                <a href="store.html">Store</a>
+                <a href="videos.html" aria-current="page">Music library</a>
+                <a href="https://www.youtube.com/@BuccaneerSalvage" target="_blank" rel="noopener noreferrer">YouTube</a>
+                <a href="https://www.ebay.com/str/buccaneersalvage" target="_blank" rel="noopener noreferrer">eBay</a>
+                <a href="/ukiri/" class="nav-warn">Ukiri WARNING</a>
+            </nav>
+            <button class="site-nav-toggle" type="button" id="navToggle" aria-label="Open menu" aria-expanded="false" aria-controls="drawer">☰</button>
+        </div>
+        <div class="site-nav-drawer" id="drawer" hidden>
+            <a href="index.html">Home</a>
+            <a href="store.html">Store</a>
+            <a href="videos.html" aria-current="page">Music library</a>
+            <a href="https://www.youtube.com/@BuccaneerSalvage" target="_blank" rel="noopener noreferrer">YouTube</a>
+            <a href="https://www.ebay.com/str/buccaneersalvage" target="_blank" rel="noopener noreferrer">eBay</a>
+            <a href="/ukiri/">Ukiri WARNING</a>
+        </div>
+    </header>
+
     <main id="main">
         <!-- Hero -->
         <section class="hero">
@@ -999,8 +1126,11 @@
         <p>The Dark Fleet — Dark AI Music · Rusty Salvage · Visual Art Curator</p>
 
         <div class="social-links">
+            <a href="index.html">Home</a>
+            <a href="store.html">Store</a>
+            <a href="videos.html" aria-current="page">Music library</a>
             <a href="https://youtube.com/@buccaneersalvage" target="_blank" rel="noopener noreferrer">YouTube</a>
-            <a href="https://buccaneersalvage.github.io" target="_blank" rel="noopener noreferrer">Home</a>
+            <a href="https://www.ebay.com/str/buccaneersalvage" target="_blank" rel="noopener noreferrer">eBay</a>
         </div>
 
         <div class="copyright">
@@ -1017,6 +1147,27 @@
          * Catalog: #videos-data (kind). Refresh: update-dark-fleet-videos
          */
         (() => {
+            /* Site nav mobile drawer */
+            const navToggle = document.getElementById("navToggle");
+            const drawer = document.getElementById("drawer");
+            if (navToggle && drawer) {
+                drawer.hidden = false;
+                drawer.classList.remove("is-open");
+                navToggle.addEventListener("click", () => {
+                    const open = !drawer.classList.contains("is-open");
+                    drawer.classList.toggle("is-open", open);
+                    navToggle.setAttribute("aria-expanded", open ? "true" : "false");
+                    navToggle.setAttribute("aria-label", open ? "Close menu" : "Open menu");
+                });
+                drawer.querySelectorAll("a").forEach((a) => {
+                    a.addEventListener("click", () => {
+                        drawer.classList.remove("is-open");
+                        navToggle.setAttribute("aria-expanded", "false");
+                        navToggle.setAttribute("aria-label", "Open menu");
+                    });
+                });
+            }
+
             const PICK = 9;
             const BLURBS = {
                 music: "Dark AI music videos — Norse metal, dark country, memorial ballads, and ritual heat. Forged with industrial fire. Haul these bounties aboard.",

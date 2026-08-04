@@ -16,11 +16,85 @@
   let priceMin = null;
   let priceMax = null;
   let pageSize = DEFAULT_PAGE;
+  let priceTimer = null;
 
   const money = (n) =>
     n == null || Number.isNaN(Number(n))
       ? ""
       : new Intl.NumberFormat("en-US", { style: "currency", currency: "USD" }).format(n);
+
+  /** Parse "$50", "50", "1,299.99", "-10" → non-negative number or null. */
+  function parseMoneyInput(raw) {
+    if (raw == null) return null;
+    let s = String(raw).trim();
+    if (!s) return null;
+    s = s.replace(/[$,\s]/g, "");
+    // trailing + / junk: keep first numeric token
+    const m = s.match(/^-?\d+(?:\.\d+)?/);
+    if (!m) return null;
+    const n = parseFloat(m[0]);
+    if (!Number.isFinite(n)) return null;
+    // Amounts are never negative for this catalog — clamp
+    return Math.max(0, Math.abs(n));
+  }
+
+  /**
+   * Detect amount-intent search queries so "$50" / "under 40" / "50-100"
+   * filter by price instead of (broken) text substring match.
+   * Bare digits alone stay text search (years, part #s).
+   */
+  function parseAmountQuery(q) {
+    const s = String(q || "").trim().toLowerCase();
+    if (!s) return null;
+    let m;
+    m = s.match(/^(?:under|below|max|upto|up\s*to|<=?)\s*\$?\s*([\d,]+(?:\.\d+)?)\s*$/i);
+    if (m) return { min: null, max: parseMoneyInput(m[1]) };
+    m = s.match(/^(?:over|above|min|from|>=?)\s*\$?\s*([\d,]+(?:\.\d+)?)\s*$/i);
+    if (m) return { min: parseMoneyInput(m[1]), max: null };
+    m = s.match(/^\$?\s*([\d,]+(?:\.\d+)?)\s*[-–—to]+\s*\$?\s*([\d,]+(?:\.\d+)?)\s*$/i);
+    if (m) {
+      let a = parseMoneyInput(m[1]);
+      let b = parseMoneyInput(m[2]);
+      if (a != null && b != null && a > b) [a, b] = [b, a];
+      return { min: a, max: b };
+    }
+    // Explicit currency: $50 or 50$
+    m = s.match(/^\$\s*([\d,]+(?:\.\d+)?)\s*$/);
+    if (m) {
+      const n = parseMoneyInput(m[1]);
+      if (n == null) return null;
+      // tight band around exact price (± $1)
+      return { min: Math.max(0, n - 1), max: n + 1, exactish: true };
+    }
+    m = s.match(/^([\d,]+(?:\.\d+)?)\s*\$\s*$/);
+    if (m) {
+      const n = parseMoneyInput(m[1]);
+      if (n == null) return null;
+      return { min: Math.max(0, n - 1), max: n + 1, exactish: true };
+    }
+    return null;
+  }
+
+  function readFacetPrices() {
+    let min = parseMoneyInput(document.getElementById("stPriceMin")?.value);
+    let max = parseMoneyInput(document.getElementById("stPriceMax")?.value);
+    if (min != null && max != null && min > max) {
+      [min, max] = [max, min];
+    }
+    priceMin = min;
+    priceMax = max;
+    const hint = document.getElementById("stPriceHint");
+    if (hint) {
+      if (min != null || max != null) {
+        const lo = min != null ? money(min) : "any";
+        const hi = max != null ? money(max) : "any";
+        hint.textContent = `Price filter: ${lo} – ${hi}`;
+      } else {
+        hint.textContent =
+          "Enter min and/or max (e.g. 20, $50, 100). Or search $50 / under 40.";
+      }
+    }
+  }
 
   const isCore = (item) => item.category === "turbo" || item.category === "pump";
 
@@ -198,6 +272,18 @@
       push("for parts rebuild untested no returns core turbo pump");
     }
 
+    // Price tokens so amount-ish text search can still hit (prefer $N query → price filter)
+    if (item.price != null && Number.isFinite(Number(item.price))) {
+      const p = Number(item.price);
+      const whole = Math.floor(p);
+      push(String(p));
+      push(p.toFixed(2));
+      push("$" + p.toFixed(2));
+      push("$" + whole);
+      push(String(whole));
+      push("dollars usd price");
+    }
+
     // Category synonyms for search
     if (item.category === "air-spring") {
       push("air spring airspring air bag airbag bag rolling lobe convoluted suspension");
@@ -292,27 +378,62 @@
     if (showing) showing.textContent = text;
   }
 
+  /**
+   * Unified search + category + price (facets and/or amount-query).
+   * Fixes List.js fight: search alone wiped mental model of min/max;
+   * "$50" used to fail because $ is regex-escaped and price wasn't indexed.
+   */
   function applyFilters() {
     if (!list) return;
+    const rawQ = document.getElementById("stSearch")?.value || "";
+    const amountQ = parseAmountQuery(rawQ);
+
+    let min = priceMin;
+    let max = priceMax;
+    let textQ = rawQ.trim();
+
+    if (amountQ) {
+      // Amount-intent query → price bounds (stack tighter with facets)
+      if (amountQ.min != null) {
+        min = min == null ? amountQ.min : Math.max(min, amountQ.min);
+      }
+      if (amountQ.max != null) {
+        max = max == null ? amountQ.max : Math.min(max, amountQ.max);
+      }
+      if (min != null && max != null && min > max) [min, max] = [max, min];
+      textQ = ""; // don't also substring-search "$50"
+      const hint = document.getElementById("stPriceHint");
+      if (hint) {
+        const lo = min != null ? money(min) : "any";
+        const hi = max != null ? money(max) : "any";
+        hint.textContent = `Search amount → ${lo} – ${hi}`;
+      }
+    }
+
+    // Text search first (empty clears List.js searched flag)
+    list.search(textQ);
+
     list.filter((item) => {
       const el = item.elm;
+      if (!el) return false;
       const cat = el.getAttribute("data-category") || "other";
       const core = cat === "turbo" || cat === "pump";
-      // category
       if (category === "cores") {
         if (!core) return false;
       } else if (category !== "all" && cat !== category) {
         return false;
       }
-      // price
       const p = parseFloat(el.getAttribute("data-price"));
-      if (priceMin != null && !Number.isNaN(p) && p < priceMin) return false;
-      if (priceMax != null && !Number.isNaN(p) && p > priceMax) return false;
+      const hasPrice = Number.isFinite(p);
+      if (min != null) {
+        if (!hasPrice || p < min) return false;
+      }
+      if (max != null) {
+        if (!hasPrice || p > max) return false;
+      }
       return true;
     });
-    list.update();
     updateShowing();
-    // scroll catalog into view gently on filter change (not on first paint)
   }
 
   // List.js multiplies sortFunction result by order (±1) — return ASC comparison only.
@@ -401,11 +522,9 @@
     const sortMode = document.getElementById("stSort")?.value || "featured";
     // Full rebuild keeps List.js page size + pagination in sync
     initList();
-    if (searchVal && list) {
-      list.search(searchVal);
-      const searchEl = document.getElementById("stSearch");
-      if (searchEl) searchEl.value = searchVal;
-    }
+    const searchEl = document.getElementById("stSearch");
+    if (searchEl) searchEl.value = searchVal;
+    readFacetPrices();
     applyFilters();
     applySort(sortMode);
   }
@@ -424,14 +543,29 @@
       });
     });
 
-    document.getElementById("stPriceApply")?.addEventListener("click", () => {
-      const minV = document.getElementById("stPriceMin")?.value;
-      const maxV = document.getElementById("stPriceMax")?.value;
-      priceMin = minV === "" || minV == null ? null : parseFloat(minV);
-      priceMax = maxV === "" || maxV == null ? null : parseFloat(maxV);
-      if (Number.isNaN(priceMin)) priceMin = null;
-      if (Number.isNaN(priceMax)) priceMax = null;
+    const applyPriceFacets = () => {
+      readFacetPrices();
       applyFilters();
+    };
+
+    document.getElementById("stPriceApply")?.addEventListener("click", applyPriceFacets);
+
+    // Live min/max (debounced) + Enter — type "$50" or "20" in either box
+    ["stPriceMin", "stPriceMax"].forEach((id) => {
+      const el = document.getElementById(id);
+      if (!el) return;
+      el.addEventListener("input", () => {
+        clearTimeout(priceTimer);
+        priceTimer = setTimeout(applyPriceFacets, 220);
+      });
+      el.addEventListener("keydown", (e) => {
+        if (e.key === "Enter") {
+          e.preventDefault();
+          clearTimeout(priceTimer);
+          applyPriceFacets();
+        }
+      });
+      el.addEventListener("blur", applyPriceFacets);
     });
 
     document.getElementById("stClearFilters")?.addEventListener("click", () => {
@@ -449,9 +583,14 @@
       if (maxEl) maxEl.value = "";
       const search = document.getElementById("stSearch");
       if (search) search.value = "";
+      const hint = document.getElementById("stPriceHint");
+      if (hint) {
+        hint.textContent =
+          "Enter min and/or max (e.g. 20, $50, 100). Or search $50 / under 40.";
+      }
       if (list) {
-        list.search();
-        list.filter();
+        list.search("");
+        list.filter(); // clear filter flags
       }
       applyFilters();
       applySort(document.getElementById("stSort")?.value || "featured");
@@ -466,11 +605,17 @@
       reinitWithPageSize(n);
     });
 
-    // List.js binds .search on keyup; also drive search on input (paste / clear / IME)
-    document.getElementById("stSearch")?.addEventListener("input", (e) => {
+    // Drive search through applyFilters so price facets + amount queries stack
+    // (List.js also binds .search keyup — our path re-applies category/price after)
+    document.getElementById("stSearch")?.addEventListener("input", () => {
       if (!list) return;
-      list.search(e.target.value || "");
-      updateShowing();
+      applyFilters();
+    });
+    document.getElementById("stSearch")?.addEventListener("keydown", (e) => {
+      if (e.key === "Enter") {
+        e.preventDefault();
+        applyFilters();
+      }
     });
   }
 

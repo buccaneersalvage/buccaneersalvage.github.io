@@ -1574,6 +1574,17 @@ ul { list-style: none; }
   outline: 2px solid rgba(212, 175, 55, 0.55);
   outline-offset: 1px;
 }
+.st-price-hint {
+  margin: 0.35rem 0 0.55rem;
+  font-size: 0.72rem;
+  line-height: 1.35;
+  color: var(--parchment-faint, #8a7f6a);
+}
+.st-price-hint code {
+  font-family: var(--font-mono, ui-monospace, monospace);
+  font-size: 0.7rem;
+  color: var(--gold-bright, #e8c547);
+}
 .st-price-sep {
   color: var(--parchment-faint, #8a7f6a);
   flex-shrink: 0;

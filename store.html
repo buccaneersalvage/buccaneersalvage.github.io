@@ -35,7 +35,7 @@
   <link rel="apple-touch-icon" href="assets/crest-rustjack-web.jpg" />
   <link rel="preload" href="assets/fonts.css" as="style" />
   <link rel="stylesheet" href="assets/fonts.css" />
-  <link rel="stylesheet" href="styles.css?v=godseo1" />
+  <link rel="stylesheet" href="styles.css?v=navprice2" />
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -102,15 +102,15 @@
 
   <header class="nav is-solid" role="banner" id="nav">
     <div class="nav-inner">
-      <a class="nav-brand" href="store.html" aria-label="BuccaneerSalvage Store home">
+      <a class="nav-brand" href="index.html" aria-label="BuccaneerSalvage home">
         <img class="nav-mark" src="assets/crest-rustjack-web.jpg" width="38" height="38" alt="" />
-        <span class="nav-word">BuccaneerSalvage Store</span>
+        <span class="nav-word">BuccaneerSalvage</span>
       </a>
       <nav class="nav-links" aria-label="Primary">
-        <a href="store.html" aria-current="page">Catalog</a>
+        <a href="index.html">Home</a>
+        <a href="store.html" aria-current="page">Store</a>
+        <a href="videos.html">Music library</a>
         <a href="https://www.ebay.com/str/buccaneersalvage" target="_blank" rel="noopener noreferrer">eBay</a>
-        <a href="index.html">Music hub</a>
-        <a href="videos.html">Videos</a>
         <a href="/ukiri/" class="nav-warn">Ukiri WARNING</a>
       </nav>
       <a class="nav-cta" href="#catalog">Shop parts</a>
@@ -119,10 +119,10 @@
       </button>
     </div>
     <div class="nav-drawer" id="drawer" hidden>
+      <a href="index.html">Home</a>
       <a href="store.html" aria-current="page">Store catalog</a>
+      <a href="videos.html">Music library</a>
       <a href="https://www.ebay.com/str/buccaneersalvage" target="_blank" rel="noopener noreferrer">eBay store</a>
-      <a href="index.html">Music hub</a>
-      <a href="videos.html">The Dark Fleet</a>
       <a href="/ukiri/">Ukiri WARNING</a>
     </div>
   </header>
@@ -218,13 +218,16 @@
                 <p class="st-facet-label">Price</p>
                 <div class="st-price-row">
                   <label><span class="visually-hidden">Min price</span>
-                    <input type="number" id="stPriceMin" min="0" step="1" placeholder="Min $" inputmode="decimal" />
+                    <input type="text" id="stPriceMin" inputmode="decimal" autocomplete="off"
+                           placeholder="Min $" aria-label="Minimum price" />
                   </label>
                   <span class="st-price-sep">–</span>
                   <label><span class="visually-hidden">Max price</span>
-                    <input type="number" id="stPriceMax" min="0" step="1" placeholder="Max $" inputmode="decimal" />
+                    <input type="text" id="stPriceMax" inputmode="decimal" autocomplete="off"
+                           placeholder="Max $" aria-label="Maximum price" />
                   </label>
                 </div>
+                <p class="st-price-hint" id="stPriceHint">Enter min and/or max (e.g. 20, $50, 100). Or search <code>$50</code> / <code>under 40</code>.</p>
                 <button type="button" class="st-facet-apply" id="stPriceApply">Apply price</button>
               </div>
               <button type="button" class="st-facet-clear" id="stClearFilters">Clear filters</button>
@@ -299,6 +302,6 @@
 
   <script src="main.js" defer></script>
   <script src="assets/vendor/list.min.js" defer></script>
-  <script src="store.js?v=godseo1" defer></script>
+  <script src="store.js?v=navprice2" defer></script>
 </body>
 </html>
