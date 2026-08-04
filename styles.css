@@ -25,6 +25,7 @@
 
   /* Text */
   --parchment: #f3ead8;
+  --parchment-light: #eee4d4;
   --parchment-muted: rgba(243, 234, 216, 0.68);
   --parchment-faint: rgba(243, 234, 216, 0.42);
 
@@ -1445,6 +1446,20 @@ ul { list-style: none; }
   font-size: 0.95rem;
   padding: 1rem 0;
 }
+.st-empty--panel {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.75rem;
+  padding: 1.5rem 1.25rem;
+  border: 1px solid var(--glass-edge, rgba(240, 208, 120, 0.18));
+  border-radius: var(--radius-sm, 10px);
+  background: rgba(12, 10, 8, 0.55);
+}
+.st-empty-msg {
+  margin: 0;
+  color: var(--parchment-light, #eee4d4);
+}
 
 /* ── God-mode PLP: facets + toolbar + List.js pager (commerce-ui inspired) ─ */
 .st-listjs { max-width: 1200px; }
@@ -2097,13 +2112,10 @@ ul.pagination .disabled .page {
   overflow: hidden;
   text-overflow: ellipsis;
 }
-/* PLP cards: skip offscreen paint (CSS tighten / godseo) */
+/* PLP cards: skip offscreen paint (CSS tighten / godseo) — CV on card only, not nested img */
 .page-store .st-card {
   content-visibility: auto;
   contain-intrinsic-size: 360px 420px;
-}
-.page-store .st-card-media img {
-  content-visibility: auto;
 }
 /* Grain is decorative — don't force continuous layer on store */
 .page-store .grain {

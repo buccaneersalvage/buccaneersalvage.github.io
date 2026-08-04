@@ -123,6 +123,25 @@
     return /^https?:\/\//i.test(s) ? s : "#";
   }
 
+  /** Product images: self host + Square CDN / common S3 (parity with item.js). */
+  function safeImageUrl(u) {
+    const s = String(u || "").trim();
+    if (!/^https?:\/\//i.test(s)) return "";
+    try {
+      const host = new URL(s).hostname.toLowerCase();
+      if (
+        host === "buccaneersalvage.github.io" ||
+        host.endsWith(".squareup.com") ||
+        host.endsWith(".squarecdn.com") ||
+        host.endsWith(".amazonaws.com") ||
+        host === "items-images-production.s3.us-west-2.amazonaws.com"
+      ) {
+        return s;
+      }
+    } catch (_) {}
+    return "";
+  }
+
   function rankCat(c) {
     return { turbo: 0, pump: 1, "air-spring": 2, brake: 3, other: 4 }[c] ?? 9;
   }
@@ -310,11 +329,11 @@
   function cardHtml(item, { featured = false } = {}) {
     const core = isCore(item);
     const href = `item.html?id=${encodeURIComponent(item.id)}`;
-    const imgUrl = safeUrl(item.image);
+    const imgUrl = safeImageUrl(item.image);
     const price = item.price != null ? Number(item.price) : "";
     const priceLabel = money(item.price);
     const imgAlt = (item.name || catLabel(item.category) || "Part").slice(0, 120);
-    const img = imgUrl !== "#"
+    const img = imgUrl
       ? `<img class="st-img" src="${escapeAttr(imgUrl)}" alt="${escapeAttr(imgAlt)}" width="400" height="400" loading="${featured ? "eager" : "lazy"}" decoding="async" />`
       : `<div class="st-card-ph" aria-hidden="true">—</div>`;
     const ribbon = core ? `<span class="st-ribbon">FOR PARTS · NO RETURNS</span>` : "";
@@ -376,6 +395,31 @@
         : `Showing ${from}–${to} of ${matching}`;
     if (meta) meta.textContent = text;
     if (showing) showing.textContent = text;
+    updateEmptyState(matching);
+  }
+
+  /** In-grid empty state with clear-filters affordance when zero matches. */
+  function updateEmptyState(matching) {
+    const grid = document.getElementById("stGrid");
+    if (!grid) return;
+    let empty = document.getElementById("stEmptyState");
+    if (matching > 0) {
+      if (empty) empty.remove();
+      return;
+    }
+    if (!empty) {
+      empty = document.createElement("div");
+      empty.id = "stEmptyState";
+      empty.className = "st-empty st-empty--panel";
+      empty.setAttribute("role", "status");
+      empty.innerHTML =
+        '<p class="st-empty-msg">No parts match that search or filter.</p>' +
+        '<button type="button" class="btn btn-secondary" id="stEmptyClear">Clear filters</button>';
+      grid.appendChild(empty);
+      empty.querySelector("#stEmptyClear")?.addEventListener("click", () => {
+        document.getElementById("stClearFilters")?.click();
+      });
+    }
   }
 
   /**
