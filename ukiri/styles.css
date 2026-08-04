@@ -1151,6 +1151,14 @@ input:focus, textarea:focus {
   object-fit: cover;
   background: #0a0a0c;
 }
+/* Letter/email scans: show full page so redaction bars stay visible (no center-crop of headers) */
+.exhibit-card img.exhibit-doc {
+  aspect-ratio: 3 / 4;
+  object-fit: contain;
+  object-position: top center;
+  background: #111114;
+  max-height: 520px;
+}
 .exhibit-card figcaption {
   padding: 0.85rem 1rem 1rem;
   font-size: 0.88rem;
