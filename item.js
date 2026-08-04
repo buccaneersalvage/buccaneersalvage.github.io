@@ -6,7 +6,7 @@
    * Load item by URL param; display from static catalog JSON.
    * Primary CTA opens Square checkout (catalog item.url).
    */
-  const CATALOG_URL = "assets/square-catalog.json?v=20260804v";
+  const CATALOG_URL = "assets/square-catalog.json?v=20260804w";
   const CORE_WARN = "FOR PARTS OR REBUILD · UNTESTED · NO RETURNS";
 
   const money = (n) =>
