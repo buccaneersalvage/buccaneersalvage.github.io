@@ -1411,6 +1411,302 @@ ul { list-style: none; }
   padding: 1rem 0;
 }
 
+/* ── God-mode PLP: facets + toolbar + List.js pager (commerce-ui inspired) ─ */
+.st-listjs { max-width: 1200px; }
+
+.st-result-meta {
+  margin: 0.2rem 0 0;
+  font-family: var(--font-mono, monospace);
+  font-size: 0.78rem;
+  letter-spacing: 0.03em;
+  color: var(--parchment-faint, #8a7f6a);
+}
+
+.st-page-size select {
+  appearance: none;
+  background: #16120e;
+  border: 1px solid rgba(197, 160, 40, 0.28);
+  color: var(--parchment, #f3e9d4);
+  border-radius: 8px;
+  padding: 0.5rem 0.75rem;
+  font-size: 0.82rem;
+  font-family: var(--font-mono, monospace);
+  cursor: pointer;
+}
+.st-page-size select:focus {
+  outline: 2px solid rgba(212, 175, 55, 0.55);
+  outline-offset: 1px;
+}
+
+/* Two-column PLP: refine rail + main */
+.st-plp {
+  display: grid;
+  gap: 1.25rem;
+  align-items: start;
+}
+@media (min-width: 960px) {
+  .st-plp {
+    grid-template-columns: 220px minmax(0, 1fr);
+    gap: 1.75rem;
+  }
+}
+
+/* Facet rail — dark gold, sticky on desktop */
+.st-facets {
+  background: #12100c;
+  border: 1px solid rgba(197, 160, 40, 0.18);
+  border-radius: 12px;
+  padding: 1rem 0.95rem 1.1rem;
+}
+@media (min-width: 960px) {
+  .st-facets {
+    position: sticky;
+    top: 5.25rem;
+  }
+}
+.st-facets-title {
+  margin: 0 0 0.85rem;
+  font-family: var(--font-display, Georgia, serif);
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--gold-bright, #d4af37);
+  letter-spacing: 0.02em;
+}
+.st-facet-group {
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid rgba(197, 160, 40, 0.12);
+}
+.st-facet-group:last-of-type {
+  border-bottom: 0;
+  margin-bottom: 0.75rem;
+  padding-bottom: 0;
+}
+.st-facet-label {
+  margin: 0 0 0.5rem;
+  font-family: var(--font-mono, monospace);
+  font-size: 0.68rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--parchment-faint, #8a7f6a);
+}
+.st-facets .st-chips {
+  flex-direction: column;
+  align-items: stretch;
+}
+.st-facets .st-chip {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  border-radius: 8px;
+  text-align: left;
+  padding: 0.5rem 0.65rem;
+}
+.st-chip-n {
+  font-family: var(--font-mono, monospace);
+  font-size: 0.65rem;
+  opacity: 0.75;
+  min-width: 1.4em;
+  text-align: right;
+  color: inherit;
+}
+.st-chip.is-on .st-chip-n { opacity: 1; }
+
+.st-price-row {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+.st-price-row label { flex: 1; min-width: 0; }
+.st-price-row input {
+  width: 100%;
+  appearance: textfield;
+  background: #0a0806;
+  border: 1px solid rgba(197, 160, 40, 0.28);
+  color: var(--parchment, #f3e9d4);
+  border-radius: 8px;
+  padding: 0.5rem 0.55rem;
+  font-size: 0.85rem;
+  font-family: var(--font-mono, monospace);
+}
+.st-price-row input::-webkit-outer-spin-button,
+.st-price-row input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.st-price-row input:focus {
+  outline: 2px solid rgba(212, 175, 55, 0.55);
+  outline-offset: 1px;
+}
+.st-price-sep {
+  color: var(--parchment-faint, #8a7f6a);
+  flex-shrink: 0;
+}
+.st-facet-apply,
+.st-facet-clear {
+  width: 100%;
+  margin-top: 0.55rem;
+  padding: 0.55rem 0.65rem;
+  border-radius: 8px;
+  font-size: 0.78rem;
+  font-weight: 600;
+  font-family: var(--font-mono, monospace);
+  letter-spacing: 0.03em;
+  cursor: pointer;
+  transition: background 0.15s ease, border-color 0.15s ease;
+}
+.st-facet-apply {
+  background: rgba(212, 175, 55, 0.14);
+  border: 1px solid rgba(212, 175, 55, 0.45);
+  color: var(--gold-bright, #d4af37);
+}
+.st-facet-apply:hover {
+  background: rgba(212, 175, 55, 0.26);
+}
+.st-facet-clear {
+  margin-top: 0.85rem;
+  background: transparent;
+  border: 1px dashed rgba(197, 160, 40, 0.28);
+  color: var(--parchment-mute, #c4b59a);
+}
+.st-facet-clear:hover {
+  border-style: solid;
+  border-color: rgba(212, 175, 55, 0.45);
+  color: var(--parchment, #f3e9d4);
+}
+
+/* Main column toolbar */
+.st-plp-main { min-width: 0; }
+.st-toolbar {
+  display: grid;
+  gap: 0.65rem;
+  margin-bottom: 1rem;
+}
+@media (min-width: 640px) {
+  .st-toolbar {
+    grid-template-columns: minmax(0, 1fr) auto;
+    align-items: center;
+  }
+}
+.st-toolbar .st-search { display: block; }
+.st-toolbar .st-sort select { min-width: 12rem; }
+
+/* Catalog grid inside PLP: drop full-page max so it fills main column */
+.st-plp-main .st-grid {
+  max-width: none;
+}
+@media (min-width: 960px) and (max-width: 1199px) {
+  .st-plp-main .st-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (min-width: 1200px) {
+  .st-plp-main .st-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* List.js hides non-page items; keep layout stable */
+.st-grid > .st-card[style*="display: none"] {
+  display: none !important;
+}
+
+/* Pager bar — Amazon-style “Showing X–Y of N” + page links */
+.st-pager-bar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem 1.25rem;
+  margin-top: 1.5rem;
+  padding-top: 1.1rem;
+  border-top: 1px solid rgba(197, 160, 40, 0.15);
+}
+.st-showing {
+  margin: 0;
+  font-family: var(--font-mono, monospace);
+  font-size: 0.78rem;
+  letter-spacing: 0.03em;
+  color: var(--parchment-faint, #8a7f6a);
+}
+
+/* List.js injects <li><a class="page">N</a></li> */
+.st-pagination,
+ul.pagination {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.35rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.st-pagination li,
+ul.pagination li {
+  margin: 0;
+  padding: 0;
+}
+.st-pagination .page,
+ul.pagination .page,
+.st-pagination a,
+ul.pagination a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 2.15rem;
+  height: 2.15rem;
+  padding: 0 0.55rem;
+  border-radius: 8px;
+  border: 1px solid rgba(197, 160, 40, 0.28);
+  background: #16120e;
+  color: var(--parchment-mute, #c4b59a);
+  font-family: var(--font-mono, monospace);
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+  transition: border-color 0.12s ease, background 0.12s ease, color 0.12s ease;
+}
+.st-pagination .page:hover,
+ul.pagination .page:hover,
+.st-pagination a:hover,
+ul.pagination a:hover {
+  border-color: rgba(212, 175, 55, 0.55);
+  color: var(--gold-bright, #d4af37);
+}
+.st-pagination .active .page,
+ul.pagination .active .page,
+.st-pagination li.active > a,
+ul.pagination li.active > a {
+  background: rgba(212, 175, 55, 0.2);
+  border-color: rgba(212, 175, 55, 0.65);
+  color: var(--gold-bright, #d4af37);
+  box-shadow: 0 0 0 1px rgba(212, 175, 55, 0.15);
+}
+.st-pagination .disabled .page,
+ul.pagination .disabled .page {
+  opacity: 0.35;
+  pointer-events: none;
+}
+
+/* Mobile: horizontal chips when facets stack above */
+@media (max-width: 959px) {
+  .st-facets .st-chips {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .st-facets .st-chip {
+    border-radius: 999px;
+  }
+}
+
 @media (prefers-reduced-motion: reduce) {
   .st-card { transition: none; }
+  .st-facet-apply,
+  .st-facet-clear,
+  .st-pagination .page,
+  ul.pagination .page {
+    transition: none;
+  }
 }
