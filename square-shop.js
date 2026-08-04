@@ -31,15 +31,17 @@
       : `<div class="sq-card-ph" aria-hidden="true">☠</div>`;
     const price = money(item.price);
     const badge = catLabel(item.category);
+    // Product URL = Square checkout only (payment/shipping). Catalog lives on this hub page.
     const href = item.url || STORE;
     return `
-      <a class="${cls}" href="${escapeAttr(href)}" target="_blank" rel="noopener noreferrer">
+      <a class="${cls}" href="${escapeAttr(href)}" target="_blank" rel="noopener noreferrer"
+         title="Opens Square for secure checkout">
         <div class="sq-card-media">${img}</div>
         <div class="sq-card-body">
           <span class="sq-card-badge">${escapeHtml(badge)}</span>
           <h3 class="sq-card-title">${escapeHtml(item.name)}</h3>
           ${price ? `<p class="sq-card-price">${escapeHtml(price)}</p>` : ""}
-          <span class="sq-card-go">Buy on Square →</span>
+          <span class="sq-card-go">Buy / Checkout on Square →</span>
         </div>
       </a>`;
   };
@@ -128,17 +130,17 @@
       const items = Array.isArray(data.items) ? data.items : [];
       if (meta) {
         const when = data.updated ? ` · snapshot ${data.updated.slice(0, 10)}` : "";
-        meta.textContent = `${items.length} items on Square${when}`;
+        meta.textContent = `${items.length} parts on this page${when} · checkout via Square`;
       }
       renderMarquee(items);
       renderGrid(items, "all");
       wireFilters(items);
     } catch (err) {
-      if (meta) meta.textContent = "Catalog offline — open Square store directly.";
+      if (meta) meta.textContent = "Catalog offline — try refresh.";
       const grid = document.getElementById("sqGrid");
       if (grid) {
-        grid.innerHTML = `<p class="sq-empty">Could not load the catalog snapshot.
-          <a href="${STORE}" target="_blank" rel="noopener noreferrer">Go to Square Online</a>.</p>`;
+        grid.innerHTML = `<p class="sq-empty">Could not load the catalog snapshot. Refresh this page.
+          Checkout still runs on Square when links work.</p>`;
       }
       console.warn("[square-shop]", err);
     }

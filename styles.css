@@ -1062,6 +1062,28 @@ ul { list-style: none; }
   color: var(--parchment-faint, #8a7f6a);
   margin: 0;
 }
+.sq-disclaimer {
+  max-width: 54ch;
+  margin: 0 0 1.25rem;
+  padding: 0.85rem 1rem;
+  border: 1px solid rgba(147, 197, 253, 0.35);
+  border-left: 3px solid #60a5fa;
+  border-radius: 8px;
+  background: rgba(30, 58, 95, 0.22);
+  color: var(--parchment-mute, #c4b59a);
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+.sq-disclaimer strong {
+  color: #93c5fd;
+  display: block;
+  margin-bottom: 0.25rem;
+  font-family: var(--font-mono, monospace);
+  font-size: 0.72rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.sq-disclaimer em { color: var(--parchment, #f3e9d4); font-style: normal; font-weight: 600; }
 
 /* Marquee of product cards */
 .sq-marquee-section {
