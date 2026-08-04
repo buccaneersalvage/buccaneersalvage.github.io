@@ -53,6 +53,174 @@
     return { turbo: 0, pump: 1, "air-spring": 2, brake: 3, other: 4 }[c] ?? 9;
   }
 
+  /** Brand / manufacturer aliases so "chevy", "contitech", "benz" hit listings. */
+  const BRAND_ALIASES = {
+    chevrolet: "chevy chevrolet gm general motors",
+    chevy: "chevy chevrolet",
+    ford: "ford motor",
+    dodge: "dodge ram",
+    ram: "ram dodge",
+    gmc: "gmc general motors",
+    mercedes: "mercedes mercedes-benz benz",
+    "mercedes-benz": "mercedes mercedes-benz benz",
+    contitech: "contitech continental conti",
+    continental: "continental contitech conti",
+    goodyear: "goodyear",
+    automann: "automann",
+    carlson: "carlson",
+    firestone: "firestone",
+    holset: "holset cummins",
+    mack: "mack truck",
+    wagner: "wagner",
+    econoride: "econoride",
+    toyota: "toyota",
+    lexus: "lexus",
+    jeep: "jeep",
+    chrysler: "chrysler",
+    buick: "buick",
+    cadillac: "cadillac",
+    kia: "kia",
+    nissan: "nissan",
+    infiniti: "infiniti infinity",
+    mazda: "mazda",
+    subaru: "subaru",
+    volkswagen: "volkswagen vw",
+    fiat: "fiat",
+    saturn: "saturn",
+    oldsmobile: "oldsmobile olds",
+    pontiac: "pontiac",
+    isuzu: "isuzu",
+    freightliner: "freightliner",
+  };
+
+  /** Expand "2000–2011" so year queries like 2005 match (List.js is substring). */
+  function expandYearRange(from, to, cap = 45) {
+    const a = Number(from);
+    const b = Number(to);
+    if (!Number.isFinite(a) || !Number.isFinite(b) || a > b) return [];
+    if (b - a > cap) return [String(a), String(b)]; // huge ranges: endpoints only
+    const out = [];
+    for (let y = a; y <= b; y++) out.push(String(y));
+    return out;
+  }
+
+  function yearsFromLabel(label) {
+    const s = String(label || "");
+    // 2000–2011 or 2000-2011
+    let m = s.match(/\b((?:19|20)\d{2})\s*[–—-]\s*((?:19|20)\d{2})\b/);
+    if (m) return expandYearRange(m[1], m[2]);
+    m = s.match(/\b((?:19|20)\d{2})\b/);
+    return m ? [m[1]] : [];
+  }
+
+  /**
+   * Rich List.js search index: title, brand, MPN, interchange, vehicles,
+   * year/make/model (with year-range expansion + brand aliases).
+   */
+  function buildSearchBlob(item) {
+    const parts = [];
+    const push = (v) => {
+      if (v == null || v === "") return;
+      if (Array.isArray(v)) {
+        v.forEach(push);
+        return;
+      }
+      if (typeof v === "object") return;
+      parts.push(String(v));
+    };
+
+    push(item.name);
+    push(item.category);
+    push(catLabel(item.category));
+    push(item.id);
+    push(item.ebay_item_id);
+    push(item.part_numbers);
+    push(item.interchange);
+
+    // Title brand / first tokens (OEM Goodyear …)
+    const name = String(item.name || "");
+    const brandTok = name.match(
+      /^(?:OEM\s+)?(Carlson|Automann|Goodyear|Continental|ContiTech|Firestone|Holset|Mack|Wagner|Econoride|Mercedes(?:-Benz)?|Meritor)\b/i
+    );
+    if (brandTok) {
+      push(brandTok[1]);
+      push("brand manufacturer maker");
+      const key = brandTok[1].toLowerCase();
+      if (BRAND_ALIASES[key]) push(BRAND_ALIASES[key]);
+    }
+
+    // Vehicle labels: "2000–2011 Dodge Dakota"
+    const vehLabels = Array.isArray(item.vehicles) ? item.vehicles : [];
+    vehLabels.forEach((label) => {
+      push(label);
+      push(yearsFromLabel(label));
+      // common make/model words already in label; add aliases
+      const low = String(label).toLowerCase();
+      Object.keys(BRAND_ALIASES).forEach((k) => {
+        if (low.includes(k)) push(BRAND_ALIASES[k]);
+      });
+    });
+
+    // Structured fitment.vehicles
+    const fit = item.fitment && typeof item.fitment === "object" ? item.fitment : null;
+    const fitVeh = fit && Array.isArray(fit.vehicles) ? fit.vehicles : [];
+    fitVeh.forEach((v) => {
+      if (!v || typeof v !== "object") return;
+      push(v.make);
+      push(v.model);
+      push(v.trim);
+      push(v.engine);
+      push(v.notes);
+      if (v.year_from != null || v.year_to != null) {
+        const y0 = v.year_from != null ? v.year_from : v.year_to;
+        const y1 = v.year_to != null ? v.year_to : v.year_from;
+        push(expandYearRange(y0, y1));
+        push(String(y0), String(y1));
+      } else if (v.year != null) {
+        push(String(v.year));
+      }
+      if (v.make) {
+        const mk = String(v.make).toLowerCase();
+        if (BRAND_ALIASES[mk]) push(BRAND_ALIASES[mk]);
+        // multi-word makes: "Mercedes-Benz"
+        Object.keys(BRAND_ALIASES).forEach((k) => {
+          if (mk.includes(k)) push(BRAND_ALIASES[k]);
+        });
+      }
+    });
+    if (fit) {
+      push(fit.part_numbers);
+      push(fit.interchange);
+      push(fit.vehicle_labels);
+    }
+
+    if (isCore(item)) {
+      push("for parts rebuild untested no returns core turbo pump");
+    }
+
+    // Category synonyms for search
+    if (item.category === "air-spring") {
+      push("air spring airspring air bag airbag bag rolling lobe convoluted suspension");
+    } else if (item.category === "brake") {
+      push("brake brakes caliper pad drum hardware abutment pin kit");
+    }
+
+    // Dedupe tokens (preserve order), lowercase for List.js
+    const seen = new Set();
+    const out = [];
+    parts
+      .join(" ")
+      .toLowerCase()
+      .replace(/[^\p{L}\p{N}.\-–—/&+]+/gu, " ")
+      .split(/\s+/)
+      .forEach((t) => {
+        if (!t || seen.has(t)) return;
+        seen.add(t);
+        out.push(t);
+      });
+    return out.join(" ");
+  }
+
   function cardHtml(item, { featured = false } = {}) {
     const core = isCore(item);
     const href = `item.html?id=${encodeURIComponent(item.id)}`;
@@ -68,15 +236,7 @@
     const tip = core
       ? "For parts or rebuild only. Untested. No returns. View product details."
       : "View product details";
-    const searchblob = [
-      item.name,
-      item.category,
-      catLabel(item.category),
-      item.id,
-      core ? "for parts rebuild untested no returns core turbo pump" : "",
-    ]
-      .join(" ")
-      .toLowerCase();
+    const searchblob = buildSearchBlob(item);
 
     // List.js valueNames: .name .category .searchblob + data-price
     return `
