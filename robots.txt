@@ -1,9 +1,8 @@
 # BuccaneerSalvage multi-property crawl map
-# Treat as related properties on one host (hub / store / media / ukiri)
 User-agent: *
 Allow: /
 
-# Separate property sitemaps (preferred for Search Console URL-prefix properties)
+# Property sitemaps (submit these in Search Console)
 Sitemap: https://buccaneersalvage.github.io/sitemap-hub.xml
 Sitemap: https://buccaneersalvage.github.io/sitemap-store.xml
 Sitemap: https://buccaneersalvage.github.io/sitemap-media.xml
