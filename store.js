@@ -55,7 +55,7 @@
 
   function cardHtml(item, { featured = false } = {}) {
     const core = isCore(item);
-    const href = safeUrl(item.url);
+    const href = `item.html?id=${encodeURIComponent(item.id)}`;
     const imgUrl = safeUrl(item.image);
     const price = item.price != null ? Number(item.price) : "";
     const priceLabel = money(item.price);
@@ -64,10 +64,10 @@
       : `<div class="st-card-ph" aria-hidden="true">—</div>`;
     const ribbon = core ? `<span class="st-ribbon">FOR PARTS · NO RETURNS</span>` : "";
     const warn = core ? `<p class="st-warn">${escapeHtml(CORE_WARN)}</p>` : "";
-    const cta = core ? "Checkout — for parts · no returns" : "Buy · secure checkout";
+    const cta = core ? "View details — for parts · no returns" : "View details";
     const tip = core
-      ? "For parts or rebuild only. Untested. No returns. Opens secure checkout."
-      : "Opens secure checkout";
+      ? "For parts or rebuild only. Untested. No returns. View product details."
+      : "View product details";
     const searchblob = [
       item.name,
       item.category,
@@ -84,7 +84,7 @@
                data-price="${escapeAttr(price)}"
                data-category="${escapeAttr(item.category || "other")}"
                data-rank="${rankCat(item.category)}">
-        <a class="st-card-link" href="${escapeAttr(href)}" target="_blank" rel="noopener noreferrer" title="${escapeAttr(tip)}">
+        <a class="st-card-link" href="${escapeAttr(href)}" title="${escapeAttr(tip)}">
           <div class="st-card-media">${ribbon}${img}</div>
           <div class="st-card-body">
             <span class="st-card-cat category">${escapeHtml(catLabel(item.category))}</span>
@@ -98,19 +98,6 @@
           </div>
         </a>
       </article>`;
-  }
-
-  function renderFeatured() {
-    const host = document.getElementById("stFeaturedCores");
-    if (!host) return;
-    const cores = catalog
-      .filter(isCore)
-      .sort((a, b) => rankCat(a.category) - rankCat(b.category));
-    if (!cores.length) {
-      host.closest(".st-featured")?.setAttribute("hidden", "");
-      return;
-    }
-    host.innerHTML = cores.map((i) => cardHtml(i, { featured: true })).join("");
   }
 
   function fillCounts() {
@@ -335,7 +322,6 @@
       catalog = Array.isArray(data.items) ? data.items : [];
       if (countEl) countEl.textContent = `${catalog.length} listings`;
       fillCounts();
-      renderFeatured();
       initList();
       wireControls();
     } catch (err) {
