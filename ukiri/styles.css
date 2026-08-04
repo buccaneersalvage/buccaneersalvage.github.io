@@ -834,12 +834,56 @@ input:focus, textarea:focus {
   flex-shrink: 0;
   display: inline-block;
   vertical-align: middle;
-  margin-right: 0.45rem;
+  margin-right: 0;
 }
+
+/* Brand: report name primary, Buccaneer subline */
 .nav-brand {
   display: inline-flex;
   align-items: center;
+  gap: 0.5rem;
+  min-width: 0;
+  max-width: min(16.5rem, 58vw);
+  text-decoration: none;
 }
+.nav-brand-stack {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.15;
+  min-width: 0;
+}
+.nav-brand-main {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--text);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.nav-brand-sub {
+  font-family: var(--font-mono);
+  font-size: 0.58rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--crimson, #e11d48);
+  white-space: nowrap;
+}
+.nav-links a.nav-hub {
+  color: var(--violet, #a78bfa);
+  border: 1px solid rgba(167, 139, 250, 0.35);
+}
+.nav-links a.nav-hub:hover {
+  color: #fff;
+  background: rgba(167, 139, 250, 0.15);
+}
+@media (max-width: 420px) {
+  .nav-brand-sub { display: none; }
+  .nav-brand-main { font-size: 0.66rem; letter-spacing: 0.04em; }
+}
+
 
 /* entity-shop = default red shop card (alias for clarity in HTML) */
 .entity-card.entity-shop {
