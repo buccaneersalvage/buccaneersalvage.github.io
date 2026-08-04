@@ -1716,15 +1716,15 @@ ul.pagination .disabled .page {
   }
 }
 
-/* ────── Store eBay banner — compact width, full art (no max-height crop) ─ */
+/* ────── Store eBay banner — compact strip, full art (no max-height crop) ─ */
 .st-ebay-banner {
   background: transparent;
-  padding: 0.5rem 0 0.35rem;
-  margin: 0.35rem 0 0.65rem;
+  padding: 0.4rem 0 0.3rem;
+  margin: 0.25rem 0 0.55rem;
 }
 .st-banner-link {
   display: block;
-  max-width: 640px; /* smaller footprint; height follows image (~226px) */
+  max-width: 520px; /* compact: ~169px tall at 1600×520 art */
   margin: 0 auto;
   text-decoration: none;
   border-radius: 10px;
@@ -1748,8 +1748,8 @@ ul.pagination .disabled .page {
   object-fit: contain;
   object-position: center center;
 }
-@media (max-width: 520px) {
-  .st-banner-link { max-width: 100%; border-radius: 8px; }
+@media (max-width: 560px) {
+  .st-banner-link { max-width: min(100%, 480px); border-radius: 8px; }
 }
 
 /* ────── Product Detail Page (PDP) ──────────────────────────────────────── */
