@@ -1724,7 +1724,7 @@ ul.pagination .disabled .page {
 }
 .st-banner-link {
   display: block;
-  max-width: 520px; /* compact: ~169px tall at 1600×520 art */
+  max-width: 880px; /* wider strip; height follows art (~330px at 1600×600) */
   margin: 0 auto;
   text-decoration: none;
   border-radius: 10px;
@@ -1748,8 +1748,8 @@ ul.pagination .disabled .page {
   object-fit: contain;
   object-position: center center;
 }
-@media (max-width: 560px) {
-  .st-banner-link { max-width: min(100%, 480px); border-radius: 8px; }
+@media (max-width: 920px) {
+  .st-banner-link { max-width: min(100%, 880px); border-radius: 8px; }
 }
 
 /* ────── Product Detail Page (PDP) ──────────────────────────────────────── */
