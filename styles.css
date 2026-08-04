@@ -1716,15 +1716,15 @@ ul.pagination .disabled .page {
   }
 }
 
-/* ────── eBay Store Banner (compact strip — not full hero) ──────────────── */
+/* ────── eBay Store Banner (wide 4:1 art — no center crop) ──────────────── */
 .st-ebay-banner {
   background: transparent;
-  padding: 0.75rem 0 0.25rem;
-  margin: 0.5rem 0 0.75rem;
+  padding: 0.75rem 0 0.35rem;
+  margin: 0.5rem 0 0.85rem;
 }
 .st-banner-link {
   display: block;
-  max-width: 720px;
+  max-width: 960px;
   margin: 0 auto;
   text-decoration: none;
   border-radius: 10px;
@@ -1737,19 +1737,19 @@ ul.pagination .disabled .page {
 .st-banner-link:hover {
   border-color: rgba(212, 175, 55, 0.55);
   box-shadow: 0 4px 14px rgba(212, 175, 55, 0.12);
-  transform: none; /* no bounce — was contributing to sloppy feel */
+  transform: none;
 }
 .st-banner-image {
   display: block;
   width: 100%;
-  /* Source is 1248×832 — never let it render full height */
-  height: clamp(72px, 12vw, 112px);
-  object-fit: cover;
-  object-position: center 35%;
+  height: auto;
+  aspect-ratio: 4 / 1;
+  object-fit: contain;
+  object-position: center center;
+  vertical-align: middle;
 }
 @media (max-width: 520px) {
   .st-banner-link { max-width: 100%; border-radius: 8px; }
-  .st-banner-image { height: clamp(64px, 22vw, 96px); }
 }
 
 /* ────── Product Detail Page (PDP) ──────────────────────────────────────── */
