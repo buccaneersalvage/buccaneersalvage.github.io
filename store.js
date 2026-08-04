@@ -44,17 +44,23 @@
     return escapeHtml(s).replace(/'/g, "&#39;");
   }
 
+  function safeUrl(u) {
+    const s = String(u || "").trim();
+    return /^https?:\/\//i.test(s) ? s : "#";
+  }
+
   function rankCat(c) {
     return { turbo: 0, pump: 1, "air-spring": 2, brake: 3, other: 4 }[c] ?? 9;
   }
 
   function cardHtml(item, { featured = false } = {}) {
     const core = isCore(item);
-    const href = item.url || "#";
+    const href = safeUrl(item.url);
+    const imgUrl = safeUrl(item.image);
     const price = item.price != null ? Number(item.price) : "";
     const priceLabel = money(item.price);
-    const img = item.image
-      ? `<img class="st-img" src="${escapeAttr(item.image)}" alt="" width="400" height="400" loading="${featured ? "eager" : "lazy"}" decoding="async" />`
+    const img = imgUrl !== "#"
+      ? `<img class="st-img" src="${escapeAttr(imgUrl)}" alt="" width="400" height="400" loading="${featured ? "eager" : "lazy"}" decoding="async" />`
       : `<div class="st-card-ph" aria-hidden="true">—</div>`;
     const ribbon = core ? `<span class="st-ribbon">FOR PARTS · NO RETURNS</span>` : "";
     const warn = core ? `<p class="st-warn">${escapeHtml(CORE_WARN)}</p>` : "";
@@ -125,8 +131,9 @@
     const showing = document.getElementById("stShowing");
     if (!list) return;
     const matching = list.matchingItems.length;
-    const i = list.i; // 1-based start index of page
-    const page = list.page;
+    // list.i / list.page can be strings (List.js reads data attrs) — coerce before math
+    const i = Number(list.i) || 1; // 1-based start index of page
+    const page = Number(list.page) || pageSize;
     const from = matching === 0 ? 0 : i;
     const to = Math.min(i + page - 1, matching);
     const text =
@@ -228,7 +235,7 @@
         left: 1,
         right: 1,
         paginationClass: "pagination",
-        item: "<li><a class='page' href='javascript:;'></a></li>",
+        item: "<li><button type='button' class='page'></button></li>",
       },
     });
 

@@ -1071,7 +1071,7 @@ ul { list-style: none; }
   margin-bottom: 0.85rem;
 }
 .st-breadcrumb a {
-  color: var(--parchment-mute, #c4b59a);
+  color: var(--parchment-muted, #c4b59a);
   text-decoration: none;
 }
 .st-breadcrumb a:hover { color: var(--gold-bright, #d4af37); }
@@ -1093,7 +1093,7 @@ ul { list-style: none; }
 .st-sub {
   margin: 0;
   max-width: 48ch;
-  color: var(--parchment-mute, #c4b59a);
+  color: var(--parchment-muted, #c4b59a);
   font-size: 0.98rem;
   line-height: 1.5;
 }
@@ -1116,7 +1116,7 @@ ul { list-style: none; }
   max-width: 62ch;
   line-height: 1.45;
 }
-.st-checkout-note strong { color: var(--parchment-mute, #c4b59a); font-weight: 600; }
+.st-checkout-note strong { color: var(--parchment-muted, #c4b59a); font-weight: 600; }
 
 /* Trust strip — eBay style */
 .st-trust {
@@ -1169,7 +1169,7 @@ ul { list-style: none; }
 }
 .st-section-head p {
   margin: 0;
-  color: var(--parchment-mute, #c4b59a);
+  color: var(--parchment-muted, #c4b59a);
   font-size: 0.9rem;
   max-width: 55ch;
 }
@@ -1233,7 +1233,7 @@ ul { list-style: none; }
   appearance: none;
   border: 1px solid rgba(197, 160, 40, 0.28);
   background: transparent;
-  color: var(--parchment-mute, #c4b59a);
+  color: var(--parchment-muted, #c4b59a);
   font-family: var(--font-mono, monospace);
   font-size: 0.7rem;
   letter-spacing: 0.04em;
@@ -1411,7 +1411,7 @@ ul { list-style: none; }
 .st-loading,
 .st-empty {
   grid-column: 1 / -1;
-  color: var(--parchment-mute, #c4b59a);
+  color: var(--parchment-muted, #c4b59a);
   font-size: 0.95rem;
   padding: 1rem 0;
 }
@@ -1573,7 +1573,7 @@ ul { list-style: none; }
   margin-top: 0.85rem;
   background: transparent;
   border: 1px dashed rgba(197, 160, 40, 0.28);
-  color: var(--parchment-mute, #c4b59a);
+  color: var(--parchment-muted, #c4b59a);
 }
 .st-facet-clear:hover {
   border-style: solid;
@@ -1665,7 +1665,7 @@ ul.pagination a {
   border-radius: 8px;
   border: 1px solid rgba(197, 160, 40, 0.28);
   background: #16120e;
-  color: var(--parchment-mute, #c4b59a);
+  color: var(--parchment-muted, #c4b59a);
   font-family: var(--font-mono, monospace);
   font-size: 0.8rem;
   font-weight: 600;
