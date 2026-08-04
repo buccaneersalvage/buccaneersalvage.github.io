@@ -18,30 +18,56 @@
       other: "Parts",
     }[c] || "Parts");
 
+  /** Turbo / injection pump: as-is cores — warn on the card + checkout CTA */
+  const isCoreParts = (item) =>
+    item.category === "turbo" || item.category === "pump";
+
+  const CORE_WARN = "FOR PARTS OR REBUILD · UNTESTED · NO RETURNS";
+
   const matchFilter = (item, filter) => {
     if (filter === "all") return true;
-    if (filter === "cores") return item.category === "turbo" || item.category === "pump";
+    if (filter === "cores") return isCoreParts(item);
     return item.category === filter;
   };
 
-  const cardHtml = (item, { marquee = false } = {}) => {
-    const cls = marquee ? "sq-card sq-card--marquee" : "sq-card";
+  const cardHtml = (item, { marquee = false, featured = false } = {}) => {
+    const core = isCoreParts(item);
+    const cls = [
+      "sq-card",
+      marquee ? "sq-card--marquee" : "",
+      featured ? "sq-card--featured" : "",
+      core ? "sq-card--core" : "",
+    ]
+      .filter(Boolean)
+      .join(" ");
     const img = item.image
-      ? `<img src="${escapeAttr(item.image)}" alt="" loading="lazy" width="320" height="240" />`
+      ? `<img src="${escapeAttr(item.image)}" alt="" loading="${featured || marquee ? "eager" : "lazy"}" width="320" height="240" />`
       : `<div class="sq-card-ph" aria-hidden="true">☠</div>`;
     const price = money(item.price);
     const badge = catLabel(item.category);
-    // Product URL = Square checkout only (payment/shipping). Catalog lives on this hub page.
     const href = item.url || STORE;
+    const warn = core
+      ? `<p class="sq-card-warn" role="status">${escapeHtml(CORE_WARN)}</p>`
+      : "";
+    const mediaWarn = core
+      ? `<span class="sq-card-ribbon">${escapeHtml("FOR PARTS · NO RETURNS")}</span>`
+      : "";
+    const cta = core
+      ? "Checkout — for parts / rebuild · no returns →"
+      : "Buy / Checkout on Square →";
+    const titleAttr = core
+      ? "For parts or rebuild only. Untested. No returns. Opens Square checkout."
+      : "Opens Square for secure checkout";
     return `
       <a class="${cls}" href="${escapeAttr(href)}" target="_blank" rel="noopener noreferrer"
-         title="Opens Square for secure checkout">
-        <div class="sq-card-media">${img}</div>
+         title="${escapeAttr(titleAttr)}">
+        <div class="sq-card-media">${mediaWarn}${img}</div>
         <div class="sq-card-body">
           <span class="sq-card-badge">${escapeHtml(badge)}</span>
           <h3 class="sq-card-title">${escapeHtml(item.name)}</h3>
+          ${warn}
           ${price ? `<p class="sq-card-price">${escapeHtml(price)}</p>` : ""}
-          <span class="sq-card-go">Buy / Checkout on Square →</span>
+          <span class="sq-card-go">${escapeHtml(cta)}</span>
         </div>
       </a>`;
   };
@@ -95,12 +121,30 @@
     wrap.addEventListener("focusout", play);
   }
 
+  function sortShop(list) {
+    const rank = (c) => ({ turbo: 0, pump: 1, "air-spring": 2, brake: 3, other: 4 }[c] ?? 9);
+    return list.slice().sort((a, b) => rank(a.category) - rank(b.category) || a.name.localeCompare(b.name));
+  }
+
+  function renderFeaturedCores(items) {
+    const host = document.getElementById("sqFeaturedCores");
+    if (!host) return;
+    const cores = sortShop(items.filter(isCoreParts));
+    if (!cores.length) {
+      host.hidden = true;
+      return;
+    }
+    host.hidden = false;
+    host.innerHTML = cores.map((i) => cardHtml(i, { featured: true })).join("");
+  }
+
   function renderGrid(items, filter) {
     const grid = document.getElementById("sqGrid");
     if (!grid) return;
-    const list = items.filter((i) => matchFilter(i, filter));
+    // When showing "all", cores already featured above — still list them first with warn badges
+    const list = sortShop(items.filter((i) => matchFilter(i, filter)));
     if (!list.length) {
-      grid.innerHTML = `<p class="sq-empty">No parts in this bay right now. <a href="${STORE}" target="_blank" rel="noopener noreferrer">Open the full store</a>.</p>`;
+      grid.innerHTML = `<p class="sq-empty">No parts in this bay right now.</p>`;
       return;
     }
     grid.innerHTML = list.map((i) => cardHtml(i)).join("");
@@ -132,6 +176,7 @@
         const when = data.updated ? ` · snapshot ${data.updated.slice(0, 10)}` : "";
         meta.textContent = `${items.length} parts on this page${when} · checkout via Square`;
       }
+      renderFeaturedCores(items);
       renderMarquee(items);
       renderGrid(items, "all");
       wireFilters(items);
