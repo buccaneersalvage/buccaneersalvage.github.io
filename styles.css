@@ -883,6 +883,11 @@ ul { list-style: none; }
   transition: color 0.2s;
 }
 .footer-links a:hover { color: var(--gold-bright); }
+.footer-address {
+  color: var(--parchment-faint);
+  font-size: var(--text-sm);
+  display: block;
+}
 .footer-bottom {
   margin-top: var(--space-6);
   padding-top: var(--space-4);
