@@ -2,75 +2,31 @@
   "use strict";
 
   const CATALOG_URL = "assets/square-catalog.json";
-  const STORE = "https://buccaneersalvage.square.site/";
+  const CORE_WARN = "FOR PARTS OR REBUILD · UNTESTED · NO RETURNS";
+
+  let allItems = [];
+  let filter = "all";
+  let sort = "featured";
+  let query = "";
 
   const money = (n) =>
     n == null || Number.isNaN(Number(n))
       ? ""
-      : new Intl.NumberFormat("en-US", { style: "currency", currency: "USD" }).format(n);
+      : new Intl.NumberFormat("en-US", {
+          style: "currency",
+          currency: "USD",
+        }).format(n);
+
+  const isCore = (item) => item.category === "turbo" || item.category === "pump";
 
   const catLabel = (c) =>
     ({
       "air-spring": "Air spring",
-      brake: "Brake",
+      brake: "Brake hardware",
       turbo: "Turbo core",
       pump: "Pump core",
       other: "Parts",
     }[c] || "Parts");
-
-  /** Turbo / injection pump: as-is cores — warn on the card + checkout CTA */
-  const isCoreParts = (item) =>
-    item.category === "turbo" || item.category === "pump";
-
-  const CORE_WARN = "FOR PARTS OR REBUILD · UNTESTED · NO RETURNS";
-
-  const matchFilter = (item, filter) => {
-    if (filter === "all") return true;
-    if (filter === "cores") return isCoreParts(item);
-    return item.category === filter;
-  };
-
-  const cardHtml = (item, { marquee = false, featured = false } = {}) => {
-    const core = isCoreParts(item);
-    const cls = [
-      "sq-card",
-      marquee ? "sq-card--marquee" : "",
-      featured ? "sq-card--featured" : "",
-      core ? "sq-card--core" : "",
-    ]
-      .filter(Boolean)
-      .join(" ");
-    const img = item.image
-      ? `<img src="${escapeAttr(item.image)}" alt="" loading="${featured || marquee ? "eager" : "lazy"}" width="320" height="240" />`
-      : `<div class="sq-card-ph" aria-hidden="true">☠</div>`;
-    const price = money(item.price);
-    const badge = catLabel(item.category);
-    const href = item.url || STORE;
-    const warn = core
-      ? `<p class="sq-card-warn" role="status">${escapeHtml(CORE_WARN)}</p>`
-      : "";
-    const mediaWarn = core
-      ? `<span class="sq-card-ribbon">${escapeHtml("FOR PARTS · NO RETURNS")}</span>`
-      : "";
-    const cta = core
-      ? "Checkout — for parts / rebuild · no returns →"
-      : "Buy / Checkout →";
-    const titleAttr = core
-      ? "For parts or rebuild only. Untested. No returns. Opens secure checkout."
-      : "Opens secure checkout";
-    return `
-      <a class="${cls}" href="${escapeAttr(href)}" target="_blank" rel="noopener noreferrer"
-         title="${escapeAttr(titleAttr)}">
-        <div class="sq-card-media">${mediaWarn}${img}</div>
-        <div class="sq-card-body">
-          <span class="sq-card-badge">${escapeHtml(badge)}</span>
-          <h3 class="sq-card-title">${escapeHtml(item.name)}</h3>
-          ${warn}
-          ${price ? `<p class="sq-card-price">${escapeHtml(price)}</p>` : ""}
-          <span class="sq-card-go">${escapeHtml(cta)}</span>
-        </div>
-      </a>`;
-  };
 
   function escapeHtml(s) {
     return String(s)
@@ -83,108 +39,161 @@
     return escapeHtml(s).replace(/'/g, "&#39;");
   }
 
-  function renderMarquee(items) {
-    const track = document.getElementById("sqMarqueeTrack");
-    const wrap = document.getElementById("sqMarquee");
-    if (!track || !wrap) return;
-
-    const featured = items
-      .filter((i) => i.image)
-      .slice()
-      .sort((a, b) => {
-        const rank = (c) => ({ turbo: 0, pump: 1, "air-spring": 2, brake: 3, other: 4 }[c] ?? 9);
-        return rank(a.category) - rank(b.category);
-      })
-      .slice(0, 14);
-
-    if (!featured.length) {
-      wrap.hidden = true;
-      return;
-    }
-
-    // Duplicate sequence for seamless CSS loop
-    const seq = featured.map((i) => cardHtml(i, { marquee: true })).join("");
-    track.innerHTML = seq + seq;
-
-    const prefersReduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-    if (prefersReduced) {
-      wrap.classList.add("is-static");
-      return;
-    }
-
-    // Pause on hover / focus
-    const pause = () => wrap.setAttribute("data-paused", "true");
-    const play = () => wrap.setAttribute("data-paused", "false");
-    wrap.addEventListener("mouseenter", pause);
-    wrap.addEventListener("mouseleave", play);
-    wrap.addEventListener("focusin", pause);
-    wrap.addEventListener("focusout", play);
+  function rankCat(c) {
+    return { turbo: 0, pump: 1, "air-spring": 2, brake: 3, other: 4 }[c] ?? 9;
   }
 
-  function sortShop(list) {
-    const rank = (c) => ({ turbo: 0, pump: 1, "air-spring": 2, brake: 3, other: 4 }[c] ?? 9);
-    return list.slice().sort((a, b) => rank(a.category) - rank(b.category) || a.name.localeCompare(b.name));
+  function matchFilter(item) {
+    if (filter === "all") return true;
+    if (filter === "cores") return isCore(item);
+    return item.category === filter;
   }
 
-  function renderFeaturedCores(items) {
-    const host = document.getElementById("sqFeaturedCores");
+  function matchQuery(item) {
+    if (!query) return true;
+    const q = query.toLowerCase();
+    return (
+      (item.name || "").toLowerCase().includes(q) ||
+      (item.id || "").toLowerCase().includes(q) ||
+      (item.category || "").toLowerCase().includes(q)
+    );
+  }
+
+  function sortItems(list) {
+    const arr = list.slice();
+    if (sort === "price-asc") {
+      arr.sort((a, b) => (a.price ?? 1e12) - (b.price ?? 1e12));
+    } else if (sort === "price-desc") {
+      arr.sort((a, b) => (b.price ?? 0) - (a.price ?? 0));
+    } else if (sort === "name") {
+      arr.sort((a, b) => (a.name || "").localeCompare(b.name || ""));
+    } else {
+      arr.sort(
+        (a, b) =>
+          rankCat(a.category) - rankCat(b.category) ||
+          (a.name || "").localeCompare(b.name || "")
+      );
+    }
+    return arr;
+  }
+
+  function cardHtml(item, { featured = false } = {}) {
+    const core = isCore(item);
+    const href = item.url || "#";
+    const price = money(item.price);
+    const img = item.image
+      ? `<img src="${escapeAttr(item.image)}" alt="" width="400" height="300" loading="${featured ? "eager" : "lazy"}" decoding="async" />`
+      : `<div class="st-card-ph" aria-hidden="true">—</div>`;
+    const ribbon = core
+      ? `<span class="st-ribbon">FOR PARTS · NO RETURNS</span>`
+      : "";
+    const warn = core
+      ? `<p class="st-warn">${escapeHtml(CORE_WARN)}</p>`
+      : "";
+    const cta = core
+      ? "Checkout — for parts · no returns"
+      : "Buy · secure checkout";
+    const titleTip = core
+      ? "For parts or rebuild only. Untested. No returns. Opens secure checkout."
+      : "Opens secure checkout";
+
+    return `
+      <article class="st-card${core ? " st-card--core" : ""}${featured ? " st-card--featured" : ""}">
+        <a class="st-card-link" href="${escapeAttr(href)}" target="_blank" rel="noopener noreferrer" title="${escapeAttr(titleTip)}">
+          <div class="st-card-media">${ribbon}${img}</div>
+          <div class="st-card-body">
+            <span class="st-card-cat">${escapeHtml(catLabel(item.category))}</span>
+            <h3 class="st-card-title">${escapeHtml(item.name)}</h3>
+            ${warn}
+            <div class="st-card-foot">
+              ${price ? `<p class="st-card-price">${escapeHtml(price)}</p>` : "<p class=\"st-card-price\">—</p>"}
+              <span class="st-card-cta">${escapeHtml(cta)}</span>
+            </div>
+          </div>
+        </a>
+      </article>`;
+  }
+
+  function renderFeatured() {
+    const host = document.getElementById("stFeaturedCores");
     if (!host) return;
-    const cores = sortShop(items.filter(isCoreParts));
+    const cores = sortItems(allItems.filter(isCore));
     if (!cores.length) {
-      host.hidden = true;
+      host.closest(".st-featured")?.setAttribute("hidden", "");
       return;
     }
-    host.hidden = false;
     host.innerHTML = cores.map((i) => cardHtml(i, { featured: true })).join("");
   }
 
-  function renderGrid(items, filter) {
-    const grid = document.getElementById("sqGrid");
+  function renderGrid() {
+    const grid = document.getElementById("stGrid");
+    const meta = document.getElementById("stResultMeta");
     if (!grid) return;
-    // When showing "all", cores already featured above — still list them first with warn badges
-    const list = sortShop(items.filter((i) => matchFilter(i, filter)));
+
+    const list = sortItems(allItems.filter((i) => matchFilter(i) && matchQuery(i)));
+    if (meta) {
+      meta.textContent =
+        list.length === 1 ? "1 result" : `${list.length} results`;
+    }
     if (!list.length) {
-      grid.innerHTML = `<p class="sq-empty">No parts in this bay right now.</p>`;
+      grid.innerHTML = `<p class="st-empty">No parts match. Clear search or pick another category.</p>`;
       return;
     }
     grid.innerHTML = list.map((i) => cardHtml(i)).join("");
   }
 
-  function wireFilters(items) {
-    const buttons = document.querySelectorAll(".sq-filter");
-    buttons.forEach((btn) => {
+  function wireControls() {
+    document.querySelectorAll(".st-chip").forEach((btn) => {
       btn.addEventListener("click", () => {
-        const filter = btn.getAttribute("data-filter") || "all";
-        buttons.forEach((b) => {
+        filter = btn.getAttribute("data-filter") || "all";
+        document.querySelectorAll(".st-chip").forEach((b) => {
           const on = b === btn;
           b.classList.toggle("is-on", on);
           b.setAttribute("aria-selected", on ? "true" : "false");
         });
-        renderGrid(items, filter);
+        renderGrid();
       });
     });
+
+    const search = document.getElementById("stSearch");
+    if (search) {
+      let t;
+      search.addEventListener("input", () => {
+        clearTimeout(t);
+        t = setTimeout(() => {
+          query = search.value.trim();
+          renderGrid();
+        }, 120);
+      });
+    }
+
+    const sortEl = document.getElementById("stSort");
+    if (sortEl) {
+      sortEl.addEventListener("change", () => {
+        sort = sortEl.value || "featured";
+        renderGrid();
+      });
+    }
   }
 
   async function boot() {
-    const meta = document.getElementById("sqMeta");
+    const countEl = document.getElementById("stCount");
     try {
       const res = await fetch(CATALOG_URL, { cache: "no-cache" });
       if (!res.ok) throw new Error(`catalog ${res.status}`);
       const data = await res.json();
-      const items = Array.isArray(data.items) ? data.items : [];
-      if (meta) {
-        const when = data.updated ? ` · snapshot ${data.updated.slice(0, 10)}` : "";
-        meta.textContent = `${items.length} parts in the store${when}`;
+      allItems = Array.isArray(data.items) ? data.items : [];
+      if (countEl) {
+        countEl.textContent = `${allItems.length} listings`;
       }
-      renderFeaturedCores(items);
-      renderMarquee(items);
-      renderGrid(items, "all");
-      wireFilters(items);
+      renderFeatured();
+      renderGrid();
+      wireControls();
     } catch (err) {
-      if (meta) meta.textContent = "Catalog offline — try refresh.";
-      const grid = document.getElementById("sqGrid");
+      if (countEl) countEl.textContent = "Catalog offline";
+      const grid = document.getElementById("stGrid");
       if (grid) {
-        grid.innerHTML = `<p class="sq-empty">Could not load the catalog. Refresh this page.</p>`;
+        grid.innerHTML = `<p class="st-empty">Could not load the catalog. Refresh the page.</p>`;
       }
       console.warn("[store]", err);
     }

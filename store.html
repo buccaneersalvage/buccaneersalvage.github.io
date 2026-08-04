@@ -8,7 +8,7 @@
   <meta name="keywords" content="BuccaneerSalvage Store, truck air springs, Carlson brake, Holset turbo, Mack injection pump, Carbondale PA parts" />
   <meta name="author" content="Rustjack · BuccaneerSalvage" />
   <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1" />
-  <meta name="theme-color" content="#050403" />
+  <meta name="theme-color" content="#0c0a08" />
   <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; font-src 'self' data:; connect-src 'self'; base-uri 'self'; object-src 'none';" />
   <meta http-equiv="X-Content-Type-Options" content="nosniff" />
   <meta name="referrer" content="strict-origin-when-cross-origin" />
@@ -38,7 +38,7 @@
     "@context": "https://schema.org",
     "@type": "CollectionPage",
     "name": "BuccaneerSalvage Store",
-    "description": "Official BuccaneerSalvage parts store: truck air springs, Carlson brake hardware, and salvage cores. Browse on this site; secure checkout when you buy.",
+    "description": "Official BuccaneerSalvage parts store: truck air springs, Carlson brake hardware, and salvage cores.",
     "url": "https://buccaneersalvage.github.io/store.html",
     "isPartOf": {
       "@type": "WebSite",
@@ -60,12 +60,8 @@
   }
   </script>
 </head>
-<body class="page-square page-store">
+<body class="page-store">
   <a class="skip-link" href="#main">Skip to content</a>
-  <div class="grain" aria-hidden="true"></div>
-  <div class="orb orb-gold" aria-hidden="true"></div>
-  <div class="orb orb-blood" aria-hidden="true"></div>
-  <div class="orb orb-sky" aria-hidden="true"></div>
 
   <header class="nav is-solid" role="banner" id="nav">
     <div class="nav-inner">
@@ -75,22 +71,14 @@
       </a>
 
       <nav class="nav-links" aria-label="Primary">
-        <a href="index.html#destinations">Destinations</a>
-        <a href="https://www.youtube.com/@BuccaneerSalvage" target="_blank" rel="noopener noreferrer">YouTube</a>
-        <a href="videos.html">Video Gallery</a>
-        <a href="https://x.com/jollyroger1480" target="_blank" rel="noopener noreferrer">X</a>
-        <a href="https://www.ebay.com/str/buccaneersalvage" target="_blank" rel="noopener noreferrer">eBay</a>
+        <a href="index.html">Home</a>
         <a href="store.html" aria-current="page">Store</a>
+        <a href="https://www.ebay.com/str/buccaneersalvage" target="_blank" rel="noopener noreferrer">eBay</a>
+        <a href="videos.html">Videos</a>
         <a href="/ukiri/" class="nav-warn">Ukiri WARNING</a>
-        <a href="index.html#about">About</a>
       </nav>
 
-      <a class="nav-cta" href="#sqGrid">
-        Browse parts
-        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-          <path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-        </svg>
-      </a>
+      <a class="nav-cta" href="#catalog">Shop parts</a>
 
       <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="drawer" id="navToggle">
         <span></span>
@@ -98,97 +86,120 @@
     </div>
     <div class="nav-drawer" id="drawer" hidden>
       <a href="index.html">Home</a>
-      <a href="index.html#destinations">Destinations</a>
-      <a href="videos.html">Video Gallery</a>
-      <a href="https://www.ebay.com/str/buccaneersalvage" target="_blank" rel="noopener noreferrer">eBay Store</a>
       <a href="store.html" aria-current="page">BuccaneerSalvage Store</a>
-      <a href="/ukiri/">WARNING: Jossy’s Auto (multi-page)</a>
-      <a href="index.html#about">About</a>
+      <a href="https://www.ebay.com/str/buccaneersalvage" target="_blank" rel="noopener noreferrer">eBay Store</a>
+      <a href="videos.html">Video Gallery</a>
+      <a href="/ukiri/">Ukiri WARNING</a>
     </div>
   </header>
 
   <main id="main">
-    <section class="sq-hero">
-      <div class="shell">
-        <p class="section-kicker">Official parts counter</p>
-        <h1 class="sq-hero-title">BuccaneerSalvage Store</h1>
-        <p class="sq-hero-lead">
-          Air springs, Carlson brake hardware, and salvage cores — same prices as eBay,
-          fewer middlemen. Browse everything here. Local pickup Carbondale, PA 18407.
+    <!-- Compact marketplace hero -->
+    <section class="st-hero">
+      <div class="shell st-hero-inner">
+        <nav class="st-breadcrumb" aria-label="Breadcrumb">
+          <a href="index.html">Home</a>
+          <span aria-hidden="true">/</span>
+          <span>Store</span>
+        </nav>
+        <div class="st-hero-row">
+          <div>
+            <h1 class="st-title">BuccaneerSalvage Store</h1>
+            <p class="st-sub">
+              Truck air springs · Carlson brake hardware · salvage cores.
+              Ships from Carbondale, PA · local pickup welcome.
+            </p>
+          </div>
+          <p class="st-count" id="stCount">Loading…</p>
+        </div>
+        <p class="st-checkout-note" role="note">
+          Browse on this site. When you buy, you open a <strong>secure checkout</strong> page for payment and shipping.
         </p>
-
-        <aside class="sq-disclaimer" role="note">
-          <strong>When you buy:</strong>
-          Checkout opens a secure payment page (Square) for card processing and shipping.
-          We do not collect card numbers on this site. Browsing stays here.
-        </aside>
-
-        <div class="sq-hero-actions">
-          <a class="btn btn-primary" href="#sqGrid">Browse parts</a>
-          <a class="btn btn-ghost" href="https://www.ebay.com/str/buccaneersalvage" target="_blank" rel="noopener noreferrer">
-            Prefer eBay?
-          </a>
-        </div>
-        <p class="sq-meta" id="sqMeta">Loading catalog…</p>
       </div>
     </section>
 
-    <section class="section sq-cores-section" aria-labelledby="sqCoresTitle">
-      <div class="shell">
-        <header class="section-head">
+    <!-- eBay-style trust strip -->
+    <section class="st-trust" aria-label="Store promises">
+      <div class="shell st-trust-grid">
+        <div class="st-trust-item">
+          <span class="st-trust-icon" aria-hidden="true">🔒</span>
           <div>
-            <p class="section-kicker">Salvage cores</p>
-            <h2 class="section-title" id="sqCoresTitle">Turbo &amp; injection pump</h2>
+            <strong>Secure checkout</strong>
+            <span>Card processing off-site</span>
           </div>
-          <p class="section-aside">
-            Sold <strong>for parts or rebuild only</strong> — untested, <strong>no returns</strong>.
-            That text is on each card and in the checkout button.
-          </p>
-        </header>
-        <div class="sq-featured-cores" id="sqFeaturedCores">
-          <p class="sq-loading">Loading cores…</p>
         </div>
-      </div>
-    </section>
-
-    <section class="sq-marquee-section" aria-label="Featured parts marquee">
-      <div class="sq-marquee" id="sqMarquee" data-paused="false">
-        <div class="sq-marquee-track" id="sqMarqueeTrack"></div>
-      </div>
-    </section>
-
-    <section class="section sq-catalog-section">
-      <div class="shell">
-        <header class="section-head">
+        <div class="st-trust-item">
+          <span class="st-trust-icon" aria-hidden="true">📦</span>
           <div>
-            <p class="section-kicker">Catalog</p>
-            <h2 class="section-title">Shop by type</h2>
+            <strong>Ships from PA</strong>
+            <span>Carbondale 18407</span>
           </div>
-          <p class="section-aside">
-            Filter the hold. Tapping <strong>Buy / Checkout</strong> starts secure payment — it does not leave you hunting a separate storefront.
-          </p>
-        </header>
+        </div>
+        <div class="st-trust-item">
+          <span class="st-trust-icon" aria-hidden="true">📍</span>
+          <div>
+            <strong>Local pickup</strong>
+            <span>By appointment</span>
+          </div>
+        </div>
+        <div class="st-trust-item">
+          <span class="st-trust-icon" aria-hidden="true">⚠️</span>
+          <div>
+            <strong>Cores as-is</strong>
+            <span>Parts / rebuild · no returns</span>
+          </div>
+        </div>
+      </div>
+    </section>
 
-        <div class="sq-filters" role="tablist" aria-label="Filter parts">
-          <button type="button" class="sq-filter is-on" data-filter="all" role="tab" aria-selected="true">All</button>
-          <button type="button" class="sq-filter" data-filter="air-spring" role="tab" aria-selected="false">Air springs</button>
-          <button type="button" class="sq-filter" data-filter="brake" role="tab" aria-selected="false">Brake kits</button>
-          <button type="button" class="sq-filter" data-filter="cores" role="tab" aria-selected="false">Turbo &amp; pump</button>
-          <button type="button" class="sq-filter" data-filter="other" role="tab" aria-selected="false">Other</button>
+    <!-- Featured cores — impossible to miss -->
+    <section class="st-featured" aria-labelledby="stCoresH">
+      <div class="shell">
+        <div class="st-section-head">
+          <h2 id="stCoresH">Turbo &amp; injection pump cores</h2>
+          <p>For parts or rebuild only · untested · <strong>no returns</strong> — stated on each listing.</p>
+        </div>
+        <div class="st-core-grid" id="stFeaturedCores">
+          <p class="st-loading">Loading cores…</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Catalog -->
+    <section class="st-catalog" id="catalog">
+      <div class="shell">
+        <div class="st-section-head st-section-head--row">
+          <div>
+            <h2>All parts</h2>
+            <p id="stResultMeta">Browse the catalog</p>
+          </div>
         </div>
 
-        <div class="sq-grid" id="sqGrid" aria-live="polite">
-          <p class="sq-loading">Loading parts…</p>
+        <div class="st-controls">
+          <label class="st-search">
+            <span class="visually-hidden">Search parts</span>
+            <input type="search" id="stSearch" placeholder="Search part #, brand, title…" autocomplete="off" />
+          </label>
+          <div class="st-chips" role="tablist" aria-label="Category">
+            <button type="button" class="st-chip is-on" data-filter="all" role="tab" aria-selected="true">All</button>
+            <button type="button" class="st-chip" data-filter="air-spring" role="tab" aria-selected="false">Air springs</button>
+            <button type="button" class="st-chip" data-filter="brake" role="tab" aria-selected="false">Brake kits</button>
+            <button type="button" class="st-chip" data-filter="cores" role="tab" aria-selected="false">Cores</button>
+            <button type="button" class="st-chip" data-filter="other" role="tab" aria-selected="false">Other</button>
+          </div>
+          <label class="st-sort">
+            <span class="visually-hidden">Sort</span>
+            <select id="stSort">
+              <option value="featured">Featured</option>
+              <option value="price-asc">Price: low to high</option>
+              <option value="price-desc">Price: high to low</option>
+              <option value="name">Name A–Z</option>
+            </select>
+          </label>
         </div>
 
-        <div class="sq-footnote">
-          <p>
-            <strong>Cores (turbo / injection pump):</strong> sold
-            <em>for parts or rebuild only — untested — no returns</em>.
-          </p>
-          <p>
-            Browse on this site. Paying for a part opens secure checkout for card processing, shipping, and receipts.
-          </p>
+        <div class="st-grid" id="stGrid" aria-live="polite">
+          <p class="st-loading">Loading parts…</p>
         </div>
       </div>
     </section>
@@ -198,7 +209,7 @@
     <div class="shell footer-grid">
       <div class="footer-brand">
         <strong>BuccaneerSalvage Store</strong>
-        <p>Official parts catalog on the hub. Secure checkout when you buy a part.</p>
+        <p>Official parts catalog. Secure checkout when you buy a part.</p>
       </div>
       <div>
         <h4>Destinations</h4>
@@ -220,7 +231,7 @@
     </div>
     <div class="shell footer-bottom">
       <span>© <span id="y"></span> Rustjack · BuccaneerSalvage</span>
-      <span>Browse here · secure checkout when you buy</span>
+      <span>Browse here · pay securely at checkout</span>
     </div>
   </footer>
 
