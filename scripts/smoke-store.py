@@ -74,12 +74,17 @@ def main():
             expected_showing = f"Showing 1–12 of {catalog_size}"
             check("Showing label on page 1", showing == expected_showing or "1" in showing and "12" in showing, showing)
 
-            # 2) search Goodyear -> should reduce count
+            # 2) search Goodyear -> must shrink total vs full catalog
             page.fill("#stSearch", "Goodyear")
             page.wait_for_timeout(300)
             showing_search = page.text_content("#stShowing").strip()
-            has_goodyear = "of 8" in showing_search or "Goodyear" in str([x for x in page.locator("#stGrid .st-card .name").all()])
-            check("search Goodyear filters", True, showing_search)
+            try:
+                n_gy = int(showing_search.split("of")[-1].strip())
+            except Exception:
+                n_gy = catalog_size
+            cards_gy = page.locator("#stGrid .st-card").count()
+            ok_gy = 0 < n_gy < catalog_size and cards_gy > 0
+            check("search Goodyear filters", ok_gy, showing_search)
             page.fill("#stSearch", "")
             page.wait_for_timeout(300)
 

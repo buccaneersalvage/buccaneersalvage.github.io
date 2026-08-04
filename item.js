@@ -40,6 +40,34 @@
     return /^https?:\/\//i.test(s) ? s : "";
   }
 
+  /** Checkout: only Square payment links (catalog compromise → no open phishing). */
+  function safeCheckoutUrl(u) {
+    const s = safeUrl(u);
+    if (!s) return "";
+    try {
+      const host = new URL(s).hostname.toLowerCase();
+      if (host === "square.link" || host.endsWith(".square.link") || host === "checkout.square.site") return s;
+    } catch (_) {}
+    return "";
+  }
+
+  /** Product images: self host + Square CDN / common S3. */
+  function safeImageUrl(u) {
+    const s = safeUrl(u);
+    if (!s) return "";
+    try {
+      const host = new URL(s).hostname.toLowerCase();
+      if (
+        host === "buccaneersalvage.github.io" ||
+        host.endsWith(".squareup.com") ||
+        host.endsWith(".squarecdn.com") ||
+        host.endsWith(".amazonaws.com") ||
+        host === "items-images-production.s3.us-west-2.amazonaws.com"
+      ) return s;
+    } catch (_) {}
+    return "";
+  }
+
   /**
    * Catalog JSON has no fitment fields. Pull useful signals from the title:
    * - "Replaces W01-358-8091 1R14-171" → interchange
@@ -320,9 +348,9 @@
 
     const title = `${item.name} | BuccaneerSalvage Store`;
     const desc = `${item.name} — ${catLabel(item.category)}. ${money(item.price)}. Browse and secure checkout at BuccaneerSalvage Store.`;
-    const imgUrl = safeUrl(item.image) || "https://buccaneersalvage.github.io/assets/og-share.jpg";
+    const imgUrl = safeImageUrl(item.image) || "https://buccaneersalvage.github.io/assets/og-share.jpg";
     const itemUrl = `https://buccaneersalvage.github.io/item.html?id=${encodeURIComponent(item.id)}`;
-    const checkout = safeUrl(item.url);
+    const checkout = safeCheckoutUrl(item.url);
     const brandGuess =
       (Array.isArray(item.part_numbers) && item.part_numbers[0]
         ? String(item.part_numbers[0]).split(/\s+/)[0]
@@ -369,7 +397,7 @@
       },
       offers: {
         "@type": "Offer",
-        url: checkout !== "#" ? checkout : itemUrl,
+        url: checkout || itemUrl,
         priceCurrency: "USD",
         price: item.price != null ? String(item.price) : undefined,
         availability: "https://schema.org/InStock",
@@ -389,7 +417,7 @@
     document.getElementById("pdpBreadcrumb").textContent = item.name;
 
     // Image
-    const imgUrl = safeUrl(item.image);
+    const imgUrl = safeImageUrl(item.image);
     const imgEl = document.getElementById("pdpImage");
     if (imgUrl) {
       imgEl.src = imgUrl;
@@ -405,14 +433,22 @@
 
     // Checkout button
     const checkoutEl = document.getElementById("pdpCheckout");
-    const checkoutUrl = safeUrl(item.url);
+    const checkoutUrl = safeCheckoutUrl(item.url);
     if (checkoutUrl) {
       checkoutEl.href = checkoutUrl;
+      checkoutEl.removeAttribute("aria-disabled");
+      checkoutEl.classList.remove("is-disabled");
       checkoutEl.setAttribute("target", "_blank");
       checkoutEl.setAttribute("rel", "noopener noreferrer");
+      checkoutEl.setAttribute("role", "link");
     } else {
-      checkoutEl.disabled = true;
-      checkoutEl.textContent = "Not available for purchase";
+      checkoutEl.removeAttribute("href");
+      checkoutEl.setAttribute("aria-disabled", "true");
+      checkoutEl.classList.add("is-disabled");
+      checkoutEl.removeAttribute("target");
+      const lab = document.getElementById("pdpCTALabel");
+      if (lab) lab.textContent = "Not available for purchase";
+      else checkoutEl.textContent = "Not available for purchase";
     }
 
     // Core warning

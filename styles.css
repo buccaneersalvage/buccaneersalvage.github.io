@@ -2074,6 +2074,21 @@ ul.pagination .disabled .page {
 .page-store .nav.is-solid::before {
   will-change: opacity;
 }
+
+/* PDP brand wordmark (same as store) */
+.page-item .nav-word {
+  font-size: clamp(0.78rem, 1.6vw, 0.95rem);
+  max-width: 14rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.page-item .btn.is-disabled,
+.page-item a.is-disabled {
+  pointer-events: none;
+  opacity: 0.55;
+  cursor: not-allowed;
+}
 /* Store brand wordmark can be longer ("… Store") */
 .page-store .nav-word {
   font-size: clamp(0.78rem, 1.6vw, 0.95rem);
