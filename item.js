@@ -349,7 +349,7 @@
     const title = `${item.name} | BuccaneerSalvage Store`;
     const desc = `${item.name} — ${catLabel(item.category)}. ${money(item.price)}. Browse and secure checkout at BuccaneerSalvage Store.`;
     const imgUrl = safeImageUrl(item.image) || "https://buccaneersalvage.github.io/assets/og-share.jpg";
-    const itemUrl = `https://buccaneersalvage.github.io/item.html?id=${encodeURIComponent(item.id)}`;
+    const itemUrl = `https://buccaneersalvage.github.io/p/${encodeURIComponent(item.id)}.html`;
     const checkout = safeCheckoutUrl(item.url);
     const brandGuess =
       (Array.isArray(item.part_numbers) && item.part_numbers[0]

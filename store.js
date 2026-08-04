@@ -328,7 +328,7 @@
 
   function cardHtml(item, { featured = false } = {}) {
     const core = isCore(item);
-    const href = `item.html?id=${encodeURIComponent(item.id)}`;
+    const href = `p/${encodeURIComponent(item.id)}.html`;
     const imgUrl = safeImageUrl(item.image);
     const price = item.price != null ? Number(item.price) : "";
     const priceLabel = money(item.price);
