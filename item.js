@@ -146,6 +146,66 @@
     });
   }
 
+  /**
+   * Prefer structured catalog fitment (built by scripts/build_fitment.py).
+   * Fall back to title regex only when DB fields are empty.
+   */
+  function resolveFitment(item) {
+    const dbParts = Array.isArray(item.part_numbers) ? item.part_numbers : [];
+    const dbXref = Array.isArray(item.interchange) ? item.interchange : [];
+    const dbVehicles = Array.isArray(item.vehicles) ? item.vehicles : [];
+    // Structured vehicle objects → display labels
+    if ((!dbVehicles.length) && item.fitment && Array.isArray(item.fitment.vehicles)) {
+      item.fitment.vehicles.forEach((v) => {
+        if (!v || typeof v !== "object") return;
+        const label =
+          v.notes ||
+          [v.year_from && v.year_to ? `${v.year_from}–${v.year_to}` : "", v.make, v.model]
+            .filter(Boolean)
+            .join(" ")
+            .trim();
+        if (label) dbVehicles.push(label);
+      });
+    }
+    const hasDb = dbParts.length || dbXref.length || dbVehicles.length;
+    if (hasDb) {
+      return {
+        parts: dbParts,
+        xref: dbXref,
+        vehicles: dbVehicles,
+        source: item.fitment_source || (item.fitment && item.fitment.source) || "catalog",
+        confidence:
+          item.fitment_confidence ||
+          (item.fitment && item.fitment.confidence) ||
+          "medium",
+      };
+    }
+    const parsed = parseTitleSpecs(item.name);
+    return {
+      parts: parsed.parts,
+      xref: parsed.xref,
+      vehicles: parsed.vehicles,
+      source: "title",
+      confidence: "low",
+    };
+  }
+
+  function setFitmentNotes(source, confidence) {
+    const xrefNote = document.querySelector("#pdpXrefBlock .pdp-fitment-note");
+    const vehNote = document.querySelector("#pdpVehicleBlock .pdp-fitment-note");
+    const fromDb = source && source !== "title" && !/^title/.test(source);
+    if (xrefNote) {
+      xrefNote.textContent = fromDb
+        ? `From fitment database (${source}; confidence: ${confidence}). Verify against your application before ordering.`
+        : "Parsed from the product title. Verify against your application before ordering.";
+    }
+    if (vehNote) {
+      vehNote.textContent = fromDb
+        ? `Applications from fitment database (${source}; confidence: ${confidence}). Confirm year/make/model and OEM numbers.`
+        : "Examples from the title only — not a full fitment database. Confirm year/make/model and OEM numbers.";
+    }
+  }
+
   function renderFitment(item) {
     const root = document.getElementById("pdpFitment");
     const partBlock = document.getElementById("pdpPartBlock");
@@ -154,7 +214,8 @@
     const coreNote = document.getElementById("pdpCoreNote");
     if (!root) return;
 
-    const { parts, xref, vehicles } = parseTitleSpecs(item.name);
+    const { parts, xref, vehicles, source, confidence } = resolveFitment(item);
+    setFitmentNotes(source, confidence);
     let any = false;
 
     if (parts.length) {
