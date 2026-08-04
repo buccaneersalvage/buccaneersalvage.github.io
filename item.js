@@ -6,7 +6,7 @@
    * Load item by URL param; display from static catalog JSON.
    * Primary CTA opens Square checkout (catalog item.url).
    */
-  const CATALOG_URL = "assets/square-catalog.json?v=20260804c";
+  const CATALOG_URL = "assets/square-catalog.json?v=20260804s";
   const CORE_WARN = "FOR PARTS OR REBUILD · UNTESTED · NO RETURNS";
 
   const money = (n) =>
@@ -190,19 +190,42 @@
     };
   }
 
-  function setFitmentNotes(source, confidence) {
+  /** Human copy only — never expose internal pipeline keys. */
+  function setFitmentNotes(source, confidence, vehicleCount, rawCount) {
     const xrefNote = document.querySelector("#pdpXrefBlock .pdp-fitment-note");
     const vehNote = document.querySelector("#pdpVehicleBlock .pdp-fitment-note");
-    const fromDb = source && source !== "title" && !/^title/.test(source);
+    const fromEbay =
+      source &&
+      (String(source).includes("ebay_listing") || String(source).includes("ebay_compat"));
+    const fromDisk =
+      source &&
+      (String(source).includes("carlson") || String(source).includes("airspring_inventory"));
     if (xrefNote) {
-      xrefNote.textContent = fromDb
-        ? `From fitment database (${source}; confidence: ${confidence}). Verify against your application before ordering.`
-        : "Parsed from the product title. Verify against your application before ordering.";
+      if (fromEbay || fromDisk) {
+        xrefNote.textContent =
+          "Cross-reference numbers from the live listing / inventory data. Match these to your old part before ordering.";
+      } else {
+        xrefNote.textContent =
+          "Interchange numbers taken from the product title. Confirm against your application before ordering.";
+      }
     }
     if (vehNote) {
-      vehNote.textContent = fromDb
-        ? `Applications from fitment database (${source}; confidence: ${confidence}). Confirm year/make/model and OEM numbers.`
-        : "Examples from the title only — not a full fitment database. Confirm year/make/model and OEM numbers.";
+      if (fromEbay && (vehicleCount > 0 || rawCount > 0)) {
+        const extra =
+          rawCount > vehicleCount
+            ? ` ${rawCount} eBay fitment rows collapsed into ${vehicleCount} year/make/model ranges.`
+            : "";
+        vehNote.textContent =
+          "Vehicle applications from the eBay listing compatibility list." +
+          extra +
+          " Confirm year, make, model, and trim before ordering.";
+      } else if (fromDisk && vehicleCount > 0) {
+        vehNote.textContent =
+          "Application notes from inventory records. Confirm year/make/model and OEM numbers before ordering.";
+      } else {
+        vehNote.textContent =
+          "Limited application notes from the title only — not a full fitment list. Confirm year/make/model and OEM numbers.";
+      }
     }
   }
 
@@ -215,7 +238,8 @@
     if (!root) return;
 
     const { parts, xref, vehicles, source, confidence } = resolveFitment(item);
-    setFitmentNotes(source, confidence);
+    const rawCount = Number(item.vehicle_count_raw || (item.fitment && item.fitment.raw_compat_rows) || 0) || 0;
+    setFitmentNotes(source, confidence, vehicles.length, rawCount);
     let any = false;
 
     if (parts.length) {
