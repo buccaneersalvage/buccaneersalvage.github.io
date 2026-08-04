@@ -40,6 +40,158 @@
     return /^https?:\/\//i.test(s) ? s : "";
   }
 
+  /**
+   * Catalog JSON has no fitment fields. Pull useful signals from the title:
+   * - "Replaces W01-358-8091 1R14-171" → interchange
+   * - Brand OEM tokens (Automann/Goodyear/Carlson/etc. part codes)
+   * - "for Ford F-Series", "Dodge Ram Dakota", Mercedes class, Mack truck
+   */
+  function parseTitleSpecs(name) {
+    const title = String(name || "").trim();
+    const parts = [];
+    const xref = [];
+    const vehicles = [];
+
+    // Cross-ref after "Replaces" / "Replace" / "Repl."
+    const rep = title.match(
+      /\bReplaces?\b\.?\s+(.+?)(?:\s+[—–-]\s+|\s+New\b|\s+NOS\b|$)/i
+    );
+    if (rep) {
+      const chunk = rep[1]
+        .replace(/\b(New|NOS|Brand New|in Original Box)\b/gi, "")
+        .trim();
+      chunk.split(/[,\s]+(?:and\s+)?/).forEach((tok) => {
+        const t = tok.replace(/[()]/g, "").trim();
+        if (t.length >= 4 && /[A-Za-z0-9]/.test(t) && !/^(or|for|the)$/i.test(t)) {
+          if (!xref.includes(t)) xref.push(t);
+        }
+      });
+      // Prefer whitespace-split tokens that look like part numbers
+      const better = chunk.match(
+        /\b(?:W\d{2}-\d{3}-\d{4}|1R\d{2}-\d{2,4}|[A-Z]{0,4}\d[\w./-]{3,})\b/gi
+      );
+      if (better) {
+        better.forEach((t) => {
+          if (!xref.includes(t)) xref.push(t);
+        });
+      }
+    }
+
+    // Leading brand + primary PN patterns
+    const brandPn = title.match(
+      /^(?:OEM\s+)?(Automann|Goodyear|Continental|Carlson|Mack|Holset|Wagner|Firestone|Meritor)\s+([A-Z0-9][\w./-]{2,})/i
+    );
+    if (brandPn) {
+      parts.push(`${brandPn[1]} ${brandPn[2]}`);
+    } else {
+      const carlson = title.match(/\b(Carlson)\s+(H?\d{4,5}[A-Z]?Q?)\b/i);
+      if (carlson) parts.push(`${carlson[1]} ${carlson[2]}`);
+      const bare = title.match(/^(H?\d{4,5}[A-Z]?Q?)\b/);
+      if (bare) parts.push(bare[1]);
+    }
+
+    // Firestone-style W01-… and 1R… anywhere in title (primary, not only Replaces)
+    (title.match(/\bW\d{2}-\d{3}-\d{4}\b/g) || []).forEach((t) => {
+      if (!parts.includes(t) && !xref.includes(t)) parts.push(t);
+    });
+    (title.match(/\b1R\d{2}-\d{2,4}\b/g) || []).forEach((t) => {
+      if (!parts.includes(t) && !xref.includes(t)) parts.push(t);
+    });
+
+    // Vehicle / application phrases
+    const vehiclePatterns = [
+      /\bfor\s+((?:Ford|Chevy|Chevrolet|GMC|Dodge|Ram|Mercedes(?:-Benz)?|Mack|Kia|Toyota|Honda|Jeep|Nissan)[^—–,]{0,60})/gi,
+      /\b((?:Ford|Chevy|Chevrolet|GMC)\s+F-?Series(?:\s*\/\s*E-Series)?)/gi,
+      /\b(Dodge\s+Ram(?:\s+Dakota)?(?:\s+Durango)?)/gi,
+      /\b(Mercedes(?:-Benz)?\s+S-Class(?:\s*\/\s*SL-Class)?)/gi,
+      /\b(Mack\s+Truck(?:\s+V8)?)/gi,
+      /\b(Parking Brake\s+Kia)\b/gi,
+    ];
+    vehiclePatterns.forEach((re) => {
+      let m;
+      const r = new RegExp(re.source, re.flags);
+      while ((m = r.exec(title)) !== null) {
+        let v = (m[1] || m[0] || "")
+          .replace(/\s+[—–-].*$/, "")
+          .replace(/\s*[-–—]\s*New.*$/i, "")
+          .replace(/\s+Brand New.*$/i, "")
+          .replace(/\s*!\s*$/, "")
+          .trim();
+        v = v.replace(/\s{2,}/g, " ");
+        if (v.length >= 3 && !vehicles.some((x) => x.toLowerCase() === v.toLowerCase())) {
+          vehicles.push(v);
+        }
+      }
+    });
+
+    // Mack truck cores often name the platform without "for"
+    if (/\bMack\b/i.test(title) && !vehicles.some((v) => /mack/i.test(v))) {
+      vehicles.push("Mack truck (verify model / OEM casting)");
+    }
+
+    // Deduplicate xref vs parts
+    const xrefClean = xref.filter((x) => !parts.some((p) => p.includes(x) && p !== x));
+
+    return { parts, xref: xrefClean, vehicles };
+  }
+
+  function fillList(ulId, items) {
+    const ul = document.getElementById(ulId);
+    if (!ul) return;
+    ul.replaceChildren();
+    items.forEach((text) => {
+      const li = document.createElement("li");
+      li.textContent = text; // textContent — never innerHTML for catalog strings
+      ul.appendChild(li);
+    });
+  }
+
+  function renderFitment(item) {
+    const root = document.getElementById("pdpFitment");
+    const partBlock = document.getElementById("pdpPartBlock");
+    const xrefBlock = document.getElementById("pdpXrefBlock");
+    const vehBlock = document.getElementById("pdpVehicleBlock");
+    const coreNote = document.getElementById("pdpCoreNote");
+    if (!root) return;
+
+    const { parts, xref, vehicles } = parseTitleSpecs(item.name);
+    let any = false;
+
+    if (parts.length) {
+      fillList("pdpPartList", parts);
+      partBlock?.removeAttribute("hidden");
+      any = true;
+    } else {
+      partBlock?.setAttribute("hidden", "");
+    }
+
+    if (xref.length) {
+      fillList("pdpXrefList", xref);
+      xrefBlock?.removeAttribute("hidden");
+      any = true;
+    } else {
+      xrefBlock?.setAttribute("hidden", "");
+    }
+
+    if (vehicles.length) {
+      fillList("pdpVehicleList", vehicles);
+      vehBlock?.removeAttribute("hidden");
+      any = true;
+    } else {
+      vehBlock?.setAttribute("hidden", "");
+    }
+
+    if (isCore(item)) {
+      coreNote?.removeAttribute("hidden");
+      any = true;
+    } else {
+      coreNote?.setAttribute("hidden", "");
+    }
+
+    if (any) root.removeAttribute("hidden");
+    else root.setAttribute("hidden", "");
+  }
+
   function updateSEO(item) {
     if (!item) return;
 
@@ -136,6 +288,9 @@
       document.getElementById("pdpCTALabel").textContent = "Buy · secure checkout";
     }
 
+    // Interchange / vehicle notes from title
+    renderFitment(item);
+
     // Update SEO
     updateSEO(item);
 
@@ -146,8 +301,8 @@
 
   function showError(msg) {
     document.getElementById("pdpErrorMsg").textContent = msg;
-    document.getElementById("pdpContent").setAttribute("hidden", "");
-    document.getElementById("pdpError").removeAttribute("hidden");
+    document.getElementById("productContent")?.setAttribute("hidden", "");
+    document.getElementById("pdpError")?.removeAttribute("hidden");
   }
 
   async function boot() {

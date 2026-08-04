@@ -1716,29 +1716,40 @@ ul.pagination .disabled .page {
   }
 }
 
-/* ────── eBay Store Banner (replaces featured cores) ────────────────────── */
+/* ────── eBay Store Banner (compact strip — not full hero) ──────────────── */
 .st-ebay-banner {
-  background: #0c0a08;
-  padding: 2rem 0;
-  margin: 2rem 0;
+  background: transparent;
+  padding: 0.75rem 0 0.25rem;
+  margin: 0.5rem 0 0.75rem;
 }
 .st-banner-link {
   display: block;
+  max-width: 720px;
+  margin: 0 auto;
   text-decoration: none;
-  border-radius: 8px;
+  border-radius: 10px;
   overflow: hidden;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+  border: 1px solid rgba(197, 160, 40, 0.28);
+  background: #0c0a08;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.35);
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
 }
 .st-banner-link:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 6px 16px rgba(212, 175, 55, 0.2);
+  border-color: rgba(212, 175, 55, 0.55);
+  box-shadow: 0 4px 14px rgba(212, 175, 55, 0.12);
+  transform: none; /* no bounce — was contributing to sloppy feel */
 }
 .st-banner-image {
   display: block;
   width: 100%;
-  height: auto;
+  /* Source is 1248×832 — never let it render full height */
+  height: clamp(72px, 12vw, 112px);
   object-fit: cover;
+  object-position: center 35%;
+}
+@media (max-width: 520px) {
+  .st-banner-link { max-width: 100%; border-radius: 8px; }
+  .st-banner-image { height: clamp(64px, 22vw, 96px); }
 }
 
 /* ────── Product Detail Page (PDP) ──────────────────────────────────────── */
@@ -1891,6 +1902,50 @@ ul.pagination .disabled .page {
   opacity: 0.5;
   cursor: not-allowed;
 }
+
+.pdp-fitment {
+  margin-top: 1.25rem;
+  padding: 1rem 1.1rem;
+  border-radius: 10px;
+  border: 1px solid rgba(197, 160, 40, 0.22);
+  background: rgba(12, 10, 8, 0.55);
+}
+.pdp-fitment-title {
+  margin: 0 0 0.75rem;
+  font-family: var(--font-display, Georgia, serif);
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: var(--gold, #c5a028);
+  letter-spacing: 0.02em;
+}
+.pdp-fitment-block + .pdp-fitment-block {
+  margin-top: 0.85rem;
+  padding-top: 0.8rem;
+  border-top: 1px solid rgba(197, 160, 40, 0.12);
+}
+.pdp-fitment-h {
+  margin: 0 0 0.4rem;
+  font-size: 0.75rem;
+  font-weight: 650;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--parchment, #e8dcc4);
+}
+.pdp-fitment-list {
+  margin: 0;
+  padding: 0 0 0 1.1rem;
+  color: var(--parchment-muted, #c4b59a);
+  font-size: 0.92rem;
+  line-height: 1.45;
+}
+.pdp-fitment-list li { margin: 0.12rem 0; }
+.pdp-fitment-note {
+  margin: 0.4rem 0 0;
+  font-size: 0.78rem;
+  line-height: 1.4;
+  color: rgba(196, 181, 154, 0.85);
+}
+.pdp-fitment-block--core .pdp-fitment-h { color: #e07070; }
 
 .pdp-meta {
   background: rgba(212, 175, 55, 0.05);

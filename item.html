@@ -60,7 +60,7 @@
   }
   </script>
 </head>
-<body class="page-item\">
+<body class="page-item">
   <a class="skip-link" href="#main">Skip to content</a>
 
   <header class="nav is-solid" role="banner" id="nav">
@@ -125,6 +125,29 @@
             </a>
             <a href="store.html" class="btn btn-secondary">Back to store</a>
           </div>
+
+          <!-- Interchange / vehicle parsed from listing title (catalog has no separate fitment fields) -->
+          <section class="pdp-fitment" id="pdpFitment" hidden aria-label="Interchange and applications">
+            <h2 class="pdp-fitment-title">Description details</h2>
+            <div id="pdpPartBlock" class="pdp-fitment-block" hidden>
+              <h3 class="pdp-fitment-h">Part numbers</h3>
+              <ul id="pdpPartList" class="pdp-fitment-list"></ul>
+            </div>
+            <div id="pdpXrefBlock" class="pdp-fitment-block" hidden>
+              <h3 class="pdp-fitment-h">Cross-reference / interchange</h3>
+              <ul id="pdpXrefList" class="pdp-fitment-list"></ul>
+              <p class="pdp-fitment-note">Parsed from the product title. Verify against your application before ordering.</p>
+            </div>
+            <div id="pdpVehicleBlock" class="pdp-fitment-block" hidden>
+              <h3 class="pdp-fitment-h">Vehicle / application notes</h3>
+              <ul id="pdpVehicleList" class="pdp-fitment-list"></ul>
+              <p class="pdp-fitment-note">Examples from the title only — not a full fitment database. Confirm year/make/model and OEM numbers.</p>
+            </div>
+            <div id="pdpCoreNote" class="pdp-fitment-block pdp-fitment-block--core" hidden>
+              <h3 class="pdp-fitment-h">Salvage core</h3>
+              <p class="pdp-fitment-note">Untested core for parts or rebuild. No guaranteed interchange list. Match casting/OEM numbers and condition before purchase. <strong>No returns.</strong></p>
+            </div>
+          </section>
 
           <div class="pdp-meta">
             <p><strong>Secure checkout:</strong> Card processing off-site</p>
