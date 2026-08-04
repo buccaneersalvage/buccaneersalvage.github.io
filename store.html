@@ -5,22 +5,28 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
   <title>BuccaneerSalvage Store — Air Springs, Brake Kits &amp; Cores</title>
   <meta name="description" content="Official BuccaneerSalvage Store: truck air springs, Carlson brake hardware, Mack Holset turbo &amp; injection pump cores. Search and filter parts; secure checkout when you buy. Carbondale, PA." />
-  <meta name="author" content="Rustjack · BuccaneerSalvage" />
+  <meta name="author" content="Rustjack · BuccaneerSalvage Store" />
+  <meta name="application-name" content="BuccaneerSalvage Store" />
+  <meta name="apple-mobile-web-app-title" content="BS Store" />
   <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1" />
   <meta name="theme-color" content="#0c0a08" />
   <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; font-src 'self' data:; connect-src 'self'; base-uri 'self'; object-src 'none';" />
   <meta http-equiv="X-Content-Type-Options" content="nosniff" />
   <meta name="referrer" content="strict-origin-when-cross-origin" />
   <link rel="canonical" href="https://buccaneersalvage.github.io/store.html" />
+  <link rel="sitemap" type="application/xml" title="Store sitemap" href="https://buccaneersalvage.github.io/sitemap-store.xml" />
 
+  <!-- Distinct property identity for SERPs / social (not the music hub) -->
   <meta property="og:type" content="website" />
-  <meta property="og:site_name" content="BuccaneerSalvage" />
-  <meta property="og:title" content="BuccaneerSalvage Store" />
+  <meta property="og:site_name" content="BuccaneerSalvage Store" />
+  <meta property="og:title" content="BuccaneerSalvage Store — Air Springs, Brake Kits &amp; Cores" />
   <meta property="og:description" content="Search air springs, brake kits, turbo &amp; pump cores. Browse on-site; secure checkout when you buy." />
   <meta property="og:url" content="https://buccaneersalvage.github.io/store.html" />
   <meta property="og:image" content="https://buccaneersalvage.github.io/assets/og-share.jpg" />
+  <meta property="og:locale" content="en_US" />
 
   <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@jollyroger1480" />
   <meta name="twitter:title" content="BuccaneerSalvage Store" />
   <meta name="twitter:description" content="Parts store · search · filter · secure checkout" />
   <meta name="twitter:image" content="https://buccaneersalvage.github.io/assets/og-share.jpg" />
@@ -29,26 +35,65 @@
   <link rel="apple-touch-icon" href="assets/crest-rustjack-web.jpg" />
   <link rel="preload" href="assets/fonts.css" as="style" />
   <link rel="stylesheet" href="assets/fonts.css" />
-  <link rel="stylesheet" href="styles.css?v=homeperf1" />
+  <link rel="stylesheet" href="styles.css?v=godseo1" />
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "CollectionPage",
-    "name": "BuccaneerSalvage Store",
-    "url": "https://buccaneersalvage.github.io/store.html",
-    "isPartOf": {"@type": "WebSite", "name": "BuccaneerSalvage", "url": "https://buccaneersalvage.github.io/"},
-    "about": {
-      "@type": "Store",
-      "name": "BuccaneerSalvage Store",
-      "url": "https://buccaneersalvage.github.io/store.html",
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Carbondale",
-        "addressRegion": "PA",
-        "postalCode": "18407",
-        "addressCountry": "US"
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": "https://buccaneersalvage.github.io/store.html#website",
+        "name": "BuccaneerSalvage Store",
+        "alternateName": ["BS Store", "Buccaneer Salvage Parts Store"],
+        "url": "https://buccaneersalvage.github.io/store.html",
+        "description": "Truck air springs, brake hardware, turbo and pump cores. Search, filter, secure checkout.",
+        "inLanguage": "en-US",
+        "publisher": {"@id": "https://buccaneersalvage.github.io/store.html#store"},
+        "about": {"@id": "https://buccaneersalvage.github.io/store.html#store"}
+      },
+      {
+        "@type": ["Store", "OnlineStore"],
+        "@id": "https://buccaneersalvage.github.io/store.html#store",
+        "name": "BuccaneerSalvage Store",
+        "url": "https://buccaneersalvage.github.io/store.html",
+        "image": "https://buccaneersalvage.github.io/assets/og-share.jpg",
+        "priceRange": "$$",
+        "currenciesAccepted": "USD",
+        "paymentAccepted": "Credit Card, Debit Card",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Carbondale",
+          "addressRegion": "PA",
+          "postalCode": "18407",
+          "addressCountry": "US"
+        },
+        "parentOrganization": {
+          "@type": "Organization",
+          "@id": "https://buccaneersalvage.github.io/#organization",
+          "name": "BuccaneerSalvage",
+          "url": "https://buccaneersalvage.github.io/"
+        },
+        "sameAs": [
+          "https://www.ebay.com/str/buccaneersalvage",
+          "https://buccaneersalvage.square.site/"
+        ]
+      },
+      {
+        "@type": "CollectionPage",
+        "@id": "https://buccaneersalvage.github.io/store.html#collection",
+        "name": "BuccaneerSalvage Store catalog",
+        "url": "https://buccaneersalvage.github.io/store.html",
+        "isPartOf": {"@id": "https://buccaneersalvage.github.io/store.html#website"},
+        "about": {"@id": "https://buccaneersalvage.github.io/store.html#store"},
+        "breadcrumb": {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {"@type": "ListItem", "position": 1, "name": "Hub", "item": "https://buccaneersalvage.github.io/"},
+            {"@type": "ListItem", "position": 2, "name": "Store", "item": "https://buccaneersalvage.github.io/store.html"}
+          ]
+        }
       }
-    }
+    ]
   }
   </script>
 </head>
@@ -57,14 +102,14 @@
 
   <header class="nav is-solid" role="banner" id="nav">
     <div class="nav-inner">
-      <a class="nav-brand" href="index.html" aria-label="BuccaneerSalvage home">
+      <a class="nav-brand" href="store.html" aria-label="BuccaneerSalvage Store home">
         <img class="nav-mark" src="assets/crest-rustjack-web.jpg" width="38" height="38" alt="" />
-        <span class="nav-word">BuccaneerSalvage</span>
+        <span class="nav-word">BuccaneerSalvage Store</span>
       </a>
       <nav class="nav-links" aria-label="Primary">
-        <a href="index.html">Home</a>
-        <a href="store.html" aria-current="page">Store</a>
+        <a href="store.html" aria-current="page">Catalog</a>
         <a href="https://www.ebay.com/str/buccaneersalvage" target="_blank" rel="noopener noreferrer">eBay</a>
+        <a href="index.html">Music hub</a>
         <a href="videos.html">Videos</a>
         <a href="/ukiri/" class="nav-warn">Ukiri WARNING</a>
       </nav>
@@ -74,10 +119,10 @@
       </button>
     </div>
     <div class="nav-drawer" id="drawer" hidden>
-      <a href="index.html">Home</a>
-      <a href="store.html" aria-current="page">BuccaneerSalvage Store</a>
-      <a href="https://www.ebay.com/str/buccaneersalvage" target="_blank" rel="noopener noreferrer">eBay Store</a>
-      <a href="videos.html">Video Gallery</a>
+      <a href="store.html" aria-current="page">Store catalog</a>
+      <a href="https://www.ebay.com/str/buccaneersalvage" target="_blank" rel="noopener noreferrer">eBay store</a>
+      <a href="index.html">Music hub</a>
+      <a href="videos.html">The Dark Fleet</a>
       <a href="/ukiri/">Ukiri WARNING</a>
     </div>
   </header>
@@ -254,6 +299,6 @@
 
   <script src="main.js" defer></script>
   <script src="assets/vendor/list.min.js" defer></script>
-  <script src="store.js?v=fitsearch3" defer></script>
+  <script src="store.js?v=godseo1" defer></script>
 </body>
 </html>

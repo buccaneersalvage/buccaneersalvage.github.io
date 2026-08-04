@@ -2063,6 +2063,26 @@ ul.pagination .disabled .page {
 .page-store .nav.is-solid::before {
   will-change: opacity;
 }
+/* Store brand wordmark can be longer ("… Store") */
+.page-store .nav-word {
+  font-size: clamp(0.78rem, 1.6vw, 0.95rem);
+  max-width: 14rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+/* PLP cards: skip offscreen paint (CSS tighten / godseo) */
+.page-store .st-card {
+  content-visibility: auto;
+  contain-intrinsic-size: 360px 420px;
+}
+.page-store .st-card-media img {
+  content-visibility: auto;
+}
+/* Grain is decorative — don't force continuous layer on store */
+.page-store .grain {
+  display: none !important;
+}
 
 /* Reduce motion: PDP animations */
 @media (prefers-reduced-motion: reduce) {

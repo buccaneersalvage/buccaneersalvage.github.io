@@ -322,48 +322,62 @@
     const desc = `${item.name} — ${catLabel(item.category)}. ${money(item.price)}. Browse and secure checkout at BuccaneerSalvage Store.`;
     const imgUrl = safeUrl(item.image) || "https://buccaneersalvage.github.io/assets/og-share.jpg";
     const itemUrl = `https://buccaneersalvage.github.io/item.html?id=${encodeURIComponent(item.id)}`;
+    const checkout = safeUrl(item.url);
+    const brandGuess =
+      (Array.isArray(item.part_numbers) && item.part_numbers[0]
+        ? String(item.part_numbers[0]).split(/\s+/)[0]
+        : null) ||
+      (String(item.name || "").match(
+        /^(?:OEM\s+)?(Carlson|Automann|Goodyear|Continental|ContiTech|Firestone|Holset|Mack|Wagner|Econoride)\b/i
+      ) || [])[1] ||
+      "BuccaneerSalvage Store";
 
-    // Basic meta
+    // Basic meta — property = Store (not music hub)
     document.getElementById("pageTitle").textContent = title;
     document.title = title;
     document.getElementById("pageMeta").setAttribute("content", desc);
     document.getElementById("canonical").setAttribute("href", itemUrl);
 
     // OG
-    document.getElementById("ogTitle").setAttribute("content", item.name);
+    document.getElementById("ogTitle").setAttribute("content", title);
     document.getElementById("ogDesc").setAttribute("content", desc);
     document.getElementById("ogImage").setAttribute("content", imgUrl);
+    const ogUrl = document.getElementById("ogUrl");
+    if (ogUrl) ogUrl.setAttribute("content", itemUrl);
 
     // Twitter
-    document.getElementById("twitterTitle").setAttribute("content", item.name);
+    document.getElementById("twitterTitle").setAttribute("content", title);
     document.getElementById("twitterDesc").setAttribute("content", desc);
     document.getElementById("twitterImage").setAttribute("content", imgUrl);
 
-    // Product schema
+    // Product schema under Store WebSite
     const schema = {
       "@context": "https://schema.org",
       "@type": "Product",
+      "@id": `${itemUrl}#product`,
       name: item.name,
       description: desc,
       image: imgUrl,
-      brand: {
-        "@type": "Brand",
-        name: "BuccaneerSalvage",
-      },
-      manufacturer: {
-        "@type": "Organization",
-        name: "BuccaneerSalvage",
+      sku: item.id,
+      mpn: Array.isArray(item.part_numbers) ? item.part_numbers[0] : undefined,
+      brand: { "@type": "Brand", name: brandGuess },
+      isPartOf: {
+        "@type": "WebSite",
+        "@id": "https://buccaneersalvage.github.io/store.html#website",
+        name: "BuccaneerSalvage Store",
+        url: "https://buccaneersalvage.github.io/store.html",
       },
       offers: {
         "@type": "Offer",
-        url: item.url || "",
+        url: checkout !== "#" ? checkout : itemUrl,
         priceCurrency: "USD",
-        price: item.price?.toString() || "0.00",
+        price: item.price != null ? String(item.price) : undefined,
         availability: "https://schema.org/InStock",
         seller: {
-          "@type": "Organization",
-          name: "BuccaneerSalvage",
-          url: "https://buccaneersalvage.github.io/",
+          "@type": "Store",
+          "@id": "https://buccaneersalvage.github.io/store.html#store",
+          name: "BuccaneerSalvage Store",
+          url: "https://buccaneersalvage.github.io/store.html",
         },
       },
     };

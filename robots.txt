@@ -1,8 +1,12 @@
-# BuccaneerSalvage hub — crawl everything; socials discovered via on-page links + sameAs
+# BuccaneerSalvage multi-property crawl map
+# Treat as related properties on one host (hub / store / media / ukiri)
 User-agent: *
 Allow: /
 
-# Prefer full hub sitemap (includes every Ukiri chapter)
-Sitemap: https://buccaneersalvage.github.io/sitemap.xml
+# Separate property sitemaps (preferred for Search Console URL-prefix properties)
+Sitemap: https://buccaneersalvage.github.io/sitemap-hub.xml
+Sitemap: https://buccaneersalvage.github.io/sitemap-store.xml
+Sitemap: https://buccaneersalvage.github.io/sitemap-media.xml
 Sitemap: https://buccaneersalvage.github.io/ukiri/sitemap.xml
 Sitemap: https://buccaneersalvage.github.io/sitemap-index.xml
+Sitemap: https://buccaneersalvage.github.io/sitemap.xml
