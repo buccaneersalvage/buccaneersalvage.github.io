@@ -38,26 +38,25 @@
     "@context": "https://schema.org",
     "@type": "Product",
     "name": "Product",
-    "description": "Product details",
+    "description": "Product details at BuccaneerSalvage Store",
     "image": "",
-    "brand": {
-      "@type": "Brand",
-      "name": "BuccaneerSalvage"
-    },
-    "manufacturer": {
-      "@type": "Organization",
-      "name": "BuccaneerSalvage"
+    "isPartOf": {
+      "@type": "WebSite",
+      "@id": "https://buccaneersalvage.github.io/store.html#website",
+      "name": "BuccaneerSalvage Store",
+      "url": "https://buccaneersalvage.github.io/store.html"
     },
     "offers": {
       "@type": "Offer",
-      "url": "",
+      "url": "https://buccaneersalvage.github.io/store.html",
       "priceCurrency": "USD",
       "price": "0.00",
       "availability": "https://schema.org/InStock",
       "seller": {
-        "@type": "Organization",
-        "name": "BuccaneerSalvage",
-        "url": "https://buccaneersalvage.github.io/"
+        "@type": "Store",
+        "@id": "https://buccaneersalvage.github.io/store.html#store",
+        "name": "BuccaneerSalvage Store",
+        "url": "https://buccaneersalvage.github.io/store.html"
       }
     }
   }
@@ -68,14 +67,14 @@
 
   <header class="nav is-solid" role="banner" id="nav">
     <div class="nav-inner">
-      <a class="nav-brand" href="index.html" aria-label="BuccaneerSalvage home">
+      <a class="nav-brand" href="store.html" aria-label="BuccaneerSalvage Store home">
         <img class="nav-mark" src="assets/crest-rustjack-web.jpg" width="38" height="38" alt="" />
-        <span class="nav-word">BuccaneerSalvage</span>
+        <span class="nav-word">BuccaneerSalvage Store</span>
       </a>
       <nav class="nav-links" aria-label="Primary">
-        <a href="index.html">Home</a>
-        <a href="store.html">Store</a>
+        <a href="store.html">Catalog</a>
         <a href="https://www.ebay.com/str/buccaneersalvage" target="_blank" rel="noopener noreferrer">eBay</a>
+        <a href="index.html">Music hub</a>
         <a href="videos.html">Videos</a>
         <a href="/ukiri/" class="nav-warn">Ukiri WARNING</a>
       </nav>
@@ -85,10 +84,10 @@
       </button>
     </div>
     <div class="nav-drawer" id="drawer" hidden>
-      <a href="index.html">Home</a>
-      <a href="store.html">BuccaneerSalvage Store</a>
+      <a href="store.html">Catalog</a>
       <a href="https://www.ebay.com/str/buccaneersalvage" target="_blank" rel="noopener noreferrer">eBay Store</a>
-      <a href="videos.html">Video Gallery</a>
+      <a href="index.html">Music hub</a>
+      <a href="videos.html">Videos</a>
       <a href="/ukiri/">Ukiri WARNING</a>
     </div>
   </header>
@@ -97,8 +96,6 @@
     <section class="pdp-hero">
       <div class="shell pdp-hero-inner">
         <nav class="pdp-breadcrumb" aria-label="Breadcrumb">
-          <a href="index.html">Home</a>
-          <span aria-hidden="true">/</span>
           <a href="store.html">Store</a>
           <span aria-hidden="true">/</span>
           <span id="pdpBreadcrumb">Product</span>
