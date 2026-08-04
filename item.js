@@ -6,7 +6,7 @@
    * Load item by URL param; display from static catalog JSON.
    * Primary CTA opens Square checkout (catalog item.url).
    */
-  const CATALOG_URL = "assets/square-catalog.json?v=20260804u";
+  const CATALOG_URL = "assets/square-catalog.json?v=20260804v";
   const CORE_WARN = "FOR PARTS OR REBUILD · UNTESTED · NO RETURNS";
 
   const money = (n) =>
@@ -150,9 +150,47 @@
    * Prefer structured catalog fitment (built by scripts/build_fitment.py).
    * Fall back to title regex only when DB fields are empty.
    */
+  /** Drop "Brand 13329" when bare "13329" is also listed (and short suffix dups). */
+  function dedupePartLabels(list) {
+    if (!Array.isArray(list) || !list.length) return [];
+    const brands =
+      /^(?:OEM\s+)?(?:Carlson|Automann|Goodyear|Continental|ContiTech|Mack|Holset|Wagner|Firestone|Meritor|Econoride|Mercedes(?:-Benz)?)\s+/i;
+    const seen = new Set();
+    const cleaned = [];
+    for (const raw of list) {
+      const s = String(raw || "").trim();
+      if (!s) continue;
+      const key = s.toLowerCase();
+      if (seen.has(key)) continue;
+      seen.add(key);
+      cleaned.push(s);
+    }
+    const bareSet = new Set(
+      cleaned.map((p) => p.replace(brands, "").trim().toLowerCase()).filter(Boolean)
+    );
+    const out = [];
+    for (const p of cleaned) {
+      const bare = p.replace(brands, "").trim();
+      const isBranded = bare.toLowerCase() !== p.toLowerCase();
+      if (isBranded && bareSet.has(bare.toLowerCase()) && cleaned.some((x) => x.toLowerCase() === bare.toLowerCase())) {
+        continue;
+      }
+      out.push(p);
+    }
+    return out.filter((p) => {
+      const pl = p.toLowerCase().trim();
+      if (/^\d{3,6}[a-z]?$/.test(pl)) {
+        return !out.some(
+          (q) => q.toLowerCase() !== pl && new RegExp(`(?:^|[\\s\\-/])${pl}$`).test(q.toLowerCase())
+        );
+      }
+      return true;
+    });
+  }
+
   function resolveFitment(item) {
-    const dbParts = Array.isArray(item.part_numbers) ? item.part_numbers : [];
-    const dbXref = Array.isArray(item.interchange) ? item.interchange : [];
+    const dbParts = dedupePartLabels(Array.isArray(item.part_numbers) ? item.part_numbers : []);
+    const dbXref = dedupePartLabels(Array.isArray(item.interchange) ? item.interchange : []);
     const dbVehicles = Array.isArray(item.vehicles) ? item.vehicles : [];
     // Structured vehicle objects → display labels
     if ((!dbVehicles.length) && item.fitment && Array.isArray(item.fitment.vehicles)) {

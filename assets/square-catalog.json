@@ -1,7 +1,7 @@
 {
-  "updated": "2026-08-04T04:58:08Z",
+  "updated": "2026-08-04T05:09:46Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 71,
+  "count": 81,
   "items": [
     {
       "id": "S4IZBA4AG65C6HI2ZDIRMSJR",
@@ -13,10 +13,8 @@
       "checkout": true,
       "variation_id": "GT3PTOYSYUZHAQ25KQFDGPXN",
       "part_numbers": [
-        "Holset X63 160583P2",
         "X63 160583P2"
       ],
-      "interchange": [],
       "vehicles": [
         "Mack Truck"
       ],
@@ -24,7 +22,6 @@
       "fitment_confidence": "medium",
       "fitment": {
         "part_numbers": [
-          "Holset X63 160583P2",
           "X63 160583P2"
         ],
         "interchange": [],
@@ -47,8 +44,8 @@
         "confidence": "medium",
         "ebay_item_id": "398246339681"
       },
-      "ebay_item_id": "398246339681",
-      "vehicle_count_raw": 1
+      "vehicle_count_raw": 1,
+      "ebay_item_id": "398246339681"
     },
     {
       "id": "AGEWYOLANWBWUWDDESOE3EIG",
@@ -60,16 +57,12 @@
       "checkout": true,
       "variation_id": "BHU7RQPLZS4RDV6K6GRAA5CO",
       "part_numbers": [
-        "Mack 8VBB-1100-6472C1",
         "8VBB-1100-6472C1"
       ],
-      "interchange": [],
-      "vehicles": [],
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
-          "Mack 8VBB-1100-6472C1",
           "8VBB-1100-6472C1"
         ],
         "interchange": [],
@@ -80,8 +73,8 @@
         "confidence": "high",
         "ebay_item_id": "398246323881"
       },
-      "ebay_item_id": "398246323881",
-      "vehicle_count_raw": 0
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398246323881"
     },
     {
       "id": "5LLWTR3B27YDLV6ZR6XMBPWL",
@@ -93,7 +86,6 @@
       "checkout": true,
       "variation_id": "5EQ2UK3XJZFP2JTV5ZMY3WXP",
       "part_numbers": [
-        "Automann 566.CT64421",
         "566.CT64421",
         "1R14-171"
       ],
@@ -109,12 +101,10 @@
         "IHC/International: 1R14-242",
         "1R14-242"
       ],
-      "vehicles": [],
       "fitment_source": "airspring_inventory+airspring_xref_pull+ebay_listing+updates_table",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
-          "Automann 566.CT64421",
           "566.CT64421",
           "1R14-171"
         ],
@@ -137,8 +127,28 @@
         "confidence": "high",
         "ebay_item_id": "398037019572"
       },
-      "ebay_item_id": "398037019572",
-      "vehicle_count_raw": 0
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398037019572"
+    },
+    {
+      "id": "R6VO2MARXN7GRGTMXVGABLHT",
+      "name": "Automann AB1D28G-9149 Rolling Lobe Air Spring Replaces W01-358-9149 NOS",
+      "price": 229.5,
+      "image": "",
+      "url": "https://square.link/u/ELmKCwaN",
+      "category": "air-spring",
+      "checkout": true,
+      "variation_id": "PNAULB5ZGCDXZULXNNTE2XNA",
+      "ebay_item_id": "398217621260",
+      "part_numbers": [
+        "Automann AB1D28G-9149",
+        "W01-358-9149"
+      ],
+      "interchange": [
+        "W01-358-9149"
+      ],
+      "fitment_source": "title",
+      "fitment_confidence": "low"
     },
     {
       "id": "AZNN7T4GEP4SBDATK42PTAUJ",
@@ -150,19 +160,16 @@
       "checkout": true,
       "variation_id": "JLQJQXCOB4VHL4MZ7W2DNBJQ",
       "part_numbers": [
-        "Automann AB1DK10B-5436",
         "AB1DK10B-5436"
       ],
       "interchange": [
         "Firestone: W01-358-5436",
         "World American / AS: AS-76038"
       ],
-      "vehicles": [],
       "fitment_source": "airspring_inventory+airspring_xref_pull+ebay_listing+updates_table",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
-          "Automann AB1DK10B-5436",
           "AB1DK10B-5436"
         ],
         "interchange": [
@@ -176,8 +183,8 @@
         "confidence": "high",
         "ebay_item_id": "398035089377"
       },
-      "ebay_item_id": "398035089377",
-      "vehicle_count_raw": 0
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398035089377"
     },
     {
       "id": "XFXQE4DMDFWZDO6TVOL6DEYD",
@@ -189,7 +196,6 @@
       "checkout": true,
       "variation_id": "AZGSZ7IMOVIZTRJDVH6GUHBN",
       "part_numbers": [
-        "Automann AB1DK231-8805",
         "AB1DK231-8805"
       ],
       "interchange": [
@@ -198,12 +204,10 @@
         "ContiTech: 64474",
         "ContiTech: 9 10-14 P 462"
       ],
-      "vehicles": [],
       "fitment_source": "airspring_inventory+airspring_xref_pull+ebay_listing+updates_table",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
-          "Automann AB1DK231-8805",
           "AB1DK231-8805"
         ],
         "interchange": [
@@ -219,8 +223,8 @@
         "confidence": "high",
         "ebay_item_id": "398035060823"
       },
-      "ebay_item_id": "398035060823",
-      "vehicle_count_raw": 0
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398035060823"
     },
     {
       "id": "U7WKMHOVTIULP53SYVFR773L",
@@ -232,19 +236,16 @@
       "checkout": true,
       "variation_id": "CZCW6K73BLLCKQORMBUB2NSN",
       "part_numbers": [
-        "Automann AB1DK231-9336",
         "AB1DK231-9336"
       ],
       "interchange": [
         "Firestone: W01-358-9336",
         "Goodyear: 1R12-648"
       ],
-      "vehicles": [],
       "fitment_source": "airspring_inventory+airspring_xref_pull+ebay_listing+updates_table",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
-          "Automann AB1DK231-9336",
           "AB1DK231-9336"
         ],
         "interchange": [
@@ -258,8 +259,8 @@
         "confidence": "high",
         "ebay_item_id": "398081146603"
       },
-      "ebay_item_id": "398081146603",
-      "vehicle_count_raw": 0
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398081146603"
     },
     {
       "id": "5JADFNOGZU4ORSIITZGU6T3I",
@@ -271,9 +272,7 @@
       "checkout": true,
       "variation_id": "A4N4RVB537IQINSC2JRLGCNX",
       "part_numbers": [
-        "Automann AB1DK23K-9194",
         "AB1DK23K-9194",
-        "9194",
         "ContiTech 910-16 P352",
         "Goodyear 1R12-356"
       ],
@@ -282,20 +281,18 @@
         "ContiTech: 910-16 P352",
         "Goodyear: 1R12-356"
       ],
-      "vehicles": [],
       "fitment_source": "airspring_inventory+airspring_xref_pull+ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
-          "Automann AB1DK23K-9194",
           "AB1DK23K-9194",
-          "9194",
           "ContiTech 910-16 P352",
           "Goodyear 1R12-356"
         ],
         "interchange": [
           "Firestone: W01-358-9194",
-          "1R12-356"
+          "ContiTech: 910-16 P352",
+          "Goodyear: 1R12-356"
         ],
         "vehicles": [],
         "vehicle_labels": [],
@@ -304,8 +301,44 @@
         "confidence": "high",
         "ebay_item_id": "398104794577"
       },
-      "ebay_item_id": "398104794577",
-      "vehicle_count_raw": 0
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398104794577"
+    },
+    {
+      "id": "ECFWBRTC7SMPBSWEJBSLJXWI",
+      "name": "Automann AB1DK23L-8856 Rolling Lobe Air Spring W01-358-8856 NOS Truck Trailer",
+      "price": 136.79,
+      "image": "",
+      "url": "https://square.link/u/ORFIz4Uf",
+      "category": "air-spring",
+      "checkout": true,
+      "variation_id": "Y55N7YLVHCUDMAUD4PTMBZCV",
+      "ebay_item_id": "398114353823",
+      "part_numbers": [
+        "Automann AB1DK23L-8856",
+        "W01-358-8856"
+      ],
+      "interchange": [],
+      "fitment_source": "title",
+      "fitment_confidence": "low"
+    },
+    {
+      "id": "SGQLZ66HITIZULIJIW7NQ27F",
+      "name": "Automann AB1DK23L-9130 Rolling Lobe Air Spring W01-358-9130 Continental 65030",
+      "price": 179.09,
+      "image": "",
+      "url": "https://square.link/u/v0EPTR0r",
+      "category": "air-spring",
+      "checkout": true,
+      "variation_id": "HRMKFMPRDJWOKY57RMMTH26L",
+      "ebay_item_id": "398114354977",
+      "part_numbers": [
+        "Automann AB1DK23L-9130",
+        "W01-358-9130"
+      ],
+      "interchange": [],
+      "fitment_source": "title",
+      "fitment_confidence": "low"
     },
     {
       "id": "VWXBTBCTIL7WXP2Q7DSE3JHD",
@@ -317,7 +350,6 @@
       "checkout": true,
       "variation_id": "MAA6KHMNEE2GMVV4CARGIU4E",
       "part_numbers": [
-        "Automann AB1DK23L-9238",
         "AB1DK23L-9238"
       ],
       "interchange": [
@@ -325,12 +357,10 @@
         "Goodyear: 1R12-145",
         "ContiTech: 9 10-19 P 356"
       ],
-      "vehicles": [],
       "fitment_source": "airspring_inventory+airspring_xref_pull+ebay_listing+updates_table",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
-          "Automann AB1DK23L-9238",
           "AB1DK23L-9238"
         ],
         "interchange": [
@@ -345,8 +375,8 @@
         "confidence": "high",
         "ebay_item_id": "398030468076"
       },
-      "ebay_item_id": "398030468076",
-      "vehicle_count_raw": 0
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398030468076"
     },
     {
       "id": "XH7TUMSNXXRPP27X4TVSG7IR",
@@ -358,9 +388,7 @@
       "checkout": true,
       "variation_id": "X5ALY3XROUQ2Y3QN6H27Z6LQ",
       "part_numbers": [
-        "Automann AB1DK23L-9346",
-        "AB1DK23L-9346",
-        "9346"
+        "AB1DK23L-9346"
       ],
       "interchange": [
         "Firestone: W01-358-9346",
@@ -371,14 +399,11 @@
         "Watson & Chalin: AS-0056",
         "Triangle: 8470"
       ],
-      "vehicles": [],
       "fitment_source": "airspring_inventory+airspring_xref_pull+ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
-          "Automann AB1DK23L-9346",
-          "AB1DK23L-9346",
-          "9346"
+          "AB1DK23L-9346"
         ],
         "interchange": [
           "Firestone: W01-358-9346",
@@ -396,8 +421,8 @@
         "confidence": "high",
         "ebay_item_id": "398104804442"
       },
-      "ebay_item_id": "398104804442",
-      "vehicle_count_raw": 0
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398104804442"
     },
     {
       "id": "63GLHEZRBSGQMW33N4D6AWUT",
@@ -409,27 +434,23 @@
       "checkout": true,
       "variation_id": "MC7K5UQOIKLYGXAJOVYV7ZOI",
       "part_numbers": [
-        "Automann AB1DK23P-6231",
-        "AB1DK23P-6231",
-        "6231"
+        "AB1DK23P-6231"
       ],
       "interchange": [
         "ContiTech AS 9 10-17.5 P 1388",
         "Firestone: W01-358-6231",
         "ContiTech: AS 9 10-17.5 P 1388"
       ],
-      "vehicles": [],
       "fitment_source": "airspring_inventory+airspring_xref_pull+ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
-          "Automann AB1DK23P-6231",
-          "AB1DK23P-6231",
-          "6231"
+          "AB1DK23P-6231"
         ],
         "interchange": [
           "ContiTech AS 9 10-17.5 P 1388",
-          "Firestone: W01-358-6231"
+          "Firestone: W01-358-6231",
+          "ContiTech: AS 9 10-17.5 P 1388"
         ],
         "vehicles": [],
         "vehicle_labels": [],
@@ -438,8 +459,8 @@
         "confidence": "high",
         "ebay_item_id": "398104795532"
       },
-      "ebay_item_id": "398104795532",
-      "vehicle_count_raw": 0
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398104795532"
     },
     {
       "id": "FCIYTGLD3XXOCK65EW6MFRFY",
@@ -451,21 +472,16 @@
       "checkout": true,
       "variation_id": "ZJD2N3YDLDAVWF6ZXXEPU6VX",
       "part_numbers": [
-        "Automann AB1DK23S-9250",
-        "AB1DK23S-9250",
-        "9250"
+        "AB1DK23S-9250"
       ],
       "interchange": [
         "Firestone: W01-358-9250"
       ],
-      "vehicles": [],
       "fitment_source": "airspring_inventory+airspring_xref_pull+ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
-          "Automann AB1DK23S-9250",
-          "AB1DK23S-9250",
-          "9250"
+          "AB1DK23S-9250"
         ],
         "interchange": [
           "Firestone: W01-358-9250"
@@ -477,8 +493,8 @@
         "confidence": "high",
         "ebay_item_id": "398104796478"
       },
-      "ebay_item_id": "398104796478",
-      "vehicle_count_raw": 0
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398104796478"
     },
     {
       "id": "YNXPTKKZK2DQPVY5SQOL7EP7",
@@ -490,9 +506,7 @@
       "checkout": true,
       "variation_id": "I4XMDJILSYGXVMWZFIISLPMY",
       "part_numbers": [
-        "Automann AB1DK23U-9645",
         "AB1DK23U-9645",
-        "9645",
         "ContiTech 9 10BP-22 P 739"
       ],
       "interchange": [
@@ -502,14 +516,11 @@
         "Hendrickson: S-23612",
         "Ridewell: RL96450"
       ],
-      "vehicles": [],
       "fitment_source": "airspring_inventory+airspring_xref_pull+ebay_listing+updates_table",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
-          "Automann AB1DK23U-9645",
           "AB1DK23U-9645",
-          "9645",
           "ContiTech 9 10BP-22 P 739"
         ],
         "interchange": [
@@ -526,8 +537,28 @@
         "confidence": "high",
         "ebay_item_id": "398037039620"
       },
-      "ebay_item_id": "398037039620",
-      "vehicle_count_raw": 0
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398037039620"
+    },
+    {
+      "id": "XD3NH6SD2YVX3AE4LAZYCFEM",
+      "name": "Automann AB1DK28F-9891 Rolling Lobe Air Spring Replaces W01-358-9891 NOS",
+      "price": 247.5,
+      "image": "",
+      "url": "https://square.link/u/iL4P7lDC",
+      "category": "air-spring",
+      "checkout": true,
+      "variation_id": "JHONPGOQPW6QQMPU7BELVVXV",
+      "ebay_item_id": "398217620405",
+      "part_numbers": [
+        "Automann AB1DK28F-9891",
+        "W01-358-9891"
+      ],
+      "interchange": [
+        "W01-358-9891"
+      ],
+      "fitment_source": "title",
+      "fitment_confidence": "low"
     },
     {
       "id": "QIJQVWWEI5FXTGFGA3C6HFM3",
@@ -539,7 +570,6 @@
       "checkout": true,
       "variation_id": "M2JKG7JW3FGZ5JN4YIDC7NF7",
       "part_numbers": [
-        "Automann AB1DK28Z-8793",
         "AB1DK28Z-8793"
       ],
       "interchange": [
@@ -548,12 +578,10 @@
         "AS 11 10.5D \u2013 21 S 148 A",
         "Firestone: W01-358-8793"
       ],
-      "vehicles": [],
       "fitment_source": "airspring_inventory+airspring_xref_pull+ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
-          "Automann AB1DK28Z-8793",
           "AB1DK28Z-8793"
         ],
         "interchange": [
@@ -569,8 +597,26 @@
         "confidence": "high",
         "ebay_item_id": "398057929368"
       },
-      "ebay_item_id": "398057929368",
-      "vehicle_count_raw": 0
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398057929368"
+    },
+    {
+      "id": "AEMLPQMKGGVAO6IAQXSCM2S5",
+      "name": "Automann ABSP2B12RA-6947 Air Spring Rolling Lobe W01-358-6947 2B9-255 NOS",
+      "price": 108.89,
+      "image": "",
+      "url": "https://square.link/u/95oRVhGO",
+      "category": "air-spring",
+      "checkout": true,
+      "variation_id": "ZCLYWC35D7GKYTLLJSWAQP2F",
+      "ebay_item_id": "398114355174",
+      "part_numbers": [
+        "Automann ABSP2B12RA-6947",
+        "W01-358-6947"
+      ],
+      "interchange": [],
+      "fitment_source": "title",
+      "fitment_confidence": "low"
     },
     {
       "id": "CQKA7SGC6VXWPEFAEQMCCWKK",
@@ -582,7 +628,6 @@
       "checkout": true,
       "variation_id": "LLPKC5NULHUDCNESDIBUEVJV",
       "part_numbers": [
-        "Automann ABSP2B22R-7409",
         "ABSP2B22R-7409"
       ],
       "interchange": [
@@ -595,12 +640,10 @@
         "Watson & Chalin: AS-0093",
         "IHC/International: 1685178C1"
       ],
-      "vehicles": [],
       "fitment_source": "airspring_inventory+airspring_xref_pull+ebay_listing+updates_table",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
-          "Automann ABSP2B22R-7409",
           "ABSP2B22R-7409"
         ],
         "interchange": [
@@ -620,8 +663,8 @@
         "confidence": "high",
         "ebay_item_id": "398028808009"
       },
-      "ebay_item_id": "398028808009",
-      "vehicle_count_raw": 0
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398028808009"
     },
     {
       "id": "WJBEKHBAYPDY23OGOOUNLSRL",
@@ -633,19 +676,15 @@
       "checkout": true,
       "variation_id": "STPWLPUTM3YKGX4B2OEAHFY3",
       "part_numbers": [
-        "Automann ABSP3B22R-7890",
         "ABSP3B22R-7890"
       ],
       "interchange": [
         "Firestone: W01-358-7890"
       ],
-      "vehicles": [],
       "fitment_source": "airspring_inventory+airspring_xref_pull+ebay_listing+updates_table",
       "fitment_confidence": "medium",
       "fitment": {
         "part_numbers": [
-          "Automann ABSP3B22R-7990",
-          "ABSP3B22R-7990",
           "ABSP3B22R-7890"
         ],
         "interchange": [
@@ -658,8 +697,25 @@
         "confidence": "medium",
         "ebay_item_id": "398028801246"
       },
-      "ebay_item_id": "398028801246",
-      "vehicle_count_raw": 0
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398028801246"
+    },
+    {
+      "id": "X3NUIYYQZFUW6KWQVTHBVSBT",
+      "name": "Automann ABSP3B22R-7990 Triple Convoluted Air Spring New",
+      "price": 165.0,
+      "image": "",
+      "url": "https://square.link/u/wQvuuNGD",
+      "category": "air-spring",
+      "checkout": true,
+      "variation_id": "6CLHXUAOGAE4XOW42NESN4TQ",
+      "ebay_item_id": "398233368743",
+      "part_numbers": [
+        "Automann ABSP3B22R-7990"
+      ],
+      "interchange": [],
+      "fitment_source": "title",
+      "fitment_confidence": "low"
     },
     {
       "id": "7NAXP4RPHKF5YNTTVR65YYFC",
@@ -671,7 +727,6 @@
       "checkout": true,
       "variation_id": "SRE7HNDOQIRFMYYMDK5GNGE2",
       "part_numbers": [
-        "Automann ABSP3B32RA-7843",
         "ABSP3B32RA-7843"
       ],
       "interchange": [
@@ -685,12 +740,10 @@
         "Ridewell: 1003587843C",
         "Loadguard: SC2135"
       ],
-      "vehicles": [],
       "fitment_source": "airspring_inventory+airspring_xref_pull+ebay_listing+updates_table",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
-          "Automann ABSP3B32RA-7843",
           "ABSP3B32RA-7843"
         ],
         "interchange": [
@@ -711,8 +764,8 @@
         "confidence": "high",
         "ebay_item_id": "398027125795"
       },
-      "ebay_item_id": "398027125795",
-      "vehicle_count_raw": 0
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398027125795"
     },
     {
       "id": "3647PYOGAQX7TBLOIUPAJ6BC",
@@ -723,7 +776,14 @@
       "category": "air-spring",
       "checkout": true,
       "variation_id": "Y2FPIT6SHTYR5QNMKFIJM44P",
-      "ebay_item_id": "398186059360"
+      "ebay_item_id": "398186059360",
+      "part_numbers": [
+        "Automann ABSP3B32RA-7847",
+        "W01-358-7847"
+      ],
+      "interchange": [],
+      "fitment_source": "title",
+      "fitment_confidence": "low"
     },
     {
       "id": "MJAQDKIB2WT55I26Q552PZXS",
@@ -734,7 +794,14 @@
       "category": "air-spring",
       "checkout": true,
       "variation_id": "7VDZG35VVPI73CIBRNKLAO43",
-      "ebay_item_id": "398186061994"
+      "ebay_item_id": "398186061994",
+      "part_numbers": [
+        "Automann ABSP3B32RA-7859",
+        "W01-358-7859"
+      ],
+      "interchange": [],
+      "fitment_source": "title",
+      "fitment_confidence": "low"
     },
     {
       "id": "2FVY6OUQDM3PKSGRDEIR62X4",
@@ -745,7 +812,14 @@
       "category": "air-spring",
       "checkout": true,
       "variation_id": "PG5VTKPA42MCDU7Y7B7P3XEO",
-      "ebay_item_id": "398186048137"
+      "ebay_item_id": "398186048137",
+      "part_numbers": [
+        "Continental ContiTech",
+        "W01-358-7798"
+      ],
+      "interchange": [],
+      "fitment_source": "title",
+      "fitment_confidence": "low"
     },
     {
       "id": "W2ILAVDVIPQAQS6GBTCIERZH",
@@ -757,7 +831,6 @@
       "checkout": true,
       "variation_id": "WLPHV4TARYK6AOUQZSUEY6FI",
       "part_numbers": [
-        "Continental AS FT 530-32 336 CT",
         "AS FT 530-32 336 CT",
         "3B14-354"
       ],
@@ -766,12 +839,10 @@
         "Firestone: W01-358-7808",
         "Goodyear: 3B14-354"
       ],
-      "vehicles": [],
       "fitment_source": "airspring_xref_pull+ebay_listing+updates_table",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
-          "Continental AS FT 530-32 336 CT",
           "AS FT 530-32 336 CT",
           "3B14-354"
         ],
@@ -787,8 +858,8 @@
         "confidence": "high",
         "ebay_item_id": "398035010183"
       },
-      "ebay_item_id": "398035010183",
-      "vehicle_count_raw": 0
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398035010183"
     },
     {
       "id": "HGCIRMAUON4CWAJQHKZ6ZULM",
@@ -800,7 +871,6 @@
       "checkout": true,
       "variation_id": "45HHRUVQ3AVCYZBQ6X2XSFPY",
       "part_numbers": [
-        "ContiTech ABSP2B12R-7788",
         "ABSP2B12R-7788",
         "65912"
       ],
@@ -808,12 +878,10 @@
         "W01-358-7788",
         "AS 9 10-14 P825 CT"
       ],
-      "vehicles": [],
       "fitment_source": "airspring_xref_pull+ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
-          "ContiTech ABSP2B12R-7788",
           "ABSP2B12R-7788",
           "65912"
         ],
@@ -828,8 +896,8 @@
         "confidence": "high",
         "ebay_item_id": "398036928762"
       },
-      "ebay_item_id": "398036928762",
-      "vehicle_count_raw": 0
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398036928762"
     },
     {
       "id": "7DI4HYOTVRKCB4NZKHT2ESPU",
@@ -841,7 +909,6 @@
       "checkout": true,
       "variation_id": "VHQPNTUA5RYEQHP2OAEGRTQY",
       "part_numbers": [
-        "Econoride 566.ER74652",
         "566.ER74652"
       ],
       "interchange": [
@@ -855,7 +922,6 @@
       "fitment_confidence": "medium",
       "fitment": {
         "part_numbers": [
-          "Econoride 566.ER74652",
           "566.ER74652"
         ],
         "interchange": [
@@ -881,8 +947,8 @@
         "confidence": "medium",
         "ebay_item_id": "398030456836"
       },
-      "ebay_item_id": "398030456836",
-      "vehicle_count_raw": 1
+      "vehicle_count_raw": 1,
+      "ebay_item_id": "398030456836"
     },
     {
       "id": "EDGQUKVAWVX7M537BWG4FDPA",
@@ -894,7 +960,6 @@
       "checkout": true,
       "variation_id": "VOUO7XEXETF37JTVBG5T46DZ",
       "part_numbers": [
-        "Goodyear 1R12-363",
         "1R12-363"
       ],
       "interchange": [
@@ -906,12 +971,10 @@
         "Ridewell: 1003589320C",
         "Triangle: 8360"
       ],
-      "vehicles": [],
       "fitment_source": "airspring_inventory+airspring_xref_pull+ebay_listing+updates_table",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
-          "Goodyear 1R12-363",
           "1R12-363"
         ],
         "interchange": [
@@ -930,8 +993,49 @@
         "confidence": "high",
         "ebay_item_id": "398051021929"
       },
-      "ebay_item_id": "398051021929",
-      "vehicle_count_raw": 0
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398051021929"
+    },
+    {
+      "id": "V5NGDEKHEKPFMAHEISR3EENN",
+      "name": "Goodyear 1R14-030 Rolling Lobe Air Spring NOS Firestone W01-358-9158",
+      "price": 164.69,
+      "image": "",
+      "url": "https://square.link/u/DjCSspu8",
+      "category": "air-spring",
+      "checkout": true,
+      "variation_id": "Q4HN6GGFXDSHSCOQRYRS6JDJ",
+      "ebay_item_id": "398114176521",
+      "part_numbers": [
+        "Goodyear 1R14-030",
+        "W01-358-9158"
+      ],
+      "interchange": [
+        "1R14-030"
+      ],
+      "fitment_source": "title",
+      "fitment_confidence": "low"
+    },
+    {
+      "id": "4BPOTYXZ43SLCQCEFZWNB45N",
+      "name": "Goodyear 1R14-174 Rolling Lobe Air Spring Replaces W01-358-5503 NOS",
+      "price": 175.5,
+      "image": "",
+      "url": "https://square.link/u/Yl9n9YPS",
+      "category": "air-spring",
+      "checkout": true,
+      "variation_id": "GFIZYMKCIBJDQIKLWELYKLBQ",
+      "ebay_item_id": "398217622258",
+      "part_numbers": [
+        "Goodyear 1R14-174",
+        "W01-358-5503"
+      ],
+      "interchange": [
+        "W01-358-5503",
+        "1R14-174"
+      ],
+      "fitment_source": "title",
+      "fitment_confidence": "low"
     },
     {
       "id": "Y6M4E3EQLZL24OW2FRCYAPTI",
@@ -943,7 +1047,6 @@
       "checkout": true,
       "variation_id": "CK3DF57ZHDO7IGKTZBHEFWIN",
       "part_numbers": [
-        "Goodyear 2B12-307",
         "2B12-307"
       ],
       "interchange": [
@@ -958,12 +1061,10 @@
         "Volvo: 352035001",
         "IHC/International: 554787C1"
       ],
-      "vehicles": [],
       "fitment_source": "airspring_inventory+airspring_xref_pull+ebay_listing+updates_table",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
-          "Goodyear 2B12-307",
           "2B12-307"
         ],
         "interchange": [
@@ -985,8 +1086,8 @@
         "confidence": "high",
         "ebay_item_id": "398028783790"
       },
-      "ebay_item_id": "398028783790",
-      "vehicle_count_raw": 0
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398028783790"
     },
     {
       "id": "LNLXWYITGZSNJI77RVDIUSN3",
@@ -998,7 +1099,6 @@
       "checkout": true,
       "variation_id": "OBVVEJAPVLWAAEWEDI5GMOJB",
       "part_numbers": [
-        "Goodyear 2B12-410",
         "2B12-410"
       ],
       "interchange": [
@@ -1012,12 +1112,10 @@
         "Ridewell: 1003587404C",
         "IHC/International: 554793C1"
       ],
-      "vehicles": [],
       "fitment_source": "airspring_inventory+airspring_xref_pull+ebay_listing+updates_table",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
-          "Goodyear 2B12-410",
           "2B12-410"
         ],
         "interchange": [
@@ -1038,8 +1136,46 @@
         "confidence": "high",
         "ebay_item_id": "398028776873"
       },
-      "ebay_item_id": "398028776873",
-      "vehicle_count_raw": 0
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398028776873"
+    },
+    {
+      "id": "22S6AUYVQYTT4I67AH6ZG2V7",
+      "name": "Goodyear 2B9-201 Double Convolute Super Cushion Air Spring NOS",
+      "price": 132.29,
+      "image": "",
+      "url": "https://square.link/u/CUPVbIpm",
+      "category": "air-spring",
+      "checkout": true,
+      "variation_id": "Z7OYSCQ6B6I53VW5J4UY5GMT",
+      "ebay_item_id": "398114178367",
+      "part_numbers": [
+        "Goodyear 2B9-201"
+      ],
+      "interchange": [],
+      "fitment_source": "title",
+      "fitment_confidence": "low"
+    },
+    {
+      "id": "7JU633SJEPA6QOMRAHJ3OB3T",
+      "name": "Goodyear 2B9-206 Air Spring Replaces Firestone W01-358-6905 ContiTech 64510 NOS",
+      "price": 152.99,
+      "image": "",
+      "url": "https://square.link/u/YOCzv95F",
+      "category": "air-spring",
+      "checkout": true,
+      "variation_id": "JENDMM2FD64YJNC7P3U4FFOR",
+      "ebay_item_id": "398155803037",
+      "part_numbers": [
+        "Goodyear 2B9-206",
+        "W01-358-6905"
+      ],
+      "interchange": [
+        "W01-358-6905",
+        "64510"
+      ],
+      "fitment_source": "title",
+      "fitment_confidence": "low"
     },
     {
       "id": "QONRZTGROGA27RO7HMZAFW4C",
@@ -1050,7 +1186,16 @@
       "category": "air-spring",
       "checkout": true,
       "variation_id": "FBBCMYOAJJEPJIL3JDDAUJW5",
-      "ebay_item_id": "398186065292"
+      "ebay_item_id": "398186065292",
+      "part_numbers": [
+        "Goodyear 2B9-229",
+        "W01-358-6897"
+      ],
+      "interchange": [
+        "W01-358-6897"
+      ],
+      "fitment_source": "title",
+      "fitment_confidence": "low"
     },
     {
       "id": "ANR3BBW6OOATXTZGVDUJPH52",
@@ -1062,7 +1207,6 @@
       "checkout": true,
       "variation_id": "TJPWPLEM5A6D47H6CIBUDVBP",
       "part_numbers": [
-        "Goodyear 3B12-323",
         "3B12-323"
       ],
       "interchange": [
@@ -1070,12 +1214,10 @@
         "Hendrickson: S-14795",
         "Hendrickson: S-2630"
       ],
-      "vehicles": [],
       "fitment_source": "airspring_inventory+airspring_xref_pull+ebay_listing+updates_table",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
-          "Goodyear 3B12-323",
           "3B12-323"
         ],
         "interchange": [
@@ -1090,8 +1232,8 @@
         "confidence": "high",
         "ebay_item_id": "398030473993"
       },
-      "ebay_item_id": "398030473993",
-      "vehicle_count_raw": 0
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398030473993"
     },
     {
       "id": "SXESABEQ2LVDHXMEKH2JEHVF",
@@ -1103,7 +1245,6 @@
       "checkout": true,
       "variation_id": "7Y4MY343KXKT5CYJ564ZCB3X",
       "part_numbers": [
-        "Goodyear 3B14-359",
         "3B14-359"
       ],
       "interchange": [
@@ -1126,12 +1267,10 @@
         "Reyco Granning: 1014",
         "IHC/International: 554803C1"
       ],
-      "vehicles": [],
       "fitment_source": "airspring_inventory+airspring_xref_pull+ebay_listing+updates_table",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
-          "Goodyear 3B14-359",
           "3B14-359"
         ],
         "interchange": [
@@ -1161,8 +1300,8 @@
         "confidence": "high",
         "ebay_item_id": "398027136709"
       },
-      "ebay_item_id": "398027136709",
-      "vehicle_count_raw": 0
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398027136709"
     },
     {
       "id": "GGLHED43Y7A46CBFE2DY5FPY",
@@ -1174,7 +1313,6 @@
       "checkout": true,
       "variation_id": "QPBENZJB2EMLBRE4SCGQUUKW",
       "part_numbers": [
-        "Mack 1S4-173-35",
         "1S4-173-35",
         "25165143"
       ],
@@ -1192,12 +1330,10 @@
         "Newstar: MK-25165143",
         "Newstar: S-29904"
       ],
-      "vehicles": [],
       "fitment_source": "airspring_xref_pull+ebay_listing+updates_table",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
-          "Mack 1S4-173-35",
           "1S4-173-35",
           "25165143"
         ],
@@ -1222,8 +1358,8 @@
         "confidence": "high",
         "ebay_item_id": "398057891975"
       },
-      "ebay_item_id": "398057891975",
-      "vehicle_count_raw": 0
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398057891975"
     },
     {
       "id": "S4BE3QQTDYS7EDGCVVYMROID",
@@ -1235,19 +1371,16 @@
       "checkout": true,
       "variation_id": "YVTCHGBRHE5UD7NAQMBD3FGD",
       "part_numbers": [
-        "Goodyear 1R12-502",
         "1R12-502",
         "9921"
       ],
       "interchange": [
         "Firestone: W01-358-9921"
       ],
-      "vehicles": [],
       "fitment_source": "airspring_inventory+airspring_xref_pull+ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
-          "Goodyear 1R12-502",
           "1R12-502",
           "9921"
         ],
@@ -1261,8 +1394,8 @@
         "confidence": "high",
         "ebay_item_id": "398104793577"
       },
-      "ebay_item_id": "398104793577",
-      "vehicle_count_raw": 0
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398104793577"
     },
     {
       "id": "M3Z2BJDH5EPFYABLLZPDUTWJ",
@@ -1274,7 +1407,6 @@
       "checkout": true,
       "variation_id": "YLBMDH4GQX5B5ZNC3SRTLAWJ",
       "part_numbers": [
-        "Goodyear 1R12-562",
         "1R12-562",
         "8197"
       ],
@@ -1283,12 +1415,10 @@
         "Mack 3889-90557230",
         "Firestone: W01-358-8197"
       ],
-      "vehicles": [],
       "fitment_source": "airspring_inventory+airspring_xref_pull+ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
-          "Goodyear 1R12-562",
           "1R12-562",
           "8197"
         ],
@@ -1304,8 +1434,8 @@
         "confidence": "high",
         "ebay_item_id": "398104794071"
       },
-      "ebay_item_id": "398104794071",
-      "vehicle_count_raw": 0
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398104794071"
     },
     {
       "id": "VT32GAYJXZR7RYOQVHVZHKS2",
@@ -1317,7 +1447,6 @@
       "checkout": true,
       "variation_id": "HSLIKU6K4FKMLKL2MBPRODOE",
       "part_numbers": [
-        "Goodyear 1R13-152",
         "1R13-152",
         "8748",
         "Neway 90557167",
@@ -1327,12 +1456,10 @@
         "Firestone: W01-358-8748",
         "W01-358-9241"
       ],
-      "vehicles": [],
       "fitment_source": "airspring_inventory+airspring_xref_pull+ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
-          "Goodyear 1R13-152",
           "1R13-152",
           "8748",
           "Neway 90557167",
@@ -1349,8 +1476,8 @@
         "confidence": "high",
         "ebay_item_id": "398104793065"
       },
-      "ebay_item_id": "398104793065",
-      "vehicle_count_raw": 0
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398104793065"
     },
     {
       "id": "SCZQEUWMBB4U5WK65UMMW5UP",
@@ -1362,7 +1489,6 @@
       "checkout": true,
       "variation_id": "JJXA7TCAHMM2QPCA3QAF4GM2",
       "part_numbers": [
-        "Carlson 17353",
         "17353"
       ],
       "interchange": [
@@ -1378,7 +1504,6 @@
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
-          "Carlson 17353",
           "17353"
         ],
         "interchange": [
@@ -1437,8 +1562,8 @@
         "confidence": "high",
         "ebay_item_id": "398072989873"
       },
-      "ebay_item_id": "398072989873",
-      "vehicle_count_raw": 62
+      "vehicle_count_raw": 62,
+      "ebay_item_id": "398072989873"
     },
     {
       "id": "P4ZTODX5NKR42HZA4IAPFTOK",
@@ -1450,7 +1575,6 @@
       "checkout": true,
       "variation_id": "HUCX2Z227PA4I6QVFXLDD7MQ",
       "part_numbers": [
-        "Carlson 13329",
         "13329"
       ],
       "interchange": [
@@ -1470,7 +1594,6 @@
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
-          "Carlson 13329",
           "13329"
         ],
         "interchange": [
@@ -1573,8 +1696,8 @@
         "confidence": "high",
         "ebay_item_id": "398085066604"
       },
-      "ebay_item_id": "398085066604",
-      "vehicle_count_raw": 217
+      "vehicle_count_raw": 217,
+      "ebay_item_id": "398085066604"
     },
     {
       "id": "KN7R2NFJUHA6U6BNO2WTN7EU",
@@ -1586,7 +1709,6 @@
       "checkout": true,
       "variation_id": "KB25SKFSCY3Y6IH43QPEJ35R",
       "part_numbers": [
-        "Carlson 14133",
         "14133"
       ],
       "interchange": [
@@ -1605,7 +1727,6 @@
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
-          "Carlson 14133",
           "14133"
         ],
         "interchange": [
@@ -1697,8 +1818,8 @@
         "confidence": "high",
         "ebay_item_id": "398081728362"
       },
-      "ebay_item_id": "398081728362",
-      "vehicle_count_raw": 179
+      "vehicle_count_raw": 179,
+      "ebay_item_id": "398081728362"
     },
     {
       "id": "DZNQEVC74YL2E6SWJ3FYFLFL",
@@ -1710,7 +1831,6 @@
       "checkout": true,
       "variation_id": "RLAMRA773CY2653RPIZGCW2K",
       "part_numbers": [
-        "Carlson 14142",
         "14142"
       ],
       "interchange": [
@@ -1723,7 +1843,6 @@
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
-          "Carlson 14142",
           "14142"
         ],
         "interchange": [
@@ -1749,8 +1868,8 @@
         "confidence": "high",
         "ebay_item_id": "398081729607"
       },
-      "ebay_item_id": "398081729607",
-      "vehicle_count_raw": 14
+      "vehicle_count_raw": 14,
+      "ebay_item_id": "398081729607"
     },
     {
       "id": "QMBDXKEAMPHIUN2J7KACJMOF",
@@ -1762,7 +1881,6 @@
       "checkout": true,
       "variation_id": "7WJVVSHTZM32ZLFUGNQXPD4A",
       "part_numbers": [
-        "Carlson 17390",
         "17390"
       ],
       "interchange": [
@@ -1783,7 +1901,6 @@
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
-          "Carlson 17390",
           "17390"
         ],
         "interchange": [
@@ -1897,8 +2014,8 @@
         "confidence": "high",
         "ebay_item_id": "398081923329"
       },
-      "ebay_item_id": "398081923329",
-      "vehicle_count_raw": 357
+      "vehicle_count_raw": 357,
+      "ebay_item_id": "398081923329"
     },
     {
       "id": "C2V65AJ6VSMMSCIJ5JW6UFLX",
@@ -1910,7 +2027,6 @@
       "checkout": true,
       "variation_id": "TUR47MXBGBGWSOVEQ6TFKZNO",
       "part_numbers": [
-        "Carlson 17393",
         "17393"
       ],
       "interchange": [
@@ -1934,7 +2050,6 @@
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
-          "Carlson 17393",
           "17393"
         ],
         "interchange": [
@@ -2081,8 +2196,8 @@
         "confidence": "high",
         "ebay_item_id": "398085067068"
       },
-      "ebay_item_id": "398085067068",
-      "vehicle_count_raw": 225
+      "vehicle_count_raw": 225,
+      "ebay_item_id": "398085067068"
     },
     {
       "id": "NXP65X4BVMZJDKW5BPUS7V55",
@@ -2094,7 +2209,6 @@
       "checkout": true,
       "variation_id": "7OOBA3JIUGR6MOMB6RNXJZSU",
       "part_numbers": [
-        "Carlson 17401",
         "17401"
       ],
       "interchange": [
@@ -2113,7 +2227,6 @@
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
-          "Carlson 17401",
           "17401"
         ],
         "interchange": [
@@ -2205,8 +2318,8 @@
         "confidence": "high",
         "ebay_item_id": "398085067140"
       },
-      "ebay_item_id": "398085067140",
-      "vehicle_count_raw": 345
+      "vehicle_count_raw": 345,
+      "ebay_item_id": "398085067140"
     },
     {
       "id": "7ZJVONEVIV3FVT3FAWETNWQW",
@@ -2218,7 +2331,6 @@
       "checkout": true,
       "variation_id": "FXAKRXBO5CUBMBAVTKVUPUVU",
       "part_numbers": [
-        "Carlson 17409",
         "17409"
       ],
       "interchange": [
@@ -2238,7 +2350,6 @@
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
-          "Carlson 17409",
           "17409"
         ],
         "interchange": [
@@ -2341,8 +2452,8 @@
         "confidence": "high",
         "ebay_item_id": "398085067223"
       },
-      "ebay_item_id": "398085067223",
-      "vehicle_count_raw": 167
+      "vehicle_count_raw": 167,
+      "ebay_item_id": "398085067223"
     },
     {
       "id": "C2LKTK5OKSGH3QPILFO4AWBE",
@@ -2354,7 +2465,6 @@
       "checkout": true,
       "variation_id": "BZX4UFFDZGSXWDMU5ZEZMVOX",
       "part_numbers": [
-        "Carlson H2587",
         "H2587"
       ],
       "interchange": [
@@ -2416,7 +2526,6 @@
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
-          "Carlson H2587",
           "H2587"
         ],
         "interchange": [
@@ -2981,8 +3090,8 @@
         "confidence": "high",
         "ebay_item_id": "398081924673"
       },
-      "ebay_item_id": "398081924673",
-      "vehicle_count_raw": 3000
+      "vehicle_count_raw": 3000,
+      "ebay_item_id": "398081924673"
     },
     {
       "id": "7FPKAWIESMAQJKSS2EAJKFD4",
@@ -2994,7 +3103,6 @@
       "checkout": true,
       "variation_id": "4HYDNGHPJLRY5CZFXKLMORPI",
       "part_numbers": [
-        "Carlson H2596",
         "H2596"
       ],
       "interchange": [
@@ -3024,7 +3132,6 @@
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
-          "Carlson H2596",
           "H2596"
         ],
         "interchange": [
@@ -3237,8 +3344,8 @@
         "confidence": "high",
         "ebay_item_id": "398081926955"
       },
-      "ebay_item_id": "398081926955",
-      "vehicle_count_raw": 1469
+      "vehicle_count_raw": 1469,
+      "ebay_item_id": "398081926955"
     },
     {
       "id": "2FZFMLMESYCNR7TBIGE47XGL",
@@ -3250,7 +3357,6 @@
       "checkout": true,
       "variation_id": "CMCXWVILN2XY3MZE5P5VFXPK",
       "part_numbers": [
-        "Carlson H2623",
         "H2623"
       ],
       "interchange": [
@@ -3295,7 +3401,6 @@
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
-          "Carlson H2623",
           "H2623"
         ],
         "interchange": [
@@ -3673,8 +3778,8 @@
         "confidence": "high",
         "ebay_item_id": "398081736319"
       },
-      "ebay_item_id": "398081736319",
-      "vehicle_count_raw": 1671
+      "vehicle_count_raw": 1671,
+      "ebay_item_id": "398081736319"
     },
     {
       "id": "I36VKJZGX6Z57IBLNXMUN2NU",
@@ -3686,7 +3791,6 @@
       "checkout": true,
       "variation_id": "ZPJUUWRSASN46JHPG4BLBS3V",
       "part_numbers": [
-        "Carlson H2640",
         "H2640"
       ],
       "interchange": [
@@ -3710,7 +3814,6 @@
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
-          "Carlson H2640",
           "H2640"
         ],
         "interchange": [
@@ -3857,8 +3960,8 @@
         "confidence": "high",
         "ebay_item_id": "398081854295"
       },
-      "ebay_item_id": "398081854295",
-      "vehicle_count_raw": 1733
+      "vehicle_count_raw": 1733,
+      "ebay_item_id": "398081854295"
     },
     {
       "id": "ZPXYRDQRMNYYU7OJRVP7QLM2",
@@ -3870,7 +3973,6 @@
       "checkout": true,
       "variation_id": "USZ42OX6O5LISVKWHBRNQYAI",
       "part_numbers": [
-        "Carlson H2641",
         "H2641"
       ],
       "interchange": [
@@ -3894,7 +3996,6 @@
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
-          "Carlson H2641",
           "H2641"
         ],
         "interchange": [
@@ -4041,8 +4142,8 @@
         "confidence": "high",
         "ebay_item_id": "398081854393"
       },
-      "ebay_item_id": "398081854393",
-      "vehicle_count_raw": 1733
+      "vehicle_count_raw": 1733,
+      "ebay_item_id": "398081854393"
     },
     {
       "id": "772E3FGP4EQF743Q4BVQX4PH",
@@ -4054,7 +4155,6 @@
       "checkout": true,
       "variation_id": "PRST4D3PDUKVIYOM3LZABXCN",
       "part_numbers": [
-        "Carlson H2644",
         "H2644"
       ],
       "interchange": [
@@ -4094,7 +4194,6 @@
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
-          "Carlson H2644",
           "H2644"
         ],
         "interchange": [
@@ -4417,8 +4516,8 @@
         "confidence": "high",
         "ebay_item_id": "398085067294"
       },
-      "ebay_item_id": "398085067294",
-      "vehicle_count_raw": 486
+      "vehicle_count_raw": 486,
+      "ebay_item_id": "398085067294"
     },
     {
       "id": "VFED2WSLJBERZFVVSCX2ON7X",
@@ -4430,7 +4529,6 @@
       "checkout": true,
       "variation_id": "P52H32A3KBYJLMC5AWCOR6RM",
       "part_numbers": [
-        "Carlson H2660",
         "H2660"
       ],
       "interchange": [
@@ -4448,7 +4546,6 @@
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
-          "Carlson H2660",
           "H2660"
         ],
         "interchange": [
@@ -4529,8 +4626,8 @@
         "confidence": "high",
         "ebay_item_id": "398081931640"
       },
-      "ebay_item_id": "398081931640",
-      "vehicle_count_raw": 585
+      "vehicle_count_raw": 585,
+      "ebay_item_id": "398081931640"
     },
     {
       "id": "7RAUHXIOW4TEBC5SRBCGTOA7",
@@ -4542,7 +4639,6 @@
       "checkout": true,
       "variation_id": "N55YGRG5H7ZQ67HMP6BZR7BN",
       "part_numbers": [
-        "Carlson H2665",
         "H2665"
       ],
       "interchange": [
@@ -4561,7 +4657,6 @@
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
-          "Carlson H2665",
           "H2665"
         ],
         "interchange": [
@@ -4653,8 +4748,8 @@
         "confidence": "high",
         "ebay_item_id": "398081933575"
       },
-      "ebay_item_id": "398081933575",
-      "vehicle_count_raw": 519
+      "vehicle_count_raw": 519,
+      "ebay_item_id": "398081933575"
     },
     {
       "id": "JUTLODEIKQIBLVUUCGNHO3SS",
@@ -4666,7 +4761,6 @@
       "checkout": true,
       "variation_id": "UU4QDXSENXZFLY7CST53LPHX",
       "part_numbers": [
-        "Carlson H2696",
         "H2696"
       ],
       "interchange": [
@@ -4688,7 +4782,6 @@
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
-          "Carlson H2696",
           "H2696"
         ],
         "interchange": [
@@ -4813,8 +4906,8 @@
         "confidence": "high",
         "ebay_item_id": "398081937101"
       },
-      "ebay_item_id": "398081937101",
-      "vehicle_count_raw": 636
+      "vehicle_count_raw": 636,
+      "ebay_item_id": "398081937101"
     },
     {
       "id": "WOJXBQC7VPSEJP7GW6PVOUKM",
@@ -4826,7 +4919,6 @@
       "checkout": true,
       "variation_id": "W5LGSWPTCLDVZLXIVA2WLUD3",
       "part_numbers": [
-        "Carlson H5608Q",
         "H5608Q"
       ],
       "interchange": [
@@ -4847,7 +4939,6 @@
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
-          "Carlson H5608Q",
           "H5608Q"
         ],
         "interchange": [
@@ -4961,8 +5052,8 @@
         "confidence": "high",
         "ebay_item_id": "398081742131"
       },
-      "ebay_item_id": "398081742131",
-      "vehicle_count_raw": 77
+      "vehicle_count_raw": 77,
+      "ebay_item_id": "398081742131"
     },
     {
       "id": "SQRSJTMYJ5NBRMRQMFJWJJDH",
@@ -4974,7 +5065,6 @@
       "checkout": true,
       "variation_id": "WS4WK5RQV5B3UTNMQM4VABIC",
       "part_numbers": [
-        "Carlson H5614Q",
         "H5614Q"
       ],
       "interchange": [
@@ -5001,7 +5091,6 @@
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
-          "Carlson H5614Q",
           "H5614Q"
         ],
         "interchange": [
@@ -5181,8 +5270,8 @@
         "confidence": "high",
         "ebay_item_id": "398081938006"
       },
-      "ebay_item_id": "398081938006",
-      "vehicle_count_raw": 282
+      "vehicle_count_raw": 282,
+      "ebay_item_id": "398081938006"
     },
     {
       "id": "7FBVPLQXCVT425MXBO7FPT4X",
@@ -5194,7 +5283,6 @@
       "checkout": true,
       "variation_id": "6THQG646EDWI5ZOSVWD4M5GD",
       "part_numbers": [
-        "Carlson H5626Q",
         "H5626Q"
       ],
       "interchange": [
@@ -5219,7 +5307,6 @@
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
-          "Carlson H5626Q",
           "H5626Q"
         ],
         "interchange": [
@@ -5377,8 +5464,8 @@
         "confidence": "high",
         "ebay_item_id": "398081742288"
       },
-      "ebay_item_id": "398081742288",
-      "vehicle_count_raw": 258
+      "vehicle_count_raw": 258,
+      "ebay_item_id": "398081742288"
     },
     {
       "id": "SANPBEMDHQIV2SJMCCLHBP2J",
@@ -5390,7 +5477,6 @@
       "checkout": true,
       "variation_id": "FOCNL25EOCP4UT2BJXZXSFPM",
       "part_numbers": [
-        "Carlson H5631Q",
         "H5631Q"
       ],
       "interchange": [
@@ -5407,7 +5493,6 @@
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
-          "Carlson H5631Q",
           "H5631Q"
         ],
         "interchange": [
@@ -5477,8 +5562,8 @@
         "confidence": "high",
         "ebay_item_id": "398081742565"
       },
-      "ebay_item_id": "398081742565",
-      "vehicle_count_raw": 182
+      "vehicle_count_raw": 182,
+      "ebay_item_id": "398081742565"
     },
     {
       "id": "2FHOOMAG7ITLKRVTEZEFXQXB",
@@ -5490,7 +5575,6 @@
       "checkout": true,
       "variation_id": "HLU5I2LSJK3IJHJY4IDXLU7P",
       "part_numbers": [
-        "Carlson H5636",
         "H5636"
       ],
       "interchange": [
@@ -5508,7 +5592,6 @@
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
-          "Carlson H5636",
           "H5636"
         ],
         "interchange": [
@@ -5589,8 +5672,8 @@
         "confidence": "high",
         "ebay_item_id": "398081939912"
       },
-      "ebay_item_id": "398081939912",
-      "vehicle_count_raw": 355
+      "vehicle_count_raw": 355,
+      "ebay_item_id": "398081939912"
     },
     {
       "id": "S3UB27RNQJ7N5FFV6XGZYAIJ",
@@ -5602,7 +5685,6 @@
       "checkout": true,
       "variation_id": "KOZE35DSF76QCNXHT5AROTC6",
       "part_numbers": [
-        "Carlson H5637Q",
         "H5637Q"
       ],
       "interchange": [
@@ -5620,7 +5702,6 @@
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
-          "Carlson H5637Q",
           "H5637Q"
         ],
         "interchange": [
@@ -5701,8 +5782,8 @@
         "confidence": "high",
         "ebay_item_id": "398081940163"
       },
-      "ebay_item_id": "398081940163",
-      "vehicle_count_raw": 324
+      "vehicle_count_raw": 324,
+      "ebay_item_id": "398081940163"
     },
     {
       "id": "DOSHB75JVLQCQ3DTEUXI7RFG",
@@ -5714,7 +5795,6 @@
       "checkout": true,
       "variation_id": "N6UANWXR33IEQTFBKB5QLEJM",
       "part_numbers": [
-        "Carlson H5663",
         "H5663"
       ],
       "interchange": [
@@ -5731,7 +5811,6 @@
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
-          "Carlson H5663",
           "H5663"
         ],
         "interchange": [
@@ -5801,8 +5880,8 @@
         "confidence": "high",
         "ebay_item_id": "398079910238"
       },
-      "ebay_item_id": "398079910238",
-      "vehicle_count_raw": 190
+      "vehicle_count_raw": 190,
+      "ebay_item_id": "398079910238"
     },
     {
       "id": "3WGRNSNM7YRYRFTIZUPFRDWL",
@@ -5814,7 +5893,6 @@
       "checkout": true,
       "variation_id": "U3PM6LXHLJNXYV6CG6WPRLUJ",
       "part_numbers": [
-        "Carlson H5667Q",
         "H5667Q"
       ],
       "interchange": [
@@ -5836,7 +5914,6 @@
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
-          "Carlson H5667Q",
           "H5667Q"
         ],
         "interchange": [
@@ -5961,8 +6038,8 @@
         "confidence": "high",
         "ebay_item_id": "398081940540"
       },
-      "ebay_item_id": "398081940540",
-      "vehicle_count_raw": 104
+      "vehicle_count_raw": 104,
+      "ebay_item_id": "398081940540"
     },
     {
       "id": "YUE4BUX4MHLAIFD7SJQHN3DT",
@@ -5974,7 +6051,6 @@
       "checkout": true,
       "variation_id": "PWW75S2MOI7SBKRERY7ABEYK",
       "part_numbers": [
-        "Carlson H5675",
         "H5675"
       ],
       "interchange": [
@@ -5988,7 +6064,6 @@
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
-          "Carlson H5675",
           "H5675"
         ],
         "interchange": [
@@ -6025,8 +6100,8 @@
         "confidence": "high",
         "ebay_item_id": "398070091739"
       },
-      "ebay_item_id": "398070091739",
-      "vehicle_count_raw": 130
+      "vehicle_count_raw": 130,
+      "ebay_item_id": "398070091739"
     },
     {
       "id": "56GXRPYVBJM2GXYYVTXP4ORY",
@@ -6038,7 +6113,6 @@
       "checkout": true,
       "variation_id": "TS3AGGNYCDOVICVW6VI7JTGJ",
       "part_numbers": [
-        "Carlson H5750Q",
         "H5750Q"
       ],
       "interchange": [
@@ -6055,7 +6129,6 @@
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
-          "Carlson H5750Q",
           "H5750Q"
         ],
         "interchange": [
@@ -6125,8 +6198,8 @@
         "confidence": "high",
         "ebay_item_id": "398081742963"
       },
-      "ebay_item_id": "398081742963",
-      "vehicle_count_raw": 2203
+      "vehicle_count_raw": 2203,
+      "ebay_item_id": "398081742963"
     },
     {
       "id": "OBFDECUAZPN4KJPULBJSF77E",
@@ -6140,8 +6213,6 @@
       "part_numbers": [
         "Carlson H5758Q"
       ],
-      "interchange": [],
-      "vehicles": [],
       "fitment_source": "title",
       "fitment_confidence": "low",
       "fitment": {
@@ -6156,8 +6227,8 @@
         "confidence": "low",
         "ebay_item_id": "398081941437"
       },
-      "ebay_item_id": "398081941437",
-      "vehicle_count_raw": 0
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398081941437"
     },
     {
       "id": "MVORQ6SQ7RP5JWOPX7ULXKUU",
@@ -6174,7 +6245,6 @@
       "interchange": [
         "117.61042"
       ],
-      "vehicles": [],
       "fitment_source": "carlson_specs",
       "fitment_confidence": "medium",
       "fitment": {
@@ -6191,8 +6261,8 @@
         "confidence": "medium",
         "ebay_item_id": "398081854616"
       },
-      "ebay_item_id": "398081854616",
-      "vehicle_count_raw": 0
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398081854616"
     },
     {
       "id": "E4FVHDJYHINOZ4RGHAIINOYW",
@@ -6240,8 +6310,8 @@
         "confidence": "medium",
         "ebay_item_id": "398080042479"
       },
-      "ebay_item_id": "398080042479",
-      "vehicle_count_raw": 1
+      "vehicle_count_raw": 1,
+      "ebay_item_id": "398080042479"
     },
     {
       "id": "7EXQLYTFI6F2NWZ2535TO6KR",
@@ -6258,7 +6328,6 @@
       "interchange": [
         "117.65013"
       ],
-      "vehicles": [],
       "fitment_source": "carlson_specs",
       "fitment_confidence": "medium",
       "fitment": {
@@ -6275,8 +6344,8 @@
         "confidence": "medium",
         "ebay_item_id": "398080322662"
       },
-      "ebay_item_id": "398080322662",
-      "vehicle_count_raw": 0
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398080322662"
     },
     {
       "id": "WWT36JXFOVHFIPPT7OXWBUTF",
@@ -6293,7 +6362,6 @@
       "interchange": [
         "118.61022"
       ],
-      "vehicles": [],
       "fitment_source": "carlson_specs",
       "fitment_confidence": "medium",
       "fitment": {
@@ -6310,8 +6378,8 @@
         "confidence": "medium",
         "ebay_item_id": "398081941738"
       },
-      "ebay_item_id": "398081941738",
-      "vehicle_count_raw": 0
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398081941738"
     },
     {
       "id": "PDNCGK5GZLLDUON7DLWH5XJ6",
@@ -6328,7 +6396,6 @@
       "interchange": [
         "118.63020"
       ],
-      "vehicles": [],
       "fitment_source": "carlson_specs",
       "fitment_confidence": "medium",
       "fitment": {
@@ -6345,8 +6412,8 @@
         "confidence": "medium",
         "ebay_item_id": "398081743945"
       },
-      "ebay_item_id": "398081743945",
-      "vehicle_count_raw": 0
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398081743945"
     },
     {
       "id": "QQ4UASMFRAGBOQ3EF5OZGK3D",
@@ -6363,7 +6430,6 @@
       "interchange": [
         "118.65007"
       ],
-      "vehicles": [],
       "fitment_source": "carlson_specs",
       "fitment_confidence": "medium",
       "fitment": {
@@ -6380,8 +6446,8 @@
         "confidence": "medium",
         "ebay_item_id": "398081744136"
       },
-      "ebay_item_id": "398081744136",
-      "vehicle_count_raw": 0
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398081744136"
     },
     {
       "id": "VVJ5DBQ6U4A7PU2A3P5SCSHS",
@@ -6398,7 +6464,6 @@
       "interchange": [
         "118.66003"
       ],
-      "vehicles": [],
       "fitment_source": "carlson_specs",
       "fitment_confidence": "medium",
       "fitment": {
@@ -6415,8 +6480,8 @@
         "confidence": "medium",
         "ebay_item_id": "398081745085"
       },
-      "ebay_item_id": "398081745085",
-      "vehicle_count_raw": 0
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398081745085"
     },
     {
       "id": "7QVRIXU7MJO67CDOOVA5ODR4",
@@ -6433,7 +6498,6 @@
       "interchange": [
         "118.58003"
       ],
-      "vehicles": [],
       "fitment_source": "carlson_specs",
       "fitment_confidence": "medium",
       "fitment": {
@@ -6450,8 +6514,8 @@
         "confidence": "medium",
         "ebay_item_id": "398081745345"
       },
-      "ebay_item_id": "398081745345",
-      "vehicle_count_raw": 0
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398081745345"
     },
     {
       "id": "GCYBELIKT4IDG4FXQEUQZM2O",
@@ -6468,7 +6532,6 @@
       "interchange": [
         "118.66008"
       ],
-      "vehicles": [],
       "fitment_source": "carlson_specs",
       "fitment_confidence": "medium",
       "fitment": {
@@ -6485,8 +6548,8 @@
         "confidence": "medium",
         "ebay_item_id": "398081745474"
       },
-      "ebay_item_id": "398081745474",
-      "vehicle_count_raw": 0
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398081745474"
     },
     {
       "id": "OIEKBY47T4B7SOUC5WDL34PA",
@@ -6503,7 +6566,6 @@
       "interchange": [
         "117.66018"
       ],
-      "vehicles": [],
       "fitment_source": "carlson_specs",
       "fitment_confidence": "medium",
       "fitment": {
@@ -6520,8 +6582,8 @@
         "confidence": "medium",
         "ebay_item_id": "398070178226"
       },
-      "ebay_item_id": "398070178226",
-      "vehicle_count_raw": 0
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398070178226"
     },
     {
       "id": "DPRSU7RX4SKAHPRFDDTPFKZR",
@@ -6532,8 +6594,6 @@
       "category": "brake",
       "checkout": true,
       "variation_id": "KQBASQQYHKYTFVK6FMU7YF4A",
-      "part_numbers": [],
-      "interchange": [],
       "vehicles": [
         "Mercedes-Benz S-Class / SL-Class"
       ],
@@ -6561,8 +6621,8 @@
         "confidence": "low",
         "ebay_item_id": "398081262922"
       },
-      "ebay_item_id": "398081262922",
-      "vehicle_count_raw": 1
+      "vehicle_count_raw": 1,
+      "ebay_item_id": "398081262922"
     }
   ]
 }

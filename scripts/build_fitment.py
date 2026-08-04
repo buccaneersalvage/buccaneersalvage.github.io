@@ -52,6 +52,51 @@ def uniq(seq):
     return out
 
 
+_BRAND_PREFIX = re.compile(
+    r"^(?:OEM\s+)?(?:Carlson|Automann|Goodyear|Continental|ContiTech|Mack|"
+    r"Holset|Wagner|Firestone|Meritor|Econoride|Mercedes(?:-Benz)?)\s+",
+    re.I,
+)
+
+
+def dedupe_redundant_pns(parts: list[str]) -> list[str]:
+    """Drop Brand+PN when bare PN is already listed (and short suffix-only dups).
+
+    Example: ['Carlson 13329', '13329'] → ['13329']
+    Example: ['AB1DK23K-9194', '9194'] → ['AB1DK23K-9194']
+    """
+    cleaned = uniq(parts)
+    bare_set = set()
+    for p in cleaned:
+        bare = _BRAND_PREFIX.sub("", p).strip()
+        if bare:
+            bare_set.add(bare.lower())
+
+    out: list[str] = []
+    for p in cleaned:
+        bare = _BRAND_PREFIX.sub("", p).strip()
+        is_branded = bare.lower() != p.lower()
+        # Prefer bare token when both "Brand 13329" and "13329" exist
+        if is_branded and bare.lower() in bare_set and any(
+            x.lower() == bare.lower() for x in cleaned
+        ):
+            continue
+        out.append(p)
+
+    # Drop pure short numeric suffix already covered by a longer PN
+    final: list[str] = []
+    for p in out:
+        pl = p.lower().strip()
+        if re.fullmatch(r"\d{3,6}[a-z]?", pl):
+            if any(
+                q.lower() != pl and re.search(rf"(?:^|[\s\-/]){re.escape(pl)}$", q.lower())
+                for q in out
+            ):
+                continue
+        final.append(p)
+    return final
+
+
 def extract_carlson_pn(title: str) -> str | None:
     m = re.search(r"\bCarlson\s+(H?\d{4,5}[A-Z]?Q?)\b", title or "", re.I)
     if m:
@@ -275,12 +320,8 @@ def fetch_ebay_fitment(token: str, item_id: str) -> dict | None:
     ):
         for v in specs.get(key, []):
             parts.append(v)
-    brand = (specs.get("Brand") or [""])[0]
-    if brand and parts:
-        # brand + primary
-        primary = parts[0]
-        if brand.lower() not in primary.lower():
-            parts.insert(0, f"{brand} {primary}")
+    # Keep bare MPN only — "Brand 13329" + "13329" was showing as dupe on hub PDP.
+    # Brand is already in the product title.
 
     interchange = []
     for key in ("Interchange Part Number", "Other Part Number", "OE/OEM Part Number"):
@@ -403,7 +444,7 @@ def parse_title_seed(name: str) -> dict:
     else:
         c = extract_carlson_pn(title)
         if c:
-            parts.append(f"Carlson {c}" if not title.upper().startswith(c) else c)
+            parts.append(c)
 
     for t in re.findall(r"\bW\d{2}-\d{3}-\d{4}\b", title):
         if t not in parts:
@@ -473,7 +514,7 @@ def enrich_item(
         if not ebay_id and info.get("ebay_id"):
             ebay_id = info["ebay_id"]
         if cpn and not any(cpn.lower() in p.lower() for p in parts):
-            parts.insert(0, f"Carlson {cpn}")
+            parts.insert(0, cpn)
 
     # disk: air spring inventory
     for token in re.findall(
@@ -551,8 +592,9 @@ def enrich_item(
                 }
             )
 
-    parts = uniq(parts)
+    parts = dedupe_redundant_pns(parts)
     xref = uniq([x for x in xref if not any(x == p or x in p for p in parts)])
+    xref = dedupe_redundant_pns(xref)
 
     item["part_numbers"] = parts
     item["interchange"] = xref
