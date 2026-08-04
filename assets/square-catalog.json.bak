@@ -1,7 +1,7 @@
 {
-  "updated": "2026-08-04T05:09:46Z",
+  "updated": "2026-08-04T05:20:13Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 81,
+  "count": 86,
   "items": [
     {
       "id": "S4IZBA4AG65C6HI2ZDIRMSJR",
@@ -13,16 +13,16 @@
       "checkout": true,
       "variation_id": "GT3PTOYSYUZHAQ25KQFDGPXN",
       "part_numbers": [
-        "X63 160583P2"
+        "Holset X63"
       ],
       "vehicles": [
         "Mack Truck"
       ],
       "fitment_source": "ebay_listing+title",
-      "fitment_confidence": "medium",
+      "fitment_confidence": "low",
       "fitment": {
         "part_numbers": [
-          "X63 160583P2"
+          "Holset X63"
         ],
         "interchange": [],
         "vehicles": [
@@ -40,12 +40,13 @@
           "Mack Truck"
         ],
         "raw_compat_rows": 1,
-        "source": "ebay_listing+title",
-        "confidence": "medium",
+        "source": "title",
+        "confidence": "low",
         "ebay_item_id": "398246339681"
       },
       "vehicle_count_raw": 1,
-      "ebay_item_id": "398246339681"
+      "ebay_item_id": "398246339681",
+      "interchange": []
     },
     {
       "id": "AGEWYOLANWBWUWDDESOE3EIG",
@@ -60,21 +61,21 @@
         "8VBB-1100-6472C1"
       ],
       "fitment_source": "ebay_listing",
-      "fitment_confidence": "high",
+      "fitment_confidence": "low",
       "fitment": {
-        "part_numbers": [
-          "8VBB-1100-6472C1"
-        ],
+        "part_numbers": [],
         "interchange": [],
         "vehicles": [],
         "vehicle_labels": [],
         "raw_compat_rows": 0,
-        "source": "ebay_listing",
-        "confidence": "high",
+        "source": "title",
+        "confidence": "low",
         "ebay_item_id": "398246323881"
       },
       "vehicle_count_raw": 0,
-      "ebay_item_id": "398246323881"
+      "ebay_item_id": "398246323881",
+      "interchange": [],
+      "vehicles": []
     },
     {
       "id": "5LLWTR3B27YDLV6ZR6XMBPWL",
@@ -101,53 +102,61 @@
         "IHC/International: 1R14-242",
         "1R14-242"
       ],
-      "fitment_source": "airspring_inventory+airspring_xref_pull+ebay_listing+updates_table",
-      "fitment_confidence": "high",
+      "fitment_source": "airspring_inventory+title",
+      "fitment_confidence": "medium",
       "fitment": {
         "part_numbers": [
-          "566.CT64421",
-          "1R14-171"
+          "566.CT64421"
         ],
         "interchange": [
-          "11 10.5-16 P 523",
-          "Firestone: W01-358-8091",
-          "Goodyear: 1R14-171",
-          "ContiTech: 64421",
-          "ContiTech: 1110.5A-16P523",
-          "Hendrickson: S-20901",
-          "Hendrickson: S-21784",
-          "Ridewell: 1000156",
-          "IHC/International: 1R14-242",
-          "1R14-242"
+          "W01-358-8091",
+          "1R14-171"
         ],
         "vehicles": [],
         "vehicle_labels": [],
         "raw_compat_rows": 0,
-        "source": "airspring_inventory+airspring_xref_pull+ebay_listing+updates_table",
-        "confidence": "high",
+        "source": "airspring_inventory+title",
+        "confidence": "medium",
         "ebay_item_id": "398037019572"
       },
       "vehicle_count_raw": 0,
-      "ebay_item_id": "398037019572"
+      "ebay_item_id": "398037019572",
+      "vehicles": []
     },
     {
       "id": "R6VO2MARXN7GRGTMXVGABLHT",
       "name": "Automann AB1D28G-9149 Rolling Lobe Air Spring Replaces W01-358-9149 NOS",
       "price": 229.5,
-      "image": "",
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/6f4da807e68c19df6bf5b7b1b7c1671622209545/original.jpeg",
       "url": "https://square.link/u/ELmKCwaN",
       "category": "air-spring",
       "checkout": true,
       "variation_id": "PNAULB5ZGCDXZULXNNTE2XNA",
-      "ebay_item_id": "398217621260",
       "part_numbers": [
-        "AB1D28G-9149"
+        "Automann AB1D28G-9149",
+        "W01-358-9149"
       ],
       "interchange": [
         "W01-358-9149"
       ],
       "fitment_source": "title",
-      "fitment_confidence": "low"
+      "fitment_confidence": "low",
+      "ebay_item_id": "398217621260",
+      "vehicles": [],
+      "vehicle_count_raw": 0,
+      "fitment": {
+        "part_numbers": [
+          "Automann AB1D28G-9149",
+          "W01-358-9149"
+        ],
+        "interchange": [],
+        "vehicles": [],
+        "vehicle_labels": [],
+        "raw_compat_rows": 0,
+        "source": "title",
+        "confidence": "low",
+        "ebay_item_id": "398217621260"
+      }
     },
     {
       "id": "AZNN7T4GEP4SBDATK42PTAUJ",
@@ -165,25 +174,25 @@
         "Firestone: W01-358-5436",
         "World American / AS: AS-76038"
       ],
-      "fitment_source": "airspring_inventory+airspring_xref_pull+ebay_listing+updates_table",
-      "fitment_confidence": "high",
+      "fitment_source": "airspring_inventory+title",
+      "fitment_confidence": "medium",
       "fitment": {
         "part_numbers": [
           "AB1DK10B-5436"
         ],
         "interchange": [
-          "Firestone: W01-358-5436",
-          "World American / AS: AS-76038"
+          "W01-358-5436"
         ],
         "vehicles": [],
         "vehicle_labels": [],
         "raw_compat_rows": 0,
-        "source": "airspring_inventory+airspring_xref_pull+ebay_listing+updates_table",
-        "confidence": "high",
+        "source": "airspring_inventory+title",
+        "confidence": "medium",
         "ebay_item_id": "398035089377"
       },
       "vehicle_count_raw": 0,
-      "ebay_item_id": "398035089377"
+      "ebay_item_id": "398035089377",
+      "vehicles": []
     },
     {
       "id": "XFXQE4DMDFWZDO6TVOL6DEYD",
@@ -203,27 +212,25 @@
         "ContiTech: 64474",
         "ContiTech: 9 10-14 P 462"
       ],
-      "fitment_source": "airspring_inventory+airspring_xref_pull+ebay_listing+updates_table",
-      "fitment_confidence": "high",
+      "fitment_source": "airspring_inventory+title",
+      "fitment_confidence": "medium",
       "fitment": {
         "part_numbers": [
           "AB1DK231-8805"
         ],
         "interchange": [
-          "Firestone: W01-358-8805",
-          "Goodyear: 1R12-438",
-          "ContiTech: 64474",
-          "ContiTech: 9 10-14 P 462"
+          "W01-358-8805"
         ],
         "vehicles": [],
         "vehicle_labels": [],
         "raw_compat_rows": 0,
-        "source": "airspring_inventory+airspring_xref_pull+ebay_listing+updates_table",
-        "confidence": "high",
+        "source": "airspring_inventory+title",
+        "confidence": "medium",
         "ebay_item_id": "398035060823"
       },
       "vehicle_count_raw": 0,
-      "ebay_item_id": "398035060823"
+      "ebay_item_id": "398035060823",
+      "vehicles": []
     },
     {
       "id": "U7WKMHOVTIULP53SYVFR773L",
@@ -241,25 +248,25 @@
         "Firestone: W01-358-9336",
         "Goodyear: 1R12-648"
       ],
-      "fitment_source": "airspring_inventory+airspring_xref_pull+ebay_listing+updates_table",
-      "fitment_confidence": "high",
+      "fitment_source": "airspring_inventory+title",
+      "fitment_confidence": "medium",
       "fitment": {
         "part_numbers": [
           "AB1DK231-9336"
         ],
         "interchange": [
-          "Firestone: W01-358-9336",
-          "Goodyear: 1R12-648"
+          "W01-358-9336"
         ],
         "vehicles": [],
         "vehicle_labels": [],
         "raw_compat_rows": 0,
-        "source": "airspring_inventory+airspring_xref_pull+ebay_listing+updates_table",
-        "confidence": "high",
+        "source": "airspring_inventory+title",
+        "confidence": "medium",
         "ebay_item_id": "398081146603"
       },
       "vehicle_count_raw": 0,
-      "ebay_item_id": "398081146603"
+      "ebay_item_id": "398081146603",
+      "vehicles": []
     },
     {
       "id": "5JADFNOGZU4ORSIITZGU6T3I",
@@ -280,66 +287,95 @@
         "ContiTech: 910-16 P352",
         "Goodyear: 1R12-356"
       ],
-      "fitment_source": "airspring_inventory+airspring_xref_pull+ebay_listing",
-      "fitment_confidence": "high",
+      "fitment_source": "airspring_inventory+title",
+      "fitment_confidence": "medium",
       "fitment": {
         "part_numbers": [
-          "AB1DK23K-9194",
-          "910-16 P352",
-          "1R12-356"
+          "AB1DK23K-9194"
         ],
         "interchange": [
-          "Firestone: W01-358-9194",
-          "ContiTech: 910-16 P352",
-          "Goodyear: 1R12-356"
+          "W01-358-9194"
         ],
         "vehicles": [],
         "vehicle_labels": [],
         "raw_compat_rows": 0,
-        "source": "airspring_inventory+airspring_xref_pull+ebay_listing",
-        "confidence": "high",
+        "source": "airspring_inventory+title",
+        "confidence": "medium",
         "ebay_item_id": "398104794577"
       },
       "vehicle_count_raw": 0,
-      "ebay_item_id": "398104794577"
+      "ebay_item_id": "398104794577",
+      "vehicles": []
     },
     {
       "id": "ECFWBRTC7SMPBSWEJBSLJXWI",
       "name": "Automann AB1DK23L-8856 Rolling Lobe Air Spring W01-358-8856 NOS Truck Trailer",
       "price": 136.79,
-      "image": "",
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/2f419fb5fc2896b7c6ad3f4b0075a6171117a711/original.jpeg",
       "url": "https://square.link/u/ORFIz4Uf",
       "category": "air-spring",
       "checkout": true,
       "variation_id": "Y55N7YLVHCUDMAUD4PTMBZCV",
-      "ebay_item_id": "398114353823",
       "part_numbers": [
-        "AB1DK23L-8856"
+        "Automann AB1DK23L-8856",
+        "W01-358-8856"
       ],
       "interchange": [
         "W01-358-8856"
       ],
       "fitment_source": "title",
-      "fitment_confidence": "low"
+      "fitment_confidence": "low",
+      "ebay_item_id": "398114353823",
+      "vehicles": [],
+      "vehicle_count_raw": 0,
+      "fitment": {
+        "part_numbers": [
+          "Automann AB1DK23L-8856",
+          "W01-358-8856"
+        ],
+        "interchange": [],
+        "vehicles": [],
+        "vehicle_labels": [],
+        "raw_compat_rows": 0,
+        "source": "title",
+        "confidence": "low",
+        "ebay_item_id": "398114353823"
+      }
     },
     {
       "id": "SGQLZ66HITIZULIJIW7NQ27F",
       "name": "Automann AB1DK23L-9130 Rolling Lobe Air Spring W01-358-9130 Continental 65030",
       "price": 179.09,
-      "image": "",
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/77fd88c311e62479346815436bfc0941e746e2e8/original.jpeg",
       "url": "https://square.link/u/v0EPTR0r",
       "category": "air-spring",
       "checkout": true,
       "variation_id": "HRMKFMPRDJWOKY57RMMTH26L",
-      "ebay_item_id": "398114354977",
       "part_numbers": [
-        "AB1DK23L-9130"
+        "Automann AB1DK23L-9130",
+        "W01-358-9130"
       ],
       "interchange": [
         "W01-358-9130"
       ],
       "fitment_source": "title",
-      "fitment_confidence": "low"
+      "fitment_confidence": "low",
+      "ebay_item_id": "398114354977",
+      "vehicles": [],
+      "vehicle_count_raw": 0,
+      "fitment": {
+        "part_numbers": [
+          "Automann AB1DK23L-9130",
+          "W01-358-9130"
+        ],
+        "interchange": [],
+        "vehicles": [],
+        "vehicle_labels": [],
+        "raw_compat_rows": 0,
+        "source": "title",
+        "confidence": "low",
+        "ebay_item_id": "398114354977"
+      }
     },
     {
       "id": "VWXBTBCTIL7WXP2Q7DSE3JHD",
@@ -358,26 +394,25 @@
         "Goodyear: 1R12-145",
         "ContiTech: 9 10-19 P 356"
       ],
-      "fitment_source": "airspring_inventory+airspring_xref_pull+ebay_listing+updates_table",
-      "fitment_confidence": "high",
+      "fitment_source": "airspring_inventory+title",
+      "fitment_confidence": "medium",
       "fitment": {
         "part_numbers": [
           "AB1DK23L-9238"
         ],
         "interchange": [
-          "Firestone: W01-358-9238",
-          "Goodyear: 1R12-145",
-          "ContiTech: 9 10-19 P 356"
+          "W01-358-9238"
         ],
         "vehicles": [],
         "vehicle_labels": [],
         "raw_compat_rows": 0,
-        "source": "airspring_inventory+airspring_xref_pull+ebay_listing+updates_table",
-        "confidence": "high",
+        "source": "airspring_inventory+title",
+        "confidence": "medium",
         "ebay_item_id": "398030468076"
       },
       "vehicle_count_raw": 0,
-      "ebay_item_id": "398030468076"
+      "ebay_item_id": "398030468076",
+      "vehicles": []
     },
     {
       "id": "XH7TUMSNXXRPP27X4TVSG7IR",
@@ -400,30 +435,25 @@
         "Watson & Chalin: AS-0056",
         "Triangle: 8470"
       ],
-      "fitment_source": "airspring_inventory+airspring_xref_pull+ebay_listing",
-      "fitment_confidence": "high",
+      "fitment_source": "airspring_inventory+title",
+      "fitment_confidence": "medium",
       "fitment": {
         "part_numbers": [
           "AB1DK23L-9346"
         ],
         "interchange": [
-          "Firestone: W01-358-9346",
-          "Goodyear: 1R12-439",
-          "ContiTech: 64338",
-          "ContiTech: 910-19P470",
-          "Holland-Neway: 90557126",
-          "Watson & Chalin: AS-0056",
-          "Triangle: 8470"
+          "W01-358-9346"
         ],
         "vehicles": [],
         "vehicle_labels": [],
         "raw_compat_rows": 0,
-        "source": "airspring_inventory+airspring_xref_pull+ebay_listing",
-        "confidence": "high",
+        "source": "airspring_inventory+title",
+        "confidence": "medium",
         "ebay_item_id": "398104804442"
       },
       "vehicle_count_raw": 0,
-      "ebay_item_id": "398104804442"
+      "ebay_item_id": "398104804442",
+      "vehicles": []
     },
     {
       "id": "63GLHEZRBSGQMW33N4D6AWUT",
@@ -442,26 +472,25 @@
         "Firestone: W01-358-6231",
         "ContiTech: AS 9 10-17.5 P 1388"
       ],
-      "fitment_source": "airspring_inventory+airspring_xref_pull+ebay_listing",
-      "fitment_confidence": "high",
+      "fitment_source": "airspring_inventory+title",
+      "fitment_confidence": "medium",
       "fitment": {
         "part_numbers": [
           "AB1DK23P-6231"
         ],
         "interchange": [
-          "ContiTech AS 9 10-17.5 P 1388",
-          "Firestone: W01-358-6231",
-          "ContiTech: AS 9 10-17.5 P 1388"
+          "W01-358-6231"
         ],
         "vehicles": [],
         "vehicle_labels": [],
         "raw_compat_rows": 0,
-        "source": "airspring_inventory+airspring_xref_pull+ebay_listing",
-        "confidence": "high",
+        "source": "airspring_inventory+title",
+        "confidence": "medium",
         "ebay_item_id": "398104795532"
       },
       "vehicle_count_raw": 0,
-      "ebay_item_id": "398104795532"
+      "ebay_item_id": "398104795532",
+      "vehicles": []
     },
     {
       "id": "FCIYTGLD3XXOCK65EW6MFRFY",
@@ -476,26 +505,27 @@
         "AB1DK23S-9250"
       ],
       "interchange": [
-        "Firestone: W01-358-9250"
+        "W01-358-9250"
       ],
-      "fitment_source": "airspring_inventory+airspring_xref_pull+ebay_listing",
-      "fitment_confidence": "high",
+      "fitment_source": "airspring_inventory+title",
+      "fitment_confidence": "medium",
       "fitment": {
         "part_numbers": [
           "AB1DK23S-9250"
         ],
         "interchange": [
-          "Firestone: W01-358-9250"
+          "W01-358-9250"
         ],
         "vehicles": [],
         "vehicle_labels": [],
         "raw_compat_rows": 0,
-        "source": "airspring_inventory+airspring_xref_pull+ebay_listing",
-        "confidence": "high",
+        "source": "airspring_inventory+title",
+        "confidence": "medium",
         "ebay_item_id": "398104796478"
       },
       "vehicle_count_raw": 0,
-      "ebay_item_id": "398104796478"
+      "ebay_item_id": "398104796478",
+      "vehicles": []
     },
     {
       "id": "YNXPTKKZK2DQPVY5SQOL7EP7",
@@ -517,48 +547,60 @@
         "Hendrickson: S-23612",
         "Ridewell: RL96450"
       ],
-      "fitment_source": "airspring_inventory+airspring_xref_pull+ebay_listing+updates_table",
-      "fitment_confidence": "high",
+      "fitment_source": "airspring_inventory+title",
+      "fitment_confidence": "medium",
       "fitment": {
         "part_numbers": [
-          "AB1DK23U-9645",
-          "9 10BP-22 P 739"
+          "AB1DK23U-9645"
         ],
         "interchange": [
-          "Firestone: W01-358-9645",
-          "ContiTech: 64695",
-          "ContiTech: 910BP-22P739",
-          "Hendrickson: S-23612",
-          "Ridewell: RL96450"
+          "W01-358-9645"
         ],
         "vehicles": [],
         "vehicle_labels": [],
         "raw_compat_rows": 0,
-        "source": "airspring_inventory+airspring_xref_pull+ebay_listing+updates_table",
-        "confidence": "high",
+        "source": "airspring_inventory+title",
+        "confidence": "medium",
         "ebay_item_id": "398037039620"
       },
       "vehicle_count_raw": 0,
-      "ebay_item_id": "398037039620"
+      "ebay_item_id": "398037039620",
+      "vehicles": []
     },
     {
       "id": "XD3NH6SD2YVX3AE4LAZYCFEM",
       "name": "Automann AB1DK28F-9891 Rolling Lobe Air Spring Replaces W01-358-9891 NOS",
       "price": 247.5,
-      "image": "",
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/c999ab1b962f44a8cde2342a1ee1faa3e1966e11/original.jpeg",
       "url": "https://square.link/u/iL4P7lDC",
       "category": "air-spring",
       "checkout": true,
       "variation_id": "JHONPGOQPW6QQMPU7BELVVXV",
-      "ebay_item_id": "398217620405",
       "part_numbers": [
-        "AB1DK28F-9891"
+        "Automann AB1DK28F-9891",
+        "W01-358-9891"
       ],
       "interchange": [
         "W01-358-9891"
       ],
       "fitment_source": "title",
-      "fitment_confidence": "low"
+      "fitment_confidence": "low",
+      "ebay_item_id": "398217620405",
+      "vehicles": [],
+      "vehicle_count_raw": 0,
+      "fitment": {
+        "part_numbers": [
+          "Automann AB1DK28F-9891",
+          "W01-358-9891"
+        ],
+        "interchange": [],
+        "vehicles": [],
+        "vehicle_labels": [],
+        "raw_compat_rows": 0,
+        "source": "title",
+        "confidence": "low",
+        "ebay_item_id": "398217620405"
+      }
     },
     {
       "id": "QIJQVWWEI5FXTGFGA3C6HFM3",
@@ -578,46 +620,95 @@
         "AS 11 10.5D \u2013 21 S 148 A",
         "Firestone: W01-358-8793"
       ],
-      "fitment_source": "airspring_inventory+airspring_xref_pull+ebay_listing",
-      "fitment_confidence": "high",
+      "fitment_source": "airspring_inventory+title",
+      "fitment_confidence": "medium",
       "fitment": {
         "part_numbers": [
           "AB1DK28Z-8793"
         ],
         "interchange": [
-          "Firestone W01-358-8793",
-          "Neway AD-130",
-          "AS 11 10.5D \u2013 21 S 148 A",
-          "Firestone: W01-358-8793"
+          "W01-358-8793"
         ],
         "vehicles": [],
         "vehicle_labels": [],
         "raw_compat_rows": 0,
-        "source": "airspring_inventory+airspring_xref_pull+ebay_listing",
-        "confidence": "high",
+        "source": "airspring_inventory+title",
+        "confidence": "medium",
         "ebay_item_id": "398057929368"
       },
       "vehicle_count_raw": 0,
-      "ebay_item_id": "398057929368"
+      "ebay_item_id": "398057929368",
+      "vehicles": []
+    },
+    {
+      "id": "KJXHVTX3TEN3CUT4DTZVWRPP",
+      "name": "Automann ABSP2B12R-6884 Rolling Lobe Air Spring Replaces W01-358-6884 New",
+      "price": 130.49,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/f79d20a7121945dc746b3dd8954086e7a4f20121/original.jpeg",
+      "url": "https://square.link/u/IPgvOff3",
+      "category": "air-spring",
+      "checkout": true,
+      "variation_id": "7AKB3MCU2MKDKG4GFOB46CN4",
+      "ebay_item_id": "398114465784",
+      "part_numbers": [
+        "ABSP2B12R-6884"
+      ],
+      "interchange": [
+        "W01-358-6884"
+      ],
+      "fitment_source": "airspring_inventory+title",
+      "fitment_confidence": "medium",
+      "vehicles": [],
+      "vehicle_count_raw": 0,
+      "fitment": {
+        "part_numbers": [
+          "ABSP2B12R-6884"
+        ],
+        "interchange": [
+          "W01-358-6884"
+        ],
+        "vehicles": [],
+        "vehicle_labels": [],
+        "raw_compat_rows": 0,
+        "source": "airspring_inventory+title",
+        "confidence": "medium",
+        "ebay_item_id": "398114465784"
+      }
     },
     {
       "id": "AEMLPQMKGGVAO6IAQXSCM2S5",
       "name": "Automann ABSP2B12RA-6947 Air Spring Rolling Lobe W01-358-6947 2B9-255 NOS",
       "price": 108.89,
-      "image": "",
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/b7e1b2fcab85c7eea454e2c8d39523d7a0343d09/original.jpeg",
       "url": "https://square.link/u/95oRVhGO",
       "category": "air-spring",
       "checkout": true,
       "variation_id": "ZCLYWC35D7GKYTLLJSWAQP2F",
-      "ebay_item_id": "398114355174",
       "part_numbers": [
         "ABSP2B12RA-6947"
       ],
       "interchange": [
         "W01-358-6947"
       ],
-      "fitment_source": "title",
-      "fitment_confidence": "low"
+      "fitment_source": "airspring_inventory",
+      "fitment_confidence": "medium",
+      "ebay_item_id": "398114355174",
+      "vehicles": [],
+      "vehicle_count_raw": 0,
+      "fitment": {
+        "part_numbers": [
+          "ABSP2B12RA-6947"
+        ],
+        "interchange": [
+          "W01-358-6947"
+        ],
+        "vehicles": [],
+        "vehicle_labels": [],
+        "raw_compat_rows": 0,
+        "source": "airspring_inventory",
+        "confidence": "medium",
+        "ebay_item_id": "398114355174"
+      }
     },
     {
       "id": "CQKA7SGC6VXWPEFAEQMCCWKK",
@@ -641,31 +732,25 @@
         "Watson & Chalin: AS-0093",
         "IHC/International: 1685178C1"
       ],
-      "fitment_source": "airspring_inventory+airspring_xref_pull+ebay_listing+updates_table",
-      "fitment_confidence": "high",
+      "fitment_source": "airspring_inventory+title",
+      "fitment_confidence": "medium",
       "fitment": {
         "part_numbers": [
           "ABSP2B22R-7409"
         ],
         "interchange": [
-          "Firestone: W01-358-7409",
-          "Goodyear: 2B12-319",
-          "ContiTech: 64497",
-          "ContiTech: FD330-22367",
-          "Neway: 57007409",
-          "Triangle: 4367",
-          "Watson & Chalin: AS-0093",
-          "IHC/International: 1685178C1"
+          "W01-358-7409"
         ],
         "vehicles": [],
         "vehicle_labels": [],
         "raw_compat_rows": 0,
-        "source": "airspring_inventory+airspring_xref_pull+ebay_listing+updates_table",
-        "confidence": "high",
+        "source": "airspring_inventory+title",
+        "confidence": "medium",
         "ebay_item_id": "398028808009"
       },
       "vehicle_count_raw": 0,
-      "ebay_item_id": "398028808009"
+      "ebay_item_id": "398028808009",
+      "vehicles": []
     },
     {
       "id": "WJBEKHBAYPDY23OGOOUNLSRL",
@@ -680,43 +765,58 @@
         "ABSP3B22R-7890"
       ],
       "interchange": [
-        "Firestone: W01-358-7890"
+        "W01-358-7890"
       ],
-      "fitment_source": "airspring_inventory+airspring_xref_pull+ebay_listing+updates_table",
+      "fitment_source": "airspring_inventory+title",
       "fitment_confidence": "medium",
       "fitment": {
         "part_numbers": [
           "ABSP3B22R-7890"
         ],
         "interchange": [
-          "Firestone: W01-358-7890"
+          "W01-358-7890"
         ],
         "vehicles": [],
         "vehicle_labels": [],
         "raw_compat_rows": 0,
-        "source": "airspring_inventory+airspring_xref_pull+ebay_listing+updates_table",
+        "source": "airspring_inventory+title",
         "confidence": "medium",
         "ebay_item_id": "398028801246"
       },
       "vehicle_count_raw": 0,
-      "ebay_item_id": "398028801246"
+      "ebay_item_id": "398028801246",
+      "vehicles": []
     },
     {
       "id": "X3NUIYYQZFUW6KWQVTHBVSBT",
       "name": "Automann ABSP3B22R-7990 Triple Convoluted Air Spring New",
       "price": 165.0,
-      "image": "",
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/e7699ff1497cdfed7c10aaec8a7f7a397d9faa03/original.jpeg",
       "url": "https://square.link/u/wQvuuNGD",
       "category": "air-spring",
       "checkout": true,
       "variation_id": "6CLHXUAOGAE4XOW42NESN4TQ",
-      "ebay_item_id": "398233368743",
       "part_numbers": [
-        "ABSP3B22R-7990"
+        "Automann ABSP3B22R-7990"
       ],
-      "interchange": [],
       "fitment_source": "title",
-      "fitment_confidence": "low"
+      "fitment_confidence": "low",
+      "ebay_item_id": "398233368743",
+      "interchange": [],
+      "vehicles": [],
+      "vehicle_count_raw": 0,
+      "fitment": {
+        "part_numbers": [
+          "Automann ABSP3B22R-7990"
+        ],
+        "interchange": [],
+        "vehicles": [],
+        "vehicle_labels": [],
+        "raw_compat_rows": 0,
+        "source": "title",
+        "confidence": "low",
+        "ebay_item_id": "398233368743"
+      }
     },
     {
       "id": "7NAXP4RPHKF5YNTTVR65YYFC",
@@ -741,89 +841,194 @@
         "Ridewell: 1003587843C",
         "Loadguard: SC2135"
       ],
-      "fitment_source": "airspring_inventory+airspring_xref_pull+ebay_listing+updates_table",
-      "fitment_confidence": "high",
+      "fitment_source": "airspring_inventory+title",
+      "fitment_confidence": "medium",
       "fitment": {
         "part_numbers": [
           "ABSP3B32RA-7843"
         ],
         "interchange": [
-          "Firestone: W01-358-7843",
-          "Goodyear: 3B14-364",
-          "ContiTech: 64581",
-          "ContiTech: FT530-35455",
-          "Triangle: 4455",
-          "Hendrickson: S-7100",
-          "Hendrickson: B-7100",
-          "Ridewell: 1003587843C",
-          "Loadguard: SC2135"
+          "W01-358-7843"
         ],
         "vehicles": [],
         "vehicle_labels": [],
         "raw_compat_rows": 0,
-        "source": "airspring_inventory+airspring_xref_pull+ebay_listing+updates_table",
-        "confidence": "high",
+        "source": "airspring_inventory+title",
+        "confidence": "medium",
         "ebay_item_id": "398027125795"
       },
       "vehicle_count_raw": 0,
-      "ebay_item_id": "398027125795"
+      "ebay_item_id": "398027125795",
+      "vehicles": []
     },
     {
       "id": "3647PYOGAQX7TBLOIUPAJ6BC",
       "name": "Automann ABSP3B32RA-7847 Air Spring Rolling Lobe New W01-358-7847 FT 530-35 457",
       "price": 166.49,
-      "image": "",
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/78022e9b5225db05a40e2f7d808ce01efea06ed3/original.jpeg",
       "url": "https://square.link/u/1P1IHsuc",
       "category": "air-spring",
       "checkout": true,
       "variation_id": "Y2FPIT6SHTYR5QNMKFIJM44P",
-      "ebay_item_id": "398186059360",
       "part_numbers": [
         "ABSP3B32RA-7847"
       ],
       "interchange": [
         "W01-358-7847"
       ],
-      "fitment_source": "title",
-      "fitment_confidence": "low"
+      "fitment_source": "airspring_inventory",
+      "fitment_confidence": "medium",
+      "ebay_item_id": "398186059360",
+      "vehicles": [],
+      "vehicle_count_raw": 0,
+      "fitment": {
+        "part_numbers": [
+          "ABSP3B32RA-7847"
+        ],
+        "interchange": [
+          "W01-358-7847"
+        ],
+        "vehicles": [],
+        "vehicle_labels": [],
+        "raw_compat_rows": 0,
+        "source": "airspring_inventory",
+        "confidence": "medium",
+        "ebay_item_id": "398186059360"
+      }
     },
     {
       "id": "MJAQDKIB2WT55I26Q552PZXS",
       "name": "Automann ABSP3B32RA-7859 Rolling Lobe Air Spring New W01-358-7859",
       "price": 193.49,
-      "image": "",
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/d70f41fd6fcd237ed1c4695506ba6531827c5e3a/original.jpeg",
       "url": "https://square.link/u/Vj5cDK52",
       "category": "air-spring",
       "checkout": true,
       "variation_id": "7VDZG35VVPI73CIBRNKLAO43",
-      "ebay_item_id": "398186061994",
       "part_numbers": [
         "ABSP3B32RA-7859"
       ],
       "interchange": [
         "W01-358-7859"
       ],
+      "fitment_source": "airspring_inventory",
+      "fitment_confidence": "medium",
+      "ebay_item_id": "398186061994",
+      "vehicles": [],
+      "vehicle_count_raw": 0,
+      "fitment": {
+        "part_numbers": [
+          "ABSP3B32RA-7859"
+        ],
+        "interchange": [
+          "W01-358-7859"
+        ],
+        "vehicles": [],
+        "vehicle_labels": [],
+        "raw_compat_rows": 0,
+        "source": "airspring_inventory",
+        "confidence": "medium",
+        "ebay_item_id": "398186061994"
+      }
+    },
+    {
+      "id": "Z3S5C52OCR573HJST6YMBFIL",
+      "name": "Continental ContiTech 64278 P429 Rolling Lobe Air Spring 1R12-431 New",
+      "price": 139.49,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/b0e1a8fda3800effac67e0789dc07ba4d0abeffc/original.jpeg",
+      "url": "https://square.link/u/FyB3RScY",
+      "category": "air-spring",
+      "checkout": true,
+      "variation_id": "EC6H4KA75OL6NLSILF5UW5QB",
+      "ebay_item_id": "398104797418",
+      "part_numbers": [
+        "Continental ContiTech"
+      ],
+      "interchange": [],
       "fitment_source": "title",
-      "fitment_confidence": "low"
+      "fitment_confidence": "low",
+      "vehicles": [],
+      "vehicle_count_raw": 0,
+      "fitment": {
+        "part_numbers": [
+          "Continental ContiTech"
+        ],
+        "interchange": [],
+        "vehicles": [],
+        "vehicle_labels": [],
+        "raw_compat_rows": 0,
+        "source": "title",
+        "confidence": "low",
+        "ebay_item_id": "398104797418"
+      }
+    },
+    {
+      "id": "JOKFCJA262HASHZA22GRSWJN",
+      "name": "Continental ContiTech 64325 Rolling Lobe Air Spring W01-358-9238 NOS 2024",
+      "price": 188.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/5fbd0563fe8f883e7afc2b82c6b3af0620c90747/original.jpeg",
+      "url": "https://square.link/u/rQ8qgsnR",
+      "category": "air-spring",
+      "checkout": true,
+      "variation_id": "RWWSKN4RZ4V3TG4N6AXB57DY",
+      "ebay_item_id": "398114355562",
+      "part_numbers": [
+        "Continental ContiTech",
+        "W01-358-9238"
+      ],
+      "fitment_source": "title",
+      "fitment_confidence": "low",
+      "interchange": [],
+      "vehicles": [],
+      "vehicle_count_raw": 0,
+      "fitment": {
+        "part_numbers": [
+          "Continental ContiTech",
+          "W01-358-9238"
+        ],
+        "interchange": [],
+        "vehicles": [],
+        "vehicle_labels": [],
+        "raw_compat_rows": 0,
+        "source": "title",
+        "confidence": "low",
+        "ebay_item_id": "398114355562"
+      }
     },
     {
       "id": "2FVY6OUQDM3PKSGRDEIR62X4",
       "name": "Continental ContiTech FT 530-32 329 CT Air Spring Convoluted New W01-358-7798",
       "price": 185.39,
-      "image": "",
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/08679c74cd267eb57a525b71a6889ef9130fb0a5/original.jpeg",
       "url": "https://square.link/u/uIOP4pdh",
       "category": "air-spring",
       "checkout": true,
       "variation_id": "PG5VTKPA42MCDU7Y7B7P3XEO",
-      "ebay_item_id": "398186048137",
       "part_numbers": [
-        "ContiTech"
+        "Continental ContiTech",
+        "W01-358-7798"
       ],
       "interchange": [
         "W01-358-7798"
       ],
       "fitment_source": "title",
-      "fitment_confidence": "low"
+      "fitment_confidence": "low",
+      "ebay_item_id": "398186048137",
+      "vehicles": [],
+      "vehicle_count_raw": 0,
+      "fitment": {
+        "part_numbers": [
+          "Continental ContiTech",
+          "W01-358-7798"
+        ],
+        "interchange": [],
+        "vehicles": [],
+        "vehicle_labels": [],
+        "raw_compat_rows": 0,
+        "source": "title",
+        "confidence": "low",
+        "ebay_item_id": "398186048137"
+      }
     },
     {
       "id": "W2ILAVDVIPQAQS6GBTCIERZH",
@@ -844,26 +1049,22 @@
         "Goodyear: 3B14-354"
       ],
       "fitment_source": "airspring_xref_pull+ebay_listing+updates_table",
-      "fitment_confidence": "high",
+      "fitment_confidence": "low",
       "fitment": {
         "part_numbers": [
-          "AS FT 530-32 336 CT",
-          "3B14-354"
+          "W01-358-7808"
         ],
-        "interchange": [
-          "FT 530-32 336",
-          "Firestone: W01-358-7808",
-          "Goodyear: 3B14-354"
-        ],
+        "interchange": [],
         "vehicles": [],
         "vehicle_labels": [],
         "raw_compat_rows": 0,
-        "source": "airspring_xref_pull+ebay_listing+updates_table",
-        "confidence": "high",
+        "source": "title",
+        "confidence": "low",
         "ebay_item_id": "398035010183"
       },
       "vehicle_count_raw": 0,
-      "ebay_item_id": "398035010183"
+      "ebay_item_id": "398035010183",
+      "vehicles": []
     },
     {
       "id": "HGCIRMAUON4CWAJQHKZ6ZULM",
@@ -883,25 +1084,22 @@
         "AS 9 10-14 P825 CT"
       ],
       "fitment_source": "airspring_xref_pull+ebay_listing",
-      "fitment_confidence": "high",
+      "fitment_confidence": "low",
       "fitment": {
         "part_numbers": [
-          "ABSP2B12R-7788",
-          "65912"
+          "ContiTech Continental"
         ],
-        "interchange": [
-          "W01-358-7788",
-          "AS 9 10-14 P825 CT"
-        ],
+        "interchange": [],
         "vehicles": [],
         "vehicle_labels": [],
         "raw_compat_rows": 0,
-        "source": "airspring_xref_pull+ebay_listing",
-        "confidence": "high",
+        "source": "title",
+        "confidence": "low",
         "ebay_item_id": "398036928762"
       },
       "vehicle_count_raw": 0,
-      "ebay_item_id": "398036928762"
+      "ebay_item_id": "398036928762",
+      "vehicles": []
     },
     {
       "id": "7DI4HYOTVRKCB4NZKHT2ESPU",
@@ -922,14 +1120,13 @@
       "vehicles": [
         "Freightliner"
       ],
-      "fitment_source": "airspring_inventory+airspring_xref_pull+ebay_listing+title+updates_table",
+      "fitment_source": "airspring_inventory+title",
       "fitment_confidence": "medium",
       "fitment": {
         "part_numbers": [
           "566.ER74652"
         ],
         "interchange": [
-          "Freightliner / Alliance: A16-21478-001",
           "A16-21478-001"
         ],
         "vehicles": [
@@ -947,12 +1144,47 @@
           "Freightliner"
         ],
         "raw_compat_rows": 1,
-        "source": "airspring_inventory+airspring_xref_pull+ebay_listing+title+updates_table",
+        "source": "airspring_inventory+title",
         "confidence": "medium",
         "ebay_item_id": "398030456836"
       },
       "vehicle_count_raw": 1,
       "ebay_item_id": "398030456836"
+    },
+    {
+      "id": "D4ZN6XUVYQDDEAEE7WMZBY37",
+      "name": "Goodyear 1R12-103 Rolling Lobe Air Spring Replaces W01-358-9101 OEM New",
+      "price": 232.19,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/d863e750fb8727aa4906b42f1a0ace0edbb36582/original.jpeg",
+      "url": "https://square.link/u/V740FsAo",
+      "category": "air-spring",
+      "checkout": true,
+      "variation_id": "UB2GVUMW2DCOLCTX7KWJJV4D",
+      "ebay_item_id": "398114466191",
+      "part_numbers": [
+        "1R12-103"
+      ],
+      "interchange": [
+        "W01-358-9101"
+      ],
+      "fitment_source": "airspring_inventory+title",
+      "fitment_confidence": "medium",
+      "vehicles": [],
+      "vehicle_count_raw": 0,
+      "fitment": {
+        "part_numbers": [
+          "1R12-103"
+        ],
+        "interchange": [
+          "W01-358-9101"
+        ],
+        "vehicles": [],
+        "vehicle_labels": [],
+        "raw_compat_rows": 0,
+        "source": "airspring_inventory+title",
+        "confidence": "medium",
+        "ebay_item_id": "398114466191"
+      }
     },
     {
       "id": "EDGQUKVAWVX7M537BWG4FDPA",
@@ -975,68 +1207,95 @@
         "Ridewell: 1003589320C",
         "Triangle: 8360"
       ],
-      "fitment_source": "airspring_inventory+airspring_xref_pull+ebay_listing+updates_table",
-      "fitment_confidence": "high",
+      "fitment_source": "airspring_inventory+title",
+      "fitment_confidence": "medium",
       "fitment": {
         "part_numbers": [
           "1R12-363"
         ],
         "interchange": [
-          "Firestone: W01-358-9320",
-          "ContiTech: 64382",
-          "ContiTech: 910-21A360",
-          "Holland-Neway: 90557099",
-          "Reyco: 24520-01",
-          "Ridewell: 1003589320C",
-          "Triangle: 8360"
+          "W01-358-9320"
         ],
         "vehicles": [],
         "vehicle_labels": [],
         "raw_compat_rows": 0,
-        "source": "airspring_inventory+airspring_xref_pull+ebay_listing+updates_table",
-        "confidence": "high",
+        "source": "airspring_inventory+title",
+        "confidence": "medium",
         "ebay_item_id": "398051021929"
       },
       "vehicle_count_raw": 0,
-      "ebay_item_id": "398051021929"
+      "ebay_item_id": "398051021929",
+      "vehicles": []
     },
     {
       "id": "V5NGDEKHEKPFMAHEISR3EENN",
       "name": "Goodyear 1R14-030 Rolling Lobe Air Spring NOS Firestone W01-358-9158",
       "price": 164.69,
-      "image": "",
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/f028f645ff1d2d7db2719d7b2d09d0a1e3585f5b/original.jpeg",
       "url": "https://square.link/u/DjCSspu8",
       "category": "air-spring",
       "checkout": true,
       "variation_id": "Q4HN6GGFXDSHSCOQRYRS6JDJ",
-      "ebay_item_id": "398114176521",
       "part_numbers": [
-        "1R14-030"
+        "Goodyear 1R14-030",
+        "W01-358-9158"
       ],
       "interchange": [
         "W01-358-9158"
       ],
       "fitment_source": "title",
-      "fitment_confidence": "low"
+      "fitment_confidence": "low",
+      "ebay_item_id": "398114176521",
+      "vehicles": [],
+      "vehicle_count_raw": 0,
+      "fitment": {
+        "part_numbers": [
+          "Goodyear 1R14-030",
+          "W01-358-9158"
+        ],
+        "interchange": [],
+        "vehicles": [],
+        "vehicle_labels": [],
+        "raw_compat_rows": 0,
+        "source": "title",
+        "confidence": "low",
+        "ebay_item_id": "398114176521"
+      }
     },
     {
       "id": "4BPOTYXZ43SLCQCEFZWNB45N",
       "name": "Goodyear 1R14-174 Rolling Lobe Air Spring Replaces W01-358-5503 NOS",
       "price": 175.5,
-      "image": "",
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/9743781f2d239dd6ce1a39e3106ca22d63e24c54/original.jpeg",
       "url": "https://square.link/u/Yl9n9YPS",
       "category": "air-spring",
       "checkout": true,
       "variation_id": "GFIZYMKCIBJDQIKLWELYKLBQ",
-      "ebay_item_id": "398217622258",
       "part_numbers": [
-        "1R14-174"
+        "Goodyear 1R14-174",
+        "W01-358-5503"
       ],
       "interchange": [
         "W01-358-5503"
       ],
       "fitment_source": "title",
-      "fitment_confidence": "low"
+      "fitment_confidence": "low",
+      "ebay_item_id": "398217622258",
+      "vehicles": [],
+      "vehicle_count_raw": 0,
+      "fitment": {
+        "part_numbers": [
+          "Goodyear 1R14-174",
+          "W01-358-5503"
+        ],
+        "interchange": [],
+        "vehicles": [],
+        "vehicle_labels": [],
+        "raw_compat_rows": 0,
+        "source": "title",
+        "confidence": "low",
+        "ebay_item_id": "398217622258"
+      }
     },
     {
       "id": "Y6M4E3EQLZL24OW2FRCYAPTI",
@@ -1062,33 +1321,25 @@
         "Volvo: 352035001",
         "IHC/International: 554787C1"
       ],
-      "fitment_source": "airspring_inventory+airspring_xref_pull+ebay_listing+updates_table",
-      "fitment_confidence": "high",
+      "fitment_source": "airspring_inventory+title",
+      "fitment_confidence": "medium",
       "fitment": {
         "part_numbers": [
           "2B12-307"
         ],
         "interchange": [
-          "Firestone: W01-358-7403",
-          "ContiTech: 64488",
-          "ContiTech: FD330-22318",
-          "Hendrickson: S-1159",
-          "Hendrickson: S-2883",
-          "Neway: 57007403",
-          "Triangle: 4318",
-          "Watson & Chalin: AS-0007",
-          "Volvo: 352035001",
-          "IHC/International: 554787C1"
+          "W01-358-7403"
         ],
         "vehicles": [],
         "vehicle_labels": [],
         "raw_compat_rows": 0,
-        "source": "airspring_inventory+airspring_xref_pull+ebay_listing+updates_table",
-        "confidence": "high",
+        "source": "airspring_inventory+title",
+        "confidence": "medium",
         "ebay_item_id": "398028783790"
       },
       "vehicle_count_raw": 0,
-      "ebay_item_id": "398028783790"
+      "ebay_item_id": "398028783790",
+      "vehicles": []
     },
     {
       "id": "LNLXWYITGZSNJI77RVDIUSN3",
@@ -1113,88 +1364,127 @@
         "Ridewell: 1003587404C",
         "IHC/International: 554793C1"
       ],
-      "fitment_source": "airspring_inventory+airspring_xref_pull+ebay_listing+updates_table",
-      "fitment_confidence": "high",
+      "fitment_source": "airspring_inventory+title",
+      "fitment_confidence": "medium",
       "fitment": {
         "part_numbers": [
           "2B12-410"
         ],
         "interchange": [
-          "Firestone: W01-358-7404",
-          "ContiTech: 64492",
-          "ContiTech: FD330-22346",
-          "Hendrickson: S-1345",
-          "Hendrickson: S-5468",
-          "Neway: 57007404",
-          "Triangle: 4346",
-          "Ridewell: 1003587404C",
-          "IHC/International: 554793C1"
+          "W01-358-7404"
         ],
         "vehicles": [],
         "vehicle_labels": [],
         "raw_compat_rows": 0,
-        "source": "airspring_inventory+airspring_xref_pull+ebay_listing+updates_table",
-        "confidence": "high",
+        "source": "airspring_inventory+title",
+        "confidence": "medium",
         "ebay_item_id": "398028776873"
       },
       "vehicle_count_raw": 0,
-      "ebay_item_id": "398028776873"
+      "ebay_item_id": "398028776873",
+      "vehicles": []
     },
     {
       "id": "22S6AUYVQYTT4I67AH6ZG2V7",
       "name": "Goodyear 2B9-201 Double Convolute Super Cushion Air Spring NOS",
       "price": 132.29,
-      "image": "",
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/b9d917f8ffad1688110ee6c94354bd12f5203e2a/original.jpeg",
       "url": "https://square.link/u/CUPVbIpm",
       "category": "air-spring",
       "checkout": true,
       "variation_id": "Z7OYSCQ6B6I53VW5J4UY5GMT",
-      "ebay_item_id": "398114178367",
       "part_numbers": [
-        "2B9-201"
+        "Goodyear 2B9-201"
       ],
-      "interchange": [],
       "fitment_source": "title",
-      "fitment_confidence": "low"
+      "fitment_confidence": "low",
+      "ebay_item_id": "398114178367",
+      "interchange": [],
+      "vehicles": [],
+      "vehicle_count_raw": 0,
+      "fitment": {
+        "part_numbers": [
+          "Goodyear 2B9-201"
+        ],
+        "interchange": [],
+        "vehicles": [],
+        "vehicle_labels": [],
+        "raw_compat_rows": 0,
+        "source": "title",
+        "confidence": "low",
+        "ebay_item_id": "398114178367"
+      }
     },
     {
       "id": "7JU633SJEPA6QOMRAHJ3OB3T",
       "name": "Goodyear 2B9-206 Air Spring Replaces Firestone W01-358-6905 ContiTech 64510 NOS",
       "price": 152.99,
-      "image": "",
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/12b70f11901343bf333a62b396ed81ce9c419ded/original.jpeg",
       "url": "https://square.link/u/YOCzv95F",
       "category": "air-spring",
       "checkout": true,
       "variation_id": "JENDMM2FD64YJNC7P3U4FFOR",
-      "ebay_item_id": "398155803037",
       "part_numbers": [
-        "2B9-206"
+        "Goodyear 2B9-206",
+        "W01-358-6905"
       ],
       "interchange": [
         "W01-358-6905",
         "64510"
       ],
       "fitment_source": "title",
-      "fitment_confidence": "low"
+      "fitment_confidence": "low",
+      "ebay_item_id": "398155803037",
+      "vehicles": [],
+      "vehicle_count_raw": 0,
+      "fitment": {
+        "part_numbers": [
+          "Goodyear 2B9-206",
+          "W01-358-6905"
+        ],
+        "interchange": [],
+        "vehicles": [],
+        "vehicle_labels": [],
+        "raw_compat_rows": 0,
+        "source": "title",
+        "confidence": "low",
+        "ebay_item_id": "398155803037"
+      }
     },
     {
       "id": "QONRZTGROGA27RO7HMZAFW4C",
       "name": "Goodyear 2B9-229 Super-Cushion Air Spring Replaces W01-358-6897 New",
       "price": 146.69,
-      "image": "",
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/70c553f252a2e3726bd13f2a4df7a84f8c0baf2f/original.jpeg",
       "url": "https://square.link/u/XYC4Pzfc",
       "category": "air-spring",
       "checkout": true,
       "variation_id": "FBBCMYOAJJEPJIL3JDDAUJW5",
-      "ebay_item_id": "398186065292",
       "part_numbers": [
         "2B9-229"
       ],
       "interchange": [
         "W01-358-6897"
       ],
-      "fitment_source": "title",
-      "fitment_confidence": "low"
+      "fitment_source": "airspring_inventory+title",
+      "fitment_confidence": "medium",
+      "ebay_item_id": "398186065292",
+      "vehicles": [],
+      "vehicle_count_raw": 0,
+      "fitment": {
+        "part_numbers": [
+          "2B9-229"
+        ],
+        "interchange": [
+          "W01-358-6897"
+        ],
+        "vehicles": [],
+        "vehicle_labels": [],
+        "raw_compat_rows": 0,
+        "source": "airspring_inventory+title",
+        "confidence": "medium",
+        "ebay_item_id": "398186065292"
+      }
     },
     {
       "id": "ANR3BBW6OOATXTZGVDUJPH52",
@@ -1213,26 +1503,25 @@
         "Hendrickson: S-14795",
         "Hendrickson: S-2630"
       ],
-      "fitment_source": "airspring_inventory+airspring_xref_pull+ebay_listing+updates_table",
-      "fitment_confidence": "high",
+      "fitment_source": "airspring_inventory+title",
+      "fitment_confidence": "medium",
       "fitment": {
         "part_numbers": [
           "3B12-323"
         ],
         "interchange": [
-          "Firestone: W01-358-8043",
-          "Hendrickson: S-14795",
-          "Hendrickson: S-2630"
+          "W01-358-8043"
         ],
         "vehicles": [],
         "vehicle_labels": [],
         "raw_compat_rows": 0,
-        "source": "airspring_inventory+airspring_xref_pull+ebay_listing+updates_table",
-        "confidence": "high",
+        "source": "airspring_inventory+title",
+        "confidence": "medium",
         "ebay_item_id": "398030473993"
       },
       "vehicle_count_raw": 0,
-      "ebay_item_id": "398030473993"
+      "ebay_item_id": "398030473993",
+      "vehicles": []
     },
     {
       "id": "SXESABEQ2LVDHXMEKH2JEHVF",
@@ -1266,41 +1555,25 @@
         "Reyco Granning: 1014",
         "IHC/International: 554803C1"
       ],
-      "fitment_source": "airspring_inventory+airspring_xref_pull+ebay_listing+updates_table",
-      "fitment_confidence": "high",
+      "fitment_source": "airspring_inventory+title",
+      "fitment_confidence": "medium",
       "fitment": {
         "part_numbers": [
           "3B14-359"
         ],
         "interchange": [
-          "Firestone: W01-358-7818",
-          "ContiTech: AS7818",
-          "ContiTech: 64503",
-          "ContiTech: FT530-32325",
-          "World American: WA01-7818C",
-          "Meritor: FS7818",
-          "Meritor: FS7839",
-          "Triangle: AS-4325",
-          "Triangle: 4325",
-          "Hendrickson: S-13041",
-          "Neway: 57007818",
-          "Neway: 57007839",
-          "Ridewell: 1003587818C",
-          "Ridewell: S2685C",
-          "Watson & Chalin: AS-0025",
-          "Watson & Chalin: AS-0033",
-          "Reyco Granning: 1014",
-          "IHC/International: 554803C1"
+          "W01-358-7818"
         ],
         "vehicles": [],
         "vehicle_labels": [],
         "raw_compat_rows": 0,
-        "source": "airspring_inventory+airspring_xref_pull+ebay_listing+updates_table",
-        "confidence": "high",
+        "source": "airspring_inventory+title",
+        "confidence": "medium",
         "ebay_item_id": "398027136709"
       },
       "vehicle_count_raw": 0,
-      "ebay_item_id": "398027136709"
+      "ebay_item_id": "398027136709",
+      "vehicles": []
     },
     {
       "id": "GGLHED43Y7A46CBFE2DY5FPY",
@@ -1330,35 +1603,55 @@
         "Newstar: S-29904"
       ],
       "fitment_source": "airspring_xref_pull+ebay_listing+updates_table",
-      "fitment_confidence": "high",
+      "fitment_confidence": "low",
       "fitment": {
         "part_numbers": [
-          "1S4-173-35",
-          "25165143"
+          "Mack 1S4-173-35"
         ],
-        "interchange": [
-          "227QS42M",
-          "ABSZ70-143",
-          "1S4-173",
-          "FAS-5059",
-          "Mack (alt #): 227QS42M",
-          "Mack (alt #): 25165143",
-          "Automann: ABSZ70-143",
-          "Goodyear: 1S4-173",
-          "PAI: FAS-5059",
-          "Continental: 78418",
-          "Newstar: MK-25165143",
-          "Newstar: S-29904"
-        ],
+        "interchange": [],
         "vehicles": [],
         "vehicle_labels": [],
         "raw_compat_rows": 0,
-        "source": "airspring_xref_pull+ebay_listing+updates_table",
-        "confidence": "high",
+        "source": "title",
+        "confidence": "low",
         "ebay_item_id": "398057891975"
       },
       "vehicle_count_raw": 0,
-      "ebay_item_id": "398057891975"
+      "ebay_item_id": "398057891975",
+      "vehicles": []
+    },
+    {
+      "id": "4B6JFECIGLWPRT2FZDFTEQQ7",
+      "name": "OEM Continental ContiTech 64258 Rolling Lobe Air Spring W01-358-9010 NOS",
+      "price": 134.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/a9c7c02de8f43b95e1c2d07ebd12b3f75c6908d3/original.jpeg",
+      "url": "https://square.link/u/FPfL1ykG",
+      "category": "air-spring",
+      "checkout": true,
+      "variation_id": "BLYFM4SQTTOXFQUK32FQII7R",
+      "ebay_item_id": "398114466486",
+      "part_numbers": [
+        "Continental ContiTech",
+        "W01-358-9010"
+      ],
+      "fitment_source": "title",
+      "fitment_confidence": "low",
+      "interchange": [],
+      "vehicles": [],
+      "vehicle_count_raw": 0,
+      "fitment": {
+        "part_numbers": [
+          "Continental ContiTech",
+          "W01-358-9010"
+        ],
+        "interchange": [],
+        "vehicles": [],
+        "vehicle_labels": [],
+        "raw_compat_rows": 0,
+        "source": "title",
+        "confidence": "low",
+        "ebay_item_id": "398114466486"
+      }
     },
     {
       "id": "S4BE3QQTDYS7EDGCVVYMROID",
@@ -1374,27 +1667,27 @@
         "9921"
       ],
       "interchange": [
-        "Firestone: W01-358-9921"
+        "W01-358-9921"
       ],
-      "fitment_source": "airspring_inventory+airspring_xref_pull+ebay_listing",
-      "fitment_confidence": "high",
+      "fitment_source": "airspring_inventory+title",
+      "fitment_confidence": "medium",
       "fitment": {
         "part_numbers": [
-          "1R12-502",
-          "9921"
+          "1R12-502"
         ],
         "interchange": [
-          "Firestone: W01-358-9921"
+          "W01-358-9921"
         ],
         "vehicles": [],
         "vehicle_labels": [],
         "raw_compat_rows": 0,
-        "source": "airspring_inventory+airspring_xref_pull+ebay_listing",
-        "confidence": "high",
+        "source": "airspring_inventory+title",
+        "confidence": "medium",
         "ebay_item_id": "398104793577"
       },
       "vehicle_count_raw": 0,
-      "ebay_item_id": "398104793577"
+      "ebay_item_id": "398104793577",
+      "vehicles": []
     },
     {
       "id": "M3Z2BJDH5EPFYABLLZPDUTWJ",
@@ -1414,27 +1707,25 @@
         "Mack 3889-90557230",
         "Firestone: W01-358-8197"
       ],
-      "fitment_source": "airspring_inventory+airspring_xref_pull+ebay_listing",
-      "fitment_confidence": "high",
+      "fitment_source": "airspring_inventory+title",
+      "fitment_confidence": "medium",
       "fitment": {
         "part_numbers": [
-          "1R12-562",
-          "8197"
+          "1R12-562"
         ],
         "interchange": [
-          "Neway 90557230",
-          "Mack 3889-90557230",
-          "Firestone: W01-358-8197"
+          "W01-358-8197"
         ],
         "vehicles": [],
         "vehicle_labels": [],
         "raw_compat_rows": 0,
-        "source": "airspring_inventory+airspring_xref_pull+ebay_listing",
-        "confidence": "high",
+        "source": "airspring_inventory+title",
+        "confidence": "medium",
         "ebay_item_id": "398104794071"
       },
       "vehicle_count_raw": 0,
-      "ebay_item_id": "398104794071"
+      "ebay_item_id": "398104794071",
+      "vehicles": []
     },
     {
       "id": "VT32GAYJXZR7RYOQVHVZHKS2",
@@ -1452,31 +1743,29 @@
         "10 10-21 P570"
       ],
       "interchange": [
-        "Firestone: W01-358-8748",
-        "W01-358-9241"
+        "W01-358-9241",
+        "W01-358-8748"
       ],
-      "fitment_source": "airspring_inventory+airspring_xref_pull+ebay_listing",
-      "fitment_confidence": "high",
+      "fitment_source": "airspring_inventory+title",
+      "fitment_confidence": "medium",
       "fitment": {
         "part_numbers": [
-          "1R13-152",
-          "8748",
-          "Neway 90557167",
-          "10 10-21 P570"
+          "1R13-152"
         ],
         "interchange": [
-          "Firestone: W01-358-8748",
-          "W01-358-9241"
+          "W01-358-9241",
+          "W01-358-8748"
         ],
         "vehicles": [],
         "vehicle_labels": [],
         "raw_compat_rows": 0,
-        "source": "airspring_inventory+airspring_xref_pull+ebay_listing",
-        "confidence": "high",
+        "source": "airspring_inventory+title",
+        "confidence": "medium",
         "ebay_item_id": "398104793065"
       },
       "vehicle_count_raw": 0,
-      "ebay_item_id": "398104793065"
+      "ebay_item_id": "398104793065",
+      "vehicles": []
     },
     {
       "id": "SCZQEUWMBB4U5WK65UMMW5UP",
@@ -1494,13 +1783,10 @@
         "118.50003"
       ],
       "vehicles": [
-        "2014\u20132017 Fiat 500",
-        "1994\u20132001 Kia Sephia",
-        "2000\u20132004 Kia Spectra",
-        "2014\u20132016 Volkswagen Saveiro"
+        "Parking Brake Kia"
       ],
-      "fitment_source": "ebay_listing+carlson_specs",
-      "fitment_confidence": "high",
+      "fitment_source": "carlson_specs+title",
+      "fitment_confidence": "medium",
       "fitment": {
         "part_numbers": [
           "17353"
@@ -1510,58 +1796,24 @@
         ],
         "vehicles": [
           {
-            "year_from": 2014,
-            "year_to": 2017,
-            "make": "Fiat",
-            "model": "500",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1994,
-            "year_to": 2001,
-            "make": "Kia",
-            "model": "Sephia",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 2000,
-            "year_to": 2004,
-            "make": "Kia",
-            "model": "Spectra",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 2014,
-            "year_to": 2016,
-            "make": "Volkswagen",
-            "model": "Saveiro",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
+            "year_from": null,
+            "year_to": null,
+            "make": "",
+            "model": "",
+            "notes": "Parking Brake Kia",
+            "source": "title",
+            "confidence": "low"
           }
         ],
         "vehicle_labels": [
-          "2014\u20132017 Fiat 500",
-          "1994\u20132001 Kia Sephia",
-          "2000\u20132004 Kia Spectra",
-          "2014\u20132016 Volkswagen Saveiro"
+          "Parking Brake Kia"
         ],
-        "raw_compat_rows": 62,
-        "source": "ebay_listing+carlson_specs",
-        "confidence": "high",
+        "raw_compat_rows": 1,
+        "source": "carlson_specs+title",
+        "confidence": "medium",
         "ebay_item_id": "398072989873"
       },
-      "vehicle_count_raw": 62,
+      "vehicle_count_raw": 1,
       "ebay_item_id": "398072989873"
     },
     {
@@ -1589,8 +1841,8 @@
         "1997\u20132002 Subaru Legacy",
         "2000\u20132002 Subaru Outback"
       ],
-      "fitment_source": "ebay_listing+carlson_specs",
-      "fitment_confidence": "high",
+      "fitment_source": "carlson_specs",
+      "fitment_confidence": "medium",
       "fitment": {
         "part_numbers": [
           "13329"
@@ -1680,19 +1932,10 @@
             "trim_count": null
           }
         ],
-        "vehicle_labels": [
-          "2001\u20132011 Ford Courier",
-          "1998\u20132009 Ford Fiesta",
-          "2003\u20132005 Ford Ikon",
-          "2001\u20132008 Ford Ka",
-          "1998\u20132002 Subaru Forester",
-          "1997\u20132003 Subaru Impreza",
-          "1997\u20132002 Subaru Legacy",
-          "2000\u20132002 Subaru Outback"
-        ],
-        "raw_compat_rows": 217,
-        "source": "ebay_listing+carlson_specs",
-        "confidence": "high",
+        "vehicle_labels": [],
+        "raw_compat_rows": 0,
+        "source": "carlson_specs",
+        "confidence": "medium",
         "ebay_item_id": "398085066604"
       },
       "vehicle_count_raw": 217,
@@ -1722,8 +1965,8 @@
         "2004\u20132008 Toyota Highlander",
         "2001\u20132008 Toyota Solara"
       ],
-      "fitment_source": "ebay_listing+carlson_specs",
-      "fitment_confidence": "high",
+      "fitment_source": "carlson_specs",
+      "fitment_confidence": "medium",
       "fitment": {
         "part_numbers": [
           "14133"
@@ -1803,18 +2046,10 @@
             "trim_count": null
           }
         ],
-        "vehicle_labels": [
-          "2004\u20132006 Lexus RX330",
-          "2007\u20132009 Lexus RX350",
-          "2006\u20132008 Lexus RX400h",
-          "2000\u20132007 Toyota Avalon",
-          "2000\u20132008 Toyota Camry",
-          "2004\u20132008 Toyota Highlander",
-          "2001\u20132008 Toyota Solara"
-        ],
-        "raw_compat_rows": 179,
-        "source": "ebay_listing+carlson_specs",
-        "confidence": "high",
+        "vehicle_labels": [],
+        "raw_compat_rows": 0,
+        "source": "carlson_specs",
+        "confidence": "medium",
         "ebay_item_id": "398081728362"
       },
       "vehicle_count_raw": 179,
@@ -1838,8 +2073,8 @@
       "vehicles": [
         "1998\u20132002 Kia Sportage"
       ],
-      "fitment_source": "ebay_listing+carlson_specs",
-      "fitment_confidence": "high",
+      "fitment_source": "carlson_specs",
+      "fitment_confidence": "medium",
       "fitment": {
         "part_numbers": [
           "14142"
@@ -1859,12 +2094,10 @@
             "trim_count": null
           }
         ],
-        "vehicle_labels": [
-          "1998\u20132002 Kia Sportage"
-        ],
-        "raw_compat_rows": 14,
-        "source": "ebay_listing+carlson_specs",
-        "confidence": "high",
+        "vehicle_labels": [],
+        "raw_compat_rows": 0,
+        "source": "carlson_specs",
+        "confidence": "medium",
         "ebay_item_id": "398081729607"
       },
       "vehicle_count_raw": 14,
@@ -1896,8 +2129,8 @@
         "2001\u20132003 Toyota Highlander",
         "1999\u20132008 Toyota Solara"
       ],
-      "fitment_source": "ebay_listing+carlson_specs",
-      "fitment_confidence": "high",
+      "fitment_source": "carlson_specs",
+      "fitment_confidence": "medium",
       "fitment": {
         "part_numbers": [
           "17390"
@@ -1997,20 +2230,10 @@
             "trim_count": null
           }
         ],
-        "vehicle_labels": [
-          "1992\u20132003 Lexus ES300",
-          "2004\u20132006 Lexus ES330",
-          "2007\u20132012 Lexus ES350",
-          "1999\u20132003 Lexus RX300",
-          "1995\u20132012 Toyota Avalon",
-          "1992\u20132011 Toyota Camry",
-          "1993\u20131999 Toyota Celica",
-          "2001\u20132003 Toyota Highlander",
-          "1999\u20132008 Toyota Solara"
-        ],
-        "raw_compat_rows": 357,
-        "source": "ebay_listing+carlson_specs",
-        "confidence": "high",
+        "vehicle_labels": [],
+        "raw_compat_rows": 0,
+        "source": "carlson_specs",
+        "confidence": "medium",
         "ebay_item_id": "398081923329"
       },
       "vehicle_count_raw": 357,
@@ -2045,8 +2268,8 @@
         "1993\u20131998 Toyota Supra",
         "2009\u20132016 Toyota Venza"
       ],
-      "fitment_source": "ebay_listing+carlson_specs",
-      "fitment_confidence": "high",
+      "fitment_source": "carlson_specs",
+      "fitment_confidence": "medium",
       "fitment": {
         "part_numbers": [
           "17393"
@@ -2176,23 +2399,10 @@
             "trim_count": null
           }
         ],
-        "vehicle_labels": [
-          "1998\u20132005 Lexus GS300",
-          "2001\u20132005 Lexus GS430",
-          "2001\u20132005 Lexus IS300",
-          "2004\u20132006 Lexus RX330",
-          "2007\u20132009 Lexus RX350",
-          "2002\u20132010 Lexus SC430",
-          "2004\u20132013 Toyota Highlander",
-          "1991\u20131997 Toyota Previa",
-          "2004\u20132005 Toyota RAV4",
-          "2004\u20132010 Toyota Sienna",
-          "1993\u20131998 Toyota Supra",
-          "2009\u20132016 Toyota Venza"
-        ],
-        "raw_compat_rows": 225,
-        "source": "ebay_listing+carlson_specs",
-        "confidence": "high",
+        "vehicle_labels": [],
+        "raw_compat_rows": 0,
+        "source": "carlson_specs",
+        "confidence": "medium",
         "ebay_item_id": "398085067068"
       },
       "vehicle_count_raw": 225,
@@ -2222,8 +2432,8 @@
         "2004 Nissan Pathfinder Armada",
         "2004\u20132015 Nissan TITAN"
       ],
-      "fitment_source": "ebay_listing+carlson_specs",
-      "fitment_confidence": "high",
+      "fitment_source": "carlson_specs",
+      "fitment_confidence": "medium",
       "fitment": {
         "part_numbers": [
           "17401"
@@ -2303,18 +2513,10 @@
             "trim_count": null
           }
         ],
-        "vehicle_labels": [
-          "2004\u20132010 INFINITI QX56",
-          "2006\u20132010 Jeep Commander",
-          "2005\u20132010 Jeep Grand Cherokee",
-          "2005\u20132015 Nissan Armada",
-          "2004 Nissan Pathfinder",
-          "2004 Nissan Pathfinder Armada",
-          "2004\u20132015 Nissan TITAN"
-        ],
-        "raw_compat_rows": 345,
-        "source": "ebay_listing+carlson_specs",
-        "confidence": "high",
+        "vehicle_labels": [],
+        "raw_compat_rows": 0,
+        "source": "carlson_specs",
+        "confidence": "medium",
         "ebay_item_id": "398085067140"
       },
       "vehicle_count_raw": 345,
@@ -2345,8 +2547,8 @@
         "2005\u20132008 Pontiac Wave",
         "2005\u20132007 Pontiac Wave5"
       ],
-      "fitment_source": "ebay_listing+carlson_specs",
-      "fitment_confidence": "high",
+      "fitment_source": "carlson_specs",
+      "fitment_confidence": "medium",
       "fitment": {
         "part_numbers": [
           "17409"
@@ -2436,19 +2638,10 @@
             "trim_count": null
           }
         ],
-        "vehicle_labels": [
-          "2004\u20132016 Chevrolet Aveo",
-          "2006\u20132011 Chevrolet Aveo5",
-          "2011\u20132015 Chevrolet Spark",
-          "2016 Chevrolet Spark Classic",
-          "2004\u20132009 Chrysler PT Cruiser",
-          "2007\u20132010 Pontiac G3",
-          "2005\u20132008 Pontiac Wave",
-          "2005\u20132007 Pontiac Wave5"
-        ],
-        "raw_compat_rows": 167,
-        "source": "ebay_listing+carlson_specs",
-        "confidence": "high",
+        "vehicle_labels": [],
+        "raw_compat_rows": 0,
+        "source": "carlson_specs",
+        "confidence": "medium",
         "ebay_item_id": "398085067223"
       },
       "vehicle_count_raw": 167,
@@ -2521,8 +2714,8 @@
         "1988 GMC V2500 Suburban",
         "1992\u20132000 GMC Yukon"
       ],
-      "fitment_source": "ebay_listing+carlson_specs",
-      "fitment_confidence": "high",
+      "fitment_source": "carlson_specs",
+      "fitment_confidence": "medium",
       "fitment": {
         "part_numbers": [
           "H2587"
@@ -3032,61 +3225,10 @@
             "trim_count": null
           }
         ],
-        "vehicle_labels": [
-          "1991\u20131992 Cadillac Brougham",
-          "1996 Cadillac Commercial Chassis",
-          "1999\u20132000 Cadillac Escalade",
-          "1993\u20131996 Cadillac Fleetwood",
-          "1989\u20131994 Chevrolet Blazer",
-          "1992\u20131999 Chevrolet C1500",
-          "1992\u20131999 Chevrolet C1500 Suburban",
-          "1989\u20131999 Chevrolet C2500",
-          "1992\u20131999 Chevrolet C2500 Suburban",
-          "1990\u20131995 Chevrolet C3500",
-          "1996\u20132002 Chevrolet Express 1500",
-          "1996\u20132002 Chevrolet Express 2500",
-          "1989\u20131995 Chevrolet G10",
-          "1989\u20131995 Chevrolet G20",
-          "1989\u20131996 Chevrolet G30",
-          "1988\u20131999 Chevrolet K1500",
-          "1992\u20131999 Chevrolet K1500 Suburban",
-          "1989\u20132000 Chevrolet K2500",
-          "1993\u20131999 Chevrolet K2500 Suburban",
-          "1989 Chevrolet P20",
-          "1989\u20131991 Chevrolet R1500 Suburban",
-          "1988 Chevrolet R20 Suburban",
-          "1989 Chevrolet R2500",
-          "1989\u20131991 Chevrolet R2500 Suburban",
-          "1995\u20132000 Chevrolet Tahoe",
-          "1989\u20131991 Chevrolet V1500 Suburban",
-          "1988 Chevrolet V20 Suburban",
-          "1989\u20131990 Chevrolet V2500 Suburban",
-          "1992\u20131999 GMC C1500",
-          "1993\u20131999 GMC C1500 Suburban",
-          "1988\u20131999 GMC C2500",
-          "1992\u20131999 GMC C2500 Suburban",
-          "1990\u20131995 GMC C3500",
-          "1988\u20131994 GMC G1500",
-          "1988\u20131995 GMC G2500",
-          "1988\u20131996 GMC G3500",
-          "1990 GMC Jimmy",
-          "1988\u20131999 GMC K1500",
-          "1993\u20131999 GMC K1500 Suburban",
-          "1988\u20132000 GMC K2500",
-          "1992\u20131999 GMC K2500 Suburban",
-          "1989 GMC P2500",
-          "1988\u20131991 GMC R1500 Suburban",
-          "1989 GMC R2500",
-          "1988 GMC R2500 Suburban",
-          "1996\u20132002 GMC Savana 1500",
-          "1997\u20132002 GMC Savana 2500",
-          "1990 GMC V1500 Suburban",
-          "1988 GMC V2500 Suburban",
-          "1992\u20132000 GMC Yukon"
-        ],
-        "raw_compat_rows": 3000,
-        "source": "ebay_listing+carlson_specs",
-        "confidence": "high",
+        "vehicle_labels": [],
+        "raw_compat_rows": 0,
+        "source": "carlson_specs",
+        "confidence": "medium",
         "ebay_item_id": "398081924673"
       },
       "vehicle_count_raw": 3000,
@@ -3127,8 +3269,8 @@
         "1983\u20131986 Mercury Marquis",
         "1978\u20131983 Mercury Zephyr"
       ],
-      "fitment_source": "ebay_listing+carlson_specs",
-      "fitment_confidence": "high",
+      "fitment_source": "carlson_specs",
+      "fitment_confidence": "medium",
       "fitment": {
         "part_numbers": [
           "H2596"
@@ -3318,29 +3460,10 @@
             "trim_count": null
           }
         ],
-        "vehicle_labels": [
-          "1986\u20131992 Ford Aerostar",
-          "1984\u20131990 Ford Bronco II",
-          "1985\u20131988 Ford Cougar",
-          "1978\u20131983 Ford Fairmont",
-          "1981\u20131982 Ford Granada",
-          "1979\u20131993 Ford Mustang",
-          "1974\u20131978 Ford Mustang II",
-          "1971\u20131980 Ford Pinto",
-          "1983\u20131994 Ford Ranger",
-          "1980\u20131988 Ford Thunderbird",
-          "1994 Mazda B2300",
-          "1994 Mazda B3000",
-          "1994 Mazda B4000",
-          "1975\u20131980 Mercury Bobcat",
-          "1979\u20131986 Mercury Capri",
-          "1980\u20131988 Mercury Cougar",
-          "1983\u20131986 Mercury Marquis",
-          "1978\u20131983 Mercury Zephyr"
-        ],
-        "raw_compat_rows": 1469,
-        "source": "ebay_listing+carlson_specs",
-        "confidence": "high",
+        "vehicle_labels": [],
+        "raw_compat_rows": 0,
+        "source": "carlson_specs",
+        "confidence": "medium",
         "ebay_item_id": "398081926955"
       },
       "vehicle_count_raw": 1469,
@@ -3396,8 +3519,8 @@
         "1985\u20131987 Pontiac Grand Prix",
         "1985\u20131986 Pontiac Parisienne"
       ],
-      "fitment_source": "ebay_listing+carlson_specs",
-      "fitment_confidence": "high",
+      "fitment_source": "carlson_specs",
+      "fitment_confidence": "medium",
       "fitment": {
         "part_numbers": [
           "H2623"
@@ -3737,44 +3860,10 @@
             "trim_count": null
           }
         ],
-        "vehicle_labels": [
-          "1985 Buick LeSabre",
-          "1985\u20131987 Buick Regal",
-          "1985\u20132002 Chevrolet Astro",
-          "1995\u20132003 Chevrolet Blazer",
-          "1985\u20131997 Chevrolet Camaro",
-          "1994\u20131996 Chevrolet Caprice",
-          "1985\u20131987 Chevrolet El Camino",
-          "1987\u20131995 Chevrolet LLV",
-          "1985\u20131988 Chevrolet Monte Carlo",
-          "1985\u20132003 Chevrolet S10",
-          "1985\u20131994 Chevrolet S10 Blazer",
-          "1985\u20131987 GMC Caballero",
-          "1992\u20131997 GMC Jimmy",
-          "1985\u20131990 GMC S15",
-          "1985\u20131991 GMC S15 Jimmy",
-          "1985\u20132002 GMC Safari",
-          "1991\u20132003 GMC Sonoma",
-          "1991 GMC Syclone",
-          "1992\u20131993 GMC Typhoon",
-          "1996\u20132000 Isuzu Hombre",
-          "1985 Oldsmobile 98",
-          "1991\u20131996 Oldsmobile Bravada",
-          "1985 Oldsmobile Custom Cruiser",
-          "1985\u20131987 Oldsmobile Cutlass",
-          "1988 Oldsmobile Cutlass Calais",
-          "1987\u20131988 Oldsmobile Cutlass Cruiser",
-          "1985\u20131987 Oldsmobile Cutlass Salon",
-          "1985\u20131988 Oldsmobile Cutlass Supreme",
-          "1985 Oldsmobile Delta 88",
-          "1985\u20131986 Pontiac Bonneville",
-          "1985\u20131997 Pontiac Firebird",
-          "1985\u20131987 Pontiac Grand Prix",
-          "1985\u20131986 Pontiac Parisienne"
-        ],
-        "raw_compat_rows": 1671,
-        "source": "ebay_listing+carlson_specs",
-        "confidence": "high",
+        "vehicle_labels": [],
+        "raw_compat_rows": 0,
+        "source": "carlson_specs",
+        "confidence": "medium",
         "ebay_item_id": "398081736319"
       },
       "vehicle_count_raw": 1671,
@@ -3809,8 +3898,8 @@
         "1992\u20131999 GMC K1500 Suburban",
         "1992\u20131999 GMC Yukon"
       ],
-      "fitment_source": "ebay_listing+carlson_specs",
-      "fitment_confidence": "high",
+      "fitment_source": "carlson_specs",
+      "fitment_confidence": "medium",
       "fitment": {
         "part_numbers": [
           "H2640"
@@ -3940,23 +4029,10 @@
             "trim_count": null
           }
         ],
-        "vehicle_labels": [
-          "1992\u20131994 Chevrolet Blazer",
-          "1988\u20131999 Chevrolet C1500",
-          "1992\u20131999 Chevrolet C1500 Suburban",
-          "1988\u20131999 Chevrolet K1500",
-          "1996\u20131999 Chevrolet Suburban 1500",
-          "1995\u20132002 Chevrolet Tahoe",
-          "1988\u20131999 GMC C1500",
-          "1992\u20131999 GMC C1500 Suburban",
-          "1996\u20131999 GMC C2500 Suburban",
-          "1988\u20131999 GMC K1500",
-          "1992\u20131999 GMC K1500 Suburban",
-          "1992\u20131999 GMC Yukon"
-        ],
-        "raw_compat_rows": 1733,
-        "source": "ebay_listing+carlson_specs",
-        "confidence": "high",
+        "vehicle_labels": [],
+        "raw_compat_rows": 0,
+        "source": "carlson_specs",
+        "confidence": "medium",
         "ebay_item_id": "398081854295"
       },
       "vehicle_count_raw": 1733,
@@ -3991,8 +4067,8 @@
         "1992\u20131999 GMC K1500 Suburban",
         "1992\u20131999 GMC Yukon"
       ],
-      "fitment_source": "ebay_listing+carlson_specs",
-      "fitment_confidence": "high",
+      "fitment_source": "carlson_specs",
+      "fitment_confidence": "medium",
       "fitment": {
         "part_numbers": [
           "H2641"
@@ -4122,23 +4198,10 @@
             "trim_count": null
           }
         ],
-        "vehicle_labels": [
-          "1992\u20131994 Chevrolet Blazer",
-          "1988\u20131999 Chevrolet C1500",
-          "1992\u20131999 Chevrolet C1500 Suburban",
-          "1988\u20131999 Chevrolet K1500",
-          "1996\u20131999 Chevrolet Suburban 1500",
-          "1995\u20132002 Chevrolet Tahoe",
-          "1988\u20131999 GMC C1500",
-          "1992\u20131999 GMC C1500 Suburban",
-          "1996\u20131999 GMC C2500 Suburban",
-          "1988\u20131999 GMC K1500",
-          "1992\u20131999 GMC K1500 Suburban",
-          "1992\u20131999 GMC Yukon"
-        ],
-        "raw_compat_rows": 1733,
-        "source": "ebay_listing+carlson_specs",
-        "confidence": "high",
+        "vehicle_labels": [],
+        "raw_compat_rows": 0,
+        "source": "carlson_specs",
+        "confidence": "medium",
         "ebay_item_id": "398081854393"
       },
       "vehicle_count_raw": 1733,
@@ -4189,8 +4252,8 @@
         "1996\u20131997 Pontiac Sunfire",
         "1992\u20131999 Pontiac Trans Sport"
       ],
-      "fitment_source": "ebay_listing+carlson_specs",
-      "fitment_confidence": "high",
+      "fitment_source": "carlson_specs",
+      "fitment_confidence": "medium",
       "fitment": {
         "part_numbers": [
           "H2644"
@@ -4480,39 +4543,10 @@
             "trim_count": null
           }
         ],
-        "vehicle_labels": [
-          "1993\u20132000 Buick Century",
-          "1991\u20131999 Buick LeSabre",
-          "1992\u20131996 Buick Park Avenue",
-          "1997\u20132002 Buick Regal",
-          "1993 Cadillac 60 Special",
-          "1992\u20131993 Cadillac DeVille",
-          "1992 Cadillac Fleetwood",
-          "1995\u20132002 Chevrolet Cavalier",
-          "1995\u20132001 Chevrolet Lumina",
-          "1992\u20131996 Chevrolet Lumina APV",
-          "1995\u20131996 Chevrolet Lumina Van",
-          "1997\u20132000 Chevrolet Malibu",
-          "1995\u20131999 Chevrolet Monte Carlo",
-          "1992\u20131999 Oldsmobile 88",
-          "1992\u20131996 Oldsmobile 98",
-          "1991\u20131992 Oldsmobile Custom Cruiser",
-          "1997\u20131999 Oldsmobile Cutlass",
-          "1993\u20131996 Oldsmobile Cutlass Ciera",
-          "1989\u20131994 Oldsmobile Cutlass Cruiser",
-          "1991 Oldsmobile Delta 88",
-          "1996\u20131999 Oldsmobile LSS",
-          "1997\u20131998 Oldsmobile Regency",
-          "1992\u20132000 Oldsmobile Silhouette",
-          "1991\u20131999 Pontiac Bonneville",
-          "1999\u20132000 Pontiac Grand Am",
-          "1999\u20132000 Pontiac Montana",
-          "1996\u20131997 Pontiac Sunfire",
-          "1992\u20131999 Pontiac Trans Sport"
-        ],
-        "raw_compat_rows": 486,
-        "source": "ebay_listing+carlson_specs",
-        "confidence": "high",
+        "vehicle_labels": [],
+        "raw_compat_rows": 0,
+        "source": "carlson_specs",
+        "confidence": "medium",
         "ebay_item_id": "398085067294"
       },
       "vehicle_count_raw": 486,
@@ -4541,8 +4575,8 @@
         "1995\u20132008 Mazda B3000",
         "1995\u20132009 Mazda B4000"
       ],
-      "fitment_source": "ebay_listing+carlson_specs",
-      "fitment_confidence": "high",
+      "fitment_source": "carlson_specs",
+      "fitment_confidence": "medium",
       "fitment": {
         "part_numbers": [
           "H2660"
@@ -4612,17 +4646,10 @@
             "trim_count": null
           }
         ],
-        "vehicle_labels": [
-          "2001 Ford F-100 Ranger",
-          "1995\u20132009 Ford Ranger",
-          "1995\u20132009 Mazda B2300",
-          "1998\u20132001 Mazda B2500",
-          "1995\u20132008 Mazda B3000",
-          "1995\u20132009 Mazda B4000"
-        ],
-        "raw_compat_rows": 585,
-        "source": "ebay_listing+carlson_specs",
-        "confidence": "high",
+        "vehicle_labels": [],
+        "raw_compat_rows": 0,
+        "source": "carlson_specs",
+        "confidence": "medium",
         "ebay_item_id": "398081931640"
       },
       "vehicle_count_raw": 585,
@@ -4652,8 +4679,8 @@
         "1996\u20132000 Plymouth Grand Voyager",
         "1996\u20132000 Plymouth Voyager"
       ],
-      "fitment_source": "ebay_listing+carlson_specs",
-      "fitment_confidence": "high",
+      "fitment_source": "carlson_specs",
+      "fitment_confidence": "medium",
       "fitment": {
         "part_numbers": [
           "H2665"
@@ -4733,18 +4760,10 @@
             "trim_count": null
           }
         ],
-        "vehicle_labels": [
-          "1996\u20132000 Chrysler Grand Voyager",
-          "1996\u20132007 Chrysler Town & Country",
-          "1996\u20132007 Chrysler Voyager",
-          "1996\u20132007 Dodge Caravan",
-          "1996\u20132006 Dodge Grand Caravan",
-          "1996\u20132000 Plymouth Grand Voyager",
-          "1996\u20132000 Plymouth Voyager"
-        ],
-        "raw_compat_rows": 519,
-        "source": "ebay_listing+carlson_specs",
-        "confidence": "high",
+        "vehicle_labels": [],
+        "raw_compat_rows": 0,
+        "source": "carlson_specs",
+        "confidence": "medium",
         "ebay_item_id": "398081933575"
       },
       "vehicle_count_raw": 519,
@@ -4777,8 +4796,8 @@
         "2006 Isuzu i-350",
         "2007\u20132008 Isuzu i-370"
       ],
-      "fitment_source": "ebay_listing+carlson_specs",
-      "fitment_confidence": "high",
+      "fitment_source": "carlson_specs",
+      "fitment_confidence": "medium",
       "fitment": {
         "part_numbers": [
           "H2696"
@@ -4888,21 +4907,10 @@
             "trim_count": null
           }
         ],
-        "vehicle_labels": [
-          "2004\u20132008 Chevrolet Colorado",
-          "2005\u20132008 Chevrolet Silverado 1500",
-          "2007 Chevrolet Silverado 1500 Classic",
-          "2004\u20132008 GMC Canyon",
-          "2005\u20132008 GMC Sierra 1500",
-          "2007 GMC Sierra 1500 Classic",
-          "2006 Isuzu i-280",
-          "2007\u20132008 Isuzu i-290",
-          "2006 Isuzu i-350",
-          "2007\u20132008 Isuzu i-370"
-        ],
-        "raw_compat_rows": 636,
-        "source": "ebay_listing+carlson_specs",
-        "confidence": "high",
+        "vehicle_labels": [],
+        "raw_compat_rows": 0,
+        "source": "carlson_specs",
+        "confidence": "medium",
         "ebay_item_id": "398081937101"
       },
       "vehicle_count_raw": 636,
@@ -4934,8 +4942,8 @@
         "1993\u20131999 Saturn SW1",
         "1993\u20132001 Saturn SW2"
       ],
-      "fitment_source": "ebay_listing+carlson_specs",
-      "fitment_confidence": "high",
+      "fitment_source": "carlson_specs",
+      "fitment_confidence": "medium",
       "fitment": {
         "part_numbers": [
           "H5608Q"
@@ -5035,20 +5043,10 @@
             "trim_count": null
           }
         ],
-        "vehicle_labels": [
-          "2013\u20132014 Chrysler 300",
-          "1991\u20131992 Saturn SC",
-          "1993\u20132002 Saturn SC1",
-          "1993\u20132002 Saturn SC2",
-          "1991\u20132002 Saturn SL",
-          "1991\u20132002 Saturn SL1",
-          "1991\u20132002 Saturn SL2",
-          "1993\u20131999 Saturn SW1",
-          "1993\u20132001 Saturn SW2"
-        ],
-        "raw_compat_rows": 77,
-        "source": "ebay_listing+carlson_specs",
-        "confidence": "high",
+        "vehicle_labels": [],
+        "raw_compat_rows": 0,
+        "source": "carlson_specs",
+        "confidence": "medium",
         "ebay_item_id": "398081742131"
       },
       "vehicle_count_raw": 77,
@@ -5086,8 +5084,8 @@
         "2000\u20132005 Pontiac Bonneville",
         "1994\u20131996 Pontiac Grand Prix"
       ],
-      "fitment_source": "ebay_listing+carlson_specs",
-      "fitment_confidence": "high",
+      "fitment_source": "carlson_specs",
+      "fitment_confidence": "medium",
       "fitment": {
         "part_numbers": [
           "H5614Q"
@@ -5247,26 +5245,10 @@
             "trim_count": null
           }
         ],
-        "vehicle_labels": [
-          "2000\u20132005 Buick LeSabre",
-          "1997\u20132005 Buick Park Avenue",
-          "1994\u20131996 Buick Regal",
-          "1992\u20131999 Buick Riviera",
-          "1993 Cadillac Allante",
-          "1994\u20132005 Cadillac DeVille",
-          "1992\u20132002 Cadillac Eldorado",
-          "1992\u20132004 Cadillac Seville",
-          "1995\u20131999 Chevrolet Lumina",
-          "1996\u20131999 Chevrolet Monte Carlo",
-          "1995\u20132003 Oldsmobile Aurora",
-          "1994\u20131997 Oldsmobile Cutlass Supreme",
-          "1992 Oldsmobile Toronado",
-          "2000\u20132005 Pontiac Bonneville",
-          "1994\u20131996 Pontiac Grand Prix"
-        ],
-        "raw_compat_rows": 282,
-        "source": "ebay_listing+carlson_specs",
-        "confidence": "high",
+        "vehicle_labels": [],
+        "raw_compat_rows": 0,
+        "source": "carlson_specs",
+        "confidence": "medium",
         "ebay_item_id": "398081938006"
       },
       "vehicle_count_raw": 282,
@@ -5302,8 +5284,8 @@
         "1997\u20132003 Pontiac Grand Prix",
         "2002\u20132004 Pontiac Montana"
       ],
-      "fitment_source": "ebay_listing+carlson_specs",
-      "fitment_confidence": "high",
+      "fitment_source": "carlson_specs",
+      "fitment_confidence": "medium",
       "fitment": {
         "part_numbers": [
           "H5626Q"
@@ -5443,24 +5425,10 @@
             "trim_count": null
           }
         ],
-        "vehicle_labels": [
-          "2008\u20132009 Buick Allure",
-          "2004\u20132005 Buick Century",
-          "2008\u20132009 Buick LaCrosse",
-          "1997\u20132004 Buick Regal",
-          "2002\u20132007 Buick Rendezvous",
-          "2000\u20132010 Chevrolet Impala",
-          "2000\u20132007 Chevrolet Monte Carlo",
-          "2002\u20132004 Chevrolet Venture",
-          "1998\u20132002 Oldsmobile Intrigue",
-          "2002\u20132004 Oldsmobile Silhouette",
-          "2001\u20132005 Pontiac Aztek",
-          "1997\u20132003 Pontiac Grand Prix",
-          "2002\u20132004 Pontiac Montana"
-        ],
-        "raw_compat_rows": 258,
-        "source": "ebay_listing+carlson_specs",
-        "confidence": "high",
+        "vehicle_labels": [],
+        "raw_compat_rows": 0,
+        "source": "carlson_specs",
+        "confidence": "medium",
         "ebay_item_id": "398081742288"
       },
       "vehicle_count_raw": 258,
@@ -5488,8 +5456,8 @@
         "1997\u20131999 Oldsmobile Cutlass",
         "1999\u20132005 Pontiac Grand Am"
       ],
-      "fitment_source": "ebay_listing+carlson_specs",
-      "fitment_confidence": "high",
+      "fitment_source": "carlson_specs",
+      "fitment_confidence": "medium",
       "fitment": {
         "part_numbers": [
           "H5631Q"
@@ -5549,16 +5517,10 @@
             "trim_count": null
           }
         ],
-        "vehicle_labels": [
-          "2004\u20132005 Chevrolet Classic",
-          "1997\u20132005 Chevrolet Malibu",
-          "1999\u20132004 Oldsmobile Alero",
-          "1997\u20131999 Oldsmobile Cutlass",
-          "1999\u20132005 Pontiac Grand Am"
-        ],
-        "raw_compat_rows": 182,
-        "source": "ebay_listing+carlson_specs",
-        "confidence": "high",
+        "vehicle_labels": [],
+        "raw_compat_rows": 0,
+        "source": "carlson_specs",
+        "confidence": "medium",
         "ebay_item_id": "398081742565"
       },
       "vehicle_count_raw": 182,
@@ -5587,8 +5549,8 @@
         "1998\u20132000 Isuzu Hombre",
         "1997\u20132001 Oldsmobile Bravada"
       ],
-      "fitment_source": "ebay_listing+carlson_specs",
-      "fitment_confidence": "high",
+      "fitment_source": "carlson_specs",
+      "fitment_confidence": "medium",
       "fitment": {
         "part_numbers": [
           "H5636"
@@ -5658,17 +5620,10 @@
             "trim_count": null
           }
         ],
-        "vehicle_labels": [
-          "1997\u20132005 Chevrolet Blazer",
-          "1997\u20132004 Chevrolet S10",
-          "1997\u20132005 GMC Jimmy",
-          "1997\u20132004 GMC Sonoma",
-          "1998\u20132000 Isuzu Hombre",
-          "1997\u20132001 Oldsmobile Bravada"
-        ],
-        "raw_compat_rows": 355,
-        "source": "ebay_listing+carlson_specs",
-        "confidence": "high",
+        "vehicle_labels": [],
+        "raw_compat_rows": 0,
+        "source": "carlson_specs",
+        "confidence": "medium",
         "ebay_item_id": "398081939912"
       },
       "vehicle_count_raw": 355,
@@ -5697,8 +5652,8 @@
         "1998\u20132000 Isuzu Hombre",
         "1997\u20132001 Oldsmobile Bravada"
       ],
-      "fitment_source": "ebay_listing+carlson_specs",
-      "fitment_confidence": "high",
+      "fitment_source": "carlson_specs",
+      "fitment_confidence": "medium",
       "fitment": {
         "part_numbers": [
           "H5637Q"
@@ -5768,17 +5723,10 @@
             "trim_count": null
           }
         ],
-        "vehicle_labels": [
-          "1997\u20132005 Chevrolet Blazer",
-          "1998\u20132004 Chevrolet S10",
-          "1997\u20132005 GMC Jimmy",
-          "1998\u20132004 GMC Sonoma",
-          "1998\u20132000 Isuzu Hombre",
-          "1997\u20132001 Oldsmobile Bravada"
-        ],
-        "raw_compat_rows": 324,
-        "source": "ebay_listing+carlson_specs",
-        "confidence": "high",
+        "vehicle_labels": [],
+        "raw_compat_rows": 0,
+        "source": "carlson_specs",
+        "confidence": "medium",
         "ebay_item_id": "398081940163"
       },
       "vehicle_count_raw": 324,
@@ -5806,8 +5754,8 @@
         "2001\u20132007 Dodge Caravan",
         "2001\u20132007 Dodge Grand Caravan"
       ],
-      "fitment_source": "ebay_listing+carlson_specs",
-      "fitment_confidence": "high",
+      "fitment_source": "carlson_specs",
+      "fitment_confidence": "medium",
       "fitment": {
         "part_numbers": [
           "H5663"
@@ -5867,16 +5815,10 @@
             "trim_count": null
           }
         ],
-        "vehicle_labels": [
-          "2001\u20132002 Chrysler Grand Voyager",
-          "2001\u20132007 Chrysler Town & Country",
-          "2001\u20132007 Chrysler Voyager",
-          "2001\u20132007 Dodge Caravan",
-          "2001\u20132007 Dodge Grand Caravan"
-        ],
-        "raw_compat_rows": 190,
-        "source": "ebay_listing+carlson_specs",
-        "confidence": "high",
+        "vehicle_labels": [],
+        "raw_compat_rows": 0,
+        "source": "carlson_specs",
+        "confidence": "medium",
         "ebay_item_id": "398079910238"
       },
       "vehicle_count_raw": 190,
@@ -5909,8 +5851,8 @@
         "2002\u20132004 Oldsmobile Bravada",
         "2005 Saab 9-7x"
       ],
-      "fitment_source": "ebay_listing+carlson_specs",
-      "fitment_confidence": "high",
+      "fitment_source": "carlson_specs",
+      "fitment_confidence": "medium",
       "fitment": {
         "part_numbers": [
           "H5667Q"
@@ -6020,21 +5962,10 @@
             "trim_count": null
           }
         ],
-        "vehicle_labels": [
-          "2004\u20132005 Buick Rainier",
-          "2003\u20132005 Chevrolet SSR",
-          "2002\u20132005 Chevrolet Trailblazer",
-          "2002\u20132005 Chevrolet Trailblazer EXT",
-          "2002\u20132005 GMC Envoy",
-          "2002\u20132005 GMC Envoy XL",
-          "2004\u20132005 GMC Envoy XUV",
-          "2003\u20132005 Isuzu Ascender",
-          "2002\u20132004 Oldsmobile Bravada",
-          "2005 Saab 9-7x"
-        ],
-        "raw_compat_rows": 104,
-        "source": "ebay_listing+carlson_specs",
-        "confidence": "high",
+        "vehicle_labels": [],
+        "raw_compat_rows": 0,
+        "source": "carlson_specs",
+        "confidence": "medium",
         "ebay_item_id": "398081940540"
       },
       "vehicle_count_raw": 104,
@@ -6056,11 +5987,10 @@
         "117.67005"
       ],
       "vehicles": [
-        "2000\u20132002 Dodge Dakota",
-        "2000\u20132002 Dodge Durango"
+        "Ford F-Series / E-Series"
       ],
-      "fitment_source": "ebay_listing+carlson_specs",
-      "fitment_confidence": "high",
+      "fitment_source": "carlson_specs+title",
+      "fitment_confidence": "medium",
       "fitment": {
         "part_numbers": [
           "H5675"
@@ -6070,36 +6000,24 @@
         ],
         "vehicles": [
           {
-            "year_from": 2000,
-            "year_to": 2002,
-            "make": "Dodge",
-            "model": "Dakota",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 2000,
-            "year_to": 2002,
-            "make": "Dodge",
-            "model": "Durango",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
+            "year_from": null,
+            "year_to": null,
+            "make": "",
+            "model": "",
+            "notes": "Ford F-Series / E-Series",
+            "source": "title",
+            "confidence": "low"
           }
         ],
         "vehicle_labels": [
-          "2000\u20132002 Dodge Dakota",
-          "2000\u20132002 Dodge Durango"
+          "Ford F-Series / E-Series"
         ],
-        "raw_compat_rows": 130,
-        "source": "ebay_listing+carlson_specs",
-        "confidence": "high",
+        "raw_compat_rows": 1,
+        "source": "carlson_specs+title",
+        "confidence": "medium",
         "ebay_item_id": "398070091739"
       },
-      "vehicle_count_raw": 130,
+      "vehicle_count_raw": 1,
       "ebay_item_id": "398070091739"
     },
     {
@@ -6124,8 +6042,8 @@
         "2003\u20132020 GMC Savana 2500",
         "2003\u20132020 GMC Savana 3500"
       ],
-      "fitment_source": "ebay_listing+carlson_specs",
-      "fitment_confidence": "high",
+      "fitment_source": "carlson_specs",
+      "fitment_confidence": "medium",
       "fitment": {
         "part_numbers": [
           "H5750Q"
@@ -6185,16 +6103,10 @@
             "trim_count": null
           }
         ],
-        "vehicle_labels": [
-          "2003\u20132020 Chevrolet Express 2500",
-          "2003\u20132020 Chevrolet Express 3500",
-          "2009\u20132016 Chevrolet Express Cargo",
-          "2003\u20132020 GMC Savana 2500",
-          "2003\u20132020 GMC Savana 3500"
-        ],
-        "raw_compat_rows": 2203,
-        "source": "ebay_listing+carlson_specs",
-        "confidence": "high",
+        "vehicle_labels": [],
+        "raw_compat_rows": 0,
+        "source": "carlson_specs",
+        "confidence": "medium",
         "ebay_item_id": "398081742963"
       },
       "vehicle_count_raw": 2203,
@@ -6228,7 +6140,8 @@
       },
       "vehicle_count_raw": 0,
       "ebay_item_id": "398081941437",
-      "interchange": []
+      "interchange": [],
+      "vehicles": []
     },
     {
       "id": "MVORQ6SQ7RP5JWOPX7ULXKUU",
@@ -6262,7 +6175,8 @@
         "ebay_item_id": "398081854616"
       },
       "vehicle_count_raw": 0,
-      "ebay_item_id": "398081854616"
+      "ebay_item_id": "398081854616",
+      "vehicles": []
     },
     {
       "id": "E4FVHDJYHINOZ4RGHAIINOYW",
@@ -6345,7 +6259,8 @@
         "ebay_item_id": "398080322662"
       },
       "vehicle_count_raw": 0,
-      "ebay_item_id": "398080322662"
+      "ebay_item_id": "398080322662",
+      "vehicles": []
     },
     {
       "id": "WWT36JXFOVHFIPPT7OXWBUTF",
@@ -6379,7 +6294,8 @@
         "ebay_item_id": "398081941738"
       },
       "vehicle_count_raw": 0,
-      "ebay_item_id": "398081941738"
+      "ebay_item_id": "398081941738",
+      "vehicles": []
     },
     {
       "id": "PDNCGK5GZLLDUON7DLWH5XJ6",
@@ -6413,7 +6329,8 @@
         "ebay_item_id": "398081743945"
       },
       "vehicle_count_raw": 0,
-      "ebay_item_id": "398081743945"
+      "ebay_item_id": "398081743945",
+      "vehicles": []
     },
     {
       "id": "QQ4UASMFRAGBOQ3EF5OZGK3D",
@@ -6447,7 +6364,8 @@
         "ebay_item_id": "398081744136"
       },
       "vehicle_count_raw": 0,
-      "ebay_item_id": "398081744136"
+      "ebay_item_id": "398081744136",
+      "vehicles": []
     },
     {
       "id": "VVJ5DBQ6U4A7PU2A3P5SCSHS",
@@ -6481,7 +6399,8 @@
         "ebay_item_id": "398081745085"
       },
       "vehicle_count_raw": 0,
-      "ebay_item_id": "398081745085"
+      "ebay_item_id": "398081745085",
+      "vehicles": []
     },
     {
       "id": "7QVRIXU7MJO67CDOOVA5ODR4",
@@ -6515,7 +6434,8 @@
         "ebay_item_id": "398081745345"
       },
       "vehicle_count_raw": 0,
-      "ebay_item_id": "398081745345"
+      "ebay_item_id": "398081745345",
+      "vehicles": []
     },
     {
       "id": "GCYBELIKT4IDG4FXQEUQZM2O",
@@ -6549,7 +6469,8 @@
         "ebay_item_id": "398081745474"
       },
       "vehicle_count_raw": 0,
-      "ebay_item_id": "398081745474"
+      "ebay_item_id": "398081745474",
+      "vehicles": []
     },
     {
       "id": "OIEKBY47T4B7SOUC5WDL34PA",
@@ -6583,7 +6504,8 @@
         "ebay_item_id": "398070178226"
       },
       "vehicle_count_raw": 0,
-      "ebay_item_id": "398070178226"
+      "ebay_item_id": "398070178226",
+      "vehicles": []
     },
     {
       "id": "DPRSU7RX4SKAHPRFDDTPFKZR",
@@ -6622,7 +6544,12 @@
         "ebay_item_id": "398081262922"
       },
       "vehicle_count_raw": 1,
-      "ebay_item_id": "398081262922"
+      "ebay_item_id": "398081262922",
+      "part_numbers": [
+        "ZX603A"
+      ],
+      "interchange": []
     }
-  ]
+  ],
+  "fitment_built": "2026-08-04T05:20:13Z"
 }
