@@ -378,7 +378,41 @@
     document.getElementById("twitterDesc").setAttribute("content", desc);
     document.getElementById("twitterImage").setAttribute("content", imgUrl);
 
-    // Product schema under Store WebSite
+    // Product schema under Store WebSite (GSC merchant listing fields on offers)
+    const shippingDetails = {
+      "@type": "OfferShippingDetails",
+      shippingRate: { "@type": "MonetaryAmount", value: "0", currency: "USD" },
+      shippingDestination: { "@type": "DefinedRegion", addressCountry: "US" },
+      deliveryTime: {
+        "@type": "ShippingDeliveryTime",
+        handlingTime: {
+          "@type": "QuantitativeValue",
+          minValue: 1,
+          maxValue: 3,
+          unitCode: "DAY",
+        },
+        transitTime: {
+          "@type": "QuantitativeValue",
+          minValue: 2,
+          maxValue: 7,
+          unitCode: "DAY",
+        },
+      },
+    };
+    const hasMerchantReturnPolicy = isCore(item)
+      ? {
+          "@type": "MerchantReturnPolicy",
+          applicableCountry: "US",
+          returnPolicyCategory: "https://schema.org/MerchantReturnNotPermitted",
+        }
+      : {
+          "@type": "MerchantReturnPolicy",
+          applicableCountry: "US",
+          returnPolicyCategory: "https://schema.org/MerchantReturnFiniteReturnWindow",
+          merchantReturnDays: 30,
+          returnMethod: "https://schema.org/ReturnByMail",
+          returnFees: "https://schema.org/FreeReturn",
+        };
     const schema = {
       "@context": "https://schema.org",
       "@type": "Product",
@@ -407,6 +441,8 @@
           name: "BuccaneerSalvage Store",
           url: "https://buccaneersalvage.github.io/store.html",
         },
+        shippingDetails,
+        hasMerchantReturnPolicy,
       },
     };
     document.getElementById("productSchema").textContent = JSON.stringify(schema);

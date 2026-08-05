@@ -33,6 +33,55 @@ def is_core(c):
     return c in ("turbo", "pump")
 
 
+def offer_shipping_details():
+    """US Ground from Carbondale PA — free shipping (matches Buc eBay/store practice)."""
+    return {
+        "@type": "OfferShippingDetails",
+        "shippingRate": {
+            "@type": "MonetaryAmount",
+            "value": "0",
+            "currency": "USD",
+        },
+        "shippingDestination": {
+            "@type": "DefinedRegion",
+            "addressCountry": "US",
+        },
+        "deliveryTime": {
+            "@type": "ShippingDeliveryTime",
+            "handlingTime": {
+                "@type": "QuantitativeValue",
+                "minValue": 1,
+                "maxValue": 3,
+                "unitCode": "DAY",
+            },
+            "transitTime": {
+                "@type": "QuantitativeValue",
+                "minValue": 2,
+                "maxValue": 7,
+                "unitCode": "DAY",
+            },
+        },
+    }
+
+
+def offer_return_policy(category):
+    """Cores: no returns. Other stock: 30-day mail return (seller-paid)."""
+    if is_core(category):
+        return {
+            "@type": "MerchantReturnPolicy",
+            "applicableCountry": "US",
+            "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted",
+        }
+    return {
+        "@type": "MerchantReturnPolicy",
+        "applicableCountry": "US",
+        "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+        "merchantReturnDays": 30,
+        "returnMethod": "https://schema.org/ReturnByMail",
+        "returnFees": "https://schema.org/FreeReturn",
+    }
+
+
 def safe_checkout(u):
     s = str(u or "").strip()
     if not s.startswith("http"):
@@ -115,6 +164,8 @@ def main() -> None:
                     "name": "BuccaneerSalvage Store",
                     "url": f"{BASE}/store.html",
                 },
+                "shippingDetails": offer_shipping_details(),
+                "hasMerchantReturnPolicy": offer_return_policy(item.get("category")),
             },
         }
         if price_n is not None:
