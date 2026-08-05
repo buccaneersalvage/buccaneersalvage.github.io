@@ -34,7 +34,7 @@ def is_core(c):
 
 
 def offer_shipping_details():
-    """US Ground from Carbondale PA — free shipping (matches Buc eBay/store practice)."""
+    """US Ground from Carbondale PA — free UPS Ground where available (Square store SEO)."""
     return {
         "@type": "OfferShippingDetails",
         "shippingRate": {
@@ -65,7 +65,7 @@ def offer_shipping_details():
 
 
 def offer_return_policy(category):
-    """Cores: no returns. Other stock: 30-day mail return (seller-paid)."""
+    """Cores: no returns. Other stock: 14-day mail return, buyer pays (Square product copy)."""
     if is_core(category):
         return {
             "@type": "MerchantReturnPolicy",
@@ -76,9 +76,10 @@ def offer_return_policy(category):
         "@type": "MerchantReturnPolicy",
         "applicableCountry": "US",
         "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
-        "merchantReturnDays": 30,
+        "merchantReturnDays": 14,
         "returnMethod": "https://schema.org/ReturnByMail",
-        "returnFees": "https://schema.org/FreeReturn",
+        # Square product copy: buyer pays return shipping (amount varies)
+        "returnFees": "https://schema.org/ReturnFeesCustomerResponsibility",
     }
 
 

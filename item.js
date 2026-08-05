@@ -399,6 +399,7 @@
         },
       },
     };
+    // Match Square product copy: 14-day returns, buyer pays return shipping; cores no returns
     const hasMerchantReturnPolicy = isCore(item)
       ? {
           "@type": "MerchantReturnPolicy",
@@ -409,9 +410,9 @@
           "@type": "MerchantReturnPolicy",
           applicableCountry: "US",
           returnPolicyCategory: "https://schema.org/MerchantReturnFiniteReturnWindow",
-          merchantReturnDays: 30,
+          merchantReturnDays: 14,
           returnMethod: "https://schema.org/ReturnByMail",
-          returnFees: "https://schema.org/FreeReturn",
+          returnFees: "https://schema.org/ReturnFeesCustomerResponsibility",
         };
     const schema = {
       "@context": "https://schema.org",
