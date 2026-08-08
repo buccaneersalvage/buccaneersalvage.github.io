@@ -1,8 +1,9 @@
 # NOT HONORED BY GITHUB PAGES — use HTML <meta http-equiv> CSP / nosniff / referrer.
-# Kept as documentation for a future host that supports Cloudflare-style _headers.
+# Kept as documentation for a future host (Cloudflare Pages / Netlify) that supports _headers.
+# Live GH Pages only sends HSTS from GitHub itself; frame-ancestors cannot be set via meta CSP.
+# Arch-review 2026-08-08: do not assume this file applies until DNS moves off raw github.io.
 
 
-# Apply to all paths
 /*
   # Content Security Policy — allow YT thumbs + Google Fonts used by hub pages
   Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://img.youtube.com https://i.ytimg.com https:; font-src 'self' data:; connect-src 'self'; base-uri 'self'; form-action 'self'; frame-ancestors 'self'; object-src 'none'

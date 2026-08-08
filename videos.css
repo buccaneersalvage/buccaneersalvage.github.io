@@ -1,6 +1,12 @@
 /* The Dark Fleet — videos page styles (extracted from videos.html monolith)
    Loaded after hub styles.css for shared tokens; page-specific chrome lives here.
 */
+/* Mobile font stability (arch-review 2026-08-08) */
+html {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
 :root {
   /* Align with hub design system where names overlap */
   --gold: #c5a028;
