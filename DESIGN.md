@@ -9,9 +9,8 @@
 | Surface | URL | Role |
 |---------|-----|------|
 | **Hub** | https://buccaneersalvage.github.io/ | Flagship: music, lanes, ports, brand thesis |
-| **Store (GH)** | https://buccaneersalvage.github.io/store.html | Parts catalog UI (god-mode CSS shared) |
-| **Square** | https://buccaneersalvage.square.site/ | Checkout |
-| **eBay** | https://www.ebay.com/str/buccaneersalvage | Marketplace listings |
+| **Store (primary)** | https://buccaneersalvage.github.io/store.html | Parts catalog + checkout (own store) |
+| **eBay (secondary)** | https://www.ebay.com/str/buccaneersalvage | Marketplace listings |
 | **YouTube** | https://www.youtube.com/@BuccaneerSalvage | Dark AI music / Rustjack |
 
 **Captain:** Cap'n Jules the Rustjack · Carbondale PA **18407**  

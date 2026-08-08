@@ -14,8 +14,12 @@ Fill the Business Profile form with the fields below. Hub already matches this N
 |--------|--------|
 | **Business name** | BuccaneerSalvage |
 | **Category (primary)** | Used Auto Parts Store |
+| **Category (additional)** | Auto Parts Store |
 | **Category (additional)** | Scrap Metal Dealer |
-| **Category (additional)** | Electronics Recycler |
+| **Category (additional)** | Junk Dealer *or* Antique Store (for industrial / collectible relics) |
+| **Category (additional)** | Electronics Recycler *(only if you really take e-waste for a fee)* |
+
+**Category strategy (2026-08-08):** Lead with **auto parts / cores** so truck buyers find you. Scrap + relics are secondary categories + description services — not primary “antique shop” (that attracts the wrong Maps queries). Cores stay under used auto parts.
 | **Phone** | (570) 468-2901 |
 | **Website** | https://buccaneersalvage.github.io/ |
 | **Email** (if asked) | jollyroger1480@gmail.com |
