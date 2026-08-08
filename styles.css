@@ -26,8 +26,8 @@
   /* Text */
   --parchment: #f3ead8;
   --parchment-light: #eee4d4;
-  --parchment-muted: rgba(243, 234, 216, 0.68);
-  --parchment-faint: rgba(243, 234, 216, 0.42);
+  --parchment-muted: rgba(243, 234, 216, 0.82);
+  --parchment-faint: rgba(243, 234, 216, 0.68);
 
   /* Type */
   --font-display: "Cormorant Garamond", "Times New Roman", Georgia, serif;
@@ -905,7 +905,7 @@ ul { list-style: none; }
   max-width: 34ch;
   line-height: 1.55;
 }
-.footer h4 {
+.footer h2, .footer h4 {
   font-family: var(--font-mono);
   font-size: 0.68rem;
   letter-spacing: 0.16em;
@@ -1116,7 +1116,7 @@ ul { list-style: none; }
   font-size: var(--text-xs);
   letter-spacing: 0.28em;
   text-transform: uppercase;
-  color: var(--parchment-faint);
+  color: var(--parchment-muted);
   padding: 0.85rem 1.75rem;
   white-space: nowrap;
 }
@@ -1266,11 +1266,11 @@ ul { list-style: none; }
   font-family: var(--font-mono, monospace);
   font-size: 0.72rem;
   letter-spacing: 0.04em;
-  color: var(--parchment-faint, #8a7f6a);
+  color: var(--parchment-faint, #b5aa98);
   margin-bottom: 0.85rem;
 }
 .st-breadcrumb a {
-  color: var(--parchment-muted, #c4b59a);
+  color: var(--parchment-muted, #d4c8b0);
   text-decoration: none;
 }
 .st-breadcrumb a:hover { color: var(--gold-bright, #d4af37); }
@@ -1292,7 +1292,7 @@ ul { list-style: none; }
 .st-sub {
   margin: 0;
   max-width: 48ch;
-  color: var(--parchment-muted, #c4b59a);
+  color: var(--parchment-muted, #d4c8b0);
   font-size: 0.98rem;
   line-height: 1.5;
 }
@@ -1311,11 +1311,11 @@ ul { list-style: none; }
 .st-checkout-note {
   margin: 1rem 0 0;
   font-size: 0.86rem;
-  color: var(--parchment-faint, #8a7f6a);
+  color: var(--parchment-faint, #b5aa98);
   max-width: 62ch;
   line-height: 1.45;
 }
-.st-checkout-note strong { color: var(--parchment-muted, #c4b59a); font-weight: 600; }
+.st-checkout-note strong { color: var(--parchment-muted, #d4c8b0); font-weight: 600; }
 
 /* Trust strip — eBay style */
 .st-trust {
@@ -1348,7 +1348,7 @@ ul { list-style: none; }
 .st-trust-item span {
   display: block;
   font-size: 0.75rem;
-  color: var(--parchment-faint, #8a7f6a);
+  color: var(--parchment-faint, #b5aa98);
   line-height: 1.3;
 }
 
@@ -1368,7 +1368,7 @@ ul { list-style: none; }
 }
 .st-section-head p {
   margin: 0;
-  color: var(--parchment-muted, #c4b59a);
+  color: var(--parchment-muted, #d4c8b0);
   font-size: 0.9rem;
   max-width: 55ch;
 }
@@ -1417,7 +1417,7 @@ ul { list-style: none; }
   font-size: 0.92rem;
   font-family: inherit;
 }
-.st-search input::placeholder { color: var(--parchment-faint, #8a7f6a); }
+.st-search input::placeholder { color: var(--parchment-faint, #b5aa98); }
 .st-search input:focus,
 .st-sort select:focus {
   outline: 2px solid rgba(212, 175, 55, 0.55);
@@ -1432,7 +1432,7 @@ ul { list-style: none; }
   appearance: none;
   border: 1px solid rgba(197, 160, 40, 0.28);
   background: transparent;
-  color: var(--parchment-muted, #c4b59a);
+  color: var(--parchment-muted, #d4c8b0);
   font-family: var(--font-mono, monospace);
   font-size: 0.7rem;
   letter-spacing: 0.04em;
@@ -1508,7 +1508,7 @@ ul { list-style: none; }
   display: grid;
   place-items: center;
   height: 100%;
-  color: var(--parchment-faint, #8a7f6a);
+  color: var(--parchment-faint, #b5aa98);
   font-size: 1.5rem;
 }
 .st-ribbon {
@@ -1610,7 +1610,7 @@ ul { list-style: none; }
 .st-loading,
 .st-empty {
   grid-column: 1 / -1;
-  color: var(--parchment-muted, #c4b59a);
+  color: var(--parchment-muted, #d4c8b0);
   font-size: 0.95rem;
   padding: 1rem 0;
 }
@@ -1637,7 +1637,7 @@ ul { list-style: none; }
   font-family: var(--font-mono, monospace);
   font-size: 0.78rem;
   letter-spacing: 0.03em;
-  color: var(--parchment-faint, #8a7f6a);
+  color: var(--parchment-faint, #b5aa98);
 }
 
 .st-page-size select {
@@ -1706,7 +1706,7 @@ ul { list-style: none; }
   font-size: 0.68rem;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  color: var(--parchment-faint, #8a7f6a);
+  color: var(--parchment-faint, #b5aa98);
 }
 .st-facets .st-chips {
   flex-direction: column;
@@ -1761,7 +1761,7 @@ ul { list-style: none; }
   margin: 0.35rem 0 0.55rem;
   font-size: 0.72rem;
   line-height: 1.35;
-  color: var(--parchment-faint, #8a7f6a);
+  color: var(--parchment-faint, #b5aa98);
 }
 .st-price-hint code {
   font-family: var(--font-mono, ui-monospace, monospace);
@@ -1769,7 +1769,7 @@ ul { list-style: none; }
   color: var(--gold-bright, #e8c547);
 }
 .st-price-sep {
-  color: var(--parchment-faint, #8a7f6a);
+  color: var(--parchment-faint, #b5aa98);
   flex-shrink: 0;
 }
 .st-facet-apply,
@@ -1797,7 +1797,7 @@ ul { list-style: none; }
   margin-top: 0.85rem;
   background: transparent;
   border: 1px dashed rgba(197, 160, 40, 0.28);
-  color: var(--parchment-muted, #c4b59a);
+  color: var(--parchment-muted, #d4c8b0);
 }
 .st-facet-clear:hover {
   border-style: solid;
@@ -1857,7 +1857,7 @@ ul { list-style: none; }
   font-family: var(--font-mono, monospace);
   font-size: 0.78rem;
   letter-spacing: 0.03em;
-  color: var(--parchment-faint, #8a7f6a);
+  color: var(--parchment-faint, #b5aa98);
 }
 
 /* List.js injects <li><a class="page">N</a></li> */
@@ -1889,7 +1889,7 @@ ul.pagination a {
   border-radius: 8px;
   border: 1px solid rgba(197, 160, 40, 0.28);
   background: #16120e;
-  color: var(--parchment-muted, #c4b59a);
+  color: var(--parchment-muted, #d4c8b0);
   font-family: var(--font-mono, monospace);
   font-size: 0.8rem;
   font-weight: 600;
@@ -1998,7 +1998,7 @@ ul.pagination .disabled .page {
   align-items: center;
   gap: 0.5rem;
   font-size: 0.9rem;
-  color: var(--parchment-muted, #c4b59a);
+  color: var(--parchment-muted, #d4c8b0);
 }
 .pdp-breadcrumb a {
   color: var(--gold-bright, #d4af37);
@@ -2010,7 +2010,7 @@ ul.pagination .disabled .page {
   text-decoration: underline;
 }
 .pdp-breadcrumb span {
-  color: var(--parchment-muted, #c4b59a);
+  color: var(--parchment-muted, #d4c8b0);
 }
 
 .pdp-content {
@@ -2160,7 +2160,7 @@ ul.pagination .disabled .page {
 .pdp-fitment-list {
   margin: 0;
   padding: 0 0 0 1.1rem;
-  color: var(--parchment-muted, #c4b59a);
+  color: var(--parchment-muted, #d4c8b0);
   font-size: 0.92rem;
   line-height: 1.45;
 }
@@ -2185,7 +2185,7 @@ ul.pagination .disabled .page {
 .pdp-meta p {
   margin: 0;
   font-size: 0.9rem;
-  color: var(--parchment-muted, #c4b59a);
+  color: var(--parchment-muted, #d4c8b0);
   line-height: 1.5;
 }
 .pdp-meta strong {
@@ -2204,7 +2204,7 @@ ul.pagination .disabled .page {
 }
 .pdp-error p {
   font-size: 1rem;
-  color: var(--parchment-muted, #c4b59a);
+  color: var(--parchment-muted, #d4c8b0);
   margin-bottom: 2rem;
 }
 

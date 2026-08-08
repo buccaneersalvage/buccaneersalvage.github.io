@@ -16,7 +16,7 @@ html {
   --void: #050403;
   --ink: #0c0907;
   --parchment: #f3ead8;
-  --parchment-muted: rgba(243, 234, 216, 0.68);
+  --parchment-muted: rgba(243, 234, 216, 0.82);
   --font-display: "Cormorant Garamond", "Times New Roman", Georgia, serif;
   --font-body: "Outfit", system-ui, -apple-system, sans-serif;
 }
@@ -32,7 +32,7 @@ html {
             --accent-gold: var(--gold-mid);
             --accent-brass: #c9a961;
             --text: #f0f0f0;
-            --text-light: #b0b0b0;
+            --text-light: #c9c2b4;
             --border: #3a3a3a;
             --ease: cubic-bezier(0.22, 1, 0.36, 1);
         }
@@ -353,7 +353,7 @@ html {
             font-size: 0.78rem;
             letter-spacing: 0.1em;
             text-transform: uppercase;
-            color: var(--text-light);
+            color: #d4cbb8;
             white-space: nowrap;
             flex: 0 0 auto;
         }
@@ -772,7 +772,7 @@ html {
         }
         /* Footer */
         footer {
-            background: rgba(10, 8, 4, 0.95);
+            background: #0a0804;
             border-top: 1px solid var(--accent-gold);
             padding: 4rem 2rem;
             text-align: center;
@@ -796,21 +796,22 @@ html {
         }
 
         .social-links a {
-            color: var(--accent-gold);
+            color: #f0d078; /* gold-bright ≥4.5:1 on #0a0804 */
+            background: #0a0804;
             text-decoration: none;
             font-weight: 600;
             transition: all 0.3s var(--ease);
             padding: 0.75rem 1.5rem;
-            border: 1px solid var(--accent-gold);
+            border: 1px solid #f0d078;
             text-transform: uppercase;
             font-size: 0.85rem;
             letter-spacing: 1px;
         }
 
         .social-links a:hover {
-            background: var(--accent-gold);
-            color: var(--primary);
-            box-shadow: 0 0 24px rgba(212, 175, 55, 0.45);
+            background: #f0d078;
+            color: #0a0804;
+            box-shadow: 0 0 24px rgba(240, 208, 120, 0.45);
             transform: translateY(-2px);
         }
 
