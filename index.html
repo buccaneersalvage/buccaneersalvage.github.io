@@ -51,9 +51,9 @@
         "name": "BuccaneerSalvage",
         "alternateName": ["Rustjack", "Cap'n Jules the Rustjack"],
         "url": "https://buccaneersalvage.github.io/",
-        "description": "BuccaneerSalvage (Cap'n Jules the Rustjack, Carbondale PA 18407): truck air springs, brake hardware, turbo and injection-pump cores as-is; free local scrap-metal removal; electronic recycling for a fee; Square store and eBay; ships US or local pickup. Dark AI music and public records on the hub.",
+        "description": "BuccaneerSalvage (Cap'n Jules the Rustjack, Carbondale PA 18407): truck parts and cores as-is; free local scrap-metal removal; electronic recycling for a fee; eBay and Square; ships US or local pickup. Dark AI music on the hub.",
         "inLanguage": "en-US",
-        "publisher": {"@id": "https://buccaneersalvage.github.io/#organization"},
+        "publisher": {"@id": "https://buccaneersalvage.github.io/#localbusiness"},
         "author": {"@id": "https://buccaneersalvage.github.io/#rustjack"},
         "sameAs": [
           "https://www.youtube.com/@BuccaneerSalvage",
@@ -65,11 +65,66 @@
         ]
       },
       {
+        "@type": ["LocalBusiness", "Store"],
+        "@id": "https://buccaneersalvage.github.io/#localbusiness",
+        "name": "BuccaneerSalvage",
+        "alternateName": ["Cap'n Jules the Rustjack", "Rustjack"],
+        "url": "https://buccaneersalvage.github.io/",
+        "telephone": "+1-570-468-2901",
+        "email": "jollyroger1480@gmail.com",
+        "image": "https://buccaneersalvage.github.io/assets/og-share.jpg",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://buccaneersalvage.github.io/assets/crest-rustjack-web.jpg"
+        },
+        "description": "Carbondale PA salvage: opportunistic truck parts and cores (as-is), free local scrap metal removal, electronic recycling for a fee. Ships US-wide; local pickup by appointment. Cap'n Jules the Rustjack.",
+        "priceRange": "$$",
+        "currenciesAccepted": "USD",
+        "paymentAccepted": "Cash, Credit Card, Debit Card, PayPal, Cash App",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Carbondale",
+          "addressRegion": "PA",
+          "postalCode": "18407",
+          "addressCountry": "US"
+        },
+        "areaServed": [
+          {"@type": "City", "name": "Carbondale"},
+          {"@type": "AdministrativeArea", "name": "Lackawanna County"},
+          {"@type": "Country", "name": "United States"}
+        ],
+        "openingHoursSpecification": {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+          "opens": "09:00",
+          "closes": "17:00",
+          "description": "By appointment — call or text"
+        },
+        "founder": {"@id": "https://buccaneersalvage.github.io/#rustjack"},
+        "sameAs": [
+          "https://www.youtube.com/@BuccaneerSalvage",
+          "https://x.com/jollyroger1480",
+          "https://www.ebay.com/str/buccaneersalvage",
+          "https://buccaneersalvage.square.site/",
+          "https://cash.app/$jollyroger1480"
+        ],
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "Yard & parts",
+          "itemListElement": [
+            {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Free local scrap metal removal", "description": "We haul scrap metal at no charge in the local Carbondale PA area by appointment."}},
+            {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Electronic recycling / e-waste", "description": "E-waste recycling for a fee — not free. Call or text to schedule."}},
+            {"@type": "Offer", "itemOffered": {"@type": "Product", "name": "Truck parts and salvage cores", "description": "Opportunistic truck parts, air springs, brakes, turbo and pump cores as-is — shop eBay and the online store."}}
+          ]
+        }
+      },
+      {
         "@type": "Organization",
         "@id": "https://buccaneersalvage.github.io/#organization",
         "name": "BuccaneerSalvage",
         "url": "https://buccaneersalvage.github.io/",
-        "description": "Carbondale, PA salvage and truck-parts yard: air springs, Carlson brake hardware, Mack Holset turbo and injection-pump cores for parts/rebuild as-is; free local scrap metal removal; electronic recycling (e-waste) for a fee; online catalog with secure Square checkout and eBay store BuccaneerSalvage. Ships US-wide; local pickup by appointment at 18407. Also home of Cap'n Jules the Rustjack dark AI music.",
+        "telephone": "+1-570-468-2901",
+        "email": "jollyroger1480@gmail.com",
         "logo": {
           "@type": "ImageObject",
           "url": "https://buccaneersalvage.github.io/assets/crest-rustjack-web.jpg"
@@ -83,7 +138,6 @@
           "postalCode": "18407",
           "addressCountry": "US"
         },
-        "areaServed": {"@type": "Country", "name": "United States"},
         "sameAs": [
           "https://www.youtube.com/@BuccaneerSalvage",
           "https://x.com/jollyroger1480",
@@ -98,6 +152,8 @@
         "name": "Cap'n Jules the Rustjack",
         "alternateName": ["Julian Deuerlein", "Rustjack", "jollyroger1480"],
         "url": "https://buccaneersalvage.github.io/",
+        "email": "jollyroger1480@gmail.com",
+        "telephone": "+1-570-468-2901",
         "image": "https://buccaneersalvage.github.io/assets/crest-rustjack-web.jpg",
         "jobTitle": "Creator · salvager · dark AI music",
         "homeLocation": {
@@ -117,9 +173,9 @@
         "@id": "https://buccaneersalvage.github.io/#webpage",
         "url": "https://buccaneersalvage.github.io/",
         "name": "BuccaneerSalvage — Parts, Scrap & Music | PA",
-        "description": "Hub for BuccaneerSalvage: truck parts and cores store, free local scrap-metal removal, electronic recycling for a fee, dark AI music, eBay, and public records. Carbondale, PA 18407.",
+        "description": "Hub for BuccaneerSalvage: truck parts and cores, free local scrap-metal removal, electronic recycling for a fee, dark AI music, eBay. Carbondale, PA 18407. Call or text (570) 468-2901.",
         "isPartOf": {"@id": "https://buccaneersalvage.github.io/#website"},
-        "about": {"@id": "https://buccaneersalvage.github.io/#organization"},
+        "about": {"@id": "https://buccaneersalvage.github.io/#localbusiness"},
         "primaryImageOfPage": {
           "@type": "ImageObject",
           "url": "https://buccaneersalvage.github.io/assets/og-share.jpg"
@@ -130,21 +186,14 @@
         "@type": "ItemList",
         "@id": "https://buccaneersalvage.github.io/#destinations",
         "name": "BuccaneerSalvage destinations",
-        "numberOfItems": 13,
+        "numberOfItems": 6,
         "itemListElement": [
-          {"@type": "ListItem", "position": 1, "name": "YouTube @BuccaneerSalvage", "url": "https://www.youtube.com/@BuccaneerSalvage"},
-          {"@type": "ListItem", "position": 2, "name": "X @jollyroger1480", "url": "https://x.com/jollyroger1480"},
-          {"@type": "ListItem", "position": 3, "name": "eBay BuccaneerSalvage", "url": "https://www.ebay.com/str/buccaneersalvage"},
-          {"@type": "ListItem", "position": 4, "name": "BuccaneerSalvage Store", "url": "https://buccaneersalvage.github.io/store.html"},
-          {"@type": "ListItem", "position": 5, "name": "Ukiri public WARNING (multi-page)", "url": "https://buccaneersalvage.github.io/ukiri/"},
-          {"@type": "ListItem", "position": 6, "name": "Jossy's Auto record", "url": "https://buccaneersalvage.github.io/ukiri/jossys.html"},
-          {"@type": "ListItem", "position": 7, "name": "Ukiri Global Foundation record", "url": "https://buccaneersalvage.github.io/ukiri/charity.html"},
-          {"@type": "ListItem", "position": 8, "name": "Money trail", "url": "https://buccaneersalvage.github.io/ukiri/money-trail.html"},
-          {"@type": "ListItem", "position": 9, "name": "Evidence & contradictions", "url": "https://buccaneersalvage.github.io/ukiri/evidence.html"},
-          {"@type": "ListItem", "position": 10, "name": "Timeline", "url": "https://buccaneersalvage.github.io/ukiri/timeline.html"},
-          {"@type": "ListItem", "position": 11, "name": "Accountability", "url": "https://buccaneersalvage.github.io/ukiri/accountability.html"},
-          {"@type": "ListItem", "position": 12, "name": "Support", "url": "https://buccaneersalvage.github.io/ukiri/support.html"},
-          {"@type": "ListItem", "position": 13, "name": "Cash App $jollyroger1480", "url": "https://cash.app/$jollyroger1480"}
+          {"@type": "ListItem", "position": 1, "name": "eBay BuccaneerSalvage (shop the hold)", "url": "https://www.ebay.com/str/buccaneersalvage"},
+          {"@type": "ListItem", "position": 2, "name": "Local scrap & e-waste", "url": "https://buccaneersalvage.github.io/#local"},
+          {"@type": "ListItem", "position": 3, "name": "BuccaneerSalvage Store", "url": "https://buccaneersalvage.github.io/store.html"},
+          {"@type": "ListItem", "position": 4, "name": "YouTube @BuccaneerSalvage", "url": "https://www.youtube.com/@BuccaneerSalvage"},
+          {"@type": "ListItem", "position": 5, "name": "Ukiri public WARNING", "url": "https://buccaneersalvage.github.io/ukiri/"},
+          {"@type": "ListItem", "position": 6, "name": "X @jollyroger1480", "url": "https://x.com/jollyroger1480"}
         ]
       }
     ]
@@ -176,8 +225,8 @@
         <a href="#about">About</a>
       </nav>
 
-      <a class="nav-cta" href="https://www.youtube.com/@BuccaneerSalvage" target="_blank" rel="noopener noreferrer">
-        Watch
+      <a class="nav-cta" href="https://www.ebay.com/str/buccaneersalvage" target="_blank" rel="noopener noreferrer">
+        Shop eBay
         <svg width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden="true">
           <path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
         </svg>
@@ -191,10 +240,13 @@
       <a href="index.html" aria-current="page">Home</a>
       <a href="store.html">Store</a>
       <a href="videos.html">Music library</a>
+      <a href="https://www.ebay.com/str/buccaneersalvage" target="_blank" rel="noopener noreferrer">Shop eBay</a>
+      <a href="#local">Scrap &amp; e-waste</a>
       <a href="#destinations">Destinations</a>
       <a href="https://www.youtube.com/@BuccaneerSalvage" target="_blank" rel="noopener noreferrer">YouTube</a>
+      <a href="tel:+15704682901">Call/text (570) 468-2901</a>
+      <a href="mailto:jollyroger1480@gmail.com">jollyroger1480@gmail.com</a>
       <a href="https://x.com/jollyroger1480" target="_blank" rel="noopener noreferrer">X @jollyroger1480</a>
-      <a href="https://www.ebay.com/str/buccaneersalvage" target="_blank" rel="noopener noreferrer">eBay Store</a>
       <a href="/ukiri/">Ukiri Fraud Report</a>
       <a href="/ukiri/jossys.html">Ukiri · Shop (Jossy’s)</a>
       <a href="/ukiri/charity.html">Ukiri · Charity record</a>
@@ -223,16 +275,19 @@
             Ships US-wide; pickup by appointment in Carbondale, PA 18407.
           </p>
           <div class="hero-actions">
-            <a class="btn btn-primary" href="https://www.youtube.com/@BuccaneerSalvage" target="_blank" rel="noopener noreferrer">
-              Enter the channel
+            <a class="btn btn-primary" href="https://www.ebay.com/str/buccaneersalvage" target="_blank" rel="noopener noreferrer">
+              Shop the hold on eBay
             </a>
-            <a class="btn btn-ghost" href="#destinations">
-              All destinations
+            <a class="btn btn-ghost" href="#local">
+              Local scrap &amp; e-waste
+            </a>
+            <a class="btn btn-ghost" href="https://www.youtube.com/@BuccaneerSalvage" target="_blank" rel="noopener noreferrer">
+              YouTube channel
             </a>
           </div>
           <div class="hero-meta">
-            <span>@BuccaneerSalvage</span>
-            <span>Parts · Scrap · E-waste</span>
+            <a href="tel:+15704682901" style="color:inherit;text-decoration:none">(570) 468-2901</a>
+            <a href="mailto:jollyroger1480@gmail.com" style="color:inherit;text-decoration:none">jollyroger1480@gmail.com</a>
             <span>Pickup PA 18407</span>
           </div>
         </div>
@@ -291,37 +346,17 @@
         <header class="section-head reveal">
           <div>
             <p class="section-kicker">The fleet</p>
-            <h2 class="section-title">Four ports. One flag.</h2>
+            <h2 class="section-title">Shop first. Local next. Channel after.</h2>
           </div>
           <p class="section-aside">
-            Pick where the wind takes you — cinema on YouTube, loot on eBay,
-            the BuccaneerSalvage Store, or the public record on Ukiri.
+            Opportunistic hold — whatever washed up this week. Money lives on eBay;
+            scrap and e-waste are local; music is the channel; Ukiri is the public record.
           </p>
         </header>
 
         <div class="bento">
           <a
             class="port reveal"
-            href="https://www.youtube.com/@BuccaneerSalvage"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <div class="port-media">
-              <img src="assets/hero-atmosphere-web.jpg" alt="BuccaneerSalvage YouTube channel atmosphere showing dark AI music aesthetic" width="960" height="540" loading="lazy" />
-            </div>
-            <div class="port-body">
-              <span class="port-tag yt">YouTube</span>
-              <h3>YouTube channel</h3>
-              <p>Dark AI music videos, Late Night with Rustjack, and the full BuccaneerSalvage sound. Subscribe and ride the waves.</p>
-              <span class="port-go">
-                Watch now
-                <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
-              </span>
-            </div>
-          </a>
-
-          <a
-            class="port reveal reveal-delay-1"
             href="https://www.ebay.com/str/buccaneersalvage"
             target="_blank"
             rel="noopener noreferrer"
@@ -330,11 +365,29 @@
               <img src="assets/port-treasure-web.jpg" alt="BuccaneerSalvage eBay store - air springs, brake kits, vintage industrial salvage treasure" width="800" height="400" loading="lazy" />
             </div>
             <div class="port-body">
-              <span class="port-tag ebay">eBay store</span>
-              <h3>Rusty mechanical treasures</h3>
-              <p>Air springs, brake kits, cores, and yard finds. Free USPS on many lots · local pickup Carbondale · same flag as the Square store.</p>
+              <span class="port-tag ebay">1 · eBay</span>
+              <h3>Shop the hold</h3>
+              <p>Primary store. Air springs, brakes, cores, industrial, electronics, lots — whatever is listed now. Free USPS on many lots · pickup Carbondale by appointment.</p>
               <span class="port-go">
-                Browse the store
+                Browse eBay
+                <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </span>
+            </div>
+          </a>
+
+          <a
+            class="port reveal reveal-delay-1"
+            href="#local"
+          >
+            <div class="port-media">
+              <img src="assets/port-treasure-web.jpg" alt="Local scrap metal haul and e-waste recycling Carbondale PA" width="800" height="400" loading="lazy" style="object-position: 30% center;" />
+            </div>
+            <div class="port-body">
+              <span class="port-tag sq">2 · Local</span>
+              <h3>Scrap free · e-waste for a fee</h3>
+              <p>Carbondale / NEPA: free scrap metal haul by appointment. Electronic recycling is paid — not free. Call or text to schedule.</p>
+              <span class="port-go">
+                Contact the yard
                 <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
               </span>
             </div>
@@ -342,15 +395,15 @@
 
           <a
             class="port reveal reveal-delay-2"
-            href="https://buccaneersalvage.github.io/store.html"
+            href="store.html"
           >
             <div class="port-media">
               <img src="assets/port-treasure-web.jpg" alt="BuccaneerSalvage Store - browse truck parts online with secure checkout" width="640" height="400" loading="lazy" style="object-position: 70% center;" />
             </div>
             <div class="port-body">
-              <span class="port-tag sq">Store</span>
-              <h3>BuccaneerSalvage Store</h3>
-              <p>Truck air springs, Carlson brakes, turbo &amp; pump cores — browse here, secure Square checkout. Yard: free scrap haul · e-waste for a fee.</p>
+              <span class="port-tag sq">Store catalog</span>
+              <h3>Browse on this site</h3>
+              <p>Search and filter the hold here; secure Square checkout when you buy. Same flag as eBay — stock moves with the tide.</p>
               <span class="port-go">
                 Open store
                 <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
@@ -360,6 +413,26 @@
 
           <a
             class="port reveal reveal-delay-3"
+            href="https://www.youtube.com/@BuccaneerSalvage"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div class="port-media">
+              <img src="assets/hero-atmosphere-web.jpg" alt="BuccaneerSalvage YouTube channel atmosphere showing dark AI music aesthetic" width="960" height="540" loading="lazy" />
+            </div>
+            <div class="port-body">
+              <span class="port-tag yt">3 · YouTube</span>
+              <h3>YouTube channel</h3>
+              <p>Dark AI music, Late Night with Rustjack, haul clips. Brand and story — not the checkout.</p>
+              <span class="port-go">
+                Watch
+                <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </span>
+            </div>
+          </a>
+
+          <a
+            class="port reveal"
             href="/ukiri/"
           >
             <div class="port-media">
@@ -369,9 +442,9 @@
               <span class="port-tag rec">Public WARNING</span>
               <h3>Jossy’s Auto + fake charity</h3>
               <p>
-                Warning to others: do not send money to <strong>Jossy’s Auto</strong> (Anderson, IN)
+                Do not send money to <strong>Jossy’s Auto</strong> (Anderson, IN)
                 or the <strong>Ukiri Global Foundation</strong> “charity.”
-                Multi-page public record — shop, charity, money trail, evidence, timeline — separate from the store.
+                Public record — separate from the store.
               </p>
               <span class="port-go">
                 Open warning site
@@ -380,6 +453,47 @@
             </div>
           </a>
         </div>
+      </div>
+    </section>
+
+    <section class="section" id="local" style="padding-top: 0;">
+      <div class="shell">
+        <article class="about reveal">
+          <div class="about-visual" aria-hidden="true"></div>
+          <div class="about-copy">
+            <p class="section-kicker">Yard services · Carbondale PA</p>
+            <h2>Free scrap · e-waste for a fee</h2>
+            <p>
+              <strong style="color:var(--gold-bright);font-weight:600">Local only</strong> —
+              free <strong>scrap metal removal</strong> (we haul scrap at no charge, by appointment)
+              and <strong>electronic recycling / e-waste for a fee</strong> (not free).
+              Pickup and drop by appointment in the Carbondale / NEPA area.
+            </p>
+            <p>
+              Call or text <a href="tel:+15704682901" style="color:var(--gold-bright)">(570) 468-2901</a>
+              · email <a href="mailto:jollyroger1480@gmail.com" style="color:var(--gold-bright)">jollyroger1480@gmail.com</a>.
+              Hours: by appointment, roughly Mon–Sat 9a–5p.
+            </p>
+            <p>
+              Online parts ship US-wide from the <a href="https://www.ebay.com/str/buccaneersalvage" style="color:var(--gold-bright)">eBay store</a>
+              or <a href="store.html" style="color:var(--gold-bright)">site catalog</a>. Local services feed the hold — not a junkyard open to walk-ins.
+            </p>
+            <dl class="about-stats">
+              <div>
+                <dt>Phone</dt>
+                <dd><a href="tel:+15704682901" style="color:inherit;text-decoration:none">(570) 468-2901</a></dd>
+              </div>
+              <div>
+                <dt>Email</dt>
+                <dd><a href="mailto:jollyroger1480@gmail.com" style="color:inherit;text-decoration:none;font-size:0.85em">Gmail</a></dd>
+              </div>
+              <div>
+                <dt>Port</dt>
+                <dd>PA 18407</dd>
+              </div>
+            </dl>
+          </div>
+        </article>
       </div>
     </section>
 
@@ -413,8 +527,8 @@
                 <dd>PA 18407</dd>
               </div>
               <div>
-                <dt>Support</dt>
-                <dd>$jollyroger1480</dd>
+                <dt>Phone</dt>
+                <dd><a href="tel:+15704682901" style="color:inherit;text-decoration:none">(570) 468-2901</a></dd>
               </div>
               <div>
                 <dt>Captain</dt>
@@ -455,8 +569,11 @@
       <div>
         <h4>Contact</h4>
         <div class="footer-links">
+          <a href="tel:+15704682901">(570) 468-2901</a>
+          <a href="mailto:jollyroger1480@gmail.com">jollyroger1480@gmail.com</a>
+          <a href="#local">Scrap &amp; e-waste (local)</a>
           <a href="https://cash.app/$jollyroger1480" target="_blank" rel="noopener noreferrer">Cash App $jollyroger1480</a>
-          <span style="color: var(--parchment-faint); font-size: var(--text-sm);">Carbondale, PA 18407</span>
+          <span class="footer-address">Carbondale, PA 18407 · by appointment</span>
         </div>
       </div>
     </div>
