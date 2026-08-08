@@ -35,7 +35,7 @@
   <link rel="apple-touch-icon" href="assets/crest-rustjack-web.jpg" />
   <link rel="preload" href="assets/fonts.css" as="style" />
   <link rel="stylesheet" href="assets/fonts.css" />
-  <link rel="stylesheet" href="styles.css?v=godmode4" />
+  <link rel="stylesheet" href="styles.css?v=godmode5" />
   <script type="application/ld+json" id="productSchema">
   {
     "@context": "https://schema.org",
@@ -198,33 +198,48 @@
   <footer role="contentinfo" class="footer">
     <div class="shell footer-grid">
       <div class="footer-brand">
-        <strong>BuccaneerSalvage Store</strong>
-        <p>Search · filter · page through the catalog. Secure checkout when you buy.</p>
+        <div class="footer-brand-row">
+          <img class="footer-crest" src="assets/crest-rustjack-web.jpg" width="44" height="44" alt="" />
+          <div>
+            <strong>BuccaneerSalvage Store</strong>
+            <div class="footer-brand-tag">Product · checkout</div>
+          </div>
+        </div>
+        <p>Secure checkout · ships from Carbondale, PA. Hub store first; eBay secondary.</p>
       </div>
       <div>
-        <h4>Destinations</h4>
-        <div class="footer-links">
-          <a href="index.html">Hub home</a>
-          <a href="store.html">Store</a>
-          <a href="https://www.ebay.com/str/buccaneersalvage" target="_blank" rel="noopener noreferrer">eBay store</a>
-          <a href="videos.html">Video Gallery</a>
-          <a href="/ukiri/">Ukiri Fraud Report</a>
-        </div>
+        <h4>Ports of call</h4>
+        <nav class="footer-ports" aria-label="Destinations">
+          <a class="footer-port footer-port--primary" href="store.html">
+            <span class="footer-port-ico" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M6 6h15l-1.5 9h-12z"/><circle cx="9" cy="20" r="1.5"/><circle cx="18" cy="20" r="1.5"/><path d="M6 6 5 3H2"/></svg></span>
+            <span class="footer-port-meta"><span class="footer-port-label">Catalog</span><span class="footer-port-sub">Back to store</span></span>
+          </a>
+          <a class="footer-port" href="index.html">
+            <span class="footer-port-ico" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 3 3 10v11h6v-6h6v6h6V10z"/></svg></span>
+            <span class="footer-port-meta"><span class="footer-port-label">Hub</span><span class="footer-port-sub">Home</span></span>
+          </a>
+          <a class="footer-port" href="https://www.ebay.com/str/buccaneersalvage" target="_blank" rel="noopener noreferrer">
+            <span class="footer-port-ico" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 7h16v2H4zm1 4h14l-1 8H6z"/></svg></span>
+            <span class="footer-port-meta"><span class="footer-port-label">eBay</span><span class="footer-port-sub">Secondary</span></span>
+          </a>
+          <a class="footer-port footer-port--alert" href="/ukiri/">
+            <span class="footer-port-ico" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 2 1 21h22L12 2zm0 6 5.5 11h-11L12 8z"/></svg></span>
+            <span class="footer-port-meta"><span class="footer-port-label">Ukiri</span><span class="footer-port-sub">Fraud report</span></span>
+          </a>
+        </nav>
       </div>
       <div>
         <h4>Contact</h4>
-        <div class="footer-links">
-          <a href="tel:+15704682901">(570) 468-2901</a>
-          <a href="mailto:jollyroger1480@gmail.com">jollyroger1480@gmail.com</a>
-          <a href="index.html#local">Scrap &amp; e-waste (local)</a>
-          <a href="https://cash.app/$jollyroger1480" target="_blank" rel="noopener noreferrer">Cash App $jollyroger1480</a>
-          <span class="footer-address">Carbondale, PA 18407 · by appointment</span>
+        <div class="footer-contact">
+          <a href="tel:+15704682901"><span class="footer-contact-ico" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M6.6 10.8a15 15 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.24c1.1.37 2.3.57 3.5.57a1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.2.2 2.4.57 3.5a1 1 0 0 1-.25 1L6.6 10.8z"/></svg></span>(570) 468-2901</a>
+          <a href="mailto:jollyroger1480@gmail.com"><span class="footer-contact-ico" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M3 5h18v14H3V5zm0 0 9 7 9-7"/></svg></span>jollyroger1480@gmail.com</a>
+          <span class="footer-address"><span class="footer-contact-ico" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 1 3 5v6c0 5.5 3.8 10.7 9 12 5.2-1.3 9-6.5 9-12V5l-9-4z"/></svg></span>Ships from PA 18407</span>
         </div>
       </div>
     </div>
     <div class="shell footer-bottom">
       <span>© <span id="y"></span> Rustjack · BuccaneerSalvage</span>
-      <span>Secure checkout · ships from Carbondale, PA</span>
+      <div class="footer-bottom-links"><span>Secure checkout · Carbondale, PA</span></div>
     </div>
   </footer>
 
