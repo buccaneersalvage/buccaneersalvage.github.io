@@ -341,19 +341,14 @@
   function cardHtml(item, { featured = false } = {}) {
     const core = isCore(item);
     const href = `p/${encodeURIComponent(item.id)}.html`;
-    const imgUrl = cardImageUrl(item);
-    const imgFallback = safeImageUrl(item.image);
+    // Prefer local thumb; else Square original. No inline onerror (CSP script-src 'self').
+    const imgUrl = cardImageUrl(item) || safeImageUrl(item.image);
     const price = item.price != null ? Number(item.price) : "";
     const priceLabel = money(item.price);
     const imgAlt = (item.name || catLabel(item.category) || "Part").slice(0, 120);
-    const onerr = imgFallback && imgFallback !== imgUrl
-      ? ` onerror="this.onerror=null;this.src='${escapeAttr(imgFallback)}'"`
-      : "";
     const img = imgUrl
-      ? `<img class="st-img" src="${escapeAttr(imgUrl)}" alt="${escapeAttr(imgAlt)}" width="400" height="400" loading="${featured ? "eager" : "lazy"}" decoding="async"${featured ? ' fetchpriority="high"' : ""}${onerr} />`
-      : (imgFallback
-        ? `<img class="st-img" src="${escapeAttr(imgFallback)}" alt="${escapeAttr(imgAlt)}" width="400" height="400" loading="${featured ? "eager" : "lazy"}" decoding="async" />`
-        : `<div class="st-card-ph" aria-hidden="true">—</div>`);
+      ? `<img class="st-img" src="${escapeAttr(imgUrl)}" alt="${escapeAttr(imgAlt)}" width="400" height="400" loading="${featured ? "eager" : "lazy"}" decoding="async"${featured ? ' fetchpriority="high"' : ""} />`
+      : `<div class="st-card-ph" aria-hidden="true">—</div>`;
     const ribbon = core ? `<span class="st-ribbon">FOR PARTS · NO RETURNS</span>` : "";
     const warn = core ? `<p class="st-warn">${escapeHtml(CORE_WARN)}</p>` : "";
     const cta = core ? "View details — for parts · no returns" : "View details";
