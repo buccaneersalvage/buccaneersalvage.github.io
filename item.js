@@ -402,20 +402,22 @@
         },
       },
     };
-    // Match Square product copy: 14-day returns, buyer pays return shipping; cores no returns
+    // This store (not eBay): 7-day unused returns, buyer pays ship; cores no returns
     const hasMerchantReturnPolicy = isCore(item)
       ? {
           "@type": "MerchantReturnPolicy",
           applicableCountry: "US",
           returnPolicyCategory: "https://schema.org/MerchantReturnNotPermitted",
+          merchantReturnLink: "https://buccaneersalvage.github.io/terms.html#no-return",
         }
       : {
           "@type": "MerchantReturnPolicy",
           applicableCountry: "US",
           returnPolicyCategory: "https://schema.org/MerchantReturnFiniteReturnWindow",
-          merchantReturnDays: 14,
+          merchantReturnDays: 7,
           returnMethod: "https://schema.org/ReturnByMail",
           returnFees: "https://schema.org/ReturnFeesCustomerResponsibility",
+          merchantReturnLink: "https://buccaneersalvage.github.io/terms.html#returns",
         };
     const schema = {
       "@context": "https://schema.org",

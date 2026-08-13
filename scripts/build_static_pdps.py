@@ -68,21 +68,22 @@ def offer_shipping_details():
 
 
 def offer_return_policy(category):
-    """Cores: no returns. Other stock: 14-day mail return, buyer pays (Square product copy)."""
+    """Cores: no returns. Other stock: 7-day unused mail return, buyer pays (hub store terms)."""
     if is_core(category):
         return {
             "@type": "MerchantReturnPolicy",
             "applicableCountry": "US",
             "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted",
+            "merchantReturnLink": "https://buccaneersalvage.github.io/terms.html#no-return",
         }
     return {
         "@type": "MerchantReturnPolicy",
         "applicableCountry": "US",
         "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
-        "merchantReturnDays": 14,
+        "merchantReturnDays": 7,
         "returnMethod": "https://schema.org/ReturnByMail",
-        # Square product copy: buyer pays return shipping (amount varies)
         "returnFees": "https://schema.org/ReturnFeesCustomerResponsibility",
+        "merchantReturnLink": "https://buccaneersalvage.github.io/terms.html#returns",
     }
 
 
@@ -220,7 +221,7 @@ def main() -> None:
   <meta name="twitter:image" content="{esc(img)}" />
   <link rel="icon" type="image/jpeg" href="../assets/crest-rustjack-web.jpg" />
   <link rel="stylesheet" href="../assets/fonts.css" />
-  <link rel="stylesheet" href="../styles.css?v=godmode6" />
+  <link rel="stylesheet" href="../styles.css?v=godmode7" />
   <script type="application/ld+json">{json.dumps(schema, ensure_ascii=False)}</script>
 </head>
 <body class="page-item">
@@ -266,6 +267,7 @@ def main() -> None:
             <p><strong>Secure checkout:</strong> Card processing off-site</p>
             <p><strong>Ships from:</strong> Carbondale, PA 18407</p>
             <p><strong>Local pickup:</strong> By appointment</p>
+            <p><strong>Returns:</strong> 7 days on most unused parts. Cores, opened, and used items: no returns. <a href="../terms.html#returns">Store terms</a> (not eBay rules).</p>
           </div>
         </div>
       </div>
@@ -274,7 +276,7 @@ def main() -> None:
   <footer role="contentinfo" class="footer">
     <div class="shell footer-bottom">
       <span>© 2026 Rustjack · BuccaneerSalvage Store</span>
-      <span>Secure checkout · ships from Carbondale, PA</span>
+      <span><a href="../terms.html">Terms &amp; returns</a> · ships from Carbondale, PA</span>
     </div>
   </footer>
 </body>
