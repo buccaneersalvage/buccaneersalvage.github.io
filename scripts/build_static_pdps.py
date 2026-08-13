@@ -235,6 +235,7 @@ def main() -> None:
       <nav class="nav-links" aria-label="Primary">
         <a href="../index.html">Home</a>
         <a href="../store.html">Store</a>
+        <a href="../terms.html">Terms</a>
         <a href="../videos.html">Music library</a>
         <a href="/ukiri/" class="nav-warn">Ukiri Fraud Report</a>
       </nav>
