@@ -21,6 +21,9 @@
       {
         "air-spring": "Air spring",
         brake: "Brake hardware",
+        filters: "Filter",
+        ignition: "Ignition",
+        driveline: "Driveline",
         turbo: "Turbo core",
         pump: "Pump core",
         other: "Parts",

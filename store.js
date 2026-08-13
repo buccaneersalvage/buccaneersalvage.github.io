@@ -102,6 +102,9 @@
     ({
       "air-spring": "Air spring",
       brake: "Brake hardware",
+      filters: "Filter",
+      ignition: "Ignition",
+      driveline: "Driveline",
       turbo: "Turbo core",
       pump: "Pump core",
       other: "Parts",
@@ -155,7 +158,16 @@
   }
 
   function rankCat(c) {
-    return { turbo: 0, pump: 1, "air-spring": 2, brake: 3, other: 4 }[c] ?? 9;
+    return {
+      turbo: 0,
+      pump: 1,
+      "air-spring": 2,
+      brake: 3,
+      filters: 4,
+      ignition: 5,
+      driveline: 6,
+      other: 7,
+    }[c] ?? 9;
   }
 
   /** Brand / manufacturer aliases so "chevy", "contitech", "benz" hit listings. */
@@ -320,6 +332,12 @@
       push("air spring airspring air bag airbag bag rolling lobe convoluted suspension");
     } else if (item.category === "brake") {
       push("brake brakes caliper pad drum hardware abutment pin kit");
+    } else if (item.category === "filters") {
+      push("filter filters air oil fuel transmission breather wix");
+    } else if (item.category === "ignition") {
+      push("ignition distributor cap coil spark plug wire vacuum advance");
+    } else if (item.category === "driveline") {
+      push("cv boot axle timing belt sprocket driveline");
     }
 
     // Dedupe tokens (preserve order), lowercase for List.js
@@ -380,7 +398,16 @@
   }
 
   function fillCounts() {
-    const counts = { "air-spring": 0, brake: 0, cores: 0, other: 0, all: catalog.length };
+    const counts = {
+      "air-spring": 0,
+      brake: 0,
+      filters: 0,
+      ignition: 0,
+      driveline: 0,
+      cores: 0,
+      other: 0,
+      all: catalog.length,
+    };
     catalog.forEach((i) => {
       if (isCore(i)) counts.cores++;
       else if (counts[i.category] != null) counts[i.category]++;
