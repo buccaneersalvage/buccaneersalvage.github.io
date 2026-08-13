@@ -1,7 +1,7 @@
 {
-  "updated": "2026-08-04T19:51:43Z",
-  "store": "https://buccaneersalvage.github.io/store.html",
-  "count": 92,
+  "updated": "2026-08-13T02:11:37Z",
+  "store": "https://buccaneersalvage.square.site/",
+  "count": 89,
   "items": [
     {
       "id": "S4IZBA4AG65C6HI2ZDIRMSJR",
@@ -297,40 +297,6 @@
       },
       "vehicle_count_raw": 0,
       "ebay_item_id": "398104794577"
-    },
-    {
-      "id": "ECFWBRTC7SMPBSWEJBSLJXWI",
-      "name": "Automann AB1DK23L-8856 Rolling Lobe Air Spring W01-358-8856 NOS Truck Trailer",
-      "price": 136.79,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/2f419fb5fc2896b7c6ad3f4b0075a6171117a711/original.jpeg",
-      "url": "https://square.link/u/ORFIz4Uf",
-      "category": "air-spring",
-      "checkout": true,
-      "variation_id": "Y55N7YLVHCUDMAUD4PTMBZCV",
-      "part_numbers": [
-        "Automann AB1DK23L-8856",
-        "W01-358-8856"
-      ],
-      "interchange": [
-        "W01-358-8856"
-      ],
-      "fitment_source": "title",
-      "fitment_confidence": "low",
-      "fitment": {
-        "part_numbers": [
-          "Automann AB1DK23L-8856",
-          "W01-358-8856"
-        ],
-        "interchange": [],
-        "vehicles": [],
-        "vehicle_labels": [],
-        "raw_compat_rows": 0,
-        "source": "title",
-        "confidence": "low",
-        "ebay_item_id": "398114353823"
-      },
-      "vehicle_count_raw": 0,
-      "ebay_item_id": "398114353823"
     },
     {
       "id": "SGQLZ66HITIZULIJIW7NQ27F",
@@ -837,40 +803,6 @@
       "ebay_item_id": "398027125795"
     },
     {
-      "id": "3647PYOGAQX7TBLOIUPAJ6BC",
-      "name": "Automann ABSP3B32RA-7847 Air Spring Rolling Lobe New W01-358-7847 FT 530-35 457",
-      "price": 166.49,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/78022e9b5225db05a40e2f7d808ce01efea06ed3/original.jpeg",
-      "url": "https://square.link/u/1P1IHsuc",
-      "category": "air-spring",
-      "checkout": true,
-      "variation_id": "Y2FPIT6SHTYR5QNMKFIJM44P",
-      "part_numbers": [
-        "ABSP3B32RA-7847"
-      ],
-      "interchange": [
-        "W01-358-7847"
-      ],
-      "fitment_source": "airspring_inventory",
-      "fitment_confidence": "medium",
-      "fitment": {
-        "part_numbers": [
-          "ABSP3B32RA-7847"
-        ],
-        "interchange": [
-          "W01-358-7847"
-        ],
-        "vehicles": [],
-        "vehicle_labels": [],
-        "raw_compat_rows": 0,
-        "source": "airspring_inventory",
-        "confidence": "medium",
-        "ebay_item_id": "398186059360"
-      },
-      "vehicle_count_raw": 0,
-      "ebay_item_id": "398186059360"
-    },
-    {
       "id": "MJAQDKIB2WT55I26Q552PZXS",
       "name": "Automann ABSP3B32RA-7859 Rolling Lobe Air Spring New W01-358-7859",
       "price": 193.49,
@@ -1066,56 +998,6 @@
       },
       "vehicle_count_raw": 0,
       "ebay_item_id": "398036928762"
-    },
-    {
-      "id": "7DI4HYOTVRKCB4NZKHT2ESPU",
-      "name": "Econoride 566.ER74652 Rolling Lobe Air Spring Freightliner A16-21478-001 New",
-      "price": 129.0,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/e3a02df26ec575e7fb191ec1ab4ecd981a30f418/original.jpeg",
-      "url": "https://square.link/u/VXWdBZi1",
-      "category": "air-spring",
-      "checkout": true,
-      "variation_id": "VHQPNTUA5RYEQHP2OAEGRTQY",
-      "part_numbers": [
-        "566.ER74652"
-      ],
-      "interchange": [
-        "Freightliner / Alliance: A16-21478-001",
-        "A16-21478-001"
-      ],
-      "vehicles": [
-        "Freightliner"
-      ],
-      "fitment_source": "airspring_inventory+title",
-      "fitment_confidence": "medium",
-      "fitment": {
-        "part_numbers": [
-          "566.ER74652"
-        ],
-        "interchange": [
-          "A16-21478-001"
-        ],
-        "vehicles": [
-          {
-            "year_from": null,
-            "year_to": null,
-            "make": "",
-            "model": "",
-            "notes": "Freightliner",
-            "source": "title",
-            "confidence": "low"
-          }
-        ],
-        "vehicle_labels": [
-          "Freightliner"
-        ],
-        "raw_compat_rows": 1,
-        "source": "airspring_inventory+title",
-        "confidence": "medium",
-        "ebay_item_id": "398030456836"
-      },
-      "vehicle_count_raw": 1,
-      "ebay_item_id": "398030456836"
     },
     {
       "id": "D4ZN6XUVYQDDEAEE7WMZBY37",
@@ -6500,7 +6382,7 @@
       "id": "7LZME25DD7ILWEX3MVKWH2OS",
       "name": "Boldness The Forgotten Ingredient DVD Jesse Duplantis 2007 Used Tested",
       "price": 12.99,
-      "image": "",
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/ebc68774bfce5919247f4f212d5c429991f7f77d/original.jpeg",
       "url": "https://square.link/u/VRD4G6nQ",
       "category": "other",
       "checkout": true,
@@ -6510,7 +6392,7 @@
       "id": "TD7E4YVRCTOA4IDT73LKZ6QH",
       "name": "Frigidaire Dryer Timer 131062800B Tested Working M460G Gibson",
       "price": 29.99,
-      "image": "",
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/f61742bb38872d7a31e05e617adb869dce991069/original.jpeg",
       "url": "https://square.link/u/7T5T8T1E",
       "category": "other",
       "checkout": true,
@@ -6530,7 +6412,7 @@
       "id": "TGIPWKNW5GQTGNCEPU2LTEYQ",
       "name": "Tango & Cash DVD 1989 Sylvester Stallone Kurt Russell Used Tested",
       "price": 9.99,
-      "image": "",
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/c78613fcc30ca48e6b5edf08a270222ec79ac938/original.jpeg",
       "url": "https://square.link/u/71lXuel7",
       "category": "other",
       "checkout": true,
@@ -6540,7 +6422,7 @@
       "id": "LWHWECUSOHN566PLIOES5QOO",
       "name": "Terminator 3 Rise of the Machines DVD 2-Disc Widescreen Edition Schwarzenegger",
       "price": 11.99,
-      "image": "",
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/aa273e4e1984b6220608f4acd1204fb816d79542/original.jpeg",
       "url": "https://square.link/u/oO2Sq7HY",
       "category": "other",
       "checkout": true,
