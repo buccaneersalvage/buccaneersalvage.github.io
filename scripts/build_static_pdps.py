@@ -217,7 +217,7 @@ def main() -> None:
   <meta name="twitter:image" content="{esc(img)}" />
   <link rel="icon" type="image/jpeg" href="../assets/crest-rustjack-web.jpg" />
   <link rel="stylesheet" href="../assets/fonts.css" />
-  <link rel="stylesheet" href="../styles.css?v=godmode4" />
+  <link rel="stylesheet" href="../styles.css?v=godmode6" />
   <script type="application/ld+json">{json.dumps(schema, ensure_ascii=False)}</script>
 </head>
 <body class="page-item">
