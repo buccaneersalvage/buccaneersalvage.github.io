@@ -193,8 +193,26 @@ def main():
             )
 
             # 10) static PDP drawer + item.html redirect
-            pdp = page.goto(f"{BASE}/p/7CESL5VZLPSRKJGWUFCHL5R5.html")
+            pdp = page.goto(f"{BASE}/p/7G7QMJIPJDP6N2LQV42RQS62.html")
             check("pdp loads", pdp and pdp.ok, f"status={getattr(pdp, 'status', None)}")
+            check("pdp has fitment block", page.locator(".pdp-fitment").count() == 1)
+            check(
+                "pdp shows Fits vehicles",
+                page.locator(".pdp-fitment").count() == 1
+                and "Volkswagen Beetle" in (page.text_content(".pdp-fitment") or ""),
+                "Beetle on 103-2250",
+            )
+            check(
+                "pdp shows part numbers",
+                "103-2250" in (page.text_content(".pdp-fitment") or ""),
+                "103-2250",
+            )
+            xref_pdp = page.goto(f"{BASE}/p/5LLWTR3B27YDLV6ZR6XMBPWL.html")
+            check("xref pdp loads", xref_pdp and xref_pdp.ok, f"status={getattr(xref_pdp, 'status', None)}")
+            xref_txt = page.text_content(".pdp-fitment") or ""
+            check("pdp shows interchange PN", "W01-358-8091" in xref_txt, xref_txt[:80])
+            pdp = page.goto(f"{BASE}/p/7CESL5VZLPSRKJGWUFCHL5R5.html")
+            check("pdp chrome item loads", pdp and pdp.ok, f"status={getattr(pdp, 'status', None)}")
             check("pdp has navToggle", page.locator("#navToggle").count() == 1)
             check("pdp has drawer", page.locator("#drawer").count() == 1)
             check("pdp has main.js chrome", page.locator("script[src='../main.js']").count() == 1)

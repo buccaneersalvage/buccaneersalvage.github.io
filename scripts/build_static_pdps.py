@@ -63,6 +63,97 @@ def is_core(c):
     return c in ("turbo", "pump")
 
 
+def _uniq_keep(seq):
+    out = []
+    seen = set()
+    for x in seq:
+        s = str(x or "").strip()
+        if not s or s.lower() in ("does not apply", "n/a", "na"):
+            continue
+        k = s.lower()
+        if k in seen:
+            continue
+        seen.add(k)
+        out.append(s)
+    return out
+
+
+def _split_pns(val):
+    if val is None:
+        return []
+    if isinstance(val, list):
+        bits = []
+        for v in val:
+            bits.extend(_split_pns(v))
+        return bits
+    return [p.strip() for p in re.split(r"[,;/|]+", str(val)) if p.strip()]
+
+
+def item_part_numbers(item):
+    fit = item.get("fitment") if isinstance(item.get("fitment"), dict) else {}
+    return _uniq_keep(_split_pns(item.get("part_numbers")) + _split_pns(fit.get("part_numbers")))
+
+
+def item_interchange(item):
+    fit = item.get("fitment") if isinstance(item.get("fitment"), dict) else {}
+    pns = {p.lower() for p in item_part_numbers(item)}
+    xref = _uniq_keep(_split_pns(item.get("interchange")) + _split_pns(fit.get("interchange")))
+    return [x for x in xref if x.lower() not in pns]
+
+
+def item_vehicles(item):
+    return _uniq_keep(item.get("vehicles") or [])
+
+
+def pdp_fitment_html(item, esc_t):
+    """Catalog Fits / interchange on the PDP — same data as store cards, full lists."""
+    vehs = item_vehicles(item)
+    pns = item_part_numbers(item)
+    xref = item_interchange(item)
+    if not vehs and not pns and not xref:
+        return ""
+    blocks = []
+    if pns:
+        lis = "".join(f"<li>{esc_t(p)}</li>" for p in pns)
+        blocks.append(
+            '<div class="pdp-fitment-block">'
+            '<p class="pdp-fitment-h">Part numbers</p>'
+            f'<ul class="pdp-fitment-list">{lis}</ul></div>'
+        )
+    if xref:
+        lis = "".join(f"<li>{esc_t(x)}</li>" for x in xref)
+        blocks.append(
+            '<div class="pdp-fitment-block">'
+            '<p class="pdp-fitment-h">Interchange</p>'
+            f'<ul class="pdp-fitment-list">{lis}</ul></div>'
+        )
+    if vehs:
+        lis = "".join(f"<li>{esc_t(v)}</li>" for v in vehs)
+        raw = item.get("vehicle_count_raw")
+        extra = ""
+        if isinstance(raw, int) and raw > len(vehs):
+            extra = (
+                f'<p class="pdp-fitment-note">{esc_t(str(raw))} eBay compatibility '
+                "rows collapsed to these ranges.</p>"
+            )
+        blocks.append(
+            '<div class="pdp-fitment-block">'
+            '<p class="pdp-fitment-h">Fits (examples)</p>'
+            f'<ul class="pdp-fitment-list">{lis}</ul>{extra}</div>'
+        )
+    note = (
+        '<p class="pdp-fitment-note">Confirm the part fits your application before you order. '
+        "Part numbers and example vehicles are aids, not a guarantee.</p>"
+    )
+    return (
+        '<section class="pdp-fitment" aria-label="Fitment">'
+        '<h2 class="pdp-fitment-title">Fitment</h2>'
+        + "".join(blocks)
+        + note
+        + "</section>"
+    )
+
+
 _BRAND_RE = re.compile(
     r"^(?:OEM\s+)?(Carlson|Automann|Goodyear|Continental|ContiTech|Firestone|Holset|"
     r"Mack|Wagner|Econoride|WIX|Standard(?:\s+Motor\s+Products)?|Moog|Beck/Arnley|"
@@ -327,6 +418,7 @@ def main() -> None:
             warn = '<p class="pdp-warn">FOR PARTS OR REBUILD · UNTESTED · NO RETURNS</p>'
         else:
             warn = ""
+        fitment = pdp_fitment_html(item, esc_t)
         img_tag = f'<img id="pdpMainImage" class="pdp-image" src="{esc(img)}" alt="{esc(name)}" width="600" height="600" />'
         video_el = (
             f'<video id="pdpMainVideo" class="pdp-video" controls preload="metadata" '
@@ -387,7 +479,7 @@ def main() -> None:
   <meta name="twitter:image" content="{esc(img)}" />
   <link rel="icon" type="image/jpeg" href="../assets/crest-rustjack-web.jpg" />
   <link rel="stylesheet" href="../assets/fonts.css" />
-  <link rel="stylesheet" href="../styles.css?v=godmode11" />
+  <link rel="stylesheet" href="../styles.css?v=godmode14" />
   <script type="application/ld+json">{schema_json}</script>
   <script src="../pdp-gallery.js" defer></script>
   <script src="../main.js" defer></script>
@@ -444,6 +536,7 @@ def main() -> None:
           <p class="pdp-category">{esc_t(catl)}</p>
           <p class="pdp-price">{esc_t(price or "Contact for price")}</p>
           {warn}
+          {fitment}
           <div class="pdp-cta-group">
             {cta}
             <a href="../store.html" class="btn btn-secondary">Back to store</a>
