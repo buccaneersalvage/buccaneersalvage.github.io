@@ -38,7 +38,7 @@
   <link rel="preload" href="assets/fonts.css?v=godmode11" as="style" />
   <link rel="preload" as="font" href="assets/fonts/QGYvz_MVcBeNP4NJtEtq.woff2" type="font/woff2" crossorigin />
   <link rel="stylesheet" href="assets/fonts.css?v=godmode11" />
-  <link rel="stylesheet" href="styles.css?v=godmode11" />
+  <link rel="stylesheet" href="styles.css?v=godmode13" />
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -208,21 +208,21 @@
 
           <div class="st-plp">
             <!-- Facets (commerce-ui style left rail on desktop) -->
-            <aside class="st-facets" aria-label="Filters">
+            <aside class="st-facets" id="stFacets" aria-label="Filters">
               <h3 class="st-facets-title">Refine</h3>
               <div class="st-facet-group">
                 <p class="st-facet-label">Category</p>
-                <div class="st-chips" role="group" aria-label="Category">
+                <div class="st-chips" id="stCatChips" role="group" aria-label="Category">
                   <button type="button" class="st-chip is-on" data-filter="all" aria-pressed="true">All</button>
-                  <button type="button" class="st-chip" data-filter="air-spring" aria-pressed="false">Air springs <span class="st-chip-n" data-count="air-spring">0</span></button>
-                  <button type="button" class="st-chip" data-filter="brake" aria-pressed="false">Brake <span class="st-chip-n" data-count="brake">0</span></button>
-                  <button type="button" class="st-chip" data-filter="filters" aria-pressed="false">Filters <span class="st-chip-n" data-count="filters">0</span></button>
-                  <button type="button" class="st-chip" data-filter="ignition" aria-pressed="false">Ignition <span class="st-chip-n" data-count="ignition">0</span></button>
-                  <button type="button" class="st-chip" data-filter="driveline" aria-pressed="false">Driveline <span class="st-chip-n" data-count="driveline">0</span></button>
-                  <button type="button" class="st-chip" data-filter="cores" aria-pressed="false">Cores <span class="st-chip-n" data-count="cores">0</span></button>
-                  <button type="button" class="st-chip" data-filter="vintage" aria-pressed="false">Vintage <span class="st-chip-n" data-count="vintage">0</span></button>
-                  <button type="button" class="st-chip" data-filter="other" aria-pressed="false">Other <span class="st-chip-n" data-count="other">0</span></button>
                 </div>
+              </div>
+              <div class="st-facet-group" id="stTypeGroup" hidden>
+                <p class="st-facet-label">Type</p>
+                <div class="st-chips" id="stTypeChips" role="group" aria-label="Part type"></div>
+              </div>
+              <div class="st-facet-group" id="stMakeGroup" hidden>
+                <p class="st-facet-label">Fits make</p>
+                <div class="st-chips" id="stMakeChips" role="group" aria-label="Vehicle make"></div>
               </div>
               <div class="st-facet-group">
                 <p class="st-facet-label">Price</p>
@@ -363,6 +363,6 @@
 
   <script src="main.js" defer></script>
   <script src="assets/vendor/list.min.js" defer></script>
-  <script src="store.js?v=godmode31" defer></script>
+  <script src="store.js?v=godmode32" defer></script>
 </body>
 </html>

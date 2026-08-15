@@ -88,6 +88,22 @@ def main():
             cards_gy = page.locator("#stGrid .st-card").count()
             ok_gy = 0 < n_gy < catalog_size and cards_gy > 0
             check("search Goodyear filters", ok_gy, showing_search)
+            page.fill("#stSearch", "2008 camry")
+            page.wait_for_timeout(400)
+            showing_camry = page.text_content("#stShowing").strip()
+            try:
+                n_camry = int(showing_camry.split("of")[-1].strip())
+            except Exception:
+                n_camry = 0
+            check("search 2008 camry", 0 < n_camry < catalog_size, showing_camry)
+            page.fill("#stSearch", "W01-358-8091")
+            page.wait_for_timeout(400)
+            showing_ich = page.text_content("#stShowing").strip()
+            try:
+                n_ich = int(showing_ich.split("of")[-1].strip())
+            except Exception:
+                n_ich = 0
+            check("search interchange PN", 0 < n_ich < catalog_size, showing_ich)
             page.fill("#stSearch", "")
             page.wait_for_timeout(300)
 

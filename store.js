@@ -534,27 +534,109 @@
       </article>`;
   }
 
-  function fillCounts() {
-    const counts = {
-      "air-spring": 0,
-      brake: 0,
-      filters: 0,
-      ignition: 0,
-      driveline: 0,
-      vintage: 0,
-      cores: 0,
-      other: 0,
-      all: catalog.length,
-    };
+  function catalogCounts() {
+    const counts = { all: catalog.length, cores: 0 };
     catalog.forEach((i) => {
+      const cat = i.category || "other";
+      counts[cat] = (counts[cat] || 0) + 1;
       if (isCore(i)) counts.cores++;
-      else if (counts[i.category] != null) counts[i.category]++;
-      else counts.other++;
     });
-    document.querySelectorAll("[data-count]").forEach((el) => {
-      const k = el.getAttribute("data-count");
-      el.textContent = String(counts[k] ?? 0);
+    return counts;
+  }
+
+  function typeCounts() {
+    const counts = {};
+    catalog.forEach((i) => {
+      const t = (i.ebay_type || (i.fitment && i.fitment.type) || "").trim();
+      if (!t) return;
+      const k = slugKey(t);
+      if (!k) return;
+      if (!counts[k]) counts[k] = { label: t, n: 0 };
+      counts[k].n++;
     });
+    return counts;
+  }
+
+  function makeCounts() {
+    const counts = {};
+    catalog.forEach((i) => {
+      const seen = new Set();
+      ((i.fitment && i.fitment.vehicles) || []).forEach((v) => {
+        const make = (v && v.make) || "";
+        const k = slugKey(make);
+        if (!k || seen.has(k)) return;
+        seen.add(k);
+        if (!counts[k]) counts[k] = { label: make, n: 0 };
+        counts[k].n++;
+      });
+    });
+    return counts;
+  }
+
+  function chipHtml(filter, label, n, on) {
+    const count = n != null ? ` <span class="st-chip-n" data-count="${escapeAttr(filter)}">${n}</span>` : "";
+    return `<button type="button" class="st-chip${on ? " is-on" : ""}" data-filter="${escapeAttr(filter)}" aria-pressed="${on ? "true" : "false"}">${escapeHtml(label)}${count}</button>`;
+  }
+
+  function renderFacetChips() {
+    const cats = catalogCounts();
+    const catBox = document.getElementById("stCatChips");
+    if (catBox) {
+      const bits = [chipHtml("all", "All", cats.all, category === "all" && !activeType && !activeMake)];
+      CAT_CHIP_ORDER.forEach((k) => {
+        const n = cats[k] || 0;
+        if (!n) return;
+        bits.push(chipHtml(k, CAT_CHIP_LABEL[k] || k, n, category === k && !activeType && !activeMake));
+      });
+      Object.keys(cats).forEach((k) => {
+        if (k === "all" || CAT_CHIP_ORDER.includes(k)) return;
+        if (!cats[k]) return;
+        bits.push(chipHtml(k, CAT_CHIP_LABEL[k] || catLabel(k), cats[k], category === k && !activeType && !activeMake));
+      });
+      catBox.innerHTML = bits.join("");
+    }
+
+    const types = typeCounts();
+    const typeList = Object.entries(types)
+      .filter(([, v]) => v.n >= 2)
+      .sort((a, b) => b[1].n - a[1].n || a[1].label.localeCompare(b[1].label))
+      .slice(0, 12);
+    const typeGroup = document.getElementById("stTypeGroup");
+    const typeBox = document.getElementById("stTypeChips");
+    if (typeGroup && typeBox) {
+      if (!typeList.length) {
+        typeGroup.hidden = true;
+        typeBox.innerHTML = "";
+      } else {
+        typeGroup.hidden = false;
+        typeBox.innerHTML = typeList
+          .map(([k, v]) => chipHtml("type:" + k, v.label, v.n, activeType === k))
+          .join("");
+      }
+    }
+
+    const makes = makeCounts();
+    const makeList = Object.entries(makes)
+      .filter(([, v]) => v.n >= 2)
+      .sort((a, b) => b[1].n - a[1].n || a[1].label.localeCompare(b[1].label))
+      .slice(0, 14);
+    const makeGroup = document.getElementById("stMakeGroup");
+    const makeBox = document.getElementById("stMakeChips");
+    if (makeGroup && makeBox) {
+      if (!makeList.length) {
+        makeGroup.hidden = true;
+        makeBox.innerHTML = "";
+      } else {
+        makeGroup.hidden = false;
+        makeBox.innerHTML = makeList
+          .map(([k, v]) => chipHtml("make:" + k, v.label, v.n, activeMake === k))
+          .join("");
+      }
+    }
+  }
+
+  function fillCounts() {
+    renderFacetChips();
   }
 
   function updateShowing() {
@@ -632,19 +714,26 @@
       }
     }
 
-    // Text search first (empty clears List.js searched flag)
-    list.search(textQ);
+    // Do not use List.js search() — hyphenated PNs are treated as regex (W01-358-8091).
+    list.search("");
 
     list.filter((item) => {
       const el = item.elm;
       if (!el) return false;
       const cat = el.getAttribute("data-category") || "other";
+      const rec = byId.get(el.getAttribute("data-id") || "") || null;
       const core = cat === "turbo" || cat === "pump";
-      if (category === "cores") {
+      if (activeType) {
+        if (!rec || !itemHitsType(rec, activeType)) return false;
+      } else if (activeMake) {
+        if (!rec || !itemHitsMake(rec, activeMake)) return false;
+      } else if (category === "cores") {
         if (!core) return false;
       } else if (category !== "all" && cat !== category) {
         return false;
       }
+      if (textQ && rec && !itemHitsQuery(rec, textQ)) return false;
+      if (textQ && !rec) return false;
       const p = parseFloat(el.getAttribute("data-price"));
       const hasPrice = Number.isFinite(p);
       if (min != null) {
@@ -759,17 +848,26 @@
   }
 
   function wireControls() {
-    document.querySelectorAll(".st-chip[data-filter]").forEach((btn) => {
-      btn.addEventListener("click", () => {
-        category = btn.getAttribute("data-filter") || "all";
-        document.querySelectorAll(".st-chip[data-filter]").forEach((b) => {
-          const on = b === btn;
-          b.classList.toggle("is-on", on);
-          b.setAttribute("aria-pressed", on ? "true" : "false");
-        });
-        applyFilters();
-        document.getElementById("catalog")?.scrollIntoView({ behavior: "smooth", block: "start" });
-      });
+    document.getElementById("stFacets")?.addEventListener("click", (e) => {
+      const btn = e.target.closest(".st-chip[data-filter]");
+      if (!btn || !document.getElementById("stFacets").contains(btn)) return;
+      const raw = btn.getAttribute("data-filter") || "all";
+      if (raw.startsWith("type:")) {
+        activeType = raw.slice(5);
+        activeMake = "";
+        category = "all";
+      } else if (raw.startsWith("make:")) {
+        activeMake = raw.slice(5);
+        activeType = "";
+        category = "all";
+      } else {
+        category = raw;
+        activeType = "";
+        activeMake = "";
+      }
+      renderFacetChips();
+      applyFilters();
+      document.getElementById("catalog")?.scrollIntoView({ behavior: "smooth", block: "start" });
     });
 
     const applyPriceFacets = () => {
@@ -799,13 +897,11 @@
 
     document.getElementById("stClearFilters")?.addEventListener("click", () => {
       category = "all";
+      activeType = "";
+      activeMake = "";
       priceMin = null;
       priceMax = null;
-      document.querySelectorAll(".st-chip[data-filter]").forEach((b) => {
-        const on = b.getAttribute("data-filter") === "all";
-        b.classList.toggle("is-on", on);
-        b.setAttribute("aria-pressed", on ? "true" : "false");
-      });
+      renderFacetChips();
       const minEl = document.getElementById("stPriceMin");
       const maxEl = document.getElementById("stPriceMax");
       if (minEl) minEl.value = "";
@@ -855,6 +951,7 @@
       if (!res.ok) throw new Error(`catalog ${res.status}`);
       const data = await res.json();
       catalog = Array.isArray(data.items) ? data.items : [];
+      byId = new Map(catalog.map((i) => [String(i.id || ""), i]));
       if (countEl) countEl.textContent = `${catalog.length} listings`;
       fillCounts();
       initList();
