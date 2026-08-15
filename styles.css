@@ -2484,10 +2484,10 @@ ul.pagination .disabled .page {
   }
 }
 
-/* Performance: reduce sticky backdrop-filter cost on .page-store */
+/* Performance: reduce sticky backdrop-filter cost on .page-store.
+   Do not contain:paint — it clips the mobile drawer (absolute, top: 100%). */
 .page-store .nav {
   will-change: auto;
-  contain: layout style paint;
 }
 .page-store .nav.is-solid {
   backdrop-filter: blur(8px) saturate(1.1);

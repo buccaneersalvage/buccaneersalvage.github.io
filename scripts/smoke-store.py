@@ -341,6 +341,21 @@ def main():
             redir = page.goto(f"{BASE}/item.html", wait_until="domcontentloaded")
             check("item.html ends on store", "store.html" in page.url, page.url)
 
+            page.set_viewport_size({"width": 390, "height": 844})
+            page.goto(f"{BASE}/store.html")
+            page.wait_for_selector("#navToggle", timeout=8000)
+            page.click("#navToggle")
+            page.wait_for_timeout(200)
+            store_open = page.locator("#drawer.is-open")
+            box = store_open.bounding_box() if store_open.count() else None
+            check("store mobile drawer opens", store_open.count() == 1, f"count={store_open.count()}")
+            check(
+                "store mobile drawer visible",
+                bool(box and box.get("height", 0) > 40),
+                str(box),
+            )
+            page.click("#navToggle")
+
             page.set_viewport_size({"width": 1280, "height": 800})
             page.goto(f"{BASE}/store.html")
             page.wait_for_selector("#stGrid .st-img", timeout=10000)
