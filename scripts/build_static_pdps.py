@@ -5,6 +5,7 @@ from __future__ import annotations
 import html
 import json
 import re
+from datetime import date
 from pathlib import Path
 from urllib.parse import urlparse
 
@@ -34,6 +35,33 @@ def cat_label(c):
 
 def is_core(c):
     return c in ("turbo", "pump")
+
+
+_BRAND_RE = re.compile(
+    r"^(?:OEM\s+)?(Carlson|Automann|Goodyear|Continental|ContiTech|Firestone|Holset|"
+    r"Mack|Wagner|Econoride|WIX|Standard(?:\s+Motor\s+Products)?|Moog|Beck/Arnley|"
+    r"Cloyes|Pace\s?Setter|AP\s+Exhaust)\b",
+    re.I,
+)
+
+
+def brand_guess(item):
+    """Real manufacturer brand for schema.org, not the seller name. Catalog
+    part_numbers[0] is inconsistently brand-prefixed ("Holset X63" some
+    items, bare "H2623" others) — checking the brand regex against it first
+    would return "H2623" as a fake brand name for the second case. Try the
+    regex against part_numbers[0] AND the title first; only fall back to
+    treating part_numbers[0]'s raw first token as the brand when nothing
+    recognizable matched (schema.org still requires *some* Brand)."""
+    name = str(item.get("name") or "")
+    parts = item.get("part_numbers")
+    pn0 = str(parts[0]) if isinstance(parts, list) and parts and parts[0] else ""
+    m = _BRAND_RE.match(pn0) or _BRAND_RE.match(name)
+    if m:
+        return m.group(1)
+    if pn0:
+        return pn0.split()[0]
+    return "BuccaneerSalvage Store"
 
 
 def offer_shipping_details():
@@ -163,7 +191,15 @@ def main() -> None:
         # would say "UNTESTED" even on an item that was run on video.
         custom_warn = str(item.get("condition_warning") or "").strip()
         no_returns = is_core(item.get("category")) or bool(custom_warn)
-        title = f"{name} | BuccaneerSalvage Store"
+        # Google truncates SERP titles around ~60 chars. Catalog product names
+        # (sourced from eBay listing titles) commonly run 60-100+ chars on
+        # their own — appending " | BuccaneerSalvage Store" (24 chars) to an
+        # already-long name only pushed the truncation point further into the
+        # name itself while burying the brand suffix nobody sees anyway.
+        # Drop the suffix once it would put the title over budget; the store
+        # name still appears via og:site_name / structured data either way.
+        _BRAND_SUFFIX = " | BuccaneerSalvage Store"
+        title = name if len(name) + len(_BRAND_SUFFIX) > 60 else f"{name}{_BRAND_SUFFIX}"
         desc = f"{name} — {catl}. {price}. Browse and secure checkout at BuccaneerSalvage Store."
         canonical = f"{BASE}/p/{iid}.html"
         schema = {
@@ -174,7 +210,7 @@ def main() -> None:
             "description": desc,
             "image": [img, *gallery] if gallery else img,
             "sku": iid,
-            "brand": {"@type": "Brand", "name": "BuccaneerSalvage Store"},
+            "brand": {"@type": "Brand", "name": brand_guess(item)},
             "isPartOf": {
                 "@type": "WebSite",
                 "@id": f"{BASE}/store.html#website",
@@ -207,6 +243,15 @@ def main() -> None:
                 "uploadDate": "2026-08-14",
                 "contentUrl": f"{BASE}/{video}",
             }
+
+        # json.dumps does not escape "<" — a catalog item `name` containing
+        # "</script><script>..." (or just "</script><meta http-equiv=refresh...")
+        # would close this tag early and get parsed as raw HTML. name/description
+        # come straight from Square with no validation (unlike image/url, which
+        # go through safe_image()/safe_checkout()). Standard JSON-in-HTML
+        # mitigation: escape "<" as its unicode form, which is a no-op for JSON
+        # parsers but stops the browser's HTML tokenizer from ever seeing "</script>".
+        schema_json = json.dumps(schema, ensure_ascii=False).replace("<", "\\u003c")
 
         def esc(s):
             return html.escape(str(s or ""), quote=True)
@@ -270,7 +315,7 @@ def main() -> None:
   <meta name="description" content="{esc(desc)}" />
   <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1" />
   <meta name="theme-color" content="#0c0a08" />
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; font-src 'self' data:; connect-src 'self'; base-uri 'self'; object-src 'none';" />
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; font-src 'self' data:; connect-src 'self'; base-uri 'self'; form-action 'self'; object-src 'none';" />
   <meta http-equiv="X-Content-Type-Options" content="nosniff" />
   <meta name="referrer" content="strict-origin-when-cross-origin" />
   <link rel="canonical" href="{esc(canonical)}" />
@@ -288,7 +333,7 @@ def main() -> None:
   <link rel="icon" type="image/jpeg" href="../assets/crest-rustjack-web.jpg" />
   <link rel="stylesheet" href="../assets/fonts.css" />
   <link rel="stylesheet" href="../styles.css?v=godmode7" />
-  <script type="application/ld+json">{json.dumps(schema, ensure_ascii=False)}</script>
+  <script type="application/ld+json">{schema_json}</script>
   <script src="../pdp-gallery.js" defer></script>
 </head>
 <body class="page-item">
@@ -366,11 +411,19 @@ def main() -> None:
         encoding="utf-8",
     )
 
-    # sitemaps
+    # sitemaps — lastmod was a hardcoded 2026-08-04 literal on every one of
+    # the 198 product entries regardless of whether that item's data actually
+    # changed, on every regen since. Not per-item-accurate (that needs a
+    # diff against the previous catalog, tracked elsewhere), but today's date
+    # is honest now that buccaneer_sync only regenerates when the catalog
+    # actually changed (see buccaneer_sync.py fix, 2026-08-14) — a frozen
+    # fake date never helped crawlers prioritize anything.
+    today = date.today().isoformat()
+
     def url_entry(loc, pri="0.7"):
         return f"""  <url>
     <loc>{loc}</loc>
-    <lastmod>2026-08-04</lastmod>
+    <lastmod>{today}</lastmod>
     <changefreq>weekly</changefreq>
     <priority>{pri}</priority>
   </url>"""

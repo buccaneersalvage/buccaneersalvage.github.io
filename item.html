@@ -8,9 +8,12 @@
   <meta name="author" content="Rustjack · BuccaneerSalvage Store" />
   <meta name="application-name" content="BuccaneerSalvage Store" />
   <meta name="apple-mobile-web-app-title" content="BS Store" />
-  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1" />
+  <!-- Legacy PDP template, superseded by static p/*.html pages (build_static_pdps.py) —
+       nothing links here anymore (verified 2026-08-14). noindex so it stops competing
+       with the real product pages as thin/generic duplicate content in search results. -->
+  <meta name="robots" content="noindex, nofollow" />
   <meta name="theme-color" content="#0c0a08" />
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; font-src 'self' data:; connect-src 'self'; base-uri 'self'; object-src 'none';" />
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; font-src 'self' data:; connect-src 'self'; base-uri 'self'; form-action 'self'; object-src 'none';" />
   <meta http-equiv="X-Content-Type-Options" content="nosniff" />
   <meta name="referrer" content="strict-origin-when-cross-origin" />
   <link id="canonical" rel="canonical" href="https://buccaneersalvage.github.io/item.html" />
