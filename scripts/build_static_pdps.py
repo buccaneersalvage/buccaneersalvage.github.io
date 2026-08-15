@@ -100,6 +100,18 @@ def safe_checkout(u):
     return ""
 
 
+def safe_video(u):
+    """Self-hosted only — a relative path under assets/videos/, never an external URL.
+    Square/eBay have no video field to trust; this only ever comes from a manual
+    catalog.json patch, so keep it locked to our own repo path as defense in depth."""
+    s = str(u or "").strip()
+    if not s or s.startswith(("http://", "https://", "//")) or ".." in s:
+        return ""
+    if not re.match(r"^assets/videos/[\w.\-]+\.(mp4|webm)$", s):
+        return ""
+    return s
+
+
 def safe_image(u):
     s = str(u or "").strip()
     if not s.startswith("http"):
@@ -139,6 +151,7 @@ def main() -> None:
         price = money(price_n)
         catl = cat_label(item.get("category"))
         img = safe_image(item.get("image")) or f"{BASE}/assets/og-share.jpg"
+        video = safe_video(item.get("video"))
         checkout = safe_checkout(item.get("url"))
         title = f"{name} | BuccaneerSalvage Store"
         desc = f"{name} — {catl}. {price}. Browse and secure checkout at BuccaneerSalvage Store."
@@ -175,6 +188,15 @@ def main() -> None:
         }
         if price_n is not None:
             schema["offers"]["price"] = str(price_n)
+        if video:
+            schema["video"] = {
+                "@type": "VideoObject",
+                "name": f"{name} — test run",
+                "description": f"Test-run clip of {name}.",
+                "thumbnailUrl": [img],
+                "uploadDate": "2026-08-14",
+                "contentUrl": f"{BASE}/{video}",
+            }
 
         def esc(s):
             return html.escape(str(s or ""), quote=True)
@@ -195,6 +217,14 @@ def main() -> None:
             else ""
         )
         img_tag = f'<img class="pdp-image" src="{esc(img)}" alt="{esc(name)}" width="600" height="600" />'
+        video_tag = (
+            f'<div class="pdp-video-wrapper"><video class="pdp-video" controls preload="metadata" '
+            f'poster="{esc(img)}"><source src="{esc(f"../{video}")}" type="video/mp4" />'
+            f"Your browser doesn't support embedded video."
+            f"</video></div>"
+            if video
+            else ""
+        )
         page = f"""<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -254,7 +284,7 @@ def main() -> None:
     </section>
     <section class="pdp-content">
       <div class="shell pdp-layout">
-        <div class="pdp-media"><div class="pdp-image-wrapper">{img_tag}</div></div>
+        <div class="pdp-media"><div class="pdp-image-wrapper">{img_tag}</div>{video_tag}</div>
         <div class="pdp-info">
           <h1 class="pdp-title">{esc_t(name)}</h1>
           <p class="pdp-category">{esc_t(catl)}</p>

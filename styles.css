@@ -2025,8 +2025,10 @@ ul.pagination .disabled .page {
 
 .pdp-media {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 1.5rem;
 }
 .pdp-image-wrapper {
   width: 100%;
@@ -2044,6 +2046,18 @@ ul.pagination .disabled .page {
   height: 100%;
   object-fit: cover;
   display: block;
+}
+.pdp-video-wrapper {
+  width: 100%;
+  max-width: 360px;
+  background: rgba(212, 175, 55, 0.05);
+  border-radius: 8px;
+  overflow: hidden;
+}
+.pdp-video {
+  width: 100%;
+  display: block;
+  border-radius: 8px;
 }
 
 .pdp-info {
