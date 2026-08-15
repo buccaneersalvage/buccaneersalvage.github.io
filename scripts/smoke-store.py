@@ -184,6 +184,27 @@ def main():
                 showing_vc,
             )
             page.fill("#stSearch", "")
+            page.select_option("#stCatSelect", "all")
+            page.wait_for_timeout(250)
+            page.fill("#stSearch", "Integra")
+            page.wait_for_timeout(400)
+            showing_int = page.text_content("#stShowing").strip()
+            cards = page.locator("#stGrid .st-card:visible")
+            titles = [c.inner_text() for c in cards.all()] if cards.count() else []
+            check(
+                "Integra does not hit Cloyes Chevette belt",
+                all("B-061" not in t and "Cloyes" not in t for t in titles),
+                showing_int,
+            )
+            page.fill("#stSearch", "Chevette B-061")
+            page.wait_for_timeout(400)
+            showing_ch = page.text_content("#stShowing").strip()
+            check(
+                "Cloyes B-061 finds Chevette",
+                "of 1" in showing_ch or "1-1 of 1" in showing_ch,
+                showing_ch,
+            )
+            page.fill("#stSearch", "")
             make_hidden_on_all = True
             page.select_option("#stCatSelect", "all")
             page.wait_for_timeout(250)

@@ -31,6 +31,12 @@ from pathlib import Path
 HUB = Path(__file__).resolve().parents[1]
 CATALOG = HUB / "assets" / "square-catalog.json"
 FITMENT_DB = HUB / "assets" / "fitment-db.json"
+# Square titles that contradict the live eBay listing for the same SKU.
+# Display-only; next export must keep these (see export_hub_square_catalog.py).
+NAME_OVERRIDE = {
+    "U7IAHNRLDFHIMBOV75GFFH7W": "Cloyes B-061 Timing Belt NOS Chevy Chevette Pontiac T1000 79-87",
+    "OIEKBY47T4B7SOUC5WDL34PA": "Carlson H5764Q Rear Disc Brake Hardware Pro Kit New Chevy Silverado GMC Sierra",
+}
 EBAY = Path.home() / "ebay"
 SCRIPTS = EBAY / "scripts"
 DATA = EBAY / "data"
@@ -885,6 +891,11 @@ def enrich_item(
     xref = uniq([x for x in xref if not any(x == p or x in p for p in parts)])
     xref = dedupe_redundant_pns(xref)
 
+    override = NAME_OVERRIDE.get(item.get("id") or "")
+    if override:
+        item["name"] = override
+        title = override
+
     if not ebay_type:
         ebay_type = infer_type_from_title(title, item.get("category") or "")
 
@@ -895,7 +906,11 @@ def enrich_item(
     item["part_numbers"] = parts
     item["interchange"] = xref
     item["vehicles"] = vehicle_labels
-    item["vehicle_count_raw"] = len(vehicles_raw)
+    prev_raw = item.get("vehicle_count_raw")
+    raw_n = len(vehicles_raw)
+    if isinstance(prev_raw, int) and prev_raw > raw_n:
+        raw_n = prev_raw
+    item["vehicle_count_raw"] = raw_n
     item["ebay_item_id"] = ebay_id or ""
     item["ebay_type"] = ebay_type
     item["ebay_brand"] = ebay_brand
@@ -907,7 +922,7 @@ def enrich_item(
         "interchange": xref,
         "vehicles": fit_vehicles,
         "vehicle_labels": vehicle_labels,
-        "raw_compat_rows": len(vehicles_raw),
+        "raw_compat_rows": raw_n,
         "source": item["fitment_source"],
         "confidence": conf,
         "ebay_item_id": ebay_id or "",
