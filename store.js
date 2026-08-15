@@ -214,6 +214,117 @@
     freightliner: "freightliner",
   };
 
+  /** Model / PN aliases. Each token matches ANY alt (not AND). */
+  const TOKEN_ALIASES = {
+    f150: ["f-150", "f150", "f 150"],
+    "f-150": ["f-150", "f150"],
+    f250: ["f-250", "f250"],
+    "f-250": ["f-250", "f250"],
+    f350: ["f-350", "f350"],
+    "f-350": ["f-350", "f350"],
+    chevy: ["chevy", "chevrolet"],
+    chevrolet: ["chevrolet", "chevy"],
+    vw: ["vw", "volkswagen"],
+    volkswagen: ["volkswagen", "vw"],
+    benz: ["benz", "mercedes", "mercedes-benz"],
+    mercedes: ["mercedes", "mercedes-benz", "benz"],
+    "mercedes-benz": ["mercedes-benz", "mercedes", "benz"],
+    gm: ["gm", "gmc", "chevrolet", "chevy"],
+  };
+
+  const CAT_CHIP_LABEL = {
+    all: "All",
+    "air-spring": "Air springs",
+    brake: "Brake",
+    filters: "Filters",
+    ignition: "Ignition",
+    driveline: "Driveline",
+    cores: "Cores",
+    vintage: "Vintage",
+    turbo: "Turbo",
+    pump: "Pump",
+    other: "Other",
+  };
+
+  const CAT_CHIP_ORDER = [
+    "air-spring",
+    "brake",
+    "filters",
+    "ignition",
+    "driveline",
+    "cores",
+    "vintage",
+    "turbo",
+    "pump",
+    "other",
+  ];
+
+  let byId = new Map();
+  let activeType = "";
+  let activeMake = "";
+
+  function slugKey(s) {
+    return String(s || "")
+      .toLowerCase()
+      .replace(/[^a-z0-9]+/g, "-")
+      .replace(/^-|-$/g, "");
+  }
+
+  function compactToken(s) {
+    return String(s || "").toLowerCase().replace(/[^a-z0-9]+/g, "");
+  }
+
+  function tokenAlts(tok) {
+    const t = String(tok || "").toLowerCase();
+    const alts = new Set([t, compactToken(t)]);
+    const extra = TOKEN_ALIASES[t] || TOKEN_ALIASES[compactToken(t)] || [];
+    extra.forEach((a) => {
+      alts.add(a);
+      alts.add(compactToken(a));
+    });
+    const brand = BRAND_ALIASES[t];
+    if (brand) brand.split(/\s+/).forEach((a) => alts.add(a));
+    return [...alts].filter(Boolean);
+  }
+
+  function yearHitsFitment(item, year) {
+    const y = Number(year);
+    if (!Number.isFinite(y)) return false;
+    const vs = (item.fitment && Array.isArray(item.fitment.vehicles) && item.fitment.vehicles) || [];
+    return vs.some((v) => {
+      if (!v || typeof v !== "object") return false;
+      if (v.year != null && Number(v.year) === y) return true;
+      const a = v.year_from != null ? Number(v.year_from) : null;
+      const b = v.year_to != null ? Number(v.year_to) : a;
+      return a != null && Number.isFinite(a) && Number.isFinite(b) && y >= a && y <= b;
+    });
+  }
+
+  function itemHitsQuery(item, raw) {
+    const q = String(raw || "").trim().toLowerCase();
+    if (!q) return true;
+    const blob = item._blob || (item._blob = buildSearchBlob(item));
+    const compactBlob = compactToken(blob);
+    const tokens = q.split(/[^\p{L}\p{N}.]+/u).filter(Boolean);
+    return tokens.every((tok) => {
+      if (/^(?:19|20)\d{2}$/.test(tok) && yearHitsFitment(item, tok)) return true;
+      return tokenAlts(tok).some((a) => blob.includes(a) || compactBlob.includes(compactToken(a)));
+    });
+  }
+
+  function itemHitsMake(item, makeSlug) {
+    if (!makeSlug) return true;
+    const vs = (item.fitment && item.fitment.vehicles) || [];
+    if (vs.some((v) => v && slugKey(v.make) === makeSlug)) return true;
+    const labels = item.vehicles || [];
+    return labels.some((lb) => slugKey(lb).includes(makeSlug) || compactToken(lb).includes(makeSlug.replace(/-/g, "")));
+  }
+
+  function itemHitsType(item, typeSlug) {
+    if (!typeSlug) return true;
+    return slugKey(item.ebay_type || (item.fitment && item.fitment.type) || "") === typeSlug;
+  }
+
   /** Expand "2000–2011" so year queries like 2005 match (List.js is substring). */
   function expandYearRange(from, to, cap = 45) {
     const a = Number(from);
@@ -257,6 +368,16 @@
     push(item.ebay_item_id);
     push(item.part_numbers);
     push(item.interchange);
+    push(item.ebay_type);
+    push(item.ebay_brand);
+    push(item.ebay_category);
+    const pns = []
+      .concat(item.part_numbers || [])
+      .concat(item.interchange || []);
+    pns.forEach((p) => {
+      const c = compactToken(p);
+      if (c.length >= 4) push(c);
+    });
 
     // Title brand / first tokens (OEM Goodyear …)
     const name = String(item.name || "");
@@ -381,18 +502,27 @@
       ? "For parts or rebuild only. Untested. No returns. View product details."
       : "View product details";
     const searchblob = buildSearchBlob(item);
+    const vehHint = Array.isArray(item.vehicles) ? item.vehicles.filter(Boolean).slice(0, 2) : [];
+    const xrefHint = Array.isArray(item.interchange) ? item.interchange.filter(Boolean)[0] : "";
+    const fitHint = vehHint.length
+      ? "Fits " + vehHint.join(" · ")
+      : xrefHint
+        ? "Interchange " + String(xrefHint)
+        : "";
 
     // List.js valueNames: .name .category .searchblob + data-price
     return `
       <article class="st-card${core ? " st-card--core" : ""}${featured ? " st-card--featured" : ""}"
                data-price="${escapeAttr(price)}"
+               data-id="${escapeAttr(item.id || "")}"
                data-category="${escapeAttr(item.category || "other")}"
                data-rank="${rankCat(item.category)}">
         <a class="st-card-link" href="${escapeAttr(href)}" title="${escapeAttr(tip)}">
           <div class="st-card-media">${ribbon}${img}</div>
           <div class="st-card-body">
-            <span class="st-card-cat category">${escapeHtml(catLabel(item.category))}</span>
+            <span class="st-card-cat category">${escapeHtml(item.ebay_type || catLabel(item.category))}</span>
             <h3 class="st-card-title name">${escapeHtml(item.name)}</h3>
+            ${fitHint ? `<p class="st-card-fit">${escapeHtml(fitHint)}</p>` : ""}
             <span class="searchblob visually-hidden">${escapeHtml(searchblob)}</span>
             ${warn}
             <div class="st-card-foot">

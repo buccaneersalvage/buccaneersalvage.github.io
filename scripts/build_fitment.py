@@ -311,6 +311,19 @@ def fetch_ebay_fitment(token: str, item_id: str) -> dict | None:
                 }
             )
 
+    def first_spec(*names: str) -> str:
+        for name in names:
+            vals = specs.get(name) or []
+            if vals:
+                return vals[0]
+        return ""
+
+    ebay_type = first_spec("Type", "Filter Type", "Part Type")
+    ebay_brand = first_spec("Brand", "Manufacturer")
+    ebay_category = (
+        root.findtext(f".//{NS}PrimaryCategory/{NS}CategoryName") or ""
+    ).strip()
+
     parts = []
     for key in (
         "Part Number",
@@ -336,6 +349,9 @@ def fetch_ebay_fitment(token: str, item_id: str) -> dict | None:
         "part_numbers": uniq(parts),
         "interchange": uniq(interchange),
         "vehicles_raw": vehicles,
+        "ebay_type": ebay_type,
+        "ebay_brand": ebay_brand,
+        "ebay_category": ebay_category,
         "ebay_id": item_id,
         "source": "ebay_live",
         "confidence": "high" if vehicles or interchange else "medium",
@@ -495,10 +511,16 @@ def enrich_item(
     conf = "low"
     title = item.get("name") or ""
 
+    ebay_type = ""
+    ebay_brand = ""
+    ebay_category = ""
     if live:
         parts.extend(live.get("part_numbers") or [])
         xref.extend(live.get("interchange") or [])
         vehicles_raw.extend(live.get("vehicles_raw") or [])
+        ebay_type = (live.get("ebay_type") or "").strip()
+        ebay_brand = (live.get("ebay_brand") or "").strip()
+        ebay_category = (live.get("ebay_category") or "").strip()
         sources.append("ebay_listing")
         conf = live.get("confidence") or "high"
 
@@ -596,11 +618,17 @@ def enrich_item(
     xref = uniq([x for x in xref if not any(x == p or x in p for p in parts)])
     xref = dedupe_redundant_pns(xref)
 
+    if not ebay_type:
+        ebay_type = infer_type_from_title(title, item.get("category") or "")
+
     item["part_numbers"] = parts
     item["interchange"] = xref
     item["vehicles"] = vehicle_labels
     item["vehicle_count_raw"] = len(vehicles_raw)
     item["ebay_item_id"] = ebay_id or ""
+    item["ebay_type"] = ebay_type
+    item["ebay_brand"] = ebay_brand
+    item["ebay_category"] = ebay_category
     item["fitment_source"] = "+".join(dict.fromkeys(sources))  # ordered unique
     item["fitment_confidence"] = conf
     item["fitment"] = {
@@ -612,8 +640,72 @@ def enrich_item(
         "source": item["fitment_source"],
         "confidence": conf,
         "ebay_item_id": ebay_id or "",
+        "type": ebay_type,
+        "brand": ebay_brand,
+        "ebay_category": ebay_category,
     }
     return item
+
+
+def infer_type_from_title(title: str, category: str) -> str:
+    """Last-resort Type from words already in the listing title. Never invents fitment."""
+    n = (title or "").lower()
+    cat = (category or "").lower()
+    if cat == "filters" or "filter" in n:
+        if "oil" in n:
+            return "Oil Filter"
+        if "fuel" in n:
+            return "Fuel Filter"
+        if "cabin" in n or "pollen" in n:
+            return "Cabin Air Filter"
+        if "trans" in n:
+            return "Transmission Filter"
+        if "air" in n:
+            return "Air Filter"
+        return "Filter"
+    if cat == "ignition" or any(k in n for k in ("distributor", "ignition", "coil")):
+        if "distributor" in n and "cap" in n:
+            return "Distributor Cap"
+        if "distributor" in n:
+            return "Distributor"
+        if "rotor" in n:
+            return "Distributor Rotor"
+        if "wire" in n:
+            return "Spark Plug Wire"
+        if "coil" in n:
+            return "Ignition Coil"
+        if "vacuum" in n:
+            return "Vacuum Advance"
+        if "cap" in n:
+            return "Distributor Cap"
+        return "Ignition"
+    if cat == "brake" or "brake" in n:
+        if "caliper" in n and "pin" in n:
+            return "Caliper Guide Pin"
+        if "hardware" in n and "drum" in n:
+            return "Drum Brake Hardware"
+        if "hardware" in n:
+            return "Disc Brake Hardware"
+        if "parking" in n:
+            return "Parking Brake Hardware"
+        return "Brake Hardware"
+    if cat == "air-spring" or "air spring" in n or "air bag" in n:
+        return "Air Spring"
+    if cat == "driveline":
+        if "cv" in n or "boot" in n:
+            return "CV Boot"
+        if "timing" in n:
+            return "Timing Belt"
+        if "axle" in n:
+            return "Axle"
+        return "Driveline"
+    if cat == "turbo":
+        return "Turbocharger"
+    if cat == "pump":
+        return "Pump"
+    if cat == "vintage":
+        return "Vintage"
+    return ""
 
 
 def main() -> int:
