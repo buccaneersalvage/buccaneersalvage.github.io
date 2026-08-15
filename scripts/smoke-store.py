@@ -61,6 +61,21 @@ def main():
         cat = json.load(urllib.request.urlopen(f"{BASE}/assets/square-catalog.json"))
         catalog_size = len(cat.get("items", []))
         check("catalog loaded", catalog_size > 0, f"n={catalog_size}")
+        by_id = {i.get("id"): i.get("category") for i in cat.get("items", [])}
+        want_buckets = {
+            "LI7R7ABGGB2TXJQUEGHG5TRX": "mobility",
+            "WCSSZNLKXNQIOIHDWIOWQCGW": "cycling",
+            "EZW5JY5PWZJO4PH5R2TQGYC3": "material-handling",
+            "7CESL5VZLPSRKJGWUFCHL5R5": "electric-motors",
+            "3YKKZSK4N5HMOC7TOVXSFOHH": "exhaust",
+            "RLDFAATFFK6423JIPQIQSH3D": "interior",
+            "BA22UJLZFQ7RYU42QV7AFD2Y": "engines",
+            "FSUFF4EKUITJCPOIIMCLMA5J": "interior",
+        }
+        bucket_miss = [f"{k}:{by_id.get(k)}!={v}" for k, v in want_buckets.items() if by_id.get(k) != v]
+        check("catalog true-department buckets", not bucket_miss, "; ".join(bucket_miss))
+        dump_left = [i.get("id") for i in cat.get("items", []) if i.get("category") in ("vintage", "other")]
+        check("catalog has no vintage/other dump", not dump_left, ",".join(dump_left))
         store_html = urllib.request.urlopen(f"{BASE}/store.html").read().decode("utf-8", "replace")
         index_html = urllib.request.urlopen(f"{BASE}/index.html").read().decode("utf-8", "replace")
         terms_html = urllib.request.urlopen(f"{BASE}/terms.html").read().decode("utf-8", "replace")
@@ -122,6 +137,12 @@ def main():
                 "default All excludes yard depts",
                 auto_n == catalog_size - 4,
                 showing,
+            )
+            count_txt = (page.text_content("#stCount") or "").strip()
+            check(
+                "header count matches All parts",
+                count_txt == f"{auto_n} listings",
+                count_txt,
             )
             expected_showing = f"Showing 1–12 of {auto_n}"
             check("Showing label on page 1", showing == expected_showing or "1" in showing and "12" in showing, showing)
@@ -432,6 +453,47 @@ def main():
             check("pdp extracts WIX 33063 from title", "33063" in name_txt, name_txt[:120])
             pdp = page.goto(f"{BASE}/p/7CESL5VZLPSRKJGWUFCHL5R5.html")
             check("pdp chrome item loads", pdp and pdp.ok, f"status={getattr(pdp, 'status', None)}")
+            check(
+                "pdp Craftsman category is Electric Motors",
+                "Electric Motors" in (page.text_content(".pdp-category") or ""),
+                page.text_content(".pdp-category"),
+            )
+            page.goto(f"{BASE}/p/LI7R7ABGGB2TXJQUEGHG5TRX.html")
+            check(
+                "pdp wheelchair category is Mobility",
+                "Mobility" in (page.text_content(".pdp-category") or ""),
+                page.text_content(".pdp-category"),
+            )
+            page.goto(f"{BASE}/p/WCSSZNLKXNQIOIHDWIOWQCGW.html")
+            check(
+                "pdp Masi category is Cycling",
+                "Cycling" in (page.text_content(".pdp-category") or ""),
+                page.text_content(".pdp-category"),
+            )
+            page.goto(f"{BASE}/p/EZW5JY5PWZJO4PH5R2TQGYC3.html")
+            check(
+                "pdp forklift category is Material Handling",
+                "Material Handling" in (page.text_content(".pdp-category") or ""),
+                page.text_content(".pdp-category"),
+            )
+            page.goto(f"{BASE}/p/3YKKZSK4N5HMOC7TOVXSFOHH.html")
+            check(
+                "pdp AP Exhaust category is Exhaust",
+                "Exhaust" in (page.text_content(".pdp-category") or ""),
+                page.text_content(".pdp-category"),
+            )
+            page.goto(f"{BASE}/p/RLDFAATFFK6423JIPQIQSH3D.html")
+            check(
+                "pdp Borg Warner category is Interior",
+                "Interior" in (page.text_content(".pdp-category") or ""),
+                page.text_content(".pdp-category"),
+            )
+            page.goto(f"{BASE}/p/BA22UJLZFQ7RYU42QV7AFD2Y.html")
+            check(
+                "pdp Dorman AIR pipe category is Engines",
+                "Engines" in (page.text_content(".pdp-category") or ""),
+                page.text_content(".pdp-category"),
+            )
             check("pdp has navToggle", page.locator("#navToggle").count() == 1)
             check("pdp has drawer", page.locator("#drawer").count() == 1)
             check("pdp has main.js chrome", page.locator("script[src^='../main.js']").count() == 1)

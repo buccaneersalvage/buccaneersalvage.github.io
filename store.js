@@ -107,8 +107,13 @@
       driveline: "Driveline",
       turbo: "Turbo core",
       pump: "Pump core",
-      vintage: "Vintage",
-      other: "Parts",
+      mobility: "Mobility",
+      cycling: "Cycling",
+      "material-handling": "Material Handling",
+      "electric-motors": "Electric Motors",
+      interior: "Interior",
+      exhaust: "Exhaust",
+      engines: "Engines",
     }[c] || "Parts");
 
   function escapeHtml(s) {
@@ -169,8 +174,13 @@
       filters: 4,
       ignition: 5,
       driveline: 6,
-      vintage: 7,
-      other: 8,
+      engines: 6,
+      interior: 7,
+      exhaust: 7,
+      mobility: 8,
+      cycling: 8,
+      "material-handling": 8,
+      "electric-motors": 8,
     }[c] ?? 9;
   }
 
@@ -1347,7 +1357,10 @@
       const data = await res.json();
       catalog = Array.isArray(data.items) ? data.items : [];
       byId = new Map(catalog.map((i) => [String(i.id || ""), i]));
-      if (countEl) countEl.textContent = `${catalog.length} listings`;
+      if (countEl) {
+        const autoN = catalog.filter((i) => !isNonVehicleDept(i)).length;
+        countEl.textContent = `${autoN} listings`;
+      }
       fillCounts();
       initList();
       wireControls();

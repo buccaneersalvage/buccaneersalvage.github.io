@@ -54,8 +54,13 @@ def cat_label(c):
         "driveline": "Driveline",
         "turbo": "Turbo core",
         "pump": "Pump core",
-        "vintage": "Vintage",
-        "other": "Parts",
+        "mobility": "Mobility",
+        "cycling": "Cycling",
+        "material-handling": "Material Handling",
+        "electric-motors": "Electric Motors",
+        "interior": "Interior",
+        "exhaust": "Exhaust",
+        "engines": "Engines",
     }.get(c, "Parts")
 
 
