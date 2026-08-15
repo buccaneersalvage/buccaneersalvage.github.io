@@ -132,7 +132,7 @@
 
             function setTrackWillChange(kind, on) {
                 const track = tickerTracks[kind];
-                if (track) track.style.willChange = on ? "transform" : "auto";
+                if (track) track.classList.toggle("will-change-transform", !!on);
             }
 
             function restartTickerAnim(kind) {
@@ -209,7 +209,7 @@
 
             function startTickers() {
                 if (prefersReduced) {
-                    if (tickerEl) tickerEl.style.display = "none";
+                    if (tickerEl) tickerEl.classList.add("is-display-none");
                     return;
                 }
                 buildTicker("music");
@@ -313,8 +313,7 @@
                 const frag = document.createDocumentFragment();
                 if (!picks.length) {
                     const empty = document.createElement("p");
-                    empty.className = "hero-description";
-                    empty.style.gridColumn = "1 / -1";
+                    empty.className = "hero-description span-all";
                     empty.textContent = "No vessels in this fleet yet — check back after the next haul.";
                     frag.appendChild(empty);
                 } else {

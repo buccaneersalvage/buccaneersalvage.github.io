@@ -14,11 +14,18 @@ and asserts the BRIEF acceptance gates using locator-based waits (avoiding CSP e
 Usage: python3 scripts/smoke-store.py [port]
 Exit 0 = all green, 1 = failures.
 """
+import base64
+import hashlib
 import json
+import re
 import subprocess
 import sys
 import time
 import urllib.request
+from pathlib import Path
+
+HUB = Path("/home/jollyroge1480/sites/buccaneersalvage-hub")
+HASH_V = re.compile(r"styles\.css\?v=[0-9a-f]{10}")
 
 PORT = int(sys.argv[1]) if len(sys.argv) > 1 else 8931
 BASE = f"http://127.0.0.1:{PORT}"
@@ -58,12 +65,18 @@ def main():
         index_html = urllib.request.urlopen(f"{BASE}/index.html").read().decode("utf-8", "replace")
         terms_html = urllib.request.urlopen(f"{BASE}/terms.html").read().decode("utf-8", "replace")
         pdp_html = urllib.request.urlopen(f"{BASE}/p/7CESL5VZLPSRKJGWUFCHL5R5.html").read().decode("utf-8", "replace")
-        sri = "sha384-FhEOA/pIE4BfDuwGksHaZD8ms5j+dfB9QIWo7naDMzAVoCE1My4G2iu8/n/R3AAH"
-        check("store css cache godmode19", "styles.css?v=godmode19" in store_html)
-        check("index css cache godmode19", "styles.css?v=godmode19" in index_html)
-        check("terms css cache godmode19", "styles.css?v=godmode19" in terms_html)
-        check("pdp css cache godmode19", "styles.css?v=godmode19" in pdp_html)
+        list_js = (HUB / "assets/vendor/list.min.js").read_bytes()
+        sri = "sha384-" + base64.b64encode(hashlib.sha384(list_js).digest()).decode("ascii")
+        check("store css content-hash", bool(HASH_V.search(store_html)))
+        check("index css content-hash", bool(HASH_V.search(index_html)))
+        check("terms css content-hash", bool(HASH_V.search(terms_html)))
+        check("pdp css content-hash", bool(HASH_V.search(pdp_html)))
         check("store list.js SRI", sri in store_html)
+        check("store styles SRI", 'integrity="sha384-' in store_html and "styles.css?v=" in store_html)
+        check("store no style-src unsafe-inline", "unsafe-inline" not in store_html)
+        check("index no style-src unsafe-inline", "unsafe-inline" not in index_html)
+        check("pdp no style-src unsafe-inline", "unsafe-inline" not in pdp_html)
+        check("no godmode cache tokens", "godmode" not in store_html.lower() and "godmode" not in pdp_html.lower())
         check("store frame-src none", "frame-src 'none'" in store_html)
         check("index frame-src none", "frame-src 'none'" in index_html)
         check("pdp frame-src none", "frame-src 'none'" in pdp_html)
@@ -359,7 +372,7 @@ def main():
             check("pdp chrome item loads", pdp and pdp.ok, f"status={getattr(pdp, 'status', None)}")
             check("pdp has navToggle", page.locator("#navToggle").count() == 1)
             check("pdp has drawer", page.locator("#drawer").count() == 1)
-            check("pdp has main.js chrome", page.locator("script[src='../main.js']").count() == 1)
+            check("pdp has main.js chrome", page.locator("script[src^='../main.js']").count() == 1)
             page.set_viewport_size({"width": 390, "height": 844})
             page.goto(f"{BASE}/p/7CESL5VZLPSRKJGWUFCHL5R5.html")
             page.click("#navToggle")
@@ -395,7 +408,7 @@ def main():
             page.goto(f"{BASE}/videos.html")
             page.wait_for_selector("#gallery-music .video-card", timeout=10000)
             check("videos gallery built", page.locator("#gallery-music .video-card").count() > 0)
-            check("videos loads main.js", page.locator("script[src='main.js']").count() == 1)
+            check("videos loads main.js", page.locator("script[src^='main.js']").count() == 1)
             vid_errs = console_errors[before_vid:]
             csp_v = [e for e in vid_errs if "Content Security Policy" in e]
             check("videos no CSP errors", not csp_v, "; ".join(csp_v[:2]) if csp_v else "clean")
