@@ -2049,6 +2049,12 @@ ul.pagination .disabled .page {
   object-fit: contain;
   display: block;
 }
+/* display:block above beats the UA [hidden] rule on tied specificity —
+   without this the swapped-out element stays laid out at half-width next
+   to the active one instead of disappearing (2026-08-14). */
+.pdp-stage [hidden] {
+  display: none !important;
+}
 .pdp-gallery {
   display: flex;
   flex-wrap: wrap;

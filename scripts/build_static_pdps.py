@@ -67,9 +67,10 @@ def offer_shipping_details():
     }
 
 
-def offer_return_policy(category):
-    """Cores: no returns. Other stock: 7-day unused mail return, buyer pays (hub store terms)."""
-    if is_core(category):
+def offer_return_policy(category, force_no_returns=False):
+    """Cores (or any item manually flagged via condition_warning): no returns.
+    Other stock: 7-day unused mail return, buyer pays (hub store terms)."""
+    if is_core(category) or force_no_returns:
         return {
             "@type": "MerchantReturnPolicy",
             "applicableCountry": "US",
@@ -155,6 +156,13 @@ def main() -> None:
         gallery = [u for u in gallery_raw if u and u != img]
         video = safe_video(item.get("video"))
         checkout = safe_checkout(item.get("url"))
+        # Manual per-item override (Square/eBay have no such field) — same
+        # preserved-across-resync pattern as video/images. Lets a specific
+        # item state its real condition (e.g. "tested, sold for parts/repair,
+        # no returns") instead of the generic turbo/pump core warning, which
+        # would say "UNTESTED" even on an item that was run on video.
+        custom_warn = str(item.get("condition_warning") or "").strip()
+        no_returns = is_core(item.get("category")) or bool(custom_warn)
         title = f"{name} | BuccaneerSalvage Store"
         desc = f"{name} — {catl}. {price}. Browse and secure checkout at BuccaneerSalvage Store."
         canonical = f"{BASE}/p/{iid}.html"
@@ -185,7 +193,7 @@ def main() -> None:
                     "url": f"{BASE}/store.html",
                 },
                 "shippingDetails": offer_shipping_details(),
-                "hasMerchantReturnPolicy": offer_return_policy(item.get("category")),
+                "hasMerchantReturnPolicy": offer_return_policy(item.get("category"), force_no_returns=no_returns),
             },
         }
         if price_n is not None:
@@ -208,16 +216,17 @@ def main() -> None:
 
         if checkout:
             nav_cta = f'<a class="nav-cta" href="{esc(checkout)}" target="_blank" rel="noopener noreferrer">Buy now</a>'
-            lab = "Checkout — for parts · no returns" if is_core(item.get("category")) else "Buy · secure checkout"
+            lab = "Checkout — for parts · no returns" if no_returns else "Buy · secure checkout"
             cta = f'<a class="btn btn-primary" href="{esc(checkout)}" target="_blank" rel="noopener noreferrer">{esc_t(lab)}</a>'
         else:
             nav_cta = '<a class="nav-cta is-disabled" href="../store.html">Buy now</a>'
             cta = '<span class="btn btn-primary is-disabled" aria-disabled="true">Not available for purchase</span>'
-        warn = (
-            '<p class="pdp-warn">FOR PARTS OR REBUILD · UNTESTED · NO RETURNS</p>'
-            if is_core(item.get("category"))
-            else ""
-        )
+        if custom_warn:
+            warn = f'<p class="pdp-warn">{esc_t(custom_warn)}</p>'
+        elif is_core(item.get("category")):
+            warn = '<p class="pdp-warn">FOR PARTS OR REBUILD · UNTESTED · NO RETURNS</p>'
+        else:
+            warn = ""
         img_tag = f'<img id="pdpMainImage" class="pdp-image" src="{esc(img)}" alt="{esc(name)}" width="600" height="600" />'
         video_el = (
             f'<video id="pdpMainVideo" class="pdp-video" controls preload="metadata" '
@@ -326,7 +335,7 @@ def main() -> None:
             <p><strong>Secure checkout:</strong> Card processing off-site</p>
             <p><strong>Ships from:</strong> Carbondale, PA 18407</p>
             <p><strong>Local pickup:</strong> By appointment</p>
-            <p><strong>Returns:</strong> 7 days on most unused parts. Buyer remorse: 15% restocking. Cores, opened, and used items: no returns. <a href="../terms.html#returns">Store terms</a>.</p>
+            <p><strong>Returns:</strong> {esc_t("Sold as-is, no returns." if no_returns else "7 days on most unused parts. Buyer remorse: 15% restocking. Cores, opened, and used items: no returns.")} <a href="../terms.html#{'no-return' if no_returns else 'returns'}">Store terms</a>.</p>
           </div>
         </div>
       </div>
