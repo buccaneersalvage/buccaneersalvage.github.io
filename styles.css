@@ -1659,6 +1659,8 @@ ul { list-style: none; }
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
   overflow: hidden;
+  overflow-wrap: anywhere;
+  word-break: break-word;
 }
 .st-warn {
   margin: 0.2rem 0 0;
@@ -1787,12 +1789,28 @@ ul { list-style: none; }
    at the very bottom of the page. Felt broken on a mouse thumbwheel
    (2026-08-14, Julian). Plain in-flow column scrolls with the grid instead. */
 .st-facets-title {
-  margin: 0 0 0.85rem;
+  margin: 0 0 0.35rem;
   font-family: var(--font-display, Georgia, serif);
   font-size: 1.1rem;
   font-weight: 700;
   color: var(--gold-bright, #d4af37);
   letter-spacing: 0.02em;
+}
+.st-facet-lead {
+  margin: 0 0 0.9rem;
+  font-size: 0.8rem;
+  line-height: 1.4;
+  color: var(--parchment-faint, #b5aa98);
+}
+.st-facet-select {
+  width: 100%;
+  background: #0a0806;
+  border: 1px solid rgba(197, 160, 40, 0.28);
+  color: var(--parchment, #f3e9d4);
+  border-radius: 8px;
+  padding: 0.55rem 0.6rem;
+  font-size: 0.88rem;
+  font-family: inherit;
 }
 .st-facet-group {
   margin-bottom: 1rem;
@@ -2343,6 +2361,41 @@ ul.pagination .disabled .page {
   color: rgba(196, 181, 154, 0.85);
 }
 .pdp-fitment-block--core .pdp-fitment-h { color: #e07070; }
+
+.pdp-related {
+  margin-top: 1.1rem;
+  padding: 0.95rem 1.1rem;
+  border-radius: 10px;
+  border: 1px solid rgba(197, 160, 40, 0.18);
+  background: rgba(12, 10, 8, 0.4);
+}
+.pdp-related-block + .pdp-related-block {
+  margin-top: 0.8rem;
+  padding-top: 0.75rem;
+  border-top: 1px solid rgba(197, 160, 40, 0.12);
+}
+.pdp-related-h {
+  margin: 0 0 0.4rem;
+  font-size: 0.75rem;
+  font-weight: 650;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--gold, #c5a028);
+}
+.pdp-related-list {
+  margin: 0;
+  padding: 0 0 0 1.1rem;
+  color: var(--parchment-muted, #d4c8b0);
+  font-size: 0.9rem;
+  line-height: 1.45;
+}
+.pdp-related-list li { margin: 0.18rem 0; }
+.pdp-related-list a {
+  color: var(--parchment, #f3e9d4);
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
+}
+.pdp-related-list a:hover { color: var(--gold, #c5a028); }
 
 .pdp-meta {
   background: rgba(212, 175, 55, 0.05);

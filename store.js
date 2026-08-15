@@ -88,7 +88,7 @@
       if (min != null || max != null) {
         const lo = min != null ? money(min) : "any";
         const hi = max != null ? money(max) : "any";
-        hint.textContent = `Price filter: ${lo} – ${hi}`;
+        hint.textContent = `Price filter: ${lo} - ${hi}`;
       } else {
         hint.textContent =
           "Enter min and/or max (e.g. 20, $50, 100). Or search $50 / under 40.";
@@ -251,6 +251,59 @@
     [/turbo|injection pump|^pump$/i, "Cores"],
   ];
 
+  const PARENT_SHORT = {
+    "suspension-steering": "Suspension",
+    "brakes-brake-parts": "Brakes",
+    "ignition-systems-components": "Ignition",
+    "air-fuel-delivery": "Air & Fuel",
+    "engines-engine-parts": "Engines",
+    "transmission-drivetrain": "Drivetrain",
+    "other-car-truck-parts-accessories": "Other parts",
+    "interior-parts-accessories": "Interior",
+    "air-conditioning-heating": "HVAC",
+    "exhaust-emission-systems": "Exhaust",
+    cores: "Cores",
+    vintage: "Vintage",
+    other: "Other",
+  };
+
+  const SUB_CANON = {
+    "oil-filters": "oil-filter",
+    "fuel-filters": "fuel-filter",
+    "air-filters": "air-filter",
+    "distributor-caps": "distributor-cap",
+    "ignition-coils": "ignition-coil",
+    "brake-pads": "brake-pad",
+    "transmission-filters": "transmission-filter",
+    "exhaust-gaskets": "exhaust-gasket",
+    "wheelchairs": "wheelchair",
+    "bicycles": "bicycle",
+  };
+
+  const SUB_LABEL = {
+    "oil-filter": "Oil Filter",
+    "fuel-filter": "Fuel Filter",
+    "air-filter": "Air Filter",
+    "distributor-cap": "Distributor Cap",
+    "ignition-coil": "Ignition Coil",
+    "brake-pad": "Brake Pad",
+    "transmission-filter": "Transmission Filter",
+    "exhaust-gasket": "Exhaust Gasket",
+  };
+
+  function canonSubSlug(s) {
+    const k = slugKey(s);
+    return SUB_CANON[k] || k;
+  }
+
+  function parentChipLabel(slug, fallback) {
+    return PARENT_SHORT[slug] || fallback || slug;
+  }
+
+  function displayHyphen(s) {
+    return String(s || "").replace(/[–—]/g, "-");
+  }
+
   let byId = new Map();
   let activeSub = "";
   let activeMake = "";
@@ -266,16 +319,23 @@
     return String(s || "").toLowerCase().replace(/[^a-z0-9]+/g, "");
   }
 
+  function ownValue(map, key) {
+    if (!key || !Object.prototype.hasOwnProperty.call(map, key)) return undefined;
+    return map[key];
+  }
+
   function tokenAlts(tok) {
     const t = String(tok || "").toLowerCase();
     const alts = new Set([t, compactToken(t)]);
-    const extra = TOKEN_ALIASES[t] || TOKEN_ALIASES[compactToken(t)] || [];
-    extra.forEach((a) => {
-      alts.add(a);
-      alts.add(compactToken(a));
-    });
-    const brand = BRAND_ALIASES[t];
-    if (brand) brand.split(/\s+/).forEach((a) => alts.add(a));
+    const extra = ownValue(TOKEN_ALIASES, t) || ownValue(TOKEN_ALIASES, compactToken(t)) || [];
+    if (Array.isArray(extra)) {
+      extra.forEach((a) => {
+        alts.add(a);
+        alts.add(compactToken(a));
+      });
+    }
+    const brand = ownValue(BRAND_ALIASES, t);
+    if (typeof brand === "string") brand.split(/\s+/).forEach((a) => alts.add(a));
     return [...alts].filter(Boolean);
   }
 
@@ -314,7 +374,9 @@
 
   function itemHitsType(item, typeSlug) {
     if (!typeSlug) return true;
-    return slugKey(item.ebay_type || (item.fitment && item.fitment.type) || "") === typeSlug;
+    const want = canonSubSlug(typeSlug);
+    const have = canonSubSlug(item.ebay_type || (item.fitment && item.fitment.type) || "");
+    return have === want;
   }
 
   function itemEbayTree(item) {
@@ -353,18 +415,26 @@
       }
       sub = typ || parent;
     }
+    const subSlug = canonSubSlug(sub) || "other";
     item._eb = {
       parent,
       parentSlug: slugKey(parent) || "other",
-      sub,
-      subSlug: slugKey(sub) || "other",
+      sub: SUB_LABEL[subSlug] || sub,
+      subSlug,
     };
     return item._eb;
   }
 
   function itemHitsParent(item, parentSlug) {
     if (!parentSlug || parentSlug === "all") return true;
-    return itemEbayTree(item).parentSlug === parentSlug;
+    const eb = itemEbayTree(item);
+    if (eb.parentSlug === parentSlug) return true;
+    if (parentSlug === "other") {
+      const rec = catalogCounts()[eb.parentSlug];
+      const n = rec && rec.n;
+      return eb.parentSlug !== "all" && (!n || n < 2);
+    }
+    return false;
   }
 
   function itemHitsSub(item, subSlug) {
@@ -440,7 +510,8 @@
       push(brandTok[1]);
       push("brand manufacturer maker");
       const key = brandTok[1].toLowerCase();
-      if (BRAND_ALIASES[key]) push(BRAND_ALIASES[key]);
+      const alias = ownValue(BRAND_ALIASES, key);
+      if (typeof alias === "string") push(alias);
     }
 
     // Vehicle labels: "2000–2011 Dodge Dakota"
@@ -451,7 +522,8 @@
       // common make/model words already in label; add aliases
       const low = String(label).toLowerCase();
       Object.keys(BRAND_ALIASES).forEach((k) => {
-        if (low.includes(k)) push(BRAND_ALIASES[k]);
+        const a = ownValue(BRAND_ALIASES, k);
+        if (typeof a === "string" && low.includes(k)) push(a);
       });
     });
 
@@ -475,10 +547,12 @@
       }
       if (v.make) {
         const mk = String(v.make).toLowerCase();
-        if (BRAND_ALIASES[mk]) push(BRAND_ALIASES[mk]);
+        const mkAlias = ownValue(BRAND_ALIASES, mk);
+        if (typeof mkAlias === "string") push(mkAlias);
         // multi-word makes: "Mercedes-Benz"
         Object.keys(BRAND_ALIASES).forEach((k) => {
-          if (mk.includes(k)) push(BRAND_ALIASES[k]);
+          const a = ownValue(BRAND_ALIASES, k);
+          if (typeof a === "string" && mk.includes(k)) push(a);
         });
       }
     });
@@ -533,6 +607,22 @@
     return out.join(" ");
   }
 
+  function cardXrefHint(item) {
+    if (Array.isArray(item.interchange)) {
+      const first = item.interchange.map((x) => String(x || "").trim()).find(Boolean);
+      if (first) return first;
+    }
+    const pns = Array.isArray(item.part_numbers) ? item.part_numbers : [];
+    for (let i = 1; i < pns.length; i++) {
+      const bits = String(pns[i] || "")
+        .split(/[,;/|]+/)
+        .map((s) => s.trim())
+        .filter(Boolean);
+      if (bits[0]) return bits[0];
+    }
+    return "";
+  }
+
   function cardHtml(item, { featured = false } = {}) {
     const core = isCore(item);
     const href = `p/${encodeURIComponent(item.id)}.html`;
@@ -554,13 +644,19 @@
       ? "For parts or rebuild only. Untested. No returns. View product details."
       : "View product details";
     const searchblob = buildSearchBlob(item);
-    const vehHint = Array.isArray(item.vehicles) ? item.vehicles.filter(Boolean).slice(0, 2) : [];
-    const xrefHint = Array.isArray(item.interchange) ? item.interchange.filter(Boolean)[0] : "";
-    const fitHint = vehHint.length
+    const vehHint = Array.isArray(item.vehicles)
+      ? item.vehicles.filter(Boolean).slice(0, 2).map(displayHyphen)
+      : [];
+    const xrefHint = cardXrefHint(item);
+    const rawN = Number(item.vehicle_count_raw);
+    let fitHint = vehHint.length
       ? "Fits " + vehHint.join(" · ")
       : xrefHint
         ? "Interchange " + String(xrefHint)
         : "";
+    if (fitHint && Number.isFinite(rawN) && rawN > vehHint.length) {
+      fitHint += ` (${rawN} listed)`;
+    }
 
     // List.js valueNames: .name .category .searchblob + data-price
     return `
@@ -610,9 +706,11 @@
     return counts;
   }
 
-  function makeCounts() {
+  function makeCounts(parentSlug, subSlug) {
     const counts = {};
     catalog.forEach((i) => {
+      if (parentSlug && parentSlug !== "all" && !itemHitsParent(i, parentSlug)) return;
+      if (subSlug && !itemHitsSub(i, subSlug)) return;
       const seen = new Set();
       ((i.fitment && i.fitment.vehicles) || []).forEach((v) => {
         const make = (v && v.make) || "";
@@ -626,28 +724,35 @@
     return counts;
   }
 
-  function chipHtml(filter, label, n, on) {
-    const count = n != null ? ` <span class="st-chip-n" data-count="${escapeAttr(filter)}">${n}</span>` : "";
-    return `<button type="button" class="st-chip${on ? " is-on" : ""}" data-filter="${escapeAttr(filter)}" aria-pressed="${on ? "true" : "false"}">${escapeHtml(label)}${count}</button>`;
+  function optionHtml(value, label, n) {
+    const text = n != null ? `${label} (${n})` : label;
+    return `<option value="${escapeAttr(value)}">${escapeHtml(text)}</option>`;
   }
 
   function renderFacetChips() {
     const cats = catalogCounts();
-    const catBox = document.getElementById("stCatChips");
-    if (catBox) {
-      const bits = [chipHtml("all", "All", cats.all, category === "all" && !activeSub && !activeMake)];
-      Object.entries(cats)
+    const catSel = document.getElementById("stCatSelect");
+    if (catSel) {
+      const ranked = Object.entries(cats)
         .filter(([k, v]) => k !== "all" && v && v.n)
-        .sort((a, b) => b[1].n - a[1].n || a[1].label.localeCompare(b[1].label))
-        .forEach(([k, v]) => {
-          bits.push(chipHtml("cat:" + k, v.label, v.n, category === k));
-        });
-      catBox.innerHTML = bits.join("");
+        .sort((a, b) => b[1].n - a[1].n || a[1].label.localeCompare(b[1].label));
+      const main = ranked.filter(([k, v]) => k !== "other" && v.n >= 2);
+      const otherN = ranked
+        .filter(([k, v]) => k === "other" || v.n < 2)
+        .reduce((s, [, v]) => s + v.n, 0);
+      const bits = [optionHtml("all", "All parts", cats.all)];
+      main.forEach(([k, v]) => {
+        bits.push(optionHtml(k, parentChipLabel(k, v.label), v.n));
+      });
+      if (otherN) bits.push(optionHtml("other", "Other", otherN));
+      catSel.innerHTML = bits.join("");
+      const want = category || "all";
+      catSel.value = [...catSel.options].some((o) => o.value === want) ? want : "all";
     }
 
     const typeGroup = document.getElementById("stTypeGroup");
-    const typeBox = document.getElementById("stTypeChips");
-    if (typeGroup && typeBox) {
+    const typeSel = document.getElementById("stTypeSelect");
+    if (typeGroup && typeSel) {
       const parentOn = category && category !== "all";
       const types = parentOn ? subCounts(category) : {};
       const typeList = Object.entries(types).sort(
@@ -655,32 +760,41 @@
       );
       if (!parentOn || typeList.length < 2) {
         typeGroup.hidden = true;
-        typeBox.innerHTML = "";
+        typeSel.innerHTML = "";
         if (typeList.length < 2) activeSub = "";
       } else {
         typeGroup.hidden = false;
-        typeBox.innerHTML = typeList
-          .map(([k, v]) => chipHtml("sub:" + k, v.label, v.n, activeSub === k))
-          .join("");
+        typeSel.innerHTML = [optionHtml("", "Any type")].concat(
+          typeList.map(([k, v]) => optionHtml(k, SUB_LABEL[k] || v.label, v.n))
+        ).join("");
+        typeSel.value = activeSub && [...typeSel.options].some((o) => o.value === activeSub)
+          ? activeSub
+          : "";
       }
     }
 
-    const makes = makeCounts();
-    const makeList = Object.entries(makes)
-      .filter(([, v]) => v.n >= 2)
-      .sort((a, b) => b[1].n - a[1].n || a[1].label.localeCompare(b[1].label))
-      .slice(0, 14);
     const makeGroup = document.getElementById("stMakeGroup");
-    const makeBox = document.getElementById("stMakeChips");
-    if (makeGroup && makeBox) {
-      if (!makeList.length) {
+    const makeSel = document.getElementById("stMakeSelect");
+    if (makeGroup && makeSel) {
+      const parentOn = category && category !== "all";
+      const makes = parentOn ? makeCounts(category, activeSub) : {};
+      const makeList = Object.entries(makes)
+        .filter(([, v]) => v.n >= 2)
+        .sort((a, b) => b[1].n - a[1].n || a[1].label.localeCompare(b[1].label))
+        .slice(0, 16);
+      if (!parentOn || makeList.length < 2) {
         makeGroup.hidden = true;
-        makeBox.innerHTML = "";
+        makeSel.innerHTML = "";
+        if (!parentOn) activeMake = "";
       } else {
         makeGroup.hidden = false;
-        makeBox.innerHTML = makeList
-          .map(([k, v]) => chipHtml("make:" + k, v.label, v.n, activeMake === k))
-          .join("");
+        makeSel.innerHTML = [optionHtml("", "Any make")].concat(
+          makeList.map(([k, v]) => optionHtml(k, v.label, v.n))
+        ).join("");
+        makeSel.value = activeMake && [...makeSel.options].some((o) => o.value === activeMake)
+          ? activeMake
+          : "";
+        if (makeSel.value !== activeMake) activeMake = makeSel.value;
       }
     }
   }
@@ -702,7 +816,7 @@
     const text =
       matching === 0
         ? "No matches. Try another search or clear filters"
-        : `Showing ${from}–${to} of ${matching}`;
+        : `Showing ${from}-${to} of ${matching}`;
     if (meta) meta.textContent = text;
     if (showing) showing.textContent = text;
     updateEmptyState(matching);
@@ -760,7 +874,7 @@
       if (hint) {
         const lo = min != null ? money(min) : "any";
         const hi = max != null ? money(max) : "any";
-        hint.textContent = `Search amount → ${lo} – ${hi}`;
+        hint.textContent = `Search amount: ${lo} - ${hi}`;
       }
     }
 
@@ -896,30 +1010,26 @@
   }
 
   function wireControls() {
-    document.getElementById("stFacets")?.addEventListener("click", (e) => {
-      const btn = e.target.closest(".st-chip[data-filter]");
-      if (!btn || !document.getElementById("stFacets").contains(btn)) return;
-      const raw = btn.getAttribute("data-filter") || "all";
-      if (raw.startsWith("cat:")) {
-        category = raw.slice(4);
-        activeSub = "";
-      } else if (raw.startsWith("sub:")) {
-        const next = raw.slice(4);
-        activeSub = activeSub === next ? "" : next;
-      } else if (raw.startsWith("make:")) {
-        const next = raw.slice(5);
-        activeMake = activeMake === next ? "" : next;
-      } else if (raw.startsWith("type:")) {
-        const next = raw.slice(5);
-        activeSub = activeSub === next ? "" : next;
-      } else {
-        category = raw === "all" ? "all" : raw;
-        activeSub = "";
-        if (raw === "all") activeMake = "";
-      }
+    document.getElementById("stCatSelect")?.addEventListener("change", (e) => {
+      category = e.target.value || "all";
+      activeSub = "";
+      if (category === "all") activeMake = "";
       renderFacetChips();
       applyFilters();
-      document.getElementById("catalog")?.scrollIntoView({ behavior: "smooth", block: "start" });
+      const next = document.getElementById("stTypeGroup");
+      if (next && !next.hidden) {
+        next.scrollIntoView({ block: "nearest", behavior: "smooth" });
+      }
+    });
+    document.getElementById("stTypeSelect")?.addEventListener("change", (e) => {
+      activeSub = e.target.value || "";
+      renderFacetChips();
+      applyFilters();
+    });
+    document.getElementById("stMakeSelect")?.addEventListener("change", (e) => {
+      activeMake = e.target.value || "";
+      renderFacetChips();
+      applyFilters();
     });
 
     const applyPriceFacets = () => {

@@ -94,21 +94,34 @@ def item_part_numbers(item):
     return _uniq_keep(_split_pns(item.get("part_numbers")) + _split_pns(fit.get("part_numbers")))
 
 
+def item_display_pns(item):
+    """Primary part numbers only. Extra comma-blobs in later list entries are xrefs."""
+    raw = item.get("part_numbers")
+    if isinstance(raw, list) and raw:
+        first = _split_pns(raw[0])
+        if first:
+            return first
+    all_pns = item_part_numbers(item)
+    return all_pns[:1] if all_pns else []
+
+
 def item_interchange(item):
+    """Catalog interchange plus leftover part_numbers tokens (display only)."""
     fit = item.get("fitment") if isinstance(item.get("fitment"), dict) else {}
-    pns = {p.lower() for p in item_part_numbers(item)}
+    primary = {p.lower() for p in item_display_pns(item)}
     xref = _uniq_keep(_split_pns(item.get("interchange")) + _split_pns(fit.get("interchange")))
-    return [x for x in xref if x.lower() not in pns]
+    extras = [p for p in item_part_numbers(item) if p.lower() not in primary]
+    return [x for x in _uniq_keep(xref + extras) if x.lower() not in primary]
 
 
 def item_vehicles(item):
-    return _uniq_keep(item.get("vehicles") or [])
+    return [s.replace("\u2013", "-").replace("\u2014", "-") for s in _uniq_keep(item.get("vehicles") or [])]
 
 
 def pdp_fitment_html(item, esc_t):
     """Catalog Fits / interchange on the PDP — same data as store cards, full lists."""
     vehs = item_vehicles(item)
-    pns = item_part_numbers(item)
+    pns = item_display_pns(item)
     xref = item_interchange(item)
     if not vehs and not pns and not xref:
         return ""
@@ -150,6 +163,92 @@ def pdp_fitment_html(item, esc_t):
         '<h2 class="pdp-fitment-title">Fitment</h2>'
         + "".join(blocks)
         + note
+        + "</section>"
+    )
+
+
+def _parent_crumb(item):
+    raw = (item.get("ebay_category") or "").strip()
+    skip = {
+        "ebay motors",
+        "parts & accessories",
+        "car & truck parts & accessories",
+        "commercial truck parts",
+    }
+    kept = [p.strip() for p in raw.split(":") if p.strip() and p.strip().lower() not in skip]
+    return kept[0] if kept else ""
+
+
+def related_items(item, items, limit=6):
+    iid = item.get("id")
+    cat = (item.get("ebay_category") or "").strip()
+    typ = (item.get("ebay_type") or "").strip().lower()
+    parent = _parent_crumb(item)
+    scored = []
+    for other in items:
+        if other.get("id") == iid:
+            continue
+        score = 0
+        oc = (other.get("ebay_category") or "").strip()
+        if cat and oc and oc == cat:
+            score += 4
+        elif parent and _parent_crumb(other) == parent:
+            score += 2
+        ot = (other.get("ebay_type") or "").strip().lower()
+        if typ and ot and ot == typ:
+            score += 2
+        if score:
+            scored.append((score, other.get("name") or "", other))
+    scored.sort(key=lambda row: (-row[0], row[1]))
+    return [row[2] for row in scored[:limit]]
+
+
+def also_stocked_items(item, items, limit=4):
+    tokens = {p.lower() for p in item_part_numbers(item) + item_interchange(item) if len(p) >= 5}
+    if not tokens:
+        return []
+    hits = []
+    for other in items:
+        if other.get("id") == item.get("id"):
+            continue
+        ot = {p.lower() for p in item_part_numbers(other) + item_interchange(other) if len(p) >= 5}
+        if tokens & ot:
+            hits.append(other)
+        if len(hits) >= limit:
+            break
+    return hits
+
+
+def related_html(item, items, esc, esc_t):
+    also = also_stocked_items(item, items)
+    also_ids = {o.get("id") for o in also}
+    related = [o for o in related_items(item, items) if o.get("id") not in also_ids]
+    if not also and not related:
+        return ""
+    blocks = []
+    if also:
+        lis = "".join(
+            f'<li><a href="{esc(o.get("id"))}.html">{esc_t(o.get("name") or "Part")}</a></li>'
+            for o in also
+        )
+        blocks.append(
+            '<div class="pdp-related-block">'
+            '<p class="pdp-related-h">Same part number in this store</p>'
+            f'<ul class="pdp-related-list">{lis}</ul></div>'
+        )
+    if related:
+        lis = "".join(
+            f'<li><a href="{esc(o.get("id"))}.html">{esc_t(o.get("name") or "Part")}</a></li>'
+            for o in related[:5]
+        )
+        blocks.append(
+            '<div class="pdp-related-block">'
+            '<p class="pdp-related-h">Related in this store</p>'
+            f'<ul class="pdp-related-list">{lis}</ul></div>'
+        )
+    return (
+        '<section class="pdp-related" aria-label="Related parts">'
+        + "".join(blocks)
         + "</section>"
     )
 
@@ -382,7 +481,7 @@ def main() -> None:
             )
             schema["video"] = {
                 "@type": "VideoObject",
-                "name": f"{name} — test run",
+                "name": f"{name} - test run",
                 "description": f"Test-run clip of {name}.",
                 "thumbnailUrl": [img],
                 "contentUrl": f"{BASE}/{video}",
@@ -407,7 +506,7 @@ def main() -> None:
 
         if checkout:
             nav_cta = f'<a class="nav-cta" href="{esc(checkout)}" target="_blank" rel="noopener noreferrer">Buy now</a>'
-            lab = "Checkout — for parts · no returns" if no_returns else "Buy · secure checkout"
+            lab = "Checkout - for parts · no returns" if no_returns else "Buy · secure checkout"
             cta = f'<a class="btn btn-primary" href="{esc(checkout)}" target="_blank" rel="noopener noreferrer">{esc_t(lab)}</a>'
         else:
             nav_cta = '<a class="nav-cta is-disabled" href="../store.html">Buy now</a>'
@@ -419,6 +518,7 @@ def main() -> None:
         else:
             warn = ""
         fitment = pdp_fitment_html(item, esc_t)
+        related = related_html(item, items, esc, esc_t)
         img_tag = f'<img id="pdpMainImage" class="pdp-image" src="{esc(img)}" alt="{esc(name)}" width="600" height="600" />'
         video_el = (
             f'<video id="pdpMainVideo" class="pdp-video" controls preload="metadata" '
@@ -432,7 +532,7 @@ def main() -> None:
         # (starts active), then the rest of the gallery, then video last.
         thumbs = (
             f'<button type="button" class="pdp-thumb-btn is-active" data-type="image" '
-            f'data-src="{esc(img)}" aria-label="{esc_t(name)} — main photo">'
+            f'data-src="{esc(img)}" aria-label="{esc_t(name)} - main photo">'
             f'<img class="pdp-thumb" src="{esc(img)}" alt="" width="100" height="100" loading="lazy" /></button>'
         )
         thumbs += "".join(
@@ -462,7 +562,7 @@ def main() -> None:
   <meta name="description" content="{esc(desc)}" />
   <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1" />
   <meta name="theme-color" content="#0c0a08" />
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://items-images-production.s3.us-west-2.amazonaws.com https://*.s3.us-west-2.amazonaws.com https://*.s3.amazonaws.com https://*.squareup.com https://*.squarecdn.com; media-src 'self'; font-src 'self' data:; connect-src 'self'; base-uri 'self'; form-action 'self'; object-src 'none';" />
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://items-images-production.s3.us-west-2.amazonaws.com https://*.squareup.com https://*.squarecdn.com; media-src 'self'; font-src 'self' data:; connect-src 'self'; base-uri 'self'; form-action 'self'; object-src 'none';" />
   <meta http-equiv="X-Content-Type-Options" content="nosniff" />
   <meta name="referrer" content="strict-origin-when-cross-origin" />
   <link rel="canonical" href="{esc(canonical)}" />
@@ -479,7 +579,7 @@ def main() -> None:
   <meta name="twitter:image" content="{esc(img)}" />
   <link rel="icon" type="image/jpeg" href="../assets/crest-rustjack-web.jpg" />
   <link rel="stylesheet" href="../assets/fonts.css" />
-  <link rel="stylesheet" href="../styles.css?v=godmode14" />
+  <link rel="stylesheet" href="../styles.css?v=godmode15" />
   <script type="application/ld+json">{schema_json}</script>
   <script src="../pdp-gallery.js" defer></script>
   <script src="../main.js" defer></script>
@@ -537,6 +637,7 @@ def main() -> None:
           <p class="pdp-price">{esc_t(price or "Contact for price")}</p>
           {warn}
           {fitment}
+          {related}
           <div class="pdp-cta-group">
             {cta}
             <a href="../store.html" class="btn btn-secondary">Back to store</a>

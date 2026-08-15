@@ -10,7 +10,7 @@
   <meta name="apple-mobile-web-app-title" content="BS Store" />
   <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1" />
   <meta name="theme-color" content="#0c0a08" />
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://items-images-production.s3.us-west-2.amazonaws.com https://*.s3.us-west-2.amazonaws.com https://*.s3.amazonaws.com https://*.squareup.com https://*.squarecdn.com; font-src 'self' data:; connect-src 'self'; base-uri 'self'; form-action 'self'; object-src 'none';" />
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://items-images-production.s3.us-west-2.amazonaws.com https://*.squareup.com https://*.squarecdn.com; font-src 'self' data:; connect-src 'self'; base-uri 'self'; form-action 'self'; object-src 'none';" />
   <meta http-equiv="X-Content-Type-Options" content="nosniff" />
   <meta name="referrer" content="strict-origin-when-cross-origin" />
   <link rel="canonical" href="https://buccaneersalvage.github.io/store.html" />
@@ -38,7 +38,7 @@
   <link rel="preload" href="assets/fonts.css?v=godmode11" as="style" />
   <link rel="preload" as="font" href="assets/fonts/QGYvz_MVcBeNP4NJtEtq.woff2" type="font/woff2" crossorigin />
   <link rel="stylesheet" href="assets/fonts.css?v=godmode11" />
-  <link rel="stylesheet" href="styles.css?v=godmode14" />
+  <link rel="stylesheet" href="styles.css?v=godmode16" />
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -209,20 +209,21 @@
           <div class="st-plp">
             <!-- Facets (commerce-ui style left rail on desktop) -->
             <aside class="st-facets" id="stFacets" aria-label="Filters">
-              <h3 class="st-facets-title">Refine</h3>
+              <h3 class="st-facets-title">Browse</h3>
+              <p class="st-facet-lead">Pick a category. Type a year and make in search.</p>
               <div class="st-facet-group">
-                <p class="st-facet-label">Category</p>
-                <div class="st-chips" id="stCatChips" role="group" aria-label="Category">
-                  <button type="button" class="st-chip is-on" data-filter="all" aria-pressed="true">All</button>
-                </div>
+                <label class="st-facet-label" for="stCatSelect">1. Category</label>
+                <select id="stCatSelect" class="st-facet-select" aria-label="Category">
+                  <option value="all" selected>All parts</option>
+                </select>
               </div>
               <div class="st-facet-group st-facet-group--sub" id="stTypeGroup" hidden>
-                <p class="st-facet-label">Subcategory</p>
-                <div class="st-chips st-chips--sub" id="stTypeChips" role="group" aria-label="Subcategory"></div>
+                <label class="st-facet-label" for="stTypeSelect">2. Type</label>
+                <select id="stTypeSelect" class="st-facet-select" aria-label="Part type"></select>
               </div>
               <div class="st-facet-group" id="stMakeGroup" hidden>
-                <p class="st-facet-label">Fits make</p>
-                <div class="st-chips" id="stMakeChips" role="group" aria-label="Vehicle make"></div>
+                <label class="st-facet-label" for="stMakeSelect">3. Fits</label>
+                <select id="stMakeSelect" class="st-facet-select" aria-label="Vehicle make"></select>
               </div>
               <div class="st-facet-group">
                 <p class="st-facet-label">Price</p>
@@ -231,13 +232,13 @@
                     <input type="text" id="stPriceMin" inputmode="decimal" autocomplete="off"
                            placeholder="Min $" aria-label="Minimum price" />
                   </label>
-                  <span class="st-price-sep">–</span>
+                  <span class="st-price-sep">-</span>
                   <label><span class="visually-hidden">Max price</span>
                     <input type="text" id="stPriceMax" inputmode="decimal" autocomplete="off"
                            placeholder="Max $" aria-label="Maximum price" />
                   </label>
                 </div>
-                <p class="st-price-hint" id="stPriceHint">Enter min and/or max (e.g. 20, $50, 100). Or search <code>$50</code> / <code>under 40</code>.</p>
+                <p class="st-price-hint" id="stPriceHint">Min and/or max, or search <code>under 40</code>.</p>
                 <button type="button" class="st-facet-apply" id="stPriceApply">Apply price</button>
               </div>
               <button type="button" class="st-facet-clear" id="stClearFilters">Clear filters</button>
@@ -248,7 +249,7 @@
                 <label class="st-search">
                   <span class="visually-hidden">Search parts</span>
                   <input type="search" class="st-search-input" id="stSearch"
-                         placeholder="Search year, make, model, brand, part #…"
+                         placeholder="2008 Camry, WIX 51515, or part #"
                          aria-label="Search by year, make, model, brand, or part number"
                          autocomplete="off" />
                 </label>
@@ -363,6 +364,6 @@
 
   <script src="main.js" defer></script>
   <script src="assets/vendor/list.min.js" defer></script>
-  <script src="store.js?v=godmode33" defer></script>
+  <script src="store.js?v=godmode36" defer></script>
 </body>
 </html>

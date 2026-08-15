@@ -104,11 +104,20 @@ def main():
             except Exception:
                 n_ich = 0
             check("search interchange PN", 0 < n_ich < catalog_size, showing_ich)
+            page.fill("#stSearch", "constructor")
+            page.wait_for_timeout(400)
+            showing_ctor = page.text_content("#stShowing").strip()
+            ctor_err = [e for e in console_errors if "forEach is not a function" in e or "tokenAlts" in e]
+            check(
+                "search constructor does not crash",
+                not ctor_err and showing_ctor != "",
+                showing_ctor,
+            )
             page.fill("#stSearch", "")
             page.wait_for_timeout(300)
 
-            # 3) eBay parent category then subcategory
-            page.click(".st-chip[data-filter='cat:brakes-brake-parts']")
+            # 3) eBay parent category then type (streamed selects)
+            page.select_option("#stCatSelect", "brakes-brake-parts")
             page.wait_for_timeout(300)
             showing_brake = page.text_content("#stShowing").strip()
             try:
@@ -116,24 +125,44 @@ def main():
             except Exception:
                 n_brake = catalog_size
             check("filter brakes parent reduces", 0 < n_brake < catalog_size, showing_brake)
-            sub_chip = page.query_selector(".st-chip[data-filter='sub:brake-pad-shoe-hardware']")
-            check("subcategory chips after parent", bool(sub_chip), "brake pad hardware sub")
-            if sub_chip:
-                page.click(".st-chip[data-filter='sub:brake-pad-shoe-hardware']")
+            type_opt = page.query_selector("#stTypeSelect option[value='brake-pad-shoe-hardware']")
+            check("type select after parent", bool(type_opt), "brake pad hardware type")
+            type_visible = page.is_visible("#stTypeSelect")
+            check("type step visible after category", type_visible)
+            if type_opt:
+                page.select_option("#stTypeSelect", "brake-pad-shoe-hardware")
                 page.wait_for_timeout(300)
                 showing_sub = page.text_content("#stShowing").strip()
                 try:
                     n_sub = int(showing_sub.split("of")[-1].strip())
                 except Exception:
                     n_sub = n_brake
-                check("subcategory narrows parent", 0 < n_sub <= n_brake, showing_sub)
-            air_parent = page.query_selector(".st-chip[data-filter='cat:air-fuel-delivery']")
-            check("auto eBay parent Air & Fuel", bool(air_parent), "air-fuel-delivery")
-            engines_parent = page.query_selector(".st-chip[data-filter='cat:engines-engine-parts']")
-            check("auto eBay parent Engines", bool(engines_parent), "engines-engine-parts")
+                check("type narrows parent", 0 < n_sub <= n_brake, showing_sub)
+            air_opt = page.query_selector("#stCatSelect option[value='air-fuel-delivery']")
+            air_label = (air_opt.inner_text() if air_opt else "") or ""
+            check("auto eBay parent Air & Fuel", bool(air_opt), "air-fuel-delivery")
+            check(
+                "Air & Fuel short label",
+                "air & fuel" in air_label.lower() and "delivery" not in air_label.lower(),
+                air_label,
+            )
+            engines_opt = page.query_selector("#stCatSelect option[value='engines-engine-parts']")
+            check("auto eBay parent Engines", bool(engines_opt), "engines-engine-parts")
+            other_opt = page.query_selector("#stCatSelect option[value='other']")
+            other_label = (other_opt.inner_text() if other_opt else "") or ""
+            check(
+                "Other folds singleton parents",
+                bool(other_opt) and "other" in other_label.lower(),
+                other_label,
+            )
+            make_hidden_on_all = True
+            page.select_option("#stCatSelect", "all")
+            page.wait_for_timeout(250)
+            make_hidden_on_all = not page.is_visible("#stMakeSelect")
+            check("Fits hidden until category", make_hidden_on_all)
 
             # Reset filters
-            page.click(".st-chip[data-filter='all']") if page.query_selector(".st-chip[data-filter='all']") else None
+            page.select_option("#stCatSelect", "all")
             page.wait_for_timeout(300)
             page.fill("#stSearch", "under 40")
             page.wait_for_timeout(400)
@@ -176,7 +205,11 @@ def main():
                 page.click("ul.pagination li:nth-child(2) .page")
                 page.wait_for_timeout(300)
                 showing2 = page.text_content("#stShowing").strip()
-                check("page 2 navigation", showing2 == f"Showing 13–24 of {catalog_size}", showing2)
+                check(
+                    "page 2 navigation",
+                    showing2.replace("–", "-") == f"Showing 13-24 of {catalog_size}",
+                    showing2,
+                )
 
             # 8) featured cores section (if it exists)
             if page.query_selector("#stFeaturedCores"):
@@ -207,10 +240,20 @@ def main():
                 "103-2250" in (page.text_content(".pdp-fitment") or ""),
                 "103-2250",
             )
+            check(
+                "pdp related or also-stocked",
+                page.locator(".pdp-related").count() == 1
+                and page.locator(".pdp-related a[href$='.html']").count() >= 1,
+                "related links",
+            )
             xref_pdp = page.goto(f"{BASE}/p/5LLWTR3B27YDLV6ZR6XMBPWL.html")
             check("xref pdp loads", xref_pdp and xref_pdp.ok, f"status={getattr(xref_pdp, 'status', None)}")
             xref_txt = page.text_content(".pdp-fitment") or ""
             check("pdp shows interchange PN", "W01-358-8091" in xref_txt, xref_txt[:80])
+            blob_pdp = page.goto(f"{BASE}/p/MJAQDKIB2WT55I26Q552PZXS.html")
+            check("blob-xref pdp loads", blob_pdp and blob_pdp.ok, f"status={getattr(blob_pdp, 'status', None)}")
+            blob_txt = page.text_content(".pdp-fitment") or ""
+            check("pdp splits PN blob into interchange", "W01-358-7859" in blob_txt, blob_txt[:120])
             pdp = page.goto(f"{BASE}/p/7CESL5VZLPSRKJGWUFCHL5R5.html")
             check("pdp chrome item loads", pdp and pdp.ok, f"status={getattr(pdp, 'status', None)}")
             check("pdp has navToggle", page.locator("#navToggle").count() == 1)
