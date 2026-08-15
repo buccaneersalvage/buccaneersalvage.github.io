@@ -36,6 +36,9 @@ FITMENT_DB = HUB / "assets" / "fitment-db.json"
 NAME_OVERRIDE = {
     "U7IAHNRLDFHIMBOV75GFFH7W": "Cloyes B-061 Timing Belt NOS Chevy Chevette Pontiac T1000 79-87",
     "OIEKBY47T4B7SOUC5WDL34PA": "Carlson H5764Q Rear Disc Brake Hardware Pro Kit New Chevy Silverado GMC Sierra",
+    # Qty 2 singles — not lots. Keep in lockstep with export_hub_square_catalog.py.
+    "5MOEEWOSEYYREBKVMVTWXBW4": "WIX 51630 Oil Filter NOS Fits GM 2.5L In-Pan 87-92",
+    "DZZJP33EXKO4VTYOJB5VS7KZ": "WIX 51372 Oil Filter NOS Fits Ford Lincoln Mercury 91-17 Mazda",
 }
 EBAY = Path.home() / "ebay"
 SCRIPTS = EBAY / "scripts"
