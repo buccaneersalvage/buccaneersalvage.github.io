@@ -1669,19 +1669,17 @@ ul { list-style: none; }
   }
 }
 
-/* Facet rail — dark gold, sticky on desktop */
+/* Facet rail — dark gold, scrolls in-flow with the grid (not sticky — see below) */
 .st-facets {
   background: #12100c;
   border: 1px solid rgba(197, 160, 40, 0.18);
   border-radius: 12px;
   padding: 1rem 0.95rem 1.1rem;
 }
-@media (min-width: 960px) {
-  .st-facets {
-    position: sticky;
-    top: 5.25rem;
-  }
-}
+/* Was position:sticky — pinned the sidebar in place while the (much longer)
+   product grid scrolled past underneath it, then it would abruptly "catch up"
+   at the very bottom of the page. Felt broken on a mouse thumbwheel
+   (2026-08-14, Julian). Plain in-flow column scrolls with the grid instead. */
 .st-facets-title {
   margin: 0 0 0.85rem;
   font-family: var(--font-display, Georgia, serif);
