@@ -107,12 +107,31 @@ def main():
             page.fill("#stSearch", "")
             page.wait_for_timeout(300)
 
-            # 3) filter brake -> should reduce count
-            page.click(".st-chip[data-filter='brake']")
+            # 3) eBay parent category then subcategory
+            page.click(".st-chip[data-filter='cat:brakes-brake-parts']")
             page.wait_for_timeout(300)
             showing_brake = page.text_content("#stShowing").strip()
-            check("filter brake reduces results", "of" in showing_brake and int(showing_brake.split("of")[-1].strip()) < catalog_size, showing_brake)
-            
+            try:
+                n_brake = int(showing_brake.split("of")[-1].strip())
+            except Exception:
+                n_brake = catalog_size
+            check("filter brakes parent reduces", 0 < n_brake < catalog_size, showing_brake)
+            sub_chip = page.query_selector(".st-chip[data-filter='sub:brake-pad-shoe-hardware']")
+            check("subcategory chips after parent", bool(sub_chip), "brake pad hardware sub")
+            if sub_chip:
+                page.click(".st-chip[data-filter='sub:brake-pad-shoe-hardware']")
+                page.wait_for_timeout(300)
+                showing_sub = page.text_content("#stShowing").strip()
+                try:
+                    n_sub = int(showing_sub.split("of")[-1].strip())
+                except Exception:
+                    n_sub = n_brake
+                check("subcategory narrows parent", 0 < n_sub <= n_brake, showing_sub)
+            air_parent = page.query_selector(".st-chip[data-filter='cat:air-fuel-delivery']")
+            check("auto eBay parent Air & Fuel", bool(air_parent), "air-fuel-delivery")
+            engines_parent = page.query_selector(".st-chip[data-filter='cat:engines-engine-parts']")
+            check("auto eBay parent Engines", bool(engines_parent), "engines-engine-parts")
+
             # Reset filters
             page.click(".st-chip[data-filter='all']") if page.query_selector(".st-chip[data-filter='all']") else None
             page.wait_for_timeout(300)

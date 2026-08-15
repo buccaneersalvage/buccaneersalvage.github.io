@@ -232,35 +232,27 @@
     gm: ["gm", "gmc", "chevrolet", "chevy"],
   };
 
-  const CAT_CHIP_LABEL = {
-    all: "All",
-    "air-spring": "Air springs",
-    brake: "Brake",
-    filters: "Filters",
-    ignition: "Ignition",
-    driveline: "Driveline",
-    cores: "Cores",
-    vintage: "Vintage",
-    turbo: "Turbo",
-    pump: "Pump",
-    other: "Other",
-  };
+  /** Skip eBay root crumbs so chips start at the department. */
+  const EBAY_SKIP = new Set([
+    "ebay motors",
+    "parts & accessories",
+    "car & truck parts & accessories",
+    "commercial truck parts",
+  ]);
 
-  const CAT_CHIP_ORDER = [
-    "air-spring",
-    "brake",
-    "filters",
-    "ignition",
-    "driveline",
-    "cores",
-    "vintage",
-    "turbo",
-    "pump",
-    "other",
+  /** Map Type → same eBay department when GetItem left PrimaryCategory empty. */
+  const TYPE_PARENT = [
+    [/oil filter|crankcase|breather|timing (component|sprocket|belt)/i, "Engines & Engine Parts"],
+    [/fuel filter|air filter/i, "Air & Fuel Delivery"],
+    [/distributor|ignition|spark plug/i, "Ignition Systems & Components"],
+    [/\bcv\b|boot kit|drivetrain/i, "Transmission & Drivetrain"],
+    [/brake|caliper/i, "Brakes & Brake Parts"],
+    [/air spring|rolling lobe|air ride/i, "Suspension & Steering"],
+    [/turbo|injection pump|^pump$/i, "Cores"],
   ];
 
   let byId = new Map();
-  let activeType = "";
+  let activeSub = "";
   let activeMake = "";
 
   function slugKey(s) {
@@ -325,6 +317,63 @@
     return slugKey(item.ebay_type || (item.fitment && item.fitment.type) || "") === typeSlug;
   }
 
+  function itemEbayTree(item) {
+    if (!item) return { parent: "Other", parentSlug: "other", sub: "Other", subSlug: "other" };
+    if (item._eb) return item._eb;
+    const raw = (
+      item.ebay_category ||
+      (item.fitment && item.fitment.ebay_category) ||
+      ""
+    ).trim();
+    const parts = raw
+      ? raw.split(":").map((s) => s.trim()).filter(Boolean)
+      : [];
+    const kept = parts.filter((p) => !EBAY_SKIP.has(p.toLowerCase()));
+    let parent = "";
+    let sub = "";
+    if (kept.length >= 2) {
+      parent = kept[0];
+      sub = kept[kept.length - 1];
+    } else if (kept.length === 1) {
+      parent = kept[0];
+      sub = (item.ebay_type || (item.fitment && item.fitment.type) || "").trim() || kept[0];
+    } else {
+      const typ = (item.ebay_type || (item.fitment && item.fitment.type) || "").trim();
+      parent = "Other";
+      for (let i = 0; i < TYPE_PARENT.length; i++) {
+        if (TYPE_PARENT[i][0].test(typ)) {
+          parent = TYPE_PARENT[i][1];
+          break;
+        }
+      }
+      if (parent === "Other") {
+        if (item.category === "turbo" || item.category === "pump") parent = "Cores";
+        else if (item.category === "vintage") parent = "Vintage";
+        else if (item.category && item.category !== "other") parent = catLabel(item.category);
+      }
+      sub = typ || parent;
+    }
+    item._eb = {
+      parent,
+      parentSlug: slugKey(parent) || "other",
+      sub,
+      subSlug: slugKey(sub) || "other",
+    };
+    return item._eb;
+  }
+
+  function itemHitsParent(item, parentSlug) {
+    if (!parentSlug || parentSlug === "all") return true;
+    return itemEbayTree(item).parentSlug === parentSlug;
+  }
+
+  function itemHitsSub(item, subSlug) {
+    if (!subSlug) return true;
+    const eb = itemEbayTree(item);
+    if (eb.subSlug === subSlug) return true;
+    return itemHitsType(item, subSlug);
+  }
+
   /** Expand "2000–2011" so year queries like 2005 match (List.js is substring). */
   function expandYearRange(from, to, cap = 45) {
     const a = Number(from);
@@ -371,6 +420,9 @@
     push(item.ebay_type);
     push(item.ebay_brand);
     push(item.ebay_category);
+    const eb = itemEbayTree(item);
+    push(eb.parent);
+    push(eb.sub);
     const pns = []
       .concat(item.part_numbers || [])
       .concat(item.interchange || []);
@@ -535,23 +587,24 @@
   }
 
   function catalogCounts() {
-    const counts = { all: catalog.length, cores: 0 };
+    const counts = { all: catalog.length };
     catalog.forEach((i) => {
-      const cat = i.category || "other";
-      counts[cat] = (counts[cat] || 0) + 1;
-      if (isCore(i)) counts.cores++;
+      const eb = itemEbayTree(i);
+      const k = eb.parentSlug;
+      if (!counts[k]) counts[k] = { label: eb.parent, n: 0 };
+      counts[k].n++;
     });
     return counts;
   }
 
-  function typeCounts() {
+  function subCounts(parentSlug) {
     const counts = {};
     catalog.forEach((i) => {
-      const t = (i.ebay_type || (i.fitment && i.fitment.type) || "").trim();
-      if (!t) return;
-      const k = slugKey(t);
+      const eb = itemEbayTree(i);
+      if (parentSlug && eb.parentSlug !== parentSlug) return;
+      const k = eb.subSlug;
       if (!k) return;
-      if (!counts[k]) counts[k] = { label: t, n: 0 };
+      if (!counts[k]) counts[k] = { label: eb.sub, n: 0 };
       counts[k].n++;
     });
     return counts;
@@ -582,35 +635,32 @@
     const cats = catalogCounts();
     const catBox = document.getElementById("stCatChips");
     if (catBox) {
-      const bits = [chipHtml("all", "All", cats.all, category === "all" && !activeType && !activeMake)];
-      CAT_CHIP_ORDER.forEach((k) => {
-        const n = cats[k] || 0;
-        if (!n) return;
-        bits.push(chipHtml(k, CAT_CHIP_LABEL[k] || k, n, category === k && !activeType && !activeMake));
-      });
-      Object.keys(cats).forEach((k) => {
-        if (k === "all" || CAT_CHIP_ORDER.includes(k)) return;
-        if (!cats[k]) return;
-        bits.push(chipHtml(k, CAT_CHIP_LABEL[k] || catLabel(k), cats[k], category === k && !activeType && !activeMake));
-      });
+      const bits = [chipHtml("all", "All", cats.all, category === "all" && !activeSub && !activeMake)];
+      Object.entries(cats)
+        .filter(([k, v]) => k !== "all" && v && v.n)
+        .sort((a, b) => b[1].n - a[1].n || a[1].label.localeCompare(b[1].label))
+        .forEach(([k, v]) => {
+          bits.push(chipHtml("cat:" + k, v.label, v.n, category === k));
+        });
       catBox.innerHTML = bits.join("");
     }
 
-    const types = typeCounts();
-    const typeList = Object.entries(types)
-      .filter(([, v]) => v.n >= 2)
-      .sort((a, b) => b[1].n - a[1].n || a[1].label.localeCompare(b[1].label))
-      .slice(0, 12);
     const typeGroup = document.getElementById("stTypeGroup");
     const typeBox = document.getElementById("stTypeChips");
     if (typeGroup && typeBox) {
-      if (!typeList.length) {
+      const parentOn = category && category !== "all";
+      const types = parentOn ? subCounts(category) : {};
+      const typeList = Object.entries(types).sort(
+        (a, b) => b[1].n - a[1].n || a[1].label.localeCompare(b[1].label)
+      );
+      if (!parentOn || typeList.length < 2) {
         typeGroup.hidden = true;
         typeBox.innerHTML = "";
+        if (typeList.length < 2) activeSub = "";
       } else {
         typeGroup.hidden = false;
         typeBox.innerHTML = typeList
-          .map(([k, v]) => chipHtml("type:" + k, v.label, v.n, activeType === k))
+          .map(([k, v]) => chipHtml("sub:" + k, v.label, v.n, activeSub === k))
           .join("");
       }
     }
@@ -720,17 +770,15 @@
     list.filter((item) => {
       const el = item.elm;
       if (!el) return false;
-      const cat = el.getAttribute("data-category") || "other";
       const rec = byId.get(el.getAttribute("data-id") || "") || null;
-      const core = cat === "turbo" || cat === "pump";
-      if (activeType) {
-        if (!rec || !itemHitsType(rec, activeType)) return false;
-      } else if (activeMake) {
+      if (category !== "all") {
+        if (!rec || !itemHitsParent(rec, category)) return false;
+      }
+      if (activeSub) {
+        if (!rec || !itemHitsSub(rec, activeSub)) return false;
+      }
+      if (activeMake) {
         if (!rec || !itemHitsMake(rec, activeMake)) return false;
-      } else if (category === "cores") {
-        if (!core) return false;
-      } else if (category !== "all" && cat !== category) {
-        return false;
       }
       if (textQ && rec && !itemHitsQuery(rec, textQ)) return false;
       if (textQ && !rec) return false;
@@ -852,18 +900,22 @@
       const btn = e.target.closest(".st-chip[data-filter]");
       if (!btn || !document.getElementById("stFacets").contains(btn)) return;
       const raw = btn.getAttribute("data-filter") || "all";
-      if (raw.startsWith("type:")) {
-        activeType = raw.slice(5);
-        activeMake = "";
-        category = "all";
+      if (raw.startsWith("cat:")) {
+        category = raw.slice(4);
+        activeSub = "";
+      } else if (raw.startsWith("sub:")) {
+        const next = raw.slice(4);
+        activeSub = activeSub === next ? "" : next;
       } else if (raw.startsWith("make:")) {
-        activeMake = raw.slice(5);
-        activeType = "";
-        category = "all";
+        const next = raw.slice(5);
+        activeMake = activeMake === next ? "" : next;
+      } else if (raw.startsWith("type:")) {
+        const next = raw.slice(5);
+        activeSub = activeSub === next ? "" : next;
       } else {
-        category = raw;
-        activeType = "";
-        activeMake = "";
+        category = raw === "all" ? "all" : raw;
+        activeSub = "";
+        if (raw === "all") activeMake = "";
       }
       renderFacetChips();
       applyFilters();
@@ -897,7 +949,7 @@
 
     document.getElementById("stClearFilters")?.addEventListener("click", () => {
       category = "all";
-      activeType = "";
+      activeSub = "";
       activeMake = "";
       priceMin = null;
       priceMax = null;
