@@ -251,8 +251,19 @@
     [/turbo|injection pump|^pump$/i, "Cores"],
     [/exhaust|flange gasket/i, "Exhaust & Emission Systems"],
     [/headlight switch|dimmer/i, "Interior Parts & Accessories"],
-    [/wheelchair|bicycle|\bbike\b|masi/i, "Vintage"],
+    [/wheelchair/i, "Mobility"],
+    [/\bbicycle\b|\bbike\b|\bmasi\b/i, "Cycling"],
+    [/forklift/i, "Material Handling"],
+    [/capacitor motor|\bcraftsman\b.*\bmotor\b/i, "Electric Motors"],
   ];
+
+  /** Non-vehicle store departments. Stay out of make/model/year parts search. */
+  const YARD_PARENTS = new Set([
+    "mobility",
+    "cycling",
+    "material-handling",
+    "electric-motors",
+  ]);
 
   const PARENT_SHORT = {
     "suspension-steering": "Suspension",
@@ -266,8 +277,10 @@
     "air-conditioning-heating": "HVAC",
     "exhaust-emission-systems": "Exhaust",
     cores: "Cores",
-    vintage: "Vintage",
-    other: "Other",
+    mobility: "Mobility",
+    cycling: "Cycling",
+    "material-handling": "Material Handling",
+    "electric-motors": "Electric Motors",
   };
 
   const SUB_CANON = {
@@ -292,6 +305,8 @@
     "brake-pad": "Brake Pad",
     "transmission-filter": "Transmission Filter",
     "exhaust-gasket": "Exhaust Gasket",
+    wheelchair: "Wheelchair",
+    bicycle: "Bicycle",
   };
 
   function canonSubSlug(s) {
@@ -357,12 +372,23 @@
     });
   }
 
+  function isNonVehicleDept(item) {
+    return YARD_PARENTS.has(itemEbayTree(item).parentSlug);
+  }
+
   function itemHitsQuery(item, raw) {
     const q = String(raw || "").trim().toLowerCase();
     if (!q) return true;
     const blob = item._blob || (item._blob = buildSearchBlob(item));
     const compactBlob = compactToken(blob);
     const tokens = q.split(/[^\p{L}\p{N}.]+/u).filter(Boolean);
+    if (
+      isNonVehicleDept(item) &&
+      tokens.length &&
+      tokens.every((tok) => /^(?:19|20)\d{2}$/.test(tok))
+    ) {
+      return false;
+    }
     return tokens.every((tok) => {
       if (/^(?:19|20)\d{2}$/.test(tok) && yearHitsFitment(item, tok)) return true;
       return tokenAlts(tok).some((a) => blob.includes(a) || compactBlob.includes(compactToken(a)));
@@ -441,17 +467,19 @@
     const typed = typeParentName(typ, item.name || "");
     if (typed && slugKey(parent) !== slugKey(typed)) {
       parent = typed;
-      if (typ) sub = typ;
+      if (typ && !/^vintage$/i.test(typ)) sub = typ;
     }
     if (!parent) {
-      parent = "Other";
       if (item.category === "turbo" || item.category === "pump") parent = "Cores";
-      else if (item.category === "vintage") parent = "Vintage";
+      else parent = typeParentName(typ, item.name || "");
     }
     const rawSlug = slugKey(parent);
-    if (rawSlug === "health-beauty" || rawSlug === "sporting-goods") parent = "Vintage";
-    if (rawSlug === "business-industrial") parent = "Other";
-    if (!sub) sub = typ || parent;
+    if (rawSlug === "health-beauty") parent = typeParentName(typ, item.name || "") || "Mobility";
+    else if (rawSlug === "sporting-goods") parent = typeParentName(typ, item.name || "") || "Cycling";
+    else if (rawSlug === "business-industrial") parent = typeParentName(typ, item.name || "") || "Material Handling";
+    if (!sub || /^vintage$/i.test(sub)) {
+      sub = typ && !/^vintage$/i.test(typ) ? typ : kept[kept.length - 1] || parent;
+    }
     const subSlug = canonSubSlug(sub) || "other";
     item._eb = {
       parent,
@@ -721,7 +749,7 @@
         <a class="st-card-link" href="${escapeAttr(href)}" title="${escapeAttr(tip)}">
           <div class="st-card-media">${ribbon}${img}</div>
           <div class="st-card-body">
-            <span class="st-card-cat category">${escapeHtml(item.ebay_type || catLabel(item.category))}</span>
+            <span class="st-card-cat category">${escapeHtml(itemEbayTree(item).sub || item.ebay_type || catLabel(item.category))}</span>
             <h3 class="st-card-title name">${escapeHtml(item.name)}</h3>
             ${fitHint ? `<p class="st-card-fit">${escapeHtml(fitHint)}</p>` : ""}
             <span class="searchblob visually-hidden">${escapeHtml(searchblob)}</span>
@@ -757,6 +785,7 @@
   }
 
   function itemHitsVehicle(item) {
+    if (isNonVehicleDept(item) && (activeMake || activeModel || activeYear)) return false;
     if (activeMake && !itemHitsMake(item, activeMake)) return false;
     if (activeModel && !itemHitsModel(item, activeMake, activeModel)) return false;
     if (activeYear && !itemHitsYear(item, activeYear)) return false;
@@ -767,8 +796,8 @@
     const counts = { all: 0 };
     catalog.forEach((i) => {
       if (!itemHitsVehicle(i)) return;
-      counts.all++;
       const eb = itemEbayTree(i);
+      if (!isNonVehicleDept(i)) counts.all++;
       const k = eb.parentSlug;
       if (!counts[k]) counts[k] = { label: eb.parent, n: 0 };
       counts[k].n++;
@@ -1063,6 +1092,10 @@
       if (category !== "all") {
         if (!rec || !itemHitsParent(rec, category)) return false;
       }
+      if (rec && isNonVehicleDept(rec)) {
+        if (activeMake || activeModel || activeYear) return false;
+        if (category === "all" && !textQ) return false;
+      }
       if (activeSub) {
         if (!rec || !itemHitsSub(rec, activeSub)) return false;
       }
@@ -1174,6 +1207,7 @@
     list.on("filterComplete", updateShowing);
 
     applySort("featured");
+    applyFilters();
     updateShowing();
   }
 

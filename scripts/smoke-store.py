@@ -114,7 +114,16 @@ def main():
             cards = page.locator("#stGrid .st-card").count()
             check("default page size", cards == 12, f"cards={cards}")
             showing = page.text_content("#stShowing").strip()
-            expected_showing = f"Showing 1–12 of {catalog_size}"
+            try:
+                auto_n = int(showing.split("of")[-1].strip())
+            except Exception:
+                auto_n = catalog_size
+            check(
+                "default All excludes yard depts",
+                auto_n == catalog_size - 4,
+                showing,
+            )
+            expected_showing = f"Showing 1–12 of {auto_n}"
             check("Showing label on page 1", showing == expected_showing or "1" in showing and "12" in showing, showing)
 
             # 2) search Goodyear -> must shrink total vs full catalog
@@ -152,6 +161,22 @@ def main():
                 "search constructor does not crash",
                 not ctor_err and showing_ctor != "",
                 showing_ctor,
+            )
+            page.fill("#stSearch", "")
+            page.wait_for_timeout(300)
+            page.fill("#stSearch", "wheelchair")
+            page.wait_for_timeout(400)
+            showing_wc = page.text_content("#stShowing").strip()
+            wc_titles = " ".join(page.locator("#stGrid .st-card .name").all_inner_texts()).lower()
+            check("search wheelchair finds Mobility item", "of 1" in showing_wc and "wheelchair" in wc_titles, showing_wc)
+            page.fill("#stSearch", "2000")
+            page.wait_for_timeout(400)
+            showing_y2k = page.text_content("#stShowing").strip()
+            y2k_titles = " ".join(page.locator("#stGrid .st-card .name").all_inner_texts()).lower()
+            check(
+                "year search does not pull wheelchair",
+                "wheelchair" not in y2k_titles,
+                showing_y2k,
             )
             page.fill("#stSearch", "")
             page.wait_for_timeout(300)
@@ -195,12 +220,39 @@ def main():
             interior_opt = page.query_selector("#stCatSelect option[value='interior-parts-accessories']")
             check("Interior is a store parent", bool(interior_opt))
             other_opt = page.query_selector("#stCatSelect option[value='other']")
-            other_label = (other_opt.inner_text() if other_opt else "") or ""
-            check(
-                "Other is leftover yard finds only",
-                (not other_opt) or "other" in other_label.lower(),
-                other_label,
-            )
+            vintage_opt = page.query_selector("#stCatSelect option[value='vintage']")
+            check("no Other dump category", other_opt is None)
+            check("no Vintage dump category", vintage_opt is None)
+            mobility_opt = page.query_selector("#stCatSelect option[value='mobility']")
+            cycling_opt = page.query_selector("#stCatSelect option[value='cycling']")
+            mh_opt = page.query_selector("#stCatSelect option[value='material-handling']")
+            motor_opt = page.query_selector("#stCatSelect option[value='electric-motors']")
+            check("Mobility is a store parent", bool(mobility_opt), mobility_opt.inner_text() if mobility_opt else "")
+            check("Cycling is a store parent", bool(cycling_opt), cycling_opt.inner_text() if cycling_opt else "")
+            check("Material Handling is a store parent", bool(mh_opt), mh_opt.inner_text() if mh_opt else "")
+            check("Electric Motors is a store parent", bool(motor_opt), motor_opt.inner_text() if motor_opt else "")
+            page.select_option("#stCatSelect", "mobility")
+            page.wait_for_timeout(300)
+            showing_mob = page.text_content("#stShowing").strip()
+            mob_titles = " ".join(page.locator("#stGrid .st-card .name").all_inner_texts()).lower()
+            check("Mobility is wheelchair", "of 1" in showing_mob and "wheelchair" in mob_titles, showing_mob)
+            page.select_option("#stCatSelect", "cycling")
+            page.wait_for_timeout(300)
+            showing_cyc = page.text_content("#stShowing").strip()
+            cyc_titles = " ".join(page.locator("#stGrid .st-card .name").all_inner_texts()).lower()
+            check("Cycling is the Masi bike", "of 1" in showing_cyc and "masi" in cyc_titles, showing_cyc)
+            page.select_option("#stCatSelect", "material-handling")
+            page.wait_for_timeout(300)
+            showing_mh = page.text_content("#stShowing").strip()
+            mh_titles = " ".join(page.locator("#stGrid .st-card .name").all_inner_texts()).lower()
+            check("Material Handling is the forklift tank", "of 1" in showing_mh and "forklift" in mh_titles, showing_mh)
+            page.select_option("#stCatSelect", "electric-motors")
+            page.wait_for_timeout(300)
+            showing_em = page.text_content("#stShowing").strip()
+            em_titles = " ".join(page.locator("#stGrid .st-card .name").all_inner_texts()).lower()
+            check("Electric Motors is the Craftsman motor", "of 1" in showing_em and "craftsman" in em_titles, showing_em)
+            page.select_option("#stCatSelect", "all")
+            page.wait_for_timeout(250)
             # Gates timing belt must not sit in Interior
             page.select_option("#stCatSelect", "engines-engine-parts")
             page.wait_for_timeout(300)
@@ -268,6 +320,16 @@ def main():
                     page.is_visible("#stYearSelect") and bool(year_opt),
                     page.text_content("#stYearSelect")[:80] if page.query_selector("#stYearSelect") else "",
                 )
+            page.fill("#stSearch", "wheelchair")
+            page.wait_for_timeout(400)
+            showing_veh_wc = page.text_content("#stShowing").strip()
+            veh_wc_titles = " ".join(page.locator("#stGrid .st-card .name").all_inner_texts()).lower()
+            check(
+                "Toyota search excludes wheelchair",
+                "wheelchair" not in veh_wc_titles and "No matches" in showing_veh_wc,
+                showing_veh_wc,
+            )
+            page.fill("#stSearch", "")
             page.select_option("#stMakeSelect", "")
             page.wait_for_timeout(250)
 
@@ -317,7 +379,7 @@ def main():
                 showing2 = page.text_content("#stShowing").strip()
                 check(
                     "page 2 navigation",
-                    showing2.replace("–", "-") == f"Showing 13-24 of {catalog_size}",
+                    showing2.replace("–", "-") == f"Showing 13-24 of {auto_n}",
                     showing2,
                 )
 
