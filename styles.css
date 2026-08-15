@@ -384,13 +384,19 @@ ul { list-style: none; }
   display: block;
 }
 .hero-lede {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 0.4em;
+  row-gap: 0.2em;
   margin-top: var(--space-5);
-  max-width: 28rem;
+  max-width: 34rem;
   font-size: var(--text-base);
   font-weight: 300;
   color: var(--parchment-muted);
   line-height: 1.5;
+  text-wrap: pretty;
 }
+.hero-lede span { white-space: nowrap; }
 .hero-copy {
   position: relative;
   z-index: 2;
