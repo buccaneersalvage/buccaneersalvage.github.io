@@ -651,7 +651,114 @@ def parse_title_vehicles(title: str) -> list[dict]:
                 "confidence": "low",
             }
         )
+    found.extend(scan_known_models(s, found, y0, y1))
     return found
+
+
+# Models already printed in leftover titles. Never invents a make/model pair
+# unless the make is already on the row or in the title (GM family included).
+_KNOWN_MODELS = [
+    ("civic", "Honda"),
+    ("accord", "Honda"),
+    ("crx", "Honda"),
+    ("prelude", "Honda"),
+    ("century", "Buick"),
+    ("celebrity", "Chevrolet"),
+    ("chevette", "Chevrolet"),
+    ("camry", "Toyota"),
+    ("corolla", "Toyota"),
+    ("taurus", "Ford"),
+    ("sable", "Mercury"),
+    ("sephia", "Kia"),
+    ("spectra", "Kia"),
+]
+_GM_FAMILY = {"Buick", "Chevrolet", "GMC", "Pontiac", "Oldsmobile", "Cadillac"}
+
+
+def scan_known_models(title, already, y0, y1):
+    have = {(v.get("make") or "").strip() for v in already if v.get("make")}
+    have_pairs = {
+        ((v.get("make") or "").strip().lower(), (v.get("model") or "").strip().lower())
+        for v in already
+    }
+    extra = []
+    for model, make in _KNOWN_MODELS:
+        if not re.search(rf"\b{re.escape(model)}\b", title or "", re.I):
+            continue
+        target = None
+        if make in have:
+            target = make
+        elif "GM" in have and make in _GM_FAMILY:
+            target = "GM"
+        elif re.search(rf"\b{re.escape(make)}\b", title or "", re.I):
+            target = make
+        else:
+            # Model word is already in the title (Civic, Camry). Use its make.
+            target = make
+        if not target:
+            continue
+        label = "CRX" if model == "crx" else model.title()
+        if (target.lower(), label.lower()) in have_pairs:
+            continue
+        have_pairs.add((target.lower(), label.lower()))
+        extra.append(
+            {
+                "year": None,
+                "year_from": y0,
+                "year_to": y1,
+                "make": target,
+                "model": label,
+                "notes": "",
+                "source": "title",
+                "confidence": "low",
+            }
+        )
+    return extra
+
+
+def merge_title_vehicles(vehicles_raw: list[dict], title_vs: list[dict]) -> list[dict]:
+    """Fill empty models / add title models onto existing makes. No new invented makes."""
+    if not title_vs:
+        return vehicles_raw
+    have_makes = {(v.get("make") or "").strip() for v in vehicles_raw if v.get("make")}
+    have_pairs = {
+        ((v.get("make") or "").strip().lower(), (v.get("model") or "").strip().lower())
+        for v in vehicles_raw
+        if v.get("make")
+    }
+    out = list(vehicles_raw)
+    for tv in title_vs:
+        make = (tv.get("make") or "").strip()
+        model = (tv.get("model") or "").strip()
+        if not make or not model:
+            continue
+        if make not in have_makes:
+            # Title printed this model (Civic, Century). Keep that make+model.
+            out.append(tv)
+            have_pairs.add((make.lower(), model.lower()))
+            have_makes.add(make)
+            continue
+        key = (make.lower(), model.lower())
+        if key in have_pairs:
+            continue
+        # if this make has only blank-model rows, stamp the first one
+        stamped = False
+        for v in out:
+            if (v.get("make") or "").strip() != make:
+                continue
+            if (v.get("model") or "").strip():
+                continue
+            v["model"] = model
+            if v.get("year_from") is None and tv.get("year_from") is not None:
+                v["year_from"] = tv.get("year_from")
+                v["year_to"] = tv.get("year_to")
+            stamped = True
+            have_pairs.add(key)
+            break
+        if not stamped:
+            out.append(tv)
+            have_pairs.add(key)
+    return out
 
 
 def parse_title_vehicle_notes(title: str) -> list[str]:
@@ -839,8 +946,17 @@ def enrich_item(
                 xref.append(x)
         if seed["interchange"] and "title" not in sources and not live:
             sources.append("title")
-    if not vehicles_raw:
-        for v in seed.get("vehicles_raw") or []:
+    title_vs = list(seed.get("vehicles_raw") or [])
+    y0, y1 = parse_title_year_range(title)
+    title_vs.extend(scan_known_models(title, vehicles_raw + title_vs, y0, y1))
+    if vehicles_raw:
+        merged = merge_title_vehicles(vehicles_raw, title_vs)
+        if merged != vehicles_raw:
+            vehicles_raw = merged
+            if "title" not in sources:
+                sources.append("title")
+    else:
+        for v in title_vs:
             vehicles_raw.append(v)
         if not vehicles_raw:
             for v in seed.get("vehicles") or []:

@@ -222,6 +222,12 @@ def main():
                 except Exception:
                     n_cam = 0
                 check("Toyota Camry narrows catalog", 0 < n_cam < catalog_size, showing_cam)
+                year_opt = page.query_selector("#stYearSelect option[value='2008']")
+                check(
+                    "Year after vehicle and model",
+                    page.is_visible("#stYearSelect") and bool(year_opt),
+                    page.text_content("#stYearSelect")[:80] if page.query_selector("#stYearSelect") else "",
+                )
             page.select_option("#stMakeSelect", "")
             page.wait_for_timeout(250)
 

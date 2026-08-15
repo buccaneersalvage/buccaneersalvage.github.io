@@ -210,7 +210,7 @@
             <!-- Facets (commerce-ui style left rail on desktop) -->
             <aside class="st-facets" id="stFacets" aria-label="Filters">
               <h3 class="st-facets-title">Browse</h3>
-              <p class="st-facet-lead">Vehicle first, then model, then category. Year can go in search.</p>
+              <p class="st-facet-lead">Vehicle, then model, then year. Category last.</p>
               <div class="st-facet-group" id="stMakeGroup">
                 <label class="st-facet-label" for="stMakeSelect">1. Vehicle</label>
                 <select id="stMakeSelect" class="st-facet-select" aria-label="Vehicle make">
@@ -221,14 +221,18 @@
                 <label class="st-facet-label" for="stModelSelect">2. Model</label>
                 <select id="stModelSelect" class="st-facet-select" aria-label="Vehicle model"></select>
               </div>
+              <div class="st-facet-group st-facet-group--sub" id="stYearGroup" hidden>
+                <label class="st-facet-label" for="stYearSelect">3. Year</label>
+                <select id="stYearSelect" class="st-facet-select" aria-label="Vehicle year"></select>
+              </div>
               <div class="st-facet-group">
-                <label class="st-facet-label" for="stCatSelect">3. Category</label>
+                <label class="st-facet-label" for="stCatSelect">4. Category</label>
                 <select id="stCatSelect" class="st-facet-select" aria-label="Category">
                   <option value="all" selected>All parts</option>
                 </select>
               </div>
               <div class="st-facet-group st-facet-group--sub" id="stTypeGroup" hidden>
-                <label class="st-facet-label" for="stTypeSelect">4. Type</label>
+                <label class="st-facet-label" for="stTypeSelect">5. Type</label>
                 <select id="stTypeSelect" class="st-facet-select" aria-label="Part type"></select>
               </div>
               <div class="st-facet-group">
@@ -370,6 +374,6 @@
 
   <script src="main.js" defer></script>
   <script src="assets/vendor/list.min.js" defer></script>
-  <script src="store.js?v=godmode40" defer></script>
+  <script src="store.js?v=godmode41" defer></script>
 </body>
 </html>

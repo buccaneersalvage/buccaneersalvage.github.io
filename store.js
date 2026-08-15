@@ -6,7 +6,7 @@
    * Search + category + price filter + sort + pagination (not all 67 at once).
    * Commerce-style facets; brand-dark gold cards; cores warn on-card.
    */
-  const CATALOG_URL = "assets/square-catalog.json?v=20260815c";
+  const CATALOG_URL = "assets/square-catalog.json?v=20260815d";
   const CORE_WARN = "FOR PARTS OR REBUILD · UNTESTED · NO RETURNS";
   const DEFAULT_PAGE = 12;
 
@@ -311,6 +311,7 @@
   let activeSub = "";
   let activeMake = "";
   let activeModel = "";
+  let activeYear = "";
 
   function slugKey(s) {
     return String(s || "")
@@ -734,9 +735,31 @@
       </article>`;
   }
 
+  function itemHitsYear(item, year) {
+    if (!year) return true;
+    const y = Number(year);
+    if (!Number.isFinite(y)) return false;
+    const vs = (item.fitment && item.fitment.vehicles) || [];
+    if (
+      vs.some((v) => {
+        if (!v) return false;
+        if (activeMake && slugKey(v.make) !== activeMake) return false;
+        if (activeModel && slugKey(v.model) !== activeModel) return false;
+        if (v.year != null && Number(v.year) === y) return true;
+        const a = v.year_from != null ? Number(v.year_from) : null;
+        const b = v.year_to != null ? Number(v.year_to) : a;
+        return a != null && Number.isFinite(a) && Number.isFinite(b) && y >= a && y <= b;
+      })
+    ) {
+      return true;
+    }
+    return yearHitsFitment(item, y);
+  }
+
   function itemHitsVehicle(item) {
     if (activeMake && !itemHitsMake(item, activeMake)) return false;
     if (activeModel && !itemHitsModel(item, activeMake, activeModel)) return false;
+    if (activeYear && !itemHitsYear(item, activeYear)) return false;
     return true;
   }
 
@@ -777,6 +800,37 @@
         if (!k || seen.has(k)) return;
         seen.add(k);
         if (!counts[k]) counts[k] = { label: make, n: 0 };
+        counts[k].n++;
+      });
+    });
+    return counts;
+  }
+
+  function yearCounts(makeSlug, modelSlug) {
+    const counts = {};
+    if (!makeSlug) return counts;
+    catalog.forEach((i) => {
+      if (!itemHitsMake(i, makeSlug)) return;
+      if (modelSlug && !itemHitsModel(i, makeSlug, modelSlug)) return;
+      const years = new Set();
+      ((i.fitment && i.fitment.vehicles) || []).forEach((v) => {
+        if (!v || slugKey(v.make) !== makeSlug) return;
+        if (modelSlug && slugKey(v.model) !== modelSlug) return;
+        const a = v.year_from != null ? Number(v.year_from) : v.year != null ? Number(v.year) : NaN;
+        const b = v.year_to != null ? Number(v.year_to) : a;
+        if (!Number.isFinite(a)) return;
+        const y0 = Number.isFinite(b) ? Math.min(a, b) : a;
+        const y1 = Number.isFinite(b) ? Math.max(a, b) : a;
+        if (y1 - y0 > 45) {
+          years.add(y0);
+          years.add(y1);
+          return;
+        }
+        for (let y = y0; y <= y1; y++) years.add(y);
+      });
+      years.forEach((y) => {
+        const k = String(y);
+        if (!counts[k]) counts[k] = { label: k, n: 0 };
         counts[k].n++;
       });
     });
@@ -870,6 +924,27 @@
           ? activeModel
           : "";
         if (modelSel.value !== activeModel) activeModel = modelSel.value;
+      }
+    }
+
+    const yearGroup = document.getElementById("stYearGroup");
+    const yearSel = document.getElementById("stYearSelect");
+    if (yearGroup && yearSel) {
+      const years = activeMake ? yearCounts(activeMake, activeModel) : {};
+      const yearList = Object.entries(years).sort((a, b) => Number(b[0]) - Number(a[0]));
+      if (!activeMake || yearList.length < 1) {
+        yearGroup.hidden = true;
+        yearSel.innerHTML = "";
+        activeYear = "";
+      } else {
+        yearGroup.hidden = false;
+        yearSel.innerHTML = [optionHtml("", "Any year")].concat(
+          yearList.map(([k, v]) => optionHtml(k, v.label, v.n))
+        ).join("");
+        yearSel.value = activeYear && [...yearSel.options].some((o) => o.value === activeYear)
+          ? activeYear
+          : "";
+        if (yearSel.value !== activeYear) activeYear = yearSel.value;
       }
     }
 
@@ -997,6 +1072,9 @@
       if (activeModel) {
         if (!rec || !itemHitsModel(rec, activeMake, activeModel)) return false;
       }
+      if (activeYear) {
+        if (!rec || !itemHitsYear(rec, activeYear)) return false;
+      }
       if (textQ && rec && !itemHitsQuery(rec, textQ)) return false;
       if (textQ && !rec) return false;
       const p = parseFloat(el.getAttribute("data-price"));
@@ -1116,6 +1194,7 @@
     document.getElementById("stMakeSelect")?.addEventListener("change", (e) => {
       activeMake = e.target.value || "";
       activeModel = "";
+      activeYear = "";
       renderFacetChips();
       applyFilters();
       const next = document.getElementById("stModelGroup");
@@ -1125,6 +1204,12 @@
     });
     document.getElementById("stModelSelect")?.addEventListener("change", (e) => {
       activeModel = e.target.value || "";
+      activeYear = "";
+      renderFacetChips();
+      applyFilters();
+    });
+    document.getElementById("stYearSelect")?.addEventListener("change", (e) => {
+      activeYear = e.target.value || "";
       renderFacetChips();
       applyFilters();
     });
@@ -1174,6 +1259,7 @@
       activeSub = "";
       activeMake = "";
       activeModel = "";
+      activeYear = "";
       priceMin = null;
       priceMax = null;
       renderFacetChips();
