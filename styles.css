@@ -1840,10 +1840,10 @@ ul { list-style: none; }
 .st-facet-label {
   margin: 0 0 0.5rem;
   font-family: var(--font-mono, monospace);
-  font-size: 0.68rem;
+  font-size: 0.75rem;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  color: var(--parchment-faint, #b5aa98);
+  color: var(--parchment-muted, #e4d8c0);
 }
 .st-facets .st-chips {
   flex-direction: column;

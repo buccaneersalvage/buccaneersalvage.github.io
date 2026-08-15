@@ -53,7 +53,26 @@ def main():
         check("list.min.js served", code == 200, f"HTTP {code}")
         cat = json.load(urllib.request.urlopen(f"{BASE}/assets/square-catalog.json"))
         catalog_size = len(cat.get("items", []))
-        check("catalog loaded", catalog_size > 0, f"n={catalog_size}") 
+        check("catalog loaded", catalog_size > 0, f"n={catalog_size}")
+        store_html = urllib.request.urlopen(f"{BASE}/store.html").read().decode("utf-8", "replace")
+        index_html = urllib.request.urlopen(f"{BASE}/index.html").read().decode("utf-8", "replace")
+        terms_html = urllib.request.urlopen(f"{BASE}/terms.html").read().decode("utf-8", "replace")
+        pdp_html = urllib.request.urlopen(f"{BASE}/p/7CESL5VZLPSRKJGWUFCHL5R5.html").read().decode("utf-8", "replace")
+        sri = "sha384-FhEOA/pIE4BfDuwGksHaZD8ms5j+dfB9QIWo7naDMzAVoCE1My4G2iu8/n/R3AAH"
+        check("store css cache godmode19", "styles.css?v=godmode19" in store_html)
+        check("index css cache godmode19", "styles.css?v=godmode19" in index_html)
+        check("terms css cache godmode19", "styles.css?v=godmode19" in terms_html)
+        check("pdp css cache godmode19", "styles.css?v=godmode19" in pdp_html)
+        check("store list.js SRI", sri in store_html)
+        check("store frame-src none", "frame-src 'none'" in store_html)
+        check("index frame-src none", "frame-src 'none'" in index_html)
+        check("pdp frame-src none", "frame-src 'none'" in pdp_html)
+        check(
+            "no meta frame-ancestors (Chrome ignores + errors)",
+            "frame-ancestors" not in store_html
+            and "frame-ancestors" not in index_html
+            and "frame-ancestors" not in pdp_html,
+        ) 
 
         console_errors = []
         with sync_playwright() as p:
@@ -69,6 +88,14 @@ def main():
             page.wait_for_selector("#stShowing", timeout=5000)
             # Give page time to render showing text
             page.wait_for_timeout(500)
+            label_color = page.locator(".st-facet-label").first.evaluate(
+                "el => getComputedStyle(el).color"
+            )
+            check(
+                "facet label uses parchment not gold",
+                "197, 160, 40" not in (label_color or ""),
+                label_color,
+            )
 
             # 1) default page size 12 + showing text
             cards = page.locator("#stGrid .st-card").count()
