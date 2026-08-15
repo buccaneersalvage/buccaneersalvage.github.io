@@ -151,6 +151,8 @@ def main() -> None:
         price = money(price_n)
         catl = cat_label(item.get("category"))
         img = safe_image(item.get("image")) or f"{BASE}/assets/og-share.jpg"
+        gallery_raw = [safe_image(u) for u in (item.get("images") or [])]
+        gallery = [u for u in gallery_raw if u and u != img]
         video = safe_video(item.get("video"))
         checkout = safe_checkout(item.get("url"))
         title = f"{name} | BuccaneerSalvage Store"
@@ -162,7 +164,7 @@ def main() -> None:
             "@id": f"{canonical}#product",
             "name": name,
             "description": desc,
-            "image": img,
+            "image": [img, *gallery] if gallery else img,
             "sku": iid,
             "brand": {"@type": "Brand", "name": "BuccaneerSalvage Store"},
             "isPartOf": {
@@ -217,6 +219,15 @@ def main() -> None:
             else ""
         )
         img_tag = f'<img class="pdp-image" src="{esc(img)}" alt="{esc(name)}" width="600" height="600" />'
+        gallery_tag = ""
+        if gallery:
+            thumbs = "".join(
+                f'<a class="pdp-thumb-link" href="{esc(u)}" target="_blank" rel="noopener noreferrer">'
+                f'<img class="pdp-thumb" src="{esc(u)}" alt="{esc(name)} — additional photo" '
+                f'width="100" height="100" loading="lazy" /></a>'
+                for u in gallery
+            )
+            gallery_tag = f'<div class="pdp-gallery">{thumbs}</div>'
         video_tag = (
             f'<div class="pdp-video-wrapper"><video class="pdp-video" controls preload="metadata" '
             f'poster="{esc(img)}"><source src="{esc(f"../{video}")}" type="video/mp4" />'
@@ -284,7 +295,7 @@ def main() -> None:
     </section>
     <section class="pdp-content">
       <div class="shell pdp-layout">
-        <div class="pdp-media"><div class="pdp-image-wrapper">{img_tag}</div>{video_tag}</div>
+        <div class="pdp-media"><div class="pdp-image-wrapper">{img_tag}</div>{gallery_tag}{video_tag}</div>
         <div class="pdp-info">
           <h1 class="pdp-title">{esc_t(name)}</h1>
           <p class="pdp-category">{esc_t(catl)}</p>

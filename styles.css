@@ -2047,6 +2047,30 @@ ul.pagination .disabled .page {
   object-fit: cover;
   display: block;
 }
+.pdp-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem;
+  width: 100%;
+  max-width: 500px;
+}
+.pdp-thumb-link {
+  display: block;
+  width: 72px;
+  height: 72px;
+  border-radius: 6px;
+  overflow: hidden;
+  background: rgba(212, 175, 55, 0.05);
+  border: 1px solid rgba(212, 175, 55, 0.15);
+  flex-shrink: 0;
+}
+.pdp-thumb {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
 .pdp-video-wrapper {
   width: 100%;
   max-width: 360px;
