@@ -310,6 +310,7 @@
   let byId = new Map();
   let activeSub = "";
   let activeMake = "";
+  let activeModel = "";
 
   function slugKey(s) {
     return String(s || "")
@@ -373,6 +374,26 @@
     if (vs.some((v) => v && slugKey(v.make) === makeSlug)) return true;
     const labels = item.vehicles || [];
     return labels.some((lb) => slugKey(lb).includes(makeSlug) || compactToken(lb).includes(makeSlug.replace(/-/g, "")));
+  }
+
+  function itemHitsModel(item, makeSlug, modelSlug) {
+    if (!modelSlug) return true;
+    const vs = (item.fitment && item.fitment.vehicles) || [];
+    if (
+      vs.some(
+        (v) => v && slugKey(v.make) === makeSlug && slugKey(v.model) === modelSlug
+      )
+    ) {
+      return true;
+    }
+    const want = compactToken(modelSlug);
+    return (item.vehicles || []).some((lb) => {
+      const low = slugKey(lb);
+      if (makeSlug && !low.includes(makeSlug) && !compactToken(lb).includes(makeSlug.replace(/-/g, ""))) {
+        return false;
+      }
+      return low.includes(modelSlug) || compactToken(lb).includes(want);
+    });
   }
 
   function itemHitsType(item, typeSlug) {
@@ -713,9 +734,17 @@
       </article>`;
   }
 
+  function itemHitsVehicle(item) {
+    if (activeMake && !itemHitsMake(item, activeMake)) return false;
+    if (activeModel && !itemHitsModel(item, activeMake, activeModel)) return false;
+    return true;
+  }
+
   function catalogCounts() {
-    const counts = { all: catalog.length };
+    const counts = { all: 0 };
     catalog.forEach((i) => {
+      if (!itemHitsVehicle(i)) return;
+      counts.all++;
       const eb = itemEbayTree(i);
       const k = eb.parentSlug;
       if (!counts[k]) counts[k] = { label: eb.parent, n: 0 };
@@ -727,6 +756,7 @@
   function subCounts(parentSlug) {
     const counts = {};
     catalog.forEach((i) => {
+      if (!itemHitsVehicle(i)) return;
       const eb = itemEbayTree(i);
       if (parentSlug && eb.parentSlug !== parentSlug) return;
       const k = eb.subSlug;
@@ -737,11 +767,9 @@
     return counts;
   }
 
-  function makeCounts(parentSlug, subSlug) {
+  function makeCounts() {
     const counts = {};
     catalog.forEach((i) => {
-      if (parentSlug && parentSlug !== "all" && !itemHitsParent(i, parentSlug)) return;
-      if (subSlug && !itemHitsSub(i, subSlug)) return;
       const seen = new Set();
       ((i.fitment && i.fitment.vehicles) || []).forEach((v) => {
         const make = (v && v.make) || "";
@@ -749,6 +777,25 @@
         if (!k || seen.has(k)) return;
         seen.add(k);
         if (!counts[k]) counts[k] = { label: make, n: 0 };
+        counts[k].n++;
+      });
+    });
+    return counts;
+  }
+
+  function modelCounts(makeSlug) {
+    const counts = {};
+    if (!makeSlug) return counts;
+    catalog.forEach((i) => {
+      if (!itemHitsMake(i, makeSlug)) return;
+      const seen = new Set();
+      ((i.fitment && i.fitment.vehicles) || []).forEach((v) => {
+        if (!v || slugKey(v.make) !== makeSlug) return;
+        const model = (v.model || "").trim();
+        const k = slugKey(model);
+        if (!k || seen.has(k)) return;
+        seen.add(k);
+        if (!counts[k]) counts[k] = { label: model, n: 0 };
         counts[k].n++;
       });
     });
@@ -777,6 +824,53 @@
       catSel.innerHTML = bits.join("");
       const want = category || "all";
       catSel.value = [...catSel.options].some((o) => o.value === want) ? want : "all";
+      if (catSel.value !== category) {
+        category = catSel.value || "all";
+        activeSub = "";
+      }
+    }
+
+    const makeGroup = document.getElementById("stMakeGroup");
+    const makeSel = document.getElementById("stMakeSelect");
+    if (makeGroup && makeSel) {
+      const makes = makeCounts();
+      const makeList = Object.entries(makes).sort(
+        (a, b) => b[1].n - a[1].n || a[1].label.localeCompare(b[1].label)
+      );
+      makeGroup.hidden = false;
+      makeSel.innerHTML = [optionHtml("", "Any vehicle")].concat(
+        makeList.map(([k, v]) => optionHtml(k, v.label, v.n))
+      ).join("");
+      makeSel.value = activeMake && [...makeSel.options].some((o) => o.value === activeMake)
+        ? activeMake
+        : "";
+      if (makeSel.value !== activeMake) {
+        activeMake = makeSel.value;
+        activeModel = "";
+      }
+    }
+
+    const modelGroup = document.getElementById("stModelGroup");
+    const modelSel = document.getElementById("stModelSelect");
+    if (modelGroup && modelSel) {
+      const models = activeMake ? modelCounts(activeMake) : {};
+      const modelList = Object.entries(models).sort(
+        (a, b) => b[1].n - a[1].n || a[1].label.localeCompare(b[1].label)
+      );
+      if (!activeMake || modelList.length < 1) {
+        modelGroup.hidden = true;
+        modelSel.innerHTML = "";
+        activeModel = "";
+      } else {
+        modelGroup.hidden = false;
+        modelSel.innerHTML = [optionHtml("", "Any model")].concat(
+          modelList.map(([k, v]) => optionHtml(k, v.label, v.n))
+        ).join("");
+        modelSel.value = activeModel && [...modelSel.options].some((o) => o.value === activeModel)
+          ? activeModel
+          : "";
+        if (modelSel.value !== activeModel) activeModel = modelSel.value;
+      }
     }
 
     const typeGroup = document.getElementById("stTypeGroup");
@@ -799,31 +893,6 @@
         typeSel.value = activeSub && [...typeSel.options].some((o) => o.value === activeSub)
           ? activeSub
           : "";
-      }
-    }
-
-    const makeGroup = document.getElementById("stMakeGroup");
-    const makeSel = document.getElementById("stMakeSelect");
-    if (makeGroup && makeSel) {
-      const parentOn = category && category !== "all";
-      const makes = parentOn ? makeCounts(category, activeSub) : {};
-      const makeList = Object.entries(makes)
-        .filter(([, v]) => v.n >= 2)
-        .sort((a, b) => b[1].n - a[1].n || a[1].label.localeCompare(b[1].label))
-        .slice(0, 16);
-      if (!parentOn || makeList.length < 2) {
-        makeGroup.hidden = true;
-        makeSel.innerHTML = "";
-        activeMake = "";
-      } else {
-        makeGroup.hidden = false;
-        makeSel.innerHTML = [optionHtml("", "Any make")].concat(
-          makeList.map(([k, v]) => optionHtml(k, v.label, v.n))
-        ).join("");
-        makeSel.value = activeMake && [...makeSel.options].some((o) => o.value === activeMake)
-          ? activeMake
-          : "";
-        if (makeSel.value !== activeMake) activeMake = makeSel.value;
       }
     }
   }
@@ -924,6 +993,9 @@
       }
       if (activeMake) {
         if (!rec || !itemHitsMake(rec, activeMake)) return false;
+      }
+      if (activeModel) {
+        if (!rec || !itemHitsModel(rec, activeMake, activeModel)) return false;
       }
       if (textQ && rec && !itemHitsQuery(rec, textQ)) return false;
       if (textQ && !rec) return false;
@@ -1041,10 +1113,24 @@
   }
 
   function wireControls() {
+    document.getElementById("stMakeSelect")?.addEventListener("change", (e) => {
+      activeMake = e.target.value || "";
+      activeModel = "";
+      renderFacetChips();
+      applyFilters();
+      const next = document.getElementById("stModelGroup");
+      if (next && !next.hidden) {
+        next.scrollIntoView({ block: "nearest", behavior: "smooth" });
+      }
+    });
+    document.getElementById("stModelSelect")?.addEventListener("change", (e) => {
+      activeModel = e.target.value || "";
+      renderFacetChips();
+      applyFilters();
+    });
     document.getElementById("stCatSelect")?.addEventListener("change", (e) => {
       category = e.target.value || "all";
       activeSub = "";
-      if (category === "all") activeMake = "";
       renderFacetChips();
       applyFilters();
       const next = document.getElementById("stTypeGroup");
@@ -1054,11 +1140,6 @@
     });
     document.getElementById("stTypeSelect")?.addEventListener("change", (e) => {
       activeSub = e.target.value || "";
-      renderFacetChips();
-      applyFilters();
-    });
-    document.getElementById("stMakeSelect")?.addEventListener("change", (e) => {
-      activeMake = e.target.value || "";
       renderFacetChips();
       applyFilters();
     });
@@ -1092,6 +1173,7 @@
       category = "all";
       activeSub = "";
       activeMake = "";
+      activeModel = "";
       priceMin = null;
       priceMax = null;
       renderFacetChips();

@@ -210,20 +210,26 @@
             <!-- Facets (commerce-ui style left rail on desktop) -->
             <aside class="st-facets" id="stFacets" aria-label="Filters">
               <h3 class="st-facets-title">Browse</h3>
-              <p class="st-facet-lead">Pick a category. Type a year and make in search.</p>
+              <p class="st-facet-lead">Vehicle first, then model, then category. Year can go in search.</p>
+              <div class="st-facet-group" id="stMakeGroup">
+                <label class="st-facet-label" for="stMakeSelect">1. Vehicle</label>
+                <select id="stMakeSelect" class="st-facet-select" aria-label="Vehicle make">
+                  <option value="">Any vehicle</option>
+                </select>
+              </div>
+              <div class="st-facet-group st-facet-group--sub" id="stModelGroup" hidden>
+                <label class="st-facet-label" for="stModelSelect">2. Model</label>
+                <select id="stModelSelect" class="st-facet-select" aria-label="Vehicle model"></select>
+              </div>
               <div class="st-facet-group">
-                <label class="st-facet-label" for="stCatSelect">1. Category</label>
+                <label class="st-facet-label" for="stCatSelect">3. Category</label>
                 <select id="stCatSelect" class="st-facet-select" aria-label="Category">
                   <option value="all" selected>All parts</option>
                 </select>
               </div>
               <div class="st-facet-group st-facet-group--sub" id="stTypeGroup" hidden>
-                <label class="st-facet-label" for="stTypeSelect">2. Type</label>
+                <label class="st-facet-label" for="stTypeSelect">4. Type</label>
                 <select id="stTypeSelect" class="st-facet-select" aria-label="Part type"></select>
-              </div>
-              <div class="st-facet-group" id="stMakeGroup" hidden>
-                <label class="st-facet-label" for="stMakeSelect">3. Fits</label>
-                <select id="stMakeSelect" class="st-facet-select" aria-label="Vehicle make"></select>
               </div>
               <div class="st-facet-group">
                 <p class="st-facet-label">Price</p>
@@ -364,6 +370,6 @@
 
   <script src="main.js" defer></script>
   <script src="assets/vendor/list.min.js" defer></script>
-  <script src="store.js?v=godmode39" defer></script>
+  <script src="store.js?v=godmode40" defer></script>
 </body>
 </html>

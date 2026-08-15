@@ -205,11 +205,25 @@ def main():
                 showing_ch,
             )
             page.fill("#stSearch", "")
-            make_hidden_on_all = True
             page.select_option("#stCatSelect", "all")
             page.wait_for_timeout(250)
-            make_hidden_on_all = not page.is_visible("#stMakeSelect")
-            check("Fits hidden until category", make_hidden_on_all)
+            check("Vehicle select first", page.is_visible("#stMakeSelect"))
+            check("Model hidden until vehicle", not page.is_visible("#stModelSelect"))
+            page.select_option("#stMakeSelect", "toyota")
+            page.wait_for_timeout(350)
+            camry = page.query_selector("#stModelSelect option[value='camry']")
+            check("Camry model after Toyota", bool(camry) and page.is_visible("#stModelSelect"))
+            if camry:
+                page.select_option("#stModelSelect", "camry")
+                page.wait_for_timeout(350)
+                showing_cam = page.text_content("#stShowing").strip()
+                try:
+                    n_cam = int(showing_cam.split("of")[-1].strip())
+                except Exception:
+                    n_cam = 0
+                check("Toyota Camry narrows catalog", 0 < n_cam < catalog_size, showing_cam)
+            page.select_option("#stMakeSelect", "")
+            page.wait_for_timeout(250)
 
             # Reset filters
             page.select_option("#stCatSelect", "all")
