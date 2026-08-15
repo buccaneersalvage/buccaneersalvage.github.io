@@ -122,17 +122,16 @@
     return escapeHtml(s).replace(/'/g, "&#39;");
   }
 
-  /** Product images: self host + Square CDN / common S3 (parity with static p/ PDPs). */
+  /** Product images: self host + Square CDN / Square S3 only. */
   function safeImageUrl(u) {
     const s = String(u || "").trim();
-    if (!/^https?:\/\//i.test(s)) return "";
+    if (!/^https:\/\//i.test(s)) return "";
     try {
       const host = new URL(s).hostname.toLowerCase();
       if (
         host === "buccaneersalvage.github.io" ||
         host.endsWith(".squareup.com") ||
         host.endsWith(".squarecdn.com") ||
-        host.endsWith(".amazonaws.com") ||
         host === "items-images-production.s3.us-west-2.amazonaws.com"
       ) {
         return s;
@@ -144,17 +143,20 @@
   /** Prefer self-hosted 400² WebP thumbs; missing files fall back via data-fallback. */
   function cardImageUrl(item) {
     const id = String(item && item.id || "").trim();
-    return id ? `assets/product-thumbs/${id}.webp` : "";
+    if (!/^[A-Z0-9]{16,32}$/.test(id)) return "";
+    return `assets/product-thumbs/${id}.webp`;
   }
 
   function bindThumbFallbacks(root) {
     if (!root) return;
     root.querySelectorAll("img.st-img[data-fallback]").forEach((img) => {
-      img.addEventListener("error", () => {
+      const fallback = () => {
         const next = img.getAttribute("data-fallback") || "";
         img.removeAttribute("data-fallback");
         if (next && next !== img.getAttribute("src")) img.src = next;
-      });
+      };
+      img.addEventListener("error", fallback);
+      if (img.complete && img.naturalWidth === 0) fallback();
     });
   }
 
@@ -371,10 +373,10 @@
       ? `<img class="st-img" src="${escapeAttr(imgUrl)}"${fallback ? ` data-fallback="${escapeAttr(fallback)}"` : ""} alt="${escapeAttr(imgAlt)}" width="400" height="400" loading="${featured ? "eager" : "lazy"}" decoding="async"${featured ? ' fetchpriority="high"' : ""} />`
       : fallback
       ? `<img class="st-img" src="${escapeAttr(fallback)}" alt="${escapeAttr(imgAlt)}" width="400" height="400" loading="${featured ? "eager" : "lazy"}" decoding="async"${featured ? ' fetchpriority="high"' : ""} />`
-      : `<div class="st-card-ph" aria-hidden="true">—</div>`;
+      : `<div class="st-card-ph" aria-hidden="true"></div>`;
     const ribbon = core ? `<span class="st-ribbon">FOR PARTS · NO RETURNS</span>` : "";
     const warn = core ? `<p class="st-warn">${escapeHtml(CORE_WARN)}</p>` : "";
-    const cta = core ? "View details — for parts · no returns" : "View details";
+    const cta = core ? "View details - for parts · no returns" : "View details";
     const tip = core
       ? "For parts or rebuild only. Untested. No returns. View product details."
       : "View product details";
@@ -394,7 +396,7 @@
             <span class="searchblob visually-hidden">${escapeHtml(searchblob)}</span>
             ${warn}
             <div class="st-card-foot">
-              <p class="st-card-price">${priceLabel ? escapeHtml(priceLabel) : "—"}</p>
+              <p class="st-card-price">${priceLabel ? escapeHtml(priceLabel) : ""}</p>
               <span class="st-card-cta">${escapeHtml(cta)}</span>
             </div>
           </div>
@@ -437,7 +439,7 @@
     const to = Math.min(i + page - 1, matching);
     const text =
       matching === 0
-        ? "No matches — try another search or clear filters"
+        ? "No matches. Try another search or clear filters"
         : `Showing ${from}–${to} of ${matching}`;
     if (meta) meta.textContent = text;
     if (showing) showing.textContent = text;
@@ -588,6 +590,7 @@
         "searchblob",
         { data: ["price", "rank"] },
       ],
+      searchColumns: ["name", "category", "searchblob"],
       page: pageSize,
       pagination: {
         innerWindow: 1,

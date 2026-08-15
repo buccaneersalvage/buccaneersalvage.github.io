@@ -17,27 +17,54 @@
   const toggle = document.getElementById("navToggle");
   const drawer = document.getElementById("drawer");
   if (toggle && drawer) {
-    drawer.hidden = false; /* CSS controls visibility via .is-open */
-    drawer.classList.remove("is-open");
-    toggle.addEventListener("click", () => {
-      const open = !drawer.classList.contains("is-open");
+    const main = document.getElementById("main");
+    const setOpen = (open) => {
       drawer.classList.toggle("is-open", open);
+      drawer.hidden = !open;
       toggle.setAttribute("aria-expanded", open ? "true" : "false");
       toggle.setAttribute("aria-label", open ? "Close menu" : "Open menu");
+      document.body.classList.toggle("nav-open", open);
+      if (main) {
+        if (open) main.setAttribute("inert", "");
+        else main.removeAttribute("inert");
+      }
+      if (open) {
+        const first = drawer.querySelector("a");
+        if (first) first.focus();
+      }
+    };
+    setOpen(false);
+    toggle.addEventListener("click", () => {
+      setOpen(!drawer.classList.contains("is-open"));
     });
     drawer.querySelectorAll("a").forEach((a) => {
-      a.addEventListener("click", () => {
-        drawer.classList.remove("is-open");
-        toggle.setAttribute("aria-expanded", "false");
-        toggle.setAttribute("aria-label", "Open menu");
-      });
+      a.addEventListener("click", () => setOpen(false));
+    });
+    document.addEventListener("click", (e) => {
+      if (!drawer.classList.contains("is-open")) return;
+      if (drawer.contains(e.target) || toggle.contains(e.target)) return;
+      setOpen(false);
     });
     document.addEventListener("keydown", (e) => {
-      if (e.key === "Escape" && drawer.classList.contains("is-open")) {
-        drawer.classList.remove("is-open");
-        toggle.setAttribute("aria-expanded", "false");
-        toggle.setAttribute("aria-label", "Open menu");
+      if (!drawer.classList.contains("is-open")) return;
+      if (e.key === "Escape") {
+        setOpen(false);
         toggle.focus();
+        return;
+      }
+      if (e.key !== "Tab") return;
+      const focusable = [...drawer.querySelectorAll("a, button")].filter(
+        (el) => !el.hasAttribute("disabled")
+      );
+      if (!focusable.length) return;
+      const first = focusable[0];
+      const last = focusable[focusable.length - 1];
+      if (e.shiftKey && document.activeElement === first) {
+        e.preventDefault();
+        last.focus();
+      } else if (!e.shiftKey && document.activeElement === last) {
+        e.preventDefault();
+        first.focus();
       }
     });
   }

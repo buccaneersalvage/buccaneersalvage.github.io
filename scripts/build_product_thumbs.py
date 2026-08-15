@@ -3,11 +3,13 @@
 from __future__ import annotations
 
 import json
+import re
 import sys
 import urllib.error
 import urllib.request
 from io import BytesIO
 from pathlib import Path
+from urllib.parse import urlparse
 
 from PIL import Image
 
@@ -17,6 +19,26 @@ OUT = HUB / "assets" / "product-thumbs"
 MANIFEST = OUT / "manifest.json"
 SIZE = 400
 UA = "BuccaneerSalvageHub/1.0 (product-thumbs; local build)"
+SQUARE_ID_RE = re.compile(r"^[A-Z0-9]{16,32}$")
+ALLOWED_IMG_HOSTS = (
+    "buccaneersalvage.github.io",
+    "items-images-production.s3.us-west-2.amazonaws.com",
+)
+
+
+def allowed_image_url(url: str) -> bool:
+    if not url.startswith("https://"):
+        return False
+    try:
+        parsed = urlparse(url)
+        host = (parsed.hostname or "").lower()
+    except Exception:
+        return False
+    return (
+        host in ALLOWED_IMG_HOSTS
+        or host.endswith(".squareup.com")
+        or host.endswith(".squarecdn.com")
+    )
 
 
 def load_items() -> list[dict]:
@@ -58,14 +80,18 @@ def main() -> None:
     for item in items:
         iid = str(item.get("id") or "").strip()
         url = str(item.get("image") or "").strip()
-        dest = OUT / f"{iid}.webp"
-        if not iid:
+        if not SQUARE_ID_RE.fullmatch(iid):
+            fail.append({"id": iid, "error": "bad catalog id"})
+            continue
+        dest = (OUT / f"{iid}.webp").resolve()
+        if dest.parent != OUT.resolve():
+            fail.append({"id": iid, "error": "path escaped thumbs dir"})
             continue
         if dest.exists() and dest.stat().st_size > 200:
             skip += 1
             continue
-        if not url.startswith("https://"):
-            fail.append({"id": iid, "error": "no https image"})
+        if not allowed_image_url(url):
+            fail.append({"id": iid, "error": "image host not allowlisted"})
             continue
         try:
             dest.write_bytes(to_webp(fetch(url)))

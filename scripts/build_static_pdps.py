@@ -35,13 +35,14 @@ def pdp_desc(item, name, catl, price, custom_warn):
         lead = f"{name}. {catl} from BuccaneerSalvage yard stock."
     if price:
         lead = f"{lead} {price}."
-    if pickup_only(custom_warn):
+    if pickup_only(custom_warn, name):
         return f"{lead} Pickup only by appointment in Carbondale, PA."
     return f"{lead} Ships US-wide or pickup by appointment in Carbondale, PA."
 
 
-def pickup_only(warn):
-    return bool(re.search(r"pickup only|no shipping", str(warn or ""), re.I))
+def pickup_only(*texts):
+    blob = " ".join(str(t or "") for t in texts)
+    return bool(re.search(r"pickup only|no shipping", blob, re.I))
 
 
 def cat_label(c):
@@ -141,13 +142,26 @@ def offer_return_policy(category, force_no_returns=False):
     }
 
 
+SQUARE_ID_RE = re.compile(r"^[A-Z0-9]{16,32}$")
+
+
+def safe_item_id(iid):
+    s = str(iid or "").strip()
+    if not SQUARE_ID_RE.fullmatch(s):
+        raise SystemExit(f"ERROR: catalog id is not a Square id: {iid!r}")
+    return s
+
+
 def safe_checkout(u):
     s = str(u or "").strip()
-    if not s.startswith("http"):
+    if not s.startswith("https://"):
         return ""
     try:
-        host = (urlparse(s).hostname or "").lower()
-        if host == "square.link" or host.endswith(".square.link") or host == "checkout.square.site":
+        parsed = urlparse(s)
+        if parsed.scheme != "https":
+            return ""
+        host = (parsed.hostname or "").lower()
+        if host == "square.link" or host.endswith(".square.link"):
             return s
     except Exception:
         pass
@@ -168,15 +182,17 @@ def safe_video(u):
 
 def safe_image(u):
     s = str(u or "").strip()
-    if not s.startswith("http"):
+    if not s.startswith("https://"):
         return ""
     try:
-        host = (urlparse(s).hostname or "").lower()
+        parsed = urlparse(s)
+        if parsed.scheme != "https":
+            return ""
+        host = (parsed.hostname or "").lower()
         if (
             host == "buccaneersalvage.github.io"
             or host.endswith(".squareup.com")
             or host.endswith(".squarecdn.com")
-            or host.endswith(".amazonaws.com")
             or host == "items-images-production.s3.us-west-2.amazonaws.com"
         ):
             return s
@@ -199,7 +215,7 @@ def main() -> None:
     # simpler: exec the same block as session generator
     written = []
     for item in items:
-        iid = item["id"]
+        iid = safe_item_id(item.get("id"))
         name = item.get("name") or "Product"
         price_n = item.get("price")
         price = money(price_n)
@@ -215,10 +231,10 @@ def main() -> None:
         # no returns") instead of the generic turbo/pump core warning, which
         # would say "UNTESTED" even on an item that was run on video.
         custom_warn = str(item.get("condition_warning") or "").strip()
-        no_returns = is_core(item.get("category")) or bool(custom_warn)
-        pickup = pickup_only(custom_warn)
+        pickup = pickup_only(custom_warn, name)
+        no_returns = is_core(item.get("category")) or bool(custom_warn) or pickup
         ship_from = (
-            "Pickup only — Carbondale, PA 18407. No shipping."
+            "Pickup only - Carbondale, PA 18407. No shipping."
             if pickup
             else "Carbondale, PA 18407"
         )
@@ -329,14 +345,14 @@ def main() -> None:
         )
         thumbs += "".join(
             f'<button type="button" class="pdp-thumb-btn" data-type="image" data-src="{esc(u)}" '
-            f'aria-label="{esc_t(name)} — additional photo">'
+            f'aria-label="{esc_t(name)} - additional photo">'
             f'<img class="pdp-thumb" src="{esc(u)}" alt="" width="100" height="100" loading="lazy" /></button>'
             for u in gallery
         )
         if video:
             thumbs += (
                 f'<button type="button" class="pdp-thumb-btn pdp-thumb-video" data-type="video" '
-                f'aria-label="{esc_t(name)} — test-run video">'
+                f'aria-label="{esc_t(name)} - test-run video">'
                 f'<img class="pdp-thumb" src="{esc(img)}" alt="" width="100" height="100" loading="lazy" />'
                 f'<span class="pdp-thumb-play" aria-hidden="true">&#9654;</span></button>'
             )
@@ -371,7 +387,7 @@ def main() -> None:
   <meta name="twitter:image" content="{esc(img)}" />
   <link rel="icon" type="image/jpeg" href="../assets/crest-rustjack-web.jpg" />
   <link rel="stylesheet" href="../assets/fonts.css" />
-  <link rel="stylesheet" href="../styles.css?v=godmode9" />
+  <link rel="stylesheet" href="../styles.css?v=godmode10" />
   <script type="application/ld+json">{schema_json}</script>
   <script src="../pdp-gallery.js" defer></script>
   <script src="../main.js" defer></script>
@@ -388,11 +404,11 @@ def main() -> None:
         <a href="../index.html">Home</a>
         <a href="../store.html">Store</a>
         <a href="../terms.html">Terms</a>
-        <a href="../videos.html">Music library</a>
+        <a href="../videos.html">Music</a>
         <a class="nav-port" href="https://www.youtube.com/@BuccaneerSalvage" target="_blank" rel="noopener noreferrer"><img class="nav-port-icon" src="../assets/nav/youtube-pirate.webp" width="22" height="22" alt="" />YouTube</a>
         <a class="nav-port" href="https://x.com/jollyroger1480" target="_blank" rel="noopener noreferrer"><img class="nav-port-icon" src="../assets/nav/x-pirate.webp" width="22" height="22" alt="" />X</a>
         <a class="nav-port" href="https://www.ebay.com/str/buccaneersalvage" target="_blank" rel="noopener noreferrer"><img class="nav-port-icon" src="../assets/nav/ebay-pirate.webp" width="22" height="22" alt="" />eBay</a>
-        <a href="/ukiri/" class="nav-warn">Ukiri Fraud Report</a>
+        <a href="/ukiri/" class="nav-warn">Ukiri</a>
       </nav>
       {nav_cta}
       <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="drawer" id="navToggle">
@@ -403,11 +419,11 @@ def main() -> None:
       <a href="../index.html">Home</a>
       <a href="../store.html">Store catalog</a>
       <a href="../terms.html">Terms &amp; returns</a>
-      <a href="../videos.html">Music library</a>
+      <a href="../videos.html">Music</a>
       <a class="nav-port" href="https://www.youtube.com/@BuccaneerSalvage" target="_blank" rel="noopener noreferrer"><img class="nav-port-icon" src="../assets/nav/youtube-pirate.webp" width="22" height="22" alt="" />YouTube</a>
       <a class="nav-port" href="https://x.com/jollyroger1480" target="_blank" rel="noopener noreferrer"><img class="nav-port-icon" src="../assets/nav/x-pirate.webp" width="22" height="22" alt="" />X</a>
       <a class="nav-port" href="https://www.ebay.com/str/buccaneersalvage" target="_blank" rel="noopener noreferrer"><img class="nav-port-icon" src="../assets/nav/ebay-pirate.webp" width="22" height="22" alt="" />eBay store</a>
-      <a href="/ukiri/">Ukiri Fraud Report</a>
+      <a href="/ukiri/">Ukiri</a>
     </div>
   </header>
   <main id="main">
@@ -451,7 +467,10 @@ def main() -> None:
 </body>
 </html>
 """
-        (out_dir / f"{iid}.html").write_text(page, encoding="utf-8")
+        dest = (out_dir / f"{iid}.html").resolve()
+        if dest.parent != out_dir.resolve():
+            raise SystemExit(f"ERROR: PDP path escaped p/: {dest}")
+        dest.write_text(page, encoding="utf-8")
         written.append(iid)
 
     keep = set(written) | {"index"}
@@ -467,10 +486,13 @@ def main() -> None:
         f"""<!DOCTYPE html>
 <html lang="en"><head>
 <meta charset="UTF-8" />
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; base-uri 'self'; form-action 'self'; object-src 'none';" />
+<meta http-equiv="X-Content-Type-Options" content="nosniff" />
+<meta name="referrer" content="strict-origin-when-cross-origin" />
 <meta http-equiv="refresh" content="0;url=../store.html" />
 <link rel="canonical" href="{BASE}/store.html" />
 <meta name="robots" content="noindex" />
-<title>Redirecting to store…</title>
+<title>Redirecting to store</title>
 </head><body><p><a href="../store.html">BuccaneerSalvage Store</a></p></body></html>
 """,
         encoding="utf-8",

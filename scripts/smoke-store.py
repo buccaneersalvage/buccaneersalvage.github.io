@@ -100,6 +100,21 @@ def main():
             # Reset filters
             page.click(".st-chip[data-filter='all']") if page.query_selector(".st-chip[data-filter='all']") else None
             page.wait_for_timeout(300)
+            page.fill("#stSearch", "under 40")
+            page.wait_for_timeout(400)
+            showing_amt = page.text_content("#stShowing").strip()
+            try:
+                n_amt = int(showing_amt.split("of")[-1].strip())
+            except Exception:
+                n_amt = 0
+            check("amount search under 40", 0 < n_amt < catalog_size and "No matches" not in showing_amt, showing_amt)
+            page.fill("#stSearch", "2")
+            page.wait_for_timeout(400)
+            air_visible = page.locator("#stGrid .st-card[data-category='air-spring']").count()
+            all_visible = page.locator("#stGrid .st-card").count()
+            check("digit search is not rank dump", all_visible == 0 or air_visible < all_visible, f"air={air_visible} all={all_visible}")
+            page.fill("#stSearch", "")
+            page.wait_for_timeout(300)
 
             # 4) sort price-asc lowest first
             page.select_option("#stSort", "price-asc")
@@ -117,7 +132,7 @@ def main():
             page.select_option("#stPageSize", "24")
             page.wait_for_timeout(300)
             cards_24 = page.locator("#stGrid .st-card").count()
-            check("page size 24", cards_24 >= 12, f"cards={cards_24}")
+            check("page size 24", cards_24 == 24, f"cards={cards_24}")
 
             # 7) pagination
             page.select_option("#stPageSize", "12")
@@ -126,7 +141,7 @@ def main():
                 page.click("ul.pagination li:nth-child(2) .page")
                 page.wait_for_timeout(300)
                 showing2 = page.text_content("#stShowing").strip()
-                check("page 2 navigation", "13" in showing2 or "2" in showing2, showing2)
+                check("page 2 navigation", showing2 == f"Showing 13–24 of {catalog_size}", showing2)
 
             # 8) featured cores section (if it exists)
             if page.query_selector("#stFeaturedCores"):

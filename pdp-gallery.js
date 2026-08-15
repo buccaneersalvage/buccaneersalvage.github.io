@@ -8,6 +8,22 @@
    * (if present) still both render from build_static_pdps.py, just without
    * the click-to-swap behavior.
    */
+  function isSafeImageSrc(u) {
+    const s = String(u || "").trim();
+    if (!/^https:\/\//i.test(s)) return false;
+    try {
+      const host = new URL(s).hostname.toLowerCase();
+      return (
+        host === "buccaneersalvage.github.io" ||
+        host.endsWith(".squareup.com") ||
+        host.endsWith(".squarecdn.com") ||
+        host === "items-images-production.s3.us-west-2.amazonaws.com"
+      );
+    } catch (_) {
+      return false;
+    }
+  }
+
   function init() {
     const stage = document.querySelector(".pdp-stage");
     if (!stage) return;
@@ -29,7 +45,7 @@
           if (videoEl) videoEl.hidden = true;
           imgEl.hidden = false;
           const src = btn.dataset.src || "";
-          if (/^https:\/\//i.test(src)) imgEl.src = src;
+          if (isSafeImageSrc(src)) imgEl.src = src;
         }
       });
     });
