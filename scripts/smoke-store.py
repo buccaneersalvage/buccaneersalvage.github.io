@@ -91,6 +91,12 @@ def main():
         check("store no style-src unsafe-inline", "unsafe-inline" not in store_html)
         check("index no style-src unsafe-inline", "unsafe-inline" not in index_html)
         check("pdp no style-src unsafe-inline", "unsafe-inline" not in pdp_html)
+        check(
+            "no inert nosniff meta",
+            "X-Content-Type-Options" not in store_html
+            and "X-Content-Type-Options" not in index_html
+            and "X-Content-Type-Options" not in pdp_html,
+        )
         check("no godmode cache tokens", "godmode" not in store_html.lower() and "godmode" not in pdp_html.lower())
         check("store frame-src none", "frame-src 'none'" in store_html)
         check("index frame-src none", "frame-src 'none'" in index_html)
@@ -494,6 +500,15 @@ def main():
                 "Engines" in (page.text_content(".pdp-category") or ""),
                 page.text_content(".pdp-category"),
             )
+            wix = page.goto(f"{BASE}/p/DN2MBTK3CTWNW36SMFCLHQBQ.html")
+            check("pdp WIX 33063 loads", wix and wix.ok, f"status={getattr(wix, 'status', None)}")
+            check(
+                "pdp WIX 33063 category is Air & Fuel",
+                "Air & Fuel" in (page.text_content(".pdp-category") or ""),
+                page.text_content(".pdp-category"),
+            )
+            wix_html = page.content()
+            check("pdp WIX 33063 JSON-LD has mpn", '"mpn"' in wix_html and "33063" in wix_html)
             check("pdp has navToggle", page.locator("#navToggle").count() == 1)
             check("pdp has drawer", page.locator("#drawer").count() == 1)
             check("pdp has main.js chrome", page.locator("script[src^='../main.js']").count() == 1)

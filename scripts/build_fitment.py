@@ -111,19 +111,6 @@ def extract_carlson_pn(title: str) -> str | None:
     return m.group(1).upper() if m else None
 
 
-def extract_primary_pn(title: str) -> str | None:
-    """Leading brand PN or bare Carlson/Goodyear-style code."""
-    m = re.match(
-        r"^(?:OEM\s+)?(?:Automann|Goodyear|Continental|ContiTech|Carlson|Mack|"
-        r"Holset|Wagner|Firestone|Meritor|Econoride)\s+([A-Z0-9][\w./-]{2,})",
-        title or "",
-        re.I,
-    )
-    if m:
-        return m.group(1)
-    return extract_carlson_pn(title or "")
-
-
 # ── square → eBay maps ──────────────────────────────────────────────────────
 
 

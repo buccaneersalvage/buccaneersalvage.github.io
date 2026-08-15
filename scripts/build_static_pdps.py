@@ -5,9 +5,13 @@ from __future__ import annotations
 import html
 import json
 import re
+import sys
 from datetime import date
 from pathlib import Path
 from urllib.parse import urlparse
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from dept_tree import dept_label, item_ebay_tree
 
 HUB = Path(__file__).resolve().parents[1]
 BASE = "https://buccaneersalvage.github.io"
@@ -136,6 +140,21 @@ def item_display_pns(item):
         return named
     all_pns = item_part_numbers(item)
     return all_pns[:1] if all_pns else []
+
+
+def item_mpn(item):
+    """Manufacturer PN for Product JSON-LD. Brand lives in schema.brand."""
+    pns = item_display_pns(item)
+    if not pns:
+        return ""
+    pn = pns[0]
+    brand = brand_guess(item)
+    if brand and brand != "BuccaneerSalvage Store":
+        prefix = re.compile(rf"^{re.escape(brand)}\s+", re.I)
+        stripped = prefix.sub("", pn).strip(" -")
+        if stripped:
+            return stripped
+    return pn
 
 
 def item_interchange(item):
@@ -430,19 +449,14 @@ def main() -> None:
     out_dir = HUB / "p"
     out_dir.mkdir(exist_ok=True)
 
-    TEMPLATE = (HUB / "scripts/pdp_static_template.html").read_text() if False else None
-    # inline template kept in generator for single-file regen
-    from textwrap import dedent
-
-    # reuse generation via import of prior logic — call subprocess self
-    # simpler: exec the same block as session generator
     written = []
     for item in items:
         iid = safe_item_id(item.get("id"))
         name = item.get("name") or "Product"
         price_n = item.get("price")
         price = money(price_n)
-        catl = cat_label(item.get("category"))
+        catl = dept_label(item)
+        desc_kind = item_ebay_tree(item).get("sub") or cat_label(item.get("category"))
         img = safe_image(item.get("image")) or f"{BASE}/assets/og-share.jpg"
         gallery_raw = [safe_image(u) for u in (item.get("images") or [])]
         gallery = [u for u in gallery_raw if u and u != img]
@@ -470,7 +484,7 @@ def main() -> None:
         # name still appears via og:site_name / structured data either way.
         _BRAND_SUFFIX = " | BuccaneerSalvage Store"
         title = name if len(name) + len(_BRAND_SUFFIX) > 60 else f"{name}{_BRAND_SUFFIX}"
-        desc = pdp_desc(item, name, catl, price, custom_warn)
+        desc = pdp_desc(item, name, desc_kind, price, custom_warn)
         canonical = f"{BASE}/p/{iid}.html"
         schema = {
             "@context": "https://schema.org",
@@ -501,6 +515,9 @@ def main() -> None:
                 "hasMerchantReturnPolicy": offer_return_policy(item.get("category"), force_no_returns=no_returns),
             },
         }
+        mpn = item_mpn(item)
+        if mpn:
+            schema["mpn"] = mpn
         if not pickup:
             schema["offers"]["shippingDetails"] = offer_shipping_details()
         if price_n is not None:
@@ -596,7 +613,6 @@ def main() -> None:
   <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1" />
   <meta name="theme-color" content="#0c0a08" />
   <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data: https://items-images-production.s3.us-west-2.amazonaws.com https://*.squareup.com https://*.squarecdn.com; media-src 'self'; font-src 'self' data:; connect-src 'self'; base-uri 'self'; form-action 'self'; object-src 'none'; frame-src 'none';" />
-  <meta http-equiv="X-Content-Type-Options" content="nosniff" />
   <meta name="referrer" content="strict-origin-when-cross-origin" />
   <link rel="canonical" href="{esc(canonical)}" />
   <meta property="og:type" content="product" />
@@ -714,7 +730,6 @@ def main() -> None:
 <html lang="en"><head>
 <meta charset="UTF-8" />
 <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; base-uri 'self'; form-action 'self'; object-src 'none'; frame-src 'none';" />
-<meta http-equiv="X-Content-Type-Options" content="nosniff" />
 <meta name="referrer" content="strict-origin-when-cross-origin" />
 <meta http-equiv="refresh" content="0;url=../store.html" />
 <link rel="canonical" href="{BASE}/store.html" />
