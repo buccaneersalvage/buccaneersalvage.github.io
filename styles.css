@@ -296,6 +296,17 @@ ul { list-style: none; }
     linear-gradient(105deg, rgba(5, 4, 3, 0.88) 0%, rgba(5, 4, 3, 0.45) 42%, rgba(5, 4, 3, 0.3) 100%),
     url("assets/hero-atmosphere-web.jpg") center 40% / cover no-repeat;
 }
+@supports (background-image: image-set(url("x.webp") type("image/webp"))) {
+  .hero-bg {
+    background:
+      linear-gradient(180deg, rgba(5, 4, 3, 0.5) 0%, rgba(5, 4, 3, 0.25) 30%, rgba(5, 4, 3, 0.65) 70%, var(--void) 100%),
+      linear-gradient(105deg, rgba(5, 4, 3, 0.88) 0%, rgba(5, 4, 3, 0.45) 42%, rgba(5, 4, 3, 0.3) 100%),
+      image-set(
+        url("assets/hero-atmosphere-web.webp") type("image/webp"),
+        url("assets/hero-atmosphere-web.jpg") type("image/jpeg")
+      ) center 40% / cover no-repeat;
+  }
+}
 .hero-bg::before {
   content: "";
   position: absolute;
@@ -819,6 +830,16 @@ ul { list-style: none; }
   background:
     linear-gradient(180deg, transparent, rgba(5, 4, 3, 0.5)),
     url("assets/hero-atmosphere-web.jpg") center / cover no-repeat;
+}
+@supports (background-image: image-set(url("x.webp") type("image/webp"))) {
+  .about-visual {
+    background:
+      linear-gradient(180deg, transparent, rgba(5, 4, 3, 0.5)),
+      image-set(
+        url("assets/hero-atmosphere-web.webp") type("image/webp"),
+        url("assets/hero-atmosphere-web.jpg") type("image/jpeg")
+      ) center / cover no-repeat;
+  }
 }
 .about-visual img { display: none; }
 .about-copy {
@@ -1497,6 +1518,31 @@ ul { list-style: none; }
   gap: 1rem;
   max-width: 1200px;
 }
+/* Reserve first-page height so Loading → 12 cards does not shift the fold */
+#stGrid {
+  min-height: 42rem;
+}
+@media (min-width: 560px) {
+  #stGrid { min-height: 38rem; }
+}
+@media (min-width: 900px) {
+  #stGrid { min-height: 34rem; }
+}
+.st-skel {
+  background: #14110d;
+  border: 1px solid rgba(197, 160, 40, 0.12);
+  border-radius: 10px;
+  overflow: hidden;
+}
+.st-skel .st-card-body { min-height: 9.5rem; }
+.st-skel-line {
+  display: block;
+  height: 0.85rem;
+  border-radius: 4px;
+  background: rgba(243, 234, 216, 0.08);
+  margin-bottom: 0.45rem;
+}
+.st-skel-line--short { width: 42%; }
 @media (min-width: 560px) {
   .st-grid { grid-template-columns: repeat(2, 1fr); }
 }

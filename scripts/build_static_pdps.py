@@ -387,7 +387,7 @@ def main() -> None:
   <meta name="twitter:image" content="{esc(img)}" />
   <link rel="icon" type="image/jpeg" href="../assets/crest-rustjack-web.jpg" />
   <link rel="stylesheet" href="../assets/fonts.css" />
-  <link rel="stylesheet" href="../styles.css?v=godmode10" />
+  <link rel="stylesheet" href="../styles.css?v=godmode11" />
   <script type="application/ld+json">{schema_json}</script>
   <script src="../pdp-gallery.js" defer></script>
   <script src="../main.js" defer></script>
@@ -405,9 +405,9 @@ def main() -> None:
         <a href="../store.html">Store</a>
         <a href="../terms.html">Terms</a>
         <a href="../videos.html">Music</a>
-        <a class="nav-port" href="https://www.youtube.com/@BuccaneerSalvage" target="_blank" rel="noopener noreferrer"><img class="nav-port-icon" src="../assets/nav/youtube-pirate.webp" width="22" height="22" alt="" />YouTube</a>
-        <a class="nav-port" href="https://x.com/jollyroger1480" target="_blank" rel="noopener noreferrer"><img class="nav-port-icon" src="../assets/nav/x-pirate.webp" width="22" height="22" alt="" />X</a>
-        <a class="nav-port" href="https://www.ebay.com/str/buccaneersalvage" target="_blank" rel="noopener noreferrer"><img class="nav-port-icon" src="../assets/nav/ebay-pirate.webp" width="22" height="22" alt="" />eBay</a>
+        <a class="nav-port" href="https://www.youtube.com/@BuccaneerSalvage" target="_blank" rel="noopener noreferrer"><img class="nav-port-icon" loading="lazy" decoding="async" src="../assets/nav/youtube-pirate-48.webp" width="22" height="22" alt="" />YouTube</a>
+        <a class="nav-port" href="https://x.com/jollyroger1480" target="_blank" rel="noopener noreferrer"><img class="nav-port-icon" loading="lazy" decoding="async" src="../assets/nav/x-pirate-48.webp" width="22" height="22" alt="" />X</a>
+        <a class="nav-port" href="https://www.ebay.com/str/buccaneersalvage" target="_blank" rel="noopener noreferrer"><img class="nav-port-icon" loading="lazy" decoding="async" src="../assets/nav/ebay-pirate-48.webp" width="22" height="22" alt="" />eBay</a>
         <a href="/ukiri/" class="nav-warn">Ukiri</a>
       </nav>
       {nav_cta}
@@ -420,9 +420,9 @@ def main() -> None:
       <a href="../store.html">Store catalog</a>
       <a href="../terms.html">Terms &amp; returns</a>
       <a href="../videos.html">Music</a>
-      <a class="nav-port" href="https://www.youtube.com/@BuccaneerSalvage" target="_blank" rel="noopener noreferrer"><img class="nav-port-icon" src="../assets/nav/youtube-pirate.webp" width="22" height="22" alt="" />YouTube</a>
-      <a class="nav-port" href="https://x.com/jollyroger1480" target="_blank" rel="noopener noreferrer"><img class="nav-port-icon" src="../assets/nav/x-pirate.webp" width="22" height="22" alt="" />X</a>
-      <a class="nav-port" href="https://www.ebay.com/str/buccaneersalvage" target="_blank" rel="noopener noreferrer"><img class="nav-port-icon" src="../assets/nav/ebay-pirate.webp" width="22" height="22" alt="" />eBay store</a>
+      <a class="nav-port" href="https://www.youtube.com/@BuccaneerSalvage" target="_blank" rel="noopener noreferrer"><img class="nav-port-icon" loading="lazy" decoding="async" src="../assets/nav/youtube-pirate-48.webp" width="22" height="22" alt="" />YouTube</a>
+      <a class="nav-port" href="https://x.com/jollyroger1480" target="_blank" rel="noopener noreferrer"><img class="nav-port-icon" loading="lazy" decoding="async" src="../assets/nav/x-pirate-48.webp" width="22" height="22" alt="" />X</a>
+      <a class="nav-port" href="https://www.ebay.com/str/buccaneersalvage" target="_blank" rel="noopener noreferrer"><img class="nav-port-icon" loading="lazy" decoding="async" src="../assets/nav/ebay-pirate-48.webp" width="22" height="22" alt="" />eBay store</a>
       <a href="/ukiri/">Ukiri</a>
     </div>
   </header>

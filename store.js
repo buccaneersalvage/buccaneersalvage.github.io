@@ -578,7 +578,12 @@
         rankCat(a.category) - rankCat(b.category) ||
         (a.name || "").localeCompare(b.name || "")
     );
-    grid.innerHTML = ordered.map((i) => cardHtml(i)).join("");
+    const eagerN = window.matchMedia("(min-width: 900px)").matches
+      ? 8
+      : window.matchMedia("(min-width: 560px)").matches
+        ? 4
+        : 2;
+    grid.innerHTML = ordered.map((i, idx) => cardHtml(i, { featured: idx < eagerN })).join("");
     bindThumbFallbacks(grid);
 
     // List.js: { data: ['price'] } reads data-price on the item root.
