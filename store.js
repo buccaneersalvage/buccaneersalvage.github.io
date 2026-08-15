@@ -91,7 +91,7 @@
         hint.textContent = `Price filter: ${lo} - ${hi}`;
       } else {
         hint.textContent =
-          "Enter min and/or max (e.g. 20, $50, 100). Or search $50 / under 40.";
+          "Min, max, or search under 40.";
       }
     }
   }
@@ -240,15 +240,18 @@
     "commercial truck parts",
   ]);
 
-  /** Map Type → same eBay department when GetItem left PrimaryCategory empty. */
+  /** Map Type / title → eBay department. Wins over a wrong PrimaryCategory. */
   const TYPE_PARENT = [
-    [/oil filter|crankcase|breather|timing (component|sprocket|belt)/i, "Engines & Engine Parts"],
+    [/oil filter|crankcase|breather|timing|sprocket|air injection/i, "Engines & Engine Parts"],
     [/fuel filter|air filter/i, "Air & Fuel Delivery"],
-    [/distributor|ignition|spark plug/i, "Ignition Systems & Components"],
+    [/distributor|ignition|spark plug|vacuum advance|pickup coil|\bhei\b/i, "Ignition Systems & Components"],
     [/\bcv\b|boot kit|drivetrain/i, "Transmission & Drivetrain"],
     [/brake|caliper/i, "Brakes & Brake Parts"],
-    [/air spring|rolling lobe|air ride/i, "Suspension & Steering"],
+    [/air spring|rolling lobe|air ride|convoluted/i, "Suspension & Steering"],
     [/turbo|injection pump|^pump$/i, "Cores"],
+    [/exhaust|flange gasket/i, "Exhaust & Emission Systems"],
+    [/headlight switch|dimmer/i, "Interior Parts & Accessories"],
+    [/wheelchair|bicycle|\bbike\b|masi/i, "Vintage"],
   ];
 
   const PARENT_SHORT = {
@@ -379,6 +382,18 @@
     return have === want;
   }
 
+  function typeParentName(typ, name) {
+    const tryOn = [typ || "", name || ""];
+    for (let t = 0; t < tryOn.length; t++) {
+      const s = tryOn[t];
+      if (!s) continue;
+      for (let i = 0; i < TYPE_PARENT.length; i++) {
+        if (TYPE_PARENT[i][0].test(s)) return TYPE_PARENT[i][1];
+      }
+    }
+    return "";
+  }
+
   function itemEbayTree(item) {
     if (!item) return { parent: "Other", parentSlug: "other", sub: "Other", subSlug: "other" };
     if (item._eb) return item._eb;
@@ -391,6 +406,7 @@
       ? raw.split(":").map((s) => s.trim()).filter(Boolean)
       : [];
     const kept = parts.filter((p) => !EBAY_SKIP.has(p.toLowerCase()));
+    const typ = (item.ebay_type || (item.fitment && item.fitment.type) || "").trim();
     let parent = "";
     let sub = "";
     if (kept.length >= 2) {
@@ -398,23 +414,22 @@
       sub = kept[kept.length - 1];
     } else if (kept.length === 1) {
       parent = kept[0];
-      sub = (item.ebay_type || (item.fitment && item.fitment.type) || "").trim() || kept[0];
-    } else {
-      const typ = (item.ebay_type || (item.fitment && item.fitment.type) || "").trim();
-      parent = "Other";
-      for (let i = 0; i < TYPE_PARENT.length; i++) {
-        if (TYPE_PARENT[i][0].test(typ)) {
-          parent = TYPE_PARENT[i][1];
-          break;
-        }
-      }
-      if (parent === "Other") {
-        if (item.category === "turbo" || item.category === "pump") parent = "Cores";
-        else if (item.category === "vintage") parent = "Vintage";
-        else if (item.category && item.category !== "other") parent = catLabel(item.category);
-      }
-      sub = typ || parent;
+      sub = typ || kept[0];
     }
+    const typed = typeParentName(typ, item.name || "");
+    if (typed && slugKey(parent) !== slugKey(typed)) {
+      parent = typed;
+      if (typ) sub = typ;
+    }
+    if (!parent) {
+      parent = "Other";
+      if (item.category === "turbo" || item.category === "pump") parent = "Cores";
+      else if (item.category === "vintage") parent = "Vintage";
+    }
+    const rawSlug = slugKey(parent);
+    if (rawSlug === "health-beauty" || rawSlug === "sporting-goods") parent = "Vintage";
+    if (rawSlug === "business-industrial") parent = "Other";
+    if (!sub) sub = typ || parent;
     const subSlug = canonSubSlug(sub) || "other";
     item._eb = {
       parent,
@@ -429,11 +444,6 @@
     if (!parentSlug || parentSlug === "all") return true;
     const eb = itemEbayTree(item);
     if (eb.parentSlug === parentSlug) return true;
-    if (parentSlug === "other") {
-      const rec = catalogCounts()[eb.parentSlug];
-      const n = rec && rec.n;
-      return eb.parentSlug !== "all" && (!n || n < 2);
-    }
     return false;
   }
 
@@ -607,6 +617,26 @@
     return out.join(" ");
   }
 
+  function pnsFromName(name) {
+    const s = String(name || "");
+    const rxs = [
+      /\bWIX\s+\d{4,6}\b/gi,
+      /\bMOOG\s+CV\d+\b/gi,
+      /\bCloyes\s+[A-Z]-?\d{2,4}\b/gi,
+      /\bStandard\s+JH\d+\b/gi,
+      /\bPace\s*Setter\s+DR-?\d+\b/gi,
+      /\b8VBB-1100\b/gi,
+      /\b780068P\b/gi,
+      /\bKW14\b/gi,
+    ];
+    const out = [];
+    rxs.forEach((rx) => {
+      const hits = s.match(rx);
+      if (hits) hits.forEach((h) => out.push(h));
+    });
+    return out;
+  }
+
   function cardXrefHint(item) {
     if (Array.isArray(item.interchange)) {
       const first = item.interchange.map((x) => String(x || "").trim()).find(Boolean);
@@ -620,7 +650,8 @@
         .filter(Boolean);
       if (bits[0]) return bits[0];
     }
-    return "";
+    const named = pnsFromName(item && item.name);
+    return named[0] || "";
   }
 
   function cardHtml(item, { featured = false } = {}) {
@@ -736,10 +767,8 @@
       const ranked = Object.entries(cats)
         .filter(([k, v]) => k !== "all" && v && v.n)
         .sort((a, b) => b[1].n - a[1].n || a[1].label.localeCompare(b[1].label));
-      const main = ranked.filter(([k, v]) => k !== "other" && v.n >= 2);
-      const otherN = ranked
-        .filter(([k, v]) => k === "other" || v.n < 2)
-        .reduce((s, [, v]) => s + v.n, 0);
+      const main = ranked.filter(([k]) => k !== "other");
+      const otherN = (cats.other && cats.other.n) || 0;
       const bits = [optionHtml("all", "All parts", cats.all)];
       main.forEach(([k, v]) => {
         bits.push(optionHtml(k, parentChipLabel(k, v.label), v.n));
@@ -785,7 +814,7 @@
       if (!parentOn || makeList.length < 2) {
         makeGroup.hidden = true;
         makeSel.innerHTML = "";
-        if (!parentOn) activeMake = "";
+        activeMake = "";
       } else {
         makeGroup.hidden = false;
         makeSel.innerHTML = [optionHtml("", "Any make")].concat(
@@ -876,6 +905,8 @@
         const hi = max != null ? money(max) : "any";
         hint.textContent = `Search amount: ${lo} - ${hi}`;
       }
+    } else {
+      readFacetPrices();
     }
 
     // Do not use List.js search() — hyphenated PNs are treated as regex (W01-358-8091).
@@ -1073,7 +1104,7 @@
       const hint = document.getElementById("stPriceHint");
       if (hint) {
         hint.textContent =
-          "Enter min and/or max (e.g. 20, $50, 100). Or search $50 / under 40.";
+          "Min, max, or search under 40.";
       }
       if (list) {
         list.search("");

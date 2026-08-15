@@ -159,26 +159,51 @@ def map_square_to_ebay() -> dict[str, str]:
     return m
 
 
+_LISTING_PN_RES = [
+    re.compile(r"\bWIX\s+(\d{4,5}[A-Z]?)\b", re.I),
+    re.compile(r"\b(?:MOOG|Moog)\s+(CV\d+)\b", re.I),
+    re.compile(r"\bStandard\s+(JH\d+)\b", re.I),
+    re.compile(r"\bCloyes\s+([A-Z]-?\d+)\b", re.I),
+    re.compile(r"\bPace Setter\s+(DR-?\d+)\b", re.I),
+    re.compile(r"\b(8VBB-1100)\b", re.I),
+    re.compile(r"\b(160583P2)\b", re.I),
+    re.compile(r"\b(780068P?)\b", re.I),
+    re.compile(r"\b(FS-HS04)\b", re.I),
+    re.compile(r"\b((?:1R|2B|3B)\d{1,2}-\d{2,4}|AB[A-Z0-9][\w./-]{4,}|566\.[\w./-]+)\b", re.I),
+]
+
+
+def extract_listing_pns(title: str) -> list[str]:
+    """Brand PNs already printed in a title. Used only to map Square → eBay id."""
+    s = title or ""
+    out = []
+    for rx in _LISTING_PN_RES:
+        for m in rx.finditer(s):
+            tok = (m.group(1) or m.group(0)).strip().upper().replace(" ", "")
+            if tok.endswith("P") and tok[:-1].isdigit() and len(tok) >= 6:
+                out.append(tok[:-1])
+            out.append(tok)
+    cpn = extract_carlson_pn(s)
+    if cpn:
+        out.append(cpn)
+    return uniq(out)
+
+
 def map_by_title_and_pn(catalog_items: list[dict]) -> dict[str, str]:
-    """square id → ebay id from active_listings title / Carlson PN."""
+    """square id → ebay id from active_listings title / printed PN."""
     active_path = DATA / "active_listings.csv"
     if not active_path.exists():
         return {}
     active = list(csv.DictReader(active_path.open(encoding="utf-8", errors="replace")))
     by_title = {a["title"].strip().lower(): a["item_id"] for a in active if a.get("title")}
-    by_pn: dict[str, str] = {}
+    by_pn: dict[str, list[str]] = defaultdict(list)
     for a in active:
-        pn = extract_carlson_pn(a.get("title") or "")
-        if pn:
-            by_pn[pn] = a["item_id"]
-        # also Goodyear / Automann leading codes
-        m = re.search(
-            r"\b((?:1R|2B|3B)\d{1,2}-\d{2,4}|AB[A-Z0-9][\w./-]{4,}|566\.[\w./-]+)\b",
-            a.get("title") or "",
-            re.I,
-        )
-        if m:
-            by_pn[m.group(1).upper()] = a["item_id"]
+        eid = (a.get("item_id") or "").strip()
+        if not eid:
+            continue
+        for pn in extract_listing_pns(a.get("title") or ""):
+            if eid not in by_pn[pn]:
+                by_pn[pn].append(eid)
 
     out = {}
     for it in catalog_items:
@@ -187,18 +212,14 @@ def map_by_title_and_pn(catalog_items: list[dict]) -> dict[str, str]:
         if title.lower() in by_title:
             out[sid] = by_title[title.lower()]
             continue
-        cpn = extract_carlson_pn(title)
-        if cpn and cpn in by_pn:
-            out[sid] = by_pn[cpn]
-            continue
-        # try bare primary PN from title against by_pn
-        m = re.search(
-            r"\b((?:1R|2B|3B)\d{1,2}-\d{2,4}|AB[A-Z0-9][\w./-]{4,}|566\.[\w./-]+)\b",
-            title,
-            re.I,
-        )
-        if m and m.group(1).upper() in by_pn:
-            out[sid] = by_pn[m.group(1).upper()]
+        hits = []
+        for pn in extract_listing_pns(title):
+            ids = by_pn.get(pn) or []
+            if len(ids) == 1:
+                hits.append(ids[0])
+        hits = uniq(hits)
+        if len(hits) == 1:
+            out[sid] = hits[0]
     return out
 
 
@@ -374,13 +395,17 @@ def collapse_vehicles(raw: list[dict]) -> list[str]:
             continue
         if not make:
             continue
-        y = None
-        if year and str(year).isdigit():
-            y = int(year)
         key = (make, model)
-        if y:
-            groups[key].add(y)
-        else:
+        years_hit = False
+        if year and str(year).isdigit():
+            groups[key].add(int(year))
+            years_hit = True
+        for yk in ("year_from", "year_to"):
+            yv = v.get(yk)
+            if yv is not None and str(yv).isdigit():
+                groups[key].add(int(yv))
+                years_hit = True
+        if not years_hit:
             groups[key]  # ensure key exists
 
     labels = []
@@ -404,10 +429,18 @@ def structured_vehicles(raw: list[dict]) -> list[dict]:
         year = v.get("year")
         if not make:
             continue
+        key = (make, model)
+        hit = False
         if year and str(year).isdigit():
-            groups[(make, model)].add(int(year))
-        else:
-            groups[(make, model)]
+            groups[key].add(int(year))
+            hit = True
+        for yk in ("year_from", "year_to"):
+            yv = v.get(yk)
+            if yv is not None and str(yv).isdigit():
+                groups[key].add(int(yv))
+                hit = True
+        if not hit:
+            groups[key]
     out = []
     for (make, model), years in sorted(groups.items()):
         out.append(
@@ -469,27 +502,256 @@ def parse_title_seed(name: str) -> dict:
         if t not in parts and t not in xref:
             xref.append(t)
 
-    for pat in (
-        r"\bfor\s+((?:Ford|Chevy|Chevrolet|GMC|Dodge|Ram|Mercedes(?:-Benz)?|Mack|Kia)[^—–,]{0,50})",
-        r"\b((?:Ford|Chevy|Chevrolet|GMC)\s+F-?Series(?:\s*/\s*E-Series)?)",
-        r"\b(Dodge\s+Ram(?:\s+Dakota)?)",
-        r"\b(Mercedes(?:-Benz)?\s+S-Class(?:\s*/\s*SL-Class)?)",
-        r"\b(Mack\s+Truck)\b",
-        r"\b(Parking Brake\s+Kia)\b",
-        r"\b(Freightliner)\b",
-    ):
-        for mm in re.finditer(pat, title, re.I):
-            v = re.sub(r"\s+[—–-].*$", "", (mm.group(1) or mm.group(0))).strip()
-            v = re.sub(r"\s+Brand New.*$", "", v, flags=re.I).strip(" !")
-            if len(v) >= 3:
-                vehicles.append(v)
+    vehicles.extend(parse_title_vehicle_notes(title))
 
     return {
         "part_numbers": uniq(parts),
         "interchange": uniq(xref),
         "vehicles": uniq(vehicles),
+        "vehicles_raw": parse_title_vehicles(title),
         "source": "title",
         "confidence": "low",
+    }
+
+
+_TITLE_MAKES = [
+    ("mercedes-benz", "Mercedes-Benz"),
+    ("mercedes", "Mercedes-Benz"),
+    ("volkswagen", "Volkswagen"),
+    ("chevrolet", "Chevrolet"),
+    ("chevy", "Chevrolet"),
+    ("oldsmobile", "Oldsmobile"),
+    ("pontiac", "Pontiac"),
+    ("chrysler", "Chrysler"),
+    ("plymouth", "Plymouth"),
+    ("lincoln", "Lincoln"),
+    ("mercury", "Mercury"),
+    ("cadillac", "Cadillac"),
+    ("buick", "Buick"),
+    ("saturn", "Saturn"),
+    ("honda", "Honda"),
+    ("acura", "Acura"),
+    ("toyota", "Toyota"),
+    ("lexus", "Lexus"),
+    ("nissan", "Nissan"),
+    ("datsun", "Datsun"),
+    ("infiniti", "Infiniti"),
+    ("infinity", "Infiniti"),
+    ("mazda", "Mazda"),
+    ("subaru", "Subaru"),
+    ("isuzu", "Isuzu"),
+    ("volvo", "Volvo"),
+    ("hyundai", "Hyundai"),
+    ("kia", "Kia"),
+    ("jeep", "Jeep"),
+    ("dodge", "Dodge"),
+    ("ram", "Ram"),
+    ("ford", "Ford"),
+    ("gmc", "GMC"),
+    ("gm", "GM"),
+    ("mack", "Mack"),
+    ("freightliner", "Freightliner"),
+    ("kubota", "Kubota"),
+    ("new holland", "New Holland"),
+    ("mahindra", "Mahindra"),
+]
+
+_TITLE_JUNK = {
+    "nos", "new", "lot", "of", "fits", "fit", "for", "with", "w", "and",
+    "bracket", "microgard", "cross", "inline", "in-line", "diesel",
+    "light-duty", "light", "duty", "truck", "trucks", "van", "vans",
+    "mini", "car", "cars", "suv", "suvs", "select", "models", "model",
+    "class", "oem", "ver", "working", "tested", "housing", "metal",
+    "filter", "filters", "oil", "fuel", "air", "outer", "inner", "kit",
+    "boot", "cv", "joint", "engine", "timing", "belt", "ignition", "coil",
+    "distributor", "cap", "wire", "set", "sohc", "dohc", "v6", "v8",
+    "l", "family", "classic", "wagon", "sedan", "coupe", "in-pan",
+    "in", "pan", "replacement", "universal", "dash", "dimmer",
+    "mid", "early", "late", "1980s", "1990s", "1970s",
+}
+
+_MAKE_KEYS = {k for k, _ in _TITLE_MAKES}
+
+
+def _norm_year_token(s: str) -> int | None:
+    if not s or not str(s).isdigit():
+        return None
+    n = int(s)
+    if n < 100:
+        return 2000 + n if n <= 29 else 1900 + n
+    if 1930 <= n <= 2030:
+        return n
+    return None
+
+
+def parse_title_year_range(title: str) -> tuple[int | None, int | None]:
+    m = re.search(
+        r"\b((?:19|20)\d{2}|\d{2})\s*[-–—/]\s*((?:19|20)\d{2}|\d{2})\b",
+        title or "",
+    )
+    if not m:
+        m2 = re.search(r"\b((?:19|20)\d{2})\b", title or "")
+        if m2:
+            y = _norm_year_token(m2.group(1))
+            return y, y
+        return None, None
+    a, b = _norm_year_token(m.group(1)), _norm_year_token(m.group(2))
+    if a and b and a > b:
+        a, b = b, a
+    return a, b
+
+
+def parse_title_vehicles(title: str) -> list[dict]:
+    """Makes / models / years already printed in the title. Never invents rows."""
+    s = title or ""
+    if re.search(r"air spring|rolling lobe|convoluted", s, re.I):
+        return []
+    y0, y1 = parse_title_year_range(s)
+    found: list[dict] = []
+    seen = set()
+    for key, canon in _TITLE_MAKES:
+        rx = re.compile(rf"\b{re.escape(key)}\b", re.I)
+        m = rx.search(s)
+        if not m:
+            continue
+        sk = canon.lower()
+        if sk in seen:
+            continue
+        seen.add(sk)
+        rest = s[m.end() :]
+        model_bits = []
+        for tok in re.findall(r"[A-Za-z0-9][A-Za-z0-9.\-]*", rest):
+            low = tok.lower()
+            if low in _MAKE_KEYS or low in _TITLE_JUNK:
+                break
+            if _norm_year_token(tok) or re.fullmatch(r"\d{2,4}[-/]\d{2,4}", tok):
+                break
+            if re.search(r"(?:19|20)\d{2}", tok):
+                break
+            if re.fullmatch(r"\d[\d.]*L", tok, re.I):
+                break
+            model_bits.append(tok)
+            if len(model_bits) >= 1:
+                break
+        found.append(
+            {
+                "year": None,
+                "year_from": y0,
+                "year_to": y1,
+                "make": canon,
+                "model": " ".join(model_bits),
+                "notes": "",
+                "source": "title",
+                "confidence": "low",
+            }
+        )
+    return found
+
+
+def parse_title_vehicle_notes(title: str) -> list[str]:
+    """Readable Fits leftover when no structured make was extracted."""
+    s = title or ""
+    out = []
+    m = re.search(r"\bFits?\b[:\s]+(.+)$", s, re.I)
+    if m:
+        chunk = re.sub(r"\s+[—–-]\s+.*$", "", m.group(1)).strip(" .")
+        chunk = re.sub(r"\b(NOS|New Old Stock|OEM Ver)\b.*$", "", chunk, flags=re.I).strip()
+        if 3 <= len(chunk) <= 80:
+            out.append(chunk)
+    for pat in (
+        r"\b(Mack\s+Truck)\b",
+        r"\b(Freightliner)\b",
+        r"\b((?:Ford|Chevy|Chevrolet|GMC)\s+F-?Series(?:\s*/\s*E-Series)?)",
+    ):
+        for mm in re.finditer(pat, s, re.I):
+            out.append(mm.group(1).strip())
+    return uniq(out)
+
+
+_CAR_TRUCK_PREFIX = "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:"
+_TRUCK_PREFIX = "eBay Motors:Parts & Accessories:Commercial Truck Parts:"
+
+_TYPE_DEPT = [
+    (re.compile(r"oil filter|crankcase|breather", re.I), "Engines & Engine Parts", "Oil Filters"),
+    (re.compile(r"timing|sprocket", re.I), "Engines & Engine Parts", "Timing Components & Kits"),
+    (re.compile(r"air injection", re.I), "Engines & Engine Parts", "Other Engine Parts"),
+    (re.compile(r"fuel filter", re.I), "Air & Fuel Delivery", "Fuel Filters"),
+    (re.compile(r"air filter", re.I), "Air & Fuel Delivery", "Air Filters"),
+    (re.compile(r"distributor cap", re.I), "Ignition Systems & Components", "Distributor Caps"),
+    (re.compile(r"ignition coil", re.I), "Ignition Systems & Components", "Ignition Coils"),
+    (re.compile(r"spark plug|ignition wire", re.I), "Ignition Systems & Components", "Ignition Wires & Coil Boots"),
+    (re.compile(r"vacuum advance|pickup coil|distributor|ignition", re.I), "Ignition Systems & Components", "Other Ignition Systems & Components"),
+    (re.compile(r"\bcv\b|boot kit", re.I), "Transmission & Drivetrain", "CV Joints, Boots & Parts"),
+    (re.compile(r"transmission filter", re.I), "Transmission & Drivetrain", "Transmission Filters"),
+    (re.compile(r"brake pad", re.I), "Brakes & Brake Parts", "Brake Pads"),
+    (re.compile(r"brake|caliper", re.I), "Brakes & Brake Parts", "Brake Pad & Shoe Hardware"),
+    (re.compile(r"air spring|rolling lobe|air ride|convoluted", re.I), "Suspension & Steering", "Air Ride Suspension"),
+    (re.compile(r"exhaust|flange gasket", re.I), "Exhaust & Emission Systems", "Exhaust Gaskets"),
+    (re.compile(r"headlight switch|dimmer", re.I), "Interior Parts & Accessories", "Switches & Controls"),
+]
+
+
+def type_department(ebay_type: str, title: str = "") -> tuple[str, str]:
+    for blob in (ebay_type or "", title or ""):
+        if not blob:
+            continue
+        for rx, parent, leaf in _TYPE_DEPT:
+            if rx.search(blob):
+                return parent, leaf
+    return "", ""
+
+
+def current_ebay_parent(ebay_category: str) -> str:
+    skip = {
+        "ebay motors",
+        "parts & accessories",
+        "car & truck parts & accessories",
+        "commercial truck parts",
+    }
+    parts = [p.strip() for p in (ebay_category or "").split(":") if p.strip()]
+    kept = [p for p in parts if p.lower() not in skip]
+    return kept[0] if kept else ""
+
+
+def correct_ebay_category(ebay_category: str, ebay_type: str, title: str, square_cat: str) -> str:
+    """Rewrite a wrong or empty PrimaryCategory from Type / title. Store-only."""
+    parent, leaf = type_department(ebay_type, title)
+    if not parent:
+        return ebay_category or ""
+    have = current_ebay_parent(ebay_category)
+    if have.lower() == parent.lower() and ebay_category:
+        return ebay_category
+    if square_cat == "air-spring" or re.search(r"air spring|rolling lobe", title or "", re.I):
+        return f"{_TRUCK_PREFIX}{parent}:{leaf}"
+    return f"{_CAR_TRUCK_PREFIX}{parent}:{leaf}"
+
+
+def existing_live(item: dict) -> dict | None:
+    """Reuse last catalog GetItem so a missing-only run does not wipe fitment."""
+    if not (item.get("ebay_category") or item.get("ebay_item_id") or item.get("vehicles")):
+        return None
+    raw: list[dict] = []
+    fit = item.get("fitment") if isinstance(item.get("fitment"), dict) else {}
+    for v in fit.get("vehicles") or []:
+        if not isinstance(v, dict):
+            continue
+        if v.get("make"):
+            y0, y1 = v.get("year_from"), v.get("year_to")
+            if y0 and y1 and str(y0) != str(y1):
+                raw.append({"year": y0, "make": v["make"], "model": v.get("model") or ""})
+                raw.append({"year": y1, "make": v["make"], "model": v.get("model") or ""})
+            else:
+                raw.append({"year": y0 or y1, "make": v["make"], "model": v.get("model") or ""})
+        elif v.get("notes"):
+            raw.append({"year": None, "make": "", "model": "", "notes": v["notes"]})
+    return {
+        "part_numbers": item.get("part_numbers") or [],
+        "interchange": item.get("interchange") or [],
+        "vehicles_raw": raw,
+        "ebay_type": item.get("ebay_type") or "",
+        "ebay_brand": item.get("ebay_brand") or "",
+        "ebay_category": item.get("ebay_category") or "",
+        "confidence": item.get("fitment_confidence") or "medium",
     }
 
 
@@ -571,24 +833,26 @@ def enrich_item(
                 xref.append(x)
         if seed["interchange"] and "title" not in sources and not live:
             sources.append("title")
-    if not vehicles_raw and seed["vehicles"]:
-        for v in seed["vehicles"]:
-            vehicles_raw.append(
-                {
-                    "year": None,
-                    "make": "",
-                    "model": "",
-                    "notes": v,
-                    "source": "title",
-                    "confidence": "low",
-                }
-            )
-        if "title" not in sources:
-            sources.append("title")
-        if conf == "high" and not live:
-            pass
-        elif conf == "low":
-            conf = "low"
+    if not vehicles_raw:
+        for v in seed.get("vehicles_raw") or []:
+            vehicles_raw.append(v)
+        if not vehicles_raw:
+            for v in seed.get("vehicles") or []:
+                vehicles_raw.append(
+                    {
+                        "year": None,
+                        "make": "",
+                        "model": "",
+                        "notes": v,
+                        "source": "title",
+                        "confidence": "low",
+                    }
+                )
+        if vehicles_raw:
+            if "title" not in sources:
+                sources.append("title")
+            if conf == "high" and live:
+                conf = "medium"
 
     if vehicles_raw and any(v.get("source") == "ebay_compat" for v in vehicles_raw):
         conf = "high"
@@ -614,12 +878,19 @@ def enrich_item(
                 }
             )
 
+    _drop = {"does not apply", "n/a", "na"}
+    parts = [p for p in parts if str(p).strip().lower() not in _drop]
+    xref = [x for x in xref if str(x).strip().lower() not in _drop]
     parts = dedupe_redundant_pns(parts)
     xref = uniq([x for x in xref if not any(x == p or x in p for p in parts)])
     xref = dedupe_redundant_pns(xref)
 
     if not ebay_type:
         ebay_type = infer_type_from_title(title, item.get("category") or "")
+
+    ebay_category = correct_ebay_category(
+        ebay_category, ebay_type, title, item.get("category") or ""
+    )
 
     item["part_numbers"] = parts
     item["interchange"] = xref
@@ -751,6 +1022,9 @@ def main() -> int:
         eid = sq2eb.get(it["id"])
         if args.offline or not token or not eid:
             continue
+        # Keep last good GetItem unless this row never got a category / id.
+        if it.get("ebay_category") and it.get("ebay_item_id"):
+            continue
         if args.limit and api_n >= args.limit:
             break
         if eid in live_cache:
@@ -780,8 +1054,10 @@ def main() -> int:
     index = {}
 
     for it in items:
-        eid = sq2eb.get(it["id"])
+        eid = sq2eb.get(it["id"]) or (it.get("ebay_item_id") or "") or None
         live = live_cache.get(eid) if eid else None
+        if live is None:
+            live = existing_live(it)
         enrich_item(it, ebay_id=eid, live=live, carlson=carlson, airspring=airspring)
         stats["items"] += 1
         if it.get("part_numbers"):

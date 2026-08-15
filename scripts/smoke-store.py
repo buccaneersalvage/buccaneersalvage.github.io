@@ -148,13 +148,42 @@ def main():
             )
             engines_opt = page.query_selector("#stCatSelect option[value='engines-engine-parts']")
             check("auto eBay parent Engines", bool(engines_opt), "engines-engine-parts")
+            exhaust_opt = page.query_selector("#stCatSelect option[value='exhaust-emission-systems']")
+            check("singleton Exhaust stays its parent", bool(exhaust_opt), "exhaust-emission-systems")
+            health_opt = page.query_selector("#stCatSelect option[value='health-beauty']")
+            check("Health & Beauty not a store parent", health_opt is None)
+            interior_opt = page.query_selector("#stCatSelect option[value='interior-parts-accessories']")
+            check("Interior is a store parent", bool(interior_opt))
             other_opt = page.query_selector("#stCatSelect option[value='other']")
             other_label = (other_opt.inner_text() if other_opt else "") or ""
             check(
-                "Other folds singleton parents",
-                bool(other_opt) and "other" in other_label.lower(),
+                "Other is leftover yard finds only",
+                (not other_opt) or "other" in other_label.lower(),
                 other_label,
             )
+            # Gates timing belt must not sit in Interior
+            page.select_option("#stCatSelect", "engines-engine-parts")
+            page.wait_for_timeout(300)
+            page.fill("#stSearch", "Gates CD70")
+            page.wait_for_timeout(400)
+            showing_gates = page.text_content("#stShowing").strip()
+            check(
+                "Gates timing belt in Engines",
+                "of 1" in showing_gates or "1-1 of 1" in showing_gates,
+                showing_gates,
+            )
+            page.fill("#stSearch", "")
+            page.select_option("#stCatSelect", "ignition-systems-components")
+            page.wait_for_timeout(300)
+            page.fill("#stSearch", "VC211")
+            page.wait_for_timeout(400)
+            showing_vc = page.text_content("#stShowing").strip()
+            check(
+                "VC211 vacuum advance in Ignition",
+                "of 1" in showing_vc or "1-1 of 1" in showing_vc,
+                showing_vc,
+            )
+            page.fill("#stSearch", "")
             make_hidden_on_all = True
             page.select_option("#stCatSelect", "all")
             page.wait_for_timeout(250)
@@ -254,6 +283,10 @@ def main():
             check("blob-xref pdp loads", blob_pdp and blob_pdp.ok, f"status={getattr(blob_pdp, 'status', None)}")
             blob_txt = page.text_content(".pdp-fitment") or ""
             check("pdp splits PN blob into interchange", "W01-358-7859" in blob_txt, blob_txt[:120])
+            name_pn = page.goto(f"{BASE}/p/DN2MBTK3CTWNW36SMFCLHQBQ.html")
+            check("title-pn pdp loads", name_pn and name_pn.ok, f"status={getattr(name_pn, 'status', None)}")
+            name_txt = page.text_content(".pdp-fitment") or ""
+            check("pdp extracts WIX 33063 from title", "33063" in name_txt, name_txt[:120])
             pdp = page.goto(f"{BASE}/p/7CESL5VZLPSRKJGWUFCHL5R5.html")
             check("pdp chrome item loads", pdp and pdp.ok, f"status={getattr(pdp, 'status', None)}")
             check("pdp has navToggle", page.locator("#navToggle").count() == 1)

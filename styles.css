@@ -1410,6 +1410,21 @@ ul { list-style: none; }
   min-width: 0;
 }
 .st-trust-icon { font-size: 1.05rem; line-height: 1.2; }
+.st-trust-mark {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 2.35rem;
+  height: 1.45rem;
+  padding: 0 0.35rem;
+  border: 1px solid rgba(197, 160, 40, 0.45);
+  color: var(--gold, #c5a028);
+  font-family: var(--font-mono, monospace);
+  font-size: 0.62rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  flex-shrink: 0;
+}
 .st-trust-item strong {
   display: block;
   font-size: 0.82rem;

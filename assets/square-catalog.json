@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-15T20:03:37Z",
+  "updated": "2026-08-15T20:59:30Z",
   "store": "https://buccaneersalvage.square.site/",
   "count": 198,
   "items": [
@@ -13,46 +13,47 @@
       "checkout": true,
       "variation_id": "GT3PTOYSYUZHAQ25KQFDGPXN",
       "part_numbers": [
-        "Holset X63"
+        "X63 160583P2"
       ],
       "vehicles": [
-        "Mack Truck"
+        "Mack"
       ],
-      "fitment_source": "title",
-      "fitment_confidence": "low",
+      "fitment_source": "ebay_listing+title",
+      "fitment_confidence": "medium",
       "fitment": {
         "part_numbers": [
-          "Holset X63"
+          "X63 160583P2"
         ],
         "interchange": [],
         "vehicles": [
           {
             "year_from": null,
             "year_to": null,
-            "make": "",
+            "make": "Mack",
             "model": "",
-            "notes": "Mack Truck",
-            "source": "title",
-            "confidence": "low"
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
           }
         ],
         "vehicle_labels": [
-          "Mack Truck"
+          "Mack"
         ],
         "raw_compat_rows": 1,
-        "source": "title",
-        "confidence": "low",
-        "ebay_item_id": "",
+        "source": "ebay_listing+title",
+        "confidence": "medium",
+        "ebay_item_id": "398246339681",
         "type": "Turbocharger",
-        "brand": "",
-        "ebay_category": ""
+        "brand": "Holset",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Turbos, Superchargers & Intercoolers:Turbos & Parts"
       },
       "vehicle_count_raw": 1,
-      "ebay_item_id": "",
+      "ebay_item_id": "398246339681",
       "interchange": [],
       "ebay_type": "Turbocharger",
-      "ebay_brand": "",
-      "ebay_category": ""
+      "ebay_brand": "Holset",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Turbos, Superchargers & Intercoolers:Turbos & Parts"
     },
     {
       "id": "AGEWYOLANWBWUWDDESOE3EIG",
@@ -63,29 +64,48 @@
       "category": "pump",
       "checkout": true,
       "variation_id": "BHU7RQPLZS4RDV6K6GRAA5CO",
-      "part_numbers": [],
-      "fitment_source": "title",
-      "fitment_confidence": "low",
+      "part_numbers": [
+        "8VBB-1100-6472C1"
+      ],
+      "fitment_source": "ebay_listing+title",
+      "fitment_confidence": "medium",
       "fitment": {
-        "part_numbers": [],
+        "part_numbers": [
+          "8VBB-1100-6472C1"
+        ],
         "interchange": [],
-        "vehicles": [],
-        "vehicle_labels": [],
-        "raw_compat_rows": 0,
-        "source": "title",
-        "confidence": "low",
-        "ebay_item_id": "",
-        "type": "Pump",
-        "brand": "",
-        "ebay_category": ""
+        "vehicles": [
+          {
+            "year_from": null,
+            "year_to": null,
+            "make": "Mack",
+            "model": "",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "Mack"
+        ],
+        "raw_compat_rows": 1,
+        "source": "ebay_listing+title",
+        "confidence": "medium",
+        "ebay_item_id": "398246323881",
+        "type": "Fuel Injection Pump",
+        "brand": "Mack",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Fuel Pumps & Sending Units"
       },
-      "vehicle_count_raw": 0,
-      "ebay_item_id": "",
+      "vehicle_count_raw": 1,
+      "ebay_item_id": "398246323881",
       "interchange": [],
-      "vehicles": [],
-      "ebay_type": "Pump",
-      "ebay_brand": "",
-      "ebay_category": ""
+      "vehicles": [
+        "Mack"
+      ],
+      "ebay_type": "Fuel Injection Pump",
+      "ebay_brand": "Mack",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Fuel Pumps & Sending Units"
     },
     {
       "id": "5LLWTR3B27YDLV6ZR6XMBPWL",
@@ -1967,7 +1987,7 @@
           "2000\u20132004 Kia Spectra",
           "2014\u20132016 Volkswagen Saveiro"
         ],
-        "raw_compat_rows": 62,
+        "raw_compat_rows": 8,
         "source": "ebay_listing+carlson_specs",
         "confidence": "high",
         "ebay_item_id": "398072989873",
@@ -1975,7 +1995,7 @@
         "brand": "Carlson",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware"
       },
-      "vehicle_count_raw": 62,
+      "vehicle_count_raw": 8,
       "ebay_item_id": "398072989873",
       "ebay_type": "Hardware",
       "ebay_brand": "Carlson",
@@ -2107,7 +2127,7 @@
           "1997\u20132002 Subaru Legacy",
           "2000\u20132002 Subaru Outback"
         ],
-        "raw_compat_rows": 217,
+        "raw_compat_rows": 16,
         "source": "ebay_listing+carlson_specs",
         "confidence": "high",
         "ebay_item_id": "398085066604",
@@ -2115,7 +2135,7 @@
         "brand": "Carlson",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware"
       },
-      "vehicle_count_raw": 217,
+      "vehicle_count_raw": 16,
       "ebay_item_id": "398085066604",
       "ebay_type": "Disc Brake Hardware",
       "ebay_brand": "Carlson",
@@ -2235,7 +2255,7 @@
           "2004\u20132008 Toyota Highlander",
           "2001\u20132008 Toyota Solara"
         ],
-        "raw_compat_rows": 179,
+        "raw_compat_rows": 14,
         "source": "ebay_listing+carlson_specs",
         "confidence": "high",
         "ebay_item_id": "398081728362",
@@ -2243,7 +2263,7 @@
         "brand": "Carlson",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware"
       },
-      "vehicle_count_raw": 179,
+      "vehicle_count_raw": 14,
       "ebay_item_id": "398081728362",
       "ebay_type": "Caliper Guide Pin",
       "ebay_brand": "Carlson",
@@ -2291,7 +2311,7 @@
         "vehicle_labels": [
           "1998\u20132002 Kia Sportage"
         ],
-        "raw_compat_rows": 14,
+        "raw_compat_rows": 2,
         "source": "ebay_listing+carlson_specs",
         "confidence": "high",
         "ebay_item_id": "398081729607",
@@ -2299,7 +2319,7 @@
         "brand": "Carlson",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware"
       },
-      "vehicle_count_raw": 14,
+      "vehicle_count_raw": 2,
       "ebay_item_id": "398081729607",
       "ebay_type": "Caliper Guide Pin",
       "ebay_brand": "Carlson",
@@ -2443,7 +2463,7 @@
           "2001\u20132003 Toyota Highlander",
           "1999\u20132008 Toyota Solara"
         ],
-        "raw_compat_rows": 357,
+        "raw_compat_rows": 18,
         "source": "ebay_listing+carlson_specs",
         "confidence": "high",
         "ebay_item_id": "398081923329",
@@ -2451,7 +2471,7 @@
         "brand": "Carlson",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware"
       },
-      "vehicle_count_raw": 357,
+      "vehicle_count_raw": 18,
       "ebay_item_id": "398081923329",
       "ebay_type": "Hardware",
       "ebay_brand": "Carlson",
@@ -2631,7 +2651,7 @@
           "1993\u20131998 Toyota Supra",
           "2009\u20132016 Toyota Venza"
         ],
-        "raw_compat_rows": 225,
+        "raw_compat_rows": 24,
         "source": "ebay_listing+carlson_specs",
         "confidence": "high",
         "ebay_item_id": "398085067068",
@@ -2639,7 +2659,7 @@
         "brand": "Carlson",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware"
       },
-      "vehicle_count_raw": 225,
+      "vehicle_count_raw": 24,
       "ebay_item_id": "398085067068",
       "ebay_type": "Drum Brake Hardware",
       "ebay_brand": "Carlson",
@@ -2759,7 +2779,7 @@
           "2004 Nissan Pathfinder Armada",
           "2004\u20132015 Nissan TITAN"
         ],
-        "raw_compat_rows": 345,
+        "raw_compat_rows": 12,
         "source": "ebay_listing+carlson_specs",
         "confidence": "high",
         "ebay_item_id": "398085067140",
@@ -2767,7 +2787,7 @@
         "brand": "Carlson",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware"
       },
-      "vehicle_count_raw": 345,
+      "vehicle_count_raw": 12,
       "ebay_item_id": "398085067140",
       "ebay_type": "Drum Brake Hardware",
       "ebay_brand": "Carlson",
@@ -2899,7 +2919,7 @@
           "2005\u20132008 Pontiac Wave",
           "2005\u20132007 Pontiac Wave5"
         ],
-        "raw_compat_rows": 167,
+        "raw_compat_rows": 15,
         "source": "ebay_listing+carlson_specs",
         "confidence": "high",
         "ebay_item_id": "398085067223",
@@ -2907,7 +2927,7 @@
         "brand": "Carlson",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware"
       },
-      "vehicle_count_raw": 167,
+      "vehicle_count_raw": 15,
       "ebay_item_id": "398085067223",
       "ebay_type": "Drum Brake Hardware",
       "ebay_brand": "Carlson",
@@ -3543,7 +3563,7 @@
           "1988 GMC V2500 Suburban",
           "1992\u20132000 GMC Yukon"
         ],
-        "raw_compat_rows": 3000,
+        "raw_compat_rows": 89,
         "source": "ebay_listing+carlson_specs",
         "confidence": "high",
         "ebay_item_id": "398081924673",
@@ -3551,7 +3571,7 @@
         "brand": "Carlson",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware"
       },
-      "vehicle_count_raw": 3000,
+      "vehicle_count_raw": 89,
       "ebay_item_id": "398081924673",
       "ebay_type": "Brake Hardware",
       "ebay_brand": "Carlson",
@@ -3803,7 +3823,7 @@
           "1983\u20131986 Mercury Marquis",
           "1978\u20131983 Mercury Zephyr"
         ],
-        "raw_compat_rows": 1469,
+        "raw_compat_rows": 33,
         "source": "ebay_listing+carlson_specs",
         "confidence": "high",
         "ebay_item_id": "398081926955",
@@ -3811,7 +3831,7 @@
         "brand": "Carlson",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware"
       },
-      "vehicle_count_raw": 1469,
+      "vehicle_count_raw": 33,
       "ebay_item_id": "398081926955",
       "ebay_type": "Brake Hardware",
       "ebay_brand": "Carlson",
@@ -4243,7 +4263,7 @@
           "1985\u20131987 Pontiac Grand Prix",
           "1985\u20131986 Pontiac Parisienne"
         ],
-        "raw_compat_rows": 1671,
+        "raw_compat_rows": 60,
         "source": "ebay_listing+carlson_specs",
         "confidence": "high",
         "ebay_item_id": "398081736319",
@@ -4251,7 +4271,7 @@
         "brand": "Carlson",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware"
       },
-      "vehicle_count_raw": 1671,
+      "vehicle_count_raw": 60,
       "ebay_item_id": "398081736319",
       "ebay_type": "Brake Hardware",
       "ebay_brand": "Carlson",
@@ -4431,7 +4451,7 @@
           "1992\u20131999 GMC K1500 Suburban",
           "1992\u20131999 GMC Yukon"
         ],
-        "raw_compat_rows": 1733,
+        "raw_compat_rows": 24,
         "source": "ebay_listing+carlson_specs",
         "confidence": "high",
         "ebay_item_id": "398081854295",
@@ -4439,7 +4459,7 @@
         "brand": "Carlson",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware"
       },
-      "vehicle_count_raw": 1733,
+      "vehicle_count_raw": 24,
       "ebay_item_id": "398081854295",
       "ebay_type": "Repair Kit",
       "ebay_brand": "Carlson",
@@ -4619,7 +4639,7 @@
           "1992\u20131999 GMC K1500 Suburban",
           "1992\u20131999 GMC Yukon"
         ],
-        "raw_compat_rows": 1733,
+        "raw_compat_rows": 24,
         "source": "ebay_listing+carlson_specs",
         "confidence": "high",
         "ebay_item_id": "398081854393",
@@ -4627,7 +4647,7 @@
         "brand": "Carlson",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware"
       },
-      "vehicle_count_raw": 1733,
+      "vehicle_count_raw": 24,
       "ebay_item_id": "398081854393",
       "ebay_type": "Brake Hardware",
       "ebay_brand": "Carlson",
@@ -4999,7 +5019,7 @@
           "1996\u20131997 Pontiac Sunfire",
           "1992\u20131999 Pontiac Trans Sport"
         ],
-        "raw_compat_rows": 486,
+        "raw_compat_rows": 53,
         "source": "ebay_listing+carlson_specs",
         "confidence": "high",
         "ebay_item_id": "398085067294",
@@ -5007,7 +5027,7 @@
         "brand": "Carlson",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware"
       },
-      "vehicle_count_raw": 486,
+      "vehicle_count_raw": 53,
       "ebay_item_id": "398085067294",
       "ebay_type": "Brake Hardware",
       "ebay_brand": "Carlson",
@@ -5115,7 +5135,7 @@
           "1995\u20132008 Mazda B3000",
           "1995\u20132009 Mazda B4000"
         ],
-        "raw_compat_rows": 585,
+        "raw_compat_rows": 11,
         "source": "ebay_listing+carlson_specs",
         "confidence": "high",
         "ebay_item_id": "398081931640",
@@ -5123,7 +5143,7 @@
         "brand": "Carlson",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware"
       },
-      "vehicle_count_raw": 585,
+      "vehicle_count_raw": 11,
       "ebay_item_id": "398081931640",
       "ebay_type": "Repair Kit",
       "ebay_brand": "Carlson",
@@ -5243,7 +5263,7 @@
           "1996\u20132000 Plymouth Grand Voyager",
           "1996\u20132000 Plymouth Voyager"
         ],
-        "raw_compat_rows": 519,
+        "raw_compat_rows": 14,
         "source": "ebay_listing+carlson_specs",
         "confidence": "high",
         "ebay_item_id": "398081933575",
@@ -5251,7 +5271,7 @@
         "brand": "Carlson",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware"
       },
-      "vehicle_count_raw": 519,
+      "vehicle_count_raw": 14,
       "ebay_item_id": "398081933575",
       "ebay_type": "Brake Hardware",
       "ebay_brand": "Carlson",
@@ -5407,7 +5427,7 @@
           "2006 Isuzu i-350",
           "2007\u20132008 Isuzu i-370"
         ],
-        "raw_compat_rows": 636,
+        "raw_compat_rows": 16,
         "source": "ebay_listing+carlson_specs",
         "confidence": "high",
         "ebay_item_id": "398081937101",
@@ -5415,7 +5435,7 @@
         "brand": "Carlson",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware"
       },
-      "vehicle_count_raw": 636,
+      "vehicle_count_raw": 16,
       "ebay_item_id": "398081937101",
       "ebay_type": "Repair Kit",
       "ebay_brand": "Carlson",
@@ -5559,7 +5579,7 @@
           "1993\u20131999 Saturn SW1",
           "1993\u20132001 Saturn SW2"
         ],
-        "raw_compat_rows": 77,
+        "raw_compat_rows": 18,
         "source": "ebay_listing+carlson_specs",
         "confidence": "high",
         "ebay_item_id": "398081742131",
@@ -5567,7 +5587,7 @@
         "brand": "Carlson",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware"
       },
-      "vehicle_count_raw": 77,
+      "vehicle_count_raw": 18,
       "ebay_item_id": "398081742131",
       "ebay_type": "Brake Hardware",
       "ebay_brand": "Carlson",
@@ -5783,7 +5803,7 @@
           "2000\u20132005 Pontiac Bonneville",
           "1994\u20131996 Pontiac Grand Prix"
         ],
-        "raw_compat_rows": 282,
+        "raw_compat_rows": 28,
         "source": "ebay_listing+carlson_specs",
         "confidence": "high",
         "ebay_item_id": "398081938006",
@@ -5791,7 +5811,7 @@
         "brand": "Carlson",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware"
       },
-      "vehicle_count_raw": 282,
+      "vehicle_count_raw": 28,
       "ebay_item_id": "398081938006",
       "ebay_type": "Caliper Guide Pin",
       "ebay_brand": "Carlson",
@@ -5983,7 +6003,7 @@
           "1997\u20132003 Pontiac Grand Prix",
           "2002\u20132004 Pontiac Montana"
         ],
-        "raw_compat_rows": 258,
+        "raw_compat_rows": 26,
         "source": "ebay_listing+carlson_specs",
         "confidence": "high",
         "ebay_item_id": "398081742288",
@@ -5991,7 +6011,7 @@
         "brand": "Carlson",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware"
       },
-      "vehicle_count_raw": 258,
+      "vehicle_count_raw": 26,
       "ebay_item_id": "398081742288",
       "ebay_type": "Disc Brake Hardware",
       "ebay_brand": "Carlson",
@@ -6087,7 +6107,7 @@
           "1997\u20131999 Oldsmobile Cutlass",
           "1999\u20132005 Pontiac Grand Am"
         ],
-        "raw_compat_rows": 182,
+        "raw_compat_rows": 10,
         "source": "ebay_listing+carlson_specs",
         "confidence": "high",
         "ebay_item_id": "398081742565",
@@ -6095,7 +6115,7 @@
         "brand": "Carlson",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware"
       },
-      "vehicle_count_raw": 182,
+      "vehicle_count_raw": 10,
       "ebay_item_id": "398081742565",
       "ebay_type": "Disc Brake Hardware",
       "ebay_brand": "Carlson",
@@ -6203,7 +6223,7 @@
           "1998\u20132000 Isuzu Hombre",
           "1997\u20132001 Oldsmobile Bravada"
         ],
-        "raw_compat_rows": 355,
+        "raw_compat_rows": 12,
         "source": "ebay_listing+carlson_specs",
         "confidence": "high",
         "ebay_item_id": "398081939912",
@@ -6211,7 +6231,7 @@
         "brand": "Carlson",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware"
       },
-      "vehicle_count_raw": 355,
+      "vehicle_count_raw": 12,
       "ebay_item_id": "398081939912",
       "ebay_type": "Hardware",
       "ebay_brand": "Carlson",
@@ -6319,7 +6339,7 @@
           "1998\u20132000 Isuzu Hombre",
           "1997\u20132001 Oldsmobile Bravada"
         ],
-        "raw_compat_rows": 324,
+        "raw_compat_rows": 12,
         "source": "ebay_listing+carlson_specs",
         "confidence": "high",
         "ebay_item_id": "398081940163",
@@ -6327,7 +6347,7 @@
         "brand": "Carlson",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware"
       },
-      "vehicle_count_raw": 324,
+      "vehicle_count_raw": 12,
       "ebay_item_id": "398081940163",
       "ebay_type": "Hardware",
       "ebay_brand": "Carlson",
@@ -6423,7 +6443,7 @@
           "2001\u20132007 Dodge Caravan",
           "2001\u20132007 Dodge Grand Caravan"
         ],
-        "raw_compat_rows": 190,
+        "raw_compat_rows": 10,
         "source": "ebay_listing+carlson_specs",
         "confidence": "high",
         "ebay_item_id": "398079910238",
@@ -6431,7 +6451,7 @@
         "brand": "Carlson",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware"
       },
-      "vehicle_count_raw": 190,
+      "vehicle_count_raw": 10,
       "ebay_item_id": "398079910238",
       "ebay_type": "Disc Brake Hardware Kit",
       "ebay_brand": "Carlson",
@@ -6587,7 +6607,7 @@
           "2002\u20132004 Oldsmobile Bravada",
           "2005 Saab 9-7x"
         ],
-        "raw_compat_rows": 104,
+        "raw_compat_rows": 19,
         "source": "ebay_listing+carlson_specs",
         "confidence": "high",
         "ebay_item_id": "398081940540",
@@ -6595,7 +6615,7 @@
         "brand": "Carlson",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware"
       },
-      "vehicle_count_raw": 104,
+      "vehicle_count_raw": 19,
       "ebay_item_id": "398081940540",
       "ebay_type": "Disc Brake Hardware",
       "ebay_brand": "Carlson",
@@ -6655,7 +6675,7 @@
           "2000\u20132002 Dodge Dakota",
           "2000\u20132002 Dodge Durango"
         ],
-        "raw_compat_rows": 130,
+        "raw_compat_rows": 4,
         "source": "ebay_listing+carlson_specs",
         "confidence": "high",
         "ebay_item_id": "398070091739",
@@ -6663,7 +6683,7 @@
         "brand": "Carlson",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware"
       },
-      "vehicle_count_raw": 130,
+      "vehicle_count_raw": 4,
       "ebay_item_id": "398070091739",
       "ebay_type": "Hardware",
       "ebay_brand": "Carlson",
@@ -6759,7 +6779,7 @@
           "2003\u20132020 GMC Savana 2500",
           "2003\u20132020 GMC Savana 3500"
         ],
-        "raw_compat_rows": 2203,
+        "raw_compat_rows": 10,
         "source": "ebay_listing+carlson_specs",
         "confidence": "high",
         "ebay_item_id": "398081742963",
@@ -6767,7 +6787,7 @@
         "brand": "Carlson",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware"
       },
-      "vehicle_count_raw": 2203,
+      "vehicle_count_raw": 10,
       "ebay_item_id": "398081742963",
       "ebay_type": "Disc Brake Hardware",
       "ebay_brand": "Carlson",
@@ -6873,7 +6893,7 @@
           "2007\u20132009 Saturn Aura",
           "2005\u20132007 Saturn Ion"
         ],
-        "raw_compat_rows": 266,
+        "raw_compat_rows": 14,
         "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398081941437",
@@ -6881,7 +6901,7 @@
         "brand": "Carlson",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware"
       },
-      "vehicle_count_raw": 266,
+      "vehicle_count_raw": 14,
       "ebay_item_id": "398081941437",
       "interchange": [],
       "vehicles": [
@@ -7090,7 +7110,7 @@
           "2012\u20132015 Ram C/V",
           "2009\u20132014 Volkswagen Routan"
         ],
-        "raw_compat_rows": 639,
+        "raw_compat_rows": 28,
         "source": "ebay_listing+carlson_specs",
         "confidence": "high",
         "ebay_item_id": "398081854616",
@@ -7098,7 +7118,7 @@
         "brand": "Carlson",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware"
       },
-      "vehicle_count_raw": 639,
+      "vehicle_count_raw": 28,
       "ebay_item_id": "398081854616",
       "vehicles": [
         "2004\u20132016 Chevrolet Tornado",
@@ -7247,7 +7267,7 @@
           "2019\u20132022 Ram 1500 Classic",
           "2011 Ram Dakota"
         ],
-        "raw_compat_rows": 1053,
+        "raw_compat_rows": 15,
         "source": "ebay_listing+carlson_specs",
         "confidence": "high",
         "ebay_item_id": "398080042479",
@@ -7255,7 +7275,7 @@
         "brand": "Carlson",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware"
       },
-      "vehicle_count_raw": 1053,
+      "vehicle_count_raw": 15,
       "ebay_item_id": "398080042479",
       "ebay_type": "Disc Brake Guide Pin Kit",
       "ebay_brand": "Carlson",
@@ -7333,7 +7353,7 @@
           "2000\u20132004 Ford F-350",
           "2000\u20132004 Ford F-350 Super Duty"
         ],
-        "raw_compat_rows": 222,
+        "raw_compat_rows": 8,
         "source": "ebay_listing+carlson_specs",
         "confidence": "high",
         "ebay_item_id": "398080322662",
@@ -7341,7 +7361,7 @@
         "brand": "Carlson",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware"
       },
-      "vehicle_count_raw": 222,
+      "vehicle_count_raw": 8,
       "ebay_item_id": "398080322662",
       "vehicles": [
         "2003\u20132004 Ford F-250",
@@ -7469,7 +7489,7 @@
           "1997 Ford F-250 HD",
           "1977\u20131997 Ford F-350"
         ],
-        "raw_compat_rows": 3000,
+        "raw_compat_rows": 14,
         "source": "ebay_listing+carlson_specs",
         "confidence": "high",
         "ebay_item_id": "398081941738",
@@ -7477,7 +7497,7 @@
         "brand": "Carlson",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware"
       },
-      "vehicle_count_raw": 3000,
+      "vehicle_count_raw": 14,
       "ebay_item_id": "398081941738",
       "vehicles": [
         "1978\u20132002 Ford E-250 Econoline",
@@ -7642,7 +7662,7 @@
           "1995\u20132006 Dodge Stratus",
           "1996\u20132000 Plymouth Breeze"
         ],
-        "raw_compat_rows": 469,
+        "raw_compat_rows": 22,
         "source": "ebay_listing+carlson_specs",
         "confidence": "high",
         "ebay_item_id": "398081743945",
@@ -7650,7 +7670,7 @@
         "brand": "Carlson",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware"
       },
-      "vehicle_count_raw": 469,
+      "vehicle_count_raw": 22,
       "ebay_item_id": "398081743945",
       "vehicles": [
         "2003\u20132004 Chrysler 300M",
@@ -7763,7 +7783,7 @@
           "1998\u20132002 Lincoln Navigator",
           "2007\u20132011 Lincoln Town Car"
         ],
-        "raw_compat_rows": 215,
+        "raw_compat_rows": 11,
         "source": "ebay_listing+carlson_specs",
         "confidence": "high",
         "ebay_item_id": "398081744136",
@@ -7771,7 +7791,7 @@
         "brand": "Carlson",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware"
       },
-      "vehicle_count_raw": 215,
+      "vehicle_count_raw": 11,
       "ebay_item_id": "398081744136",
       "vehicles": [
         "1997\u20132000 Ford F-250",
@@ -7912,7 +7932,7 @@
           "1997\u20132001 Oldsmobile Bravada",
           "2005 Pontiac Montana"
         ],
-        "raw_compat_rows": 369,
+        "raw_compat_rows": 17,
         "source": "ebay_listing+carlson_specs",
         "confidence": "high",
         "ebay_item_id": "398081745085",
@@ -7920,7 +7940,7 @@
         "brand": "Carlson",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware"
       },
-      "vehicle_count_raw": 369,
+      "vehicle_count_raw": 17,
       "ebay_item_id": "398081745085",
       "vehicles": [
         "2003\u20132007 Cadillac CTS",
@@ -7998,7 +8018,7 @@
           "2003\u20132006 Jeep TJ",
           "2003\u20132006 Jeep Wrangler"
         ],
-        "raw_compat_rows": 62,
+        "raw_compat_rows": 6,
         "source": "ebay_listing+carlson_specs",
         "confidence": "high",
         "ebay_item_id": "398081745345",
@@ -8006,7 +8026,7 @@
         "brand": "Carlson",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware"
       },
-      "vehicle_count_raw": 62,
+      "vehicle_count_raw": 6,
       "ebay_item_id": "398081745345",
       "vehicles": [
         "2003\u20132005 Jeep Liberty",
@@ -8133,7 +8153,7 @@
           "2007 GMC Sierra 3500 Classic",
           "2007\u20132009 GMC Sierra 3500 HD"
         ],
-        "raw_compat_rows": 1054,
+        "raw_compat_rows": 14,
         "source": "ebay_listing+carlson_specs",
         "confidence": "high",
         "ebay_item_id": "398081745474",
@@ -8141,7 +8161,7 @@
         "brand": "Carlson",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware"
       },
-      "vehicle_count_raw": 1054,
+      "vehicle_count_raw": 14,
       "ebay_item_id": "398081745474",
       "vehicles": [
         "2003\u20132007 Chevrolet Express 3500",
@@ -8240,7 +8260,7 @@
           "2000\u20132002 Chevrolet Suburban 1500",
           "2003\u20132004 GMC Sierra 1500"
         ],
-        "raw_compat_rows": 217,
+        "raw_compat_rows": 10,
         "source": "ebay_listing+carlson_specs",
         "confidence": "high",
         "ebay_item_id": "398070178226",
@@ -8248,7 +8268,7 @@
         "brand": "Carlson",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware"
       },
-      "vehicle_count_raw": 217,
+      "vehicle_count_raw": 10,
       "ebay_item_id": "398070178226",
       "vehicles": [
         "2006\u20132011 Cadillac DTS",
@@ -8718,7 +8738,7 @@
           "2002\u20132004 Mercedes-Benz SLK32 AMG",
           "2007\u20132010 Mercedes-Benz SLK55 AMG"
         ],
-        "raw_compat_rows": 219,
+        "raw_compat_rows": 65,
         "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398081262922",
@@ -8726,7 +8746,7 @@
         "brand": "Wagner",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pads"
       },
-      "vehicle_count_raw": 219,
+      "vehicle_count_raw": 65,
       "ebay_item_id": "398081262922",
       "interchange": [],
       "ebay_type": "Disc Brake Pad",
@@ -8757,7 +8777,7 @@
         "1976\u20131980 Mercury Monarch",
         "1978\u20131982 Mercury Zephyr"
       ],
-      "vehicle_count_raw": 708,
+      "vehicle_count_raw": 18,
       "ebay_item_id": "398268297128",
       "ebay_type": "Air Filter",
       "ebay_brand": "Mighty",
@@ -8872,7 +8892,7 @@
           "1976\u20131980 Mercury Monarch",
           "1978\u20131982 Mercury Zephyr"
         ],
-        "raw_compat_rows": 708,
+        "raw_compat_rows": 18,
         "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398268297128",
@@ -8911,7 +8931,7 @@
         "1984\u20131989 Nissan Stanza",
         "1993\u20131996 Nissan Tsuru"
       ],
-      "vehicle_count_raw": 251,
+      "vehicle_count_raw": 24,
       "ebay_item_id": "398274745663",
       "ebay_type": "Fuel Filter",
       "ebay_brand": "WIX",
@@ -9072,7 +9092,7 @@
           "1984\u20131989 Nissan Stanza",
           "1993\u20131996 Nissan Tsuru"
         ],
-        "raw_compat_rows": 251,
+        "raw_compat_rows": 24,
         "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398274745663",
@@ -9114,7 +9134,7 @@
         "1987\u20131990 Jeep Wrangler",
         "1964 Pontiac Tempest"
       ],
-      "vehicle_count_raw": 671,
+      "vehicle_count_raw": 30,
       "ebay_item_id": "398274754589",
       "ebay_type": "Fuel Filter",
       "ebay_brand": "WIX",
@@ -9308,7 +9328,7 @@
           "1987\u20131990 Jeep Wrangler",
           "1964 Pontiac Tempest"
         ],
-        "raw_compat_rows": 671,
+        "raw_compat_rows": 30,
         "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398274754589",
@@ -9326,28 +9346,637 @@
       "category": "filters",
       "checkout": true,
       "variation_id": "AVNQAEJZSCBALPMD4XOMNNQ2",
-      "part_numbers": [],
-      "interchange": [],
-      "vehicles": [],
-      "vehicle_count_raw": 0,
-      "ebay_item_id": "",
+      "part_numbers": [
+        "33063",
+        "Carquest 86063, Onan 1492513, F50033"
+      ],
+      "interchange": [
+        "NAPA 3063",
+        "BF806",
+        "FF236",
+        "P3500",
+        "25010487"
+      ],
+      "vehicles": [
+        "1978\u20131984 Buick Century",
+        "1978\u20131984 Buick Electra",
+        "1980\u20131983 Buick Estate Wagon",
+        "1978\u20131984 Buick LeSabre",
+        "1978\u20131984 Buick Regal",
+        "1979\u20131984 Buick Riviera",
+        "1985 Cadillac Commercial Chassis",
+        "1978\u20131984 Cadillac DeVille",
+        "1979\u20131984 Cadillac Eldorado",
+        "1978\u20131984 Cadillac Fleetwood",
+        "1978\u20131984 Cadillac Seville",
+        "1978\u20131981 Chevrolet C10",
+        "1980 Chevrolet C10 Suburban",
+        "1980 Chevrolet C20 Suburban",
+        "1978 Chevrolet C30",
+        "1978\u20131984 Chevrolet Caprice",
+        "1983\u20131984 Chevrolet Celebrity",
+        "1983\u20131984 Chevrolet El Camino",
+        "1978\u20131984 Chevrolet Impala",
+        "1979\u20131980 Chevrolet K10 Suburban",
+        "1980 Chevrolet K20 Suburban",
+        "1978\u20131983 Chevrolet Malibu",
+        "1978\u20131984 Chevrolet Monte Carlo",
+        "1978 GMC C15",
+        "1979\u20131981 GMC C1500",
+        "1979\u20131981 GMC C1500 Suburban",
+        "1978 GMC C25 Suburban",
+        "1979\u20131980 GMC C2500 Suburban",
+        "1983 GMC Caballero",
+        "1978 GMC K15 Suburban",
+        "1980\u20131981 GMC K1500 Suburban",
+        "1978 GMC K25 Suburban",
+        "1979\u20131981 GMC K2500 Suburban",
+        "1979\u20131984 Oldsmobile 98",
+        "1979\u20131984 Oldsmobile Custom Cruiser",
+        "1978\u20131981 Oldsmobile Cutlass",
+        "1980\u20131984 Oldsmobile Cutlass Calais",
+        "1982\u20131984 Oldsmobile Cutlass Ciera",
+        "1981\u20131983 Oldsmobile Cutlass Cruiser",
+        "1979\u20131980 Oldsmobile Cutlass Salon",
+        "1979\u20131983 Oldsmobile Cutlass Supreme",
+        "1978\u20131984 Oldsmobile Delta 88",
+        "1978\u20131984 Oldsmobile Toronado",
+        "1983 Pontiac 6000",
+        "1978\u20131984 Pontiac Bonneville",
+        "1980 Pontiac Catalina",
+        "1982 Pontiac Grand LeMans",
+        "1978\u20131984 Pontiac Grand Prix",
+        "1978\u20131984 Pontiac Parisienne"
+      ],
+      "vehicle_count_raw": 1945,
+      "ebay_item_id": "398274759400",
       "ebay_type": "Fuel Filter",
-      "ebay_brand": "",
-      "ebay_category": "",
-      "fitment_source": "title",
-      "fitment_confidence": "low",
+      "ebay_brand": "WIX",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Fuel Filters",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
       "fitment": {
-        "part_numbers": [],
-        "interchange": [],
-        "vehicles": [],
-        "vehicle_labels": [],
-        "raw_compat_rows": 0,
-        "source": "title",
-        "confidence": "low",
-        "ebay_item_id": "",
+        "part_numbers": [
+          "33063",
+          "Carquest 86063, Onan 1492513, F50033"
+        ],
+        "interchange": [
+          "NAPA 3063",
+          "BF806",
+          "FF236",
+          "P3500",
+          "25010487"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1978,
+            "year_to": 1984,
+            "make": "Buick",
+            "model": "Century",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1978,
+            "year_to": 1984,
+            "make": "Buick",
+            "model": "Electra",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1980,
+            "year_to": 1983,
+            "make": "Buick",
+            "model": "Estate Wagon",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1978,
+            "year_to": 1984,
+            "make": "Buick",
+            "model": "LeSabre",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1978,
+            "year_to": 1984,
+            "make": "Buick",
+            "model": "Regal",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1979,
+            "year_to": 1984,
+            "make": "Buick",
+            "model": "Riviera",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1985,
+            "make": "Cadillac",
+            "model": "Commercial Chassis",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1978,
+            "year_to": 1984,
+            "make": "Cadillac",
+            "model": "DeVille",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1979,
+            "year_to": 1984,
+            "make": "Cadillac",
+            "model": "Eldorado",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1978,
+            "year_to": 1984,
+            "make": "Cadillac",
+            "model": "Fleetwood",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1978,
+            "year_to": 1984,
+            "make": "Cadillac",
+            "model": "Seville",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1978,
+            "year_to": 1981,
+            "make": "Chevrolet",
+            "model": "C10",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1980,
+            "year_to": 1980,
+            "make": "Chevrolet",
+            "model": "C10 Suburban",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1980,
+            "year_to": 1980,
+            "make": "Chevrolet",
+            "model": "C20 Suburban",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1978,
+            "year_to": 1978,
+            "make": "Chevrolet",
+            "model": "C30",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1978,
+            "year_to": 1984,
+            "make": "Chevrolet",
+            "model": "Caprice",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1983,
+            "year_to": 1984,
+            "make": "Chevrolet",
+            "model": "Celebrity",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1983,
+            "year_to": 1984,
+            "make": "Chevrolet",
+            "model": "El Camino",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1978,
+            "year_to": 1984,
+            "make": "Chevrolet",
+            "model": "Impala",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1979,
+            "year_to": 1980,
+            "make": "Chevrolet",
+            "model": "K10 Suburban",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1980,
+            "year_to": 1980,
+            "make": "Chevrolet",
+            "model": "K20 Suburban",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1978,
+            "year_to": 1983,
+            "make": "Chevrolet",
+            "model": "Malibu",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1978,
+            "year_to": 1984,
+            "make": "Chevrolet",
+            "model": "Monte Carlo",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1978,
+            "year_to": 1978,
+            "make": "GMC",
+            "model": "C15",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1979,
+            "year_to": 1981,
+            "make": "GMC",
+            "model": "C1500",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1979,
+            "year_to": 1981,
+            "make": "GMC",
+            "model": "C1500 Suburban",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1978,
+            "year_to": 1978,
+            "make": "GMC",
+            "model": "C25 Suburban",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1979,
+            "year_to": 1980,
+            "make": "GMC",
+            "model": "C2500 Suburban",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1983,
+            "year_to": 1983,
+            "make": "GMC",
+            "model": "Caballero",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1978,
+            "year_to": 1978,
+            "make": "GMC",
+            "model": "K15 Suburban",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1980,
+            "year_to": 1981,
+            "make": "GMC",
+            "model": "K1500 Suburban",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1978,
+            "year_to": 1978,
+            "make": "GMC",
+            "model": "K25 Suburban",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1979,
+            "year_to": 1981,
+            "make": "GMC",
+            "model": "K2500 Suburban",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1979,
+            "year_to": 1984,
+            "make": "Oldsmobile",
+            "model": "98",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1979,
+            "year_to": 1984,
+            "make": "Oldsmobile",
+            "model": "Custom Cruiser",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1978,
+            "year_to": 1981,
+            "make": "Oldsmobile",
+            "model": "Cutlass",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1980,
+            "year_to": 1984,
+            "make": "Oldsmobile",
+            "model": "Cutlass Calais",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1982,
+            "year_to": 1984,
+            "make": "Oldsmobile",
+            "model": "Cutlass Ciera",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1981,
+            "year_to": 1983,
+            "make": "Oldsmobile",
+            "model": "Cutlass Cruiser",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1979,
+            "year_to": 1980,
+            "make": "Oldsmobile",
+            "model": "Cutlass Salon",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1979,
+            "year_to": 1983,
+            "make": "Oldsmobile",
+            "model": "Cutlass Supreme",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1978,
+            "year_to": 1984,
+            "make": "Oldsmobile",
+            "model": "Delta 88",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1978,
+            "year_to": 1984,
+            "make": "Oldsmobile",
+            "model": "Toronado",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1983,
+            "year_to": 1983,
+            "make": "Pontiac",
+            "model": "6000",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1978,
+            "year_to": 1984,
+            "make": "Pontiac",
+            "model": "Bonneville",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1980,
+            "year_to": 1980,
+            "make": "Pontiac",
+            "model": "Catalina",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1982,
+            "year_to": 1982,
+            "make": "Pontiac",
+            "model": "Grand LeMans",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1978,
+            "year_to": 1984,
+            "make": "Pontiac",
+            "model": "Grand Prix",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1978,
+            "year_to": 1984,
+            "make": "Pontiac",
+            "model": "Parisienne",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1978\u20131984 Buick Century",
+          "1978\u20131984 Buick Electra",
+          "1980\u20131983 Buick Estate Wagon",
+          "1978\u20131984 Buick LeSabre",
+          "1978\u20131984 Buick Regal",
+          "1979\u20131984 Buick Riviera",
+          "1985 Cadillac Commercial Chassis",
+          "1978\u20131984 Cadillac DeVille",
+          "1979\u20131984 Cadillac Eldorado",
+          "1978\u20131984 Cadillac Fleetwood",
+          "1978\u20131984 Cadillac Seville",
+          "1978\u20131981 Chevrolet C10",
+          "1980 Chevrolet C10 Suburban",
+          "1980 Chevrolet C20 Suburban",
+          "1978 Chevrolet C30",
+          "1978\u20131984 Chevrolet Caprice",
+          "1983\u20131984 Chevrolet Celebrity",
+          "1983\u20131984 Chevrolet El Camino",
+          "1978\u20131984 Chevrolet Impala",
+          "1979\u20131980 Chevrolet K10 Suburban",
+          "1980 Chevrolet K20 Suburban",
+          "1978\u20131983 Chevrolet Malibu",
+          "1978\u20131984 Chevrolet Monte Carlo",
+          "1978 GMC C15",
+          "1979\u20131981 GMC C1500",
+          "1979\u20131981 GMC C1500 Suburban",
+          "1978 GMC C25 Suburban",
+          "1979\u20131980 GMC C2500 Suburban",
+          "1983 GMC Caballero",
+          "1978 GMC K15 Suburban",
+          "1980\u20131981 GMC K1500 Suburban",
+          "1978 GMC K25 Suburban",
+          "1979\u20131981 GMC K2500 Suburban",
+          "1979\u20131984 Oldsmobile 98",
+          "1979\u20131984 Oldsmobile Custom Cruiser",
+          "1978\u20131981 Oldsmobile Cutlass",
+          "1980\u20131984 Oldsmobile Cutlass Calais",
+          "1982\u20131984 Oldsmobile Cutlass Ciera",
+          "1981\u20131983 Oldsmobile Cutlass Cruiser",
+          "1979\u20131980 Oldsmobile Cutlass Salon",
+          "1979\u20131983 Oldsmobile Cutlass Supreme",
+          "1978\u20131984 Oldsmobile Delta 88",
+          "1978\u20131984 Oldsmobile Toronado",
+          "1983 Pontiac 6000",
+          "1978\u20131984 Pontiac Bonneville",
+          "1980 Pontiac Catalina",
+          "1982 Pontiac Grand LeMans",
+          "1978\u20131984 Pontiac Grand Prix",
+          "1978\u20131984 Pontiac Parisienne"
+        ],
+        "raw_compat_rows": 1945,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398274759400",
         "type": "Fuel Filter",
-        "brand": "",
-        "ebay_category": ""
+        "brand": "WIX",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Fuel Filters"
       }
     },
     {
@@ -9385,7 +10014,7 @@
         "1976\u20131987 Plymouth Colt",
         "1978\u20131983 Plymouth Sapporo"
       ],
-      "vehicle_count_raw": 457,
+      "vehicle_count_raw": 36,
       "ebay_item_id": "398276630272",
       "ebay_type": "Fuel Filter",
       "ebay_brand": "WIX",
@@ -9601,7 +10230,7 @@
           "1976\u20131987 Plymouth Colt",
           "1978\u20131983 Plymouth Sapporo"
         ],
-        "raw_compat_rows": 457,
+        "raw_compat_rows": 36,
         "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398276630272",
@@ -9628,7 +10257,7 @@
       "vehicles": [
         "1997\u20131999 Mercury Tracer"
       ],
-      "vehicle_count_raw": 13,
+      "vehicle_count_raw": 2,
       "ebay_item_id": "398268338976",
       "ebay_type": "Fuel Filter",
       "ebay_brand": "WIX",
@@ -9657,7 +10286,7 @@
         "vehicle_labels": [
           "1997\u20131999 Mercury Tracer"
         ],
-        "raw_compat_rows": 13,
+        "raw_compat_rows": 2,
         "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398268338976",
@@ -9685,7 +10314,7 @@
         "1990\u20131991 Dodge Monaco",
         "1993\u20131996 Jeep Grand Cherokee"
       ],
-      "vehicle_count_raw": 29,
+      "vehicle_count_raw": 4,
       "ebay_item_id": "398268384349",
       "ebay_type": "Fuel Filter",
       "ebay_brand": "WIX",
@@ -9725,7 +10354,7 @@
           "1990\u20131991 Dodge Monaco",
           "1993\u20131996 Jeep Grand Cherokee"
         ],
-        "raw_compat_rows": 29,
+        "raw_compat_rows": 4,
         "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398268384349",
@@ -9749,14 +10378,16 @@
       "interchange": [
         "NAPA 3318"
       ],
-      "vehicles": [],
-      "vehicle_count_raw": 0,
+      "vehicles": [
+        "1990\u20131997 Dodge Full"
+      ],
+      "vehicle_count_raw": 1,
       "ebay_item_id": "398268346162",
       "ebay_type": "Fuel Filter",
       "ebay_brand": "WIX",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Fuel Filters",
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "high",
+      "fitment_source": "ebay_listing+title",
+      "fitment_confidence": "medium",
       "fitment": {
         "part_numbers": [
           "33318"
@@ -9764,11 +10395,24 @@
         "interchange": [
           "NAPA 3318"
         ],
-        "vehicles": [],
-        "vehicle_labels": [],
-        "raw_compat_rows": 0,
-        "source": "ebay_listing",
-        "confidence": "high",
+        "vehicles": [
+          {
+            "year_from": 1990,
+            "year_to": 1997,
+            "make": "Dodge",
+            "model": "Full",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1990\u20131997 Dodge Full"
+        ],
+        "raw_compat_rows": 1,
+        "source": "ebay_listing+title",
+        "confidence": "medium",
         "ebay_item_id": "398268346162",
         "type": "Fuel Filter",
         "brand": "WIX",
@@ -9790,14 +10434,16 @@
       "interchange": [
         "NAPA 3321"
       ],
-      "vehicles": [],
-      "vehicle_count_raw": 0,
+      "vehicles": [
+        "1988\u20131993 Dodge"
+      ],
+      "vehicle_count_raw": 1,
       "ebay_item_id": "398268392269",
       "ebay_type": "Fuel Filter",
       "ebay_brand": "WIX",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Fuel Filters",
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "high",
+      "fitment_source": "ebay_listing+title",
+      "fitment_confidence": "medium",
       "fitment": {
         "part_numbers": [
           "33321"
@@ -9805,11 +10451,24 @@
         "interchange": [
           "NAPA 3321"
         ],
-        "vehicles": [],
-        "vehicle_labels": [],
-        "raw_compat_rows": 0,
-        "source": "ebay_listing",
-        "confidence": "high",
+        "vehicles": [
+          {
+            "year_from": 1988,
+            "year_to": 1993,
+            "make": "Dodge",
+            "model": "",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1988\u20131993 Dodge"
+        ],
+        "raw_compat_rows": 1,
+        "source": "ebay_listing+title",
+        "confidence": "medium",
         "ebay_item_id": "398268392269",
         "type": "Fuel Filter",
         "brand": "WIX",
@@ -9845,7 +10504,7 @@
         "1987\u20131989 Plymouth Reliant",
         "1987\u20131994 Plymouth Sundance"
       ],
-      "vehicle_count_raw": 504,
+      "vehicle_count_raw": 24,
       "ebay_item_id": "398268361954",
       "ebay_type": "Fuel Filter",
       "ebay_brand": "WIX",
@@ -9995,7 +10654,7 @@
           "1987\u20131989 Plymouth Reliant",
           "1987\u20131994 Plymouth Sundance"
         ],
-        "raw_compat_rows": 504,
+        "raw_compat_rows": 24,
         "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398268361954",
@@ -10019,14 +10678,16 @@
       "interchange": [
         "NAPA 3324"
       ],
-      "vehicles": [],
-      "vehicle_count_raw": 0,
+      "vehicles": [
+        "1988\u20131995 Chrysler"
+      ],
+      "vehicle_count_raw": 1,
       "ebay_item_id": "398268368228",
       "ebay_type": "Fuel Filter",
       "ebay_brand": "WIX",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Fuel Filters",
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "high",
+      "fitment_source": "ebay_listing+title",
+      "fitment_confidence": "medium",
       "fitment": {
         "part_numbers": [
           "33324"
@@ -10034,11 +10695,24 @@
         "interchange": [
           "NAPA 3324"
         ],
-        "vehicles": [],
-        "vehicle_labels": [],
-        "raw_compat_rows": 0,
-        "source": "ebay_listing",
-        "confidence": "high",
+        "vehicles": [
+          {
+            "year_from": 1988,
+            "year_to": 1995,
+            "make": "Chrysler",
+            "model": "",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1988\u20131995 Chrysler"
+        ],
+        "raw_compat_rows": 1,
+        "source": "ebay_listing+title",
+        "confidence": "medium",
         "ebay_item_id": "398268368228",
         "type": "Fuel Filter",
         "brand": "WIX",
@@ -10060,14 +10734,16 @@
       "interchange": [
         "NAPA 3330"
       ],
-      "vehicles": [],
-      "vehicle_count_raw": 0,
+      "vehicles": [
+        "1988\u20131991 Honda Civic"
+      ],
+      "vehicle_count_raw": 1,
       "ebay_item_id": "398268370067",
       "ebay_type": "Fuel Filter",
       "ebay_brand": "WIX",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Fuel Filters",
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "high",
+      "fitment_source": "ebay_listing+title",
+      "fitment_confidence": "medium",
       "fitment": {
         "part_numbers": [
           "33330"
@@ -10075,11 +10751,24 @@
         "interchange": [
           "NAPA 3330"
         ],
-        "vehicles": [],
-        "vehicle_labels": [],
-        "raw_compat_rows": 0,
-        "source": "ebay_listing",
-        "confidence": "high",
+        "vehicles": [
+          {
+            "year_from": 1988,
+            "year_to": 1991,
+            "make": "Honda",
+            "model": "Civic",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1988\u20131991 Honda Civic"
+        ],
+        "raw_compat_rows": 1,
+        "source": "ebay_listing+title",
+        "confidence": "medium",
         "ebay_item_id": "398268370067",
         "type": "Fuel Filter",
         "brand": "WIX",
@@ -10104,7 +10793,7 @@
       "vehicles": [
         "1988\u20131989 Honda Accord"
       ],
-      "vehicle_count_raw": 20,
+      "vehicle_count_raw": 2,
       "ebay_item_id": "398268410994",
       "ebay_type": "Fuel Filter",
       "ebay_brand": "WIX",
@@ -10133,7 +10822,7 @@
         "vehicle_labels": [
           "1988\u20131989 Honda Accord"
         ],
-        "raw_compat_rows": 20,
+        "raw_compat_rows": 2,
         "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398268410994",
@@ -10151,28 +10840,85 @@
       "category": "filters",
       "checkout": true,
       "variation_id": "CHP3SFZN4IVXK2U3RIOKU5MC",
-      "part_numbers": [],
-      "interchange": [],
-      "vehicles": [],
-      "vehicle_count_raw": 0,
-      "ebay_item_id": "",
+      "part_numbers": [
+        "33463",
+        "Carquest 86463, Baldwin BF965, Luberfiner G477"
+      ],
+      "interchange": [
+        "NAPA 3463",
+        "G3895",
+        "F53190",
+        "GF529",
+        "4279987"
+      ],
+      "vehicles": [
+        "1985\u20131987 Chrysler",
+        "1985\u20131987 Dodge",
+        "1985\u20131987 Plymouth"
+      ],
+      "vehicle_count_raw": 3,
+      "ebay_item_id": "398268415074",
       "ebay_type": "Fuel Filter",
-      "ebay_brand": "",
-      "ebay_category": "",
-      "fitment_source": "title",
-      "fitment_confidence": "low",
+      "ebay_brand": "WIX",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Fuel Filters",
+      "fitment_source": "ebay_listing+title",
+      "fitment_confidence": "medium",
       "fitment": {
-        "part_numbers": [],
-        "interchange": [],
-        "vehicles": [],
-        "vehicle_labels": [],
-        "raw_compat_rows": 0,
-        "source": "title",
-        "confidence": "low",
-        "ebay_item_id": "",
+        "part_numbers": [
+          "33463",
+          "Carquest 86463, Baldwin BF965, Luberfiner G477"
+        ],
+        "interchange": [
+          "NAPA 3463",
+          "G3895",
+          "F53190",
+          "GF529",
+          "4279987"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1985,
+            "year_to": 1987,
+            "make": "Chrysler",
+            "model": "",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1987,
+            "make": "Dodge",
+            "model": "",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1987,
+            "make": "Plymouth",
+            "model": "",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1985\u20131987 Chrysler",
+          "1985\u20131987 Dodge",
+          "1985\u20131987 Plymouth"
+        ],
+        "raw_compat_rows": 3,
+        "source": "ebay_listing+title",
+        "confidence": "medium",
+        "ebay_item_id": "398268415074",
         "type": "Fuel Filter",
-        "brand": "",
-        "ebay_category": ""
+        "brand": "WIX",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Fuel Filters"
       }
     },
     {
@@ -10198,7 +10944,7 @@
         "1983\u20131987 Subaru Standard",
         "1985\u20131991 Subaru XT"
       ],
-      "vehicle_count_raw": 136,
+      "vehicle_count_raw": 12,
       "ebay_item_id": "398274767951",
       "ebay_type": "Fuel Filter",
       "ebay_brand": "WIX",
@@ -10282,7 +11028,7 @@
           "1983\u20131987 Subaru Standard",
           "1985\u20131991 Subaru XT"
         ],
-        "raw_compat_rows": 136,
+        "raw_compat_rows": 12,
         "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398274767951",
@@ -10310,7 +11056,7 @@
         "1986\u20131989 Honda Accord",
         "1986\u20131990 Honda Prelude"
       ],
-      "vehicle_count_raw": 48,
+      "vehicle_count_raw": 4,
       "ebay_item_id": "398274988680",
       "ebay_type": "Fuel Filter",
       "ebay_brand": "WIX",
@@ -10350,7 +11096,7 @@
           "1986\u20131989 Honda Accord",
           "1986\u20131990 Honda Prelude"
         ],
-        "raw_compat_rows": 48,
+        "raw_compat_rows": 4,
         "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398274988680",
@@ -10374,14 +11120,16 @@
       "interchange": [
         "NAPA 3483"
       ],
-      "vehicles": [],
-      "vehicle_count_raw": 0,
+      "vehicles": [
+        "1983\u20131991 GM"
+      ],
+      "vehicle_count_raw": 1,
       "ebay_item_id": "398268418285",
       "ebay_type": "Fuel Filter",
       "ebay_brand": "WIX",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Fuel Filters",
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "high",
+      "fitment_source": "ebay_listing+title",
+      "fitment_confidence": "medium",
       "fitment": {
         "part_numbers": [
           "33483"
@@ -10389,11 +11137,24 @@
         "interchange": [
           "NAPA 3483"
         ],
-        "vehicles": [],
-        "vehicle_labels": [],
-        "raw_compat_rows": 0,
-        "source": "ebay_listing",
-        "confidence": "high",
+        "vehicles": [
+          {
+            "year_from": 1983,
+            "year_to": 1991,
+            "make": "GM",
+            "model": "",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1983\u20131991 GM"
+        ],
+        "raw_compat_rows": 1,
+        "source": "ebay_listing+title",
+        "confidence": "medium",
         "ebay_item_id": "398268418285",
         "type": "Fuel Filter",
         "brand": "WIX",
@@ -10421,7 +11182,7 @@
         "1986\u20131990 Jeep Wagoneer",
         "1987\u20131995 Jeep Wrangler"
       ],
-      "vehicle_count_raw": 267,
+      "vehicle_count_raw": 8,
       "ebay_item_id": "398274776793",
       "ebay_type": "Fuel Filter",
       "ebay_brand": "WIX",
@@ -10483,7 +11244,7 @@
           "1986\u20131990 Jeep Wagoneer",
           "1987\u20131995 Jeep Wrangler"
         ],
-        "raw_compat_rows": 267,
+        "raw_compat_rows": 8,
         "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398274776793",
@@ -10512,7 +11273,7 @@
         "1990\u20131991 Chevrolet Corsica",
         "1990\u20131991 Pontiac Tempest"
       ],
-      "vehicle_count_raw": 32,
+      "vehicle_count_raw": 6,
       "ebay_item_id": "398274778959",
       "ebay_type": "Fuel Filter",
       "ebay_brand": "WIX",
@@ -10563,7 +11324,7 @@
           "1990\u20131991 Chevrolet Corsica",
           "1990\u20131991 Pontiac Tempest"
         ],
-        "raw_compat_rows": 32,
+        "raw_compat_rows": 6,
         "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398274778959",
@@ -10607,7 +11368,7 @@
         "1994\u20131998 Toyota T100",
         "1984\u20131989 Toyota Van"
       ],
-      "vehicle_count_raw": 379,
+      "vehicle_count_raw": 35,
       "ebay_item_id": "398274783225",
       "ebay_type": "Fuel Filter",
       "ebay_brand": "WIX",
@@ -10823,7 +11584,7 @@
           "1994\u20131998 Toyota T100",
           "1984\u20131989 Toyota Van"
         ],
-        "raw_compat_rows": 379,
+        "raw_compat_rows": 35,
         "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398274783225",
@@ -10858,7 +11619,7 @@
         "1987 Toyota Corolla",
         "2000\u20132003 Toyota Solara"
       ],
-      "vehicle_count_raw": 141,
+      "vehicle_count_raw": 14,
       "ebay_item_id": "398274784390",
       "ebay_type": "Fuel Filter",
       "ebay_brand": "WIX",
@@ -10975,7 +11736,7 @@
           "1987 Toyota Corolla",
           "2000\u20132003 Toyota Solara"
         ],
-        "raw_compat_rows": 141,
+        "raw_compat_rows": 14,
         "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398274784390",
@@ -10999,14 +11760,17 @@
       "interchange": [
         "NAPA 2103"
       ],
-      "vehicles": [],
-      "vehicle_count_raw": 0,
+      "vehicles": [
+        "1979\u20131987 Chevrolet",
+        "1979\u20131987 GM"
+      ],
+      "vehicle_count_raw": 2,
       "ebay_item_id": "398268424328",
       "ebay_type": "Air Filter",
       "ebay_brand": "WIX",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Filters",
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "high",
+      "fitment_source": "ebay_listing+title",
+      "fitment_confidence": "medium",
       "fitment": {
         "part_numbers": [
           "42103"
@@ -11014,11 +11778,35 @@
         "interchange": [
           "NAPA 2103"
         ],
-        "vehicles": [],
-        "vehicle_labels": [],
-        "raw_compat_rows": 0,
-        "source": "ebay_listing",
-        "confidence": "high",
+        "vehicles": [
+          {
+            "year_from": 1979,
+            "year_to": 1987,
+            "make": "Chevrolet",
+            "model": "",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1979,
+            "year_to": 1987,
+            "make": "GM",
+            "model": "",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1979\u20131987 Chevrolet",
+          "1979\u20131987 GM"
+        ],
+        "raw_compat_rows": 2,
+        "source": "ebay_listing+title",
+        "confidence": "medium",
         "ebay_item_id": "398268424328",
         "type": "Air Filter",
         "brand": "WIX",
@@ -11052,7 +11840,7 @@
         "2000\u20132003 BMW Z8",
         "1998\u20132005 Volkswagen Passat"
       ],
-      "vehicle_count_raw": 253,
+      "vehicle_count_raw": 20,
       "ebay_item_id": "398268428938",
       "ebay_type": "Air Filter",
       "ebay_brand": "WIX",
@@ -11180,7 +11968,7 @@
           "2000\u20132003 BMW Z8",
           "1998\u20132005 Volkswagen Passat"
         ],
-        "raw_compat_rows": 253,
+        "raw_compat_rows": 20,
         "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398268428938",
@@ -11204,14 +11992,16 @@
       "interchange": [
         "NAPA 2333"
       ],
-      "vehicles": [],
-      "vehicle_count_raw": 0,
+      "vehicles": [
+        "1988\u20131997 Toyota"
+      ],
+      "vehicle_count_raw": 1,
       "ebay_item_id": "398268432983",
       "ebay_type": "Air Filter",
       "ebay_brand": "WIX",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Filters",
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "high",
+      "fitment_source": "ebay_listing+title",
+      "fitment_confidence": "medium",
       "fitment": {
         "part_numbers": [
           "42333"
@@ -11219,11 +12009,24 @@
         "interchange": [
           "NAPA 2333"
         ],
-        "vehicles": [],
-        "vehicle_labels": [],
-        "raw_compat_rows": 0,
-        "source": "ebay_listing",
-        "confidence": "high",
+        "vehicles": [
+          {
+            "year_from": 1988,
+            "year_to": 1997,
+            "make": "Toyota",
+            "model": "",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1988\u20131997 Toyota"
+        ],
+        "raw_compat_rows": 1,
+        "source": "ebay_listing+title",
+        "confidence": "medium",
         "ebay_item_id": "398268432983",
         "type": "Air Filter",
         "brand": "WIX",
@@ -11269,11 +12072,11 @@
         "1978\u20131980 Mercury Monarch",
         "1978\u20131983 Mercury Zephyr"
       ],
-      "vehicle_count_raw": 2782,
+      "vehicle_count_raw": 43,
       "ebay_item_id": "398274796135",
       "ebay_type": "Crankcase Breather Element",
       "ebay_brand": "WIX",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Other Car & Truck Parts & Accessories",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Filters",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -11529,13 +12332,13 @@
           "1978\u20131980 Mercury Monarch",
           "1978\u20131983 Mercury Zephyr"
         ],
-        "raw_compat_rows": 2782,
+        "raw_compat_rows": 43,
         "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398274796135",
         "type": "Crankcase Breather Element",
         "brand": "WIX",
-        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Other Car & Truck Parts & Accessories"
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Filters"
       }
     },
     {
@@ -11573,11 +12376,11 @@
         "1977\u20131982 Pontiac Bonneville",
         "1977\u20131981 Pontiac Catalina"
       ],
-      "vehicle_count_raw": 2179,
+      "vehicle_count_raw": 36,
       "ebay_item_id": "398274996675",
       "ebay_type": "Crankcase Air Filter Breather",
       "ebay_brand": "WIX",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Filters",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Filters",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -11789,13 +12592,13 @@
           "1977\u20131982 Pontiac Bonneville",
           "1977\u20131981 Pontiac Catalina"
         ],
-        "raw_compat_rows": 2179,
+        "raw_compat_rows": 36,
         "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398274996675",
         "type": "Crankcase Air Filter Breather",
         "brand": "WIX",
-        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Filters"
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Filters"
       }
     },
     {
@@ -11820,7 +12623,7 @@
       "vehicles": [
         "1988\u20131989 Ford Festiva"
       ],
-      "vehicle_count_raw": 4,
+      "vehicle_count_raw": 2,
       "ebay_item_id": "398268468305",
       "ebay_type": "Air Filter",
       "ebay_brand": "WIX",
@@ -11853,7 +12656,7 @@
         "vehicle_labels": [
           "1988\u20131989 Ford Festiva"
         ],
-        "raw_compat_rows": 4,
+        "raw_compat_rows": 2,
         "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398268468305",
@@ -11877,14 +12680,16 @@
       "interchange": [
         "NAPA 6027"
       ],
-      "vehicles": [],
-      "vehicle_count_raw": 0,
+      "vehicles": [
+        "1990\u20132004 Nissan"
+      ],
+      "vehicle_count_raw": 1,
       "ebay_item_id": "398268474206",
       "ebay_type": "Air Filter",
       "ebay_brand": "WIX",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Filters",
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "high",
+      "fitment_source": "ebay_listing+title",
+      "fitment_confidence": "medium",
       "fitment": {
         "part_numbers": [
           "46027"
@@ -11892,11 +12697,24 @@
         "interchange": [
           "NAPA 6027"
         ],
-        "vehicles": [],
-        "vehicle_labels": [],
-        "raw_compat_rows": 0,
-        "source": "ebay_listing",
-        "confidence": "high",
+        "vehicles": [
+          {
+            "year_from": 1990,
+            "year_to": 2004,
+            "make": "Nissan",
+            "model": "",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1990\u20132004 Nissan"
+        ],
+        "raw_compat_rows": 1,
+        "source": "ebay_listing+title",
+        "confidence": "medium",
         "ebay_item_id": "398268474206",
         "type": "Air Filter",
         "brand": "WIX",
@@ -11925,7 +12743,7 @@
         "1989\u20131990 Nissan Pulsar NX",
         "1989\u20131990 Nissan Sentra"
       ],
-      "vehicle_count_raw": 19,
+      "vehicle_count_raw": 4,
       "ebay_item_id": "398268480977",
       "ebay_type": "Air Filter",
       "ebay_brand": "WIX",
@@ -11968,7 +12786,7 @@
           "1989\u20131990 Nissan Pulsar NX",
           "1989\u20131990 Nissan Sentra"
         ],
-        "raw_compat_rows": 19,
+        "raw_compat_rows": 4,
         "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398268480977",
@@ -11997,7 +12815,7 @@
       "vehicles": [
         "1975 Chevrolet LUV"
       ],
-      "vehicle_count_raw": 2,
+      "vehicle_count_raw": 1,
       "ebay_item_id": "398268503856",
       "ebay_type": "Oil Filter",
       "ebay_brand": "WIX",
@@ -12028,7 +12846,7 @@
         "vehicle_labels": [
           "1975 Chevrolet LUV"
         ],
-        "raw_compat_rows": 2,
+        "raw_compat_rows": 1,
         "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398268503856",
@@ -12059,7 +12877,7 @@
         "1979\u20131985 Oldsmobile Cutlass Supreme",
         "1978\u20131979 Pontiac Firebird"
       ],
-      "vehicle_count_raw": 499,
+      "vehicle_count_raw": 10,
       "ebay_item_id": "398268942155",
       "ebay_type": "Oil Filter",
       "ebay_brand": "WIX",
@@ -12132,7 +12950,7 @@
           "1979\u20131985 Oldsmobile Cutlass Supreme",
           "1978\u20131979 Pontiac Firebird"
         ],
-        "raw_compat_rows": 499,
+        "raw_compat_rows": 10,
         "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398268942155",
@@ -12156,14 +12974,16 @@
       "interchange": [
         "NAPA 1049"
       ],
-      "vehicles": [],
-      "vehicle_count_raw": 0,
+      "vehicles": [
+        "1959\u20131967 GM"
+      ],
+      "vehicle_count_raw": 1,
       "ebay_item_id": "398268509010",
       "ebay_type": "Oil Filter",
       "ebay_brand": "WIX",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Filters",
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "high",
+      "fitment_source": "ebay_listing+title",
+      "fitment_confidence": "medium",
       "fitment": {
         "part_numbers": [
           "51049"
@@ -12171,11 +12991,24 @@
         "interchange": [
           "NAPA 1049"
         ],
-        "vehicles": [],
-        "vehicle_labels": [],
-        "raw_compat_rows": 0,
-        "source": "ebay_listing",
-        "confidence": "high",
+        "vehicles": [
+          {
+            "year_from": 1959,
+            "year_to": 1967,
+            "make": "GM",
+            "model": "",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1959\u20131967 GM"
+        ],
+        "raw_compat_rows": 1,
+        "source": "ebay_listing+title",
+        "confidence": "medium",
         "ebay_item_id": "398268509010",
         "type": "Oil Filter",
         "brand": "WIX",
@@ -12207,7 +13040,7 @@
         "1988\u20131991 Mercedes-Benz 300SEL",
         "1988\u20131993 Mercedes-Benz 300TE"
       ],
-      "vehicle_count_raw": 68,
+      "vehicle_count_raw": 16,
       "ebay_item_id": "398268518630",
       "ebay_type": "Oil Filter",
       "ebay_brand": "WIX",
@@ -12313,7 +13146,7 @@
           "1988\u20131991 Mercedes-Benz 300SEL",
           "1988\u20131993 Mercedes-Benz 300TE"
         ],
-        "raw_compat_rows": 68,
+        "raw_compat_rows": 16,
         "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398268518630",
@@ -12355,7 +13188,7 @@
         "1959\u20131966 Chevrolet Suburban",
         "1967 Pontiac Parisienne"
       ],
-      "vehicle_count_raw": 921,
+      "vehicle_count_raw": 22,
       "ebay_item_id": "398268529236",
       "ebay_type": "Oil Filter",
       "ebay_brand": "WIX",
@@ -12509,7 +13342,7 @@
           "1959\u20131966 Chevrolet Suburban",
           "1967 Pontiac Parisienne"
         ],
-        "raw_compat_rows": 921,
+        "raw_compat_rows": 22,
         "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398268529236",
@@ -12542,7 +13375,7 @@
         "1967\u20131980 Pontiac Bonneville",
         "1967\u20131973 Pontiac GTO"
       ],
-      "vehicle_count_raw": 1114,
+      "vehicle_count_raw": 18,
       "ebay_item_id": "398268558385",
       "ebay_type": "Oil Filter",
       "ebay_brand": "WIX",
@@ -12657,7 +13490,7 @@
           "1967\u20131980 Pontiac Bonneville",
           "1967\u20131973 Pontiac GTO"
         ],
-        "raw_compat_rows": 1114,
+        "raw_compat_rows": 18,
         "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398268558385",
@@ -12683,14 +13516,19 @@
         "NAPA 1311",
         "B1434"
       ],
-      "vehicles": [],
-      "vehicle_count_raw": 0,
+      "vehicles": [
+        "1992\u20131999 Kubota",
+        "1992\u20131999 Mahindra",
+        "1992\u20131999 New Holland",
+        "1992\u20131999 Volvo"
+      ],
+      "vehicle_count_raw": 4,
       "ebay_item_id": "398268567048",
       "ebay_type": "Oil Filter",
       "ebay_brand": "WIX",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Filters",
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "high",
+      "fitment_source": "ebay_listing+title",
+      "fitment_confidence": "medium",
       "fitment": {
         "part_numbers": [
           "51311",
@@ -12700,11 +13538,57 @@
           "NAPA 1311",
           "B1434"
         ],
-        "vehicles": [],
-        "vehicle_labels": [],
-        "raw_compat_rows": 0,
-        "source": "ebay_listing",
-        "confidence": "high",
+        "vehicles": [
+          {
+            "year_from": 1992,
+            "year_to": 1999,
+            "make": "Kubota",
+            "model": "",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1992,
+            "year_to": 1999,
+            "make": "Mahindra",
+            "model": "",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1992,
+            "year_to": 1999,
+            "make": "New Holland",
+            "model": "",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1992,
+            "year_to": 1999,
+            "make": "Volvo",
+            "model": "",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1992\u20131999 Kubota",
+          "1992\u20131999 Mahindra",
+          "1992\u20131999 New Holland",
+          "1992\u20131999 Volvo"
+        ],
+        "raw_compat_rows": 4,
+        "source": "ebay_listing+title",
+        "confidence": "medium",
         "ebay_item_id": "398268567048",
         "type": "Oil Filter",
         "brand": "WIX",
@@ -12809,7 +13693,7 @@
         "1992\u20131997 Subaru SVX",
         "2008\u20132013 Subaru Tribeca"
       ],
-      "vehicle_count_raw": 2389,
+      "vehicle_count_raw": 149,
       "ebay_item_id": "398268578156",
       "ebay_type": "Oil Filter",
       "ebay_brand": "WIX",
@@ -13698,7 +14582,7 @@
           "1992\u20131997 Subaru SVX",
           "2008\u20132013 Subaru Tribeca"
         ],
-        "raw_compat_rows": 2389,
+        "raw_compat_rows": 149,
         "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398268578156",
@@ -13738,7 +14622,7 @@
         "1976\u20131979 Renault R5",
         "1963\u20131970 Renault R8"
       ],
-      "vehicle_count_raw": 265,
+      "vehicle_count_raw": 22,
       "ebay_item_id": "398268598628",
       "ebay_type": "Oil Filter",
       "ebay_brand": "WIX",
@@ -13890,7 +14774,7 @@
           "1976\u20131979 Renault R5",
           "1963\u20131970 Renault R8"
         ],
-        "raw_compat_rows": 265,
+        "raw_compat_rows": 22,
         "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398268598628",
@@ -13918,7 +14802,7 @@
         "1993\u20131996 Volkswagen Golf",
         "1993\u20131996 Volkswagen Jetta"
       ],
-      "vehicle_count_raw": 83,
+      "vehicle_count_raw": 4,
       "ebay_item_id": "398268616035",
       "ebay_type": "Oil Filter",
       "ebay_brand": "WIX",
@@ -13958,7 +14842,7 @@
           "1993\u20131996 Volkswagen Golf",
           "1993\u20131996 Volkswagen Jetta"
         ],
-        "raw_compat_rows": 83,
+        "raw_compat_rows": 4,
         "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398268616035",
@@ -13994,7 +14878,7 @@
         "1970 Mazda R100",
         "1975\u20131979 Mercury Bobcat"
       ],
-      "vehicle_count_raw": 117,
+      "vehicle_count_raw": 10,
       "ebay_item_id": "398268622596",
       "ebay_type": "Oil Filter",
       "ebay_brand": "WIX",
@@ -14082,7 +14966,7 @@
           "1970 Mazda R100",
           "1975\u20131979 Mercury Bobcat"
         ],
-        "raw_compat_rows": 117,
+        "raw_compat_rows": 10,
         "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398268622596",
@@ -14112,7 +14996,7 @@
         "1993\u20131997 Ford Probe",
         "1999\u20132000 Mercury Villager"
       ],
-      "vehicle_count_raw": 21,
+      "vehicle_count_raw": 4,
       "ebay_item_id": "398268640421",
       "ebay_type": "Oil Filter",
       "ebay_brand": "WIX",
@@ -14154,7 +15038,7 @@
           "1993\u20131997 Ford Probe",
           "1999\u20132000 Mercury Villager"
         ],
-        "raw_compat_rows": 21,
+        "raw_compat_rows": 4,
         "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398268640421",
@@ -14208,7 +15092,7 @@
         "1988\u20131989 Subaru RX",
         "1988\u20131991 Subaru XT"
       ],
-      "vehicle_count_raw": 498,
+      "vehicle_count_raw": 49,
       "ebay_item_id": "398268657049",
       "ebay_type": "Oil Filter",
       "ebay_brand": "WIX",
@@ -14504,7 +15388,7 @@
           "1988\u20131989 Subaru RX",
           "1988\u20131991 Subaru XT"
         ],
-        "raw_compat_rows": 498,
+        "raw_compat_rows": 49,
         "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398268657049",
@@ -14522,28 +15406,91 @@
       "category": "filters",
       "checkout": true,
       "variation_id": "JBBDNBD7NTXMZ5B2HDFCAERV",
-      "part_numbers": [],
-      "interchange": [],
-      "vehicles": [],
-      "vehicle_count_raw": 0,
-      "ebay_item_id": "",
+      "part_numbers": [
+        "51372",
+        "P550965, LF16002, PH10575, PH26, L22500"
+      ],
+      "interchange": [
+        "NAPA 1372",
+        "B329"
+      ],
+      "vehicles": [
+        "1991\u20132017 Ford",
+        "1991\u20132017 Lincoln",
+        "1991\u20132017 Mazda",
+        "1991\u20132017 Mercury"
+      ],
+      "vehicle_count_raw": 4,
+      "ebay_item_id": "398268695029",
       "ebay_type": "Oil Filter",
-      "ebay_brand": "",
-      "ebay_category": "",
-      "fitment_source": "title",
-      "fitment_confidence": "low",
+      "ebay_brand": "WIX",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Filters",
+      "fitment_source": "ebay_listing+title",
+      "fitment_confidence": "medium",
       "fitment": {
-        "part_numbers": [],
-        "interchange": [],
-        "vehicles": [],
-        "vehicle_labels": [],
-        "raw_compat_rows": 0,
-        "source": "title",
-        "confidence": "low",
-        "ebay_item_id": "",
+        "part_numbers": [
+          "51372",
+          "P550965, LF16002, PH10575, PH26, L22500"
+        ],
+        "interchange": [
+          "NAPA 1372",
+          "B329"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1991,
+            "year_to": 2017,
+            "make": "Ford",
+            "model": "",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1991,
+            "year_to": 2017,
+            "make": "Lincoln",
+            "model": "",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1991,
+            "year_to": 2017,
+            "make": "Mazda",
+            "model": "",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1991,
+            "year_to": 2017,
+            "make": "Mercury",
+            "model": "",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1991\u20132017 Ford",
+          "1991\u20132017 Lincoln",
+          "1991\u20132017 Mazda",
+          "1991\u20132017 Mercury"
+        ],
+        "raw_compat_rows": 4,
+        "source": "ebay_listing+title",
+        "confidence": "medium",
+        "ebay_item_id": "398268695029",
         "type": "Oil Filter",
-        "brand": "",
-        "ebay_category": ""
+        "brand": "WIX",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Filters"
       }
     },
     {
@@ -14564,7 +15511,7 @@
       "vehicles": [
         "1989\u20131991 Sterling 827"
       ],
-      "vehicle_count_raw": 11,
+      "vehicle_count_raw": 2,
       "ebay_item_id": "398268944702",
       "ebay_type": "Oil Filter",
       "ebay_brand": "WIX",
@@ -14593,7 +15540,7 @@
         "vehicle_labels": [
           "1989\u20131991 Sterling 827"
         ],
-        "raw_compat_rows": 11,
+        "raw_compat_rows": 2,
         "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398268944702",
@@ -14620,7 +15567,7 @@
       "vehicles": [
         "1986\u20131987 Acura Integra"
       ],
-      "vehicle_count_raw": 9,
+      "vehicle_count_raw": 2,
       "ebay_item_id": "398268712144",
       "ebay_type": "Oil Filter",
       "ebay_brand": "WIX",
@@ -14649,7 +15596,7 @@
         "vehicle_labels": [
           "1986\u20131987 Acura Integra"
         ],
-        "raw_compat_rows": 9,
+        "raw_compat_rows": 2,
         "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398268712144",
@@ -14685,7 +15632,7 @@
         "2000\u20132001 Volvo ACL",
         "2001 Volvo WG"
       ],
-      "vehicle_count_raw": 121,
+      "vehicle_count_raw": 14,
       "ebay_item_id": "398268721696",
       "ebay_type": "Oil Filter",
       "ebay_brand": "WIX",
@@ -14793,7 +15740,7 @@
           "2000\u20132001 Volvo ACL",
           "2001 Volvo WG"
         ],
-        "raw_compat_rows": 121,
+        "raw_compat_rows": 14,
         "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398268721696",
@@ -14834,7 +15781,7 @@
         "1995\u20132003 Oldsmobile Aurora",
         "2006\u20132009 Saab 9-7x"
       ],
-      "vehicle_count_raw": 740,
+      "vehicle_count_raw": 28,
       "ebay_item_id": "398268753067",
       "ebay_type": "Oil Filter",
       "ebay_brand": "WIX",
@@ -15007,7 +15954,7 @@
           "1995\u20132003 Oldsmobile Aurora",
           "2006\u20132009 Saab 9-7x"
         ],
-        "raw_compat_rows": 740,
+        "raw_compat_rows": 28,
         "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398268753067",
@@ -15038,7 +15985,7 @@
         "1995\u20132006 Chevrolet Tahoe",
         "2002\u20132006 Hummer H1"
       ],
-      "vehicle_count_raw": 408,
+      "vehicle_count_raw": 10,
       "ebay_item_id": "398268762055",
       "ebay_type": "Oil Filter",
       "ebay_brand": "WIX",
@@ -15111,7 +16058,7 @@
           "1995\u20132006 Chevrolet Tahoe",
           "2002\u20132006 Hummer H1"
         ],
-        "raw_compat_rows": 408,
+        "raw_compat_rows": 10,
         "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398268762055",
@@ -15157,7 +16104,7 @@
         "1985 Renault LeCar",
         "1986 Renault R5"
       ],
-      "vehicle_count_raw": 321,
+      "vehicle_count_raw": 28,
       "ebay_item_id": "398268763254",
       "ebay_type": "Oil Filter",
       "ebay_brand": "WIX",
@@ -15355,7 +16302,7 @@
           "1985 Renault LeCar",
           "1986 Renault R5"
         ],
-        "raw_compat_rows": 321,
+        "raw_compat_rows": 28,
         "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398268763254",
@@ -15373,28 +16320,183 @@
       "category": "filters",
       "checkout": true,
       "variation_id": "7TAKK362ALCBA5V4HDYV43RL",
-      "part_numbers": [],
-      "interchange": [],
-      "vehicles": [],
-      "vehicle_count_raw": 0,
-      "ebay_item_id": "",
+      "part_numbers": [
+        "51630"
+      ],
+      "interchange": [
+        "NAPA 1630"
+      ],
+      "vehicles": [
+        "1988\u20131992 Buick Century",
+        "1987\u20131991 Buick Skylark",
+        "1987 Buick Somerset",
+        "1988\u20131990 Chevrolet Celebrity",
+        "1990\u20131992 Chevrolet Lumina",
+        "1987 Oldsmobile Calais",
+        "1988\u20131991 Oldsmobile Cutlass Calais",
+        "1988\u20131992 Oldsmobile Cutlass Ciera",
+        "1988\u20131990 Oldsmobile Cutlass Cruiser",
+        "1988\u20131991 Pontiac 6000",
+        "1988 Pontiac Fiero",
+        "1987\u20131991 Pontiac Grand Am"
+      ],
+      "vehicle_count_raw": 469,
+      "ebay_item_id": "398268945790",
       "ebay_type": "Oil Filter",
-      "ebay_brand": "",
-      "ebay_category": "",
-      "fitment_source": "title",
-      "fitment_confidence": "low",
+      "ebay_brand": "WIX",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Filters",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
       "fitment": {
-        "part_numbers": [],
-        "interchange": [],
-        "vehicles": [],
-        "vehicle_labels": [],
-        "raw_compat_rows": 0,
-        "source": "title",
-        "confidence": "low",
-        "ebay_item_id": "",
+        "part_numbers": [
+          "51630"
+        ],
+        "interchange": [
+          "NAPA 1630"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1988,
+            "year_to": 1992,
+            "make": "Buick",
+            "model": "Century",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1991,
+            "make": "Buick",
+            "model": "Skylark",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1987,
+            "make": "Buick",
+            "model": "Somerset",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1988,
+            "year_to": 1990,
+            "make": "Chevrolet",
+            "model": "Celebrity",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1990,
+            "year_to": 1992,
+            "make": "Chevrolet",
+            "model": "Lumina",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1987,
+            "make": "Oldsmobile",
+            "model": "Calais",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1988,
+            "year_to": 1991,
+            "make": "Oldsmobile",
+            "model": "Cutlass Calais",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1988,
+            "year_to": 1992,
+            "make": "Oldsmobile",
+            "model": "Cutlass Ciera",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1988,
+            "year_to": 1990,
+            "make": "Oldsmobile",
+            "model": "Cutlass Cruiser",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1988,
+            "year_to": 1991,
+            "make": "Pontiac",
+            "model": "6000",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1988,
+            "year_to": 1988,
+            "make": "Pontiac",
+            "model": "Fiero",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1991,
+            "make": "Pontiac",
+            "model": "Grand Am",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1988\u20131992 Buick Century",
+          "1987\u20131991 Buick Skylark",
+          "1987 Buick Somerset",
+          "1988\u20131990 Chevrolet Celebrity",
+          "1990\u20131992 Chevrolet Lumina",
+          "1987 Oldsmobile Calais",
+          "1988\u20131991 Oldsmobile Cutlass Calais",
+          "1988\u20131992 Oldsmobile Cutlass Ciera",
+          "1988\u20131990 Oldsmobile Cutlass Cruiser",
+          "1988\u20131991 Pontiac 6000",
+          "1988 Pontiac Fiero",
+          "1987\u20131991 Pontiac Grand Am"
+        ],
+        "raw_compat_rows": 469,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398268945790",
         "type": "Oil Filter",
-        "brand": "",
-        "ebay_category": ""
+        "brand": "WIX",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Filters"
       }
     },
     {
@@ -15421,7 +16523,7 @@
         "1983\u20131994 Ford F-250",
         "1983\u20131994 Ford F-350"
       ],
-      "vehicle_count_raw": 1971,
+      "vehicle_count_raw": 10,
       "ebay_item_id": "398268764151",
       "ebay_type": "Oil Filter",
       "ebay_brand": "WIX",
@@ -15496,7 +16598,7 @@
           "1983\u20131994 Ford F-250",
           "1983\u20131994 Ford F-350"
         ],
-        "raw_compat_rows": 1971,
+        "raw_compat_rows": 10,
         "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398268764151",
@@ -15523,14 +16625,17 @@
         "B7",
         "LF692"
       ],
-      "vehicles": [],
-      "vehicle_count_raw": 0,
+      "vehicles": [
+        "1973\u20131993 Chevrolet",
+        "1973\u20131993 GMC"
+      ],
+      "vehicle_count_raw": 2,
       "ebay_item_id": "398268765097",
       "ebay_type": "Oil Filter",
       "ebay_brand": "WIX",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Filters",
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "high",
+      "fitment_source": "ebay_listing+title",
+      "fitment_confidence": "medium",
       "fitment": {
         "part_numbers": [
           "51794",
@@ -15541,11 +16646,35 @@
           "B7",
           "LF692"
         ],
-        "vehicles": [],
-        "vehicle_labels": [],
-        "raw_compat_rows": 0,
-        "source": "ebay_listing",
-        "confidence": "high",
+        "vehicles": [
+          {
+            "year_from": 1973,
+            "year_to": 1993,
+            "make": "Chevrolet",
+            "model": "",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1973,
+            "year_to": 1993,
+            "make": "GMC",
+            "model": "",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1973\u20131993 Chevrolet",
+          "1973\u20131993 GMC"
+        ],
+        "raw_compat_rows": 2,
+        "source": "ebay_listing+title",
+        "confidence": "medium",
         "ebay_item_id": "398268765097",
         "type": "Oil Filter",
         "brand": "WIX",
@@ -15576,7 +16705,7 @@
         "1976\u20131992 Ford F-250",
         "1980\u20131992 Ford F-350"
       ],
-      "vehicle_count_raw": 2664,
+      "vehicle_count_raw": 14,
       "ebay_item_id": "398268946786",
       "ebay_type": "Transmission Filter",
       "ebay_brand": "WIX",
@@ -15671,7 +16800,7 @@
           "1976\u20131992 Ford F-250",
           "1980\u20131992 Ford F-350"
         ],
-        "raw_compat_rows": 2664,
+        "raw_compat_rows": 14,
         "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398268946786",
@@ -15709,7 +16838,7 @@
         "1975\u20131982 Toyota Corona",
         "1979\u20131988 Toyota Pickup"
       ],
-      "vehicle_count_raw": 295,
+      "vehicle_count_raw": 17,
       "ebay_item_id": "398276585709",
       "ebay_type": "Ignition Wire Set",
       "ebay_brand": "Beck/Arnley",
@@ -15829,7 +16958,7 @@
           "1975\u20131982 Toyota Corona",
           "1979\u20131988 Toyota Pickup"
         ],
-        "raw_compat_rows": 295,
+        "raw_compat_rows": 17,
         "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398276585709",
@@ -15860,11 +16989,11 @@
         "1983 Nissan Sentra",
         "1961\u20131963 Pontiac Tempest"
       ],
-      "vehicle_count_raw": 207,
+      "vehicle_count_raw": 12,
       "ebay_item_id": "398268294994",
       "ebay_type": "Spark Plug Wire Set",
       "ebay_brand": "LaSalle",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Master Cylinders",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Wires & Coil Boots",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -15953,13 +17082,13 @@
           "1983 Nissan Sentra",
           "1961\u20131963 Pontiac Tempest"
         ],
-        "raw_compat_rows": 207,
+        "raw_compat_rows": 12,
         "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398268294994",
         "type": "Spark Plug Wire Set",
         "brand": "LaSalle",
-        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Master Cylinders"
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Wires & Coil Boots"
       }
     },
     {
@@ -15981,14 +17110,16 @@
         "Belden 700376",
         "NGK 51235"
       ],
-      "vehicles": [],
-      "vehicle_count_raw": 0,
+      "vehicles": [
+        "GM"
+      ],
+      "vehicle_count_raw": 1,
       "ebay_item_id": "398264703265",
       "ebay_type": "Spark Plug Wire Set",
       "ebay_brand": "LaSalle",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Wires & Coil Boots",
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "high",
+      "fitment_source": "ebay_listing+title",
+      "fitment_confidence": "medium",
       "fitment": {
         "part_numbers": [
           "780082",
@@ -16000,11 +17131,24 @@
           "Belden 700376",
           "NGK 51235"
         ],
-        "vehicles": [],
-        "vehicle_labels": [],
-        "raw_compat_rows": 0,
-        "source": "ebay_listing",
-        "confidence": "high",
+        "vehicles": [
+          {
+            "year_from": null,
+            "year_to": null,
+            "make": "GM",
+            "model": "",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "GM"
+        ],
+        "raw_compat_rows": 1,
+        "source": "ebay_listing+title",
+        "confidence": "medium",
         "ebay_item_id": "398264703265",
         "type": "Spark Plug Wire Set",
         "brand": "LaSalle",
@@ -16046,7 +17190,7 @@
         "1981\u20131985 Plymouth Reliant",
         "1984\u20131987 Plymouth Voyager"
       ],
-      "vehicle_count_raw": 506,
+      "vehicle_count_raw": 30,
       "ebay_item_id": "398274981047",
       "ebay_type": "Distributor Ignition Pickup Coil",
       "ebay_brand": "Pace Setter",
@@ -16232,7 +17376,7 @@
           "1981\u20131985 Plymouth Reliant",
           "1984\u20131987 Plymouth Voyager"
         ],
-        "raw_compat_rows": 506,
+        "raw_compat_rows": 30,
         "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398274981047",
@@ -16250,28 +17394,291 @@
       "category": "ignition",
       "checkout": true,
       "variation_id": "VI4JTLID7ZDPL26IQII2FH5U",
-      "part_numbers": [],
-      "interchange": [],
-      "vehicles": [],
-      "vehicle_count_raw": 0,
-      "ebay_item_id": "",
+      "part_numbers": [
+        "DR-186"
+      ],
+      "interchange": [
+        "DR37"
+      ],
+      "vehicles": [
+        "1978\u20131989 Buick Century",
+        "1978\u20131989 Buick Electra",
+        "1978\u20131989 Buick LeSabre",
+        "1978\u20131989 Buick Regal",
+        "1978\u20131989 Buick Riviera",
+        "1978\u20131989 Cadillac DeVille",
+        "1978\u20131989 Cadillac Eldorado",
+        "1978\u20131989 Cadillac Seville",
+        "1978\u20131989 Chevrolet Camaro",
+        "1978\u20131989 Chevrolet Caprice",
+        "1978\u20131989 Chevrolet Corvette",
+        "1978\u20131985 Chevrolet Impala",
+        "1978\u20131983 Chevrolet Malibu",
+        "1978\u20131988 Chevrolet Monte Carlo",
+        "1978\u20131988 Chevrolet Nova",
+        "1978\u20131987 GMC Caballero",
+        "1978\u20131989 Oldsmobile Cutlass",
+        "1978\u20131989 Oldsmobile Delta 88",
+        "1978\u20131989 Pontiac Bonneville",
+        "1978\u20131989 Pontiac Firebird",
+        "1978\u20131989 Pontiac Grand Prix"
+      ],
+      "vehicle_count_raw": 2135,
+      "ebay_item_id": "398274743110",
       "ebay_type": "Ignition Coil",
-      "ebay_brand": "",
-      "ebay_category": "",
-      "fitment_source": "title",
-      "fitment_confidence": "low",
+      "ebay_brand": "Pace Setter",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Coils",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
       "fitment": {
-        "part_numbers": [],
-        "interchange": [],
-        "vehicles": [],
-        "vehicle_labels": [],
-        "raw_compat_rows": 0,
-        "source": "title",
-        "confidence": "low",
-        "ebay_item_id": "",
+        "part_numbers": [
+          "DR-186"
+        ],
+        "interchange": [
+          "DR37"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1978,
+            "year_to": 1989,
+            "make": "Buick",
+            "model": "Century",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1978,
+            "year_to": 1989,
+            "make": "Buick",
+            "model": "Electra",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1978,
+            "year_to": 1989,
+            "make": "Buick",
+            "model": "LeSabre",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1978,
+            "year_to": 1989,
+            "make": "Buick",
+            "model": "Regal",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1978,
+            "year_to": 1989,
+            "make": "Buick",
+            "model": "Riviera",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1978,
+            "year_to": 1989,
+            "make": "Cadillac",
+            "model": "DeVille",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1978,
+            "year_to": 1989,
+            "make": "Cadillac",
+            "model": "Eldorado",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1978,
+            "year_to": 1989,
+            "make": "Cadillac",
+            "model": "Seville",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1978,
+            "year_to": 1989,
+            "make": "Chevrolet",
+            "model": "Camaro",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1978,
+            "year_to": 1989,
+            "make": "Chevrolet",
+            "model": "Caprice",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1978,
+            "year_to": 1989,
+            "make": "Chevrolet",
+            "model": "Corvette",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1978,
+            "year_to": 1985,
+            "make": "Chevrolet",
+            "model": "Impala",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1978,
+            "year_to": 1983,
+            "make": "Chevrolet",
+            "model": "Malibu",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1978,
+            "year_to": 1988,
+            "make": "Chevrolet",
+            "model": "Monte Carlo",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1978,
+            "year_to": 1988,
+            "make": "Chevrolet",
+            "model": "Nova",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1978,
+            "year_to": 1987,
+            "make": "GMC",
+            "model": "Caballero",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1978,
+            "year_to": 1989,
+            "make": "Oldsmobile",
+            "model": "Cutlass",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1978,
+            "year_to": 1989,
+            "make": "Oldsmobile",
+            "model": "Delta 88",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1978,
+            "year_to": 1989,
+            "make": "Pontiac",
+            "model": "Bonneville",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1978,
+            "year_to": 1989,
+            "make": "Pontiac",
+            "model": "Firebird",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1978,
+            "year_to": 1989,
+            "make": "Pontiac",
+            "model": "Grand Prix",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1978\u20131989 Buick Century",
+          "1978\u20131989 Buick Electra",
+          "1978\u20131989 Buick LeSabre",
+          "1978\u20131989 Buick Regal",
+          "1978\u20131989 Buick Riviera",
+          "1978\u20131989 Cadillac DeVille",
+          "1978\u20131989 Cadillac Eldorado",
+          "1978\u20131989 Cadillac Seville",
+          "1978\u20131989 Chevrolet Camaro",
+          "1978\u20131989 Chevrolet Caprice",
+          "1978\u20131989 Chevrolet Corvette",
+          "1978\u20131985 Chevrolet Impala",
+          "1978\u20131983 Chevrolet Malibu",
+          "1978\u20131988 Chevrolet Monte Carlo",
+          "1978\u20131988 Chevrolet Nova",
+          "1978\u20131987 GMC Caballero",
+          "1978\u20131989 Oldsmobile Cutlass",
+          "1978\u20131989 Oldsmobile Delta 88",
+          "1978\u20131989 Pontiac Bonneville",
+          "1978\u20131989 Pontiac Firebird",
+          "1978\u20131989 Pontiac Grand Prix"
+        ],
+        "raw_compat_rows": 2135,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398274743110",
         "type": "Ignition Coil",
-        "brand": "",
-        "ebay_category": ""
+        "brand": "Pace Setter",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Coils"
       }
     },
     {
@@ -16283,28 +17690,227 @@
       "category": "ignition",
       "checkout": true,
       "variation_id": "DEADP4HL7HITAARGGQ5G7KGE",
-      "part_numbers": [],
-      "interchange": [],
-      "vehicles": [],
-      "vehicle_count_raw": 0,
-      "ebay_item_id": "",
-      "ebay_type": "Spark Plug Wire",
-      "ebay_brand": "",
-      "ebay_category": "",
-      "fitment_source": "title",
-      "fitment_confidence": "low",
+      "part_numbers": [
+        "780068",
+        "KW14"
+      ],
+      "interchange": [
+        "Delphi 09304",
+        "671-4033",
+        "700257",
+        "CH74114"
+      ],
+      "vehicles": [
+        "1984\u20131986 Buick Century",
+        "1984\u20131986 Buick Skylark",
+        "1985 Buick Somerset Regal",
+        "1985\u20131986 Chevrolet Astro",
+        "1984\u20131986 Chevrolet Camaro",
+        "1984\u20131986 Chevrolet Celebrity",
+        "1984\u20131985 Chevrolet Citation II",
+        "1987 Chevrolet LLV",
+        "1985\u20131987 Chevrolet S10",
+        "1985\u20131987 Chevrolet S10 Blazer",
+        "1985\u20131987 GMC S15",
+        "1985\u20131987 GMC S15 Jimmy",
+        "1985\u20131986 GMC Safari",
+        "1984\u20131986 Oldsmobile Cutlass Ciera",
+        "1984 Oldsmobile Omega"
+      ],
+      "vehicle_count_raw": 526,
+      "ebay_item_id": "398276587261",
+      "ebay_type": "Spark Plug Wire Set",
+      "ebay_brand": "Champion",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Wires & Coil Boots",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
       "fitment": {
-        "part_numbers": [],
-        "interchange": [],
-        "vehicles": [],
-        "vehicle_labels": [],
-        "raw_compat_rows": 0,
-        "source": "title",
-        "confidence": "low",
-        "ebay_item_id": "",
-        "type": "Spark Plug Wire",
-        "brand": "",
-        "ebay_category": ""
+        "part_numbers": [
+          "780068",
+          "KW14"
+        ],
+        "interchange": [
+          "Delphi 09304",
+          "671-4033",
+          "700257",
+          "CH74114"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1984,
+            "year_to": 1986,
+            "make": "Buick",
+            "model": "Century",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 1986,
+            "make": "Buick",
+            "model": "Skylark",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1985,
+            "make": "Buick",
+            "model": "Somerset Regal",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1986,
+            "make": "Chevrolet",
+            "model": "Astro",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 1986,
+            "make": "Chevrolet",
+            "model": "Camaro",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 1986,
+            "make": "Chevrolet",
+            "model": "Celebrity",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 1985,
+            "make": "Chevrolet",
+            "model": "Citation II",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1987,
+            "make": "Chevrolet",
+            "model": "LLV",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1987,
+            "make": "Chevrolet",
+            "model": "S10",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1987,
+            "make": "Chevrolet",
+            "model": "S10 Blazer",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1987,
+            "make": "GMC",
+            "model": "S15",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1987,
+            "make": "GMC",
+            "model": "S15 Jimmy",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1986,
+            "make": "GMC",
+            "model": "Safari",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 1986,
+            "make": "Oldsmobile",
+            "model": "Cutlass Ciera",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 1984,
+            "make": "Oldsmobile",
+            "model": "Omega",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1984\u20131986 Buick Century",
+          "1984\u20131986 Buick Skylark",
+          "1985 Buick Somerset Regal",
+          "1985\u20131986 Chevrolet Astro",
+          "1984\u20131986 Chevrolet Camaro",
+          "1984\u20131986 Chevrolet Celebrity",
+          "1984\u20131985 Chevrolet Citation II",
+          "1987 Chevrolet LLV",
+          "1985\u20131987 Chevrolet S10",
+          "1985\u20131987 Chevrolet S10 Blazer",
+          "1985\u20131987 GMC S15",
+          "1985\u20131987 GMC S15 Jimmy",
+          "1985\u20131986 GMC Safari",
+          "1984\u20131986 Oldsmobile Cutlass Ciera",
+          "1984 Oldsmobile Omega"
+        ],
+        "raw_compat_rows": 526,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398276587261",
+        "type": "Spark Plug Wire Set",
+        "brand": "Champion",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Wires & Coil Boots"
       }
     },
     {
@@ -16324,7 +17930,7 @@
         "1982\u20131985 Chrysler LeBaron",
         "1982\u20131984 Dodge Rampage"
       ],
-      "vehicle_count_raw": 61,
+      "vehicle_count_raw": 4,
       "ebay_item_id": "398275172384",
       "ebay_type": "Distributor Cap",
       "ebay_brand": "Standard Motor Products",
@@ -16362,7 +17968,7 @@
           "1982\u20131985 Chrysler LeBaron",
           "1982\u20131984 Dodge Rampage"
         ],
-        "raw_compat_rows": 61,
+        "raw_compat_rows": 4,
         "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398275172384",
@@ -16394,7 +18000,7 @@
         "1981\u20131983 Plymouth Sapporo",
         "1984\u20131989 Plymouth Voyager"
       ],
-      "vehicle_count_raw": 312,
+      "vehicle_count_raw": 16,
       "ebay_item_id": "398275011570",
       "ebay_type": "Distributor Cap",
       "ebay_brand": "Standard Motor Products",
@@ -16498,7 +18104,7 @@
           "1981\u20131983 Plymouth Sapporo",
           "1984\u20131989 Plymouth Voyager"
         ],
-        "raw_compat_rows": 312,
+        "raw_compat_rows": 16,
         "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398275011570",
@@ -16542,7 +18148,7 @@
         "1986\u20131987 Plymouth Turismo",
         "1986\u20131995 Plymouth Voyager"
       ],
-      "vehicle_count_raw": 823,
+      "vehicle_count_raw": 30,
       "ebay_item_id": "398264656269",
       "ebay_type": "Distributor Cap",
       "ebay_brand": "Standard",
@@ -16728,7 +18334,7 @@
           "1986\u20131987 Plymouth Turismo",
           "1986\u20131995 Plymouth Voyager"
         ],
-        "raw_compat_rows": 823,
+        "raw_compat_rows": 30,
         "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398264656269",
@@ -16776,7 +18382,7 @@
         "1972\u20131989 Plymouth Gran Fury",
         "1970 Plymouth Superbird"
       ],
-      "vehicle_count_raw": 2082,
+      "vehicle_count_raw": 34,
       "ebay_item_id": "398276591677",
       "ebay_type": "Distributor Cap",
       "ebay_brand": "Standard Motor Products",
@@ -16996,7 +18602,7 @@
           "1972\u20131989 Plymouth Gran Fury",
           "1970 Plymouth Superbird"
         ],
-        "raw_compat_rows": 2082,
+        "raw_compat_rows": 34,
         "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398276591677",
@@ -17033,7 +18639,7 @@
         "1982\u20131993 Oldsmobile Cutlass Ciera",
         "1980\u20131993 Pontiac Firebird"
       ],
-      "vehicle_count_raw": 1394,
+      "vehicle_count_raw": 16,
       "ebay_item_id": "398276608613",
       "ebay_type": "Distributor Cap",
       "ebay_brand": "Standard Motor Products",
@@ -17142,7 +18748,7 @@
           "1982\u20131993 Oldsmobile Cutlass Ciera",
           "1980\u20131993 Pontiac Firebird"
         ],
-        "raw_compat_rows": 1394,
+        "raw_compat_rows": 16,
         "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398276608613",
@@ -17168,7 +18774,7 @@
         "1982\u20131991 Chevrolet S10",
         "1982\u20131990 GMC S15"
       ],
-      "vehicle_count_raw": 439,
+      "vehicle_count_raw": 4,
       "ebay_item_id": "398275021147",
       "ebay_type": "Distributor Cap",
       "ebay_brand": "Standard Motor Products",
@@ -17206,7 +18812,7 @@
           "1982\u20131991 Chevrolet S10",
           "1982\u20131990 GMC S15"
         ],
-        "raw_compat_rows": 439,
+        "raw_compat_rows": 4,
         "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398275021147",
@@ -17250,7 +18856,7 @@
         "1985\u20131986 Pontiac Firebird",
         "1985\u20131986 Pontiac Grand Am"
       ],
-      "vehicle_count_raw": 453,
+      "vehicle_count_raw": 30,
       "ebay_item_id": "398276614173",
       "ebay_type": "Distributor Cap",
       "ebay_brand": "Standard Motor Products",
@@ -17436,7 +19042,7 @@
           "1985\u20131986 Pontiac Firebird",
           "1985\u20131986 Pontiac Grand Am"
         ],
-        "raw_compat_rows": 453,
+        "raw_compat_rows": 30,
         "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398276614173",
@@ -17502,7 +19108,7 @@
         "1985\u20131992 Pontiac Firebird",
         "1986\u20131987 Pontiac Grand Prix"
       ],
-      "vehicle_count_raw": 2455,
+      "vehicle_count_raw": 62,
       "ebay_item_id": "398264126675",
       "ebay_type": "Distributor Cap",
       "ebay_brand": "Standard",
@@ -17910,7 +19516,7 @@
           "1985\u20131992 Pontiac Firebird",
           "1986\u20131987 Pontiac Grand Prix"
         ],
-        "raw_compat_rows": 2455,
+        "raw_compat_rows": 62,
         "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398264126675",
@@ -17948,7 +19554,7 @@
         "1974\u20131977 Mercury Comet",
         "1975\u20131977 Mercury Monarch"
       ],
-      "vehicle_count_raw": 650,
+      "vehicle_count_raw": 20,
       "ebay_item_id": "398265522988",
       "ebay_type": "Distributor Cap",
       "ebay_brand": "Standard",
@@ -18088,7 +19694,7 @@
           "1974\u20131977 Mercury Comet",
           "1975\u20131977 Mercury Monarch"
         ],
-        "raw_compat_rows": 650,
+        "raw_compat_rows": 20,
         "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398265522988",
@@ -18140,7 +19746,7 @@
         "1979\u20131980 Mercury Monarch",
         "1979\u20131980 Mercury Zephyr"
       ],
-      "vehicle_count_raw": 2557,
+      "vehicle_count_raw": 47,
       "ebay_item_id": "398265539073",
       "ebay_type": "Distributor Cap",
       "ebay_brand": "Standard",
@@ -18444,7 +20050,7 @@
           "1979\u20131980 Mercury Monarch",
           "1979\u20131980 Mercury Zephyr"
         ],
-        "raw_compat_rows": 2557,
+        "raw_compat_rows": 47,
         "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398265539073",
@@ -18495,7 +20101,7 @@
         "1977\u20131979 Mercury Monarch",
         "1978\u20131982 Mercury Zephyr"
       ],
-      "vehicle_count_raw": 2640,
+      "vehicle_count_raw": 48,
       "ebay_item_id": "398264347725",
       "ebay_type": "Distributor Cap",
       "ebay_brand": "Standard",
@@ -18788,7 +20394,7 @@
           "1977\u20131979 Mercury Monarch",
           "1978\u20131982 Mercury Zephyr"
         ],
-        "raw_compat_rows": 2640,
+        "raw_compat_rows": 48,
         "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398264347725",
@@ -18817,7 +20423,7 @@
         "1985\u20131988 Mitsubishi Tredia",
         "1984\u20131985 Plymouth Colt"
       ],
-      "vehicle_count_raw": 70,
+      "vehicle_count_raw": 9,
       "ebay_item_id": "398275171504",
       "ebay_type": "Distributor Cap",
       "ebay_brand": "Standard Motor Products",
@@ -18888,7 +20494,7 @@
           "1985\u20131988 Mitsubishi Tredia",
           "1984\u20131985 Plymouth Colt"
         ],
-        "raw_compat_rows": 70,
+        "raw_compat_rows": 9,
         "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398275171504",
@@ -18915,7 +20521,7 @@
         "1984\u20131988 Toyota Celica",
         "1985\u20131988 Toyota Cressida"
       ],
-      "vehicle_count_raw": 40,
+      "vehicle_count_raw": 4,
       "ebay_item_id": "398258668767",
       "ebay_type": "Distributor Cap",
       "ebay_brand": "Standard",
@@ -18954,7 +20560,7 @@
           "1984\u20131988 Toyota Celica",
           "1985\u20131988 Toyota Cressida"
         ],
-        "raw_compat_rows": 40,
+        "raw_compat_rows": 4,
         "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398258668767",
@@ -19011,7 +20617,7 @@
         "1977\u20131983 Subaru Standard",
         "1970\u20131972 Subaru Star"
       ],
-      "vehicle_count_raw": 709,
+      "vehicle_count_raw": 58,
       "ebay_item_id": "398264352811",
       "ebay_type": "Distributor Cap",
       "ebay_brand": "Standard",
@@ -19380,7 +20986,7 @@
           "1977\u20131983 Subaru Standard",
           "1970\u20131972 Subaru Star"
         ],
-        "raw_compat_rows": 709,
+        "raw_compat_rows": 58,
         "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398264352811",
@@ -19406,7 +21012,7 @@
         "1986\u20131990 Mazda 323",
         "1987\u20131990 Mercury Tracer"
       ],
-      "vehicle_count_raw": 45,
+      "vehicle_count_raw": 4,
       "ebay_item_id": "398275028804",
       "ebay_type": "Distributor Cap",
       "ebay_brand": "Standard Motor Products",
@@ -19444,7 +21050,7 @@
           "1986\u20131990 Mazda 323",
           "1987\u20131990 Mercury Tracer"
         ],
-        "raw_compat_rows": 45,
+        "raw_compat_rows": 4,
         "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398275028804",
@@ -19471,7 +21077,7 @@
         "1984\u20131987 Honda Civic",
         "1984\u20131987 Honda Wagovan"
       ],
-      "vehicle_count_raw": 39,
+      "vehicle_count_raw": 4,
       "ebay_item_id": "398265537511",
       "ebay_type": "Distributor Cap",
       "ebay_brand": "Standard",
@@ -19510,7 +21116,7 @@
           "1984\u20131987 Honda Civic",
           "1984\u20131987 Honda Wagovan"
         ],
-        "raw_compat_rows": 39,
+        "raw_compat_rows": 4,
         "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398265537511",
@@ -19539,7 +21145,7 @@
         "1987\u20131988 Nissan Pathfinder",
         "1987\u20131988 Nissan Van"
       ],
-      "vehicle_count_raw": 79,
+      "vehicle_count_raw": 8,
       "ebay_item_id": "398265511253",
       "ebay_type": "Distributor Cap",
       "ebay_brand": "Standard",
@@ -19600,7 +21206,7 @@
           "1987\u20131988 Nissan Pathfinder",
           "1987\u20131988 Nissan Van"
         ],
-        "raw_compat_rows": 79,
+        "raw_compat_rows": 8,
         "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398265511253",
@@ -19627,7 +21233,7 @@
         "1988\u20131991 Honda CRX",
         "1988\u20131991 Honda Civic"
       ],
-      "vehicle_count_raw": 68,
+      "vehicle_count_raw": 6,
       "ebay_item_id": "398275032239",
       "ebay_type": "Distributor Cap",
       "ebay_brand": "Standard Motor Products",
@@ -19676,7 +21282,7 @@
           "1988\u20131991 Honda CRX",
           "1988\u20131991 Honda Civic"
         ],
-        "raw_compat_rows": 68,
+        "raw_compat_rows": 6,
         "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398275032239",
@@ -19703,7 +21309,7 @@
         "1990\u20131992 Geo Prizm",
         "1990\u20131991 Toyota Corolla"
       ],
-      "vehicle_count_raw": 30,
+      "vehicle_count_raw": 4,
       "ebay_item_id": "398264656833",
       "ebay_type": "Distributor Cap",
       "ebay_brand": "Standard",
@@ -19742,7 +21348,7 @@
           "1990\u20131992 Geo Prizm",
           "1990\u20131991 Toyota Corolla"
         ],
-        "raw_compat_rows": 30,
+        "raw_compat_rows": 4,
         "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398264656833",
@@ -19778,7 +21384,7 @@
         "1979 Mazda B2000",
         "1976\u20131977 Mazda Mizer"
       ],
-      "vehicle_count_raw": 116,
+      "vehicle_count_raw": 20,
       "ebay_item_id": "398264341853",
       "ebay_type": "Distributor Cap",
       "ebay_brand": "Standard",
@@ -19916,7 +21522,7 @@
           "1979 Mazda B2000",
           "1976\u20131977 Mazda Mizer"
         ],
-        "raw_compat_rows": 116,
+        "raw_compat_rows": 20,
         "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398264341853",
@@ -19953,7 +21559,7 @@
         "1976\u20131978 Toyota Pickup",
         "1981\u20131984 Toyota Starlet"
       ],
-      "vehicle_count_raw": 149,
+      "vehicle_count_raw": 25,
       "ebay_item_id": "398275387036",
       "ebay_type": "Distributor Cap",
       "ebay_brand": "Standard Motor Products",
@@ -20112,7 +21718,7 @@
           "1976\u20131978 Toyota Pickup",
           "1981\u20131984 Toyota Starlet"
         ],
-        "raw_compat_rows": 149,
+        "raw_compat_rows": 25,
         "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398275387036",
@@ -20145,7 +21751,7 @@
         "1976\u20131982 Subaru Standard",
         "1985\u20131986 Subaru XT"
       ],
-      "vehicle_count_raw": 178,
+      "vehicle_count_raw": 16,
       "ebay_item_id": "398275375715",
       "ebay_type": "Distributor Cap",
       "ebay_brand": "Standard Motor Products",
@@ -20260,7 +21866,7 @@
           "1976\u20131982 Subaru Standard",
           "1985\u20131986 Subaru XT"
         ],
-        "raw_compat_rows": 178,
+        "raw_compat_rows": 16,
         "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398275375715",
@@ -20288,7 +21894,7 @@
         "1980\u20131981 Toyota Corona",
         "1980\u20131989 Toyota Pickup"
       ],
-      "vehicle_count_raw": 161,
+      "vehicle_count_raw": 8,
       "ebay_item_id": "398275169882",
       "ebay_type": "Distributor Cap",
       "ebay_brand": "Standard Motor Products",
@@ -20348,7 +21954,7 @@
           "1980\u20131981 Toyota Corona",
           "1980\u20131989 Toyota Pickup"
         ],
-        "raw_compat_rows": 161,
+        "raw_compat_rows": 8,
         "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398275169882",
@@ -20366,28 +21972,49 @@
       "category": "ignition",
       "checkout": true,
       "variation_id": "NT3IGRQYCG3ZDBCNSDL32ZK3",
-      "part_numbers": [],
+      "part_numbers": [
+        "JH125",
+        "JH-125, SMP JH125"
+      ],
       "interchange": [],
-      "vehicles": [],
-      "vehicle_count_raw": 0,
-      "ebay_item_id": "",
+      "vehicles": [
+        "1984\u20131985 Honda Civic"
+      ],
+      "vehicle_count_raw": 23,
+      "ebay_item_id": "398258096229",
       "ebay_type": "Distributor Cap",
-      "ebay_brand": "",
-      "ebay_category": "",
-      "fitment_source": "title",
-      "fitment_confidence": "low",
+      "ebay_brand": "Standard Ignition",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
       "fitment": {
-        "part_numbers": [],
+        "part_numbers": [
+          "JH125",
+          "JH-125, SMP JH125"
+        ],
         "interchange": [],
-        "vehicles": [],
-        "vehicle_labels": [],
-        "raw_compat_rows": 0,
-        "source": "title",
-        "confidence": "low",
-        "ebay_item_id": "",
+        "vehicles": [
+          {
+            "year_from": 1984,
+            "year_to": 1985,
+            "make": "Honda",
+            "model": "Civic",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1984\u20131985 Honda Civic"
+        ],
+        "raw_compat_rows": 23,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398258096229",
         "type": "Distributor Cap",
-        "brand": "",
-        "ebay_category": ""
+        "brand": "Standard Ignition",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps"
       }
     },
     {
@@ -20426,7 +22053,7 @@
         "1987\u20131990 Mitsubishi Van",
         "1984\u20131991 Plymouth Colt"
       ],
-      "vehicle_count_raw": 430,
+      "vehicle_count_raw": 38,
       "ebay_item_id": "398258063596",
       "ebay_type": "Distributor Cap",
       "ebay_brand": "Standard Ignition",
@@ -20663,7 +22290,7 @@
           "1987\u20131990 Mitsubishi Van",
           "1984\u20131991 Plymouth Colt"
         ],
-        "raw_compat_rows": 430,
+        "raw_compat_rows": 38,
         "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398258063596",
@@ -20694,7 +22321,7 @@
         "1990\u20131994 Mitsubishi Eclipse",
         "1990\u20131994 Plymouth Laser"
       ],
-      "vehicle_count_raw": 58,
+      "vehicle_count_raw": 6,
       "ebay_item_id": "398276620026",
       "ebay_type": "Distributor Cap",
       "ebay_brand": "Standard Motor Products",
@@ -20747,7 +22374,7 @@
           "1990\u20131994 Mitsubishi Eclipse",
           "1990\u20131994 Plymouth Laser"
         ],
-        "raw_compat_rows": 58,
+        "raw_compat_rows": 6,
         "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398276620026",
@@ -20765,28 +22392,61 @@
       "category": "ignition",
       "checkout": true,
       "variation_id": "PZBIUIJNNS5OAWDKGTDRTS7N",
-      "part_numbers": [],
+      "part_numbers": [
+        "JH207",
+        "JH-207, SMP JH207"
+      ],
       "interchange": [],
-      "vehicles": [],
-      "vehicle_count_raw": 0,
-      "ebay_item_id": "",
+      "vehicles": [
+        "1992\u20131997 Honda Accord",
+        "1992\u20132001 Honda Prelude"
+      ],
+      "vehicle_count_raw": 104,
+      "ebay_item_id": "398258097177",
       "ebay_type": "Distributor Cap",
-      "ebay_brand": "",
-      "ebay_category": "",
-      "fitment_source": "title",
-      "fitment_confidence": "low",
+      "ebay_brand": "Standard Ignition",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
       "fitment": {
-        "part_numbers": [],
+        "part_numbers": [
+          "JH207",
+          "JH-207, SMP JH207"
+        ],
         "interchange": [],
-        "vehicles": [],
-        "vehicle_labels": [],
-        "raw_compat_rows": 0,
-        "source": "title",
-        "confidence": "low",
-        "ebay_item_id": "",
+        "vehicles": [
+          {
+            "year_from": 1992,
+            "year_to": 1997,
+            "make": "Honda",
+            "model": "Accord",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1992,
+            "year_to": 2001,
+            "make": "Honda",
+            "model": "Prelude",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1992\u20131997 Honda Accord",
+          "1992\u20132001 Honda Prelude"
+        ],
+        "raw_compat_rows": 104,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398258097177",
         "type": "Distributor Cap",
-        "brand": "",
-        "ebay_category": ""
+        "brand": "Standard Ignition",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps"
       }
     },
     {
@@ -20807,7 +22467,7 @@
         "1986\u20131989 Honda Accord",
         "1983\u20131990 Honda Prelude"
       ],
-      "vehicle_count_raw": 52,
+      "vehicle_count_raw": 4,
       "ebay_item_id": "398264625287",
       "ebay_type": "Distributor Cap",
       "ebay_brand": "Standard",
@@ -20846,7 +22506,7 @@
           "1986\u20131989 Honda Accord",
           "1983\u20131990 Honda Prelude"
         ],
-        "raw_compat_rows": 52,
+        "raw_compat_rows": 4,
         "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398264625287",
@@ -20886,7 +22546,7 @@
         "1989\u20131995 Lotus Esprit",
         "1986\u20132005 Pontiac Grand Prix"
       ],
-      "vehicle_count_raw": 600,
+      "vehicle_count_raw": 19,
       "ebay_item_id": "398275514985",
       "ebay_type": "Ignition Coil",
       "ebay_brand": "Standard Motor Products",
@@ -21018,7 +22678,7 @@
           "1989\u20131995 Lotus Esprit",
           "1986\u20132005 Pontiac Grand Prix"
         ],
-        "raw_compat_rows": 600,
+        "raw_compat_rows": 19,
         "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398275514985",
@@ -21046,7 +22706,7 @@
         "1988\u20131990 Buick Regal",
         "1988\u20131990 Buick Riviera"
       ],
-      "vehicle_count_raw": 48,
+      "vehicle_count_raw": 8,
       "ebay_item_id": "398268380879",
       "ebay_type": "Ignition Coil",
       "ebay_brand": "Standard Motor Products",
@@ -21106,7 +22766,7 @@
           "1988\u20131990 Buick Regal",
           "1988\u20131990 Buick Riviera"
         ],
-        "raw_compat_rows": 48,
+        "raw_compat_rows": 8,
         "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398268380879",
@@ -21156,11 +22816,11 @@
         "1975\u20131979 Pontiac Firebird",
         "1975\u20131978 Pontiac LeMans"
       ],
-      "vehicle_count_raw": 2465,
+      "vehicle_count_raw": 42,
       "ebay_item_id": "398276627980",
       "ebay_type": "Distributor Vacuum Advance",
       "ebay_brand": "Standard Motor Products",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air Conditioning & Heating:HVAC Control Unit Parts",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Other Ignition Systems & Components",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -21408,13 +23068,13 @@
           "1975\u20131979 Pontiac Firebird",
           "1975\u20131978 Pontiac LeMans"
         ],
-        "raw_compat_rows": 2465,
+        "raw_compat_rows": 42,
         "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398276627980",
         "type": "Distributor Vacuum Advance",
         "brand": "Standard Motor Products",
-        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air Conditioning & Heating:HVAC Control Unit Parts"
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Other Ignition Systems & Components"
       }
     },
     {
@@ -21440,7 +23100,7 @@
         "1983\u20131987 Volkswagen Quantum",
         "1985 Volkswagen Scirocco"
       ],
-      "vehicle_count_raw": 307,
+      "vehicle_count_raw": 13,
       "ebay_item_id": "398264521813",
       "ebay_type": "CV Joint Boot Kit",
       "ebay_brand": "Beck/Arnley",
@@ -21534,7 +23194,7 @@
           "1983\u20131987 Volkswagen Quantum",
           "1985 Volkswagen Scirocco"
         ],
-        "raw_compat_rows": 307,
+        "raw_compat_rows": 13,
         "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398264521813",
@@ -21557,25 +23217,52 @@
         "1032263"
       ],
       "interchange": [],
-      "vehicles": [],
-      "vehicle_count_raw": 0,
+      "vehicles": [
+        "Datsun",
+        "Honda"
+      ],
+      "vehicle_count_raw": 2,
       "ebay_item_id": "398258751741",
       "ebay_type": "CV Joint Boot Kit",
       "ebay_brand": "Beck/Arnley",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:CV Joints, Boots & Parts",
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "high",
+      "fitment_source": "ebay_listing+title",
+      "fitment_confidence": "medium",
       "fitment": {
         "part_numbers": [
           "103-2263",
           "1032263"
         ],
         "interchange": [],
-        "vehicles": [],
-        "vehicle_labels": [],
-        "raw_compat_rows": 0,
-        "source": "ebay_listing",
-        "confidence": "high",
+        "vehicles": [
+          {
+            "year_from": null,
+            "year_to": null,
+            "make": "Datsun",
+            "model": "",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": null,
+            "year_to": null,
+            "make": "Honda",
+            "model": "",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "Datsun",
+          "Honda"
+        ],
+        "raw_compat_rows": 2,
+        "source": "ebay_listing+title",
+        "confidence": "medium",
         "ebay_item_id": "398258751741",
         "type": "CV Joint Boot Kit",
         "brand": "Beck/Arnley",
@@ -21602,7 +23289,7 @@
         "1981\u20131983 Renault R18",
         "1981\u20131983 Renault R18i"
       ],
-      "vehicle_count_raw": 140,
+      "vehicle_count_raw": 8,
       "ebay_item_id": "398264435514",
       "ebay_type": "CV Joint Boot Kit",
       "ebay_brand": "Beck/Arnley",
@@ -21663,7 +23350,7 @@
           "1981\u20131983 Renault R18",
           "1981\u20131983 Renault R18i"
         ],
-        "raw_compat_rows": 140,
+        "raw_compat_rows": 8,
         "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398264435514",
@@ -21681,28 +23368,71 @@
       "category": "driveline",
       "checkout": true,
       "variation_id": "OIPQZXWSH7D4Z6SR6HJG47GF",
-      "part_numbers": [],
+      "part_numbers": [
+        "B-061"
+      ],
       "interchange": [],
-      "vehicles": [],
-      "vehicle_count_raw": 0,
-      "ebay_item_id": "",
+      "vehicles": [
+        "1979\u20131987 Chevrolet Chevette",
+        "1981\u20131987 Pontiac Acadian",
+        "1981\u20131987 Pontiac T1000"
+      ],
+      "vehicle_count_raw": 72,
+      "ebay_item_id": "398268222853",
       "ebay_type": "Timing Belt",
-      "ebay_brand": "",
-      "ebay_category": "",
-      "fitment_source": "title",
-      "fitment_confidence": "low",
+      "ebay_brand": "Cloyes",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Timing Components & Kits:Timing Belts",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
       "fitment": {
-        "part_numbers": [],
+        "part_numbers": [
+          "B-061"
+        ],
         "interchange": [],
-        "vehicles": [],
-        "vehicle_labels": [],
-        "raw_compat_rows": 0,
-        "source": "title",
-        "confidence": "low",
-        "ebay_item_id": "",
+        "vehicles": [
+          {
+            "year_from": 1979,
+            "year_to": 1987,
+            "make": "Chevrolet",
+            "model": "Chevette",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1981,
+            "year_to": 1987,
+            "make": "Pontiac",
+            "model": "Acadian",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1981,
+            "year_to": 1987,
+            "make": "Pontiac",
+            "model": "T1000",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1979\u20131987 Chevrolet Chevette",
+          "1981\u20131987 Pontiac Acadian",
+          "1981\u20131987 Pontiac T1000"
+        ],
+        "raw_compat_rows": 72,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398268222853",
         "type": "Timing Belt",
-        "brand": "",
-        "ebay_category": ""
+        "brand": "Cloyes",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Timing Components & Kits:Timing Belts"
       }
     },
     {
@@ -21724,7 +23454,7 @@
         "1985\u20131993 Oldsmobile Cutlass Ciera",
         "1985\u20131992 Oldsmobile Toronado"
       ],
-      "vehicle_count_raw": 363,
+      "vehicle_count_raw": 8,
       "ebay_item_id": "398274974116",
       "ebay_type": "Engine Timing Crankshaft Sprocket",
       "ebay_brand": "Cloyes",
@@ -21784,7 +23514,7 @@
           "1985\u20131993 Oldsmobile Cutlass Ciera",
           "1985\u20131992 Oldsmobile Toronado"
         ],
-        "raw_compat_rows": 363,
+        "raw_compat_rows": 8,
         "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398274974116",
@@ -21806,28 +23536,55 @@
         "CD70"
       ],
       "interchange": [],
-      "vehicles": [],
-      "vehicle_count_raw": 0,
+      "vehicles": [
+        "Chevrolet Nova",
+        "Toyota Corolla"
+      ],
+      "vehicle_count_raw": 2,
       "ebay_item_id": "398268291774",
       "ebay_type": "Timing Belt",
       "ebay_brand": "Gates",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Interior Parts & Accessories:Center, Overhead Consoles & Parts:Center & Overhead Console Parts",
-      "fitment_source": "ebay_listing",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Timing Components & Kits",
+      "fitment_source": "ebay_listing+title",
       "fitment_confidence": "medium",
       "fitment": {
         "part_numbers": [
           "CD70"
         ],
         "interchange": [],
-        "vehicles": [],
-        "vehicle_labels": [],
-        "raw_compat_rows": 0,
-        "source": "ebay_listing",
+        "vehicles": [
+          {
+            "year_from": null,
+            "year_to": null,
+            "make": "Chevrolet",
+            "model": "Nova",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": null,
+            "year_to": null,
+            "make": "Toyota",
+            "model": "Corolla",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "Chevrolet Nova",
+          "Toyota Corolla"
+        ],
+        "raw_compat_rows": 2,
+        "source": "ebay_listing+title",
         "confidence": "medium",
         "ebay_item_id": "398268291774",
         "type": "Timing Belt",
         "brand": "Gates",
-        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Interior Parts & Accessories:Center, Overhead Consoles & Parts:Center & Overhead Console Parts"
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Timing Components & Kits"
       }
     },
     {
@@ -21847,7 +23604,7 @@
       "vehicles": [
         "1982\u20131984 Chevrolet Cavalier"
       ],
-      "vehicle_count_raw": 50,
+      "vehicle_count_raw": 2,
       "ebay_item_id": "398264531664",
       "ebay_type": "CV Joint Boot Kit",
       "ebay_brand": "MOOG",
@@ -21875,7 +23632,7 @@
         "vehicle_labels": [
           "1982\u20131984 Chevrolet Cavalier"
         ],
-        "raw_compat_rows": 50,
+        "raw_compat_rows": 2,
         "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398264531664",
@@ -21923,7 +23680,7 @@
         "1982\u20131988 Volkswagen Quantum",
         "1982\u20131988 Volkswagen Scirocco"
       ],
-      "vehicle_count_raw": 631,
+      "vehicle_count_raw": 32,
       "ebay_item_id": "398264291029",
       "ebay_type": "CV Joint Boot Kit",
       "ebay_brand": "MOOG",
@@ -22123,7 +23880,7 @@
           "1982\u20131988 Volkswagen Quantum",
           "1982\u20131988 Volkswagen Scirocco"
         ],
-        "raw_compat_rows": 631,
+        "raw_compat_rows": 32,
         "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398264291029",
@@ -22150,7 +23907,7 @@
         "1986\u20131996 Acura Integra",
         "1986\u20131989 Honda Accord"
       ],
-      "vehicle_count_raw": 98,
+      "vehicle_count_raw": 4,
       "ebay_item_id": "398258717306",
       "ebay_type": "CV Boot Kit",
       "ebay_brand": "MOOG",
@@ -22189,7 +23946,7 @@
           "1986\u20131996 Acura Integra",
           "1986\u20131989 Honda Accord"
         ],
-        "raw_compat_rows": 98,
+        "raw_compat_rows": 4,
         "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398258717306",
@@ -22212,25 +23969,40 @@
         "4444, CV-4444, MOOG 4444, Precision 4444, 23222GA112"
       ],
       "interchange": [],
-      "vehicles": [],
-      "vehicle_count_raw": 0,
+      "vehicles": [
+        "Subaru GL"
+      ],
+      "vehicle_count_raw": 1,
       "ebay_item_id": "398258189714",
       "ebay_type": "CV Joint Boot Kit",
       "ebay_brand": "MOOG",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:CV Joints, Boots & Parts",
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "high",
+      "fitment_source": "ebay_listing+title",
+      "fitment_confidence": "medium",
       "fitment": {
         "part_numbers": [
           "CV4444",
           "4444, CV-4444, MOOG 4444, Precision 4444, 23222GA112"
         ],
         "interchange": [],
-        "vehicles": [],
-        "vehicle_labels": [],
-        "raw_compat_rows": 0,
-        "source": "ebay_listing",
-        "confidence": "high",
+        "vehicles": [
+          {
+            "year_from": null,
+            "year_to": null,
+            "make": "Subaru",
+            "model": "GL",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "Subaru GL"
+        ],
+        "raw_compat_rows": 1,
+        "source": "ebay_listing+title",
+        "confidence": "medium",
         "ebay_item_id": "398258189714",
         "type": "CV Joint Boot Kit",
         "brand": "MOOG",
@@ -22261,7 +24033,7 @@
         "1985\u20131989 Subaru GL",
         "1993\u20132004 Subaru Impreza"
       ],
-      "vehicle_count_raw": 337,
+      "vehicle_count_raw": 16,
       "ebay_item_id": "398265596504",
       "ebay_type": "CV Joint Boot Kit",
       "ebay_brand": "MOOG",
@@ -22366,7 +24138,7 @@
           "1985\u20131989 Subaru GL",
           "1993\u20132004 Subaru Impreza"
         ],
-        "raw_compat_rows": 337,
+        "raw_compat_rows": 16,
         "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398265596504",
@@ -22399,7 +24171,7 @@
         "1985\u20131989 Isuzu I-Mark",
         "1985\u20131988 Pontiac Sunburst"
       ],
-      "vehicle_count_raw": 54,
+      "vehicle_count_raw": 7,
       "ebay_item_id": "398264622996",
       "ebay_type": "CV Joint Boot Kit",
       "ebay_brand": "MOOG",
@@ -22464,7 +24236,7 @@
           "1985\u20131989 Isuzu I-Mark",
           "1985\u20131988 Pontiac Sunburst"
         ],
-        "raw_compat_rows": 54,
+        "raw_compat_rows": 7,
         "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398264622996",
@@ -22490,7 +24262,7 @@
         "1996\u20132007 Dodge Caravan",
         "1996\u20132000 Plymouth Voyager"
       ],
-      "vehicle_count_raw": 186,
+      "vehicle_count_raw": 4,
       "ebay_item_id": "398275452905",
       "ebay_type": "CV Boot Kit",
       "ebay_brand": "Moog",
@@ -22528,7 +24300,7 @@
           "1996\u20132007 Dodge Caravan",
           "1996\u20132000 Plymouth Voyager"
         ],
-        "raw_compat_rows": 186,
+        "raw_compat_rows": 4,
         "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398275452905",
@@ -22546,28 +24318,97 @@
       "category": "driveline",
       "checkout": true,
       "variation_id": "AZCKTNYMIU3LQ2FITAE55G3O",
-      "part_numbers": [],
+      "part_numbers": [
+        "CV8448",
+        "8448, CV-8448"
+      ],
       "interchange": [],
-      "vehicles": [],
-      "vehicle_count_raw": 0,
-      "ebay_item_id": "",
-      "ebay_type": "CV Boot",
-      "ebay_brand": "",
-      "ebay_category": "",
-      "fitment_source": "title",
-      "fitment_confidence": "low",
+      "vehicles": [
+        "1995\u20131997 Ford Contour",
+        "1986\u20131994 Ford Taurus",
+        "1995\u20131997 Mercury Mystique",
+        "1986\u20131994 Mercury Sable",
+        "1989\u20131991 Toyota Camry"
+      ],
+      "vehicle_count_raw": 278,
+      "ebay_item_id": "398264327564",
+      "ebay_type": "CV Joint Boot Kit",
+      "ebay_brand": "MOOG",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:CV Joints, Boots & Parts",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
       "fitment": {
-        "part_numbers": [],
+        "part_numbers": [
+          "CV8448",
+          "8448, CV-8448"
+        ],
         "interchange": [],
-        "vehicles": [],
-        "vehicle_labels": [],
-        "raw_compat_rows": 0,
-        "source": "title",
-        "confidence": "low",
-        "ebay_item_id": "",
-        "type": "CV Boot",
-        "brand": "",
-        "ebay_category": ""
+        "vehicles": [
+          {
+            "year_from": 1995,
+            "year_to": 1997,
+            "make": "Ford",
+            "model": "Contour",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1986,
+            "year_to": 1994,
+            "make": "Ford",
+            "model": "Taurus",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1995,
+            "year_to": 1997,
+            "make": "Mercury",
+            "model": "Mystique",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1986,
+            "year_to": 1994,
+            "make": "Mercury",
+            "model": "Sable",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1989,
+            "year_to": 1991,
+            "make": "Toyota",
+            "model": "Camry",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1995\u20131997 Ford Contour",
+          "1986\u20131994 Ford Taurus",
+          "1995\u20131997 Mercury Mystique",
+          "1986\u20131994 Mercury Sable",
+          "1989\u20131991 Toyota Camry"
+        ],
+        "raw_compat_rows": 278,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398264327564",
+        "type": "CV Joint Boot Kit",
+        "brand": "MOOG",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:CV Joints, Boots & Parts"
       }
     },
     {
@@ -22584,25 +24425,40 @@
         "Speedi-Boot 03602, Dorman 03602, 44018-SR1-901"
       ],
       "interchange": [],
-      "vehicles": [],
-      "vehicle_count_raw": 0,
+      "vehicles": [
+        "1992\u20131997 GM"
+      ],
+      "vehicle_count_raw": 1,
       "ebay_item_id": "398258161739",
       "ebay_type": "CV Joint Boot Kit \u2014 Outer, Bolted Split Boot",
       "ebay_brand": "Motormite",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:CV Joints, Boots & Parts",
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "high",
+      "fitment_source": "ebay_listing+title",
+      "fitment_confidence": "medium",
       "fitment": {
         "part_numbers": [
           "03602",
           "Speedi-Boot 03602, Dorman 03602, 44018-SR1-901"
         ],
         "interchange": [],
-        "vehicles": [],
-        "vehicle_labels": [],
-        "raw_compat_rows": 0,
-        "source": "ebay_listing",
-        "confidence": "high",
+        "vehicles": [
+          {
+            "year_from": 1992,
+            "year_to": 1997,
+            "make": "GM",
+            "model": "",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1992\u20131997 GM"
+        ],
+        "raw_compat_rows": 1,
+        "source": "ebay_listing+title",
+        "confidence": "medium",
         "ebay_item_id": "398258161739",
         "type": "CV Joint Boot Kit \u2014 Outer, Bolted Split Boot",
         "brand": "Motormite",
@@ -22623,25 +24479,64 @@
         "Speedi-Boot 03603, Dorman 03603, 9903600A"
       ],
       "interchange": [],
-      "vehicles": [],
-      "vehicle_count_raw": 0,
+      "vehicles": [
+        "Ford",
+        "Mercury",
+        "Toyota"
+      ],
+      "vehicle_count_raw": 3,
       "ebay_item_id": "398258151978",
       "ebay_type": "CV Joint Boot Kit \u2014 Outer, Bolted Split (no hardware)",
       "ebay_brand": "Motormite",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:CV Joints, Boots & Parts",
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "high",
+      "fitment_source": "ebay_listing+title",
+      "fitment_confidence": "medium",
       "fitment": {
         "part_numbers": [
           "03603",
           "Speedi-Boot 03603, Dorman 03603, 9903600A"
         ],
         "interchange": [],
-        "vehicles": [],
-        "vehicle_labels": [],
-        "raw_compat_rows": 0,
-        "source": "ebay_listing",
-        "confidence": "high",
+        "vehicles": [
+          {
+            "year_from": null,
+            "year_to": null,
+            "make": "Ford",
+            "model": "",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": null,
+            "year_to": null,
+            "make": "Mercury",
+            "model": "",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": null,
+            "year_to": null,
+            "make": "Toyota",
+            "model": "",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "Ford",
+          "Mercury",
+          "Toyota"
+        ],
+        "raw_compat_rows": 3,
+        "source": "ebay_listing+title",
+        "confidence": "medium",
         "ebay_item_id": "398258151978",
         "type": "CV Joint Boot Kit \u2014 Outer, Bolted Split (no hardware)",
         "brand": "Motormite",
@@ -22820,7 +24715,7 @@
         "1986\u20131990 Ford Bronco II",
         "1986\u20131990 Ford Ranger"
       ],
-      "vehicle_count_raw": 207,
+      "vehicle_count_raw": 4,
       "ebay_item_id": "398264989890",
       "ebay_type": "Exhaust Gasket",
       "ebay_brand": "AP Exhaust",
@@ -22859,7 +24754,7 @@
           "1986\u20131990 Ford Bronco II",
           "1986\u20131990 Ford Ranger"
         ],
-        "raw_compat_rows": 207,
+        "raw_compat_rows": 4,
         "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398264989890",
@@ -22897,7 +24792,7 @@
         "1990\u20131995 Plymouth Acclaim",
         "1984\u20131989 Plymouth Caravelle"
       ],
-      "vehicle_count_raw": 424,
+      "vehicle_count_raw": 28,
       "ebay_item_id": "398274970274",
       "ebay_type": "Headlight Switch",
       "ebay_brand": "Borg Warner",
@@ -23067,7 +24962,7 @@
           "1990\u20131995 Plymouth Acclaim",
           "1984\u20131989 Plymouth Caravelle"
         ],
-        "raw_compat_rows": 424,
+        "raw_compat_rows": 28,
         "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398274970274",
@@ -23139,7 +25034,7 @@
       "vehicles": [
         "1981 Pontiac Grand Prix"
       ],
-      "vehicle_count_raw": 12,
+      "vehicle_count_raw": 1,
       "ebay_item_id": "398275008039",
       "ebay_type": "Air Injection Manifold / Pipe",
       "ebay_brand": "Dorman",
@@ -23169,7 +25064,7 @@
         "vehicle_labels": [
           "1981 Pontiac Grand Prix"
         ],
-        "raw_compat_rows": 12,
+        "raw_compat_rows": 1,
         "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398275008039",
@@ -23196,7 +25091,7 @@
       "ebay_item_id": "398268278207",
       "ebay_type": "Headlight Switch",
       "ebay_brand": "Fair Sun",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Other Car & Truck Parts & Accessories",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Interior Parts & Accessories:Switches & Controls",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "medium",
       "fitment": {
@@ -23212,9 +25107,9 @@
         "ebay_item_id": "398268278207",
         "type": "Headlight Switch",
         "brand": "Fair Sun",
-        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Other Car & Truck Parts & Accessories"
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Interior Parts & Accessories:Switches & Controls"
       }
     }
   ],
-  "fitment_built": "2026-08-15T20:03:37Z"
+  "fitment_built": "2026-08-15T20:59:30Z"
 }

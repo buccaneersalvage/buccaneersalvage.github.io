@@ -89,18 +89,46 @@ def _split_pns(val):
     return [p.strip() for p in re.split(r"[,;/|]+", str(val)) if p.strip()]
 
 
+_NAME_PN_RES = (
+    re.compile(r"\bWIX\s+\d{4,6}\b", re.I),
+    re.compile(r"\bMOOG\s+CV\d+\b", re.I),
+    re.compile(r"\bCloyes\s+[A-Z]-?\d{2,4}\b", re.I),
+    re.compile(r"\bStandard\s+JH\d+\b", re.I),
+    re.compile(r"\bPace\s*Setter\s+DR-?\d+\b", re.I),
+    re.compile(r"\b8VBB-1100\b", re.I),
+    re.compile(r"\b780068P\b", re.I),
+    re.compile(r"\bKW14\b", re.I),
+)
+
+
+def pns_from_name(name):
+    """PNs already printed in the listing title. Display only. Not vehicle fitment."""
+    s = str(name or "")
+    out = []
+    for rx in _NAME_PN_RES:
+        out.extend(m.group(0).strip() for m in rx.finditer(s))
+    return _uniq_keep(out)
+
+
 def item_part_numbers(item):
     fit = item.get("fitment") if isinstance(item.get("fitment"), dict) else {}
-    return _uniq_keep(_split_pns(item.get("part_numbers")) + _split_pns(fit.get("part_numbers")))
+    return _uniq_keep(
+        _split_pns(item.get("part_numbers"))
+        + _split_pns(fit.get("part_numbers"))
+        + pns_from_name(item.get("name"))
+    )
 
 
 def item_display_pns(item):
     """Primary part numbers only. Extra comma-blobs in later list entries are xrefs."""
     raw = item.get("part_numbers")
     if isinstance(raw, list) and raw:
-        first = _split_pns(raw[0])
+        first = _uniq_keep(_split_pns(raw[0]))
         if first:
             return first
+    named = pns_from_name(item.get("name"))
+    if named:
+        return named
     all_pns = item_part_numbers(item)
     return all_pns[:1] if all_pns else []
 
@@ -579,7 +607,7 @@ def main() -> None:
   <meta name="twitter:image" content="{esc(img)}" />
   <link rel="icon" type="image/jpeg" href="../assets/crest-rustjack-web.jpg" />
   <link rel="stylesheet" href="../assets/fonts.css" />
-  <link rel="stylesheet" href="../styles.css?v=godmode15" />
+  <link rel="stylesheet" href="../styles.css?v=godmode17" />
   <script type="application/ld+json">{schema_json}</script>
   <script src="../pdp-gallery.js" defer></script>
   <script src="../main.js" defer></script>
