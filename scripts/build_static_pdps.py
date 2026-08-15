@@ -218,22 +218,38 @@ def main() -> None:
             if is_core(item.get("category"))
             else ""
         )
-        img_tag = f'<img class="pdp-image" src="{esc(img)}" alt="{esc(name)}" width="600" height="600" />'
-        gallery_tag = ""
-        if gallery:
-            thumbs = "".join(
-                f'<a class="pdp-thumb-link" href="{esc(u)}" target="_blank" rel="noopener noreferrer">'
-                f'<img class="pdp-thumb" src="{esc(u)}" alt="{esc(name)} — additional photo" '
-                f'width="100" height="100" loading="lazy" /></a>'
-                for u in gallery
-            )
-            gallery_tag = f'<div class="pdp-gallery">{thumbs}</div>'
-        video_tag = (
-            f'<div class="pdp-video-wrapper"><video class="pdp-video" controls preload="metadata" '
-            f'poster="{esc(img)}"><source src="{esc(f"../{video}")}" type="video/mp4" />'
-            f"Your browser doesn't support embedded video."
-            f"</video></div>"
+        img_tag = f'<img id="pdpMainImage" class="pdp-image" src="{esc(img)}" alt="{esc(name)}" width="600" height="600" />'
+        video_el = (
+            f'<video id="pdpMainVideo" class="pdp-video" controls preload="metadata" '
+            f'poster="{esc(img)}" hidden><source src="{esc(f"../{video}")}" type="video/mp4" />'
+            f"Your browser doesn't support embedded video.</video>"
             if video
+            else ""
+        )
+        # Thumbnails are buttons, not links — clicking swaps the stage in place
+        # (pdp-gallery.js) instead of opening a new tab. Hero photo first
+        # (starts active), then the rest of the gallery, then video last.
+        thumbs = (
+            f'<button type="button" class="pdp-thumb-btn is-active" data-type="image" '
+            f'data-src="{esc(img)}" aria-label="{esc_t(name)} — main photo">'
+            f'<img class="pdp-thumb" src="{esc(img)}" alt="" width="100" height="100" loading="lazy" /></button>'
+        )
+        thumbs += "".join(
+            f'<button type="button" class="pdp-thumb-btn" data-type="image" data-src="{esc(u)}" '
+            f'aria-label="{esc_t(name)} — additional photo">'
+            f'<img class="pdp-thumb" src="{esc(u)}" alt="" width="100" height="100" loading="lazy" /></button>'
+            for u in gallery
+        )
+        if video:
+            thumbs += (
+                f'<button type="button" class="pdp-thumb-btn pdp-thumb-video" data-type="video" '
+                f'aria-label="{esc_t(name)} — test-run video">'
+                f'<img class="pdp-thumb" src="{esc(img)}" alt="" width="100" height="100" loading="lazy" />'
+                f'<span class="pdp-thumb-play" aria-hidden="true">&#9654;</span></button>'
+            )
+        gallery_tag = (
+            f'<div class="pdp-gallery" role="group" aria-label="Product photos and video">{thumbs}</div>'
+            if (gallery or video)
             else ""
         )
         page = f"""<!DOCTYPE html>
@@ -264,6 +280,7 @@ def main() -> None:
   <link rel="stylesheet" href="../assets/fonts.css" />
   <link rel="stylesheet" href="../styles.css?v=godmode7" />
   <script type="application/ld+json">{json.dumps(schema, ensure_ascii=False)}</script>
+  <script src="../pdp-gallery.js" defer></script>
 </head>
 <body class="page-item">
   <a class="skip-link" href="#main">Skip to content</a>
@@ -295,7 +312,7 @@ def main() -> None:
     </section>
     <section class="pdp-content">
       <div class="shell pdp-layout">
-        <div class="pdp-media"><div class="pdp-image-wrapper">{img_tag}</div>{gallery_tag}{video_tag}</div>
+        <div class="pdp-media"><div class="pdp-stage">{img_tag}{video_el}</div>{gallery_tag}</div>
         <div class="pdp-info">
           <h1 class="pdp-title">{esc_t(name)}</h1>
           <p class="pdp-category">{esc_t(catl)}</p>

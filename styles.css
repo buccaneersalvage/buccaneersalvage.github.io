@@ -2030,10 +2030,10 @@ ul.pagination .disabled .page {
   align-items: center;
   gap: 1.5rem;
 }
-.pdp-image-wrapper {
+.pdp-stage {
+  position: relative;
   width: 100%;
   max-width: 500px;
-  aspect-ratio: 1;
   background: rgba(212, 175, 55, 0.05);
   border-radius: 8px;
   overflow: hidden;
@@ -2041,10 +2041,12 @@ ul.pagination .disabled .page {
   align-items: center;
   justify-content: center;
 }
-.pdp-image {
+.pdp-image,
+.pdp-video {
   width: 100%;
-  height: 100%;
-  object-fit: cover;
+  max-height: 520px;
+  height: auto;
+  object-fit: contain;
   display: block;
 }
 .pdp-gallery {
@@ -2055,7 +2057,8 @@ ul.pagination .disabled .page {
   width: 100%;
   max-width: 500px;
 }
-.pdp-thumb-link {
+.pdp-thumb-btn {
+  position: relative;
   display: block;
   width: 72px;
   height: 72px;
@@ -2064,6 +2067,17 @@ ul.pagination .disabled .page {
   background: rgba(212, 175, 55, 0.05);
   border: 1px solid rgba(212, 175, 55, 0.15);
   flex-shrink: 0;
+  padding: 0;
+  cursor: pointer;
+  transition: border-color 0.15s ease;
+}
+.pdp-thumb-btn:hover,
+.pdp-thumb-btn:focus-visible {
+  border-color: rgba(212, 175, 55, 0.5);
+}
+.pdp-thumb-btn.is-active {
+  border-color: #d4af37;
+  border-width: 2px;
 }
 .pdp-thumb {
   width: 100%;
@@ -2071,17 +2085,16 @@ ul.pagination .disabled .page {
   object-fit: cover;
   display: block;
 }
-.pdp-video-wrapper {
-  width: 100%;
-  max-width: 360px;
-  background: rgba(212, 175, 55, 0.05);
-  border-radius: 8px;
-  overflow: hidden;
-}
-.pdp-video {
-  width: 100%;
-  display: block;
-  border-radius: 8px;
+.pdp-thumb-play {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 1.1rem;
+  background: rgba(0, 0, 0, 0.35);
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.6);
 }
 
 .pdp-info {
