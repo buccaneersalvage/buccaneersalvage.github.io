@@ -28,8 +28,8 @@
           if (videoEl && !videoEl.paused) videoEl.pause();
           if (videoEl) videoEl.hidden = true;
           imgEl.hidden = false;
-          const src = btn.dataset.src;
-          if (src) imgEl.src = src;
+          const src = btn.dataset.src || "";
+          if (/^https:\/\//i.test(src)) imgEl.src = src;
         }
       });
     });

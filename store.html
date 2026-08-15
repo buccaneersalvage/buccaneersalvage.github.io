@@ -10,7 +10,7 @@
   <meta name="apple-mobile-web-app-title" content="BS Store" />
   <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1" />
   <meta name="theme-color" content="#0c0a08" />
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; font-src 'self' data:; connect-src 'self'; base-uri 'self'; form-action 'self'; object-src 'none';" />
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://items-images-production.s3.us-west-2.amazonaws.com https://*.s3.us-west-2.amazonaws.com https://*.s3.amazonaws.com https://*.squareup.com https://*.squarecdn.com; font-src 'self' data:; connect-src 'self'; base-uri 'self'; form-action 'self'; object-src 'none';" />
   <meta http-equiv="X-Content-Type-Options" content="nosniff" />
   <meta name="referrer" content="strict-origin-when-cross-origin" />
   <link rel="canonical" href="https://buccaneersalvage.github.io/store.html" />
@@ -37,7 +37,7 @@
   <link rel="apple-touch-icon" href="assets/crest-rustjack-web.jpg" />
   <link rel="preload" href="assets/fonts.css" as="style" />
   <link rel="stylesheet" href="assets/fonts.css" />
-  <link rel="stylesheet" href="styles.css?v=godmode7" />
+  <link rel="stylesheet" href="styles.css?v=godmode9" />
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -114,7 +114,9 @@
         <a href="store.html" aria-current="page">Store</a>
         <a href="terms.html">Terms</a>
         <a href="videos.html">Music library</a>
-        <a href="https://www.ebay.com/str/buccaneersalvage" target="_blank" rel="noopener noreferrer">eBay</a>
+        <a class="nav-port" href="https://www.youtube.com/@BuccaneerSalvage" target="_blank" rel="noopener noreferrer"><img class="nav-port-icon" src="assets/nav/youtube-pirate.webp" width="22" height="22" alt="" />YouTube</a>
+        <a class="nav-port" href="https://x.com/jollyroger1480" target="_blank" rel="noopener noreferrer"><img class="nav-port-icon" src="assets/nav/x-pirate.webp" width="22" height="22" alt="" />X</a>
+        <a class="nav-port" href="https://www.ebay.com/str/buccaneersalvage" target="_blank" rel="noopener noreferrer"><img class="nav-port-icon" src="assets/nav/ebay-pirate.webp" width="22" height="22" alt="" />eBay</a>
         <a href="/ukiri/" class="nav-warn">Ukiri Fraud Report</a>
       </nav>
       <a class="nav-cta" href="#catalog">Shop parts</a>
@@ -127,7 +129,9 @@
       <a href="store.html" aria-current="page">Store catalog</a>
       <a href="terms.html">Terms &amp; returns</a>
       <a href="videos.html">Music library</a>
-      <a href="https://www.ebay.com/str/buccaneersalvage" target="_blank" rel="noopener noreferrer">eBay store</a>
+      <a class="nav-port" href="https://www.youtube.com/@BuccaneerSalvage" target="_blank" rel="noopener noreferrer"><img class="nav-port-icon" src="assets/nav/youtube-pirate.webp" width="22" height="22" alt="" />YouTube</a>
+      <a class="nav-port" href="https://x.com/jollyroger1480" target="_blank" rel="noopener noreferrer"><img class="nav-port-icon" src="assets/nav/x-pirate.webp" width="22" height="22" alt="" />X</a>
+      <a class="nav-port" href="https://www.ebay.com/str/buccaneersalvage" target="_blank" rel="noopener noreferrer"><img class="nav-port-icon" src="assets/nav/ebay-pirate.webp" width="22" height="22" alt="" />eBay store</a>
       <a href="/ukiri/">Ukiri Fraud Report</a>
     </div>
   </header>
@@ -224,6 +228,7 @@
                   <button type="button" class="st-chip" data-filter="ignition" aria-pressed="false">Ignition <span class="st-chip-n" data-count="ignition">0</span></button>
                   <button type="button" class="st-chip" data-filter="driveline" aria-pressed="false">Driveline <span class="st-chip-n" data-count="driveline">0</span></button>
                   <button type="button" class="st-chip" data-filter="cores" aria-pressed="false">Cores <span class="st-chip-n" data-count="cores">0</span></button>
+                  <button type="button" class="st-chip" data-filter="vintage" aria-pressed="false">Vintage <span class="st-chip-n" data-count="vintage">0</span></button>
                   <button type="button" class="st-chip" data-filter="other" aria-pressed="false">Other <span class="st-chip-n" data-count="other">0</span></button>
                 </div>
               </div>
@@ -346,6 +351,6 @@
 
   <script src="main.js" defer></script>
   <script src="assets/vendor/list.min.js" defer></script>
-  <script src="store.js?v=godmode26" defer></script>
+  <script src="store.js?v=godmode28" defer></script>
 </body>
 </html>

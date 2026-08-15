@@ -219,6 +219,26 @@ ul { list-style: none; }
   color: var(--parchment);
   background: rgba(255, 255, 255, 0.04);
 }
+.nav-links a.nav-port,
+.nav-drawer a.nav-port {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding-inline: 0.55rem;
+}
+.nav-drawer a.nav-port {
+  display: flex;
+  width: 100%;
+  box-sizing: border-box;
+}
+.nav-port-icon {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+  box-shadow: 0 0 0 1px rgba(197, 160, 40, 0.4);
+}
 .nav-cta {
   display: inline-flex;
   align-items: center;

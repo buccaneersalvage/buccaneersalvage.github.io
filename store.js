@@ -107,6 +107,7 @@
       driveline: "Driveline",
       turbo: "Turbo core",
       pump: "Pump core",
+      vintage: "Vintage",
       other: "Parts",
     }[c] || "Parts");
 
@@ -121,12 +122,7 @@
     return escapeHtml(s).replace(/'/g, "&#39;");
   }
 
-  function safeUrl(u) {
-    const s = String(u || "").trim();
-    return /^https?:\/\//i.test(s) ? s : "#";
-  }
-
-  /** Product images: self host + Square CDN / common S3 (parity with item.js). */
+  /** Product images: self host + Square CDN / common S3 (parity with static p/ PDPs). */
   function safeImageUrl(u) {
     const s = String(u || "").trim();
     if (!/^https?:\/\//i.test(s)) return "";
@@ -145,16 +141,21 @@
     return "";
   }
 
-  /** Self-hosted thumbs generated for catalog IDs (see assets/product-thumbs/). */
-  const PRODUCT_THUMBS = new Set(["S4IZBA4AG65C6HI2ZDIRMSJR", "AGEWYOLANWBWUWDDESOE3EIG", "5LLWTR3B27YDLV6ZR6XMBPWL", "R6VO2MARXN7GRGTMXVGABLHT", "AZNN7T4GEP4SBDATK42PTAUJ", "XFXQE4DMDFWZDO6TVOL6DEYD", "U7WKMHOVTIULP53SYVFR773L", "5JADFNOGZU4ORSIITZGU6T3I", "SGQLZ66HITIZULIJIW7NQ27F", "VWXBTBCTIL7WXP2Q7DSE3JHD", "XH7TUMSNXXRPP27X4TVSG7IR", "63GLHEZRBSGQMW33N4D6AWUT", "FCIYTGLD3XXOCK65EW6MFRFY", "YNXPTKKZK2DQPVY5SQOL7EP7", "XD3NH6SD2YVX3AE4LAZYCFEM", "QIJQVWWEI5FXTGFGA3C6HFM3", "KJXHVTX3TEN3CUT4DTZVWRPP", "AEMLPQMKGGVAO6IAQXSCM2S5", "CQKA7SGC6VXWPEFAEQMCCWKK", "WJBEKHBAYPDY23OGOOUNLSRL", "X3NUIYYQZFUW6KWQVTHBVSBT", "7NAXP4RPHKF5YNTTVR65YYFC", "MJAQDKIB2WT55I26Q552PZXS", "Z3S5C52OCR573HJST6YMBFIL", "JOKFCJA262HASHZA22GRSWJN", "2FVY6OUQDM3PKSGRDEIR62X4", "W2ILAVDVIPQAQS6GBTCIERZH", "HGCIRMAUON4CWAJQHKZ6ZULM", "D4ZN6XUVYQDDEAEE7WMZBY37", "EDGQUKVAWVX7M537BWG4FDPA", "V5NGDEKHEKPFMAHEISR3EENN", "4BPOTYXZ43SLCQCEFZWNB45N", "Y6M4E3EQLZL24OW2FRCYAPTI", "LNLXWYITGZSNJI77RVDIUSN3", "22S6AUYVQYTT4I67AH6ZG2V7", "7JU633SJEPA6QOMRAHJ3OB3T", "QONRZTGROGA27RO7HMZAFW4C", "ANR3BBW6OOATXTZGVDUJPH52", "SXESABEQ2LVDHXMEKH2JEHVF", "GGLHED43Y7A46CBFE2DY5FPY", "4B6JFECIGLWPRT2FZDFTEQQ7", "S4BE3QQTDYS7EDGCVVYMROID", "M3Z2BJDH5EPFYABLLZPDUTWJ", "VT32GAYJXZR7RYOQVHVZHKS2", "SCZQEUWMBB4U5WK65UMMW5UP", "P4ZTODX5NKR42HZA4IAPFTOK", "KN7R2NFJUHA6U6BNO2WTN7EU", "DZNQEVC74YL2E6SWJ3FYFLFL", "QMBDXKEAMPHIUN2J7KACJMOF", "C2V65AJ6VSMMSCIJ5JW6UFLX", "NXP65X4BVMZJDKW5BPUS7V55", "7ZJVONEVIV3FVT3FAWETNWQW", "C2LKTK5OKSGH3QPILFO4AWBE", "7FPKAWIESMAQJKSS2EAJKFD4", "2FZFMLMESYCNR7TBIGE47XGL", "I36VKJZGX6Z57IBLNXMUN2NU", "ZPXYRDQRMNYYU7OJRVP7QLM2", "772E3FGP4EQF743Q4BVQX4PH", "VFED2WSLJBERZFVVSCX2ON7X", "7RAUHXIOW4TEBC5SRBCGTOA7", "JUTLODEIKQIBLVUUCGNHO3SS", "WOJXBQC7VPSEJP7GW6PVOUKM", "SQRSJTMYJ5NBRMRQMFJWJJDH", "7FBVPLQXCVT425MXBO7FPT4X", "SANPBEMDHQIV2SJMCCLHBP2J", "2FHOOMAG7ITLKRVTEZEFXQXB", "S3UB27RNQJ7N5FFV6XGZYAIJ", "DOSHB75JVLQCQ3DTEUXI7RFG", "3WGRNSNM7YRYRFTIZUPFRDWL", "YUE4BUX4MHLAIFD7SJQHN3DT", "56GXRPYVBJM2GXYYVTXP4ORY", "OBFDECUAZPN4KJPULBJSF77E", "MVORQ6SQ7RP5JWOPX7ULXKUU", "E4FVHDJYHINOZ4RGHAIINOYW", "7EXQLYTFI6F2NWZ2535TO6KR", "WWT36JXFOVHFIPPT7OXWBUTF", "PDNCGK5GZLLDUON7DLWH5XJ6", "QQ4UASMFRAGBOQ3EF5OZGK3D", "VVJ5DBQ6U4A7PU2A3P5SCSHS", "7QVRIXU7MJO67CDOOVA5ODR4", "GCYBELIKT4IDG4FXQEUQZM2O", "OIEKBY47T4B7SOUC5WDL34PA", "DPRSU7RX4SKAHPRFDDTPFKZR", "EZW5JY5PWZJO4PH5R2TQGYC3", "LI7R7ABGGB2TXJQUEGHG5TRX"]);
-
-  /** Prefer self-hosted 400² WebP thumbs (LH image-delivery); fall back to Square original. */
+  /** Prefer self-hosted 400² WebP thumbs; missing files fall back via data-fallback. */
   function cardImageUrl(item) {
     const id = String(item && item.id || "").trim();
-    if (id && PRODUCT_THUMBS.has(id)) {
-      return `assets/product-thumbs/${id}.webp`;
-    }
-    return safeImageUrl(item && item.image);
+    return id ? `assets/product-thumbs/${id}.webp` : "";
+  }
+
+  function bindThumbFallbacks(root) {
+    if (!root) return;
+    root.querySelectorAll("img.st-img[data-fallback]").forEach((img) => {
+      img.addEventListener("error", () => {
+        const next = img.getAttribute("data-fallback") || "";
+        img.removeAttribute("data-fallback");
+        if (next && next !== img.getAttribute("src")) img.src = next;
+      });
+    });
   }
 
   function rankCat(c) {
@@ -166,7 +167,8 @@
       filters: 4,
       ignition: 5,
       driveline: 6,
-      other: 7,
+      vintage: 7,
+      other: 8,
     }[c] ?? 9;
   }
 
@@ -360,12 +362,15 @@
     const core = isCore(item);
     const href = `p/${encodeURIComponent(item.id)}.html`;
     // Prefer local thumb; else Square original. No inline onerror (CSP script-src 'self').
-    const imgUrl = cardImageUrl(item) || safeImageUrl(item.image);
+    const imgUrl = cardImageUrl(item);
+    const fallback = safeImageUrl(item && item.image);
     const price = item.price != null ? Number(item.price) : "";
     const priceLabel = money(item.price);
     const imgAlt = (item.name || catLabel(item.category) || "Part").slice(0, 120);
     const img = imgUrl
-      ? `<img class="st-img" src="${escapeAttr(imgUrl)}" alt="${escapeAttr(imgAlt)}" width="400" height="400" loading="${featured ? "eager" : "lazy"}" decoding="async"${featured ? ' fetchpriority="high"' : ""} />`
+      ? `<img class="st-img" src="${escapeAttr(imgUrl)}"${fallback ? ` data-fallback="${escapeAttr(fallback)}"` : ""} alt="${escapeAttr(imgAlt)}" width="400" height="400" loading="${featured ? "eager" : "lazy"}" decoding="async"${featured ? ' fetchpriority="high"' : ""} />`
+      : fallback
+      ? `<img class="st-img" src="${escapeAttr(fallback)}" alt="${escapeAttr(imgAlt)}" width="400" height="400" loading="${featured ? "eager" : "lazy"}" decoding="async"${featured ? ' fetchpriority="high"' : ""} />`
       : `<div class="st-card-ph" aria-hidden="true">—</div>`;
     const ribbon = core ? `<span class="st-ribbon">FOR PARTS · NO RETURNS</span>` : "";
     const warn = core ? `<p class="st-warn">${escapeHtml(CORE_WARN)}</p>` : "";
@@ -404,6 +409,7 @@
       filters: 0,
       ignition: 0,
       driveline: 0,
+      vintage: 0,
       cores: 0,
       other: 0,
       all: catalog.length,
@@ -571,6 +577,7 @@
         (a.name || "").localeCompare(b.name || "")
     );
     grid.innerHTML = ordered.map((i) => cardHtml(i)).join("");
+    bindThumbFallbacks(grid);
 
     // List.js: { data: ['price'] } reads data-price on the item root.
     // ({ name, attr } reads attr from a *child* with class=name — easy footgun.)

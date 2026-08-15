@@ -20,6 +20,30 @@ def money(n):
         return ""
 
 
+def pdp_desc(item, name, catl, price, custom_warn):
+    """Per-item meta/schema copy from real catalog fields — not one identical
+    'Browse and secure checkout' line on all 198 pages."""
+    brand = brand_guess(item)
+    if custom_warn:
+        cond = custom_warn.replace(" — ", ". ").replace(" · ", ". ")
+        lead = f"{name}. {cond}."
+    elif is_core(item.get("category")):
+        lead = f"{name}. Untested {catl.lower()} core for parts or rebuild. No returns."
+    elif brand and brand != "BuccaneerSalvage Store" and brand.lower() not in name.lower():
+        lead = f"{name}. {brand} {catl.lower()} from BuccaneerSalvage yard stock."
+    else:
+        lead = f"{name}. {catl} from BuccaneerSalvage yard stock."
+    if price:
+        lead = f"{lead} {price}."
+    if pickup_only(custom_warn):
+        return f"{lead} Pickup only by appointment in Carbondale, PA."
+    return f"{lead} Ships US-wide or pickup by appointment in Carbondale, PA."
+
+
+def pickup_only(warn):
+    return bool(re.search(r"pickup only|no shipping", str(warn or ""), re.I))
+
+
 def cat_label(c):
     return {
         "air-spring": "Air spring",
@@ -29,6 +53,7 @@ def cat_label(c):
         "driveline": "Driveline",
         "turbo": "Turbo core",
         "pump": "Pump core",
+        "vintage": "Vintage",
         "other": "Parts",
     }.get(c, "Parts")
 
@@ -40,7 +65,7 @@ def is_core(c):
 _BRAND_RE = re.compile(
     r"^(?:OEM\s+)?(Carlson|Automann|Goodyear|Continental|ContiTech|Firestone|Holset|"
     r"Mack|Wagner|Econoride|WIX|Standard(?:\s+Motor\s+Products)?|Moog|Beck/Arnley|"
-    r"Cloyes|Pace\s?Setter|AP\s+Exhaust)\b",
+    r"Cloyes|Pace\s?Setter|AP\s+Exhaust|Medline|Masi)\b",
     re.I,
 )
 
@@ -191,6 +216,12 @@ def main() -> None:
         # would say "UNTESTED" even on an item that was run on video.
         custom_warn = str(item.get("condition_warning") or "").strip()
         no_returns = is_core(item.get("category")) or bool(custom_warn)
+        pickup = pickup_only(custom_warn)
+        ship_from = (
+            "Pickup only — Carbondale, PA 18407. No shipping."
+            if pickup
+            else "Carbondale, PA 18407"
+        )
         # Google truncates SERP titles around ~60 chars. Catalog product names
         # (sourced from eBay listing titles) commonly run 60-100+ chars on
         # their own — appending " | BuccaneerSalvage Store" (24 chars) to an
@@ -200,7 +231,7 @@ def main() -> None:
         # name still appears via og:site_name / structured data either way.
         _BRAND_SUFFIX = " | BuccaneerSalvage Store"
         title = name if len(name) + len(_BRAND_SUFFIX) > 60 else f"{name}{_BRAND_SUFFIX}"
-        desc = f"{name} — {catl}. {price}. Browse and secure checkout at BuccaneerSalvage Store."
+        desc = pdp_desc(item, name, catl, price, custom_warn)
         canonical = f"{BASE}/p/{iid}.html"
         schema = {
             "@context": "https://schema.org",
@@ -228,21 +259,29 @@ def main() -> None:
                     "name": "BuccaneerSalvage Store",
                     "url": f"{BASE}/store.html",
                 },
-                "shippingDetails": offer_shipping_details(),
                 "hasMerchantReturnPolicy": offer_return_policy(item.get("category"), force_no_returns=no_returns),
             },
         }
+        if not pickup:
+            schema["offers"]["shippingDetails"] = offer_shipping_details()
         if price_n is not None:
             schema["offers"]["price"] = str(price_n)
         if video:
+            clip = HUB / video
+            upload = (
+                date.fromtimestamp(clip.stat().st_mtime).isoformat()
+                if clip.is_file()
+                else None
+            )
             schema["video"] = {
                 "@type": "VideoObject",
                 "name": f"{name} — test run",
                 "description": f"Test-run clip of {name}.",
                 "thumbnailUrl": [img],
-                "uploadDate": "2026-08-14",
                 "contentUrl": f"{BASE}/{video}",
             }
+            if upload:
+                schema["video"]["uploadDate"] = upload
 
         # json.dumps does not escape "<" — a catalog item `name` containing
         # "</script><script>..." (or just "</script><meta http-equiv=refresh...")
@@ -315,7 +354,7 @@ def main() -> None:
   <meta name="description" content="{esc(desc)}" />
   <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1" />
   <meta name="theme-color" content="#0c0a08" />
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; font-src 'self' data:; connect-src 'self'; base-uri 'self'; form-action 'self'; object-src 'none';" />
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://items-images-production.s3.us-west-2.amazonaws.com https://*.s3.us-west-2.amazonaws.com https://*.s3.amazonaws.com https://*.squareup.com https://*.squarecdn.com; media-src 'self'; font-src 'self' data:; connect-src 'self'; base-uri 'self'; form-action 'self'; object-src 'none';" />
   <meta http-equiv="X-Content-Type-Options" content="nosniff" />
   <meta name="referrer" content="strict-origin-when-cross-origin" />
   <link rel="canonical" href="{esc(canonical)}" />
@@ -332,16 +371,17 @@ def main() -> None:
   <meta name="twitter:image" content="{esc(img)}" />
   <link rel="icon" type="image/jpeg" href="../assets/crest-rustjack-web.jpg" />
   <link rel="stylesheet" href="../assets/fonts.css" />
-  <link rel="stylesheet" href="../styles.css?v=godmode7" />
+  <link rel="stylesheet" href="../styles.css?v=godmode9" />
   <script type="application/ld+json">{schema_json}</script>
   <script src="../pdp-gallery.js" defer></script>
+  <script src="../main.js" defer></script>
 </head>
 <body class="page-item">
   <a class="skip-link" href="#main">Skip to content</a>
-  <header class="nav is-solid" role="banner">
+  <header class="nav is-solid" role="banner" id="nav">
     <div class="nav-inner">
       <a class="nav-brand" href="../store.html" aria-label="BuccaneerSalvage Store home">
-        <img class="nav-mark" src="../assets/crest-rustjack-web.jpg" width="38" height="38" alt="BuccaneerSalvage Jolly Roger logo" />
+        <picture><source type="image/webp" srcset="../assets/crest-rustjack-web.webp" /><img class="nav-mark" src="../assets/crest-rustjack-web.jpg" width="38" height="38" alt="BuccaneerSalvage Jolly Roger logo" /></picture>
         <span class="nav-word">BuccaneerSalvage Store</span>
       </a>
       <nav class="nav-links" aria-label="Primary">
@@ -349,9 +389,25 @@ def main() -> None:
         <a href="../store.html">Store</a>
         <a href="../terms.html">Terms</a>
         <a href="../videos.html">Music library</a>
+        <a class="nav-port" href="https://www.youtube.com/@BuccaneerSalvage" target="_blank" rel="noopener noreferrer"><img class="nav-port-icon" src="../assets/nav/youtube-pirate.webp" width="22" height="22" alt="" />YouTube</a>
+        <a class="nav-port" href="https://x.com/jollyroger1480" target="_blank" rel="noopener noreferrer"><img class="nav-port-icon" src="../assets/nav/x-pirate.webp" width="22" height="22" alt="" />X</a>
+        <a class="nav-port" href="https://www.ebay.com/str/buccaneersalvage" target="_blank" rel="noopener noreferrer"><img class="nav-port-icon" src="../assets/nav/ebay-pirate.webp" width="22" height="22" alt="" />eBay</a>
         <a href="/ukiri/" class="nav-warn">Ukiri Fraud Report</a>
       </nav>
       {nav_cta}
+      <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="drawer" id="navToggle">
+        <span></span>
+      </button>
+    </div>
+    <div class="nav-drawer" id="drawer" hidden>
+      <a href="../index.html">Home</a>
+      <a href="../store.html">Store catalog</a>
+      <a href="../terms.html">Terms &amp; returns</a>
+      <a href="../videos.html">Music library</a>
+      <a class="nav-port" href="https://www.youtube.com/@BuccaneerSalvage" target="_blank" rel="noopener noreferrer"><img class="nav-port-icon" src="../assets/nav/youtube-pirate.webp" width="22" height="22" alt="" />YouTube</a>
+      <a class="nav-port" href="https://x.com/jollyroger1480" target="_blank" rel="noopener noreferrer"><img class="nav-port-icon" src="../assets/nav/x-pirate.webp" width="22" height="22" alt="" />X</a>
+      <a class="nav-port" href="https://www.ebay.com/str/buccaneersalvage" target="_blank" rel="noopener noreferrer"><img class="nav-port-icon" src="../assets/nav/ebay-pirate.webp" width="22" height="22" alt="" />eBay store</a>
+      <a href="/ukiri/">Ukiri Fraud Report</a>
     </div>
   </header>
   <main id="main">
@@ -378,7 +434,7 @@ def main() -> None:
           </div>
           <div class="pdp-meta">
             <p><strong>Secure checkout:</strong> Card processing off-site</p>
-            <p><strong>Ships from:</strong> Carbondale, PA 18407</p>
+            <p><strong>Ships from:</strong> {esc_t(ship_from)}</p>
             <p><strong>Local pickup:</strong> By appointment</p>
             <p><strong>Returns:</strong> {esc_t("Sold as-is, no returns." if no_returns else "7 days on most unused parts. Buyer remorse: 15% restocking. Cores, opened, and used items: no returns.")} <a href="../terms.html#{'no-return' if no_returns else 'returns'}">Store terms</a>.</p>
           </div>
@@ -388,7 +444,7 @@ def main() -> None:
   </main>
   <footer role="contentinfo" class="footer">
     <div class="shell footer-bottom">
-      <span>© 2026 Rustjack · BuccaneerSalvage Store</span>
+      <span>© <span id="y">2026</span> Rustjack · BuccaneerSalvage Store</span>
       <span><a href="../terms.html">Terms &amp; returns</a> · ships from Carbondale, PA</span>
     </div>
   </footer>
@@ -397,6 +453,15 @@ def main() -> None:
 """
         (out_dir / f"{iid}.html").write_text(page, encoding="utf-8")
         written.append(iid)
+
+    keep = set(written) | {"index"}
+    for stale in out_dir.glob("*.html"):
+        if stale.stem not in keep:
+            stale.unlink()
+            print(f"removed stale PDP {stale.name}")
+
+    if len(written) != len(items):
+        raise SystemExit(f"ERROR: wrote {len(written)} PDPs != catalog {len(items)}")
 
     (out_dir / "index.html").write_text(
         f"""<!DOCTYPE html>
@@ -439,17 +504,13 @@ def main() -> None:
         encoding="utf-8",
     )
 
-    # patch sitemap.xml + sitemap.txt
-    for fname in ("sitemap.xml", "sitemap.txt"):
-        path = HUB / fname
-        text = path.read_text(encoding="utf-8")
-        text2 = re.sub(
-            r"https://buccaneersalvage\.github\.io/item\.html\?id=([A-Z0-9]+)",
-            r"https://buccaneersalvage.github.io/p/\1.html",
-            text,
-        )
-        # also ensure p/ urls exist if only old format was used
-        path.write_text(text2, encoding="utf-8")
+    # Legacy sitemap.xml used to be a second urlset (and still gets submitted
+    # in old GSC properties). Keep it as a sitemapindex pointing at the live
+    # split sitemaps so it is not dead weight and cannot drift from robots.txt.
+    (HUB / "sitemap.xml").write_text(
+        (HUB / "sitemap-index.xml").read_text(encoding="utf-8"),
+        encoding="utf-8",
+    )
 
     print(f"OK {len(written)} static PDPs → {out_dir}")
 

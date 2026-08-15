@@ -57,7 +57,10 @@ def main():
 
         console_errors = []
         with sync_playwright() as p:
-            browser = p.chromium.launch()
+            browser = p.chromium.launch(
+                headless=True,
+                executable_path="/usr/bin/google-chrome-stable",
+            )
             page = browser.new_page()
             page.on("console", lambda m: console_errors.append(m.text) if m.type == "error" else None)
             page.on("pageerror", lambda e: console_errors.append(str(e)))
@@ -138,6 +141,38 @@ def main():
                 not console_errors,
                 "; ".join(console_errors[:3]) if console_errors else "clean",
             )
+
+            # 10) static PDP drawer + item.html redirect
+            pdp = page.goto(f"{BASE}/p/7CESL5VZLPSRKJGWUFCHL5R5.html")
+            check("pdp loads", pdp and pdp.ok, f"status={getattr(pdp, 'status', None)}")
+            check("pdp has navToggle", page.locator("#navToggle").count() == 1)
+            check("pdp has drawer", page.locator("#drawer").count() == 1)
+            check("pdp has main.js chrome", page.locator("script[src='../main.js']").count() == 1)
+            page.set_viewport_size({"width": 390, "height": 844})
+            page.goto(f"{BASE}/p/7CESL5VZLPSRKJGWUFCHL5R5.html")
+            page.click("#navToggle")
+            check("pdp mobile drawer opens", page.locator("#drawer.is-open").count() == 1)
+            check("pdp drawer has store link", page.locator("#drawer a[href='../store.html']").count() >= 1)
+            redir = page.goto(f"{BASE}/item.html", wait_until="domcontentloaded")
+            check("item.html ends on store", "store.html" in page.url, page.url)
+
+            page.set_viewport_size({"width": 1280, "height": 800})
+            page.goto(f"{BASE}/store.html")
+            page.wait_for_selector("#stGrid .st-img", timeout=10000)
+            first_src = page.locator("#stGrid .st-img").first.get_attribute("src") or ""
+            check("store card uses local thumb", "product-thumbs/" in first_src and first_src.endswith(".webp"), first_src)
+            nw = page.locator("#stGrid .st-img").first.evaluate("el => el.naturalWidth")
+            check("store thumb decoded", isinstance(nw, int) and nw > 0, f"naturalWidth={nw}")
+
+            before_vid = len(console_errors)
+            page.goto(f"{BASE}/videos.html")
+            page.wait_for_selector("#gallery-music .video-card", timeout=10000)
+            check("videos gallery built", page.locator("#gallery-music .video-card").count() > 0)
+            check("videos loads main.js", page.locator("script[src='main.js']").count() == 1)
+            vid_errs = console_errors[before_vid:]
+            csp_v = [e for e in vid_errs if "Content Security Policy" in e]
+            check("videos no CSP errors", not csp_v, "; ".join(csp_v[:2]) if csp_v else "clean")
+
             browser.close()
     finally:
         server.terminate()
