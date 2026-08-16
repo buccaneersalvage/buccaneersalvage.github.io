@@ -6,8 +6,9 @@ import html
 import json
 import re
 import sys
-from datetime import date
+from datetime import date, datetime
 from pathlib import Path
+from zoneinfo import ZoneInfo
 from urllib.parse import urlparse
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
@@ -332,8 +333,40 @@ def brand_guess(item):
     return "BuccaneerSalvage Store"
 
 
-def offer_shipping_details():
-    """US Ground from Carbondale PA — free UPS Ground where available (Square store SEO)."""
+def offer_shipping_details(pickup=False):
+    """GSC Merchant listings require shippingDetails on every Offer.
+
+    Ship-to-US: free UPS Ground. Pickup-only: $0 local PA, not a missing field.
+    """
+    if pickup:
+        return {
+            "@type": "OfferShippingDetails",
+            "shippingRate": {
+                "@type": "MonetaryAmount",
+                "value": "0",
+                "currency": "USD",
+            },
+            "shippingDestination": {
+                "@type": "DefinedRegion",
+                "addressCountry": "US",
+                "addressRegion": "PA",
+            },
+            "deliveryTime": {
+                "@type": "ShippingDeliveryTime",
+                "handlingTime": {
+                    "@type": "QuantitativeValue",
+                    "minValue": 0,
+                    "maxValue": 1,
+                    "unitCode": "DAY",
+                },
+                "transitTime": {
+                    "@type": "QuantitativeValue",
+                    "minValue": 0,
+                    "maxValue": 1,
+                    "unitCode": "DAY",
+                },
+            },
+        }
     return {
         "@type": "OfferShippingDetails",
         "shippingRate": {
@@ -513,22 +546,18 @@ def main() -> None:
                     "url": f"{BASE}/store.html",
                 },
                 "hasMerchantReturnPolicy": offer_return_policy(item.get("category"), force_no_returns=no_returns),
+                "shippingDetails": offer_shipping_details(pickup=pickup),
             },
         }
+        if pickup:
+            schema["offers"]["availableDeliveryMethod"] = "https://schema.org/OnSitePickup"
         mpn = item_mpn(item)
         if mpn:
             schema["mpn"] = mpn
-        if not pickup:
-            schema["offers"]["shippingDetails"] = offer_shipping_details()
         if price_n is not None:
             schema["offers"]["price"] = str(price_n)
         if video:
             clip = HUB / video
-            upload = (
-                date.fromtimestamp(clip.stat().st_mtime).isoformat()
-                if clip.is_file()
-                else None
-            )
             schema["video"] = {
                 "@type": "VideoObject",
                 "name": f"{name} - test run",
@@ -536,8 +565,10 @@ def main() -> None:
                 "thumbnailUrl": [img],
                 "contentUrl": f"{BASE}/{video}",
             }
-            if upload:
-                schema["video"]["uploadDate"] = upload
+            if clip.is_file():
+                schema["video"]["uploadDate"] = datetime.fromtimestamp(
+                    clip.stat().st_mtime, tz=ZoneInfo("America/New_York")
+                ).isoformat()
 
         # json.dumps does not escape "<" — a catalog item `name` containing
         # "</script><script>..." (or just "</script><meta http-equiv=refresh...")
