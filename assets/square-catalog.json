@@ -1,7 +1,7 @@
 {
-  "updated": "2026-08-17T07:44:55Z",
+  "updated": "2026-08-17T07:46:10Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 214,
+  "count": 215,
   "items": [
     {
       "id": "S4IZBA4AG65C6HI2ZDIRMSJR",
@@ -26123,11 +26123,6 @@
         "1988\u20131995 Chevrolet C1500",
         "1987\u20131992 Chevrolet Camaro"
       ],
-      "vehicle_count_raw": 162,
-      "ebay_item_id": "398294993539",
-      "ebay_type": "Distributor Rotor",
-      "ebay_brand": "IAD",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -26173,6 +26168,97 @@
         "type": "Distributor Rotor",
         "brand": "IAD",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors"
+      },
+      "vehicle_count_raw": 162,
+      "ebay_item_id": "398294993539",
+      "ebay_type": "Distributor Rotor",
+      "ebay_brand": "IAD",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors"
+    },
+    {
+      "id": "7YEMOW2YD3OFX7JK7FP22KPW",
+      "name": "IAD D540 Coil NOS 2.5 3.3 3.8 V6 86-95 Century",
+      "price": 44.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/c361ab130186adf2afe2ec453e8eb41b60564ee0/original.jpeg",
+      "url": "https://square.link/u/VfJ62yu7",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "M5RWRNKGWL2GLZPDAXUEWZC3",
+      "part_numbers": [
+        "D540",
+        "DR39, E47, DR187"
+      ],
+      "interchange": [
+        "Standard DR39",
+        "BWD E47",
+        "Niehoff DR187"
+      ],
+      "vehicles": [
+        "1986\u20131993 Buick Century",
+        "1990\u20131995 Buick Regal",
+        "1987\u20131993 Buick Skylark"
+      ],
+      "vehicle_count_raw": 171,
+      "ebay_item_id": "398294997687",
+      "ebay_type": "Ignition Coil",
+      "ebay_brand": "IAD",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Coils",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "D540",
+          "DR39, E47, DR187"
+        ],
+        "interchange": [
+          "Standard DR39",
+          "BWD E47",
+          "Niehoff DR187"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1986,
+            "year_to": 1993,
+            "make": "Buick",
+            "model": "Century",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1990,
+            "year_to": 1995,
+            "make": "Buick",
+            "model": "Regal",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1993,
+            "make": "Buick",
+            "model": "Skylark",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1986\u20131993 Buick Century",
+          "1990\u20131995 Buick Regal",
+          "1987\u20131993 Buick Skylark"
+        ],
+        "raw_compat_rows": 171,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398294997687",
+        "type": "Ignition Coil",
+        "brand": "IAD",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Coils"
       }
     },
     {
@@ -26654,5 +26740,5 @@
       "vehicles": []
     }
   ],
-  "fitment_built": "2026-08-17T07:44:55Z"
+  "fitment_built": "2026-08-17T07:46:10Z"
 }
