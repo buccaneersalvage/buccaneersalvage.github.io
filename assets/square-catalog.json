@@ -1,7 +1,7 @@
 {
-  "updated": "2026-08-17T02:31:20Z",
+  "updated": "2026-08-17T03:47:38Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 206,
+  "count": 207,
   "items": [
     {
       "id": "S4IZBA4AG65C6HI2ZDIRMSJR",
@@ -19918,12 +19918,6 @@
         "Std DR468",
         "BWD C266"
       ],
-      "vehicles": [],
-      "vehicle_count_raw": 0,
-      "ebay_item_id": "398294269773",
-      "ebay_type": "Distributor Cap",
-      "ebay_brand": "Standard",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -19945,7 +19939,13 @@
         "type": "Distributor Cap",
         "brand": "Standard",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps"
-      }
+      },
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398294269773",
+      "ebay_type": "Distributor Cap",
+      "ebay_brand": "Standard",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps",
+      "vehicles": []
     },
     {
       "id": "NW24H372GGI42JHSO4QOFY4U",
@@ -25923,6 +25923,106 @@
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Modules"
     },
     {
+      "id": "LFXZYGU3JCQZIIV5U6B6WDES",
+      "name": "Standard SS598 Starter Solenoid NOS Ranger Mustang 89-02",
+      "price": 22.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/c99435d93cd11dfb787e43ebe2fefb0f9d219158/original.jpeg",
+      "url": "https://square.link/u/YkKl9Qmu",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "ZYB4FZPP5K2DN4MJH5BD3WYK",
+      "part_numbers": [
+        "SS598",
+        "SS598T, SW1951C, E7TZ11450A"
+      ],
+      "interchange": [
+        "IAD SW1533A",
+        "BWD S5049",
+        "Niehoff FF-138D",
+        "KEM SW95A"
+      ],
+      "vehicles": [
+        "1992\u20131996 Ford Bronco",
+        "1984\u20131991 Ford F-150",
+        "1985\u20131990 Ford Mustang",
+        "1989\u20132002 Ford Ranger"
+      ],
+      "vehicle_count_raw": 679,
+      "ebay_item_id": "398294443958",
+      "ebay_type": "Starter Solenoid",
+      "ebay_brand": "Standard",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Starters, Alternators, ECUs & Wiring:Starter Motor Parts",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "SS598",
+          "SS598T, SW1951C, E7TZ11450A"
+        ],
+        "interchange": [
+          "IAD SW1533A",
+          "BWD S5049",
+          "Niehoff FF-138D",
+          "KEM SW95A"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1992,
+            "year_to": 1996,
+            "make": "Ford",
+            "model": "Bronco",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 1991,
+            "make": "Ford",
+            "model": "F-150",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1990,
+            "make": "Ford",
+            "model": "Mustang",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1989,
+            "year_to": 2002,
+            "make": "Ford",
+            "model": "Ranger",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1992\u20131996 Ford Bronco",
+          "1984\u20131991 Ford F-150",
+          "1985\u20131990 Ford Mustang",
+          "1989\u20132002 Ford Ranger"
+        ],
+        "raw_compat_rows": 679,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398294443958",
+        "type": "Starter Solenoid",
+        "brand": "Standard",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Starters, Alternators, ECUs & Wiring:Starter Motor Parts"
+      }
+    },
+    {
       "id": "KCK2HUUH432JV36WKEAHHT6W",
       "name": "Sylvania 5001 GTE Auto Headlamp Sealed Beam NOS",
       "price": 27.99,
@@ -26005,5 +26105,5 @@
       "vehicles": []
     }
   ],
-  "fitment_built": "2026-08-17T02:31:20Z"
+  "fitment_built": "2026-08-17T03:47:38Z"
 }
