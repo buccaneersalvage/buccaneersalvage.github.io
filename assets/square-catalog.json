@@ -1,7 +1,7 @@
 {
-  "updated": "2026-08-17T04:05:54Z",
+  "updated": "2026-08-17T04:24:48Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 208,
+  "count": 209,
   "items": [
     {
       "id": "S4IZBA4AG65C6HI2ZDIRMSJR",
@@ -17160,6 +17160,118 @@
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Wires & Coil Boots"
     },
     {
+      "id": "7GYZLVAFYZPWPDRCN3AGTN5Z",
+      "name": "IAD CH526 Dist Cap NOS Caravan Voyager 87-00 3.0L",
+      "price": 24.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/c0fc2decbd6ae25f4dcf805a83d92445ebc07508/original.jpeg",
+      "url": "https://square.link/u/vGZTId8z",
+      "category": "ignition",
+      "checkout": true,
+      "variation_id": "5RX3DSTZP43DXOWUGOAQSONV",
+      "part_numbers": [
+        "CH526",
+        "CH411T, CH-411, CH411"
+      ],
+      "interchange": [
+        "Standard CH411",
+        "BWD C267",
+        "Niehoff AL-62C",
+        "KEM W3054"
+      ],
+      "vehicles": [
+        "1988\u20131990 Chrysler Dynasty",
+        "1990\u20131995 Chrysler LeBaron",
+        "1987\u20132000 Dodge Caravan",
+        "1989\u20131996 Mitsubishi Montero",
+        "1987\u20132000 Plymouth Voyager"
+      ],
+      "vehicle_count_raw": 155,
+      "ebay_item_id": "398294528301",
+      "ebay_type": "Distributor Cap",
+      "ebay_brand": "IAD",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "CH526",
+          "CH411T, CH-411, CH411"
+        ],
+        "interchange": [
+          "Standard CH411",
+          "BWD C267",
+          "Niehoff AL-62C",
+          "KEM W3054"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1988,
+            "year_to": 1990,
+            "make": "Chrysler",
+            "model": "Dynasty",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1990,
+            "year_to": 1995,
+            "make": "Chrysler",
+            "model": "LeBaron",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 2000,
+            "make": "Dodge",
+            "model": "Caravan",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1989,
+            "year_to": 1996,
+            "make": "Mitsubishi",
+            "model": "Montero",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 2000,
+            "make": "Plymouth",
+            "model": "Voyager",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1988\u20131990 Chrysler Dynasty",
+          "1990\u20131995 Chrysler LeBaron",
+          "1987\u20132000 Dodge Caravan",
+          "1989\u20131996 Mitsubishi Montero",
+          "1987\u20132000 Plymouth Voyager"
+        ],
+        "raw_compat_rows": 155,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398294528301",
+        "type": "Distributor Cap",
+        "brand": "IAD",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps"
+      }
+    },
+    {
       "id": "FEIJUODACQQBPBCHBGFHB5WE",
       "name": "IAD CH541 Dist Cap NOS LeBaron Rampage 82-85",
       "price": 14.99,
@@ -17182,11 +17294,6 @@
         "1982\u20131985 Chrysler LeBaron",
         "1982\u20131984 Dodge Rampage"
       ],
-      "vehicle_count_raw": 40,
-      "ebay_item_id": "398294480145",
-      "ebay_type": "Distributor Cap",
-      "ebay_brand": "IAD",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -17233,7 +17340,12 @@
         "type": "Distributor Cap",
         "brand": "IAD",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps"
-      }
+      },
+      "vehicle_count_raw": 40,
+      "ebay_item_id": "398294480145",
+      "ebay_type": "Distributor Cap",
+      "ebay_brand": "IAD",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps"
     },
     {
       "id": "X2VU3QYJOMXOX4JIKYHBTPT4",
@@ -26181,5 +26293,5 @@
       "vehicles": []
     }
   ],
-  "fitment_built": "2026-08-17T04:05:54Z"
+  "fitment_built": "2026-08-17T04:24:48Z"
 }
