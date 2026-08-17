@@ -1,7 +1,7 @@
 {
-  "updated": "2026-08-17T00:50:53Z",
+  "updated": "2026-08-17T02:27:03Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 202,
+  "count": 203,
   "items": [
     {
       "id": "S4IZBA4AG65C6HI2ZDIRMSJR",
@@ -18926,6 +18926,55 @@
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps"
     },
     {
+      "id": "7HYMTQSZNWM6FKKHZO3GWL46",
+      "name": "Standard DH411HP Distributor Cap NOS 8-Plug V8 Blue IAD",
+      "price": 19.98,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/11ad7fe45792ba8d54d659d9a5df9fcb904e6c65/original.jpeg",
+      "url": "https://square.link/u/zTtl0qXQ",
+      "category": "ignition",
+      "checkout": true,
+      "variation_id": "ISRHVTXLEDCXBJGL5LEZWDF6",
+      "part_numbers": [
+        "DH411HP",
+        "Niehoff FF-79, KEM 241M"
+      ],
+      "interchange": [
+        "IAD DH411HP",
+        "Std FD152",
+        "168X",
+        "BWD C194"
+      ],
+      "vehicles": [],
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398294243393",
+      "ebay_type": "Distributor Cap",
+      "ebay_brand": "Standard",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "DH411HP",
+          "Niehoff FF-79, KEM 241M"
+        ],
+        "interchange": [
+          "IAD DH411HP",
+          "Std FD152",
+          "168X",
+          "BWD C194"
+        ],
+        "vehicles": [],
+        "vehicle_labels": [],
+        "raw_compat_rows": 0,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398294243393",
+        "type": "Distributor Cap",
+        "brand": "Standard",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps"
+      }
+    },
+    {
       "id": "ZKWZ6SC6IDHN5XU5YWYHMTSU",
       "name": "Standard DR-457 Distributor Cap NOS GM 2.8L V6 1980-1993",
       "price": 14.99,
@@ -25631,13 +25680,6 @@
         "5001",
         "H5001"
       ],
-      "interchange": [],
-      "vehicles": [],
-      "vehicle_count_raw": 0,
-      "ebay_item_id": "398293990346",
-      "ebay_type": "Sealed Beam Headlamp",
-      "ebay_brand": "Sylvania",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Lighting & Lamps:Interior Light Assemblies",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -25655,7 +25697,14 @@
         "type": "Sealed Beam Headlamp",
         "brand": "Sylvania",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Lighting & Lamps:Interior Light Assemblies"
-      }
+      },
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398293990346",
+      "ebay_type": "Sealed Beam Headlamp",
+      "ebay_brand": "Sylvania",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Lighting & Lamps:Interior Light Assemblies",
+      "interchange": [],
+      "vehicles": []
     },
     {
       "id": "NVZIDA4T7K3UFUIPCOAKIBCH",
@@ -25701,5 +25750,5 @@
       "vehicles": []
     }
   ],
-  "fitment_built": "2026-08-17T00:50:53Z"
+  "fitment_built": "2026-08-17T02:27:03Z"
 }
