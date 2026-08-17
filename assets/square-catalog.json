@@ -1,7 +1,7 @@
 {
-  "updated": "2026-08-17T02:27:03Z",
+  "updated": "2026-08-17T02:28:39Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 203,
+  "count": 204,
   "items": [
     {
       "id": "S4IZBA4AG65C6HI2ZDIRMSJR",
@@ -18944,12 +18944,6 @@
         "168X",
         "BWD C194"
       ],
-      "vehicles": [],
-      "vehicle_count_raw": 0,
-      "ebay_item_id": "398294243393",
-      "ebay_type": "Distributor Cap",
-      "ebay_brand": "Standard",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -18972,7 +18966,13 @@
         "type": "Distributor Cap",
         "brand": "Standard",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps"
-      }
+      },
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398294243393",
+      "ebay_type": "Distributor Cap",
+      "ebay_brand": "Standard",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps",
+      "vehicles": []
     },
     {
       "id": "ZKWZ6SC6IDHN5XU5YWYHMTSU",
@@ -25668,6 +25668,116 @@
       "vehicles": []
     },
     {
+      "id": "45QCCVHCD3OGIHM53VDOFBKJ",
+      "name": "Standard D1980 Ignition Module NOS IAD LX339",
+      "price": 39.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/68b986a109ddb50e9673b2b241c0c701e2d2565e/original.jpeg",
+      "url": "https://square.link/u/uWdyrLH2",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "VJT3K3JNUL26D2PMCWV3VQ5K",
+      "part_numbers": [
+        "D1980",
+        "Niehoff DR410, KEM E244"
+      ],
+      "interchange": [
+        "IAD D1980",
+        "Std LX339",
+        "BWD CBE27"
+      ],
+      "vehicles": [
+        "1985\u20131986 Buick Century",
+        "1985\u20131990 Chevrolet Astro",
+        "1985\u20131986 Chevrolet Camaro",
+        "1991\u20131993 Chevrolet S10",
+        "1985\u20131986 Pontiac Firebird"
+      ],
+      "vehicle_count_raw": 67,
+      "ebay_item_id": "398294246862",
+      "ebay_type": "Ignition Control Module",
+      "ebay_brand": "Standard",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Modules",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "D1980",
+          "Niehoff DR410, KEM E244"
+        ],
+        "interchange": [
+          "IAD D1980",
+          "Std LX339",
+          "BWD CBE27"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1985,
+            "year_to": 1986,
+            "make": "Buick",
+            "model": "Century",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1990,
+            "make": "Chevrolet",
+            "model": "Astro",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1986,
+            "make": "Chevrolet",
+            "model": "Camaro",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1991,
+            "year_to": 1993,
+            "make": "Chevrolet",
+            "model": "S10",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1986,
+            "make": "Pontiac",
+            "model": "Firebird",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1985\u20131986 Buick Century",
+          "1985\u20131990 Chevrolet Astro",
+          "1985\u20131986 Chevrolet Camaro",
+          "1991\u20131993 Chevrolet S10",
+          "1985\u20131986 Pontiac Firebird"
+        ],
+        "raw_compat_rows": 67,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398294246862",
+        "type": "Ignition Control Module",
+        "brand": "Standard",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Modules"
+      }
+    },
+    {
       "id": "KCK2HUUH432JV36WKEAHHT6W",
       "name": "Sylvania 5001 GTE Auto Headlamp Sealed Beam NOS",
       "price": 27.99,
@@ -25750,5 +25860,5 @@
       "vehicles": []
     }
   ],
-  "fitment_built": "2026-08-17T02:27:03Z"
+  "fitment_built": "2026-08-17T02:28:39Z"
 }
