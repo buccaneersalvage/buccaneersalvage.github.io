@@ -1,7 +1,7 @@
 {
-  "updated": "2026-08-17T03:47:38Z",
+  "updated": "2026-08-17T04:05:54Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 207,
+  "count": 208,
   "items": [
     {
       "id": "S4IZBA4AG65C6HI2ZDIRMSJR",
@@ -17160,6 +17160,82 @@
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Wires & Coil Boots"
     },
     {
+      "id": "FEIJUODACQQBPBCHBGFHB5WE",
+      "name": "IAD CH541 Dist Cap NOS LeBaron Rampage 82-85",
+      "price": 14.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/67953b2463a9baa4113ab98e2ae3cbf1b4248a84/original.jpeg",
+      "url": "https://square.link/u/MS7P5art",
+      "category": "ignition",
+      "checkout": true,
+      "variation_id": "U5J6IY5BSJISMSLMHI22XYJ4",
+      "part_numbers": [
+        "CH541",
+        "CH-405, CH405"
+      ],
+      "interchange": [
+        "Standard CH405",
+        "BWD C220",
+        "Niehoff AL-62A",
+        "KEM 1929"
+      ],
+      "vehicles": [
+        "1982\u20131985 Chrysler LeBaron",
+        "1982\u20131984 Dodge Rampage"
+      ],
+      "vehicle_count_raw": 40,
+      "ebay_item_id": "398294480145",
+      "ebay_type": "Distributor Cap",
+      "ebay_brand": "IAD",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "CH541",
+          "CH-405, CH405"
+        ],
+        "interchange": [
+          "Standard CH405",
+          "BWD C220",
+          "Niehoff AL-62A",
+          "KEM 1929"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1982,
+            "year_to": 1985,
+            "make": "Chrysler",
+            "model": "LeBaron",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1982,
+            "year_to": 1984,
+            "make": "Dodge",
+            "model": "Rampage",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1982\u20131985 Chrysler LeBaron",
+          "1982\u20131984 Dodge Rampage"
+        ],
+        "raw_compat_rows": 40,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398294480145",
+        "type": "Distributor Cap",
+        "brand": "IAD",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps"
+      }
+    },
+    {
       "id": "X2VU3QYJOMXOX4JIKYHBTPT4",
       "name": "LaSalle 780077 Spark Plug Wire Fits Chevy Nova Vega Chevy II Mazda Subaru NOS",
       "price": 45.99,
@@ -25947,11 +26023,6 @@
         "1985\u20131990 Ford Mustang",
         "1989\u20132002 Ford Ranger"
       ],
-      "vehicle_count_raw": 679,
-      "ebay_item_id": "398294443958",
-      "ebay_type": "Starter Solenoid",
-      "ebay_brand": "Standard",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Starters, Alternators, ECUs & Wiring:Starter Motor Parts",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -26020,7 +26091,12 @@
         "type": "Starter Solenoid",
         "brand": "Standard",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Starters, Alternators, ECUs & Wiring:Starter Motor Parts"
-      }
+      },
+      "vehicle_count_raw": 679,
+      "ebay_item_id": "398294443958",
+      "ebay_type": "Starter Solenoid",
+      "ebay_brand": "Standard",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Starters, Alternators, ECUs & Wiring:Starter Motor Parts"
     },
     {
       "id": "KCK2HUUH432JV36WKEAHHT6W",
@@ -26105,5 +26181,5 @@
       "vehicles": []
     }
   ],
-  "fitment_built": "2026-08-17T03:47:38Z"
+  "fitment_built": "2026-08-17T04:05:54Z"
 }
