@@ -1,7 +1,7 @@
 {
-  "updated": "2026-08-17T04:36:06Z",
+  "updated": "2026-08-17T07:18:59Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 211,
+  "count": 212,
   "items": [
     {
       "id": "S4IZBA4AG65C6HI2ZDIRMSJR",
@@ -25903,6 +25903,94 @@
       "vehicles": []
     },
     {
+      "id": "FQHJIPDU2IS3FX6654HKIM5R",
+      "name": "IAD D345HP 6-Tower Cap NOS 2.8 4.3 V6 85-95 Camaro",
+      "price": 18.98,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/a06201f7157007442e86d339b89562f80f5b59be/original.jpeg",
+      "url": "https://square.link/u/iNpCxNKH",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "IIQSX7BVFOU547L3J2AHVQTM",
+      "part_numbers": [
+        "D345HP",
+        "DR460X, C244, DR-78C, 1452M"
+      ],
+      "interchange": [
+        "Standard DR460X",
+        "BWD C244",
+        "Niehoff DR-78C",
+        "KEM 1452M"
+      ],
+      "vehicles": [
+        "1986\u20131990 Chevrolet Astro",
+        "1985\u20131989 Chevrolet Camaro",
+        "1988\u20131995 Chevrolet S10"
+      ],
+      "vehicle_count_raw": 123,
+      "ebay_item_id": "398294935306",
+      "ebay_type": "Distributor Cap",
+      "ebay_brand": "IAD",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "D345HP",
+          "DR460X, C244, DR-78C, 1452M"
+        ],
+        "interchange": [
+          "Standard DR460X",
+          "BWD C244",
+          "Niehoff DR-78C",
+          "KEM 1452M"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1986,
+            "year_to": 1990,
+            "make": "Chevrolet",
+            "model": "Astro",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1989,
+            "make": "Chevrolet",
+            "model": "Camaro",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1988,
+            "year_to": 1995,
+            "make": "Chevrolet",
+            "model": "S10",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1986\u20131990 Chevrolet Astro",
+          "1985\u20131989 Chevrolet Camaro",
+          "1988\u20131995 Chevrolet S10"
+        ],
+        "raw_compat_rows": 123,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398294935306",
+        "type": "Distributor Cap",
+        "brand": "IAD",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps"
+      }
+    },
+    {
       "id": "2JU4UI5KXZB2BFREAF2UZ2SA",
       "name": "IAD D444HP Dist Rotor NOS Blue HEI Standard DR325X",
       "price": 14.99,
@@ -25975,11 +26063,6 @@
         "1975\u20131996 Ford F-150",
         "1965\u20131993 Ford Mustang"
       ],
-      "vehicle_count_raw": 1506,
-      "ebay_item_id": "398294563170",
-      "ebay_type": "Starter Solenoid",
-      "ebay_brand": "IAD",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Starters, Alternators, ECUs & Wiring:Starter Motor Parts",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -26037,7 +26120,12 @@
         "type": "Starter Solenoid",
         "brand": "IAD",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Starters, Alternators, ECUs & Wiring:Starter Motor Parts"
-      }
+      },
+      "vehicle_count_raw": 1506,
+      "ebay_item_id": "398294563170",
+      "ebay_type": "Starter Solenoid",
+      "ebay_brand": "IAD",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Starters, Alternators, ECUs & Wiring:Starter Motor Parts"
     },
     {
       "id": "45QCCVHCD3OGIHM53VDOFBKJ",
@@ -26430,5 +26518,5 @@
       "vehicles": []
     }
   ],
-  "fitment_built": "2026-08-17T04:36:06Z"
+  "fitment_built": "2026-08-17T07:18:59Z"
 }
