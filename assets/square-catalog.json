@@ -1,7 +1,7 @@
 {
-  "updated": "2026-08-17T09:00:57Z",
+  "updated": "2026-08-17T10:00:50Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 223,
+  "count": 225,
   "items": [
     {
       "id": "S4IZBA4AG65C6HI2ZDIRMSJR",
@@ -17410,6 +17410,92 @@
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps"
     },
     {
+      "id": "D6BYYW27EDM2XJ3VXEMGR6S4",
+      "name": "IAD DH411HP Dist Cap NOS 5.0 5.8 77-96 Bronco Blue Vented 8-Tower IAD-Box",
+      "price": 19.98,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/18058f685cadcb83bd8d3f83e68aed00f333d72b/original.jpeg",
+      "url": "https://square.link/u/YT6i6gG8",
+      "category": "ignition",
+      "checkout": true,
+      "variation_id": "UPPJDV4QDDD3LEYDVDFTAJIB",
+      "part_numbers": [
+        "DH411HP",
+        "FD152, FD168X, C194, FF-79"
+      ],
+      "interchange": [
+        "Standard FD152",
+        "BWD C194",
+        "Niehoff FF-79"
+      ],
+      "vehicles": [
+        "1977\u20131996 Ford Bronco",
+        "1984\u20131996 Ford F-150",
+        "1979\u20131995 Ford Mustang"
+      ],
+      "vehicle_count_raw": 374,
+      "ebay_item_id": "398295216823",
+      "ebay_type": "Distributor Cap",
+      "ebay_brand": "IAD",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "DH411HP",
+          "FD152, FD168X, C194, FF-79"
+        ],
+        "interchange": [
+          "Standard FD152",
+          "BWD C194",
+          "Niehoff FF-79"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1977,
+            "year_to": 1996,
+            "make": "Ford",
+            "model": "Bronco",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 1996,
+            "make": "Ford",
+            "model": "F-150",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1979,
+            "year_to": 1995,
+            "make": "Ford",
+            "model": "Mustang",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1977\u20131996 Ford Bronco",
+          "1984\u20131996 Ford F-150",
+          "1979\u20131995 Ford Mustang"
+        ],
+        "raw_compat_rows": 374,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398295216823",
+        "type": "Distributor Cap",
+        "brand": "IAD",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps"
+      }
+    },
+    {
       "id": "Q3L7LNPNKPJPUUNYA3QKQPUQ",
       "name": "IAD DH434HP Dist Cap NOS 2.9 3.0 V6 83-97 Ranger Aerostar",
       "price": 19.98,
@@ -17431,11 +17517,6 @@
         "1986\u20131997 Ford Aerostar",
         "1983\u20131994 Ford Ranger"
       ],
-      "vehicle_count_raw": 233,
-      "ebay_item_id": "398295184502",
-      "ebay_type": "Distributor Cap",
-      "ebay_brand": "IAD",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -17481,7 +17562,12 @@
         "type": "Distributor Cap",
         "brand": "IAD",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps"
-      }
+      },
+      "vehicle_count_raw": 233,
+      "ebay_item_id": "398295184502",
+      "ebay_type": "Distributor Cap",
+      "ebay_brand": "IAD",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps"
     },
     {
       "id": "X2VU3QYJOMXOX4JIKYHBTPT4",
@@ -26150,11 +26236,6 @@
         "1985\u20131988 Chevrolet Monte Carlo",
         "1985\u20131992 Pontiac Firebird"
       ],
-      "vehicle_count_raw": 91,
-      "ebay_item_id": "398295127818",
-      "ebay_type": "Distributor Rotor",
-      "ebay_brand": "IAD",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -26222,7 +26303,12 @@
         "type": "Distributor Rotor",
         "brand": "IAD",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors"
-      }
+      },
+      "vehicle_count_raw": 91,
+      "ebay_item_id": "398295127818",
+      "ebay_type": "Distributor Rotor",
+      "ebay_brand": "IAD",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors"
     },
     {
       "id": "2JU4UI5KXZB2BFREAF2UZ2SA",
@@ -26346,6 +26432,82 @@
       "ebay_type": "Distributor Rotor",
       "ebay_brand": "IAD",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors"
+    },
+    {
+      "id": "R2X4AHRJMEJXOQW5AOVL4ZDU",
+      "name": "IAD D447HP Dist Rotor NOS 5.0 5.7 V8 87-92 Camaro Blue HP DR326X",
+      "price": 14.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/902fe027bfcbe101ad78a2ff7372b9636fea1f0c/original.jpeg",
+      "url": "https://square.link/u/ZwzURFkf",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "NGDKIKFZ5J5FQDSVEBRRYEQE",
+      "part_numbers": [
+        "D447HP",
+        "DR326X, D220P, DR59CCS, 1287M"
+      ],
+      "interchange": [
+        "Standard DR326X",
+        "BWD D220P",
+        "Niehoff DR59CCS",
+        "KEM 1287M"
+      ],
+      "vehicles": [
+        "1988\u20131995 Chevrolet C1500",
+        "1987\u20131992 Chevrolet Camaro"
+      ],
+      "vehicle_count_raw": 162,
+      "ebay_item_id": "398295336172",
+      "ebay_type": "Distributor Rotor",
+      "ebay_brand": "IAD",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "D447HP",
+          "DR326X, D220P, DR59CCS, 1287M"
+        ],
+        "interchange": [
+          "Standard DR326X",
+          "BWD D220P",
+          "Niehoff DR59CCS",
+          "KEM 1287M"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1988,
+            "year_to": 1995,
+            "make": "Chevrolet",
+            "model": "C1500",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1992,
+            "make": "Chevrolet",
+            "model": "Camaro",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1988\u20131995 Chevrolet C1500",
+          "1987\u20131992 Chevrolet Camaro"
+        ],
+        "raw_compat_rows": 162,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398295336172",
+        "type": "Distributor Rotor",
+        "brand": "IAD",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors"
+      }
     },
     {
       "id": "7YEMOW2YD3OFX7JK7FP22KPW",
@@ -26545,11 +26707,6 @@
         "1977\u20131979 Ford F-150",
         "1979\u20131983 Ford Mustang"
       ],
-      "vehicle_count_raw": 223,
-      "ebay_item_id": "398295136700",
-      "ebay_type": "Distributor Rotor",
-      "ebay_brand": "IAD",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -26617,7 +26774,12 @@
         "type": "Distributor Rotor",
         "brand": "IAD",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors"
-      }
+      },
+      "vehicle_count_raw": 223,
+      "ebay_item_id": "398295136700",
+      "ebay_type": "Distributor Rotor",
+      "ebay_brand": "IAD",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors"
     },
     {
       "id": "PFOSKKWK2ONSI4E6G3GDQMOC",
@@ -26708,11 +26870,6 @@
         "1980\u20131987 Oldsmobile Cutlass Supreme",
         "1984\u20131987 Pontiac Firebird"
       ],
-      "vehicle_count_raw": 284,
-      "ebay_item_id": "398295158161",
-      "ebay_type": "MAP Sensor",
-      "ebay_brand": "IAD",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Intake & Fuel Sensors",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -26813,7 +26970,12 @@
         "type": "MAP Sensor",
         "brand": "IAD",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Intake & Fuel Sensors"
-      }
+      },
+      "vehicle_count_raw": 284,
+      "ebay_item_id": "398295158161",
+      "ebay_type": "MAP Sensor",
+      "ebay_brand": "IAD",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Intake & Fuel Sensors"
     },
     {
       "id": "DYABTMDWGAKJ5HYD4GLONCUN",
@@ -26887,11 +27049,6 @@
         "1964\u20131967 Ford Mustang",
         "1972\u20131979 Jeep CJ5"
       ],
-      "vehicle_count_raw": 554,
-      "ebay_item_id": "398295077342",
-      "ebay_type": "Starter Solenoid",
-      "ebay_brand": "IAD",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Starters, Alternators, ECUs & Wiring:Starter Motor Parts",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -26970,7 +27127,12 @@
         "type": "Starter Solenoid",
         "brand": "IAD",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Starters, Alternators, ECUs & Wiring:Starter Motor Parts"
-      }
+      },
+      "vehicle_count_raw": 554,
+      "ebay_item_id": "398295077342",
+      "ebay_type": "Starter Solenoid",
+      "ebay_brand": "IAD",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Starters, Alternators, ECUs & Wiring:Starter Motor Parts"
     },
     {
       "id": "4PPP7M44RK4XRJE2EJELNOE7",
@@ -26995,11 +27157,6 @@
         "1970\u20131976 Plymouth Duster",
         "1970\u20131976 Plymouth Valiant"
       ],
-      "vehicle_count_raw": 585,
-      "ebay_item_id": "398295076230",
-      "ebay_type": "Voltage Regulator",
-      "ebay_brand": "IAD",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Starters, Alternators, ECUs & Wiring:Voltage Regulators",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -27076,7 +27233,12 @@
         "type": "Voltage Regulator",
         "brand": "IAD",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Starters, Alternators, ECUs & Wiring:Voltage Regulators"
-      }
+      },
+      "vehicle_count_raw": 585,
+      "ebay_item_id": "398295076230",
+      "ebay_type": "Voltage Regulator",
+      "ebay_brand": "IAD",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Starters, Alternators, ECUs & Wiring:Voltage Regulators"
     },
     {
       "id": "45QCCVHCD3OGIHM53VDOFBKJ",
@@ -27469,5 +27631,5 @@
       "vehicles": []
     }
   ],
-  "fitment_built": "2026-08-17T09:00:57Z"
+  "fitment_built": "2026-08-17T10:00:50Z"
 }
