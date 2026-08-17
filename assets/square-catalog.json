@@ -1,7 +1,7 @@
 {
-  "updated": "2026-08-17T04:24:48Z",
+  "updated": "2026-08-17T04:30:57Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 209,
+  "count": 210,
   "items": [
     {
       "id": "S4IZBA4AG65C6HI2ZDIRMSJR",
@@ -17185,11 +17185,6 @@
         "1989\u20131996 Mitsubishi Montero",
         "1987\u20132000 Plymouth Voyager"
       ],
-      "vehicle_count_raw": 155,
-      "ebay_item_id": "398294528301",
-      "ebay_type": "Distributor Cap",
-      "ebay_brand": "IAD",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -17269,7 +17264,12 @@
         "type": "Distributor Cap",
         "brand": "IAD",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps"
-      }
+      },
+      "vehicle_count_raw": 155,
+      "ebay_item_id": "398294528301",
+      "ebay_type": "Distributor Cap",
+      "ebay_brand": "IAD",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps"
     },
     {
       "id": "FEIJUODACQQBPBCHBGFHB5WE",
@@ -25903,6 +25903,55 @@
       "vehicles": []
     },
     {
+      "id": "2JU4UI5KXZB2BFREAF2UZ2SA",
+      "name": "IAD D444HP Dist Rotor NOS Blue HEI Standard DR325X",
+      "price": 14.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/d67e72bfc1d0592412ea8fb7203b94fc5bb0d4d7/original.jpeg",
+      "url": "https://square.link/u/G0hefH79",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "BOOM6SEFRTH6GGWAQHGNK52Y",
+      "part_numbers": [
+        "D444HP",
+        "DR325, DR325X"
+      ],
+      "interchange": [
+        "Standard DR325X",
+        "BWD D206P",
+        "Niehoff DR58CS",
+        "KEM 1285M"
+      ],
+      "vehicles": [],
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398294545998",
+      "ebay_type": "Distributor Rotor",
+      "ebay_brand": "IAD",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "D444HP",
+          "DR325, DR325X"
+        ],
+        "interchange": [
+          "Standard DR325X",
+          "BWD D206P",
+          "Niehoff DR58CS",
+          "KEM 1285M"
+        ],
+        "vehicles": [],
+        "vehicle_labels": [],
+        "raw_compat_rows": 0,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398294545998",
+        "type": "Distributor Rotor",
+        "brand": "IAD",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors"
+      }
+    },
+    {
       "id": "45QCCVHCD3OGIHM53VDOFBKJ",
       "name": "Standard D1980 Ignition Module NOS IAD LX339",
       "price": 39.99,
@@ -26293,5 +26342,5 @@
       "vehicles": []
     }
   ],
-  "fitment_built": "2026-08-17T04:24:48Z"
+  "fitment_built": "2026-08-17T04:30:57Z"
 }
