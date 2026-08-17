@@ -1,7 +1,7 @@
 {
-  "updated": "2026-08-17T02:30:10Z",
+  "updated": "2026-08-17T02:31:20Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 205,
+  "count": 206,
   "items": [
     {
       "id": "S4IZBA4AG65C6HI2ZDIRMSJR",
@@ -19901,6 +19901,53 @@
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps"
     },
     {
+      "id": "OWQ2BLLPZCUE24B5WP6MOARN",
+      "name": "Standard DR468 Distributor Cap NOS 8-Tower HEI IAD",
+      "price": 19.98,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/839bd13e5e7f7ed908dfe5be5e873e3e36b71373/original.jpeg",
+      "url": "https://square.link/u/iweHmYGO",
+      "category": "ignition",
+      "checkout": true,
+      "variation_id": "3ZBZKABE2CEAND5TEEUZSGWT",
+      "part_numbers": [
+        "DR468",
+        "Niehoff DR-79B, KEM 1454"
+      ],
+      "interchange": [
+        "IAD D354",
+        "Std DR468",
+        "BWD C266"
+      ],
+      "vehicles": [],
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398294269773",
+      "ebay_type": "Distributor Cap",
+      "ebay_brand": "Standard",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "DR468",
+          "Niehoff DR-79B, KEM 1454"
+        ],
+        "interchange": [
+          "IAD D354",
+          "Std DR468",
+          "BWD C266"
+        ],
+        "vehicles": [],
+        "vehicle_labels": [],
+        "raw_compat_rows": 0,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398294269773",
+        "type": "Distributor Cap",
+        "brand": "Standard",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps"
+      }
+    },
+    {
       "id": "NW24H372GGI42JHSO4QOFY4U",
       "name": "Standard FD-148 Dist Cap NOS Ford Jeep AMC Mercury 6cyl Bolt-On",
       "price": 14.99,
@@ -25801,11 +25848,6 @@
         "1983\u20131993 Ford Mustang",
         "1983\u20131988 Ford Thunderbird"
       ],
-      "vehicle_count_raw": 264,
-      "ebay_item_id": "398294259046",
-      "ebay_type": "Ignition Control Module",
-      "ebay_brand": "Standard",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Modules",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -25873,7 +25915,12 @@
         "type": "Ignition Control Module",
         "brand": "Standard",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Modules"
-      }
+      },
+      "vehicle_count_raw": 264,
+      "ebay_item_id": "398294259046",
+      "ebay_type": "Ignition Control Module",
+      "ebay_brand": "Standard",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Modules"
     },
     {
       "id": "KCK2HUUH432JV36WKEAHHT6W",
@@ -25958,5 +26005,5 @@
       "vehicles": []
     }
   ],
-  "fitment_built": "2026-08-17T02:30:10Z"
+  "fitment_built": "2026-08-17T02:31:20Z"
 }
