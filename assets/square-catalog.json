@@ -1,7 +1,7 @@
 {
-  "updated": "2026-08-17T07:18:59Z",
+  "updated": "2026-08-17T07:26:29Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 212,
+  "count": 213,
   "items": [
     {
       "id": "S4IZBA4AG65C6HI2ZDIRMSJR",
@@ -17348,6 +17348,68 @@
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps"
     },
     {
+      "id": "SWCU7RJGCZHXR5MS2JTZL3JS",
+      "name": "IAD D352HP Dist Cap NOS 2.5 85-90 Astro",
+      "price": 18.98,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/44b47e4914310279c08ddc1c10e145e464fbf2ad/original.jpeg",
+      "url": "https://square.link/u/0nFagFog",
+      "category": "ignition",
+      "checkout": true,
+      "variation_id": "MMQYYXXH7IG6GQK5YNR67SA7",
+      "part_numbers": [
+        "D352HP",
+        "DR459X, C268, DR-73B"
+      ],
+      "interchange": [
+        "Standard DR459X",
+        "BWD C268",
+        "Niehoff DR-73B"
+      ],
+      "vehicles": [
+        "1985\u20131990 Chevrolet Astro"
+      ],
+      "vehicle_count_raw": 12,
+      "ebay_item_id": "398294947491",
+      "ebay_type": "Distributor Cap",
+      "ebay_brand": "IAD",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "D352HP",
+          "DR459X, C268, DR-73B"
+        ],
+        "interchange": [
+          "Standard DR459X",
+          "BWD C268",
+          "Niehoff DR-73B"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1985,
+            "year_to": 1990,
+            "make": "Chevrolet",
+            "model": "Astro",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1985\u20131990 Chevrolet Astro"
+        ],
+        "raw_compat_rows": 12,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398294947491",
+        "type": "Distributor Cap",
+        "brand": "IAD",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps"
+      }
+    },
+    {
       "id": "X2VU3QYJOMXOX4JIKYHBTPT4",
       "name": "LaSalle 780077 Spark Plug Wire Fits Chevy Nova Vega Chevy II Mazda Subaru NOS",
       "price": 45.99,
@@ -25926,11 +25988,6 @@
         "1985\u20131989 Chevrolet Camaro",
         "1988\u20131995 Chevrolet S10"
       ],
-      "vehicle_count_raw": 123,
-      "ebay_item_id": "398294935306",
-      "ebay_type": "Distributor Cap",
-      "ebay_brand": "IAD",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -25988,7 +26045,12 @@
         "type": "Distributor Cap",
         "brand": "IAD",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps"
-      }
+      },
+      "vehicle_count_raw": 123,
+      "ebay_item_id": "398294935306",
+      "ebay_type": "Distributor Cap",
+      "ebay_brand": "IAD",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps"
     },
     {
       "id": "2JU4UI5KXZB2BFREAF2UZ2SA",
@@ -26518,5 +26580,5 @@
       "vehicles": []
     }
   ],
-  "fitment_built": "2026-08-17T07:18:59Z"
+  "fitment_built": "2026-08-17T07:26:29Z"
 }
