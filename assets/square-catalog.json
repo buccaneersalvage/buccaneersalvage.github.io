@@ -1,7 +1,7 @@
 {
-  "updated": "2026-08-17T07:48:36Z",
+  "updated": "2026-08-17T08:02:47Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 216,
+  "count": 217,
   "items": [
     {
       "id": "S4IZBA4AG65C6HI2ZDIRMSJR",
@@ -26370,11 +26370,6 @@
       "vehicles": [
         "1985\u20131995 Jeep Cherokee"
       ],
-      "vehicle_count_raw": 122,
-      "ebay_item_id": "398295003836",
-      "ebay_type": "MAP Sensor",
-      "ebay_brand": "IAD",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Intake & Fuel Sensors",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -26409,6 +26404,58 @@
         "type": "MAP Sensor",
         "brand": "IAD",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Intake & Fuel Sensors"
+      },
+      "vehicle_count_raw": 122,
+      "ebay_item_id": "398295003836",
+      "ebay_type": "MAP Sensor",
+      "ebay_brand": "IAD",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Intake & Fuel Sensors"
+    },
+    {
+      "id": "DYABTMDWGAKJ5HYD4GLONCUN",
+      "name": "IAD OX5 O2 Sensor NOS 4.3 5.0 5.7 85-88 Monte Carlo",
+      "price": 39.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/d88db990d9c0b2c621470ea5e39b11408ae17503/original.jpeg",
+      "url": "https://square.link/u/qQ7Hh12b",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "PLVX55JPWREZJ6PZSM6CRWWM",
+      "part_numbers": [
+        "OX5",
+        "SG5, OS-102, FE-803"
+      ],
+      "interchange": [
+        "Standard SG5",
+        "BWD OS-102",
+        "Niehoff FE-803"
+      ],
+      "vehicles": [],
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398295043522",
+      "ebay_type": "Oxygen Sensor",
+      "ebay_brand": "IAD",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Exhaust & Emission Systems:Oxygen Sensors",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "OX5",
+          "SG5, OS-102, FE-803"
+        ],
+        "interchange": [
+          "Standard SG5",
+          "BWD OS-102",
+          "Niehoff FE-803"
+        ],
+        "vehicles": [],
+        "vehicle_labels": [],
+        "raw_compat_rows": 0,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398295043522",
+        "type": "Oxygen Sensor",
+        "brand": "IAD",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Exhaust & Emission Systems:Oxygen Sensors"
       }
     },
     {
@@ -26802,5 +26849,5 @@
       "vehicles": []
     }
   ],
-  "fitment_built": "2026-08-17T07:48:36Z"
+  "fitment_built": "2026-08-17T08:02:47Z"
 }
