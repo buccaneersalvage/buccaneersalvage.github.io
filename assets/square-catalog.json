@@ -1,7 +1,7 @@
 {
-  "updated": "2026-08-17T08:02:47Z",
+  "updated": "2026-08-17T09:00:57Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 217,
+  "count": 223,
   "items": [
     {
       "id": "S4IZBA4AG65C6HI2ZDIRMSJR",
@@ -17410,6 +17410,80 @@
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps"
     },
     {
+      "id": "Q3L7LNPNKPJPUUNYA3QKQPUQ",
+      "name": "IAD DH434HP Dist Cap NOS 2.9 3.0 V6 83-97 Ranger Aerostar",
+      "price": 19.98,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/8865221fd73fbd77416f41b20258f8c2421c7d24/original.jpeg",
+      "url": "https://square.link/u/GrYctJxi",
+      "category": "ignition",
+      "checkout": true,
+      "variation_id": "7M5GSTFCUPV4UN4O7SREGRRO",
+      "part_numbers": [
+        "DH434HP",
+        "FD163, FD169X, C238, FF-76A"
+      ],
+      "interchange": [
+        "Standard FD163",
+        "BWD C238",
+        "Niehoff FF-76A"
+      ],
+      "vehicles": [
+        "1986\u20131997 Ford Aerostar",
+        "1983\u20131994 Ford Ranger"
+      ],
+      "vehicle_count_raw": 233,
+      "ebay_item_id": "398295184502",
+      "ebay_type": "Distributor Cap",
+      "ebay_brand": "IAD",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "DH434HP",
+          "FD163, FD169X, C238, FF-76A"
+        ],
+        "interchange": [
+          "Standard FD163",
+          "BWD C238",
+          "Niehoff FF-76A"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1986,
+            "year_to": 1997,
+            "make": "Ford",
+            "model": "Aerostar",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1983,
+            "year_to": 1994,
+            "make": "Ford",
+            "model": "Ranger",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1986\u20131997 Ford Aerostar",
+          "1983\u20131994 Ford Ranger"
+        ],
+        "raw_compat_rows": 233,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398295184502",
+        "type": "Distributor Cap",
+        "brand": "IAD",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps"
+      }
+    },
+    {
       "id": "X2VU3QYJOMXOX4JIKYHBTPT4",
       "name": "LaSalle 780077 Spark Plug Wire Fits Chevy Nova Vega Chevy II Mazda Subaru NOS",
       "price": 45.99,
@@ -26053,6 +26127,104 @@
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps"
     },
     {
+      "id": "4KCC2BYBB5UEG2PK6YUUH4ML",
+      "name": "IAD D439HP Dist Rotor NOS 2.8 3.1 4.3 85-92 Camaro",
+      "price": 14.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/b51e6f8093223c7103ba949e4ec7133e60be835e/original.jpeg",
+      "url": "https://square.link/u/xFccbLOJ",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "EVYT4RQUDYAXZE6E6LANXTT3",
+      "part_numbers": [
+        "D439HP",
+        "DR323X, D207P, DR59CS"
+      ],
+      "interchange": [
+        "Standard DR323X",
+        "BWD D207P",
+        "Niehoff DR59CS"
+      ],
+      "vehicles": [
+        "1988\u20131995 Chevrolet C1500",
+        "1985\u20131992 Chevrolet Camaro",
+        "1985\u20131988 Chevrolet Monte Carlo",
+        "1985\u20131992 Pontiac Firebird"
+      ],
+      "vehicle_count_raw": 91,
+      "ebay_item_id": "398295127818",
+      "ebay_type": "Distributor Rotor",
+      "ebay_brand": "IAD",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "D439HP",
+          "DR323X, D207P, DR59CS"
+        ],
+        "interchange": [
+          "Standard DR323X",
+          "BWD D207P",
+          "Niehoff DR59CS"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1988,
+            "year_to": 1995,
+            "make": "Chevrolet",
+            "model": "C1500",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1992,
+            "make": "Chevrolet",
+            "model": "Camaro",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1988,
+            "make": "Chevrolet",
+            "model": "Monte Carlo",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1992,
+            "make": "Pontiac",
+            "model": "Firebird",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1988\u20131995 Chevrolet C1500",
+          "1985\u20131992 Chevrolet Camaro",
+          "1985\u20131988 Chevrolet Monte Carlo",
+          "1985\u20131992 Pontiac Firebird"
+        ],
+        "raw_compat_rows": 91,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398295127818",
+        "type": "Distributor Rotor",
+        "brand": "IAD",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors"
+      }
+    },
+    {
       "id": "2JU4UI5KXZB2BFREAF2UZ2SA",
       "name": "IAD D444HP Dist Rotor NOS Blue HEI Standard DR325X",
       "price": 14.99,
@@ -26350,6 +26522,104 @@
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Starters, Alternators, ECUs & Wiring:Starter Motor Parts"
     },
     {
+      "id": "M6MK253W25TTGYM7J6MSPAIW",
+      "name": "IAD DR323 Dist Rotor NOS 5.0 5.8 V8 79-83 Mustang",
+      "price": 14.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/d842428fbbda87506dec30e2cf8a8f224262cc77/original.jpeg",
+      "url": "https://square.link/u/RWtLWgbt",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "H6XPU5BA72J25IODRO4PRUQ3",
+      "part_numbers": [
+        "DR323",
+        "FD117, FD-117, D166, FF44A"
+      ],
+      "interchange": [
+        "Standard FD117",
+        "BWD D166",
+        "Niehoff FF44A"
+      ],
+      "vehicles": [
+        "1978\u20131979 Ford Bronco",
+        "1977\u20131979 Ford F-100",
+        "1977\u20131979 Ford F-150",
+        "1979\u20131983 Ford Mustang"
+      ],
+      "vehicle_count_raw": 223,
+      "ebay_item_id": "398295136700",
+      "ebay_type": "Distributor Rotor",
+      "ebay_brand": "IAD",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "DR323",
+          "FD117, FD-117, D166, FF44A"
+        ],
+        "interchange": [
+          "Standard FD117",
+          "BWD D166",
+          "Niehoff FF44A"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1978,
+            "year_to": 1979,
+            "make": "Ford",
+            "model": "Bronco",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1977,
+            "year_to": 1979,
+            "make": "Ford",
+            "model": "F-100",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1977,
+            "year_to": 1979,
+            "make": "Ford",
+            "model": "F-150",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1979,
+            "year_to": 1983,
+            "make": "Ford",
+            "model": "Mustang",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1978\u20131979 Ford Bronco",
+          "1977\u20131979 Ford F-100",
+          "1977\u20131979 Ford F-150",
+          "1979\u20131983 Ford Mustang"
+        ],
+        "raw_compat_rows": 223,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398295136700",
+        "type": "Distributor Rotor",
+        "brand": "IAD",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors"
+      }
+    },
+    {
       "id": "PFOSKKWK2ONSI4E6G3GDQMOC",
       "name": "IAD MAP5 MAP Sensor NOS 2.5 4.0 85-95 Cherokee",
       "price": 34.99,
@@ -26412,6 +26682,140 @@
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Intake & Fuel Sensors"
     },
     {
+      "id": "MIA2Q6BWAXM3YMK3MM7P3R3Z",
+      "name": "IAD MAP6 MAP Sensor NOS 3.0 3.8 5.0 85-88 Monte Carlo",
+      "price": 39.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/b750281d7cc2e5f8a7d734f7e4007f64f59a4bd7/original.jpeg",
+      "url": "https://square.link/u/eyZWqDNI",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "TWU4WJHXL7A6FFHO4CGHAPF6",
+      "part_numbers": [
+        "MAP6",
+        "AS6, EC1603, FE1603, 16022682"
+      ],
+      "interchange": [
+        "Standard AS6",
+        "BWD EC1603",
+        "Niehoff FE1603"
+      ],
+      "vehicles": [
+        "1981\u20131985 Buick Century",
+        "1981\u20131987 Buick LeSabre",
+        "1980\u20131987 Buick Regal",
+        "1984\u20131987 Chevrolet Camaro",
+        "1985\u20131988 Chevrolet Monte Carlo",
+        "1980\u20131987 Oldsmobile Cutlass Supreme",
+        "1984\u20131987 Pontiac Firebird"
+      ],
+      "vehicle_count_raw": 284,
+      "ebay_item_id": "398295158161",
+      "ebay_type": "MAP Sensor",
+      "ebay_brand": "IAD",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Intake & Fuel Sensors",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "MAP6",
+          "AS6, EC1603, FE1603, 16022682"
+        ],
+        "interchange": [
+          "Standard AS6",
+          "BWD EC1603",
+          "Niehoff FE1603"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1981,
+            "year_to": 1985,
+            "make": "Buick",
+            "model": "Century",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1981,
+            "year_to": 1987,
+            "make": "Buick",
+            "model": "LeSabre",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1980,
+            "year_to": 1987,
+            "make": "Buick",
+            "model": "Regal",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 1987,
+            "make": "Chevrolet",
+            "model": "Camaro",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1988,
+            "make": "Chevrolet",
+            "model": "Monte Carlo",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1980,
+            "year_to": 1987,
+            "make": "Oldsmobile",
+            "model": "Cutlass Supreme",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 1987,
+            "make": "Pontiac",
+            "model": "Firebird",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1981\u20131985 Buick Century",
+          "1981\u20131987 Buick LeSabre",
+          "1980\u20131987 Buick Regal",
+          "1984\u20131987 Chevrolet Camaro",
+          "1985\u20131988 Chevrolet Monte Carlo",
+          "1980\u20131987 Oldsmobile Cutlass Supreme",
+          "1984\u20131987 Pontiac Firebird"
+        ],
+        "raw_compat_rows": 284,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398295158161",
+        "type": "MAP Sensor",
+        "brand": "IAD",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Intake & Fuel Sensors"
+      }
+    },
+    {
       "id": "DYABTMDWGAKJ5HYD4GLONCUN",
       "name": "IAD OX5 O2 Sensor NOS 4.3 5.0 5.7 85-88 Monte Carlo",
       "price": 39.99,
@@ -26429,12 +26833,6 @@
         "BWD OS-102",
         "Niehoff FE-803"
       ],
-      "vehicles": [],
-      "vehicle_count_raw": 0,
-      "ebay_item_id": "398295043522",
-      "ebay_type": "Oxygen Sensor",
-      "ebay_brand": "IAD",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Exhaust & Emission Systems:Oxygen Sensors",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -26456,6 +26854,228 @@
         "type": "Oxygen Sensor",
         "brand": "IAD",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Exhaust & Emission Systems:Oxygen Sensors"
+      },
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398295043522",
+      "ebay_type": "Oxygen Sensor",
+      "ebay_brand": "IAD",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Exhaust & Emission Systems:Oxygen Sensors",
+      "vehicles": []
+    },
+    {
+      "id": "SOTIPLIA5O4ADIQITPRBSWKW",
+      "name": "IAD SW3 Starter Solenoid NOS 64-67 Mustang",
+      "price": 32.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/d523e6a7e34e106e0206169d4888309536285644/original.jpeg",
+      "url": "https://square.link/u/5rhpOe7W",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "LPVDYFPTYHM7HZPWWSBLMHJE",
+      "part_numbers": [
+        "SW3",
+        "SS581, SS86, SS88, S63, FF143A"
+      ],
+      "interchange": [
+        "Standard SS581",
+        "BWD S63",
+        "Niehoff FF143A"
+      ],
+      "vehicles": [
+        "1967\u20131972 Ford F-100",
+        "1975\u20131977 Ford F-150",
+        "1967\u20131972 Ford F-250",
+        "1964\u20131967 Ford Mustang",
+        "1972\u20131979 Jeep CJ5"
+      ],
+      "vehicle_count_raw": 554,
+      "ebay_item_id": "398295077342",
+      "ebay_type": "Starter Solenoid",
+      "ebay_brand": "IAD",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Starters, Alternators, ECUs & Wiring:Starter Motor Parts",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "SW3",
+          "SS581, SS86, SS88, S63, FF143A"
+        ],
+        "interchange": [
+          "Standard SS581",
+          "BWD S63",
+          "Niehoff FF143A"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1967,
+            "year_to": 1972,
+            "make": "Ford",
+            "model": "F-100",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1975,
+            "year_to": 1977,
+            "make": "Ford",
+            "model": "F-150",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1967,
+            "year_to": 1972,
+            "make": "Ford",
+            "model": "F-250",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1964,
+            "year_to": 1967,
+            "make": "Ford",
+            "model": "Mustang",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1972,
+            "year_to": 1979,
+            "make": "Jeep",
+            "model": "CJ5",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1967\u20131972 Ford F-100",
+          "1975\u20131977 Ford F-150",
+          "1967\u20131972 Ford F-250",
+          "1964\u20131967 Ford Mustang",
+          "1972\u20131979 Jeep CJ5"
+        ],
+        "raw_compat_rows": 554,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398295077342",
+        "type": "Starter Solenoid",
+        "brand": "IAD",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Starters, Alternators, ECUs & Wiring:Starter Motor Parts"
+      }
+    },
+    {
+      "id": "4PPP7M44RK4XRJE2EJELNOE7",
+      "name": "IAD Voltage Regulator NOS VR-125 70-76 Dart Valiant",
+      "price": 19.98,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/c36ed21dd61e290dc91f942041dd14c527b0ab0a/original.jpeg",
+      "url": "https://square.link/u/q46IuDnT",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "YHI7WE4DKSWB6F4XU2CJFH47",
+      "part_numbers": [
+        "UNI6-10, VR125, VR-125, 3438150"
+      ],
+      "interchange": [
+        "Standard VR-125",
+        "Chrysler 3438150"
+      ],
+      "vehicles": [
+        "1970\u20131974 Dodge Challenger",
+        "1978\u20131991 Dodge D150",
+        "1970\u20131976 Dodge Dart",
+        "1970\u20131976 Plymouth Duster",
+        "1970\u20131976 Plymouth Valiant"
+      ],
+      "vehicle_count_raw": 585,
+      "ebay_item_id": "398295076230",
+      "ebay_type": "Voltage Regulator",
+      "ebay_brand": "IAD",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Starters, Alternators, ECUs & Wiring:Voltage Regulators",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "UNI6-10, VR125, VR-125, 3438150"
+        ],
+        "interchange": [
+          "Standard VR-125",
+          "Chrysler 3438150"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1970,
+            "year_to": 1974,
+            "make": "Dodge",
+            "model": "Challenger",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1978,
+            "year_to": 1991,
+            "make": "Dodge",
+            "model": "D150",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1970,
+            "year_to": 1976,
+            "make": "Dodge",
+            "model": "Dart",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1970,
+            "year_to": 1976,
+            "make": "Plymouth",
+            "model": "Duster",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1970,
+            "year_to": 1976,
+            "make": "Plymouth",
+            "model": "Valiant",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1970\u20131974 Dodge Challenger",
+          "1978\u20131991 Dodge D150",
+          "1970\u20131976 Dodge Dart",
+          "1970\u20131976 Plymouth Duster",
+          "1970\u20131976 Plymouth Valiant"
+        ],
+        "raw_compat_rows": 585,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398295076230",
+        "type": "Voltage Regulator",
+        "brand": "IAD",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Starters, Alternators, ECUs & Wiring:Voltage Regulators"
       }
     },
     {
@@ -26849,5 +27469,5 @@
       "vehicles": []
     }
   ],
-  "fitment_built": "2026-08-17T08:02:47Z"
+  "fitment_built": "2026-08-17T09:00:57Z"
 }
