@@ -1,7 +1,7 @@
 {
-  "updated": "2026-08-17T07:26:29Z",
+  "updated": "2026-08-17T07:44:55Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 213,
+  "count": 214,
   "items": [
     {
       "id": "S4IZBA4AG65C6HI2ZDIRMSJR",
@@ -17368,11 +17368,6 @@
       "vehicles": [
         "1985\u20131990 Chevrolet Astro"
       ],
-      "vehicle_count_raw": 12,
-      "ebay_item_id": "398294947491",
-      "ebay_type": "Distributor Cap",
-      "ebay_brand": "IAD",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -17407,7 +17402,12 @@
         "type": "Distributor Cap",
         "brand": "IAD",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps"
-      }
+      },
+      "vehicle_count_raw": 12,
+      "ebay_item_id": "398294947491",
+      "ebay_type": "Distributor Cap",
+      "ebay_brand": "IAD",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps"
     },
     {
       "id": "X2VU3QYJOMXOX4JIKYHBTPT4",
@@ -26102,6 +26102,80 @@
       "vehicles": []
     },
     {
+      "id": "5BDMYJHWNRRGAHBZKMRYG4RO",
+      "name": "IAD D447 Dist Rotor NOS 5.0 5.7 V8 87-92 Camaro",
+      "price": 12.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/2d80388058787a508b3d99969ce1069b0b826976/original.jpeg",
+      "url": "https://square.link/u/KuYZawhH",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "2PZBIGRL3IYQIS5KR67BCO2Y",
+      "part_numbers": [
+        "D447",
+        "DR326, D220, DR59C"
+      ],
+      "interchange": [
+        "Standard DR326",
+        "BWD D220",
+        "Niehoff DR59C"
+      ],
+      "vehicles": [
+        "1988\u20131995 Chevrolet C1500",
+        "1987\u20131992 Chevrolet Camaro"
+      ],
+      "vehicle_count_raw": 162,
+      "ebay_item_id": "398294993539",
+      "ebay_type": "Distributor Rotor",
+      "ebay_brand": "IAD",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "D447",
+          "DR326, D220, DR59C"
+        ],
+        "interchange": [
+          "Standard DR326",
+          "BWD D220",
+          "Niehoff DR59C"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1988,
+            "year_to": 1995,
+            "make": "Chevrolet",
+            "model": "C1500",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1992,
+            "make": "Chevrolet",
+            "model": "Camaro",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1988\u20131995 Chevrolet C1500",
+          "1987\u20131992 Chevrolet Camaro"
+        ],
+        "raw_compat_rows": 162,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398294993539",
+        "type": "Distributor Rotor",
+        "brand": "IAD",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors"
+      }
+    },
+    {
       "id": "5TSHFF4CXHNYWQMSQEKNF65U",
       "name": "IAD D981 Starter Solenoid NOS F-150 Bronco Mustang 65-96",
       "price": 34.99,
@@ -26580,5 +26654,5 @@
       "vehicles": []
     }
   ],
-  "fitment_built": "2026-08-17T07:26:29Z"
+  "fitment_built": "2026-08-17T07:44:55Z"
 }
