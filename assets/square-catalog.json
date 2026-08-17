@@ -1,7 +1,7 @@
 {
-  "updated": "2026-08-17T02:28:39Z",
+  "updated": "2026-08-17T02:30:10Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 204,
+  "count": 205,
   "items": [
     {
       "id": "S4IZBA4AG65C6HI2ZDIRMSJR",
@@ -25692,11 +25692,6 @@
         "1991\u20131993 Chevrolet S10",
         "1985\u20131986 Pontiac Firebird"
       ],
-      "vehicle_count_raw": 67,
-      "ebay_item_id": "398294246862",
-      "ebay_type": "Ignition Control Module",
-      "ebay_brand": "Standard",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Modules",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -25772,6 +25767,109 @@
         "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398294246862",
+        "type": "Ignition Control Module",
+        "brand": "Standard",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Modules"
+      },
+      "vehicle_count_raw": 67,
+      "ebay_item_id": "398294246862",
+      "ebay_type": "Ignition Control Module",
+      "ebay_brand": "Standard",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Modules"
+    },
+    {
+      "id": "32AQLQZDTGTJJERMMH45LF7K",
+      "name": "Standard DY425 Ignition Module NOS IAD LX218",
+      "price": 39.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/229433f694bc865d77fcb1642133506a2d33d571/original.jpeg",
+      "url": "https://square.link/u/h4ypsmMs",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "RF5NIBGL65IVTBYCCGGSXCK4",
+      "part_numbers": [
+        "DY425",
+        "Niehoff FF409, KEM E317"
+      ],
+      "interchange": [
+        "IAD DY425",
+        "Std LX218",
+        "BWD CBE24"
+      ],
+      "vehicles": [
+        "1984\u20131992 Ford Bronco",
+        "1984\u20131996 Ford F-150",
+        "1983\u20131993 Ford Mustang",
+        "1983\u20131988 Ford Thunderbird"
+      ],
+      "vehicle_count_raw": 264,
+      "ebay_item_id": "398294259046",
+      "ebay_type": "Ignition Control Module",
+      "ebay_brand": "Standard",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Modules",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "DY425",
+          "Niehoff FF409, KEM E317"
+        ],
+        "interchange": [
+          "IAD DY425",
+          "Std LX218",
+          "BWD CBE24"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1984,
+            "year_to": 1992,
+            "make": "Ford",
+            "model": "Bronco",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 1996,
+            "make": "Ford",
+            "model": "F-150",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1983,
+            "year_to": 1993,
+            "make": "Ford",
+            "model": "Mustang",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1983,
+            "year_to": 1988,
+            "make": "Ford",
+            "model": "Thunderbird",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1984\u20131992 Ford Bronco",
+          "1984\u20131996 Ford F-150",
+          "1983\u20131993 Ford Mustang",
+          "1983\u20131988 Ford Thunderbird"
+        ],
+        "raw_compat_rows": 264,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398294259046",
         "type": "Ignition Control Module",
         "brand": "Standard",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Modules"
@@ -25860,5 +25958,5 @@
       "vehicles": []
     }
   ],
-  "fitment_built": "2026-08-17T02:28:39Z"
+  "fitment_built": "2026-08-17T02:30:10Z"
 }
