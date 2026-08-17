@@ -1,7 +1,7 @@
 {
-  "updated": "2026-08-17T04:30:57Z",
+  "updated": "2026-08-17T04:36:06Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 210,
+  "count": 211,
   "items": [
     {
       "id": "S4IZBA4AG65C6HI2ZDIRMSJR",
@@ -25921,12 +25921,6 @@
         "Niehoff DR58CS",
         "KEM 1285M"
       ],
-      "vehicles": [],
-      "vehicle_count_raw": 0,
-      "ebay_item_id": "398294545998",
-      "ebay_type": "Distributor Rotor",
-      "ebay_brand": "IAD",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -25949,6 +25943,100 @@
         "type": "Distributor Rotor",
         "brand": "IAD",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors"
+      },
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398294545998",
+      "ebay_type": "Distributor Rotor",
+      "ebay_brand": "IAD",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors",
+      "vehicles": []
+    },
+    {
+      "id": "5TSHFF4CXHNYWQMSQEKNF65U",
+      "name": "IAD D981 Starter Solenoid NOS F-150 Bronco Mustang 65-96",
+      "price": 34.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/8b60cc982ea3800a8b2123183d216347d0425092/original.jpeg",
+      "url": "https://square.link/u/EqrfIrLd",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "UUCI5IV4QGHX5YKGZJTLFTD3",
+      "part_numbers": [
+        "D981",
+        "SS200X, D6TZ11390A, C4TF11390B"
+      ],
+      "interchange": [
+        "Standard SS200",
+        "BWD S100",
+        "Niehoff DR144B",
+        "KEM SW100"
+      ],
+      "vehicles": [
+        "1966\u20131996 Ford Bronco",
+        "1975\u20131996 Ford F-150",
+        "1965\u20131993 Ford Mustang"
+      ],
+      "vehicle_count_raw": 1506,
+      "ebay_item_id": "398294563170",
+      "ebay_type": "Starter Solenoid",
+      "ebay_brand": "IAD",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Starters, Alternators, ECUs & Wiring:Starter Motor Parts",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "D981",
+          "SS200X, D6TZ11390A, C4TF11390B"
+        ],
+        "interchange": [
+          "Standard SS200",
+          "BWD S100",
+          "Niehoff DR144B",
+          "KEM SW100"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1966,
+            "year_to": 1996,
+            "make": "Ford",
+            "model": "Bronco",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1975,
+            "year_to": 1996,
+            "make": "Ford",
+            "model": "F-150",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1965,
+            "year_to": 1993,
+            "make": "Ford",
+            "model": "Mustang",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1966\u20131996 Ford Bronco",
+          "1975\u20131996 Ford F-150",
+          "1965\u20131993 Ford Mustang"
+        ],
+        "raw_compat_rows": 1506,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398294563170",
+        "type": "Starter Solenoid",
+        "brand": "IAD",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Starters, Alternators, ECUs & Wiring:Starter Motor Parts"
       }
     },
     {
@@ -26342,5 +26430,5 @@
       "vehicles": []
     }
   ],
-  "fitment_built": "2026-08-17T04:30:57Z"
+  "fitment_built": "2026-08-17T04:36:06Z"
 }
