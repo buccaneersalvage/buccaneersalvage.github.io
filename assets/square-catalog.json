@@ -1,7 +1,7 @@
 {
-  "updated": "2026-08-17T10:00:50Z",
+  "updated": "2026-08-17T21:00:59Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 225,
+  "count": 232,
   "items": [
     {
       "id": "S4IZBA4AG65C6HI2ZDIRMSJR",
@@ -8318,6 +8318,78 @@
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware"
     },
     {
+      "id": "G4TROGQ5TICAO3DSG6G3D2OX",
+      "name": "Lee 7146 Drum Brake Hardware NOS 69-76 F-250 E-250",
+      "price": 19.98,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/59debafbf494eae9101c637cd4c0d737c5bc4374/original.jpeg",
+      "url": "https://square.link/u/uAxpiAvs",
+      "category": "brake",
+      "checkout": true,
+      "variation_id": "VU2FLOYW3I7FG5RR33UFTI7V",
+      "part_numbers": [
+        "7146",
+        "LEE-7146, Raybestos H7146, Wagner H7146"
+      ],
+      "interchange": [
+        "HW7146",
+        "7146K"
+      ],
+      "vehicles": [
+        "1967\u20131976 Ford F-250",
+        "1967\u20131975 Ford F-350"
+      ],
+      "vehicle_count_raw": 749,
+      "ebay_item_id": "398297089276",
+      "ebay_type": "Drum Brake Hardware Kit",
+      "ebay_brand": "Lee",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "7146",
+          "LEE-7146, Raybestos H7146, Wagner H7146"
+        ],
+        "interchange": [
+          "HW7146",
+          "7146K"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1967,
+            "year_to": 1976,
+            "make": "Ford",
+            "model": "F-250",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1967,
+            "year_to": 1975,
+            "make": "Ford",
+            "model": "F-350",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1967\u20131976 Ford F-250",
+          "1967\u20131975 Ford F-350"
+        ],
+        "raw_compat_rows": 749,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398297089276",
+        "type": "Drum Brake Hardware Kit",
+        "brand": "Lee",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware"
+      }
+    },
+    {
       "id": "DPRSU7RX4SKAHPRFDDTPFKZR",
       "name": "Wagner QS ZX603A Disc Brake Pads for Mercedes-Benz S-Class / SL-Class - New!",
       "price": 34.99,
@@ -8948,6 +9020,182 @@
       "ebay_brand": "Mighty",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Filters",
       "interchange": []
+    },
+    {
+      "id": "KTQC3YPSDMZIGSNXVF2NPNNH",
+      "name": "Mighty A3490 Air Filter NOS Honda Civic Accord 76-83",
+      "price": 19.98,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/ac0fbb8a0b8026f9e03958ad19bd19388d67c247/original.jpeg",
+      "url": "https://square.link/u/ABmJY5Xa",
+      "category": "filters",
+      "checkout": true,
+      "variation_id": "7GVRA32KYFOIVIULPCAQHECO",
+      "part_numbers": [
+        "A3490",
+        "NAPA 2912, AC A757C, Baldwin PA2090"
+      ],
+      "interchange": [
+        "CA3490",
+        "42912",
+        "17220-671-000",
+        "A40015"
+      ],
+      "vehicles": [
+        "1979\u20131983 Dodge Colt",
+        "1976\u20131978 Honda Accord",
+        "1977\u20131983 Honda Civic"
+      ],
+      "vehicle_count_raw": 86,
+      "ebay_item_id": "398297091619",
+      "ebay_type": "Air Filter",
+      "ebay_brand": "Mighty",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Filters",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "A3490",
+          "NAPA 2912, AC A757C, Baldwin PA2090"
+        ],
+        "interchange": [
+          "CA3490",
+          "42912",
+          "17220-671-000",
+          "A40015"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1979,
+            "year_to": 1983,
+            "make": "Dodge",
+            "model": "Colt",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1976,
+            "year_to": 1978,
+            "make": "Honda",
+            "model": "Accord",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1977,
+            "year_to": 1983,
+            "make": "Honda",
+            "model": "Civic",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1979\u20131983 Dodge Colt",
+          "1976\u20131978 Honda Accord",
+          "1977\u20131983 Honda Civic"
+        ],
+        "raw_compat_rows": 86,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398297091619",
+        "type": "Air Filter",
+        "brand": "Mighty",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Filters"
+      }
+    },
+    {
+      "id": "63OAZL34SLIPTN2MLXG3LDPV",
+      "name": "Mighty A4303 Air Filter NOS 75-85 280Z 300ZX 200SX Maxima",
+      "price": 21.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/d177485f5865782f86a6bcd6bde2b436c9226482/original.jpeg",
+      "url": "https://square.link/u/qWKzxw6v",
+      "category": "filters",
+      "checkout": true,
+      "variation_id": "UJ2M6F2S2IUFWZK75FGMQGKT",
+      "part_numbers": [
+        "A4303",
+        "AC A749C, Purolator FCA-7"
+      ],
+      "interchange": [
+        "CA4303",
+        "42136",
+        "16546-N4200",
+        "16546-N4294"
+      ],
+      "vehicles": [
+        "1980\u20131983 Datsun 200SX",
+        "1975\u20131978 Datsun 280Z",
+        "1977\u20131980 Datsun 810"
+      ],
+      "vehicle_count_raw": 26,
+      "ebay_item_id": "398297093313",
+      "ebay_type": "Air Filter",
+      "ebay_brand": "Mighty",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Filters",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "A4303",
+          "AC A749C, Purolator FCA-7"
+        ],
+        "interchange": [
+          "CA4303",
+          "42136",
+          "16546-N4200",
+          "16546-N4294"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1980,
+            "year_to": 1983,
+            "make": "Datsun",
+            "model": "200SX",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1975,
+            "year_to": 1978,
+            "make": "Datsun",
+            "model": "280Z",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1977,
+            "year_to": 1980,
+            "make": "Datsun",
+            "model": "810",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1980\u20131983 Datsun 200SX",
+          "1975\u20131978 Datsun 280Z",
+          "1977\u20131980 Datsun 810"
+        ],
+        "raw_compat_rows": 26,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398297093313",
+        "type": "Air Filter",
+        "brand": "Mighty",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Filters"
+      }
     },
     {
       "id": "JZMU47YHMGRMNLMQBJI7TCXZ",
@@ -12840,6 +13088,92 @@
       "ebay_type": "Air Filter",
       "ebay_brand": "WIX",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Filters"
+    },
+    {
+      "id": "MMRUWQ4EHOC5PLIMLAR6TNQH",
+      "name": "WIX 46097 Air Filter NOS 90-97 Miata 323 Escort Tracer",
+      "price": 21.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/6c91140729cd45b9a0f85b9c65d37507734caaec/original.jpeg",
+      "url": "https://square.link/u/xMmdqN6N",
+      "category": "filters",
+      "checkout": true,
+      "variation_id": "T6IZUGI3USUCKJPMKN476MGQ",
+      "part_numbers": [
+        "46097",
+        "WIX-46097, B6S713Z40, B6S713Z409A"
+      ],
+      "interchange": [
+        "NAPA 6097",
+        "94097",
+        "F1CZ9601A"
+      ],
+      "vehicles": [
+        "1991\u20131997 Ford Escort",
+        "1989\u20131994 Mazda 323",
+        "1992\u20131997 Mercury Tracer"
+      ],
+      "vehicle_count_raw": 137,
+      "ebay_item_id": "398297127653",
+      "ebay_type": "Air Filter",
+      "ebay_brand": "WIX",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Filters",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "46097",
+          "WIX-46097, B6S713Z40, B6S713Z409A"
+        ],
+        "interchange": [
+          "NAPA 6097",
+          "94097",
+          "F1CZ9601A"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1991,
+            "year_to": 1997,
+            "make": "Ford",
+            "model": "Escort",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1989,
+            "year_to": 1994,
+            "make": "Mazda",
+            "model": "323",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1992,
+            "year_to": 1997,
+            "make": "Mercury",
+            "model": "Tracer",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1991\u20131997 Ford Escort",
+          "1989\u20131994 Mazda 323",
+          "1992\u20131997 Mercury Tracer"
+        ],
+        "raw_compat_rows": 137,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398297127653",
+        "type": "Air Filter",
+        "brand": "WIX",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Filters"
+      }
     },
     {
       "id": "DVMYJ24JHDP6B2F2AIY53E6J",
@@ -17432,11 +17766,6 @@
         "1984\u20131996 Ford F-150",
         "1979\u20131995 Ford Mustang"
       ],
-      "vehicle_count_raw": 374,
-      "ebay_item_id": "398295216823",
-      "ebay_type": "Distributor Cap",
-      "ebay_brand": "IAD",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -17493,7 +17822,12 @@
         "type": "Distributor Cap",
         "brand": "IAD",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps"
-      }
+      },
+      "vehicle_count_raw": 374,
+      "ebay_item_id": "398295216823",
+      "ebay_type": "Distributor Cap",
+      "ebay_brand": "IAD",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps"
     },
     {
       "id": "Q3L7LNPNKPJPUUNYA3QKQPUQ",
@@ -26456,11 +26790,6 @@
         "1988\u20131995 Chevrolet C1500",
         "1987\u20131992 Chevrolet Camaro"
       ],
-      "vehicle_count_raw": 162,
-      "ebay_item_id": "398295336172",
-      "ebay_type": "Distributor Rotor",
-      "ebay_brand": "IAD",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -26507,7 +26836,12 @@
         "type": "Distributor Rotor",
         "brand": "IAD",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors"
-      }
+      },
+      "vehicle_count_raw": 162,
+      "ebay_item_id": "398295336172",
+      "ebay_type": "Distributor Rotor",
+      "ebay_brand": "IAD",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors"
     },
     {
       "id": "7YEMOW2YD3OFX7JK7FP22KPW",
@@ -27629,7 +27963,297 @@
       "ebay_brand": "Sylvania",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Lighting & Lamps:Interior Light Assemblies",
       "vehicles": []
+    },
+    {
+      "id": "APUTHX26WK7N33KJNJPOGFXA",
+      "name": "Victor Reinz JV845 Timing Cover Gasket Set NOS 64-90 Cutlass",
+      "price": 21.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/0dee5d29b86b90b53f38318e02a778d6acf153b0/original.jpeg",
+      "url": "https://square.link/u/V5agXGc5",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "DVHSIU2JSTOM7YMR5XM6D3FN",
+      "part_numbers": [
+        "JV845",
+        "JV 845, Mahle JV845, Carquest JV845"
+      ],
+      "interchange": [
+        "XF288AA",
+        "F288AA",
+        "TCS13417"
+      ],
+      "vehicles": [
+        "1977\u20131986 Buick LeSabre",
+        "1964\u20131971 Oldsmobile Cutlass",
+        "1967\u20131988 Oldsmobile Cutlass Supreme",
+        "1968\u20131985 Oldsmobile Delta 88"
+      ],
+      "vehicle_count_raw": 759,
+      "ebay_item_id": "398297146321",
+      "ebay_type": "Timing Cover Gasket Set",
+      "ebay_brand": "Victor Reinz",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Timing Components & Kits",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "JV845",
+          "JV 845, Mahle JV845, Carquest JV845"
+        ],
+        "interchange": [
+          "XF288AA",
+          "F288AA",
+          "TCS13417"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1977,
+            "year_to": 1986,
+            "make": "Buick",
+            "model": "LeSabre",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1964,
+            "year_to": 1971,
+            "make": "Oldsmobile",
+            "model": "Cutlass",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1967,
+            "year_to": 1988,
+            "make": "Oldsmobile",
+            "model": "Cutlass Supreme",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1968,
+            "year_to": 1985,
+            "make": "Oldsmobile",
+            "model": "Delta 88",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1977\u20131986 Buick LeSabre",
+          "1964\u20131971 Oldsmobile Cutlass",
+          "1967\u20131988 Oldsmobile Cutlass Supreme",
+          "1968\u20131985 Oldsmobile Delta 88"
+        ],
+        "raw_compat_rows": 759,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398297146321",
+        "type": "Timing Cover Gasket Set",
+        "brand": "Victor Reinz",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Timing Components & Kits"
+      }
+    },
+    {
+      "id": "CE7ENJAXZQFV2RPR6J755PKI",
+      "name": "Victor Reinz JV856 Timing Cover Gasket NOS 5.0 302 64-73 Mustang",
+      "price": 21.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/160c1ba0e442ec1f374368dd75aa50fd394a2fea/original.jpeg",
+      "url": "https://square.link/u/9qiEwio6",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "QL3NOK7VV5HERPPB5IMIHXSC",
+      "part_numbers": [
+        "JV856",
+        "JV 856, Mahle JV856"
+      ],
+      "interchange": [
+        "G214AA"
+      ],
+      "vehicles": [
+        "1968\u20131985 Ford Bronco",
+        "1975\u20131985 Ford F-150",
+        "1968\u20131985 Ford LTD",
+        "1968\u20131973 Ford Mustang"
+      ],
+      "vehicle_count_raw": 298,
+      "ebay_item_id": "398297162044",
+      "ebay_type": "Timing Cover Gasket Set",
+      "ebay_brand": "Victor Reinz",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Timing Components & Kits",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "JV856",
+          "JV 856, Mahle JV856"
+        ],
+        "interchange": [
+          "G214AA"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1968,
+            "year_to": 1985,
+            "make": "Ford",
+            "model": "Bronco",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1975,
+            "year_to": 1985,
+            "make": "Ford",
+            "model": "F-150",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1968,
+            "year_to": 1985,
+            "make": "Ford",
+            "model": "LTD",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1968,
+            "year_to": 1973,
+            "make": "Ford",
+            "model": "Mustang",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1968\u20131985 Ford Bronco",
+          "1975\u20131985 Ford F-150",
+          "1968\u20131985 Ford LTD",
+          "1968\u20131973 Ford Mustang"
+        ],
+        "raw_compat_rows": 298,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398297162044",
+        "type": "Timing Cover Gasket Set",
+        "brand": "Victor Reinz",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Timing Components & Kits"
+      }
+    },
+    {
+      "id": "YFVTVHUF5CEZTAU457DVUVSV",
+      "name": "Victor Reinz JV969 Timing Cover Gasket NOS 2.0 82-86 Cavalier",
+      "price": 16.98,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/106e38e0717ba82fc570888c1adb60b963fc1ca6/original.jpeg",
+      "url": "https://square.link/u/l0ecHsIq",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "ATU5NQQGOBMAARGLWU2KYMEW",
+      "part_numbers": [
+        "JV969",
+        "JV 969, Mahle JV969"
+      ],
+      "interchange": [
+        "XF243AA",
+        "F243AA",
+        "TCS45536"
+      ],
+      "vehicles": [
+        "1983\u20131986 Buick Skyhawk",
+        "1983\u20131986 Chevrolet Cavalier",
+        "1983\u20131986 Oldsmobile Firenza",
+        "1983 Pontiac J2000"
+      ],
+      "vehicle_count_raw": 159,
+      "ebay_item_id": "398297173564",
+      "ebay_type": "Timing Cover Gasket Set",
+      "ebay_brand": "Victor Reinz",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Timing Components & Kits",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "JV969",
+          "JV 969, Mahle JV969"
+        ],
+        "interchange": [
+          "XF243AA",
+          "F243AA",
+          "TCS45536"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1983,
+            "year_to": 1986,
+            "make": "Buick",
+            "model": "Skyhawk",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1983,
+            "year_to": 1986,
+            "make": "Chevrolet",
+            "model": "Cavalier",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1983,
+            "year_to": 1986,
+            "make": "Oldsmobile",
+            "model": "Firenza",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1983,
+            "year_to": 1983,
+            "make": "Pontiac",
+            "model": "J2000",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1983\u20131986 Buick Skyhawk",
+          "1983\u20131986 Chevrolet Cavalier",
+          "1983\u20131986 Oldsmobile Firenza",
+          "1983 Pontiac J2000"
+        ],
+        "raw_compat_rows": 159,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398297173564",
+        "type": "Timing Cover Gasket Set",
+        "brand": "Victor Reinz",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Timing Components & Kits"
+      }
     }
   ],
-  "fitment_built": "2026-08-17T10:00:50Z"
+  "fitment_built": "2026-08-17T21:00:59Z"
 }
