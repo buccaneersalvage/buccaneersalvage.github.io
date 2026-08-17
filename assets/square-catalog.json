@@ -1,7 +1,7 @@
 {
-  "updated": "2026-08-17T07:46:10Z",
+  "updated": "2026-08-17T07:48:36Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 215,
+  "count": 216,
   "items": [
     {
       "id": "S4IZBA4AG65C6HI2ZDIRMSJR",
@@ -26198,11 +26198,6 @@
         "1990\u20131995 Buick Regal",
         "1987\u20131993 Buick Skylark"
       ],
-      "vehicle_count_raw": 171,
-      "ebay_item_id": "398294997687",
-      "ebay_type": "Ignition Coil",
-      "ebay_brand": "IAD",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Coils",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -26259,7 +26254,12 @@
         "type": "Ignition Coil",
         "brand": "IAD",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Coils"
-      }
+      },
+      "vehicle_count_raw": 171,
+      "ebay_item_id": "398294997687",
+      "ebay_type": "Ignition Coil",
+      "ebay_brand": "IAD",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Coils"
     },
     {
       "id": "5TSHFF4CXHNYWQMSQEKNF65U",
@@ -26348,6 +26348,68 @@
       "ebay_type": "Starter Solenoid",
       "ebay_brand": "IAD",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Starters, Alternators, ECUs & Wiring:Starter Motor Parts"
+    },
+    {
+      "id": "PFOSKKWK2ONSI4E6G3GDQMOC",
+      "name": "IAD MAP5 MAP Sensor NOS 2.5 4.0 85-95 Cherokee",
+      "price": 34.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/c43d49a04ada5189d2a30e5050281bc58e53e23c/original.jpeg",
+      "url": "https://square.link/u/voRa9w5Z",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "P3N5ZNPVXWINWG6IU6VFGETM",
+      "part_numbers": [
+        "MAP5",
+        "AS5, EC1602, FE1602"
+      ],
+      "interchange": [
+        "Standard AS5",
+        "BWD EC1602",
+        "Niehoff FE1602"
+      ],
+      "vehicles": [
+        "1985\u20131995 Jeep Cherokee"
+      ],
+      "vehicle_count_raw": 122,
+      "ebay_item_id": "398295003836",
+      "ebay_type": "MAP Sensor",
+      "ebay_brand": "IAD",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Intake & Fuel Sensors",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "MAP5",
+          "AS5, EC1602, FE1602"
+        ],
+        "interchange": [
+          "Standard AS5",
+          "BWD EC1602",
+          "Niehoff FE1602"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1985,
+            "year_to": 1995,
+            "make": "Jeep",
+            "model": "Cherokee",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1985\u20131995 Jeep Cherokee"
+        ],
+        "raw_compat_rows": 122,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398295003836",
+        "type": "MAP Sensor",
+        "brand": "IAD",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Intake & Fuel Sensors"
+      }
     },
     {
       "id": "45QCCVHCD3OGIHM53VDOFBKJ",
@@ -26740,5 +26802,5 @@
       "vehicles": []
     }
   ],
-  "fitment_built": "2026-08-17T07:46:10Z"
+  "fitment_built": "2026-08-17T07:48:36Z"
 }
