@@ -1,7 +1,7 @@
 {
-  "updated": "2026-08-17T00:47:49Z",
+  "updated": "2026-08-17T00:50:53Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 201,
+  "count": 202,
   "items": [
     {
       "id": "S4IZBA4AG65C6HI2ZDIRMSJR",
@@ -18851,11 +18851,6 @@
         "1960\u20131976 Dodge Dart",
         "1960\u20131976 Plymouth Valiant"
       ],
-      "vehicle_count_raw": 1093,
-      "ebay_item_id": "398293967604",
-      "ebay_type": "Distributor Cap",
-      "ebay_brand": "Standard",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -18923,7 +18918,12 @@
         "type": "Distributor Cap",
         "brand": "Standard",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps"
-      }
+      },
+      "vehicle_count_raw": 1093,
+      "ebay_item_id": "398293967604",
+      "ebay_type": "Distributor Cap",
+      "ebay_brand": "Standard",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps"
     },
     {
       "id": "ZKWZ6SC6IDHN5XU5YWYHMTSU",
@@ -22360,11 +22360,6 @@
         "1983\u20131988 Toyota Corolla",
         "1983\u20131988 Toyota Tercel"
       ],
-      "vehicle_count_raw": 129,
-      "ebay_item_id": "398293966187",
-      "ebay_type": "Distributor Cap",
-      "ebay_brand": "Standard",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -22421,7 +22416,12 @@
         "type": "Distributor Cap",
         "brand": "Standard",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps"
-      }
+      },
+      "vehicle_count_raw": 129,
+      "ebay_item_id": "398293966187",
+      "ebay_type": "Distributor Cap",
+      "ebay_brand": "Standard",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps"
     },
     {
       "id": "XYRG2GULZOF3VOETJ2L6IBVO",
@@ -25619,6 +25619,45 @@
       "vehicles": []
     },
     {
+      "id": "KCK2HUUH432JV36WKEAHHT6W",
+      "name": "Sylvania 5001 GTE Auto Headlamp Sealed Beam NOS",
+      "price": 27.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/498e9b0549e39ec503dfbd73ae362e5ac09e6615/original.jpeg",
+      "url": "https://square.link/u/PNs1XdJ2",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "DA4QBSWPXC2OIY2XKGBA3BWJ",
+      "part_numbers": [
+        "5001",
+        "H5001"
+      ],
+      "interchange": [],
+      "vehicles": [],
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398293990346",
+      "ebay_type": "Sealed Beam Headlamp",
+      "ebay_brand": "Sylvania",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Lighting & Lamps:Interior Light Assemblies",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "5001",
+          "H5001"
+        ],
+        "interchange": [],
+        "vehicles": [],
+        "vehicle_labels": [],
+        "raw_compat_rows": 0,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398293990346",
+        "type": "Sealed Beam Headlamp",
+        "brand": "Sylvania",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Lighting & Lamps:Interior Light Assemblies"
+      }
+    },
+    {
       "id": "NVZIDA4T7K3UFUIPCOAKIBCH",
       "name": "Sylvania H5001 5001 Halogen Sealed Beam High Beam NOS Lot of 2",
       "price": 52.99,
@@ -25634,12 +25673,6 @@
       "interchange": [
         "H5001BX"
       ],
-      "vehicles": [],
-      "vehicle_count_raw": 0,
-      "ebay_item_id": "398293964901",
-      "ebay_type": "Sealed Beam Headlamp",
-      "ebay_brand": "Sylvania",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Lighting & Lamps:Interior Light Assemblies",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -25659,8 +25692,14 @@
         "type": "Sealed Beam Headlamp",
         "brand": "Sylvania",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Lighting & Lamps:Interior Light Assemblies"
-      }
+      },
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398293964901",
+      "ebay_type": "Sealed Beam Headlamp",
+      "ebay_brand": "Sylvania",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Lighting & Lamps:Interior Light Assemblies",
+      "vehicles": []
     }
   ],
-  "fitment_built": "2026-08-17T00:47:49Z"
+  "fitment_built": "2026-08-17T00:50:53Z"
 }
