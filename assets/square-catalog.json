@@ -1,7 +1,7 @@
 {
-  "updated": "2026-08-18T00:10:47Z",
+  "updated": "2026-08-18T00:30:07Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 260,
+  "count": 266,
   "items": [
     {
       "id": "S4IZBA4AG65C6HI2ZDIRMSJR",
@@ -198,6 +198,55 @@
       "ebay_brand": "Automann",
       "ebay_category": "eBay Motors:Parts & Accessories:Commercial Truck Parts:Suspension & Steering:Air Ride Suspension",
       "vehicles": []
+    },
+    {
+      "id": "G2O3XG6XWRX5K7QT65T7NQZO",
+      "name": "Automann AB1D28G-9149 Rolling Lobe Air Spring Replaces W01-358-9149 NOS",
+      "price": 0.0,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/48bfe0cc4f09191767b3c1fceeac1cca201e9d86/original.jpeg",
+      "url": "https://square.link/u/0BJCX6Yf",
+      "category": "air-spring",
+      "checkout": true,
+      "variation_id": "3HFHMS66QFFNQQH676VQ2GPX",
+      "part_numbers": [
+        "AB1D28G-9149"
+      ],
+      "interchange": [
+        "W01-358-9149",
+        "Firestone 9149",
+        "1110.5-17 A365",
+        "1R14-018",
+        "1R14-024"
+      ],
+      "vehicles": [],
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398217621260",
+      "ebay_type": "Rolling Lobe Air Spring",
+      "ebay_brand": "Automann",
+      "ebay_category": "eBay Motors:Parts & Accessories:Commercial Truck Parts:Suspension & Steering:Air Ride Suspension",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "AB1D28G-9149"
+        ],
+        "interchange": [
+          "W01-358-9149",
+          "Firestone 9149",
+          "1110.5-17 A365",
+          "1R14-018",
+          "1R14-024"
+        ],
+        "vehicles": [],
+        "vehicle_labels": [],
+        "raw_compat_rows": 0,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398217621260",
+        "type": "Rolling Lobe Air Spring",
+        "brand": "Automann",
+        "ebay_category": "eBay Motors:Parts & Accessories:Commercial Truck Parts:Suspension & Steering:Air Ride Suspension"
+      }
     },
     {
       "id": "AZNN7T4GEP4SBDATK42PTAUJ",
@@ -667,6 +716,51 @@
       "ebay_brand": "Automann",
       "ebay_category": "eBay Motors:Parts & Accessories:Commercial Truck Parts:Suspension & Steering:Air Ride Suspension",
       "vehicles": []
+    },
+    {
+      "id": "I5T2REO43MN3HUBPX57IIATS",
+      "name": "Automann AB1DK28F-9891 Rolling Lobe Air Spring Replaces W01-358-9891 NOS",
+      "price": 0.0,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/2389e91da86d7ab72edd9103394a555a247168e8/original.jpeg",
+      "url": "https://square.link/u/ttT0lNsr",
+      "category": "air-spring",
+      "checkout": true,
+      "variation_id": "NLASIQQV2VSFHLVX23LMTR27",
+      "part_numbers": [
+        "AB1DK28F-9891"
+      ],
+      "interchange": [
+        "W01-358-9891",
+        "Equivalent to Goodyear 1R14-174",
+        "Phoenix DK28F"
+      ],
+      "vehicles": [],
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398217620405",
+      "ebay_type": "Rolling Lobe Air Spring",
+      "ebay_brand": "Automann",
+      "ebay_category": "eBay Motors:Parts & Accessories:Commercial Truck Parts:Suspension & Steering:Air Ride Suspension",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "AB1DK28F-9891"
+        ],
+        "interchange": [
+          "W01-358-9891",
+          "Equivalent to Goodyear 1R14-174",
+          "Phoenix DK28F"
+        ],
+        "vehicles": [],
+        "vehicle_labels": [],
+        "raw_compat_rows": 0,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398217620405",
+        "type": "Rolling Lobe Air Spring",
+        "brand": "Automann",
+        "ebay_category": "eBay Motors:Parts & Accessories:Commercial Truck Parts:Suspension & Steering:Air Ride Suspension"
+      }
     },
     {
       "id": "QIJQVWWEI5FXTGFGA3C6HFM3",
@@ -1394,6 +1488,51 @@
       "ebay_brand": "Goodyear",
       "ebay_category": "eBay Motors:Parts & Accessories:Commercial Truck Parts:Suspension & Steering:Air Ride Suspension",
       "vehicles": []
+    },
+    {
+      "id": "SUVZ6H6UQA7YOX65LLSBVFIV",
+      "name": "Goodyear 1R14-174 Rolling Lobe Air Spring Replaces W01-358-5503 NOS",
+      "price": 0.0,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/b31618d151e64008d739309ad1acccb30a7cddca/original.jpeg",
+      "url": "https://square.link/u/RtQErZBr",
+      "category": "air-spring",
+      "checkout": true,
+      "variation_id": "654GWDMU2FWLQQ5O7NHCYU2T",
+      "part_numbers": [
+        "1R14-174"
+      ],
+      "interchange": [
+        "W01-358-5503",
+        "W01-358-5504",
+        "AB1DK28F-9891"
+      ],
+      "vehicles": [],
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398217622258",
+      "ebay_type": "Rolling Lobe Air Spring",
+      "ebay_brand": "Goodyear",
+      "ebay_category": "eBay Motors:Parts & Accessories:Commercial Truck Parts:Suspension & Steering:Air Ride Suspension",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "1R14-174"
+        ],
+        "interchange": [
+          "W01-358-5503",
+          "W01-358-5504",
+          "AB1DK28F-9891"
+        ],
+        "vehicles": [],
+        "vehicle_labels": [],
+        "raw_compat_rows": 0,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398217622258",
+        "type": "Rolling Lobe Air Spring",
+        "brand": "Goodyear",
+        "ebay_category": "eBay Motors:Parts & Accessories:Commercial Truck Parts:Suspension & Steering:Air Ride Suspension"
+      }
     },
     {
       "id": "Y6M4E3EQLZL24OW2FRCYAPTI",
@@ -18346,6 +18485,314 @@
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Other Ignition Systems & Components"
     },
     {
+      "id": "W6HWOIYW37UPTCYYD5KLB7BF",
+      "name": "Pace Setter DR-186 Ignition Coil NOS Buick Cadillac Chevy GMC Olds Pontiac 78-89",
+      "price": 29.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/f2d66347adfac85940581ccc8851caefe15d1a8c/original.jpeg",
+      "url": "https://square.link/u/T2vSADoe",
+      "category": "ignition",
+      "checkout": true,
+      "variation_id": "XH5UKZ2YHET7AT5WVNTDJ2Q7",
+      "part_numbers": [
+        "DR-186"
+      ],
+      "interchange": [
+        "DR37"
+      ],
+      "vehicles": [
+        "1978\u20131989 Buick Century",
+        "1978\u20131989 Buick Electra",
+        "1978\u20131989 Buick LeSabre",
+        "1978\u20131989 Buick Regal",
+        "1978\u20131989 Buick Riviera",
+        "1978\u20131989 Cadillac DeVille",
+        "1978\u20131989 Cadillac Eldorado",
+        "1978\u20131989 Cadillac Seville",
+        "1978\u20131989 Chevrolet Camaro",
+        "1978\u20131989 Chevrolet Caprice",
+        "1978\u20131989 Chevrolet Corvette",
+        "1978\u20131985 Chevrolet Impala",
+        "1978\u20131983 Chevrolet Malibu",
+        "1978\u20131988 Chevrolet Monte Carlo",
+        "1978\u20131988 Chevrolet Nova",
+        "1978\u20131987 GMC Caballero",
+        "1978\u20131989 GMC Olds",
+        "1978\u20131989 Oldsmobile Cutlass",
+        "1978\u20131989 Oldsmobile Delta 88",
+        "1978\u20131989 Pontiac Bonneville",
+        "1978\u20131989 Pontiac Firebird",
+        "1978\u20131989 Pontiac Grand Prix"
+      ],
+      "vehicle_count_raw": 2136,
+      "ebay_item_id": "398274743110",
+      "ebay_type": "Ignition Coil",
+      "ebay_brand": "Pace Setter",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Coils",
+      "fitment_source": "ebay_listing+title",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "DR-186"
+        ],
+        "interchange": [
+          "DR37"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1978,
+            "year_to": 1989,
+            "make": "Buick",
+            "model": "Century",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1978,
+            "year_to": 1989,
+            "make": "Buick",
+            "model": "Electra",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1978,
+            "year_to": 1989,
+            "make": "Buick",
+            "model": "LeSabre",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1978,
+            "year_to": 1989,
+            "make": "Buick",
+            "model": "Regal",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1978,
+            "year_to": 1989,
+            "make": "Buick",
+            "model": "Riviera",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1978,
+            "year_to": 1989,
+            "make": "Cadillac",
+            "model": "DeVille",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1978,
+            "year_to": 1989,
+            "make": "Cadillac",
+            "model": "Eldorado",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1978,
+            "year_to": 1989,
+            "make": "Cadillac",
+            "model": "Seville",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1978,
+            "year_to": 1989,
+            "make": "Chevrolet",
+            "model": "Camaro",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1978,
+            "year_to": 1989,
+            "make": "Chevrolet",
+            "model": "Caprice",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1978,
+            "year_to": 1989,
+            "make": "Chevrolet",
+            "model": "Corvette",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1978,
+            "year_to": 1985,
+            "make": "Chevrolet",
+            "model": "Impala",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1978,
+            "year_to": 1983,
+            "make": "Chevrolet",
+            "model": "Malibu",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1978,
+            "year_to": 1988,
+            "make": "Chevrolet",
+            "model": "Monte Carlo",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1978,
+            "year_to": 1988,
+            "make": "Chevrolet",
+            "model": "Nova",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1978,
+            "year_to": 1987,
+            "make": "GMC",
+            "model": "Caballero",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1978,
+            "year_to": 1989,
+            "make": "GMC",
+            "model": "Olds",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1978,
+            "year_to": 1989,
+            "make": "Oldsmobile",
+            "model": "Cutlass",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1978,
+            "year_to": 1989,
+            "make": "Oldsmobile",
+            "model": "Delta 88",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1978,
+            "year_to": 1989,
+            "make": "Pontiac",
+            "model": "Bonneville",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1978,
+            "year_to": 1989,
+            "make": "Pontiac",
+            "model": "Firebird",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1978,
+            "year_to": 1989,
+            "make": "Pontiac",
+            "model": "Grand Prix",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1978\u20131989 Buick Century",
+          "1978\u20131989 Buick Electra",
+          "1978\u20131989 Buick LeSabre",
+          "1978\u20131989 Buick Regal",
+          "1978\u20131989 Buick Riviera",
+          "1978\u20131989 Cadillac DeVille",
+          "1978\u20131989 Cadillac Eldorado",
+          "1978\u20131989 Cadillac Seville",
+          "1978\u20131989 Chevrolet Camaro",
+          "1978\u20131989 Chevrolet Caprice",
+          "1978\u20131989 Chevrolet Corvette",
+          "1978\u20131985 Chevrolet Impala",
+          "1978\u20131983 Chevrolet Malibu",
+          "1978\u20131988 Chevrolet Monte Carlo",
+          "1978\u20131988 Chevrolet Nova",
+          "1978\u20131987 GMC Caballero",
+          "1978\u20131989 GMC Olds",
+          "1978\u20131989 Oldsmobile Cutlass",
+          "1978\u20131989 Oldsmobile Delta 88",
+          "1978\u20131989 Pontiac Bonneville",
+          "1978\u20131989 Pontiac Firebird",
+          "1978\u20131989 Pontiac Grand Prix"
+        ],
+        "raw_compat_rows": 2136,
+        "source": "ebay_listing+title",
+        "confidence": "high",
+        "ebay_item_id": "398274743110",
+        "type": "Ignition Coil",
+        "brand": "Pace Setter",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Coils"
+      }
+    },
+    {
       "id": "YARCTVBHP3UI7CERQYOBEZ6N",
       "name": "Pace Setter DR-186 Ignition Coil NOS New Old Stock OEM Ver",
       "price": 29.99,
@@ -24672,6 +25119,60 @@
       "interchange": []
     },
     {
+      "id": "YSEN54ZAIGOC66SNHV7PULGM",
+      "name": "Beck Arnley 103-2461 CV Boot Kit NOS Acura Legend 86-90 Class",
+      "price": 18.98,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/2b0e9fa4f70920c71a2e7eef34e2bf4c2b001087/original.jpeg",
+      "url": "https://square.link/u/IWtCyM0J",
+      "category": "driveline",
+      "checkout": true,
+      "variation_id": "QJ7UEN2KJEMPZB7MI63OIWLR",
+      "part_numbers": [
+        "103-2461",
+        "1032461"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1986\u20131990 Acura Legend"
+      ],
+      "vehicle_count_raw": 29,
+      "ebay_item_id": "398264440602",
+      "ebay_type": "CV Joint Boot Kit",
+      "ebay_brand": "Beck/Arnley",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:CV Joints, Boots & Parts",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "103-2461",
+          "1032461"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1986,
+            "year_to": 1990,
+            "make": "Acura",
+            "model": "Legend",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1986\u20131990 Acura Legend"
+        ],
+        "raw_compat_rows": 29,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398264440602",
+        "type": "CV Joint Boot Kit",
+        "brand": "Beck/Arnley",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:CV Joints, Boots & Parts"
+      }
+    },
+    {
       "id": "U7IAHNRLDFHIMBOV75GFFH7W",
       "name": "Cloyes B-061 Timing Belt NOS Chevy Chevette Pontiac T1000 79-87",
       "price": 19.98,
@@ -25702,6 +26203,108 @@
       "ebay_brand": "Moog",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:CV Joints, Boots & Parts",
       "interchange": []
+    },
+    {
+      "id": "5OSU7K3THNBB3QREL3AVIFMF",
+      "name": "Moog CV8448 CV Boot Kit NOS Ford Taurus Sable Toyota Camry Outer",
+      "price": 22.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/a3b851ac45296080a983eec4c7d6e3c5d8fe679f/original.jpeg",
+      "url": "https://square.link/u/VQ0Vk7yS",
+      "category": "driveline",
+      "checkout": true,
+      "variation_id": "PWXZG7IL6KMY4WLH5HKMFXXW",
+      "part_numbers": [
+        "CV8448",
+        "8448, CV-8448"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1995\u20131997 Ford Contour",
+        "1986\u20131994 Ford Taurus",
+        "1995\u20131997 Mercury Mystique",
+        "1986\u20131994 Mercury Sable",
+        "1989\u20131991 Toyota Camry"
+      ],
+      "vehicle_count_raw": 278,
+      "ebay_item_id": "398264327564",
+      "ebay_type": "CV Joint Boot Kit",
+      "ebay_brand": "MOOG",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:CV Joints, Boots & Parts",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "CV8448",
+          "8448, CV-8448"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1995,
+            "year_to": 1997,
+            "make": "Ford",
+            "model": "Contour",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1986,
+            "year_to": 1994,
+            "make": "Ford",
+            "model": "Taurus",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1995,
+            "year_to": 1997,
+            "make": "Mercury",
+            "model": "Mystique",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1986,
+            "year_to": 1994,
+            "make": "Mercury",
+            "model": "Sable",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1989,
+            "year_to": 1991,
+            "make": "Toyota",
+            "model": "Camry",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1995\u20131997 Ford Contour",
+          "1986\u20131994 Ford Taurus",
+          "1995\u20131997 Mercury Mystique",
+          "1986\u20131994 Mercury Sable",
+          "1989\u20131991 Toyota Camry"
+        ],
+        "raw_compat_rows": 278,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398264327564",
+        "type": "CV Joint Boot Kit",
+        "brand": "MOOG",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:CV Joints, Boots & Parts"
+      }
     },
     {
       "id": "7FGRFQ3FFWTU25CSM5IZT5HY",
@@ -27396,17 +27999,11 @@
       "part_numbers": [
         "33268"
       ],
-      "interchange": [],
       "vehicles": [
         "1987\u20131994 Plymouth Sundance",
         "1983\u20131986 Plymouth Turismo 2.2",
         "1984\u20131995 Plymouth Voyager"
       ],
-      "vehicle_count_raw": 170,
-      "ebay_item_id": "398297616213",
-      "ebay_type": "Thermostat",
-      "ebay_brand": "Gates",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Thermostats & Housings",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -27458,7 +28055,13 @@
         "type": "Thermostat",
         "brand": "Gates",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Thermostats & Housings"
-      }
+      },
+      "vehicle_count_raw": 170,
+      "ebay_item_id": "398297616213",
+      "ebay_type": "Thermostat",
+      "ebay_brand": "Gates",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Thermostats & Housings",
+      "interchange": []
     },
     {
       "id": "3OWZS3ISWMJZVCMUFT6OS3KN",
@@ -27706,17 +28309,11 @@
       "part_numbers": [
         "33419"
       ],
-      "interchange": [],
       "vehicles": [
         "1987\u20131991 Chevrolet Cavalier",
         "1987\u20131991 Chevrolet Corsica",
         "1987\u20131991 Pontiac Tempest"
       ],
-      "vehicle_count_raw": 116,
-      "ebay_item_id": "398297628468",
-      "ebay_type": "Thermostat",
-      "ebay_brand": "Gates",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Thermostats & Housings",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -27768,7 +28365,13 @@
         "type": "Thermostat",
         "brand": "Gates",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Thermostats & Housings"
-      }
+      },
+      "vehicle_count_raw": 116,
+      "ebay_item_id": "398297628468",
+      "ebay_type": "Thermostat",
+      "ebay_brand": "Gates",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Thermostats & Housings",
+      "interchange": []
     },
     {
       "id": "HEJTHZORA24YEBW7HUDRXTC7",
@@ -27858,18 +28461,12 @@
       "part_numbers": [
         "33479"
       ],
-      "interchange": [],
       "vehicles": [
         "1984\u20131985 Mazda 626",
         "1999\u20132008 Mazda B3000",
         "1984\u20131985 Nissan 520"
       ],
-      "vehicle_count_raw": 65,
-      "ebay_item_id": "398297620532",
-      "ebay_type": "Thermostat",
-      "ebay_brand": "Gates",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Thermostats & Housings",
-      "fitment_source": "ebay_listing+title",
+      "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
@@ -27914,13 +28511,19 @@
           "1984\u20131985 Nissan 520"
         ],
         "raw_compat_rows": 65,
-        "source": "ebay_listing+title",
+        "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398297620532",
         "type": "Thermostat",
         "brand": "Gates",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Thermostats & Housings"
-      }
+      },
+      "vehicle_count_raw": 65,
+      "ebay_item_id": "398297620532",
+      "ebay_type": "Thermostat",
+      "ebay_brand": "Gates",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Thermostats & Housings",
+      "interchange": []
     },
     {
       "id": "MGEJQB5FNUM2OD3WUEXA4O5E",
@@ -28010,17 +28613,11 @@
       "part_numbers": [
         "33489"
       ],
-      "interchange": [],
       "vehicles": [
         "1977\u20131985 Mazda GLC",
         "1989\u20131994 Mazda MPV",
         "1995\u20132001 Mazda Protege"
       ],
-      "vehicle_count_raw": 93,
-      "ebay_item_id": "398297626647",
-      "ebay_type": "Thermostat",
-      "ebay_brand": "Gates",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Thermostats & Housings",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -28072,7 +28669,13 @@
         "type": "Thermostat",
         "brand": "Gates",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Thermostats & Housings"
-      }
+      },
+      "vehicle_count_raw": 93,
+      "ebay_item_id": "398297626647",
+      "ebay_type": "Thermostat",
+      "ebay_brand": "Gates",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Thermostats & Housings",
+      "interchange": []
     },
     {
       "id": "SOVPCCSZ73M64UEM44DEPXZV",
@@ -28086,17 +28689,11 @@
       "part_numbers": [
         "33529"
       ],
-      "interchange": [],
       "vehicles": [
         "1993\u20132002 Saturn SC2",
         "1991\u20132002 Saturn SL",
         "1991\u20132002 Saturn SL2"
       ],
-      "vehicle_count_raw": 34,
-      "ebay_item_id": "398297615947",
-      "ebay_type": "Thermostat",
-      "ebay_brand": "Gates",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Thermostats & Housings",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -28148,7 +28745,13 @@
         "type": "Thermostat",
         "brand": "Gates",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Thermostats & Housings"
-      }
+      },
+      "vehicle_count_raw": 34,
+      "ebay_item_id": "398297615947",
+      "ebay_type": "Thermostat",
+      "ebay_brand": "Gates",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Thermostats & Housings",
+      "interchange": []
     },
     {
       "id": "AUOSVBXBNJOIRGAAZUG3QROD",
@@ -28162,17 +28765,11 @@
       "part_numbers": [
         "33568"
       ],
-      "interchange": [],
       "vehicles": [
         "1997\u20131999 Honda Accord",
         "1997\u20131999 Honda CR-V"
       ],
-      "vehicle_count_raw": 6,
-      "ebay_item_id": "398297619647",
-      "ebay_type": "Thermostat",
-      "ebay_brand": "Gates",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Thermostats & Housings",
-      "fitment_source": "ebay_listing+title",
+      "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
@@ -28206,13 +28803,19 @@
           "1997\u20131999 Honda CR-V"
         ],
         "raw_compat_rows": 6,
-        "source": "ebay_listing+title",
+        "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398297619647",
         "type": "Thermostat",
         "brand": "Gates",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Thermostats & Housings"
-      }
+      },
+      "vehicle_count_raw": 6,
+      "ebay_item_id": "398297619647",
+      "ebay_type": "Thermostat",
+      "ebay_brand": "Gates",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Thermostats & Housings",
+      "interchange": []
     },
     {
       "id": "WSR2S2C5RX72S2HL6DGJAVIZ",
@@ -28227,17 +28830,11 @@
         "33708",
         "Stant 13758, Motorad 214-180"
       ],
-      "interchange": [],
       "vehicles": [
         "1996\u20132000 Toyota RAV4",
         "1980\u20131998 Toyota Tercel",
         "1984\u20131989 Toyota Van"
       ],
-      "vehicle_count_raw": 147,
-      "ebay_item_id": "398297625590",
-      "ebay_type": "Thermostat",
-      "ebay_brand": "Gates",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Thermostats & Housings",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -28290,7 +28887,13 @@
         "type": "Thermostat",
         "brand": "Gates",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Thermostats & Housings"
-      }
+      },
+      "vehicle_count_raw": 147,
+      "ebay_item_id": "398297625590",
+      "ebay_type": "Thermostat",
+      "ebay_brand": "Gates",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Thermostats & Housings",
+      "interchange": []
     },
     {
       "id": "373RPPOCYAZFVEE4KH3VYLOY",
@@ -28305,18 +28908,12 @@
         "5536",
         "Gates 33036, Stant 13476, Motorad 206-160"
       ],
-      "interchange": [],
       "vehicles": [
         "1957\u20131966 Dodge D100",
         "1959\u20131966 Dodge D100 Town Wagon",
         "1959\u20131966 Dodge W100 Town Wagon"
       ],
-      "vehicle_count_raw": 17,
-      "ebay_item_id": "398297635620",
-      "ebay_type": "Thermostat",
-      "ebay_brand": "Gates",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Thermostats & Housings",
-      "fitment_source": "ebay_listing+title",
+      "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
@@ -28362,13 +28959,19 @@
           "1959\u20131966 Dodge W100 Town Wagon"
         ],
         "raw_compat_rows": 17,
-        "source": "ebay_listing+title",
+        "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398297635620",
         "type": "Thermostat",
         "brand": "Gates",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Thermostats & Housings"
-      }
+      },
+      "vehicle_count_raw": 17,
+      "ebay_item_id": "398297635620",
+      "ebay_type": "Thermostat",
+      "ebay_brand": "Gates",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Thermostats & Housings",
+      "interchange": []
     },
     {
       "id": "FQHJIPDU2IS3FX6654HKIM5R",
@@ -29499,17 +30102,11 @@
         "31999",
         "Gates 33269, Stant 13789, S382-195"
       ],
-      "interchange": [],
       "vehicles": [
         "1984\u20131995 Dodge Caravan",
         "1988\u20131994 Dodge Shadow",
         "1984\u20131995 Plymouth Voyager"
       ],
-      "vehicle_count_raw": 172,
-      "ebay_item_id": "398297632550",
-      "ebay_type": "Thermostat",
-      "ebay_brand": "Parts Master",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Thermostats & Housings",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -29562,7 +30159,13 @@
         "type": "Thermostat",
         "brand": "Parts Master",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Thermostats & Housings"
-      }
+      },
+      "vehicle_count_raw": 172,
+      "ebay_item_id": "398297632550",
+      "ebay_type": "Thermostat",
+      "ebay_brand": "Parts Master",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Thermostats & Housings",
+      "interchange": []
     },
     {
       "id": "4ZIBBGXFF65NRMKSS3IQ2R3T",
@@ -30319,5 +30922,5 @@
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Timing Components & Kits"
     }
   ],
-  "fitment_built": "2026-08-18T00:10:47Z"
+  "fitment_built": "2026-08-18T00:30:07Z"
 }
