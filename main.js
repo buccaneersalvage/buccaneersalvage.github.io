@@ -97,6 +97,7 @@
   const ID_RE = /^[A-Z0-9]{16,32}$/;
   const MAX_QTY = 20;
   const MAX_LINES = 30;
+  const CHECKOUT_API = "https://buc-square-checkout.jollyroger1480.workers.dev/checkout";
 
   function escapeHtml(s) {
     return String(s)
@@ -131,7 +132,14 @@
       const url = new URL(s);
       if (url.protocol !== "https:") return false;
       const host = url.hostname.toLowerCase();
-      return host === "square.link" || host.endsWith(".square.link");
+      return (
+        host === "square.link" ||
+        host.endsWith(".square.link") ||
+        host === "checkout.square.site" ||
+        host.endsWith(".square.site") ||
+        host === "checkout.squareup.com" ||
+        host.endsWith(".squareup.com")
+      );
     } catch (_) {
       return false;
     }
@@ -255,7 +263,7 @@
         '<button type="button" class="pdp-cart-close" aria-label="Close">×</button>' +
         '<div id="pdpCartBody"></div>' +
         '<p class="pdp-cart-note">Local pickup by appointment in Carbondale, PA. Square checkout is one item at a time, with that item&apos;s real shipping.</p>' +
-        '<a class="btn btn-primary" data-bind="checkout" target="_blank" rel="noopener noreferrer">Continue to checkout</a>';
+        '<button type="button" class="btn btn-primary" data-bind="checkout">Continue to checkout</button>';
       document.body.appendChild(drawer);
     } else if (!document.getElementById("pdpCartBody")) {
       const close = drawer.querySelector(".pdp-cart-close");
@@ -322,6 +330,7 @@
         checkout.setAttribute("hidden", "");
         checkout.removeAttribute("href");
         checkout.setAttribute("aria-disabled", "true");
+        checkout.disabled = true;
       }
       if (note) note.hidden = true;
       return;
@@ -336,21 +345,15 @@
       note.textContent =
         items.length === 1
           ? "Local pickup by appointment in Carbondale, PA. Checkout opens Square with this item's real shipping."
-          : "Local pickup by appointment in Carbondale, PA. Square checkout is one item at a time — use Checkout on each line. Combined checkout needs a server we do not have on this site.";
+          : "Local pickup by appointment in Carbondale, PA. Checkout opens one Square order for everything in the cart. Square will ask for a ship-to address; pickup is also fine.";
     }
     if (checkout) {
-      if (items.length === 1 && isSafeCheckout(items[0].checkout)) {
-        checkout.hidden = false;
-        checkout.removeAttribute("hidden");
-        checkout.href = items[0].checkout;
-        checkout.removeAttribute("aria-disabled");
-        checkout.textContent = "Continue to checkout";
-      } else {
-        checkout.hidden = true;
-        checkout.setAttribute("hidden", "");
-        checkout.removeAttribute("href");
-        checkout.setAttribute("aria-disabled", "true");
-      }
+      checkout.hidden = false;
+      checkout.removeAttribute("hidden");
+      checkout.removeAttribute("href");
+      checkout.removeAttribute("aria-disabled");
+      checkout.disabled = false;
+      checkout.textContent = items.length > 1 ? "Checkout all items" : "Continue to checkout";
     }
   }
 
@@ -371,6 +374,47 @@
     drawer.hidden = true;
     if (overlay) overlay.hidden = true;
     document.body.classList.remove("pdp-drawer-open");
+  }
+
+  async function startCheckout(btn) {
+    const items = load();
+    if (!items.length) return;
+    if (items.length === 1 && isSafeCheckout(items[0].checkout)) {
+      window.open(items[0].checkout, "_blank", "noopener,noreferrer");
+      return;
+    }
+    if (btn) {
+      btn.disabled = true;
+      btn.textContent = "Opening checkout…";
+    }
+    try {
+      const res = await fetch(CHECKOUT_API, {
+        method: "POST",
+        headers: { "content-type": "application/json" },
+        body: JSON.stringify({
+          items: items.map((it) => ({ id: it.id, qty: it.qty })),
+        }),
+      });
+      const data = await res.json().catch(() => ({}));
+      const url = data && data.url;
+      if (!res.ok || !isSafeCheckout(url)) {
+        throw new Error((data && data.error) || "checkout_failed");
+      }
+      window.open(url, "_blank", "noopener,noreferrer");
+    } catch (_) {
+      const note = document.querySelector("#pdpCartDrawer .pdp-cart-note");
+      if (note) {
+        note.hidden = false;
+        note.textContent =
+          "Could not open combined checkout. Use Checkout on each line, or try again.";
+      }
+    } finally {
+      if (btn && btn.isConnected) {
+        btn.disabled = false;
+        const n = load().length;
+        btn.textContent = n > 1 ? "Checkout all items" : "Continue to checkout";
+      }
+    }
   }
 
   function markAdded(btn) {
@@ -404,6 +448,12 @@
     }
     if (e.target.closest(".pdp-cart-close") || e.target.id === "pdpCartOverlay") {
       close();
+      return;
+    }
+    const pay = e.target.closest("#pdpCartDrawer [data-bind=checkout]");
+    if (pay) {
+      e.preventDefault();
+      startCheckout(pay);
       return;
     }
     const nav = e.target.closest(".nav-cart");

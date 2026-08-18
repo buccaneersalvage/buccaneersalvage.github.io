@@ -998,7 +998,7 @@ def main() -> None:
   <meta name="description" content="{esc(desc)}" />
   <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1" />
   <meta name="theme-color" content="#0c0a08" />
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data: https://items-images-production.s3.us-west-2.amazonaws.com https://*.squareup.com https://*.squarecdn.com; media-src 'self'; font-src 'self' data:; connect-src 'self'; base-uri 'self'; form-action 'self'; object-src 'none'; frame-src 'none';" />
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data: https://items-images-production.s3.us-west-2.amazonaws.com https://*.squareup.com https://*.squarecdn.com; media-src 'self'; font-src 'self' data:; connect-src 'self' https://buc-square-checkout.jollyroger1480.workers.dev; base-uri 'self'; form-action 'self'; object-src 'none'; frame-src 'none';" />
   <meta name="referrer" content="strict-origin-when-cross-origin" />
   <link rel="canonical" href="{esc(canonical)}" />
   <meta property="og:type" content="product" />
@@ -1018,7 +1018,7 @@ def main() -> None:
   <script type="application/ld+json">{schema_json}</script>
   <script type="application/ld+json">{crumbs_json}</script>
   <script src="../pdp-gallery.js?v=a1f0a7f319" integrity="sha384-eq9QZo4xOjZPZpM85hHroYPtpiHY0Q/b2Cumajd+dtSdK9N86QsyI70Fj3kjSGUV" defer></script>
-  <script src="../main.js?v=8770a1c821" integrity="sha384-4DBe6m5M55+o8GA2pTCDSj6h87CQp62ax+oHO/zTs2JvzwaXBIzITpql+6AWWGaa" defer></script>
+  <script src="../main.js?v=d97b955a80" integrity="sha384-jH8JVM8Z8nw045PAzYzy1XHmaIKsq6es1B0iaaiNCcIqRQvEpHyJDmmKutuyirKS" defer></script>
 </head>
 <body class="page-item">
   <a class="skip-link" href="#main">Skip to content</a>
