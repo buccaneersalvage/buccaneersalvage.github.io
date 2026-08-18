@@ -38,7 +38,7 @@
   <link rel="preload" as="font" href="assets/fonts/QGYvz_MVcBeNP4NJtEtq.woff2" type="font/woff2" crossorigin />
   <link rel="preload" as="image" href="assets/scrap/yard-truck-loaded.webp" type="image/webp" fetchpriority="high" />
   <link rel="stylesheet" href="assets/fonts.css?v=d1b92d3ff4" integrity="sha384-IDnmxIHyfCaSAssmrqXZbMSqgbRm8AATad26bBSjsyTVbgLbsvJXqeQW642rJQFS" />
-  <link rel="stylesheet" href="styles.css?v=0949843bba" integrity="sha384-2mTvKzujjowOI8bar4Nx1Oto3VrkrKDj/AgkIoSXuvM15Me04NrTWZrI/9cfTvIM" />
+  <link rel="stylesheet" href="styles.css?v=6c08aa6013" integrity="sha384-lqKuUnz4UTe0LMUhO4v+8AVzSyPY9fjLoKSLZ7p02uox79ERu+eufk8smcsvkeI9" />
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -149,7 +149,7 @@
         <a href="store.html">Store</a>
         <a href="terms.html">Terms</a>
         <a href="videos.html">Music</a>
-        <a class="nav-scrap" href="scrap.html" aria-current="page">Scrap Removal</a>
+        <a class="nav-port" href="scrap.html" aria-current="page"><img class="nav-port-icon" loading="lazy" decoding="async" src="assets/nav/scrap-pirate-48.webp" width="22" height="22" alt="" />Scrap Removal</a>
         <a class="nav-port" href="https://www.youtube.com/@BuccaneerSalvage" target="_blank" rel="noopener noreferrer"><img class="nav-port-icon" loading="lazy" decoding="async" src="assets/nav/youtube-pirate-48.webp" width="22" height="22" alt="" />YouTube</a>
         <a class="nav-port" href="https://x.com/jollyroger1480" target="_blank" rel="noopener noreferrer"><img class="nav-port-icon" loading="lazy" decoding="async" src="assets/nav/x-pirate-48.webp" width="22" height="22" alt="" />X</a>
         <a class="nav-port" href="https://www.ebay.com/str/buccaneersalvage" target="_blank" rel="noopener noreferrer"><img class="nav-port-icon" loading="lazy" decoding="async" src="assets/nav/ebay-pirate-48.webp" width="22" height="22" alt="" />eBay</a>
@@ -173,7 +173,7 @@
       <a href="store.html">Store</a>
       <a href="terms.html">Terms</a>
       <a href="videos.html">Music</a>
-      <a class="nav-scrap" href="scrap.html" aria-current="page">Scrap Removal</a>
+      <a class="nav-port" href="scrap.html" aria-current="page"><img class="nav-port-icon" loading="lazy" decoding="async" src="assets/nav/scrap-pirate-48.webp" width="22" height="22" alt="" />Scrap Removal</a>
       <a class="nav-port" href="https://www.ebay.com/str/buccaneersalvage" target="_blank" rel="noopener noreferrer"><img class="nav-port-icon" loading="lazy" decoding="async" src="assets/nav/ebay-pirate-48.webp" width="22" height="22" alt="" />eBay (secondary)</a>
       <a class="nav-port" href="https://www.youtube.com/@BuccaneerSalvage" target="_blank" rel="noopener noreferrer"><img class="nav-port-icon" loading="lazy" decoding="async" src="assets/nav/youtube-pirate-48.webp" width="22" height="22" alt="" />YouTube</a>
       <a class="nav-port" href="https://x.com/jollyroger1480" target="_blank" rel="noopener noreferrer"><img class="nav-port-icon" loading="lazy" decoding="async" src="assets/nav/x-pirate-48.webp" width="22" height="22" alt="" />X @jollyroger1480</a>
@@ -204,6 +204,14 @@
               Email the yard
             </a>
           </div>
+          <nav class="scrap-jumps" aria-label="On this page">
+            <a href="#scrap-metal">Free scrap</a>
+            <a href="#junk">Junk</a>
+            <a href="#ewaste">E-waste</a>
+            <a href="#how">How it works</a>
+            <a href="#yard">The yard</a>
+            <a href="#contact">Book the truck</a>
+          </nav>
           <div class="hero-meta">
             <span>Carbondale PA 18407</span>
             <span>Mon-Sat 9a-5p · by appointment</span>
@@ -242,7 +250,7 @@
         </header>
 
         <div class="bento">
-          <article class="port reveal">
+          <a class="port reveal" id="scrap-metal" href="#contact">
             <div class="port-media">
               <picture><source type="image/webp" srcset="assets/scrap/scrap-pile-chains.webp" /><img src="assets/scrap/scrap-pile-chains.jpg" alt="Trailer piled high with rusty scrap metal, chain, and pipe from a free local haul" width="960" height="960" loading="lazy" /></picture>
             </div>
@@ -250,13 +258,11 @@
               <span class="port-tag sq">Free</span>
               <h3>Scrap metal haul is free</h3>
               <p>Got a pile of rust eating the yard? We haul <strong>scrap metal at no charge</strong> in the local Carbondale / NEPA area, by appointment. Appliances, pipe, sheet, motors, farm iron. If it&rsquo;s metal and it&rsquo;s in the way, it rides.</p>
-              <a class="port-go" href="tel:+15704682901">
-                Schedule a free haul
-              </a>
+              <span class="port-go">Schedule a free haul</span>
             </div>
-          </article>
+          </a>
 
-          <article class="port reveal reveal-delay-1">
+          <a class="port reveal reveal-delay-1" id="junk" href="#contact">
             <div class="port-media">
               <picture><source type="image/webp" srcset="assets/scrap/yard-truck-flatbed.webp" /><img src="assets/scrap/yard-truck-flatbed.jpg" alt="White BuccaneerSalvage flatbed truck hitched to a trailer, ready for a paid junk removal job" width="960" height="960" loading="lazy" /></picture>
             </div>
@@ -264,13 +270,11 @@
               <span class="port-tag ebay">Paid</span>
               <h3>Junk removal is paid</h3>
               <p><strong>Junk removal is a paid service.</strong> Non-metallic cleanouts, mixed loads, and the stuff that isn&rsquo;t worth the steel price get quoted per job. Call or text with what you&rsquo;ve got and we&rsquo;ll give you a straight number.</p>
-              <a class="port-go" href="tel:+15704682901">
-                Get a junk quote
-              </a>
+              <span class="port-go">Get a junk quote</span>
             </div>
-          </article>
+          </a>
 
-          <article class="port reveal reveal-delay-2">
+          <a class="port reveal reveal-delay-2" id="ewaste" href="#contact">
             <div class="port-media">
               <picture><source type="image/webp" srcset="assets/scrap/rusty-hardware-chain.webp" /><img src="assets/scrap/rusty-hardware-chain.jpg" alt="Rusty chain, bolts, and salvaged hardware sorted at the BuccaneerSalvage yard" width="960" height="960" loading="lazy" /></picture>
             </div>
@@ -278,11 +282,9 @@
               <span class="port-tag ebay">Paid</span>
               <h3>E-waste and electronics are paid</h3>
               <p><strong>Electronics recycling is paid, not free.</strong> TVs, computers, and dead electronics cost money to move and process. <strong>Drop it off at the house and it&rsquo;s cheaper than pickup.</strong> You save the trip charge.</p>
-              <a class="port-go" href="tel:+15704682901">
-                Ask about e-waste
-              </a>
+              <span class="port-go">Ask about e-waste</span>
             </div>
-          </article>
+          </a>
         </div>
       </div>
     </section>

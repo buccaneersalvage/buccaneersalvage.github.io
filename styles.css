@@ -263,27 +263,35 @@ ul { list-style: none; }
   transform: translateY(-1px);
   filter: brightness(1.06);
 }
-.nav-links a.nav-scrap,
-.nav-drawer a.nav-scrap {
-  color: var(--ink);
-  background: linear-gradient(165deg, var(--gold-foil-top) 0%, var(--gold-mid) 48%, var(--gold-deep) 100%);
-  font-weight: 600;
-  letter-spacing: 0.08em;
-  padding: 0.5rem 0.8rem;
-  box-shadow:
-    0 1px 0 rgba(255, 255, 255, 0.35) inset,
-    0 4px 14px rgba(197, 160, 40, 0.24);
+.hero-meta a {
+  color: var(--parchment-faint);
 }
-.nav-links a.nav-scrap:hover,
-.nav-drawer a.nav-scrap:hover {
-  color: var(--ink);
-  filter: brightness(1.06);
-  background: linear-gradient(165deg, var(--gold-foil-top) 0%, var(--gold-mid) 48%, var(--gold-deep) 100%);
+.hero-meta a:hover {
+  color: var(--gold-bright);
 }
-.nav-drawer a.nav-scrap {
-  display: inline-flex;
-  width: auto;
-  margin: 0.15rem 0 0.35rem;
+.scrap-jumps {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem 0.35rem;
+  margin-top: var(--space-4);
+}
+.scrap-jumps a {
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--parchment-muted);
+  padding: 0.45rem 0.7rem;
+  border-radius: 999px;
+  border: 1px solid var(--glass-edge);
+  background: rgba(255, 255, 255, 0.03);
+  transition: color 0.2s, border-color 0.2s, background 0.2s;
+}
+.scrap-jumps a:hover {
+  color: var(--parchment);
+  border-color: var(--glass-edge-hot);
+  background: rgba(255, 255, 255, 0.06);
 }
 
 @media (min-width: 1180px) {
@@ -2972,6 +2980,24 @@ body.pdp-lightbox-open {
   opacity: 1;
   transform: none;
 }
+.scrap-page #scrap-metal,
+.scrap-page #junk,
+.scrap-page #ewaste,
+.scrap-page #how,
+.scrap-page #yard,
+.scrap-page #contact {
+  scroll-margin-top: 5.5rem;
+}
+.scrap-page a.port {
+  text-decoration: none;
+  color: inherit;
+}
+.scrap-page .scrap-shot:hover {
+  transform: none;
+  box-shadow: none;
+  border-color: var(--glass-edge);
+}
+.scrap-page .scrap-shot:hover img { transform: none; }
 
 /* About visuals swapped for real yard shots */
 .about-visual--scrap {
