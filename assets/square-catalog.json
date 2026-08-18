@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-18T00:30:07Z",
+  "updated": "2026-08-18T01:00:43Z",
   "store": "https://buccaneersalvage.square.site/",
   "count": 266,
   "items": [
@@ -18528,7 +18528,7 @@
       "ebay_type": "Ignition Coil",
       "ebay_brand": "Pace Setter",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Coils",
-      "fitment_source": "ebay_listing+title",
+      "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
@@ -18784,7 +18784,7 @@
           "1978\u20131989 Pontiac Grand Prix"
         ],
         "raw_compat_rows": 2136,
-        "source": "ebay_listing+title",
+        "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398274743110",
         "type": "Ignition Coil",
@@ -30922,5 +30922,5 @@
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Timing Components & Kits"
     }
   ],
-  "fitment_built": "2026-08-18T00:30:07Z"
+  "fitment_built": "2026-08-18T01:00:43Z"
 }
