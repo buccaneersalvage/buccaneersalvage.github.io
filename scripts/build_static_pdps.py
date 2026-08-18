@@ -212,11 +212,11 @@ def pdp_fitment_html(item, esc_t):
         "Part numbers and example vehicles are aids, not a guarantee.</p>"
     )
     return (
-        '<section class="pdp-fitment" aria-label="Fitment">'
-        '<h2 class="pdp-fitment-title">Fitment</h2>'
+        '<details class="pdp-fitment">'
+        '<summary class="pdp-fitment-title">Fitment</summary>'
         + "".join(blocks)
         + note
-        + "</section>"
+        + "</details>"
     )
 
 
@@ -387,7 +387,8 @@ def related_html(item, items, esc, esc_t):
 
 _BRAND_RE = re.compile(
     r"^(?:OEM\s+)?(Carlson|Automann|Goodyear|Continental|ContiTech|Firestone|Holset|"
-    r"Mack|Wagner|Econoride|WIX|Standard(?:\s+Motor\s+Products)?|Moog|Beck/Arnley|"
+    r"Mack|Wagner|Econoride|WIX|Gates|Mighty|Lee|NAPA|Parts\s+Master|Stant|Motorad|"
+    r"Standard(?:\s+Motor\s+Products)?|Moog|Beck/Arnley|"
     r"Cloyes|Pace\s?Setter|AP\s+Exhaust|Medline|Masi)\b",
     re.I,
 )
@@ -412,63 +413,46 @@ def brand_guess(item):
     return "BuccaneerSalvage Store"
 
 
-def offer_shipping_details(pickup=False):
+def offer_shipping_details(pickup=False, rate_value="0"):
     """GSC Merchant listings require shippingDetails on every Offer.
 
-    Ship-to-US: free UPS Ground. Pickup-only: $0 local PA, not a missing field.
+    rate_value is the live Square Ground snapshot ($4.99 / $6.99 / $9.99 / $0).
+    Pickup-only: $0 local PA, not a missing field. Mack $40 is NOT applied —
+    Square still ships those free until a $40 profile exists.
     """
+    rate = "0" if pickup else str(rate_value or "0")
     if pickup:
-        return {
-            "@type": "OfferShippingDetails",
-            "shippingRate": {
-                "@type": "MonetaryAmount",
-                "value": "0",
-                "currency": "USD",
-            },
-            "shippingDestination": {
-                "@type": "DefinedRegion",
-                "addressCountry": "US",
-                "addressRegion": "PA",
-            },
-            "deliveryTime": {
-                "@type": "ShippingDeliveryTime",
-                "handlingTime": {
-                    "@type": "QuantitativeValue",
-                    "minValue": 0,
-                    "maxValue": 1,
-                    "unitCode": "DAY",
-                },
-                "transitTime": {
-                    "@type": "QuantitativeValue",
-                    "minValue": 0,
-                    "maxValue": 1,
-                    "unitCode": "DAY",
-                },
-            },
+        dest = {
+            "@type": "DefinedRegion",
+            "addressCountry": "US",
+            "addressRegion": "PA",
         }
+        handle = (0, 1)
+        transit = (0, 1)
+    else:
+        dest = {"@type": "DefinedRegion", "addressCountry": "US"}
+        handle = (1, 3)
+        transit = (2, 7)
     return {
         "@type": "OfferShippingDetails",
         "shippingRate": {
             "@type": "MonetaryAmount",
-            "value": "0",
+            "value": rate,
             "currency": "USD",
         },
-        "shippingDestination": {
-            "@type": "DefinedRegion",
-            "addressCountry": "US",
-        },
+        "shippingDestination": dest,
         "deliveryTime": {
             "@type": "ShippingDeliveryTime",
             "handlingTime": {
                 "@type": "QuantitativeValue",
-                "minValue": 1,
-                "maxValue": 3,
+                "minValue": handle[0],
+                "maxValue": handle[1],
                 "unitCode": "DAY",
             },
             "transitTime": {
                 "@type": "QuantitativeValue",
-                "minValue": 2,
-                "maxValue": 7,
+                "minValue": transit[0],
+                "maxValue": transit[1],
                 "unitCode": "DAY",
             },
         },
@@ -497,6 +481,148 @@ def offer_return_policy(category, force_no_returns=False):
 
 
 SQUARE_ID_RE = re.compile(r"^[A-Z0-9]{16,32}$")
+LISTED_DIR = Path.home() / "ebay" / "listings" / "listed"
+# Paid Ground on Square today. Mack 255310368025 stays $0 until a $40 profile exists.
+POLICY_SHIP = {
+    "255700469025": "4.99",
+    "255698066025": "6.99",
+    "255699762025": "9.99",
+    "255310368025": "0",
+}
+SHIP_LABEL = {
+    "4.99": "USPS Ground $4.99",
+    "6.99": "USPS Ground $6.99",
+    "9.99": "USPS Ground $9.99",
+    "0": "Free UPS Ground",
+}
+# Fallback if this box has no listing archive. Overlay from 1-listing.txt when present.
+HARD_SHIP = {
+    "BYO4CA2ORO6PIIHKJ6BAJ7Z5": "4.99",
+    "RKN2JXFL3XHP336C6I2YOVYM": "4.99",
+    "3HECI35NLXOYFBNMJGGQQMUZ": "4.99",
+    "GVRZ63WJMUPNZMLBI7E7T4IL": "4.99",
+    "373RPPOCYAZFVEE4KH3VYLOY": "4.99",
+    "KWUGHUPGLK47T522IA5P64RO": "4.99",
+    "EEUYTJ4KFBEUW5XH5XRUB7MY": "4.99",
+    "H6Q3563YMDVDRCI5XLGMRMT4": "4.99",
+    "OTIMLXHJMRAYFTXR75WVSIJB": "4.99",
+    "EMXCDDO3NAY5ZYHOO65VXABA": "4.99",
+    "DP5UVELMRAQLBRRNSJS3XJGW": "4.99",
+    "TYCTXARZCA52YYA77WU4XAXK": "4.99",
+    "5G7Z5QJDPCHBUW2RVCMEPSUF": "4.99",
+    "3Z3CTEYBJDYCBIMPPBFXDWUJ": "4.99",
+    "3OWZS3ISWMJZVCMUFT6OS3KN": "4.99",
+    "EHUOULWBV4R75M7XZ637YI53": "4.99",
+    "L2WKO2ULQ7O5QGGG5EUEGBUS": "4.99",
+    "HEJTHZORA24YEBW7HUDRXTC7": "4.99",
+    "LGZZPJQWT53QGCJJGEC7WEQY": "4.99",
+    "H2KTSFW7IOZFKZ7KKIZ5XH5E": "4.99",
+    "MGEJQB5FNUM2OD3WUEXA4O5E": "4.99",
+    "VILXTGQE22JC74IXOZVYGRZ7": "4.99",
+    "SOVPCCSZ73M64UEM44DEPXZV": "4.99",
+    "AUOSVBXBNJOIRGAAZUG3QROD": "4.99",
+    "KBKJI6VPGFJ2ZZTFUNNPRVYF": "4.99",
+    "WSR2S2C5RX72S2HL6DGJAVIZ": "4.99",
+    "2IGN4TREF7DNKIIYWCK3U4BR": "4.99",
+    "KTQC3YPSDMZIGSNXVF2NPNNH": "6.99",
+    "63OAZL34SLIPTN2MLXG3LDPV": "6.99",
+    "MMRUWQ4EHOC5PLIMLAR6TNQH": "6.99",
+    "4ZIBBGXFF65NRMKSS3IQ2R3T": "9.99",
+}
+
+
+def load_ship_map():
+    """Square id -> rate string. Listing archive wins; HARD_SHIP fills gaps."""
+    out = dict(HARD_SHIP)
+    if LISTED_DIR.is_dir():
+        for d in LISTED_DIR.iterdir():
+            if not d.is_dir():
+                continue
+            sid = d / "square_item_id.txt"
+            lst = d / "1-listing.txt"
+            if not sid.is_file() or not lst.is_file():
+                continue
+            iid = sid.read_text(encoding="utf-8", errors="ignore").strip()
+            if not SQUARE_ID_RE.fullmatch(iid):
+                continue
+            text = lst.read_text(encoding="utf-8", errors="ignore")
+            m = re.search(r"^SHIPPING POLICY:\s*(\d+)", text, re.M)
+            if not m:
+                continue
+            out[iid] = POLICY_SHIP.get(m.group(1), "0")
+    return out
+
+
+def ship_for_item(iid, ship_map, pickup=False):
+    if pickup:
+        return "0", "Pickup only — Carbondale, PA"
+    rate = str((ship_map or {}).get(iid) or "0")
+    if rate not in SHIP_LABEL:
+        rate = "0"
+    return rate, SHIP_LABEL[rate]
+
+
+def site_product_url(iid):
+    s = str(iid or "").strip()
+    if not SQUARE_ID_RE.fullmatch(s):
+        return ""
+    return f"https://buccaneersalvage.square.site/product/{s}"
+
+
+def short_h1(item):
+    """Brand + PN + one hook. Long eBay title stays in <title>/meta/schema."""
+    brand = str(item.get("ebay_brand") or brand_guess(item) or "").strip()
+    if brand == "BuccaneerSalvage Store":
+        brand = ""
+    pns = item_display_pns(item)
+    pn = pns[0] if pns else ""
+    name = str(item.get("name") or "")
+    typ = str(item.get("ebay_type") or "").lower()
+    hook = ""
+    temp = re.search(r"\b(1[5-9]\d|20[05])\b", name)
+    if temp and "thermostat" in typ:
+        hook = f"{temp.group(1)} F"
+    else:
+        vehs = item_vehicles(item)
+        if vehs:
+            hook = vehs[0]
+    bits = []
+    if brand:
+        bits.append(brand)
+    if pn and pn.lower() not in " ".join(bits).lower():
+        bits.append(pn)
+    if not bits:
+        return name if len(name) <= 72 else name[:69] + "…"
+    head = " ".join(bits)
+    return f"{head} · {hook}" if hook else head
+
+
+def breadcrumb_json(canonical, catl, typ, leaf):
+    items = [
+        {"@type": "ListItem", "position": 1, "name": "Store", "item": f"{BASE}/store.html"},
+    ]
+    if typ:
+        items.append(
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "name": typ,
+                "item": f"{BASE}/store.html?q={quote(typ)}",
+            }
+        )
+    items.append(
+        {
+            "@type": "ListItem",
+            "position": len(items) + 1,
+            "name": leaf,
+            "item": canonical,
+        }
+    )
+    return {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": items,
+    }
 
 
 def safe_item_id(iid):
@@ -515,6 +641,11 @@ def safe_checkout(u):
         if parsed.scheme != "https":
             return ""
         host = (parsed.hostname or "").lower()
+        if host == "buccaneersalvage.square.site":
+            parts = [p for p in (parsed.path or "").split("/") if p]
+            if len(parts) >= 2 and parts[0] == "product" and SQUARE_ID_RE.fullmatch(parts[-1]):
+                return f"https://buccaneersalvage.square.site/product/{parts[-1]}"
+            return ""
         if host == "square.link" or host.endswith(".square.link"):
             return s
     except Exception:
@@ -560,6 +691,7 @@ def main() -> None:
     items = cat["items"]
     out_dir = HUB / "p"
     out_dir.mkdir(exist_ok=True)
+    ship_map = load_ship_map()
 
     written = []
     for item in items:
@@ -573,7 +705,7 @@ def main() -> None:
         gallery_raw = [safe_image(u) for u in (item.get("images") or [])]
         gallery = [u for u in gallery_raw if u and u != img]
         video = safe_video(item.get("video"))
-        checkout = safe_checkout(item.get("url"))
+        checkout = site_product_url(iid) or safe_checkout(item.get("url"))
         # Manual per-item override (Square/eBay have no such field) — same
         # preserved-across-resync pattern as video/images. Lets a specific
         # item state its real condition (e.g. "tested, sold for parts/repair,
@@ -587,6 +719,10 @@ def main() -> None:
             if pickup
             else "Carbondale, PA 18407"
         )
+        ship_rate, ship_label = ship_for_item(iid, ship_map, pickup=pickup)
+        heading = short_h1(item)
+        ebay_type = str(item.get("ebay_type") or "").strip()
+        leaf_crumb = (item_display_pns(item) or [heading])[0]
         # Google truncates SERP titles around ~60 chars. Catalog product names
         # (sourced from eBay listing titles) commonly run 60-100+ chars on
         # their own — appending " | BuccaneerSalvage Store" (24 chars) to an
@@ -625,11 +761,13 @@ def main() -> None:
                     "url": f"{BASE}/store.html",
                 },
                 "hasMerchantReturnPolicy": offer_return_policy(item.get("category"), force_no_returns=no_returns),
-                "shippingDetails": offer_shipping_details(pickup=pickup),
+                "shippingDetails": offer_shipping_details(pickup=pickup, rate_value=ship_rate),
             },
         }
         if pickup:
             schema["offers"]["availableDeliveryMethod"] = "https://schema.org/OnSitePickup"
+        if re.search(r"\bNOS\b", name):
+            schema["itemCondition"] = "https://schema.org/NewCondition"
         mpn = item_mpn(item)
         if mpn:
             schema["mpn"] = mpn
@@ -657,6 +795,10 @@ def main() -> None:
         # mitigation: escape "<" as its unicode form, which is a no-op for JSON
         # parsers but stops the browser's HTML tokenizer from ever seeing "</script>".
         schema_json = json.dumps(schema, ensure_ascii=False).replace("<", "\\u003c")
+        crumbs_json = json.dumps(
+            breadcrumb_json(canonical, catl, ebay_type, leaf_crumb),
+            ensure_ascii=False,
+        ).replace("<", "\\u003c")
 
         def esc(s):
             return html.escape(str(s or ""), quote=True)
@@ -666,11 +808,23 @@ def main() -> None:
 
         if checkout:
             nav_cta = f'<a class="nav-cta" href="{esc(checkout)}" target="_blank" rel="noopener noreferrer">Buy now</a>'
-            lab = "Checkout - for parts · no returns" if no_returns else "Buy · secure checkout"
-            cta = f'<a class="btn btn-primary" href="{esc(checkout)}" target="_blank" rel="noopener noreferrer">{esc_t(lab)}</a>'
+            add_attrs = (
+                f' class="btn btn-primary pdp-add-cart" type="button"'
+                f' data-photo="{esc(img)}" data-title="{esc(heading)}"'
+                f' data-price="{esc(price or "Contact for price")}"'
+                f' data-ship="{esc(ship_label)}" data-checkout="{esc(checkout)}"'
+            )
+            cta = f'<button{add_attrs}>Add to cart</button>'
+            buybar_cta = f'<button{add_attrs}>Add to cart</button>'
         else:
             nav_cta = '<a class="nav-cta is-disabled" href="../store.html">Buy now</a>'
             cta = '<span class="btn btn-primary is-disabled" aria-disabled="true">Not available for purchase</span>'
+            buybar_cta = cta
+        crumb_mid = (
+            f'<span aria-hidden="true">/</span><span>{esc_t(ebay_type)}</span>'
+            if ebay_type
+            else ""
+        )
         if custom_warn:
             warn = f'<p class="pdp-warn">{esc_t(custom_warn)}</p>'
         elif is_core(item.get("category")):
@@ -738,9 +892,10 @@ def main() -> None:
   <meta name="twitter:image" content="{esc(img)}" />
   <link rel="icon" type="image/jpeg" href="../assets/crest-rustjack-web.jpg" />
   <link rel="stylesheet" href="../assets/fonts.css?v=d1b92d3ff4" integrity="sha384-IDnmxIHyfCaSAssmrqXZbMSqgbRm8AATad26bBSjsyTVbgLbsvJXqeQW642rJQFS" />
-  <link rel="stylesheet" href="../styles.css?v=50686aadc5" integrity="sha384-oTiTp/J0UVbInQsSQaMgHTapsTs8Sbgg/4sip7WfoK7UZZsXGQnLNlDBUYW3oHWX" />
+  <link rel="stylesheet" href="../styles.css?v=013e58cae5" integrity="sha384-MJUg3hQ0ixVvjhlI7pj5eqIGp2qPmOWdyMcEiQ0v3asgs2s2VGzsrfxqTL1vAetL" />
   <script type="application/ld+json">{schema_json}</script>
-  <script src="../pdp-gallery.js?v=366cbe22c5" integrity="sha384-g6VHBI6bjnClm1Q9Y5yN2XzKSt1dwoJXKdlaE9hoCUQHtJmNjTd1MYdwW6h8BqUj" defer></script>
+  <script type="application/ld+json">{crumbs_json}</script>
+  <script src="../pdp-gallery.js?v=72f286ecea" integrity="sha384-HalvAEDRM6eAY95RaLJaFm5gKWSDp8gLEDIvHIa2c3d+YOkU+pwrAwTJ9iXHTtUQ" defer></script>
   <script src="../main.js?v=e49d70008a" integrity="sha384-QjfesZFAOsxwfD3NfGGRcyMWdv+cJj23cZveTesOK/kGx1yvV7Zw1Om5jWDya5ce" defer></script>
 </head>
 <body class="page-item">
@@ -754,12 +909,6 @@ def main() -> None:
       <nav class="nav-links" aria-label="Primary">
         <a href="../index.html">Home</a>
         <a href="../store.html">Store</a>
-        <a href="../terms.html">Terms</a>
-        <a href="../videos.html">Music</a>
-        <a class="nav-port" href="https://www.youtube.com/@BuccaneerSalvage" target="_blank" rel="noopener noreferrer"><img class="nav-port-icon" loading="lazy" decoding="async" src="../assets/nav/youtube-pirate-48.webp" width="22" height="22" alt="" />YouTube</a>
-        <a class="nav-port" href="https://x.com/jollyroger1480" target="_blank" rel="noopener noreferrer"><img class="nav-port-icon" loading="lazy" decoding="async" src="../assets/nav/x-pirate-48.webp" width="22" height="22" alt="" />X</a>
-        <a class="nav-port" href="https://www.ebay.com/str/buccaneersalvage" target="_blank" rel="noopener noreferrer"><img class="nav-port-icon" loading="lazy" decoding="async" src="../assets/nav/ebay-pirate-48.webp" width="22" height="22" alt="" />eBay</a>
-        <a href="/ukiri/" class="nav-warn">Ukiri</a>
       </nav>
       {nav_cta}
       <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="drawer" id="navToggle">
@@ -771,9 +920,6 @@ def main() -> None:
       <a href="../store.html">Store catalog</a>
       <a href="../terms.html">Terms &amp; returns</a>
       <a href="../videos.html">Music</a>
-      <a class="nav-port" href="https://www.youtube.com/@BuccaneerSalvage" target="_blank" rel="noopener noreferrer"><img class="nav-port-icon" loading="lazy" decoding="async" src="../assets/nav/youtube-pirate-48.webp" width="22" height="22" alt="" />YouTube</a>
-      <a class="nav-port" href="https://x.com/jollyroger1480" target="_blank" rel="noopener noreferrer"><img class="nav-port-icon" loading="lazy" decoding="async" src="../assets/nav/x-pirate-48.webp" width="22" height="22" alt="" />X</a>
-      <a class="nav-port" href="https://www.ebay.com/str/buccaneersalvage" target="_blank" rel="noopener noreferrer"><img class="nav-port-icon" loading="lazy" decoding="async" src="../assets/nav/ebay-pirate-48.webp" width="22" height="22" alt="" />eBay store</a>
       <a href="/ukiri/">Ukiri</a>
     </div>
   </header>
@@ -782,39 +928,69 @@ def main() -> None:
       <div class="shell pdp-hero-inner">
         <nav class="pdp-breadcrumb" aria-label="Breadcrumb">
           <a href="../store.html">Store</a>
+          {crumb_mid}
           <span aria-hidden="true">/</span>
-          <span>{esc_t(name)}</span>
+          <span>{esc_t(leaf_crumb)}</span>
         </nav>
       </div>
     </section>
     <section class="pdp-content">
       <div class="shell pdp-layout">
-        <div class="pdp-media"><div class="pdp-stage">{img_tag}{video_el}</div>{gallery_tag}</div>
-        <div class="pdp-info">
-          <h1 class="pdp-title">{esc_t(name)}</h1>
+        <div class="pdp-media">
+          <div class="pdp-stage">{img_tag}{video_el}</div>
+          {gallery_tag}
+        </div>
+        <div class="pdp-info pdp-rail">
+          <h1 class="pdp-title">{esc_t(heading)}</h1>
           <p class="pdp-category">{esc_t(catl)}</p>
           <p class="pdp-price">{esc_t(price or "Contact for price")}</p>
+          <p class="pdp-ship"><strong>Shipping:</strong> {esc_t(ship_label)}</p>
           {warn}
-          {fitment}
-          {related}
           <div class="pdp-cta-group">
             {cta}
             <a href="../store.html" class="btn btn-secondary">Back to store</a>
           </div>
+          {fitment}
           <div class="pdp-meta">
-            <p><strong>Secure checkout:</strong> Card processing off-site</p>
+            <p><strong>Secure checkout:</strong> Card processing off-site on Square</p>
             <p><strong>Ships from:</strong> {esc_t(ship_from)}</p>
             <p><strong>Local pickup:</strong> By appointment</p>
             <p><strong>Returns:</strong> {esc_t("Sold as-is, no returns." if no_returns else "7 days on most unused parts. Buyer remorse: 15% restocking. Cores, opened, and used items: no returns.")} <a href="../terms.html#{'no-return' if no_returns else 'returns'}">Store terms</a>.</p>
           </div>
         </div>
+        {related}
       </div>
     </section>
   </main>
+  <div class="pdp-buybar" aria-label="Buy">
+    <span class="pdp-buybar-price">{esc_t(price or "")}</span>
+    {buybar_cta}
+  </div>
+  <div id="pdpCartOverlay" class="pdp-cart-overlay" hidden></div>
+  <aside id="pdpCartDrawer" class="pdp-cart-drawer" hidden aria-label="Add to cart">
+    <button type="button" class="pdp-cart-close" aria-label="Close">×</button>
+    <img class="pdp-cart-photo" data-bind="photo" alt="" />
+    <h2 class="pdp-cart-title" data-bind="title"></h2>
+    <p class="pdp-cart-price" data-bind="price"></p>
+    <p class="pdp-cart-ship" data-bind="ship"></p>
+    <p class="pdp-cart-note">Local pickup by appointment in Carbondale, PA. Checkout opens the Square cart with this item&apos;s real shipping.</p>
+    <a class="btn btn-primary" data-bind="checkout" target="_blank" rel="noopener noreferrer">Continue to checkout</a>
+  </aside>
+  <div id="pdpLightbox" class="pdp-lightbox" hidden>
+    <button type="button" class="pdp-lightbox-close" aria-label="Close photo">×</button>
+    <div class="pdp-lightbox-stage"><img id="pdpLightboxImage" alt="" /></div>
+  </div>
   <footer role="contentinfo" class="footer">
     <div class="shell footer-bottom">
       <span>© <span id="y">2026</span> Rustjack · BuccaneerSalvage Store</span>
-      <span><a href="../terms.html">Terms &amp; returns</a> · ships from Carbondale, PA</span>
+      <nav class="footer-links" aria-label="More">
+        <a href="../terms.html">Terms</a>
+        <a href="../videos.html">Music</a>
+        <a href="https://www.youtube.com/@BuccaneerSalvage" target="_blank" rel="noopener noreferrer">YouTube</a>
+        <a href="https://x.com/jollyroger1480" target="_blank" rel="noopener noreferrer">X</a>
+        <a href="https://www.ebay.com/str/buccaneersalvage" target="_blank" rel="noopener noreferrer">eBay</a>
+        <a href="/ukiri/">Ukiri</a>
+      </nav>
     </div>
   </footer>
 </body>

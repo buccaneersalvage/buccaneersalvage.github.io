@@ -10,9 +10,14 @@ HUB = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from build_static_pdps import (  # noqa: E402
     also_stocked_items,
+    load_ship_map,
     related_card_title,
     related_html,
     related_items,
+    safe_checkout,
+    ship_for_item,
+    short_h1,
+    site_product_url,
     vehicle_keys,
 )
 
@@ -93,6 +98,42 @@ def test_html_uses_cards_not_title_wall():
     assert related_card_title(t36).startswith("Gates")
 
 
+def test_ship_snapshot_matches_square_profiles():
+    items, by_id = load_items()
+    sm = load_ship_map()
+    t08 = by_id["BYO4CA2ORO6PIIHKJ6BAJ7Z5"]
+    rate, label = ship_for_item(t08["id"], sm)
+    assert rate == "4.99", (rate, label)
+    assert "4.99" in label
+    a3490 = by_id["KTQC3YPSDMZIGSNXVF2NPNNH"]
+    rate, label = ship_for_item(a3490["id"], sm)
+    assert rate == "6.99", (rate, label)
+    arm = by_id["4ZIBBGXFF65NRMKSS3IQ2R3T"]
+    rate, label = ship_for_item(arm["id"], sm)
+    assert rate == "9.99", (rate, label)
+    # Mack turbo core — Square still free; do not invent $40
+    mack = by_id.get("AGEWYOLANWBWUWDDESOE3EIG")
+    if mack:
+        rate, label = ship_for_item(mack["id"], sm)
+        assert rate == "0", (rate, label)
+    lee = by_name(items, "7146")
+    rate, _ = ship_for_item(lee["id"], sm)
+    assert rate == "0"
+
+
+def test_short_h1_and_site_checkout():
+    items, by_id = load_items()
+    t08 = by_id["BYO4CA2ORO6PIIHKJ6BAJ7Z5"]
+    h1 = short_h1(t08)
+    assert "Gates" in h1 and "33008" in h1
+    assert "Camaro NOS USA" not in h1
+    url = site_product_url(t08["id"])
+    assert url.endswith("/product/BYO4CA2ORO6PIIHKJ6BAJ7Z5")
+    assert safe_checkout(url) == url
+    assert safe_checkout("https://evil.example/product/BYO4CA2ORO6PIIHKJ6BAJ7Z5") == ""
+    assert safe_checkout("https://square.link/u/kBO2Zgdy").startswith("https://square.link/")
+
+
 if __name__ == "__main__":
     tests = [
         test_dodge_thermo_siblings_only,
@@ -101,6 +142,8 @@ if __name__ == "__main__":
         test_brake_hardware_does_not_lump_parking_brake,
         test_cv_kit_shares_vw,
         test_html_uses_cards_not_title_wall,
+        test_ship_snapshot_matches_square_profiles,
+        test_short_h1_and_site_checkout,
     ]
     failed = 0
     for fn in tests:

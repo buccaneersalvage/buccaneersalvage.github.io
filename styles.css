@@ -2131,7 +2131,7 @@ ul.pagination .disabled .page {
 }
 .pdp-hero {
   background: linear-gradient(135deg, rgba(212, 175, 55, 0.05) 0%, rgba(212, 175, 55, 0) 100%);
-  padding: 3rem 0 2rem;
+  padding: 5.5rem 0 0.65rem;
   border-bottom: 1px solid rgba(212, 175, 55, 0.1);
 }
 .pdp-hero-inner {
@@ -2161,28 +2161,36 @@ ul.pagination .disabled .page {
 }
 
 .pdp-content {
-  padding: 3rem 0;
+  padding: 1.25rem 0 3rem;
 }
 .pdp-layout {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 3rem;
+  grid-template-columns: minmax(0, 1.2fr) minmax(280px, 0.8fr);
+  grid-template-areas:
+    "media rail"
+    "related rail";
+  gap: 1.1rem 2.25rem;
   align-items: start;
 }
+.pdp-layout > .pdp-media { grid-area: media; }
+.pdp-layout > .pdp-info { grid-area: rail; }
+.pdp-layout > .pdp-related { grid-area: related; }
 
 .pdp-media {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 1.5rem;
+  justify-content: flex-start;
+  align-items: stretch;
+  gap: 0.85rem;
+  min-width: 0;
 }
 .pdp-stage {
   position: relative;
   width: 100%;
-  max-width: 500px;
+  max-width: none;
   background: rgba(212, 175, 55, 0.05);
-  border-radius: 8px;
+  border: 1px solid rgba(212, 175, 55, 0.22);
+  border-radius: 10px;
   overflow: hidden;
   display: flex;
   align-items: center;
@@ -2191,10 +2199,11 @@ ul.pagination .disabled .page {
 .pdp-image,
 .pdp-video {
   width: 100%;
-  max-height: 520px;
+  max-height: min(72vh, 760px);
   height: auto;
   object-fit: contain;
   display: block;
+  cursor: zoom-in;
 }
 /* display:block above beats the UA [hidden] rule on tied specificity —
    without this the swapped-out element stays laid out at half-width next
@@ -2205,10 +2214,10 @@ ul.pagination .disabled .page {
 .pdp-gallery {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: flex-start;
   gap: 0.5rem;
   width: 100%;
-  max-width: 500px;
+  max-width: none;
 }
 .pdp-thumb-btn {
   position: relative;
@@ -2250,15 +2259,20 @@ ul.pagination .disabled .page {
   text-shadow: 0 1px 3px rgba(0, 0, 0, 0.6);
 }
 
-.pdp-info {
+.pdp-info,
+.pdp-rail {
   display: flex;
   flex-direction: column;
-  gap: 1.5rem;
+  gap: 0.75rem;
+  position: sticky;
+  top: 5.25rem;
+  min-width: 0;
 }
 .pdp-title {
-  font-size: 2rem;
-  font-weight: 700;
-  line-height: 1.2;
+  font-family: var(--font-display, "Cormorant Garamond", Georgia, serif);
+  font-size: clamp(1.55rem, 2.4vw, 2.05rem);
+  font-weight: 600;
+  line-height: 1.18;
   color: var(--parchment-light, #eee4d4);
   margin: 0;
 }
@@ -2276,6 +2290,16 @@ ul.pagination .disabled .page {
   color: var(--gold-bright, #d4af37);
   margin: 0;
 }
+.pdp-ship {
+  margin: 0;
+  font-size: 0.92rem;
+  letter-spacing: 0.01em;
+  color: var(--parchment-muted, #d4c8b0);
+}
+.pdp-ship strong {
+  color: var(--gold-bright, #d4af37);
+  font-weight: 650;
+}
 .pdp-warn {
   background: rgba(220, 120, 100, 0.15);
   border-left: 3px solid #dc7864;
@@ -2290,8 +2314,11 @@ ul.pagination .disabled .page {
 .pdp-cta-group {
   display: flex;
   flex-direction: column;
-  gap: 1rem;
-  margin-top: 1rem;
+  gap: 0.65rem;
+  margin-top: 0.15rem;
+}
+.pdp-cta-group .btn-primary {
+  width: 100%;
 }
 .page-item .btn {
   display: inline-flex;
@@ -2300,12 +2327,14 @@ ul.pagination .disabled .page {
   padding: 0.9rem 1.5rem;
   border: 1px solid transparent;
   border-radius: 6px;
+  font-family: inherit;
   font-size: 1rem;
   font-weight: 600;
   text-decoration: none;
   cursor: pointer;
   transition: all 0.2s ease;
   text-align: center;
+  appearance: none;
 }
 .page-item .btn-primary {
   background: var(--gold-bright, #d4af37);
@@ -2334,19 +2363,44 @@ ul.pagination .disabled .page {
 }
 
 .pdp-fitment {
-  margin-top: 1.25rem;
-  padding: 1rem 1.1rem;
+  margin-top: 0.35rem;
+  padding: 0.55rem 0.85rem 0.7rem;
   border-radius: 10px;
   border: 1px solid rgba(197, 160, 40, 0.22);
   background: rgba(12, 10, 8, 0.55);
 }
-.pdp-fitment-title {
-  margin: 0 0 0.75rem;
+.pdp-fitment-title,
+.pdp-fitment > summary {
+  margin: 0;
   font-family: var(--font-display, Georgia, serif);
-  font-size: 1.05rem;
+  font-size: 1.02rem;
   font-weight: 600;
   color: var(--gold, #c5a028);
   letter-spacing: 0.02em;
+  list-style: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+.pdp-fitment > summary::-webkit-details-marker { display: none; }
+.pdp-fitment > summary::after {
+  content: "";
+  width: 0.45rem;
+  height: 0.45rem;
+  border-right: 1.5px solid var(--gold, #c5a028);
+  border-bottom: 1.5px solid var(--gold, #c5a028);
+  transform: rotate(45deg);
+  transition: transform 0.15s ease;
+}
+.pdp-fitment[open] > summary::after {
+  transform: rotate(225deg);
+  margin-top: 0.25rem;
+}
+.pdp-fitment[open] .pdp-fitment-title,
+.pdp-fitment[open] > summary {
+  margin-bottom: 0.7rem;
 }
 .pdp-fitment-block + .pdp-fitment-block {
   margin-top: 0.85rem;
@@ -2378,11 +2432,11 @@ ul.pagination .disabled .page {
 .pdp-fitment-block--core .pdp-fitment-h { color: #e07070; }
 
 .pdp-related {
-  margin-top: 1.1rem;
-  padding: 0.95rem 1.1rem;
-  border-radius: 10px;
-  border: 1px solid rgba(197, 160, 40, 0.18);
-  background: rgba(12, 10, 8, 0.4);
+  margin-top: 0.35rem;
+  padding: 0.85rem 0;
+  border-radius: 0;
+  border: 0;
+  background: transparent;
 }
 .pdp-related-block + .pdp-related-block {
   margin-top: 0.8rem;
@@ -2416,9 +2470,6 @@ ul.pagination .disabled .page {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 0.6rem;
-}
-@media (min-width: 720px) {
-  .pdp-related-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); }
 }
 .pdp-rel-card {
   display: flex;
@@ -2525,13 +2576,28 @@ ul.pagination .disabled .page {
 @media (max-width: 959px) {
   .pdp-layout {
     grid-template-columns: 1fr;
-    gap: 2rem;
+    grid-template-areas:
+      "media"
+      "rail"
+      "related";
+    gap: 1.35rem;
+  }
+  .pdp-info,
+  .pdp-rail {
+    position: static;
   }
   .pdp-title {
     font-size: 1.6rem;
   }
   .pdp-price {
     font-size: 1.4rem;
+  }
+  .pdp-image,
+  .pdp-video {
+    max-height: min(58vh, 520px);
+  }
+  .page-item {
+    padding-bottom: 4.75rem;
   }
 }
 
@@ -2584,6 +2650,161 @@ ul.pagination .disabled .page {
   pointer-events: none;
   opacity: 0.55;
   cursor: not-allowed;
+}
+
+.pdp-buybar {
+  display: none;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 40;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  padding: 0.65rem 1rem calc(0.65rem + env(safe-area-inset-bottom));
+  background: rgba(12, 9, 7, 0.92);
+  border-top: 1px solid rgba(212, 175, 55, 0.28);
+  backdrop-filter: blur(10px);
+}
+.pdp-buybar-price {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--gold-bright, #d4af37);
+}
+.pdp-buybar .btn {
+  flex: 0 0 auto;
+  min-width: 9.5rem;
+  padding: 0.7rem 1.1rem;
+}
+@media (max-width: 959px) {
+  .pdp-buybar { display: flex; }
+  body.pdp-drawer-open .pdp-buybar,
+  body.pdp-lightbox-open .pdp-buybar { display: none; }
+}
+
+.pdp-cart-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 60;
+  background: rgba(5, 4, 3, 0.62);
+}
+.pdp-cart-drawer {
+  position: fixed;
+  z-index: 61;
+  top: 0;
+  right: 0;
+  width: min(26rem, 100vw);
+  height: 100%;
+  background: #100d0a;
+  border-left: 1px solid rgba(212, 175, 55, 0.28);
+  padding: 1.25rem 1.2rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+  overflow: auto;
+}
+.pdp-cart-drawer[hidden],
+.pdp-cart-overlay[hidden],
+.pdp-lightbox[hidden] { display: none !important; }
+.pdp-cart-close,
+.pdp-lightbox-close {
+  align-self: flex-end;
+  width: 2.2rem;
+  height: 2.2rem;
+  border: 1px solid rgba(212, 175, 55, 0.28);
+  background: transparent;
+  color: var(--gold-bright, #d4af37);
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1.25rem;
+  line-height: 1;
+}
+.pdp-cart-photo {
+  width: 100%;
+  max-height: 14rem;
+  object-fit: contain;
+  background: #0a0806;
+  border: 1px solid rgba(212, 175, 55, 0.16);
+  border-radius: 8px;
+}
+.pdp-cart-title {
+  margin: 0;
+  font-family: var(--font-display, Georgia, serif);
+  font-size: 1.25rem;
+  color: var(--parchment, #f3ead8);
+}
+.pdp-cart-price {
+  margin: 0;
+  font-size: 1.35rem;
+  font-weight: 700;
+  color: var(--gold-bright, #d4af37);
+}
+.pdp-cart-ship,
+.pdp-cart-note {
+  margin: 0;
+  font-size: 0.9rem;
+  color: var(--parchment-muted, #d4c8b0);
+}
+@media (max-width: 639px) {
+  .pdp-cart-drawer {
+    top: auto;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    max-height: 88vh;
+    border-left: 0;
+    border-top: 1px solid rgba(212, 175, 55, 0.28);
+    border-radius: 16px 16px 0 0;
+  }
+}
+
+.pdp-lightbox {
+  position: fixed;
+  inset: 0;
+  z-index: 70;
+  background: rgba(5, 4, 3, 0.92);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2.5rem 1rem 1rem;
+}
+.pdp-lightbox-close {
+  position: absolute;
+  top: 0.85rem;
+  right: 0.85rem;
+}
+.pdp-lightbox-stage {
+  max-width: min(96vw, 1100px);
+  max-height: 90vh;
+  overflow: hidden;
+  touch-action: none;
+}
+.pdp-lightbox-stage img {
+  display: block;
+  max-width: 96vw;
+  max-height: 88vh;
+  object-fit: contain;
+  transform-origin: center center;
+}
+
+body.pdp-drawer-open,
+body.pdp-lightbox-open {
+  overflow: hidden;
+}
+
+.page-item .footer-bottom {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem 1.25rem;
+  justify-content: space-between;
+  align-items: center;
+}
+.page-item .footer-links {
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 0.45rem 1rem;
 }
 /* Store brand wordmark can be longer ("… Store") */
 .page-store .nav-word {
