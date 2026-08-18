@@ -240,12 +240,16 @@ def item_type_key(item):
     return _TYPE_ALIAS.get(t, t)
 
 
+def _vehicle_key(v):
+    s = _VEH_YEAR_RE.sub("", str(v or "").replace("\u2013", "-").replace("\u2014", "-"))
+    return re.sub(r"\s+", " ", s).strip().lower()
+
+
 def vehicle_keys(item):
     """Make+model tokens only. Year ranges do not make two SKUs the same part."""
     keys = set()
     for v in item.get("vehicles") or []:
-        s = _VEH_YEAR_RE.sub("", str(v).replace("\u2013", "-").replace("\u2014", "-"))
-        s = re.sub(r"\s+", " ", s).strip().lower()
+        s = _vehicle_key(v)
         if s:
             keys.add(s)
     fit = item.get("fitment") if isinstance(item.get("fitment"), dict) else {}
@@ -259,10 +263,27 @@ def vehicle_keys(item):
     return keys
 
 
+def display_vehicle_keys(item, limit=3):
+    """On-card applications only. Default first 3 (page headline). limit=None = full display list.
+
+    Never walk fitment.vehicles — that is the 32-row eBay dump and matches Subaru
+    Brat to a Chevy LUV cap.
+    """
+    keys = set()
+    vehs = item_vehicles(item)
+    if limit is not None:
+        vehs = vehs[:limit]
+    for v in vehs:
+        s = _vehicle_key(v)
+        if s:
+            keys.add(s)
+    return keys
+
+
 def related_items(item, items, limit=4):
-    """Same part type that shares at least one vehicle. Category-only is not a match."""
+    """Same type, and a headline vehicle of THIS page appears on the sibling's display list."""
     typ = item_type_key(item)
-    vehs = vehicle_keys(item)
+    vehs = display_vehicle_keys(item)
     if not typ or not vehs:
         return []
     scored = []
@@ -273,7 +294,7 @@ def related_items(item, items, limit=4):
             continue
         if item_type_key(other) != typ:
             continue
-        shared = vehs & vehicle_keys(other)
+        shared = vehs & display_vehicle_keys(other, limit=None)
         if not shared:
             continue
         scored.append((len(shared), other.get("name") or "", other))
@@ -325,7 +346,7 @@ def related_card_title(item):
     return name if len(name) <= 42 else name[:39] + "..."
 
 
-def related_card_note(item):
+def related_card_note(item, shared_keys=None):
     typ = (item.get("ebay_type") or "").strip().lower()
     name = str(item.get("name") or "")
     bits = []
@@ -333,18 +354,26 @@ def related_card_note(item):
     if temp and "thermostat" in typ:
         bits.append(f"{temp.group(1)} F")
     vehs = item_vehicles(item)
-    if vehs:
-        bits.append(vehs[0])
+    picked = ""
+    if shared_keys:
+        for v in vehs:
+            if _vehicle_key(v) in shared_keys:
+                picked = v
+                break
+    if not picked and vehs:
+        picked = vehs[0]
+    if picked:
+        bits.append(picked)
     return " - ".join(bits[:2])
 
 
-def related_card_html(other, esc, esc_t):
+def related_card_html(other, esc, esc_t, shared_keys=None):
     iid = str(other.get("id") or "")
     if not SQUARE_ID_RE.fullmatch(iid):
         return ""
     src = related_thumb(other)
     title = related_card_title(other)
-    note = related_card_note(other)
+    note = related_card_note(other, shared_keys=shared_keys)
     price = money(other.get("price"))
     note_html = f'<p class="pdp-rel-note">{esc_t(note)}</p>' if note else ""
     price_html = f'<p class="pdp-rel-price">{esc_t(price)}</p>' if price else ""
@@ -381,7 +410,13 @@ def related_html(item, items, esc, esc_t):
             f'<div class="pdp-related-grid">{cards}</div></div>'
         )
     if related:
-        cards = "".join(related_card_html(o, esc, esc_t) for o in related)
+        head = display_vehicle_keys(item)
+        cards = "".join(
+            related_card_html(
+                o, esc, esc_t, shared_keys=head & display_vehicle_keys(o, limit=None)
+            )
+            for o in related
+        )
         blocks.append(
             '<div class="pdp-related-block">'
             '<p class="pdp-related-h">Same vehicles in this store</p>'
@@ -787,7 +822,9 @@ def main() -> None:
         if not gallery:
             gallery = [u for u in (safe_image(u) for u in ensure_listing_gallery(item)) if u]
         video = safe_video(item.get("video"))
-        checkout = site_product_url(iid) or safe_checkout(item.get("url"))
+        # square.site/product/{catalogId} is a dead Square SPA shell ($0.00).
+        # Real checkout is the catalog square.link payment URL.
+        checkout = safe_checkout(item.get("url"))
         store = item_store_tree(item)
         store_parent = store["parent"]
         # Manual per-item override (Square/eBay have no such field) — same

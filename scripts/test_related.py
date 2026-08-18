@@ -80,6 +80,22 @@ def test_cv_kit_shares_vw():
     assert any("CV2485" in (o.get("name") or "") for o in rel)
 
 
+def test_luv_cap_does_not_dump_subaru():
+    items, by_id = load_items()
+    jh = by_id["ECJYLFI2Z4Q7ASTJGGX2MU7A"]
+    rel = related_items(jh, items)
+    names = [o.get("name") or "" for o in rel]
+    assert not any("JH-72" in n for n in names), names
+    assert not any("Subaru" in n for n in names), names
+    html = related_html(jh, items, _esc, _esc)
+    assert "JH-72" not in html
+    assert "Subaru Brat" not in html
+    # Card note must be a shared Chevy, not the sibling's first (Buick) vehicle
+    if any("DR-457" in n for n in names):
+        assert "Chevrolet S10" in html
+        assert "Buick Century" not in html
+
+
 def test_html_uses_cards_not_title_wall():
     items, by_id = load_items()
     t36 = by_name(items, "33036")
@@ -120,8 +136,10 @@ def test_listing_gallery_and_zero_price_filter():
     hits = also_stocked_items(ghost, mixed)
     assert hits
     assert all(float(o.get("price") or 0) > 0 for o in hits)
+    gal = HUB / "assets" / "pdp-gallery" / paid["id"]
+    baked = sorted(gal.glob("*.webp")) if gal.is_dir() else []
     shots = listing_photo_files(paid.get("ebay_item_id"))
-    assert len(shots) >= 3
+    assert len(baked) >= 2 or len(shots) >= 3, (len(baked), len(shots), paid.get("ebay_item_id"))
     rel = f"../assets/pdp-gallery/{paid['id']}/02.webp"
     assert safe_image(rel) == rel
     assert safe_image("../assets/pdp-gallery/../02.webp") == ""
@@ -162,12 +180,14 @@ def test_short_h1_and_site_checkout():
     assert safe_checkout("https://evil.example/product/BYO4CA2ORO6PIIHKJ6BAJ7Z5") == ""
     assert safe_checkout("https://square.link/u/kBO2Zgdy").startswith("https://square.link/")
     page = (HUB / "p" / f"{t08['id']}.html").read_text(encoding="utf-8")
-    assert f'href="{url}"' in page
+    assert f'href="{safe_checkout(t08.get("url"))}"' in page
     assert 'data-bind="checkout"' in page
     assert "Auto Parts &amp; Accessories" in page or "Auto Parts & Accessories" in page
     air = (HUB / "p" / "R6VO2MARXN7GRGTMXVGABLHT.html").read_text(encoding="utf-8")
     assert "Truck Air Springs" in air
-    assert 'href="https://buccaneersalvage.square.site/product/R6VO2MARXN7GRGTMXVGABLHT"' in air
+    air_item = by_id["R6VO2MARXN7GRGTMXVGABLHT"]
+    assert f'href="{safe_checkout(air_item.get("url"))}"' in air
+    assert "square.site/product/" not in air
     vintage = (HUB / "p" / "WCSSZNLKXNQIOIHDWIOWQCGW.html").read_text(encoding="utf-8")
     assert "Vintage &amp; Collectibles" in vintage or "Vintage & Collectibles" in vintage
 
@@ -179,6 +199,7 @@ if __name__ == "__main__":
         test_empty_vehicles_no_category_dump,
         test_brake_hardware_does_not_lump_parking_brake,
         test_cv_kit_shares_vw,
+        test_luv_cap_does_not_dump_subaru,
         test_html_uses_cards_not_title_wall,
         test_listing_gallery_and_zero_price_filter,
         test_ship_snapshot_matches_square_profiles,

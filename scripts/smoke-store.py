@@ -116,8 +116,8 @@ def main():
         )
         check(
             "PDP checkout href baked (no JS-only empty link)",
-            'href="https://buccaneersalvage.square.site/product/R6VO2MARXN7GRGTMXVGABLHT"'
-            in pdp_air
+            'href="https://square.link/' in pdp_air
+            and "square.site/product/" not in pdp_air
             and 'data-bind="checkout"' in pdp_air,
         )
         check("PDP uses store parent not Cycling site dept", "Vintage &amp; Collectibles" in pdp_html)
