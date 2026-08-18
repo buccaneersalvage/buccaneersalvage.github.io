@@ -263,6 +263,28 @@ ul { list-style: none; }
   transform: translateY(-1px);
   filter: brightness(1.06);
 }
+.nav-links a.nav-scrap,
+.nav-drawer a.nav-scrap {
+  color: var(--ink);
+  background: linear-gradient(165deg, var(--gold-foil-top) 0%, var(--gold-mid) 48%, var(--gold-deep) 100%);
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  padding: 0.5rem 0.8rem;
+  box-shadow:
+    0 1px 0 rgba(255, 255, 255, 0.35) inset,
+    0 4px 14px rgba(197, 160, 40, 0.24);
+}
+.nav-links a.nav-scrap:hover,
+.nav-drawer a.nav-scrap:hover {
+  color: var(--ink);
+  filter: brightness(1.06);
+  background: linear-gradient(165deg, var(--gold-foil-top) 0%, var(--gold-mid) 48%, var(--gold-deep) 100%);
+}
+.nav-drawer a.nav-scrap {
+  display: inline-flex;
+  width: auto;
+  margin: 0.15rem 0 0.35rem;
+}
 
 @media (min-width: 1180px) {
   .nav-links { display: flex; }
@@ -2908,3 +2930,123 @@ body.pdp-lightbox-open {
 .is-display-none { display: none !important; }
 .will-change-transform { will-change: transform; }
 .span-all { grid-column: 1 / -1; }
+
+/* ==========================================================================
+   Scrap page (scrap.html) — additive block, same design system
+   ========================================================================== */
+.scrap-hero .hero-bg {
+  background:
+    linear-gradient(180deg, rgba(5, 4, 3, 0.55) 0%, rgba(5, 4, 3, 0.3) 30%, rgba(5, 4, 3, 0.7) 70%, var(--void) 100%),
+    linear-gradient(105deg, rgba(5, 4, 3, 0.9) 0%, rgba(5, 4, 3, 0.5) 42%, rgba(5, 4, 3, 0.34) 100%),
+    url("assets/scrap/yard-truck-flatbed.jpg") center 45% / cover no-repeat;
+}
+@supports (background-image: image-set(url("x.webp") type("image/webp"))) {
+  .scrap-hero .hero-bg {
+    background:
+      linear-gradient(180deg, rgba(5, 4, 3, 0.55) 0%, rgba(5, 4, 3, 0.3) 30%, rgba(5, 4, 3, 0.7) 70%, var(--void) 100%),
+      linear-gradient(105deg, rgba(5, 4, 3, 0.9) 0%, rgba(5, 4, 3, 0.5) 42%, rgba(5, 4, 3, 0.34) 100%),
+      image-set(
+        url("assets/scrap/yard-truck-flatbed.webp") type("image/webp"),
+        url("assets/scrap/yard-truck-flatbed.jpg") type("image/jpeg")
+      ) center 45% / cover no-repeat;
+  }
+}
+
+/* Scrap page: keep photos small, never dump 1600px into the layout */
+.scrap-page .bento {
+  min-height: 0;
+}
+.scrap-page .port,
+.scrap-page .port:first-child {
+  min-height: 220px;
+}
+@media (min-width: 1020px) {
+  .scrap-page .bento {
+    min-height: 0;
+    grid-template-rows: auto auto;
+  }
+  .scrap-page .port:first-child { min-height: 280px; }
+}
+.scrap-page .port-go svg { display: none; }
+.scrap-page .reveal {
+  opacity: 1;
+  transform: none;
+}
+
+/* About visuals swapped for real yard shots */
+.about-visual--scrap {
+  background:
+    linear-gradient(180deg, transparent, rgba(5, 4, 3, 0.55)),
+    url("assets/scrap/yard-truck-trailer.jpg") center / cover no-repeat;
+}
+@supports (background-image: image-set(url("x.webp") type("image/webp"))) {
+  .about-visual--scrap {
+    background:
+      linear-gradient(180deg, transparent, rgba(5, 4, 3, 0.55)),
+      image-set(
+        url("assets/scrap/yard-truck-trailer.webp") type("image/webp"),
+        url("assets/scrap/yard-truck-trailer.jpg") type("image/jpeg")
+      ) center / cover no-repeat;
+  }
+}
+.about-visual--scrap2 {
+  background:
+    linear-gradient(180deg, transparent, rgba(5, 4, 3, 0.55)),
+    url("assets/scrap/scrap-engine-pile.jpg") center / cover no-repeat;
+}
+@supports (background-image: image-set(url("x.webp") type("image/webp"))) {
+  .about-visual--scrap2 {
+    background:
+      linear-gradient(180deg, transparent, rgba(5, 4, 3, 0.55)),
+      image-set(
+        url("assets/scrap/scrap-engine-pile.webp") type("image/webp"),
+        url("assets/scrap/scrap-engine-pile.jpg") type("image/jpeg")
+      ) center / cover no-repeat;
+  }
+}
+
+/* Yard gallery — glass cards, same edges as ports */
+.scrap-gallery {
+  display: grid;
+  gap: var(--space-4);
+  grid-template-columns: 1fr;
+}
+@media (min-width: 640px) {
+  .scrap-gallery { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (min-width: 1020px) {
+  .scrap-gallery { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+.scrap-shot {
+  position: relative;
+  overflow: hidden;
+  border-radius: var(--radius);
+  border: 1px solid var(--glass-edge);
+  background: linear-gradient(145deg, rgba(28, 22, 18, 0.75), rgba(8, 6, 4, 0.55));
+  transition: border-color 0.25s var(--ease), transform 0.25s var(--ease), box-shadow 0.25s var(--ease);
+}
+.scrap-shot:hover {
+  border-color: var(--glass-edge-hot);
+  transform: translateY(-2px);
+  box-shadow: 0 14px 40px rgba(0, 0, 0, 0.45), 0 0 0 1px rgba(240, 208, 120, 0.08);
+}
+.scrap-shot img {
+  width: 100%;
+  max-height: 168px;
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+  transition: transform 0.5s var(--ease);
+}
+.scrap-shot:hover img { transform: scale(1.03); }
+.scrap-shot figcaption {
+  padding: 0.7rem 0.9rem;
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  letter-spacing: 0.04em;
+  color: var(--parchment-faint);
+  border-top: 1px solid var(--glass-edge);
+  background: rgba(5, 4, 3, 0.5);
+}
+
+/* Port cards used as articles on scrap page need the same hover affordance */
+.port .port-go { cursor: pointer; }

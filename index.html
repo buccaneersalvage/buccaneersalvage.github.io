@@ -41,7 +41,7 @@
   <link rel="preload" as="font" href="assets/fonts/QGYvz_MVcBeNP4NJtEtq.woff2" type="font/woff2" crossorigin />
   <link rel="preload" as="image" href="assets/hero-atmosphere-web.webp" type="image/webp" fetchpriority="high" />
   <link rel="stylesheet" href="assets/fonts.css?v=d1b92d3ff4" integrity="sha384-IDnmxIHyfCaSAssmrqXZbMSqgbRm8AATad26bBSjsyTVbgLbsvJXqeQW642rJQFS" />
-  <link rel="stylesheet" href="styles.css?v=013e58cae5" integrity="sha384-MJUg3hQ0ixVvjhlI7pj5eqIGp2qPmOWdyMcEiQ0v3asgs2s2VGzsrfxqTL1vAetL" />
+  <link rel="stylesheet" href="styles.css?v=0949843bba" integrity="sha384-2mTvKzujjowOI8bar4Nx1Oto3VrkrKDj/AgkIoSXuvM15Me04NrTWZrI/9cfTvIM" />
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -191,7 +191,7 @@
         "itemListElement": [
           {"@type": "ListItem", "position": 1, "name": "BuccaneerSalvage Store", "url": "https://buccaneersalvage.github.io/store.html"},
           {"@type": "ListItem", "position": 2, "name": "eBay BuccaneerSalvage (secondary)", "url": "https://www.ebay.com/str/buccaneersalvage"},
-          {"@type": "ListItem", "position": 3, "name": "Local scrap & e-waste", "url": "https://buccaneersalvage.github.io/#local"},
+          {"@type": "ListItem", "position": 3, "name": "Local scrap & e-waste", "url": "https://buccaneersalvage.github.io/scrap.html"},
           {"@type": "ListItem", "position": 4, "name": "YouTube @BuccaneerSalvage", "url": "https://www.youtube.com/@BuccaneerSalvage"},
           {"@type": "ListItem", "position": 5, "name": "Ukiri dossier", "url": "https://buccaneersalvage.github.io/ukiri/"},
           {"@type": "ListItem", "position": 6, "name": "X @jollyroger1480", "url": "https://x.com/jollyroger1480"}
@@ -220,6 +220,7 @@
         <a href="store.html">Store</a>
         <a href="terms.html">Terms</a>
         <a href="videos.html">Music</a>
+        <a class="nav-scrap" href="scrap.html">Scrap Removal</a>
         <a class="nav-port" href="https://www.youtube.com/@BuccaneerSalvage" target="_blank" rel="noopener noreferrer"><img class="nav-port-icon" loading="lazy" decoding="async" src="assets/nav/youtube-pirate-48.webp" width="22" height="22" alt="" />YouTube</a>
         <a class="nav-port" href="https://x.com/jollyroger1480" target="_blank" rel="noopener noreferrer"><img class="nav-port-icon" loading="lazy" decoding="async" src="assets/nav/x-pirate-48.webp" width="22" height="22" alt="" />X</a>
         <a class="nav-port" href="https://www.ebay.com/str/buccaneersalvage" target="_blank" rel="noopener noreferrer"><img class="nav-port-icon" loading="lazy" decoding="async" src="assets/nav/ebay-pirate-48.webp" width="22" height="22" alt="" />eBay</a>
@@ -244,7 +245,7 @@
       <a href="terms.html">Terms</a>
       <a href="videos.html">Music</a>
       <a class="nav-port" href="https://www.ebay.com/str/buccaneersalvage" target="_blank" rel="noopener noreferrer"><img class="nav-port-icon" loading="lazy" decoding="async" src="assets/nav/ebay-pirate-48.webp" width="22" height="22" alt="" />eBay (secondary)</a>
-      <a href="#local">Scrap &amp; e-waste</a>
+      <a class="nav-scrap" href="scrap.html">Scrap Removal</a>
       <a class="nav-port" href="https://www.youtube.com/@BuccaneerSalvage" target="_blank" rel="noopener noreferrer"><img class="nav-port-icon" loading="lazy" decoding="async" src="assets/nav/youtube-pirate-48.webp" width="22" height="22" alt="" />YouTube</a>
       <a class="nav-port" href="https://x.com/jollyroger1480" target="_blank" rel="noopener noreferrer"><img class="nav-port-icon" loading="lazy" decoding="async" src="assets/nav/x-pirate-48.webp" width="22" height="22" alt="" />X @jollyroger1480</a>
       <a href="/ukiri/">Ukiri dossier</a>
@@ -272,8 +273,8 @@
             <a class="btn btn-primary" href="store.html">
               Shop the store
             </a>
-            <a class="btn btn-ghost" href="#local">
-              Local scrap &amp; e-waste
+            <a class="btn btn-ghost" href="scrap.html">
+              Scrap Removal
             </a>
           </div>
           <div class="hero-meta">
@@ -355,7 +356,7 @@
 
           <a
             class="port reveal reveal-delay-2"
-            href="#local"
+            href="scrap.html"
           >
             <div class="port-media">
               <picture><source type="image/webp" srcset="assets/store-banner-jolly-v9-sm.webp" /><img src="assets/store-banner-jolly-v9.jpg" alt="Local scrap metal haul and e-waste recycling Carbondale PA" width="800" height="230" loading="lazy" class="img-pos-85" /></picture>
@@ -363,9 +364,9 @@
             <div class="port-body">
               <span class="port-tag sq">Local</span>
               <h3>Scrap free · e-waste for a fee</h3>
-              <p>Carbondale / NEPA: free scrap metal haul by appointment. Electronic recycling is paid, not free. Call or text to schedule.</p>
+              <p>Carbondale / NEPA: free scrap metal haul by appointment. Junk removal and e-waste are paid. Call or text to schedule.</p>
               <span class="port-go">
-                Contact the yard
+                Open scrap &amp; e-waste
                 <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
               </span>
             </div>
@@ -421,22 +422,26 @@
         <article class="about reveal">
           <div class="about-visual" aria-hidden="true"></div>
           <div class="about-copy">
-            <h2>Free scrap · e-waste for a fee</h2>
+            <h2>Free scrap · junk &amp; e-waste paid</h2>
             <p>
               <strong class="gold-em">Local only</strong>:
-              free <strong>scrap metal removal</strong> (we haul scrap at no charge, by appointment)
-              and <strong>electronic recycling / e-waste for a fee</strong> (not free).
-              Pickup and drop by appointment in the Carbondale / NEPA area.
+              free <strong>scrap metal removal</strong> by appointment.
+              <strong>Junk removal is paid</strong>, and <strong>e-waste / electronics recycling is paid</strong> —
+              drop-off at the house is cheaper than pickup.
             </p>
             <p>
+              Full details, photos of the yard, and booking live on the
+              <a class="link-gold" href="scrap.html">Scrap Removal page</a>.
               Call or text <a class="link-gold" href="tel:+15704682901">(570) 468-2901</a>
               · email <a class="link-gold" href="mailto:jollyroger1480@gmail.com">jollyroger1480@gmail.com</a>.
-              Hours: by appointment, roughly Mon-Sat 9a-5p.
             </p>
             <p>
               Online parts ship US-wide from the <a class="link-gold" href="store.html">site store</a>
-              or <a class="link-gold" href="https://www.ebay.com/str/buccaneersalvage">eBay</a> (secondary). Local services feed the hold. Not a junkyard open to walk-ins.
+              or <a class="link-gold" href="https://www.ebay.com/str/buccaneersalvage">eBay</a> (secondary). Not a junkyard open to walk-ins.
             </p>
+            <div class="hero-actions">
+              <a class="btn btn-ghost" href="scrap.html">Scrap Removal</a>
+            </div>
           </div>
         </article>
       </div>
@@ -545,9 +550,9 @@
             <span class="footer-contact-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg></span>
             jollyroger1480@gmail.com
           </a>
-          <a href="#local">
+          <a href="scrap.html">
             <span class="footer-contact-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s7-4.5 7-11a7 7 0 1 0-14 0c0 6.5 7 11 7 11z"/><circle cx="12" cy="10" r="2.5"/></svg></span>
-            Scrap &amp; e-waste (local)
+            Scrap Removal
           </a>
           <a href="https://cash.app/$jollyroger1480" target="_blank" rel="noopener noreferrer">
             <span class="footer-contact-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v10M15 9.5c0-1.1-1.3-2-3-2s-3 .9-3 2 1.3 2 3 2 3 .9 3 2-1.3 2-3 2-3-.9-3-2"/></svg></span>
