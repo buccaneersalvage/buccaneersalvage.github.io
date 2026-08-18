@@ -1364,6 +1364,14 @@
       fillCounts();
       initList();
       wireControls();
+      const bootQ = new URLSearchParams(location.search).get("q");
+      if (bootQ) {
+        const search = document.getElementById("stSearch");
+        if (search) {
+          search.value = bootQ;
+          applyFilters();
+        }
+      }
     } catch (err) {
       if (countEl) countEl.textContent = "Catalog offline";
       const grid = document.getElementById("stGrid");

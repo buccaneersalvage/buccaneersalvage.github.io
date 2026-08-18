@@ -445,6 +445,32 @@ def main():
                 and page.locator(".pdp-related a[href$='.html']").count() >= 1,
                 "related links",
             )
+            check(
+                "pdp related uses cards",
+                page.locator(".pdp-rel-card").count() >= 1,
+                "card grid",
+            )
+            thermo = page.goto(f"{BASE}/p/BYO4CA2ORO6PIIHKJ6BAJ7Z5.html")
+            check("thermo 33008 pdp loads", thermo and thermo.ok)
+            rel_txt = page.text_content(".pdp-related") or ""
+            check(
+                "thermo 33008 does not dump other housings",
+                "33036" not in rel_txt and "33059" not in rel_txt,
+                rel_txt[:120],
+            )
+            check(
+                "thermo 33008 offers catalog browse",
+                "browse thermostat in the catalog" in rel_txt.lower(),
+                rel_txt[-80:],
+            )
+            dodge = page.goto(f"{BASE}/p/RKN2JXFL3XHP336C6I2YOVYM.html")
+            check("thermo 33036 pdp loads", dodge and dodge.ok)
+            dodge_rel = page.text_content(".pdp-related") or ""
+            check(
+                "thermo 33036 shows same-vehicle temps",
+                "33038" in dodge_rel or "33039" in dodge_rel,
+                dodge_rel[:160],
+            )
             xref_pdp = page.goto(f"{BASE}/p/5LLWTR3B27YDLV6ZR6XMBPWL.html")
             check("xref pdp loads", xref_pdp and xref_pdp.ok, f"status={getattr(xref_pdp, 'status', None)}")
             xref_txt = page.text_content(".pdp-fitment") or ""

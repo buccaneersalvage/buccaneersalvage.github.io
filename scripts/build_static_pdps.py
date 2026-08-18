@@ -9,7 +9,7 @@ import sys
 from datetime import date, datetime
 from pathlib import Path
 from zoneinfo import ZoneInfo
-from urllib.parse import urlparse
+from urllib.parse import quote, urlparse
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from dept_tree import dept_label, item_ebay_tree
@@ -220,38 +220,53 @@ def pdp_fitment_html(item, esc_t):
     )
 
 
-def _parent_crumb(item):
-    raw = (item.get("ebay_category") or "").strip()
-    skip = {
-        "ebay motors",
-        "parts & accessories",
-        "car & truck parts & accessories",
-        "commercial truck parts",
-    }
-    kept = [p.strip() for p in raw.split(":") if p.strip() and p.strip().lower() not in skip]
-    return kept[0] if kept else ""
+_VEH_YEAR_RE = re.compile(r"^(?:\d{4}\s*[-–—]\s*\d{4}|\d{4})\s+")
+_TYPE_ALIAS = {
+    "cv boot kit": "cv joint boot kit",
+    "rolling lobe": "rolling lobe air spring",
+}
 
 
-def related_items(item, items, limit=6):
-    iid = item.get("id")
-    cat = (item.get("ebay_category") or "").strip()
-    typ = (item.get("ebay_type") or "").strip().lower()
-    parent = _parent_crumb(item)
+def item_type_key(item):
+    t = re.sub(r"\s+", " ", (item.get("ebay_type") or "").strip().lower())
+    return _TYPE_ALIAS.get(t, t)
+
+
+def vehicle_keys(item):
+    """Make+model tokens only. Year ranges do not make two SKUs the same part."""
+    keys = set()
+    for v in item.get("vehicles") or []:
+        s = _VEH_YEAR_RE.sub("", str(v).replace("\u2013", "-").replace("\u2014", "-"))
+        s = re.sub(r"\s+", " ", s).strip().lower()
+        if s:
+            keys.add(s)
+    fit = item.get("fitment") if isinstance(item.get("fitment"), dict) else {}
+    for row in fit.get("vehicles") or []:
+        if not isinstance(row, dict):
+            continue
+        make = str(row.get("make") or "").strip().lower()
+        model = str(row.get("model") or "").strip().lower()
+        if make and model:
+            keys.add(f"{make} {model}")
+    return keys
+
+
+def related_items(item, items, limit=4):
+    """Same part type that shares at least one vehicle. Category-only is not a match."""
+    typ = item_type_key(item)
+    vehs = vehicle_keys(item)
+    if not typ or not vehs:
+        return []
     scored = []
     for other in items:
-        if other.get("id") == iid:
+        if other.get("id") == item.get("id"):
             continue
-        score = 0
-        oc = (other.get("ebay_category") or "").strip()
-        if cat and oc and oc == cat:
-            score += 4
-        elif parent and _parent_crumb(other) == parent:
-            score += 2
-        ot = (other.get("ebay_type") or "").strip().lower()
-        if typ and ot and ot == typ:
-            score += 2
-        if score:
-            scored.append((score, other.get("name") or "", other))
+        if item_type_key(other) != typ:
+            continue
+        shared = vehs & vehicle_keys(other)
+        if not shared:
+            continue
+        scored.append((len(shared), other.get("name") or "", other))
     scored.sort(key=lambda row: (-row[0], row[1]))
     return [row[2] for row in scored[:limit]]
 
@@ -272,32 +287,96 @@ def also_stocked_items(item, items, limit=4):
     return hits
 
 
+def related_thumb(item):
+    iid = str(item.get("id") or "")
+    if re.fullmatch(r"[A-Z0-9]{16,32}", iid):
+        local = HUB / "assets" / "product-thumbs" / f"{iid}.webp"
+        if local.is_file():
+            return f"../assets/product-thumbs/{iid}.webp"
+    return safe_image(item.get("image")) or f"{BASE}/assets/og-share.jpg"
+
+
+def related_card_title(item):
+    name = str(item.get("name") or "Part")
+    pns = item_display_pns(item)
+    pn = pns[0] if pns else ""
+    if pn:
+        m = re.search(rf"\b{re.escape(pn)}\b", name, re.I)
+        if m:
+            prefix = name[: m.end()].strip(" -–—,")
+            if 2 <= len(prefix) <= 42:
+                return prefix
+        brand = brand_guess(item)
+        if brand and brand != "BuccaneerSalvage Store" and brand.lower() not in pn.lower():
+            return f"{brand} {pn}"
+        return pn
+    return name if len(name) <= 42 else name[:39] + "..."
+
+
+def related_card_note(item):
+    typ = (item.get("ebay_type") or "").strip().lower()
+    name = str(item.get("name") or "")
+    bits = []
+    temp = re.search(r"\b(1[5-9]\d|20[05])\b", name)
+    if temp and "thermostat" in typ:
+        bits.append(f"{temp.group(1)} F")
+    vehs = item_vehicles(item)
+    if vehs:
+        bits.append(vehs[0])
+    return " - ".join(bits[:2])
+
+
+def related_card_html(other, esc, esc_t):
+    iid = other.get("id") or ""
+    src = related_thumb(other)
+    title = related_card_title(other)
+    note = related_card_note(other)
+    price = money(other.get("price"))
+    note_html = f'<p class="pdp-rel-note">{esc_t(note)}</p>' if note else ""
+    price_html = f'<p class="pdp-rel-price">{esc_t(price)}</p>' if price else ""
+    return (
+        f'<a class="pdp-rel-card" href="{esc(iid)}.html">'
+        f'<span class="pdp-rel-media"><img src="{esc(src)}" alt="" width="200" height="200" loading="lazy" /></span>'
+        f'<span class="pdp-rel-body">'
+        f'<span class="pdp-rel-title">{esc_t(title)}</span>'
+        f"{note_html}{price_html}"
+        f"</span></a>"
+    )
+
+
+def catalog_browse_href(item):
+    typ = (item.get("ebay_type") or "").strip()
+    if typ:
+        return f"../store.html?q={quote(typ)}"
+    return "../store.html"
+
+
 def related_html(item, items, esc, esc_t):
     also = also_stocked_items(item, items)
     also_ids = {o.get("id") for o in also}
     related = [o for o in related_items(item, items) if o.get("id") not in also_ids]
-    if not also and not related:
+    typ = (item.get("ebay_type") or "").strip()
+    if not also and not related and not typ:
         return ""
     blocks = []
     if also:
-        lis = "".join(
-            f'<li><a href="{esc(o.get("id"))}.html">{esc_t(o.get("name") or "Part")}</a></li>'
-            for o in also
-        )
+        cards = "".join(related_card_html(o, esc, esc_t) for o in also)
         blocks.append(
             '<div class="pdp-related-block">'
-            '<p class="pdp-related-h">Same part number in this store</p>'
-            f'<ul class="pdp-related-list">{lis}</ul></div>'
+            '<p class="pdp-related-h">Same part number</p>'
+            f'<div class="pdp-related-grid">{cards}</div></div>'
         )
     if related:
-        lis = "".join(
-            f'<li><a href="{esc(o.get("id"))}.html">{esc_t(o.get("name") or "Part")}</a></li>'
-            for o in related[:5]
-        )
+        cards = "".join(related_card_html(o, esc, esc_t) for o in related)
         blocks.append(
             '<div class="pdp-related-block">'
-            '<p class="pdp-related-h">Related in this store</p>'
-            f'<ul class="pdp-related-list">{lis}</ul></div>'
+            '<p class="pdp-related-h">Same vehicles in this store</p>'
+            f'<div class="pdp-related-grid">{cards}</div></div>'
+        )
+    if typ:
+        label = f"Browse {typ.lower()} in the catalog"
+        blocks.append(
+            f'<p class="pdp-related-more"><a href="{esc(catalog_browse_href(item))}">{esc_t(label)}</a></p>'
         )
     return (
         '<section class="pdp-related" aria-label="Related parts">'
@@ -659,7 +738,7 @@ def main() -> None:
   <meta name="twitter:image" content="{esc(img)}" />
   <link rel="icon" type="image/jpeg" href="../assets/crest-rustjack-web.jpg" />
   <link rel="stylesheet" href="../assets/fonts.css?v=d1b92d3ff4" integrity="sha384-IDnmxIHyfCaSAssmrqXZbMSqgbRm8AATad26bBSjsyTVbgLbsvJXqeQW642rJQFS" />
-  <link rel="stylesheet" href="../styles.css?v=ef581e28b7" integrity="sha384-OLW8SjBBKPzxkYIbPRDgrAqO+gIMiJc1hKlMe5QWNFdAod9TUmkB55LWHd46GT7U" />
+  <link rel="stylesheet" href="../styles.css?v=50686aadc5" integrity="sha384-oTiTp/J0UVbInQsSQaMgHTapsTs8Sbgg/4sip7WfoK7UZZsXGQnLNlDBUYW3oHWX" />
   <script type="application/ld+json">{schema_json}</script>
   <script src="../pdp-gallery.js?v=366cbe22c5" integrity="sha384-g6VHBI6bjnClm1Q9Y5yN2XzKSt1dwoJXKdlaE9hoCUQHtJmNjTd1MYdwW6h8BqUj" defer></script>
   <script src="../main.js?v=e49d70008a" integrity="sha384-QjfesZFAOsxwfD3NfGGRcyMWdv+cJj23cZveTesOK/kGx1yvV7Zw1Om5jWDya5ce" defer></script>
