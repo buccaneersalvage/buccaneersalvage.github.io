@@ -267,13 +267,27 @@
     [/capacitor motor|\bcraftsman\b.*\bmotor\b/i, "Electric Motors"],
   ];
 
-  /** Non-vehicle store departments. Stay out of make/model/year parts search. */
+  /** Non-vehicle eBay-site depts (card/PDP labels). Not the store-parent rail. */
   const YARD_PARENTS = new Set([
     "mobility",
     "cycling",
     "material-handling",
     "electric-motors",
   ]);
+
+  /** eBay store parents, storefront order. Only those with hub stock are shown. */
+  const STORE_PARENTS = [
+    { slug: "carlson-brake-hardware", label: "Carlson Brake Hardware", auto: true },
+    { slug: "truck-air-springs", label: "Truck Air Springs", auto: true },
+    { slug: "auto-parts", label: "Auto Parts & Accessories", auto: true },
+    { slug: "vintage-collectibles", label: "Vintage & Collectibles", auto: false },
+    { slug: "industrial-warehouse", label: "Industrial & Warehouse", auto: false },
+  ];
+  const AUTO_STORE = new Set(STORE_PARENTS.filter((p) => p.auto).map((p) => p.slug));
+
+  function isAutoBrowse() {
+    return !category || category === "all" || AUTO_STORE.has(category);
+  }
 
   const PARENT_SHORT = {
     "suspension-steering": "Suspension",
@@ -325,7 +339,134 @@
   }
 
   function parentChipLabel(slug, fallback) {
+    const store = STORE_PARENTS.find((p) => p.slug === slug);
+    if (store) return store.label;
     return PARENT_SHORT[slug] || fallback || slug;
+  }
+
+  function packStore(parentSlug, parent, subSlug, sub) {
+    return { parentSlug, parent, subSlug: subSlug || "other", sub: sub || parent };
+  }
+
+  function carlsonSub(name, typ) {
+    const blob = `${name} ${typ}`.toLowerCase();
+    if (/self-adjuster|self adjuster/.test(blob)) return ["self-adjuster-kits", "Self-Adjuster Kits"];
+    if (/parking|drum-in-hat|drum in hat/.test(blob)) return ["parking-brake-kits", "Parking Brake Kits"];
+    if (/guide pin|caliper pin|caliper bolt/.test(blob)) return ["caliper-pin-guide-kits", "Caliper Pin & Guide Kits"];
+    if (/abutment|boot|quietglide/.test(blob)) return ["hardware-boot-kits", "Hardware & Boot Kits"];
+    if (/drum/.test(blob)) return ["drum-brake-hardware-kits", "Drum Brake Hardware Kits"];
+    if (/disc/.test(blob)) return ["disc-brake-hardware-kits", "Disc Brake Hardware Kits"];
+    return ["hardware-boot-kits", "Hardware & Boot Kits"];
+  }
+
+  function airSpringSub(name, typ) {
+    const blob = `${name} ${typ}`.toLowerCase();
+    if (/triple/.test(blob)) return ["triple-convoluted", "Triple Convoluted"];
+    if (/double|2b\d/.test(blob)) return ["double-convoluted", "Double Convoluted"];
+    if (/convoluted/.test(blob) && !/rolling/.test(blob)) {
+      return ["double-convoluted", "Double Convoluted"];
+    }
+    return ["rolling-lobe", "Rolling Lobe"];
+  }
+
+  function autoSub(cat, typ, name) {
+    const blob = `${cat} ${typ} ${name}`.toLowerCase();
+    if (/oil filter|transmission filter|lube filter/.test(blob)) return ["oil-filters", "Oil Filters"];
+    if (/fuel filter|fuel strainer|sediment/.test(blob)) return ["fuel-filters", "Fuel Filters"];
+    if (/air filter|crankcase|breather/.test(blob)) return ["air-filters", "Air Filters"];
+    if (
+      /distributor|ignition|spark plug|rotor|coil|vacuum advance|wire set|pickup|\bhei\b/.test(
+        blob
+      )
+    ) {
+      return ["ignition-tune-up", "Ignition & Tune-Up"];
+    }
+    if (/\bcv\b|boot kit|drivetrain|transmission/.test(blob) && !/filter/.test(blob)) {
+      return ["transmission-drivetrain", "Transmission & Drivetrain"];
+    }
+    if (/headlight switch|dimmer/.test(blob)) return ["headlight-switches", "Headlight Switches"];
+    if (/exhaust|flange gasket/.test(blob)) return ["exhaust-parts", "Exhaust Parts"];
+    if (/turbo|injection pump|holset|mack diesel/.test(blob)) {
+      return ["heavy-truck-diesel", "Heavy Truck & Diesel Parts"];
+    }
+    if (/solenoid|regulator|map sensor|oxygen|o2 sensor|sealed beam|headlamp|alternator/.test(blob)) {
+      return ["electrical-sensors", "Electrical & Sensors"];
+    }
+    if (/brake|caliper|wagner|lee /.test(blob)) return ["brakes-suspension", "Brakes & Suspension"];
+    if (/control arm|ball joint|tie rod|idler|sway/.test(blob)) {
+      return ["suspension-steering", "Suspension & Steering"];
+    }
+    if (/timing|thermostat|gasket|sprocket|air injection/.test(blob)) {
+      return ["engine-parts", "Engine Parts"];
+    }
+    if (cat === "filters") return ["oil-filters", "Oil Filters"];
+    if (cat === "ignition") return ["ignition-tune-up", "Ignition & Tune-Up"];
+    if (cat === "driveline") return ["transmission-drivetrain", "Transmission & Drivetrain"];
+    if (cat === "brake") return ["brakes-suspension", "Brakes & Suspension"];
+    return ["engine-parts", "Engine Parts"];
+  }
+
+  /** eBay-store parent + child. Only parents that exist on this catalog. */
+  function itemStoreTree(item) {
+    if (!item) return packStore("auto-parts", "Auto Parts & Accessories", "engine-parts", "Engine Parts");
+    if (item._st) return item._st;
+    const cat = item.category || "";
+    const name = item.name || "";
+    const typ = item.ebay_type || "";
+    const brand = item.ebay_brand || "";
+    const blob = `${name} ${typ} ${brand} ${cat}`.toLowerCase();
+
+    if (cat === "cycling" || /\bmasi\b|\bbicycle\b/.test(blob)) {
+      item._st = packStore(
+        "vintage-collectibles",
+        "Vintage & Collectibles",
+        "vintage-sports",
+        "Vintage Sports & Recreation"
+      );
+      return item._st;
+    }
+    if (cat === "mobility" || /wheelchair/.test(blob)) {
+      item._st = packStore(
+        "vintage-collectibles",
+        "Vintage & Collectibles",
+        "household-medical",
+        "Household & Medical"
+      );
+      return item._st;
+    }
+    if (cat === "electric-motors" || (/craftsman/.test(blob) && /motor/.test(blob))) {
+      item._st = packStore(
+        "vintage-collectibles",
+        "Vintage & Collectibles",
+        "vintage-tools",
+        "Vintage Tools & Hardware"
+      );
+      return item._st;
+    }
+    if (cat === "material-handling" || /forklift/.test(blob)) {
+      item._st = packStore(
+        "industrial-warehouse",
+        "Industrial & Warehouse",
+        "forklift-warehouse",
+        "Forklift & Warehouse Parts"
+      );
+      return item._st;
+    }
+
+    if (/\bcarlson\b/.test(blob)) {
+      const [subSlug, sub] = carlsonSub(name, typ);
+      item._st = packStore("carlson-brake-hardware", "Carlson Brake Hardware", subSlug, sub);
+      return item._st;
+    }
+    if (cat === "air-spring" || /air spring|rolling lobe|convoluted/.test(blob)) {
+      const [subSlug, sub] = airSpringSub(name, typ);
+      item._st = packStore("truck-air-springs", "Truck Air Springs", subSlug, sub);
+      return item._st;
+    }
+
+    const [subSlug, sub] = autoSub(cat, typ, name);
+    item._st = packStore("auto-parts", "Auto Parts & Accessories", subSlug, sub);
+    return item._st;
   }
 
   function displayHyphen(s) {
@@ -383,7 +524,7 @@
   }
 
   function isNonVehicleDept(item) {
-    return YARD_PARENTS.has(itemEbayTree(item).parentSlug);
+    return !AUTO_STORE.has(itemStoreTree(item).parentSlug);
   }
 
   function itemHitsQuery(item, raw) {
@@ -502,16 +643,12 @@
 
   function itemHitsParent(item, parentSlug) {
     if (!parentSlug || parentSlug === "all") return true;
-    const eb = itemEbayTree(item);
-    if (eb.parentSlug === parentSlug) return true;
-    return false;
+    return itemStoreTree(item).parentSlug === parentSlug;
   }
 
   function itemHitsSub(item, subSlug) {
     if (!subSlug) return true;
-    const eb = itemEbayTree(item);
-    if (eb.subSlug === subSlug) return true;
-    return itemHitsType(item, subSlug);
+    return itemStoreTree(item).subSlug === subSlug;
   }
 
   /** Expand "2000–2011" so year queries like 2005 match (List.js is substring). */
@@ -805,11 +942,10 @@
   function catalogCounts() {
     const counts = { all: 0 };
     catalog.forEach((i) => {
-      if (!itemHitsVehicle(i)) return;
-      const eb = itemEbayTree(i);
+      const st = itemStoreTree(i);
       if (!isNonVehicleDept(i)) counts.all++;
-      const k = eb.parentSlug;
-      if (!counts[k]) counts[k] = { label: eb.parent, n: 0 };
+      const k = st.parentSlug;
+      if (!counts[k]) counts[k] = { label: st.parent, n: 0 };
       counts[k].n++;
     });
     return counts;
@@ -819,19 +955,27 @@
     const counts = {};
     catalog.forEach((i) => {
       if (!itemHitsVehicle(i)) return;
-      const eb = itemEbayTree(i);
-      if (parentSlug && eb.parentSlug !== parentSlug) return;
-      const k = eb.subSlug;
+      const st = itemStoreTree(i);
+      if (parentSlug && st.parentSlug !== parentSlug) return;
+      const k = st.subSlug;
       if (!k) return;
-      if (!counts[k]) counts[k] = { label: eb.sub, n: 0 };
+      if (!counts[k]) counts[k] = { label: st.sub, n: 0 };
       counts[k].n++;
     });
     return counts;
   }
 
+  function inCurrentDept(i) {
+    if (!itemHitsParent(i, category)) return false;
+    if (activeSub && !itemHitsSub(i, activeSub)) return false;
+    if ((!category || category === "all") && isNonVehicleDept(i)) return false;
+    return true;
+  }
+
   function makeCounts() {
     const counts = {};
     catalog.forEach((i) => {
+      if (!inCurrentDept(i)) return;
       const seen = new Set();
       ((i.fitment && i.fitment.vehicles) || []).forEach((v) => {
         const make = (v && v.make) || "";
@@ -849,6 +993,7 @@
     const counts = {};
     if (!makeSlug) return counts;
     catalog.forEach((i) => {
+      if (!inCurrentDept(i)) return;
       if (!itemHitsMake(i, makeSlug)) return;
       if (modelSlug && !itemHitsModel(i, makeSlug, modelSlug)) return;
       const years = new Set();
@@ -880,6 +1025,7 @@
     const counts = {};
     if (!makeSlug) return counts;
     catalog.forEach((i) => {
+      if (!inCurrentDept(i)) return;
       if (!itemHitsMake(i, makeSlug)) return;
       const seen = new Set();
       ((i.fitment && i.fitment.vehicles) || []).forEach((v) => {
@@ -904,16 +1050,12 @@
     const cats = catalogCounts();
     const catSel = document.getElementById("stCatSelect");
     if (catSel) {
-      const ranked = Object.entries(cats)
-        .filter(([k, v]) => k !== "all" && v && v.n)
-        .sort((a, b) => b[1].n - a[1].n || a[1].label.localeCompare(b[1].label));
-      const main = ranked.filter(([k]) => k !== "other");
-      const otherN = (cats.other && cats.other.n) || 0;
       const bits = [optionHtml("all", "All parts", cats.all)];
-      main.forEach(([k, v]) => {
-        bits.push(optionHtml(k, parentChipLabel(k, v.label), v.n));
+      STORE_PARENTS.forEach((p) => {
+        const v = cats[p.slug];
+        if (!v || !v.n) return;
+        bits.push(optionHtml(p.slug, p.label, v.n));
       });
-      if (otherN) bits.push(optionHtml("other", "Other", otherN));
       catSel.innerHTML = bits.join("");
       const want = category || "all";
       catSel.value = [...catSel.options].some((o) => o.value === want) ? want : "all";
@@ -926,20 +1068,28 @@
     const makeGroup = document.getElementById("stMakeGroup");
     const makeSel = document.getElementById("stMakeSelect");
     if (makeGroup && makeSel) {
-      const makes = makeCounts();
-      const makeList = Object.entries(makes).sort(
-        (a, b) => b[1].n - a[1].n || a[1].label.localeCompare(b[1].label)
-      );
-      makeGroup.hidden = false;
-      makeSel.innerHTML = [optionHtml("", "Any vehicle")].concat(
-        makeList.map(([k, v]) => optionHtml(k, v.label, v.n))
-      ).join("");
-      makeSel.value = activeMake && [...makeSel.options].some((o) => o.value === activeMake)
-        ? activeMake
-        : "";
-      if (makeSel.value !== activeMake) {
-        activeMake = makeSel.value;
+      if (!isAutoBrowse()) {
+        makeGroup.hidden = true;
+        makeSel.innerHTML = "";
+        activeMake = "";
         activeModel = "";
+        activeYear = "";
+      } else {
+        const makes = makeCounts();
+        const makeList = Object.entries(makes).sort(
+          (a, b) => b[1].n - a[1].n || a[1].label.localeCompare(b[1].label)
+        );
+        makeGroup.hidden = false;
+        makeSel.innerHTML = [optionHtml("", "Any vehicle")].concat(
+          makeList.map(([k, v]) => optionHtml(k, v.label, v.n))
+        ).join("");
+        makeSel.value = activeMake && [...makeSel.options].some((o) => o.value === activeMake)
+          ? activeMake
+          : "";
+        if (makeSel.value !== activeMake) {
+          activeMake = makeSel.value;
+          activeModel = "";
+        }
       }
     }
 
@@ -950,10 +1100,11 @@
       const modelList = Object.entries(models).sort(
         (a, b) => b[1].n - a[1].n || a[1].label.localeCompare(b[1].label)
       );
-      if (!activeMake || modelList.length < 1) {
+      if (!isAutoBrowse() || !activeMake || modelList.length < 1) {
         modelGroup.hidden = true;
         modelSel.innerHTML = "";
-        activeModel = "";
+        if (!isAutoBrowse()) activeModel = "";
+        else if (!activeMake) activeModel = "";
       } else {
         modelGroup.hidden = false;
         modelSel.innerHTML = [optionHtml("", "Any model")].concat(
@@ -971,10 +1122,10 @@
     if (yearGroup && yearSel) {
       const years = activeMake ? yearCounts(activeMake, activeModel) : {};
       const yearList = Object.entries(years).sort((a, b) => Number(b[0]) - Number(a[0]));
-      if (!activeMake || yearList.length < 1) {
+      if (!isAutoBrowse() || !activeMake || yearList.length < 1) {
         yearGroup.hidden = true;
         yearSel.innerHTML = "";
-        activeYear = "";
+        if (!isAutoBrowse() || !activeMake) activeYear = "";
       } else {
         yearGroup.hidden = false;
         yearSel.innerHTML = [optionHtml("", "Any year")].concat(
@@ -1260,6 +1411,11 @@
     document.getElementById("stCatSelect")?.addEventListener("change", (e) => {
       category = e.target.value || "all";
       activeSub = "";
+      if (!isAutoBrowse()) {
+        activeMake = "";
+        activeModel = "";
+        activeYear = "";
+      }
       renderFacetChips();
       applyFilters();
       const next = document.getElementById("stTypeGroup");

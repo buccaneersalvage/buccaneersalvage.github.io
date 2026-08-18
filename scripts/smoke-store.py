@@ -208,97 +208,91 @@ def main():
             page.fill("#stSearch", "")
             page.wait_for_timeout(300)
 
-            # 3) eBay parent category then type (streamed selects)
-            page.select_option("#stCatSelect", "brakes-brake-parts")
+            # 3) eBay store parents (only those on Buc) then type
+            page.select_option("#stCatSelect", "carlson-brake-hardware")
             page.wait_for_timeout(300)
             showing_brake = page.text_content("#stShowing").strip()
             try:
                 n_brake = int(showing_brake.split("of")[-1].strip())
             except Exception:
                 n_brake = catalog_size
-            check("filter brakes parent reduces", 0 < n_brake < catalog_size, showing_brake)
-            type_opt = page.query_selector("#stTypeSelect option[value='brake-pad-shoe-hardware']")
-            check("type select after parent", bool(type_opt), "brake pad hardware type")
+            check("Carlson parent reduces", 0 < n_brake < catalog_size, showing_brake)
+            check("vehicle stays on Carlson", page.is_visible("#stMakeSelect"))
             type_visible = page.is_visible("#stTypeSelect")
-            check("type step visible after category", type_visible)
+            check("type step visible after Carlson", type_visible)
+            type_opt = page.query_selector("#stTypeSelect option[value='self-adjuster-kits']")
+            check("Carlson children include self-adjusters", bool(type_opt), "self-adjuster-kits")
             if type_opt:
-                page.select_option("#stTypeSelect", "brake-pad-shoe-hardware")
+                page.select_option("#stTypeSelect", "self-adjuster-kits")
                 page.wait_for_timeout(300)
                 showing_sub = page.text_content("#stShowing").strip()
                 try:
                     n_sub = int(showing_sub.split("of")[-1].strip())
                 except Exception:
                     n_sub = n_brake
-                check("type narrows parent", 0 < n_sub <= n_brake, showing_sub)
-            air_opt = page.query_selector("#stCatSelect option[value='air-fuel-delivery']")
-            air_label = (air_opt.inner_text() if air_opt else "") or ""
-            check("auto eBay parent Air & Fuel", bool(air_opt), "air-fuel-delivery")
+                check("type narrows Carlson", 0 < n_sub <= n_brake, showing_sub)
+            truck_opt = page.query_selector("#stCatSelect option[value='truck-air-springs']")
+            auto_opt = page.query_selector("#stCatSelect option[value='auto-parts']")
+            vintage_opt = page.query_selector("#stCatSelect option[value='vintage-collectibles']")
+            indy_opt = page.query_selector("#stCatSelect option[value='industrial-warehouse']")
+            check("Truck Air Springs parent", bool(truck_opt), truck_opt.inner_text() if truck_opt else "")
+            check("Auto Parts parent", bool(auto_opt), auto_opt.inner_text() if auto_opt else "")
+            check("Vintage parent for yard stock", bool(vintage_opt), vintage_opt.inner_text() if vintage_opt else "")
+            check("Industrial parent", bool(indy_opt), indy_opt.inner_text() if indy_opt else "")
+            for missing in (
+                "air-fuel-delivery",
+                "engines-engine-parts",
+                "mobility",
+                "cycling",
+                "material-handling",
+                "electric-motors",
+                "appliance-parts",
+                "electronics-electrical",
+                "other",
+            ):
+                check(
+                    f"no leftover parent {missing}",
+                    page.query_selector(f"#stCatSelect option[value='{missing}']") is None,
+                )
+            page.select_option("#stCatSelect", "truck-air-springs")
+            page.wait_for_timeout(300)
+            showing_truck = page.text_content("#stShowing").strip()
+            check("vehicle stays on truck air springs", page.is_visible("#stMakeSelect"))
+            lobe = page.query_selector("#stTypeSelect option[value='rolling-lobe']")
+            check("truck children include Rolling Lobe", bool(lobe), showing_truck)
+            page.select_option("#stCatSelect", "vintage-collectibles")
+            page.wait_for_timeout(300)
+            showing_vin = page.text_content("#stShowing").strip()
+            vin_titles = " ".join(page.locator("#stGrid .st-card .name").all_inner_texts()).lower()
+            check("vehicle hidden on Vintage", not page.is_visible("#stMakeSelect"))
             check(
-                "Air & Fuel short label",
-                "air & fuel" in air_label.lower() and "delivery" not in air_label.lower(),
-                air_label,
+                "Vintage holds yard stock",
+                "wheelchair" in vin_titles and "masi" in vin_titles and "craftsman" in vin_titles,
+                showing_vin,
             )
-            engines_opt = page.query_selector("#stCatSelect option[value='engines-engine-parts']")
-            check("auto eBay parent Engines", bool(engines_opt), "engines-engine-parts")
-            exhaust_opt = page.query_selector("#stCatSelect option[value='exhaust-emission-systems']")
-            check("singleton Exhaust stays its parent", bool(exhaust_opt), "exhaust-emission-systems")
-            health_opt = page.query_selector("#stCatSelect option[value='health-beauty']")
-            check("Health & Beauty not a store parent", health_opt is None)
-            interior_opt = page.query_selector("#stCatSelect option[value='interior-parts-accessories']")
-            check("Interior is a store parent", bool(interior_opt))
-            other_opt = page.query_selector("#stCatSelect option[value='other']")
-            vintage_opt = page.query_selector("#stCatSelect option[value='vintage']")
-            check("no Other dump category", other_opt is None)
-            check("no Vintage dump category", vintage_opt is None)
-            mobility_opt = page.query_selector("#stCatSelect option[value='mobility']")
-            cycling_opt = page.query_selector("#stCatSelect option[value='cycling']")
-            mh_opt = page.query_selector("#stCatSelect option[value='material-handling']")
-            motor_opt = page.query_selector("#stCatSelect option[value='electric-motors']")
-            check("Mobility is a store parent", bool(mobility_opt), mobility_opt.inner_text() if mobility_opt else "")
-            check("Cycling is a store parent", bool(cycling_opt), cycling_opt.inner_text() if cycling_opt else "")
-            check("Material Handling is a store parent", bool(mh_opt), mh_opt.inner_text() if mh_opt else "")
-            check("Electric Motors is a store parent", bool(motor_opt), motor_opt.inner_text() if motor_opt else "")
-            page.select_option("#stCatSelect", "mobility")
+            page.select_option("#stCatSelect", "industrial-warehouse")
             page.wait_for_timeout(300)
-            showing_mob = page.text_content("#stShowing").strip()
-            mob_titles = " ".join(page.locator("#stGrid .st-card .name").all_inner_texts()).lower()
-            check("Mobility is wheelchair", "of 1" in showing_mob and "wheelchair" in mob_titles, showing_mob)
-            page.select_option("#stCatSelect", "cycling")
+            showing_ind = page.text_content("#stShowing").strip()
+            ind_titles = " ".join(page.locator("#stGrid .st-card .name").all_inner_texts()).lower()
+            check("Industrial is the forklift tank", "forklift" in ind_titles, showing_ind)
+            check("vehicle hidden on Industrial", not page.is_visible("#stMakeSelect"))
+            page.select_option("#stCatSelect", "auto-parts")
             page.wait_for_timeout(300)
-            showing_cyc = page.text_content("#stShowing").strip()
-            cyc_titles = " ".join(page.locator("#stGrid .st-card .name").all_inner_texts()).lower()
-            check("Cycling is the Masi bike", "of 1" in showing_cyc and "masi" in cyc_titles, showing_cyc)
-            page.select_option("#stCatSelect", "material-handling")
-            page.wait_for_timeout(300)
-            showing_mh = page.text_content("#stShowing").strip()
-            mh_titles = " ".join(page.locator("#stGrid .st-card .name").all_inner_texts()).lower()
-            check("Material Handling is the forklift tank", "of 1" in showing_mh and "forklift" in mh_titles, showing_mh)
-            page.select_option("#stCatSelect", "electric-motors")
-            page.wait_for_timeout(300)
-            showing_em = page.text_content("#stShowing").strip()
-            em_titles = " ".join(page.locator("#stGrid .st-card .name").all_inner_texts()).lower()
-            check("Electric Motors is the Craftsman motor", "of 1" in showing_em and "craftsman" in em_titles, showing_em)
-            page.select_option("#stCatSelect", "all")
-            page.wait_for_timeout(250)
-            # Gates timing belt must not sit in Interior
-            page.select_option("#stCatSelect", "engines-engine-parts")
-            page.wait_for_timeout(300)
+            check("vehicle back on Auto Parts", page.is_visible("#stMakeSelect"))
             page.fill("#stSearch", "Gates CD70")
             page.wait_for_timeout(400)
             showing_gates = page.text_content("#stShowing").strip()
             check(
-                "Gates timing belt in Engines",
+                "Gates timing belt in Auto Parts",
                 "of 1" in showing_gates or "1-1 of 1" in showing_gates,
                 showing_gates,
             )
             page.fill("#stSearch", "")
-            page.select_option("#stCatSelect", "ignition-systems-components")
-            page.wait_for_timeout(300)
             page.fill("#stSearch", "VC211")
             page.wait_for_timeout(400)
             showing_vc = page.text_content("#stShowing").strip()
             check(
-                "VC211 vacuum advance in Ignition",
+                "VC211 vacuum advance in Auto Parts",
                 "of 1" in showing_vc or "1-1 of 1" in showing_vc,
                 showing_vc,
             )
