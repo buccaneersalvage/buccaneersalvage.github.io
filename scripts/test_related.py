@@ -10,11 +10,13 @@ HUB = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from build_static_pdps import (  # noqa: E402
     also_stocked_items,
+    listing_photo_files,
     load_ship_map,
     related_card_title,
     related_html,
     related_items,
     safe_checkout,
+    safe_image,
     ship_for_item,
     short_h1,
     site_product_url,
@@ -92,10 +94,27 @@ def test_html_uses_cards_not_title_wall():
     assert "33036" not in html08
     assert "browse thermostat in the catalog" in html08.lower()
     also = also_stocked_items(by_id["R6VO2MARXN7GRGTMXVGABLHT"], items)
-    assert also
+    assert also == []
     html_also = related_html(by_id["R6VO2MARXN7GRGTMXVGABLHT"], items, _esc, _esc)
-    assert "Same part number" in html_also
+    assert "Same part number" not in html_also
+    assert "$0.00" not in html_also
+    assert "G2O3XG6XWRX5K7QT65T7NQZO" not in html_also
     assert related_card_title(t36).startswith("Gates")
+
+
+def test_listing_gallery_and_zero_price_filter():
+    items, by_id = load_items()
+    paid = by_id["R6VO2MARXN7GRGTMXVGABLHT"]
+    ghost = by_id["G2O3XG6XWRX5K7QT65T7NQZO"]
+    assert float(ghost["price"] or 0) == 0
+    assert also_stocked_items(paid, items) == []
+    assert also_stocked_items(ghost, items)
+    assert all(float(o.get("price") or 0) > 0 for o in also_stocked_items(ghost, items))
+    shots = listing_photo_files(paid.get("ebay_item_id"))
+    assert len(shots) >= 3
+    rel = f"../assets/pdp-gallery/{paid['id']}/02.webp"
+    assert safe_image(rel) == rel
+    assert safe_image("../assets/pdp-gallery/../02.webp") == ""
 
 
 def test_ship_snapshot_matches_square_profiles():
@@ -142,6 +161,7 @@ if __name__ == "__main__":
         test_brake_hardware_does_not_lump_parking_brake,
         test_cv_kit_shares_vw,
         test_html_uses_cards_not_title_wall,
+        test_listing_gallery_and_zero_price_filter,
         test_ship_snapshot_matches_square_profiles,
         test_short_h1_and_site_checkout,
     ]

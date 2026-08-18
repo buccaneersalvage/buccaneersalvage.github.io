@@ -8,6 +8,9 @@
 
   function isSafeImageSrc(u) {
     const s = String(u || "").trim();
+    if (/^\.\.\/assets\/pdp-gallery\/[A-Z0-9]{16,32}\/\d{2}\.webp$/.test(s)) {
+      return true;
+    }
     if (!/^https:\/\//i.test(s)) return false;
     try {
       const host = new URL(s).hostname.toLowerCase();

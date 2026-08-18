@@ -25,6 +25,14 @@ def money(n):
         return ""
 
 
+def has_sale_price(item):
+    """Square ghost variations land at $0.00 — not a second unit for sale."""
+    try:
+        return float(item.get("price") or 0) > 0
+    except (TypeError, ValueError):
+        return False
+
+
 def pdp_desc(item, name, catl, price, custom_warn):
     """Per-item meta/schema copy from real catalog fields — not one identical
     'Browse and secure checkout' line on all 198 pages."""
@@ -261,6 +269,8 @@ def related_items(item, items, limit=4):
     for other in items:
         if other.get("id") == item.get("id"):
             continue
+        if not has_sale_price(other):
+            continue
         if item_type_key(other) != typ:
             continue
         shared = vehs & vehicle_keys(other)
@@ -278,6 +288,8 @@ def also_stocked_items(item, items, limit=4):
     hits = []
     for other in items:
         if other.get("id") == item.get("id"):
+            continue
+        if not has_sale_price(other):
             continue
         ot = {p.lower() for p in item_part_numbers(other) + item_interchange(other) if len(p) >= 5}
         if tokens & ot:
@@ -665,8 +677,73 @@ def safe_video(u):
     return s
 
 
+_LOCAL_GALLERY_RE = re.compile(r"^\.\./assets/pdp-gallery/[A-Z0-9]{16,32}/\d{2}\.webp$")
+_PHOTO_EXTS = {".jpg", ".jpeg", ".png", ".webp"}
+_GALLERY_MAX = 6
+_GALLERY_EDGE = 1400
+LISTED = Path.home() / "ebay" / "listings" / "listed"
+GALLERY_DIR = HUB / "assets" / "pdp-gallery"
+
+
+def listing_photo_files(ebay_item_id):
+    eid = str(ebay_item_id or "").strip()
+    if not eid.isdigit() or not LISTED.is_dir():
+        return []
+    best = []
+    for folder in sorted(LISTED.glob(f"{eid}-*")):
+        photos = folder / "photos"
+        if not photos.is_dir():
+            continue
+        files = sorted(
+            p for p in photos.iterdir() if p.is_file() and p.suffix.lower() in _PHOTO_EXTS
+        )
+        if len(files) > len(best):
+            best = files
+    return best
+
+
+def ensure_listing_gallery(item):
+    """Extra shots from the eBay listing folder. Skip photo-01 (usually the Square hero)."""
+    iid = safe_item_id(item.get("id"))
+    if not iid:
+        return []
+    extras = listing_photo_files(item.get("ebay_item_id"))[1 : 1 + _GALLERY_MAX]
+    if not extras:
+        return []
+    try:
+        from PIL import Image
+    except ImportError:
+        return []
+    dest_dir = GALLERY_DIR / iid
+    dest_dir.mkdir(parents=True, exist_ok=True)
+    urls = []
+    for i, src in enumerate(extras, start=2):
+        dest = dest_dir / f"{i:02d}.webp"
+        if not dest.is_file() or dest.stat().st_mtime < src.stat().st_mtime:
+            im = Image.open(src)
+            if im.mode not in ("RGB", "RGBA"):
+                im = im.convert("RGB")
+            elif im.mode == "RGBA":
+                bg = Image.new("RGB", im.size, (12, 10, 8))
+                bg.paste(im, mask=im.split()[-1])
+                im = bg
+            im.thumbnail((_GALLERY_EDGE, _GALLERY_EDGE), Image.Resampling.LANCZOS)
+            im.save(dest, format="WEBP", quality=78, method=4)
+        urls.append(f"../assets/pdp-gallery/{iid}/{i:02d}.webp")
+    return urls
+
+
+def schema_image_url(u):
+    s = str(u or "")
+    if s.startswith("../"):
+        return f"{BASE}/{s[3:]}"
+    return s
+
+
 def safe_image(u):
     s = str(u or "").strip()
+    if _LOCAL_GALLERY_RE.fullmatch(s):
+        return s
     if not s.startswith("https://"):
         return ""
     try:
@@ -704,6 +781,8 @@ def main() -> None:
         img = safe_image(item.get("image")) or f"{BASE}/assets/og-share.jpg"
         gallery_raw = [safe_image(u) for u in (item.get("images") or [])]
         gallery = [u for u in gallery_raw if u and u != img]
+        if not gallery:
+            gallery = [u for u in (safe_image(u) for u in ensure_listing_gallery(item)) if u]
         video = safe_video(item.get("video"))
         checkout = site_product_url(iid) or safe_checkout(item.get("url"))
         # Manual per-item override (Square/eBay have no such field) — same
@@ -740,7 +819,7 @@ def main() -> None:
             "@id": f"{canonical}#product",
             "name": name,
             "description": desc,
-            "image": [img, *gallery] if gallery else img,
+            "image": [schema_image_url(u) for u in ([img, *gallery] if gallery else [img])],
             "sku": iid,
             "brand": {"@type": "Brand", "name": brand_guess(item)},
             "isPartOf": {
@@ -895,7 +974,7 @@ def main() -> None:
   <link rel="stylesheet" href="../styles.css?v=013e58cae5" integrity="sha384-MJUg3hQ0ixVvjhlI7pj5eqIGp2qPmOWdyMcEiQ0v3asgs2s2VGzsrfxqTL1vAetL" />
   <script type="application/ld+json">{schema_json}</script>
   <script type="application/ld+json">{crumbs_json}</script>
-  <script src="../pdp-gallery.js?v=72f286ecea" integrity="sha384-HalvAEDRM6eAY95RaLJaFm5gKWSDp8gLEDIvHIa2c3d+YOkU+pwrAwTJ9iXHTtUQ" defer></script>
+  <script src="../pdp-gallery.js?v=6c2fdd2f13" integrity="sha384-QHAYUiN2KsHIi74mbk0BM325g6ur/qipwtr2QDawUwzxjw1i5XnwFFx8H9GgWMyb" defer></script>
   <script src="../main.js?v=e49d70008a" integrity="sha384-QjfesZFAOsxwfD3NfGGRcyMWdv+cJj23cZveTesOK/kGx1yvV7Zw1Om5jWDya5ce" defer></script>
 </head>
 <body class="page-item">
