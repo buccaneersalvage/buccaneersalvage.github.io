@@ -3,37 +3,18 @@
 from __future__ import annotations
 
 import json
-import re
+import sys
 from collections import Counter
 from pathlib import Path
 
 HUB = Path(__file__).resolve().parents[1]
-
-
-def _blob(*parts: str) -> str:
-    return " ".join(parts).lower()
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from dept_tree import item_store_tree  # noqa: E402
 
 
 def store_tree(item: dict) -> tuple[str, str]:
-    cat = item.get("category") or ""
-    name = item.get("name") or ""
-    typ = item.get("ebay_type") or ""
-    brand = item.get("ebay_brand") or ""
-    blob = _blob(name, typ, brand, cat)
-
-    if cat == "cycling" or re.search(r"\bmasi\b|\bbicycle\b", blob):
-        return "vintage-collectibles", "vintage-sports"
-    if cat == "mobility" or "wheelchair" in blob:
-        return "vintage-collectibles", "household-medical"
-    if cat == "electric-motors" or ("craftsman" in blob and "motor" in blob):
-        return "vintage-collectibles", "vintage-tools"
-    if cat == "material-handling" or "forklift" in blob:
-        return "industrial-warehouse", "forklift-warehouse"
-    if re.search(r"\bcarlson\b", blob):
-        return "carlson-brake-hardware", "carlson"
-    if cat == "air-spring" or re.search(r"air spring|rolling lobe|convoluted", blob):
-        return "truck-air-springs", "air"
-    return "auto-parts", "auto"
+    t = item_store_tree(item)
+    return t["parentSlug"], t["subSlug"]
 
 
 def test_only_parents_on_buc():

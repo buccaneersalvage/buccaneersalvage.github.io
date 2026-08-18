@@ -161,6 +161,15 @@ def test_short_h1_and_site_checkout():
     assert safe_checkout(url) == url
     assert safe_checkout("https://evil.example/product/BYO4CA2ORO6PIIHKJ6BAJ7Z5") == ""
     assert safe_checkout("https://square.link/u/kBO2Zgdy").startswith("https://square.link/")
+    page = (HUB / "p" / f"{t08['id']}.html").read_text(encoding="utf-8")
+    assert f'href="{url}"' in page
+    assert 'data-bind="checkout"' in page
+    assert "Auto Parts &amp; Accessories" in page or "Auto Parts & Accessories" in page
+    air = (HUB / "p" / "R6VO2MARXN7GRGTMXVGABLHT.html").read_text(encoding="utf-8")
+    assert "Truck Air Springs" in air
+    assert 'href="https://buccaneersalvage.square.site/product/R6VO2MARXN7GRGTMXVGABLHT"' in air
+    vintage = (HUB / "p" / "WCSSZNLKXNQIOIHDWIOWQCGW.html").read_text(encoding="utf-8")
+    assert "Vintage &amp; Collectibles" in vintage or "Vintage & Collectibles" in vintage
 
 
 if __name__ == "__main__":

@@ -12,7 +12,7 @@ from zoneinfo import ZoneInfo
 from urllib.parse import quote, urlparse
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from dept_tree import dept_label, item_ebay_tree
+from dept_tree import dept_label, item_ebay_tree, item_store_tree
 
 HUB = Path(__file__).resolve().parents[1]
 BASE = "https://buccaneersalvage.github.io"
@@ -339,7 +339,9 @@ def related_card_note(item):
 
 
 def related_card_html(other, esc, esc_t):
-    iid = other.get("id") or ""
+    iid = str(other.get("id") or "")
+    if not SQUARE_ID_RE.fullmatch(iid):
+        return ""
     src = related_thumb(other)
     title = related_card_title(other)
     note = related_card_note(other)
@@ -613,13 +615,14 @@ def breadcrumb_json(canonical, catl, typ, leaf):
     items = [
         {"@type": "ListItem", "position": 1, "name": "Store", "item": f"{BASE}/store.html"},
     ]
-    if typ:
+    parent = (typ or catl or "").strip()
+    if parent:
         items.append(
             {
                 "@type": "ListItem",
                 "position": 2,
-                "name": typ,
-                "item": f"{BASE}/store.html?q={quote(typ)}",
+                "name": parent,
+                "item": f"{BASE}/store.html?q={quote(parent)}",
             }
         )
     items.append(
@@ -785,6 +788,8 @@ def main() -> None:
             gallery = [u for u in (safe_image(u) for u in ensure_listing_gallery(item)) if u]
         video = safe_video(item.get("video"))
         checkout = site_product_url(iid) or safe_checkout(item.get("url"))
+        store = item_store_tree(item)
+        store_parent = store["parent"]
         # Manual per-item override (Square/eBay have no such field) — same
         # preserved-across-resync pattern as video/images. Lets a specific
         # item state its real condition (e.g. "tested, sold for parts/repair,
@@ -875,7 +880,7 @@ def main() -> None:
         # parsers but stops the browser's HTML tokenizer from ever seeing "</script>".
         schema_json = json.dumps(schema, ensure_ascii=False).replace("<", "\\u003c")
         crumbs_json = json.dumps(
-            breadcrumb_json(canonical, catl, ebay_type, leaf_crumb),
+            breadcrumb_json(canonical, catl, store_parent, leaf_crumb),
             ensure_ascii=False,
         ).replace("<", "\\u003c")
 
@@ -900,10 +905,11 @@ def main() -> None:
             cta = '<span class="btn btn-primary is-disabled" aria-disabled="true">Not available for purchase</span>'
             buybar_cta = cta
         crumb_mid = (
-            f'<span aria-hidden="true">/</span><span>{esc_t(ebay_type)}</span>'
-            if ebay_type
+            f'<span aria-hidden="true">/</span><span>{esc_t(store_parent)}</span>'
+            if store_parent
             else ""
         )
+        checkout_href = f' href="{esc(checkout)}"' if checkout else ""
         if custom_warn:
             warn = f'<p class="pdp-warn">{esc_t(custom_warn)}</p>'
         elif is_core(item.get("category")):
@@ -974,7 +980,7 @@ def main() -> None:
   <link rel="stylesheet" href="../styles.css?v=013e58cae5" integrity="sha384-MJUg3hQ0ixVvjhlI7pj5eqIGp2qPmOWdyMcEiQ0v3asgs2s2VGzsrfxqTL1vAetL" />
   <script type="application/ld+json">{schema_json}</script>
   <script type="application/ld+json">{crumbs_json}</script>
-  <script src="../pdp-gallery.js?v=6c2fdd2f13" integrity="sha384-QHAYUiN2KsHIi74mbk0BM325g6ur/qipwtr2QDawUwzxjw1i5XnwFFx8H9GgWMyb" defer></script>
+  <script src="../pdp-gallery.js?v=e9b5c2bda1" integrity="sha384-GjpUpM/UTJQQq3fvLFs5cLmDQnqlcdr0mtfJqe5+riQ/bzg7ni0QpYDwQqjLPMja" defer></script>
   <script src="../main.js?v=e49d70008a" integrity="sha384-QjfesZFAOsxwfD3NfGGRcyMWdv+cJj23cZveTesOK/kGx1yvV7Zw1Om5jWDya5ce" defer></script>
 </head>
 <body class="page-item">
@@ -1021,7 +1027,7 @@ def main() -> None:
         </div>
         <div class="pdp-info pdp-rail">
           <h1 class="pdp-title">{esc_t(heading)}</h1>
-          <p class="pdp-category">{esc_t(catl)}</p>
+          <p class="pdp-category">{esc_t(store_parent)}</p>
           <p class="pdp-price">{esc_t(price or "Contact for price")}</p>
           <p class="pdp-ship"><strong>Shipping:</strong> {esc_t(ship_label)}</p>
           {warn}
@@ -1053,7 +1059,7 @@ def main() -> None:
     <p class="pdp-cart-price" data-bind="price"></p>
     <p class="pdp-cart-ship" data-bind="ship"></p>
     <p class="pdp-cart-note">Local pickup by appointment in Carbondale, PA. Checkout opens the Square cart with this item&apos;s real shipping.</p>
-    <a class="btn btn-primary" data-bind="checkout" target="_blank" rel="noopener noreferrer">Continue to checkout</a>
+    <a class="btn btn-primary" data-bind="checkout"{checkout_href} target="_blank" rel="noopener noreferrer">Continue to checkout</a>
   </aside>
   <div id="pdpLightbox" class="pdp-lightbox" hidden>
     <button type="button" class="pdp-lightbox-close" aria-label="Close photo">×</button>

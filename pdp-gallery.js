@@ -197,7 +197,8 @@
     if (price) price.textContent = trigger.getAttribute("data-price") || "";
     if (ship) ship.textContent = trigger.getAttribute("data-ship") || "";
     if (checkout) {
-      const href = trigger.getAttribute("data-checkout") || "";
+      const href =
+        trigger.getAttribute("data-checkout") || checkout.getAttribute("href") || "";
       if (isSafeCheckout(href)) {
         checkout.href = href;
         checkout.removeAttribute("aria-disabled");

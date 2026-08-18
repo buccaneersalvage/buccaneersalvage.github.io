@@ -852,8 +852,10 @@
   }
 
   function cardHtml(item, { featured = false } = {}) {
+    const id = String((item && item.id) || "");
+    if (!/^[A-Z0-9]{16,32}$/.test(id)) return "";
     const core = isCore(item);
-    const href = `p/${encodeURIComponent(item.id)}.html`;
+    const href = `p/${encodeURIComponent(id)}.html`;
     // Prefer local thumb; else Square original. No inline onerror (CSP script-src 'self').
     const imgUrl = cardImageUrl(item);
     const fallback = safeImageUrl(item && item.image);
@@ -1182,6 +1184,11 @@
         : `Showing ${from}-${to} of ${matching}`;
     if (meta) meta.textContent = text;
     if (showing) showing.textContent = text;
+    const heading = document.getElementById("stHeading");
+    if (heading) {
+      const parent = STORE_PARENTS.find((p) => p.slug === category);
+      heading.textContent = parent ? parent.label : "All parts";
+    }
     updateEmptyState(matching);
   }
 
@@ -1512,7 +1519,7 @@
       if (!res.ok) throw new Error(`catalog ${res.status}`);
       const data = await res.json();
       catalog = (Array.isArray(data.items) ? data.items : []).filter(
-        (i) => Number(i.price) > 0
+        (i) => Number(i.price) > 0 && /^[A-Z0-9]{16,32}$/.test(String(i.id || ""))
       );
       byId = new Map(catalog.map((i) => [String(i.id || ""), i]));
       if (countEl) {

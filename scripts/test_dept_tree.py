@@ -9,7 +9,7 @@ from pathlib import Path
 
 HUB = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from dept_tree import TYPE_PARENT, dept_label  # noqa: E402
+from dept_tree import TYPE_PARENT, dept_label, item_store_tree  # noqa: E402
 
 
 def test_store_js_type_parent_lockstep():
@@ -39,7 +39,19 @@ def test_catalog_dept_labels():
     assert "Parts" not in labels
 
 
+def test_store_parent_labels():
+    cat = json.loads((HUB / "assets/square-catalog.json").read_text(encoding="utf-8"))
+    by = {i["id"]: i for i in cat["items"]}
+    assert item_store_tree(by["WCSSZNLKXNQIOIHDWIOWQCGW"])["parent"] == "Vintage & Collectibles"
+    assert item_store_tree(by["LI7R7ABGGB2TXJQUEGHG5TRX"])["parent"] == "Vintage & Collectibles"
+    assert item_store_tree(by["7CESL5VZLPSRKJGWUFCHL5R5"])["parent"] == "Vintage & Collectibles"
+    assert item_store_tree(by["EZW5JY5PWZJO4PH5R2TQGYC3"])["parent"] == "Industrial & Warehouse"
+    assert item_store_tree(by["R6VO2MARXN7GRGTMXVGABLHT"])["parent"] == "Truck Air Springs"
+    assert item_store_tree(by["BYO4CA2ORO6PIIHKJ6BAJ7Z5"])["parent"] == "Auto Parts & Accessories"
+
+
 if __name__ == "__main__":
     test_store_js_type_parent_lockstep()
     test_catalog_dept_labels()
+    test_store_parent_labels()
     print("dept_tree ok")
