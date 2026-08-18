@@ -2,7 +2,8 @@
   "use strict";
 
   /**
-   * PDP media: thumb swap, click-to-zoom lightbox + pinch, add-to-cart drawer.
+   * PDP media: thumb swap, click-to-zoom lightbox + pinch.
+   * Cart lives in cart.js.
    * Progressive enhancement — without JS the hero photo still renders.
    */
 
@@ -20,24 +21,6 @@
         host.endsWith(".squarecdn.com") ||
         host === "items-images-production.s3.us-west-2.amazonaws.com"
       );
-    } catch (_) {
-      return false;
-    }
-  }
-
-  function isSafeCheckout(u) {
-    const s = String(u || "").trim();
-    try {
-      const url = new URL(s);
-      if (url.protocol !== "https:") return false;
-      const host = url.hostname.toLowerCase();
-      if (host === "buccaneersalvage.square.site") {
-        return (
-          /^\/product\/[A-Z0-9]{16,32}\/?$/i.test(url.pathname) ||
-          /^\/product\/[a-z0-9-]+\/[A-Z0-9]{16,32}\/?$/i.test(url.pathname)
-        );
-      }
-      return host === "square.link" || host.endsWith(".square.link");
     } catch (_) {
       return false;
     }
@@ -177,75 +160,9 @@
     );
   }
 
-  function fillDrawer(drawer, trigger) {
-    const photo = drawer.querySelector("[data-bind=photo]");
-    const title = drawer.querySelector("[data-bind=title]");
-    const price = drawer.querySelector("[data-bind=price]");
-    const ship = drawer.querySelector("[data-bind=ship]");
-    const checkout = drawer.querySelector("[data-bind=checkout]");
-    const src = trigger.getAttribute("data-photo") || "";
-    if (photo) {
-      if (isSafeImageSrc(src)) {
-        photo.src = src;
-        photo.hidden = false;
-      } else {
-        photo.removeAttribute("src");
-        photo.hidden = true;
-      }
-    }
-    if (title) title.textContent = trigger.getAttribute("data-title") || "";
-    if (price) price.textContent = trigger.getAttribute("data-price") || "";
-    if (ship) ship.textContent = trigger.getAttribute("data-ship") || "";
-    if (checkout) {
-      const href =
-        trigger.getAttribute("data-checkout") || checkout.getAttribute("href") || "";
-      if (isSafeCheckout(href)) {
-        checkout.href = href;
-        checkout.removeAttribute("aria-disabled");
-      } else {
-        checkout.removeAttribute("href");
-        checkout.setAttribute("aria-disabled", "true");
-      }
-    }
-  }
-
-  function initDrawer() {
-    const drawer = document.getElementById("pdpCartDrawer");
-    const overlay = document.getElementById("pdpCartOverlay");
-    if (!drawer) return;
-    const closeBtn = drawer.querySelector(".pdp-cart-close");
-    const triggers = document.querySelectorAll(".pdp-add-cart");
-    if (!triggers.length) return;
-
-    function open(trigger) {
-      fillDrawer(drawer, trigger);
-      drawer.hidden = false;
-      if (overlay) overlay.hidden = false;
-      document.body.classList.add("pdp-drawer-open");
-      if (closeBtn) closeBtn.focus();
-    }
-
-    function close() {
-      if (drawer.hidden) return;
-      drawer.hidden = true;
-      if (overlay) overlay.hidden = true;
-      document.body.classList.remove("pdp-drawer-open");
-    }
-
-    triggers.forEach((btn) => {
-      btn.addEventListener("click", () => open(btn));
-    });
-    if (closeBtn) closeBtn.addEventListener("click", close);
-    if (overlay) overlay.addEventListener("click", close);
-    document.addEventListener("keydown", (e) => {
-      if (e.key === "Escape" && !drawer.hidden) close();
-    });
-  }
-
   function init() {
     initThumbs();
     initLightbox();
-    initDrawer();
   }
 
   if (document.readyState === "loading") {

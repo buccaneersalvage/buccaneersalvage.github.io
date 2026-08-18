@@ -931,7 +931,7 @@ def main() -> None:
             nav_cta = f'<a class="nav-cta" href="{esc(checkout)}" target="_blank" rel="noopener noreferrer">Buy now</a>'
             add_attrs = (
                 f' class="btn btn-primary pdp-add-cart" type="button"'
-                f' data-photo="{esc(img)}" data-title="{esc(heading)}"'
+                f' data-id="{esc(iid)}" data-photo="{esc(img)}" data-title="{esc(heading)}"'
                 f' data-price="{esc(price or "Contact for price")}"'
                 f' data-ship="{esc(ship_label)}" data-checkout="{esc(checkout)}"'
             )
@@ -1014,10 +1014,11 @@ def main() -> None:
   <meta name="twitter:image" content="{esc(img)}" />
   <link rel="icon" type="image/jpeg" href="../assets/crest-rustjack-web.jpg" />
   <link rel="stylesheet" href="../assets/fonts.css?v=d1b92d3ff4" integrity="sha384-IDnmxIHyfCaSAssmrqXZbMSqgbRm8AATad26bBSjsyTVbgLbsvJXqeQW642rJQFS" />
-  <link rel="stylesheet" href="../styles.css?v=6c08aa6013" integrity="sha384-lqKuUnz4UTe0LMUhO4v+8AVzSyPY9fjLoKSLZ7p02uox79ERu+eufk8smcsvkeI9" />
+  <link rel="stylesheet" href="../styles.css?v=4f982ffa0b" integrity="sha384-VGjIx9FHU6BUTbdUBdyfECLNuXLcS9RoF+g055gL27MHxz6kgoytf4AF0i4KxHX9" />
   <script type="application/ld+json">{schema_json}</script>
   <script type="application/ld+json">{crumbs_json}</script>
-  <script src="../pdp-gallery.js?v=e9b5c2bda1" integrity="sha384-GjpUpM/UTJQQq3fvLFs5cLmDQnqlcdr0mtfJqe5+riQ/bzg7ni0QpYDwQqjLPMja" defer></script>
+  <script src="../cart.js?v=cf87ad63de" integrity="sha384-f9JnfpqqPNIjMSciRNjdysFa+5bKqmD0928KCstFLsilwTSIrIfIEN7No2v2FF3a" defer></script>
+  <script src="../pdp-gallery.js?v=48050ff545" integrity="sha384-5U7SJa0eUNkOcWLpV2dSzIVhLOcNmhlarVXJ68XHMO365MCG3dqA7gPlyIMQuxom" defer></script>
   <script src="../main.js?v=e49d70008a" integrity="sha384-QjfesZFAOsxwfD3NfGGRcyMWdv+cJj23cZveTesOK/kGx1yvV7Zw1Om5jWDya5ce" defer></script>
 </head>
 <body class="page-item">
@@ -1032,6 +1033,7 @@ def main() -> None:
         <a href="../index.html">Home</a>
         <a href="../store.html">Store</a>
       </nav>
+      <button type="button" class="nav-cart" aria-label="Cart">Cart<span class="nav-cart-count" hidden></span></button>
       {nav_cta}
       <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="drawer" id="navToggle">
         <span></span>
@@ -1089,12 +1091,9 @@ def main() -> None:
     {buybar_cta}
   </div>
   <div id="pdpCartOverlay" class="pdp-cart-overlay" hidden></div>
-  <aside id="pdpCartDrawer" class="pdp-cart-drawer" hidden aria-label="Add to cart">
+  <aside id="pdpCartDrawer" class="pdp-cart-drawer" hidden aria-label="Cart">
     <button type="button" class="pdp-cart-close" aria-label="Close">×</button>
-    <img class="pdp-cart-photo" data-bind="photo" alt="" />
-    <h2 class="pdp-cart-title" data-bind="title"></h2>
-    <p class="pdp-cart-price" data-bind="price"></p>
-    <p class="pdp-cart-ship" data-bind="ship"></p>
+    <div id="pdpCartBody"></div>
     <p class="pdp-cart-note">Local pickup by appointment in Carbondale, PA. Checkout opens the Square cart with this item&apos;s real shipping.</p>
     <a class="btn btn-primary" data-bind="checkout"{checkout_href} target="_blank" rel="noopener noreferrer">Continue to checkout</a>
   </aside>

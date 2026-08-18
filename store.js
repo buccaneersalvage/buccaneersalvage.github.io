@@ -873,6 +873,11 @@
     const tip = core
       ? "For parts or rebuild only. Untested. No returns. View product details."
       : "View product details";
+    const checkoutUrl = item.checkout && item.url ? String(item.url) : "";
+    const addBtn =
+      checkoutUrl && /^https:\/\/(?:[\w-]+\.)?square\.link\//i.test(checkoutUrl)
+        ? `<button type="button" class="st-add-cart pdp-add-cart" data-id="${escapeAttr(id)}" data-title="${escapeAttr(item.name || "")}" data-price="${escapeAttr(priceLabel)}" data-photo="${escapeAttr(imgUrl || fallback)}" data-checkout="${escapeAttr(checkoutUrl)}">Add to cart</button>`
+        : "";
     const searchblob = buildSearchBlob(item);
     const vehHint = Array.isArray(item.vehicles)
       ? item.vehicles.filter(Boolean).slice(0, 2).map(displayHyphen)
@@ -909,6 +914,7 @@
             </div>
           </div>
         </a>
+        ${addBtn}
       </article>`;
   }
 
