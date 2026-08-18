@@ -1681,6 +1681,9 @@ ul { list-style: none; }
 .st-add-cart:focus-visible {
   background: rgba(212, 175, 55, 0.28);
 }
+.st-add-cart[data-added-lock] {
+  background: rgba(212, 175, 55, 0.38);
+}
 .st-card-media {
   position: relative;
   aspect-ratio: 1 / 1;

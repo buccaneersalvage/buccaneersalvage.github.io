@@ -373,6 +373,17 @@
     document.body.classList.remove("pdp-drawer-open");
   }
 
+  function markAdded(btn) {
+    if (!btn || btn.dataset.addedLock) return;
+    const prev = btn.textContent;
+    btn.dataset.addedLock = "1";
+    btn.textContent = "Added";
+    window.setTimeout(() => {
+      if (btn.isConnected) btn.textContent = prev;
+      delete btn.dataset.addedLock;
+    }, 1200);
+  }
+
   function onClick(e) {
     const addBtn = e.target.closest(".pdp-add-cart");
     if (addBtn) {
@@ -381,7 +392,14 @@
       const item = fromTrigger(addBtn);
       if (!item) return;
       add(item);
-      open();
+      markAdded(addBtn);
+      const drawer = document.getElementById("pdpCartDrawer");
+      const drawerOpen = drawer && !drawer.hidden;
+      // Store overlay covers the grid — opening it here makes the next
+      // Add to cart click do nothing. Keep shopping; open from Cart / PDP.
+      if (drawerOpen || document.body.classList.contains("page-item")) {
+        open();
+      }
       return;
     }
     if (e.target.closest(".pdp-cart-close") || e.target.id === "pdpCartOverlay") {
