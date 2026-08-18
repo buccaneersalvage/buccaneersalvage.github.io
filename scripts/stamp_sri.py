@@ -19,7 +19,6 @@ ASSETS = (
     "videos.css",
     "main.js",
     "store.js",
-    "cart.js",
     "pdp-gallery.js",
     "videos.js",
     "assets/fonts.css",

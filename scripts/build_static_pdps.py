@@ -1017,9 +1017,8 @@ def main() -> None:
   <link rel="stylesheet" href="../styles.css?v=4f982ffa0b" integrity="sha384-VGjIx9FHU6BUTbdUBdyfECLNuXLcS9RoF+g055gL27MHxz6kgoytf4AF0i4KxHX9" />
   <script type="application/ld+json">{schema_json}</script>
   <script type="application/ld+json">{crumbs_json}</script>
-  <script src="../cart.js?v=cf87ad63de" integrity="sha384-f9JnfpqqPNIjMSciRNjdysFa+5bKqmD0928KCstFLsilwTSIrIfIEN7No2v2FF3a" defer></script>
-  <script src="../pdp-gallery.js?v=48050ff545" integrity="sha384-5U7SJa0eUNkOcWLpV2dSzIVhLOcNmhlarVXJ68XHMO365MCG3dqA7gPlyIMQuxom" defer></script>
-  <script src="../main.js?v=e49d70008a" integrity="sha384-QjfesZFAOsxwfD3NfGGRcyMWdv+cJj23cZveTesOK/kGx1yvV7Zw1Om5jWDya5ce" defer></script>
+  <script src="../pdp-gallery.js?v=a1f0a7f319" integrity="sha384-eq9QZo4xOjZPZpM85hHroYPtpiHY0Q/b2Cumajd+dtSdK9N86QsyI70Fj3kjSGUV" defer></script>
+  <script src="../main.js?v=26f154529d" integrity="sha384-dWlFAJeGSf4K5YJUy2GZwhzo2hcSJnBDn88+AjZBcY+9lUrWaF/+Hc4DCmmGdh1v" defer></script>
 </head>
 <body class="page-item">
   <a class="skip-link" href="#main">Skip to content</a>

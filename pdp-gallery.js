@@ -3,7 +3,7 @@
 
   /**
    * PDP media: thumb swap, click-to-zoom lightbox + pinch.
-   * Cart lives in cart.js.
+   * Cart lives in main.js.
    * Progressive enhancement — without JS the hero photo still renders.
    */
 
