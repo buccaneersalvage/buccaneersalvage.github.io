@@ -920,7 +920,7 @@ def main() -> None:
       <a href="../store.html">Store catalog</a>
       <a href="../terms.html">Terms &amp; returns</a>
       <a href="../videos.html">Music</a>
-      <a href="/ukiri/">Ukiri</a>
+      <a href="/ukiri/">Ukiri dossier</a>
     </div>
   </header>
   <main id="main">
@@ -989,7 +989,7 @@ def main() -> None:
         <a href="https://www.youtube.com/@BuccaneerSalvage" target="_blank" rel="noopener noreferrer">YouTube</a>
         <a href="https://x.com/jollyroger1480" target="_blank" rel="noopener noreferrer">X</a>
         <a href="https://www.ebay.com/str/buccaneersalvage" target="_blank" rel="noopener noreferrer">eBay</a>
-        <a href="/ukiri/">Ukiri</a>
+        <a href="/ukiri/">Ukiri dossier</a>
       </nav>
     </div>
   </footer>
