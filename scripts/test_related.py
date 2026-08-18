@@ -105,11 +105,21 @@ def test_html_uses_cards_not_title_wall():
 def test_listing_gallery_and_zero_price_filter():
     items, by_id = load_items()
     paid = by_id["R6VO2MARXN7GRGTMXVGABLHT"]
-    ghost = by_id["G2O3XG6XWRX5K7QT65T7NQZO"]
-    assert float(ghost["price"] or 0) == 0
+    assert "G2O3XG6XWRX5K7QT65T7NQZO" not in by_id
+    assert all(float(i.get("price") or 0) > 0 for i in items)
     assert also_stocked_items(paid, items) == []
-    assert also_stocked_items(ghost, items)
-    assert all(float(o.get("price") or 0) > 0 for o in also_stocked_items(ghost, items))
+    ghost = {
+        "id": "GHOSTZEROTESTITEM000001",
+        "name": paid.get("name"),
+        "price": 0,
+        "part_numbers": list(paid.get("part_numbers") or []),
+        "ebay_item_id": paid.get("ebay_item_id"),
+    }
+    mixed = items + [ghost]
+    assert also_stocked_items(paid, mixed) == []
+    hits = also_stocked_items(ghost, mixed)
+    assert hits
+    assert all(float(o.get("price") or 0) > 0 for o in hits)
     shots = listing_photo_files(paid.get("ebay_item_id"))
     assert len(shots) >= 3
     rel = f"../assets/pdp-gallery/{paid['id']}/02.webp"

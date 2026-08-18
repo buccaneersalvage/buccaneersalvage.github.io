@@ -765,7 +765,7 @@ def safe_image(u):
 
 def main() -> None:
     cat = json.loads((HUB / "assets/square-catalog.json").read_text())
-    items = cat["items"]
+    items = [i for i in cat["items"] if has_sale_price(i)]
     out_dir = HUB / "p"
     out_dir.mkdir(exist_ok=True)
     ship_map = load_ship_map()

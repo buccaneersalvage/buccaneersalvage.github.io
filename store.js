@@ -6,7 +6,7 @@
    * Search + category + price filter + sort + pagination (not all 67 at once).
    * Commerce-style facets; brand-dark gold cards; cores warn on-card.
    */
-  const CATALOG_URL = "assets/square-catalog.json?v=202608180100";
+  const CATALOG_URL = "assets/square-catalog.json?v=202608180215";
   const CORE_WARN = "FOR PARTS OR REBUILD · UNTESTED · NO RETURNS";
   const DEFAULT_PAGE = 12;
 
@@ -1355,7 +1355,9 @@
       const res = await fetch(CATALOG_URL, { cache: "no-cache" });
       if (!res.ok) throw new Error(`catalog ${res.status}`);
       const data = await res.json();
-      catalog = Array.isArray(data.items) ? data.items : [];
+      catalog = (Array.isArray(data.items) ? data.items : []).filter(
+        (i) => Number(i.price) > 0
+      );
       byId = new Map(catalog.map((i) => [String(i.id || ""), i]));
       if (countEl) {
         const autoN = catalog.filter((i) => !isNonVehicleDept(i)).length;
