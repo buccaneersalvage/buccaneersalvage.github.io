@@ -1,7 +1,7 @@
 {
-  "updated": "2026-08-18T00:01:26Z",
+  "updated": "2026-08-18T00:10:47Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 251,
+  "count": 260,
   "items": [
     {
       "id": "S4IZBA4AG65C6HI2ZDIRMSJR",
@@ -26471,17 +26471,11 @@
         "33008",
         "Stant 13358, Motorad 200-180, NAPA 170"
       ],
-      "interchange": [],
       "vehicles": [
         "1975\u20131986 Chevrolet C10",
         "1967\u20131992 Chevrolet Camaro",
         "1976\u20131996 Ford F-150"
       ],
-      "vehicle_count_raw": 508,
-      "ebay_item_id": "398297574332",
-      "ebay_type": "Thermostat",
-      "ebay_brand": "Gates",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Thermostats & Housings",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -26534,7 +26528,13 @@
         "type": "Thermostat",
         "brand": "Gates",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Thermostats & Housings"
-      }
+      },
+      "vehicle_count_raw": 508,
+      "ebay_item_id": "398297574332",
+      "ebay_type": "Thermostat",
+      "ebay_brand": "Gates",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Thermostats & Housings",
+      "interchange": []
     },
     {
       "id": "RKN2JXFL3XHP336C6I2YOVYM",
@@ -26558,12 +26558,7 @@
         "1959\u20131966 Dodge D100 Town Wagon",
         "1959\u20131966 Dodge W100 Town Wagon"
       ],
-      "vehicle_count_raw": 17,
-      "ebay_item_id": "398297575760",
-      "ebay_type": "Thermostat",
-      "ebay_brand": "Gates",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Thermostats & Housings",
-      "fitment_source": "ebay_listing+title",
+      "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
@@ -26612,13 +26607,18 @@
           "1959\u20131966 Dodge W100 Town Wagon"
         ],
         "raw_compat_rows": 17,
-        "source": "ebay_listing+title",
+        "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398297575760",
         "type": "Thermostat",
         "brand": "Gates",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Thermostats & Housings"
-      }
+      },
+      "vehicle_count_raw": 17,
+      "ebay_item_id": "398297575760",
+      "ebay_type": "Thermostat",
+      "ebay_brand": "Gates",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Thermostats & Housings"
     },
     {
       "id": "3HECI35NLXOYFBNMJGGQQMUZ",
@@ -26642,12 +26642,7 @@
         "1959\u20131966 Dodge D100 Town Wagon",
         "1959\u20131966 Dodge W100 Town Wagon"
       ],
-      "vehicle_count_raw": 17,
-      "ebay_item_id": "398297610491",
-      "ebay_type": "Thermostat",
-      "ebay_brand": "Gates",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Thermostats & Housings",
-      "fitment_source": "ebay_listing+title",
+      "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
@@ -26696,13 +26691,18 @@
           "1959\u20131966 Dodge W100 Town Wagon"
         ],
         "raw_compat_rows": 17,
-        "source": "ebay_listing+title",
+        "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398297610491",
         "type": "Thermostat",
         "brand": "Gates",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Thermostats & Housings"
-      }
+      },
+      "vehicle_count_raw": 17,
+      "ebay_item_id": "398297610491",
+      "ebay_type": "Thermostat",
+      "ebay_brand": "Gates",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Thermostats & Housings"
     },
     {
       "id": "GVRZ63WJMUPNZMLBI7E7T4IL",
@@ -26726,12 +26726,7 @@
         "1957\u20131966 Dodge D100 Town Wagon",
         "1957\u20131966 Dodge W100 Town Wagon"
       ],
-      "vehicle_count_raw": 56,
-      "ebay_item_id": "398297611769",
-      "ebay_type": "Thermostat",
-      "ebay_brand": "Gates",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Thermostats & Housings",
-      "fitment_source": "ebay_listing+title",
+      "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
@@ -26790,13 +26785,18 @@
           "1957\u20131966 Dodge W100 Town Wagon"
         ],
         "raw_compat_rows": 56,
-        "source": "ebay_listing+title",
+        "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398297611769",
         "type": "Thermostat",
         "brand": "Gates",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Thermostats & Housings"
-      }
+      },
+      "vehicle_count_raw": 56,
+      "ebay_item_id": "398297611769",
+      "ebay_type": "Thermostat",
+      "ebay_brand": "Gates",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Thermostats & Housings"
     },
     {
       "id": "KWUGHUPGLK47T522IA5P64RO",
@@ -26810,13 +26810,6 @@
       "part_numbers": [
         "33059"
       ],
-      "interchange": [],
-      "vehicles": [],
-      "vehicle_count_raw": 0,
-      "ebay_item_id": "398297570675",
-      "ebay_type": "Thermostat",
-      "ebay_brand": "Gates",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Thermostats & Housings",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "medium",
       "fitment": {
@@ -26833,7 +26826,14 @@
         "type": "Thermostat",
         "brand": "Gates",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Thermostats & Housings"
-      }
+      },
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398297570675",
+      "ebay_type": "Thermostat",
+      "ebay_brand": "Gates",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Thermostats & Housings",
+      "interchange": [],
+      "vehicles": []
     },
     {
       "id": "EEUYTJ4KFBEUW5XH5XRUB7MY",
@@ -26848,13 +26848,6 @@
         "33148",
         "Stant 13698, Motorad 221-180, PM 31898"
       ],
-      "interchange": [],
-      "vehicles": [],
-      "vehicle_count_raw": 0,
-      "ebay_item_id": "398297577805",
-      "ebay_type": "Thermostat",
-      "ebay_brand": "Gates",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Thermostats & Housings",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -26872,7 +26865,14 @@
         "type": "Thermostat",
         "brand": "Gates",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Thermostats & Housings"
-      }
+      },
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398297577805",
+      "ebay_type": "Thermostat",
+      "ebay_brand": "Gates",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Thermostats & Housings",
+      "interchange": [],
+      "vehicles": []
     },
     {
       "id": "H6Q3563YMDVDRCI5XLGMRMT4",
@@ -26886,17 +26886,11 @@
       "part_numbers": [
         "33188"
       ],
-      "interchange": [],
       "vehicles": [
         "1987\u20131994 Ford CF8000",
         "1971\u20131974 Jaguar XKE",
         "2003 Volvo C70"
       ],
-      "vehicle_count_raw": 29,
-      "ebay_item_id": "398297578885",
-      "ebay_type": "Thermostat",
-      "ebay_brand": "Gates",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Thermostats & Housings",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -26948,7 +26942,13 @@
         "type": "Thermostat",
         "brand": "Gates",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Thermostats & Housings"
-      }
+      },
+      "vehicle_count_raw": 29,
+      "ebay_item_id": "398297578885",
+      "ebay_type": "Thermostat",
+      "ebay_brand": "Gates",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Thermostats & Housings",
+      "interchange": []
     },
     {
       "id": "H2KTSFW7IOZFKZ7KKIZ5XH5E",
@@ -26962,17 +26962,11 @@
       "part_numbers": [
         "33189"
       ],
-      "interchange": [],
       "vehicles": [
         "1969\u20131971 Jaguar XJ",
         "1971\u20131974 Jaguar XKE",
         "2003 Volvo C70"
       ],
-      "vehicle_count_raw": 19,
-      "ebay_item_id": "398297613102",
-      "ebay_type": "Thermostat",
-      "ebay_brand": "Gates",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Thermostats & Housings",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -27024,7 +27018,13 @@
         "type": "Thermostat",
         "brand": "Gates",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Thermostats & Housings"
-      }
+      },
+      "vehicle_count_raw": 19,
+      "ebay_item_id": "398297613102",
+      "ebay_type": "Thermostat",
+      "ebay_brand": "Gates",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Thermostats & Housings",
+      "interchange": []
     },
     {
       "id": "OTIMLXHJMRAYFTXR75WVSIJB",
@@ -27038,17 +27038,11 @@
       "part_numbers": [
         "33198"
       ],
-      "interchange": [],
       "vehicles": [
         "1986\u20131987 Toyota 4Runner",
         "1971 Toyota Corona",
         "1985\u20131988 Toyota Pickup"
       ],
-      "vehicle_count_raw": 83,
-      "ebay_item_id": "398297580408",
-      "ebay_type": "Thermostat",
-      "ebay_brand": "Gates",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Thermostats & Housings",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -27100,7 +27094,13 @@
         "type": "Thermostat",
         "brand": "Gates",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Thermostats & Housings"
-      }
+      },
+      "vehicle_count_raw": 83,
+      "ebay_item_id": "398297580408",
+      "ebay_type": "Thermostat",
+      "ebay_brand": "Gates",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Thermostats & Housings",
+      "interchange": []
     },
     {
       "id": "EMXCDDO3NAY5ZYHOO65VXABA",
@@ -27114,17 +27114,11 @@
       "part_numbers": [
         "33199"
       ],
-      "interchange": [],
       "vehicles": [
         "1986\u20131987 Toyota 4Runner",
         "1971 Toyota Corona",
         "1985\u20131988 Toyota Pickup"
       ],
-      "vehicle_count_raw": 83,
-      "ebay_item_id": "398297614087",
-      "ebay_type": "Thermostat",
-      "ebay_brand": "Gates",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Thermostats & Housings",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -27176,7 +27170,13 @@
         "type": "Thermostat",
         "brand": "Gates",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Thermostats & Housings"
-      }
+      },
+      "vehicle_count_raw": 83,
+      "ebay_item_id": "398297614087",
+      "ebay_type": "Thermostat",
+      "ebay_brand": "Gates",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Thermostats & Housings",
+      "interchange": []
     },
     {
       "id": "DP5UVELMRAQLBRRNSJS3XJGW",
@@ -27191,15 +27191,9 @@
         "33208",
         "Stant 13378, NAPA 138"
       ],
-      "interchange": [],
       "vehicles": [
         "1998\u20132006 Volkswagen Beetle"
       ],
-      "vehicle_count_raw": 21,
-      "ebay_item_id": "398297583247",
-      "ebay_type": "Thermostat",
-      "ebay_brand": "Gates",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Thermostats & Housings",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -27230,7 +27224,13 @@
         "type": "Thermostat",
         "brand": "Gates",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Thermostats & Housings"
-      }
+      },
+      "vehicle_count_raw": 21,
+      "ebay_item_id": "398297583247",
+      "ebay_type": "Thermostat",
+      "ebay_brand": "Gates",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Thermostats & Housings",
+      "interchange": []
     },
     {
       "id": "TYCTXARZCA52YYA77WU4XAXK",
@@ -27244,17 +27244,11 @@
       "part_numbers": [
         "33209"
       ],
-      "interchange": [],
       "vehicles": [
         "1968\u20131974 Volvo 144",
         "1968\u20131974 Volvo 145",
         "1967\u20131973 Volvo 1800"
       ],
-      "vehicle_count_raw": 63,
-      "ebay_item_id": "398297593898",
-      "ebay_type": "Thermostat",
-      "ebay_brand": "Gates",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Thermostats & Housings",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -27306,7 +27300,13 @@
         "type": "Thermostat",
         "brand": "Gates",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Thermostats & Housings"
-      }
+      },
+      "vehicle_count_raw": 63,
+      "ebay_item_id": "398297593898",
+      "ebay_type": "Thermostat",
+      "ebay_brand": "Gates",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Thermostats & Housings",
+      "interchange": []
     },
     {
       "id": "5G7Z5QJDPCHBUW2RVCMEPSUF",
@@ -27320,17 +27320,11 @@
       "part_numbers": [
         "33258"
       ],
-      "interchange": [],
       "vehicles": [
         "1985 Buick Skylark",
         "2007\u20132008 Pontiac G3",
         "1988\u20131991 Pontiac Optima"
       ],
-      "vehicle_count_raw": 13,
-      "ebay_item_id": "398297604830",
-      "ebay_type": "Thermostat",
-      "ebay_brand": "Gates",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Thermostats & Housings",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -27382,6 +27376,88 @@
         "type": "Thermostat",
         "brand": "Gates",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Thermostats & Housings"
+      },
+      "vehicle_count_raw": 13,
+      "ebay_item_id": "398297604830",
+      "ebay_type": "Thermostat",
+      "ebay_brand": "Gates",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Thermostats & Housings",
+      "interchange": []
+    },
+    {
+      "id": "3Z3CTEYBJDYCBIMPPBFXDWUJ",
+      "name": "Gates 33268 Thermostat 180 84-95 Plymouth Voyager Sundance NOS USA",
+      "price": 8.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/69707c052c90695d56ec3935f5f50093a4991bfc/original.jpeg",
+      "url": "https://square.link/u/YOnIYlV7",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "YCO7KWHHYOUXKHMDMWCX5K7H",
+      "part_numbers": [
+        "33268"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1987\u20131994 Plymouth Sundance",
+        "1983\u20131986 Plymouth Turismo 2.2",
+        "1984\u20131995 Plymouth Voyager"
+      ],
+      "vehicle_count_raw": 170,
+      "ebay_item_id": "398297616213",
+      "ebay_type": "Thermostat",
+      "ebay_brand": "Gates",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Thermostats & Housings",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "33268"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1987,
+            "year_to": 1994,
+            "make": "Plymouth",
+            "model": "Sundance",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1983,
+            "year_to": 1986,
+            "make": "Plymouth",
+            "model": "Turismo 2.2",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 1995,
+            "make": "Plymouth",
+            "model": "Voyager",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1987\u20131994 Plymouth Sundance",
+          "1983\u20131986 Plymouth Turismo 2.2",
+          "1984\u20131995 Plymouth Voyager"
+        ],
+        "raw_compat_rows": 170,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398297616213",
+        "type": "Thermostat",
+        "brand": "Gates",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Thermostats & Housings"
       }
     },
     {
@@ -27405,11 +27481,6 @@
         "1988\u20131994 Dodge Shadow",
         "1984\u20131995 Plymouth Voyager"
       ],
-      "vehicle_count_raw": 172,
-      "ebay_item_id": "398297608140",
-      "ebay_type": "Thermostat",
-      "ebay_brand": "Gates",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Thermostats & Housings",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -27464,7 +27535,12 @@
         "type": "Thermostat",
         "brand": "Gates",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Thermostats & Housings"
-      }
+      },
+      "vehicle_count_raw": 172,
+      "ebay_item_id": "398297608140",
+      "ebay_type": "Thermostat",
+      "ebay_brand": "Gates",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Thermostats & Housings"
     },
     {
       "id": "EHUOULWBV4R75M7XZ637YI53",
@@ -27478,17 +27554,11 @@
       "part_numbers": [
         "33279"
       ],
-      "interchange": [],
       "vehicles": [
         "1982\u20131984 Cadillac DeVille",
         "1982\u20131985 Cadillac Eldorado",
         "1982\u20131987 Cadillac Seville"
       ],
-      "vehicle_count_raw": 90,
-      "ebay_item_id": "398297610280",
-      "ebay_type": "Thermostat",
-      "ebay_brand": "Gates",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Thermostats & Housings",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -27540,7 +27610,13 @@
         "type": "Thermostat",
         "brand": "Gates",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Thermostats & Housings"
-      }
+      },
+      "vehicle_count_raw": 90,
+      "ebay_item_id": "398297610280",
+      "ebay_type": "Thermostat",
+      "ebay_brand": "Gates",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Thermostats & Housings",
+      "interchange": []
     },
     {
       "id": "L2WKO2ULQ7O5QGGG5EUEGBUS",
@@ -27554,17 +27630,11 @@
       "part_numbers": [
         "33299"
       ],
-      "interchange": [],
       "vehicles": [
         "1979\u20131993 Ford Mustang",
         "1983\u20131997 Ford Ranger",
         "1994\u20131997 Mazda B2300"
       ],
-      "vehicle_count_raw": 371,
-      "ebay_item_id": "398297611397",
-      "ebay_type": "Thermostat",
-      "ebay_brand": "Gates",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Thermostats & Housings",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -27616,6 +27686,88 @@
         "type": "Thermostat",
         "brand": "Gates",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Thermostats & Housings"
+      },
+      "vehicle_count_raw": 371,
+      "ebay_item_id": "398297611397",
+      "ebay_type": "Thermostat",
+      "ebay_brand": "Gates",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Thermostats & Housings",
+      "interchange": []
+    },
+    {
+      "id": "LGZZPJQWT53QGCJJGEC7WEQY",
+      "name": "Gates 33419 Thermostat 199 87-91 Corsica Cavalier Tempest NOS USA",
+      "price": 12.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/69707c052c90695d56ec3935f5f50093a4991bfc/original.jpeg",
+      "url": "https://square.link/u/UAC0zMLq",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "N7GKIK74KVJNJJU2A26G7VHQ",
+      "part_numbers": [
+        "33419"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1987\u20131991 Chevrolet Cavalier",
+        "1987\u20131991 Chevrolet Corsica",
+        "1987\u20131991 Pontiac Tempest"
+      ],
+      "vehicle_count_raw": 116,
+      "ebay_item_id": "398297628468",
+      "ebay_type": "Thermostat",
+      "ebay_brand": "Gates",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Thermostats & Housings",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "33419"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1987,
+            "year_to": 1991,
+            "make": "Chevrolet",
+            "model": "Cavalier",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1991,
+            "make": "Chevrolet",
+            "model": "Corsica",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1991,
+            "make": "Pontiac",
+            "model": "Tempest",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1987\u20131991 Chevrolet Cavalier",
+          "1987\u20131991 Chevrolet Corsica",
+          "1987\u20131991 Pontiac Tempest"
+        ],
+        "raw_compat_rows": 116,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398297628468",
+        "type": "Thermostat",
+        "brand": "Gates",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Thermostats & Housings"
       }
     },
     {
@@ -27630,17 +27782,11 @@
       "part_numbers": [
         "33429"
       ],
-      "interchange": [],
       "vehicles": [
         "2005\u20132009 Buick LaCrosse",
         "2006\u20132008 Buick Lucerne",
         "1995 Chevrolet Lumina Van"
       ],
-      "vehicle_count_raw": 30,
-      "ebay_item_id": "398297612930",
-      "ebay_type": "Thermostat",
-      "ebay_brand": "Gates",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Thermostats & Housings",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -27692,6 +27838,88 @@
         "type": "Thermostat",
         "brand": "Gates",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Thermostats & Housings"
+      },
+      "vehicle_count_raw": 30,
+      "ebay_item_id": "398297612930",
+      "ebay_type": "Thermostat",
+      "ebay_brand": "Gates",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Thermostats & Housings",
+      "interchange": []
+    },
+    {
+      "id": "KBKJI6VPGFJ2ZZTFUNNPRVYF",
+      "name": "Gates 33479 Thermostat 195 84-85 Mazda 626 Nissan 520 NOS USA",
+      "price": 17.98,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/69707c052c90695d56ec3935f5f50093a4991bfc/original.jpeg",
+      "url": "https://square.link/u/rrEtsaHH",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "5JE76KRG7W7TXM3ZYZF4BY5Y",
+      "part_numbers": [
+        "33479"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1984\u20131985 Mazda 626",
+        "1999\u20132008 Mazda B3000",
+        "1984\u20131985 Nissan 520"
+      ],
+      "vehicle_count_raw": 65,
+      "ebay_item_id": "398297620532",
+      "ebay_type": "Thermostat",
+      "ebay_brand": "Gates",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Thermostats & Housings",
+      "fitment_source": "ebay_listing+title",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "33479"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1984,
+            "year_to": 1985,
+            "make": "Mazda",
+            "model": "626",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1999,
+            "year_to": 2008,
+            "make": "Mazda",
+            "model": "B3000",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 1985,
+            "make": "Nissan",
+            "model": "520",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1984\u20131985 Mazda 626",
+          "1999\u20132008 Mazda B3000",
+          "1984\u20131985 Nissan 520"
+        ],
+        "raw_compat_rows": 65,
+        "source": "ebay_listing+title",
+        "confidence": "high",
+        "ebay_item_id": "398297620532",
+        "type": "Thermostat",
+        "brand": "Gates",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Thermostats & Housings"
       }
     },
     {
@@ -27706,17 +27934,11 @@
       "part_numbers": [
         "33488"
       ],
-      "interchange": [],
       "vehicles": [
         "1979\u20131992 Mazda 626",
         "1987\u20131993 Mazda B2600",
         "1995\u20132001 Mazda Protege"
       ],
-      "vehicle_count_raw": 136,
-      "ebay_item_id": "398297613969",
-      "ebay_type": "Thermostat",
-      "ebay_brand": "Gates",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Thermostats & Housings",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -27765,6 +27987,384 @@
         "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398297613969",
+        "type": "Thermostat",
+        "brand": "Gates",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Thermostats & Housings"
+      },
+      "vehicle_count_raw": 136,
+      "ebay_item_id": "398297613969",
+      "ebay_type": "Thermostat",
+      "ebay_brand": "Gates",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Thermostats & Housings",
+      "interchange": []
+    },
+    {
+      "id": "VILXTGQE22JC74IXOZVYGRZ7",
+      "name": "Gates 33489 Thermostat 192 95-01 Protege 89-94 Mazda MPV NOS USA",
+      "price": 13.95,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/69707c052c90695d56ec3935f5f50093a4991bfc/original.jpeg",
+      "url": "https://square.link/u/9kdtW3PT",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "M6XCOH3SZ4VOJD3YJHPEELJB",
+      "part_numbers": [
+        "33489"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1977\u20131985 Mazda GLC",
+        "1989\u20131994 Mazda MPV",
+        "1995\u20132001 Mazda Protege"
+      ],
+      "vehicle_count_raw": 93,
+      "ebay_item_id": "398297626647",
+      "ebay_type": "Thermostat",
+      "ebay_brand": "Gates",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Thermostats & Housings",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "33489"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1977,
+            "year_to": 1985,
+            "make": "Mazda",
+            "model": "GLC",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1989,
+            "year_to": 1994,
+            "make": "Mazda",
+            "model": "MPV",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1995,
+            "year_to": 2001,
+            "make": "Mazda",
+            "model": "Protege",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1977\u20131985 Mazda GLC",
+          "1989\u20131994 Mazda MPV",
+          "1995\u20132001 Mazda Protege"
+        ],
+        "raw_compat_rows": 93,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398297626647",
+        "type": "Thermostat",
+        "brand": "Gates",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Thermostats & Housings"
+      }
+    },
+    {
+      "id": "SOVPCCSZ73M64UEM44DEPXZV",
+      "name": "Gates 33529 Thermostat 185 91-02 Saturn SL SL2 SC2 NOS USA",
+      "price": 16.98,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/69707c052c90695d56ec3935f5f50093a4991bfc/original.jpeg",
+      "url": "https://square.link/u/ilRyHHzM",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "FA6DAJYAV5EUEWVUH4XQDTJN",
+      "part_numbers": [
+        "33529"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1993\u20132002 Saturn SC2",
+        "1991\u20132002 Saturn SL",
+        "1991\u20132002 Saturn SL2"
+      ],
+      "vehicle_count_raw": 34,
+      "ebay_item_id": "398297615947",
+      "ebay_type": "Thermostat",
+      "ebay_brand": "Gates",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Thermostats & Housings",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "33529"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1993,
+            "year_to": 2002,
+            "make": "Saturn",
+            "model": "SC2",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1991,
+            "year_to": 2002,
+            "make": "Saturn",
+            "model": "SL",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1991,
+            "year_to": 2002,
+            "make": "Saturn",
+            "model": "SL2",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1993\u20132002 Saturn SC2",
+          "1991\u20132002 Saturn SL",
+          "1991\u20132002 Saturn SL2"
+        ],
+        "raw_compat_rows": 34,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398297615947",
+        "type": "Thermostat",
+        "brand": "Gates",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Thermostats & Housings"
+      }
+    },
+    {
+      "id": "AUOSVBXBNJOIRGAAZUG3QROD",
+      "name": "Gates 33568 Thermostat 180 2.0 97-99 CR-V 94-01 Accord NOS USA",
+      "price": 12.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/69707c052c90695d56ec3935f5f50093a4991bfc/original.jpeg",
+      "url": "https://square.link/u/YKSYDO02",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "23ZH4B4UJCSO4GPXD4AG5ULE",
+      "part_numbers": [
+        "33568"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1997\u20131999 Honda Accord",
+        "1997\u20131999 Honda CR-V"
+      ],
+      "vehicle_count_raw": 6,
+      "ebay_item_id": "398297619647",
+      "ebay_type": "Thermostat",
+      "ebay_brand": "Gates",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Thermostats & Housings",
+      "fitment_source": "ebay_listing+title",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "33568"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1997,
+            "year_to": 1999,
+            "make": "Honda",
+            "model": "Accord",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1997,
+            "year_to": 1999,
+            "make": "Honda",
+            "model": "CR-V",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1997\u20131999 Honda Accord",
+          "1997\u20131999 Honda CR-V"
+        ],
+        "raw_compat_rows": 6,
+        "source": "ebay_listing+title",
+        "confidence": "high",
+        "ebay_item_id": "398297619647",
+        "type": "Thermostat",
+        "brand": "Gates",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Thermostats & Housings"
+      }
+    },
+    {
+      "id": "WSR2S2C5RX72S2HL6DGJAVIZ",
+      "name": "Gates 33708 Thermostat 180 80-98 Tercel 96-00 RAV4 NOS USA",
+      "price": 17.98,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/69707c052c90695d56ec3935f5f50093a4991bfc/original.jpeg",
+      "url": "https://square.link/u/2SqPln7u",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "6ISAHEHE7TMTMB7WJR6AVWXS",
+      "part_numbers": [
+        "33708",
+        "Stant 13758, Motorad 214-180"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1996\u20132000 Toyota RAV4",
+        "1980\u20131998 Toyota Tercel",
+        "1984\u20131989 Toyota Van"
+      ],
+      "vehicle_count_raw": 147,
+      "ebay_item_id": "398297625590",
+      "ebay_type": "Thermostat",
+      "ebay_brand": "Gates",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Thermostats & Housings",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "33708",
+          "Stant 13758, Motorad 214-180"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1996,
+            "year_to": 2000,
+            "make": "Toyota",
+            "model": "RAV4",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1980,
+            "year_to": 1998,
+            "make": "Toyota",
+            "model": "Tercel",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 1989,
+            "make": "Toyota",
+            "model": "Van",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1996\u20132000 Toyota RAV4",
+          "1980\u20131998 Toyota Tercel",
+          "1984\u20131989 Toyota Van"
+        ],
+        "raw_compat_rows": 147,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398297625590",
+        "type": "Thermostat",
+        "brand": "Gates",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Thermostats & Housings"
+      }
+    },
+    {
+      "id": "373RPPOCYAZFVEE4KH3VYLOY",
+      "name": "Gates 5536 Thermostat 160 5.2 57-66 Dodge D100 W100 NOS USA",
+      "price": 12.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/69707c052c90695d56ec3935f5f50093a4991bfc/original.jpeg",
+      "url": "https://square.link/u/BR7xP039",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "LTXDEWFVK4ZK5EIKYSJFO2WL",
+      "part_numbers": [
+        "5536",
+        "Gates 33036, Stant 13476, Motorad 206-160"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1957\u20131966 Dodge D100",
+        "1959\u20131966 Dodge D100 Town Wagon",
+        "1959\u20131966 Dodge W100 Town Wagon"
+      ],
+      "vehicle_count_raw": 17,
+      "ebay_item_id": "398297635620",
+      "ebay_type": "Thermostat",
+      "ebay_brand": "Gates",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Thermostats & Housings",
+      "fitment_source": "ebay_listing+title",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "5536",
+          "Gates 33036, Stant 13476, Motorad 206-160"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1957,
+            "year_to": 1966,
+            "make": "Dodge",
+            "model": "D100",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1959,
+            "year_to": 1966,
+            "make": "Dodge",
+            "model": "D100 Town Wagon",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1959,
+            "year_to": 1966,
+            "make": "Dodge",
+            "model": "W100 Town Wagon",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1957\u20131966 Dodge D100",
+          "1959\u20131966 Dodge D100 Town Wagon",
+          "1959\u20131966 Dodge W100 Town Wagon"
+        ],
+        "raw_compat_rows": 17,
+        "source": "ebay_listing+title",
+        "confidence": "high",
+        "ebay_item_id": "398297635620",
         "type": "Thermostat",
         "brand": "Gates",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Thermostats & Housings"
@@ -28887,6 +29487,84 @@
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Starters, Alternators, ECUs & Wiring:Voltage Regulators"
     },
     {
+      "id": "2IGN4TREF7DNKIIYWCK3U4BR",
+      "name": "Parts Master 31999 Thermostat 195 2.2 2.5 84-95 Caravan NOS USA",
+      "price": 12.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/fa0132843056b0e3b9c30ac987f0aa4e7fbdc74a/original.jpeg",
+      "url": "https://square.link/u/XWPndVnY",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "PHYKVZMJB7UQQA42TX3J57LX",
+      "part_numbers": [
+        "31999",
+        "Gates 33269, Stant 13789, S382-195"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1984\u20131995 Dodge Caravan",
+        "1988\u20131994 Dodge Shadow",
+        "1984\u20131995 Plymouth Voyager"
+      ],
+      "vehicle_count_raw": 172,
+      "ebay_item_id": "398297632550",
+      "ebay_type": "Thermostat",
+      "ebay_brand": "Parts Master",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Thermostats & Housings",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "31999",
+          "Gates 33269, Stant 13789, S382-195"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1984,
+            "year_to": 1995,
+            "make": "Dodge",
+            "model": "Caravan",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1988,
+            "year_to": 1994,
+            "make": "Dodge",
+            "model": "Shadow",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 1995,
+            "make": "Plymouth",
+            "model": "Voyager",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1984\u20131995 Dodge Caravan",
+          "1988\u20131994 Dodge Shadow",
+          "1984\u20131995 Plymouth Voyager"
+        ],
+        "raw_compat_rows": 172,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398297632550",
+        "type": "Thermostat",
+        "brand": "Parts Master",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Thermostats & Housings"
+      }
+    },
+    {
       "id": "4ZIBBGXFF65NRMKSS3IQ2R3T",
       "name": "Perfect Circle 260-5045 Right Lower Control Arm 2.3L 85-94 Tempo Topaz NOS",
       "price": 24.99,
@@ -29641,5 +30319,5 @@
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Timing Components & Kits"
     }
   ],
-  "fitment_built": "2026-08-18T00:01:26Z"
+  "fitment_built": "2026-08-18T00:10:47Z"
 }
