@@ -599,6 +599,37 @@ def main():
             csp_v = [e for e in vid_errs if "Content Security Policy" in e]
             check("videos no CSP errors", not csp_v, "; ".join(csp_v[:2]) if csp_v else "clean")
 
+            page.goto(f"{BASE}/store.html")
+            page.wait_for_selector("#bucAskLaunch", timeout=8000)
+            check("store has Ask", page.locator("#bucAskLaunch").count() == 1)
+            page.click("#bucAskLaunch")
+            page.click('[data-ask="hours"]')
+            check(
+                "Ask hours is appointment",
+                "By appointment" in (page.locator("#bucAskLog").inner_text() or ""),
+                page.locator("#bucAskLog").inner_text()[:80],
+            )
+            js_hours = page.evaluate("() => window.BucSupport.classify('do you sell open box').id")
+            js_fit = page.evaluate("() => window.BucSupport.classify('will this fit a 2005 F250').id")
+            check("open-box is not hours", js_hours != "hours", js_hours)
+            check("fitment classify", js_fit == "fitment", js_fit)
+
+            page.set_viewport_size({"width": 390, "height": 844})
+            page.goto(f"{BASE}/p/7CESL5VZLPSRKJGWUFCHL5R5.html")
+            page.wait_for_selector("#bucAskLaunch", timeout=8000)
+            ask_box = page.locator("#bucAskLaunch").bounding_box()
+            bar_box = page.locator(".pdp-buybar").bounding_box()
+            lifted = bool(
+                ask_box
+                and bar_box
+                and ask_box["y"] + ask_box["height"] <= bar_box["y"] + 2
+            )
+            check("pdp Ask sits above buybar", lifted, f"ask={ask_box} bar={bar_box}")
+            check(
+                "pdp has no one-item cart note",
+                "one item at a time" not in page.content(),
+            )
+
             browser.close()
     finally:
         server.terminate()

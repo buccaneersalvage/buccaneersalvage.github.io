@@ -12,10 +12,10 @@ RULES = [
     ("order", True, ["tracking", "track my", "shipped yet", "where is my order", "never arrived", "cancel my order"]),
     ("scrap", False, ["scrap", "junk removal", "junk haul", "e-waste", "ewaste", "electronics recycling", "metal haul", "pick up scrap"]),
     ("pickup", False, ["pickup", "pick up", "pick it up", "come get", "come by", "appointment"]),
-    ("hours", False, ["hours", "open", "when are you open", "what time"]),
+    ("hours", False, ["hours", "are you open", "when are you open", "business hours"]),
     ("shipping", False, ["shipping", "delivery", "ship to", "freight", "how long to ship"]),
     ("returns", False, ["return", "refund", "warranty"]),
-    ("fitment", False, ["fit", "fits", "compatible", "will this work", "year make"]),
+    ("fitment", False, ["will this fit", "fits", "compatible", "will this work", "year make"]),
     ("pay", False, ["cash app", "cashapp", "paypal", "venmo", "how to pay", "how do i pay", "checkout"]),
     ("contact", False, ["phone", "call", "text", "email", "address", "where are you"]),
 ]
@@ -48,6 +48,8 @@ CASES = [
     ("item arrived damaged", "damage", True),
     ("asdf qwerty", "other", True),
     ("how do I pay", "pay", False),
+    ("do you sell open box", "other", True),
+    ("are you open today", "hours", False),
 ]
 
 
@@ -70,11 +72,18 @@ def main() -> int:
         "/scrap.html",
         "/terms.html",
         "pick it up",
+        "are you open",
+        "will this fit",
     ):
         ok = needle in src
         print(("PASS" if ok else "FAIL") + f"  main.js contains {needle!r}")
         if not ok:
             failed += 1
+
+    stale = "one item at a time" in src
+    print(("PASS" if not stale else "FAIL") + "  main.js has no one-item cart note")
+    if stale:
+        failed += 1
 
     print("RESULT", "PASS" if failed == 0 else f"FAIL {failed}")
     return 0 if failed == 0 else 1

@@ -267,7 +267,7 @@
       drawer.innerHTML =
         '<button type="button" class="pdp-cart-close" aria-label="Close">×</button>' +
         '<div id="pdpCartBody"></div>' +
-        '<p class="pdp-cart-note">Local pickup by appointment in Carbondale, PA. Square checkout is one item at a time, with that item&apos;s real shipping.</p>' +
+        '<p class="pdp-cart-note">Local pickup by appointment in Carbondale, PA. Checkout opens Square with this item\'s real shipping.</p>' +
         '<button type="button" class="btn btn-primary" data-bind="checkout">Continue to checkout</button>';
       document.body.appendChild(drawer);
     } else if (!document.getElementById("pdpCartBody")) {
@@ -508,14 +508,6 @@
   const PHONE_HREF = "tel:+15704682901";
   const EMAIL = "jollyroger1480@gmail.com";
 
-  function escapeHtml(s) {
-    return String(s)
-      .replace(/&/g, "&amp;")
-      .replace(/</g, "&lt;")
-      .replace(/>/g, "&gt;")
-      .replace(/"/g, "&quot;");
-  }
-
   function normalize(text) {
     return String(text || "")
       .toLowerCase()
@@ -599,7 +591,7 @@
     {
       id: "hours",
       escalate: false,
-      keys: ["hours", "open", "when are you open", "what time"],
+      keys: ["hours", "are you open", "when are you open", "business hours"],
       html:
         "By appointment. Call or text <a href=\"" +
         PHONE_HREF +
@@ -623,7 +615,7 @@
     {
       id: "fitment",
       escalate: false,
-      keys: ["fit", "fits", "compatible", "will this work", "year make"],
+      keys: ["will this fit", "fits", "compatible", "will this work", "year make"],
       html:
         "Check the product page for fitment. If you are unsure, call or text <a href=\"" +
         PHONE_HREF +

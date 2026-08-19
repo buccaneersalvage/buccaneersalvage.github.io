@@ -2924,7 +2924,7 @@ ul.pagination .disabled .page {
 .pdp-lightbox {
   position: fixed;
   inset: 0;
-  z-index: 70;
+  z-index: 80;
   background: rgba(5, 4, 3, 0.92);
   display: flex;
   align-items: center;
@@ -3345,4 +3345,19 @@ body.pdp-lightbox-open {
 @media (prefers-reduced-motion: reduce) {
   .buc-ask-launch { transition: none; }
 }
+@media (max-width: 959px) {
+  .page-item .buc-ask-launch {
+    bottom: calc(4.75rem + env(safe-area-inset-bottom, 0px));
+  }
+  .page-item .buc-ask-panel {
+    bottom: calc(8.55rem + env(safe-area-inset-bottom, 0px));
+  }
+}
+body.pdp-drawer-open .buc-ask-launch,
+body.pdp-drawer-open .buc-ask-panel,
+body.pdp-lightbox-open .buc-ask-launch,
+body.pdp-lightbox-open .buc-ask-panel {
+  display: none !important;
+}
+body.buc-ask-open .pdp-buybar { display: none; }
 
