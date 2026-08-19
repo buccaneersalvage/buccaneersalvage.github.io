@@ -500,3 +500,285 @@
     init();
   }
 })();
+
+(() => {
+  "use strict";
+
+  const PHONE = "(570) 468-2901";
+  const PHONE_HREF = "tel:+15704682901";
+  const EMAIL = "jollyroger1480@gmail.com";
+
+  function escapeHtml(s) {
+    return String(s)
+      .replace(/&/g, "&amp;")
+      .replace(/</g, "&lt;")
+      .replace(/>/g, "&gt;")
+      .replace(/"/g, "&quot;");
+  }
+
+  function normalize(text) {
+    return String(text || "")
+      .toLowerCase()
+      .replace(/[^\w\s]/g, " ")
+      .replace(/\s+/g, " ")
+      .trim();
+  }
+
+  const RULES = [
+    {
+      id: "dispute",
+      escalate: true,
+      keys: ["dispute", "attorney", "lawyer", "lawsuit", "legal action"],
+      html:
+        "We will review this. Please call or text <a href=\"" +
+        PHONE_HREF +
+        "\">" +
+        PHONE +
+        "</a>.",
+    },
+    {
+      id: "damage",
+      escalate: true,
+      keys: ["damaged", "broken", "defect", "crushed", "wrong item"],
+      html:
+        "Sorry that happened. Call or text <a href=\"" +
+        PHONE_HREF +
+        "\">" +
+        PHONE +
+        "</a> and we will sort it.",
+    },
+    {
+      id: "order",
+      escalate: true,
+      keys: [
+        "tracking",
+        "track my",
+        "shipped yet",
+        "where is my order",
+        "never arrived",
+        "cancel my order",
+      ],
+      html:
+        "This chat cannot look up orders. Bought here: call or text <a href=\"" +
+        PHONE_HREF +
+        "\">" +
+        PHONE +
+        "</a>. Bought on eBay: message that listing.",
+    },
+    {
+      id: "scrap",
+      escalate: false,
+      keys: [
+        "scrap",
+        "junk removal",
+        "junk haul",
+        "e-waste",
+        "ewaste",
+        "electronics recycling",
+        "metal haul",
+        "pick up scrap",
+      ],
+      html:
+        "Free scrap metal haul by appointment. Junk removal and e-waste are paid. Drop-off is cheaper than pickup. See <a href=\"/scrap.html\">Scrap Removal</a> or call <a href=\"" +
+        PHONE_HREF +
+        "\">" +
+        PHONE +
+        "</a>.",
+    },
+    {
+      id: "pickup",
+      escalate: false,
+      keys: ["pickup", "pick up", "pick it up", "come get", "come by", "appointment"],
+      html:
+        "Local pickup at 12 Beech St, Carbondale, PA 18407, by appointment. Call or text <a href=\"" +
+        PHONE_HREF +
+        "\">" +
+        PHONE +
+        "</a>.",
+    },
+    {
+      id: "hours",
+      escalate: false,
+      keys: ["hours", "open", "when are you open", "what time"],
+      html:
+        "By appointment. Call or text <a href=\"" +
+        PHONE_HREF +
+        "\">" +
+        PHONE +
+        "</a>.",
+    },
+    {
+      id: "shipping",
+      escalate: false,
+      keys: ["shipping", "delivery", "ship to", "freight", "how long to ship"],
+      html: "US shipping at Square checkout, or local pickup by appointment. Rates shown at checkout.",
+    },
+    {
+      id: "returns",
+      escalate: false,
+      keys: ["return", "refund", "warranty"],
+      html:
+        "Store terms: <a href=\"/terms.html\">Terms</a>. eBay orders follow that listing’s return policy.",
+    },
+    {
+      id: "fitment",
+      escalate: false,
+      keys: ["fit", "fits", "compatible", "will this work", "year make"],
+      html:
+        "Check the product page for fitment. If you are unsure, call or text <a href=\"" +
+        PHONE_HREF +
+        "\">" +
+        PHONE +
+        "</a> with the year, make, model, and part.",
+    },
+    {
+      id: "pay",
+      escalate: false,
+      keys: ["cash app", "cashapp", "paypal", "venmo", "how to pay", "how do i pay", "checkout"],
+      html:
+        "Site checkout is Square. Cash App $jollyroger1480 is for arranged local deals only.",
+    },
+    {
+      id: "contact",
+      escalate: false,
+      keys: ["phone", "call", "text", "email", "address", "where are you"],
+      html:
+        "<a href=\"" +
+        PHONE_HREF +
+        "\">" +
+        PHONE +
+        "</a> · <a href=\"mailto:" +
+        EMAIL +
+        "\">" +
+        EMAIL +
+        "</a> · 12 Beech St, Carbondale, PA 18407.",
+    },
+  ];
+
+  const OTHER = {
+    id: "other",
+    escalate: true,
+    html:
+      "I am a basic helper. Call or text <a href=\"" +
+      PHONE_HREF +
+      "\">" +
+      PHONE +
+      "</a>, or email <a href=\"mailto:" +
+      EMAIL +
+      "\">" +
+      EMAIL +
+      "</a>.",
+  };
+
+  function classify(text) {
+    const n = normalize(text);
+    if (!n) return { id: OTHER.id, escalate: OTHER.escalate };
+    for (const rule of RULES) {
+      for (const key of rule.keys) {
+        if (n.includes(normalize(key))) {
+          return { id: rule.id, escalate: rule.escalate };
+        }
+      }
+    }
+    return { id: OTHER.id, escalate: OTHER.escalate };
+  }
+
+  function reply(text) {
+    const hit = classify(text);
+    const rule = RULES.find((r) => r.id === hit.id) || OTHER;
+    return { id: hit.id, escalate: hit.escalate, html: rule.html };
+  }
+
+  function inject() {
+    if (document.getElementById("bucAskRoot")) return;
+    const root = document.createElement("div");
+    root.id = "bucAskRoot";
+    root.innerHTML =
+      '<button type="button" class="buc-ask-launch" id="bucAskLaunch" aria-expanded="false" aria-controls="bucAskPanel">Ask</button>' +
+      '<div class="buc-ask-panel" id="bucAskPanel" hidden>' +
+      '<div class="buc-ask-head">' +
+      '<div><p class="buc-ask-title">Ask BuccaneerSalvage</p>' +
+      '<p class="buc-ask-sub">Basic answers. Call if you need a person.</p></div>' +
+      '<button type="button" class="buc-ask-close" id="bucAskClose" aria-label="Close">×</button>' +
+      "</div>" +
+      '<div class="buc-ask-chips" id="bucAskChips">' +
+      '<button type="button" data-ask="hours">Hours</button>' +
+      '<button type="button" data-ask="Can I pick it up?">Pickup</button>' +
+      '<button type="button" data-ask="scrap">Scrap Removal</button>' +
+      '<button type="button" data-ask="shipping">Shipping</button>' +
+      '<button type="button" data-ask="phone">Contact</button>' +
+      "</div>" +
+      '<div class="buc-ask-log" id="bucAskLog" aria-live="polite"></div>' +
+      '<form class="buc-ask-form" id="bucAskForm">' +
+      '<label class="visually-hidden" for="bucAskInput">Your question</label>' +
+      '<input id="bucAskInput" type="text" maxlength="240" autocomplete="off" placeholder="Ask about pickup, scrap, shipping…" />' +
+      '<button type="submit">Send</button>' +
+      "</form></div>";
+    document.body.appendChild(root);
+
+    const launch = document.getElementById("bucAskLaunch");
+    const panel = document.getElementById("bucAskPanel");
+    const closeBtn = document.getElementById("bucAskClose");
+    const form = document.getElementById("bucAskForm");
+    const input = document.getElementById("bucAskInput");
+    const log = document.getElementById("bucAskLog");
+
+    function setOpen(open) {
+      panel.hidden = !open;
+      launch.setAttribute("aria-expanded", open ? "true" : "false");
+      document.body.classList.toggle("buc-ask-open", open);
+      if (open) input.focus();
+    }
+
+    function addTurn(q, html) {
+      const wrap = document.createElement("div");
+      wrap.className = "buc-ask-turn";
+      const qEl = document.createElement("p");
+      qEl.className = "buc-ask-q";
+      qEl.textContent = q;
+      const aEl = document.createElement("div");
+      aEl.className = "buc-ask-a";
+      aEl.innerHTML = html;
+      wrap.appendChild(qEl);
+      wrap.appendChild(aEl);
+      log.appendChild(wrap);
+      log.scrollTop = log.scrollHeight;
+    }
+
+    function ask(text) {
+      const q = String(text || "").trim();
+      if (!q) return;
+      const out = reply(q);
+      addTurn(q, out.html);
+    }
+
+    launch.addEventListener("click", () => setOpen(panel.hidden));
+    closeBtn.addEventListener("click", () => setOpen(false));
+    document.getElementById("bucAskChips").addEventListener("click", (e) => {
+      const btn = e.target.closest("[data-ask]");
+      if (!btn) return;
+      setOpen(true);
+      ask(btn.getAttribute("data-ask"));
+    });
+    form.addEventListener("submit", (e) => {
+      e.preventDefault();
+      const q = input.value;
+      input.value = "";
+      ask(q);
+    });
+    document.addEventListener("keydown", (e) => {
+      if (e.key === "Escape" && !panel.hidden) {
+        setOpen(false);
+        launch.focus();
+      }
+    });
+  }
+
+  window.BucSupport = { classify, reply };
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", inject);
+  } else {
+    inject();
+  }
+})();
