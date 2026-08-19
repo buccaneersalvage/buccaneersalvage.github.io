@@ -387,7 +387,12 @@
   async function startCheckout(btn) {
     const items = load();
     if (!items.length) return;
-    if (items.length === 1 && isSafeCheckout(items[0].checkout)) {
+    // Bug fixed 2026-08-19: this shortcut opened the item's pre-built (qty-1)
+    // payment link for ANY single-item cart, silently dropping qty>1 instead
+    // of checking out that many. Only take the shortcut at qty===1; anything
+    // else falls through to the combined-cart Worker, which now also
+    // enforces real stock (see cf-checkout-worker/src/index.js).
+    if (items.length === 1 && items[0].qty === 1 && isSafeCheckout(items[0].checkout)) {
       window.open(items[0].checkout, "_blank", "noopener,noreferrer");
       return;
     }
