@@ -38,7 +38,7 @@
   <link rel="preload" as="font" href="assets/fonts/QGYvz_MVcBeNP4NJtEtq.woff2" type="font/woff2" crossorigin />
   <link rel="preload" as="image" href="assets/scrap/yard-truck-loaded.webp" type="image/webp" fetchpriority="high" />
   <link rel="stylesheet" href="assets/fonts.css?v=d1b92d3ff4" integrity="sha384-IDnmxIHyfCaSAssmrqXZbMSqgbRm8AATad26bBSjsyTVbgLbsvJXqeQW642rJQFS" />
-  <link rel="stylesheet" href="styles.css?v=0240697562" integrity="sha384-nNyv/dabYOBypo/wnGQLxZR4B5H6hdGCDdDM3zdDyfH+/w5Ecfd9MkoGKDqBsGLD" />
+  <link rel="stylesheet" href="styles.css?v=ed3362185d" integrity="sha384-g1pMW5+/A1IHGWfr6HKKdhVC7VUyUGJ4e9nYeCqRmz310Adz91tI/qKePJlqsW3j" />
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -339,23 +339,62 @@
             </p>
           </div>
         </header>
-        <div class="scrap-gallery">
-          <figure class="scrap-shot reveal">
-            <picture><source type="image/webp" srcset="assets/scrap/yard-truck-flatbed.webp" /><img src="assets/scrap/yard-truck-flatbed.jpg" alt="White BuccaneerSalvage flatbed truck hitched to a trailer, ready for a scrap haul" width="960" height="960" loading="lazy" /></picture>
-            <figcaption>The truck and trailer, staged for a haul.</figcaption>
-          </figure>
-          <figure class="scrap-shot reveal reveal-delay-1">
-            <picture><source type="image/webp" srcset="assets/scrap/yard-truck-trailer.webp" /><img src="assets/scrap/yard-truck-trailer.jpg" alt="Flatbed truck and loaded trailer parked at the tree line after a scrap pickup" width="960" height="960" loading="lazy" /></picture>
-            <figcaption>Loaded and headed out of a local pickup.</figcaption>
-          </figure>
-          <figure class="scrap-shot reveal reveal-delay-2">
-            <picture><source type="image/webp" srcset="assets/scrap/scrap-engine-pile.webp" /><img src="assets/scrap/scrap-engine-pile.jpg" alt="Pile of rusty engines and machinery waiting to be processed as scrap" width="960" height="960" loading="lazy" /></picture>
-            <figcaption>The engine pile, waiting its turn.</figcaption>
-          </figure>
-          <figure class="scrap-shot reveal">
-            <picture><source type="image/webp" srcset="assets/scrap/vintage-car-rust.webp" /><img src="assets/scrap/vintage-car-rust.jpg" alt="Rusty Chrysler sedan at the yard, headed for scrap" width="960" height="960" loading="lazy" /></picture>
-            <figcaption>The rusty Chrysler. That one is scrap.</figcaption>
-          </figure>
+        <div class="scrap-carousel reveal" id="scrapCarousel">
+          <div class="scrap-carousel-viewport">
+            <div class="scrap-carousel-track" id="scrapTrack">
+              <figure class="scrap-slide" data-index="0">
+                <picture><source type="image/webp" srcset="assets/scrap/yard-truck-flatbed.webp" /><img src="assets/scrap/yard-truck-flatbed.jpg" alt="White BuccaneerSalvage flatbed truck hitched to a trailer, ready for a scrap haul" width="960" height="960" loading="lazy" /></picture>
+                <figcaption>The truck and trailer, staged for a haul.</figcaption>
+              </figure>
+              <figure class="scrap-slide" data-index="1">
+                <picture><source type="image/webp" srcset="assets/scrap/yard-truck-trailer.webp" /><img src="assets/scrap/yard-truck-trailer.jpg" alt="Flatbed truck and loaded trailer parked at the tree line after a scrap pickup" width="960" height="960" loading="lazy" /></picture>
+                <figcaption>Loaded and headed out of a local pickup.</figcaption>
+              </figure>
+              <figure class="scrap-slide" data-index="2">
+                <picture><source type="image/webp" srcset="assets/scrap/scrap-engine-pile.webp" /><img src="assets/scrap/scrap-engine-pile.jpg" alt="Pile of rusty engines and machinery waiting to be processed as scrap" width="960" height="960" loading="lazy" /></picture>
+                <figcaption>The engine pile, waiting its turn.</figcaption>
+              </figure>
+              <figure class="scrap-slide" data-index="3">
+                <picture><source type="image/webp" srcset="assets/scrap/vintage-car-rust.webp" /><img src="assets/scrap/vintage-car-rust.jpg" alt="Rusty Chrysler sedan at the yard, headed for scrap" width="960" height="960" loading="lazy" /></picture>
+                <figcaption>The rusty Chrysler. That one is scrap.</figcaption>
+              </figure>
+              <figure class="scrap-slide" data-index="4">
+                <picture><source type="image/webp" srcset="assets/scrap/haul-flatbed-appliance-scrap.webp" /><img src="assets/scrap/haul-flatbed-appliance-scrap.jpg" alt="Flatbed truck loaded with appliance scrap parked roadside" width="1050" height="1400" loading="lazy" /></picture>
+                <figcaption>A full flatbed of appliance scrap, staged roadside.</figcaption>
+              </figure>
+              <figure class="scrap-slide" data-index="5">
+                <picture><source type="image/webp" srcset="assets/scrap/haul-flatbed-rear-detail.webp" /><img src="assets/scrap/haul-flatbed-rear-detail.jpg" alt="Close view of the flatbed tailgate loaded with an oven door and cabinet panel" width="1400" height="1050" loading="lazy" /></picture>
+                <figcaption>Tailgate view. Oven door, cabinet, whatever came out of the house.</figcaption>
+              </figure>
+              <figure class="scrap-slide" data-index="6">
+                <picture><source type="image/webp" srcset="assets/scrap/haul-flatbed-furniture-load.webp" /><img src="assets/scrap/haul-flatbed-furniture-load.jpg" alt="Flatbed truck loaded with furniture and cabinets strapped down" width="1050" height="1400" loading="lazy" /></picture>
+                <figcaption>Furniture and cabinets strapped down for the trip out.</figcaption>
+              </figure>
+              <figure class="scrap-slide" data-index="7">
+                <picture><source type="image/webp" srcset="assets/scrap/haul-flatbed-furniture-close.webp" /><img src="assets/scrap/haul-flatbed-furniture-close.jpg" alt="Closer view of a dresser and chair loaded on the flatbed over scrap steel" width="1050" height="1400" loading="lazy" /></picture>
+                <figcaption>Same load, closer. Dresser, chair, scrap steel underneath.</figcaption>
+              </figure>
+              <figure class="scrap-slide" data-index="8">
+                <picture><source type="image/webp" srcset="assets/scrap/tow-truck-wreck-recovery.webp" /><img src="assets/scrap/tow-truck-wreck-recovery.jpg" alt="Tow truck towing a wrecked sedan down a residential street" width="1400" height="1050" loading="lazy" /></picture>
+                <figcaption>Wreck recovery. Towing isn't just scrap, it's whatever needs to move.</figcaption>
+              </figure>
+              <figure class="scrap-slide" data-index="9">
+                <picture><source type="image/webp" srcset="assets/scrap/haul-truck-gas-stop-wide.webp" /><img src="assets/scrap/haul-truck-gas-stop-wide.jpg" alt="Loaded scrap truck parked at a gas station convenience store" width="1400" height="1050" loading="lazy" /></picture>
+                <figcaption>Loaded and topping off before the next stop.</figcaption>
+              </figure>
+              <figure class="scrap-slide" data-index="10">
+                <picture><source type="image/webp" srcset="assets/scrap/haul-truck-gas-stop-close.webp" /><img src="assets/scrap/haul-truck-gas-stop-close.jpg" alt="Closer view of the loaded scrap truck at the gas station" width="1400" height="1050" loading="lazy" /></picture>
+                <figcaption>Same truck, same stop. That's a full bed.</figcaption>
+              </figure>
+              <figure class="scrap-slide" data-index="11">
+                <picture><source type="image/webp" srcset="assets/scrap/haul-truck-valero-stop.webp" /><img src="assets/scrap/haul-truck-valero-stop.jpg" alt="Rusty white flatbed truck loaded with scrap metal at a Valero gas station" width="1400" height="1050" loading="lazy" /></picture>
+                <figcaption>Another haul, another gas station. The truck earns its keep.</figcaption>
+              </figure>
+            </div>
+          </div>
+          <button type="button" class="scrap-carousel-nav prev" aria-label="Previous photo">‹</button>
+          <button type="button" class="scrap-carousel-nav next" aria-label="Next photo">›</button>
+          <div class="scrap-carousel-dots" id="scrapDots"></div>
         </div>
       </div>
     </section>
@@ -385,6 +424,16 @@
       </div>
     </section>
   </main>
+
+  <div id="scrapLightbox" class="scrap-lightbox" hidden>
+    <button type="button" class="scrap-lightbox-close" aria-label="Close">×</button>
+    <button type="button" class="scrap-lightbox-nav prev" aria-label="Previous photo">‹</button>
+    <div class="scrap-lightbox-stage">
+      <img id="scrapLightboxImage" alt="" />
+    </div>
+    <button type="button" class="scrap-lightbox-nav next" aria-label="Next photo">›</button>
+    <p class="scrap-lightbox-caption" id="scrapLightboxCaption"></p>
+  </div>
 
   <footer role="contentinfo" class="footer">
     <div class="shell footer-grid">
@@ -486,6 +535,6 @@
     </div>
   </footer>
 
-  <script src="main.js?v=63569121e0" integrity="sha384-r9IP/y7zSoBz1xdBdWAjA1xToK8FfZ9nRpVzRCtLDOyeRYIoty7uISsv2h6zZgV7" defer></script>
+  <script src="main.js?v=65be2bb356" integrity="sha384-kiCSKMZmxabLPrrmkxSnS6iR4fNyJ9Bph8UnSE1r9XKsmBpU6BxJtQ+uz0HzV641" defer></script>
 </body>
 </html>

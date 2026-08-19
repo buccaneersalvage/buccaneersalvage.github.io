@@ -163,9 +163,14 @@
     if (!ID_RE.test(id)) return null;
     const checkout = String(raw.checkout || "").trim();
     if (!isSafeCheckout(checkout)) return null;
+    // stock comes from the PDP's data-stock (baked from the catalog at build
+    // time). null = unknown/legacy page, treat as unlimited (MAX_QTY only).
+    const rawStock = Number(raw.stock);
+    const stock = Number.isFinite(rawStock) && rawStock >= 0 ? Math.floor(rawStock) : null;
+    const cap = stock === null ? MAX_QTY : Math.min(MAX_QTY, stock);
     let qty = Number(raw.qty);
     if (!Number.isFinite(qty)) qty = 1;
-    qty = Math.max(1, Math.min(MAX_QTY, Math.floor(qty)));
+    qty = Math.max(1, Math.min(cap, Math.floor(qty)));
     const photo = isSafeImageSrc(raw.photo) ? String(raw.photo).trim() : "";
     return {
       id,
@@ -176,6 +181,7 @@
       ship: String(raw.ship || "").slice(0, 80),
       checkout,
       qty,
+      stock,
     };
   }
 
@@ -206,6 +212,7 @@
       photo: el.getAttribute("data-photo"),
       ship: el.getAttribute("data-ship"),
       checkout: el.getAttribute("data-checkout"),
+      stock: el.getAttribute("data-stock"),
       qty: 1,
     });
   }
@@ -216,7 +223,8 @@
     const items = load();
     const hit = items.find((it) => it.id === next.id);
     if (hit) {
-      hit.qty = Math.min(MAX_QTY, hit.qty + (next.qty || 1));
+      const cap = hit.stock == null ? MAX_QTY : Math.min(MAX_QTY, hit.stock);
+      hit.qty = Math.min(cap, hit.qty + (next.qty || 1));
     } else if (items.length < MAX_LINES) {
       items.push(next);
     }
@@ -233,7 +241,8 @@
       save(items.filter((it) => it.id !== id));
       return load();
     }
-    hit.qty = Math.min(MAX_QTY, n);
+    const cap = hit.stock == null ? MAX_QTY : Math.min(MAX_QTY, hit.stock);
+    hit.qty = Math.min(cap, n);
     save(items);
     return items;
   }
@@ -301,9 +310,16 @@
       : `<span class="pdp-cart-line-photo" aria-hidden="true"></span>`;
     const href = `p/${encodeURIComponent(it.id)}.html`;
     const pdp = document.body.classList.contains("page-item") ? `../${href}` : href;
-    const checkout = isSafeCheckout(it.checkout)
-      ? `<a class="pdp-cart-line-pay" href="${escapeHtml(it.checkout)}" target="_blank" rel="noopener noreferrer">Checkout</a>`
-      : "";
+    // The per-line link is the item's static SINGLE-quantity Square payment
+    // link — it has no way to encode "qty 2". Only show it at qty 1; any
+    // higher quantity must go through "Checkout all items" (combined-cart
+    // Worker), which actually knows the quantity and checks real stock.
+    const checkout =
+      it.qty === 1 && isSafeCheckout(it.checkout)
+        ? `<a class="pdp-cart-line-pay" href="${escapeHtml(it.checkout)}" target="_blank" rel="noopener noreferrer">Checkout</a>`
+        : "";
+    const atCap = it.stock != null && it.qty >= it.stock;
+    const incTitle = atCap ? ` title="Only ${it.stock} in stock"` : "";
     return `<div class="pdp-cart-line" data-id="${escapeHtml(it.id)}">
       ${img}
       <div class="pdp-cart-line-meta">
@@ -312,7 +328,7 @@
         <div class="pdp-cart-line-ops">
           <button type="button" class="pdp-cart-qty" data-cart-act="dec" data-id="${escapeHtml(it.id)}" aria-label="Fewer">−</button>
           <span class="pdp-cart-qty-n">${it.qty}</span>
-          <button type="button" class="pdp-cart-qty" data-cart-act="inc" data-id="${escapeHtml(it.id)}" aria-label="More">+</button>
+          <button type="button" class="pdp-cart-qty" data-cart-act="inc" data-id="${escapeHtml(it.id)}" aria-label="More"${atCap ? " disabled" : ""}${incTitle}>+</button>
           <button type="button" class="pdp-cart-rm" data-cart-act="rm" data-id="${escapeHtml(it.id)}">Remove</button>
           ${checkout}
         </div>
@@ -852,4 +868,211 @@
   } else {
     inject();
   }
+})();
+
+/* Scrap page yard-photo carousel + zoom lightbox — no-op on any other page. */
+(() => {
+  "use strict";
+
+  const carousel = document.getElementById("scrapCarousel");
+  const track = document.getElementById("scrapTrack");
+  if (!carousel || !track) return;
+
+  const slides = Array.from(track.querySelectorAll(".scrap-slide"));
+  if (!slides.length) return;
+  const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+  let index = 0;
+  let timer = null;
+
+  function slideStep() {
+    const first = slides[0];
+    const gap = parseFloat(getComputedStyle(track).gap || "0") || 0;
+    return first.getBoundingClientRect().width + gap;
+  }
+
+  function paint() {
+    track.style.transform = `translateX(-${index * slideStep()}px)`;
+    dots.forEach((d, i) => d.classList.toggle("is-active", i === index));
+  }
+
+  function goTo(n) {
+    index = ((n % slides.length) + slides.length) % slides.length;
+    paint();
+  }
+
+  function next() {
+    goTo(index + 1);
+  }
+  function prev() {
+    goTo(index - 1);
+  }
+
+  function startAutoplay() {
+    if (reduceMotion || timer) return;
+    timer = window.setInterval(next, 4200);
+  }
+  function stopAutoplay() {
+    if (timer) {
+      window.clearInterval(timer);
+      timer = null;
+    }
+  }
+  function kickAutoplay() {
+    stopAutoplay();
+    startAutoplay();
+  }
+
+  const dots = slides.map((_, i) => {
+    const b = document.createElement("button");
+    b.type = "button";
+    b.setAttribute("aria-label", `Go to photo ${i + 1}`);
+    b.addEventListener("click", () => {
+      goTo(i);
+      kickAutoplay();
+    });
+    return b;
+  });
+  const dotsHost = document.getElementById("scrapDots");
+  if (dotsHost) dots.forEach((d) => dotsHost.appendChild(d));
+
+  const prevBtn = carousel.querySelector(".scrap-carousel-nav.prev");
+  const nextBtn = carousel.querySelector(".scrap-carousel-nav.next");
+  if (prevBtn) prevBtn.addEventListener("click", () => { prev(); kickAutoplay(); });
+  if (nextBtn) nextBtn.addEventListener("click", () => { next(); kickAutoplay(); });
+
+  carousel.addEventListener("mouseenter", stopAutoplay);
+  carousel.addEventListener("mouseleave", startAutoplay);
+  carousel.addEventListener("focusin", stopAutoplay);
+  carousel.addEventListener("focusout", startAutoplay);
+  document.addEventListener("visibilitychange", () => {
+    if (document.hidden) stopAutoplay();
+    else startAutoplay();
+  });
+  window.addEventListener("resize", paint, { passive: true });
+
+  /* Lightbox — click any slide to zoom, with prev/next between all photos. */
+  const box = document.getElementById("scrapLightbox");
+  const img = document.getElementById("scrapLightboxImage");
+  const caption = document.getElementById("scrapLightboxCaption");
+  if (box && img) {
+    const stage = box.querySelector(".scrap-lightbox-stage") || box;
+    const closeBtn = box.querySelector(".scrap-lightbox-close");
+    const lbPrev = box.querySelector(".scrap-lightbox-nav.prev");
+    const lbNext = box.querySelector(".scrap-lightbox-nav.next");
+    let lbIndex = 0;
+    let scale = 1;
+    let lastTap = 0;
+    let pinch0 = 0;
+    let scale0 = 1;
+
+    function setScale(n) {
+      scale = Math.min(4, Math.max(1, n));
+      img.style.transform = `scale(${scale})`;
+    }
+    function resetZoom() {
+      setScale(1);
+    }
+
+    function showLb(n) {
+      lbIndex = ((n % slides.length) + slides.length) % slides.length;
+      const slide = slides[lbIndex];
+      const srcImg = slide.querySelector("img");
+      const fig = slide.querySelector("figcaption");
+      if (!srcImg) return;
+      img.src = srcImg.currentSrc || srcImg.src;
+      img.alt = srcImg.alt || "";
+      if (caption) caption.textContent = fig ? fig.textContent : "";
+      resetZoom();
+    }
+
+    function openLb(n) {
+      stopAutoplay();
+      showLb(n);
+      box.hidden = false;
+      document.body.classList.add("scrap-lightbox-open");
+      if (closeBtn) closeBtn.focus();
+    }
+    function closeLb() {
+      if (box.hidden) return;
+      box.hidden = true;
+      document.body.classList.remove("scrap-lightbox-open");
+      resetZoom();
+      startAutoplay();
+    }
+    function lbNextFn() { showLb(lbIndex + 1); }
+    function lbPrevFn() { showLb(lbIndex - 1); }
+
+    slides.forEach((slide, i) => {
+      slide.setAttribute("tabindex", "0");
+      slide.setAttribute("role", "button");
+      slide.setAttribute("aria-label", "Zoom photo");
+      slide.addEventListener("click", () => openLb(i));
+      slide.addEventListener("keydown", (e) => {
+        if (e.key === "Enter" || e.key === " ") {
+          e.preventDefault();
+          openLb(i);
+        }
+      });
+    });
+
+    if (closeBtn) closeBtn.addEventListener("click", closeLb);
+    if (lbNext) lbNext.addEventListener("click", lbNextFn);
+    if (lbPrev) lbPrev.addEventListener("click", lbPrevFn);
+    box.addEventListener("click", (e) => {
+      if (e.target === box) closeLb();
+    });
+    document.addEventListener("keydown", (e) => {
+      if (box.hidden) return;
+      if (e.key === "Escape") closeLb();
+      else if (e.key === "ArrowRight") lbNextFn();
+      else if (e.key === "ArrowLeft") lbPrevFn();
+    });
+    stage.addEventListener(
+      "wheel",
+      (e) => {
+        if (box.hidden) return;
+        e.preventDefault();
+        setScale(scale + (e.deltaY < 0 ? 0.2 : -0.2));
+      },
+      { passive: false }
+    );
+    img.addEventListener("pointerup", () => {
+      if (box.hidden) return;
+      const now = Date.now();
+      if (now - lastTap < 280) {
+        setScale(scale > 1 ? 1 : 2);
+        lastTap = 0;
+      } else {
+        lastTap = now;
+      }
+    });
+    stage.addEventListener(
+      "touchstart",
+      (e) => {
+        if (e.touches.length === 2) {
+          const dx = e.touches[0].clientX - e.touches[1].clientX;
+          const dy = e.touches[0].clientY - e.touches[1].clientY;
+          pinch0 = Math.hypot(dx, dy) || 1;
+          scale0 = scale;
+        }
+      },
+      { passive: true }
+    );
+    stage.addEventListener(
+      "touchmove",
+      (e) => {
+        if (e.touches.length === 2 && pinch0) {
+          e.preventDefault();
+          const dx = e.touches[0].clientX - e.touches[1].clientX;
+          const dy = e.touches[0].clientY - e.touches[1].clientY;
+          setScale(scale0 * (Math.hypot(dx, dy) / pinch0));
+        }
+      },
+      { passive: false }
+    );
+  }
+
+  paint();
+  startAutoplay();
 })();

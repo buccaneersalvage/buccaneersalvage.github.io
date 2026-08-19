@@ -2405,6 +2405,14 @@ ul.pagination .disabled .page {
   color: var(--gold-bright, #d4af37);
   font-weight: 650;
 }
+.pdp-stock {
+  margin: 0;
+  font-size: 0.92rem;
+  letter-spacing: 0.01em;
+  color: var(--parchment-muted, #d4c8b0);
+}
+.pdp-stock.is-low { color: #f0b060; }
+.pdp-stock.is-out { color: #fca5a5; }
 .pdp-warn {
   background: rgba(220, 120, 100, 0.15);
   border-left: 3px solid #dc7864;
@@ -2924,6 +2932,10 @@ ul.pagination .disabled .page {
   width: 1.7rem;
   height: 1.7rem;
 }
+.pdp-cart-qty:disabled {
+  opacity: 0.35;
+  cursor: not-allowed;
+}
 .pdp-cart-rm,
 .pdp-cart-line-pay {
   font-size: 0.75rem;
@@ -3392,6 +3404,167 @@ a.shame-handle:hover {
   color: var(--parchment-faint);
   border-top: 1px solid var(--glass-edge);
   background: rgba(5, 4, 3, 0.5);
+}
+
+/* Yard photo carousel — rotating strip + click-to-zoom lightbox with prev/next ------ */
+.scrap-carousel { position: relative; }
+.scrap-carousel-viewport {
+  overflow: hidden;
+  border-radius: var(--radius);
+}
+.scrap-carousel-track {
+  display: flex;
+  gap: var(--space-4);
+  transition: transform 0.6s var(--ease);
+  will-change: transform;
+}
+.scrap-slide {
+  position: relative;
+  flex: 0 0 100%;
+  overflow: hidden;
+  border-radius: var(--radius);
+  border: 1px solid var(--glass-edge);
+  background: linear-gradient(145deg, rgba(28, 22, 18, 0.75), rgba(8, 6, 4, 0.55));
+  cursor: zoom-in;
+  transition: border-color 0.25s var(--ease);
+}
+.scrap-slide:hover { border-color: var(--glass-edge-hot); }
+@media (min-width: 640px) {
+  .scrap-slide { flex-basis: calc(50% - var(--space-4) / 2); }
+}
+@media (min-width: 1020px) {
+  .scrap-slide { flex-basis: calc(33.333% - var(--space-4) * 2 / 3); }
+}
+.scrap-slide img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.5s var(--ease);
+}
+.scrap-slide:hover img { transform: scale(1.04); }
+.scrap-slide figcaption {
+  padding: 0.7rem 0.9rem;
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  letter-spacing: 0.04em;
+  color: var(--parchment-faint);
+  border-top: 1px solid var(--glass-edge);
+  background: rgba(5, 4, 3, 0.5);
+}
+.scrap-carousel-nav,
+.scrap-lightbox-nav,
+.scrap-lightbox-close {
+  border-radius: 999px;
+  border: 1px solid var(--glass-edge-hot);
+  background: var(--glass-strong);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  color: var(--gold-bright);
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background 0.2s, transform 0.2s;
+}
+.scrap-carousel-nav:hover,
+.scrap-lightbox-nav:hover,
+.scrap-lightbox-close:hover { background: rgba(240, 208, 120, 0.14); }
+.scrap-carousel-nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 2;
+  width: 2.4rem;
+  height: 2.4rem;
+  font-size: 1.3rem;
+}
+.scrap-carousel-nav.prev { left: -0.5rem; }
+.scrap-carousel-nav.next { right: -0.5rem; }
+@media (min-width: 640px) {
+  .scrap-carousel-nav.prev { left: -1.2rem; }
+  .scrap-carousel-nav.next { right: -1.2rem; }
+}
+.scrap-carousel-dots {
+  display: flex;
+  justify-content: center;
+  gap: 0.4rem;
+  margin-top: var(--space-4);
+}
+.scrap-carousel-dots button {
+  width: 0.5rem;
+  height: 0.5rem;
+  padding: 0;
+  border-radius: 999px;
+  background: rgba(243, 234, 216, 0.25);
+  cursor: pointer;
+  transition: background 0.2s, transform 0.2s;
+}
+.scrap-carousel-dots button.is-active {
+  background: var(--gold-bright);
+  transform: scale(1.3);
+}
+
+.scrap-lightbox {
+  position: fixed;
+  inset: 0;
+  z-index: 80;
+  background: rgba(5, 4, 3, 0.92);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2.5rem 1rem 1rem;
+}
+.scrap-lightbox[hidden] { display: none; }
+.scrap-lightbox-close {
+  position: absolute;
+  top: 0.85rem;
+  right: 0.85rem;
+  z-index: 2;
+  width: 2.4rem;
+  height: 2.4rem;
+  font-size: 1.2rem;
+}
+.scrap-lightbox-stage {
+  max-width: min(96vw, 1200px);
+  max-height: 82vh;
+  overflow: hidden;
+  touch-action: none;
+}
+.scrap-lightbox-stage img {
+  display: block;
+  max-width: 96vw;
+  max-height: 80vh;
+  object-fit: contain;
+  transform-origin: center center;
+}
+.scrap-lightbox-caption {
+  position: absolute;
+  bottom: 0.9rem;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  letter-spacing: 0.04em;
+  color: var(--parchment-muted);
+  text-align: center;
+}
+.scrap-lightbox-nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 2.6rem;
+  height: 2.6rem;
+  font-size: 1.5rem;
+}
+.scrap-lightbox-nav.prev { left: 0.6rem; }
+.scrap-lightbox-nav.next { right: 0.6rem; }
+
+body.scrap-lightbox-open { overflow: hidden; }
+
+@media (prefers-reduced-motion: reduce) {
+  .scrap-carousel-track { transition: none; }
 }
 
 /* Port cards used as articles on scrap page need the same hover affordance */

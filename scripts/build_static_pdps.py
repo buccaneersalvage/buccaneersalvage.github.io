@@ -814,6 +814,11 @@ def main() -> None:
         name = item.get("name") or "Product"
         price_n = item.get("price")
         price = money(price_n)
+        try:
+            stock_n = int(item.get("stock"))
+        except (TypeError, ValueError):
+            stock_n = None
+        sold_out = stock_n is not None and stock_n <= 0
         catl = dept_label(item)
         desc_kind = item_ebay_tree(item).get("sub") or cat_label(item.get("category"))
         img = safe_image(item.get("image")) or f"{BASE}/assets/og-share.jpg"
@@ -927,20 +932,33 @@ def main() -> None:
         def esc_t(s):
             return html.escape(str(s or ""))
 
-        if checkout:
+        if checkout and not sold_out:
             nav_cta = f'<a class="nav-cta" href="{esc(checkout)}" target="_blank" rel="noopener noreferrer">Buy now</a>'
             add_attrs = (
                 f' class="btn btn-primary pdp-add-cart" type="button"'
                 f' data-id="{esc(iid)}" data-photo="{esc(img)}" data-title="{esc(heading)}"'
                 f' data-price="{esc(price or "Contact for price")}"'
                 f' data-ship="{esc(ship_label)}" data-checkout="{esc(checkout)}"'
+                + (f' data-stock="{esc(stock_n)}"' if stock_n is not None else "")
             )
             cta = f'<button{add_attrs}>Add to cart</button>'
             buybar_cta = f'<button{add_attrs}>Add to cart</button>'
+        elif checkout and sold_out:
+            nav_cta = '<a class="nav-cta is-disabled" href="../store.html">Buy now</a>'
+            cta = '<span class="btn btn-primary is-disabled" aria-disabled="true">Out of stock</span>'
+            buybar_cta = cta
         else:
             nav_cta = '<a class="nav-cta is-disabled" href="../store.html">Buy now</a>'
             cta = '<span class="btn btn-primary is-disabled" aria-disabled="true">Not available for purchase</span>'
             buybar_cta = cta
+        if stock_n is None:
+            stock_html = ""
+        elif stock_n <= 0:
+            stock_html = '<p class="pdp-stock is-out">Out of stock</p>'
+        elif stock_n == 1:
+            stock_html = '<p class="pdp-stock is-low">Only 1 left</p>'
+        else:
+            stock_html = f'<p class="pdp-stock">{stock_n} in stock</p>'
         crumb_mid = (
             f'<span aria-hidden="true">/</span><span>{esc_t(store_parent)}</span>'
             if store_parent
@@ -1014,11 +1032,11 @@ def main() -> None:
   <meta name="twitter:image" content="{esc(img)}" />
   <link rel="icon" type="image/jpeg" href="../assets/crest-rustjack-web.jpg" />
   <link rel="stylesheet" href="../assets/fonts.css?v=d1b92d3ff4" integrity="sha384-IDnmxIHyfCaSAssmrqXZbMSqgbRm8AATad26bBSjsyTVbgLbsvJXqeQW642rJQFS" />
-  <link rel="stylesheet" href="../styles.css?v=0240697562" integrity="sha384-nNyv/dabYOBypo/wnGQLxZR4B5H6hdGCDdDM3zdDyfH+/w5Ecfd9MkoGKDqBsGLD" />
+  <link rel="stylesheet" href="../styles.css?v=ed3362185d" integrity="sha384-g1pMW5+/A1IHGWfr6HKKdhVC7VUyUGJ4e9nYeCqRmz310Adz91tI/qKePJlqsW3j" />
   <script type="application/ld+json">{schema_json}</script>
   <script type="application/ld+json">{crumbs_json}</script>
   <script src="../pdp-gallery.js?v=a1f0a7f319" integrity="sha384-eq9QZo4xOjZPZpM85hHroYPtpiHY0Q/b2Cumajd+dtSdK9N86QsyI70Fj3kjSGUV" defer></script>
-  <script src="../main.js?v=63569121e0" integrity="sha384-r9IP/y7zSoBz1xdBdWAjA1xToK8FfZ9nRpVzRCtLDOyeRYIoty7uISsv2h6zZgV7" defer></script>
+  <script src="../main.js?v=65be2bb356" integrity="sha384-kiCSKMZmxabLPrrmkxSnS6iR4fNyJ9Bph8UnSE1r9XKsmBpU6BxJtQ+uz0HzV641" defer></script>
 </head>
 <body class="page-item">
   <a class="skip-link" href="#main">Skip to content</a>
@@ -1068,6 +1086,7 @@ def main() -> None:
           <p class="pdp-category">{esc_t(store_parent)}</p>
           <p class="pdp-price">{esc_t(price or "Contact for price")}</p>
           <p class="pdp-ship"><strong>Shipping:</strong> {esc_t(ship_label)}</p>
+          {stock_html}
           {warn}
           <div class="pdp-cta-group">
             {cta}
