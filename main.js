@@ -243,6 +243,11 @@
     return load();
   }
 
+  function clear() {
+    save([]);
+    return load();
+  }
+
   function ensureDrawer() {
     let overlay = document.getElementById("pdpCartOverlay");
     let drawer = document.getElementById("pdpCartDrawer");
@@ -337,7 +342,10 @@
     }
     const sub = items.reduce((s, it) => s + it.cents * it.qty, 0);
     body.innerHTML =
+      `<div class="pdp-cart-head">` +
       `<h2 class="pdp-cart-title">Cart (${n})</h2>` +
+      `<button type="button" class="pdp-cart-rm" data-cart-act="rm-all">Remove all</button>` +
+      `</div>` +
       `<div class="pdp-cart-lines">${items.map(lineHtml).join("")}</div>` +
       `<p class="pdp-cart-price">Subtotal ${escapeHtml(money(sub))}</p>`;
     if (note) {
@@ -468,7 +476,8 @@
     const act = actBtn.getAttribute("data-cart-act");
     const items = load();
     const hit = items.find((it) => it.id === id);
-    if (act === "rm") remove(id);
+    if (act === "rm-all") clear();
+    else if (act === "rm") remove(id);
     else if (act === "inc") setQty(id, (hit ? hit.qty : 0) + 1);
     else if (act === "dec") setQty(id, (hit ? hit.qty : 1) - 1);
     if (!load().length) close();
@@ -483,7 +492,7 @@
     });
   }
 
-  window.BucCart = { add, remove, setQty, load, open, close, count: () => countOf(load()) };
+  window.BucCart = { add, remove, clear, setQty, load, open, close, count: () => countOf(load()) };
 
   if (document.readyState === "loading") {
     document.addEventListener("DOMContentLoaded", init);

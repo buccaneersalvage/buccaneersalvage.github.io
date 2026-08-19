@@ -2815,6 +2815,12 @@ ul.pagination .disabled .page {
   border: 1px solid rgba(212, 175, 55, 0.16);
   border-radius: 8px;
 }
+.pdp-cart-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+}
 .pdp-cart-title {
   margin: 0;
   font-family: var(--font-display, Georgia, serif);
