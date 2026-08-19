@@ -3030,6 +3030,164 @@ body.pdp-lightbox-open {
 }
 .legal-doc li { margin: 0.25rem 0; }
 .legal-doc a { color: var(--gold-bright); }
+
+/* Buyer hall of shame (shame.html) — same tokens, blood only as danger */
+.page-shame .st-hero {
+  border-bottom: 1px solid rgba(185, 28, 28, 0.35);
+}
+.shame-case {
+  max-width: 68rem;
+  padding: 0 0 var(--space-8);
+}
+.shame-split {
+  display: grid;
+  grid-template-columns: minmax(0, 18rem) minmax(0, 1fr);
+  gap: 1.75rem 2.25rem;
+  align-items: start;
+  margin: 0 0 2.25rem;
+}
+.shame-poster {
+  margin: 0;
+}
+.shame-poster img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 18px;
+  border: 1px solid rgba(240, 208, 120, 0.22);
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.35);
+}
+.shame-poster figcaption,
+.shame-board figcaption {
+  margin-top: 0.55rem;
+  font-size: var(--text-xs);
+  color: var(--parchment-muted);
+  line-height: 1.45;
+}
+.shame-stamp {
+  margin: 0 0 0.35rem;
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #e8a0a0;
+}
+.shame-file h2 {
+  font-family: var(--font-display);
+  font-size: var(--text-xl);
+  font-weight: 600;
+  color: var(--gold-bright);
+  margin: 0 0 0.7rem;
+}
+.shame-handle {
+  color: #f0d078;
+  text-decoration: none;
+}
+a.shame-handle:hover {
+  text-decoration: underline;
+}
+.shame-lede {
+  color: var(--parchment);
+  line-height: 1.6;
+  max-width: 65ch;
+  margin: 0 0 1.1rem;
+}
+.shame-meta {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: 0.7rem 1.25rem;
+  margin: 0;
+}
+.shame-meta div {
+  margin: 0;
+  padding-top: 0.55rem;
+  border-top: 1px solid rgba(240, 208, 120, 0.14);
+}
+.shame-meta dt {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--parchment-muted);
+}
+.shame-meta dd {
+  margin: 0.15rem 0 0;
+  color: var(--parchment);
+}
+.shame-meta a { color: var(--gold-bright); }
+.shame-board {
+  display: grid;
+  grid-template-columns: 10.5rem minmax(0, 1fr);
+  gap: 1.25rem 1.5rem;
+  align-items: start;
+  margin: 0 0 1.75rem;
+}
+.shame-board figure { margin: 0; }
+.shame-board img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 18px;
+  border: 1px solid rgba(240, 208, 120, 0.18);
+  background: #14100c;
+}
+.shame-case h2 {
+  font-family: var(--font-display);
+  font-size: var(--text-xl);
+  font-weight: 600;
+  color: var(--gold-bright);
+  margin: 1.75rem 0 0.65rem;
+}
+.shame-case p {
+  color: var(--parchment-muted);
+  line-height: 1.65;
+  max-width: 65ch;
+  margin: 0 0 0.75rem;
+}
+.shame-case blockquote {
+  margin: 0 0 1rem;
+  padding: 0.85rem 1rem 0.85rem 1.05rem;
+  border-left: 3px solid #b91c1c;
+  background: rgba(20, 16, 12, 0.72);
+  border-radius: 0 12px 12px 0;
+  max-width: 65ch;
+}
+.shame-case blockquote p {
+  color: var(--parchment);
+  margin: 0 0 0.45rem;
+  font-style: italic;
+}
+.shame-case blockquote footer {
+  font-size: var(--text-xs);
+  color: var(--parchment-muted);
+  font-style: normal;
+}
+.shame-steps {
+  margin: 0 0 0.9rem 1.2rem;
+  max-width: 65ch;
+  color: var(--parchment-muted);
+  line-height: 1.65;
+}
+.shame-steps li { margin: 0.35rem 0; }
+.shame-note {
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 1px solid rgba(240, 208, 120, 0.16);
+  font-size: var(--text-sm);
+}
+@media (max-width: 767px) {
+  .shame-split,
+  .shame-board,
+  .shame-meta {
+    grid-template-columns: 1fr;
+  }
+  .shame-poster { max-width: 22rem; }
+  .shame-board figure { max-width: 12rem; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .shame-poster img,
+  .shame-board img { transition: none; }
+}
 .st-trust-item a {
   color: inherit;
   text-decoration: none;
