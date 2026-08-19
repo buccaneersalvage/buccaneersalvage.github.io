@@ -1042,6 +1042,7 @@ def main() -> None:
       <a href="../index.html">Home</a>
       <a href="../store.html">Store catalog</a>
       <a href="../terms.html">Terms &amp; returns</a>
+      <a href="../shame.html">Buyer hall of shame</a>
       <a href="../videos.html">Music</a>
     </div>
   </header>
@@ -1105,6 +1106,7 @@ def main() -> None:
       <nav class="footer-links" aria-label="More">
         <a href="../terms.html">Terms</a>
         <a href="../videos.html">Music</a>
+        <a href="../shame.html">Hall of shame</a>
         <a href="https://www.youtube.com/@BuccaneerSalvage" target="_blank" rel="noopener noreferrer">YouTube</a>
         <a href="https://x.com/jollyroger1480" target="_blank" rel="noopener noreferrer">X</a>
         <a href="https://www.ebay.com/str/buccaneersalvage" target="_blank" rel="noopener noreferrer">eBay</a>
