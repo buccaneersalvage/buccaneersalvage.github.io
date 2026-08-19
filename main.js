@@ -171,7 +171,7 @@
       id,
       title: String(raw.title || "Part").slice(0, 200),
       price: String(raw.price || "").slice(0, 32),
-      cents: parseCents(raw.cents != null ? raw.cents / 100 : raw.price),
+      cents: parseCents(raw.price),
       photo,
       ship: String(raw.ship || "").slice(0, 80),
       checkout,
