@@ -483,6 +483,69 @@
     if (!load().length) close();
   }
 
+  function parseMetaProductsParam(raw) {
+    const s = String(raw || "").trim();
+    if (!s) return [];
+    const out = [];
+    for (const part of s.split(",")) {
+      const bit = part.trim();
+      if (!bit) continue;
+      const colon = bit.lastIndexOf(":");
+      const id = (colon === -1 ? bit : bit.slice(0, colon)).trim();
+      const qtyRaw = colon === -1 ? "1" : bit.slice(colon + 1).trim();
+      if (!ID_RE.test(id)) continue;
+      let qty = Number(qtyRaw);
+      if (!Number.isFinite(qty)) qty = 1;
+      qty = Math.max(1, Math.min(MAX_QTY, Math.floor(qty)));
+      out.push({ id, qty });
+    }
+    return out.slice(0, MAX_LINES);
+  }
+
+  function catalogItemToCart(item, qty) {
+    if (!item || item.checkout === false) return null;
+    return normalize({
+      id: item.id,
+      title: item.name,
+      price: item.price == null ? "" : String(item.price),
+      photo: item.image || "",
+      ship: "",
+      checkout: item.url,
+      qty,
+    });
+  }
+
+  async function hydrateFromMetaQuery() {
+    let raw = "";
+    try {
+      raw = new URLSearchParams(window.location.search).get("products") || "";
+    } catch (_) {
+      return;
+    }
+    const wanted = parseMetaProductsParam(raw);
+    if (!wanted.length) return;
+    let cat;
+    try {
+      const res = await fetch("/assets/square-catalog.json", { credentials: "same-origin" });
+      cat = await res.json();
+    } catch (_) {
+      return;
+    }
+    const list = cat && Array.isArray(cat.items) ? cat.items : [];
+    const byId = Object.create(null);
+    for (const it of list) {
+      if (it && it.id) byId[it.id] = it;
+    }
+    const next = [];
+    for (const w of wanted) {
+      const line = catalogItemToCart(byId[w.id], w.qty);
+      if (line) next.push(line);
+    }
+    if (!next.length) return;
+    save(next);
+    open();
+  }
+
   function init() {
     ensureDrawer();
     render();
@@ -490,9 +553,20 @@
     document.addEventListener("keydown", (e) => {
       if (e.key === "Escape") close();
     });
+    hydrateFromMetaQuery();
   }
 
-  window.BucCart = { add, remove, clear, setQty, load, open, close, count: () => countOf(load()) };
+  window.BucCart = {
+    add,
+    remove,
+    clear,
+    setQty,
+    load,
+    open,
+    close,
+    parseMetaProductsParam,
+    count: () => countOf(load()),
+  };
 
   if (document.readyState === "loading") {
     document.addEventListener("DOMContentLoaded", init);
