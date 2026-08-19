@@ -884,6 +884,24 @@
 
   let index = 0;
   let timer = null;
+  let hovering = false;
+  let dots = [];
+  const dotsHost = document.getElementById("scrapDots");
+
+  // How many slides are actually visible at once at the current breakpoint
+  // (must match the .scrap-slide flex-basis media queries in styles.css).
+  // The nav is clamped to this so the last "page" never scrolls past the
+  // point where a full row still fits — otherwise the last slide(s) leave
+  // dead empty space where the next card(s) would have been.
+  function visibleCount() {
+    if (window.matchMedia("(min-width: 1020px)").matches) return 3;
+    if (window.matchMedia("(min-width: 640px)").matches) return 2;
+    return 1;
+  }
+
+  function maxIndex() {
+    return Math.max(0, slides.length - visibleCount());
+  }
 
   function slideStep() {
     const first = slides[0];
@@ -897,7 +915,8 @@
   }
 
   function goTo(n) {
-    index = ((n % slides.length) + slides.length) % slides.length;
+    const span = maxIndex() + 1;
+    index = ((n % span) + span) % span;
     paint();
   }
 
@@ -909,7 +928,7 @@
   }
 
   function startAutoplay() {
-    if (reduceMotion || timer) return;
+    if (reduceMotion || timer || hovering) return;
     timer = window.setInterval(next, 4200);
   }
   function stopAutoplay() {
@@ -920,36 +939,48 @@
   }
   function kickAutoplay() {
     stopAutoplay();
-    startAutoplay();
+    if (!hovering) startAutoplay();
   }
 
-  const dots = slides.map((_, i) => {
-    const b = document.createElement("button");
-    b.type = "button";
-    b.setAttribute("aria-label", `Go to photo ${i + 1}`);
-    b.addEventListener("click", () => {
-      goTo(i);
-      kickAutoplay();
+  function buildDots() {
+    const count = maxIndex() + 1;
+    if (dots.length === count) return; // already correct for this breakpoint
+    if (dotsHost) dotsHost.replaceChildren();
+    dots = Array.from({ length: count }, (_, i) => {
+      const b = document.createElement("button");
+      b.type = "button";
+      b.setAttribute("aria-label", `Go to photo ${i + 1}`);
+      b.addEventListener("click", () => {
+        goTo(i);
+        kickAutoplay();
+      });
+      if (dotsHost) dotsHost.appendChild(b);
+      return b;
     });
-    return b;
-  });
-  const dotsHost = document.getElementById("scrapDots");
-  if (dotsHost) dots.forEach((d) => dotsHost.appendChild(d));
+  }
+
+  function handleResize() {
+    buildDots();
+    if (index > maxIndex()) index = maxIndex();
+    paint();
+  }
+
+  buildDots();
 
   const prevBtn = carousel.querySelector(".scrap-carousel-nav.prev");
   const nextBtn = carousel.querySelector(".scrap-carousel-nav.next");
   if (prevBtn) prevBtn.addEventListener("click", () => { prev(); kickAutoplay(); });
   if (nextBtn) nextBtn.addEventListener("click", () => { next(); kickAutoplay(); });
 
-  carousel.addEventListener("mouseenter", stopAutoplay);
-  carousel.addEventListener("mouseleave", startAutoplay);
-  carousel.addEventListener("focusin", stopAutoplay);
-  carousel.addEventListener("focusout", startAutoplay);
+  carousel.addEventListener("mouseenter", () => { hovering = true; stopAutoplay(); });
+  carousel.addEventListener("mouseleave", () => { hovering = false; startAutoplay(); });
+  carousel.addEventListener("focusin", () => { hovering = true; stopAutoplay(); });
+  carousel.addEventListener("focusout", () => { hovering = false; startAutoplay(); });
   document.addEventListener("visibilitychange", () => {
     if (document.hidden) stopAutoplay();
     else startAutoplay();
   });
-  window.addEventListener("resize", paint, { passive: true });
+  window.addEventListener("resize", handleResize, { passive: true });
 
   /* Lightbox — click any slide to zoom, with prev/next between all photos. */
   const box = document.getElementById("scrapLightbox");
