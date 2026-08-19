@@ -1043,7 +1043,6 @@ def main() -> None:
       <a href="../store.html">Store catalog</a>
       <a href="../terms.html">Terms &amp; returns</a>
       <a href="../videos.html">Music</a>
-      <a href="/ukiri/">Ukiri dossier</a>
     </div>
   </header>
   <main id="main">
