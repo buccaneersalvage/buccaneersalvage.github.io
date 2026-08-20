@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-20T18:06:06Z",
+  "updated": "2026-08-20T18:14:53Z",
   "store": "https://buccaneersalvage.square.site/",
   "count": 269,
   "items": [
@@ -18639,7 +18639,7 @@
     },
     {
       "id": "DLU4T32ZZN2JIMTKXJCLLNYZ",
-      "name": "LaSalle 780067 Spark Plug Wire Set 7MM 6CYL 1982-1986 GM Jeep 2.8 V6 NOS",
+      "name": "LaSalle 780067 Spark Plug Wire Set 7MM 6CYL 1983-1995 GM Isuzu 2.8 V6 NOS",
       "price": 49.99,
       "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/5b73fd626275fb4f2c15bef9af7f141ec9bd5289/original.jpeg",
       "url": "https://square.link/u/tRvZYbYf",
@@ -18659,12 +18659,13 @@
         "1985\u20131986 Chevrolet Camaro",
         "1985\u20131986 Chevrolet Celebrity",
         "1985 Chevrolet Citation II",
+        "1983\u20131995 Isuzu 2.8",
         "1982\u20131986 Jeep 2.8",
         "1984\u20131986 Jeep Cherokee",
         "1986 Jeep Comanche",
         "1984\u20131986 Jeep Wagoneer"
       ],
-      "fitment_source": "ebay_listing",
+      "fitment_source": "ebay_listing+title",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
@@ -18702,6 +18703,16 @@
             "year_to": 1985,
             "make": "Chevrolet",
             "model": "Citation II",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1983,
+            "year_to": 1995,
+            "make": "Isuzu",
+            "model": "2.8",
             "notes": "",
             "source": "ebay_compat",
             "confidence": "high",
@@ -18752,13 +18763,14 @@
           "1985\u20131986 Chevrolet Camaro",
           "1985\u20131986 Chevrolet Celebrity",
           "1985 Chevrolet Citation II",
+          "1983\u20131995 Isuzu 2.8",
           "1982\u20131986 Jeep 2.8",
           "1984\u20131986 Jeep Cherokee",
           "1986 Jeep Comanche",
           "1984\u20131986 Jeep Wagoneer"
         ],
         "raw_compat_rows": 52,
-        "source": "ebay_listing",
+        "source": "ebay_listing+title",
         "confidence": "high",
         "ebay_item_id": "398305679597",
         "type": "Spark Plug Wire Set",
@@ -31870,5 +31882,5 @@
       "stock": 1
     }
   ],
-  "fitment_built": "2026-08-20T18:06:06Z"
+  "fitment_built": "2026-08-20T18:14:53Z"
 }
