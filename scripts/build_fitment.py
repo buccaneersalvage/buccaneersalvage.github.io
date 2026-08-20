@@ -1105,7 +1105,14 @@ def main() -> int:
     ap.add_argument("--offline", action="store_true", help="skip eBay API")
     ap.add_argument("--limit", type=int, default=0, help="max items to enrich via API")
     ap.add_argument("--sleep", type=float, default=0.35)
+    ap.add_argument(
+        "--force-ids", default="",
+        help="comma-separated Square item ids to re-fetch from eBay even though "
+             "they already have ebay_category/ebay_item_id set (the normal skip "
+             "condition below). Use after editing an already-linked eBay listing.",
+    )
     args = ap.parse_args()
+    force_ids = {s.strip() for s in args.force_ids.split(",") if s.strip()}
 
     cat = json.loads(CATALOG.read_text(encoding="utf-8"))
     items = cat["items"]
@@ -1143,8 +1150,10 @@ def main() -> int:
         eid = sq2eb.get(it["id"])
         if args.offline or not token or not eid:
             continue
-        # Keep last good GetItem unless this row never got a category / id.
-        if it.get("ebay_category") and it.get("ebay_item_id"):
+        # Keep last good GetItem unless this row never got a category / id,
+        # or was explicitly requested via --force-ids (listing edited since
+        # last enrichment — see 2026-08-20 spark-plug-wire fitment fix).
+        if it.get("ebay_category") and it.get("ebay_item_id") and it["id"] not in force_ids:
             continue
         if args.limit and api_n >= args.limit:
             break

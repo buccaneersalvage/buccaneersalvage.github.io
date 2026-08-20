@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-20T18:14:53Z",
+  "updated": "2026-08-20T19:00:47Z",
   "store": "https://buccaneersalvage.square.site/",
   "count": 269,
   "items": [
@@ -18660,12 +18660,11 @@
         "1985\u20131986 Chevrolet Celebrity",
         "1985 Chevrolet Citation II",
         "1983\u20131995 Isuzu 2.8",
-        "1982\u20131986 Jeep 2.8",
         "1984\u20131986 Jeep Cherokee",
         "1986 Jeep Comanche",
         "1984\u20131986 Jeep Wagoneer"
       ],
-      "fitment_source": "ebay_listing+title",
+      "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
@@ -18719,16 +18718,6 @@
             "trim_count": null
           },
           {
-            "year_from": 1982,
-            "year_to": 1986,
-            "make": "Jeep",
-            "model": "2.8",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
             "year_from": 1984,
             "year_to": 1986,
             "make": "Jeep",
@@ -18764,13 +18753,12 @@
           "1985\u20131986 Chevrolet Celebrity",
           "1985 Chevrolet Citation II",
           "1983\u20131995 Isuzu 2.8",
-          "1982\u20131986 Jeep 2.8",
           "1984\u20131986 Jeep Cherokee",
           "1986 Jeep Comanche",
           "1984\u20131986 Jeep Wagoneer"
         ],
         "raw_compat_rows": 52,
-        "source": "ebay_listing+title",
+        "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398305679597",
         "type": "Spark Plug Wire Set",
@@ -18893,7 +18881,7 @@
           "1983 Nissan Sentra",
           "1961\u20131963 Pontiac Tempest"
         ],
-        "raw_compat_rows": 12,
+        "raw_compat_rows": 207,
         "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398268294994",
@@ -18901,7 +18889,7 @@
         "brand": "LaSalle",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Wires & Coil Boots"
       },
-      "vehicle_count_raw": 12,
+      "vehicle_count_raw": 207,
       "ebay_item_id": "398268294994",
       "ebay_type": "Spark Plug Wire Set",
       "ebay_brand": "LaSalle",
@@ -18929,6 +18917,7 @@
         "NGK 51235"
       ],
       "vehicles": [
+        "GM",
         "GM Celebrity",
         "GM Century"
       ],
@@ -18946,6 +18935,16 @@
           "NGK 51235"
         ],
         "vehicles": [
+          {
+            "year_from": null,
+            "year_to": null,
+            "make": "GM",
+            "model": "",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
           {
             "year_from": null,
             "year_to": null,
@@ -18968,10 +18967,11 @@
           }
         ],
         "vehicle_labels": [
+          "GM",
           "GM Celebrity",
           "GM Century"
         ],
-        "raw_compat_rows": 2,
+        "raw_compat_rows": 3,
         "source": "ebay_listing",
         "confidence": "medium",
         "ebay_item_id": "398264703265",
@@ -18979,7 +18979,7 @@
         "brand": "LaSalle",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Wires & Coil Boots"
       },
-      "vehicle_count_raw": 2,
+      "vehicle_count_raw": 3,
       "ebay_item_id": "398264703265",
       "ebay_type": "Spark Plug Wire Set",
       "ebay_brand": "LaSalle",
@@ -19949,18 +19949,14 @@
       ],
       "vehicles": [
         "1984\u20131986 Buick Century",
-        "1984\u20131986 Buick Skylark",
-        "1985 Buick Somerset Regal",
-        "1985\u20131986 Chevrolet Astro",
+        "1984\u20131985 Buick Skylark",
         "1984\u20131986 Chevrolet Camaro",
         "1984\u20131986 Chevrolet Celebrity",
         "1984\u20131985 Chevrolet Citation II",
-        "1987 Chevrolet LLV",
         "1985\u20131987 Chevrolet S10",
         "1985\u20131987 Chevrolet S10 Blazer",
         "1985\u20131987 GMC S15",
         "1985\u20131987 GMC S15 Jimmy",
-        "1985\u20131986 GMC Safari",
         "1984\u20131986 Oldsmobile Cutlass Ciera",
         "1984 Oldsmobile Omega"
       ],
@@ -19990,29 +19986,9 @@
           },
           {
             "year_from": 1984,
-            "year_to": 1986,
-            "make": "Buick",
-            "model": "Skylark",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1985,
             "year_to": 1985,
             "make": "Buick",
-            "model": "Somerset Regal",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1985,
-            "year_to": 1986,
-            "make": "Chevrolet",
-            "model": "Astro",
+            "model": "Skylark",
             "notes": "",
             "source": "ebay_compat",
             "confidence": "high",
@@ -20043,16 +20019,6 @@
             "year_to": 1985,
             "make": "Chevrolet",
             "model": "Citation II",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1987,
-            "year_to": 1987,
-            "make": "Chevrolet",
-            "model": "LLV",
             "notes": "",
             "source": "ebay_compat",
             "confidence": "high",
@@ -20099,16 +20065,6 @@
             "trim_count": null
           },
           {
-            "year_from": 1985,
-            "year_to": 1986,
-            "make": "GMC",
-            "model": "Safari",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
             "year_from": 1984,
             "year_to": 1986,
             "make": "Oldsmobile",
@@ -20131,18 +20087,14 @@
         ],
         "vehicle_labels": [
           "1984\u20131986 Buick Century",
-          "1984\u20131986 Buick Skylark",
-          "1985 Buick Somerset Regal",
-          "1985\u20131986 Chevrolet Astro",
+          "1984\u20131985 Buick Skylark",
           "1984\u20131986 Chevrolet Camaro",
           "1984\u20131986 Chevrolet Celebrity",
           "1984\u20131985 Chevrolet Citation II",
-          "1987 Chevrolet LLV",
           "1985\u20131987 Chevrolet S10",
           "1985\u20131987 Chevrolet S10 Blazer",
           "1985\u20131987 GMC S15",
           "1985\u20131987 GMC S15 Jimmy",
-          "1985\u20131986 GMC Safari",
           "1984\u20131986 Oldsmobile Cutlass Ciera",
           "1984 Oldsmobile Omega"
         ],
@@ -31882,5 +31834,5 @@
       "stock": 1
     }
   ],
-  "fitment_built": "2026-08-20T18:14:53Z"
+  "fitment_built": "2026-08-20T19:00:47Z"
 }
