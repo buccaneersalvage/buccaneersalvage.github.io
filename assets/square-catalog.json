@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-20T02:00:49Z",
+  "updated": "2026-08-20T02:34:29Z",
   "store": "https://buccaneersalvage.square.site/",
   "count": 269,
   "items": [
@@ -18670,7 +18670,7 @@
       "ebay_type": "Spark Plug Wire Set",
       "ebay_brand": "LaSalle",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Wires & Coil Boots",
-      "fitment_source": "ebay_listing+title",
+      "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
@@ -18764,7 +18764,7 @@
           "1984\u20131986 Jeep Wagoneer"
         ],
         "raw_compat_rows": 52,
-        "source": "ebay_listing+title",
+        "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398305679597",
         "type": "Spark Plug Wire Set",
@@ -31870,5 +31870,5 @@
       "stock": 1
     }
   ],
-  "fitment_built": "2026-08-20T02:00:49Z"
+  "fitment_built": "2026-08-20T02:34:29Z"
 }
