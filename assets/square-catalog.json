@@ -1,7 +1,7 @@
 {
-  "updated": "2026-08-19T19:00:47Z",
+  "updated": "2026-08-20T00:00:54Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 262,
+  "count": 266,
   "items": [
     {
       "id": "S4IZBA4AG65C6HI2ZDIRMSJR",
@@ -2044,6 +2044,233 @@
       "ebay_type": "Hardware",
       "ebay_brand": "Carlson",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware"
+    },
+    {
+      "id": "JKUAMMO26XBHERJ2AFZUWIS7",
+      "name": "Cardone 10-1518 Brake Master Cylinder Reman",
+      "price": 66.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/62edc6e0b3e42a768db642c191a6248d0117f947/original.jpeg",
+      "url": "https://square.link/u/u0UQ6U0H",
+      "category": "brake",
+      "checkout": true,
+      "variation_id": "Q3SX6RMVB5TZHHF2ATFI5T7Z",
+      "stock": 1,
+      "part_numbers": [
+        "10-1518"
+      ],
+      "interchange": [
+        "NAPA UP M98908",
+        "NMC M20691"
+      ],
+      "vehicles": [
+        "1987 Ford Country Squire",
+        "1972 Ford Gran Torino",
+        "1979\u20131986 Ford LTD",
+        "1987 Ford LTD Crown Victoria",
+        "1972 Ford Ranchero",
+        "1972 Ford Thunderbird",
+        "1972 Ford Torino",
+        "1980 Lincoln Continental",
+        "1972 Lincoln Mark IV",
+        "1980\u20131983 Lincoln Mark VI",
+        "1981\u20131989 Lincoln Town Car",
+        "1987 Mercury Colony Park",
+        "1979\u20131987 Mercury Grand Marquis",
+        "1979\u20131982 Mercury Marquis",
+        "1972 Mercury Montego"
+      ],
+      "vehicle_count_raw": 564,
+      "ebay_item_id": "398305607431",
+      "ebay_type": "Brake Master Cylinder",
+      "ebay_brand": "Cardone",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Master Cylinders",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "10-1518"
+        ],
+        "interchange": [
+          "NAPA UP M98908",
+          "NMC M20691"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1987,
+            "year_to": 1987,
+            "make": "Ford",
+            "model": "Country Squire",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1972,
+            "year_to": 1972,
+            "make": "Ford",
+            "model": "Gran Torino",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1979,
+            "year_to": 1986,
+            "make": "Ford",
+            "model": "LTD",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1987,
+            "make": "Ford",
+            "model": "LTD Crown Victoria",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1972,
+            "year_to": 1972,
+            "make": "Ford",
+            "model": "Ranchero",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1972,
+            "year_to": 1972,
+            "make": "Ford",
+            "model": "Thunderbird",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1972,
+            "year_to": 1972,
+            "make": "Ford",
+            "model": "Torino",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1980,
+            "year_to": 1980,
+            "make": "Lincoln",
+            "model": "Continental",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1972,
+            "year_to": 1972,
+            "make": "Lincoln",
+            "model": "Mark IV",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1980,
+            "year_to": 1983,
+            "make": "Lincoln",
+            "model": "Mark VI",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1981,
+            "year_to": 1989,
+            "make": "Lincoln",
+            "model": "Town Car",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1987,
+            "make": "Mercury",
+            "model": "Colony Park",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1979,
+            "year_to": 1987,
+            "make": "Mercury",
+            "model": "Grand Marquis",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1979,
+            "year_to": 1982,
+            "make": "Mercury",
+            "model": "Marquis",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1972,
+            "year_to": 1972,
+            "make": "Mercury",
+            "model": "Montego",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1987 Ford Country Squire",
+          "1972 Ford Gran Torino",
+          "1979\u20131986 Ford LTD",
+          "1987 Ford LTD Crown Victoria",
+          "1972 Ford Ranchero",
+          "1972 Ford Thunderbird",
+          "1972 Ford Torino",
+          "1980 Lincoln Continental",
+          "1972 Lincoln Mark IV",
+          "1980\u20131983 Lincoln Mark VI",
+          "1981\u20131989 Lincoln Town Car",
+          "1987 Mercury Colony Park",
+          "1979\u20131987 Mercury Grand Marquis",
+          "1979\u20131982 Mercury Marquis",
+          "1972 Mercury Montego"
+        ],
+        "raw_compat_rows": 564,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398305607431",
+        "type": "Brake Master Cylinder",
+        "brand": "Cardone",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Master Cylinders"
+      }
     },
     {
       "id": "P4ZTODX5NKR42HZA4IAPFTOK",
@@ -8398,6 +8625,131 @@
       "stock": 1
     },
     {
+      "id": "P6PI2VDS3T3WTMJUQRZXYHUN",
+      "name": "Lee 7081 USA Made Brake Hardware Kit 1986-91 Buick Cadillac Olds Pontiac NOS",
+      "price": 15.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/4e854b1e1e0169b37103d4ac44b4255f01e9e308/original.jpeg",
+      "url": "https://square.link/u/Rg7Lo77n",
+      "category": "brake",
+      "checkout": true,
+      "variation_id": "IVECCRM5VKQAJW2T2H36KOS3",
+      "stock": 1,
+      "part_numbers": [
+        "7081"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1987\u20131990 Buick Electra",
+        "1986\u20131990 Buick LeSabre",
+        "1987\u20131991 Cadillac DeVille",
+        "1987\u20131991 Cadillac Fleetwood",
+        "1986\u20131991 Cadillac Olds",
+        "1986\u20131990 Oldsmobile Delta 88",
+        "1987\u20131991 Pontiac Bonneville"
+      ],
+      "vehicle_count_raw": 140,
+      "ebay_item_id": "398305586178",
+      "ebay_type": "Drum Brake Hardware Kit",
+      "ebay_brand": "Lee",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware",
+      "fitment_source": "ebay_listing+title",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "7081"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1987,
+            "year_to": 1990,
+            "make": "Buick",
+            "model": "Electra",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1986,
+            "year_to": 1990,
+            "make": "Buick",
+            "model": "LeSabre",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1991,
+            "make": "Cadillac",
+            "model": "DeVille",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1991,
+            "make": "Cadillac",
+            "model": "Fleetwood",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1986,
+            "year_to": 1991,
+            "make": "Cadillac",
+            "model": "Olds",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1986,
+            "year_to": 1990,
+            "make": "Oldsmobile",
+            "model": "Delta 88",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1991,
+            "make": "Pontiac",
+            "model": "Bonneville",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1987\u20131990 Buick Electra",
+          "1986\u20131990 Buick LeSabre",
+          "1987\u20131991 Cadillac DeVille",
+          "1987\u20131991 Cadillac Fleetwood",
+          "1986\u20131991 Cadillac Olds",
+          "1986\u20131990 Oldsmobile Delta 88",
+          "1987\u20131991 Pontiac Bonneville"
+        ],
+        "raw_compat_rows": 140,
+        "source": "ebay_listing+title",
+        "confidence": "high",
+        "ebay_item_id": "398305586178",
+        "type": "Drum Brake Hardware Kit",
+        "brand": "Lee",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware"
+      }
+    },
+    {
       "id": "G4TROGQ5TICAO3DSG6G3D2OX",
       "name": "Lee 7146 Drum Brake Hardware NOS 69-76 F-250 E-250",
       "price": 19.98,
@@ -8469,6 +8821,244 @@
       "ebay_brand": "Lee",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware",
       "stock": 1
+    },
+    {
+      "id": "PPFBJTDOJNVEFGNPFIXASTZV",
+      "name": "Lee 7164 USA Made Drum Brake Hardware Kit 1976-2002 Ford E-250 E-350 F-350 NOS",
+      "price": 22.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/a04d562576cd97d2c841c6b61be70cf780073589/original.jpeg",
+      "url": "https://square.link/u/9VKOEqbt",
+      "category": "brake",
+      "checkout": true,
+      "variation_id": "44JQIAZ4HWIRULFQI4Y6Z5AV",
+      "stock": 1,
+      "part_numbers": [
+        "7164"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1995\u20131998 Ford Club Wagon",
+        "1976\u20132002 Ford E-250",
+        "1976\u20132002 Ford E-250 Econoline",
+        "1977\u20131996 Ford E-350 Econoline",
+        "1980\u20131999 Ford F-250",
+        "1976\u20131995 Ford F-350"
+      ],
+      "vehicle_count_raw": 3001,
+      "ebay_item_id": "398305598847",
+      "ebay_type": "Drum Brake Hardware Kit",
+      "ebay_brand": "Lee",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware",
+      "fitment_source": "ebay_listing+title",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "7164"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1995,
+            "year_to": 1998,
+            "make": "Ford",
+            "model": "Club Wagon",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1976,
+            "year_to": 2002,
+            "make": "Ford",
+            "model": "E-250",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1976,
+            "year_to": 2002,
+            "make": "Ford",
+            "model": "E-250 Econoline",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1977,
+            "year_to": 1996,
+            "make": "Ford",
+            "model": "E-350 Econoline",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1980,
+            "year_to": 1999,
+            "make": "Ford",
+            "model": "F-250",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1976,
+            "year_to": 1995,
+            "make": "Ford",
+            "model": "F-350",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1995\u20131998 Ford Club Wagon",
+          "1976\u20132002 Ford E-250",
+          "1976\u20132002 Ford E-250 Econoline",
+          "1977\u20131996 Ford E-350 Econoline",
+          "1980\u20131999 Ford F-250",
+          "1976\u20131995 Ford F-350"
+        ],
+        "raw_compat_rows": 3001,
+        "source": "ebay_listing+title",
+        "confidence": "high",
+        "ebay_item_id": "398305598847",
+        "type": "Drum Brake Hardware Kit",
+        "brand": "Lee",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware"
+      }
+    },
+    {
+      "id": "NECCBCVVCXSQ5PYK2VPUY3GH",
+      "name": "Lee 7166 USA Made Brake Hardware Kit 1981-94 Ford Mercury Tempo Escort NOS",
+      "price": 18.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/31870a3e5abf8c665e75e4eb25480e78eea081c5/original.jpeg",
+      "url": "https://square.link/u/qG8BJ5EI",
+      "category": "brake",
+      "checkout": true,
+      "variation_id": "KUK7SQ3S6CUC5CO6J2H5HALD",
+      "stock": 1,
+      "part_numbers": [
+        "7166"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1982\u20131988 Ford EXP",
+        "1981\u20131990 Ford Escort",
+        "1984\u20131994 Ford Tempo",
+        "1982\u20131983 Mercury LN7",
+        "1981\u20131987 Mercury Lynx",
+        "1981\u20131994 Mercury Tempo",
+        "1984\u20131994 Mercury Topaz"
+      ],
+      "vehicle_count_raw": 510,
+      "ebay_item_id": "398305599495",
+      "ebay_type": "Drum Brake Hardware Kit",
+      "ebay_brand": "Lee",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware",
+      "fitment_source": "ebay_listing+title",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "7166"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1982,
+            "year_to": 1988,
+            "make": "Ford",
+            "model": "EXP",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1981,
+            "year_to": 1990,
+            "make": "Ford",
+            "model": "Escort",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 1994,
+            "make": "Ford",
+            "model": "Tempo",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1982,
+            "year_to": 1983,
+            "make": "Mercury",
+            "model": "LN7",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1981,
+            "year_to": 1987,
+            "make": "Mercury",
+            "model": "Lynx",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1981,
+            "year_to": 1994,
+            "make": "Mercury",
+            "model": "Tempo",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 1994,
+            "make": "Mercury",
+            "model": "Topaz",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1982\u20131988 Ford EXP",
+          "1981\u20131990 Ford Escort",
+          "1984\u20131994 Ford Tempo",
+          "1982\u20131983 Mercury LN7",
+          "1981\u20131987 Mercury Lynx",
+          "1981\u20131994 Mercury Tempo",
+          "1984\u20131994 Mercury Topaz"
+        ],
+        "raw_compat_rows": 510,
+        "source": "ebay_listing+title",
+        "confidence": "high",
+        "ebay_item_id": "398305599495",
+        "type": "Drum Brake Hardware Kit",
+        "brand": "Lee",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware"
+      }
     },
     {
       "id": "DPRSU7RX4SKAHPRFDDTPFKZR",
@@ -30995,5 +31585,5 @@
       "stock": 1
     }
   ],
-  "fitment_built": "2026-08-19T19:00:47Z"
+  "fitment_built": "2026-08-20T00:00:54Z"
 }
