@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-20T19:00:47Z",
+  "updated": "2026-08-20T20:45:19Z",
   "store": "https://buccaneersalvage.square.site/",
   "count": 269,
   "items": [
@@ -18656,13 +18656,30 @@
         "Delphi XS10204"
       ],
       "vehicles": [
-        "1985\u20131986 Chevrolet Camaro",
+        "1983\u20131986 Buick Century",
+        "1985 Buick Skylark",
+        "1985\u20131986 Cadillac Cimarron",
+        "1985\u20131989 Chevrolet Camaro",
+        "1985\u20131986 Chevrolet Cavalier",
         "1985\u20131986 Chevrolet Celebrity",
-        "1985 Chevrolet Citation II",
+        "1985 Chevrolet Citation",
+        "1990\u20131995 Chevrolet Lumina APV",
+        "1985\u20131993 Chevrolet S10",
+        "1985\u20131989 Chevrolet S10 Blazer",
+        "1985\u20131990 GMC S15",
+        "1985\u20131989 GMC S15 Jimmy",
+        "1991\u20131993 GMC Sonoma",
         "1983\u20131995 Isuzu 2.8",
-        "1984\u20131986 Jeep Cherokee",
-        "1986 Jeep Comanche",
-        "1984\u20131986 Jeep Wagoneer"
+        "1991\u20131994 Isuzu Pickup",
+        "1991\u20131992 Isuzu Rodeo",
+        "1989\u20131991 Isuzu Trooper",
+        "1985\u20131986 Oldsmobile Cutlass Ciera",
+        "1985\u20131986 Oldsmobile Firenza",
+        "1990\u20131994 Oldsmobile Silhouette",
+        "1985\u20131986 Pontiac 6000",
+        "1985\u20131988 Pontiac Fiero",
+        "1985\u20131989 Pontiac Firebird",
+        "1990\u20131995 Pontiac Trans Sport"
       ],
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
@@ -18678,10 +18695,50 @@
         ],
         "vehicles": [
           {
+            "year_from": 1983,
+            "year_to": 1986,
+            "make": "Buick",
+            "model": "Century",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1985,
+            "make": "Buick",
+            "model": "Skylark",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1986,
+            "make": "Cadillac",
+            "model": "Cimarron",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1989,
+            "make": "Chevrolet",
+            "model": "Camaro",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
             "year_from": 1985,
             "year_to": 1986,
             "make": "Chevrolet",
-            "model": "Camaro",
+            "model": "Cavalier",
             "notes": "",
             "source": "ebay_compat",
             "confidence": "high",
@@ -18701,7 +18758,67 @@
             "year_from": 1985,
             "year_to": 1985,
             "make": "Chevrolet",
-            "model": "Citation II",
+            "model": "Citation",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1990,
+            "year_to": 1995,
+            "make": "Chevrolet",
+            "model": "Lumina APV",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1993,
+            "make": "Chevrolet",
+            "model": "S10",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1989,
+            "make": "Chevrolet",
+            "model": "S10 Blazer",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1990,
+            "make": "GMC",
+            "model": "S15",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1989,
+            "make": "GMC",
+            "model": "S15 Jimmy",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1991,
+            "year_to": 1993,
+            "make": "GMC",
+            "model": "Sonoma",
             "notes": "",
             "source": "ebay_compat",
             "confidence": "high",
@@ -18718,30 +18835,100 @@
             "trim_count": null
           },
           {
-            "year_from": 1984,
-            "year_to": 1986,
-            "make": "Jeep",
-            "model": "Cherokee",
+            "year_from": 1991,
+            "year_to": 1994,
+            "make": "Isuzu",
+            "model": "Pickup",
             "notes": "",
             "source": "ebay_compat",
             "confidence": "high",
             "trim_count": null
           },
           {
-            "year_from": 1986,
-            "year_to": 1986,
-            "make": "Jeep",
-            "model": "Comanche",
+            "year_from": 1991,
+            "year_to": 1992,
+            "make": "Isuzu",
+            "model": "Rodeo",
             "notes": "",
             "source": "ebay_compat",
             "confidence": "high",
             "trim_count": null
           },
           {
-            "year_from": 1984,
+            "year_from": 1989,
+            "year_to": 1991,
+            "make": "Isuzu",
+            "model": "Trooper",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
             "year_to": 1986,
-            "make": "Jeep",
-            "model": "Wagoneer",
+            "make": "Oldsmobile",
+            "model": "Cutlass Ciera",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1986,
+            "make": "Oldsmobile",
+            "model": "Firenza",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1990,
+            "year_to": 1994,
+            "make": "Oldsmobile",
+            "model": "Silhouette",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1986,
+            "make": "Pontiac",
+            "model": "6000",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1988,
+            "make": "Pontiac",
+            "model": "Fiero",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1989,
+            "make": "Pontiac",
+            "model": "Firebird",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1990,
+            "year_to": 1995,
+            "make": "Pontiac",
+            "model": "Trans Sport",
             "notes": "",
             "source": "ebay_compat",
             "confidence": "high",
@@ -18749,15 +18936,32 @@
           }
         ],
         "vehicle_labels": [
-          "1985\u20131986 Chevrolet Camaro",
+          "1983\u20131986 Buick Century",
+          "1985 Buick Skylark",
+          "1985\u20131986 Cadillac Cimarron",
+          "1985\u20131989 Chevrolet Camaro",
+          "1985\u20131986 Chevrolet Cavalier",
           "1985\u20131986 Chevrolet Celebrity",
-          "1985 Chevrolet Citation II",
+          "1985 Chevrolet Citation",
+          "1990\u20131995 Chevrolet Lumina APV",
+          "1985\u20131993 Chevrolet S10",
+          "1985\u20131989 Chevrolet S10 Blazer",
+          "1985\u20131990 GMC S15",
+          "1985\u20131989 GMC S15 Jimmy",
+          "1991\u20131993 GMC Sonoma",
           "1983\u20131995 Isuzu 2.8",
-          "1984\u20131986 Jeep Cherokee",
-          "1986 Jeep Comanche",
-          "1984\u20131986 Jeep Wagoneer"
+          "1991\u20131994 Isuzu Pickup",
+          "1991\u20131992 Isuzu Rodeo",
+          "1989\u20131991 Isuzu Trooper",
+          "1985\u20131986 Oldsmobile Cutlass Ciera",
+          "1985\u20131986 Oldsmobile Firenza",
+          "1990\u20131994 Oldsmobile Silhouette",
+          "1985\u20131986 Pontiac 6000",
+          "1985\u20131988 Pontiac Fiero",
+          "1985\u20131989 Pontiac Firebird",
+          "1990\u20131995 Pontiac Trans Sport"
         ],
-        "raw_compat_rows": 52,
+        "raw_compat_rows": 419,
         "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398305679597",
@@ -18765,7 +18969,7 @@
         "brand": "LaSalle",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Wires & Coil Boots"
       },
-      "vehicle_count_raw": 52,
+      "vehicle_count_raw": 419,
       "ebay_item_id": "398305679597",
       "ebay_type": "Spark Plug Wire Set",
       "ebay_brand": "LaSalle",
@@ -18785,11 +18989,13 @@
         "780077"
       ],
       "vehicles": [
+        "1962\u20131968 Chevrolet Chevy II",
         "1969\u20131970 Chevrolet Nova",
         "1971\u20131974 Chevrolet Vega",
         "1982 Datsun 310",
         "1988\u20131992 Mazda 626",
         "1987\u20131993 Mazda B2200",
+        "1988\u20131992 Mazda MX-6",
         "1983 Nissan Sentra",
         "1961\u20131963 Pontiac Tempest"
       ],
@@ -18801,6 +19007,16 @@
         ],
         "interchange": [],
         "vehicles": [
+          {
+            "year_from": 1962,
+            "year_to": 1968,
+            "make": "Chevrolet",
+            "model": "Chevy II",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
           {
             "year_from": 1969,
             "year_to": 1970,
@@ -18852,6 +19068,16 @@
             "trim_count": null
           },
           {
+            "year_from": 1988,
+            "year_to": 1992,
+            "make": "Mazda",
+            "model": "MX-6",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
             "year_from": 1983,
             "year_to": 1983,
             "make": "Nissan",
@@ -18873,15 +19099,17 @@
           }
         ],
         "vehicle_labels": [
+          "1962\u20131968 Chevrolet Chevy II",
           "1969\u20131970 Chevrolet Nova",
           "1971\u20131974 Chevrolet Vega",
           "1982 Datsun 310",
           "1988\u20131992 Mazda 626",
           "1987\u20131993 Mazda B2200",
+          "1988\u20131992 Mazda MX-6",
           "1983 Nissan Sentra",
           "1961\u20131963 Pontiac Tempest"
         ],
-        "raw_compat_rows": 207,
+        "raw_compat_rows": 212,
         "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398268294994",
@@ -18889,7 +19117,7 @@
         "brand": "LaSalle",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Wires & Coil Boots"
       },
-      "vehicle_count_raw": 207,
+      "vehicle_count_raw": 212,
       "ebay_item_id": "398268294994",
       "ebay_type": "Spark Plug Wire Set",
       "ebay_brand": "LaSalle",
@@ -18917,12 +19145,22 @@
         "NGK 51235"
       ],
       "vehicles": [
-        "GM",
+        "1987\u20131992 Buick Century",
+        "1987\u20131991 Buick Skylark",
+        "1987 Buick Somerset",
+        "1987\u20131990 Chevrolet Celebrity",
+        "1990\u20131992 Chevrolet Lumina",
         "GM Celebrity",
-        "GM Century"
+        "GM Century",
+        "1987 Oldsmobile Calais",
+        "1987\u20131992 Oldsmobile Cutlass Ciera",
+        "1987\u20131992 Oldsmobile Cutlass Cruiser",
+        "1987\u20131991 Pontiac 6000",
+        "1987\u20131988 Pontiac Fiero",
+        "1987\u20131991 Pontiac Grand Am"
       ],
       "fitment_source": "ebay_listing",
-      "fitment_confidence": "medium",
+      "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
           "780082",
@@ -18936,10 +19174,50 @@
         ],
         "vehicles": [
           {
-            "year_from": null,
-            "year_to": null,
-            "make": "GM",
-            "model": "",
+            "year_from": 1987,
+            "year_to": 1992,
+            "make": "Buick",
+            "model": "Century",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1991,
+            "make": "Buick",
+            "model": "Skylark",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1987,
+            "make": "Buick",
+            "model": "Somerset",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1990,
+            "make": "Chevrolet",
+            "model": "Celebrity",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1990,
+            "year_to": 1992,
+            "make": "Chevrolet",
+            "model": "Lumina",
             "notes": "",
             "source": "ebay_compat",
             "confidence": "high",
@@ -18964,22 +19242,92 @@
             "source": "ebay_compat",
             "confidence": "high",
             "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1987,
+            "make": "Oldsmobile",
+            "model": "Calais",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1992,
+            "make": "Oldsmobile",
+            "model": "Cutlass Ciera",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1992,
+            "make": "Oldsmobile",
+            "model": "Cutlass Cruiser",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1991,
+            "make": "Pontiac",
+            "model": "6000",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1988,
+            "make": "Pontiac",
+            "model": "Fiero",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1991,
+            "make": "Pontiac",
+            "model": "Grand Am",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
           }
         ],
         "vehicle_labels": [
-          "GM",
+          "1987\u20131992 Buick Century",
+          "1987\u20131991 Buick Skylark",
+          "1987 Buick Somerset",
+          "1987\u20131990 Chevrolet Celebrity",
+          "1990\u20131992 Chevrolet Lumina",
           "GM Celebrity",
-          "GM Century"
+          "GM Century",
+          "1987 Oldsmobile Calais",
+          "1987\u20131992 Oldsmobile Cutlass Ciera",
+          "1987\u20131992 Oldsmobile Cutlass Cruiser",
+          "1987\u20131991 Pontiac 6000",
+          "1987\u20131988 Pontiac Fiero",
+          "1987\u20131991 Pontiac Grand Am"
         ],
-        "raw_compat_rows": 3,
+        "raw_compat_rows": 172,
         "source": "ebay_listing",
-        "confidence": "medium",
+        "confidence": "high",
         "ebay_item_id": "398264703265",
         "type": "Spark Plug Wire Set",
         "brand": "LaSalle",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Wires & Coil Boots"
       },
-      "vehicle_count_raw": 3,
+      "vehicle_count_raw": 172,
       "ebay_item_id": "398264703265",
       "ebay_type": "Spark Plug Wire Set",
       "ebay_brand": "LaSalle",
@@ -19002,10 +19350,9 @@
         "NAPA Belden BEL700176"
       ],
       "vehicles": [
-        "1950\u20131979 Volkswagen Beetle",
         "1955\u20131974 Volkswagen Karmann Ghia",
         "1971\u20131980 Volkswagen Super Beetle",
-        "1973\u20131974 Volkswagen Thing"
+        "1950\u20131972 Volkswagen Transporter"
       ],
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
@@ -19017,16 +19364,6 @@
           "NAPA Belden BEL700176"
         ],
         "vehicles": [
-          {
-            "year_from": 1950,
-            "year_to": 1979,
-            "make": "Volkswagen",
-            "model": "Beetle",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
           {
             "year_from": 1955,
             "year_to": 1974,
@@ -19048,10 +19385,10 @@
             "trim_count": null
           },
           {
-            "year_from": 1973,
-            "year_to": 1974,
+            "year_from": 1950,
+            "year_to": 1972,
             "make": "Volkswagen",
-            "model": "Thing",
+            "model": "Transporter",
             "notes": "",
             "source": "ebay_compat",
             "confidence": "high",
@@ -19059,12 +19396,11 @@
           }
         ],
         "vehicle_labels": [
-          "1950\u20131979 Volkswagen Beetle",
           "1955\u20131974 Volkswagen Karmann Ghia",
           "1971\u20131980 Volkswagen Super Beetle",
-          "1973\u20131974 Volkswagen Thing"
+          "1950\u20131972 Volkswagen Transporter"
         ],
-        "raw_compat_rows": 176,
+        "raw_compat_rows": 178,
         "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398305726150",
@@ -19072,7 +19408,7 @@
         "brand": "LaSalle",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Wires & Coil Boots"
       },
-      "vehicle_count_raw": 176,
+      "vehicle_count_raw": 178,
       "ebay_item_id": "398305726150",
       "ebay_type": "Spark Plug Wire Set",
       "ebay_brand": "LaSalle",
@@ -19950,15 +20286,10 @@
       "vehicles": [
         "1984\u20131986 Buick Century",
         "1984\u20131985 Buick Skylark",
+        "1985\u20131987 Chevrolet Astro",
         "1984\u20131986 Chevrolet Camaro",
         "1984\u20131986 Chevrolet Celebrity",
-        "1984\u20131985 Chevrolet Citation II",
-        "1985\u20131987 Chevrolet S10",
-        "1985\u20131987 Chevrolet S10 Blazer",
-        "1985\u20131987 GMC S15",
-        "1985\u20131987 GMC S15 Jimmy",
-        "1984\u20131986 Oldsmobile Cutlass Ciera",
-        "1984 Oldsmobile Omega"
+        "1985\u20131987 Chevrolet S10 Blazer"
       ],
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
@@ -19995,6 +20326,16 @@
             "trim_count": null
           },
           {
+            "year_from": 1985,
+            "year_to": 1987,
+            "make": "Chevrolet",
+            "model": "Astro",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
             "year_from": 1984,
             "year_to": 1986,
             "make": "Chevrolet",
@@ -20015,70 +20356,10 @@
             "trim_count": null
           },
           {
-            "year_from": 1984,
-            "year_to": 1985,
-            "make": "Chevrolet",
-            "model": "Citation II",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1985,
-            "year_to": 1987,
-            "make": "Chevrolet",
-            "model": "S10",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
             "year_from": 1985,
             "year_to": 1987,
             "make": "Chevrolet",
             "model": "S10 Blazer",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1985,
-            "year_to": 1987,
-            "make": "GMC",
-            "model": "S15",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1985,
-            "year_to": 1987,
-            "make": "GMC",
-            "model": "S15 Jimmy",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1984,
-            "year_to": 1986,
-            "make": "Oldsmobile",
-            "model": "Cutlass Ciera",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1984,
-            "year_to": 1984,
-            "make": "Oldsmobile",
-            "model": "Omega",
             "notes": "",
             "source": "ebay_compat",
             "confidence": "high",
@@ -20088,15 +20369,10 @@
         "vehicle_labels": [
           "1984\u20131986 Buick Century",
           "1984\u20131985 Buick Skylark",
+          "1985\u20131987 Chevrolet Astro",
           "1984\u20131986 Chevrolet Camaro",
           "1984\u20131986 Chevrolet Celebrity",
-          "1984\u20131985 Chevrolet Citation II",
-          "1985\u20131987 Chevrolet S10",
-          "1985\u20131987 Chevrolet S10 Blazer",
-          "1985\u20131987 GMC S15",
-          "1985\u20131987 GMC S15 Jimmy",
-          "1984\u20131986 Oldsmobile Cutlass Ciera",
-          "1984 Oldsmobile Omega"
+          "1985\u20131987 Chevrolet S10 Blazer"
         ],
         "raw_compat_rows": 526,
         "source": "ebay_listing",
@@ -31834,5 +32110,5 @@
       "stock": 1
     }
   ],
-  "fitment_built": "2026-08-20T19:00:47Z"
+  "fitment_built": "2026-08-20T20:45:19Z"
 }
