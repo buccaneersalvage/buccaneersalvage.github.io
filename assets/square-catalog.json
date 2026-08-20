@@ -1,7 +1,7 @@
 {
-  "updated": "2026-08-20T00:00:54Z",
+  "updated": "2026-08-20T02:00:49Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 266,
+  "count": 269,
   "items": [
     {
       "id": "S4IZBA4AG65C6HI2ZDIRMSJR",
@@ -2054,7 +2054,6 @@
       "category": "brake",
       "checkout": true,
       "variation_id": "Q3SX6RMVB5TZHHF2ATFI5T7Z",
-      "stock": 1,
       "part_numbers": [
         "10-1518"
       ],
@@ -2079,11 +2078,6 @@
         "1979\u20131982 Mercury Marquis",
         "1972 Mercury Montego"
       ],
-      "vehicle_count_raw": 564,
-      "ebay_item_id": "398305607431",
-      "ebay_type": "Brake Master Cylinder",
-      "ebay_brand": "Cardone",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Master Cylinders",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -2270,7 +2264,13 @@
         "type": "Brake Master Cylinder",
         "brand": "Cardone",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Master Cylinders"
-      }
+      },
+      "vehicle_count_raw": 564,
+      "ebay_item_id": "398305607431",
+      "ebay_type": "Brake Master Cylinder",
+      "ebay_brand": "Cardone",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Master Cylinders",
+      "stock": 1
     },
     {
       "id": "P4ZTODX5NKR42HZA4IAPFTOK",
@@ -8633,11 +8633,9 @@
       "category": "brake",
       "checkout": true,
       "variation_id": "IVECCRM5VKQAJW2T2H36KOS3",
-      "stock": 1,
       "part_numbers": [
         "7081"
       ],
-      "interchange": [],
       "vehicles": [
         "1987\u20131990 Buick Electra",
         "1986\u20131990 Buick LeSabre",
@@ -8647,12 +8645,7 @@
         "1986\u20131990 Oldsmobile Delta 88",
         "1987\u20131991 Pontiac Bonneville"
       ],
-      "vehicle_count_raw": 140,
-      "ebay_item_id": "398305586178",
-      "ebay_type": "Drum Brake Hardware Kit",
-      "ebay_brand": "Lee",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware",
-      "fitment_source": "ebay_listing+title",
+      "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
@@ -8741,13 +8734,20 @@
           "1987\u20131991 Pontiac Bonneville"
         ],
         "raw_compat_rows": 140,
-        "source": "ebay_listing+title",
+        "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398305586178",
         "type": "Drum Brake Hardware Kit",
         "brand": "Lee",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware"
-      }
+      },
+      "vehicle_count_raw": 140,
+      "ebay_item_id": "398305586178",
+      "ebay_type": "Drum Brake Hardware Kit",
+      "ebay_brand": "Lee",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware",
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "G4TROGQ5TICAO3DSG6G3D2OX",
@@ -8831,11 +8831,9 @@
       "category": "brake",
       "checkout": true,
       "variation_id": "44JQIAZ4HWIRULFQI4Y6Z5AV",
-      "stock": 1,
       "part_numbers": [
         "7164"
       ],
-      "interchange": [],
       "vehicles": [
         "1995\u20131998 Ford Club Wagon",
         "1976\u20132002 Ford E-250",
@@ -8844,12 +8842,7 @@
         "1980\u20131999 Ford F-250",
         "1976\u20131995 Ford F-350"
       ],
-      "vehicle_count_raw": 3001,
-      "ebay_item_id": "398305598847",
-      "ebay_type": "Drum Brake Hardware Kit",
-      "ebay_brand": "Lee",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware",
-      "fitment_source": "ebay_listing+title",
+      "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
@@ -8927,13 +8920,20 @@
           "1976\u20131995 Ford F-350"
         ],
         "raw_compat_rows": 3001,
-        "source": "ebay_listing+title",
+        "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398305598847",
         "type": "Drum Brake Hardware Kit",
         "brand": "Lee",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware"
-      }
+      },
+      "vehicle_count_raw": 3001,
+      "ebay_item_id": "398305598847",
+      "ebay_type": "Drum Brake Hardware Kit",
+      "ebay_brand": "Lee",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware",
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "NECCBCVVCXSQ5PYK2VPUY3GH",
@@ -8944,11 +8944,9 @@
       "category": "brake",
       "checkout": true,
       "variation_id": "KUK7SQ3S6CUC5CO6J2H5HALD",
-      "stock": 1,
       "part_numbers": [
         "7166"
       ],
-      "interchange": [],
       "vehicles": [
         "1982\u20131988 Ford EXP",
         "1981\u20131990 Ford Escort",
@@ -8958,12 +8956,7 @@
         "1981\u20131994 Mercury Tempo",
         "1984\u20131994 Mercury Topaz"
       ],
-      "vehicle_count_raw": 510,
-      "ebay_item_id": "398305599495",
-      "ebay_type": "Drum Brake Hardware Kit",
-      "ebay_brand": "Lee",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware",
-      "fitment_source": "ebay_listing+title",
+      "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
@@ -9052,13 +9045,20 @@
           "1984\u20131994 Mercury Topaz"
         ],
         "raw_compat_rows": 510,
-        "source": "ebay_listing+title",
+        "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398305599495",
         "type": "Drum Brake Hardware Kit",
         "brand": "Lee",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware"
-      }
+      },
+      "vehicle_count_raw": 510,
+      "ebay_item_id": "398305599495",
+      "ebay_type": "Drum Brake Hardware Kit",
+      "ebay_brand": "Lee",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware",
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "DPRSU7RX4SKAHPRFDDTPFKZR",
@@ -18638,6 +18638,141 @@
       "stock": 1
     },
     {
+      "id": "DLU4T32ZZN2JIMTKXJCLLNYZ",
+      "name": "LaSalle 780067 Spark Plug Wire Set 7MM 6CYL 1982-1986 GM Jeep 2.8 V6 NOS",
+      "price": 49.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/5b73fd626275fb4f2c15bef9af7f141ec9bd5289/original.jpeg",
+      "url": "https://square.link/u/tRvZYbYf",
+      "category": "ignition",
+      "checkout": true,
+      "variation_id": "4WVRLJ4Y5FN2YDXYPRXV6EDN",
+      "stock": 1,
+      "part_numbers": [
+        "780067"
+      ],
+      "interchange": [
+        "NAPA BEL700391",
+        "BWD CH7609",
+        "Standard 6640",
+        "Delphi XS10204"
+      ],
+      "vehicles": [
+        "1985\u20131986 Chevrolet Camaro",
+        "1985\u20131986 Chevrolet Celebrity",
+        "1985 Chevrolet Citation II",
+        "1982\u20131986 Jeep 2.8",
+        "1984\u20131986 Jeep Cherokee",
+        "1986 Jeep Comanche",
+        "1984\u20131986 Jeep Wagoneer"
+      ],
+      "vehicle_count_raw": 52,
+      "ebay_item_id": "398305679597",
+      "ebay_type": "Spark Plug Wire Set",
+      "ebay_brand": "LaSalle",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Wires & Coil Boots",
+      "fitment_source": "ebay_listing+title",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "780067"
+        ],
+        "interchange": [
+          "NAPA BEL700391",
+          "BWD CH7609",
+          "Standard 6640",
+          "Delphi XS10204"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1985,
+            "year_to": 1986,
+            "make": "Chevrolet",
+            "model": "Camaro",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1986,
+            "make": "Chevrolet",
+            "model": "Celebrity",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1985,
+            "make": "Chevrolet",
+            "model": "Citation II",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1982,
+            "year_to": 1986,
+            "make": "Jeep",
+            "model": "2.8",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 1986,
+            "make": "Jeep",
+            "model": "Cherokee",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1986,
+            "year_to": 1986,
+            "make": "Jeep",
+            "model": "Comanche",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 1986,
+            "make": "Jeep",
+            "model": "Wagoneer",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1985\u20131986 Chevrolet Camaro",
+          "1985\u20131986 Chevrolet Celebrity",
+          "1985 Chevrolet Citation II",
+          "1982\u20131986 Jeep 2.8",
+          "1984\u20131986 Jeep Cherokee",
+          "1986 Jeep Comanche",
+          "1984\u20131986 Jeep Wagoneer"
+        ],
+        "raw_compat_rows": 52,
+        "source": "ebay_listing+title",
+        "confidence": "high",
+        "ebay_item_id": "398305679597",
+        "type": "Spark Plug Wire Set",
+        "brand": "LaSalle",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Wires & Coil Boots"
+      }
+    },
+    {
       "id": "X2VU3QYJOMXOX4JIKYHBTPT4",
       "name": "LaSalle 780077 Spark Plug Wire Fits Chevy Nova Vega Chevy II Mazda Subaru NOS",
       "price": 45.99,
@@ -18838,6 +18973,99 @@
       "ebay_brand": "LaSalle",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Wires & Coil Boots",
       "stock": 1
+    },
+    {
+      "id": "M7NQWFVB4C72ILZZVLN5TFIL",
+      "name": "LaSalle 780412 Spark Plug Wire Set 7mm VW Beetle Transporter Karmann Ghia NOS",
+      "price": 44.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/621fff530df039339eef0ba885010466c5ce7ef9/original.jpeg",
+      "url": "https://square.link/u/P5EsBl2o",
+      "category": "ignition",
+      "checkout": true,
+      "variation_id": "3IJC7ZIXZ4AZE3F2SYDEDCGL",
+      "stock": 1,
+      "part_numbers": [
+        "780412"
+      ],
+      "interchange": [
+        "NAPA Belden BEL700176"
+      ],
+      "vehicles": [
+        "1950\u20131979 Volkswagen Beetle",
+        "1955\u20131974 Volkswagen Karmann Ghia",
+        "1971\u20131980 Volkswagen Super Beetle",
+        "1973\u20131974 Volkswagen Thing"
+      ],
+      "vehicle_count_raw": 176,
+      "ebay_item_id": "398305726150",
+      "ebay_type": "Spark Plug Wire Set",
+      "ebay_brand": "LaSalle",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Wires & Coil Boots",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "780412"
+        ],
+        "interchange": [
+          "NAPA Belden BEL700176"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1950,
+            "year_to": 1979,
+            "make": "Volkswagen",
+            "model": "Beetle",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1955,
+            "year_to": 1974,
+            "make": "Volkswagen",
+            "model": "Karmann Ghia",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1971,
+            "year_to": 1980,
+            "make": "Volkswagen",
+            "model": "Super Beetle",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1973,
+            "year_to": 1974,
+            "make": "Volkswagen",
+            "model": "Thing",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1950\u20131979 Volkswagen Beetle",
+          "1955\u20131974 Volkswagen Karmann Ghia",
+          "1971\u20131980 Volkswagen Super Beetle",
+          "1973\u20131974 Volkswagen Thing"
+        ],
+        "raw_compat_rows": 176,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398305726150",
+        "type": "Spark Plug Wire Set",
+        "brand": "LaSalle",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Wires & Coil Boots"
+      }
     },
     {
       "id": "6GLFQLRM64VCWRYXXKKTCQVD",
@@ -30822,6 +31050,63 @@
       "interchange": []
     },
     {
+      "id": "M7FDSHEEZGIOTPEE2GWZOKRM",
+      "name": "Parts Master 62-402 Clutch Cable 1976-1977 Chevrolet Nova NOS Pioneer CA-402",
+      "price": 24.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/ca6fbfbb05cafbe80d0db47e1b745d476f780830/original.jpeg",
+      "url": "https://square.link/u/fk2cDdII",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "LL34ONYDRIRQRMQMF5D5DDDH",
+      "stock": 1,
+      "part_numbers": [
+        "62-402"
+      ],
+      "interchange": [
+        "Pioneer CA-402"
+      ],
+      "vehicles": [
+        "1976\u20131977 Chevrolet Nova"
+      ],
+      "vehicle_count_raw": 50,
+      "ebay_item_id": "398305648097",
+      "ebay_type": "Clutch Cable",
+      "ebay_brand": "Parts Master",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:Clutch Parts & Kits:Clutch Cables",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "62-402"
+        ],
+        "interchange": [
+          "Pioneer CA-402"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1976,
+            "year_to": 1977,
+            "make": "Chevrolet",
+            "model": "Nova",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1976\u20131977 Chevrolet Nova"
+        ],
+        "raw_compat_rows": 50,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398305648097",
+        "type": "Clutch Cable",
+        "brand": "Parts Master",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:Clutch Parts & Kits:Clutch Cables"
+      }
+    },
+    {
       "id": "4ZIBBGXFF65NRMKSS3IQ2R3T",
       "name": "Perfect Circle 260-5045 Right Lower Control Arm 2.3L 85-94 Tempo Topaz NOS",
       "price": 24.99,
@@ -31585,5 +31870,5 @@
       "stock": 1
     }
   ],
-  "fitment_built": "2026-08-20T00:00:54Z"
+  "fitment_built": "2026-08-20T02:00:49Z"
 }
