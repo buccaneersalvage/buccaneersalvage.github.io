@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-20T20:45:19Z",
+  "updated": "2026-08-20T20:52:10Z",
   "store": "https://buccaneersalvage.square.site/",
   "count": 269,
   "items": [
@@ -13422,7 +13422,6 @@
         "1980\u20131982 Chevrolet Caprice",
         "1982\u20131984 Chevrolet Celebrity",
         "1980\u20131982 Chevrolet Impala",
-        "GM Olds",
         "1971\u20131984 Oldsmobile 98",
         "1971\u20131990 Oldsmobile Custom Cruiser",
         "1970\u20131980 Oldsmobile Cutlass",
@@ -13543,16 +13542,6 @@
             "trim_count": null
           },
           {
-            "year_from": null,
-            "year_to": null,
-            "make": "GM",
-            "model": "Olds",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
             "year_from": 1971,
             "year_to": 1984,
             "make": "Oldsmobile",
@@ -13644,7 +13633,6 @@
           "1980\u20131982 Chevrolet Caprice",
           "1982\u20131984 Chevrolet Celebrity",
           "1980\u20131982 Chevrolet Impala",
-          "GM Olds",
           "1971\u20131984 Oldsmobile 98",
           "1971\u20131990 Oldsmobile Custom Cruiser",
           "1970\u20131980 Oldsmobile Cutlass",
@@ -13654,7 +13642,7 @@
           "1977\u20131982 Pontiac Bonneville",
           "1977\u20131981 Pontiac Catalina"
         ],
-        "raw_compat_rows": 37,
+        "raw_compat_rows": 2179,
         "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398274996675",
@@ -13662,7 +13650,7 @@
         "brand": "WIX",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Filters"
       },
-      "vehicle_count_raw": 37,
+      "vehicle_count_raw": 2179,
       "ebay_item_id": "398274996675",
       "ebay_type": "Crankcase Air Filter Breather",
       "ebay_brand": "WIX",
@@ -18669,7 +18657,6 @@
         "1985\u20131990 GMC S15",
         "1985\u20131989 GMC S15 Jimmy",
         "1991\u20131993 GMC Sonoma",
-        "1983\u20131995 Isuzu 2.8",
         "1991\u20131994 Isuzu Pickup",
         "1991\u20131992 Isuzu Rodeo",
         "1989\u20131991 Isuzu Trooper",
@@ -18825,16 +18812,6 @@
             "trim_count": null
           },
           {
-            "year_from": 1983,
-            "year_to": 1995,
-            "make": "Isuzu",
-            "model": "2.8",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
             "year_from": 1991,
             "year_to": 1994,
             "make": "Isuzu",
@@ -18949,7 +18926,6 @@
           "1985\u20131990 GMC S15",
           "1985\u20131989 GMC S15 Jimmy",
           "1991\u20131993 GMC Sonoma",
-          "1983\u20131995 Isuzu 2.8",
           "1991\u20131994 Isuzu Pickup",
           "1991\u20131992 Isuzu Rodeo",
           "1989\u20131991 Isuzu Trooper",
@@ -19150,8 +19126,6 @@
         "1987 Buick Somerset",
         "1987\u20131990 Chevrolet Celebrity",
         "1990\u20131992 Chevrolet Lumina",
-        "GM Celebrity",
-        "GM Century",
         "1987 Oldsmobile Calais",
         "1987\u20131992 Oldsmobile Cutlass Ciera",
         "1987\u20131992 Oldsmobile Cutlass Cruiser",
@@ -19224,26 +19198,6 @@
             "trim_count": null
           },
           {
-            "year_from": null,
-            "year_to": null,
-            "make": "GM",
-            "model": "Celebrity",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": null,
-            "year_to": null,
-            "make": "GM",
-            "model": "Century",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
             "year_from": 1987,
             "year_to": 1987,
             "make": "Oldsmobile",
@@ -19310,8 +19264,6 @@
           "1987 Buick Somerset",
           "1987\u20131990 Chevrolet Celebrity",
           "1990\u20131992 Chevrolet Lumina",
-          "GM Celebrity",
-          "GM Century",
           "1987 Oldsmobile Calais",
           "1987\u20131992 Oldsmobile Cutlass Ciera",
           "1987\u20131992 Oldsmobile Cutlass Cruiser",
@@ -32110,5 +32062,5 @@
       "stock": 1
     }
   ],
-  "fitment_built": "2026-08-20T20:45:19Z"
+  "fitment_built": "2026-08-20T20:52:10Z"
 }

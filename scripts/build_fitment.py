@@ -517,6 +517,7 @@ _TITLE_MAKES = [
     ("chevrolet", "Chevrolet"),
     ("chevy", "Chevrolet"),
     ("oldsmobile", "Oldsmobile"),
+    ("olds", "Oldsmobile"),
     ("pontiac", "Pontiac"),
     ("chrysler", "Chrysler"),
     ("plymouth", "Plymouth"),
@@ -626,6 +627,13 @@ def parse_title_vehicles(title: str) -> list[dict]:
                 break
             if re.fullmatch(r"\d[\d.]*L", tok, re.I):
                 break
+            # bare decimal like "2.8" (no trailing L) is an engine displacement
+            # printed without its unit, not a model name — real model numbers
+            # in this catalog (Pontiac 6000, etc.) are plain integers, never
+            # decimals, so this only rejects the displacement case (2026-08-20:
+            # "GM Isuzu 2.8 V6" was spawning a phantom "Isuzu 2.8" vehicle row).
+            if re.fullmatch(r"\d+\.\d+", tok):
+                break
             model_bits.append(tok)
             if len(model_bits) >= 1:
                 break
@@ -716,11 +724,24 @@ def merge_title_vehicles(vehicles_raw: list[dict], title_vs: list[dict]) -> list
         for v in vehicles_raw
         if v.get("make")
     }
+    # bare "GM" is a conglomerate placeholder from parse_title_seed's title-only
+    # pass (run before real data is known), not a real eBay catalog make. Once
+    # authoritative data exists, drop "GM <model>" rows whose model already has
+    # a real row under its actual GM-family make — they're duplicates, not new
+    # info (2026-08-20: "NOS GM 2.5L Century Celebrity" was spawning phantom
+    # "GM Century" / "GM Celebrity" rows alongside the real Buick/Chevrolet ones).
+    have_models_by_family_make = {
+        (v.get("model") or "").strip().lower()
+        for v in vehicles_raw
+        if (v.get("make") or "").strip() in _GM_FAMILY and (v.get("model") or "").strip()
+    }
     out = list(vehicles_raw)
     for tv in title_vs:
         make = (tv.get("make") or "").strip()
         model = (tv.get("model") or "").strip()
         if not make or not model:
+            continue
+        if make == "GM" and model.lower() in have_models_by_family_make:
             continue
         if make not in have_makes:
             # Title printed this model (Civic, Century). Keep that make+model.
