@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-21T04:44:25Z",
+  "updated": "2026-08-21T04:45:39Z",
   "store": "https://buccaneersalvage.square.site/",
   "count": 283,
   "items": [
@@ -19949,12 +19949,12 @@
         "1990\u20131995 Dodge",
         "1990\u20131995 Plymouth"
       ],
-      "vehicle_count_raw": 3,
+      "vehicle_count_raw": 6,
       "ebay_item_id": "398310144846",
       "ebay_type": "Spark Plug Wire Set / Ignition Wires",
       "ebay_brand": "LaSalle",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Wires & Coil Boots",
-      "fitment_source": "ebay_listing+title",
+      "fitment_source": "ebay_listing",
       "fitment_confidence": "medium",
       "fitment": {
         "part_numbers": [
@@ -19999,8 +19999,8 @@
           "1990\u20131995 Dodge",
           "1990\u20131995 Plymouth"
         ],
-        "raw_compat_rows": 3,
-        "source": "ebay_listing+title",
+        "raw_compat_rows": 6,
+        "source": "ebay_listing",
         "confidence": "medium",
         "ebay_item_id": "398310144846",
         "type": "Spark Plug Wire Set / Ignition Wires",
@@ -29028,12 +29028,12 @@
         "1976\u20131990 Oldsmobile",
         "1976\u20131990 Pontiac"
       ],
-      "vehicle_count_raw": 5,
+      "vehicle_count_raw": 10,
       "ebay_item_id": "398310119922",
       "ebay_type": "Heater Valve",
       "ebay_brand": "Four Seasons",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Interior Parts & Accessories:Seats, Parts & Accessories:Seat Belt Shoulder Pads",
-      "fitment_source": "ebay_listing+title",
+      "fitment_source": "ebay_listing",
       "fitment_confidence": "medium",
       "fitment": {
         "part_numbers": [
@@ -29100,8 +29100,8 @@
           "1976\u20131990 Oldsmobile",
           "1976\u20131990 Pontiac"
         ],
-        "raw_compat_rows": 5,
-        "source": "ebay_listing+title",
+        "raw_compat_rows": 10,
+        "source": "ebay_listing",
         "confidence": "medium",
         "ebay_item_id": "398310119922",
         "type": "Heater Valve",
@@ -33374,5 +33374,5 @@
       "stock": 1
     }
   ],
-  "fitment_built": "2026-08-21T04:44:25Z"
+  "fitment_built": "2026-08-21T04:45:39Z"
 }
