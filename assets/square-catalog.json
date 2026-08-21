@@ -1,7 +1,7 @@
 {
-  "updated": "2026-08-21T05:16:04Z",
+  "updated": "2026-08-21T05:20:16Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 289,
+  "count": 290,
   "items": [
     {
       "id": "S4IZBA4AG65C6HI2ZDIRMSJR",
@@ -31248,7 +31248,6 @@
       "category": "other",
       "checkout": true,
       "variation_id": "VQY5CWEP6OJSYAGBKBXLDGND",
-      "stock": 1,
       "part_numbers": [
         "CPA177"
       ],
@@ -31260,11 +31259,6 @@
       "vehicles": [
         "1975\u20131990 GM"
       ],
-      "vehicle_count_raw": 2,
-      "ebay_item_id": "398310198464",
-      "ebay_type": "Choke Pull-Off Valve",
-      "ebay_brand": "Hygrade",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Wheels, Tires & Parts:Wheel & Tire Accessories:Spare Tire Jack & Tool Kits",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "medium",
       "fitment": {
@@ -31298,7 +31292,13 @@
         "type": "Choke Pull-Off Valve",
         "brand": "Hygrade",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Wheels, Tires & Parts:Wheel & Tire Accessories:Spare Tire Jack & Tool Kits"
-      }
+      },
+      "vehicle_count_raw": 2,
+      "ebay_item_id": "398310198464",
+      "ebay_type": "Choke Pull-Off Valve",
+      "ebay_brand": "Hygrade",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Wheels, Tires & Parts:Wheel & Tire Accessories:Spare Tire Jack & Tool Kits",
+      "stock": 1
     },
     {
       "id": "JSSWRGWK423MVOX5LEHHFUF2",
@@ -32147,7 +32147,6 @@
       "category": "other",
       "checkout": true,
       "variation_id": "RX6CUC2IZB3UTFZM7OYNVJBL",
-      "stock": 1,
       "part_numbers": [
         "HB7",
         "Duralast U303, Echlin HB6019, Airtex 1S1004, Motorcraft SWX331"
@@ -32157,12 +32156,6 @@
         "ACDelco 88922444",
         "BWD S207"
       ],
-      "vehicles": [],
-      "vehicle_count_raw": 0,
-      "ebay_item_id": "398310208308",
-      "ebay_type": "Horn Pad Contact Assembly",
-      "ebay_brand": "IAD",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Exterior Parts & Accessories:License Plates & Frames",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -32184,7 +32177,14 @@
         "type": "Horn Pad Contact Assembly",
         "brand": "IAD",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Exterior Parts & Accessories:License Plates & Frames"
-      }
+      },
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398310208308",
+      "ebay_type": "Horn Pad Contact Assembly",
+      "ebay_brand": "IAD",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Exterior Parts & Accessories:License Plates & Frames",
+      "stock": 1,
+      "vehicles": []
     },
     {
       "id": "PFOSKKWK2ONSI4E6G3GDQMOC",
@@ -32441,7 +32441,6 @@
       "category": "other",
       "checkout": true,
       "variation_id": "GQVF6EHLR44INWAR5J4YE6P4",
-      "stock": 1,
       "part_numbers": [
         "V188",
         "Duralast PCV82, Purolator PV789, Jeep/Chrysler 53000960"
@@ -32479,11 +32478,6 @@
         "1976\u20131986 Pontiac Parisienne",
         "1977\u20131994 Pontiac Sunbird"
       ],
-      "vehicle_count_raw": 2267,
-      "ebay_item_id": "398310191376",
-      "ebay_type": "PCV Valve",
-      "ebay_brand": "IAD",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Steering & Suspension:Power Steering Pump Parts",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -32793,7 +32787,13 @@
         "type": "PCV Valve",
         "brand": "IAD",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Steering & Suspension:Power Steering Pump Parts"
-      }
+      },
+      "vehicle_count_raw": 2267,
+      "ebay_item_id": "398310191376",
+      "ebay_type": "PCV Valve",
+      "ebay_brand": "IAD",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Steering & Suspension:Power Steering Pump Parts",
+      "stock": 1
     },
     {
       "id": "SOTIPLIA5O4ADIQITPRBSWKW",
@@ -32905,6 +32905,249 @@
       "ebay_brand": "IAD",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Starters, Alternators, ECUs & Wiring:Starter Motor Parts",
       "stock": 1
+    },
+    {
+      "id": "FFLSZMSF7YMJOLURWORHCVEI",
+      "name": "IAD V253 PCV Valve 2.2L 2.5L Chrysler Dodge Plymouth 1986-1995 NOS",
+      "price": 9.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/f6083a46c7aa65aa0df92e3228287e0cd8b1d359/original.jpeg",
+      "url": "https://square.link/u/vTTTTOBw",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "WRMWTPLFSCMNJYIK7Z55ETRK",
+      "stock": 1,
+      "part_numbers": [
+        "V253",
+        "FRAM FV281, Purolator PV9325"
+      ],
+      "interchange": [
+        "Standard V253",
+        "Chrysler 4343766",
+        "ACDelco CV1001C"
+      ],
+      "vehicles": [
+        "1986\u20131993 Chrysler Daytona",
+        "1986 Chrysler Laser",
+        "1986\u20131995 Chrysler LeBaron",
+        "1986\u20131993 Chrysler New Yorker",
+        "1986\u20131988 Chrysler Town & Country",
+        "1986\u20131988 Dodge 600",
+        "1986\u20131989 Dodge Aries",
+        "1986\u20131995 Dodge Caravan",
+        "1986\u20131989 Dodge Lancer",
+        "1987\u20131994 Dodge Shadow",
+        "1989\u20131995 Dodge Spirit",
+        "1989\u20131995 Plymouth Acclaim",
+        "1987\u20131988 Plymouth Grand Voyager",
+        "1986\u20131989 Plymouth Reliant",
+        "1987\u20131994 Plymouth Sundance",
+        "1986\u20131995 Plymouth Voyager"
+      ],
+      "vehicle_count_raw": 586,
+      "ebay_item_id": "398310221119",
+      "ebay_type": "PCV Valve",
+      "ebay_brand": "IAD",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Steering & Suspension:Power Steering Pump Parts",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "V253",
+          "FRAM FV281, Purolator PV9325"
+        ],
+        "interchange": [
+          "Standard V253",
+          "Chrysler 4343766",
+          "ACDelco CV1001C"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1986,
+            "year_to": 1993,
+            "make": "Chrysler",
+            "model": "Daytona",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1986,
+            "year_to": 1986,
+            "make": "Chrysler",
+            "model": "Laser",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1986,
+            "year_to": 1995,
+            "make": "Chrysler",
+            "model": "LeBaron",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1986,
+            "year_to": 1993,
+            "make": "Chrysler",
+            "model": "New Yorker",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1986,
+            "year_to": 1988,
+            "make": "Chrysler",
+            "model": "Town & Country",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1986,
+            "year_to": 1988,
+            "make": "Dodge",
+            "model": "600",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1986,
+            "year_to": 1989,
+            "make": "Dodge",
+            "model": "Aries",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1986,
+            "year_to": 1995,
+            "make": "Dodge",
+            "model": "Caravan",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1986,
+            "year_to": 1989,
+            "make": "Dodge",
+            "model": "Lancer",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1994,
+            "make": "Dodge",
+            "model": "Shadow",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1989,
+            "year_to": 1995,
+            "make": "Dodge",
+            "model": "Spirit",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1989,
+            "year_to": 1995,
+            "make": "Plymouth",
+            "model": "Acclaim",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1988,
+            "make": "Plymouth",
+            "model": "Grand Voyager",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1986,
+            "year_to": 1989,
+            "make": "Plymouth",
+            "model": "Reliant",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1994,
+            "make": "Plymouth",
+            "model": "Sundance",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1986,
+            "year_to": 1995,
+            "make": "Plymouth",
+            "model": "Voyager",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1986\u20131993 Chrysler Daytona",
+          "1986 Chrysler Laser",
+          "1986\u20131995 Chrysler LeBaron",
+          "1986\u20131993 Chrysler New Yorker",
+          "1986\u20131988 Chrysler Town & Country",
+          "1986\u20131988 Dodge 600",
+          "1986\u20131989 Dodge Aries",
+          "1986\u20131995 Dodge Caravan",
+          "1986\u20131989 Dodge Lancer",
+          "1987\u20131994 Dodge Shadow",
+          "1989\u20131995 Dodge Spirit",
+          "1989\u20131995 Plymouth Acclaim",
+          "1987\u20131988 Plymouth Grand Voyager",
+          "1986\u20131989 Plymouth Reliant",
+          "1987\u20131994 Plymouth Sundance",
+          "1986\u20131995 Plymouth Voyager"
+        ],
+        "raw_compat_rows": 586,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398310221119",
+        "type": "PCV Valve",
+        "brand": "IAD",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Steering & Suspension:Power Steering Pump Parts"
+      }
     },
     {
       "id": "4PPP7M44RK4XRJE2EJELNOE7",
@@ -34103,5 +34346,5 @@
       "stock": 1
     }
   ],
-  "fitment_built": "2026-08-21T05:16:04Z"
+  "fitment_built": "2026-08-21T05:20:16Z"
 }
