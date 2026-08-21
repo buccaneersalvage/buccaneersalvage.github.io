@@ -1,7 +1,7 @@
 {
-  "updated": "2026-08-21T06:01:00Z",
+  "updated": "2026-08-21T06:38:09Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 293,
+  "count": 295,
   "items": [
     {
       "id": "S4IZBA4AG65C6HI2ZDIRMSJR",
@@ -19129,6 +19129,91 @@
       "stock": 1
     },
     {
+      "id": "RBEY6QDEJDRQMQMK4VL5ZMLL",
+      "name": "IAD D433HP Blue HEI Distributor Cap GM V8 1974-1995 Chevy GMC Pontiac NOS",
+      "price": 14.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/0d5d5394d52e294eed6aae882e39520dbafab986/original.jpeg",
+      "url": "https://square.link/u/4YxHk0dH",
+      "category": "ignition",
+      "checkout": true,
+      "variation_id": "HHORFFYMBSGCB4CLN6NBWWJX",
+      "stock": 1,
+      "part_numbers": [],
+      "interchange": [],
+      "vehicles": [
+        "1974\u20131995 Chevrolet",
+        "1974\u20131995 GM",
+        "1974\u20131995 GMC",
+        "1974\u20131995 Pontiac"
+      ],
+      "vehicle_count_raw": 4,
+      "ebay_item_id": "",
+      "ebay_type": "Distributor Cap",
+      "ebay_brand": "",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps",
+      "fitment_source": "title",
+      "fitment_confidence": "low",
+      "fitment": {
+        "part_numbers": [],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1974,
+            "year_to": 1995,
+            "make": "Chevrolet",
+            "model": "",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1974,
+            "year_to": 1995,
+            "make": "GM",
+            "model": "",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1974,
+            "year_to": 1995,
+            "make": "GMC",
+            "model": "",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1974,
+            "year_to": 1995,
+            "make": "Pontiac",
+            "model": "",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1974\u20131995 Chevrolet",
+          "1974\u20131995 GM",
+          "1974\u20131995 GMC",
+          "1974\u20131995 Pontiac"
+        ],
+        "raw_compat_rows": 4,
+        "source": "title",
+        "confidence": "low",
+        "ebay_item_id": "",
+        "type": "Distributor Cap",
+        "brand": "",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps"
+      }
+    },
+    {
       "id": "D6BYYW27EDM2XJ3VXEMGR6S4",
       "name": "IAD DH411HP Dist Cap NOS 5.0 5.8 77-96 Bronco Blue Vented 8-Tower IAD-Box",
       "price": 19.98,
@@ -19289,6 +19374,113 @@
       "ebay_brand": "IAD",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps",
       "stock": 1
+    },
+    {
+      "id": "SHZSUXUDC3PPP4U35TWBDFUY",
+      "name": "Lasalle 780064 Spark Plug Wire Set Datsun 720 Nissan 2.0 2.2 2.4 NOS",
+      "price": 59.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/83bcc317897fd6bc0b08120696c52d4e80748eab/original.jpeg",
+      "url": "https://square.link/u/kGUB9BSG",
+      "category": "ignition",
+      "checkout": true,
+      "variation_id": "GJVTVYOCVJA5HI62NACUEWJ6",
+      "stock": 1,
+      "part_numbers": [
+        "780064"
+      ],
+      "interchange": [
+        "NAPA BEL 700304",
+        "NAPA 4651"
+      ],
+      "vehicles": [
+        "1980\u20131981 Datsun 510",
+        "1981\u20131982 Datsun 720",
+        "1984\u20131988 Nissan 200SX",
+        "2002\u20132003 Nissan Frontier",
+        "2002 Nissan Xterra"
+      ],
+      "vehicle_count_raw": 47,
+      "ebay_item_id": "398310421583",
+      "ebay_type": "Spark Plug Wire Set",
+      "ebay_brand": "Lasalle",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Wires & Coil Boots",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "780064"
+        ],
+        "interchange": [
+          "NAPA BEL 700304",
+          "NAPA 4651"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1980,
+            "year_to": 1981,
+            "make": "Datsun",
+            "model": "510",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1981,
+            "year_to": 1982,
+            "make": "Datsun",
+            "model": "720",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 1988,
+            "make": "Nissan",
+            "model": "200SX",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2002,
+            "year_to": 2003,
+            "make": "Nissan",
+            "model": "Frontier",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2002,
+            "year_to": 2002,
+            "make": "Nissan",
+            "model": "Xterra",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1980\u20131981 Datsun 510",
+          "1981\u20131982 Datsun 720",
+          "1984\u20131988 Nissan 200SX",
+          "2002\u20132003 Nissan Frontier",
+          "2002 Nissan Xterra"
+        ],
+        "raw_compat_rows": 47,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398310421583",
+        "type": "Spark Plug Wire Set",
+        "brand": "Lasalle",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Wires & Coil Boots"
+      }
     },
     {
       "id": "DLU4T32ZZN2JIMTKXJCLLNYZ",
@@ -20120,12 +20312,10 @@
       "category": "ignition",
       "checkout": true,
       "variation_id": "YQID6IP7WD425TH5BQEK4CJ7",
-      "stock": 1,
       "part_numbers": [
         "780427",
         "NAPA ProFormer MPW 2959"
       ],
-      "interchange": [],
       "vehicles": [
         "1986\u20131992 Buick Century",
         "1986\u20131987 Buick Electra",
@@ -20143,11 +20333,6 @@
         "1987\u20131988 Pontiac Bonneville",
         "1985\u20131992 Pontiac Grand Am"
       ],
-      "vehicle_count_raw": 369,
-      "ebay_item_id": "398310262964",
-      "ebay_type": "Spark Plug Wire Set / Ignition Wires",
-      "ebay_brand": "LaSalle",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Wires & Coil Boots",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -20332,7 +20517,14 @@
         "type": "Spark Plug Wire Set / Ignition Wires",
         "brand": "LaSalle",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Wires & Coil Boots"
-      }
+      },
+      "vehicle_count_raw": 369,
+      "ebay_item_id": "398310262964",
+      "ebay_type": "Spark Plug Wire Set / Ignition Wires",
+      "ebay_brand": "LaSalle",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Wires & Coil Boots",
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "YNPLOWF4WCMSLASYZWXF4HB4",
@@ -20343,7 +20535,6 @@
       "category": "ignition",
       "checkout": true,
       "variation_id": "YLHI4OJUP6LAMZ5Z5J5HAWGY",
-      "stock": 1,
       "part_numbers": [
         "928"
       ],
@@ -20354,12 +20545,7 @@
       "vehicles": [
         "GM Delco"
       ],
-      "vehicle_count_raw": 1,
-      "ebay_item_id": "398310300894",
-      "ebay_type": "Distributor Advance Curve Kit",
-      "ebay_brand": "Mr. Gasket",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Additional Distributor Parts",
-      "fitment_source": "ebay_listing+title",
+      "fitment_source": "ebay_listing",
       "fitment_confidence": "medium",
       "fitment": {
         "part_numbers": [
@@ -20385,13 +20571,19 @@
           "GM Delco"
         ],
         "raw_compat_rows": 1,
-        "source": "ebay_listing+title",
+        "source": "ebay_listing",
         "confidence": "medium",
         "ebay_item_id": "398310300894",
         "type": "Distributor Advance Curve Kit",
         "brand": "Mr. Gasket",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Additional Distributor Parts"
-      }
+      },
+      "vehicle_count_raw": 1,
+      "ebay_item_id": "398310300894",
+      "ebay_type": "Distributor Advance Curve Kit",
+      "ebay_brand": "Mr. Gasket",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Additional Distributor Parts",
+      "stock": 1
     },
     {
       "id": "6GLFQLRM64VCWRYXXKKTCQVD",
@@ -33581,11 +33773,9 @@
       "category": "other",
       "checkout": true,
       "variation_id": "DKVD5OJ3MNURYECKRD4LWNOT",
-      "stock": 1,
       "part_numbers": [
         "PT285"
       ],
-      "interchange": [],
       "vehicles": [
         "1975\u20131985 Buick LeSabre",
         "1975\u20131987 Buick Regal",
@@ -33600,12 +33790,7 @@
         "1975\u20131988 Pontiac Firebird",
         "1975\u20131987 Pontiac Grand Prix"
       ],
-      "vehicle_count_raw": 2027,
-      "ebay_item_id": "398310252079",
-      "ebay_type": "Ignition Control Module",
-      "ebay_brand": "Pace Setter",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Modules",
-      "fitment_source": "ebay_listing+title",
+      "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
@@ -33749,13 +33934,20 @@
           "1975\u20131987 Pontiac Grand Prix"
         ],
         "raw_compat_rows": 2027,
-        "source": "ebay_listing+title",
+        "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398310252079",
         "type": "Ignition Control Module",
         "brand": "Pace Setter",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Modules"
-      }
+      },
+      "vehicle_count_raw": 2027,
+      "ebay_item_id": "398310252079",
+      "ebay_type": "Ignition Control Module",
+      "ebay_brand": "Pace Setter",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Modules",
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "2IGN4TREF7DNKIIYWCK3U4BR",
@@ -34813,5 +35005,5 @@
       "stock": 1
     }
   ],
-  "fitment_built": "2026-08-21T06:01:00Z"
+  "fitment_built": "2026-08-21T06:38:09Z"
 }
