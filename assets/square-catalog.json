@@ -1,7 +1,7 @@
 {
-  "updated": "2026-08-21T04:50:54Z",
+  "updated": "2026-08-21T05:00:50Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 284,
+  "count": 286,
   "items": [
     {
       "id": "S4IZBA4AG65C6HI2ZDIRMSJR",
@@ -9142,6 +9142,109 @@
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pads",
       "stock": 1,
       "interchange": []
+    },
+    {
+      "id": "RWXZDM322N32MAKLNIYTRSN6",
+      "name": "NJA D31A Organic Brake Pads NOS 68-91 Mercedes W114 W123 W126 Alfa Porsche",
+      "price": 24.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/5773df81b2c62da08ea3992ec4263e07beeceb04/original.jpeg",
+      "url": "https://square.link/u/ezUXjrKd",
+      "category": "brake",
+      "checkout": true,
+      "variation_id": "YHPYUEAERRK3CO6XEEBXSDBH",
+      "stock": 41,
+      "part_numbers": [
+        "D31A",
+        "FMSI D31 / D031, Ferodo FDB2"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1975\u20131977 Alfa Romeo Alfetta",
+        "1969\u20131977 Alfa Romeo Spider",
+        "1968\u20131991 Mercedes-Benz W114",
+        "1965\u20131969 Porsche 912",
+        "1970\u20131976 Porsche 914"
+      ],
+      "vehicle_count_raw": 50,
+      "ebay_item_id": "398310188179",
+      "ebay_type": "Disc Brake Pads",
+      "ebay_brand": "NJA",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pads",
+      "fitment_source": "ebay_listing+title",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "D31A",
+          "FMSI D31 / D031, Ferodo FDB2"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1975,
+            "year_to": 1977,
+            "make": "Alfa Romeo",
+            "model": "Alfetta",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1969,
+            "year_to": 1977,
+            "make": "Alfa Romeo",
+            "model": "Spider",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1968,
+            "year_to": 1991,
+            "make": "Mercedes-Benz",
+            "model": "W114",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1965,
+            "year_to": 1969,
+            "make": "Porsche",
+            "model": "912",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1970,
+            "year_to": 1976,
+            "make": "Porsche",
+            "model": "914",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1975\u20131977 Alfa Romeo Alfetta",
+          "1969\u20131977 Alfa Romeo Spider",
+          "1968\u20131991 Mercedes-Benz W114",
+          "1965\u20131969 Porsche 912",
+          "1970\u20131976 Porsche 914"
+        ],
+        "raw_compat_rows": 50,
+        "source": "ebay_listing+title",
+        "confidence": "high",
+        "ebay_item_id": "398310188179",
+        "type": "Disc Brake Pads",
+        "brand": "NJA",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pads"
+      }
     },
     {
       "id": "NHOKX35ZWQT7VIEZDIKUBRID",
@@ -20856,6 +20959,95 @@
       "ebay_brand": "Pace Setter",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Coils",
       "stock": 1
+    },
+    {
+      "id": "XJWJU3LUYEPUR5YAMWIQTKIR",
+      "name": "Pace Setter PT212 FF1 TFI Ignition Coil Ford Lincoln Mercury Mazda 1984-1997 NOS",
+      "price": 34.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/ffdde508803682a2ce8c3d029caba2a327af56df/original.jpeg",
+      "url": "https://square.link/u/yMhQhVAT",
+      "category": "ignition",
+      "checkout": true,
+      "variation_id": "XGKIL52VGKOJSPF7YYVBIATW",
+      "stock": 1,
+      "part_numbers": [
+        "PT212 / FF1"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1984\u20131997 Ford",
+        "1984\u20131997 Lincoln",
+        "1984\u20131997 Mazda",
+        "1984\u20131997 Mercury"
+      ],
+      "vehicle_count_raw": 4,
+      "ebay_item_id": "398310182623",
+      "ebay_type": "Ignition Coil",
+      "ebay_brand": "Pace Setter",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Coils",
+      "fitment_source": "ebay_listing+title",
+      "fitment_confidence": "medium",
+      "fitment": {
+        "part_numbers": [
+          "PT212 / FF1"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1984,
+            "year_to": 1997,
+            "make": "Ford",
+            "model": "",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 1997,
+            "make": "Lincoln",
+            "model": "",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 1997,
+            "make": "Mazda",
+            "model": "",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 1997,
+            "make": "Mercury",
+            "model": "",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1984\u20131997 Ford",
+          "1984\u20131997 Lincoln",
+          "1984\u20131997 Mazda",
+          "1984\u20131997 Mercury"
+        ],
+        "raw_compat_rows": 4,
+        "source": "ebay_listing+title",
+        "confidence": "medium",
+        "ebay_item_id": "398310182623",
+        "type": "Ignition Coil",
+        "brand": "Pace Setter",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Coils"
+      }
     },
     {
       "id": "HCUGNMATBXU4CH4BCZ2UZM4P",
@@ -33005,20 +33197,13 @@
       "category": "other",
       "checkout": true,
       "variation_id": "T4JYB6N32ZTCLUO6HVV55WBY",
-      "stock": 1,
       "part_numbers": [
         "V227"
       ],
-      "interchange": [],
       "vehicles": [
         "1979 Ford Mustang",
         "1979 Mercury Capri"
       ],
-      "vehicle_count_raw": 30,
-      "ebay_item_id": "398310156234",
-      "ebay_type": "PCV Valve",
-      "ebay_brand": "Standard Motor Products",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Steering & Suspension:Power Steering Pump Parts",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -33059,7 +33244,14 @@
         "type": "PCV Valve",
         "brand": "Standard Motor Products",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Steering & Suspension:Power Steering Pump Parts"
-      }
+      },
+      "vehicle_count_raw": 30,
+      "ebay_item_id": "398310156234",
+      "ebay_type": "PCV Valve",
+      "ebay_brand": "Standard Motor Products",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Steering & Suspension:Power Steering Pump Parts",
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "KCK2HUUH432JV36WKEAHHT6W",
@@ -33439,5 +33631,5 @@
       "stock": 1
     }
   ],
-  "fitment_built": "2026-08-21T04:50:54Z"
+  "fitment_built": "2026-08-21T05:00:50Z"
 }
