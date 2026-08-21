@@ -1,7 +1,7 @@
 {
-  "updated": "2026-08-21T01:00:44Z",
+  "updated": "2026-08-21T03:01:06Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 268,
+  "count": 273,
   "items": [
     {
       "id": "S4IZBA4AG65C6HI2ZDIRMSJR",
@@ -9011,6 +9011,119 @@
       "interchange": []
     },
     {
+      "id": "OKJL5UDDQUCSCGJMM6CA2WX7",
+      "name": "NJA D130 1977-1981 Honda Accord Civic Wagon Brake Pads NOS",
+      "price": 19.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/2a63c804b677b4f9c790b58dbc86c27aace57a1d/original.jpeg",
+      "url": "https://square.link/u/TcR4Bkl0",
+      "category": "brake",
+      "checkout": true,
+      "variation_id": "2YSFYDOOW6GC3V4GUTNK4RHA",
+      "stock": 1,
+      "part_numbers": [
+        "D130"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1977\u20131981 Honda Accord",
+        "1977\u20131981 Honda Civic"
+      ],
+      "vehicle_count_raw": 13,
+      "ebay_item_id": "398309898300",
+      "ebay_type": "Disc Brake Pads",
+      "ebay_brand": "NJA",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pads",
+      "fitment_source": "ebay_listing+title",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "D130"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1977,
+            "year_to": 1981,
+            "make": "Honda",
+            "model": "Accord",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1977,
+            "year_to": 1981,
+            "make": "Honda",
+            "model": "Civic",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1977\u20131981 Honda Accord",
+          "1977\u20131981 Honda Civic"
+        ],
+        "raw_compat_rows": 13,
+        "source": "ebay_listing+title",
+        "confidence": "high",
+        "ebay_item_id": "398309898300",
+        "type": "Disc Brake Pads",
+        "brand": "NJA",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pads"
+      }
+    },
+    {
+      "id": "NHOKX35ZWQT7VIEZDIKUBRID",
+      "name": "Parts Master BH177238 Brake Hose 1980-1990 LTD Crown Victoria Grand Marquis NOS",
+      "price": 19.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/7dac88ca9385bd658cf99174724361593ac1541f/original.jpeg",
+      "url": "https://square.link/u/S4zp7f2B",
+      "category": "brake",
+      "checkout": true,
+      "variation_id": "YOLWUG4YHVZB22PK2TOTD3NP",
+      "stock": 1,
+      "part_numbers": [
+        "BH177238"
+      ],
+      "interchange": [
+        "Wagner 102471",
+        "Raybestos BH36936",
+        "Bendix 77238",
+        "EIS 5884"
+      ],
+      "vehicles": [],
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398309912573",
+      "ebay_type": "Brake Hydraulic Hose",
+      "ebay_brand": "Parts Master",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Hoses, Lines & Fittings",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "BH177238"
+        ],
+        "interchange": [
+          "Wagner 102471",
+          "Raybestos BH36936",
+          "Bendix 77238",
+          "EIS 5884"
+        ],
+        "vehicles": [],
+        "vehicle_labels": [],
+        "raw_compat_rows": 0,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398309912573",
+        "type": "Brake Hydraulic Hose",
+        "brand": "Parts Master",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Hoses, Lines & Fittings"
+      }
+    },
+    {
       "id": "DPRSU7RX4SKAHPRFDDTPFKZR",
       "name": "Wagner QS ZX603A Disc Brake Pads for Mercedes-Benz S-Class / SL-Class - New!",
       "price": 34.99,
@@ -18002,6 +18115,131 @@
       "stock": 1
     },
     {
+      "id": "PZRIATIYRBKNVGL7TLUQTKVR",
+      "name": "Auto-Tune E140 3.3 4.1L Distributor Cap Rotor 1966-1974 Ford Mercury NOS",
+      "price": 19.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/053475e60e3e5ee9a48bbed35c5f652524a7e64a/original.jpeg",
+      "url": "https://square.link/u/MJN1KmXO",
+      "category": "ignition",
+      "checkout": true,
+      "variation_id": "HZ3FAIR7XVI7WRSNKSOGAAEB",
+      "stock": 1,
+      "part_numbers": [
+        "E140"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1966\u20131970 Ford Fairlane",
+        "1966\u20131970 Ford Falcon",
+        "1970\u20131974 Ford Maverick",
+        "1966\u20131973 Ford Mustang",
+        "1968\u20131974 Ford Torino",
+        "1966\u20131974 Mercury Comet",
+        "1968\u20131974 Mercury Montego"
+      ],
+      "vehicle_count_raw": 631,
+      "ebay_item_id": "398309871675",
+      "ebay_type": "Distributor Cap and Rotor Kit",
+      "ebay_brand": "Auto-Tune",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "E140"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1966,
+            "year_to": 1970,
+            "make": "Ford",
+            "model": "Fairlane",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1966,
+            "year_to": 1970,
+            "make": "Ford",
+            "model": "Falcon",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1970,
+            "year_to": 1974,
+            "make": "Ford",
+            "model": "Maverick",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1966,
+            "year_to": 1973,
+            "make": "Ford",
+            "model": "Mustang",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1968,
+            "year_to": 1974,
+            "make": "Ford",
+            "model": "Torino",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1966,
+            "year_to": 1974,
+            "make": "Mercury",
+            "model": "Comet",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1968,
+            "year_to": 1974,
+            "make": "Mercury",
+            "model": "Montego",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1966\u20131970 Ford Fairlane",
+          "1966\u20131970 Ford Falcon",
+          "1970\u20131974 Ford Maverick",
+          "1966\u20131973 Ford Mustang",
+          "1968\u20131974 Ford Torino",
+          "1966\u20131974 Mercury Comet",
+          "1968\u20131974 Mercury Montego"
+        ],
+        "raw_compat_rows": 631,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398309871675",
+        "type": "Distributor Cap and Rotor Kit",
+        "brand": "Auto-Tune",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps"
+      }
+    },
+    {
       "id": "IZDFR5RUM4VNNUHYU4ECMN7J",
       "name": "Beck/Arnley 175-4407 Ignition Wire Set NOS Saab Toyota 1967-1988",
       "price": 24.99,
@@ -20165,6 +20403,189 @@
       "ebay_brand": "Pace Setter",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Coils",
       "stock": 1
+    },
+    {
+      "id": "HCUGNMATBXU4CH4BCZ2UZM4P",
+      "name": "Pacesetter DR630 Distributor Cap 1977-1981 GM Jeep AMC 2.5L NOS",
+      "price": 19.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/1c642703c6b54d1d765ba734872a00f93c96c5dc/original.jpeg",
+      "url": "https://square.link/u/9MeB2Ky5",
+      "category": "ignition",
+      "checkout": true,
+      "variation_id": "F4TOX756KON7TZMNQXO3D53I",
+      "stock": 1,
+      "part_numbers": [
+        "DR630"
+      ],
+      "interchange": [
+        "BWD 22017",
+        "DR69A",
+        "PT 1762",
+        "DR-451"
+      ],
+      "vehicles": [
+        "1980 Buick Skylark",
+        "1980\u20131981 Chevrolet Citation",
+        "1978\u20131980 Chevrolet Monza",
+        "1977\u20131981 Jeep AMC",
+        "1980\u20131981 Jeep CJ5",
+        "1980\u20131981 Jeep CJ7",
+        "1981 Jeep Scrambler",
+        "1980\u20131981 Oldsmobile Omega",
+        "1978\u20131980 Oldsmobile Starfire",
+        "1977\u20131981 Pontiac Phoenix",
+        "1977\u20131980 Pontiac Sunbird"
+      ],
+      "vehicle_count_raw": 104,
+      "ebay_item_id": "398309902201",
+      "ebay_type": "Distributor Cap",
+      "ebay_brand": "Pacesetter",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps",
+      "fitment_source": "ebay_listing+title",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "DR630"
+        ],
+        "interchange": [
+          "BWD 22017",
+          "DR69A",
+          "PT 1762",
+          "DR-451"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1980,
+            "year_to": 1980,
+            "make": "Buick",
+            "model": "Skylark",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1980,
+            "year_to": 1981,
+            "make": "Chevrolet",
+            "model": "Citation",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1978,
+            "year_to": 1980,
+            "make": "Chevrolet",
+            "model": "Monza",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1977,
+            "year_to": 1981,
+            "make": "Jeep",
+            "model": "AMC",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1980,
+            "year_to": 1981,
+            "make": "Jeep",
+            "model": "CJ5",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1980,
+            "year_to": 1981,
+            "make": "Jeep",
+            "model": "CJ7",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1981,
+            "year_to": 1981,
+            "make": "Jeep",
+            "model": "Scrambler",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1980,
+            "year_to": 1981,
+            "make": "Oldsmobile",
+            "model": "Omega",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1978,
+            "year_to": 1980,
+            "make": "Oldsmobile",
+            "model": "Starfire",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1977,
+            "year_to": 1981,
+            "make": "Pontiac",
+            "model": "Phoenix",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1977,
+            "year_to": 1980,
+            "make": "Pontiac",
+            "model": "Sunbird",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1980 Buick Skylark",
+          "1980\u20131981 Chevrolet Citation",
+          "1978\u20131980 Chevrolet Monza",
+          "1977\u20131981 Jeep AMC",
+          "1980\u20131981 Jeep CJ5",
+          "1980\u20131981 Jeep CJ7",
+          "1981 Jeep Scrambler",
+          "1980\u20131981 Oldsmobile Omega",
+          "1978\u20131980 Oldsmobile Starfire",
+          "1977\u20131981 Pontiac Phoenix",
+          "1977\u20131980 Pontiac Sunbird"
+        ],
+        "raw_compat_rows": 104,
+        "source": "ebay_listing+title",
+        "confidence": "high",
+        "ebay_item_id": "398309902201",
+        "type": "Distributor Cap",
+        "brand": "Pacesetter",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps"
+      }
     },
     {
       "id": "JOA4WVRXJRWYJ5T6LBHMLV3Y",
@@ -29984,6 +30405,179 @@
       "interchange": []
     },
     {
+      "id": "JSSWRGWK423MVOX5LEHHFUF2",
+      "name": "Hygrade CPA236 Choke Pull-Off 1975-84 GM Quadrajet NOS",
+      "price": 19.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/0e060cd1e1dc84edef409d26cd57de733cfe49e4/original.jpeg",
+      "url": "https://square.link/u/gd4QAfTn",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "4TCNC5DG2DFQABROVVN5WJ5B",
+      "stock": 1,
+      "part_numbers": [
+        "CPA236"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1975\u20131984 Buick LeSabre",
+        "1975\u20131984 Buick Regal",
+        "1981\u20131982 Cadillac Seville",
+        "1980\u20131984 Chevrolet Caprice",
+        "1979\u20131984 Chevrolet El Camino",
+        "1979\u20131983 Chevrolet Malibu",
+        "1979\u20131984 Chevrolet Monte Carlo",
+        "1975\u20131984 GM Quadrajet",
+        "1979\u20131984 GMC Caballero",
+        "1977\u20131984 Pontiac Bonneville",
+        "1975\u20131981 Pontiac Firebird"
+      ],
+      "vehicle_count_raw": 1042,
+      "ebay_item_id": "398309884345",
+      "ebay_type": "Choke Pull-Off",
+      "ebay_brand": "Hygrade",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Carburetor Parts",
+      "fitment_source": "ebay_listing+title",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "CPA236"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1975,
+            "year_to": 1984,
+            "make": "Buick",
+            "model": "LeSabre",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1975,
+            "year_to": 1984,
+            "make": "Buick",
+            "model": "Regal",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1981,
+            "year_to": 1982,
+            "make": "Cadillac",
+            "model": "Seville",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1980,
+            "year_to": 1984,
+            "make": "Chevrolet",
+            "model": "Caprice",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1979,
+            "year_to": 1984,
+            "make": "Chevrolet",
+            "model": "El Camino",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1979,
+            "year_to": 1983,
+            "make": "Chevrolet",
+            "model": "Malibu",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1979,
+            "year_to": 1984,
+            "make": "Chevrolet",
+            "model": "Monte Carlo",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1975,
+            "year_to": 1984,
+            "make": "GM",
+            "model": "Quadrajet",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1979,
+            "year_to": 1984,
+            "make": "GMC",
+            "model": "Caballero",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1977,
+            "year_to": 1984,
+            "make": "Pontiac",
+            "model": "Bonneville",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1975,
+            "year_to": 1981,
+            "make": "Pontiac",
+            "model": "Firebird",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1975\u20131984 Buick LeSabre",
+          "1975\u20131984 Buick Regal",
+          "1981\u20131982 Cadillac Seville",
+          "1980\u20131984 Chevrolet Caprice",
+          "1979\u20131984 Chevrolet El Camino",
+          "1979\u20131983 Chevrolet Malibu",
+          "1979\u20131984 Chevrolet Monte Carlo",
+          "1975\u20131984 GM Quadrajet",
+          "1979\u20131984 GMC Caballero",
+          "1977\u20131984 Pontiac Bonneville",
+          "1975\u20131981 Pontiac Firebird"
+        ],
+        "raw_compat_rows": 1042,
+        "source": "ebay_listing+title",
+        "confidence": "high",
+        "ebay_item_id": "398309884345",
+        "type": "Choke Pull-Off",
+        "brand": "Hygrade",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Carburetor Parts"
+      }
+    },
+    {
       "id": "FQHJIPDU2IS3FX6654HKIM5R",
       "name": "IAD D345HP 6-Tower Cap NOS 2.8 4.3 V6 85-95 Camaro",
       "price": 18.98,
@@ -32012,5 +32606,5 @@
       "stock": 1
     }
   ],
-  "fitment_built": "2026-08-21T01:00:44Z"
+  "fitment_built": "2026-08-21T03:01:06Z"
 }
