@@ -1,7 +1,7 @@
 {
-  "updated": "2026-08-21T05:00:50Z",
+  "updated": "2026-08-21T05:13:30Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 286,
+  "count": 289,
   "items": [
     {
       "id": "S4IZBA4AG65C6HI2ZDIRMSJR",
@@ -9152,12 +9152,10 @@
       "category": "brake",
       "checkout": true,
       "variation_id": "YHPYUEAERRK3CO6XEEBXSDBH",
-      "stock": 41,
       "part_numbers": [
         "D31A",
         "FMSI D31 / D031, Ferodo FDB2"
       ],
-      "interchange": [],
       "vehicles": [
         "1975\u20131977 Alfa Romeo Alfetta",
         "1969\u20131977 Alfa Romeo Spider",
@@ -9165,12 +9163,7 @@
         "1965\u20131969 Porsche 912",
         "1970\u20131976 Porsche 914"
       ],
-      "vehicle_count_raw": 50,
-      "ebay_item_id": "398310188179",
-      "ebay_type": "Disc Brake Pads",
-      "ebay_brand": "NJA",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pads",
-      "fitment_source": "ebay_listing+title",
+      "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
@@ -9238,13 +9231,20 @@
           "1970\u20131976 Porsche 914"
         ],
         "raw_compat_rows": 50,
-        "source": "ebay_listing+title",
+        "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398310188179",
         "type": "Disc Brake Pads",
         "brand": "NJA",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pads"
-      }
+      },
+      "vehicle_count_raw": 50,
+      "ebay_item_id": "398310188179",
+      "ebay_type": "Disc Brake Pads",
+      "ebay_brand": "NJA",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pads",
+      "stock": 41,
+      "interchange": []
     },
     {
       "id": "NHOKX35ZWQT7VIEZDIKUBRID",
@@ -20969,23 +20969,16 @@
       "category": "ignition",
       "checkout": true,
       "variation_id": "XGKIL52VGKOJSPF7YYVBIATW",
-      "stock": 1,
       "part_numbers": [
         "PT212 / FF1"
       ],
-      "interchange": [],
       "vehicles": [
         "1984\u20131997 Ford",
         "1984\u20131997 Lincoln",
         "1984\u20131997 Mazda",
         "1984\u20131997 Mercury"
       ],
-      "vehicle_count_raw": 4,
-      "ebay_item_id": "398310182623",
-      "ebay_type": "Ignition Coil",
-      "ebay_brand": "Pace Setter",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Coils",
-      "fitment_source": "ebay_listing+title",
+      "fitment_source": "ebay_listing",
       "fitment_confidence": "medium",
       "fitment": {
         "part_numbers": [
@@ -21040,14 +21033,21 @@
           "1984\u20131997 Mazda",
           "1984\u20131997 Mercury"
         ],
-        "raw_compat_rows": 4,
-        "source": "ebay_listing+title",
+        "raw_compat_rows": 8,
+        "source": "ebay_listing",
         "confidence": "medium",
         "ebay_item_id": "398310182623",
         "type": "Ignition Coil",
         "brand": "Pace Setter",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Coils"
-      }
+      },
+      "vehicle_count_raw": 8,
+      "ebay_item_id": "398310182623",
+      "ebay_type": "Ignition Coil",
+      "ebay_brand": "Pace Setter",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Coils",
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "HCUGNMATBXU4CH4BCZ2UZM4P",
@@ -31240,6 +31240,67 @@
       "interchange": []
     },
     {
+      "id": "KEBP5GL5DIABJK2Q454AEL2S",
+      "name": "Hygrade CPA177 Choke Pull-Off Rochester Quadrajet Dualjet GM 1975-1990 NOS",
+      "price": 24.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/724b825e83a9e95eb4834d45975ceaa2649f35ca/original.jpeg",
+      "url": "https://square.link/u/hB4MxTSy",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "VQY5CWEP6OJSYAGBKBXLDGND",
+      "stock": 1,
+      "part_numbers": [
+        "CPA177"
+      ],
+      "interchange": [
+        "Standard CPA177",
+        "ACDelco 17067211",
+        "VC460"
+      ],
+      "vehicles": [
+        "1975\u20131990 GM"
+      ],
+      "vehicle_count_raw": 1,
+      "ebay_item_id": "398310198464",
+      "ebay_type": "Choke Pull-Off Valve",
+      "ebay_brand": "Hygrade",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Wheels, Tires & Parts:Wheel & Tire Accessories:Spare Tire Jack & Tool Kits",
+      "fitment_source": "ebay_listing+title",
+      "fitment_confidence": "medium",
+      "fitment": {
+        "part_numbers": [
+          "CPA177"
+        ],
+        "interchange": [
+          "Standard CPA177",
+          "ACDelco 17067211",
+          "VC460"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1975,
+            "year_to": 1990,
+            "make": "GM",
+            "model": "",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1975\u20131990 GM"
+        ],
+        "raw_compat_rows": 1,
+        "source": "ebay_listing+title",
+        "confidence": "medium",
+        "ebay_item_id": "398310198464",
+        "type": "Choke Pull-Off Valve",
+        "brand": "Hygrade",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Wheels, Tires & Parts:Wheel & Tire Accessories:Spare Tire Jack & Tool Kits"
+      }
+    },
+    {
       "id": "JSSWRGWK423MVOX5LEHHFUF2",
       "name": "Hygrade CPA236 Choke Pull-Off 1975-84 GM Quadrajet NOS",
       "price": 19.99,
@@ -32078,6 +32139,54 @@
       "stock": 1
     },
     {
+      "id": "Z6ILNFNPWW2THMXFW7TUXRYY",
+      "name": "IAD HB7 Universal Surface Mount Push Button Switch Horn Starter NOS",
+      "price": 12.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/921a10d5723562c257a2fcdcb21fa4665575261e/original.jpeg",
+      "url": "https://square.link/u/ZLTv2uhv",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "RX6CUC2IZB3UTFZM7OYNVJBL",
+      "stock": 1,
+      "part_numbers": [
+        "HB7",
+        "Duralast U303, Echlin HB6019, Airtex 1S1004, Motorcraft SWX331"
+      ],
+      "interchange": [
+        "Standard HB7",
+        "ACDelco 88922444",
+        "BWD S207"
+      ],
+      "vehicles": [],
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398310208308",
+      "ebay_type": "Horn Pad Contact Assembly",
+      "ebay_brand": "IAD",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Exterior Parts & Accessories:License Plates & Frames",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "HB7",
+          "Duralast U303, Echlin HB6019, Airtex 1S1004, Motorcraft SWX331"
+        ],
+        "interchange": [
+          "Standard HB7",
+          "ACDelco 88922444",
+          "BWD S207"
+        ],
+        "vehicles": [],
+        "vehicle_labels": [],
+        "raw_compat_rows": 0,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398310208308",
+        "type": "Horn Pad Contact Assembly",
+        "brand": "IAD",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Exterior Parts & Accessories:License Plates & Frames"
+      }
+    },
+    {
       "id": "PFOSKKWK2ONSI4E6G3GDQMOC",
       "name": "IAD MAP5 MAP Sensor NOS 2.5 4.0 85-95 Cherokee",
       "price": 34.99,
@@ -32322,6 +32431,369 @@
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Exhaust & Emission Systems:Oxygen Sensors",
       "stock": 1,
       "vehicles": []
+    },
+    {
+      "id": "W5VVY32CLXYBGD47HRFJQ3QU",
+      "name": "IAD PCV Valve V188 Standard Interchange GM Jeep AMC Isuzu 1976-1999 NOS",
+      "price": 9.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/23a20a8c3e048e423d4d403ca156cb332b40f6c6/original.jpeg",
+      "url": "https://square.link/u/avDlLdkw",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "GQVF6EHLR44INWAR5J4YE6P4",
+      "stock": 1,
+      "part_numbers": [
+        "V188",
+        "Duralast PCV82, Purolator PV789, Jeep/Chrysler 53000960"
+      ],
+      "interchange": [
+        "Standard V188",
+        "ACDelco CV789C",
+        "FRAM FV191"
+      ],
+      "vehicles": [
+        "1976\u20131999 Buick Century",
+        "1976\u20131990 Buick Electra",
+        "1976\u20131989 Buick Skyhawk",
+        "1977\u20131997 Buick Skylark",
+        "1985\u20131999 Chevrolet Astro",
+        "1987\u20131999 Chevrolet Blazer",
+        "1982\u20131999 Chevrolet S10",
+        "1976\u20131998 GMC Jimmy",
+        "1983\u20131990 GMC S15",
+        "1991\u20131999 GMC Sonoma",
+        "1991\u20131994 Isuzu Pickup",
+        "1992 Isuzu Rodeo",
+        "1989\u20131991 Isuzu Trooper",
+        "1976\u20131999 Jeep AMC",
+        "1984\u20131986 Jeep Cherokee",
+        "1986 Jeep Comanche",
+        "1984\u20131986 Jeep Wagoneer",
+        "1977\u20131999 Oldsmobile Cutlass",
+        "1982\u20131988 Oldsmobile Firenza",
+        "1982\u20131991 Pontiac 6000",
+        "1984\u20131988 Pontiac Fiero",
+        "1976\u20131999 Pontiac Firebird",
+        "1977\u20131999 Pontiac Grand Prix",
+        "1976\u20131989 Pontiac LeMans",
+        "1976\u20131986 Pontiac Parisienne",
+        "1977\u20131994 Pontiac Sunbird"
+      ],
+      "vehicle_count_raw": 2267,
+      "ebay_item_id": "398310191376",
+      "ebay_type": "PCV Valve",
+      "ebay_brand": "IAD",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Steering & Suspension:Power Steering Pump Parts",
+      "fitment_source": "ebay_listing+title",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "V188",
+          "Duralast PCV82, Purolator PV789, Jeep/Chrysler 53000960"
+        ],
+        "interchange": [
+          "Standard V188",
+          "ACDelco CV789C",
+          "FRAM FV191"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1976,
+            "year_to": 1999,
+            "make": "Buick",
+            "model": "Century",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1976,
+            "year_to": 1990,
+            "make": "Buick",
+            "model": "Electra",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1976,
+            "year_to": 1989,
+            "make": "Buick",
+            "model": "Skyhawk",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1977,
+            "year_to": 1997,
+            "make": "Buick",
+            "model": "Skylark",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1999,
+            "make": "Chevrolet",
+            "model": "Astro",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1999,
+            "make": "Chevrolet",
+            "model": "Blazer",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1982,
+            "year_to": 1999,
+            "make": "Chevrolet",
+            "model": "S10",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1976,
+            "year_to": 1998,
+            "make": "GMC",
+            "model": "Jimmy",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1983,
+            "year_to": 1990,
+            "make": "GMC",
+            "model": "S15",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1991,
+            "year_to": 1999,
+            "make": "GMC",
+            "model": "Sonoma",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1991,
+            "year_to": 1994,
+            "make": "Isuzu",
+            "model": "Pickup",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1992,
+            "year_to": 1992,
+            "make": "Isuzu",
+            "model": "Rodeo",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1989,
+            "year_to": 1991,
+            "make": "Isuzu",
+            "model": "Trooper",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1976,
+            "year_to": 1999,
+            "make": "Jeep",
+            "model": "AMC",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 1986,
+            "make": "Jeep",
+            "model": "Cherokee",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1986,
+            "year_to": 1986,
+            "make": "Jeep",
+            "model": "Comanche",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 1986,
+            "make": "Jeep",
+            "model": "Wagoneer",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1977,
+            "year_to": 1999,
+            "make": "Oldsmobile",
+            "model": "Cutlass",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1982,
+            "year_to": 1988,
+            "make": "Oldsmobile",
+            "model": "Firenza",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1982,
+            "year_to": 1991,
+            "make": "Pontiac",
+            "model": "6000",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 1988,
+            "make": "Pontiac",
+            "model": "Fiero",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1976,
+            "year_to": 1999,
+            "make": "Pontiac",
+            "model": "Firebird",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1977,
+            "year_to": 1999,
+            "make": "Pontiac",
+            "model": "Grand Prix",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1976,
+            "year_to": 1989,
+            "make": "Pontiac",
+            "model": "LeMans",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1976,
+            "year_to": 1986,
+            "make": "Pontiac",
+            "model": "Parisienne",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1977,
+            "year_to": 1994,
+            "make": "Pontiac",
+            "model": "Sunbird",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1976\u20131999 Buick Century",
+          "1976\u20131990 Buick Electra",
+          "1976\u20131989 Buick Skyhawk",
+          "1977\u20131997 Buick Skylark",
+          "1985\u20131999 Chevrolet Astro",
+          "1987\u20131999 Chevrolet Blazer",
+          "1982\u20131999 Chevrolet S10",
+          "1976\u20131998 GMC Jimmy",
+          "1983\u20131990 GMC S15",
+          "1991\u20131999 GMC Sonoma",
+          "1991\u20131994 Isuzu Pickup",
+          "1992 Isuzu Rodeo",
+          "1989\u20131991 Isuzu Trooper",
+          "1976\u20131999 Jeep AMC",
+          "1984\u20131986 Jeep Cherokee",
+          "1986 Jeep Comanche",
+          "1984\u20131986 Jeep Wagoneer",
+          "1977\u20131999 Oldsmobile Cutlass",
+          "1982\u20131988 Oldsmobile Firenza",
+          "1982\u20131991 Pontiac 6000",
+          "1984\u20131988 Pontiac Fiero",
+          "1976\u20131999 Pontiac Firebird",
+          "1977\u20131999 Pontiac Grand Prix",
+          "1976\u20131989 Pontiac LeMans",
+          "1976\u20131986 Pontiac Parisienne",
+          "1977\u20131994 Pontiac Sunbird"
+        ],
+        "raw_compat_rows": 2267,
+        "source": "ebay_listing+title",
+        "confidence": "high",
+        "ebay_item_id": "398310191376",
+        "type": "PCV Valve",
+        "brand": "IAD",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Steering & Suspension:Power Steering Pump Parts"
+      }
     },
     {
       "id": "SOTIPLIA5O4ADIQITPRBSWKW",
@@ -33631,5 +34103,5 @@
       "stock": 1
     }
   ],
-  "fitment_built": "2026-08-21T05:00:50Z"
+  "fitment_built": "2026-08-21T05:13:30Z"
 }
