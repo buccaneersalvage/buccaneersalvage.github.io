@@ -1,7 +1,7 @@
 {
-  "updated": "2026-08-21T04:00:59Z",
+  "updated": "2026-08-21T04:44:25Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 277,
+  "count": 283,
   "items": [
     {
       "id": "S4IZBA4AG65C6HI2ZDIRMSJR",
@@ -1994,6 +1994,74 @@
       "ebay_type": "Hardware",
       "ebay_brand": "Carlson",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware"
+    },
+    {
+      "id": "CKAZJGA2PMPIALJQ4A3ZETMF",
+      "name": "Bendix Brakes Past Models Catalog 8-100A 1950s Cars Trucks Service Reference",
+      "price": 24.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/46ce47ea9839cb655deb7805764fb6c7efdf25a0/original.jpeg",
+      "url": "https://square.link/u/MIplO9Ss",
+      "category": "brake",
+      "checkout": true,
+      "variation_id": "HGOKKOF3TWVLJIA55RJACCEE",
+      "stock": 1,
+      "part_numbers": [],
+      "interchange": [],
+      "vehicles": [],
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398310103799",
+      "ebay_type": "Technical Reference Manual",
+      "ebay_brand": "Bendix",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "medium",
+      "fitment": {
+        "part_numbers": [],
+        "interchange": [],
+        "vehicles": [],
+        "vehicle_labels": [],
+        "raw_compat_rows": 0,
+        "source": "ebay_listing",
+        "confidence": "medium",
+        "ebay_item_id": "398310103799",
+        "type": "Technical Reference Manual",
+        "brand": "Bendix",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware"
+      }
+    },
+    {
+      "id": "42Y2EHEDUAOJ7LSTKR3G4H57",
+      "name": "Brake Application Technical Catalog Bendix Allied Signal Reference Manual",
+      "price": 16.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/bb97f2433ed99ec39b0fdaa946644f21d792d05a/original.jpeg",
+      "url": "https://square.link/u/DJh3rxVN",
+      "category": "brake",
+      "checkout": true,
+      "variation_id": "EQJCK4UQOAMT34KS66RPLZZF",
+      "stock": 1,
+      "part_numbers": [],
+      "interchange": [],
+      "vehicles": [],
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398310121957",
+      "ebay_type": "Technical Reference Manual",
+      "ebay_brand": "Bendix/Allied Signal",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "medium",
+      "fitment": {
+        "part_numbers": [],
+        "interchange": [],
+        "vehicles": [],
+        "vehicle_labels": [],
+        "raw_compat_rows": 0,
+        "source": "ebay_listing",
+        "confidence": "medium",
+        "ebay_item_id": "398310121957",
+        "type": "Technical Reference Manual",
+        "brand": "Bendix/Allied Signal",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware"
+      }
     },
     {
       "id": "JKUAMMO26XBHERJ2AFZUWIS7",
@@ -9132,7 +9200,6 @@
       "category": "brake",
       "checkout": true,
       "variation_id": "3GQM4DUUI3ANY2WS36PORVVG",
-      "stock": 1,
       "part_numbers": [
         "BH177239",
         "E0AZ2078A"
@@ -9155,11 +9222,6 @@
         "1980\u20131994 Mercury Grand Marquis",
         "1980\u20131982 Mercury Marquis"
       ],
-      "vehicle_count_raw": 421,
-      "ebay_item_id": "398309924691",
-      "ebay_type": "Brake Hydraulic Hose",
-      "ebay_brand": "Parts Master",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Hoses, Lines & Fittings",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -9304,7 +9366,13 @@
         "type": "Brake Hydraulic Hose",
         "brand": "Parts Master",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Hoses, Lines & Fittings"
-      }
+      },
+      "vehicle_count_raw": 421,
+      "ebay_item_id": "398309924691",
+      "ebay_type": "Brake Hydraulic Hose",
+      "ebay_brand": "Parts Master",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Hoses, Lines & Fittings",
+      "stock": 1
     },
     {
       "id": "MO4BVNA2CTXOFQPJSRF34PHI",
@@ -9315,7 +9383,6 @@
       "category": "brake",
       "checkout": true,
       "variation_id": "RRC7R4D2ZSEAD3SYSGKDGHQ7",
-      "stock": 1,
       "part_numbers": [
         "BH177432"
       ],
@@ -9333,11 +9400,6 @@
         "1981\u20131987 Mercury Lynx",
         "1984\u20131994 Mercury Topaz"
       ],
-      "vehicle_count_raw": 509,
-      "ebay_item_id": "398309934011",
-      "ebay_type": "Brake Hydraulic Hose",
-      "ebay_brand": "Parts Master",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Hoses, Lines & Fittings",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -9427,7 +9489,13 @@
         "type": "Brake Hydraulic Hose",
         "brand": "Parts Master",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Hoses, Lines & Fittings"
-      }
+      },
+      "vehicle_count_raw": 509,
+      "ebay_item_id": "398309934011",
+      "ebay_type": "Brake Hydraulic Hose",
+      "ebay_brand": "Parts Master",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Hoses, Lines & Fittings",
+      "stock": 1
     },
     {
       "id": "DPRSU7RX4SKAHPRFDDTPFKZR",
@@ -19862,6 +19930,85 @@
       "stock": 1
     },
     {
+      "id": "B4B4PPT33JIOZUWLXRMZMFM3",
+      "name": "LaSalle 780413 Spark Plug Wire Set NOS 90-95 Chrysler Dodge Plymouth",
+      "price": 39.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/8df74ac667c875cd101acf541f73f0a35f9900f9/original.jpeg",
+      "url": "https://square.link/u/8bUpNxSW",
+      "category": "ignition",
+      "checkout": true,
+      "variation_id": "62BSMWTSVSI6DOZMLZGQ4XZ6",
+      "stock": 1,
+      "part_numbers": [
+        "780413",
+        "NAPA MPW 2620"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1990\u20131995 Chrysler",
+        "1990\u20131995 Dodge",
+        "1990\u20131995 Plymouth"
+      ],
+      "vehicle_count_raw": 3,
+      "ebay_item_id": "398310144846",
+      "ebay_type": "Spark Plug Wire Set / Ignition Wires",
+      "ebay_brand": "LaSalle",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Wires & Coil Boots",
+      "fitment_source": "ebay_listing+title",
+      "fitment_confidence": "medium",
+      "fitment": {
+        "part_numbers": [
+          "780413",
+          "NAPA MPW 2620"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1990,
+            "year_to": 1995,
+            "make": "Chrysler",
+            "model": "",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1990,
+            "year_to": 1995,
+            "make": "Dodge",
+            "model": "",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1990,
+            "year_to": 1995,
+            "make": "Plymouth",
+            "model": "",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1990\u20131995 Chrysler",
+          "1990\u20131995 Dodge",
+          "1990\u20131995 Plymouth"
+        ],
+        "raw_compat_rows": 3,
+        "source": "ebay_listing+title",
+        "confidence": "medium",
+        "ebay_item_id": "398310144846",
+        "type": "Spark Plug Wire Set / Ignition Wires",
+        "brand": "LaSalle",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Wires & Coil Boots"
+      }
+    },
+    {
       "id": "6GLFQLRM64VCWRYXXKKTCQVD",
       "name": "NOS Pace Setter PT345 Distributor Pickup Coil Chrysler Dodge Plymouth Mitsubishi",
       "price": 14.99,
@@ -25867,19 +26014,12 @@
       "category": "ignition",
       "checkout": true,
       "variation_id": "W5TMRVQBZSFOLLI5HKPWEM5L",
-      "stock": 1,
       "part_numbers": [
         "JH168"
       ],
-      "interchange": [],
       "vehicles": [
         "1985\u20131987 Nissan Stanza"
       ],
-      "vehicle_count_raw": 8,
-      "ebay_item_id": "398309957802",
-      "ebay_type": "Distributor Cap",
-      "ebay_brand": "Standard Motor Products",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -25909,7 +26049,14 @@
         "type": "Distributor Cap",
         "brand": "Standard Motor Products",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps"
-      }
+      },
+      "vehicle_count_raw": 8,
+      "ebay_item_id": "398309957802",
+      "ebay_type": "Distributor Cap",
+      "ebay_brand": "Standard Motor Products",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps",
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "BBUP4BQEBUP7CGDWCUP2LGX7",
@@ -28824,6 +28971,143 @@
       "part_numbers": [],
       "interchange": [],
       "vehicles": []
+    },
+    {
+      "id": "FWSMLMXW74FDOURREUJLIL3Y",
+      "name": "Champion Spark Plug Catalog #3 1960s 1970s 1980s Cars Trucks Reference",
+      "price": 24.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/3d727d420ce5afd15493df22ef53ec9eb25d25f1/original.jpeg",
+      "url": "https://square.link/u/OGaVEv5o",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "DQJITTGSXD7MO2SJXDVCYZ2F",
+      "stock": 1,
+      "part_numbers": [],
+      "interchange": [],
+      "vehicles": [],
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398310108850",
+      "ebay_type": "Technical Reference Manual",
+      "ebay_brand": "Champion",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Wires & Coil Boots",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "medium",
+      "fitment": {
+        "part_numbers": [],
+        "interchange": [],
+        "vehicles": [],
+        "vehicle_labels": [],
+        "raw_compat_rows": 0,
+        "source": "ebay_listing",
+        "confidence": "medium",
+        "ebay_item_id": "398310108850",
+        "type": "Technical Reference Manual",
+        "brand": "Champion",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Wires & Coil Boots"
+      }
+    },
+    {
+      "id": "RDNZ6GYL22VCWLBJTIPXBNUO",
+      "name": "Four Seasons 74691 Heater Valve NOS 76-90 Buick Olds Pontiac Chevy GM",
+      "price": 39.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/6c7017e964d0e5ad5a13078cfc1d02bf31b460a2/original.jpeg",
+      "url": "https://square.link/u/2qcivxDx",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "GQEZO7D5NDI3VHXUXK2KYI7L",
+      "stock": 1,
+      "part_numbers": [
+        "74691",
+        "BK 6601083"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1976\u20131990 Buick",
+        "1976\u20131990 Chevrolet",
+        "1976\u20131990 GM",
+        "1976\u20131990 Oldsmobile",
+        "1976\u20131990 Pontiac"
+      ],
+      "vehicle_count_raw": 5,
+      "ebay_item_id": "398310119922",
+      "ebay_type": "Heater Valve",
+      "ebay_brand": "Four Seasons",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Interior Parts & Accessories:Seats, Parts & Accessories:Seat Belt Shoulder Pads",
+      "fitment_source": "ebay_listing+title",
+      "fitment_confidence": "medium",
+      "fitment": {
+        "part_numbers": [
+          "74691",
+          "BK 6601083"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1976,
+            "year_to": 1990,
+            "make": "Buick",
+            "model": "",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1976,
+            "year_to": 1990,
+            "make": "Chevrolet",
+            "model": "",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1976,
+            "year_to": 1990,
+            "make": "GM",
+            "model": "",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1976,
+            "year_to": 1990,
+            "make": "Oldsmobile",
+            "model": "",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1976,
+            "year_to": 1990,
+            "make": "Pontiac",
+            "model": "",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1976\u20131990 Buick",
+          "1976\u20131990 Chevrolet",
+          "1976\u20131990 GM",
+          "1976\u20131990 Oldsmobile",
+          "1976\u20131990 Pontiac"
+        ],
+        "raw_compat_rows": 5,
+        "source": "ebay_listing+title",
+        "confidence": "medium",
+        "ebay_item_id": "398310119922",
+        "type": "Heater Valve",
+        "brand": "Four Seasons",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Interior Parts & Accessories:Seats, Parts & Accessories:Seat Belt Shoulder Pads"
+      }
     },
     {
       "id": "BYO4CA2ORO6PIIHKJ6BAJ7Z5",
@@ -32066,6 +32350,40 @@
       "stock": 1
     },
     {
+      "id": "EB5CFL2W7I262PXDGCSEY2JL",
+      "name": "Lot of Auto Link & Littelfuse Automotive Fuses NOS Japanese Car Misc",
+      "price": 29.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/a479885feace46ccc9194dbe5d2d2513d6d9d1ea/original.jpeg",
+      "url": "https://square.link/u/nOSawJlo",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "AUR75SHIIDMAGSPKM4WFOCWS",
+      "stock": 1,
+      "part_numbers": [],
+      "interchange": [],
+      "vehicles": [],
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398310136464",
+      "ebay_type": "Automotive Fuses (Assorted)",
+      "ebay_brand": "Auto Link, Littelfuse",
+      "ebay_category": "Business & Industrial:Electrical Equipment & Supplies:Fuses:Fuses & Links",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "medium",
+      "fitment": {
+        "part_numbers": [],
+        "interchange": [],
+        "vehicles": [],
+        "vehicle_labels": [],
+        "raw_compat_rows": 0,
+        "source": "ebay_listing",
+        "confidence": "medium",
+        "ebay_item_id": "398310136464",
+        "type": "Automotive Fuses (Assorted)",
+        "brand": "Auto Link, Littelfuse",
+        "ebay_category": "Business & Industrial:Electrical Equipment & Supplies:Fuses:Fuses & Links"
+      }
+    },
+    {
       "id": "2IGN4TREF7DNKIIYWCK3U4BR",
       "name": "Parts Master 31999 Thermostat 195 2.2 2.5 84-95 Caravan NOS USA",
       "price": 12.99,
@@ -32285,23 +32603,16 @@
       "category": "other",
       "checkout": true,
       "variation_id": "47K4USUD6H5ZM74XP3NCWO52",
-      "stock": 1,
       "part_numbers": [
         "9-3004",
         "C3004"
       ],
-      "interchange": [],
       "vehicles": [
         "1972\u20131987 Ford Bronco",
         "1972\u20131974 Ford E-300 Econoline",
         "1972\u20131980 Ford F-100",
         "1975\u20131980 Ford F-150"
       ],
-      "vehicle_count_raw": 924,
-      "ebay_item_id": "398309951094",
-      "ebay_type": "Timing Chain & Sprocket Set",
-      "ebay_brand": "Perfect Circle (Dana)",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Timing Components & Kits:Timing Kits",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -32365,7 +32676,14 @@
         "type": "Timing Chain & Sprocket Set",
         "brand": "Perfect Circle (Dana)",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Timing Components & Kits:Timing Kits"
-      }
+      },
+      "vehicle_count_raw": 924,
+      "ebay_item_id": "398309951094",
+      "ebay_type": "Timing Chain & Sprocket Set",
+      "ebay_brand": "Perfect Circle (Dana)",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Timing Components & Kits:Timing Kits",
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "45QCCVHCD3OGIHM53VDOFBKJ",
@@ -33056,5 +33374,5 @@
       "stock": 1
     }
   ],
-  "fitment_built": "2026-08-21T04:00:59Z"
+  "fitment_built": "2026-08-21T04:44:25Z"
 }
