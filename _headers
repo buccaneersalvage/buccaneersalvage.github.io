@@ -1,0 +1,50 @@
+# NOT HONORED BY GITHUB PAGES — use HTML <meta http-equiv> CSP / nosniff / referrer.
+# Kept as documentation for a future host (Cloudflare Pages / Netlify) that supports _headers.
+# Browsers ignore frame-ancestors / X-Frame-Options in <meta>; only HTTP headers clickjack.
+# Arch-review 2026-08-08: do not assume this file applies until DNS moves off raw github.io.
+
+
+/*
+  # Match live meta CSP. style-src is 'self' only (inline style= extracted). frame-ancestors HTTP-only.
+  Content-Security-Policy: default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data: https://items-images-production.s3.us-west-2.amazonaws.com https://*.squareup.com https://*.squarecdn.com https://img.youtube.com https://i.ytimg.com; font-src 'self' data:; connect-src 'self'; base-uri 'self'; form-action 'self'; object-src 'none'; frame-src 'none'; frame-ancestors 'none'
+
+  # Prevent MIME type sniffing
+  X-Content-Type-Options: nosniff
+
+  # Prevent clickjacking (only works as a real HTTP header)
+  X-Frame-Options: DENY
+
+  # Enable XSS protection in older browsers
+  X-XSS-Protection: 1; mode=block
+
+  # Referrer policy for privacy
+  Referrer-Policy: strict-origin-when-cross-origin
+
+  # Permissions policy
+  Permissions-Policy: geolocation=(), microphone=(), camera=()
+
+  # Additional security headers
+  Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+
+  # Cache control for assets
+  Cache-Control: public, max-age=3600
+
+# Apply to HTML pages specifically
+/*.html
+  Cache-Control: public, max-age=300
+  Content-Type: text/html; charset=utf-8
+
+# Apply to CSS
+/*.css
+  Cache-Control: public, max-age=31536000
+  Content-Type: text/css; charset=utf-8
+
+# Apply to JavaScript
+/*.js
+  Cache-Control: public, max-age=31536000
+  Content-Type: application/javascript; charset=utf-8
+
+# Apply to images
+/assets/*
+  Cache-Control: public, max-age=31536000
+  Content-Type: image/*
