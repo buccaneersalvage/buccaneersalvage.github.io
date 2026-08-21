@@ -1,7 +1,7 @@
 {
-  "updated": "2026-08-21T03:01:06Z",
+  "updated": "2026-08-21T04:00:59Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 273,
+  "count": 277,
   "items": [
     {
       "id": "S4IZBA4AG65C6HI2ZDIRMSJR",
@@ -9019,21 +9019,14 @@
       "category": "brake",
       "checkout": true,
       "variation_id": "2YSFYDOOW6GC3V4GUTNK4RHA",
-      "stock": 1,
       "part_numbers": [
         "D130"
       ],
-      "interchange": [],
       "vehicles": [
         "1977\u20131981 Honda Accord",
         "1977\u20131981 Honda Civic"
       ],
-      "vehicle_count_raw": 13,
-      "ebay_item_id": "398309898300",
-      "ebay_type": "Disc Brake Pads",
-      "ebay_brand": "NJA",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pads",
-      "fitment_source": "ebay_listing+title",
+      "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
@@ -9067,13 +9060,20 @@
           "1977\u20131981 Honda Civic"
         ],
         "raw_compat_rows": 13,
-        "source": "ebay_listing+title",
+        "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398309898300",
         "type": "Disc Brake Pads",
         "brand": "NJA",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pads"
-      }
+      },
+      "vehicle_count_raw": 13,
+      "ebay_item_id": "398309898300",
+      "ebay_type": "Disc Brake Pads",
+      "ebay_brand": "NJA",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pads",
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "NHOKX35ZWQT7VIEZDIKUBRID",
@@ -9084,7 +9084,6 @@
       "category": "brake",
       "checkout": true,
       "variation_id": "YOLWUG4YHVZB22PK2TOTD3NP",
-      "stock": 1,
       "part_numbers": [
         "BH177238"
       ],
@@ -9094,12 +9093,6 @@
         "Bendix 77238",
         "EIS 5884"
       ],
-      "vehicles": [],
-      "vehicle_count_raw": 0,
-      "ebay_item_id": "398309912573",
-      "ebay_type": "Brake Hydraulic Hose",
-      "ebay_brand": "Parts Master",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Hoses, Lines & Fittings",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -9118,6 +9111,319 @@
         "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398309912573",
+        "type": "Brake Hydraulic Hose",
+        "brand": "Parts Master",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Hoses, Lines & Fittings"
+      },
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398309912573",
+      "ebay_type": "Brake Hydraulic Hose",
+      "ebay_brand": "Parts Master",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Hoses, Lines & Fittings",
+      "stock": 1,
+      "vehicles": []
+    },
+    {
+      "id": "OAOS6GXF4MDN2BQEUKAWVZJI",
+      "name": "Parts Master BH177239 Front Right Brake Hose 1980-1994 Ford Lincoln Mercury NOS",
+      "price": 19.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/1fd5d0783aed891c930bf96694b7db4dc2988f30/original.jpeg",
+      "url": "https://square.link/u/7YzkBHpJ",
+      "category": "brake",
+      "checkout": true,
+      "variation_id": "3GQM4DUUI3ANY2WS36PORVVG",
+      "stock": 1,
+      "part_numbers": [
+        "BH177239",
+        "E0AZ2078A"
+      ],
+      "interchange": [
+        "Wagner 102470",
+        "Raybestos BH36935",
+        "Midas 1315"
+      ],
+      "vehicles": [
+        "1987\u20131991 Ford Country Squire",
+        "1992\u20131994 Ford Crown Victoria",
+        "1991\u20131994 Ford Grand Marquis",
+        "1980\u20131986 Ford LTD",
+        "1987\u20131991 Ford LTD Crown Victoria",
+        "1980 Lincoln Continental",
+        "1980\u20131983 Lincoln Mark VI",
+        "1982\u20131994 Lincoln Town Car",
+        "1987\u20131991 Mercury Colony Park",
+        "1980\u20131994 Mercury Grand Marquis",
+        "1980\u20131982 Mercury Marquis"
+      ],
+      "vehicle_count_raw": 421,
+      "ebay_item_id": "398309924691",
+      "ebay_type": "Brake Hydraulic Hose",
+      "ebay_brand": "Parts Master",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Hoses, Lines & Fittings",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "BH177239",
+          "E0AZ2078A"
+        ],
+        "interchange": [
+          "Wagner 102470",
+          "Raybestos BH36935",
+          "Midas 1315"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1987,
+            "year_to": 1991,
+            "make": "Ford",
+            "model": "Country Squire",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1992,
+            "year_to": 1994,
+            "make": "Ford",
+            "model": "Crown Victoria",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1991,
+            "year_to": 1994,
+            "make": "Ford",
+            "model": "Grand Marquis",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1980,
+            "year_to": 1986,
+            "make": "Ford",
+            "model": "LTD",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1991,
+            "make": "Ford",
+            "model": "LTD Crown Victoria",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1980,
+            "year_to": 1980,
+            "make": "Lincoln",
+            "model": "Continental",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1980,
+            "year_to": 1983,
+            "make": "Lincoln",
+            "model": "Mark VI",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1982,
+            "year_to": 1994,
+            "make": "Lincoln",
+            "model": "Town Car",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1991,
+            "make": "Mercury",
+            "model": "Colony Park",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1980,
+            "year_to": 1994,
+            "make": "Mercury",
+            "model": "Grand Marquis",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1980,
+            "year_to": 1982,
+            "make": "Mercury",
+            "model": "Marquis",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1987\u20131991 Ford Country Squire",
+          "1992\u20131994 Ford Crown Victoria",
+          "1991\u20131994 Ford Grand Marquis",
+          "1980\u20131986 Ford LTD",
+          "1987\u20131991 Ford LTD Crown Victoria",
+          "1980 Lincoln Continental",
+          "1980\u20131983 Lincoln Mark VI",
+          "1982\u20131994 Lincoln Town Car",
+          "1987\u20131991 Mercury Colony Park",
+          "1980\u20131994 Mercury Grand Marquis",
+          "1980\u20131982 Mercury Marquis"
+        ],
+        "raw_compat_rows": 421,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398309924691",
+        "type": "Brake Hydraulic Hose",
+        "brand": "Parts Master",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Hoses, Lines & Fittings"
+      }
+    },
+    {
+      "id": "MO4BVNA2CTXOFQPJSRF34PHI",
+      "name": "Parts Master BH177432 Front Left Brake Hose Ford Tempo Escort Topaz NOS",
+      "price": 19.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/5b217a885efc5c5d85d460f70686c6f74b5757c4/original.jpeg",
+      "url": "https://square.link/u/Se9ahJpS",
+      "category": "brake",
+      "checkout": true,
+      "variation_id": "RRC7R4D2ZSEAD3SYSGKDGHQ7",
+      "stock": 1,
+      "part_numbers": [
+        "BH177432"
+      ],
+      "interchange": [
+        "Wagner 108312",
+        "Raybestos 38193",
+        "EIS 6465",
+        "Bendix 77432"
+      ],
+      "vehicles": [
+        "1982\u20131988 Ford EXP",
+        "1981\u20131990 Ford Escort",
+        "1984\u20131994 Ford Tempo",
+        "1982\u20131983 Mercury LN7",
+        "1981\u20131987 Mercury Lynx",
+        "1984\u20131994 Mercury Topaz"
+      ],
+      "vehicle_count_raw": 509,
+      "ebay_item_id": "398309934011",
+      "ebay_type": "Brake Hydraulic Hose",
+      "ebay_brand": "Parts Master",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Hoses, Lines & Fittings",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "BH177432"
+        ],
+        "interchange": [
+          "Wagner 108312",
+          "Raybestos 38193",
+          "EIS 6465",
+          "Bendix 77432"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1982,
+            "year_to": 1988,
+            "make": "Ford",
+            "model": "EXP",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1981,
+            "year_to": 1990,
+            "make": "Ford",
+            "model": "Escort",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 1994,
+            "make": "Ford",
+            "model": "Tempo",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1982,
+            "year_to": 1983,
+            "make": "Mercury",
+            "model": "LN7",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1981,
+            "year_to": 1987,
+            "make": "Mercury",
+            "model": "Lynx",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 1994,
+            "make": "Mercury",
+            "model": "Topaz",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1982\u20131988 Ford EXP",
+          "1981\u20131990 Ford Escort",
+          "1984\u20131994 Ford Tempo",
+          "1982\u20131983 Mercury LN7",
+          "1981\u20131987 Mercury Lynx",
+          "1984\u20131994 Mercury Topaz"
+        ],
+        "raw_compat_rows": 509,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398309934011",
         "type": "Brake Hydraulic Hose",
         "brand": "Parts Master",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Hoses, Lines & Fittings"
@@ -18123,11 +18429,9 @@
       "category": "ignition",
       "checkout": true,
       "variation_id": "HZ3FAIR7XVI7WRSNKSOGAAEB",
-      "stock": 1,
       "part_numbers": [
         "E140"
       ],
-      "interchange": [],
       "vehicles": [
         "1966\u20131970 Ford Fairlane",
         "1966\u20131970 Ford Falcon",
@@ -18137,11 +18441,6 @@
         "1966\u20131974 Mercury Comet",
         "1968\u20131974 Mercury Montego"
       ],
-      "vehicle_count_raw": 631,
-      "ebay_item_id": "398309871675",
-      "ebay_type": "Distributor Cap and Rotor Kit",
-      "ebay_brand": "Auto-Tune",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -18237,7 +18536,14 @@
         "type": "Distributor Cap and Rotor Kit",
         "brand": "Auto-Tune",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps"
-      }
+      },
+      "vehicle_count_raw": 631,
+      "ebay_item_id": "398309871675",
+      "ebay_type": "Distributor Cap and Rotor Kit",
+      "ebay_brand": "Auto-Tune",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps",
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "IZDFR5RUM4VNNUHYU4ECMN7J",
@@ -20413,7 +20719,6 @@
       "category": "ignition",
       "checkout": true,
       "variation_id": "F4TOX756KON7TZMNQXO3D53I",
-      "stock": 1,
       "part_numbers": [
         "DR630"
       ],
@@ -20436,12 +20741,7 @@
         "1977\u20131981 Pontiac Phoenix",
         "1977\u20131980 Pontiac Sunbird"
       ],
-      "vehicle_count_raw": 104,
-      "ebay_item_id": "398309902201",
-      "ebay_type": "Distributor Cap",
-      "ebay_brand": "Pacesetter",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps",
-      "fitment_source": "ebay_listing+title",
+      "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
@@ -20579,13 +20879,19 @@
           "1977\u20131980 Pontiac Sunbird"
         ],
         "raw_compat_rows": 104,
-        "source": "ebay_listing+title",
+        "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398309902201",
         "type": "Distributor Cap",
         "brand": "Pacesetter",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps"
-      }
+      },
+      "vehicle_count_raw": 104,
+      "ebay_item_id": "398309902201",
+      "ebay_type": "Distributor Cap",
+      "ebay_brand": "Pacesetter",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps",
+      "stock": 1
     },
     {
       "id": "JOA4WVRXJRWYJ5T6LBHMLV3Y",
@@ -25553,6 +25859,59 @@
       "stock": 1
     },
     {
+      "id": "5HTQX5EMAYSZCQ5J722ANPUE",
+      "name": "Standard JH168 2.0L Distributor Cap 1985-1987 Nissan Stanza NOS",
+      "price": 19.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/1e2561b50494d0bc1bd2be584855a054f3dc2e17/original.jpeg",
+      "url": "https://square.link/u/CDPVp6Vm",
+      "category": "ignition",
+      "checkout": true,
+      "variation_id": "W5TMRVQBZSFOLLI5HKPWEM5L",
+      "stock": 1,
+      "part_numbers": [
+        "JH168"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1985\u20131987 Nissan Stanza"
+      ],
+      "vehicle_count_raw": 8,
+      "ebay_item_id": "398309957802",
+      "ebay_type": "Distributor Cap",
+      "ebay_brand": "Standard Motor Products",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "JH168"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1985,
+            "year_to": 1987,
+            "make": "Nissan",
+            "model": "Stanza",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1985\u20131987 Nissan Stanza"
+        ],
+        "raw_compat_rows": 8,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398309957802",
+        "type": "Distributor Cap",
+        "brand": "Standard Motor Products",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps"
+      }
+    },
+    {
       "id": "BBUP4BQEBUP7CGDWCUP2LGX7",
       "name": "Standard JH207 Distributor Cap NOS Honda Accord Early-Mid 1990s 2.2L",
       "price": 19.98,
@@ -30413,11 +30772,9 @@
       "category": "other",
       "checkout": true,
       "variation_id": "4TCNC5DG2DFQABROVVN5WJ5B",
-      "stock": 1,
       "part_numbers": [
         "CPA236"
       ],
-      "interchange": [],
       "vehicles": [
         "1975\u20131984 Buick LeSabre",
         "1975\u20131984 Buick Regal",
@@ -30431,12 +30788,7 @@
         "1977\u20131984 Pontiac Bonneville",
         "1975\u20131981 Pontiac Firebird"
       ],
-      "vehicle_count_raw": 1042,
-      "ebay_item_id": "398309884345",
-      "ebay_type": "Choke Pull-Off",
-      "ebay_brand": "Hygrade",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Carburetor Parts",
-      "fitment_source": "ebay_listing+title",
+      "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
@@ -30569,13 +30921,20 @@
           "1975\u20131981 Pontiac Firebird"
         ],
         "raw_compat_rows": 1042,
-        "source": "ebay_listing+title",
+        "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398309884345",
         "type": "Choke Pull-Off",
         "brand": "Hygrade",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Carburetor Parts"
-      }
+      },
+      "vehicle_count_raw": 1042,
+      "ebay_item_id": "398309884345",
+      "ebay_type": "Choke Pull-Off",
+      "ebay_brand": "Hygrade",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Carburetor Parts",
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "FQHJIPDU2IS3FX6654HKIM5R",
@@ -31918,6 +32277,97 @@
       "stock": 1
     },
     {
+      "id": "ULZXTMJNQKHKH3QCTBHC5SMA",
+      "name": "Perfect Circle Dana C3004 Timing Chain Set Ford Bronco F150 72-87 NOS",
+      "price": 39.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/3d17f3fb567d6f6af9918f5420e8b35d101fc4a2/original.jpeg",
+      "url": "https://square.link/u/XbY6jYW7",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "47K4USUD6H5ZM74XP3NCWO52",
+      "stock": 1,
+      "part_numbers": [
+        "9-3004",
+        "C3004"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1972\u20131987 Ford Bronco",
+        "1972\u20131974 Ford E-300 Econoline",
+        "1972\u20131980 Ford F-100",
+        "1975\u20131980 Ford F-150"
+      ],
+      "vehicle_count_raw": 924,
+      "ebay_item_id": "398309951094",
+      "ebay_type": "Timing Chain & Sprocket Set",
+      "ebay_brand": "Perfect Circle (Dana)",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Timing Components & Kits:Timing Kits",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "9-3004",
+          "C3004"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1972,
+            "year_to": 1987,
+            "make": "Ford",
+            "model": "Bronco",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1972,
+            "year_to": 1974,
+            "make": "Ford",
+            "model": "E-300 Econoline",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1972,
+            "year_to": 1980,
+            "make": "Ford",
+            "model": "F-100",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1975,
+            "year_to": 1980,
+            "make": "Ford",
+            "model": "F-150",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1972\u20131987 Ford Bronco",
+          "1972\u20131974 Ford E-300 Econoline",
+          "1972\u20131980 Ford F-100",
+          "1975\u20131980 Ford F-150"
+        ],
+        "raw_compat_rows": 924,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398309951094",
+        "type": "Timing Chain & Sprocket Set",
+        "brand": "Perfect Circle (Dana)",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Timing Components & Kits:Timing Kits"
+      }
+    },
+    {
       "id": "45QCCVHCD3OGIHM53VDOFBKJ",
       "name": "Standard D1980 Ignition Module NOS IAD LX339",
       "price": 39.99,
@@ -32606,5 +33056,5 @@
       "stock": 1
     }
   ],
-  "fitment_built": "2026-08-21T03:01:06Z"
+  "fitment_built": "2026-08-21T04:00:59Z"
 }
