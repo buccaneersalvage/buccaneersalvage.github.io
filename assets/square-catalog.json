@@ -1,7 +1,7 @@
 {
-  "updated": "2026-08-21T06:38:09Z",
+  "updated": "2026-08-21T06:50:15Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 295,
+  "count": 296,
   "items": [
     {
       "id": "S4IZBA4AG65C6HI2ZDIRMSJR",
@@ -19137,21 +19137,13 @@
       "category": "ignition",
       "checkout": true,
       "variation_id": "HHORFFYMBSGCB4CLN6NBWWJX",
-      "stock": 1,
-      "part_numbers": [],
-      "interchange": [],
       "vehicles": [
         "1974\u20131995 Chevrolet",
         "1974\u20131995 GM",
         "1974\u20131995 GMC",
         "1974\u20131995 Pontiac"
       ],
-      "vehicle_count_raw": 4,
-      "ebay_item_id": "",
-      "ebay_type": "Distributor Cap",
-      "ebay_brand": "",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps",
-      "fitment_source": "title",
+      "fitment_source": "ebay_listing",
       "fitment_confidence": "low",
       "fitment": {
         "part_numbers": [],
@@ -19204,13 +19196,120 @@
           "1974\u20131995 GMC",
           "1974\u20131995 Pontiac"
         ],
-        "raw_compat_rows": 4,
-        "source": "title",
+        "raw_compat_rows": 8,
+        "source": "ebay_listing",
         "confidence": "low",
         "ebay_item_id": "",
         "type": "Distributor Cap",
         "brand": "",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps"
+      },
+      "vehicle_count_raw": 8,
+      "ebay_type": "Distributor Cap",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps",
+      "stock": 1,
+      "part_numbers": [],
+      "interchange": [],
+      "ebay_item_id": "",
+      "ebay_brand": ""
+    },
+    {
+      "id": "Z4TIFZ23EM6BWSLHSGPMKBFV",
+      "name": "IAD D433HP Distributor Rotor GM HEI 1974-1995 Chevy GMC Pontiac NOS",
+      "price": 14.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/0d5d5394d52e294eed6aae882e39520dbafab986/original.jpeg",
+      "url": "https://square.link/u/bPKwd8kO",
+      "category": "ignition",
+      "checkout": true,
+      "variation_id": "75SBYVZ27VLOUGYLFN5AN7QZ",
+      "stock": 1,
+      "part_numbers": [
+        "D433HP"
+      ],
+      "interchange": [
+        "Standard DR318X",
+        "BWD D157P",
+        "Niehoff DR51CS",
+        "KEM 1280M"
+      ],
+      "vehicles": [
+        "1974\u20131995 Chevrolet",
+        "1974\u20131995 GM HEI",
+        "1974\u20131995 GMC",
+        "1974\u20131995 Pontiac"
+      ],
+      "vehicle_count_raw": 4,
+      "ebay_item_id": "398310435889",
+      "ebay_type": "Distributor Rotor",
+      "ebay_brand": "IAD",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors",
+      "fitment_source": "ebay_listing+title",
+      "fitment_confidence": "medium",
+      "fitment": {
+        "part_numbers": [
+          "D433HP"
+        ],
+        "interchange": [
+          "Standard DR318X",
+          "BWD D157P",
+          "Niehoff DR51CS",
+          "KEM 1280M"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1974,
+            "year_to": 1995,
+            "make": "Chevrolet",
+            "model": "",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1974,
+            "year_to": 1995,
+            "make": "GM",
+            "model": "HEI",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1974,
+            "year_to": 1995,
+            "make": "GMC",
+            "model": "",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1974,
+            "year_to": 1995,
+            "make": "Pontiac",
+            "model": "",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1974\u20131995 Chevrolet",
+          "1974\u20131995 GM HEI",
+          "1974\u20131995 GMC",
+          "1974\u20131995 Pontiac"
+        ],
+        "raw_compat_rows": 4,
+        "source": "ebay_listing+title",
+        "confidence": "medium",
+        "ebay_item_id": "398310435889",
+        "type": "Distributor Rotor",
+        "brand": "IAD",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors"
       }
     },
     {
@@ -19384,7 +19483,6 @@
       "category": "ignition",
       "checkout": true,
       "variation_id": "GJVTVYOCVJA5HI62NACUEWJ6",
-      "stock": 1,
       "part_numbers": [
         "780064"
       ],
@@ -19399,11 +19497,6 @@
         "2002\u20132003 Nissan Frontier",
         "2002 Nissan Xterra"
       ],
-      "vehicle_count_raw": 47,
-      "ebay_item_id": "398310421583",
-      "ebay_type": "Spark Plug Wire Set",
-      "ebay_brand": "Lasalle",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Wires & Coil Boots",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -19480,7 +19573,13 @@
         "type": "Spark Plug Wire Set",
         "brand": "Lasalle",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Wires & Coil Boots"
-      }
+      },
+      "vehicle_count_raw": 47,
+      "ebay_item_id": "398310421583",
+      "ebay_type": "Spark Plug Wire Set",
+      "ebay_brand": "Lasalle",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Wires & Coil Boots",
+      "stock": 1
     },
     {
       "id": "DLU4T32ZZN2JIMTKXJCLLNYZ",
@@ -35005,5 +35104,5 @@
       "stock": 1
     }
   ],
-  "fitment_built": "2026-08-21T06:38:09Z"
+  "fitment_built": "2026-08-21T06:50:15Z"
 }
