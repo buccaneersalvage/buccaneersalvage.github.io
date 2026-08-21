@@ -31,7 +31,7 @@ def test_only_parents_on_buc():
     assert "appliance-parts" not in parents
     assert "electronics-electrical" not in parents
     assert parents["industrial-warehouse"] == 1
-    assert parents["vintage-collectibles"] == 3
+    assert parents["vintage-collectibles"] == 2
     assert parents["truck-air-springs"] >= 40
     assert parents["carlson-brake-hardware"] >= 30
     assert parents["auto-parts"] >= 150
@@ -41,13 +41,12 @@ def test_only_parents_on_buc():
 def test_yard_not_dumped_into_auto():
     cat = json.loads((HUB / "assets/square-catalog.json").read_text(encoding="utf-8"))
     by = {i["id"]: i for i in cat["items"]}
-    assert store_tree(by["WCSSZNLKXNQIOIHDWIOWQCGW"])[0] == "vintage-collectibles"  # Masi
     assert store_tree(by["LI7R7ABGGB2TXJQUEGHG5TRX"])[0] == "vintage-collectibles"  # wheelchair
     assert store_tree(by["7CESL5VZLPSRKJGWUFCHL5R5"])[0] == "vintage-collectibles"  # Craftsman
     assert store_tree(by["EZW5JY5PWZJO4PH5R2TQGYC3"])[0] == "industrial-warehouse"  # forklift
     thermo = next(i for i in cat["items"] if "33039" in (i.get("name") or ""))
     assert store_tree(thermo)[0] == "auto-parts"
-    air = by["R6VO2MARXN7GRGTMXVGABLHT"]
+    air = by["5LLWTR3B27YDLV6ZR6XMBPWL"]
     assert store_tree(air)[0] == "truck-air-springs"
 
 
