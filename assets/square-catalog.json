@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-21T05:13:30Z",
+  "updated": "2026-08-21T05:16:04Z",
   "store": "https://buccaneersalvage.square.site/",
   "count": 289,
   "items": [
@@ -31260,12 +31260,12 @@
       "vehicles": [
         "1975\u20131990 GM"
       ],
-      "vehicle_count_raw": 1,
+      "vehicle_count_raw": 2,
       "ebay_item_id": "398310198464",
       "ebay_type": "Choke Pull-Off Valve",
       "ebay_brand": "Hygrade",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Wheels, Tires & Parts:Wheel & Tire Accessories:Spare Tire Jack & Tool Kits",
-      "fitment_source": "ebay_listing+title",
+      "fitment_source": "ebay_listing",
       "fitment_confidence": "medium",
       "fitment": {
         "part_numbers": [
@@ -31291,8 +31291,8 @@
         "vehicle_labels": [
           "1975\u20131990 GM"
         ],
-        "raw_compat_rows": 1,
-        "source": "ebay_listing+title",
+        "raw_compat_rows": 2,
+        "source": "ebay_listing",
         "confidence": "medium",
         "ebay_item_id": "398310198464",
         "type": "Choke Pull-Off Valve",
@@ -32484,7 +32484,7 @@
       "ebay_type": "PCV Valve",
       "ebay_brand": "IAD",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Steering & Suspension:Power Steering Pump Parts",
-      "fitment_source": "ebay_listing+title",
+      "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
@@ -32787,7 +32787,7 @@
           "1977\u20131994 Pontiac Sunbird"
         ],
         "raw_compat_rows": 2267,
-        "source": "ebay_listing+title",
+        "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398310191376",
         "type": "PCV Valve",
@@ -34103,5 +34103,5 @@
       "stock": 1
     }
   ],
-  "fitment_built": "2026-08-21T05:13:30Z"
+  "fitment_built": "2026-08-21T05:16:04Z"
 }
