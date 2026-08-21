@@ -1149,6 +1149,7 @@ def main() -> None:
       <span>© <span id="y">2026</span> Rustjack · BuccaneerSalvage Store</span>
       <nav class="footer-links" aria-label="More">
         <a href="../terms.html">Terms</a>
+        <a href="../privacy.html">Privacy</a>
         <a href="../videos.html">Music</a>
         <a href="../shame.html">Hall of shame</a>
         <a href="https://www.youtube.com/@BuccaneerSalvage" target="_blank" rel="noopener noreferrer">YouTube</a>
