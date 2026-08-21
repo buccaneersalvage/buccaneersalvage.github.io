@@ -1,7 +1,7 @@
 {
-  "updated": "2026-08-21T05:20:16Z",
+  "updated": "2026-08-21T06:01:00Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 290,
+  "count": 293,
   "items": [
     {
       "id": "S4IZBA4AG65C6HI2ZDIRMSJR",
@@ -20112,6 +20112,288 @@
       "interchange": []
     },
     {
+      "id": "EJFO5VLRSHHJUAQYZ3UKETI4",
+      "name": "LaSalle 780427 Spark Plug Wire Set NOS 85-92 Buick Olds Pontiac V6",
+      "price": 48.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/e849173606f3ac99764404521c6c87e300f4b0ba/original.jpeg",
+      "url": "https://square.link/u/KshWpS3W",
+      "category": "ignition",
+      "checkout": true,
+      "variation_id": "YQID6IP7WD425TH5BQEK4CJ7",
+      "stock": 1,
+      "part_numbers": [
+        "780427",
+        "NAPA ProFormer MPW 2959"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1986\u20131992 Buick Century",
+        "1986\u20131987 Buick Electra",
+        "1986\u20131988 Buick LeSabre",
+        "1986\u20131987 Buick Riviera",
+        "1986\u20131992 Buick Skylark",
+        "1986\u20131987 Buick Somerset",
+        "1985 Buick Somerset Regal",
+        "1992 Oldsmobile Achieva",
+        "1985\u20131987 Oldsmobile Calais",
+        "1986\u20131992 Oldsmobile Cutlass Ciera",
+        "1987\u20131992 Oldsmobile Cutlass Cruiser",
+        "1986\u20131988 Oldsmobile Delta 88",
+        "1986\u20131987 Oldsmobile Toronado",
+        "1987\u20131988 Pontiac Bonneville",
+        "1985\u20131992 Pontiac Grand Am"
+      ],
+      "vehicle_count_raw": 369,
+      "ebay_item_id": "398310262964",
+      "ebay_type": "Spark Plug Wire Set / Ignition Wires",
+      "ebay_brand": "LaSalle",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Wires & Coil Boots",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "780427",
+          "NAPA ProFormer MPW 2959"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1986,
+            "year_to": 1992,
+            "make": "Buick",
+            "model": "Century",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1986,
+            "year_to": 1987,
+            "make": "Buick",
+            "model": "Electra",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1986,
+            "year_to": 1988,
+            "make": "Buick",
+            "model": "LeSabre",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1986,
+            "year_to": 1987,
+            "make": "Buick",
+            "model": "Riviera",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1986,
+            "year_to": 1992,
+            "make": "Buick",
+            "model": "Skylark",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1986,
+            "year_to": 1987,
+            "make": "Buick",
+            "model": "Somerset",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1985,
+            "make": "Buick",
+            "model": "Somerset Regal",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1992,
+            "year_to": 1992,
+            "make": "Oldsmobile",
+            "model": "Achieva",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1987,
+            "make": "Oldsmobile",
+            "model": "Calais",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1986,
+            "year_to": 1992,
+            "make": "Oldsmobile",
+            "model": "Cutlass Ciera",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1992,
+            "make": "Oldsmobile",
+            "model": "Cutlass Cruiser",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1986,
+            "year_to": 1988,
+            "make": "Oldsmobile",
+            "model": "Delta 88",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1986,
+            "year_to": 1987,
+            "make": "Oldsmobile",
+            "model": "Toronado",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1988,
+            "make": "Pontiac",
+            "model": "Bonneville",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1992,
+            "make": "Pontiac",
+            "model": "Grand Am",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1986\u20131992 Buick Century",
+          "1986\u20131987 Buick Electra",
+          "1986\u20131988 Buick LeSabre",
+          "1986\u20131987 Buick Riviera",
+          "1986\u20131992 Buick Skylark",
+          "1986\u20131987 Buick Somerset",
+          "1985 Buick Somerset Regal",
+          "1992 Oldsmobile Achieva",
+          "1985\u20131987 Oldsmobile Calais",
+          "1986\u20131992 Oldsmobile Cutlass Ciera",
+          "1987\u20131992 Oldsmobile Cutlass Cruiser",
+          "1986\u20131988 Oldsmobile Delta 88",
+          "1986\u20131987 Oldsmobile Toronado",
+          "1987\u20131988 Pontiac Bonneville",
+          "1985\u20131992 Pontiac Grand Am"
+        ],
+        "raw_compat_rows": 369,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398310262964",
+        "type": "Spark Plug Wire Set / Ignition Wires",
+        "brand": "LaSalle",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Wires & Coil Boots"
+      }
+    },
+    {
+      "id": "YNPLOWF4WCMSLASYZWXF4HB4",
+      "name": "Mr Gasket 928 Advance Curve Kit GM Delco Points Distributor Ignition NOS",
+      "price": 19.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/fa56746d29d46cf3dff54d6d8217f56b2fc55e31/original.jpeg",
+      "url": "https://square.link/u/Im0YPHN3",
+      "category": "ignition",
+      "checkout": true,
+      "variation_id": "YLHI4OJUP6LAMZ5Z5J5HAWGY",
+      "stock": 1,
+      "part_numbers": [
+        "928"
+      ],
+      "interchange": [
+        "Mr Gasket 928G",
+        "MRG928G"
+      ],
+      "vehicles": [
+        "GM Delco"
+      ],
+      "vehicle_count_raw": 1,
+      "ebay_item_id": "398310300894",
+      "ebay_type": "Distributor Advance Curve Kit",
+      "ebay_brand": "Mr. Gasket",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Additional Distributor Parts",
+      "fitment_source": "ebay_listing+title",
+      "fitment_confidence": "medium",
+      "fitment": {
+        "part_numbers": [
+          "928"
+        ],
+        "interchange": [
+          "Mr Gasket 928G",
+          "MRG928G"
+        ],
+        "vehicles": [
+          {
+            "year_from": null,
+            "year_to": null,
+            "make": "GM",
+            "model": "Delco",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "GM Delco"
+        ],
+        "raw_compat_rows": 1,
+        "source": "ebay_listing+title",
+        "confidence": "medium",
+        "ebay_item_id": "398310300894",
+        "type": "Distributor Advance Curve Kit",
+        "brand": "Mr. Gasket",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Additional Distributor Parts"
+      }
+    },
+    {
       "id": "6GLFQLRM64VCWRYXXKKTCQVD",
       "name": "NOS Pace Setter PT345 Distributor Pickup Coil Chrysler Dodge Plymouth Mitsubishi",
       "price": 14.99,
@@ -32915,7 +33197,6 @@
       "category": "other",
       "checkout": true,
       "variation_id": "WRMWTPLFSCMNJYIK7Z55ETRK",
-      "stock": 1,
       "part_numbers": [
         "V253",
         "FRAM FV281, Purolator PV9325"
@@ -32943,11 +33224,6 @@
         "1987\u20131994 Plymouth Sundance",
         "1986\u20131995 Plymouth Voyager"
       ],
-      "vehicle_count_raw": 586,
-      "ebay_item_id": "398310221119",
-      "ebay_type": "PCV Valve",
-      "ebay_brand": "IAD",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Steering & Suspension:Power Steering Pump Parts",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -33147,7 +33423,13 @@
         "type": "PCV Valve",
         "brand": "IAD",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Steering & Suspension:Power Steering Pump Parts"
-      }
+      },
+      "vehicle_count_raw": 586,
+      "ebay_item_id": "398310221119",
+      "ebay_type": "PCV Valve",
+      "ebay_brand": "IAD",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Steering & Suspension:Power Steering Pump Parts",
+      "stock": 1
     },
     {
       "id": "4PPP7M44RK4XRJE2EJELNOE7",
@@ -33289,6 +33571,191 @@
       "part_numbers": [],
       "interchange": [],
       "vehicles": []
+    },
+    {
+      "id": "JWJVJVW4OTOKLMGK4BUSA7GC",
+      "name": "Pace Setter PT285 Ignition Control Module NOS 75-88 GM HEI Chevy Buick",
+      "price": 34.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/980e8614795623611ce3218944b4797b0c9be2be/original.jpeg",
+      "url": "https://square.link/u/B2FPS6of",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "DKVD5OJ3MNURYECKRD4LWNOT",
+      "stock": 1,
+      "part_numbers": [
+        "PT285"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1975\u20131985 Buick LeSabre",
+        "1975\u20131987 Buick Regal",
+        "1975\u20131986 Chevrolet C10",
+        "1975\u20131988 Chevrolet Camaro",
+        "1975\u20131988 Chevrolet Caprice",
+        "1975\u20131983 Chevrolet Malibu",
+        "1975\u20131988 Chevrolet Monte Carlo",
+        "1975\u20131988 GM HEI",
+        "1979\u20131986 GMC C1500",
+        "1975\u20131988 Oldsmobile Cutlass",
+        "1975\u20131988 Pontiac Firebird",
+        "1975\u20131987 Pontiac Grand Prix"
+      ],
+      "vehicle_count_raw": 2027,
+      "ebay_item_id": "398310252079",
+      "ebay_type": "Ignition Control Module",
+      "ebay_brand": "Pace Setter",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Modules",
+      "fitment_source": "ebay_listing+title",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "PT285"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1975,
+            "year_to": 1985,
+            "make": "Buick",
+            "model": "LeSabre",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1975,
+            "year_to": 1987,
+            "make": "Buick",
+            "model": "Regal",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1975,
+            "year_to": 1986,
+            "make": "Chevrolet",
+            "model": "C10",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1975,
+            "year_to": 1988,
+            "make": "Chevrolet",
+            "model": "Camaro",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1975,
+            "year_to": 1988,
+            "make": "Chevrolet",
+            "model": "Caprice",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1975,
+            "year_to": 1983,
+            "make": "Chevrolet",
+            "model": "Malibu",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1975,
+            "year_to": 1988,
+            "make": "Chevrolet",
+            "model": "Monte Carlo",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1975,
+            "year_to": 1988,
+            "make": "GM",
+            "model": "HEI",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1979,
+            "year_to": 1986,
+            "make": "GMC",
+            "model": "C1500",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1975,
+            "year_to": 1988,
+            "make": "Oldsmobile",
+            "model": "Cutlass",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1975,
+            "year_to": 1988,
+            "make": "Pontiac",
+            "model": "Firebird",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1975,
+            "year_to": 1987,
+            "make": "Pontiac",
+            "model": "Grand Prix",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1975\u20131985 Buick LeSabre",
+          "1975\u20131987 Buick Regal",
+          "1975\u20131986 Chevrolet C10",
+          "1975\u20131988 Chevrolet Camaro",
+          "1975\u20131988 Chevrolet Caprice",
+          "1975\u20131983 Chevrolet Malibu",
+          "1975\u20131988 Chevrolet Monte Carlo",
+          "1975\u20131988 GM HEI",
+          "1979\u20131986 GMC C1500",
+          "1975\u20131988 Oldsmobile Cutlass",
+          "1975\u20131988 Pontiac Firebird",
+          "1975\u20131987 Pontiac Grand Prix"
+        ],
+        "raw_compat_rows": 2027,
+        "source": "ebay_listing+title",
+        "confidence": "high",
+        "ebay_item_id": "398310252079",
+        "type": "Ignition Control Module",
+        "brand": "Pace Setter",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Modules"
+      }
     },
     {
       "id": "2IGN4TREF7DNKIIYWCK3U4BR",
@@ -34346,5 +34813,5 @@
       "stock": 1
     }
   ],
-  "fitment_built": "2026-08-21T05:20:16Z"
+  "fitment_built": "2026-08-21T06:01:00Z"
 }
