@@ -1444,6 +1444,9 @@ ul { list-style: none; }
   margin: 0 0 0.45rem;
   font-weight: 700;
 }
+.st-entries-title {
+  margin-bottom: 1.25rem;
+}
 .st-sub {
   margin: 0;
   max-width: 48ch;

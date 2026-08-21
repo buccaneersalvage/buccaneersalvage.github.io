@@ -92,6 +92,9 @@ def html_targets() -> list[Path]:
     pdir = ROOT / "p"
     if pdir.is_dir():
         files.extend(sorted(pdir.glob("*.html")))
+    sdir = ROOT / "shame"
+    if sdir.is_dir():
+        files.extend(sorted(sdir.glob("*.html")))
     builder = ROOT / "scripts" / "build_static_pdps.py"
     if builder.is_file():
         files.append(builder)

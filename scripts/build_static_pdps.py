@@ -740,6 +740,38 @@ def listing_photo_files(ebay_item_id):
     return best
 
 
+def _save_webp(src, dest):
+    from PIL import Image
+    im = Image.open(src)
+    if im.mode not in ("RGB", "RGBA"):
+        im = im.convert("RGB")
+    elif im.mode == "RGBA":
+        bg = Image.new("RGB", im.size, (12, 10, 8))
+        bg.paste(im, mask=im.split()[-1])
+        im = bg
+    im.thumbnail((_GALLERY_EDGE, _GALLERY_EDGE), Image.Resampling.LANCZOS)
+    im.save(dest, format="WEBP", quality=78, method=4)
+
+
+def ensure_hero_webp(item, fallback):
+    """Local optimized 01.webp hero when a gallery dir already exists for the item."""
+    iid = safe_item_id(item.get("id"))
+    dest_dir = GALLERY_DIR / iid
+    if not dest_dir.is_dir():
+        return fallback
+    files = listing_photo_files(item.get("ebay_item_id"))
+    if not files:
+        return fallback
+    try:
+        from PIL import Image
+    except ImportError:
+        return fallback
+    dest = dest_dir / "01.webp"
+    if not dest.is_file() or dest.stat().st_mtime < files[0].stat().st_mtime:
+        _save_webp(files[0], dest)
+    return f"../assets/pdp-gallery/{iid}/01.webp"
+
+
 def ensure_listing_gallery(item):
     """Extra shots from the eBay listing folder. Skip photo-01 (usually the Square hero)."""
     iid = safe_item_id(item.get("id"))
@@ -749,7 +781,7 @@ def ensure_listing_gallery(item):
     if not extras:
         return []
     try:
-        from PIL import Image
+        from PIL import Image  # noqa: F401 — availability check only
     except ImportError:
         return []
     dest_dir = GALLERY_DIR / iid
@@ -758,15 +790,7 @@ def ensure_listing_gallery(item):
     for i, src in enumerate(extras, start=2):
         dest = dest_dir / f"{i:02d}.webp"
         if not dest.is_file() or dest.stat().st_mtime < src.stat().st_mtime:
-            im = Image.open(src)
-            if im.mode not in ("RGB", "RGBA"):
-                im = im.convert("RGB")
-            elif im.mode == "RGBA":
-                bg = Image.new("RGB", im.size, (12, 10, 8))
-                bg.paste(im, mask=im.split()[-1])
-                im = bg
-            im.thumbnail((_GALLERY_EDGE, _GALLERY_EDGE), Image.Resampling.LANCZOS)
-            im.save(dest, format="WEBP", quality=78, method=4)
+            _save_webp(src, dest)
         urls.append(f"../assets/pdp-gallery/{iid}/{i:02d}.webp")
     return urls
 
@@ -822,6 +846,7 @@ def main() -> None:
         catl = dept_label(item)
         desc_kind = item_ebay_tree(item).get("sub") or cat_label(item.get("category"))
         img = safe_image(item.get("image")) or f"{BASE}/assets/og-share.jpg"
+        img = ensure_hero_webp(item, img)
         gallery_raw = [safe_image(u) for u in (item.get("images") or [])]
         gallery = [u for u in gallery_raw if u and u != img]
         if not gallery:
@@ -1032,7 +1057,7 @@ def main() -> None:
   <meta name="twitter:image" content="{esc(img)}" />
   <link rel="icon" type="image/jpeg" href="../assets/crest-rustjack-web.jpg" />
   <link rel="stylesheet" href="../assets/fonts.css?v=d1b92d3ff4" integrity="sha384-IDnmxIHyfCaSAssmrqXZbMSqgbRm8AATad26bBSjsyTVbgLbsvJXqeQW642rJQFS" />
-  <link rel="stylesheet" href="../styles.css?v=7f1fbee256" integrity="sha384-pGrQbodlbnjAkFrFtkPGQ/GjGWvIOfffvxnGoE5jk8WjKQhTEnybj3YDrJyyZRze" />
+  <link rel="stylesheet" href="../styles.css?v=6f36612079" integrity="sha384-Wb5x0nSYvieKSboT6tZ65dd4g3tuhV44uC0RyV7gTV+IYJxtNGurqHDOc7J8XZ/F" />
   <script type="application/ld+json">{schema_json}</script>
   <script type="application/ld+json">{crumbs_json}</script>
   <script src="../pdp-gallery.js?v=a1f0a7f319" integrity="sha384-eq9QZo4xOjZPZpM85hHroYPtpiHY0Q/b2Cumajd+dtSdK9N86QsyI70Fj3kjSGUV" defer></script>
