@@ -3078,6 +3078,56 @@ body.pdp-lightbox-open {
 .page-shame .st-hero {
   border-bottom: 1px solid rgba(185, 28, 28, 0.35);
 }
+.shame-list {
+  display: grid;
+  gap: 1rem;
+}
+.shame-card {
+  display: grid;
+  grid-template-columns: 7rem 1fr;
+  gap: 1rem;
+  align-items: start;
+  background: rgba(240, 208, 120, 0.06);
+  border: 1px solid rgba(240, 208, 120, 0.14);
+  border-radius: 0.5rem;
+  padding: 1rem;
+}
+.shame-thumb {
+  display: block;
+  border-radius: 0.35rem;
+  overflow: hidden;
+}
+.shame-thumb img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.shame-card-body h3 {
+  margin: 0 0 0.4rem;
+  font-family: var(--font-display);
+  font-size: var(--text-lg);
+}
+.shame-card-body p {
+  margin: 0 0 0.5rem;
+  color: var(--parchment-muted);
+  font-size: var(--text-sm);
+}
+.shame-card-body p:last-child {
+  margin-bottom: 0;
+}
+.shame-more {
+  font-size: var(--text-sm);
+  color: var(--gold-bright);
+  text-decoration: none;
+}
+.shame-more:hover {
+  text-decoration: underline;
+}
+@media (max-width: 480px) {
+  .shame-card {
+    grid-template-columns: 1fr;
+  }
+}
 .shame-case {
   max-width: 68rem;
   padding: 0 0 var(--space-8);
