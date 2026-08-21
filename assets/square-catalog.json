@@ -1,7 +1,7 @@
 {
-  "updated": "2026-08-21T09:00:49Z",
+  "updated": "2026-08-21T17:41:35Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 297,
+  "count": 296,
   "items": [
     {
       "id": "S4IZBA4AG65C6HI2ZDIRMSJR",
@@ -20626,65 +20626,6 @@
       "interchange": []
     },
     {
-      "id": "YNPLOWF4WCMSLASYZWXF4HB4",
-      "name": "Mr Gasket 928 Advance Curve Kit GM Delco Points Distributor Ignition NOS",
-      "price": 19.99,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/fa56746d29d46cf3dff54d6d8217f56b2fc55e31/original.jpeg",
-      "url": "https://square.link/u/Im0YPHN3",
-      "category": "ignition",
-      "checkout": true,
-      "variation_id": "YLHI4OJUP6LAMZ5Z5J5HAWGY",
-      "part_numbers": [
-        "928"
-      ],
-      "interchange": [
-        "Mr Gasket 928G",
-        "MRG928G"
-      ],
-      "vehicles": [
-        "GM Delco"
-      ],
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "medium",
-      "fitment": {
-        "part_numbers": [
-          "928"
-        ],
-        "interchange": [
-          "Mr Gasket 928G",
-          "MRG928G"
-        ],
-        "vehicles": [
-          {
-            "year_from": null,
-            "year_to": null,
-            "make": "GM",
-            "model": "Delco",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          }
-        ],
-        "vehicle_labels": [
-          "GM Delco"
-        ],
-        "raw_compat_rows": 1,
-        "source": "ebay_listing",
-        "confidence": "medium",
-        "ebay_item_id": "398310300894",
-        "type": "Distributor Advance Curve Kit",
-        "brand": "Mr. Gasket",
-        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Additional Distributor Parts"
-      },
-      "vehicle_count_raw": 1,
-      "ebay_item_id": "398310300894",
-      "ebay_type": "Distributor Advance Curve Kit",
-      "ebay_brand": "Mr. Gasket",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Additional Distributor Parts",
-      "stock": 1
-    },
-    {
       "id": "6GLFQLRM64VCWRYXXKKTCQVD",
       "name": "NOS Pace Setter PT345 Distributor Pickup Coil Chrysler Dodge Plymouth Mitsubishi",
       "price": 14.99,
@@ -22937,12 +22878,10 @@
       "category": "ignition",
       "checkout": true,
       "variation_id": "YZT22XYUSRI5SLUVLOIJZZM6",
-      "stock": 1,
       "part_numbers": [
         "DR447",
         "Echlin DR447 (cross-reference)"
       ],
-      "interchange": [],
       "vehicles": [
         "1975\u20131977 Buick Century",
         "1976\u20131977 Buick LeSabre",
@@ -22963,12 +22902,7 @@
         "1976\u20131977 Pontiac Sunbird",
         "1977 Pontiac Ventura"
       ],
-      "vehicle_count_raw": 127,
-      "ebay_item_id": "398310768653",
-      "ebay_type": "Distributor Cap & Ignition Module Assembly",
-      "ebay_brand": "Standard",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps",
-      "fitment_source": "ebay_listing+title",
+      "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
@@ -23179,13 +23113,20 @@
           "1977 Pontiac Ventura"
         ],
         "raw_compat_rows": 127,
-        "source": "ebay_listing+title",
+        "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398310768653",
         "type": "Distributor Cap & Ignition Module Assembly",
         "brand": "Standard",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps"
-      }
+      },
+      "vehicle_count_raw": 127,
+      "ebay_item_id": "398310768653",
+      "ebay_type": "Distributor Cap & Ignition Module Assembly",
+      "ebay_brand": "Standard",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps",
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "Q2JTZGAFZVH5JWFJ3JBKSLRV",
@@ -35363,5 +35304,5 @@
       "stock": 1
     }
   ],
-  "fitment_built": "2026-08-21T09:00:49Z"
+  "fitment_built": "2026-08-21T17:41:35Z"
 }
