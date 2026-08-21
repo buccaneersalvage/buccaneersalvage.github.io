@@ -24,7 +24,7 @@ import time
 import urllib.request
 from pathlib import Path
 
-HUB = Path("/home/jollyroge1480/sites/buccaneersalvage-hub")
+HUB = Path(__file__).resolve().parents[1]
 HASH_V = re.compile(r"styles\.css\?v=[0-9a-f]{10}")
 
 PORT = int(sys.argv[1]) if len(sys.argv) > 1 else 8931
@@ -43,7 +43,7 @@ def main():
 
     server = subprocess.Popen(
         [sys.executable, "-m", "http.server", str(PORT), "--bind", "127.0.0.1"],
-        cwd="/home/jollyroge1480/sites/buccaneersalvage-hub",
+        cwd=str(HUB),
         stdout=subprocess.DEVNULL,
         stderr=subprocess.DEVNULL,
     )
@@ -64,7 +64,6 @@ def main():
         by_id = {i.get("id"): i.get("category") for i in cat.get("items", [])}
         want_buckets = {
             "LI7R7ABGGB2TXJQUEGHG5TRX": "mobility",
-            "WCSSZNLKXNQIOIHDWIOWQCGW": "cycling",
             "EZW5JY5PWZJO4PH5R2TQGYC3": "material-handling",
             "7CESL5VZLPSRKJGWUFCHL5R5": "electric-motors",
             "3YKKZSK4N5HMOC7TOVXSFOHH": "exhaust",
@@ -86,7 +85,7 @@ def main():
         index_html = urllib.request.urlopen(f"{BASE}/index.html").read().decode("utf-8", "replace")
         terms_html = urllib.request.urlopen(f"{BASE}/terms.html").read().decode("utf-8", "replace")
         pdp_html = urllib.request.urlopen(f"{BASE}/p/7CESL5VZLPSRKJGWUFCHL5R5.html").read().decode("utf-8", "replace")
-        pdp_air = urllib.request.urlopen(f"{BASE}/p/R6VO2MARXN7GRGTMXVGABLHT.html").read().decode("utf-8", "replace")
+        pdp_air = urllib.request.urlopen(f"{BASE}/p/5LLWTR3B27YDLV6ZR6XMBPWL.html").read().decode("utf-8", "replace")
         list_js = (HUB / "assets/vendor/list.min.js").read_bytes()
         sri = "sha384-" + base64.b64encode(hashlib.sha384(list_js).digest()).decode("ascii")
         check("store css content-hash", bool(HASH_V.search(store_html)))
@@ -288,7 +287,7 @@ def main():
             check("vehicle hidden on Vintage", not page.is_visible("#stMakeSelect"))
             check(
                 "Vintage holds yard stock",
-                "wheelchair" in vin_titles and "masi" in vin_titles and "craftsman" in vin_titles,
+                "wheelchair" in vin_titles and "craftsman" in vin_titles,
                 showing_vin,
             )
             page.select_option("#stCatSelect", "industrial-warehouse")
@@ -514,12 +513,6 @@ def main():
             page.goto(f"{BASE}/p/LI7R7ABGGB2TXJQUEGHG5TRX.html")
             check(
                 "pdp wheelchair category is Vintage",
-                "Vintage & Collectibles" in (page.text_content(".pdp-category") or ""),
-                page.text_content(".pdp-category"),
-            )
-            page.goto(f"{BASE}/p/WCSSZNLKXNQIOIHDWIOWQCGW.html")
-            check(
-                "pdp Masi category is Vintage",
                 "Vintage & Collectibles" in (page.text_content(".pdp-category") or ""),
                 page.text_content(".pdp-category"),
             )

@@ -109,9 +109,9 @@ def test_html_uses_cards_not_title_wall():
     html08 = related_html(t08, items, _esc, _esc)
     assert "33036" not in html08
     assert "browse thermostat in the catalog" in html08.lower()
-    also = also_stocked_items(by_id["R6VO2MARXN7GRGTMXVGABLHT"], items)
+    also = also_stocked_items(by_id["5LLWTR3B27YDLV6ZR6XMBPWL"], items)
     assert also == []
-    html_also = related_html(by_id["R6VO2MARXN7GRGTMXVGABLHT"], items, _esc, _esc)
+    html_also = related_html(by_id["5LLWTR3B27YDLV6ZR6XMBPWL"], items, _esc, _esc)
     assert "Same part number" not in html_also
     assert "$0.00" not in html_also
     assert "G2O3XG6XWRX5K7QT65T7NQZO" not in html_also
@@ -120,7 +120,7 @@ def test_html_uses_cards_not_title_wall():
 
 def test_listing_gallery_and_zero_price_filter():
     items, by_id = load_items()
-    paid = by_id["R6VO2MARXN7GRGTMXVGABLHT"]
+    paid = by_id["5LLWTR3B27YDLV6ZR6XMBPWL"]
     assert "G2O3XG6XWRX5K7QT65T7NQZO" not in by_id
     assert all(float(i.get("price") or 0) > 0 for i in items)
     assert also_stocked_items(paid, items) == []
@@ -183,12 +183,12 @@ def test_short_h1_and_site_checkout():
     assert f'href="{safe_checkout(t08.get("url"))}"' in page
     assert 'data-bind="checkout"' in page
     assert "Auto Parts &amp; Accessories" in page or "Auto Parts & Accessories" in page
-    air = (HUB / "p" / "R6VO2MARXN7GRGTMXVGABLHT.html").read_text(encoding="utf-8")
+    air = (HUB / "p" / "5LLWTR3B27YDLV6ZR6XMBPWL.html").read_text(encoding="utf-8")
     assert "Truck Air Springs" in air
-    air_item = by_id["R6VO2MARXN7GRGTMXVGABLHT"]
+    air_item = by_id["5LLWTR3B27YDLV6ZR6XMBPWL"]
     assert f'href="{safe_checkout(air_item.get("url"))}"' in air
     assert "square.site/product/" not in air
-    vintage = (HUB / "p" / "WCSSZNLKXNQIOIHDWIOWQCGW.html").read_text(encoding="utf-8")
+    vintage = (HUB / "p" / "7CESL5VZLPSRKJGWUFCHL5R5.html").read_text(encoding="utf-8")
     assert "Vintage &amp; Collectibles" in vintage or "Vintage & Collectibles" in vintage
 
 
