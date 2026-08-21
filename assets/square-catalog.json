@@ -1,7 +1,7 @@
 {
-  "updated": "2026-08-21T08:00:52Z",
+  "updated": "2026-08-21T09:00:49Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 296,
+  "count": 297,
   "items": [
     {
       "id": "S4IZBA4AG65C6HI2ZDIRMSJR",
@@ -19222,7 +19222,6 @@
       "category": "ignition",
       "checkout": true,
       "variation_id": "75SBYVZ27VLOUGYLFN5AN7QZ",
-      "stock": 1,
       "part_numbers": [
         "D433HP"
       ],
@@ -19238,11 +19237,6 @@
         "1974\u20131995 GMC",
         "1974\u20131995 Pontiac"
       ],
-      "vehicle_count_raw": 8,
-      "ebay_item_id": "398310435889",
-      "ebay_type": "Distributor Rotor",
-      "ebay_brand": "IAD",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "medium",
       "fitment": {
@@ -19310,7 +19304,13 @@
         "type": "Distributor Rotor",
         "brand": "IAD",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors"
-      }
+      },
+      "vehicle_count_raw": 8,
+      "ebay_item_id": "398310435889",
+      "ebay_type": "Distributor Rotor",
+      "ebay_brand": "IAD",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors",
+      "stock": 1
     },
     {
       "id": "D6BYYW27EDM2XJ3VXEMGR6S4",
@@ -22927,6 +22927,265 @@
       "ebay_brand": "Standard Motor Products",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps",
       "stock": 1
+    },
+    {
+      "id": "JVXBA7E4NOEUVTR7RHW4PKVG",
+      "name": "Standard DR447 HEI Distributor Cap 3.8L 75-77 Buick Olds Pontiac Open Box",
+      "price": 39.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/8740c98ab99e5e716c548e36480c5968f3f20458/original.jpeg",
+      "url": "https://square.link/u/yl9rQa2T",
+      "category": "ignition",
+      "checkout": true,
+      "variation_id": "YZT22XYUSRI5SLUVLOIJZZM6",
+      "stock": 1,
+      "part_numbers": [
+        "DR447",
+        "Echlin DR447 (cross-reference)"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1975\u20131977 Buick Century",
+        "1976\u20131977 Buick LeSabre",
+        "1975\u20131977 Buick Regal",
+        "1975\u20131977 Buick Skyhawk",
+        "1975\u20131977 Buick Skylark",
+        "1977 Oldsmobile Cutlass",
+        "1977 Oldsmobile Cutlass Supreme",
+        "1977 Oldsmobile Delta 88",
+        "1977 Oldsmobile Omega",
+        "1975\u20131977 Oldsmobile Starfire",
+        "1977 Pontiac Catalina",
+        "1977 Pontiac Firebird",
+        "1977 Pontiac Grand LeMans",
+        "1977 Pontiac LeMans",
+        "1975\u20131977 Pontiac Open",
+        "1977 Pontiac Phoenix",
+        "1976\u20131977 Pontiac Sunbird",
+        "1977 Pontiac Ventura"
+      ],
+      "vehicle_count_raw": 127,
+      "ebay_item_id": "398310768653",
+      "ebay_type": "Distributor Cap & Ignition Module Assembly",
+      "ebay_brand": "Standard",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps",
+      "fitment_source": "ebay_listing+title",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "DR447",
+          "Echlin DR447 (cross-reference)"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1975,
+            "year_to": 1977,
+            "make": "Buick",
+            "model": "Century",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1976,
+            "year_to": 1977,
+            "make": "Buick",
+            "model": "LeSabre",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1975,
+            "year_to": 1977,
+            "make": "Buick",
+            "model": "Regal",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1975,
+            "year_to": 1977,
+            "make": "Buick",
+            "model": "Skyhawk",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1975,
+            "year_to": 1977,
+            "make": "Buick",
+            "model": "Skylark",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1977,
+            "year_to": 1977,
+            "make": "Oldsmobile",
+            "model": "Cutlass",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1977,
+            "year_to": 1977,
+            "make": "Oldsmobile",
+            "model": "Cutlass Supreme",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1977,
+            "year_to": 1977,
+            "make": "Oldsmobile",
+            "model": "Delta 88",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1977,
+            "year_to": 1977,
+            "make": "Oldsmobile",
+            "model": "Omega",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1975,
+            "year_to": 1977,
+            "make": "Oldsmobile",
+            "model": "Starfire",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1977,
+            "year_to": 1977,
+            "make": "Pontiac",
+            "model": "Catalina",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1977,
+            "year_to": 1977,
+            "make": "Pontiac",
+            "model": "Firebird",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1977,
+            "year_to": 1977,
+            "make": "Pontiac",
+            "model": "Grand LeMans",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1977,
+            "year_to": 1977,
+            "make": "Pontiac",
+            "model": "LeMans",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1975,
+            "year_to": 1977,
+            "make": "Pontiac",
+            "model": "Open",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1977,
+            "year_to": 1977,
+            "make": "Pontiac",
+            "model": "Phoenix",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1976,
+            "year_to": 1977,
+            "make": "Pontiac",
+            "model": "Sunbird",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1977,
+            "year_to": 1977,
+            "make": "Pontiac",
+            "model": "Ventura",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1975\u20131977 Buick Century",
+          "1976\u20131977 Buick LeSabre",
+          "1975\u20131977 Buick Regal",
+          "1975\u20131977 Buick Skyhawk",
+          "1975\u20131977 Buick Skylark",
+          "1977 Oldsmobile Cutlass",
+          "1977 Oldsmobile Cutlass Supreme",
+          "1977 Oldsmobile Delta 88",
+          "1977 Oldsmobile Omega",
+          "1975\u20131977 Oldsmobile Starfire",
+          "1977 Pontiac Catalina",
+          "1977 Pontiac Firebird",
+          "1977 Pontiac Grand LeMans",
+          "1977 Pontiac LeMans",
+          "1975\u20131977 Pontiac Open",
+          "1977 Pontiac Phoenix",
+          "1976\u20131977 Pontiac Sunbird",
+          "1977 Pontiac Ventura"
+        ],
+        "raw_compat_rows": 127,
+        "source": "ebay_listing+title",
+        "confidence": "high",
+        "ebay_item_id": "398310768653",
+        "type": "Distributor Cap & Ignition Module Assembly",
+        "brand": "Standard",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps"
+      }
     },
     {
       "id": "Q2JTZGAFZVH5JWFJ3JBKSLRV",
@@ -35104,5 +35363,5 @@
       "stock": 1
     }
   ],
-  "fitment_built": "2026-08-21T08:00:52Z"
+  "fitment_built": "2026-08-21T09:00:49Z"
 }
