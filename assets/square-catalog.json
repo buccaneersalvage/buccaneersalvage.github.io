@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-21T06:50:15Z",
+  "updated": "2026-08-21T08:00:52Z",
   "store": "https://buccaneersalvage.square.site/",
   "count": 296,
   "items": [
@@ -19238,12 +19238,12 @@
         "1974\u20131995 GMC",
         "1974\u20131995 Pontiac"
       ],
-      "vehicle_count_raw": 4,
+      "vehicle_count_raw": 8,
       "ebay_item_id": "398310435889",
       "ebay_type": "Distributor Rotor",
       "ebay_brand": "IAD",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors",
-      "fitment_source": "ebay_listing+title",
+      "fitment_source": "ebay_listing",
       "fitment_confidence": "medium",
       "fitment": {
         "part_numbers": [
@@ -19303,8 +19303,8 @@
           "1974\u20131995 GMC",
           "1974\u20131995 Pontiac"
         ],
-        "raw_compat_rows": 4,
-        "source": "ebay_listing+title",
+        "raw_compat_rows": 8,
+        "source": "ebay_listing",
         "confidence": "medium",
         "ebay_item_id": "398310435889",
         "type": "Distributor Rotor",
@@ -35104,5 +35104,5 @@
       "stock": 1
     }
   ],
-  "fitment_built": "2026-08-21T06:50:15Z"
+  "fitment_built": "2026-08-21T08:00:52Z"
 }
