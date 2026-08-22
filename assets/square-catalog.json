@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-22T19:59:04Z",
+  "updated": "2026-08-22T20:00:47Z",
   "store": "https://buccaneersalvage.square.site/",
   "count": 333,
   "items": [
@@ -30846,7 +30846,7 @@
       "ebay_type": "Voltage Regulator",
       "ebay_brand": "Ford",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Starters, Alternators, ECUs & Wiring:Voltage Regulators",
-      "fitment_source": "ebay_listing+title",
+      "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
@@ -30908,7 +30908,7 @@
           "1968\u20131986 Ford Mustang"
         ],
         "raw_compat_rows": 624,
-        "source": "ebay_listing+title",
+        "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398314580568",
         "type": "Voltage Regulator",
@@ -39099,5 +39099,5 @@
       "stock": 1
     }
   ],
-  "fitment_built": "2026-08-22T19:59:04Z"
+  "fitment_built": "2026-08-22T20:00:47Z"
 }
