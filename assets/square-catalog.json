@@ -1,7 +1,7 @@
 {
-  "updated": "2026-08-22T03:00:56Z",
+  "updated": "2026-08-22T04:01:09Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 305,
+  "count": 310,
   "items": [
     {
       "id": "S4IZBA4AG65C6HI2ZDIRMSJR",
@@ -29349,7 +29349,6 @@
       "category": "exhaust",
       "checkout": true,
       "variation_id": "QL7BED3UDD5YVKXVIYLYDXDF",
-      "stock": 1,
       "part_numbers": [
         "8724"
       ],
@@ -29376,11 +29375,6 @@
         "1997\u20131998 Oldsmobile Cutlass",
         "2005\u20132015 Toyota Tacoma"
       ],
-      "vehicle_count_raw": 336,
-      "ebay_item_id": "398313066196",
-      "ebay_type": "Exhaust Pipe Flange Gasket",
-      "ebay_brand": "AP Exhaust",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Exhaust & Emission Systems:Exhaust Gaskets",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -29569,7 +29563,13 @@
         "type": "Exhaust Pipe Flange Gasket",
         "brand": "AP Exhaust",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Exhaust & Emission Systems:Exhaust Gaskets"
-      }
+      },
+      "vehicle_count_raw": 336,
+      "ebay_item_id": "398313066196",
+      "ebay_type": "Exhaust Pipe Flange Gasket",
+      "ebay_brand": "AP Exhaust",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Exhaust & Emission Systems:Exhaust Gaskets",
+      "stock": 1
     },
     {
       "id": "3YKKZSK4N5HMOC7TOVXSFOHH",
@@ -30225,7 +30225,6 @@
       "category": "other",
       "checkout": true,
       "variation_id": "WNMMUY4CQWIZVGN2CAKWSKIH",
-      "stock": 1,
       "part_numbers": [
         "31094"
       ],
@@ -30243,11 +30242,6 @@
         "1989\u20131990 Chevrolet R3500",
         "1988\u20131990 GMC C3500"
       ],
-      "vehicle_count_raw": 108,
-      "ebay_item_id": "398313091091",
-      "ebay_type": "Engine Oil Filler Cap",
-      "ebay_brand": "Gates",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Drain Plugs, Filler Caps & Dipsticks",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -30337,7 +30331,13 @@
         "type": "Engine Oil Filler Cap",
         "brand": "Gates",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Drain Plugs, Filler Caps & Dipsticks"
-      }
+      },
+      "vehicle_count_raw": 108,
+      "ebay_item_id": "398313091091",
+      "ebay_type": "Engine Oil Filler Cap",
+      "ebay_brand": "Gates",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Drain Plugs, Filler Caps & Dipsticks",
+      "stock": 1
     },
     {
       "id": "3FMKLGX2GKFXBMFHCA2KODX2",
@@ -30348,7 +30348,6 @@
       "category": "other",
       "checkout": true,
       "variation_id": "IH3T664C63RFZLNZP73PKFSQ",
-      "stock": 1,
       "part_numbers": [
         "31094"
       ],
@@ -30366,11 +30365,6 @@
         "1989\u20131990 Chevrolet R3500",
         "1988\u20131990 GMC C3500"
       ],
-      "vehicle_count_raw": 108,
-      "ebay_item_id": "398313091091",
-      "ebay_type": "Engine Oil Filler Cap",
-      "ebay_brand": "Gates",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Drain Plugs, Filler Caps & Dipsticks",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -30460,7 +30454,13 @@
         "type": "Engine Oil Filler Cap",
         "brand": "Gates",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Drain Plugs, Filler Caps & Dipsticks"
-      }
+      },
+      "vehicle_count_raw": 108,
+      "ebay_item_id": "398313091091",
+      "ebay_type": "Engine Oil Filler Cap",
+      "ebay_brand": "Gates",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Drain Plugs, Filler Caps & Dipsticks",
+      "stock": 1
     },
     {
       "id": "WRUCYIZJHECU52ZNOMV2ME5O",
@@ -30576,6 +30576,89 @@
       "interchange": []
     },
     {
+      "id": "KM4GSJZK76YXBNJYXEA2BR26",
+      "name": "Gates 31108 Engine Oil Filler Cap 1971-1994 Subaru NOS",
+      "price": 9.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/4727515a973cc7253c14545960e8c200854d0133/original.jpeg",
+      "url": "https://square.link/u/OPy8w843",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "S52LHPKO5QNZFG55REXJQYVK",
+      "stock": 1,
+      "part_numbers": [
+        "31108"
+      ],
+      "interchange": [
+        "NAPA 703-1343",
+        "Stant 10093"
+      ],
+      "vehicles": [
+        "1972\u20131973 Subaru Deluxe",
+        "1972\u20131989 Subaru GL",
+        "1971\u20131972 Subaru Star"
+      ],
+      "vehicle_count_raw": 98,
+      "ebay_item_id": "398313188310",
+      "ebay_type": "Oil Filler Cap",
+      "ebay_brand": "Gates",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Drain Plugs, Filler Caps & Dipsticks",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "31108"
+        ],
+        "interchange": [
+          "NAPA 703-1343",
+          "Stant 10093"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1972,
+            "year_to": 1973,
+            "make": "Subaru",
+            "model": "Deluxe",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1972,
+            "year_to": 1989,
+            "make": "Subaru",
+            "model": "GL",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1971,
+            "year_to": 1972,
+            "make": "Subaru",
+            "model": "Star",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1972\u20131973 Subaru Deluxe",
+          "1972\u20131989 Subaru GL",
+          "1971\u20131972 Subaru Star"
+        ],
+        "raw_compat_rows": 98,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398313188310",
+        "type": "Oil Filler Cap",
+        "brand": "Gates",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Drain Plugs, Filler Caps & Dipsticks"
+      }
+    },
+    {
       "id": "DF5ODDBYK75OALIVCHKN5RY4",
       "name": "Gates 31109 Engine Oil Filler Cap 1985-2008 Ford F-150 Mustang NOS",
       "price": 9.99,
@@ -30675,6 +30758,146 @@
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Drain Plugs, Filler Caps & Dipsticks",
       "stock": 1,
       "interchange": []
+    },
+    {
+      "id": "MBEDQP4ESA6LOKVLBX5YR3NE",
+      "name": "Gates 31313 Coolant Recovery Cap 1985-1988 Pontiac Fiero NOS",
+      "price": 9.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/479ca3ac4f74e11dabb29acb58a363a32961d006/original.jpeg",
+      "url": "https://square.link/u/g0D4YenU",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "G2N3SRLVAXYUMA53EPL7Y3ST",
+      "stock": 1,
+      "part_numbers": [
+        "31313"
+      ],
+      "interchange": [
+        "Stant 10232",
+        "11232",
+        "Balkamp 703-1475",
+        "CST 7032"
+      ],
+      "vehicles": [
+        "1985\u20131988 Pontiac Fiero"
+      ],
+      "vehicle_count_raw": 22,
+      "ebay_item_id": "398313178422",
+      "ebay_type": "Coolant Recovery Cap",
+      "ebay_brand": "Gates",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Caps",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "31313"
+        ],
+        "interchange": [
+          "Stant 10232",
+          "11232",
+          "Balkamp 703-1475",
+          "CST 7032"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1985,
+            "year_to": 1988,
+            "make": "Pontiac",
+            "model": "Fiero",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1985\u20131988 Pontiac Fiero"
+        ],
+        "raw_compat_rows": 22,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398313178422",
+        "type": "Coolant Recovery Cap",
+        "brand": "Gates",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Caps"
+      }
+    },
+    {
+      "id": "LLP6XHDGYF7LMZLFWP26AOEV",
+      "name": "Gates 31333 Radiator Cap 13 PSI 1990-1993 Integra Civic NOS",
+      "price": 9.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/454910fe5c88e7a2373ce4111f8dead5784a921e/original.jpeg",
+      "url": "https://square.link/u/hGCVic3q",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "WKKUL5NSLN5ALJDQVISJCFZK",
+      "stock": 1,
+      "part_numbers": [
+        "31333"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1990\u20131993 Acura Integra",
+        "1990\u20131993 Honda Civic",
+        "1990\u20131993 Toyota Camry"
+      ],
+      "vehicle_count_raw": 108,
+      "ebay_item_id": "398313191394",
+      "ebay_type": "Radiator Cap",
+      "ebay_brand": "Gates",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Thermostats & Housings",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "31333"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1990,
+            "year_to": 1993,
+            "make": "Acura",
+            "model": "Integra",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1990,
+            "year_to": 1993,
+            "make": "Honda",
+            "model": "Civic",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1990,
+            "year_to": 1993,
+            "make": "Toyota",
+            "model": "Camry",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1990\u20131993 Acura Integra",
+          "1990\u20131993 Honda Civic",
+          "1990\u20131993 Toyota Camry"
+        ],
+        "raw_compat_rows": 108,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398313191394",
+        "type": "Radiator Cap",
+        "brand": "Gates",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Thermostats & Housings"
+      }
     },
     {
       "id": "CTDEXJR2NW4GA3T25WXQ5KZD",
@@ -30838,6 +31061,95 @@
       "interchange": []
     },
     {
+      "id": "CEOS2NN2ZVC52OA5RW7VHKO3",
+      "name": "Gates 31720 Fuel Tank Cap 1977-1991 F-150 Civic Mustang NOS",
+      "price": 9.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/230bd1137b2b57b0c76622d8fe9a509b491649ce/original.jpeg",
+      "url": "https://square.link/u/FlHrCy2e",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "LP77D23GPR56JOC2F5A6O27E",
+      "stock": 1,
+      "part_numbers": [
+        "31720"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1977\u20131979 Ford F-150",
+        "1979\u20131991 Ford Mustang",
+        "1978\u20131991 Honda Accord",
+        "1978\u20131991 Honda Civic"
+      ],
+      "vehicle_count_raw": 644,
+      "ebay_item_id": "398313190272",
+      "ebay_type": "Fuel Cap",
+      "ebay_brand": "Gates",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Fuel Tank Caps",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "31720"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1977,
+            "year_to": 1979,
+            "make": "Ford",
+            "model": "F-150",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1979,
+            "year_to": 1991,
+            "make": "Ford",
+            "model": "Mustang",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1978,
+            "year_to": 1991,
+            "make": "Honda",
+            "model": "Accord",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1978,
+            "year_to": 1991,
+            "make": "Honda",
+            "model": "Civic",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1977\u20131979 Ford F-150",
+          "1979\u20131991 Ford Mustang",
+          "1978\u20131991 Honda Accord",
+          "1978\u20131991 Honda Civic"
+        ],
+        "raw_compat_rows": 644,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398313190272",
+        "type": "Fuel Cap",
+        "brand": "Gates",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Fuel Tank Caps"
+      }
+    },
+    {
       "id": "OCD7BRTIV5ZPOAHYO234ILJF",
       "name": "Gates 31748 Fuel Cap 1999-2008 Ford F-250 F-350 Jeep Cherokee NOS",
       "price": 14.99,
@@ -30983,11 +31295,9 @@
       "category": "other",
       "checkout": true,
       "variation_id": "YWLF4TNRQ44A3MCZ5HBTVVEI",
-      "stock": 1,
       "part_numbers": [
         "31778"
       ],
-      "interchange": [],
       "vehicles": [
         "1994\u20131999 Dodge Ram 2500",
         "1999\u20132008 Ford F-250",
@@ -30997,11 +31307,6 @@
         "1993\u20132000 Jeep Grand Cherokee",
         "1997\u20132000 Jeep Wrangler"
       ],
-      "vehicle_count_raw": 407,
-      "ebay_item_id": "398313062073",
-      "ebay_type": "Locking Fuel Cap",
-      "ebay_brand": "Gates",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Fuel Tank Caps",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -31097,7 +31402,14 @@
         "type": "Locking Fuel Cap",
         "brand": "Gates",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Fuel Tank Caps"
-      }
+      },
+      "vehicle_count_raw": 407,
+      "ebay_item_id": "398313062073",
+      "ebay_type": "Locking Fuel Cap",
+      "ebay_brand": "Gates",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Fuel Tank Caps",
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "BYO4CA2ORO6PIIHKJ6BAJ7Z5",
@@ -35055,6 +35367,59 @@
       "stock": 1
     },
     {
+      "id": "TC3XZ2Z5GHGOZWEF2XIQX3BQ",
+      "name": "Lot of 2 Gates 5536 Thermostat 160 Deg 1957-1966 Dodge D100 W100 NOS",
+      "price": 9.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/87f4b30dcad6ff5efa11878ce5a0e4351c115d92/original.jpeg",
+      "url": "https://square.link/u/x6L4NQt8",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "XSODVMRBLQBMPSB4MDTS74HL",
+      "stock": 1,
+      "part_numbers": [
+        "5536"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1957\u20131966 Dodge D100"
+      ],
+      "vehicle_count_raw": 1,
+      "ebay_item_id": "398313169227",
+      "ebay_type": "Thermostat",
+      "ebay_brand": "Gates",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Thermostats & Housings",
+      "fitment_source": "ebay_listing+title",
+      "fitment_confidence": "medium",
+      "fitment": {
+        "part_numbers": [
+          "5536"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1957,
+            "year_to": 1966,
+            "make": "Dodge",
+            "model": "D100",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1957\u20131966 Dodge D100"
+        ],
+        "raw_compat_rows": 1,
+        "source": "ebay_listing+title",
+        "confidence": "medium",
+        "ebay_item_id": "398313169227",
+        "type": "Thermostat",
+        "brand": "Gates",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Thermostats & Housings"
+      }
+    },
+    {
       "id": "EB5CFL2W7I262PXDGCSEY2JL",
       "name": "Lot of Auto Link & Littelfuse Automotive Fuses NOS Japanese Car Misc",
       "price": 29.99,
@@ -36329,5 +36694,5 @@
       "stock": 1
     }
   ],
-  "fitment_built": "2026-08-22T03:00:56Z"
+  "fitment_built": "2026-08-22T04:01:09Z"
 }
