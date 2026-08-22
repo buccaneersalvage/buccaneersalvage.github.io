@@ -1,7 +1,7 @@
 {
-  "updated": "2026-08-22T05:30:40Z",
+  "updated": "2026-08-22T06:00:54Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 323,
+  "count": 325,
   "items": [
     {
       "id": "S4IZBA4AG65C6HI2ZDIRMSJR",
@@ -19314,22 +19314,15 @@
       "category": "ignition",
       "checkout": true,
       "variation_id": "3C46QHUBZGVNSL7P2GHCRKSG",
-      "stock": 1,
       "part_numbers": [
         "780000"
       ],
-      "interchange": [],
       "vehicles": [
         "1971 Jeep CJ5",
         "1971 Jeep CJ6",
         "Jeep Willys"
       ],
-      "vehicle_count_raw": 4,
-      "ebay_item_id": "398313272684",
-      "ebay_type": "Spark Plug Wire Set",
-      "ebay_brand": "LaSalle",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Wires & Coil Boots",
-      "fitment_source": "ebay_listing+title",
+      "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
@@ -19374,13 +19367,20 @@
           "Jeep Willys"
         ],
         "raw_compat_rows": 4,
-        "source": "ebay_listing+title",
+        "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398313272684",
         "type": "Spark Plug Wire Set",
         "brand": "LaSalle",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Wires & Coil Boots"
-      }
+      },
+      "vehicle_count_raw": 4,
+      "ebay_item_id": "398313272684",
+      "ebay_type": "Spark Plug Wire Set",
+      "ebay_brand": "LaSalle",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Wires & Coil Boots",
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "YMMAJDA72BUPYCVHPJGTBOTU",
@@ -30740,6 +30740,59 @@
       "stock": 1
     },
     {
+      "id": "5QM3ZMFSNIAP5IW4J5YDGHYS",
+      "name": "Gates 31096 Engine Oil Filler Cap NOS 1987-1990 Jeep Wrangler YJ",
+      "price": 9.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/6fe72bd6ccce3256456ed3bcf2580ab50a8e34d8/original.jpeg",
+      "url": "https://square.link/u/BOk8DHj8",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "I6RMTBUZIUUSMCDZS4Q764UN",
+      "stock": 1,
+      "part_numbers": [
+        "31096"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1987\u20131990 Jeep Wrangler"
+      ],
+      "vehicle_count_raw": 1,
+      "ebay_item_id": "398313313640",
+      "ebay_type": "Engine Oil Filler Cap",
+      "ebay_brand": "Gates",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Drain Plugs, Filler Caps & Dipsticks",
+      "fitment_source": "ebay_listing+title",
+      "fitment_confidence": "medium",
+      "fitment": {
+        "part_numbers": [
+          "31096"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1987,
+            "year_to": 1990,
+            "make": "Jeep",
+            "model": "Wrangler",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1987\u20131990 Jeep Wrangler"
+        ],
+        "raw_compat_rows": 1,
+        "source": "ebay_listing+title",
+        "confidence": "medium",
+        "ebay_item_id": "398313313640",
+        "type": "Engine Oil Filler Cap",
+        "brand": "Gates",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Drain Plugs, Filler Caps & Dipsticks"
+      }
+    },
+    {
       "id": "WRUCYIZJHECU52ZNOMV2ME5O",
       "name": "Gates 31103 Engine Oil Filler Cap 2002-2017 Ford F-150 Silverado NOS",
       "price": 9.99,
@@ -34248,6 +34301,95 @@
       "interchange": []
     },
     {
+      "id": "RHH3YY7J6BL2KYBAXLYJIBJH",
+      "name": "Gates 33779 Thermostat 195\u00b0F NOS 1979-1982 Ford Courier",
+      "price": 9.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/84ddeaa0904a57502980250b88a3bc2f3f1de5b5/original.jpeg",
+      "url": "https://square.link/u/s40PviKP",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "CCOBFDUW6A67TDK6EGODVQYA",
+      "stock": 1,
+      "part_numbers": [
+        "33779"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1979\u20131982 Ford Courier",
+        "1985\u20131987 Renault Alliance",
+        "1985\u20131986 Renault Encore",
+        "1971 Toyota Crown"
+      ],
+      "vehicle_count_raw": 117,
+      "ebay_item_id": "398313314205",
+      "ebay_type": "Thermostat",
+      "ebay_brand": "Gates",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Gaskets, Seals & O-Rings",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "33779"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1979,
+            "year_to": 1982,
+            "make": "Ford",
+            "model": "Courier",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1987,
+            "make": "Renault",
+            "model": "Alliance",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1986,
+            "make": "Renault",
+            "model": "Encore",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1971,
+            "year_to": 1971,
+            "make": "Toyota",
+            "model": "Crown",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1979\u20131982 Ford Courier",
+          "1985\u20131987 Renault Alliance",
+          "1985\u20131986 Renault Encore",
+          "1971 Toyota Crown"
+        ],
+        "raw_compat_rows": 117,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398313314205",
+        "type": "Thermostat",
+        "brand": "Gates",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Gaskets, Seals & O-Rings"
+      }
+    },
+    {
       "id": "373RPPOCYAZFVEE4KH3VYLOY",
       "name": "Gates 5536 Thermostat 160 5.2 57-66 Dodge D100 W100 NOS USA",
       "price": 12.99,
@@ -36429,7 +36571,6 @@
       "category": "other",
       "checkout": true,
       "variation_id": "K7LZRZNQGQNXTO7DVASUKWI2",
-      "stock": 1,
       "part_numbers": [
         "30238",
         "Stant 13008, Gates 33038, Motorad 2000-180, NAPA 138"
@@ -36446,11 +36587,6 @@
         "1956\u20131962 Cadillac DeVille",
         "1956\u20131962 Cadillac Eldorado"
       ],
-      "vehicle_count_raw": 56,
-      "ebay_item_id": "398313274159",
-      "ebay_type": "Thermostat",
-      "ebay_brand": "Liberty",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Thermostats & Housings",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -36509,7 +36645,13 @@
         "type": "Thermostat",
         "brand": "Liberty",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Thermostats & Housings"
-      }
+      },
+      "vehicle_count_raw": 56,
+      "ebay_item_id": "398313274159",
+      "ebay_type": "Thermostat",
+      "ebay_brand": "Liberty",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Thermostats & Housings",
+      "stock": 1
     },
     {
       "id": "TC3XZ2Z5GHGOZWEF2XIQX3BQ",
@@ -37839,5 +37981,5 @@
       "stock": 1
     }
   ],
-  "fitment_built": "2026-08-22T05:30:40Z"
+  "fitment_built": "2026-08-22T06:00:54Z"
 }
