@@ -1,7 +1,7 @@
 {
-  "updated": "2026-08-22T05:01:13Z",
+  "updated": "2026-08-22T05:30:40Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 322,
+  "count": 323,
   "items": [
     {
       "id": "S4IZBA4AG65C6HI2ZDIRMSJR",
@@ -19306,6 +19306,83 @@
       "stock": 1
     },
     {
+      "id": "FTIS34PPZNA5NQKSXKMWRZTG",
+      "name": "LaSalle 780000 Spark Plug Wire Set NOS 7mm 4 Cyl Jeep Willys International",
+      "price": 48.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/b57c14645a1d3c417937e90ae510a202910c84a0/original.jpeg",
+      "url": "https://square.link/u/0T7gJzeA",
+      "category": "ignition",
+      "checkout": true,
+      "variation_id": "3C46QHUBZGVNSL7P2GHCRKSG",
+      "stock": 1,
+      "part_numbers": [
+        "780000"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1971 Jeep CJ5",
+        "1971 Jeep CJ6",
+        "Jeep Willys"
+      ],
+      "vehicle_count_raw": 4,
+      "ebay_item_id": "398313272684",
+      "ebay_type": "Spark Plug Wire Set",
+      "ebay_brand": "LaSalle",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Wires & Coil Boots",
+      "fitment_source": "ebay_listing+title",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "780000"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1971,
+            "year_to": 1971,
+            "make": "Jeep",
+            "model": "CJ5",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1971,
+            "year_to": 1971,
+            "make": "Jeep",
+            "model": "CJ6",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": null,
+            "year_to": null,
+            "make": "Jeep",
+            "model": "Willys",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1971 Jeep CJ5",
+          "1971 Jeep CJ6",
+          "Jeep Willys"
+        ],
+        "raw_compat_rows": 4,
+        "source": "ebay_listing+title",
+        "confidence": "high",
+        "ebay_item_id": "398313272684",
+        "type": "Spark Plug Wire Set",
+        "brand": "LaSalle",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Wires & Coil Boots"
+      }
+    },
+    {
       "id": "YMMAJDA72BUPYCVHPJGTBOTU",
       "name": "LaSalle 780002 Spark Plug Wire Set NOS 8mm 4 Cyl 1979-1983",
       "price": 42.99,
@@ -19314,7 +19391,6 @@
       "category": "ignition",
       "checkout": true,
       "variation_id": "SZ57MYBBUT2A6U7AVJ6QF6HQ",
-      "stock": 1,
       "part_numbers": [
         "780002"
       ],
@@ -19330,11 +19406,6 @@
         "1980\u20131983 Chevrolet Citation",
         "1979\u20131980 Chevrolet Monza"
       ],
-      "vehicle_count_raw": 133,
-      "ebay_item_id": "398313259072",
-      "ebay_type": "Spark Plug Wire Set",
-      "ebay_brand": "LaSalle",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Wires & Coil Boots",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -19432,7 +19503,13 @@
         "type": "Spark Plug Wire Set",
         "brand": "LaSalle",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Wires & Coil Boots"
-      }
+      },
+      "vehicle_count_raw": 133,
+      "ebay_item_id": "398313259072",
+      "ebay_type": "Spark Plug Wire Set",
+      "ebay_brand": "LaSalle",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Wires & Coil Boots",
+      "stock": 1
     },
     {
       "id": "SHZSUXUDC3PPP4U35TWBDFUY",
@@ -30354,7 +30431,6 @@
       "category": "other",
       "checkout": true,
       "variation_id": "COLHSYYZUUG76UFURT2IEBFI",
-      "stock": 1,
       "part_numbers": [
         "31085"
       ],
@@ -30371,11 +30447,6 @@
       "vehicles": [
         "1985\u20132009 Mitsubishi Galant"
       ],
-      "vehicle_count_raw": 106,
-      "ebay_item_id": "398313202419",
-      "ebay_type": "Oil Filler Cap",
-      "ebay_brand": "Gates",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Drain Plugs, Filler Caps & Dipsticks",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -30414,7 +30485,13 @@
         "type": "Oil Filler Cap",
         "brand": "Gates",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Drain Plugs, Filler Caps & Dipsticks"
-      }
+      },
+      "vehicle_count_raw": 106,
+      "ebay_item_id": "398313202419",
+      "ebay_type": "Oil Filler Cap",
+      "ebay_brand": "Gates",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Drain Plugs, Filler Caps & Dipsticks",
+      "stock": 1
     },
     {
       "id": "IZVOGLTPF6C2TWUJL5YAR6LT",
@@ -30968,7 +31045,6 @@
       "category": "other",
       "checkout": true,
       "variation_id": "JRYZTY6LSUYVN4IQ5O5GPPDL",
-      "stock": 1,
       "part_numbers": [
         "31272"
       ],
@@ -30985,11 +31061,6 @@
         "1971\u20131996 Chevrolet Corvette",
         "1971\u20131987 Chevrolet El Camino"
       ],
-      "vehicle_count_raw": 479,
-      "ebay_item_id": "398313196907",
-      "ebay_type": "Oil Filler Cap",
-      "ebay_brand": "Gates",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Drain Plugs, Filler Caps & Dipsticks",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -31058,69 +31129,12 @@
         "type": "Oil Filler Cap",
         "brand": "Gates",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Drain Plugs, Filler Caps & Dipsticks"
-      }
-    },
-    {
-      "id": "MBEDQP4ESA6LOKVLBX5YR3NE",
-      "name": "Gates 31313 Coolant Recovery Cap 1985-1988 Pontiac Fiero NOS",
-      "price": 9.99,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/479ca3ac4f74e11dabb29acb58a363a32961d006/original.jpeg",
-      "url": "https://square.link/u/g0D4YenU",
-      "category": "other",
-      "checkout": true,
-      "variation_id": "G2N3SRLVAXYUMA53EPL7Y3ST",
-      "part_numbers": [
-        "31313"
-      ],
-      "interchange": [
-        "Stant 10232",
-        "11232",
-        "Balkamp 703-1475",
-        "CST 7032"
-      ],
-      "vehicles": [
-        "1985\u20131988 Pontiac Fiero"
-      ],
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "high",
-      "fitment": {
-        "part_numbers": [
-          "31313"
-        ],
-        "interchange": [
-          "Stant 10232",
-          "11232",
-          "Balkamp 703-1475",
-          "CST 7032"
-        ],
-        "vehicles": [
-          {
-            "year_from": 1985,
-            "year_to": 1988,
-            "make": "Pontiac",
-            "model": "Fiero",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          }
-        ],
-        "vehicle_labels": [
-          "1985\u20131988 Pontiac Fiero"
-        ],
-        "raw_compat_rows": 22,
-        "source": "ebay_listing",
-        "confidence": "high",
-        "ebay_item_id": "398313178422",
-        "type": "Coolant Recovery Cap",
-        "brand": "Gates",
-        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Caps"
       },
-      "vehicle_count_raw": 22,
-      "ebay_item_id": "398313178422",
-      "ebay_type": "Coolant Recovery Cap",
+      "vehicle_count_raw": 479,
+      "ebay_item_id": "398313196907",
+      "ebay_type": "Oil Filler Cap",
       "ebay_brand": "Gates",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Caps",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Drain Plugs, Filler Caps & Dipsticks",
       "stock": 1
     },
     {
@@ -31209,20 +31223,13 @@
       "category": "other",
       "checkout": true,
       "variation_id": "MEGSD6BW4U3LXNG47ZHFAKSF",
-      "stock": 1,
       "part_numbers": [
         "31521"
       ],
-      "interchange": [],
       "vehicles": [
         "1983\u20131991 Chevrolet G20",
         "1983\u20131991 Chevrolet G30"
       ],
-      "vehicle_count_raw": 367,
-      "ebay_item_id": "398313214572",
-      "ebay_type": "Radiator Cap",
-      "ebay_brand": "Gates",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Caps",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -31263,7 +31270,14 @@
         "type": "Radiator Cap",
         "brand": "Gates",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Caps"
-      }
+      },
+      "vehicle_count_raw": 367,
+      "ebay_item_id": "398313214572",
+      "ebay_type": "Radiator Cap",
+      "ebay_brand": "Gates",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Caps",
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "RY2VLWI5HI6QCHTOE3GNDQNO",
@@ -31274,11 +31288,9 @@
       "category": "other",
       "checkout": true,
       "variation_id": "X7POC3WRG4GNFJEFF2TXNCAY",
-      "stock": 1,
       "part_numbers": [
         "31523"
       ],
-      "interchange": [],
       "vehicles": [
         "1988\u20132000 Chevrolet C1500",
         "1988\u20132000 Chevrolet C2500",
@@ -31286,11 +31298,6 @@
         "1988\u20131999 Chevrolet K1500",
         "1988\u20132000 Chevrolet K2500"
       ],
-      "vehicle_count_raw": 2309,
-      "ebay_item_id": "398313217504",
-      "ebay_type": "Radiator Cap",
-      "ebay_brand": "Gates",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Caps",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -31364,7 +31371,14 @@
         "type": "Radiator Cap",
         "brand": "Gates",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Caps"
-      }
+      },
+      "vehicle_count_raw": 2309,
+      "ebay_item_id": "398313217504",
+      "ebay_type": "Radiator Cap",
+      "ebay_brand": "Gates",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Caps",
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "XXU24DFCYVX3FVQYIKZN3UMA",
@@ -31375,19 +31389,12 @@
       "category": "other",
       "checkout": true,
       "variation_id": "F32PQZK363PADJ2QBXOIJXUD",
-      "stock": 1,
       "part_numbers": [
         "31526"
       ],
-      "interchange": [],
       "vehicles": [
         "1959 Chevrolet El Camino"
       ],
-      "vehicle_count_raw": 3,
-      "ebay_item_id": "398313198123",
-      "ebay_type": "Radiator Cap",
-      "ebay_brand": "Gates",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Radiators",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -31417,7 +31424,14 @@
         "type": "Radiator Cap",
         "brand": "Gates",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Radiators"
-      }
+      },
+      "vehicle_count_raw": 3,
+      "ebay_item_id": "398313198123",
+      "ebay_type": "Radiator Cap",
+      "ebay_brand": "Gates",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Radiators",
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "CTDEXJR2NW4GA3T25WXQ5KZD",
@@ -31589,22 +31603,15 @@
       "category": "other",
       "checkout": true,
       "variation_id": "PRNB3BG3UPRBPFRHWZKERLBG",
-      "stock": 1,
       "part_numbers": [
         "31528"
       ],
-      "interchange": [],
       "vehicles": [
         "2005\u20132023 Chrysler 300",
         "2008\u20132023 Dodge Challenger",
         "2006\u20132024 Dodge Charger",
         "2007\u20132024 Jeep Wrangler"
       ],
-      "vehicle_count_raw": 1002,
-      "ebay_item_id": "398313200054",
-      "ebay_type": "Radiator Cap",
-      "ebay_brand": "Gates",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Caps",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -31667,7 +31674,14 @@
         "type": "Radiator Cap",
         "brand": "Gates",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Caps"
-      }
+      },
+      "vehicle_count_raw": 1002,
+      "ebay_item_id": "398313200054",
+      "ebay_type": "Radiator Cap",
+      "ebay_brand": "Gates",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Caps",
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "CEOS2NN2ZVC52OA5RW7VHKO3",
@@ -31767,7 +31781,6 @@
       "category": "other",
       "checkout": true,
       "variation_id": "6CDRFI27C5ZDN2RNJU7QU42R",
-      "stock": 1,
       "part_numbers": [
         "31723"
       ],
@@ -31783,12 +31796,7 @@
         "1970\u20131988 Chevrolet Caprice",
         "1970\u20131988 GM AMC"
       ],
-      "vehicle_count_raw": 578,
-      "ebay_item_id": "398313210856",
-      "ebay_type": "Fuel Cap",
-      "ebay_brand": "Gates",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Fuel Tank Caps",
-      "fitment_source": "ebay_listing+title",
+      "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
@@ -31839,13 +31847,19 @@
           "1970\u20131988 GM AMC"
         ],
         "raw_compat_rows": 578,
-        "source": "ebay_listing+title",
+        "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398313210856",
         "type": "Fuel Cap",
         "brand": "Gates",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Fuel Tank Caps"
-      }
+      },
+      "vehicle_count_raw": 578,
+      "ebay_item_id": "398313210856",
+      "ebay_type": "Fuel Cap",
+      "ebay_brand": "Gates",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Fuel Tank Caps",
+      "stock": 1
     },
     {
       "id": "OCD7BRTIV5ZPOAHYO234ILJF",
@@ -32500,7 +32514,6 @@
       "category": "other",
       "checkout": true,
       "variation_id": "XW3SN5WOMGY3ONMLKDIBILJW",
-      "stock": 1,
       "part_numbers": [
         "33128"
       ],
@@ -32515,11 +32528,6 @@
         "1977\u20131979 Ford F-150",
         "1977\u20131979 Ford F-250"
       ],
-      "vehicle_count_raw": 750,
-      "ebay_item_id": "398313193287",
-      "ebay_type": "Thermostat",
-      "ebay_brand": "Gates",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Thermostats & Housings",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -32576,7 +32584,13 @@
         "type": "Thermostat",
         "brand": "Gates",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Thermostats & Housings"
-      }
+      },
+      "vehicle_count_raw": 750,
+      "ebay_item_id": "398313193287",
+      "ebay_type": "Thermostat",
+      "ebay_brand": "Gates",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Thermostats & Housings",
+      "stock": 1
     },
     {
       "id": "FBOZ6ZYGEGJN6AJ3PLXJ2PEP",
@@ -32587,21 +32601,14 @@
       "category": "other",
       "checkout": true,
       "variation_id": "JF6QDDUMYSBQ3EEAHIJFX4NP",
-      "stock": 1,
       "part_numbers": [
         "33129"
       ],
-      "interchange": [],
       "vehicles": [
         "1970\u20131974 Ford Country Sedan",
         "1970\u20131974 Ford Country Squire",
         "1969 Ford Ranchero"
       ],
-      "vehicle_count_raw": 136,
-      "ebay_item_id": "398313220994",
-      "ebay_type": "Thermostat",
-      "ebay_brand": "Gates",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Thermostats & Housings",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -32653,7 +32660,14 @@
         "type": "Thermostat",
         "brand": "Gates",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Thermostats & Housings"
-      }
+      },
+      "vehicle_count_raw": 136,
+      "ebay_item_id": "398313220994",
+      "ebay_type": "Thermostat",
+      "ebay_brand": "Gates",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Thermostats & Housings",
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "EEUYTJ4KFBEUW5XH5XRUB7MY",
@@ -33766,11 +33780,9 @@
       "category": "other",
       "checkout": true,
       "variation_id": "NRFGOMIWD5ONHWC4DKN2O3YK",
-      "stock": 1,
       "part_numbers": [
         "33479"
       ],
-      "interchange": [],
       "vehicles": [
         "1999\u20132002 Ford Mustang",
         "1996\u20132008 Ford Ranger",
@@ -33778,11 +33790,6 @@
         "1987\u20131988 Nissan Pathfinder",
         "1982\u20131988 Nissan Sentra"
       ],
-      "vehicle_count_raw": 550,
-      "ebay_item_id": "398313202617",
-      "ebay_type": "Thermostat",
-      "ebay_brand": "Gates",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Thermostats & Housings",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -33856,7 +33863,14 @@
         "type": "Thermostat",
         "brand": "Gates",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Thermostats & Housings"
-      }
+      },
+      "vehicle_count_raw": 550,
+      "ebay_item_id": "398313202617",
+      "ebay_type": "Thermostat",
+      "ebay_brand": "Gates",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Thermostats & Housings",
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "MGEJQB5FNUM2OD3WUEXA4O5E",
@@ -36338,21 +36352,14 @@
       "category": "other",
       "checkout": true,
       "variation_id": "2GFNCXWSSOVWMRSUXUTEX3NI",
-      "stock": 1,
       "part_numbers": [
         "700-H"
       ],
-      "interchange": [],
       "vehicles": [
         "1961\u20131966 Buick Skylark",
         "1953\u20131962 Cadillac DeVille",
         "1953\u20131962 Cadillac Eldorado"
       ],
-      "vehicle_count_raw": 73,
-      "ebay_item_id": "398313204019",
-      "ebay_type": "Thermostat",
-      "ebay_brand": "Interstate",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Thermostats & Housings",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -36403,6 +36410,104 @@
         "ebay_item_id": "398313204019",
         "type": "Thermostat",
         "brand": "Interstate",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Thermostats & Housings"
+      },
+      "vehicle_count_raw": 73,
+      "ebay_item_id": "398313204019",
+      "ebay_type": "Thermostat",
+      "ebay_brand": "Interstate",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Thermostats & Housings",
+      "stock": 1,
+      "interchange": []
+    },
+    {
+      "id": "RD26DX6Z7EXZMTGNJ5ZWXZ7N",
+      "name": "Liberty 30238 Thermostat 180 Deg 1953-1966 Buick Skylark NOS",
+      "price": 19.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/13a9bc83e80b311db03cbba9368c03388582da5c/original.jpeg",
+      "url": "https://square.link/u/YboXb2Gh",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "K7LZRZNQGQNXTO7DVASUKWI2",
+      "stock": 1,
+      "part_numbers": [
+        "30238",
+        "Stant 13008, Gates 33038, Motorad 2000-180, NAPA 138"
+      ],
+      "interchange": [
+        "Dole DV-20H",
+        "DVN-23H",
+        "Delco 278P",
+        "Robertshaw 370FHT",
+        "Gates 5538"
+      ],
+      "vehicles": [
+        "1961\u20131966 Buick Skylark",
+        "1956\u20131962 Cadillac DeVille",
+        "1956\u20131962 Cadillac Eldorado"
+      ],
+      "vehicle_count_raw": 56,
+      "ebay_item_id": "398313274159",
+      "ebay_type": "Thermostat",
+      "ebay_brand": "Liberty",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Thermostats & Housings",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "30238",
+          "Stant 13008, Gates 33038, Motorad 2000-180, NAPA 138"
+        ],
+        "interchange": [
+          "Dole DV-20H",
+          "DVN-23H",
+          "Delco 278P",
+          "Robertshaw 370FHT",
+          "Gates 5538"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1961,
+            "year_to": 1966,
+            "make": "Buick",
+            "model": "Skylark",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1956,
+            "year_to": 1962,
+            "make": "Cadillac",
+            "model": "DeVille",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1956,
+            "year_to": 1962,
+            "make": "Cadillac",
+            "model": "Eldorado",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1961\u20131966 Buick Skylark",
+          "1956\u20131962 Cadillac DeVille",
+          "1956\u20131962 Cadillac Eldorado"
+        ],
+        "raw_compat_rows": 56,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398313274159",
+        "type": "Thermostat",
+        "brand": "Liberty",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Thermostats & Housings"
       }
     },
@@ -37734,5 +37839,5 @@
       "stock": 1
     }
   ],
-  "fitment_built": "2026-08-22T05:01:13Z"
+  "fitment_built": "2026-08-22T05:30:40Z"
 }
