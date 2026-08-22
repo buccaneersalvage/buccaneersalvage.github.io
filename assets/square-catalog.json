@@ -1,7 +1,7 @@
 {
-  "updated": "2026-08-22T06:00:54Z",
+  "updated": "2026-08-22T06:23:47Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 325,
+  "count": 326,
   "items": [
     {
       "id": "S4IZBA4AG65C6HI2ZDIRMSJR",
@@ -21909,6 +21909,219 @@
       "stock": 1
     },
     {
+      "id": "EHOVKS2D5SAWATAMGD5GN4PG",
+      "name": "Standard CH-309 Distributor Rotor NOS 3.9 5.2 5.9 88-93 Dodge",
+      "price": 9.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/c8c6a2dfb32c9602e6c9c892c9783a7865b714d5/original.jpeg",
+      "url": "https://square.link/u/R92ww9NR",
+      "category": "ignition",
+      "checkout": true,
+      "variation_id": "C2AITIUMFQKY66MU3JSHRSEP",
+      "stock": 1,
+      "part_numbers": [
+        "CH-309",
+        "12351067, C416, 4R1028, 1830, 3201"
+      ],
+      "interchange": [
+        "CH309T",
+        "D168",
+        "MO25",
+        "CR923",
+        "4379131",
+        "5142589AA"
+      ],
+      "vehicles": [
+        "1988\u20131993 Dodge B150",
+        "1988\u20131993 Dodge B250",
+        "1988\u20131993 Dodge B350",
+        "1989 Dodge D100",
+        "1989\u20131993 Dodge D150",
+        "1989\u20131993 Dodge D250",
+        "1989\u20131993 Dodge D350",
+        "1988\u20131993 Dodge Dakota",
+        "1988\u20131995 Dodge Ramcharger",
+        "1989 Dodge W100",
+        "1989\u20131993 Dodge W150",
+        "1989\u20131993 Dodge W250",
+        "1989\u20131993 Dodge W350"
+      ],
+      "vehicle_count_raw": 467,
+      "ebay_item_id": "398313355661",
+      "ebay_type": "Distributor Rotor",
+      "ebay_brand": "Standard",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "CH-309",
+          "12351067, C416, 4R1028, 1830, 3201"
+        ],
+        "interchange": [
+          "CH309T",
+          "D168",
+          "MO25",
+          "CR923",
+          "4379131",
+          "5142589AA"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1988,
+            "year_to": 1993,
+            "make": "Dodge",
+            "model": "B150",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1988,
+            "year_to": 1993,
+            "make": "Dodge",
+            "model": "B250",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1988,
+            "year_to": 1993,
+            "make": "Dodge",
+            "model": "B350",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1989,
+            "year_to": 1989,
+            "make": "Dodge",
+            "model": "D100",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1989,
+            "year_to": 1993,
+            "make": "Dodge",
+            "model": "D150",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1989,
+            "year_to": 1993,
+            "make": "Dodge",
+            "model": "D250",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1989,
+            "year_to": 1993,
+            "make": "Dodge",
+            "model": "D350",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1988,
+            "year_to": 1993,
+            "make": "Dodge",
+            "model": "Dakota",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1988,
+            "year_to": 1995,
+            "make": "Dodge",
+            "model": "Ramcharger",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1989,
+            "year_to": 1989,
+            "make": "Dodge",
+            "model": "W100",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1989,
+            "year_to": 1993,
+            "make": "Dodge",
+            "model": "W150",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1989,
+            "year_to": 1993,
+            "make": "Dodge",
+            "model": "W250",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1989,
+            "year_to": 1993,
+            "make": "Dodge",
+            "model": "W350",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1988\u20131993 Dodge B150",
+          "1988\u20131993 Dodge B250",
+          "1988\u20131993 Dodge B350",
+          "1989 Dodge D100",
+          "1989\u20131993 Dodge D150",
+          "1989\u20131993 Dodge D250",
+          "1989\u20131993 Dodge D350",
+          "1988\u20131993 Dodge Dakota",
+          "1988\u20131995 Dodge Ramcharger",
+          "1989 Dodge W100",
+          "1989\u20131993 Dodge W150",
+          "1989\u20131993 Dodge W250",
+          "1989\u20131993 Dodge W350"
+        ],
+        "raw_compat_rows": 467,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398313355661",
+        "type": "Distributor Rotor",
+        "brand": "Standard",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors"
+      }
+    },
+    {
       "id": "536HUYYJEI4LE6FNVZTGX6K2",
       "name": "Standard CH-405 Distributor Cap NOS Chrysler Dodge Plymouth 80-86",
       "price": 14.99,
@@ -30748,20 +30961,13 @@
       "category": "other",
       "checkout": true,
       "variation_id": "I6RMTBUZIUUSMCDZS4Q764UN",
-      "stock": 1,
       "part_numbers": [
         "31096"
       ],
-      "interchange": [],
       "vehicles": [
         "1987\u20131990 Jeep Wrangler"
       ],
-      "vehicle_count_raw": 1,
-      "ebay_item_id": "398313313640",
-      "ebay_type": "Engine Oil Filler Cap",
-      "ebay_brand": "Gates",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Drain Plugs, Filler Caps & Dipsticks",
-      "fitment_source": "ebay_listing+title",
+      "fitment_source": "ebay_listing",
       "fitment_confidence": "medium",
       "fitment": {
         "part_numbers": [
@@ -30783,14 +30989,21 @@
         "vehicle_labels": [
           "1987\u20131990 Jeep Wrangler"
         ],
-        "raw_compat_rows": 1,
-        "source": "ebay_listing+title",
+        "raw_compat_rows": 2,
+        "source": "ebay_listing",
         "confidence": "medium",
         "ebay_item_id": "398313313640",
         "type": "Engine Oil Filler Cap",
         "brand": "Gates",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Drain Plugs, Filler Caps & Dipsticks"
-      }
+      },
+      "vehicle_count_raw": 2,
+      "ebay_item_id": "398313313640",
+      "ebay_type": "Engine Oil Filler Cap",
+      "ebay_brand": "Gates",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Drain Plugs, Filler Caps & Dipsticks",
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "WRUCYIZJHECU52ZNOMV2ME5O",
@@ -34309,22 +34522,15 @@
       "category": "other",
       "checkout": true,
       "variation_id": "CCOBFDUW6A67TDK6EGODVQYA",
-      "stock": 1,
       "part_numbers": [
         "33779"
       ],
-      "interchange": [],
       "vehicles": [
         "1979\u20131982 Ford Courier",
         "1985\u20131987 Renault Alliance",
         "1985\u20131986 Renault Encore",
         "1971 Toyota Crown"
       ],
-      "vehicle_count_raw": 117,
-      "ebay_item_id": "398313314205",
-      "ebay_type": "Thermostat",
-      "ebay_brand": "Gates",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Gaskets, Seals & O-Rings",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -34387,7 +34593,14 @@
         "type": "Thermostat",
         "brand": "Gates",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Gaskets, Seals & O-Rings"
-      }
+      },
+      "vehicle_count_raw": 117,
+      "ebay_item_id": "398313314205",
+      "ebay_type": "Thermostat",
+      "ebay_brand": "Gates",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Gaskets, Seals & O-Rings",
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "373RPPOCYAZFVEE4KH3VYLOY",
@@ -37981,5 +38194,5 @@
       "stock": 1
     }
   ],
-  "fitment_built": "2026-08-22T06:00:54Z"
+  "fitment_built": "2026-08-22T06:23:47Z"
 }
