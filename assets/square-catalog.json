@@ -1,7 +1,7 @@
 {
-  "updated": "2026-08-21T22:00:50Z",
+  "updated": "2026-08-22T01:00:52Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 296,
+  "count": 295,
   "items": [
     {
       "id": "S4IZBA4AG65C6HI2ZDIRMSJR",
@@ -17326,175 +17326,6 @@
       },
       "vehicle_count_raw": 2,
       "ebay_item_id": "398268712144",
-      "ebay_type": "Oil Filter",
-      "ebay_brand": "WIX",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Filters",
-      "stock": 1
-    },
-    {
-      "id": "BJ2Q7XYEK2IMEONYAADLPG7Q",
-      "name": "WIX 51452 Oil Filter NOS Fits Case Cat Ford JCB New Holland Heavy Duty",
-      "price": 19.98,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/dcdaa029807376ca2ab483dedc6819418afa87d8/original.jpeg",
-      "url": "https://square.link/u/SdqDswfc",
-      "category": "filters",
-      "checkout": true,
-      "variation_id": "7MXJA3BNNBHO3YAGJI5LGOZO",
-      "part_numbers": [
-        "51452",
-        "LFP550008, HF6096, PH16, LFH22027, L10017"
-      ],
-      "interchange": [
-        "NAPA 1452",
-        "B118"
-      ],
-      "vehicles": [
-        "1992\u20131997 Chevrolet W4500 Tiltmaster",
-        "Ford JCB",
-        "1992\u20131997 GMC W4500 Forward",
-        "1986\u20131991 Isuzu NPR",
-        "2003 Mack CV",
-        "New Holland Heavy",
-        "1992\u20131997 Volkswagen EuroVan",
-        "1992\u20131994 Volkswagen Transporter",
-        "2000\u20132001 Volvo ACL",
-        "2001 Volvo WG"
-      ],
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "high",
-      "fitment": {
-        "part_numbers": [
-          "51452",
-          "LFP550008, HF6096, PH16, LFH22027, L10017"
-        ],
-        "interchange": [
-          "NAPA 1452",
-          "B118"
-        ],
-        "vehicles": [
-          {
-            "year_from": 1992,
-            "year_to": 1997,
-            "make": "Chevrolet",
-            "model": "W4500 Tiltmaster",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": null,
-            "year_to": null,
-            "make": "Ford",
-            "model": "JCB",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1992,
-            "year_to": 1997,
-            "make": "GMC",
-            "model": "W4500 Forward",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1986,
-            "year_to": 1991,
-            "make": "Isuzu",
-            "model": "NPR",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 2003,
-            "year_to": 2003,
-            "make": "Mack",
-            "model": "CV",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": null,
-            "year_to": null,
-            "make": "New Holland",
-            "model": "Heavy",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1992,
-            "year_to": 1997,
-            "make": "Volkswagen",
-            "model": "EuroVan",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1992,
-            "year_to": 1994,
-            "make": "Volkswagen",
-            "model": "Transporter",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 2000,
-            "year_to": 2001,
-            "make": "Volvo",
-            "model": "ACL",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 2001,
-            "year_to": 2001,
-            "make": "Volvo",
-            "model": "WG",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          }
-        ],
-        "vehicle_labels": [
-          "1992\u20131997 Chevrolet W4500 Tiltmaster",
-          "Ford JCB",
-          "1992\u20131997 GMC W4500 Forward",
-          "1986\u20131991 Isuzu NPR",
-          "2003 Mack CV",
-          "New Holland Heavy",
-          "1992\u20131997 Volkswagen EuroVan",
-          "1992\u20131994 Volkswagen Transporter",
-          "2000\u20132001 Volvo ACL",
-          "2001 Volvo WG"
-        ],
-        "raw_compat_rows": 16,
-        "source": "ebay_listing",
-        "confidence": "high",
-        "ebay_item_id": "398268721696",
-        "type": "Oil Filter",
-        "brand": "WIX",
-        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Filters"
-      },
-      "vehicle_count_raw": 16,
-      "ebay_item_id": "398268721696",
       "ebay_type": "Oil Filter",
       "ebay_brand": "WIX",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Filters",
@@ -35304,5 +35135,5 @@
       "stock": 1
     }
   ],
-  "fitment_built": "2026-08-21T22:00:50Z"
+  "fitment_built": "2026-08-22T01:00:52Z"
 }
