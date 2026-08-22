@@ -1,7 +1,7 @@
 {
-  "updated": "2026-08-22T06:41:09Z",
+  "updated": "2026-08-22T06:44:56Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 327,
+  "count": 329,
   "items": [
     {
       "id": "S4IZBA4AG65C6HI2ZDIRMSJR",
@@ -33969,7 +33969,6 @@
       "category": "other",
       "checkout": true,
       "variation_id": "4Y7K6HO6AREVPYLAHJ44N347",
-      "stock": 1,
       "part_numbers": [
         "33478"
       ],
@@ -33988,11 +33987,6 @@
         "1983\u20131989 Nissan Pulsar NX",
         "1982\u20131988 Nissan Sentra"
       ],
-      "vehicle_count_raw": 656,
-      "ebay_item_id": "398313381958",
-      "ebay_type": "Thermostat",
-      "ebay_brand": "Gates",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Thermostats & Housings",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -34103,7 +34097,13 @@
         "type": "Thermostat",
         "brand": "Gates",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Thermostats & Housings"
-      }
+      },
+      "vehicle_count_raw": 656,
+      "ebay_item_id": "398313381958",
+      "ebay_type": "Thermostat",
+      "ebay_brand": "Gates",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Thermostats & Housings",
+      "stock": 1
     },
     {
       "id": "KBKJI6VPGFJ2ZZTFUNNPRVYF",
@@ -37796,6 +37796,344 @@
       "stock": 1
     },
     {
+      "id": "J465UYL4RNFA4O2YQV5S46AO",
+      "name": "Standard PS-231 Oil Pressure Switch 2.5 3.0 89-96 Dakota NOS",
+      "price": 14.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/4bd378f1c1cf96418a7585a5166fb06a0fd5129e/original.jpeg",
+      "url": "https://square.link/u/hMjNLh5B",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "VVEWFZ3RED5BQJ54256DKS6Z",
+      "stock": 1,
+      "part_numbers": [
+        "PS-231",
+        "19021108, C1824, 1S6622, PS205"
+      ],
+      "interchange": [
+        "PS231T",
+        "S4079",
+        "OP6667",
+        "53030494",
+        "4687710"
+      ],
+      "vehicles": [
+        "1989\u20131995 Chrysler LeBaron",
+        "1988\u20131989 Chrysler New Yorker",
+        "1989\u20131995 Dodge Caravan",
+        "1989\u20131996 Dodge Dakota",
+        "1989\u20131993 Dodge Daytona",
+        "1989\u20131995 Dodge Grand Caravan",
+        "1989\u20131994 Dodge Shadow",
+        "1989\u20131995 Dodge Spirit",
+        "1989\u20131995 Plymouth Voyager"
+      ],
+      "vehicle_count_raw": 409,
+      "ebay_item_id": "398313382957",
+      "ebay_type": "Oil Pressure Switch",
+      "ebay_brand": "Standard",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Engine Sensors & Switches",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "PS-231",
+          "19021108, C1824, 1S6622, PS205"
+        ],
+        "interchange": [
+          "PS231T",
+          "S4079",
+          "OP6667",
+          "53030494",
+          "4687710"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1989,
+            "year_to": 1995,
+            "make": "Chrysler",
+            "model": "LeBaron",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1988,
+            "year_to": 1989,
+            "make": "Chrysler",
+            "model": "New Yorker",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1989,
+            "year_to": 1995,
+            "make": "Dodge",
+            "model": "Caravan",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1989,
+            "year_to": 1996,
+            "make": "Dodge",
+            "model": "Dakota",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1989,
+            "year_to": 1993,
+            "make": "Dodge",
+            "model": "Daytona",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1989,
+            "year_to": 1995,
+            "make": "Dodge",
+            "model": "Grand Caravan",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1989,
+            "year_to": 1994,
+            "make": "Dodge",
+            "model": "Shadow",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1989,
+            "year_to": 1995,
+            "make": "Dodge",
+            "model": "Spirit",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1989,
+            "year_to": 1995,
+            "make": "Plymouth",
+            "model": "Voyager",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1989\u20131995 Chrysler LeBaron",
+          "1988\u20131989 Chrysler New Yorker",
+          "1989\u20131995 Dodge Caravan",
+          "1989\u20131996 Dodge Dakota",
+          "1989\u20131993 Dodge Daytona",
+          "1989\u20131995 Dodge Grand Caravan",
+          "1989\u20131994 Dodge Shadow",
+          "1989\u20131995 Dodge Spirit",
+          "1989\u20131995 Plymouth Voyager"
+        ],
+        "raw_compat_rows": 409,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398313382957",
+        "type": "Oil Pressure Switch",
+        "brand": "Standard",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Engine Sensors & Switches"
+      }
+    },
+    {
+      "id": "43FGUJXLQE5F7Y26GFNW5COW",
+      "name": "Standard RY-27 A/C Compressor Relay 4-Blade 79-95 GM NOS",
+      "price": 12.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/ef15a50e3903734c69e69d84469cb55204b71937/original.jpeg",
+      "url": "https://square.link/u/dP3J81bt",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "VYUXIHTHOXSXVLR7GLDJ5SWS",
+      "stock": 1,
+      "part_numbers": [
+        "RY-27",
+        "14081905, 1987312, DR1038, 1R1079"
+      ],
+      "interchange": [
+        "RY27T",
+        "R646",
+        "AR221",
+        "10026663",
+        "15-2371"
+      ],
+      "vehicles": [
+        "1979\u20131995 Buick Century",
+        "1984\u20131989 Buick Electra",
+        "1982\u20131989 Buick LeSabre",
+        "1985\u20131995 Chevrolet Astro",
+        "1982\u20131989 Chevrolet Camaro",
+        "1982\u20131991 Chevrolet Caprice",
+        "1985\u20131986 GMC C1500 Suburban",
+        "1992\u20131994 GMC Jimmy",
+        "1985\u20131995 GMC Safari",
+        "1985\u20131987 Oldsmobile Cutlass"
+      ],
+      "vehicle_count_raw": 917,
+      "ebay_item_id": "398313384165",
+      "ebay_type": "A/C Compressor Control Relay",
+      "ebay_brand": "Standard",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Starters, Alternators, ECUs & Wiring:Relays",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "RY-27",
+          "14081905, 1987312, DR1038, 1R1079"
+        ],
+        "interchange": [
+          "RY27T",
+          "R646",
+          "AR221",
+          "10026663",
+          "15-2371"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1979,
+            "year_to": 1995,
+            "make": "Buick",
+            "model": "Century",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 1989,
+            "make": "Buick",
+            "model": "Electra",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1982,
+            "year_to": 1989,
+            "make": "Buick",
+            "model": "LeSabre",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1995,
+            "make": "Chevrolet",
+            "model": "Astro",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1982,
+            "year_to": 1989,
+            "make": "Chevrolet",
+            "model": "Camaro",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1982,
+            "year_to": 1991,
+            "make": "Chevrolet",
+            "model": "Caprice",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1986,
+            "make": "GMC",
+            "model": "C1500 Suburban",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1992,
+            "year_to": 1994,
+            "make": "GMC",
+            "model": "Jimmy",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1995,
+            "make": "GMC",
+            "model": "Safari",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1987,
+            "make": "Oldsmobile",
+            "model": "Cutlass",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1979\u20131995 Buick Century",
+          "1984\u20131989 Buick Electra",
+          "1982\u20131989 Buick LeSabre",
+          "1985\u20131995 Chevrolet Astro",
+          "1982\u20131989 Chevrolet Camaro",
+          "1982\u20131991 Chevrolet Caprice",
+          "1985\u20131986 GMC C1500 Suburban",
+          "1992\u20131994 GMC Jimmy",
+          "1985\u20131995 GMC Safari",
+          "1985\u20131987 Oldsmobile Cutlass"
+        ],
+        "raw_compat_rows": 917,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398313384165",
+        "type": "A/C Compressor Control Relay",
+        "brand": "Standard",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Starters, Alternators, ECUs & Wiring:Relays"
+      }
+    },
+    {
       "id": "LFXZYGU3JCQZIIV5U6B6WDES",
       "name": "Standard SS598 Starter Solenoid NOS Ranger Mustang 89-02",
       "price": 22.99,
@@ -38339,5 +38677,5 @@
       "stock": 1
     }
   ],
-  "fitment_built": "2026-08-22T06:41:09Z"
+  "fitment_built": "2026-08-22T06:44:56Z"
 }
