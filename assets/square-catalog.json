@@ -1,7 +1,7 @@
 {
-  "updated": "2026-08-22T06:44:56Z",
+  "updated": "2026-08-22T19:59:04Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 329,
+  "count": 333,
   "items": [
     {
       "id": "S4IZBA4AG65C6HI2ZDIRMSJR",
@@ -8643,6 +8643,232 @@
       "stock": 1
     },
     {
+      "id": "MHVETXM22LSQZUKQMZWHEELY",
+      "name": "Lee 7071 Drum Brake Hardware Kit NOS 75-96 F-150 Bronco",
+      "price": 12.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/bf5df1b20d0ab4218ea6e2eda25eb28588d37a86/original.jpeg",
+      "url": "https://square.link/u/92Fkq9ht",
+      "category": "brake",
+      "checkout": true,
+      "variation_id": "FTTWURR5V6FXRDECZE4BWMMH",
+      "stock": 1,
+      "part_numbers": [
+        "7071",
+        "Dorman HW7225, Raybestos H7071, Wagner H7071"
+      ],
+      "interchange": [
+        "H7225"
+      ],
+      "vehicles": [
+        "1976\u20131996 Ford Bronco",
+        "1968\u20131983 Ford F-100",
+        "1975\u20131996 Ford F-150",
+        "1987\u20131991 Ford LTD Crown Victoria",
+        "1981\u20131997 Lincoln Town Car"
+      ],
+      "vehicle_count_raw": 1569,
+      "ebay_item_id": "398314611534",
+      "ebay_type": "Drum Brake Hardware Kit",
+      "ebay_brand": "Lee",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "7071",
+          "Dorman HW7225, Raybestos H7071, Wagner H7071"
+        ],
+        "interchange": [
+          "H7225"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1976,
+            "year_to": 1996,
+            "make": "Ford",
+            "model": "Bronco",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1968,
+            "year_to": 1983,
+            "make": "Ford",
+            "model": "F-100",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1975,
+            "year_to": 1996,
+            "make": "Ford",
+            "model": "F-150",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1991,
+            "make": "Ford",
+            "model": "LTD Crown Victoria",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1981,
+            "year_to": 1997,
+            "make": "Lincoln",
+            "model": "Town Car",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1976\u20131996 Ford Bronco",
+          "1968\u20131983 Ford F-100",
+          "1975\u20131996 Ford F-150",
+          "1987\u20131991 Ford LTD Crown Victoria",
+          "1981\u20131997 Lincoln Town Car"
+        ],
+        "raw_compat_rows": 1569,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398314611534",
+        "type": "Drum Brake Hardware Kit",
+        "brand": "Lee",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware"
+      }
+    },
+    {
+      "id": "RUOCSUYXJCZEY2WCQOAV2SP5",
+      "name": "Lee 7073 Drum Brake Hardware Kit NOS 80-84 Cavalier Citation",
+      "price": 12.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/b549471793f241f3e141d9563371740ee6048ef6/original.jpeg",
+      "url": "https://square.link/u/eEwWayZP",
+      "category": "brake",
+      "checkout": true,
+      "variation_id": "L6IFKWPEJXWQ267G6OWJSXSO",
+      "stock": 1,
+      "part_numbers": [
+        "7073",
+        "Dorman HW7281, Wagner H7073"
+      ],
+      "interchange": [
+        "H7281"
+      ],
+      "vehicles": [
+        "1982\u20131984 Buick Skyhawk",
+        "1982\u20131984 Cadillac Cimarron",
+        "1982\u20131984 Chevrolet Cavalier",
+        "1980\u20131984 Chevrolet Chevette",
+        "1980\u20131984 Chevrolet Citation",
+        "1980\u20131984 Pontiac Phoenix"
+      ],
+      "vehicle_count_raw": 224,
+      "ebay_item_id": "398314611974",
+      "ebay_type": "Drum Brake Hardware Kit",
+      "ebay_brand": "Lee",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "7073",
+          "Dorman HW7281, Wagner H7073"
+        ],
+        "interchange": [
+          "H7281"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1982,
+            "year_to": 1984,
+            "make": "Buick",
+            "model": "Skyhawk",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1982,
+            "year_to": 1984,
+            "make": "Cadillac",
+            "model": "Cimarron",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1982,
+            "year_to": 1984,
+            "make": "Chevrolet",
+            "model": "Cavalier",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1980,
+            "year_to": 1984,
+            "make": "Chevrolet",
+            "model": "Chevette",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1980,
+            "year_to": 1984,
+            "make": "Chevrolet",
+            "model": "Citation",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1980,
+            "year_to": 1984,
+            "make": "Pontiac",
+            "model": "Phoenix",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1982\u20131984 Buick Skyhawk",
+          "1982\u20131984 Cadillac Cimarron",
+          "1982\u20131984 Chevrolet Cavalier",
+          "1980\u20131984 Chevrolet Chevette",
+          "1980\u20131984 Chevrolet Citation",
+          "1980\u20131984 Pontiac Phoenix"
+        ],
+        "raw_compat_rows": 224,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398314611974",
+        "type": "Drum Brake Hardware Kit",
+        "brand": "Lee",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware"
+      }
+    },
+    {
       "id": "P6PI2VDS3T3WTMJUQRZXYHUN",
       "name": "Lee 7081 USA Made Brake Hardware Kit 1986-91 Buick Cadillac Olds Pontiac NOS",
       "price": 15.99,
@@ -9077,6 +9303,101 @@
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware",
       "stock": 1,
       "interchange": []
+    },
+    {
+      "id": "OFRMWO4JNIIVZIAPAIZVZT6W",
+      "name": "Lee 7200 Drum Brake Hardware Kit NOS 92-01 Taurus Sable",
+      "price": 12.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/d10c5915229ccd82556de953410c74d23e3dca3d/original.jpeg",
+      "url": "https://square.link/u/YqArKtm5",
+      "category": "brake",
+      "checkout": true,
+      "variation_id": "JA6XTH7R4XSSN5ZAUZDFVJ2R",
+      "stock": 1,
+      "part_numbers": [
+        "7200",
+        "Dorman HW7280, Wagner H7200, Bendix H7342"
+      ],
+      "interchange": [
+        "H7280"
+      ],
+      "vehicles": [
+        "1992\u20132001 Ford Taurus",
+        "1989\u20131997 Ford Thunderbird",
+        "1989\u20131996 Mercury Cougar",
+        "1992\u20132001 Mercury Sable"
+      ],
+      "vehicle_count_raw": 268,
+      "ebay_item_id": "398314612630",
+      "ebay_type": "Drum Brake Hardware Kit",
+      "ebay_brand": "Lee",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "7200",
+          "Dorman HW7280, Wagner H7200, Bendix H7342"
+        ],
+        "interchange": [
+          "H7280"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1992,
+            "year_to": 2001,
+            "make": "Ford",
+            "model": "Taurus",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1989,
+            "year_to": 1997,
+            "make": "Ford",
+            "model": "Thunderbird",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1989,
+            "year_to": 1996,
+            "make": "Mercury",
+            "model": "Cougar",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1992,
+            "year_to": 2001,
+            "make": "Mercury",
+            "model": "Sable",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1992\u20132001 Ford Taurus",
+          "1989\u20131997 Ford Thunderbird",
+          "1989\u20131996 Mercury Cougar",
+          "1992\u20132001 Mercury Sable"
+        ],
+        "raw_compat_rows": 268,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398314612630",
+        "type": "Drum Brake Hardware Kit",
+        "brand": "Lee",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware"
+      }
     },
     {
       "id": "OKJL5UDDQUCSCGJMM6CA2WX7",
@@ -30495,6 +30816,107 @@
       "vehicles": []
     },
     {
+      "id": "CGCBMHACWYTKCBSRNTLXFBCY",
+      "name": "Ford E2PZ-10316-A Voltage Regulator NOS 5.0 5.8 65-96 Mustang F150",
+      "price": 59.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/0241721cb7eadb3933d0e36a68ee2cda96e103b8/original.jpeg",
+      "url": "https://square.link/u/Pbp1HJKm",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "RMHAAMQZLJ2FOCC2FLWZOWS2",
+      "stock": 2,
+      "part_numbers": [
+        "E2PZ-10316-A",
+        "Motorcraft GR-540A, Standard VR-166, VR166, GR-540B"
+      ],
+      "interchange": [
+        "E2PZ10316A",
+        "GR540A",
+        "D9PZ-10316-A",
+        "F0PZ-10316-A"
+      ],
+      "vehicles": [
+        "1968\u20131996 Ford Bronco",
+        "1965\u20131996 Ford E2PZ-10316-A",
+        "1975\u20131996 Ford F-150",
+        "1968\u20131986 Ford Mustang"
+      ],
+      "vehicle_count_raw": 624,
+      "ebay_item_id": "398314580568",
+      "ebay_type": "Voltage Regulator",
+      "ebay_brand": "Ford",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Starters, Alternators, ECUs & Wiring:Voltage Regulators",
+      "fitment_source": "ebay_listing+title",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "E2PZ-10316-A",
+          "Motorcraft GR-540A, Standard VR-166, VR166, GR-540B"
+        ],
+        "interchange": [
+          "E2PZ10316A",
+          "GR540A",
+          "D9PZ-10316-A",
+          "F0PZ-10316-A"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1968,
+            "year_to": 1996,
+            "make": "Ford",
+            "model": "Bronco",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1965,
+            "year_to": 1996,
+            "make": "Ford",
+            "model": "E2PZ-10316-A",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1975,
+            "year_to": 1996,
+            "make": "Ford",
+            "model": "F-150",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1968,
+            "year_to": 1986,
+            "make": "Ford",
+            "model": "Mustang",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1968\u20131996 Ford Bronco",
+          "1965\u20131996 Ford E2PZ-10316-A",
+          "1975\u20131996 Ford F-150",
+          "1968\u20131986 Ford Mustang"
+        ],
+        "raw_compat_rows": 624,
+        "source": "ebay_listing+title",
+        "confidence": "high",
+        "ebay_item_id": "398314580568",
+        "type": "Voltage Regulator",
+        "brand": "Ford",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Starters, Alternators, ECUs & Wiring:Voltage Regulators"
+      }
+    },
+    {
       "id": "RDNZ6GYL22VCWLBJTIPXBNUO",
       "name": "Four Seasons 74691 Heater Valve NOS 76-90 Buick Olds Pontiac Chevy GM",
       "price": 39.99,
@@ -37804,7 +38226,6 @@
       "category": "other",
       "checkout": true,
       "variation_id": "VVEWFZ3RED5BQJ54256DKS6Z",
-      "stock": 1,
       "part_numbers": [
         "PS-231",
         "19021108, C1824, 1S6622, PS205"
@@ -37827,11 +38248,6 @@
         "1989\u20131995 Dodge Spirit",
         "1989\u20131995 Plymouth Voyager"
       ],
-      "vehicle_count_raw": 409,
-      "ebay_item_id": "398313382957",
-      "ebay_type": "Oil Pressure Switch",
-      "ebay_brand": "Standard",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Engine Sensors & Switches",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -37956,7 +38372,13 @@
         "type": "Oil Pressure Switch",
         "brand": "Standard",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Engine Sensors & Switches"
-      }
+      },
+      "vehicle_count_raw": 409,
+      "ebay_item_id": "398313382957",
+      "ebay_type": "Oil Pressure Switch",
+      "ebay_brand": "Standard",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Engine Sensors & Switches",
+      "stock": 1
     },
     {
       "id": "43FGUJXLQE5F7Y26GFNW5COW",
@@ -37967,7 +38389,6 @@
       "category": "other",
       "checkout": true,
       "variation_id": "VYUXIHTHOXSXVLR7GLDJ5SWS",
-      "stock": 1,
       "part_numbers": [
         "RY-27",
         "14081905, 1987312, DR1038, 1R1079"
@@ -37991,11 +38412,6 @@
         "1985\u20131995 GMC Safari",
         "1985\u20131987 Oldsmobile Cutlass"
       ],
-      "vehicle_count_raw": 917,
-      "ebay_item_id": "398313384165",
-      "ebay_type": "A/C Compressor Control Relay",
-      "ebay_brand": "Standard",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Starters, Alternators, ECUs & Wiring:Relays",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -38131,7 +38547,13 @@
         "type": "A/C Compressor Control Relay",
         "brand": "Standard",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Starters, Alternators, ECUs & Wiring:Relays"
-      }
+      },
+      "vehicle_count_raw": 917,
+      "ebay_item_id": "398313384165",
+      "ebay_type": "A/C Compressor Control Relay",
+      "ebay_brand": "Standard",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Starters, Alternators, ECUs & Wiring:Relays",
+      "stock": 1
     },
     {
       "id": "LFXZYGU3JCQZIIV5U6B6WDES",
@@ -38677,5 +39099,5 @@
       "stock": 1
     }
   ],
-  "fitment_built": "2026-08-22T06:44:56Z"
+  "fitment_built": "2026-08-22T19:59:04Z"
 }
