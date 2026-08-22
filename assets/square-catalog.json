@@ -1,7 +1,7 @@
 {
-  "updated": "2026-08-22T02:01:14Z",
+  "updated": "2026-08-22T03:00:56Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 301,
+  "count": 305,
   "items": [
     {
       "id": "S4IZBA4AG65C6HI2ZDIRMSJR",
@@ -29341,6 +29341,237 @@
       "vehicles": []
     },
     {
+      "id": "6CFG7JXSUKQHHZSZEBAWQ4NV",
+      "name": "AP Exhaust 8724 Exhaust Pipe Flange Gasket 2-Bolt Universal NOS",
+      "price": 11.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/86bbfb396b093132fb046421450b2bb7f2348363/original.jpeg",
+      "url": "https://square.link/u/30KHkvuF",
+      "category": "exhaust",
+      "checkout": true,
+      "variation_id": "QL7BED3UDD5YVKXVIYLYDXDF",
+      "stock": 1,
+      "part_numbers": [
+        "8724"
+      ],
+      "interchange": [
+        "AP-8724",
+        "Walker 31307",
+        "Fel-Pro 23609",
+        "Ford E7GZ-5B266-A"
+      ],
+      "vehicles": [
+        "1997\u20131998 Chevrolet Malibu",
+        "1979\u20131982 Datsun 310",
+        "1978\u20131981 Datsun 510",
+        "1974\u20131976 Datsun 610",
+        "1975\u20131979 Datsun 620",
+        "1974\u20131977 Datsun 710",
+        "1980\u20131982 Datsun 720",
+        "1987\u20131990 Ford Escort",
+        "1987\u20131990 Mercury Tracer",
+        "1984\u20131986 Nissan 200SX",
+        "1983\u20131984 Nissan Pulsar NX",
+        "1982\u20131983 Nissan Sentra",
+        "1984\u20131986 Nissan Stanza",
+        "1997\u20131998 Oldsmobile Cutlass",
+        "2005\u20132015 Toyota Tacoma"
+      ],
+      "vehicle_count_raw": 336,
+      "ebay_item_id": "398313066196",
+      "ebay_type": "Exhaust Pipe Flange Gasket",
+      "ebay_brand": "AP Exhaust",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Exhaust & Emission Systems:Exhaust Gaskets",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "8724"
+        ],
+        "interchange": [
+          "AP-8724",
+          "Walker 31307",
+          "Fel-Pro 23609",
+          "Ford E7GZ-5B266-A"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1997,
+            "year_to": 1998,
+            "make": "Chevrolet",
+            "model": "Malibu",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1979,
+            "year_to": 1982,
+            "make": "Datsun",
+            "model": "310",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1978,
+            "year_to": 1981,
+            "make": "Datsun",
+            "model": "510",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1974,
+            "year_to": 1976,
+            "make": "Datsun",
+            "model": "610",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1975,
+            "year_to": 1979,
+            "make": "Datsun",
+            "model": "620",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1974,
+            "year_to": 1977,
+            "make": "Datsun",
+            "model": "710",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1980,
+            "year_to": 1982,
+            "make": "Datsun",
+            "model": "720",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1990,
+            "make": "Ford",
+            "model": "Escort",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1990,
+            "make": "Mercury",
+            "model": "Tracer",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 1986,
+            "make": "Nissan",
+            "model": "200SX",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1983,
+            "year_to": 1984,
+            "make": "Nissan",
+            "model": "Pulsar NX",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1982,
+            "year_to": 1983,
+            "make": "Nissan",
+            "model": "Sentra",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 1986,
+            "make": "Nissan",
+            "model": "Stanza",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1997,
+            "year_to": 1998,
+            "make": "Oldsmobile",
+            "model": "Cutlass",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2005,
+            "year_to": 2015,
+            "make": "Toyota",
+            "model": "Tacoma",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1997\u20131998 Chevrolet Malibu",
+          "1979\u20131982 Datsun 310",
+          "1978\u20131981 Datsun 510",
+          "1974\u20131976 Datsun 610",
+          "1975\u20131979 Datsun 620",
+          "1974\u20131977 Datsun 710",
+          "1980\u20131982 Datsun 720",
+          "1987\u20131990 Ford Escort",
+          "1987\u20131990 Mercury Tracer",
+          "1984\u20131986 Nissan 200SX",
+          "1983\u20131984 Nissan Pulsar NX",
+          "1982\u20131983 Nissan Sentra",
+          "1984\u20131986 Nissan Stanza",
+          "1997\u20131998 Oldsmobile Cutlass",
+          "2005\u20132015 Toyota Tacoma"
+        ],
+        "raw_compat_rows": 336,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398313066196",
+        "type": "Exhaust Pipe Flange Gasket",
+        "brand": "AP Exhaust",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Exhaust & Emission Systems:Exhaust Gaskets"
+      }
+    },
+    {
       "id": "3YKKZSK4N5HMOC7TOVXSFOHH",
       "name": "AP Exhaust 9235 Dual Port Flange Gasket Ford Ranger Bronco II NOS",
       "price": 19.98,
@@ -29811,19 +30042,12 @@
       "category": "other",
       "checkout": true,
       "variation_id": "ZJ3H7LGQTQFFOC2DIOKZZB4E",
-      "stock": 1,
       "part_numbers": [
         "8724"
       ],
       "interchange": [
         "CR-8724"
       ],
-      "vehicles": [],
-      "vehicle_count_raw": 0,
-      "ebay_item_id": "398313014378",
-      "ebay_type": "Oil Seal",
-      "ebay_brand": "CR",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Exterior Parts & Accessories:Doors, Trunk Lids & Hatches:Liftgates",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -29842,7 +30066,14 @@
         "type": "Oil Seal",
         "brand": "CR",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Exterior Parts & Accessories:Doors, Trunk Lids & Hatches:Liftgates"
-      }
+      },
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398313014378",
+      "ebay_type": "Oil Seal",
+      "ebay_brand": "CR",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Exterior Parts & Accessories:Doors, Trunk Lids & Hatches:Liftgates",
+      "stock": 1,
+      "vehicles": []
     },
     {
       "id": "RDNZ6GYL22VCWLBJTIPXBNUO",
@@ -29956,17 +30187,9 @@
       "category": "other",
       "checkout": true,
       "variation_id": "NNAK7G5ONZXW4Z2D4UKR55E7",
-      "stock": 0,
       "part_numbers": [
         "131094"
       ],
-      "interchange": [],
-      "vehicles": [],
-      "vehicle_count_raw": 0,
-      "ebay_item_id": "398313014879",
-      "ebay_type": "Engine Oil Filler Cap",
-      "ebay_brand": "Gates",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Drain Plugs, Filler Caps & Dipsticks",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "medium",
       "fitment": {
@@ -29983,6 +30206,260 @@
         "type": "Engine Oil Filler Cap",
         "brand": "Gates",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Drain Plugs, Filler Caps & Dipsticks"
+      },
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398313014879",
+      "ebay_type": "Engine Oil Filler Cap",
+      "ebay_brand": "Gates",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Drain Plugs, Filler Caps & Dipsticks",
+      "stock": 0,
+      "interchange": [],
+      "vehicles": []
+    },
+    {
+      "id": "IZVOGLTPF6C2TWUJL5YAR6LT",
+      "name": "Gates 31094 Engine Oil Filler Cap 1988-1990 Chevy GMC 7.4L 454 NOS",
+      "price": 14.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/3007c029c8b1ffde141547881346cd56c657b974/original.jpeg",
+      "url": "https://square.link/u/5XHB3mQp",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "WNMMUY4CQWIZVGN2CAKWSKIH",
+      "stock": 1,
+      "part_numbers": [
+        "31094"
+      ],
+      "interchange": [
+        "Gates 31094",
+        "GM 25518128",
+        "ACDelco FC130",
+        "Stant 8109"
+      ],
+      "vehicles": [
+        "1988\u20131990 Chevrolet C3500",
+        "1988\u20131990 Chevrolet G30",
+        "1987\u20131990 Chevrolet P30",
+        "1989 Chevrolet R2500",
+        "1989\u20131990 Chevrolet R3500",
+        "1988\u20131990 GMC C3500"
+      ],
+      "vehicle_count_raw": 108,
+      "ebay_item_id": "398313091091",
+      "ebay_type": "Engine Oil Filler Cap",
+      "ebay_brand": "Gates",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Drain Plugs, Filler Caps & Dipsticks",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "31094"
+        ],
+        "interchange": [
+          "Gates 31094",
+          "GM 25518128",
+          "ACDelco FC130",
+          "Stant 8109"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1988,
+            "year_to": 1990,
+            "make": "Chevrolet",
+            "model": "C3500",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1988,
+            "year_to": 1990,
+            "make": "Chevrolet",
+            "model": "G30",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1990,
+            "make": "Chevrolet",
+            "model": "P30",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1989,
+            "year_to": 1989,
+            "make": "Chevrolet",
+            "model": "R2500",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1989,
+            "year_to": 1990,
+            "make": "Chevrolet",
+            "model": "R3500",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1988,
+            "year_to": 1990,
+            "make": "GMC",
+            "model": "C3500",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1988\u20131990 Chevrolet C3500",
+          "1988\u20131990 Chevrolet G30",
+          "1987\u20131990 Chevrolet P30",
+          "1989 Chevrolet R2500",
+          "1989\u20131990 Chevrolet R3500",
+          "1988\u20131990 GMC C3500"
+        ],
+        "raw_compat_rows": 108,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398313091091",
+        "type": "Engine Oil Filler Cap",
+        "brand": "Gates",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Drain Plugs, Filler Caps & Dipsticks"
+      }
+    },
+    {
+      "id": "3FMKLGX2GKFXBMFHCA2KODX2",
+      "name": "Gates 31094 Engine Oil Filler Cap 1988-1990 Chevy GMC 7.4L 454 NOS",
+      "price": 14.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/3007c029c8b1ffde141547881346cd56c657b974/original.jpeg",
+      "url": "https://square.link/u/qu0dcAjj",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "IH3T664C63RFZLNZP73PKFSQ",
+      "stock": 1,
+      "part_numbers": [
+        "31094"
+      ],
+      "interchange": [
+        "Gates 31094",
+        "GM 25518128",
+        "ACDelco FC130",
+        "Stant 8109"
+      ],
+      "vehicles": [
+        "1988\u20131990 Chevrolet C3500",
+        "1988\u20131990 Chevrolet G30",
+        "1987\u20131990 Chevrolet P30",
+        "1989 Chevrolet R2500",
+        "1989\u20131990 Chevrolet R3500",
+        "1988\u20131990 GMC C3500"
+      ],
+      "vehicle_count_raw": 108,
+      "ebay_item_id": "398313091091",
+      "ebay_type": "Engine Oil Filler Cap",
+      "ebay_brand": "Gates",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Drain Plugs, Filler Caps & Dipsticks",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "31094"
+        ],
+        "interchange": [
+          "Gates 31094",
+          "GM 25518128",
+          "ACDelco FC130",
+          "Stant 8109"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1988,
+            "year_to": 1990,
+            "make": "Chevrolet",
+            "model": "C3500",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1988,
+            "year_to": 1990,
+            "make": "Chevrolet",
+            "model": "G30",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1990,
+            "make": "Chevrolet",
+            "model": "P30",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1989,
+            "year_to": 1989,
+            "make": "Chevrolet",
+            "model": "R2500",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1989,
+            "year_to": 1990,
+            "make": "Chevrolet",
+            "model": "R3500",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1988,
+            "year_to": 1990,
+            "make": "GMC",
+            "model": "C3500",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1988\u20131990 Chevrolet C3500",
+          "1988\u20131990 Chevrolet G30",
+          "1987\u20131990 Chevrolet P30",
+          "1989 Chevrolet R2500",
+          "1989\u20131990 Chevrolet R3500",
+          "1988\u20131990 GMC C3500"
+        ],
+        "raw_compat_rows": 108,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398313091091",
+        "type": "Engine Oil Filler Cap",
+        "brand": "Gates",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Drain Plugs, Filler Caps & Dipsticks"
       }
     },
     {
@@ -29994,11 +30471,9 @@
       "category": "other",
       "checkout": true,
       "variation_id": "KYUYXUG2MAGTJ4BKQO7EXQFE",
-      "stock": 1,
       "part_numbers": [
         "31103"
       ],
-      "interchange": [],
       "vehicles": [
         "1985\u20132005 Buick Century",
         "1986\u20131990 Buick Electra",
@@ -30007,11 +30482,6 @@
         "1968\u20131985 Ford Mustang",
         "1985\u20131996 Oldsmobile Cutlass Ciera"
       ],
-      "vehicle_count_raw": 1503,
-      "ebay_item_id": "398313004713",
-      "ebay_type": "Engine Oil Filler Cap",
-      "ebay_brand": "Gates",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Drain Plugs, Filler Caps & Dipsticks",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -30096,7 +30566,14 @@
         "type": "Engine Oil Filler Cap",
         "brand": "Gates",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Drain Plugs, Filler Caps & Dipsticks"
-      }
+      },
+      "vehicle_count_raw": 1503,
+      "ebay_item_id": "398313004713",
+      "ebay_type": "Engine Oil Filler Cap",
+      "ebay_brand": "Gates",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Drain Plugs, Filler Caps & Dipsticks",
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "DF5ODDBYK75OALIVCHKN5RY4",
@@ -30107,11 +30584,9 @@
       "category": "other",
       "checkout": true,
       "variation_id": "LMCXHA4OZIR6GA3N6R4JZSLN",
-      "stock": 1,
       "part_numbers": [
         "31109"
       ],
-      "interchange": [],
       "vehicles": [
         "1985\u20132008 Ford F-150",
         "1999\u20132008 Ford F-250 Super Duty",
@@ -30119,11 +30594,6 @@
         "1998\u20132002 Honda Accord",
         "1986\u20132002 Honda Civic"
       ],
-      "vehicle_count_raw": 1356,
-      "ebay_item_id": "398313010453",
-      "ebay_type": "Engine Oil Filler Cap",
-      "ebay_brand": "Gates",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Drain Plugs, Filler Caps & Dipsticks",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -30197,7 +30667,14 @@
         "type": "Engine Oil Filler Cap",
         "brand": "Gates",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Drain Plugs, Filler Caps & Dipsticks"
-      }
+      },
+      "vehicle_count_raw": 1356,
+      "ebay_item_id": "398313010453",
+      "ebay_type": "Engine Oil Filler Cap",
+      "ebay_brand": "Gates",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Drain Plugs, Filler Caps & Dipsticks",
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "CTDEXJR2NW4GA3T25WXQ5KZD",
@@ -30208,11 +30685,9 @@
       "category": "other",
       "checkout": true,
       "variation_id": "6JVVSY7R4JLZH6XGBX5U7YPC",
-      "stock": 1,
       "part_numbers": [
         "31527"
       ],
-      "interchange": [],
       "vehicles": [
         "1949\u20131951 Cadillac Series 75 Fleetwood",
         "1970 Ford Cortina",
@@ -30225,11 +30700,6 @@
         "1970 Subaru 360",
         "1971\u20131973 VAM Javelin"
       ],
-      "vehicle_count_raw": 107,
-      "ebay_item_id": "398313016402",
-      "ebay_type": "Radiator Cap",
-      "ebay_brand": "Gates",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Caps",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -30358,7 +30828,14 @@
         "type": "Radiator Cap",
         "brand": "Gates",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Caps"
-      }
+      },
+      "vehicle_count_raw": 107,
+      "ebay_item_id": "398313016402",
+      "ebay_type": "Radiator Cap",
+      "ebay_brand": "Gates",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Caps",
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "OCD7BRTIV5ZPOAHYO234ILJF",
@@ -30369,11 +30846,9 @@
       "category": "other",
       "checkout": true,
       "variation_id": "Y2BEF4JDLGFZFRZEQU7VQJOM",
-      "stock": 1,
       "part_numbers": [
         "31748"
       ],
-      "interchange": [],
       "vehicles": [
         "1994\u20131999 Dodge Ram 2500",
         "1999\u20132008 Ford F-250",
@@ -30384,11 +30859,6 @@
         "1997\u20132000 Jeep Wrangler",
         "1989\u20132000 Nissan Maxima"
       ],
-      "vehicle_count_raw": 443,
-      "ebay_item_id": "398313022903",
-      "ebay_type": "Fuel Cap",
-      "ebay_brand": "Gates",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Fuel Tanks & Filler Necks",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -30495,6 +30965,138 @@
         "type": "Fuel Cap",
         "brand": "Gates",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Fuel Tanks & Filler Necks"
+      },
+      "vehicle_count_raw": 443,
+      "ebay_item_id": "398313022903",
+      "ebay_type": "Fuel Cap",
+      "ebay_brand": "Gates",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Fuel Tanks & Filler Necks",
+      "stock": 1,
+      "interchange": []
+    },
+    {
+      "id": "QJRUAH3QDBKPN3RKL52WXJD7",
+      "name": "Gates 31778 Stant Keyed Locking Fuel Cap 2 Keys 1999-2008 Ford Jeep NOS",
+      "price": 14.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/ba5aa42a7ad6513015b01b3b90261477393a29ad/original.jpeg",
+      "url": "https://square.link/u/33utRYLY",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "YWLF4TNRQ44A3MCZ5HBTVVEI",
+      "stock": 1,
+      "part_numbers": [
+        "31778"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1994\u20131999 Dodge Ram 2500",
+        "1999\u20132008 Ford F-250",
+        "1999\u20132008 Ford F-350",
+        "2007\u20132014 GMC Sierra",
+        "1987\u20131999 Jeep Cherokee",
+        "1993\u20132000 Jeep Grand Cherokee",
+        "1997\u20132000 Jeep Wrangler"
+      ],
+      "vehicle_count_raw": 407,
+      "ebay_item_id": "398313062073",
+      "ebay_type": "Locking Fuel Cap",
+      "ebay_brand": "Gates",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Fuel Tank Caps",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "31778"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1994,
+            "year_to": 1999,
+            "make": "Dodge",
+            "model": "Ram 2500",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1999,
+            "year_to": 2008,
+            "make": "Ford",
+            "model": "F-250",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1999,
+            "year_to": 2008,
+            "make": "Ford",
+            "model": "F-350",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2007,
+            "year_to": 2014,
+            "make": "GMC",
+            "model": "Sierra",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1999,
+            "make": "Jeep",
+            "model": "Cherokee",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1993,
+            "year_to": 2000,
+            "make": "Jeep",
+            "model": "Grand Cherokee",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1997,
+            "year_to": 2000,
+            "make": "Jeep",
+            "model": "Wrangler",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1994\u20131999 Dodge Ram 2500",
+          "1999\u20132008 Ford F-250",
+          "1999\u20132008 Ford F-350",
+          "2007\u20132014 GMC Sierra",
+          "1987\u20131999 Jeep Cherokee",
+          "1993\u20132000 Jeep Grand Cherokee",
+          "1997\u20132000 Jeep Wrangler"
+        ],
+        "raw_compat_rows": 407,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398313062073",
+        "type": "Locking Fuel Cap",
+        "brand": "Gates",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Fuel Tank Caps"
       }
     },
     {
@@ -35727,5 +36329,5 @@
       "stock": 1
     }
   ],
-  "fitment_built": "2026-08-22T02:01:14Z"
+  "fitment_built": "2026-08-22T03:00:56Z"
 }
