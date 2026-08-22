@@ -1,7 +1,7 @@
 {
-  "updated": "2026-08-22T06:23:47Z",
+  "updated": "2026-08-22T06:41:09Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 326,
+  "count": 327,
   "items": [
     {
       "id": "S4IZBA4AG65C6HI2ZDIRMSJR",
@@ -21917,7 +21917,6 @@
       "category": "ignition",
       "checkout": true,
       "variation_id": "C2AITIUMFQKY66MU3JSHRSEP",
-      "stock": 1,
       "part_numbers": [
         "CH-309",
         "12351067, C416, 4R1028, 1830, 3201"
@@ -21945,11 +21944,6 @@
         "1989\u20131993 Dodge W250",
         "1989\u20131993 Dodge W350"
       ],
-      "vehicle_count_raw": 467,
-      "ebay_item_id": "398313355661",
-      "ebay_type": "Distributor Rotor",
-      "ebay_brand": "Standard",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -22119,7 +22113,13 @@
         "type": "Distributor Rotor",
         "brand": "Standard",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors"
-      }
+      },
+      "vehicle_count_raw": 467,
+      "ebay_item_id": "398313355661",
+      "ebay_type": "Distributor Rotor",
+      "ebay_brand": "Standard",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors",
+      "stock": 1
     },
     {
       "id": "536HUYYJEI4LE6FNVZTGX6K2",
@@ -33961,6 +33961,151 @@
       "interchange": []
     },
     {
+      "id": "KCVYI4MR3CRIRP5C6RZ4JB35",
+      "name": "Gates 33478 Thermostat 180\u00b0F 96-08 Ranger 720 D21 NOS",
+      "price": 9.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/ff9b67b1d7f49c2f72ac354ea79343e235057bb7/original.jpeg",
+      "url": "https://square.link/u/HS9l9111",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "4Y7K6HO6AREVPYLAHJ44N347",
+      "stock": 1,
+      "part_numbers": [
+        "33478"
+      ],
+      "interchange": [
+        "Stant 13858",
+        "Motorad 241-180",
+        "NAPA 33478"
+      ],
+      "vehicles": [
+        "1999\u20132004 Ford Mustang",
+        "1996\u20132008 Ford Ranger",
+        "1998\u20131999 Ford Taurus",
+        "1983\u20131986 Nissan 720",
+        "1986\u20131989 Nissan D21",
+        "1987\u20131988 Nissan Pathfinder",
+        "1983\u20131989 Nissan Pulsar NX",
+        "1982\u20131988 Nissan Sentra"
+      ],
+      "vehicle_count_raw": 656,
+      "ebay_item_id": "398313381958",
+      "ebay_type": "Thermostat",
+      "ebay_brand": "Gates",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Thermostats & Housings",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "33478"
+        ],
+        "interchange": [
+          "Stant 13858",
+          "Motorad 241-180",
+          "NAPA 33478"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1999,
+            "year_to": 2004,
+            "make": "Ford",
+            "model": "Mustang",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1996,
+            "year_to": 2008,
+            "make": "Ford",
+            "model": "Ranger",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1998,
+            "year_to": 1999,
+            "make": "Ford",
+            "model": "Taurus",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1983,
+            "year_to": 1986,
+            "make": "Nissan",
+            "model": "720",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1986,
+            "year_to": 1989,
+            "make": "Nissan",
+            "model": "D21",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1988,
+            "make": "Nissan",
+            "model": "Pathfinder",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1983,
+            "year_to": 1989,
+            "make": "Nissan",
+            "model": "Pulsar NX",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1982,
+            "year_to": 1988,
+            "make": "Nissan",
+            "model": "Sentra",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1999\u20132004 Ford Mustang",
+          "1996\u20132008 Ford Ranger",
+          "1998\u20131999 Ford Taurus",
+          "1983\u20131986 Nissan 720",
+          "1986\u20131989 Nissan D21",
+          "1987\u20131988 Nissan Pathfinder",
+          "1983\u20131989 Nissan Pulsar NX",
+          "1982\u20131988 Nissan Sentra"
+        ],
+        "raw_compat_rows": 656,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398313381958",
+        "type": "Thermostat",
+        "brand": "Gates",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Thermostats & Housings"
+      }
+    },
+    {
       "id": "KBKJI6VPGFJ2ZZTFUNNPRVYF",
       "name": "Gates 33479 Thermostat 195 84-85 Mazda 626 Nissan 520 NOS USA",
       "price": 17.98,
@@ -38194,5 +38339,5 @@
       "stock": 1
     }
   ],
-  "fitment_built": "2026-08-22T06:23:47Z"
+  "fitment_built": "2026-08-22T06:41:09Z"
 }
