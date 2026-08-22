@@ -1,7 +1,7 @@
 {
-  "updated": "2026-08-22T01:00:52Z",
+  "updated": "2026-08-22T02:01:14Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 295,
+  "count": 301,
   "items": [
     {
       "id": "S4IZBA4AG65C6HI2ZDIRMSJR",
@@ -29803,6 +29803,48 @@
       "vehicles": []
     },
     {
+      "id": "EJ4RJNXDQ53RQJB363MPICNE",
+      "name": "CR 8724 Oil Seal NOS",
+      "price": 11.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/86bbfb396b093132fb046421450b2bb7f2348363/original.jpeg",
+      "url": "https://square.link/u/EVKMLfgV",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "ZJ3H7LGQTQFFOC2DIOKZZB4E",
+      "stock": 1,
+      "part_numbers": [
+        "8724"
+      ],
+      "interchange": [
+        "CR-8724"
+      ],
+      "vehicles": [],
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398313014378",
+      "ebay_type": "Oil Seal",
+      "ebay_brand": "CR",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Exterior Parts & Accessories:Doors, Trunk Lids & Hatches:Liftgates",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "8724"
+        ],
+        "interchange": [
+          "CR-8724"
+        ],
+        "vehicles": [],
+        "vehicle_labels": [],
+        "raw_compat_rows": 0,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398313014378",
+        "type": "Oil Seal",
+        "brand": "CR",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Exterior Parts & Accessories:Doors, Trunk Lids & Hatches:Liftgates"
+      }
+    },
+    {
       "id": "RDNZ6GYL22VCWLBJTIPXBNUO",
       "name": "Four Seasons 74691 Heater Valve NOS 76-90 Buick Olds Pontiac Chevy GM",
       "price": 39.99,
@@ -29904,6 +29946,556 @@
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Interior Parts & Accessories:Seats, Parts & Accessories:Seat Belt Shoulder Pads",
       "stock": 1,
       "interchange": []
+    },
+    {
+      "id": "RQOB32J32LNRAO7HLKGHQ3ZQ",
+      "name": "Gates 131094 Engine Oil Filler Cap NOS",
+      "price": 14.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/3007c029c8b1ffde141547881346cd56c657b974/original.jpeg",
+      "url": "https://square.link/u/ajK8TEmT",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "NNAK7G5ONZXW4Z2D4UKR55E7",
+      "stock": 0,
+      "part_numbers": [
+        "131094"
+      ],
+      "interchange": [],
+      "vehicles": [],
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398313014879",
+      "ebay_type": "Engine Oil Filler Cap",
+      "ebay_brand": "Gates",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Drain Plugs, Filler Caps & Dipsticks",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "medium",
+      "fitment": {
+        "part_numbers": [
+          "131094"
+        ],
+        "interchange": [],
+        "vehicles": [],
+        "vehicle_labels": [],
+        "raw_compat_rows": 0,
+        "source": "ebay_listing",
+        "confidence": "medium",
+        "ebay_item_id": "398313014879",
+        "type": "Engine Oil Filler Cap",
+        "brand": "Gates",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Drain Plugs, Filler Caps & Dipsticks"
+      }
+    },
+    {
+      "id": "WRUCYIZJHECU52ZNOMV2ME5O",
+      "name": "Gates 31103 Engine Oil Filler Cap 2002-2017 Ford F-150 Silverado NOS",
+      "price": 9.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/28fdc8ccae1070aae632f90eb2017c588d1ed00a/original.jpeg",
+      "url": "https://square.link/u/Fjvgb4UV",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "KYUYXUG2MAGTJ4BKQO7EXQFE",
+      "stock": 1,
+      "part_numbers": [
+        "31103"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1985\u20132005 Buick Century",
+        "1986\u20131990 Buick Electra",
+        "1999 Chevrolet Silverado",
+        "2002\u20132017 Ford F-150",
+        "1968\u20131985 Ford Mustang",
+        "1985\u20131996 Oldsmobile Cutlass Ciera"
+      ],
+      "vehicle_count_raw": 1503,
+      "ebay_item_id": "398313004713",
+      "ebay_type": "Engine Oil Filler Cap",
+      "ebay_brand": "Gates",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Drain Plugs, Filler Caps & Dipsticks",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "31103"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1985,
+            "year_to": 2005,
+            "make": "Buick",
+            "model": "Century",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1986,
+            "year_to": 1990,
+            "make": "Buick",
+            "model": "Electra",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1999,
+            "year_to": 1999,
+            "make": "Chevrolet",
+            "model": "Silverado",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2002,
+            "year_to": 2017,
+            "make": "Ford",
+            "model": "F-150",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1968,
+            "year_to": 1985,
+            "make": "Ford",
+            "model": "Mustang",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1996,
+            "make": "Oldsmobile",
+            "model": "Cutlass Ciera",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1985\u20132005 Buick Century",
+          "1986\u20131990 Buick Electra",
+          "1999 Chevrolet Silverado",
+          "2002\u20132017 Ford F-150",
+          "1968\u20131985 Ford Mustang",
+          "1985\u20131996 Oldsmobile Cutlass Ciera"
+        ],
+        "raw_compat_rows": 1503,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398313004713",
+        "type": "Engine Oil Filler Cap",
+        "brand": "Gates",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Drain Plugs, Filler Caps & Dipsticks"
+      }
+    },
+    {
+      "id": "DF5ODDBYK75OALIVCHKN5RY4",
+      "name": "Gates 31109 Engine Oil Filler Cap 1985-2008 Ford F-150 Mustang NOS",
+      "price": 9.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/a64c95d048b880640dae08c8945a0ef5bb3ec2c4/original.jpeg",
+      "url": "https://square.link/u/5M4BaW34",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "LMCXHA4OZIR6GA3N6R4JZSLN",
+      "stock": 1,
+      "part_numbers": [
+        "31109"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1985\u20132008 Ford F-150",
+        "1999\u20132008 Ford F-250 Super Duty",
+        "2007\u20132014 Ford Mustang",
+        "1998\u20132002 Honda Accord",
+        "1986\u20132002 Honda Civic"
+      ],
+      "vehicle_count_raw": 1356,
+      "ebay_item_id": "398313010453",
+      "ebay_type": "Engine Oil Filler Cap",
+      "ebay_brand": "Gates",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Drain Plugs, Filler Caps & Dipsticks",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "31109"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1985,
+            "year_to": 2008,
+            "make": "Ford",
+            "model": "F-150",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1999,
+            "year_to": 2008,
+            "make": "Ford",
+            "model": "F-250 Super Duty",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2007,
+            "year_to": 2014,
+            "make": "Ford",
+            "model": "Mustang",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1998,
+            "year_to": 2002,
+            "make": "Honda",
+            "model": "Accord",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1986,
+            "year_to": 2002,
+            "make": "Honda",
+            "model": "Civic",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1985\u20132008 Ford F-150",
+          "1999\u20132008 Ford F-250 Super Duty",
+          "2007\u20132014 Ford Mustang",
+          "1998\u20132002 Honda Accord",
+          "1986\u20132002 Honda Civic"
+        ],
+        "raw_compat_rows": 1356,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398313010453",
+        "type": "Engine Oil Filler Cap",
+        "brand": "Gates",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Drain Plugs, Filler Caps & Dipsticks"
+      }
+    },
+    {
+      "id": "CTDEXJR2NW4GA3T25WXQ5KZD",
+      "name": "Gates 31527 Radiator Cap NOS 12-16 PSI",
+      "price": 9.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/44439c28bcf45b7838f9a7ef98954e2c43253e9b/original.jpeg",
+      "url": "https://square.link/u/IwdjAUoD",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "6JVVSY7R4JLZH6XGBX5U7YPC",
+      "stock": 1,
+      "part_numbers": [
+        "31527"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1949\u20131951 Cadillac Series 75 Fleetwood",
+        "1970 Ford Cortina",
+        "1975 Ford Elite",
+        "1961 Jeep FJ3A",
+        "1975 Mazda Rotary Pickup",
+        "1963 Mercury Villager",
+        "1955\u20131956 Nash Statesman",
+        "1965\u20131966 Plymouth Fury",
+        "1970 Subaru 360",
+        "1971\u20131973 VAM Javelin"
+      ],
+      "vehicle_count_raw": 107,
+      "ebay_item_id": "398313016402",
+      "ebay_type": "Radiator Cap",
+      "ebay_brand": "Gates",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Caps",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "31527"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1949,
+            "year_to": 1951,
+            "make": "Cadillac",
+            "model": "Series 75 Fleetwood",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1970,
+            "year_to": 1970,
+            "make": "Ford",
+            "model": "Cortina",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1975,
+            "year_to": 1975,
+            "make": "Ford",
+            "model": "Elite",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1961,
+            "year_to": 1961,
+            "make": "Jeep",
+            "model": "FJ3A",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1975,
+            "year_to": 1975,
+            "make": "Mazda",
+            "model": "Rotary Pickup",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1963,
+            "year_to": 1963,
+            "make": "Mercury",
+            "model": "Villager",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1955,
+            "year_to": 1956,
+            "make": "Nash",
+            "model": "Statesman",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1965,
+            "year_to": 1966,
+            "make": "Plymouth",
+            "model": "Fury",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1970,
+            "year_to": 1970,
+            "make": "Subaru",
+            "model": "360",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1971,
+            "year_to": 1973,
+            "make": "VAM",
+            "model": "Javelin",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1949\u20131951 Cadillac Series 75 Fleetwood",
+          "1970 Ford Cortina",
+          "1975 Ford Elite",
+          "1961 Jeep FJ3A",
+          "1975 Mazda Rotary Pickup",
+          "1963 Mercury Villager",
+          "1955\u20131956 Nash Statesman",
+          "1965\u20131966 Plymouth Fury",
+          "1970 Subaru 360",
+          "1971\u20131973 VAM Javelin"
+        ],
+        "raw_compat_rows": 107,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398313016402",
+        "type": "Radiator Cap",
+        "brand": "Gates",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Caps"
+      }
+    },
+    {
+      "id": "OCD7BRTIV5ZPOAHYO234ILJF",
+      "name": "Gates 31748 Fuel Cap 1999-2008 Ford F-250 F-350 Jeep Cherokee NOS",
+      "price": 14.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/dbdd8641f2917abfe7d52e4723cfe3d66fe3ecb4/original.jpeg",
+      "url": "https://square.link/u/8fC3W1Oy",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "Y2BEF4JDLGFZFRZEQU7VQJOM",
+      "stock": 1,
+      "part_numbers": [
+        "31748"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1994\u20131999 Dodge Ram 2500",
+        "1999\u20132008 Ford F-250",
+        "1999\u20132008 Ford F-350",
+        "2007\u20132014 GMC Sierra",
+        "1987\u20131999 Jeep Cherokee",
+        "1993\u20132000 Jeep Grand Cherokee",
+        "1997\u20132000 Jeep Wrangler",
+        "1989\u20132000 Nissan Maxima"
+      ],
+      "vehicle_count_raw": 443,
+      "ebay_item_id": "398313022903",
+      "ebay_type": "Fuel Cap",
+      "ebay_brand": "Gates",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Fuel Tanks & Filler Necks",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "31748"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1994,
+            "year_to": 1999,
+            "make": "Dodge",
+            "model": "Ram 2500",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1999,
+            "year_to": 2008,
+            "make": "Ford",
+            "model": "F-250",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1999,
+            "year_to": 2008,
+            "make": "Ford",
+            "model": "F-350",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2007,
+            "year_to": 2014,
+            "make": "GMC",
+            "model": "Sierra",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1999,
+            "make": "Jeep",
+            "model": "Cherokee",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1993,
+            "year_to": 2000,
+            "make": "Jeep",
+            "model": "Grand Cherokee",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1997,
+            "year_to": 2000,
+            "make": "Jeep",
+            "model": "Wrangler",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1989,
+            "year_to": 2000,
+            "make": "Nissan",
+            "model": "Maxima",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1994\u20131999 Dodge Ram 2500",
+          "1999\u20132008 Ford F-250",
+          "1999\u20132008 Ford F-350",
+          "2007\u20132014 GMC Sierra",
+          "1987\u20131999 Jeep Cherokee",
+          "1993\u20132000 Jeep Grand Cherokee",
+          "1997\u20132000 Jeep Wrangler",
+          "1989\u20132000 Nissan Maxima"
+        ],
+        "raw_compat_rows": 443,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398313022903",
+        "type": "Fuel Cap",
+        "brand": "Gates",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Fuel Tanks & Filler Necks"
+      }
     },
     {
       "id": "BYO4CA2ORO6PIIHKJ6BAJ7Z5",
@@ -35135,5 +35727,5 @@
       "stock": 1
     }
   ],
-  "fitment_built": "2026-08-22T01:00:52Z"
+  "fitment_built": "2026-08-22T02:01:14Z"
 }
