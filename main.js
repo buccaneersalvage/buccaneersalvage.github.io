@@ -723,7 +723,7 @@
       escalate: false,
       keys: ["cash app", "cashapp", "paypal", "venmo", "how to pay", "how do i pay", "checkout"],
       html:
-        "Site checkout is Square. Cash App $jollyroger1480 is for arranged local deals only.",
+        "We do not take PayPal. Site checkout is Square. Cash App $jollyroger1480 is for arranged local deals only.",
     },
     {
       id: "contact",

@@ -48,6 +48,7 @@ CASES = [
     ("item arrived damaged", "damage", True),
     ("asdf qwerty", "other", True),
     ("how do I pay", "pay", False),
+    ("do you take paypal", "pay", False),
     ("do you sell open box", "other", True),
     ("are you open today", "hours", False),
 ]
@@ -74,6 +75,7 @@ def main() -> int:
         "pick it up",
         "are you open",
         "will this fit",
+        "We do not take PayPal",
     ):
         ok = needle in src
         print(("PASS" if ok else "FAIL") + f"  main.js contains {needle!r}")
