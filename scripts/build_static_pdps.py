@@ -1057,7 +1057,7 @@ def main() -> None:
   <meta name="twitter:image" content="{esc(img)}" />
   <link rel="icon" type="image/jpeg" href="../assets/crest-rustjack-web.jpg" />
   <link rel="stylesheet" href="../assets/fonts.css?v=d1b92d3ff4" integrity="sha384-IDnmxIHyfCaSAssmrqXZbMSqgbRm8AATad26bBSjsyTVbgLbsvJXqeQW642rJQFS" />
-  <link rel="stylesheet" href="../styles.css?v=6f36612079" integrity="sha384-Wb5x0nSYvieKSboT6tZ65dd4g3tuhV44uC0RyV7gTV+IYJxtNGurqHDOc7J8XZ/F" />
+  <link rel="stylesheet" href="../styles.css?v=9da7a4498a" integrity="sha384-giGQkbebmc9qSFAf1dHEl/EdrtVn+9Lm994Od5196azaJhoX542H+Z3MWtVNJhEU" />
   <script type="application/ld+json">{schema_json}</script>
   <script type="application/ld+json">{crumbs_json}</script>
   <script src="../pdp-gallery.js?v=a1f0a7f319" integrity="sha384-eq9QZo4xOjZPZpM85hHroYPtpiHY0Q/b2Cumajd+dtSdK9N86QsyI70Fj3kjSGUV" defer></script>
