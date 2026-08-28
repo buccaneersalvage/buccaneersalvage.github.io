@@ -3,17 +3,71 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <title>Rustjack Systems — eBay Listing Tools &amp; Automation Services</title>
-  <meta name="description" content="AI-powered eBay listing services: template building, fitment research, bulk automation, full account management via OAuth, SEO rewrites. Auto parts, vintage, electronics, collectibles, anything. Square payments accepted.">
+  <title>eBay Listing Services — Fitment Research, Templates &amp; Store Automation | Rustjack Systems</title>
+  <meta name="description" content="eBay listing services ($49-79/listing), store audits and fixes, monthly management, and $600 landing pages. Fitment research from real catalogs, live eBay buyer search-query data. Square payments.">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' data: https://fonts.gstatic.com; img-src 'self' data: https://i.ebayimg.com https://i.ibb.co; connect-src 'none'; object-src 'none'; base-uri 'self'; form-action 'none'; frame-src 'none';" />
   <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
+  <link rel="canonical" href="https://buccaneersalvage.github.io/services.html">
 
   <meta property="og:type" content="website">
-  <meta property="og:title" content="Rustjack Systems — eBay Listing Tools &amp; Automation">
-  <meta property="og:description" content="AI-assisted eBay listing services. Fitment research, template generation, bulk automation, full account management via OAuth. Any category. Square payments accepted.">
+  <meta property="og:site_name" content="BuccaneerSalvage">
+  <meta property="og:title" content="eBay Listing Services — Fitment Research, Templates &amp; Store Automation">
+  <meta property="og:description" content="Done-for-you eBay listings from $49. Catalog-verified fitment, titles built from live eBay buyer search queries, OAuth store fixes, $600 landing pages. Square payments.">
   <meta property="og:url" content="https://buccaneersalvage.github.io/services.html">
+  <meta property="og:image" content="https://buccaneersalvage.github.io/assets/og-share.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
   <meta property="og:locale" content="en_US">
 
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="eBay Listing Services — Rustjack Systems">
+  <meta name="twitter:description" content="Done-for-you eBay listings from $49. Catalog-verified fitment, titles built from live eBay buyer search queries, OAuth store fixes.">
+  <meta name="twitter:image" content="https://buccaneersalvage.github.io/assets/og-share.jpg">
+
   <link rel="icon" type="image/jpeg" href="assets/crest-rustjack-web.jpg">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "serviceType": "eBay listing creation and store management",
+    "name": "Rustjack Systems — eBay Listing Services",
+    "url": "https://buccaneersalvage.github.io/services.html",
+    "description": "Done-for-you eBay listings with catalog-verified fitment research, buyer-search-driven titles, branded mobile-safe HTML descriptions, item specifics population, bulk listing pipelines, and OAuth account management. Any product category.",
+    "provider": {
+      "@type": "LocalBusiness",
+      "name": "BuccaneerSalvage",
+      "url": "https://buccaneersalvage.github.io/",
+      "telephone": "+1-570-468-2901",
+      "email": "jollyroger1480@gmail.com",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Carbondale",
+        "addressRegion": "PA",
+        "postalCode": "18407",
+        "addressCountry": "US"
+      }
+    },
+    "areaServed": { "@type": "Country", "name": "United States" },
+    "termsOfService": "https://buccaneersalvage.github.io/terms-service.html",
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Rustjack Systems service tiers",
+      "itemListElement": [
+        { "@type": "Offer", "name": "One Listing, Done For You", "price": "79.00", "priceCurrency": "USD", "description": "Complete ready-to-publish eBay listing for one product: research-backed title, branded HTML description, fitment table, item specifics. Volume breaks at 5+ ($59) and 10+ ($49)." },
+        { "@type": "Offer", "name": "Fix My Existing Listings", "price": "99.00", "priceCurrency": "USD", "description": "Store-wide audit plus per-listing fixes at $15 each via OAuth. No fix, no charge." },
+        { "@type": "Offer", "name": "Ongoing Seller Partner", "price": "249.00", "priceCurrency": "USD", "description": "Monthly retainer: up to 30 new listings plus unlimited fixes and relists." },
+        { "@type": "Offer", "name": "Website / Landing Page", "price": "600.00", "priceCurrency": "USD", "description": "One-page storefront or landing site, mobile-responsive, deployed live." }
+      ]
+    },
+    "paymentAccepted": "Credit card via Square",
+    "sameAs": [
+      "https://www.ebay.com/str/buccaneersalvage",
+      "https://www.youtube.com/@BuccaneerSalvage",
+      "https://x.com/jollyroger1480"
+    ]
+  }
+  </script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=IBM+Plex+Mono:wght@400;500&family=Lora:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
@@ -568,6 +622,7 @@
     .price-card.popular {
       border-color: var(--gold);
       box-shadow: 0 0 40px rgba(197,160,40,0.15), 0 0 0 1px rgba(197,160,40,0.3);
+      overflow: visible;
     }
     .price-card.popular::before {
       content: 'Most Popular';
@@ -617,11 +672,22 @@
       text-align: left;
     }
     .price-feature {
-      display: flex;
-      align-items: center;
-      gap: 0.5rem;
+      position: relative;
+      padding-left: 1.25rem;
       font-size: var(--text-sm);
       color: var(--parchment-dim);
+      text-align: left;
+      /* NOT display:flex — a flex li containing "text <strong>text</strong> text"
+         fragments the inline runs into separate anonymous flex items, rendering
+         each phrase as columns. Absolute-positioned ::before avoids that. */
+    }
+    .price-feature::before {
+      content: '✓';
+      position: absolute;
+      left: 0;
+      top: 0;
+      color: var(--gold);
+      font-weight: 700;
     }
     .price-feature::before {
       content: '✓';
@@ -843,7 +909,21 @@
             <div class="template-content">
               <!-- Actual v3 template preview -->
               <div class="template-preview">
-                <img src="https://i.ibb.co/8XzD2Ky/preview-tn.jpg" alt="eBay template preview" loading="lazy" onerror="this.parentElement.innerHTML='<div style=\'background:#f9f4e8;padding:3rem;text-align:center;color:#2C1810;font-family:Georgia,serif;\'><h3 style=\'color:#8B0000;margin-bottom:1rem;\'>☠️ Key Facts</h3><p style=\'margin-bottom:0.8rem;\'>Premium spin-on fuel filter.<br>• 6-micron cellulose media<br>• 1983-1988 Ford F-250<br><br><strong style=\'color:#8B0000;\'>⚓ Compatibility</strong><br>• Ford F-250 1983-1988<br><br><strong style=\'color:#2C1810;\'>1× FMS F638 filter</strong></p></div>'" >
+                <div style="background:#f9f4e8;padding:1.2rem;font-family:Verdana,Arial,sans-serif;font-size:11px;color:#2C1810;line-height:1.6;">
+                  <div style="background:linear-gradient(160deg,#0a0a0a 60%,#1f0303 100%);padding:8px;text-align:center;border-bottom:3px solid #C5A028;">
+                    <div style="color:#C5A028;font-family:Georgia,serif;font-size:14px;font-weight:bold;">YOUR BRAND HERE</div>
+                    <div style="color:#b8941f;font-size:8px;font-style:italic;margin-top:2px;">Your tagline · Your colors</div>
+                  </div>
+                  <div style="padding:10px 8px;border-left:3px solid #8B0000;border-right:3px solid #8B0000;">
+                    <p style="margin:0 0 8px;">NOS fuel filter — unused shelf stock.</p>
+                    <h3 style="font-family:Georgia,serif;color:#8B0000;font-size:12px;margin:0 0 5px;border-bottom:1px solid #C5A028;padding-bottom:3px;">☠️ Key Facts</h3>
+                    <ul style="margin:0 0 8px 14px;"><li>6-micron cellulose media</li><li>Spin-on thread, gasket included</li></ul>
+                    <h3 style="font-family:Georgia,serif;color:#8B0000;font-size:12px;margin:0 0 5px;border-bottom:1px solid #C5A028;padding-bottom:3px;">⚓ Compatibility</h3>
+                    <ul style="margin:0 0 8px 14px;"><li>1983–1988 Ford F-250</li><li>1983–1988 Ford F-350</li></ul>
+                    <h3 style="font-family:Georgia,serif;color:#8B0000;font-size:12px;margin:0 0 5px;border-bottom:1px solid #C5A028;padding-bottom:3px;">⚓ What You Receive</h3>
+                    <p style="margin:0 0 8px;">1× FMS F638 filter in original packaging.</p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -872,11 +952,11 @@
             <p class="card-eyebrow">01 — Research &amp; Data</p>
             <h3 class="card-title">Verified product data, any category</h3>
             <p class="card-body">
-              For auto parts: FleetFilter exact-PN, RockAuto CLI, PartShawk. For everything else: official brand catalogs, manufacturer spec sheets, and curated cross-reference databases. No Google scraping, no invented specs.
+              Sourced from official manufacturer catalogs, distributor fitment databases, and spec sheets. No scraped junk, no invented specs, no guessed cross-references.
             </p>
             <ul class="card-features">
-              <li class="card-feature">Vehicle fitment from FleetFilter, official distributor catalogs</li>
-              <li class="card-feature">Terapeak Search Terms pull — titles built from real buyer queries, not guesswork</li>
+              <li class="card-feature">Vehicle fitment verified against official manufacturer catalogs</li>
+              <li class="card-feature">Live eBay search-query suggestions — titles built from what buyers actually type</li>
               <li class="card-feature">Interchange / cross-reference verification per MPN</li>
               <li class="card-feature">Engine displacement + fuel type when catalog flags it</li>
               <li class="card-feature">Dimensions, weight, materials from manufacturer spec sheets</li>
@@ -956,37 +1036,42 @@
       <div class="shell">
         <div class="section-head reveal">
           <p class="section-eyebrow">Pricing</p>
-          <h2 class="section-title">Priced like a working seller, not a SaaS trap</h2>
+          <h2 class="section-title">What you get, in plain terms</h2>
           <p class="section-aside">
-            Pay per project or per month. Credit cards accepted via Square. No monthly fees for one-off work. Recurring clients get the retainer.
+            Every option below is a <strong class="text-gold">finished, ready-to-publish eBay listing</strong> — not a tool, not a course, not a template you have to fill in yourself. You send product info and photos; I send back the complete listing. Credit cards via Square.
+          </p>
+          <p class="section-aside" style="margin-top:var(--space-3);">
+            <strong>One listing = one product</strong> (one part number, one SKU). Have 40 products? That's the bulk option below.
           </p>
         </div>
 
         <div class="pricing-grid">
           <div class="price-card reveal">
-            <p class="price-label">Per-Listing Build</p>
-            <p class="price-amount">$79<span>/listing</span></p>
-            <p class="price-per">research + v3 HTML + preflight pass</p>
+            <p class="price-label">One Listing, Done For You</p>
+            <p class="price-amount">$79<span>per product</span></p>
+            <p class="price-per">5+ products: $59 each · 10+: $49 each</p>
             <ul class="price-features">
-              <li class="price-feature">Catalog fitment / spec research</li>
-              <li class="price-feature">SEO title built from Terapeak buyer search terms</li>
-              <li class="price-feature">Full v3 HTML template</li>
-              <li class="price-feature">Interchange / cross-reference table</li>
-              <li class="price-feature">Item specifics all populated</li>
-              <li class="price-feature">Draft delivered ready for your review</li>
+              <li class="price-feature">Search-ranked <strong>title</strong> from real buyer queries</li>
+              <li class="price-feature"><strong>Branded HTML description</strong>, mobile-safe</li>
+              <li class="price-feature"><strong>Fitment table</strong> from official catalogs</li>
+              <li class="price-feature"><strong>All fields filled</strong> — PNs, cross-refs, specs</li>
+              <li class="price-feature"><strong>You approve</strong> before it goes live · 24h</li>
             </ul>
-            <a href="mailto:jollyroger1480@gmail.com?subject=Per-Listing%20Build%20Inquiry" class="btn btn-outline" style="width:100%;justify-content:center;">Start a build</a>
+            <p style="font-size:var(--text-xs);color:var(--parchment-dim);margin:0 0 var(--space-4);text-align:left;line-height:1.6;">
+              You send photos + what you know. You get a copy-paste-ready listing, or it's pushed live to your account. The cheap $10 gigs make <em>you</em> write the description and find the fitment — that's the part you're paying me for.
+            </p>
+            <a href="mailto:jollyroger1480@gmail.com?subject=One-Listing%20Build%20Inquiry" class="btn btn-outline" style="width:100%;justify-content:center;">Start a build</a>
           </div>
 
           <div class="price-card popular reveal reveal-delay-1">
-            <p class="price-label">Account Audit + Fix</p>
+            <p class="price-label">Fix My Existing Listings</p>
             <p class="price-amount">$99<span>+ $15/listing</span></p>
-            <p class="price-per">OAuth in, I fix everything in one pass</p>
+            <p class="price-per">I audit your whole store, then fix what's broken — you pay per fix, not per try</p>
             <ul class="price-features">
               <li class="price-feature">Read+write OAuth to your eBay account</li>
               <li class="price-feature">Audit every live listing for preflight fails</li>
               <li class="price-feature">$15 per listing fixed (no fix, no charge)</li>
-              <li class="price-feature">Missing specifics, compat, photos, titles all addressed</li>
+              <li class="price-feature">Specifics, compat, photos, titles — all covered</li>
               <li class="price-feature">GetItem verification on every change</li>
               <li class="price-feature">Audit report + listing IDs + thumbnails</li>
             </ul>
@@ -994,9 +1079,9 @@
           </div>
 
           <div class="price-card reveal reveal-delay-2">
-            <p class="price-label">Monthly Retainer</p>
+            <p class="price-label">Ongoing Seller Partner</p>
             <p class="price-amount">$249<span>/month</span></p>
-            <p class="price-per">OAuth access, ongoing management, up to 30 listings</p>
+            <p class="price-per">like having a listing employee — up to 30 new listings/month + unlimited fixes</p>
             <ul class="price-features">
               <li class="price-feature">Persistent OAuth + audit log</li>
               <li class="price-feature">New listings (up to 30/month included)</li>
@@ -1006,6 +1091,33 @@
               <li class="price-feature">Best for sellers with ongoing pipeline</li>
             </ul>
             <a href="mailto:jollyroger1480@gmail.com?subject=Monthly%20Retainer%20Inquiry" class="btn btn-outline" style="width:100%;justify-content:center;">Start retainer</a>
+          </div>
+
+          <div class="price-card reveal">
+            <p class="price-label">Website / Landing Page</p>
+            <p class="price-amount">$600<span>per page</span></p>
+            <p class="price-per">one-page storefront or landing site — pick from the <a href="templates.html" style="color:var(--gold);">demo designs</a>, adapted to your brand</p>
+            <ul class="price-features">
+              <li class="price-feature">Mobile-responsive, fast (Lighthouse 95+)</li>
+              <li class="price-feature">Your logo, colors, and copy — or I write it</li>
+              <li class="price-feature">Buy-now flow linking to your eBay store</li>
+              <li class="price-feature">Deployed live, yours to keep</li>
+            </ul>
+            <p style="font-size:var(--text-xs);color:var(--parchment-dim);margin:0 0 var(--space-4);text-align:left;line-height:1.6;">
+              Freelance landing pages run $500–1,500 — this is the low end, with the design already built.
+            </p>
+            <a href="mailto:jollyroger1480@gmail.com?subject=Website%20Inquiry" class="btn btn-outline" style="width:100%;justify-content:center;">Build my page</a>
+          </div>
+        </div>
+
+        <!-- Market comparison -->
+        <div class="mt-8 reveal" style="background:rgba(197,160,40,0.05);border:1px solid var(--glass-edge);border-radius:var(--radius);padding:var(--space-6);">
+          <p class="card-eyebrow" style="margin-bottom:var(--space-3)">How this compares (2026 market)</p>
+          <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:var(--space-4);font-size:var(--text-sm);color:var(--parchment-dim);line-height:1.6;">
+            <div><strong style="color:var(--parchment);">$7–25/listing</strong><br>Budget gigs: you write the description and research fitment yourself — they type it in.</div>
+            <div><strong style="color:var(--parchment);">$10–20/hr</strong><br>General VAs: no catalog sources, no preflight, no accountability for accuracy.</div>
+            <div><strong style="color:var(--parchment);">$150+</strong><br>Buying research, SEO title, and branded HTML separately as gig add-ons.</div>
+            <div><strong style="color:var(--parchment);">$600 one-page site</strong><br>Freelance landing pages run $500–1,500; mine include a full demo gallery to pick from.</div>
           </div>
         </div>
 
@@ -1101,7 +1213,7 @@
           <article class="card reveal reveal-delay-1">
             <div style="font-family:var(--mono);font-size:3rem;font-weight:700;color:rgba(197,160,40,0.15);line-height:1;margin-bottom:var(--space-4);">02</div>
             <h3 class="card-title">Research runs</h3>
-            <p class="card-body">For auto parts: FleetFilter, RockAuto, PartShawk. For everything else: official brand catalogs, manufacturer spec sheets, curated cross-reference databases. Provenance graded, no invented data.</p>
+            <p class="card-body">For auto parts: official manufacturer catalogs and distributor fitment databases. For everything else: brand spec sheets and curated cross-reference sources. Provenance graded, no invented data.</p>
           </article>
           <article class="card reveal reveal-delay-2">
             <div style="font-family:var(--mono);font-size:3rem;font-weight:700;color:rgba(197,160,40,0.15);line-height:1;margin-bottom:var(--space-4);">03</div>
