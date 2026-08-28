@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Terms of Service — Rustjack Systems | BuccaneerSalvage</title>
+  <meta name="description" content="Terms of service for Rustjack Systems eBay listing, template, and design services. No sales guarantees, no liability for third-party data, work-as-is. Pennsylvania law applies.">
+  <meta name="robots" content="index, follow">
+
+  <link rel="icon" type="image/jpeg" href="assets/crest-rustjack-web.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=IBM+Plex+Mono:wght@400;500&family=Lora:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --void: #050403;
+      --void-2: #0d0b08;
+      --void-3: #131009;
+      --glass: rgba(255, 241, 184, 0.04);
+      --glass-edge: rgba(197, 160, 40, 0.18);
+      --gold: #C5A028;
+      --gold-bright: #e8c040;
+      --gold-dim: #8a6e1a;
+      --blood: #8B0000;
+      --blood-bright: #c0392b;
+      --parchment: #f9f4e8;
+      --parchment-dim: #c8bfa8;
+      --ink: #2C1810;
+      --mono: 'IBM Plex Mono', monospace;
+      --body: 'Outfit', system-ui, sans-serif;
+      --serif: 'Lora', Georgia, serif;
+      --ease: cubic-bezier(0.22, 1, 0.36, 1);
+      --space-4: 1rem;
+      --space-5: 1.5rem;
+      --space-6: 2rem;
+      --space-7: 3rem;
+      --space-8: 4.5rem;
+      --space-9: 7rem;
+      --gutter: clamp(1.1rem, 4vw, 2.5rem);
+      --max: 920px;
+      --radius: 18px;
+      --text-base: clamp(0.95rem, 0.88rem + 0.35vw, 1.08rem);
+      --text-sm: clamp(0.82rem, 0.78rem + 0.2vw, 0.95rem);
+      --text-lg: clamp(1.1rem, 1rem + 0.5vw, 1.35rem);
+      --text-xl: clamp(1.4rem, 1.15rem + 1.1vw, 2.1rem);
+      --text-2xl: clamp(1.9rem, 1.35rem + 2.2vw, 3rem);
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; text-rendering: optimizeLegibility; }
+    body {
+      font-family: var(--body);
+      font-size: var(--text-base);
+      font-weight: 400;
+      line-height: 1.7;
+      color: var(--parchment);
+      background: var(--void);
+      min-height: 100dvh;
+      overflow-x: hidden;
+      -webkit-font-smoothing: antialiased;
+    }
+    img, svg { display: block; max-width: 100%; height: auto; }
+    a { color: var(--gold); text-decoration: none; transition: color 0.2s; }
+    a:hover { color: var(--gold-bright); }
+    ul { list-style: none; }
+    :focus-visible { outline: 2px solid var(--gold-bright); outline-offset: 3px; }
+
+    .grain {
+      pointer-events: none; position: fixed; inset: 0; z-index: 90;
+      opacity: 0.038; mix-blend-mode: overlay;
+      background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+      background-size: 180px;
+    }
+    .orb {
+      pointer-events: none; position: fixed; border-radius: 50%; z-index: 0; contain: strict;
+    }
+    .orb-g { width: min(60vw, 580px); height: min(60vw, 580px); top: -12%; left: 50%; transform: translateX(-50%);
+      background: radial-gradient(circle, rgba(197, 160, 40, 0.4) 0%, transparent 68%);
+      filter: blur(80px); opacity: 0.5; }
+
+    .shell { position: relative; z-index: 1; width: min(var(--max), calc(100% - var(--gutter) * 2)); margin-inline: auto; }
+
+    .nav {
+      position: sticky; top: 0; z-index: 50;
+      background: linear-gradient(180deg, rgba(5,4,3,0.97) 0%, rgba(5,4,3,0.85) 60%, transparent 100%);
+      border-bottom: 1px solid transparent;
+      backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px);
+    }
+    .nav.is-solid {
+      border-bottom-color: var(--glass-edge);
+      background: linear-gradient(180deg, rgba(5,4,3,0.96) 0%, rgba(5,4,3,0.82) 70%, transparent 100%);
+      box-shadow: inset 0 1px 0 rgba(197,160,40,0.12), 0 8px 32px rgba(0,0,0,0.5);
+    }
+    .nav-inner { display: flex; align-items: center; justify-content: space-between; gap: var(--space-4); padding: 0.9rem 0; }
+    .nav-brand { display: inline-flex; align-items: center; gap: 0.6rem; }
+    .nav-brand img { width: 34px; height: 34px; border-radius: 4px; border: 1px solid var(--gold-dim); }
+    .nav-brand span { font-weight: 600; font-size: var(--text-sm); letter-spacing: 0.06em; text-transform: uppercase; color: var(--gold); }
+    .nav-links { display: none; align-items: center; gap: var(--space-5); }
+    @media (min-width: 768px) { .nav-links { display: flex; } }
+    .nav-links a { font-size: var(--text-sm); font-weight: 500; color: var(--parchment-dim); transition: color 0.2s; }
+    .nav-links a:hover, .nav-links a.active { color: var(--gold-bright); }
+    .nav-cta {
+      display: inline-flex; align-items: center; gap: 0.4rem;
+      padding: 0.45rem 1.1rem; background: var(--gold); color: var(--void);
+      font-weight: 700; font-size: var(--text-sm); letter-spacing: 0.04em;
+      border-radius: 6px; transition: background 0.2s, transform 0.15s;
+    }
+    .nav-cta:hover { background: var(--gold-bright); transform: translateY(-1px); }
+
+    main { padding: var(--space-7) 0 var(--space-8); }
+
+    .page-header { margin-bottom: var(--space-7); }
+    .page-eyebrow {
+      display: inline-flex; align-items: center; gap: 0.5rem;
+      font-family: var(--mono); font-size: var(--text-sm);
+      font-weight: 500; letter-spacing: 0.12em; text-transform: uppercase;
+      color: var(--gold); margin-bottom: var(--space-4);
+    }
+    .page-title {
+      font-size: var(--text-2xl); font-weight: 700;
+      line-height: 1.1; color: var(--parchment);
+      margin-bottom: var(--space-4);
+    }
+    .page-meta {
+      font-family: var(--mono); font-size: var(--text-sm);
+      color: var(--parchment-dim);
+      padding: var(--space-4) var(--space-5);
+      background: var(--glass);
+      border: 1px solid var(--glass-edge);
+      border-left: 4px solid var(--gold-dim);
+      border-radius: var(--radius);
+    }
+    .page-meta strong { color: var(--gold); font-weight: 500; }
+
+    .toc {
+      background: var(--void-2);
+      border: 1px solid var(--glass-edge);
+      border-radius: var(--radius);
+      padding: var(--space-5);
+      margin-bottom: var(--space-7);
+    }
+    .toc-title {
+      font-family: var(--mono); font-size: var(--text-sm);
+      font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase;
+      color: var(--gold); margin-bottom: var(--space-3);
+    }
+    .toc ol { counter-reset: toc; }
+    .toc li {
+      counter-increment: toc;
+      padding: 0.3rem 0;
+      font-size: var(--text-sm);
+      color: var(--parchment-dim);
+    }
+    .toc li::before {
+      content: counter(toc, decimal-leading-zero) ".";
+      color: var(--gold);
+      font-family: var(--mono);
+      margin-right: 0.6rem;
+      font-weight: 500;
+    }
+    .toc a { color: var(--parchment-dim); }
+    .toc a:hover { color: var(--gold-bright); }
+
+    section.terms-section {
+      padding: var(--space-5) 0;
+      border-top: 1px solid var(--glass-edge);
+    }
+    section.terms-section:first-of-type { border-top: 0; padding-top: 0; }
+    .section-heading {
+      display: flex; align-items: baseline; gap: 0.8rem;
+      margin-bottom: var(--space-3);
+    }
+    .section-num {
+      font-family: var(--mono); font-size: var(--text-sm);
+      font-weight: 600; letter-spacing: 0.05em;
+      color: var(--gold); opacity: 0.7;
+      flex-shrink: 0;
+      min-width: 2.4rem;
+    }
+    .section-title-text {
+      font-size: var(--text-xl); font-weight: 700;
+      color: var(--parchment);
+    }
+    .section-body p { margin-bottom: var(--space-4); }
+    .section-body p:last-child { margin-bottom: 0; }
+    .section-body strong { color: var(--parchment); font-weight: 600; }
+    .section-body ul {
+      list-style: none; margin: var(--space-3) 0;
+    }
+    .section-body ul li {
+      position: relative; padding-left: 1.5rem;
+      margin-bottom: 0.6rem;
+      color: var(--parchment-dim);
+    }
+    .section-body ul li::before {
+      content: '•'; position: absolute; left: 0.4rem;
+      color: var(--gold); font-weight: 700;
+    }
+    .section-body ol {
+      counter-reset: ol-counter;
+      margin: var(--space-3) 0;
+    }
+    .section-body ol li {
+      counter-increment: ol-counter;
+      position: relative; padding-left: 1.8rem;
+      margin-bottom: 0.6rem;
+      color: var(--parchment-dim);
+    }
+    .section-body ol li::before {
+      content: counter(ol-counter) ".";
+      position: absolute; left: 0;
+      color: var(--gold);
+      font-family: var(--mono);
+      font-weight: 500;
+    }
+    .callout {
+      background: var(--void-2);
+      border: 1px solid var(--glass-edge);
+      border-left: 4px solid var(--gold-dim);
+      border-radius: var(--radius);
+      padding: var(--space-4) var(--space-5);
+      margin: var(--space-4) 0;
+      font-size: var(--text-sm);
+    }
+    .callout strong { color: var(--gold); font-weight: 600; }
+
+    .back-link {
+      display: inline-flex; align-items: center; gap: 0.4rem;
+      font-size: var(--text-sm); color: var(--parchment-dim);
+      margin-top: var(--space-7);
+      padding: 0.5rem 1rem;
+      border: 1px solid var(--glass-edge);
+      border-radius: 6px;
+      transition: border-color 0.2s, color 0.2s;
+    }
+    .back-link:hover { border-color: var(--gold); color: var(--gold-bright); }
+
+    .footer {
+      border-top: 1px solid var(--glass-edge);
+      padding: var(--space-7) 0 var(--space-6);
+    }
+    .footer-inner {
+      display: flex; flex-wrap: wrap; align-items: center;
+      justify-content: space-between; gap: var(--space-4);
+    }
+    .footer-brand { display: flex; align-items: center; gap: 0.6rem; }
+    .footer-brand img { width: 28px; height: 28px; border-radius: 4px; border: 1px solid var(--gold-dim); }
+    .footer-brand-name { font-weight: 600; font-size: var(--text-sm); color: var(--gold); }
+    .footer-copy { font-size: var(--text-sm); color: var(--parchment-dim); opacity: 0.6; text-align: center; }
+    .footer-links { display: flex; gap: var(--space-4); }
+    .footer-links a { font-size: var(--text-sm); color: var(--parchment-dim); }
+    .footer-links a:hover { color: var(--gold); }
+  </style>
+</head>
+<body>
+  <div class="grain" aria-hidden="true"></div>
+  <div class="orb orb-g" aria-hidden="true"></div>
+
+  <header class="nav" id="nav" role="banner">
+    <div class="nav-inner shell">
+      <a class="nav-brand" href="index.html">
+        <img src="assets/crest-rustjack-web.jpg" width="34" height="34" alt="BuccaneerSalvage crest">
+        <span>BuccaneerSalvage</span>
+      </a>
+      <nav class="nav-links" aria-label="Primary">
+        <a href="index.html">Home</a>
+        <a href="store.html">Store</a>
+        <a href="services.html">Services</a>
+        <a href="templates.html">Templates</a>
+        <a href="terms-service.html" class="active">Terms</a>
+        <a href="scrap.html">Scrap</a>
+      </nav>
+      <a class="nav-cta" href="mailto:jollyroger1480@gmail.com?subject=Terms%20Question">
+        Ask
+        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </a>
+    </div>
+  </header>
+
+  <main>
+    <div class="shell">
+
+      <header class="page-header">
+        <p class="page-eyebrow">Rustjack Systems — Legal</p>
+        <h1 class="page-title">Terms of Service</h1>
+        <div class="page-meta">
+          <strong>Effective:</strong> 2026-08-28 &nbsp;·&nbsp; <strong>Provider:</strong> Cap'n Jules the Rustjack (BuccaneerSalvage, Carbondale PA 18407) &nbsp;·&nbsp; <strong>Governing law:</strong> Commonwealth of Pennsylvania
+        </div>
+      </header>
+
+      <nav class="toc" aria-label="Table of contents">
+        <p class="toc-title">On this page</p>
+        <ol>
+          <li><a href="#scope">Scope of services</a></li>
+          <li><a href="#no-guarantee">No guarantee of results</a></li>
+          <li><a href="#third-party">Third-party data and research</a></li>
+          <li><a href="#ebay-changes">eBay platform changes</a></li>
+          <li><a href="#client-responsibility">Client responsibility</a></li>
+          <li><a href="#oauth">OAuth account access</a></li>
+          <li><a href="#payment">Payment and refunds</a></li>
+          <li><a href="#ip">Intellectual property</a></li>
+          <li><a href="#liability">Limitation of liability</a></li>
+          <li><a href="#termination">Termination</a></li>
+          <li><a href="#disputes">Disputes and governing law</a></li>
+          <li><a href="#changes">Changes to these terms</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ol>
+      </nav>
+
+      <section class="terms-section" id="scope">
+        <div class="section-heading">
+          <span class="section-num">01</span>
+          <h2 class="section-title-text">Scope of services</h2>
+        </div>
+        <div class="section-body">
+          <p>
+            <strong>Rustjack Systems</strong> (a service mark of BuccaneerSalvage, operated by Cap'n Jules the Rustjack, Carbondale PA 18407) provides the following services to eBay sellers:
+          </p>
+          <ul>
+            <li>Custom eBay listing HTML templates, designed to client specifications</li>
+            <li>Item Specifics population and SEO-friendly title generation</li>
+            <li>Vehicle fitment research (auto parts) and product specification research (other categories), drawing from official distributor catalogs, manufacturer data sheets, and curated cross-reference databases</li>
+            <li>Bulk listing pipelines — CSV-manifest push workflows with dry-run gates and post-push GetItem verification</li>
+            <li>Listing audits, preflight compliance review, and on-page fixes</li>
+            <li>OAuth account access (read+write) to a seller's eBay account, granted voluntarily and revocable at any time</li>
+            <li>Web design and site-building for sellers who also want a Squarespace / Shopify / static-HTML storefront alongside their eBay presence</li>
+          </ul>
+          <p>
+            Every engagement begins with a written scope agreement (email is sufficient) that defines deliverables, fees, and timeline. Work outside that scope requires a new agreement.
+          </p>
+        </div>
+      </section>
+
+      <section class="terms-section" id="no-guarantee">
+        <div class="section-heading">
+          <span class="section-num">02</span>
+          <h2 class="section-title-text">No guarantee of results</h2>
+        </div>
+        <div class="section-body">
+          <p>
+            <strong>We do not promise any specific commercial outcome.</strong> Improved design, accurate data, and preflight compliance <em>may</em> improve visibility, conversion, or search rank, but we will never guarantee they will.
+          </p>
+          <p>Specifically, we make no representation, warranty, or guarantee of any kind with respect to:</p>
+          <ul>
+            <li>Sales volume, conversion rate, or revenue from any listing, store, or account we touch</li>
+            <li>Search rank, click-through rate, impression share, watch count, BSR, or any other Cassini / eBay algorithm metric</li>
+            <li>Buyer behavior, dispute outcomes, return rates, defect rate, or account standing</li>
+            <li>Specific time-to-rank, time-to-first-sale, or any other temporal projection</li>
+            <li>Whether any particular change will be net positive versus no change at all</li>
+          </ul>
+          <div class="callout">
+            <strong>You are responsible for the results of your store.</strong> Our role is to provide design, data, automation, and audit services to a high professional standard. Market outcomes depend on factors outside our control — including but not limited to eBay algorithm changes, category competition, buyer demand, item condition, shipping speed, and pricing.
+          </div>
+        </div>
+      </section>
+
+      <section class="terms-section" id="third-party">
+        <div class="section-heading">
+          <span class="section-num">03</span>
+          <h2 class="section-title-text">Third-party data and research</h2>
+        </div>
+        <div class="section-body">
+          <p>
+            Research is sourced from third-party providers including (where applicable to your category): FleetFilter, RockAuto CLI, PartShawk, FindItParts, manufacturer catalogs, and OEM data sheets. We apply provenance rules to weigh source quality, and we never paste raw scraped HTML into a deliverable.
+          </p>
+          <p><strong>We do not warrant the accuracy, completeness, or fitness for any particular purpose of third-party data.</strong> The seller is responsible for verifying fitment, dimensions, weight, materials, and any other data before publishing a live listing. We provide research as a working draft, not a certified specification.</p>
+          <p>If a research source returns bad data and that bad data appears in a deliverable we produced, our liability is limited to replacing the affected data on the same deliverable at no additional charge. We do not refund the project on the basis of a single data point, and we are not liable for downstream losses (lost sales, returns, defects) caused by bad data from a third-party source.</p>
+        </div>
+      </section>
+
+      <section class="terms-section" id="ebay-changes">
+        <div class="section-heading">
+          <span class="section-num">04</span>
+          <h2 class="section-title-text">eBay platform changes</h2>
+        </div>
+        <div class="section-body">
+          <p>
+            eBay is a third-party platform. eBay may, at any time and without notice, change its HTML policies, active content rules, category requirements, listing fields, fee structure, Top Rated Seller thresholds, Cassini algorithm, or any other term of service.
+          </p>
+          <p>
+            <strong>We are not responsible for changes eBay makes after a deliverable is published.</strong> If eBay updates its active-content policy and a previously-passing template becomes non-compliant, the seller is responsible for updating the listing or commissioning a new template at then-current rates.
+          </p>
+          <p>
+            <strong>No refunds are offered on the basis of eBay-side changes.</strong> This includes, without limitation, removal of custom HTML support in a category, changes to the Item Specifics schema, deprecation of compatibility table fields, or any other platform change that affects a previously-delivered listing.
+          </p>
+        </div>
+      </section>
+
+      <section class="terms-section" id="client-responsibility">
+        <div class="section-heading">
+          <span class="section-num">05</span>
+          <h2 class="section-title-text">Client responsibility</h2>
+        </div>
+        <div class="section-body">
+          <p>You are responsible for:</p>
+          <ul>
+            <li>The accuracy of source data you provide (part numbers, photos, dimensions, descriptions, condition reports, retail prices)</li>
+            <li>Reviewing every deliverable before going live — drafts are drafts until you approve them</li>
+            <li>Compliance with eBay's user agreement, including prohibited items, authenticity requirements, and category-specific rules</li>
+            <li>Pricing decisions — we may provide comps, but the final price is your call</li>
+            <li>Returns, customer messages, defect handling, and all seller-side operational work</li>
+            <li>Maintaining your own backups of source materials (photos, product notes, MPN lists) — we are not a long-term archive</li>
+            <li>Tax obligations, business licensing, and any required disclosures in your jurisdiction</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="terms-section" id="oauth">
+        <div class="section-heading">
+          <span class="section-num">06</span>
+          <h2 class="section-title-text">OAuth account access</h2>
+        </div>
+        <div class="section-body">
+          <p>If you grant us OAuth access to your eBay account:</p>
+          <ul>
+            <li><strong>You retain full ownership</strong> of the account, all listings, and all data</li>
+            <li><strong>You may revoke access at any time</strong> from your eBay account settings — we will lose the ability to push changes the moment you do</li>
+            <li>Every change we make is logged via the Trading API's <em>ReviseFixedPriceItem</em> / <em>AddFixedPriceItem</em> audit trail, recoverable from your eBay seller hub</li>
+            <li>We will <strong>never</strong> change store policies, payment information, or payout details — those are off-limits regardless of scope</li>
+            <li>We will <strong>never</strong> close or pause listings without your explicit, written approval (per-message basis, not blanket)</li>
+            <li>If you ask us to push bulk changes, we will always show you a dry-run report first unless you waive that in writing for a specific batch</li>
+          </ul>
+          <div class="callout">
+            <strong>You are responsible for reviewing every change we make.</strong> If a Revise or Add call lands and you do not like the result, contact us within 7 days and we will fix it free of charge or roll it back.
+          </div>
+        </div>
+      </section>
+
+      <section class="terms-section" id="payment">
+        <div class="section-heading">
+          <span class="section-num">07</span>
+          <h2 class="section-title-text">Payment and refunds</h2>
+        </div>
+        <div class="section-body">
+          <p>
+            <strong>Payment processor:</strong> Square. We accept all major credit cards via Square Checkout. You do not need a Square account — Square sends a payment link by email or text.
+          </p>
+          <p>
+            <strong>Per-project work</strong> (per-listing build, account audit + fix, web design): payment is due in advance. Work begins after payment clears.
+          </p>
+          <p>
+            <strong>Monthly retainer:</strong> billed on the same calendar day each month via Square subscription. Cancel at any time; you retain access through the end of the current billing period and the service stops at the next renewal.
+          </p>
+          <p>
+            <strong>Refund policy:</strong>
+          </p>
+          <ul>
+            <li>Before any work begins: full refund</li>
+            <li>After a draft is delivered but before final approval: 50% refund of the project fee if cancelled at the draft stage</li>
+            <li>After final approval: no refund. Further work (revisions, additional listings) is billed at the standard rate</li>
+            <li>If we fail to deliver an agreed scope within a reasonable timeframe, full refund or credit at your option</li>
+            <li>No refunds on the basis of eBay platform changes, third-party data inaccuracies, or unmet commercial outcomes (see Sections 02, 03, 04)</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="terms-section" id="ip">
+        <div class="section-heading">
+          <span class="section-num">08</span>
+          <h2 class="section-title-text">Intellectual property</h2>
+        </div>
+        <div class="section-body">
+          <p>
+            <strong>What you own:</strong> The final approved deliverable. Once paid for, you have a perpetual, non-exclusive, non-transferable licence to use the templates, listings, designs, and data we produce for you across your own eBay account, web presence, and marketing.
+          </p>
+          <p>
+            <strong>What we retain:</strong> The underlying design system, code libraries, automation scripts, and methodology. You may not resell, redistribute, or sub-licence the templates as a product to third parties.
+          </p>
+          <p>
+            <strong>What you provide:</strong> You retain ownership of all source materials (photos, brand assets, MPN data, product descriptions) you share with us. You grant us a non-exclusive licence to use those materials solely for the purpose of the engagement.
+          </p>
+        </div>
+      </section>
+
+      <section class="terms-section" id="liability">
+        <div class="section-heading">
+          <span class="section-num">09</span>
+          <h2 class="section-title-text">Limitation of liability</h2>
+        </div>
+        <div class="section-body">
+          <p>
+            <strong>Our total liability for any claim arising from an engagement is capped at the fees you actually paid us for that engagement.</strong>
+          </p>
+          <p>We are not liable for:</p>
+          <ul>
+            <li>Indirect, consequential, incidental, or punitive damages</li>
+            <li>Lost profits, lost revenue, lost data, lost business opportunity</li>
+            <li>Loss of eBay account standing, defects, or Top Rated Seller status</li>
+            <li>Buyer disputes, returns, chargebacks, or PayPal / eBay Money Back Guarantee claims</li>
+            <li>Actions of any third party (eBay, Square, your hosting provider, your supplier, your carrier)</li>
+            <li>Damages from changes to eBay's policies, search algorithm, or platform that occur after a deliverable is published</li>
+          </ul>
+          <p>
+            Nothing in these terms excludes liability for fraud, death, or personal injury caused by negligence, or any other liability that cannot be excluded under applicable law.
+          </p>
+        </div>
+      </section>
+
+      <section class="terms-section" id="termination">
+        <div class="section-heading">
+          <span class="section-num">10</span>
+          <h2 class="section-title-text">Termination</h2>
+        </div>
+        <div class="section-body">
+          <p>Either party may terminate an engagement at any time by written notice (email is sufficient).</p>
+          <p><strong>On our side, we may terminate if:</strong></p>
+          <ul>
+            <li>Payment is more than 14 days past due</li>
+            <li>You request work that violates eBay's user agreement or applicable law</li>
+            <li>You are abusive to us or our contractors in any communication channel</li>
+            <li>You publicly defame us in a way that damages our reputation</li>
+          </ul>
+          <p><strong>On your side, you may terminate at any time.</strong> If you terminate, you pay for work already delivered. The OAuth token (if any) is revoked and we lose access immediately.</p>
+        </div>
+      </section>
+
+      <section class="terms-section" id="disputes">
+        <div class="section-heading">
+          <span class="section-num">11</span>
+          <h2 class="section-title-text">Disputes and governing law</h2>
+        </div>
+        <div class="section-body">
+          <p>
+            These terms are governed by the laws of the <strong>Commonwealth of Pennsylvania</strong>, without regard to its conflict-of-laws provisions.
+          </p>
+          <p>
+            Any dispute arising from an engagement will first go through informal negotiation by email. If that fails, the dispute will be resolved in the state or federal courts located in <strong>Lackawanna County, Pennsylvania</strong>. Both parties consent to that jurisdiction.
+          </p>
+          <p>
+            If any provision of these terms is held unenforceable, the rest remain in effect.
+          </p>
+        </div>
+      </section>
+
+      <section class="terms-section" id="changes">
+        <div class="section-heading">
+          <span class="section-num">12</span>
+          <h2 class="section-title-text">Changes to these terms</h2>
+        </div>
+        <div class="section-body">
+          <p>
+            We may update these terms from time to time. The "Effective" date at the top of the page reflects the most recent version. Material changes will be communicated by email to active clients. Continued engagement after a change constitutes acceptance.
+          </p>
+        </div>
+      </section>
+
+      <section class="terms-section" id="contact">
+        <div class="section-heading">
+          <span class="section-num">13</span>
+          <h2 class="section-title-text">Contact</h2>
+        </div>
+        <div class="section-body">
+          <p>
+            Rustjack Systems is operated by Cap'n Jules the Rustjack (Julian Deuerlein) of BuccaneerSalvage, 18407 Carbondale, Pennsylvania, USA.
+          </p>
+          <ul>
+            <li>Email: <a href="mailto:jollyroger1480@gmail.com">jollyroger1480@gmail.com</a></li>
+            <li>Phone: <a href="tel:+15704682901">(570) 468-2901</a> — call or text</li>
+            <li>Square checkout: payment link sent after scope is agreed</li>
+          </ul>
+          <p>
+            <strong>Questions about these terms?</strong> Email before you book. We will not modify the terms for one engagement — the terms are the terms — but we are happy to clarify anything that is unclear.
+          </p>
+        </div>
+      </section>
+
+      <a href="index.html" class="back-link">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M19 12H5M12 19l-7-7 7-7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        Back to BuccaneerSalvage
+      </a>
+
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="shell">
+      <div class="footer-inner">
+        <a class="footer-brand" href="index.html">
+          <img src="assets/crest-rustjack-web.jpg" width="28" height="28" alt="BuccaneerSalvage crest">
+          <span class="footer-brand-name">BuccaneerSalvage</span>
+        </a>
+        <p class="footer-copy">
+          © 2026 BuccaneerSalvage &nbsp;·&nbsp; Carbondale, PA &nbsp;·&nbsp; jollyroger1480@gmail.com
+        </p>
+        <nav class="footer-links" aria-label="Footer">
+          <a href="index.html">Home</a>
+          <a href="services.html">Services</a>
+          <a href="templates.html">Templates</a>
+          <a href="scrap.html">Scrap</a>
+        </nav>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    const nav = document.getElementById('nav');
+    const onScroll = () => nav.classList.toggle('is-solid', window.scrollY > 40);
+    window.addEventListener('scroll', onScroll, { passive: true });
+    onScroll();
+
+    // Smooth scroll for TOC
+    document.querySelectorAll('.toc a').forEach(link => {
+      link.addEventListener('click', e => {
+        e.preventDefault();
+        const id = link.getAttribute('href').slice(1);
+        const target = document.getElementById(id);
+        if (target) {
+          target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          history.pushState(null, '', '#' + id);
+        }
+      });
+    });
+  </script>
+</body>
+</html>

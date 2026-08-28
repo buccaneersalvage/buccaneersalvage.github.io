@@ -1,0 +1,1185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Rustjack Systems — eBay Listing Tools &amp; Automation Services</title>
+  <meta name="description" content="AI-powered eBay listing services: template building, fitment research, bulk automation, full account management via OAuth, SEO rewrites. Auto parts, vintage, electronics, collectibles, anything. Square payments accepted.">
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Rustjack Systems — eBay Listing Tools &amp; Automation">
+  <meta property="og:description" content="AI-assisted eBay listing services. Fitment research, template generation, bulk automation, full account management via OAuth. Any category. Square payments accepted.">
+  <meta property="og:url" content="https://buccaneersalvage.github.io/services.html">
+  <meta property="og:locale" content="en_US">
+
+  <link rel="icon" type="image/jpeg" href="assets/crest-rustjack-web.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=IBM+Plex+Mono:wght@400;500&family=Lora:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+
+  <style>
+    /* ── Variables ─────────────────────────────────────────── */
+    :root {
+      --void: #050403;
+      --void-2: #0d0b08;
+      --void-3: #131009;
+      --glass: rgba(255, 241, 184, 0.04);
+      --glass-edge: rgba(197, 160, 40, 0.18);
+      --gold: #C5A028;
+      --gold-bright: #e8c040;
+      --gold-dim: #8a6e1a;
+      --gold-glow: rgba(197, 160, 40, 0.35);
+      --blood: #8B0000;
+      --blood-bright: #c0392b;
+      --parchment: #f9f4e8;
+      --parchment-dim: #c8bfa8;
+      --ink: #2C1810;
+      --mono: 'IBM Plex Mono', monospace;
+      --body: 'Outfit', system-ui, sans-serif;
+      --serif: 'Lora', Georgia, serif;
+      --ease: cubic-bezier(0.22, 1, 0.36, 1);
+      --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+      --space-1: 0.25rem;
+      --space-2: 0.5rem;
+      --space-3: 0.75rem;
+      --space-4: 1rem;
+      --space-5: 1.5rem;
+      --space-6: 2rem;
+      --space-7: 3rem;
+      --space-8: 4.5rem;
+      --space-9: 7rem;
+      --gutter: clamp(1.1rem, 4vw, 2.5rem);
+      --max: 1160px;
+      --radius-sm: 10px;
+      --radius: 18px;
+      --radius-lg: 28px;
+      --text-xs: clamp(0.7rem, 0.65rem + 0.2vw, 0.8rem);
+      --text-sm: clamp(0.82rem, 0.78rem + 0.2vw, 0.95rem);
+      --text-base: clamp(0.95rem, 0.88rem + 0.35vw, 1.08rem);
+      --text-lg: clamp(1.1rem, 1rem + 0.5vw, 1.35rem);
+      --text-xl: clamp(1.4rem, 1.15rem + 1.1vw, 2.1rem);
+      --text-2xl: clamp(1.9rem, 1.35rem + 2.2vw, 3.4rem);
+      --text-hero: clamp(2.8rem, 1.5rem + 5vw, 6rem);
+    }
+
+    /* ── Reset ────────────────────────────────────────────── */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; text-rendering: optimizeLegibility; }
+    body {
+      font-family: var(--body);
+      font-size: var(--text-base);
+      font-weight: 400;
+      line-height: 1.65;
+      color: var(--parchment);
+      background: var(--void);
+      min-height: 100dvh;
+      overflow-x: hidden;
+      -webkit-font-smoothing: antialiased;
+    }
+    img, svg { display: block; max-width: 100%; height: auto; }
+    a { color: inherit; text-decoration: none; }
+    button { font: inherit; border: 0; background: none; cursor: pointer; color: inherit; }
+    ul { list-style: none; }
+    :focus-visible { outline: 2px solid var(--gold-bright); outline-offset: 3px; }
+
+    /* ── Grain overlay ─────────────────────────────────────── */
+    .grain {
+      pointer-events: none;
+      position: fixed;
+      inset: 0;
+      z-index: 90;
+      opacity: 0.038;
+      mix-blend-mode: overlay;
+      background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+      background-size: 180px;
+    }
+
+    /* ── Atmospheric orbs ─────────────────────────────────── */
+    .orb {
+      pointer-events: none;
+      position: fixed;
+      border-radius: 50%;
+      z-index: 0;
+      contain: strict;
+    }
+    .orb-g {
+      width: min(60vw, 580px);
+      height: min(60vw, 580px);
+      top: -12%;
+      left: 50%;
+      transform: translateX(-50%);
+      background: radial-gradient(circle, rgba(197, 160, 40, 0.45) 0%, rgba(197, 160, 40, 0.12) 35%, transparent 68%);
+      filter: blur(80px);
+      opacity: 0.55;
+    }
+    .orb-b {
+      width: min(45vw, 420px);
+      height: min(45vw, 420px);
+      bottom: 5%;
+      right: -10%;
+      background: radial-gradient(circle, rgba(139, 0, 0, 0.3) 0%, transparent 68%);
+      filter: blur(90px);
+      opacity: 0.6;
+    }
+    .orb-s {
+      width: min(40vw, 360px);
+      height: min(40vw, 360px);
+      top: 40%;
+      left: -12%;
+      background: radial-gradient(circle, rgba(40, 90, 140, 0.18) 0%, transparent 68%);
+      filter: blur(100px);
+      opacity: 0.5;
+    }
+
+    /* ── Shell ────────────────────────────────────────────── */
+    .shell {
+      position: relative;
+      z-index: 1;
+      width: min(var(--max), calc(100% - var(--gutter) * 2));
+      margin-inline: auto;
+    }
+
+    /* ── NAV ─────────────────────────────────────────────── */
+    .nav {
+      position: sticky;
+      top: 0;
+      z-index: 50;
+      background: linear-gradient(180deg, rgba(5,4,3,0.97) 0%, rgba(5,4,3,0.85) 60%, transparent 100%);
+      border-bottom: 1px solid transparent;
+      transition: border-color 0.3s, background 0.3s;
+      backdrop-filter: blur(8px);
+      -webkit-backdrop-filter: blur(8px);
+    }
+    .nav.is-solid {
+      border-bottom-color: var(--glass-edge);
+      background: linear-gradient(180deg, rgba(5,4,3,0.96) 0%, rgba(5,4,3,0.82) 70%, transparent 100%);
+      box-shadow: inset 0 1px 0 rgba(197,160,40,0.12), 0 8px 32px rgba(0,0,0,0.5);
+    }
+    .nav-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: var(--space-4);
+      padding: 0.9rem 0;
+    }
+    .nav-brand {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.6rem;
+    }
+    .nav-brand img {
+      width: 34px;
+      height: 34px;
+      border-radius: 4px;
+      border: 1px solid var(--gold-dim);
+    }
+    .nav-brand span {
+      font-family: var(--body);
+      font-weight: 600;
+      font-size: var(--text-sm);
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      color: var(--gold);
+    }
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: var(--space-5);
+    }
+    .nav-links a {
+      font-size: var(--text-sm);
+      font-weight: 500;
+      color: var(--parchment-dim);
+      transition: color 0.2s;
+    }
+    .nav-links a:hover { color: var(--gold-bright); }
+    .nav-cta {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      padding: 0.45rem 1.1rem;
+      background: var(--gold);
+      color: var(--void);
+      font-weight: 700;
+      font-size: var(--text-sm);
+      letter-spacing: 0.04em;
+      border-radius: 6px;
+      transition: background 0.2s, transform 0.15s;
+    }
+    .nav-cta:hover { background: var(--gold-bright); transform: translateY(-1px); }
+
+    /* ── Hero ─────────────────────────────────────────────── */
+    .hero {
+      min-height: 92dvh;
+      display: grid;
+      place-items: center;
+      padding: var(--space-9) var(--gutter) var(--space-8);
+      text-align: center;
+      position: relative;
+    }
+    .hero-inner { max-width: 860px; }
+    .hero-eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      font-family: var(--mono);
+      font-size: var(--text-xs);
+      font-weight: 500;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: var(--space-5);
+      padding: 0.3rem 0.9rem;
+      border: 1px solid var(--gold-dim);
+      border-radius: 100px;
+      background: rgba(197,160,40,0.06);
+    }
+    .hero-eyebrow::before {
+      content: '';
+      display: inline-block;
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: var(--gold);
+      animation: pulse 2.4s ease-in-out infinite;
+    }
+    @keyframes pulse {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50% { opacity: 0.4; transform: scale(0.75); }
+    }
+    .hero-title {
+      font-family: var(--body);
+      font-weight: 700;
+      font-size: var(--text-hero);
+      line-height: 1.0;
+      letter-spacing: -0.02em;
+      color: var(--parchment);
+      margin-bottom: var(--space-5);
+    }
+    .hero-title em {
+      font-style: normal;
+      color: var(--gold);
+      position: relative;
+    }
+    .hero-title em::after {
+      content: '';
+      position: absolute;
+      bottom: -4px;
+      left: 0;
+      right: 0;
+      height: 2px;
+      background: linear-gradient(90deg, transparent, var(--gold), transparent);
+      opacity: 0.6;
+    }
+    .hero-sub {
+      font-size: var(--text-lg);
+      color: var(--parchment-dim);
+      max-width: 620px;
+      margin: 0 auto var(--space-7);
+      line-height: 1.6;
+    }
+    .hero-sub strong {
+      color: var(--parchment);
+      font-weight: 600;
+    }
+    .hero-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: var(--space-3);
+      justify-content: center;
+      margin-bottom: var(--space-7);
+    }
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 0.8rem 1.8rem;
+      border-radius: 8px;
+      font-weight: 600;
+      font-size: var(--text-base);
+      letter-spacing: 0.03em;
+      transition: transform 0.18s var(--ease-out), box-shadow 0.18s var(--ease-out), background 0.18s;
+      cursor: pointer;
+    }
+    .btn-primary {
+      background: var(--gold);
+      color: var(--void);
+      box-shadow: 0 0 24px rgba(197,160,40,0.3), 0 4px 12px rgba(0,0,0,0.4);
+    }
+    .btn-primary:hover {
+      background: var(--gold-bright);
+      transform: translateY(-2px);
+      box-shadow: 0 0 36px rgba(197,160,40,0.5), 0 8px 20px rgba(0,0,0,0.5);
+    }
+    .btn-outline {
+      background: transparent;
+      color: var(--parchment);
+      border: 1px solid var(--glass-edge);
+      box-shadow: 0 0 0 rgba(197,160,40,0);
+    }
+    .btn-outline:hover {
+      border-color: var(--gold);
+      color: var(--gold-bright);
+      transform: translateY(-2px);
+      box-shadow: 0 0 20px rgba(197,160,40,0.15);
+    }
+    .hero-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: var(--space-3) var(--space-5);
+      justify-content: center;
+      font-size: var(--text-sm);
+      color: var(--parchment-dim);
+    }
+    .hero-meta a {
+      color: var(--gold);
+      font-family: var(--mono);
+      font-size: var(--text-xs);
+      transition: color 0.2s;
+    }
+    .hero-meta a:hover { color: var(--gold-bright); }
+
+    /* ── Divider ────────────────────────────────────────────── */
+    .divider {
+      display: flex;
+      align-items: center;
+      gap: var(--space-4);
+      margin: 0 auto var(--space-8);
+      max-width: 480px;
+    }
+    .divider::before, .divider::after {
+      content: '';
+      flex: 1;
+      height: 1px;
+      background: linear-gradient(90deg, transparent, var(--gold-dim));
+    }
+    .divider::after {
+      background: linear-gradient(90deg, var(--gold-dim), transparent);
+    }
+    .divider span {
+      font-family: var(--mono);
+      font-size: var(--text-xs);
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--gold-dim);
+      white-space: nowrap;
+    }
+
+    /* ── Bento grid ────────────────────────────────────────── */
+    .bento {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(min(100%, 340px), 1fr));
+      gap: var(--space-5);
+    }
+    .card {
+      position: relative;
+      background: var(--glass);
+      border: 1px solid var(--glass-edge);
+      border-radius: var(--radius);
+      padding: var(--space-6);
+      overflow: hidden;
+      transition: border-color 0.25s, transform 0.25s var(--ease-out), box-shadow 0.25s;
+    }
+    .card::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(ellipse at top left, rgba(197,160,40,0.06) 0%, transparent 60%);
+      pointer-events: none;
+    }
+    .card:hover {
+      border-color: var(--gold-dim);
+      transform: translateY(-3px);
+      box-shadow: 0 12px 40px rgba(0,0,0,0.4), 0 0 0 1px rgba(197,160,40,0.1);
+    }
+    .card-icon {
+      width: 52px;
+      height: 52px;
+      border-radius: var(--radius-sm);
+      background: linear-gradient(135deg, rgba(197,160,40,0.15) 0%, rgba(197,160,40,0.05) 100%);
+      border: 1px solid rgba(197,160,40,0.25);
+      display: grid;
+      place-items: center;
+      margin-bottom: var(--space-5);
+      font-size: 22px;
+    }
+    .card-eyebrow {
+      font-family: var(--mono);
+      font-size: var(--text-xs);
+      font-weight: 500;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: var(--space-2);
+    }
+    .card-title {
+      font-family: var(--body);
+      font-size: var(--text-xl);
+      font-weight: 700;
+      color: var(--parchment);
+      line-height: 1.2;
+      margin-bottom: var(--space-3);
+    }
+    .card-body {
+      font-size: var(--text-sm);
+      color: var(--parchment-dim);
+      line-height: 1.7;
+      margin-bottom: var(--space-5);
+    }
+    .card-features {
+      display: flex;
+      flex-direction: column;
+      gap: var(--space-2);
+      margin-bottom: var(--space-5);
+    }
+    .card-feature {
+      display: flex;
+      align-items: flex-start;
+      gap: 0.6rem;
+      font-size: var(--text-xs);
+      color: var(--parchment-dim);
+    }
+    .card-feature::before {
+      content: '→';
+      color: var(--gold);
+      font-family: var(--mono);
+      flex-shrink: 0;
+      margin-top: 0.05rem;
+    }
+    .card-tag {
+      display: inline-block;
+      padding: 0.2rem 0.65rem;
+      border-radius: 100px;
+      font-size: 0.7rem;
+      font-weight: 600;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      background: rgba(197,160,40,0.1);
+      color: var(--gold);
+      border: 1px solid rgba(197,160,40,0.2);
+    }
+    .card-tag.red {
+      background: rgba(139,0,0,0.12);
+      color: #e06060;
+      border-color: rgba(139,0,0,0.25);
+    }
+    .card-tag.green {
+      background: rgba(46,120,60,0.15);
+      color: #68c47a;
+      border-color: rgba(46,120,60,0.25);
+    }
+
+    /* ── Full-width card variant ────────────────────────────── */
+    .card-wide {
+      grid-column: 1 / -1;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: var(--space-7);
+      align-items: center;
+    }
+    @media (max-width: 700px) {
+      .card-wide { grid-template-columns: 1fr; }
+    }
+
+    /* ── Section ─────────────────────────────────────────── */
+    .section { padding: var(--space-9) 0; }
+    .section + .section { padding-top: 0; }
+    .section-head {
+      max-width: 680px;
+      margin-bottom: var(--space-7);
+    }
+    .section-eyebrow {
+      font-family: var(--mono);
+      font-size: var(--text-xs);
+      font-weight: 500;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: var(--space-3);
+    }
+    .section-title {
+      font-size: var(--text-2xl);
+      font-weight: 700;
+      line-height: 1.15;
+      color: var(--parchment);
+      margin-bottom: var(--space-4);
+    }
+    .section-aside {
+      font-size: var(--text-base);
+      color: var(--parchment-dim);
+      line-height: 1.7;
+    }
+
+    /* ── eBay template preview ──────────────────────────────── */
+    .template-frame {
+      background: var(--void-2);
+      border: 1px solid var(--glass-edge);
+      border-radius: var(--radius);
+      overflow: hidden;
+    }
+    .template-bar {
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+      padding: 0.6rem 1rem;
+      background: var(--void-3);
+      border-bottom: 1px solid var(--glass-edge);
+    }
+    .template-bar span {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+    }
+    .template-bar span:nth-child(1) { background: #ff5f57; }
+    .template-bar span:nth-child(2) { background: #ffbd2e; }
+    .template-bar span:nth-child(3) { background: #28ca41; }
+    .template-content {
+      padding: var(--space-6);
+      background: #888;
+    }
+    .template-preview {
+      background: var(--parchment);
+      border-radius: var(--radius-sm);
+      overflow: hidden;
+      font-size: 0; /* collapse whitespace */
+    }
+    .template-preview img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    /* ── Pricing ───────────────────────────────────────────── */
+    .pricing-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: var(--space-5);
+    }
+    .price-card {
+      background: var(--glass);
+      border: 1px solid var(--glass-edge);
+      border-radius: var(--radius);
+      padding: var(--space-6);
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+    .price-card.popular {
+      border-color: var(--gold);
+      box-shadow: 0 0 40px rgba(197,160,40,0.15), 0 0 0 1px rgba(197,160,40,0.3);
+    }
+    .price-card.popular::before {
+      content: 'Most Popular';
+      position: absolute;
+      top: 0;
+      left: 50%;
+      transform: translateX(-50%) translateY(-50%);
+      background: var(--gold);
+      color: var(--void);
+      font-size: 0.65rem;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      padding: 0.25rem 1rem;
+      border-radius: 100px;
+    }
+    .price-label {
+      font-family: var(--mono);
+      font-size: var(--text-xs);
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--parchment-dim);
+      margin-bottom: var(--space-3);
+    }
+    .price-amount {
+      font-size: var(--text-2xl);
+      font-weight: 700;
+      color: var(--gold-bright);
+      line-height: 1;
+      margin-bottom: var(--space-1);
+    }
+    .price-amount span {
+      font-size: var(--text-lg);
+      font-weight: 400;
+      color: var(--parchment-dim);
+    }
+    .price-per {
+      font-size: var(--text-sm);
+      color: var(--parchment-dim);
+      margin-bottom: var(--space-5);
+    }
+    .price-features {
+      display: flex;
+      flex-direction: column;
+      gap: var(--space-2);
+      margin-bottom: var(--space-6);
+      text-align: left;
+    }
+    .price-feature {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      font-size: var(--text-sm);
+      color: var(--parchment-dim);
+    }
+    .price-feature::before {
+      content: '✓';
+      color: var(--gold);
+      font-weight: 700;
+      flex-shrink: 0;
+    }
+
+    /* ── CTA band ──────────────────────────────────────────── */
+    .cta-band {
+      background: linear-gradient(135deg, rgba(197,160,40,0.08) 0%, rgba(139,0,0,0.06) 100%);
+      border: 1px solid var(--glass-edge);
+      border-radius: var(--radius-lg);
+      padding: var(--space-8) var(--space-6);
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+    .cta-band::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(ellipse at center, rgba(197,160,40,0.08) 0%, transparent 70%);
+      pointer-events: none;
+    }
+    .cta-title {
+      font-size: var(--text-2xl);
+      font-weight: 700;
+      color: var(--parchment);
+      margin-bottom: var(--space-3);
+      position: relative;
+    }
+    .cta-sub {
+      font-size: var(--text-base);
+      color: var(--parchment-dim);
+      max-width: 540px;
+      margin: 0 auto var(--space-6);
+      position: relative;
+    }
+    .cta-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: var(--space-3);
+      justify-content: center;
+      position: relative;
+    }
+
+    /* ── Footer ────────────────────────────────────────────── */
+    .footer {
+      border-top: 1px solid var(--glass-edge);
+      padding: var(--space-7) 0 var(--space-6);
+      margin-top: var(--space-9);
+    }
+    .footer-inner {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: var(--space-4);
+    }
+    .footer-brand {
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+    }
+    .footer-brand img {
+      width: 28px;
+      height: 28px;
+      border-radius: 4px;
+      border: 1px solid var(--gold-dim);
+    }
+    .footer-brand-name {
+      font-weight: 600;
+      font-size: var(--text-sm);
+      color: var(--gold);
+    }
+    .footer-copy {
+      font-size: var(--text-xs);
+      color: var(--parchment-dim);
+      opacity: 0.6;
+      text-align: center;
+    }
+    .footer-links {
+      display: flex;
+      gap: var(--space-4);
+    }
+    .footer-links a {
+      font-size: var(--text-xs);
+      color: var(--parchment-dim);
+      transition: color 0.2s;
+    }
+    .footer-links a:hover { color: var(--gold); }
+
+    /* ── Scroll reveal ──────────────────────────────────────── */
+    .reveal {
+      opacity: 0;
+      transform: translateY(24px);
+      transition: opacity 0.7s var(--ease-out), transform 0.7s var(--ease-out);
+    }
+    .reveal.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    .reveal-delay-1 { transition-delay: 0.1s; }
+    .reveal-delay-2 { transition-delay: 0.2s; }
+    .reveal-delay-3 { transition-delay: 0.3s; }
+
+    /* ── Utility ───────────────────────────────────────────── */
+    .text-gold { color: var(--gold); }
+    .text-gold-bright { color: var(--gold-bright); }
+    .text-blood { color: var(--blood-bright); }
+    .text-dim { color: var(--parchment-dim); }
+    .mt-8 { margin-top: var(--space-8); }
+    .mb-4 { margin-bottom: var(--space-4); }
+    .mb-5 { margin-bottom: var(--space-5); }
+    .mb-6 { margin-bottom: var(--space-6); }
+    .mb-7 { margin-bottom: var(--space-7); }
+    .mono { font-family: var(--mono); }
+
+    /* ── Mobile nav ────────────────────────────────────────── */
+    .nav-links { display: none; }
+    @media (min-width: 768px) {
+      .nav-links { display: flex; }
+      .nav-cta { display: inline-flex; }
+    }
+    @media (max-width: 767px) {
+      .hero-actions { flex-direction: column; align-items: center; }
+      .hero-meta { flex-direction: column; gap: var(--space-2); }
+    }
+  </style>
+</head>
+<body>
+  <div class="grain" aria-hidden="true"></div>
+  <div class="orb orb-g" aria-hidden="true"></div>
+  <div class="orb orb-b" aria-hidden="true"></div>
+  <div class="orb orb-s" aria-hidden="true"></div>
+
+  <!-- NAV -->
+  <header class="nav" id="nav" role="banner">
+    <div class="nav-inner shell">
+      <a class="nav-brand" href="index.html" aria-label="BuccaneerSalvage home">
+        <img src="assets/crest-rustjack-web.jpg" width="34" height="34" alt="BuccaneerSalvage Jolly Roger crest">
+        <span>BuccaneerSalvage</span>
+      </a>
+      <nav class="nav-links" aria-label="Primary">
+        <a href="index.html">Home</a>
+        <a href="store.html">Store</a>
+        <a href="services.html" class="text-gold">Services</a>
+        <a href="templates.html">Templates</a>
+        <a href="scrap.html">Scrap Removal</a>
+        <a href="videos.html">Music</a>
+      </nav>
+      <a class="nav-cta" href="mailto:jollyroger1480@gmail.com?subject=Rustjack%20Systems%20Inquiry">
+        Get in touch
+        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </a>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-inner">
+        <div class="hero-eyebrow reveal">
+          <span>For eBay Sellers</span>
+          <span>·</span>
+          <span>Any Category</span>
+          <span>·</span>
+          <span>OAuth Account Access</span>
+        </div>
+        <h1 class="hero-title reveal reveal-delay-1">
+          Your listings<br><em>work harder</em><br>than your photos
+        </h1>
+        <p class="hero-sub reveal reveal-delay-2">
+          <strong>Fitment research, template automation, bulk pipelines, and full account management via OAuth</strong> for eBay sellers in any category. Auto parts, vintage, electronics, collectibles, fashion, anything. Built by a working seller who's tired of guessing cross-references.
+        </p>
+        <div class="hero-actions reveal reveal-delay-2">
+          <a href="#services" class="btn btn-primary">
+            See services
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 5v14M5 12l7 7 7-7" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+          <a href="#pricing" class="btn btn-outline">View pricing</a>
+        </div>
+        <div class="hero-meta reveal reveal-delay-3">
+          <a href="mailto:jollyroger1480@gmail.com">jollyroger1480@gmail.com</a>
+          <span>Carbondale, PA</span>
+          <span>BuccaneerSalvage on eBay</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- DIVIDER -->
+    <div class="divider" aria-hidden="true"><span>⚓</span></div>
+
+    <!-- WHAT THIS IS -->
+    <section class="section" id="about">
+      <div class="shell">
+        <div class="card-wide card reveal">
+          <div>
+            <p class="section-eyebrow">The problem</p>
+            <h2 class="section-title">eBay listing is a second job you didn't sign up for</h2>
+            <p class="section-aside mb-5">
+              You're a seller, not a copywriter. But to move inventory you need: correct fitment from real catalogs, titles that pass preflight and rank in Cassini, descriptions that don't read like a robot wrote them, and enough product photos to make a buyer confident. Whether it's auto parts, vintage electronics, fashion, or home goods — that takes hours per listing. And then you have to do it again next week.
+            </p>
+            <p class="section-aside mb-5">
+              <strong class="text-gold">Rustjack Systems</strong> is the automation layer. It doesn't replace your judgment — it eliminates the drudge work. Catalog-grade research. Template generation that passes preflight the first time. Bulk listing pipelines. And with OAuth access to your account, I can fix and push directly without you lifting a finger.
+            </p>
+            <div style="display:flex;flex-wrap:wrap;gap:var(--space-3)">
+              <span class="card-tag green">Catalog-verified data</span>
+              <span class="card-tag green">Cassini SEO titles</span>
+              <span class="card-tag green">Zero hallucinated facts</span>
+              <span class="card-tag green">OAuth account access</span>
+            </div>
+          </div>
+          <div class="template-frame">
+            <div class="template-bar" aria-hidden="true">
+              <span></span><span></span><span></span>
+            </div>
+            <div class="template-content">
+              <!-- Actual v3 template preview -->
+              <div class="template-preview">
+                <img src="https://i.ibb.co/8XzD2Ky/preview-tn.jpg" alt="eBay template preview" loading="lazy" onerror="this.parentElement.innerHTML='<div style=\'background:#f9f4e8;padding:3rem;text-align:center;color:#2C1810;font-family:Georgia,serif;\'><h3 style=\'color:#8B0000;margin-bottom:1rem;\'>☠️ Key Facts</h3><p style=\'margin-bottom:0.8rem;\'>Premium spin-on fuel filter.<br>• 6-micron cellulose media<br>• 1983-1988 Ford F-250<br><br><strong style=\'color:#8B0000;\'>⚓ Compatibility</strong><br>• Ford F-250 1983-1988<br><br><strong style=\'color:#2C1810;\'>1× FMS F638 filter</strong></p></div>'" >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section class="section" id="services">
+      <div class="shell">
+        <div class="section-head reveal">
+          <p class="section-eyebrow">What we build</p>
+          <h2 class="section-title">Listing tools that work the way you actually sell</h2>
+          <p class="section-aside">
+            Four focused services. Each one removes a bottleneck. All grounded in real catalog data — not scraped hallucination. Any category.
+          </p>
+        </div>
+
+        <div class="bento">
+
+          <!-- Service 1: Research & Data -->
+          <article class="card reveal">
+            <div class="card-icon" aria-hidden="true">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4" stroke="#C5A028" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </div>
+            <p class="card-eyebrow">01 — Research &amp; Data</p>
+            <h3 class="card-title">Verified product data, any category</h3>
+            <p class="card-body">
+              For auto parts: FleetFilter exact-PN, RockAuto CLI, PartShawk. For everything else: official brand catalogs, manufacturer spec sheets, and curated cross-reference databases. No Google scraping, no invented specs.
+            </p>
+            <ul class="card-features">
+              <li class="card-feature">Vehicle fitment from FleetFilter, official distributor catalogs</li>
+              <li class="card-feature">Terapeak Search Terms pull — titles built from real buyer queries, not guesswork</li>
+              <li class="card-feature">Interchange / cross-reference verification per MPN</li>
+              <li class="card-feature">Engine displacement + fuel type when catalog flags it</li>
+              <li class="card-feature">Dimensions, weight, materials from manufacturer spec sheets</li>
+            </ul>
+            <span class="card-tag">Catalog research</span>
+            <span class="card-tag">Cross-reference</span>
+          </article>
+
+          <!-- Service 2: Template Generation -->
+          <article class="card reveal reveal-delay-1">
+            <div class="card-icon" aria-hidden="true">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M4 5h12M4 9h12M4 13h8M4 17h6" stroke="#C5A028" stroke-width="2" stroke-linecap="round"/><rect x="14" y="13" width="6" height="5" rx="1" stroke="#C5A028" stroke-width="2"/></svg>
+            </div>
+            <p class="card-eyebrow">02 — Template Generation</p>
+            <h3 class="card-title">eBay HTML templates, your brand or mine</h3>
+            <p class="card-body">
+              The v3 template system: lead → ☠️ Key Facts → ⚓ Compatibility → ⚠️ IMPORTANT fit gate → ☠️ Condition → ⚓ What You Receive. Passes preflight on the first run. Adapts to your existing brand palette or use the BuccaneerSalvage dark nautical template.
+            </p>
+            <ul class="card-features">
+              <li class="card-feature">Structured sections with emoji anchors for Cassini parsing</li>
+              <li class="card-feature">Auto-fits: 30-day seller-pays / 14-day / no-returns</li>
+              <li class="card-feature">Returns sidebar, shipping, store cross-link</li>
+              <li class="card-feature">Custom palette / header / footer on request</li>
+            </ul>
+            <span class="card-tag">HTML template</span>
+            <span class="card-tag">Preflight-ready</span>
+          </article>
+
+          <!-- Service 3: OAuth Account Access -->
+          <article class="card reveal reveal-delay-2">
+            <div class="card-icon" aria-hidden="true">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><rect x="3" y="11" width="18" height="11" rx="2" stroke="#C5A028" stroke-width="2"/><path d="M7 11V7a5 5 0 0110 0v4" stroke="#C5A028" stroke-width="2" stroke-linecap="round"/></svg>
+            </div>
+            <p class="card-eyebrow">03 — Account Access</p>
+            <h3 class="card-title">OAuth in. I fix it remotely.</h3>
+            <p class="card-body">
+              Grant me OAuth access to your eBay account and I push fixes, relists, and new listings directly. No more "I have a draft, just click upload." No more "fix my 30 broken listings" message thread. Real changes shipped while you sleep.
+            </p>
+            <ul class="card-features">
+              <li class="card-feature">Read + write access via OAuth token — no shared passwords</li>
+              <li class="card-feature">Full audit log of every change I make</li>
+              <li class="card-feature">You keep selling; I handle fixes, relists, and bulk pushes</li>
+              <li class="card-feature">Revoke anytime — token is yours, not mine</li>
+            </ul>
+            <span class="card-tag red">OAuth secured</span>
+            <span class="card-tag">Read + write</span>
+            <span class="card-tag green">Audit logged</span>
+          </article>
+
+          <!-- Service 4: Bulk Automation -->
+          <article class="card reveal reveal-delay-3">
+            <div class="card-icon" aria-hidden="true">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z" stroke="#C5A028" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </div>
+            <p class="card-eyebrow">04 — Bulk &amp; Automation</p>
+            <h3 class="card-title">Pipelines that run while you sleep</h3>
+            <p class="card-body">
+              CSV manifest in, listings live out. Dry-run validation gates every push. GetItem verification post-push. Built to handle 10 or 10,000 listings without sending malformed data to eBay. Works for any category.
+            </p>
+            <ul class="card-features">
+              <li class="card-feature">CSV manifest → full push with policy profiles</li>
+              <li class="card-feature">Dry-run gate before every API call</li>
+              <li class="card-feature">GetItem verification with full specifics + compat</li>
+              <li class="card-feature">Duplicate detection by Brand+MPN before listing</li>
+            </ul>
+            <span class="card-tag">Bulk push</span>
+            <span class="card-tag">Dry-run gate</span>
+            <span class="card-tag">Any category</span>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- PRICING -->
+    <section class="section" id="pricing">
+      <div class="shell">
+        <div class="section-head reveal">
+          <p class="section-eyebrow">Pricing</p>
+          <h2 class="section-title">Priced like a working seller, not a SaaS trap</h2>
+          <p class="section-aside">
+            Pay per project or per month. Credit cards accepted via Square. No monthly fees for one-off work. Recurring clients get the retainer.
+          </p>
+        </div>
+
+        <div class="pricing-grid">
+          <div class="price-card reveal">
+            <p class="price-label">Per-Listing Build</p>
+            <p class="price-amount">$79<span>/listing</span></p>
+            <p class="price-per">research + v3 HTML + preflight pass</p>
+            <ul class="price-features">
+              <li class="price-feature">Catalog fitment / spec research</li>
+              <li class="price-feature">SEO title built from Terapeak buyer search terms</li>
+              <li class="price-feature">Full v3 HTML template</li>
+              <li class="price-feature">Interchange / cross-reference table</li>
+              <li class="price-feature">Item specifics all populated</li>
+              <li class="price-feature">Draft delivered ready for your review</li>
+            </ul>
+            <a href="mailto:jollyroger1480@gmail.com?subject=Per-Listing%20Build%20Inquiry" class="btn btn-outline" style="width:100%;justify-content:center;">Start a build</a>
+          </div>
+
+          <div class="price-card popular reveal reveal-delay-1">
+            <p class="price-label">Account Audit + Fix</p>
+            <p class="price-amount">$99<span>+ $15/listing</span></p>
+            <p class="price-per">OAuth in, I fix everything in one pass</p>
+            <ul class="price-features">
+              <li class="price-feature">Read+write OAuth to your eBay account</li>
+              <li class="price-feature">Audit every live listing for preflight fails</li>
+              <li class="price-feature">$15 per listing fixed (no fix, no charge)</li>
+              <li class="price-feature">Missing specifics, compat, photos, titles all addressed</li>
+              <li class="price-feature">GetItem verification on every change</li>
+              <li class="price-feature">Audit report + listing IDs + thumbnails</li>
+            </ul>
+            <a href="mailto:jollyroger1480@gmail.com?subject=Account%20Audit%20%2B%20Fix%20Inquiry" class="btn btn-primary" style="width:100%;justify-content:center;">Book the audit</a>
+          </div>
+
+          <div class="price-card reveal reveal-delay-2">
+            <p class="price-label">Monthly Retainer</p>
+            <p class="price-amount">$249<span>/month</span></p>
+            <p class="price-per">OAuth access, ongoing management, up to 30 listings</p>
+            <ul class="price-features">
+              <li class="price-feature">Persistent OAuth + audit log</li>
+              <li class="price-feature">New listings (up to 30/month included)</li>
+              <li class="price-feature">Unlimited preflight fixes + relists</li>
+              <li class="price-feature">Priority turnaround (24h)</li>
+              <li class="price-feature">Cancel anytime — no annual lock-in</li>
+              <li class="price-feature">Best for sellers with ongoing pipeline</li>
+            </ul>
+            <a href="mailto:jollyroger1480@gmail.com?subject=Monthly%20Retainer%20Inquiry" class="btn btn-outline" style="width:100%;justify-content:center;">Start retainer</a>
+          </div>
+        </div>
+
+        <!-- Payment + scope band -->
+        <div class="mt-8 reveal" style="background:rgba(197,160,40,0.04);border:1px solid var(--glass-edge);border-radius:var(--radius);padding:var(--space-6);">
+          <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:var(--space-5);align-items:center;">
+            <div>
+              <p class="card-eyebrow" style="margin-bottom:var(--space-2)">Payment</p>
+              <p style="font-size:var(--text-base);color:var(--parchment);line-height:1.5;">All credit cards accepted via <strong class="text-gold">Square</strong>. Invoice sent after scope is agreed. Pay before work starts.</p>
+            </div>
+            <div>
+              <p class="card-eyebrow" style="margin-bottom:var(--space-2)">Categories</p>
+              <p style="font-size:var(--text-base);color:var(--parchment);line-height:1.5;">Auto parts, vintage, electronics, collectibles, fashion, home goods, books, media, tools. <strong>Anything you can ship.</strong></p>
+            </div>
+            <div>
+              <p class="card-eyebrow" style="margin-bottom:var(--space-2)">Not a fit?</p>
+              <p style="font-size:var(--text-base);color:var(--parchment);line-height:1.5;">Pre-need a different kind of help? Just ask. Custom scopes are normal. <strong>No project is too weird.</strong></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Honest scope note -->
+        <p style="margin-top:var(--space-5);font-size:var(--text-sm);color:var(--parchment-dim);line-height:1.7;max-width:760px;">
+          <strong class="text-gold">Honest scope:</strong> these services cover design, data research, automation, and account fixes — clean, accurate, preflight-passing work. I don't promise sales, rankings, or any commercial outcome; that depends on your market, pricing, and eBay's algorithm. I'm not responsible for third-party catalog errors or eBay policy changes after publication. Full terms: <a href="terms-service.html" style="color:var(--gold);text-decoration:underline;">terms-service.html</a>.
+        </p>
+
+        <!-- Example template showcase -->
+        <div class="mt-8">
+          <h3 class="text-xl font-weight-700 mb-5 text-gold">What the v3 template looks like</h3>
+          <div class="template-frame reveal">
+            <div class="template-bar" aria-hidden="true">
+              <span></span><span></span><span></span>
+              <span style="margin-left:auto;font-family:var(--mono);font-size:0.7rem;color:var(--parchment-dim)">ebay-template-v3-30day-free-returns.html</span>
+            </div>
+            <div class="template-content">
+              <div class="template-preview" role="img" aria-label="eBay template preview">
+                <!-- Preview rendered inline so no external dependency -->
+                <div style="background:#f9f4e8;padding:1.5rem;font-family:Verdana,Arial,sans-serif;font-size:13px;color:#2C1810;max-width:780px;margin:0 auto;">
+                  <!-- Header -->
+                  <div style="background:linear-gradient(160deg,#0a0a0a 60%,#1f0303 100%);padding:14px 10px 16px;text-align:center;border-bottom:4px solid #C5A028;">
+                    <img src="https://i.ebayimg.com/images/g/IUEAAeSwEllpx~Re/s-l1600.webp" style="max-width:100%;max-height:100px;height:auto;border:3px solid #C5A028;border-radius:5px;" alt="Seller">
+                    <h1 style="font-family:Georgia,'Times New Roman',serif;color:#C5A028;margin:10px 0 4px;font-size:20px;letter-spacing:0.5px;">BUCCANEERSALVAGE</h1>
+                    <p style="color:#b8941f;font-size:11px;margin:6px 0 0;">Rusty Mechanical Treasures &nbsp;·&nbsp; Steampunk Salvage &nbsp;·&nbsp; Vintage Gold</p>
+                  </div>
+                  <!-- Body -->
+                  <div style="background:#f9f4e8;padding:14px 12px;border-left:4px solid #8B0000;border-right:4px solid #8B0000;">
+                    <p style="margin:0 0 10px;font-size:13px;">Premium spin-on fuel filter — NOS unused shelf stock.</p>
+                    <h3 style="font-family:Georgia,'Times New Roman',serif;color:#8B0000;font-size:15px;margin:0 0 8px;padding-bottom:4px;border-bottom:1px solid #C5A028;">☠️ Key Facts</h3>
+                    <ul style="margin:0 0 14px 16px;font-size:13px;line-height:1.7;">
+                      <li>6-micron enhanced cellulose media</li>
+                      <li>Standard spin-on thread and gasket</li>
+                      <li>Ford OE-spec replacement</li>
+                    </ul>
+                    <h3 style="font-family:Georgia,'Times New Roman',serif;color:#8B0000;font-size:15px;margin:0 0 8px;padding-bottom:4px;border-bottom:1px solid #C5A028;">⚓ Compatibility</h3>
+                    <ul style="margin:0 0 14px 16px;font-size:13px;line-height:1.7;">
+                      <li>1983–1988 Ford F-250</li>
+                      <li>1983–1988 Ford F-350</li>
+                      <li>1983–1986 Ford F-600</li>
+                    </ul>
+                    <div style="background:#fff8e1;border:1px solid #C5A028;border-left:4px solid #8B0000;padding:8px 10px;border-radius:4px;margin-bottom:12px;font-size:12px;">
+                      <strong style="color:#8B0000;">IMPORTANT:</strong> Verify fitment by part number before purchase.
+                    </div>
+                    <h3 style="font-family:Georgia,'Times New Roman',serif;color:#8B0000;font-size:15px;margin:0 0 8px;padding-bottom:4px;border-bottom:1px solid #C5A028;">☠️ Condition</h3>
+                    <p style="font-size:13px;margin:0 0 12px;">NOS unused shelf stock. Packaging may show minor warehouse wear.</p>
+                    <h3 style="font-family:Georgia,'Times New Roman',serif;color:#8B0000;font-size:15px;margin:0 0 8px;padding-bottom:4px;border-bottom:1px solid #C5A028;">⚓ What You Receive</h3>
+                    <p style="font-size:13px;margin:0;">1× FMS F638 fuel filter in original packaging.</p>
+                  </div>
+                  <!-- Footer -->
+                  <div style="background:linear-gradient(160deg,#0a0a0a,#1f0303);padding:12px;text-align:center;border-top:4px solid #C5A028;">
+                    <p style="color:#C5A028;font-size:10px;margin:0;">© 2026 BuccaneerSalvage &nbsp;·&nbsp; Rusty Mechanical Treasures &nbsp;·&nbsp; Carbondale PA 18407</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- HOW IT WORKS -->
+    <section class="section" id="process">
+      <div class="shell">
+        <div class="section-head reveal">
+          <p class="section-eyebrow">Process</p>
+          <h2 class="section-title">From "I have a folder of stuff" to live listing in hours</h2>
+        </div>
+        <div class="bento">
+          <article class="card reveal">
+            <div style="font-family:var(--mono);font-size:3rem;font-weight:700;color:rgba(197,160,40,0.15);line-height:1;margin-bottom:var(--space-4);">01</div>
+            <h3 class="card-title">Send your stuff</h3>
+            <p class="card-body">A folder of photos, a CSV manifest, or just a list of MPNs. Any category. The format is flexible — I'll work with what you have.</p>
+          </article>
+          <article class="card reveal reveal-delay-1">
+            <div style="font-family:var(--mono);font-size:3rem;font-weight:700;color:rgba(197,160,40,0.15);line-height:1;margin-bottom:var(--space-4);">02</div>
+            <h3 class="card-title">Research runs</h3>
+            <p class="card-body">For auto parts: FleetFilter, RockAuto, PartShawk. For everything else: official brand catalogs, manufacturer spec sheets, curated cross-reference databases. Provenance graded, no invented data.</p>
+          </article>
+          <article class="card reveal reveal-delay-2">
+            <div style="font-family:var(--mono);font-size:3rem;font-weight:700;color:rgba(197,160,40,0.15);line-height:1;margin-bottom:var(--space-4);">03</div>
+            <h3 class="card-title">OAuth (optional)</h3>
+            <p class="card-body">Grant OAuth access and I push directly to your account. Or skip OAuth and review drafts before I send anything live. Your call.</p>
+          </article>
+          <article class="card reveal reveal-delay-3">
+            <div style="font-family:var(--mono);font-size:3rem;font-weight:700;color:rgba(197,160,40,0.15);line-height:1;margin-bottom:var(--space-4);">04</div>
+            <h3 class="card-title">Verify + report</h3>
+            <p class="card-body">GetItem verification on every change. Audit log of every push. You get listing IDs and thumbnails. Invoice via Square.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="section">
+      <div class="shell">
+        <div class="cta-band reveal">
+          <h2 class="cta-title">Ready to stop writing listings by hand?</h2>
+          <p class="cta-sub">
+            Send a folder or a list. Get a draft back with real data, preflight-passing HTML, and a clear price. Pay via Square when you're ready. No commitment until you see the work.
+          </p>
+          <div class="cta-actions">
+            <a href="mailto:jollyroger1480@gmail.com?subject=New%20Listing%20Project&body=Hi%20Jules%2C%0A%0AI%27ve%20got%20about%20__%20listings%20I%20need%20help%20with.%0A%0AHere%27s%20what%20I%20know%3A%0A-%20Category%3A%20%0A-%20MPNs%20or%20items%3A%20%0A-%20Condition%3A%20NOS%20%2F%20Used%20%2F%20For%20Parts%0A-%20OAuth%20ready%3F%3A%20Yes%20%2F%20No%0A%0A" class="btn btn-primary">
+              Send a project brief
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </a>
+            <a href="templates.html" class="btn btn-outline">Browse template gallery</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="shell">
+      <div class="footer-inner">
+        <a class="footer-brand" href="index.html">
+          <img src="assets/crest-rustjack-web.jpg" width="28" height="28" alt="BuccaneerSalvage crest">
+          <span class="footer-brand-name">BuccaneerSalvage</span>
+        </a>
+        <p class="footer-copy">
+          © 2026 BuccaneerSalvage &nbsp;·&nbsp; Carbondale, PA &nbsp;·&nbsp; jollyroger1480@gmail.com
+        </p>
+        <nav class="footer-links" aria-label="Footer">
+          <a href="index.html">Home</a>
+          <a href="store.html">Store</a>
+          <a href="templates.html">Templates</a>
+          <a href="terms-service.html">Terms</a>
+          <a href="scrap.html">Scrap</a>
+        </nav>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // ── Scroll reveal ──────────────────────────────────────────
+    const reveals = document.querySelectorAll('.reveal');
+    const io = new IntersectionObserver((entries) => {
+      entries.forEach(e => {
+        if (e.isIntersecting) {
+          e.target.classList.add('visible');
+          io.unobserve(e.target);
+        }
+      });
+    }, { threshold: 0.1 });
+    reveals.forEach(el => io.observe(el));
+
+    // ── Nav solid on scroll ────────────────────────────────────
+    const nav = document.getElementById('nav');
+    const onScroll = () => {
+      nav.classList.toggle('is-solid', window.scrollY > 40);
+    };
+    window.addEventListener('scroll', onScroll, { passive: true });
+    onScroll();
+  </script>
+</body>
+</html>

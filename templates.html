@@ -1,0 +1,893 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Demo Templates — Custom eBay &amp; Web Designs | Rustjack Systems</title>
+  <meta name="description" content="Original eBay template demos and web design layouts from Rustjack Systems. Minimalist, vintage, fashion, tech, automotive, hardware, home goods. Different SEO styles for any category.">
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Demo Templates — Rustjack Systems">
+  <meta property="og:description" content="Original eBay template demos and web design layouts. Different SEO styles for any category.">
+  <meta property="og:url" content="https://buccaneersalvage.github.io/templates.html">
+
+  <link rel="icon" type="image/jpeg" href="assets/crest-rustjack-web.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=IBM+Plex+Mono:wght@400;500&family=Lora:ital,wght@0,400;0,600;1,400&family=Playfair+Display:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&family=DM+Serif+Display:ital@0;1&family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --void: #050403;
+      --void-2: #0d0b08;
+      --void-3: #131009;
+      --glass: rgba(255, 241, 184, 0.04);
+      --glass-edge: rgba(197, 160, 40, 0.18);
+      --gold: #C5A028;
+      --gold-bright: #e8c040;
+      --gold-dim: #8a6e1a;
+      --blood: #8B0000;
+      --blood-bright: #c0392b;
+      --parchment: #f9f4e8;
+      --parchment-dim: #c8bfa8;
+      --ink: #2C1810;
+      --mono: 'IBM Plex Mono', monospace;
+      --body: 'Outfit', system-ui, sans-serif;
+      --serif: 'Lora', Georgia, serif;
+      --display: 'Playfair Display', Georgia, serif;
+      --grotesk: 'Space Grotesk', system-ui, sans-serif;
+      --sans: 'Inter', system-ui, sans-serif;
+      --ease: cubic-bezier(0.22, 1, 0.36, 1);
+      --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+      --space-1: 0.25rem;
+      --space-2: 0.5rem;
+      --space-3: 0.75rem;
+      --space-4: 1rem;
+      --space-5: 1.5rem;
+      --space-6: 2rem;
+      --space-7: 3rem;
+      --space-8: 4.5rem;
+      --space-9: 7rem;
+      --gutter: clamp(1.1rem, 4vw, 2.5rem);
+      --max: 1280px;
+      --radius-sm: 10px;
+      --radius: 18px;
+      --radius-lg: 28px;
+      --text-xs: clamp(0.7rem, 0.65rem + 0.2vw, 0.8rem);
+      --text-sm: clamp(0.82rem, 0.78rem + 0.2vw, 0.95rem);
+      --text-base: clamp(0.95rem, 0.88rem + 0.35vw, 1.08rem);
+      --text-lg: clamp(1.1rem, 1rem + 0.5vw, 1.35rem);
+      --text-xl: clamp(1.4rem, 1.15rem + 1.1vw, 2.1rem);
+      --text-2xl: clamp(1.9rem, 1.35rem + 2.2vw, 3.4rem);
+      --text-hero: clamp(2.5rem, 1.5rem + 4.5vw, 5.5rem);
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; text-rendering: optimizeLegibility; }
+    body {
+      font-family: var(--body);
+      font-size: var(--text-base);
+      font-weight: 400;
+      line-height: 1.65;
+      color: var(--parchment);
+      background: var(--void);
+      min-height: 100dvh;
+      overflow-x: hidden;
+      -webkit-font-smoothing: antialiased;
+    }
+    img, svg { display: block; max-width: 100%; height: auto; }
+    a { color: inherit; text-decoration: none; }
+    button { font: inherit; border: 0; background: none; cursor: pointer; color: inherit; }
+    ul { list-style: none; }
+    :focus-visible { outline: 2px solid var(--gold-bright); outline-offset: 3px; }
+
+    .grain {
+      pointer-events: none; position: fixed; inset: 0; z-index: 90;
+      opacity: 0.038; mix-blend-mode: overlay;
+      background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+      background-size: 180px;
+    }
+    .orb {
+      pointer-events: none; position: fixed; border-radius: 50%; z-index: 0; contain: strict;
+    }
+    .orb-g { width: min(60vw, 580px); height: min(60vw, 580px); top: -12%; left: 50%; transform: translateX(-50%);
+      background: radial-gradient(circle, rgba(197, 160, 40, 0.45) 0%, transparent 68%);
+      filter: blur(80px); opacity: 0.5; }
+    .orb-b { width: min(45vw, 420px); height: min(45vw, 420px); bottom: 5%; right: -10%;
+      background: radial-gradient(circle, rgba(139, 0, 0, 0.3) 0%, transparent 68%);
+      filter: blur(90px); opacity: 0.6; }
+    .orb-s { width: min(40vw, 360px); height: min(40vw, 360px); top: 40%; left: -12%;
+      background: radial-gradient(circle, rgba(40, 90, 140, 0.18) 0%, transparent 68%);
+      filter: blur(100px); opacity: 0.5; }
+
+    .shell { position: relative; z-index: 1; width: min(var(--max), calc(100% - var(--gutter) * 2)); margin-inline: auto; }
+
+    /* NAV */
+    .nav {
+      position: sticky; top: 0; z-index: 50;
+      background: linear-gradient(180deg, rgba(5,4,3,0.97) 0%, rgba(5,4,3,0.85) 60%, transparent 100%);
+      border-bottom: 1px solid transparent;
+      backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px);
+    }
+    .nav.is-solid {
+      border-bottom-color: var(--glass-edge);
+      background: linear-gradient(180deg, rgba(5,4,3,0.96) 0%, rgba(5,4,3,0.82) 70%, transparent 100%);
+      box-shadow: inset 0 1px 0 rgba(197,160,40,0.12), 0 8px 32px rgba(0,0,0,0.5);
+    }
+    .nav-inner { display: flex; align-items: center; justify-content: space-between; gap: var(--space-4); padding: 0.9rem 0; }
+    .nav-brand { display: inline-flex; align-items: center; gap: 0.6rem; }
+    .nav-brand img { width: 34px; height: 34px; border-radius: 4px; border: 1px solid var(--gold-dim); }
+    .nav-brand span { font-weight: 600; font-size: var(--text-sm); letter-spacing: 0.06em; text-transform: uppercase; color: var(--gold); }
+    .nav-links { display: none; align-items: center; gap: var(--space-5); }
+    @media (min-width: 768px) { .nav-links { display: flex; } }
+    .nav-links a { font-size: var(--text-sm); font-weight: 500; color: var(--parchment-dim); transition: color 0.2s; }
+    .nav-links a:hover { color: var(--gold-bright); }
+    .nav-links a.active { color: var(--gold-bright); }
+    .nav-cta {
+      display: inline-flex; align-items: center; gap: 0.4rem;
+      padding: 0.45rem 1.1rem; background: var(--gold); color: var(--void);
+      font-weight: 700; font-size: var(--text-sm); letter-spacing: 0.04em;
+      border-radius: 6px; transition: background 0.2s, transform 0.15s;
+    }
+    .nav-cta:hover { background: var(--gold-bright); transform: translateY(-1px); }
+
+    /* HERO */
+    .hero {
+      min-height: 70dvh; display: grid; place-items: center;
+      padding: var(--space-9) var(--gutter) var(--space-7);
+      text-align: center; position: relative;
+    }
+    .hero-inner { max-width: 880px; }
+    .hero-eyebrow {
+      display: inline-flex; align-items: center; gap: 0.5rem;
+      font-family: var(--mono); font-size: var(--text-xs);
+      font-weight: 500; letter-spacing: 0.12em; text-transform: uppercase;
+      color: var(--gold); margin-bottom: var(--space-5);
+      padding: 0.3rem 0.9rem; border: 1px solid var(--gold-dim);
+      border-radius: 100px; background: rgba(197,160,40,0.06);
+    }
+    .hero-eyebrow::before {
+      content: ''; display: inline-block; width: 6px; height: 6px;
+      border-radius: 50%; background: var(--gold);
+      animation: pulse 2.4s ease-in-out infinite;
+    }
+    @keyframes pulse {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50% { opacity: 0.4; transform: scale(0.75); }
+    }
+    .hero-title {
+      font-family: var(--body); font-weight: 700;
+      font-size: var(--text-hero); line-height: 1.0;
+      letter-spacing: -0.02em; color: var(--parchment);
+      margin-bottom: var(--space-5);
+    }
+    .hero-title em { font-style: normal; color: var(--gold); }
+    .hero-sub {
+      font-size: var(--text-lg); color: var(--parchment-dim);
+      max-width: 660px; margin: 0 auto var(--space-6); line-height: 1.6;
+    }
+    .hero-sub strong { color: var(--parchment); font-weight: 600; }
+
+    .filter-bar {
+      display: flex; flex-wrap: wrap; gap: 0.5rem;
+      justify-content: center; margin-top: var(--space-6);
+    }
+    .filter-btn {
+      padding: 0.5rem 1.1rem; border: 1px solid var(--glass-edge);
+      background: transparent; color: var(--parchment-dim);
+      border-radius: 100px; font-size: var(--text-sm);
+      font-weight: 500; transition: all 0.2s;
+    }
+    .filter-btn:hover { color: var(--gold-bright); border-color: var(--gold-dim); }
+    .filter-btn.active { background: var(--gold); color: var(--void); border-color: var(--gold); }
+
+    /* SECTION */
+    .section { padding: var(--space-7) 0 var(--space-9); }
+    .section-head { max-width: 720px; margin-bottom: var(--space-7); }
+    .section-eyebrow {
+      font-family: var(--mono); font-size: var(--text-xs);
+      font-weight: 500; letter-spacing: 0.14em; text-transform: uppercase;
+      color: var(--gold); margin-bottom: var(--space-3);
+    }
+    .section-title {
+      font-size: var(--text-2xl); font-weight: 700;
+      line-height: 1.15; color: var(--parchment);
+      margin-bottom: var(--space-4);
+    }
+    .section-aside { font-size: var(--text-base); color: var(--parchment-dim); line-height: 1.7; }
+
+    /* TEMPLATE GRID */
+    .template-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(min(100%, 380px), 1fr));
+      gap: var(--space-5);
+    }
+    .template-card {
+      background: var(--glass); border: 1px solid var(--glass-edge);
+      border-radius: var(--radius); overflow: hidden;
+      transition: border-color 0.25s, transform 0.25s var(--ease-out);
+      display: flex; flex-direction: column;
+    }
+    .template-card:hover { border-color: var(--gold-dim); transform: translateY(-3px); }
+    .template-card.hidden { display: none; }
+    .template-preview {
+      background: #888; aspect-ratio: 4/5;
+      overflow: hidden; padding: 1rem; position: relative;
+    }
+    .template-preview-scroll {
+      width: 100%; height: 100%; overflow: hidden;
+      display: flex; align-items: flex-start; justify-content: center;
+    }
+    .template-preview-scroll > div { width: 540px; max-width: 100%; font-size: 0.65rem; }
+    .template-body { padding: var(--space-5); }
+    .template-tags { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-bottom: var(--space-3); }
+    .template-tag {
+      font-family: var(--mono); font-size: 0.65rem;
+      letter-spacing: 0.1em; text-transform: uppercase;
+      padding: 0.2rem 0.5rem; border-radius: 4px;
+      background: rgba(197,160,40,0.1); color: var(--gold);
+      border: 1px solid rgba(197,160,40,0.2);
+    }
+    .template-tag.cat { background: rgba(40,90,140,0.15); color: #6ba3d6; border-color: rgba(40,90,140,0.3); }
+    .template-tag.mood { background: rgba(139,0,0,0.15); color: #e06060; border-color: rgba(139,0,0,0.3); }
+    .template-title {
+      font-size: var(--text-lg); font-weight: 600;
+      color: var(--parchment); margin-bottom: var(--space-2);
+    }
+    .template-desc {
+      font-size: var(--text-sm); color: var(--parchment-dim);
+      line-height: 1.6; margin-bottom: var(--space-4);
+    }
+    .template-meta {
+      display: flex; flex-wrap: wrap; gap: var(--space-3);
+      font-family: var(--mono); font-size: var(--text-xs);
+      color: var(--parchment-dim);
+      padding-top: var(--space-3);
+      border-top: 1px solid var(--glass-edge);
+    }
+    .template-meta span { display: inline-flex; align-items: center; gap: 0.3rem; }
+    .template-meta strong { color: var(--gold); font-weight: 500; }
+
+    /* DIVIDER */
+    .divider {
+      display: flex; align-items: center; gap: var(--space-4);
+      margin: 0 auto var(--space-7); max-width: 480px;
+    }
+    .divider::before, .divider::after {
+      content: ''; flex: 1; height: 1px;
+      background: linear-gradient(90deg, transparent, var(--gold-dim));
+    }
+    .divider::after { background: linear-gradient(90deg, var(--gold-dim), transparent); }
+    .divider span {
+      font-family: var(--mono); font-size: var(--text-xs);
+      letter-spacing: 0.2em; text-transform: uppercase;
+      color: var(--gold-dim); white-space: nowrap;
+    }
+
+    /* DISCLAIMER BOX */
+    .disclaimer-box {
+      background: linear-gradient(135deg, rgba(197,160,40,0.04) 0%, rgba(139,0,0,0.04) 100%);
+      border: 1px solid var(--glass-edge);
+      border-left: 4px solid var(--gold-dim);
+      border-radius: var(--radius);
+      padding: var(--space-6);
+      margin: 0 0 var(--space-7);
+    }
+    .disclaimer-title {
+      display: flex; align-items: center; gap: 0.5rem;
+      font-family: var(--mono); font-size: var(--text-xs);
+      font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase;
+      color: var(--gold); margin-bottom: var(--space-3);
+    }
+    .disclaimer-title::before {
+      content: '⚠'; font-size: 1.1rem;
+    }
+    .disclaimer-text {
+      font-size: var(--text-sm);
+      color: var(--parchment-dim);
+      line-height: 1.7;
+    }
+    .disclaimer-text p { margin-bottom: var(--space-3); }
+    .disclaimer-text p:last-child { margin-bottom: 0; }
+    .disclaimer-text strong { color: var(--parchment); font-weight: 600; }
+
+    /* CTA */
+    .cta-band {
+      background: linear-gradient(135deg, rgba(197,160,40,0.08) 0%, rgba(139,0,0,0.06) 100%);
+      border: 1px solid var(--glass-edge);
+      border-radius: var(--radius-lg);
+      padding: var(--space-8) var(--space-6);
+      text-align: center; position: relative; overflow: hidden;
+    }
+    .cta-band::before {
+      content: ''; position: absolute; inset: 0;
+      background: radial-gradient(ellipse at center, rgba(197,160,40,0.08) 0%, transparent 70%);
+      pointer-events: none;
+    }
+    .cta-title {
+      font-size: var(--text-2xl); font-weight: 700;
+      color: var(--parchment); margin-bottom: var(--space-3);
+      position: relative;
+    }
+    .cta-sub {
+      font-size: var(--text-base); color: var(--parchment-dim);
+      max-width: 540px; margin: 0 auto var(--space-6); position: relative;
+    }
+    .btn {
+      display: inline-flex; align-items: center; gap: 0.5rem;
+      padding: 0.8rem 1.8rem; border-radius: 8px;
+      font-weight: 600; font-size: var(--text-base);
+      letter-spacing: 0.03em;
+      transition: transform 0.18s var(--ease-out), box-shadow 0.18s, background 0.18s;
+    }
+    .btn-primary {
+      background: var(--gold); color: var(--void);
+      box-shadow: 0 0 24px rgba(197,160,40,0.3), 0 4px 12px rgba(0,0,0,0.4);
+      position: relative;
+    }
+    .btn-primary:hover {
+      background: var(--gold-bright); transform: translateY(-2px);
+      box-shadow: 0 0 36px rgba(197,160,40,0.5), 0 8px 20px rgba(0,0,0,0.5);
+    }
+    .btn-outline {
+      background: transparent; color: var(--parchment);
+      border: 1px solid var(--glass-edge); position: relative;
+    }
+    .btn-outline:hover { border-color: var(--gold); color: var(--gold-bright); transform: translateY(-2px); }
+    .cta-actions { display: flex; flex-wrap: wrap; gap: var(--space-3); justify-content: center; position: relative; }
+
+    /* FOOTER */
+    .footer {
+      border-top: 1px solid var(--glass-edge);
+      padding: var(--space-7) 0 var(--space-6); margin-top: var(--space-9);
+    }
+    .footer-inner {
+      display: flex; flex-wrap: wrap; align-items: center;
+      justify-content: space-between; gap: var(--space-4);
+    }
+    .footer-brand { display: flex; align-items: center; gap: 0.6rem; }
+    .footer-brand img { width: 28px; height: 28px; border-radius: 4px; border: 1px solid var(--gold-dim); }
+    .footer-brand-name { font-weight: 600; font-size: var(--text-sm); color: var(--gold); }
+    .footer-copy { font-size: var(--text-xs); color: var(--parchment-dim); opacity: 0.6; text-align: center; }
+    .footer-links { display: flex; gap: var(--space-4); }
+    .footer-links a { font-size: var(--text-xs); color: var(--parchment-dim); transition: color 0.2s; }
+    .footer-links a:hover { color: var(--gold); }
+
+    /* REVEAL */
+    .reveal { opacity: 0; transform: translateY(24px); transition: opacity 0.7s var(--ease-out), transform 0.7s var(--ease-out); }
+    .reveal.visible { opacity: 1; transform: translateY(0); }
+    .reveal-delay-1 { transition-delay: 0.1s; }
+    .reveal-delay-2 { transition-delay: 0.2s; }
+    .reveal-delay-3 { transition-delay: 0.3s; }
+  </style>
+</head>
+<body>
+  <div class="grain" aria-hidden="true"></div>
+  <div class="orb orb-g" aria-hidden="true"></div>
+  <div class="orb orb-b" aria-hidden="true"></div>
+  <div class="orb orb-s" aria-hidden="true"></div>
+
+  <header class="nav" id="nav" role="banner">
+    <div class="nav-inner shell">
+      <a class="nav-brand" href="index.html">
+        <img src="assets/crest-rustjack-web.jpg" width="34" height="34" alt="BuccaneerSalvage crest">
+        <span>BuccaneerSalvage</span>
+      </a>
+      <nav class="nav-links" aria-label="Primary">
+        <a href="index.html">Home</a>
+        <a href="store.html">Store</a>
+        <a href="services.html">Services</a>
+        <a href="templates.html" class="active">Templates</a>
+        <a href="scrap.html">Scrap Removal</a>
+      </nav>
+      <a class="nav-cta" href="mailto:jollyroger1480@gmail.com?subject=Template%20Inquiry">
+        Pick one
+        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </a>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-inner">
+        <div class="hero-eyebrow reveal">
+          <span>Demo Gallery</span>
+          <span>·</span>
+          <span>Original Designs</span>
+          <span>·</span>
+          <span>Any Category</span>
+        </div>
+        <h1 class="hero-title reveal reveal-delay-1">
+          Custom templates<br>for <em>your</em> catalog
+        </h1>
+        <p class="hero-sub reveal reveal-delay-2">
+          <strong>8 original eBay and web templates</strong> designed from scratch. Different SEO styles, different aesthetics, different categories. Pick one or commission a fully custom build.
+        </p>
+        <div class="filter-bar reveal reveal-delay-3" id="filterBar">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="ebay">eBay Templates</button>
+          <button class="filter-btn" data-filter="web">Web Designs</button>
+          <button class="filter-btn" data-filter="fashion">Fashion</button>
+          <button class="filter-btn" data-filter="tech">Tech</button>
+          <button class="filter-btn" data-filter="vintage">Vintage / Home</button>
+          <button class="filter-btn" data-filter="auto">Automotive</button>
+          <button class="filter-btn" data-filter="jewelry">Jewelry</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- IMPORTANT DISCLAIMER -->
+    <section class="section" style="padding-top:var(--space-6); padding-bottom:0;">
+      <div class="shell">
+        <div class="disclaimer-box reveal">
+          <p class="disclaimer-title">What this service does — and does not do</p>
+          <div class="disclaimer-text">
+            <p>
+              <strong>Rustjack Systems provides design, automation, and data services</strong> for eBay sellers. The scope of every engagement is limited to: building listing templates, populating Item Specifics, producing structured fitment / specification data, and (with explicit OAuth permission) pushing changes to a seller's eBay account via the Trading API.
+            </p>
+            <p>
+              <strong>What we do not promise:</strong> we do not guarantee any specific level of sales, conversion rate, search rank, watch count, BSR, click-through rate, or any other commercial outcome. eBay's Cassini algorithm and buyer behavior are not under our control. Improved design, accurate data, and clean preflight compliance <em>may</em> improve visibility, but we will never promise they will.
+            </p>
+            <p>
+              <strong>We are not responsible for:</strong> data accuracy of third-party catalogs (FleetFilter, manufacturer catalogs, etc.) used as research sources; changes to eBay's HTML policies, active content rules, or category requirements after a listing is published; seller-side errors (wrong photos, typos in titles, mispriced items, missed returns); or any loss of business, fees, account standing, or disputes arising from listings we create or revise.
+            </p>
+            <p>
+              <strong>All content and design work is provided "as-is."</strong> By engaging Rustjack Systems, you agree that our liability is limited to the fees paid for the work, and that any dispute is governed by Pennsylvania law. Full terms: <a href="terms-service.html" style="color:var(--gold);text-decoration:underline;">terms-service.html</a>.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- DIVIDER -->
+    <div class="divider" aria-hidden="true"><span>eBay Templates</span></div>
+
+    <!-- EBAY TEMPLATES -->
+    <section class="section" id="ebayTemplates">
+      <div class="shell">
+        <div class="template-grid">
+
+          <!-- 1. Atelier Fashion -->
+          <article class="template-card reveal" data-categories="ebay fashion">
+            <div class="template-preview">
+              <div class="template-preview-scroll">
+                <div style="background:#fafaf7; font-family:'Lora',Georgia,serif; color:#1a1a1a; max-width:520px;">
+                  <div style="background:#1a1a1a; padding:10px 12px; text-align:center; border-bottom:1px solid #1a1a1a;">
+                    <div style="color:#fff; font-family:'Lora',serif; font-size:14px; letter-spacing:0.4em; text-transform:uppercase;">ATELIER</div>
+                    <div style="color:#888; font-size:7px; letter-spacing:0.2em; margin-top:3px; text-transform:uppercase;">—  EST. 2019  —</div>
+                  </div>
+                  <div style="background:#fafaf7; padding:14px;">
+                    <p style="margin:0 0 10px; font-family:'Inter',sans-serif; font-size:10px; color:#333; line-height:1.6;">Hand-loomed wool-cashmere scarf, ethically sourced from a small mill in northern Italy. Limited run — only 12 made this season.</p>
+                    <h3 style="font-family:'Lora',serif; color:#1a1a1a; font-size:11px; font-weight:600; margin:10px 0 5px; letter-spacing:0.02em;">Materials</h3>
+                    <ul style="margin:0 0 10px 14px; font-family:'Inter',sans-serif; font-size:9.5px; color:#333; line-height:1.7;">
+                      <li>70% merino wool, 30% cashmere</li>
+                      <li>Hand-fringed edges</li>
+                      <li>200 × 35 cm</li>
+                    </ul>
+                    <h3 style="font-family:'Lora',serif; color:#1a1a1a; font-size:11px; font-weight:600; margin:10px 0 5px; letter-spacing:0.02em;">Care</h3>
+                    <p style="font-family:'Inter',sans-serif; font-size:9.5px; color:#333; margin:0 0 10px; line-height:1.6;">Dry clean only. Store flat.</p>
+                    <h3 style="font-family:'Lora',serif; color:#1a1a1a; font-size:11px; font-weight:600; margin:10px 0 5px; letter-spacing:0.02em;">Shipping &amp; Returns</h3>
+                    <p style="font-family:'Inter',sans-serif; font-size:9.5px; color:#333; margin:0; line-height:1.6;">Ships in 1–2 business days via USPS. 30-day returns, original condition.</p>
+                    <div style="background:#1a1a1a; color:#fff; padding:8px; text-align:center; font-family:'Lora',serif; font-size:10px; margin-top:12px; letter-spacing:0.1em;">VIEW MORE FROM ATELIER</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="template-body">
+              <div class="template-tags">
+                <span class="template-tag">Editorial</span>
+                <span class="template-tag cat">Fashion / Apparel</span>
+                <span class="template-tag mood">Minimal</span>
+                <span class="template-tag">Lora Serif</span>
+              </div>
+              <h3 class="template-title">Atelier — Editorial Fashion</h3>
+              <p class="template-desc">Black header with letter-spaced serif. Cream body. Restrained, gallery-style copy. Built for indie fashion, handmade apparel, jewelry, and any category where brand story is the selling point. Three H3 sections, fast load.</p>
+              <div class="template-meta">
+                <span>Returns: <strong>30-day</strong></span>
+                <span>Style: <strong>Editorial</strong></span>
+                <span>SEO: <strong>3 headings</strong></span>
+              </div>
+            </div>
+          </article>
+
+          <!-- 2. Tech Spec Sheet -->
+          <article class="template-card reveal reveal-delay-1" data-categories="ebay tech">
+            <div class="template-preview">
+              <div class="template-preview-scroll">
+                <div style="background:#0e1116; font-family:'Inter',sans-serif; color:#e6e6e6; max-width:520px;">
+                  <div style="background:linear-gradient(180deg,#0e1116 0%,#1a1f2a 100%); padding:14px 12px; text-align:center; border-bottom:1px solid #00ff88;">
+                    <div style="display:inline-block; padding:3px 9px; background:rgba(0,255,136,0.08); border:1px solid #00ff88; border-radius:3px; font-family:'Space Grotesk',monospace; font-size:7px; letter-spacing:0.25em; color:#00ff88;">VERIFIED LISTING</div>
+                    <div style="color:#fff; font-family:'Space Grotesk',sans-serif; font-size:18px; font-weight:700; margin-top:8px; letter-spacing:0.05em;">PRECISION LABS T2</div>
+                    <div style="color:#888; font-size:8px; margin-top:3px; font-family:'Inter',sans-serif;">USB-C DAC · 32-bit / 384 kHz · THD+N 0.0005%</div>
+                  </div>
+                  <div style="padding:14px;">
+                    <div style="background:rgba(0,255,136,0.05); border:1px solid rgba(0,255,136,0.2); padding:8px 10px; margin-bottom:12px; font-family:'Space Grotesk',monospace; font-size:8.5px; color:#00ff88; line-height:1.5;">
+                      MODEL: PL-T2-2024<br>
+                      SERIAL PREFIX: T2-24XXXX<br>
+                      WARRANTY: 3 yr limited
+                    </div>
+                    <h3 style="font-family:'Space Grotesk',sans-serif; color:#00ff88; font-size:11px; font-weight:600; margin:10px 0 4px; letter-spacing:0.05em;">▌ SPECIFICATIONS</h3>
+                    <table style="width:100%; border-collapse:collapse; font-size:9.5px; color:#ccc;">
+                      <tr><td style="padding:3px 0; border-bottom:1px solid #222;">Frequency response</td><td style="padding:3px 0; text-align:right; border-bottom:1px solid #222;">20 Hz – 40 kHz</td></tr>
+                      <tr><td style="padding:3px 0; border-bottom:1px solid #222;">Output</td><td style="padding:3px 0; text-align:right; border-bottom:1px solid #222;">3.5 mm / RCA</td></tr>
+                      <tr><td style="padding:3px 0; border-bottom:1px solid #222;">Power</td><td style="padding:3px 0; text-align:right; border-bottom:1px solid #222;">USB-C bus-powered</td></tr>
+                      <tr><td style="padding:3px 0;">Weight</td><td style="padding:3px 0; text-align:right;">85 g</td></tr>
+                    </table>
+                    <h3 style="font-family:'Space Grotesk',sans-serif; color:#00ff88; font-size:11px; font-weight:600; margin:10px 0 4px; letter-spacing:0.05em;">▌ IN THE BOX</h3>
+                    <p style="font-size:9.5px; color:#ccc; margin:0;">1× PL-T2 unit · USB-C cable (1 m) · Quick start</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="template-body">
+              <div class="template-tags">
+                <span class="template-tag">Spec Sheet</span>
+                <span class="template-tag cat">Electronics / Tech</span>
+                <span class="template-tag mood">Modern</span>
+                <span class="template-tag">Data Table</span>
+              </div>
+              <h3 class="template-title">Spec Sheet — Tech / Electronics</h3>
+              <p class="template-desc">Dark background, mint-green accent, monospace. Built-in spec table format. Best for electronics, audio gear, tools with measurable specs, anything where buyers compare datasheets. Table pre-renders cleanly on mobile.</p>
+              <div class="template-meta">
+                <span>Returns: <strong>30-day</strong></span>
+                <span>Style: <strong>Data Sheet</strong></span>
+                <span>SEO: <strong>Table + 2 headings</strong></span>
+              </div>
+            </div>
+          </article>
+
+          <!-- 3. Vintage Home Goods -->
+          <article class="template-card reveal reveal-delay-2" data-categories="ebay vintage">
+            <div class="template-preview">
+              <div class="template-preview-scroll">
+                <div style="background:#f4ede0; font-family:'Playfair Display',Georgia,serif; color:#3d2f1f; max-width:520px; background-image:repeating-linear-gradient(0deg,transparent,transparent 18px,rgba(139,90,43,0.04) 18px,rgba(139,90,43,0.04) 19px);">
+                  <div style="background:#8b5a2b; padding:12px 14px; text-align:center; border-bottom:4px double #d4b683;">
+                    <div style="color:#f4ede0; font-family:'Playfair Display',serif; font-size:16px; font-style:italic;">The Carriage House</div>
+                    <div style="color:#d4b683; font-family:'Inter',sans-serif; font-size:7px; letter-spacing:0.3em; text-transform:uppercase; margin-top:3px;">— Vintage &amp; Estate Goods —</div>
+                  </div>
+                  <div style="padding:16px 14px;">
+                    <p style="margin:0 0 10px; font-family:'Inter',sans-serif; font-size:10px; color:#3d2f1f; line-height:1.7;">A lovely Victorian brass candlestick, circa 1880, recovered from a Pennsylvania estate. Solid cast brass with a beautiful aged patina. A true piece of history.</p>
+                    <h3 style="font-family:'Playfair Display',serif; color:#8b5a2b; font-size:12px; font-style:italic; margin:10px 0 5px;">Era &amp; Origin</h3>
+                    <p style="font-family:'Inter',sans-serif; font-size:9.5px; color:#3d2f1f; margin:0 0 10px; line-height:1.6;">Late Victorian, English, c. 1880. Marked on the underside with maker's stamp (partially legible).</p>
+                    <h3 style="font-family:'Playfair Display',serif; color:#8b5a2b; font-size:12px; font-style:italic; margin:10px 0 5px;">Dimensions</h3>
+                    <ul style="margin:0 0 10px 14px; font-family:'Inter',sans-serif; font-size:9.5px; color:#3d2f1f; line-height:1.6;">
+                      <li>Height: 11 inches (28 cm)</li>
+                      <li>Base diameter: 4 inches (10 cm)</li>
+                      <li>Weight: 1.4 lbs (640 g)</li>
+                    </ul>
+                    <h3 style="font-family:'Playfair Display',serif; color:#8b5a2b; font-size:12px; font-style:italic; margin:10px 0 5px;">Condition</h3>
+                    <p style="font-family:'Inter',sans-serif; font-size:9.5px; color:#3d2f1f; margin:0; line-height:1.6;">Excellent antique condition. Patina consistent with age. No dents, no repairs.</p>
+                    <div style="border-top:1px solid #8b5a2b; border-bottom:1px solid #8b5a2b; padding:8px; text-align:center; font-family:'Playfair Display',serif; font-style:italic; color:#8b5a2b; font-size:10px; margin-top:12px;">More from The Carriage House →</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="template-body">
+              <div class="template-tags">
+                <span class="template-tag">Vintage</span>
+                <span class="template-tag cat">Vintage / Home Goods</span>
+                <span class="template-tag mood">Heritage</span>
+                <span class="template-tag">Warm Brown</span>
+              </div>
+              <h3 class="template-title">The Carriage House — Vintage Estate</h3>
+              <p class="template-desc">Aged-paper texture, brown + gold + cream, Playfair Display italic headers. Best for antiques, estate jewelry, vintage decor, books, mid-century furniture. Restrained italic copy that respects the era of the items.</p>
+              <div class="template-meta">
+                <span>Returns: <strong>14-day</strong></span>
+                <span>Style: <strong>Vintage / Estate</strong></span>
+                <span>SEO: <strong>4 sections</strong></span>
+              </div>
+            </div>
+          </article>
+
+          <!-- 4. Hardware Spec -->
+          <article class="template-card reveal reveal-delay-3" data-categories="ebay auto">
+            <div class="template-preview">
+              <div class="template-preview-scroll">
+                <div style="background:#f5f5f0; font-family:'Inter',sans-serif; color:#1a1a1a; max-width:520px;">
+                  <div style="background:#1a1a1a; padding:10px 12px; text-align:center; border-bottom:3px solid #ff5e1a;">
+                    <div style="color:#ff5e1a; font-family:'Space Grotesk',sans-serif; font-size:15px; font-weight:700; letter-spacing:0.06em; text-transform:uppercase;">FORGE &amp; FLANGE</div>
+                    <div style="color:#888; font-size:7px; letter-spacing:0.25em; margin-top:3px; text-transform:uppercase;">HARDWARE · TOOLS · FASTENERS</div>
+                  </div>
+                  <div style="padding:14px;">
+                    <p style="margin:0 0 10px; font-size:10px; line-height:1.6;">Grade 8 hex cap screw, 3/8"-16 × 1-1/2" — zinc-plated, full thread, USA-made. Sold in packs of 25.</p>
+                    <h3 style="font-family:'Space Grotesk',sans-serif; font-size:11px; font-weight:600; margin:10px 0 5px; text-transform:uppercase; letter-spacing:0.05em;">Specs</h3>
+                    <table style="width:100%; border-collapse:collapse; font-size:9.5px; border:1px solid #ddd;">
+                      <tr><td style="padding:4px 6px; border-bottom:1px solid #ddd; background:#1a1a1a; color:#fff; font-weight:600;">Diameter</td><td style="padding:4px 6px; border-bottom:1px solid #ddd; text-align:right;">3/8" (M10 equiv)</td></tr>
+                      <tr><td style="padding:4px 6px; border-bottom:1px solid #ddd; background:#1a1a1a; color:#fff; font-weight:600;">Length</td><td style="padding:4px 6px; border-bottom:1px solid #ddd; text-align:right;">1-1/2" (38 mm)</td></tr>
+                      <tr><td style="padding:4px 6px; border-bottom:1px solid #ddd; background:#1a1a1a; color:#fff; font-weight:600;">Thread</td><td style="padding:4px 6px; border-bottom:1px solid #ddd; text-align:right;">16 TPI · UNC</td></tr>
+                      <tr><td style="padding:4px 6px; background:#1a1a1a; color:#fff; font-weight:600;">Grade</td><td style="padding:4px 6px; text-align:right;">8 (medium carbon)</td></tr>
+                    </table>
+                    <h3 style="font-family:'Space Grotesk',sans-serif; font-size:11px; font-weight:600; margin:10px 0 5px; text-transform:uppercase; letter-spacing:0.05em;">Pack</h3>
+                    <p style="font-size:9.5px; margin:0;">25 pieces · weight 1.1 lbs · bulk pricing available</p>
+                    <div style="background:#ff5e1a; color:#000; padding:8px; text-align:center; font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:10px; text-transform:uppercase; margin-top:12px; letter-spacing:0.05em;">Browse Forge &amp; Flange →</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="template-body">
+              <div class="template-tags">
+                <span class="template-tag">Spec Table</span>
+                <span class="template-tag cat">Hardware / Tools</span>
+                <span class="template-tag mood">Bold</span>
+                <span class="template-tag">Black + Orange</span>
+              </div>
+              <h3 class="template-title">Forge &amp; Flange — Hardware / Tools</h3>
+              <p class="template-desc">Black + safety-orange, Space Grotesk, alternating row table for instant spec scanning. Best for fasteners, hand tools, power tools, anything sold in standard sizes. Table adapts to 2, 3, 4, or 6 rows.</p>
+              <div class="template-meta">
+                <span>Returns: <strong>30-day</strong></span>
+                <span>Style: <strong>Spec Forward</strong></span>
+                <span>SEO: <strong>Table + 2 sections</strong></span>
+              </div>
+            </div>
+          </article>
+
+          <!-- 5. Jewelry Showcase -->
+          <article class="template-card reveal" data-categories="ebay jewelry">
+            <div class="template-preview">
+              <div class="template-preview-scroll">
+                <div style="background:#fff; font-family:'DM Serif Display',Georgia,serif; color:#1a1a1a; max-width:520px;">
+                  <div style="background:#fff; padding:14px 12px; text-align:center; border-bottom:1px solid #c9a86a;">
+                    <div style="font-family:'DM Serif Display',serif; font-style:italic; font-size:18px; color:#1a1a1a;">Mireille</div>
+                    <div style="color:#c9a86a; font-family:'Inter',sans-serif; font-size:7px; letter-spacing:0.4em; margin-top:4px; text-transform:uppercase;">Fine Jewelry · NYC</div>
+                  </div>
+                  <div style="padding:16px;">
+                    <p style="margin:0 0 12px; font-family:'Inter',sans-serif; font-size:10px; color:#444; line-height:1.7; font-style:italic; text-align:center;">"A whisper of gold, sized to wear every day."</p>
+                    <h3 style="font-family:'DM Serif Display',serif; font-size:12px; color:#1a1a1a; margin:10px 0 5px; text-align:center; font-style:italic;">The Piece</h3>
+                    <p style="font-family:'Inter',sans-serif; font-size:9.5px; color:#333; margin:0 0 10px; line-height:1.65; text-align:center;">14k solid gold huggie hoop, 10 mm inner diameter. Sold as a single earring or pair.</p>
+                    <h3 style="font-family:'DM Serif Display',serif; font-size:12px; color:#1a1a1a; margin:10px 0 5px; text-align:center; font-style:italic;">Details</h3>
+                    <ul style="margin:0 auto 10px; font-family:'Inter',sans-serif; font-size:9.5px; color:#333; line-height:1.7; list-style:none; text-align:center; padding:0;">
+                      <li>14k yellow gold · 2.1 g</li>
+                      <li>Hinged closure · 10 mm inner</li>
+                      <li>Hand-finished in NYC</li>
+                    </ul>
+                    <h3 style="font-family:'DM Serif Display',serif; font-size:12px; color:#1a1a1a; margin:10px 0 5px; text-align:center; font-style:italic;">Care</h3>
+                    <p style="font-family:'Inter',sans-serif; font-size:9.5px; color:#333; margin:0 0 12px; line-height:1.6; text-align:center;">Store dry. Polish with the included cloth. Avoid chlorine.</p>
+                    <div style="border-top:1px solid #c9a86a; border-bottom:1px solid #c9a86a; padding:8px; text-align:center; font-family:'DM Serif Display',serif; font-style:italic; color:#c9a86a; font-size:10px; letter-spacing:0.05em;">Shop the Mireille Collection</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="template-body">
+              <div class="template-tags">
+                <span class="template-tag">Luxury</span>
+                <span class="template-tag cat">Fine Jewelry</span>
+                <span class="template-tag mood">Editorial</span>
+                <span class="template-tag">Italics + Gold Rule</span>
+              </div>
+              <h3 class="template-title">Mireille — Fine Jewelry</h3>
+              <p class="template-desc">DM Serif Display italics, gold hairline rules, centered text. Best for fine jewelry, engagement rings, art glass, luxury watches, anything with a high price-per-gram story. Pull-quote at top is a buyer's first emotional anchor.</p>
+              <div class="template-meta">
+                <span>Returns: <strong>14-day</strong></span>
+                <span>Style: <strong>Luxury / Italics</strong></span>
+                <span>SEO: <strong>4 sections</strong></span>
+              </div>
+            </div>
+          </article>
+
+          <!-- 6. Plant / Home / Garden -->
+          <article class="template-card reveal reveal-delay-1" data-categories="ebay vintage">
+            <div class="template-preview">
+              <div class="template-preview-scroll">
+                <div style="background:#f7f3ec; font-family:'Inter',sans-serif; color:#2c3a2e; max-width:520px;">
+                  <div style="background:#3d5a3e; padding:14px 12px; text-align:center; border-bottom:4px solid #8b9b6c;">
+                    <div style="color:#f7f3ec; font-family:'Lora',serif; font-size:16px; font-weight:500; letter-spacing:0.04em;">Greenhouse No. 7</div>
+                    <div style="color:#8b9b6c; font-family:'Inter',sans-serif; font-size:7px; letter-spacing:0.3em; margin-top:3px; text-transform:uppercase;">Plants · Pots · Soil · Care</div>
+                  </div>
+                  <div style="padding:16px 14px;">
+                    <p style="margin:0 0 10px; font-size:10px; line-height:1.65;">A 6-inch pothos in a hand-thrown terracotta pot. Healthy root system, multiple trailing vines, ready to hang or place on a shelf.</p>
+                    <h3 style="font-family:'Lora',serif; color:#3d5a3e; font-size:12px; font-weight:600; margin:10px 0 5px;">What's in the pot</h3>
+                    <ul style="margin:0 0 10px 14px; font-size:9.5px; line-height:1.7;">
+                      <li>Epipremnum aureum (Golden Pothos)</li>
+                      <li>6" terracotta pot with drainage</li>
+                      <li>Well-draining mix, slow-release fertilizer</li>
+                    </ul>
+                    <h3 style="font-family:'Lora',serif; color:#3d5a3e; font-size:12px; font-weight:600; margin:10px 0 5px;">Light &amp; water</h3>
+                    <p style="font-size:9.5px; margin:0 0 10px; line-height:1.6;">Medium to bright indirect light. Water when the top inch of soil is dry — usually every 7–10 days. Mist occasionally for humidity.</p>
+                    <h3 style="font-family:'Lora',serif; color:#3d5a3e; font-size:12px; font-weight:600; margin:10px 0 5px;">Shipping</h3>
+                    <p style="font-size:9.5px; margin:0; line-height:1.6;">Ships Mon–Wed to avoid weekend delays. Bare-root or potted — your choice at checkout.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="template-body">
+              <div class="template-tags">
+                <span class="template-tag">Garden</span>
+                <span class="template-tag cat">Plants / Home</span>
+                <span class="template-tag mood">Soft</span>
+                <span class="template-tag">Forest Green</span>
+              </div>
+              <h3 class="template-title">Greenhouse No. 7 — Plants &amp; Garden</h3>
+              <p class="template-desc">Forest green + olive, soft Lora serif, calm instructional copy. Built for live plants, planters, garden tools, soil amendments, anything with care instructions. Shipping section flags the Mon-Wed ship window for live goods.</p>
+              <div class="template-meta">
+                <span>Returns: <strong>14-day</strong></span>
+                <span>Style: <strong>Soft / Garden</strong></span>
+                <span>SEO: <strong>4 sections</strong></span>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- DIVIDER -->
+    <div class="divider" aria-hidden="true"><span>Web Designs</span></div>
+
+    <!-- WEB TEMPLATES -->
+    <section class="section" id="webTemplates">
+      <div class="shell">
+        <div class="section-head reveal">
+          <p class="section-eyebrow">Site layouts</p>
+          <h2 class="section-title">Web design systems built to convert</h2>
+          <p class="section-aside">
+            Two original site directions. Pick one and I adapt it to your brand. All include mobile-responsive design, Lighthouse 95+ scores, single-page buy flow, and a build it in one weekend.
+          </p>
+        </div>
+
+        <div class="template-grid">
+
+          <!-- Web 1: Modern Boutique -->
+          <article class="template-card reveal" data-categories="web vintage">
+            <div class="template-preview" style="background:#f4ede0;">
+              <div class="template-preview-scroll">
+                <div style="font-family:'Lora',Georgia,serif; color:#3d2f1f; max-width:520px; padding:1rem; background:#f4ede0;">
+                  <div style="display:flex; align-items:center; justify-content:space-between; padding-bottom:8px; border-bottom:1px solid #8b5a2b;">
+                    <div style="font-family:'Playfair Display',serif; font-style:italic; font-size:12px; color:#3d2f1f;">Atelier Mireille</div>
+                    <div style="font-family:'Inter',sans-serif; font-size:7px; color:#8b5a2b; letter-spacing:0.2em; text-transform:uppercase;">Shop · Story · Care · Cart</div>
+                  </div>
+                  <div style="text-align:center; padding:30px 12px;">
+                    <div style="font-family:'Inter',sans-serif; font-size:7px; color:#8b5a2b; letter-spacing:0.3em; text-transform:uppercase; margin-bottom:10px;">Volume 1 · New Arrivals</div>
+                    <div style="font-family:'Playfair Display',serif; font-style:italic; font-size:24px; font-weight:400; line-height:1.15; color:#3d2f1f; margin-bottom:12px;">A small atelier<br>of quiet things.</div>
+                    <div style="font-family:'Inter',sans-serif; font-size:9px; color:#6b5840; line-height:1.7; margin-bottom:14px; max-width:280px; margin-left:auto; margin-right:auto;">14k gold · Sterling silver · Hand-finished in our Brooklyn studio since 2019.</div>
+                    <div style="display:inline-block; border:1px solid #8b5a2b; font-family:'Inter',sans-serif; font-size:8px; color:#8b5a2b; font-weight:500; letter-spacing:0.2em; text-transform:uppercase; padding:6px 14px;">View the Collection</div>
+                  </div>
+                  <div style="display:grid; grid-template-columns:1fr 1fr 1fr; gap:6px;">
+                    <div style="background:#fff; border:1px solid #d4b683; aspect-ratio:1; padding:6px; font-family:'Inter',sans-serif; font-size:7px; color:#3d2f1f;">14k Huggie</div>
+                    <div style="background:#fff; border:1px solid #d4b683; aspect-ratio:1; padding:6px; font-family:'Inter',sans-serif; font-size:7px; color:#3d2f1f;">Signet Ring</div>
+                    <div style="background:#fff; border:1px solid #d4b683; aspect-ratio:1; padding:6px; font-family:'Inter',sans-serif; font-size:7px; color:#3d2f1f;">Chain 18"</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="template-body">
+              <div class="template-tags">
+                <span class="template-tag">Editorial</span>
+                <span class="template-tag">Lora + Playfair</span>
+                <span class="template-tag cat">Jewelry / Boutique</span>
+                <span class="template-tag mood">Heritage</span>
+              </div>
+              <h3 class="template-title">Modern Boutique — Editorial Luxury</h3>
+              <p class="template-desc">For sellers with a brand story. Playfair Display italic headlines, Inter for body, warm cream + brown + gold palette. "Volume 1 · New Arrivals" issue-number system. Best for fine jewelry, vintage, art prints, and curated goods.</p>
+              <div class="template-meta">
+                <span>Type: <strong>Playfair + Inter</strong></span>
+                <span>Score: <strong>Lighthouse 98+</strong></span>
+                <span>Style: <strong>Editorial</strong></span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Web 2: Tech Hub -->
+          <article class="template-card reveal reveal-delay-1" data-categories="web tech">
+            <div class="template-preview" style="background:#0e1116;">
+              <div class="template-preview-scroll">
+                <div style="font-family:'Inter',sans-serif; color:#e6e6e6; max-width:520px; padding:1rem; background:#0e1116;">
+                  <div style="display:flex; align-items:center; justify-content:space-between; padding-bottom:8px; border-bottom:1px solid #1a1f2a;">
+                    <div style="font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:11px; color:#00ff88; letter-spacing:0.05em;">precision labs</div>
+                    <div style="font-family:'Inter',sans-serif; font-size:7px; color:#888;">Audio · Cable · Power · Support</div>
+                  </div>
+                  <div style="padding:30px 12px; border-bottom:1px solid #1a1f2a;">
+                    <div style="display:inline-block; padding:3px 8px; background:rgba(0,255,136,0.08); border:1px solid #00ff88; font-family:'Space Grotesk',monospace; font-size:7px; color:#00ff88; letter-spacing:0.25em;">NEW · T2 SERIES</div>
+                    <div style="font-family:'Inter',sans-serif; font-size:28px; font-weight:800; line-height:1; color:#fff; margin:10px 0 8px; letter-spacing:-0.02em;">Engineered for<br>quiet rooms.</div>
+                    <div style="font-family:'Inter',sans-serif; font-size:9px; color:#888; line-height:1.6; margin-bottom:14px; max-width:280px;">A USB-C DAC built for critical listening. Measured, not marketed.</div>
+                    <div style="display:flex; gap:6px;">
+                      <div style="background:#00ff88; color:#0e1116; font-family:'Inter',sans-serif; font-size:8px; font-weight:700; padding:7px 12px; text-transform:uppercase; letter-spacing:0.05em;">Buy T2</div>
+                      <div style="border:1px solid #333; color:#e6e6e6; font-family:'Inter',sans-serif; font-size:8px; font-weight:500; padding:7px 12px; text-transform:uppercase; letter-spacing:0.05em;">Read the measurements</div>
+                    </div>
+                  </div>
+                  <div style="padding-top:8px; font-family:'Space Grotesk',monospace; font-size:7.5px; color:#888;">
+                    <div style="display:flex; justify-content:space-between; padding:3px 0; border-bottom:1px solid #1a1f2a;"><span>THD+N</span><span style="color:#00ff88;">0.0005%</span></div>
+                    <div style="display:flex; justify-content:space-between; padding:3px 0; border-bottom:1px solid #1a1f2a;"><span>SNR</span><span style="color:#00ff88;">126 dB</span></div>
+                    <div style="display:flex; justify-content:space-between; padding:3px 0;"><span>Output</span><span style="color:#00ff88;">3.5 / RCA</span></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="template-body">
+              <div class="template-tags">
+                <span class="template-tag">Tech</span>
+                <span class="template-tag">Dark + Mint</span>
+                <span class="template-tag cat">Electronics / Tech</span>
+                <span class="template-tag mood">Modern</span>
+              </div>
+              <h3 class="template-title">Tech Hub — Electronics &amp; Gadgets</h3>
+              <p class="template-desc">Dark + mint accent, monospace + Inter, with stat callouts. "Engineered for quiet rooms." hero. For sellers of audio gear, computer parts, tools, anything where measurements beat marketing. Spec callouts on home page.</p>
+              <div class="template-meta">
+                <span>Type: <strong>Inter + Space Grotesk</strong></span>
+                <span>Score: <strong>Lighthouse 96+</strong></span>
+                <span>Style: <strong>Tech / Data</strong></span>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="section">
+      <div class="shell">
+        <div class="cta-band reveal">
+          <h2 class="cta-title">Pick a template. Or describe one.</h2>
+          <p class="cta-sub">
+            Tell me which template caught your eye, your category, and the look you want. I send back a working draft with your brand assets and one full sample listing filled in. You review before I push anything.
+          </p>
+          <div class="cta-actions">
+            <a href="mailto:jollyroger1480@gmail.com?subject=Template%20Pick&body=Hi%20Jules%2C%0A%0AI%27d%20like%20to%20use%20template%3A%20__%0A%0AFor%20this%20category%3A%20__%0A%0AAnything%20specific%20I%20need%3A%20__%0A%0A" class="btn btn-primary">
+              Pick a template
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </a>
+            <a href="terms-service.html" class="btn btn-outline">Read full terms</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="shell">
+      <div class="footer-inner">
+        <a class="footer-brand" href="index.html">
+          <img src="assets/crest-rustjack-web.jpg" width="28" height="28" alt="BuccaneerSalvage crest">
+          <span class="footer-brand-name">BuccaneerSalvage</span>
+        </a>
+        <p class="footer-copy">
+          © 2026 BuccaneerSalvage &nbsp;·&nbsp; Carbondale, PA &nbsp;·&nbsp; jollyroger1480@gmail.com
+        </p>
+        <nav class="footer-links" aria-label="Footer">
+          <a href="index.html">Home</a>
+          <a href="store.html">Store</a>
+          <a href="services.html">Services</a>
+          <a href="templates.html">Templates</a>
+          <a href="terms-service.html">Terms</a>
+        </nav>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    const filterBtns = document.querySelectorAll('.filter-btn');
+    const cards = document.querySelectorAll('.template-card');
+    filterBtns.forEach(btn => {
+      btn.addEventListener('click', () => {
+        const filter = btn.dataset.filter;
+        filterBtns.forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        cards.forEach(card => {
+          const cats = (card.dataset.categories || '').split(/\s+/);
+          const show = filter === 'all' || cats.includes(filter);
+          card.classList.toggle('hidden', !show);
+        });
+      });
+    });
+
+    const reveals = document.querySelectorAll('.reveal');
+    const io = new IntersectionObserver((entries) => {
+      entries.forEach(e => {
+        if (e.isIntersecting) {
+          e.target.classList.add('visible');
+          io.unobserve(e.target);
+        }
+      });
+    }, { threshold: 0.05 });
+    reveals.forEach(el => io.observe(el));
+
+    const nav = document.getElementById('nav');
+    const onScroll = () => nav.classList.toggle('is-solid', window.scrollY > 40);
+    window.addEventListener('scroll', onScroll, { passive: true });
+    onScroll();
+  </script>
+</body>
+</html>
