@@ -1,7 +1,7 @@
 {
-  "updated": "2026-08-28T17:45:51Z",
+  "updated": "2026-08-29T06:00:51Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 500,
+  "count": 503,
   "items": [
     {
       "id": "S4IZBA4AG65C6HI2ZDIRMSJR",
@@ -16704,6 +16704,59 @@
       "stock": 1
     },
     {
+      "id": "PUPCQZW42FGPILUYNP4FSAVN",
+      "name": "WIX 46138 Air Filter 1985-1990 GM Cars 2.0L 3.0L 3.1L NOS",
+      "price": 15.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/1a30c2a8d55476ea0ed6d0fe85d9e3c064debefa/original.jpeg",
+      "url": "https://square.link/u/n7wCt0Jt",
+      "category": "filters",
+      "checkout": true,
+      "variation_id": "CBL544T7HU2IGPZ6SWKWCGQG",
+      "part_numbers": [
+        "46138"
+      ],
+      "vehicles": [
+        "1985\u20131990 GM"
+      ],
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "medium",
+      "fitment": {
+        "part_numbers": [
+          "46138"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1985,
+            "year_to": 1990,
+            "make": "GM",
+            "model": "",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1985\u20131990 GM"
+        ],
+        "raw_compat_rows": 2,
+        "source": "ebay_listing",
+        "confidence": "medium",
+        "ebay_item_id": "398334713195",
+        "type": "Air Filter",
+        "brand": "WIX",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Filters"
+      },
+      "vehicle_count_raw": 2,
+      "ebay_item_id": "398334713195",
+      "ebay_type": "Air Filter",
+      "ebay_brand": "WIX",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Filters",
+      "stock": 1,
+      "interchange": []
+    },
+    {
       "id": "MM5FBNONBXA3P5NWFODIIYWO",
       "name": "WIX 46144 Air Filter NOS 97-04 Corvette 5.7",
       "price": 19.99,
@@ -21632,7 +21685,6 @@
       "category": "ignition",
       "checkout": true,
       "variation_id": "V2FKJSCBXCPPQ6ID4JUILOP7",
-      "stock": 1,
       "part_numbers": [
         "175-5866"
       ],
@@ -21648,11 +21700,6 @@
       "vehicles": [
         "1980\u20131994 Subaru"
       ],
-      "vehicle_count_raw": 2,
-      "ebay_item_id": "398332908412",
-      "ebay_type": "Spark Plug Wire Set",
-      "ebay_brand": "Beck Arnley",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Wires & Coil Boots",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "medium",
       "fitment": {
@@ -21690,7 +21737,13 @@
         "type": "Spark Plug Wire Set",
         "brand": "Beck Arnley",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Wires & Coil Boots"
-      }
+      },
+      "vehicle_count_raw": 2,
+      "ebay_item_id": "398332908412",
+      "ebay_type": "Spark Plug Wire Set",
+      "ebay_brand": "Beck Arnley",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Wires & Coil Boots",
+      "stock": 1
     },
     {
       "id": "IZDFR5RUM4VNNUHYU4ECMN7J",
@@ -23522,19 +23575,12 @@
       "category": "ignition",
       "checkout": true,
       "variation_id": "PMUO5DEKI2FOFIUQTZ7CX3WL",
-      "stock": 1,
       "part_numbers": [
         "780007"
       ],
-      "interchange": [],
       "vehicles": [
         "1978\u20131980 Chevrolet C10"
       ],
-      "vehicle_count_raw": 2,
-      "ebay_item_id": "398332877552",
-      "ebay_type": "Spark Plug Wire Set",
-      "ebay_brand": "LaSalle",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Wires & Coil Boots",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "medium",
       "fitment": {
@@ -23564,7 +23610,14 @@
         "type": "Spark Plug Wire Set",
         "brand": "LaSalle",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Wires & Coil Boots"
-      }
+      },
+      "vehicle_count_raw": 2,
+      "ebay_item_id": "398332877552",
+      "ebay_type": "Spark Plug Wire Set",
+      "ebay_brand": "LaSalle",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Wires & Coil Boots",
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "XM7DQZYPTRBMYGFIKUXKZHL2",
@@ -34325,22 +34378,15 @@
       "category": "driveline",
       "checkout": true,
       "variation_id": "HA3WEORVWEYNCINARODEGUGV",
-      "stock": 1,
       "part_numbers": [
         "CV7451"
       ],
-      "interchange": [],
       "vehicles": [
         "1993\u20131994 Ford Taurus",
         "1993\u20131994 Ford Tempo",
         "1993\u20131994 Mercury Sable",
         "1993\u20131994 Mercury Topaz"
       ],
-      "vehicle_count_raw": 60,
-      "ebay_item_id": "398332880123",
-      "ebay_type": "CV Joint Boot Kit",
-      "ebay_brand": "Moog",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:CV Joints, Boots & Parts",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -34403,7 +34449,14 @@
         "type": "CV Joint Boot Kit",
         "brand": "Moog",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:CV Joints, Boots & Parts"
-      }
+      },
+      "vehicle_count_raw": 60,
+      "ebay_item_id": "398332880123",
+      "ebay_type": "CV Joint Boot Kit",
+      "ebay_brand": "Moog",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:CV Joints, Boots & Parts",
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "5OSU7K3THNBB3QREL3AVIFMF",
@@ -42438,6 +42491,119 @@
       "ebay_brand": "Gates",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Fuel Tank Caps",
       "stock": 1
+    },
+    {
+      "id": "SSJY65PWX6TCNM5WQLVBXVXY",
+      "name": "Gates 31742 Fuel Tank Cap NOS 1972-1980 Chevy GMC Dodge C/K 5.0L 5.7L 6.6L",
+      "price": 6.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/71afbec48ca4407f9e6a92f645ced630a040e09a/original.jpeg",
+      "url": "https://square.link/u/Gy5DKAMb",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "ODQ4EXAIWJBAABGEGBA2N5WL",
+      "part_numbers": [
+        "31742"
+      ],
+      "vehicles": [
+        "1972\u20131974 Chevrolet C10 Pickup",
+        "1973\u20131978 Chevrolet C10 Suburban",
+        "1972\u20131974 Chevrolet C20 Pickup",
+        "1972\u20131974 Chevrolet K10 Pickup",
+        "1972\u20131974 Chevrolet K20 Pickup",
+        "1972\u20131980 Dodge C"
+      ],
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "31742"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1972,
+            "year_to": 1974,
+            "make": "Chevrolet",
+            "model": "C10 Pickup",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1973,
+            "year_to": 1978,
+            "make": "Chevrolet",
+            "model": "C10 Suburban",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1972,
+            "year_to": 1974,
+            "make": "Chevrolet",
+            "model": "C20 Pickup",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1972,
+            "year_to": 1974,
+            "make": "Chevrolet",
+            "model": "K10 Pickup",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1972,
+            "year_to": 1974,
+            "make": "Chevrolet",
+            "model": "K20 Pickup",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1972,
+            "year_to": 1980,
+            "make": "Dodge",
+            "model": "C",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1972\u20131974 Chevrolet C10 Pickup",
+          "1973\u20131978 Chevrolet C10 Suburban",
+          "1972\u20131974 Chevrolet C20 Pickup",
+          "1972\u20131974 Chevrolet K10 Pickup",
+          "1972\u20131974 Chevrolet K20 Pickup",
+          "1972\u20131980 Dodge C"
+        ],
+        "raw_compat_rows": 126,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398335438347",
+        "type": "Fuel Tank Cap",
+        "brand": "Gates",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Fuel Tanks & Filler Necks"
+      },
+      "vehicle_count_raw": 126,
+      "ebay_item_id": "398335438347",
+      "ebay_type": "Fuel Tank Cap",
+      "ebay_brand": "Gates",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Fuel Tanks & Filler Necks",
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "OCD7BRTIV5ZPOAHYO234ILJF",
@@ -52792,6 +52958,119 @@
       "stock": 1
     },
     {
+      "id": "EMUYTWA6VOHICLPMCZSOZ4EV",
+      "name": "Standard LX-338 Ignition Module NOS 3.0 3.8 V6 86-88 Grand Am",
+      "price": 79.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/69f5d724b281a3a59e4c923e0b811038f544682b/original.jpeg",
+      "url": "https://square.link/u/hocCZcJL",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "YAC5KLLD2CBE4JCELSBD276A",
+      "stock": 1,
+      "part_numbers": [
+        "LX-338",
+        "1989533, DR143, TP400, CBE100"
+      ],
+      "interchange": [
+        "24503624",
+        "25526449",
+        "19260720",
+        "D1996"
+      ],
+      "vehicles": [
+        "1986\u20131988 Buick Century",
+        "1986\u20131988 Buick Skylark",
+        "1986\u20131987 Buick Somerset",
+        "1986\u20131987 Oldsmobile Calais",
+        "1986\u20131987 Pontiac Grand Am"
+      ],
+      "vehicle_count_raw": 57,
+      "ebay_item_id": "398336019310",
+      "ebay_type": "Ignition Control Module",
+      "ebay_brand": "Standard",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Modules",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "LX-338",
+          "1989533, DR143, TP400, CBE100"
+        ],
+        "interchange": [
+          "24503624",
+          "25526449",
+          "19260720",
+          "D1996"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1986,
+            "year_to": 1988,
+            "make": "Buick",
+            "model": "Century",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1986,
+            "year_to": 1988,
+            "make": "Buick",
+            "model": "Skylark",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1986,
+            "year_to": 1987,
+            "make": "Buick",
+            "model": "Somerset",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1986,
+            "year_to": 1987,
+            "make": "Oldsmobile",
+            "model": "Calais",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1986,
+            "year_to": 1987,
+            "make": "Pontiac",
+            "model": "Grand Am",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1986\u20131988 Buick Century",
+          "1986\u20131988 Buick Skylark",
+          "1986\u20131987 Buick Somerset",
+          "1986\u20131987 Oldsmobile Calais",
+          "1986\u20131987 Pontiac Grand Am"
+        ],
+        "raw_compat_rows": 57,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398336019310",
+        "type": "Ignition Control Module",
+        "brand": "Standard",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Modules"
+      }
+    },
+    {
       "id": "5ELRARW5LXQ55KZS7CWDW2SE",
       "name": "Standard Motor Products VR166T Voltage Regulator NOS 65-85 C/K F-Series",
       "price": 39.99,
@@ -57021,5 +57300,5 @@
       "stock": 1
     }
   ],
-  "fitment_built": "2026-08-28T17:45:51Z"
+  "fitment_built": "2026-08-29T06:00:51Z"
 }
