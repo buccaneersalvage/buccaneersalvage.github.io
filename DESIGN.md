@@ -1,7 +1,7 @@
 # BuccaneerSalvage — DESIGN.md (source of truth)
 
 > **Do not redesign the store/hub from scratch.**  
-> Live system is already cinematic maritime luxury / near god-mode.  
+> Live system is already cinematic maritime luxury.  
 > Any new artifact must **extend** this contract, not invent Bebas/Inter/purple SaaS.
 
 ## Product identity
@@ -21,7 +21,7 @@
 **Cinematic maritime luxury** — void black, brand gold foil, parchment type, glass edges, film grain.  
 Not: generic AI landing, Bebas Neue posters, purple gradients, soft glassmorphism SaaS cards.
 
-## Tokens (from `styles.css` godmode4)
+## Tokens (from `styles.css`)
 
 ### Color
 - Gold: `#c5a028` · bright `#f0d078` · foil top `#fff1b8` · mid `#d4af37` · deep `#7a5a12`
@@ -69,7 +69,7 @@ Do not substitute stock pirate clipart.
 
 ## Bad OD prompts
 
-- “Build a landing page for BuccaneerSalvage” (competes with god-mode hub/store)
+- “Build a landing page for BuccaneerSalvage” (competes with the live hub/store)
 - “Modern SaaS redesign of the store”
 - Any default brutalism / Inter / purple template
 
@@ -77,4 +77,4 @@ Do not substitute stock pirate clipart.
 
 - CSS: `~/sites/buccaneersalvage-hub/styles.css`
 - Hub: `index.html` · Store: `store.html` · Videos: `videos.html`
-- Reports: `reviews/` (historical). Implementation reports were stripped from the repo.
+- Implementation / arch-review notes are not in this public repo.

@@ -1,7 +1,7 @@
 # NOT HONORED BY GITHUB PAGES — use HTML <meta http-equiv> CSP / nosniff / referrer.
 # Kept as documentation for a future host (Cloudflare Pages / Netlify) that supports _headers.
 # Browsers ignore frame-ancestors / X-Frame-Options in <meta>; only HTTP headers clickjack.
-# Arch-review 2026-08-08: do not assume this file applies until DNS moves off raw github.io.
+# Do not assume this file applies until DNS moves off raw github.io.
 
 
 /*
