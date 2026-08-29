@@ -77,4 +77,4 @@ Do not substitute stock pirate clipart.
 
 - CSS: `~/sites/buccaneersalvage-hub/styles.css`
 - Hub: `index.html` · Store: `store.html` · Videos: `videos.html`
-- Reports: `IMPLEMENT-REPORT-HUB-GODMODE-SEO.md`
+- Reports: `reviews/` (historical). Implementation reports were stripped from the repo.
