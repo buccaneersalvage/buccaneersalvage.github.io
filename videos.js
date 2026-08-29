@@ -1,5 +1,5 @@
         /**
-         * Dark Fleet - Music / Comedy toggle (no second page, no DOM rebuild).
+         * Dark Fleet: Music / Comedy toggle (no second page, no DOM rebuild).
          * Perf: dual prebuilt panels + dual tickers, WAAPI px marquee, no backdrop-filter.
          * Catalog: #videos-data (kind). Refresh: update-dark-fleet-videos
          */

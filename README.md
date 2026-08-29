@@ -14,7 +14,7 @@ Premium static hub. Stack: `index.html`, `styles.css`, `main.js`, `assets/`.
 | Cash App | https://cash.app/$jollyroger1480 |
 | Ukiri warning | https://buccaneersalvage.github.io/ukiri/ |
 
-Only live host: **buccaneersalvage.github.io**. Old InfinityFree host deleted — never link it.  
+Only live host: **buccaneersalvage.github.io**. Old InfinityFree host deleted - never link it.  
 Old `jollyroger1480.github.io` is **deleted (404)** — only `buccaneersalvage.github.io`.
 
 ## Deploy

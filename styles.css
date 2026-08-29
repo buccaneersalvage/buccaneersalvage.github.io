@@ -1860,7 +1860,7 @@ ul { list-style: none; }
   color: var(--parchment-light, #eee4d4);
 }
 
-/* ── PLP: facets + toolbar + List.js pager (commerce-ui inspired) ─ */
+/* ── PLP facets + toolbar + List.js pager (commerce-ui inspired) ─ */
 .st-listjs { max-width: 1200px; }
 
 .st-result-meta {

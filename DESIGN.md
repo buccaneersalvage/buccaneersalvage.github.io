@@ -77,4 +77,4 @@ Do not substitute stock pirate clipart.
 
 - CSS: `~/sites/buccaneersalvage-hub/styles.css`
 - Hub: `index.html` · Store: `store.html` · Videos: `videos.html`
-- Implementation / arch-review notes are not in this public repo.
+- Implementation notes are not in this public repo.

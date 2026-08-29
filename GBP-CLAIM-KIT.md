@@ -1,6 +1,6 @@
 # Google Business Profile - BuccaneerSalvage (claim kit)
 
-Google **cannot** create a live GBP from this PC without your Google login + phone verification.  
+Google **cannot** create a live GBP from this PC without your Google login and phone verification.  
 Fill the Business Profile form with the fields below. Hub already matches this NAP after deploy.
 
 **Create / manage:** https://business.google.com/  

@@ -4,7 +4,7 @@
   /**
    * PDP media: thumb swap, click-to-zoom lightbox + pinch.
    * Cart lives in main.js.
-   * Progressive enhancement - without JS the hero photo still renders.
+   * Progressive enhancement: without JS the hero photo still renders.
    */
 
   function isSafeImageSrc(u) {
