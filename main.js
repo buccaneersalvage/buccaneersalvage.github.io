@@ -605,6 +605,15 @@
   const EMAIL_HREF = "mailto:jollyroger1480@gmail.com";
   const EMAIL_LINK = "<a href=\"" + EMAIL_HREF + "\">" + EMAIL + "</a>";
   const PHONE_LINK = "<a href=\"" + PHONE_HREF + "\">" + PHONE + "</a>";
+  const PAGE = (location.pathname.split("/").pop() || "index.html").toLowerCase();
+  const PHONE_OK = PAGE === "scrap.html" || PAGE === "map.html";
+  const SCRAP_HINT = PHONE_OK
+    ? "see <a href=\"/scrap.html\">Scrap Removal</a> or call " + PHONE_LINK
+    : "see <a href=\"/scrap.html\">Scrap Removal</a>";
+  const CONTACT_SCRAP = PHONE_OK ? PHONE_LINK : "<a href=\"/scrap.html\">Scrap Removal</a>";
+  const ASK_SUB = PHONE_OK
+    ? "Basic answers. Call if you need a person."
+    : "Basic answers. Email if you need a person.";
 
   function normalize(text) {
     return String(text || "")
@@ -657,8 +666,9 @@
         "pick up scrap",
       ],
       html:
-        "Free scrap metal haul by appointment. Junk removal and e-waste are paid. Drop-off is cheaper than pickup. See <a href=\"/scrap.html\">Scrap Removal</a> or call " +
-        PHONE_LINK +
+        "Free scrap metal haul by appointment. Junk removal and e-waste are paid. Drop-off is cheaper than pickup. " +
+        SCRAP_HINT.charAt(0).toUpperCase() +
+        SCRAP_HINT.slice(1) +
         ".",
     },
     {
@@ -668,8 +678,8 @@
       html:
         "Local parts pickup at 12 Beech St, Carbondale, PA 18407, by appointment. Email " +
         EMAIL_LINK +
-        " to set a time. Scrap or junk: see <a href=\"/scrap.html\">Scrap Removal</a> or call " +
-        PHONE_LINK +
+        " to set a time. Scrap or junk: " +
+        SCRAP_HINT +
         ".",
     },
     {
@@ -679,8 +689,8 @@
       html:
         "By appointment. Store questions: email " +
         EMAIL_LINK +
-        ". Scrap or junk: see <a href=\"/scrap.html\">Scrap Removal</a> or call " +
-        PHONE_LINK +
+        ". Scrap or junk: " +
+        SCRAP_HINT +
         ".",
     },
     {
@@ -720,7 +730,7 @@
         "Store and listings: " +
         EMAIL_LINK +
         ". Scrap or junk: " +
-        PHONE_LINK +
+        CONTACT_SCRAP +
         ". 12 Beech St, Carbondale, PA 18407.",
     },
   ];
@@ -731,8 +741,8 @@
     html:
       "I am a basic helper. Email " +
       EMAIL_LINK +
-      ". Scrap or junk: see <a href=\"/scrap.html\">Scrap Removal</a> or call " +
-      PHONE_LINK +
+      ". Scrap or junk: " +
+      SCRAP_HINT +
       ".",
   };
 
@@ -764,7 +774,7 @@
       '<div class="buc-ask-panel" id="bucAskPanel" hidden>' +
       '<div class="buc-ask-head">' +
       '<div><p class="buc-ask-title">Ask BuccaneerSalvage</p>' +
-      '<p class="buc-ask-sub">Basic answers. Call if you need a person.</p></div>' +
+      '<p class="buc-ask-sub">' + ASK_SUB + "</p></div>" +
       '<button type="button" class="buc-ask-close" id="bucAskClose" aria-label="Close">×</button>' +
       "</div>" +
       '<div class="buc-ask-chips" id="bucAskChips">' +
