@@ -1,6 +1,7 @@
         /**
-         * Dark Fleet: Music / Comedy toggle (no second page, no DOM rebuild).
+         * Dark Fleet — Music ↔ Comedy toggle (no second page, no DOM rebuild).
          * Perf: dual prebuilt panels + dual tickers, WAAPI px marquee, no backdrop-filter.
+         * Free-agent pass 2026-08-03: no toggle img thrash, resize guard, IO cache, will-change on.
          * Catalog: #videos-data (kind). Refresh: update-dark-fleet-videos
          */
         (() => {
