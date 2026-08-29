@@ -1061,7 +1061,7 @@ def main() -> None:
   <script type="application/ld+json">{schema_json}</script>
   <script type="application/ld+json">{crumbs_json}</script>
   <script src="../pdp-gallery.js?v=c0683cc878" integrity="sha384-Nj6Y6bFnU9x3YJ9AyAWSOJX+uvPDgCk5a/sSqAuEm5Q4zqfdhyfQMQg8SrGb8Goq" defer></script>
-  <script src="../main.js?v=ed80dc787c" integrity="sha384-0oGJrYYQ3MSZYBKQ/wRKU6xb9ompdfF36lG0mPhCY4RpTBJdrsRYaWkWQSBRf+ZW" defer></script>
+  <script src="../main.js?v=d2b01d3e10" integrity="sha384-XOu6RKVIgsjNAtMHMrdO8Dx+5zFBVHuM1jmsG6Q2tvbkQhLkVKInexC2auoaccQA" defer></script>
 </head>
 <body class="page-item">
   <a class="skip-link" href="#main">Skip to content</a>

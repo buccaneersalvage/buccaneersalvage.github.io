@@ -602,6 +602,9 @@
   const PHONE = "(570) 468-2901";
   const PHONE_HREF = "tel:+15704682901";
   const EMAIL = "jollyroger1480@gmail.com";
+  const EMAIL_HREF = "mailto:jollyroger1480@gmail.com";
+  const EMAIL_LINK = "<a href=\"" + EMAIL_HREF + "\">" + EMAIL + "</a>";
+  const PHONE_LINK = "<a href=\"" + PHONE_HREF + "\">" + PHONE + "</a>";
 
   function normalize(text) {
     return String(text || "")
@@ -616,23 +619,13 @@
       id: "dispute",
       escalate: true,
       keys: ["dispute", "attorney", "lawyer", "lawsuit", "legal action"],
-      html:
-        "We will review this. Please call or text <a href=\"" +
-        PHONE_HREF +
-        "\">" +
-        PHONE +
-        "</a>.",
+      html: "We will review this. Please email " + EMAIL_LINK + ".",
     },
     {
       id: "damage",
       escalate: true,
       keys: ["damaged", "broken", "defect", "crushed", "wrong item"],
-      html:
-        "Sorry that happened. Call or text <a href=\"" +
-        PHONE_HREF +
-        "\">" +
-        PHONE +
-        "</a> and we will sort it.",
+      html: "Sorry that happened. Email " + EMAIL_LINK + " and we will sort it.",
     },
     {
       id: "order",
@@ -646,11 +639,9 @@
         "cancel my order",
       ],
       html:
-        "This chat cannot look up orders. Bought here: call or text <a href=\"" +
-        PHONE_HREF +
-        "\">" +
-        PHONE +
-        "</a>. Bought on eBay: message that listing.",
+        "This chat cannot look up orders. Bought here: email " +
+        EMAIL_LINK +
+        ". Bought on eBay: message that listing.",
     },
     {
       id: "scrap",
@@ -666,33 +657,31 @@
         "pick up scrap",
       ],
       html:
-        "Free scrap metal haul by appointment. Junk removal and e-waste are paid. Drop-off is cheaper than pickup. See <a href=\"/scrap.html\">Scrap Removal</a> or call <a href=\"" +
-        PHONE_HREF +
-        "\">" +
-        PHONE +
-        "</a>.",
+        "Free scrap metal haul by appointment. Junk removal and e-waste are paid. Drop-off is cheaper than pickup. See <a href=\"/scrap.html\">Scrap Removal</a> or call " +
+        PHONE_LINK +
+        ".",
     },
     {
       id: "pickup",
       escalate: false,
       keys: ["pickup", "pick up", "pick it up", "come get", "come by", "appointment"],
       html:
-        "Local pickup at 12 Beech St, Carbondale, PA 18407, by appointment. Call or text <a href=\"" +
-        PHONE_HREF +
-        "\">" +
-        PHONE +
-        "</a>.",
+        "Local parts pickup at 12 Beech St, Carbondale, PA 18407, by appointment. Email " +
+        EMAIL_LINK +
+        " to set a time. Scrap or junk: see <a href=\"/scrap.html\">Scrap Removal</a> or call " +
+        PHONE_LINK +
+        ".",
     },
     {
       id: "hours",
       escalate: false,
       keys: ["hours", "are you open", "when are you open", "business hours"],
       html:
-        "By appointment. Call or text <a href=\"" +
-        PHONE_HREF +
-        "\">" +
-        PHONE +
-        "</a>.",
+        "By appointment. Store questions: email " +
+        EMAIL_LINK +
+        ". Scrap or junk: see <a href=\"/scrap.html\">Scrap Removal</a> or call " +
+        PHONE_LINK +
+        ".",
     },
     {
       id: "shipping",
@@ -712,11 +701,9 @@
       escalate: false,
       keys: ["will this fit", "fits", "compatible", "will this work", "year make"],
       html:
-        "Check the product page for fitment. If you are unsure, call or text <a href=\"" +
-        PHONE_HREF +
-        "\">" +
-        PHONE +
-        "</a> with the year, make, model, and part.",
+        "Check the product page for fitment. If you are unsure, email " +
+        EMAIL_LINK +
+        " with the year, make, model, and part.",
     },
     {
       id: "pay",
@@ -730,15 +717,11 @@
       escalate: false,
       keys: ["phone", "call", "text", "email", "address", "where are you"],
       html:
-        "<a href=\"" +
-        PHONE_HREF +
-        "\">" +
-        PHONE +
-        "</a> · <a href=\"mailto:" +
-        EMAIL +
-        "\">" +
-        EMAIL +
-        "</a> · 12 Beech St, Carbondale, PA 18407.",
+        "Store and listings: " +
+        EMAIL_LINK +
+        ". Scrap or junk: " +
+        PHONE_LINK +
+        ". 12 Beech St, Carbondale, PA 18407.",
     },
   ];
 
@@ -746,15 +729,11 @@
     id: "other",
     escalate: true,
     html:
-      "I am a basic helper. Call or text <a href=\"" +
-      PHONE_HREF +
-      "\">" +
-      PHONE +
-      "</a>, or email <a href=\"mailto:" +
-      EMAIL +
-      "\">" +
-      EMAIL +
-      "</a>.",
+      "I am a basic helper. Email " +
+      EMAIL_LINK +
+      ". Scrap or junk: see <a href=\"/scrap.html\">Scrap Removal</a> or call " +
+      PHONE_LINK +
+      ".",
   };
 
   function classify(text) {
