@@ -27,6 +27,8 @@ ASSETS = (
     "templates.js",
     "terms-service.css",
     "terms-service.js",
+    "templates-example.css",
+    "templates-example.js",
     "assets/fonts.css",
     "assets/vendor/list.min.js",
     "assets/redirect-store.js",

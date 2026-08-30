@@ -31,6 +31,7 @@
     <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='75' font-size='75'>🎬</text></svg>">
     <title>The Dark Fleet — Music &amp; Comedy | Cap'n Jules the Rustjack</title>
     <link rel="preconnect" href="https://img.youtube.com" crossorigin>
+    <link rel="preload" as="image" href="https://img.youtube.com/vi/3_pLNUtw-_M/hqdefault.jpg" fetchpriority="high">
     <link rel="preload" href="assets/fonts.css?v=d1b92d3ff4" integrity="sha384-IDnmxIHyfCaSAssmrqXZbMSqgbRm8AATad26bBSjsyTVbgLbsvJXqeQW642rJQFS" as="style">
     <link rel="stylesheet" href="assets/fonts.css?v=d1b92d3ff4" integrity="sha384-IDnmxIHyfCaSAssmrqXZbMSqgbRm8AATad26bBSjsyTVbgLbsvJXqeQW642rJQFS">
 
@@ -159,7 +160,21 @@
 
         <!-- Dual prebuilt fleets — toggle swaps panels only (no rebuild) -->
         <div class="gallery-shell">
-            <section class="gallery-panel is-on" id="gallery-music" role="tabpanel" aria-labelledby="tab-music" data-kind="music"></section>
+            <section class="gallery-panel is-on" id="gallery-music" role="tabpanel" aria-labelledby="tab-music" data-kind="music">
+                <article class="video-card is-in" data-kind="music" data-lcp="1">
+                    <div class="video-thumbnail">
+                        <span class="kind-badge">Music</span>
+                        <a href="https://www.youtube.com/watch?v=3_pLNUtw-_M" target="_blank" rel="noopener noreferrer" referrerpolicy="no-referrer" aria-label="Watch Monster in the Darkness – Pearl Audrey Yanick (PsychoSinger) | Official Music Video on YouTube">
+                            <img src="https://img.youtube.com/vi/3_pLNUtw-_M/hqdefault.jpg" alt="Monster in the Darkness – Pearl Audrey Yanick (PsychoSinger) | Official Music Video" width="480" height="360" decoding="async" fetchpriority="high" referrerpolicy="no-referrer-when-downgrade">
+                            <div class="play-button" aria-hidden="true">▶</div>
+                        </a>
+                    </div>
+                    <div class="video-info">
+                        <h2 class="video-title">Monster in the Darkness – Pearl Audrey Yanick (PsychoSinger) | Official Music Video</h2>
+                        <p class="video-description">Watch on YouTube · Aug 05, 2026</p>
+                    </div>
+                </article>
+            </section>
             <section class="gallery-panel is-off" id="gallery-comedy" role="tabpanel" aria-labelledby="tab-comedy" data-kind="comedy" hidden></section>
         </div>
 
@@ -257,7 +272,7 @@
         </div>
     </footer>
 
-    <script src="main.js?v=072e9401a5" integrity="sha384-aWNP12IWH4qEyQCiAcnzllgLfUfX7N9N9l/LxJE/lbo95q9AMxmeIjFmm2uIGd7c" defer></script>
-    <script src="videos.js?v=2ecc3f775b" integrity="sha384-unfaBpSCoMj6c5PpnhnTZDtmFi6P4dJury2iStL0jA7bOmGjTs8En36wk933+8A9" defer></script>
+    <script src="main.js?v=92c5380c18" integrity="sha384-4lJkMILV4kOoQOSYCx2bZyS7YbFLH40nNjDz+M72w4SU3zdL3JfXYR3QdBbckI4s" defer></script>
+    <script src="videos.js?v=dbc4b523ac" integrity="sha384-Xau2fGuD9W3revl+OOIqISbCucoysM1X66vAP/RdQqYt0tprkPFaDMVv3YQXg3DC" defer></script>
 </body>
 </html>

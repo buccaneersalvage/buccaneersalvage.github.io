@@ -304,11 +304,20 @@
                 return card;
             }
 
+            const LCP_ID = "3_pLNUtw-_M";
             function fillPanel(kind) {
                 const panel = panels[kind];
                 if (!panel) return;
                 const pool = byKind[kind] || [];
-                const picks = shuffle(pool).slice(0, Math.min(PICK, pool.length));
+                const lcpEl = panel.querySelector("[data-lcp]");
+                let picks = shuffle(pool);
+                if (kind === "music") {
+                    const pinned = pool.find((v) => v.id === LCP_ID);
+                    if (pinned) {
+                        picks = [pinned, ...picks.filter((v) => v.id !== LCP_ID)];
+                    }
+                }
+                picks = picks.slice(0, Math.min(PICK, pool.length));
                 counts[kind] = { shown: picks.length, total: pool.length };
                 const frag = document.createDocumentFragment();
                 if (!picks.length) {
@@ -316,11 +325,22 @@
                     empty.className = "hero-description span-all";
                     empty.textContent = "No vessels in this fleet yet — check back after the next haul.";
                     frag.appendChild(empty);
-                } else {
-                    /* eager only for boot-visible fleet's first row — never thrash on toggle */
-                    picks.forEach((v, i) => frag.appendChild(makeCard(v, kind === bootKind && i < 3)));
+                    panel.replaceChildren(frag);
+                    return;
                 }
-                panel.replaceChildren(frag);
+                /* eager only for boot-visible fleet's first row — never thrash on toggle */
+                picks.forEach((v, i) => {
+                    if (lcpEl && v.id === LCP_ID) return;
+                    frag.appendChild(makeCard(v, kind === bootKind && i < 3));
+                });
+                if (lcpEl) {
+                    Array.from(panel.children).forEach((c) => {
+                        if (c !== lcpEl) c.remove();
+                    });
+                    panel.appendChild(frag);
+                } else {
+                    panel.replaceChildren(frag);
+                }
             }
 
             function showPanel(kind) {

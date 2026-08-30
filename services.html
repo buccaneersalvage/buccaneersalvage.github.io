@@ -6,7 +6,7 @@
   <title>eBay Listing Service - Parts &amp; Vintage Fitment Research from $5 | BuccaneerSalvage</title>
   <meta name="description" content="I write eBay listings for parts and vintage sellers. Sample $5, Core $8, Full $12, 10 Core for $15, store look-over $19, monthly from $29. You approve every draft. Square payments.">
   <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' https://fonts.googleapis.com; font-src 'self' data: https://fonts.gstatic.com; img-src 'self' data: https://i.ebayimg.com https://i.ibb.co; connect-src 'none'; object-src 'none'; base-uri 'self'; form-action 'none'; frame-src 'none';" />
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; font-src 'self' data:; img-src 'self' data: https://i.ebayimg.com https://i.ibb.co; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none'; frame-src 'none';" />
   <link rel="canonical" href="https://buccaneersalvage.github.io/services.html">
 
   <meta property="og:type" content="website">
@@ -25,9 +25,8 @@
   <meta name="twitter:image" content="https://buccaneersalvage.github.io/assets/og-share.jpg">
 
   <link rel="icon" type="image/jpeg" href="assets/crest-rustjack-web.jpg">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=IBM+Plex+Mono:wght@400;500&family=Lora:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+  <link rel="preload" href="assets/fonts.css?v=d1b92d3ff4" integrity="sha384-IDnmxIHyfCaSAssmrqXZbMSqgbRm8AATad26bBSjsyTVbgLbsvJXqeQW642rJQFS" as="style" />
+  <link rel="stylesheet" href="assets/fonts.css?v=d1b92d3ff4" integrity="sha384-IDnmxIHyfCaSAssmrqXZbMSqgbRm8AATad26bBSjsyTVbgLbsvJXqeQW642rJQFS" />
 
   <script type="application/ld+json">
   {
@@ -91,7 +90,7 @@
     ]
   }
   </script>
-    <link rel="stylesheet" href="services.css?v=f2eb75e689" integrity="sha384-y4lJBygdWcCLUf6O2Fn1tkdPNRXsGLdLh1P42SXtgShAO4BrIltR8KQXqiff5Cub" />
+    <link rel="stylesheet" href="services.css?v=34020382ac" integrity="sha384-6BDAhELWsH2IWx3+++Ht4I75bfR/q5kux+yfG8mI/lB5yLrGm3pyAj7hkUrRvvJb" />
 </head>
 <body>
   <div class="grain" aria-hidden="true"></div>
@@ -166,7 +165,7 @@
         <div class="pricing-grid">
           <div class="price-card popular reveal">
             <p class="price-label">One listing</p>
-            <p class="price-amount" style="font-size:var(--text-xl);">$8 <span>Core</span>&nbsp;·&nbsp;$12 <span>Full</span></p>
+            <p class="price-amount dual">$8 <span>Core</span>&nbsp;·&nbsp;$12 <span>Full</span></p>
             <p class="price-per">One part number in, a listing you can paste into eBay out. You approve before it goes live.</p>
             <ul class="price-features">
               <li class="price-feature"><strong>Core $8</strong> - title, right category, every item specific, what it fits, condition notes. You paste it in. No custom HTML.</li>
@@ -176,7 +175,7 @@
               <li class="price-feature">First time: <strong>$5 sample</strong> on a real SKU. If you keep going, that $5 comes off the first real invoice.</li>
             </ul>
             <p class="price-for"><strong>Good for:</strong> used, NOS, salvage, anything with a part number. <strong>Skip it if:</strong> the part sells for pocket change. The research time is the same.</p>
-            <a href="mailto:jollyroger1480@gmail.com?subject=Listing%20Build&body=Core%20or%20Full:%20%0AProduct%20(brand,%20MPN%20if%20known):%20%0APhotos%20link:%20" class="btn btn-primary" style="width:100%;margin-top:auto;">Start a listing</a>
+            <a href="mailto:jollyroger1480@gmail.com?subject=Listing%20Build&body=Core%20or%20Full:%20%0AProduct%20(brand,%20MPN%20if%20known):%20%0APhotos%20link:%20" class="btn btn-primary">Start a listing</a>
           </div>
 
           <div class="price-card reveal reveal-delay-1">
@@ -191,7 +190,7 @@
               <li class="price-feature">Quit anytime. You only pay for work already delivered</li>
             </ul>
             <p class="price-for"><strong>Good for:</strong> you list a little every week. <strong>Skip it if:</strong> this is a one-time cleanup. Take the look-over instead.</p>
-            <a href="mailto:jollyroger1480@gmail.com?subject=Maintain%20%2429&body=Store%20URL:%20%0AApprox%20SKUs%2Fmonth:%20%0ACategory:%20" class="btn btn-outline" style="width:100%;margin-top:auto;">Start at $29/mo</a>
+            <a href="mailto:jollyroger1480@gmail.com?subject=Maintain%20%2429&body=Store%20URL:%20%0AApprox%20SKUs%2Fmonth:%20%0ACategory:%20" class="btn btn-outline">Start at $29/mo</a>
           </div>
 
           <div class="price-card reveal reveal-delay-2">
@@ -205,32 +204,32 @@
               <li class="price-feature">Want the look-over plus the first 10 fixes: <strong>$49</strong></li>
             </ul>
             <p class="price-for"><strong>Good for:</strong> old listings that have gone stale. <strong>Skip it if:</strong> you have nothing live yet.</p>
-            <div style="display:grid;gap:var(--space-2);margin-top:auto;">
-              <a href="mailto:jollyroger1480@gmail.com?subject=Store%20Audit%20%2419&body=Store%20URL:%20%0AApprox%20listing%20count:%20" class="btn btn-outline" style="width:100%;">Book the look-over - $19</a>
-              <a href="mailto:jollyroger1480@gmail.com?subject=Audit%20%2B%2010%20Fixes%20%2449&body=Store%20URL:%20%0AApprox%20listing%20count:%20" class="btn btn-primary" style="width:100%;">Look-over + 10 fixes - $49</a>
+            <div class="btn-stack">
+              <a href="mailto:jollyroger1480@gmail.com?subject=Store%20Audit%20%2419&body=Store%20URL:%20%0AApprox%20listing%20count:%20" class="btn btn-outline">Book the look-over - $19</a>
+              <a href="mailto:jollyroger1480@gmail.com?subject=Audit%20%2B%2010%20Fixes%20%2449&body=Store%20URL:%20%0AApprox%20listing%20count:%20" class="btn btn-primary">Look-over + 10 fixes - $49</a>
             </div>
           </div>
 
           <div class="price-card quiet reveal reveal-delay-3">
             <p class="price-label">A Simple Website</p>
             <p class="price-amount">$199<span>one page</span></p>
-            <p class="price-per">Pick a design you like from the <a href="templates-example.html" style="color:var(--gold);">gallery</a>. I put your name on it and put it online.</p>
+            <p class="price-per">Pick a design you like from the <a href="templates-example.html">gallery</a>. I put your name on it and put it online.</p>
             <ul class="price-features">
               <li class="price-feature">Works on phones, loads fast, <strong>yours to keep forever</strong></li>
               <li class="price-feature">Your domain + buttons that link to your eBay store</li>
               <li class="price-feature">Want a second page? <strong>$99</strong>. Have your own words? <strong>$149</strong></li>
             </ul>
             <p class="price-for"><strong>Heads up:</strong> it's a clean one-pager, not a full online store.</p>
-            <a href="mailto:jollyroger1480@gmail.com?subject=Website%20Build&body=Which%20demo%20design:%20%0ADomain%20(yours%20or%20new):%20" class="btn btn-outline" style="width:100%;margin-top:auto;">Build my page</a>
+            <a href="mailto:jollyroger1480@gmail.com?subject=Website%20Build&body=Which%20demo%20design:%20%0ADomain%20(yours%20or%20new):%20" class="btn btn-outline">Build my page</a>
           </div>
         </div>
 
-        <div class="why-strip reveal" style="margin-top:var(--space-5);">
-          <strong>Got a pile of SKUs?</strong> 25 Core for <strong style="color:var(--gold-bright)">$35</strong> · 50 for <strong style="color:var(--gold-bright)">$59</strong>, as a spreadsheet or in batches. Same-family variants (color, trim) cost less than unique research. Email <a href="mailto:jollyroger1480@gmail.com?subject=Catalog%20batch" style="color:var(--gold);">jollyroger1480@gmail.com</a> with a SKU count.
+        <div class="why-strip reveal">
+          <strong>Got a pile of SKUs?</strong> 25 Core for <strong class="text-gold-bright">$35</strong> · 50 for <strong class="text-gold-bright">$59</strong>, as a spreadsheet or in batches. Same-family variants (color, trim) cost less than unique research. Email <a href="mailto:jollyroger1480@gmail.com?subject=Catalog%20batch">jollyroger1480@gmail.com</a> with a SKU count.
         </div>
 
         <div class="why-strip reveal">
-          <p style="margin:0;">I don't guess fitment to fill a table. If the catalog doesn't support a row, the listing says so. One person, my own store as the test bed, you approve every draft.</p>
+          <p>I don't guess fitment to fill a table. If the catalog doesn't support a row, the listing says so. One person, my own store as the test bed, you approve every draft.</p>
         </div>
       </div>
     </section>
@@ -246,22 +245,22 @@
           </p>
         </div>
 
-        <div class="table-wrap reveal" style="margin-bottom:var(--space-5);">
+        <div class="table-wrap reveal mb-5">
           <table class="proof-table">
             <thead><tr><th>SKU</th><th>Before</th><th>After</th></tr></thead>
             <tbody>
               <tr>
-                <td><strong>Moog CV7451</strong><br><span style="font-size:0.72rem;">CV boot kit</span></td>
+                <td><strong>Moog CV7451</strong><br><span class="text-micro">CV boot kit</span></td>
                 <td><del>"Refer to factory schematics for PN CV7451 application"</del> - zero vehicles listed</td>
                 <td><ins>7 fitment rows</ins>: 1993-94 Taurus / Tempo / Sable / Topaz with engine + position, OE and aftermarket interchanges</td>
               </tr>
               <tr>
-                <td><strong>WIX 46138</strong><br><span style="font-size:0.72rem;">air filter</span></td>
+                <td><strong>WIX 46138</strong><br><span class="text-micro">air filter</span></td>
                 <td>Wrong part-number family (heavy-truck data) and a non-leaf category that <strong>failed eBay's live API</strong></td>
-                <td><ins>Correct PN verified against the catalog</ins>: 13 GM models 1985-1990, pushed live in one attempt, category verified via GetItem. <a href="https://www.ebay.com/itm/398334713195" target="_blank" rel="noopener noreferrer" style="color:var(--gold);text-decoration:underline;">See it live on our store →</a></td>
+                <td><ins>Correct PN verified against the catalog</ins>: 13 GM models 1985-1990, pushed live in one attempt, category verified via GetItem. <a href="https://www.ebay.com/itm/398334713195" target="_blank" rel="noopener noreferrer" class="link-gold link-underline">See it live on our store →</a></td>
               </tr>
               <tr>
-                <td><strong>LaSalle 780007</strong><br><span style="font-size:0.72rem;">spark plug wires</span></td>
+                <td><strong>LaSalle 780007</strong><br><span class="text-micro">spark plug wires</span></td>
                 <td><del>"Various V6 and V8 engines from 1978-1988 GM vehicles"</del> - technically true, useless to a buyer</td>
                 <td><ins>6-cylinder only, 22 named applications</ins> across Ford, Mercury, Chevrolet/GMC, and Checker with years</td>
               </tr>
@@ -269,69 +268,69 @@
           </table>
         </div>
 
-        <div class="bento reveal" style="margin-bottom:var(--space-6);">
+        <div class="bento reveal mb-6">
           <div class="card">
             <p class="card-eyebrow">Same gates I use on my own store</p>
-            <p class="card-body">You're looking at the reference customer. A recent run: <strong style="color:var(--parchment);">one push, no HTML fail, category checked after it landed, live on the first try.</strong> Your drafts go through the same checks.</p>
+            <p class="card-body">You're looking at the reference customer. A recent run: <strong class="text-parchment">one push, no HTML fail, category checked after it landed, live on the first try.</strong> Your drafts go through the same checks.</p>
           </div>
           <div class="card">
             <p class="card-eyebrow">Look-over - what $19 buys</p>
-            <div class="before-after" style="margin-top:var(--space-2);">
+            <div class="before-after mt-2">
               <div class="ba-label ba-before">Sample rows (redacted)</div>
-              <div>Item 3982•••••21 - compat table empty → <strong style="color:var(--parchment);">needs fix</strong> (add years/makes, $6)</div>
-              <div>Item 3982•••••67 - title 62 chars, no year/model → <strong style="color:var(--parchment);">needs fix</strong> ($4)</div>
-              <div>Item 3982•••••85 - missing Country/Region of Manufacture → <strong style="color:var(--parchment);">needs fix</strong> ($4)</div>
-              <div>Item 3982•••••03 - healthy → <strong style="color:var(--gold);">no fix, no charge</strong></div>
+              <div>Item 3982•••••21 - compat table empty → <strong class="text-parchment">needs fix</strong> (add years/makes, $6)</div>
+              <div>Item 3982•••••67 - title 62 chars, no year/model → <strong class="text-parchment">needs fix</strong> ($4)</div>
+              <div>Item 3982•••••85 - missing Country/Region of Manufacture → <strong class="text-parchment">needs fix</strong> ($4)</div>
+              <div>Item 3982•••••03 - healthy → <strong class="text-gold">no fix, no charge</strong></div>
             </div>
           </div>
           <div class="card">
             <p class="card-eyebrow">Not just auto - vintage example</p>
-            <p class="card-body" style="margin-bottom:var(--space-2);">Same skeleton, different lane. A 1962 GE refrigerator handle lists as:</p>
-            <div class="before-after" style="margin-top:0;">
+            <p class="card-body mb-2">Same skeleton, different lane. A 1962 GE refrigerator handle lists as:</p>
+            <div class="before-after mt-0">
               <div>☠️ Key Facts - chrome-plated steel, OEM for GE 1958-1965</div>
               <div>⚓ Condition - light surface wear, age-appropriate, photos exact</div>
               <div>⚓ What You Receive - 1× handle, hardware listed separately</div>
             </div>
-            <p class="card-body" style="margin-top:var(--space-2);">Era, origin, condition - the questions a vintage buyer asks, answered before they're asked.</p>
+            <p class="card-body mt-2">Era, origin, condition - the questions a vintage buyer asks, answered before they're asked.</p>
           </div>
         </div>
 
-        <div class="section-head reveal" style="margin-bottom:var(--space-4);">
+        <div class="section-head reveal mb-4">
           <p class="section-eyebrow">What a Full Build looks like</p>
-          <h2 class="section-title" style="font-size:var(--text-xl);">Desktop and mobile - the HTML is the product</h2>
+          <h2 class="section-title title-tight">Desktop and mobile - the HTML is the product</h2>
         </div>
         <div class="preview-duo reveal">
           <div class="preview-frame">
             <div class="bar" aria-hidden="true"><i></i><i></i><i></i><span>desktop · 780px</span></div>
-            <div style="background:#f9f4e8;padding:1.2rem;font-family:Verdana,Arial,sans-serif;font-size:12px;color:#2C1810;line-height:1.6;">
-              <div style="background:linear-gradient(160deg,#0a0a0a 60%,#1f0303 100%);padding:10px;text-align:center;border-bottom:3px solid #C5A028;">
-                <div style="color:#C5A028;font-family:Georgia,serif;font-size:16px;font-weight:bold;">YOUR BRAND HERE</div>
-                <div style="color:#b8941f;font-size:9px;font-style:italic;margin-top:2px;">Your tagline · Your colors</div>
+            <div class="listing-mock">
+              <div class="listing-mock-head">
+                <div class="listing-mock-brand">YOUR BRAND HERE</div>
+                <div class="listing-mock-tag">Your tagline · Your colors</div>
               </div>
-              <div style="padding:10px 8px;border-left:3px solid #8B0000;border-right:3px solid #8B0000;">
-                <p style="margin:0 0 8px;">NOS fuel filter - unused shelf stock, verified against the catalog.</p>
-                <h3 style="font-family:Georgia,serif;color:#8B0000;font-size:12px;border-bottom:1px solid #C5A028;padding-bottom:3px;margin:0 0 5px;">☠️ Key Facts</h3>
-                <ul style="margin:0 0 8px 14px;"><li>6-micron cellulose media</li><li>Spin-on thread, gasket included</li></ul>
-                <h3 style="font-family:Georgia,serif;color:#8B0000;font-size:12px;border-bottom:1px solid #C5A028;padding-bottom:3px;margin:0 0 5px;">⚓ Compatibility</h3>
-                <ul style="margin:0 0 8px 14px;"><li>1983-1988 Ford F-250 · F-350</li><li>1983-1986 Ford F-600</li></ul>
-                <div style="background:#fff8e1;border:1px solid #C5A028;border-left:3px solid #8B0000;padding:5px 7px;font-size:10px;margin-bottom:8px;"><strong style="color:#8B0000;">IMPORTANT:</strong> Verify fitment by part number.</div>
-                <h3 style="font-family:Georgia,serif;color:#8B0000;font-size:12px;border-bottom:1px solid #C5A028;padding-bottom:3px;margin:0 0 5px;">⚓ What You Receive</h3>
-                <p style="margin:0;">1× FMS F638 filter in original packaging.</p>
+              <div class="listing-mock-body">
+                <p>NOS fuel filter - unused shelf stock, verified against the catalog.</p>
+                <p class="listing-mock-h">☠️ Key Facts</p>
+                <ul><li>6-micron cellulose media</li><li>Spin-on thread, gasket included</li></ul>
+                <p class="listing-mock-h">⚓ Compatibility</p>
+                <ul><li>1983-1988 Ford F-250 · F-350</li><li>1983-1986 Ford F-600</li></ul>
+                <div class="listing-mock-note"><strong>IMPORTANT:</strong> Verify fitment by part number.</div>
+                <p class="listing-mock-h">⚓ What You Receive</p>
+                <p>1× FMS F638 filter in original packaging.</p>
               </div>
             </div>
           </div>
           <div class="preview-frame">
             <div class="bar" aria-hidden="true"><i></i><i></i><i></i><span>mobile · 390px</span></div>
-            <div style="background:#f9f4e8;padding:0.8rem;font-family:Verdana,Arial,sans-serif;font-size:10px;color:#2C1810;line-height:1.55;">
-              <div style="background:linear-gradient(160deg,#0a0a0a,#1f0303);padding:6px;text-align:center;border-bottom:2px solid #C5A028;">
-                <div style="color:#C5A028;font-family:Georgia,serif;font-size:11px;font-weight:bold;">YOUR BRAND HERE</div>
+            <div class="listing-mock listing-mock--sm">
+              <div class="listing-mock-head">
+                <div class="listing-mock-brand">YOUR BRAND HERE</div>
               </div>
-              <div style="padding:8px 6px;border-left:2px solid #8B0000;border-right:2px solid #8B0000;">
-                <h3 style="font-family:Georgia,serif;color:#8B0000;font-size:10px;border-bottom:1px solid #C5A028;margin:0 0 4px;padding-bottom:2px;">☠️ Key Facts</h3>
-                <ul style="margin:0 0 6px 12px;"><li>6-micron media</li><li>Spin-on + gasket</li></ul>
-                <h3 style="font-family:Georgia,serif;color:#8B0000;font-size:10px;border-bottom:1px solid #C5A028;margin:0 0 4px;padding-bottom:2px;">⚓ Compatibility</h3>
-                <ul style="margin:0 0 6px 12px;"><li>83-88 F-250 / F-350</li></ul>
-                <p style="margin:0;"><strong>1× filter</strong>, original packaging.</p>
+              <div class="listing-mock-body">
+                <p class="listing-mock-h">☠️ Key Facts</p>
+                <ul><li>6-micron media</li><li>Spin-on + gasket</li></ul>
+                <p class="listing-mock-h">⚓ Compatibility</p>
+                <ul><li>83-88 F-250 / F-350</li></ul>
+                <p><strong>1× filter</strong>, original packaging.</p>
               </div>
             </div>
           </div>
@@ -348,7 +347,7 @@
           <p class="section-aside">Default: I send the draft, you paste it. If you later want me to push for you, that's a token you can revoke from your own Seller Hub.</p>
         </div>
 
-        <div class="bento" style="margin-bottom:var(--space-6);">
+        <div class="bento mb-6">
           <div class="card reveal"><div class="card-icon">📋</div>
             <h3 class="card-title">You send the intake</h3>
             <p class="card-body">Photos, brand, part number if you have it, condition, quantity, anything you already know about fit. A messy folder is fine.</p>
@@ -367,7 +366,7 @@
           </div>
         </div>
 
-        <div class="check-cols reveal" style="margin-bottom:var(--space-6);">
+        <div class="check-cols reveal mb-6">
           <div>
             <h4>Turnaround (SLA)</h4>
             <div class="table-wrap"><table class="sla-table">
@@ -407,7 +406,7 @@
         </div>
 
         <div class="why-strip reveal">
-          <p style="margin:0;">If you grant access later: no password, a token you revoke yourself, a log of every change, and I don't touch price or quantity unless you wrote the rule down. It's in the <a href="terms-service.html">terms</a>, not a handshake.</p>
+          <p class="m-0">If you grant access later: no password, a token you revoke yourself, a log of every change, and I don't touch price or quantity unless you wrote the rule down. It's in the <a href="terms-service.html">terms</a>, not a handshake.</p>
         </div>
       </div>
     </section>
@@ -445,12 +444,12 @@
             </select>
           </div>
           <div class="full"><label for="f-photos">Link to photo folder (Drive/Dropbox - optional)</label><input id="f-photos" type="url" placeholder="https://..."></div>
-          <div class="full"><button type="button" class="btn btn-primary" style="width:100%;" id="f-send">Compose email
+          <div class="full"><button type="button" class="btn btn-primary btn-block" id="f-send">Compose email
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
           </button></div>
         </div>
 
-        <div class="section-head reveal" style="margin-top:var(--space-8);">
+        <div class="section-head reveal mt-8">
           <p class="section-eyebrow">FAQ</p>
           <h2 class="section-title">Eight questions, straight answers</h2>
         </div>
@@ -484,7 +483,7 @@
   </main>
 
   <div class="sticky-bar" aria-label="Quick pricing">
-    <div class="sb-copy"><strong>From $5</strong> - sample Core listing<br><span style="opacity:0.75;">$8 Core · $12 Full · 10 for $15 · $29/mo</span></div>
+    <div class="sb-copy"><strong>From $5</strong> - sample Core listing<br><span class="dim-75">$8 Core · $12 Full · 10 for $15 · $29/mo</span></div>
     <a href="#pricing" class="btn btn-primary">Pricing</a>
   </div>
 

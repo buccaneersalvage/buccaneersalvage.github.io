@@ -1333,30 +1333,16 @@
     updateShowing();
   }
 
-  function initList() {
+  let listBuild = 0;
+
+  function mountList() {
     if (typeof List === "undefined") {
       console.error("[store] List.js not loaded");
       return;
     }
-    const grid = document.getElementById("stGrid");
-    if (!grid) return;
-
-    // Sort catalog for initial DOM order (featured)
-    const ordered = catalog.slice().sort(
-      (a, b) =>
-        rankCat(a.category) - rankCat(b.category) ||
-        (a.name || "").localeCompare(b.name || "")
-    );
-    const eagerN = window.matchMedia("(min-width: 900px)").matches
-      ? 8
-      : window.matchMedia("(min-width: 560px)").matches
-        ? 4
-        : 2;
-    grid.innerHTML = ordered.map((i, idx) => cardHtml(i, { featured: idx < eagerN })).join("");
-    bindThumbFallbacks(grid);
-
-    // List.js: { data: ['price'] } reads data-price on the item root.
-    // ({ name, attr } reads attr from a *child* with class=name — easy footgun.)
+    document
+      .querySelectorAll("#stGrid .st-card--pending")
+      .forEach((el) => el.classList.remove("st-card--pending"));
     list = new List("storeList", {
       valueNames: [
         "name",
@@ -1375,27 +1361,79 @@
         item: "<li><button type='button' class='page'></button></li>",
       },
     });
-
     list.on("updated", updateShowing);
     list.on("searchComplete", updateShowing);
     list.on("filterComplete", updateShowing);
-
-    applySort("featured");
+    applySort(document.getElementById("stSort")?.value || "featured");
     applyFilters();
     updateShowing();
   }
 
+  function initList() {
+    if (typeof List === "undefined") {
+      console.error("[store] List.js not loaded");
+      return;
+    }
+    const grid = document.getElementById("stGrid");
+    if (!grid) return;
+
+    const build = ++listBuild;
+    list = null;
+
+    // Sort catalog for initial DOM order (featured)
+    const ordered = catalog.slice().sort(
+      (a, b) =>
+        rankCat(a.category) - rankCat(b.category) ||
+        (a.name || "").localeCompare(b.name || "")
+    );
+    const eagerN = window.matchMedia("(min-width: 900px)").matches
+      ? 8
+      : window.matchMedia("(min-width: 560px)").matches
+        ? 4
+        : 2;
+    // First paint: one page. Rest of the catalog in idle chunks so TBT stays under 50ms/task.
+    const firstN = Math.min(pageSize, ordered.length);
+    grid.innerHTML = ordered
+      .slice(0, firstN)
+      .map((i, idx) => cardHtml(i, { featured: idx < eagerN }))
+      .join("");
+    bindThumbFallbacks(grid);
+
+    let offset = firstN;
+    const CHUNK = 16;
+    const idle = window.requestIdleCallback
+      ? (fn) => window.requestIdleCallback(fn, { timeout: 48 })
+      : (fn) => setTimeout(fn, 16);
+
+    function pump() {
+      if (build !== listBuild) return;
+      if (offset >= ordered.length) {
+        mountList();
+        return;
+      }
+      const end = Math.min(offset + CHUNK, ordered.length);
+      const html = ordered
+        .slice(offset, end)
+        .map((i) =>
+          cardHtml(i, { featured: false }).replace(
+            'class="st-card',
+            'class="st-card st-card--pending'
+          )
+        )
+        .join("");
+      grid.insertAdjacentHTML("beforeend", html);
+      offset = end;
+      idle(pump);
+    }
+    idle(pump);
+  }
+
   function reinitWithPageSize(n) {
     pageSize = n;
-    const searchVal = document.getElementById("stSearch")?.value || "";
-    const sortMode = document.getElementById("stSort")?.value || "featured";
-    // Full rebuild keeps List.js page size + pagination in sync
-    initList();
-    const searchEl = document.getElementById("stSearch");
-    if (searchEl) searchEl.value = searchVal;
+    // Full rebuild keeps List.js page size + pagination in sync.
+    // Search/sort values stay on the controls; mountList reads them.
     readFacetPrices();
-    applyFilters();
-    applySort(sortMode);
+    initList();
   }
 
   function wireControls() {
@@ -1533,16 +1571,13 @@
         countEl.textContent = `${autoN} listings`;
       }
       fillCounts();
-      initList();
-      wireControls();
       const bootQ = new URLSearchParams(location.search).get("q");
       if (bootQ) {
         const search = document.getElementById("stSearch");
-        if (search) {
-          search.value = bootQ;
-          applyFilters();
-        }
+        if (search) search.value = bootQ;
       }
+      initList();
+      wireControls();
     } catch (err) {
       if (countEl) countEl.textContent = "Catalog offline";
       const grid = document.getElementById("stGrid");

@@ -1071,7 +1071,8 @@
     slides.forEach((slide, i) => {
       slide.setAttribute("tabindex", "0");
       slide.setAttribute("role", "button");
-      slide.setAttribute("aria-label", "Zoom photo");
+      const cap = (slide.querySelector("figcaption")?.textContent || "photo").replace(/\s+/g, " ").trim();
+      slide.setAttribute("aria-label", `Zoom photo: ${cap}`);
       slide.addEventListener("click", () => openLb(i));
       slide.addEventListener("keydown", (e) => {
         if (e.key === "Enter" || e.key === " ") {
