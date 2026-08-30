@@ -10,11 +10,11 @@ RULES = [
     ("dispute", True, ["dispute", "attorney", "lawyer", "lawsuit", "legal action"]),
     ("damage", True, ["damaged", "broken", "defect", "crushed", "wrong item"]),
     ("order", True, ["tracking", "track my", "shipped yet", "where is my order", "never arrived", "cancel my order"]),
+    ("returns", False, ["return", "refund", "warranty"]),
     ("scrap", False, ["scrap", "junk removal", "junk haul", "e-waste", "ewaste", "electronics recycling", "metal haul", "pick up scrap"]),
     ("pickup", False, ["pickup", "pick up", "pick it up", "come get", "come by", "appointment"]),
     ("hours", False, ["hours", "are you open", "when are you open", "business hours"]),
     ("shipping", False, ["shipping", "delivery", "ship to", "freight", "how long to ship"]),
-    ("returns", False, ["return", "refund", "warranty"]),
     ("fitment", False, ["will this fit", "fits", "compatible", "will this work", "year make"]),
     ("pay", False, ["cash app", "cashapp", "paypal", "venmo", "how to pay", "how do i pay", "checkout"]),
     ("contact", False, ["phone", "call", "text", "email", "address", "where are you"]),
@@ -51,6 +51,7 @@ CASES = [
     ("do you take paypal", "pay", False),
     ("do you sell open box", "other", True),
     ("are you open today", "hours", False),
+    ("I want to scrap my pickup truck, can I get a refund?", "returns", False),
 ]
 
 
@@ -85,6 +86,16 @@ def main() -> int:
     stale = "one item at a time" in src
     print(("PASS" if not stale else "FAIL") + "  main.js has no one-item cart note")
     if stale:
+        failed += 1
+
+    ri, si = src.find('id: "returns"'), src.find('id: "scrap"')
+    order_ok = 0 <= ri < si
+    print(("PASS" if order_ok else "FAIL") + "  main.js returns rule is before scrap")
+    if not order_ok:
+        failed += 1
+    live = "pdpCartStatus" in src and 'aria-live", "polite"' in src
+    print(("PASS" if live else "FAIL") + "  main.js cart cap uses aria-live")
+    if not live:
         failed += 1
 
     print("RESULT", "PASS" if failed == 0 else f"FAIL {failed}")

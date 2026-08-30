@@ -75,6 +75,5 @@ Do not substitute stock pirate clipart.
 
 ## Implementation roots
 
-- CSS: `~/sites/buccaneersalvage-hub/styles.css`
-- Hub: `index.html` · Store: `store.html` · Videos: `videos.html`
-- Implementation notes are not in this public repo.
+- This repo: `index.html` · `store.html` · `styles.css` · `main.js` · `videos.html`
+- Live host: https://buccaneersalvage.github.io/

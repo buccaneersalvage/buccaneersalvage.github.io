@@ -1061,7 +1061,7 @@ def main() -> None:
   <script type="application/ld+json">{schema_json}</script>
   <script type="application/ld+json">{crumbs_json}</script>
   <script src="../pdp-gallery.js?v=c0683cc878" integrity="sha384-Nj6Y6bFnU9x3YJ9AyAWSOJX+uvPDgCk5a/sSqAuEm5Q4zqfdhyfQMQg8SrGb8Goq" defer></script>
-  <script src="../main.js?v=8bddcc112d" integrity="sha384-AN0ch3Q2JsyTxt1BxwFEg7B189wEKUVIMXqsofqE6ANravf6BbrG5YHWIcUb0ocU" defer></script>
+  <script src="../main.js?v=072e9401a5" integrity="sha384-aWNP12IWH4qEyQCiAcnzllgLfUfX7N9N9l/LxJE/lbo95q9AMxmeIjFmm2uIGd7c" defer></script>
 </head>
 <body class="page-item">
   <a class="skip-link" href="#main">Skip to content</a>
@@ -1085,8 +1085,10 @@ def main() -> None:
       <a href="../index.html">Home</a>
       <a href="../store.html">Store catalog</a>
       <a href="../terms.html">Terms &amp; returns</a>
+      <a href="../privacy.html">Privacy</a>
       <a href="../shame.html">Buyer hall of shame</a>
       <a href="../videos.html">Music</a>
+      <a href="../ukiri/">Ukiri warning</a>
     </div>
   </header>
   <main id="main">
@@ -1217,14 +1219,6 @@ def main() -> None:
         '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
         + "\n".join(store_urls)
         + "\n</urlset>\n",
-        encoding="utf-8",
-    )
-
-    # Legacy sitemap.xml used to be a second urlset (and still gets submitted
-    # in old GSC properties). Keep it as a sitemapindex pointing at the live
-    # split sitemaps so it is not dead weight and cannot drift from robots.txt.
-    (HUB / "sitemap.xml").write_text(
-        (HUB / "sitemap-index.xml").read_text(encoding="utf-8"),
         encoding="utf-8",
     )
 

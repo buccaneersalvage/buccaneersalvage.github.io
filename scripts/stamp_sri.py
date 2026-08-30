@@ -21,9 +21,18 @@ ASSETS = (
     "store.js",
     "pdp-gallery.js",
     "videos.js",
+    "services.css",
+    "services.js",
+    "templates.css",
+    "templates.js",
+    "terms-service.css",
+    "terms-service.js",
     "assets/fonts.css",
     "assets/vendor/list.min.js",
     "assets/redirect-store.js",
+    "ukiri/styles.css",
+    "ukiri/main.js",
+    "ukiri/player.js",
 )
 
 TAG_RE = re.compile(r"<(?:link|script)\b[^>]*>", re.I)
@@ -65,9 +74,10 @@ def rewrite_tag(tag: str, stamps: dict[str, tuple[str, str]]) -> str:
     rel = asset_rel(url)
     if not rel:
         return tag
-    um = URL_RE.match(url.strip())
+    raw = url.strip()
+    um = URL_RE.match(raw)
     assert um
-    prefix = um.group(1)
+    prefix = "/" if raw.startswith("/") else um.group(1)
     v, sri = stamps[rel]
     new_url = f"{prefix}{rel}?v={v}"
     attr, quote = m.group(1), m.group(2)
@@ -98,6 +108,9 @@ def html_targets() -> list[Path]:
     builder = ROOT / "scripts" / "build_static_pdps.py"
     if builder.is_file():
         files.append(builder)
+    ukiri = ROOT / "ukiri"
+    if ukiri.is_dir():
+        files.extend(sorted(ukiri.glob("*.html")))
     return files
 
 

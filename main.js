@@ -217,6 +217,23 @@
     });
   }
 
+  function cartStatusEl() {
+    let el = document.getElementById("pdpCartStatus");
+    if (!el) {
+      el = document.createElement("div");
+      el.id = "pdpCartStatus";
+      el.className = "visually-hidden";
+      el.setAttribute("aria-live", "polite");
+      el.setAttribute("role", "status");
+      document.body.appendChild(el);
+    }
+    return el;
+  }
+
+  function announce(msg) {
+    cartStatusEl().textContent = msg;
+  }
+
   function add(item) {
     const next = normalize(item);
     if (!next) return load();
@@ -224,9 +241,15 @@
     const hit = items.find((it) => it.id === next.id);
     if (hit) {
       const cap = hit.stock == null ? MAX_QTY : Math.min(MAX_QTY, hit.stock);
-      hit.qty = Math.min(cap, hit.qty + (next.qty || 1));
+      const want = hit.qty + (next.qty || 1);
+      hit.qty = Math.min(cap, want);
+      if (want > hit.qty) {
+        announce(hit.stock != null ? `Only ${hit.stock} in stock` : `Max ${cap} per item`);
+      }
     } else if (items.length < MAX_LINES) {
       items.push(next);
+    } else {
+      announce("Cart is full (30 items)");
     }
     save(items);
     return items;
@@ -336,10 +359,32 @@
     </div>`;
   }
 
+  function syncAddButtons(items) {
+    document.querySelectorAll(".pdp-add-cart[data-id]").forEach((btn) => {
+      const id = btn.getAttribute("data-id");
+      const rawStock = Number(btn.getAttribute("data-stock"));
+      const stock = Number.isFinite(rawStock) && rawStock >= 0 ? Math.floor(rawStock) : null;
+      const hit = items.find((it) => it.id === id);
+      const qty = hit ? hit.qty : 0;
+      const cap = stock == null ? MAX_QTY : Math.min(MAX_QTY, stock);
+      const fullCart = !hit && items.length >= MAX_LINES;
+      const atCap = qty >= cap || fullCart;
+      btn.disabled = atCap;
+      if (atCap) {
+        btn.setAttribute("aria-disabled", "true");
+        btn.title = fullCart && !hit ? "Cart is full (30 items)" : `Only ${cap} in stock`;
+      } else {
+        btn.removeAttribute("aria-disabled");
+        btn.removeAttribute("title");
+      }
+    });
+  }
+
   function render() {
     const items = load();
     const n = countOf(items);
     paintBadge(n);
+    syncAddButtons(items);
     const body = document.getElementById("pdpCartBody");
     const checkout = document.querySelector("#pdpCartDrawer [data-bind=checkout]");
     const note = document.querySelector("#pdpCartDrawer .pdp-cart-note");
@@ -653,6 +698,13 @@
         ". Bought on eBay: message that listing.",
     },
     {
+      id: "returns",
+      escalate: false,
+      keys: ["return", "refund", "warranty"],
+      html:
+        "Store terms: <a href=\"/terms.html\">Terms</a>. eBay orders follow that listing’s return policy.",
+    },
+    {
       id: "scrap",
       escalate: false,
       keys: [
@@ -698,13 +750,6 @@
       escalate: false,
       keys: ["shipping", "delivery", "ship to", "freight", "how long to ship"],
       html: "US shipping at Square checkout, or local pickup by appointment. Rates shown at checkout.",
-    },
-    {
-      id: "returns",
-      escalate: false,
-      keys: ["return", "refund", "warranty"],
-      html:
-        "Store terms: <a href=\"/terms.html\">Terms</a>. eBay orders follow that listing’s return policy.",
     },
     {
       id: "fitment",
