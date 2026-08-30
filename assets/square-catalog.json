@@ -1,7 +1,7 @@
 {
-  "updated": "2026-08-29T06:00:51Z",
+  "updated": "2026-08-30T05:00:46Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 503,
+  "count": 529,
   "items": [
     {
       "id": "S4IZBA4AG65C6HI2ZDIRMSJR",
@@ -24679,6 +24679,183 @@
       "stock": 1
     },
     {
+      "id": "YMVI2EXI4246PS7R62KFJXYA",
+      "name": "LaSalle 780408 Spark Plug Wire Set 88-92 LeSabre Park Ave NOS",
+      "price": 39.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/78e270e622f86581870350aee9876668306e26a3/original.jpeg",
+      "url": "https://square.link/u/OzZOAJ6p",
+      "category": "ignition",
+      "checkout": true,
+      "variation_id": "VFITU5G3LT7W2H67E6YD4CUX",
+      "part_numbers": [
+        "780408"
+      ],
+      "interchange": [
+        "MPW 2922"
+      ],
+      "vehicles": [
+        "1988\u20131990 Buick Electra",
+        "1988\u20131992 Buick LeSabre",
+        "1991\u20131992 Buick Park Avenue",
+        "1988\u20131991 Buick Reatta",
+        "1992 Buick Regal",
+        "1988\u20131992 Buick Riviera",
+        "1988\u20131989 Oldsmobile Delta 88",
+        "1992 Oldsmobile Silhouette",
+        "1988\u20131992 Oldsmobile Toronado",
+        "1988\u20131992 Pontiac Bonneville",
+        "1992 Pontiac Trans Sport"
+      ],
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "780408"
+        ],
+        "interchange": [
+          "MPW 2922"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1988,
+            "year_to": 1990,
+            "make": "Buick",
+            "model": "Electra",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1988,
+            "year_to": 1992,
+            "make": "Buick",
+            "model": "LeSabre",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1991,
+            "year_to": 1992,
+            "make": "Buick",
+            "model": "Park Avenue",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1988,
+            "year_to": 1991,
+            "make": "Buick",
+            "model": "Reatta",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1992,
+            "year_to": 1992,
+            "make": "Buick",
+            "model": "Regal",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1988,
+            "year_to": 1992,
+            "make": "Buick",
+            "model": "Riviera",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1988,
+            "year_to": 1989,
+            "make": "Oldsmobile",
+            "model": "Delta 88",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1992,
+            "year_to": 1992,
+            "make": "Oldsmobile",
+            "model": "Silhouette",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1988,
+            "year_to": 1992,
+            "make": "Oldsmobile",
+            "model": "Toronado",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1988,
+            "year_to": 1992,
+            "make": "Pontiac",
+            "model": "Bonneville",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1992,
+            "year_to": 1992,
+            "make": "Pontiac",
+            "model": "Trans Sport",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1988\u20131990 Buick Electra",
+          "1988\u20131992 Buick LeSabre",
+          "1991\u20131992 Buick Park Avenue",
+          "1988\u20131991 Buick Reatta",
+          "1992 Buick Regal",
+          "1988\u20131992 Buick Riviera",
+          "1988\u20131989 Oldsmobile Delta 88",
+          "1992 Oldsmobile Silhouette",
+          "1988\u20131992 Oldsmobile Toronado",
+          "1988\u20131992 Pontiac Bonneville",
+          "1992 Pontiac Trans Sport"
+        ],
+        "raw_compat_rows": 107,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398338806020",
+        "type": "Spark Plug Wire Set",
+        "brand": "LaSalle",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Wires & Coil Boots"
+      },
+      "vehicle_count_raw": 107,
+      "ebay_item_id": "398338806020",
+      "ebay_type": "Spark Plug Wire Set",
+      "ebay_brand": "LaSalle",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Wires & Coil Boots",
+      "stock": 1
+    },
+    {
       "id": "M7NQWFVB4C72ILZZVLN5TFIL",
       "name": "LaSalle 780412 Spark Plug Wire Set 7mm VW Beetle Transporter Karmann Ghia NOS",
       "price": 44.99,
@@ -25908,6 +26085,538 @@
       "ebay_type": "Ignition Coil",
       "ebay_brand": "Pace Setter",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Coils",
+      "stock": 1
+    },
+    {
+      "id": "LUSLFFPZ6ZCKCOKTPEIJTKGT",
+      "name": "Pace Setter PT-1372 Distributor Rotor NOS 1.8 2.0 2.5 S10 Camaro",
+      "price": 12.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/0547db7f18372fe95b08b8d0149769e536229d9e/original.jpeg",
+      "url": "https://square.link/u/BaJ9VF0J",
+      "category": "ignition",
+      "checkout": true,
+      "variation_id": "WQOJYKRI4ZJA3BTLB6QPLBZD",
+      "part_numbers": [
+        "PT-1372",
+        "D436, RR212, 1988515, 4R1050"
+      ],
+      "interchange": [
+        "DR324",
+        "DR-324",
+        "D205",
+        "DR919",
+        "DR57"
+      ],
+      "vehicles": [
+        "1982\u20131988 Buick Skyhawk",
+        "1982\u20131984 Chevrolet Camaro",
+        "1982\u20131984 Chevrolet Celebrity",
+        "1985\u20131991 Chevrolet S10",
+        "1985\u20131988 Chevrolet S10 Blazer",
+        "1984 Pontiac Fiero",
+        "1982\u20131984 Pontiac Firebird",
+        "1986\u20131991 Pontiac Sunbird"
+      ],
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "PT-1372",
+          "D436, RR212, 1988515, 4R1050"
+        ],
+        "interchange": [
+          "DR324",
+          "DR-324",
+          "D205",
+          "DR919",
+          "DR57"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1982,
+            "year_to": 1988,
+            "make": "Buick",
+            "model": "Skyhawk",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1982,
+            "year_to": 1984,
+            "make": "Chevrolet",
+            "model": "Camaro",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1982,
+            "year_to": 1984,
+            "make": "Chevrolet",
+            "model": "Celebrity",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1991,
+            "make": "Chevrolet",
+            "model": "S10",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1988,
+            "make": "Chevrolet",
+            "model": "S10 Blazer",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 1984,
+            "make": "Pontiac",
+            "model": "Fiero",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1982,
+            "year_to": 1984,
+            "make": "Pontiac",
+            "model": "Firebird",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1986,
+            "year_to": 1991,
+            "make": "Pontiac",
+            "model": "Sunbird",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1982\u20131988 Buick Skyhawk",
+          "1982\u20131984 Chevrolet Camaro",
+          "1982\u20131984 Chevrolet Celebrity",
+          "1985\u20131991 Chevrolet S10",
+          "1985\u20131988 Chevrolet S10 Blazer",
+          "1984 Pontiac Fiero",
+          "1982\u20131984 Pontiac Firebird",
+          "1986\u20131991 Pontiac Sunbird"
+        ],
+        "raw_compat_rows": 288,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398336548408",
+        "type": "Distributor Rotor",
+        "brand": "Pace Setter",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors"
+      },
+      "vehicle_count_raw": 288,
+      "ebay_item_id": "398336548408",
+      "ebay_type": "Distributor Rotor",
+      "ebay_brand": "Pace Setter",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors",
+      "stock": 1
+    },
+    {
+      "id": "JZ5U2UKJA6PY3KWIGUGOVQIA",
+      "name": "Pace Setter PT-1694 Distributor Cap NOS 75-76 Bronco",
+      "price": 16.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/7c8a43a3454017a08a6d4122405f07c0c27ed397/original.jpeg",
+      "url": "https://square.link/u/xpCWTucu",
+      "category": "ignition",
+      "checkout": true,
+      "variation_id": "F2FUUYDYBOSKGZJM2NH6RRMA",
+      "part_numbers": [
+        "PT-1694",
+        "D5AZ-12106-A, DH370, FA102, F934"
+      ],
+      "interchange": [
+        "FD-149",
+        "C183",
+        "FF77",
+        "F934AK"
+      ],
+      "vehicles": [
+        "1975\u20131976 Ford Bronco",
+        "1975\u20131976 Ford Elite",
+        "1976 Ford F-100",
+        "1976 Ford F-150",
+        "1976 Ford F-250",
+        "1975\u20131976 Ford Gran Torino",
+        "1978\u20131981 Jeep CJ7",
+        "1977\u20131983 Jeep Wagoneer",
+        "1975\u20131976 Lincoln Continental"
+      ],
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "PT-1694",
+          "D5AZ-12106-A, DH370, FA102, F934"
+        ],
+        "interchange": [
+          "FD-149",
+          "C183",
+          "FF77",
+          "F934AK"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1975,
+            "year_to": 1976,
+            "make": "Ford",
+            "model": "Bronco",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1975,
+            "year_to": 1976,
+            "make": "Ford",
+            "model": "Elite",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1976,
+            "year_to": 1976,
+            "make": "Ford",
+            "model": "F-100",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1976,
+            "year_to": 1976,
+            "make": "Ford",
+            "model": "F-150",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1976,
+            "year_to": 1976,
+            "make": "Ford",
+            "model": "F-250",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1975,
+            "year_to": 1976,
+            "make": "Ford",
+            "model": "Gran Torino",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1978,
+            "year_to": 1981,
+            "make": "Jeep",
+            "model": "CJ7",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1977,
+            "year_to": 1983,
+            "make": "Jeep",
+            "model": "Wagoneer",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1975,
+            "year_to": 1976,
+            "make": "Lincoln",
+            "model": "Continental",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1975\u20131976 Ford Bronco",
+          "1975\u20131976 Ford Elite",
+          "1976 Ford F-100",
+          "1976 Ford F-150",
+          "1976 Ford F-250",
+          "1975\u20131976 Ford Gran Torino",
+          "1978\u20131981 Jeep CJ7",
+          "1977\u20131983 Jeep Wagoneer",
+          "1975\u20131976 Lincoln Continental"
+        ],
+        "raw_compat_rows": 251,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398336480803",
+        "type": "Distributor Cap",
+        "brand": "Pace Setter",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps"
+      },
+      "vehicle_count_raw": 251,
+      "ebay_item_id": "398336480803",
+      "ebay_type": "Distributor Cap",
+      "ebay_brand": "Pace Setter",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps",
+      "stock": 1
+    },
+    {
+      "id": "VMXDHQHG6PXOTX3NCNTR2FUD",
+      "name": "Pace Setter PT-1759 Distributor Cap NOS 4.1 4.8 HEI Camaro C10",
+      "price": 15.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/33d1081e896ef32b01025562beec461e7414a53c/original.jpeg",
+      "url": "https://square.link/u/sKiwbBi6",
+      "category": "ignition",
+      "checkout": true,
+      "variation_id": "SPKNKC22SWITDXSAZQOLXXA6",
+      "part_numbers": [
+        "PT-1759",
+        "ACDelco D332, Echlin RR192"
+      ],
+      "interchange": [
+        "DR-446",
+        "C187",
+        "DR902",
+        "DR77"
+      ],
+      "vehicles": [
+        "1975 Buick Apollo",
+        "1975\u20131977 Chevrolet C10",
+        "1975\u20131977 Chevrolet Camaro",
+        "1975\u20131977 Chevrolet Nova",
+        "1975\u20131976 Pontiac Firebird"
+      ],
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "PT-1759",
+          "ACDelco D332, Echlin RR192"
+        ],
+        "interchange": [
+          "DR-446",
+          "C187",
+          "DR902",
+          "DR77"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1975,
+            "year_to": 1975,
+            "make": "Buick",
+            "model": "Apollo",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1975,
+            "year_to": 1977,
+            "make": "Chevrolet",
+            "model": "C10",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1975,
+            "year_to": 1977,
+            "make": "Chevrolet",
+            "model": "Camaro",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1975,
+            "year_to": 1977,
+            "make": "Chevrolet",
+            "model": "Nova",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1975,
+            "year_to": 1976,
+            "make": "Pontiac",
+            "model": "Firebird",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1975 Buick Apollo",
+          "1975\u20131977 Chevrolet C10",
+          "1975\u20131977 Chevrolet Camaro",
+          "1975\u20131977 Chevrolet Nova",
+          "1975\u20131976 Pontiac Firebird"
+        ],
+        "raw_compat_rows": 92,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398338356479",
+        "type": "Distributor Cap",
+        "brand": "Pace Setter",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps"
+      },
+      "vehicle_count_raw": 92,
+      "ebay_item_id": "398338356479",
+      "ebay_type": "Distributor Cap",
+      "ebay_brand": "Pace Setter",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps",
+      "stock": 1
+    },
+    {
+      "id": "U72CZJ6LQXVPMHFFLXGXB26H",
+      "name": "Pace Setter PT-1772 Distributor Cap NOS 1.8 2.0 Skyhawk Sunbird",
+      "price": 19.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/07c72c62525cc1dd10b2ab853ebb87f7112f8b68/original.jpeg",
+      "url": "https://square.link/u/79P8awvw",
+      "category": "ignition",
+      "checkout": true,
+      "variation_id": "SU6UJ2CQL7ATO456YB22CWM3",
+      "part_numbers": [
+        "PT-1772",
+        "Standard DR-461, Niehoff DR73A, BWD C243, Wells DR930"
+      ],
+      "interchange": [
+        "DR461"
+      ],
+      "vehicles": [
+        "1982\u20131988 Buick Skyhawk",
+        "1983\u20131988 Oldsmobile Firenza",
+        "1987\u20131989 Pontiac Grand Am",
+        "1982\u20131983 Pontiac J2000",
+        "1986\u20131991 Pontiac Sunbird"
+      ],
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "PT-1772",
+          "Standard DR-461, Niehoff DR73A, BWD C243, Wells DR930"
+        ],
+        "interchange": [
+          "DR461"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1982,
+            "year_to": 1988,
+            "make": "Buick",
+            "model": "Skyhawk",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1983,
+            "year_to": 1988,
+            "make": "Oldsmobile",
+            "model": "Firenza",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1989,
+            "make": "Pontiac",
+            "model": "Grand Am",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1982,
+            "year_to": 1983,
+            "make": "Pontiac",
+            "model": "J2000",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1986,
+            "year_to": 1991,
+            "make": "Pontiac",
+            "model": "Sunbird",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1982\u20131988 Buick Skyhawk",
+          "1983\u20131988 Oldsmobile Firenza",
+          "1987\u20131989 Pontiac Grand Am",
+          "1982\u20131983 Pontiac J2000",
+          "1986\u20131991 Pontiac Sunbird"
+        ],
+        "raw_compat_rows": 334,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398338520974",
+        "type": "Distributor Cap",
+        "brand": "Pace Setter",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps"
+      },
+      "vehicle_count_raw": 334,
+      "ebay_item_id": "398338520974",
+      "ebay_type": "Distributor Cap",
+      "ebay_brand": "Pace Setter",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps",
       "stock": 1
     },
     {
@@ -31620,6 +32329,145 @@
       "stock": 1
     },
     {
+      "id": "IDMSWB5TT4BW2JXYBXRNIPLE",
+      "name": "Standard JH152 Distributor Cap NOS 1.5 1.6 1.8 Sentra Pulsar",
+      "price": 16.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/a09ae8753653f0a9eaa65a9bf3dde71172fe396d/original.jpeg",
+      "url": "https://square.link/u/hnzusvBJ",
+      "category": "ignition",
+      "checkout": true,
+      "variation_id": "NRVWAWUW2JVA3BIQG3CUO2X4",
+      "part_numbers": [
+        "JH152",
+        "174-6861, 03177, 4870A, JH152T, 2216252A01, 491008711"
+      ],
+      "interchange": [
+        "C708",
+        "E396",
+        "EP847",
+        "W340",
+        "5D1246"
+      ],
+      "vehicles": [
+        "1983 Nissan Pulsar",
+        "1983\u20131987 Nissan Pulsar NX",
+        "1982\u20131985 Nissan Sentra",
+        "1984 Subaru Brat",
+        "1984\u20131986 Subaru GL",
+        "1986 Subaru GL-10",
+        "1985\u20131986 Subaru XT"
+      ],
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "JH152",
+          "174-6861, 03177, 4870A, JH152T, 2216252A01, 491008711"
+        ],
+        "interchange": [
+          "C708",
+          "E396",
+          "EP847",
+          "W340",
+          "5D1246"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1983,
+            "year_to": 1983,
+            "make": "Nissan",
+            "model": "Pulsar",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1983,
+            "year_to": 1987,
+            "make": "Nissan",
+            "model": "Pulsar NX",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1982,
+            "year_to": 1985,
+            "make": "Nissan",
+            "model": "Sentra",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 1984,
+            "make": "Subaru",
+            "model": "Brat",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 1986,
+            "make": "Subaru",
+            "model": "GL",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1986,
+            "year_to": 1986,
+            "make": "Subaru",
+            "model": "GL-10",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1986,
+            "make": "Subaru",
+            "model": "XT",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1983 Nissan Pulsar",
+          "1983\u20131987 Nissan Pulsar NX",
+          "1982\u20131985 Nissan Sentra",
+          "1984 Subaru Brat",
+          "1984\u20131986 Subaru GL",
+          "1986 Subaru GL-10",
+          "1985\u20131986 Subaru XT"
+        ],
+        "raw_compat_rows": 85,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398336562058",
+        "type": "Distributor Cap",
+        "brand": "Standard",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps"
+      },
+      "vehicle_count_raw": 85,
+      "ebay_item_id": "398336562058",
+      "ebay_type": "Distributor Cap",
+      "ebay_brand": "Standard",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps",
+      "stock": 1
+    },
+    {
       "id": "5HTQX5EMAYSZCQ5J722ANPUE",
       "name": "Standard JH168 2.0L Distributor Cap 1985-1987 Nissan Stanza NOS",
       "price": 19.99,
@@ -31671,6 +32519,71 @@
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps",
       "stock": 1,
       "interchange": []
+    },
+    {
+      "id": "7LF2UGQDZ7ORWBZIKEHXWQJ4",
+      "name": "Standard JH173 Distributor Cap NOS 1.6 Capri 91-94",
+      "price": 19.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/9efdec1567fe06258def9905e23ae32b639ed5c2/original.jpeg",
+      "url": "https://square.link/u/pzO3S95n",
+      "category": "ignition",
+      "checkout": true,
+      "variation_id": "C2U3SZCYL5PHTOYTGM5GIYIE",
+      "part_numbers": [
+        "JH-173",
+        "19017046"
+      ],
+      "interchange": [
+        "DHE-443",
+        "F0JY-12106-A",
+        "F-358",
+        "T-48571"
+      ],
+      "vehicles": [
+        "1991\u20131994 Mercury Capri"
+      ],
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "JH-173",
+          "19017046"
+        ],
+        "interchange": [
+          "DHE-443",
+          "F0JY-12106-A",
+          "F-358",
+          "T-48571"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1991,
+            "year_to": 1994,
+            "make": "Mercury",
+            "model": "Capri",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1991\u20131994 Mercury Capri"
+        ],
+        "raw_compat_rows": 8,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398338095597",
+        "type": "Distributor Cap",
+        "brand": "Standard Motor Products",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps"
+      },
+      "vehicle_count_raw": 8,
+      "ebay_item_id": "398338095597",
+      "ebay_type": "Distributor Cap",
+      "ebay_brand": "Standard Motor Products",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps",
+      "stock": 1
     },
     {
       "id": "BBUP4BQEBUP7CGDWCUP2LGX7",
@@ -31805,6 +32718,157 @@
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps",
       "stock": 1,
       "interchange": []
+    },
+    {
+      "id": "5SY4OWTUDY6NZXZTBGY4SRF2",
+      "name": "Standard LX-125 Pickup Coil NOS 2.2 2.5 Daytona",
+      "price": 29.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/a1057ca753a17702cf31b115f7894118250ec915/original.jpeg",
+      "url": "https://square.link/u/C36SIb1I",
+      "category": "ignition",
+      "checkout": true,
+      "variation_id": "47PGZX2AHFTK4UV62Z6YATFK",
+      "part_numbers": [
+        "LX-125",
+        "4886069AA, 5226617, 12336241, ME55, MP824, ICM125"
+      ],
+      "interchange": [
+        "LX125",
+        "CR121",
+        "4P1232",
+        "52-5510",
+        "5227272"
+      ],
+      "vehicles": [
+        "1985\u20131990 Chrysler Daytona",
+        "1986\u20131992 Chrysler LeBaron",
+        "1986\u20131988 Chrysler New Yorker",
+        "1986\u20131988 Chrysler Town & Country",
+        "1986\u20131988 Dodge 600",
+        "1989\u20131990 Dodge Caravan",
+        "1986\u20131992 Dodge Daytona",
+        "1986\u20131989 Dodge Lancer"
+      ],
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "LX-125",
+          "4886069AA, 5226617, 12336241, ME55, MP824, ICM125"
+        ],
+        "interchange": [
+          "LX125",
+          "CR121",
+          "4P1232",
+          "52-5510",
+          "5227272"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1985,
+            "year_to": 1990,
+            "make": "Chrysler",
+            "model": "Daytona",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1986,
+            "year_to": 1992,
+            "make": "Chrysler",
+            "model": "LeBaron",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1986,
+            "year_to": 1988,
+            "make": "Chrysler",
+            "model": "New Yorker",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1986,
+            "year_to": 1988,
+            "make": "Chrysler",
+            "model": "Town & Country",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1986,
+            "year_to": 1988,
+            "make": "Dodge",
+            "model": "600",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1989,
+            "year_to": 1990,
+            "make": "Dodge",
+            "model": "Caravan",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1986,
+            "year_to": 1992,
+            "make": "Dodge",
+            "model": "Daytona",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1986,
+            "year_to": 1989,
+            "make": "Dodge",
+            "model": "Lancer",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1985\u20131990 Chrysler Daytona",
+          "1986\u20131992 Chrysler LeBaron",
+          "1986\u20131988 Chrysler New Yorker",
+          "1986\u20131988 Chrysler Town & Country",
+          "1986\u20131988 Dodge 600",
+          "1989\u20131990 Dodge Caravan",
+          "1986\u20131992 Dodge Daytona",
+          "1986\u20131989 Dodge Lancer"
+        ],
+        "raw_compat_rows": 258,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398338729809",
+        "type": "Distributor Pickup Coil",
+        "brand": "Standard",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Other Ignition Systems & Components"
+      },
+      "vehicle_count_raw": 258,
+      "ebay_item_id": "398338729809",
+      "ebay_type": "Distributor Pickup Coil",
+      "ebay_brand": "Standard",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Other Ignition Systems & Components",
+      "stock": 1
     },
     {
       "id": "KVSPPTNWS4SLW7XKRCIHW3YC",
@@ -37427,6 +38491,55 @@
       "vehicles": []
     },
     {
+      "id": "ORUY4WHRMZCWPBFJ5GCGWK42",
+      "name": "00-05 Buick LeSabre Rear LH RH Power Window Regulator Motor Pair",
+      "price": 39.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/fda709d370f1dc7a934f7110bdb8d7c6e9ce119a/original.jpeg",
+      "url": "https://square.link/u/KuRJ0mC1",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "YSQOAAKXQVTPZZEH7B5RDM7I",
+      "vehicles": [
+        "2000\u20132005 Buick LeSabre"
+      ],
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 2000,
+            "year_to": 2005,
+            "make": "Buick",
+            "model": "LeSabre",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "2000\u20132005 Buick LeSabre"
+        ],
+        "raw_compat_rows": 12,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398338312530",
+        "type": "Regulator & Motor Assembly",
+        "brand": "GM",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Interior Parts & Accessories:Window Motors & Regulators"
+      },
+      "vehicle_count_raw": 12,
+      "ebay_item_id": "398338312530",
+      "ebay_type": "Regulator & Motor Assembly",
+      "ebay_brand": "GM",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Interior Parts & Accessories:Window Motors & Regulators",
+      "stock": 1,
+      "part_numbers": [],
+      "interchange": []
+    },
+    {
       "id": "LKNXL7GFXT72EIYXAIH2WXJZ",
       "name": "ACDelco CV854C PCV Valve 5.0 5.8 NOS 81-01 Mustang",
       "price": 9.99,
@@ -37825,6 +38938,133 @@
       "stock": 1
     },
     {
+      "id": "BWQJ6FHKCQDQVXTJO3RIG4XZ",
+      "name": "Blue Streak AL4556XP Lubripoints NOS 59-71 Jeep CJ5 Willys",
+      "price": 18.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/f1a4e5205ca6b2a45e35d3a4611d77007f5f6543/original.jpeg",
+      "url": "https://square.link/u/RfCahlfr",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "C6PQZO6KOMDBIGFW237PHFUQ",
+      "part_numbers": [
+        "AL4556XP",
+        "4P1011, AL1037M, AL4556PT, 12323729, 19110349"
+      ],
+      "interchange": [
+        "AL-4556P",
+        "CS725A",
+        "A81",
+        "117096",
+        "120545"
+      ],
+      "vehicles": [
+        "1959\u20131966 Jeep CJ3",
+        "1959\u20131971 Jeep CJ5",
+        "1959\u20131969 Jeep CJ6",
+        "1965\u20131971 Jeep DJ5",
+        "1943\u20131958 Jeep Willys",
+        "1949\u20131950 Plymouth Deluxe"
+      ],
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "AL4556XP",
+          "4P1011, AL1037M, AL4556PT, 12323729, 19110349"
+        ],
+        "interchange": [
+          "AL-4556P",
+          "CS725A",
+          "A81",
+          "117096",
+          "120545"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1959,
+            "year_to": 1966,
+            "make": "Jeep",
+            "model": "CJ3",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1959,
+            "year_to": 1971,
+            "make": "Jeep",
+            "model": "CJ5",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1959,
+            "year_to": 1969,
+            "make": "Jeep",
+            "model": "CJ6",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1965,
+            "year_to": 1971,
+            "make": "Jeep",
+            "model": "DJ5",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1943,
+            "year_to": 1958,
+            "make": "Jeep",
+            "model": "Willys",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1949,
+            "year_to": 1950,
+            "make": "Plymouth",
+            "model": "Deluxe",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1959\u20131966 Jeep CJ3",
+          "1959\u20131971 Jeep CJ5",
+          "1959\u20131969 Jeep CJ6",
+          "1965\u20131971 Jeep DJ5",
+          "1943\u20131958 Jeep Willys",
+          "1949\u20131950 Plymouth Deluxe"
+        ],
+        "raw_compat_rows": 179,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398336592088",
+        "type": "Ignition Contact Set",
+        "brand": "Blue Streak",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Points"
+      },
+      "vehicle_count_raw": 179,
+      "ebay_item_id": "398336592088",
+      "ebay_type": "Ignition Contact Set",
+      "ebay_brand": "Blue Streak",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Points",
+      "stock": 1
+    },
+    {
       "id": "GCNASOCLUO2VH6DMXQOIO4QU",
       "name": "Blue Streak AL4556XP Points 2.2 3.6 NOS 39-48 Chrysler",
       "price": 16.99,
@@ -37897,6 +39137,153 @@
       "ebay_type": "Ignition Points",
       "ebay_brand": "Blue Streak",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Points",
+      "stock": 1
+    },
+    {
+      "id": "VZYOOZI7OSELXY3Q4XSZZCWW",
+      "name": "Blue Streak DR-318X Rotor NOS 5.0 5.7 7.4 Camaro C10",
+      "price": 12.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/7a71fcee2ae3c6f3b5d90a264ed728125acdee98/original.jpeg",
+      "url": "https://square.link/u/N1Erpwt4",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "AFUIM7VSIL6ZW3QM7FGC4LZ6",
+      "part_numbers": [
+        "DR-318X",
+        "D448X, D468, 10456359, 19110934, DR318T"
+      ],
+      "interchange": [
+        "D157",
+        "RR173",
+        "DR971"
+      ],
+      "vehicles": [
+        "1979\u20131984 Cadillac DeVille",
+        "1975\u20131986 Chevrolet C10",
+        "1975\u20131986 Chevrolet Camaro",
+        "1984\u20131993 Chevrolet Corvette",
+        "1975\u20131986 Chevrolet El Camino",
+        "1975\u20131986 Chevrolet K10",
+        "1975\u20131986 GMC Jimmy",
+        "1974\u20131992 Pontiac Firebird"
+      ],
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "DR-318X",
+          "D448X, D468, 10456359, 19110934, DR318T"
+        ],
+        "interchange": [
+          "D157",
+          "RR173",
+          "DR971"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1979,
+            "year_to": 1984,
+            "make": "Cadillac",
+            "model": "DeVille",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1975,
+            "year_to": 1986,
+            "make": "Chevrolet",
+            "model": "C10",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1975,
+            "year_to": 1986,
+            "make": "Chevrolet",
+            "model": "Camaro",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 1993,
+            "make": "Chevrolet",
+            "model": "Corvette",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1975,
+            "year_to": 1986,
+            "make": "Chevrolet",
+            "model": "El Camino",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1975,
+            "year_to": 1986,
+            "make": "Chevrolet",
+            "model": "K10",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1975,
+            "year_to": 1986,
+            "make": "GMC",
+            "model": "Jimmy",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1974,
+            "year_to": 1992,
+            "make": "Pontiac",
+            "model": "Firebird",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1979\u20131984 Cadillac DeVille",
+          "1975\u20131986 Chevrolet C10",
+          "1975\u20131986 Chevrolet Camaro",
+          "1984\u20131993 Chevrolet Corvette",
+          "1975\u20131986 Chevrolet El Camino",
+          "1975\u20131986 Chevrolet K10",
+          "1975\u20131986 GMC Jimmy",
+          "1974\u20131992 Pontiac Firebird"
+        ],
+        "raw_compat_rows": 707,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398336564276",
+        "type": "Distributor Rotor",
+        "brand": "Blue Streak",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors"
+      },
+      "vehicle_count_raw": 707,
+      "ebay_item_id": "398336564276",
+      "ebay_type": "Distributor Rotor",
+      "ebay_brand": "Blue Streak",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors",
       "stock": 1
     },
     {
@@ -38221,6 +39608,256 @@
       "ebay_brand": "Blue Streak",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Interior Parts & Accessories:Switches & Controls",
       "stock": 1
+    },
+    {
+      "id": "IYN7VJVXEDWOPWCGBKXM7CHY",
+      "name": "Blue Streak SS581X Starter Solenoid NOS Ford F100 Mustang Jeep",
+      "price": 29.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/b69bebab3d3a8208eb701af3c376577c06b5d59c/original.jpeg",
+      "url": "https://square.link/u/UUrGhNeq",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "ULRIPNTJ473ZHI6DLCI4PWQ4",
+      "part_numbers": [
+        "SS581X",
+        "C9AZ11450A, FDR11450A, Motorcraft SW3"
+      ],
+      "interchange": [
+        "SS-581",
+        "SS3",
+        "B6AZ-11450-A"
+      ],
+      "vehicles": [
+        "1966\u20131977 Ford Bronco",
+        "1953\u20131979 Ford F-100",
+        "Ford F100",
+        "1964\u20131967 Ford Mustang",
+        "1972\u20131979 Jeep CJ5",
+        "1976\u20131979 Jeep CJ7"
+      ],
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "SS581X",
+          "C9AZ11450A, FDR11450A, Motorcraft SW3"
+        ],
+        "interchange": [
+          "SS-581",
+          "SS3",
+          "B6AZ-11450-A"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1966,
+            "year_to": 1977,
+            "make": "Ford",
+            "model": "Bronco",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1953,
+            "year_to": 1979,
+            "make": "Ford",
+            "model": "F-100",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": null,
+            "year_to": null,
+            "make": "Ford",
+            "model": "F100",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1964,
+            "year_to": 1967,
+            "make": "Ford",
+            "model": "Mustang",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1972,
+            "year_to": 1979,
+            "make": "Jeep",
+            "model": "CJ5",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1976,
+            "year_to": 1979,
+            "make": "Jeep",
+            "model": "CJ7",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1966\u20131977 Ford Bronco",
+          "1953\u20131979 Ford F-100",
+          "Ford F100",
+          "1964\u20131967 Ford Mustang",
+          "1972\u20131979 Jeep CJ5",
+          "1976\u20131979 Jeep CJ7"
+        ],
+        "raw_compat_rows": 782,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398336186050",
+        "type": "Starter Solenoid",
+        "brand": "Blue Streak",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Starters, Alternators, ECUs & Wiring:Starter Motor Parts"
+      },
+      "vehicle_count_raw": 782,
+      "ebay_item_id": "398336186050",
+      "ebay_type": "Starter Solenoid",
+      "ebay_brand": "Blue Streak",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Starters, Alternators, ECUs & Wiring:Starter Motor Parts",
+      "stock": 1
+    },
+    {
+      "id": "IML4ZXRMJWZS3EWVWWCTDSDD",
+      "name": "Borg-Warner 20802 Air Switch Valve NOS 2.2 84-87 Caravan",
+      "price": 19.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/a981ecc425b7071dfd7e25977219afb3aad3c0e3/original.jpeg",
+      "url": "https://square.link/u/Uzo0x1pa",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "6ACNY3PYDCROEEF4XUBOA2GG",
+      "part_numbers": [
+        "20802",
+        "Chrysler 4275053"
+      ],
+      "vehicles": [
+        "1984\u20131986 Chrysler Laser",
+        "1984\u20131986 Chrysler LeBaron",
+        "1984\u20131986 Chrysler New Yorker",
+        "1984\u20131986 Chrysler Town & Country",
+        "1984\u20131986 Dodge 600",
+        "1984\u20131986 Dodge Aries",
+        "1984\u20131987 Dodge Caravan"
+      ],
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "20802",
+          "Chrysler 4275053"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1984,
+            "year_to": 1986,
+            "make": "Chrysler",
+            "model": "Laser",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 1986,
+            "make": "Chrysler",
+            "model": "LeBaron",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 1986,
+            "make": "Chrysler",
+            "model": "New Yorker",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 1986,
+            "make": "Chrysler",
+            "model": "Town & Country",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 1986,
+            "make": "Dodge",
+            "model": "600",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 1986,
+            "make": "Dodge",
+            "model": "Aries",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 1987,
+            "make": "Dodge",
+            "model": "Caravan",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1984\u20131986 Chrysler Laser",
+          "1984\u20131986 Chrysler LeBaron",
+          "1984\u20131986 Chrysler New Yorker",
+          "1984\u20131986 Chrysler Town & Country",
+          "1984\u20131986 Dodge 600",
+          "1984\u20131986 Dodge Aries",
+          "1984\u20131987 Dodge Caravan"
+        ],
+        "raw_compat_rows": 124,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398336335030",
+        "type": "Air Switch Valve",
+        "brand": "Borg-Warner",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Exhaust & Emission Systems:Air Bypass Valves"
+      },
+      "vehicle_count_raw": 124,
+      "ebay_item_id": "398336335030",
+      "ebay_type": "Air Switch Valve",
+      "ebay_brand": "Borg-Warner",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Exhaust & Emission Systems:Air Bypass Valves",
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "H5LWOW6FII2YKQ645BPYVN7S",
@@ -40121,6 +41758,133 @@
       "stock": 2
     },
     {
+      "id": "5TWZZEFRNBPUZ4Z2FAAK3YU6",
+      "name": "Ford E3TZ-7A564-D Clutch Slave Cylinder NOS 83-92 F-150",
+      "price": 29.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/dcf9d9d00f1aa67fd2a961781a564dea97b4ed15/original.jpeg",
+      "url": "https://square.link/u/TdapUOoV",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "ZIWGTQFHNH4CEBJMMTGDFZBP",
+      "part_numbers": [
+        "E3TZ-7A564-D",
+        "DB07ML009A, D9HZ-7A508-A, SH6018, E3TZ7A564D"
+      ],
+      "interchange": [
+        "CS37723",
+        "LSC147",
+        "37723",
+        "E4TZ-7A564-A",
+        "E7SZ-7A508-A"
+      ],
+      "vehicles": [
+        "1984\u20131987 Ford Bronco",
+        "1983\u20131992 Ford E3TZ-7A564-D",
+        "1984\u20131992 Ford F-150",
+        "1983\u20131992 Ford F-250",
+        "1983\u20131992 Ford F-350",
+        "1983\u20131984 Ford Ranger"
+      ],
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "E3TZ-7A564-D",
+          "DB07ML009A, D9HZ-7A508-A, SH6018, E3TZ7A564D"
+        ],
+        "interchange": [
+          "CS37723",
+          "LSC147",
+          "37723",
+          "E4TZ-7A564-A",
+          "E7SZ-7A508-A"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1984,
+            "year_to": 1987,
+            "make": "Ford",
+            "model": "Bronco",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1983,
+            "year_to": 1992,
+            "make": "Ford",
+            "model": "E3TZ-7A564-D",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 1992,
+            "make": "Ford",
+            "model": "F-150",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1983,
+            "year_to": 1992,
+            "make": "Ford",
+            "model": "F-250",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1983,
+            "year_to": 1992,
+            "make": "Ford",
+            "model": "F-350",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1983,
+            "year_to": 1984,
+            "make": "Ford",
+            "model": "Ranger",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1984\u20131987 Ford Bronco",
+          "1983\u20131992 Ford E3TZ-7A564-D",
+          "1984\u20131992 Ford F-150",
+          "1983\u20131992 Ford F-250",
+          "1983\u20131992 Ford F-350",
+          "1983\u20131984 Ford Ranger"
+        ],
+        "raw_compat_rows": 1161,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398336422066",
+        "type": "Clutch Slave Cylinder",
+        "brand": "Ford",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:Clutch Parts & Kits:Additional Clutch Parts"
+      },
+      "vehicle_count_raw": 1161,
+      "ebay_item_id": "398336422066",
+      "ebay_type": "Clutch Slave Cylinder",
+      "ebay_brand": "Ford",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:Clutch Parts & Kits:Additional Clutch Parts",
+      "stock": 1
+    },
+    {
       "id": "4V62TWZN6P5UTG7DLEHCW432",
       "name": "Four Seasons 24110 A/C Compressor O-Ring NOS 10-Pack",
       "price": 9.99,
@@ -40307,6 +42071,119 @@
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air Conditioning & Heating:Other Air Conditioning & Heating",
       "stock": 1,
       "vehicles": []
+    },
+    {
+      "id": "2AQPM4LDYWPC4HBVIQWS6VON",
+      "name": "Four Seasons 74612 Heater Valve NOS 67-68 Mustang F150 CJ7",
+      "price": 14.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/e1ec2349ccbb92a33e69ac40624e9ac3d6653a00/original.jpeg",
+      "url": "https://square.link/u/izE8YQgr",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "ZU72YSA5CVZPSC5WFOU33VSY",
+      "part_numbers": [
+        "74612",
+        "D4AZ18495A, 3222290, Dorman 801038"
+      ],
+      "interchange": [
+        "YG98",
+        "C5AZ18495A",
+        "14039637",
+        "155221"
+      ],
+      "vehicles": [
+        "1976\u20131984 Buick LeSabre",
+        "1987\u20131993 Dodge D150",
+        "1975\u20131979 Ford F-150",
+        "1967\u20131968 Ford Mustang",
+        "1985\u20131986 Jeep CJ7"
+      ],
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "74612",
+          "D4AZ18495A, 3222290, Dorman 801038"
+        ],
+        "interchange": [
+          "YG98",
+          "C5AZ18495A",
+          "14039637",
+          "155221"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1976,
+            "year_to": 1984,
+            "make": "Buick",
+            "model": "LeSabre",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1993,
+            "make": "Dodge",
+            "model": "D150",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1975,
+            "year_to": 1979,
+            "make": "Ford",
+            "model": "F-150",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1967,
+            "year_to": 1968,
+            "make": "Ford",
+            "model": "Mustang",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1986,
+            "make": "Jeep",
+            "model": "CJ7",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1976\u20131984 Buick LeSabre",
+          "1987\u20131993 Dodge D150",
+          "1975\u20131979 Ford F-150",
+          "1967\u20131968 Ford Mustang",
+          "1985\u20131986 Jeep CJ7"
+        ],
+        "raw_compat_rows": 637,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398336096247",
+        "type": "Heater Control Valve",
+        "brand": "Four Seasons",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air Conditioning & Heating:Heater Control Valves"
+      },
+      "vehicle_count_raw": 637,
+      "ebay_item_id": "398336096247",
+      "ebay_type": "Heater Control Valve",
+      "ebay_brand": "Four Seasons",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air Conditioning & Heating:Heater Control Valves",
+      "stock": 1
     },
     {
       "id": "RDNZ6GYL22VCWLBJTIPXBNUO",
@@ -45412,55 +47289,57 @@
       "stock": 1
     },
     {
-      "id": "KEBP5GL5DIABJK2Q454AEL2S",
-      "name": "Hygrade CPA177 Choke Pull-Off Rochester Quadrajet Dualjet GM 1975-1990 NOS",
-      "price": 24.99,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/724b825e83a9e95eb4834d45975ceaa2649f35ca/original.jpeg",
-      "url": "https://square.link/u/hB4MxTSy",
+      "id": "3EJO2M24ZEWY36N4X7RFO3LW",
+      "name": "Hygrade CPA-145 Choke Pull-Off 2.5 3.8 4.3 5.0 5.7 1975-84 GM",
+      "price": 19.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/23170e8f58aeade03e9ec7de8be3f4f5a0734e5b/original.jpeg",
+      "url": "https://square.link/u/5CP5cDpN",
       "category": "other",
       "checkout": true,
-      "variation_id": "VQY5CWEP6OJSYAGBKBXLDGND",
+      "variation_id": "Z2BMELU5BZTELBYOTU6THBHF",
+      "stock": 1,
       "part_numbers": [
-        "CPA177",
-        "CP121, 1C1063, 7153, AP7153, 24885"
+        "CPA-145",
+        "101-880, CPA145"
       ],
-      "interchange": [
-        "17067211",
-        "7044435",
-        "779-143",
-        "VC460",
-        "CP105"
-      ],
+      "interchange": [],
       "vehicles": [
-        "1975\u20131988 Buick Century",
-        "1975\u20131990 Buick LeSabre",
-        "1975\u20131990 Buick Regal",
-        "1975\u20131990 Chevrolet Caprice",
-        "1975\u20131985 Chevrolet Impala",
-        "1975\u20131988 Chevrolet Monte Carlo",
-        "1975\u20131987 Oldsmobile Cutlass",
-        "1975\u20131990 Oldsmobile Delta 88",
-        "1977\u20131990 Pontiac Bonneville",
-        "1976\u20131987 Pontiac Grand Prix"
+        "1975\u20131984 Buick Century",
+        "1976\u20131984 Buick Electra",
+        "1975\u20131984 Buick LeSabre",
+        "1975\u20131984 Buick Regal",
+        "1977\u20131984 Buick Riviera",
+        "1975\u20131980 Buick Skyhawk",
+        "1975\u20131984 Chevrolet Camaro",
+        "1975\u20131984 Chevrolet Caprice",
+        "1975\u20131984 Chevrolet El Camino",
+        "1975\u20131984 Chevrolet Impala",
+        "1975\u20131983 Chevrolet Malibu",
+        "1975\u20131984 Chevrolet Monte Carlo",
+        "1978\u20131984 GMC Caballero",
+        "1975\u20131984 GMC Jimmy",
+        "1975\u20131981 Oldsmobile Cutlass",
+        "1975\u20131984 Pontiac Firebird",
+        "1976\u20131984 Pontiac Grand Prix",
+        "1975\u20131981 Pontiac LeMans"
       ],
+      "vehicle_count_raw": 1558,
+      "ebay_item_id": "398339200241",
+      "ebay_type": "Choke Pull-Off Assembly",
+      "ebay_brand": "Hygrade",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Carburetor Parts",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
-          "CPA177",
-          "CP121, 1C1063, 7153, AP7153, 24885"
+          "CPA-145",
+          "101-880, CPA145"
         ],
-        "interchange": [
-          "17067211",
-          "7044435",
-          "779-143",
-          "VC460",
-          "CP105"
-        ],
+        "interchange": [],
         "vehicles": [
           {
             "year_from": 1975,
-            "year_to": 1988,
+            "year_to": 1984,
             "make": "Buick",
             "model": "Century",
             "notes": "",
@@ -45469,8 +47348,18 @@
             "trim_count": null
           },
           {
+            "year_from": 1976,
+            "year_to": 1984,
+            "make": "Buick",
+            "model": "Electra",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
             "year_from": 1975,
-            "year_to": 1990,
+            "year_to": 1984,
             "make": "Buick",
             "model": "LeSabre",
             "notes": "",
@@ -45480,7 +47369,7 @@
           },
           {
             "year_from": 1975,
-            "year_to": 1990,
+            "year_to": 1984,
             "make": "Buick",
             "model": "Regal",
             "notes": "",
@@ -45489,8 +47378,38 @@
             "trim_count": null
           },
           {
+            "year_from": 1977,
+            "year_to": 1984,
+            "make": "Buick",
+            "model": "Riviera",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
             "year_from": 1975,
-            "year_to": 1990,
+            "year_to": 1980,
+            "make": "Buick",
+            "model": "Skyhawk",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1975,
+            "year_to": 1984,
+            "make": "Chevrolet",
+            "model": "Camaro",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1975,
+            "year_to": 1984,
             "make": "Chevrolet",
             "model": "Caprice",
             "notes": "",
@@ -45500,7 +47419,17 @@
           },
           {
             "year_from": 1975,
-            "year_to": 1985,
+            "year_to": 1984,
+            "make": "Chevrolet",
+            "model": "El Camino",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1975,
+            "year_to": 1984,
             "make": "Chevrolet",
             "model": "Impala",
             "notes": "",
@@ -45510,7 +47439,17 @@
           },
           {
             "year_from": 1975,
-            "year_to": 1988,
+            "year_to": 1983,
+            "make": "Chevrolet",
+            "model": "Malibu",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1975,
+            "year_to": 1984,
             "make": "Chevrolet",
             "model": "Monte Carlo",
             "notes": "",
@@ -45519,8 +47458,28 @@
             "trim_count": null
           },
           {
+            "year_from": 1978,
+            "year_to": 1984,
+            "make": "GMC",
+            "model": "Caballero",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
             "year_from": 1975,
-            "year_to": 1987,
+            "year_to": 1984,
+            "make": "GMC",
+            "model": "Jimmy",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1975,
+            "year_to": 1981,
             "make": "Oldsmobile",
             "model": "Cutlass",
             "notes": "",
@@ -45530,19 +47489,9 @@
           },
           {
             "year_from": 1975,
-            "year_to": 1990,
-            "make": "Oldsmobile",
-            "model": "Delta 88",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1977,
-            "year_to": 1990,
+            "year_to": 1984,
             "make": "Pontiac",
-            "model": "Bonneville",
+            "model": "Firebird",
             "notes": "",
             "source": "ebay_compat",
             "confidence": "high",
@@ -45550,9 +47499,19 @@
           },
           {
             "year_from": 1976,
-            "year_to": 1987,
+            "year_to": 1984,
             "make": "Pontiac",
             "model": "Grand Prix",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1975,
+            "year_to": 1981,
+            "make": "Pontiac",
+            "model": "LeMans",
             "notes": "",
             "source": "ebay_compat",
             "confidence": "high",
@@ -45560,31 +47519,33 @@
           }
         ],
         "vehicle_labels": [
-          "1975\u20131988 Buick Century",
-          "1975\u20131990 Buick LeSabre",
-          "1975\u20131990 Buick Regal",
-          "1975\u20131990 Chevrolet Caprice",
-          "1975\u20131985 Chevrolet Impala",
-          "1975\u20131988 Chevrolet Monte Carlo",
-          "1975\u20131987 Oldsmobile Cutlass",
-          "1975\u20131990 Oldsmobile Delta 88",
-          "1977\u20131990 Pontiac Bonneville",
-          "1976\u20131987 Pontiac Grand Prix"
+          "1975\u20131984 Buick Century",
+          "1976\u20131984 Buick Electra",
+          "1975\u20131984 Buick LeSabre",
+          "1975\u20131984 Buick Regal",
+          "1977\u20131984 Buick Riviera",
+          "1975\u20131980 Buick Skyhawk",
+          "1975\u20131984 Chevrolet Camaro",
+          "1975\u20131984 Chevrolet Caprice",
+          "1975\u20131984 Chevrolet El Camino",
+          "1975\u20131984 Chevrolet Impala",
+          "1975\u20131983 Chevrolet Malibu",
+          "1975\u20131984 Chevrolet Monte Carlo",
+          "1978\u20131984 GMC Caballero",
+          "1975\u20131984 GMC Jimmy",
+          "1975\u20131981 Oldsmobile Cutlass",
+          "1975\u20131984 Pontiac Firebird",
+          "1976\u20131984 Pontiac Grand Prix",
+          "1975\u20131981 Pontiac LeMans"
         ],
-        "raw_compat_rows": 1352,
+        "raw_compat_rows": 1558,
         "source": "ebay_listing",
         "confidence": "high",
-        "ebay_item_id": "398328788004",
-        "type": "Choke Pull-Off",
+        "ebay_item_id": "398339200241",
+        "type": "Choke Pull-Off Assembly",
         "brand": "Hygrade",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Carburetor Parts"
-      },
-      "vehicle_count_raw": 1352,
-      "ebay_item_id": "398328788004",
-      "ebay_type": "Choke Pull-Off",
-      "ebay_brand": "Hygrade",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Carburetor Parts",
-      "stock": 1
+      }
     },
     {
       "id": "QW3Z4YMGSKGP3NQKIAUW7VK6",
@@ -45933,6 +47894,113 @@
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Carburetor Parts",
       "stock": 1,
       "interchange": []
+    },
+    {
+      "id": "GM5ZIBMSW5PGIMPVRUMVJMY6",
+      "name": "Hygrade CV319 Choke Thermostat 5.0 5.7 7.4 C10 Blazer NOS",
+      "price": 14.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/07546a5dc110633c36b574c1f7f33c2448c3dc87/original.jpeg",
+      "url": "https://square.link/u/HdzWA4SJ",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "ZKM42VAO4W4UFTMWOMKDFODO",
+      "part_numbers": [
+        "CV319",
+        "8182C"
+      ],
+      "interchange": [
+        "CV329"
+      ],
+      "vehicles": [
+        "1984\u20131986 Chevrolet C10",
+        "1984\u20131986 Chevrolet G30",
+        "1982\u20131986 Chevrolet K5 Blazer",
+        "1983\u20131986 GMC Jimmy",
+        "1986\u20131989 GMC P3500"
+      ],
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "CV319",
+          "8182C"
+        ],
+        "interchange": [
+          "CV329"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1984,
+            "year_to": 1986,
+            "make": "Chevrolet",
+            "model": "C10",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 1986,
+            "make": "Chevrolet",
+            "model": "G30",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1982,
+            "year_to": 1986,
+            "make": "Chevrolet",
+            "model": "K5 Blazer",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1983,
+            "year_to": 1986,
+            "make": "GMC",
+            "model": "Jimmy",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1986,
+            "year_to": 1989,
+            "make": "GMC",
+            "model": "P3500",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1984\u20131986 Chevrolet C10",
+          "1984\u20131986 Chevrolet G30",
+          "1982\u20131986 Chevrolet K5 Blazer",
+          "1983\u20131986 GMC Jimmy",
+          "1986\u20131989 GMC P3500"
+        ],
+        "raw_compat_rows": 108,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398339023105",
+        "type": "Choke Thermostat",
+        "brand": "Hygrade",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Carburetor Parts"
+      },
+      "vehicle_count_raw": 108,
+      "ebay_item_id": "398339023105",
+      "ebay_type": "Choke Thermostat",
+      "ebay_brand": "Hygrade",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Carburetor Parts",
+      "stock": 1
     },
     {
       "id": "7POUO6NH6MLPF7MDRL2JJ3MS",
@@ -48835,6 +50903,97 @@
       "ebay_type": "Thermostat",
       "ebay_brand": "Interstate",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Thermostats & Housings",
+      "stock": 1,
+      "interchange": []
+    },
+    {
+      "id": "XGARF6J3H4LOYHSFZV2FBLQG",
+      "name": "KW DA-20 Voltage Regulator NOS 55-60 Chevy Truck AMC Jeep",
+      "price": 79.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/675977d552c1921e645b6fb938fa97d573c89ca3/original.jpeg",
+      "url": "https://square.link/u/JcgBnP3u",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "WAYYGIYEXGWXSPDCOKBCHM62",
+      "part_numbers": [
+        "DA-20",
+        "BMC"
+      ],
+      "vehicles": [
+        "1958\u20131963 AMC Ambassador",
+        "1958\u20131960 AMC Rambler",
+        "1955\u20131960 Chevrolet Truck",
+        "1969\u20131970 Jeep Wagoneer"
+      ],
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "DA-20",
+          "BMC"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1958,
+            "year_to": 1963,
+            "make": "AMC",
+            "model": "Ambassador",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1958,
+            "year_to": 1960,
+            "make": "AMC",
+            "model": "Rambler",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1955,
+            "year_to": 1960,
+            "make": "Chevrolet",
+            "model": "Truck",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1969,
+            "year_to": 1970,
+            "make": "Jeep",
+            "model": "Wagoneer",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1958\u20131963 AMC Ambassador",
+          "1958\u20131960 AMC Rambler",
+          "1955\u20131960 Chevrolet Truck",
+          "1969\u20131970 Jeep Wagoneer"
+        ],
+        "raw_compat_rows": 193,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398336139149",
+        "type": "Voltage Regulator",
+        "brand": "KW",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Starters, Alternators, ECUs & Wiring:Voltage Regulators"
+      },
+      "vehicle_count_raw": 193,
+      "ebay_item_id": "398336139149",
+      "ebay_type": "Voltage Regulator",
+      "ebay_brand": "KW",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Starters, Alternators, ECUs & Wiring:Voltage Regulators",
       "stock": 1,
       "interchange": []
     },
@@ -52320,6 +54479,131 @@
       "stock": 1
     },
     {
+      "id": "UJTQC4BNLH3M7KZYRLSZLH3Q",
+      "name": "Perfect Circle 214-2059 Rocker NOS 4.7 5.0 5.8 Bronco",
+      "price": 12.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/fd08f09494eb9af9a1232449f82695cfcb37ab8e/original.jpeg",
+      "url": "https://square.link/u/PeL3FuNe",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "L5HU4ZQI63WL5AUBAXP5HKQO",
+      "part_numbers": [
+        "214-2059",
+        "RM53, 22-847A, R-886, R847"
+      ],
+      "interchange": [
+        "2142059",
+        "MR-886",
+        "R-660",
+        "C6OZ-6564-B"
+      ],
+      "vehicles": [
+        "1968\u20131978 Ford Bronco",
+        "1965\u20131974 Ford Country Sedan",
+        "1965\u20131974 Ford Country Squire",
+        "1965\u20131972 Ford Custom",
+        "1969\u20131978 Ford E-100 Econoline",
+        "1975\u20131978 Ford E-150 Econoline"
+      ],
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "214-2059",
+          "RM53, 22-847A, R-886, R847"
+        ],
+        "interchange": [
+          "2142059",
+          "MR-886",
+          "R-660",
+          "C6OZ-6564-B"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1968,
+            "year_to": 1978,
+            "make": "Ford",
+            "model": "Bronco",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1965,
+            "year_to": 1974,
+            "make": "Ford",
+            "model": "Country Sedan",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1965,
+            "year_to": 1974,
+            "make": "Ford",
+            "model": "Country Squire",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1965,
+            "year_to": 1972,
+            "make": "Ford",
+            "model": "Custom",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1969,
+            "year_to": 1978,
+            "make": "Ford",
+            "model": "E-100 Econoline",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1975,
+            "year_to": 1978,
+            "make": "Ford",
+            "model": "E-150 Econoline",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1968\u20131978 Ford Bronco",
+          "1965\u20131974 Ford Country Sedan",
+          "1965\u20131974 Ford Country Squire",
+          "1965\u20131972 Ford Custom",
+          "1969\u20131978 Ford E-100 Econoline",
+          "1975\u20131978 Ford E-150 Econoline"
+        ],
+        "raw_compat_rows": 226,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398338730578",
+        "type": "Engine Rocker Arm",
+        "brand": "Perfect Circle",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Valvetrain Components:Rocker Arms & Parts"
+      },
+      "vehicle_count_raw": 226,
+      "ebay_item_id": "398338730578",
+      "ebay_type": "Engine Rocker Arm",
+      "ebay_brand": "Perfect Circle",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Valvetrain Components:Rocker Arms & Parts",
+      "stock": 1
+    },
+    {
       "id": "4ZIBBGXFF65NRMKSS3IQ2R3T",
       "name": "Perfect Circle 260-5045 Right Lower Control Arm 2.3L 85-94 Tempo Topaz NOS",
       "price": 24.99,
@@ -52392,6 +54676,539 @@
       "ebay_type": "Control Arm w/ Ball Joint",
       "ebay_brand": "Perfect Circle",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Steering & Suspension:Control Arms, Ball Joints & Assemblies",
+      "stock": 1
+    },
+    {
+      "id": "IZ5XSFCMBLGAJIHNOZF2SDVP",
+      "name": "Perfect Circle 265-1219 Sway Bar Link Kit NOS 64-72 Chevelle",
+      "price": 14.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/ee45709aef0efb11a2c55ddb988b10f9105b5be4/original.jpeg",
+      "url": "https://square.link/u/rLyn5QUN",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "UQEQKQ6UGWUJAL3BHXXVF3TD",
+      "part_numbers": [
+        "265-1219",
+        "06-84003, 8053K, 809-18053, D4AZ-5A486A"
+      ],
+      "interchange": [
+        "K8266",
+        "265-1206",
+        "SL210",
+        "545-1002",
+        "MK8266"
+      ],
+      "vehicles": [
+        "1957\u20131958 Buick Century",
+        "1959\u20131960 Buick Electra",
+        "1959\u20131960 Buick Invicta",
+        "1959\u20131960 Buick LeSabre",
+        "1958 Buick Limited",
+        "1957\u20131958 Buick Roadmaster",
+        "1964\u20131972 Buick Skylark",
+        "1957\u20131958 Buick Special",
+        "1957\u20131958 Buick Super",
+        "1965\u20131976 Cadillac Calais",
+        "1965\u20131976 Cadillac DeVille",
+        "1965 Cadillac Eldorado",
+        "1965\u20131976 Cadillac Fleetwood",
+        "1964\u20131972 Chevrolet Chevelle",
+        "1964\u20131972 Chevrolet El Camino",
+        "1970\u20131972 Chevrolet Monte Carlo",
+        "1967\u20131975 Chrysler Imperial",
+        "1965\u20131974 Ford Country Squire",
+        "1965\u20131972 Ford Custom",
+        "1965\u20131975 Ford Custom 500",
+        "1975\u20131976 Ford Elite",
+        "1965\u20131967 Ford Galaxie"
+      ],
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "265-1219",
+          "06-84003, 8053K, 809-18053, D4AZ-5A486A"
+        ],
+        "interchange": [
+          "K8266",
+          "265-1206",
+          "SL210",
+          "545-1002",
+          "MK8266"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1957,
+            "year_to": 1958,
+            "make": "Buick",
+            "model": "Century",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1959,
+            "year_to": 1960,
+            "make": "Buick",
+            "model": "Electra",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1959,
+            "year_to": 1960,
+            "make": "Buick",
+            "model": "Invicta",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1959,
+            "year_to": 1960,
+            "make": "Buick",
+            "model": "LeSabre",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1958,
+            "year_to": 1958,
+            "make": "Buick",
+            "model": "Limited",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1957,
+            "year_to": 1958,
+            "make": "Buick",
+            "model": "Roadmaster",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1964,
+            "year_to": 1972,
+            "make": "Buick",
+            "model": "Skylark",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1957,
+            "year_to": 1958,
+            "make": "Buick",
+            "model": "Special",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1957,
+            "year_to": 1958,
+            "make": "Buick",
+            "model": "Super",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1965,
+            "year_to": 1976,
+            "make": "Cadillac",
+            "model": "Calais",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1965,
+            "year_to": 1976,
+            "make": "Cadillac",
+            "model": "DeVille",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1965,
+            "year_to": 1965,
+            "make": "Cadillac",
+            "model": "Eldorado",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1965,
+            "year_to": 1976,
+            "make": "Cadillac",
+            "model": "Fleetwood",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1964,
+            "year_to": 1972,
+            "make": "Chevrolet",
+            "model": "Chevelle",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1964,
+            "year_to": 1972,
+            "make": "Chevrolet",
+            "model": "El Camino",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1970,
+            "year_to": 1972,
+            "make": "Chevrolet",
+            "model": "Monte Carlo",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1967,
+            "year_to": 1975,
+            "make": "Chrysler",
+            "model": "Imperial",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1965,
+            "year_to": 1974,
+            "make": "Ford",
+            "model": "Country Squire",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1965,
+            "year_to": 1972,
+            "make": "Ford",
+            "model": "Custom",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1965,
+            "year_to": 1975,
+            "make": "Ford",
+            "model": "Custom 500",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1975,
+            "year_to": 1976,
+            "make": "Ford",
+            "model": "Elite",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1965,
+            "year_to": 1967,
+            "make": "Ford",
+            "model": "Galaxie",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1957\u20131958 Buick Century",
+          "1959\u20131960 Buick Electra",
+          "1959\u20131960 Buick Invicta",
+          "1959\u20131960 Buick LeSabre",
+          "1958 Buick Limited",
+          "1957\u20131958 Buick Roadmaster",
+          "1964\u20131972 Buick Skylark",
+          "1957\u20131958 Buick Special",
+          "1957\u20131958 Buick Super",
+          "1965\u20131976 Cadillac Calais",
+          "1965\u20131976 Cadillac DeVille",
+          "1965 Cadillac Eldorado",
+          "1965\u20131976 Cadillac Fleetwood",
+          "1964\u20131972 Chevrolet Chevelle",
+          "1964\u20131972 Chevrolet El Camino",
+          "1970\u20131972 Chevrolet Monte Carlo",
+          "1967\u20131975 Chrysler Imperial",
+          "1965\u20131974 Ford Country Squire",
+          "1965\u20131972 Ford Custom",
+          "1965\u20131975 Ford Custom 500",
+          "1975\u20131976 Ford Elite",
+          "1965\u20131967 Ford Galaxie"
+        ],
+        "raw_compat_rows": 1555,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398336432685",
+        "type": "Stabilizer Bar Link Kit",
+        "brand": "Perfect Circle",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Steering & Suspension:Sway Bars, Links & Bushings"
+      },
+      "vehicle_count_raw": 1555,
+      "ebay_item_id": "398336432685",
+      "ebay_type": "Stabilizer Bar Link Kit",
+      "ebay_brand": "Perfect Circle",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Steering & Suspension:Sway Bars, Links & Bushings",
+      "stock": 1
+    },
+    {
+      "id": "T6QOKRGOHX33UYVHTALBER7P",
+      "name": "Perfect Circle 269-2465 Inner Tie Rod NOS 79-02 Crown Vic",
+      "price": 14.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/38e9c4be2e64bdf1bb35d5663cb271cf30008c9f/original.jpeg",
+      "url": "https://square.link/u/Gui0Dw7W",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "QG3KF7BKFQE7UIG6KIC7CNOK",
+      "part_numbers": [
+        "269-2465",
+        "D9AZ-3A131A, 2W7Z3A131AA, MES2056RL, MES3494"
+      ],
+      "interchange": [
+        "269-2970"
+      ],
+      "vehicles": [
+        "1992\u20132002 Ford Crown Victoria",
+        "1979\u20131986 Ford LTD",
+        "1987\u20131991 Ford LTD Crown Victoria",
+        "1980\u20131988 Ford Thunderbird",
+        "1980\u20131983 Lincoln Mark VI",
+        "1981\u20132002 Lincoln Town Car",
+        "1987\u20131991 Mercury Colony Park",
+        "1979\u20132002 Mercury Grand Marquis"
+      ],
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "269-2465",
+          "D9AZ-3A131A, 2W7Z3A131AA, MES2056RL, MES3494"
+        ],
+        "interchange": [
+          "269-2970"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1992,
+            "year_to": 2002,
+            "make": "Ford",
+            "model": "Crown Victoria",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1979,
+            "year_to": 1986,
+            "make": "Ford",
+            "model": "LTD",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1991,
+            "make": "Ford",
+            "model": "LTD Crown Victoria",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1980,
+            "year_to": 1988,
+            "make": "Ford",
+            "model": "Thunderbird",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1980,
+            "year_to": 1983,
+            "make": "Lincoln",
+            "model": "Mark VI",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1981,
+            "year_to": 2002,
+            "make": "Lincoln",
+            "model": "Town Car",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1991,
+            "make": "Mercury",
+            "model": "Colony Park",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1979,
+            "year_to": 2002,
+            "make": "Mercury",
+            "model": "Grand Marquis",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1992\u20132002 Ford Crown Victoria",
+          "1979\u20131986 Ford LTD",
+          "1987\u20131991 Ford LTD Crown Victoria",
+          "1980\u20131988 Ford Thunderbird",
+          "1980\u20131983 Lincoln Mark VI",
+          "1981\u20132002 Lincoln Town Car",
+          "1987\u20131991 Mercury Colony Park",
+          "1979\u20132002 Mercury Grand Marquis"
+        ],
+        "raw_compat_rows": 604,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398336563106",
+        "type": "Inner Tie Rod End",
+        "brand": "Perfect Circle",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Steering & Suspension:Tie Rods & Steering Linkages"
+      },
+      "vehicle_count_raw": 604,
+      "ebay_item_id": "398336563106",
+      "ebay_type": "Inner Tie Rod End",
+      "ebay_brand": "Perfect Circle",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Steering & Suspension:Tie Rods & Steering Linkages",
+      "stock": 1
+    },
+    {
+      "id": "B5NOBKPPK5NA3ZORDIKXN5DQ",
+      "name": "Perfect Circle 9-506 Timing Chain 67-69 Camaro 4.6 5.4 5.7 NOS",
+      "price": 15.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/fdd3da7ef0ce391784d9f5c9be35f5fe20ce97d8/original.jpeg",
+      "url": "https://square.link/u/vPHgUcJn",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "TXVRJ55T2ORJ3PO35V4DRCD3",
+      "part_numbers": [
+        "9-506",
+        "222-506, C506, 506, TC506"
+      ],
+      "interchange": [
+        "222-506 C506 Melling 506"
+      ],
+      "vehicles": [
+        "1967\u20131969 Chevrolet Camaro",
+        "1964\u20131972 Chevrolet Chevelle"
+      ],
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "9-506",
+          "222-506, C506, 506, TC506"
+        ],
+        "interchange": [
+          "222-506 C506 Melling 506"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1967,
+            "year_to": 1969,
+            "make": "Chevrolet",
+            "model": "Camaro",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1964,
+            "year_to": 1972,
+            "make": "Chevrolet",
+            "model": "Chevelle",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1967\u20131969 Chevrolet Camaro",
+          "1964\u20131972 Chevrolet Chevelle"
+        ],
+        "raw_compat_rows": 108,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398338954167",
+        "type": "Timing Chain",
+        "brand": "Perfect Circle",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Timing Components & Kits:Timing Kits"
+      },
+      "vehicle_count_raw": 108,
+      "ebay_item_id": "398338954167",
+      "ebay_type": "Timing Chain",
+      "ebay_brand": "Perfect Circle",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Timing Components & Kits:Timing Kits",
       "stock": 1
     },
     {
@@ -52587,167 +55404,6 @@
       "stock": 1
     },
     {
-      "id": "CKQ4IBHKIEDPPYUO36ONAVC5",
-      "name": "Sosmetal 40705 PCV Valve NOS 65-68 Mustang F100",
-      "price": 9.99,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/f7bbd76c1dc8ce7f83b1b40c9f77696529572871/original.jpeg",
-      "url": "https://square.link/u/PeTgOkIs",
-      "category": "other",
-      "checkout": true,
-      "variation_id": "5NEZXGQZ4M223EWVXZUYXFLE",
-      "part_numbers": [
-        "40705",
-        "CV642C, C5TZ-6A666-A, PC81, HV9, FV181"
-      ],
-      "interchange": [
-        "PV-642",
-        "V158",
-        "PV642",
-        "FV158"
-      ],
-      "vehicles": [
-        "1966\u20131967 Ford Bronco",
-        "1965\u20131968 Ford F-100",
-        "1965\u20131968 Ford F-250",
-        "1965\u20131968 Ford F-350",
-        "1965\u20131968 Ford Fairlane",
-        "1965\u20131968 Ford Falcon",
-        "1965\u20131967 Ford Galaxie",
-        "1965\u20131967 Ford Mustang",
-        "1965\u20131969 Mercury Comet"
-      ],
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "high",
-      "fitment": {
-        "part_numbers": [
-          "40705",
-          "CV642C, C5TZ-6A666-A, PC81, HV9, FV181"
-        ],
-        "interchange": [
-          "PV-642",
-          "V158",
-          "PV642",
-          "FV158"
-        ],
-        "vehicles": [
-          {
-            "year_from": 1966,
-            "year_to": 1967,
-            "make": "Ford",
-            "model": "Bronco",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1965,
-            "year_to": 1968,
-            "make": "Ford",
-            "model": "F-100",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1965,
-            "year_to": 1968,
-            "make": "Ford",
-            "model": "F-250",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1965,
-            "year_to": 1968,
-            "make": "Ford",
-            "model": "F-350",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1965,
-            "year_to": 1968,
-            "make": "Ford",
-            "model": "Fairlane",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1965,
-            "year_to": 1968,
-            "make": "Ford",
-            "model": "Falcon",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1965,
-            "year_to": 1967,
-            "make": "Ford",
-            "model": "Galaxie",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1965,
-            "year_to": 1967,
-            "make": "Ford",
-            "model": "Mustang",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1965,
-            "year_to": 1969,
-            "make": "Mercury",
-            "model": "Comet",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          }
-        ],
-        "vehicle_labels": [
-          "1966\u20131967 Ford Bronco",
-          "1965\u20131968 Ford F-100",
-          "1965\u20131968 Ford F-250",
-          "1965\u20131968 Ford F-350",
-          "1965\u20131968 Ford Fairlane",
-          "1965\u20131968 Ford Falcon",
-          "1965\u20131967 Ford Galaxie",
-          "1965\u20131967 Ford Mustang",
-          "1965\u20131969 Mercury Comet"
-        ],
-        "raw_compat_rows": 763,
-        "source": "ebay_listing",
-        "confidence": "high",
-        "ebay_item_id": "398314761956",
-        "type": "PCV Valve",
-        "brand": "Sosmetal",
-        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Steering & Suspension:Power Steering Pump Parts"
-      },
-      "vehicle_count_raw": 763,
-      "ebay_item_id": "398314761956",
-      "ebay_type": "PCV Valve",
-      "ebay_brand": "Sosmetal",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Steering & Suspension:Power Steering Pump Parts",
-      "stock": 1
-    },
-    {
       "id": "45QCCVHCD3OGIHM53VDOFBKJ",
       "name": "Standard D1980 Ignition Module NOS IAD LX339",
       "price": 39.99,
@@ -52859,6 +55515,304 @@
       "stock": 1
     },
     {
+      "id": "W2VRESZCZJOB53NWBAEM5YSA",
+      "name": "Standard DR-320 Rotor NOS 2.5 2.8 3.1 S10 Camaro",
+      "price": 9.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/8b58ba5726991b0d84656e1b90314299d0da76f8/original.jpeg",
+      "url": "https://square.link/u/mC3H4iLj",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "F3BSF7MQ5C4DPQFLBFPSE6HD",
+      "part_numbers": [
+        "DR-320",
+        "173-7955, 10456340, 19110941, 04248, 1282"
+      ],
+      "interchange": [
+        "DR320",
+        "DR320T",
+        "D189",
+        "RR210",
+        "1978533"
+      ],
+      "vehicles": [
+        "1982\u20131986 Buick Century",
+        "1982\u20131984 Chevrolet Camaro",
+        "1982\u20131986 Chevrolet Celebrity",
+        "1982\u20131993 Chevrolet S10",
+        "1983\u20131989 Chevrolet S10 Blazer",
+        "1991\u20131993 GMC Sonoma",
+        "1984\u20131986 Jeep Cherokee",
+        "1982\u20131984 Pontiac Firebird"
+      ],
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "DR-320",
+          "173-7955, 10456340, 19110941, 04248, 1282"
+        ],
+        "interchange": [
+          "DR320",
+          "DR320T",
+          "D189",
+          "RR210",
+          "1978533"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1982,
+            "year_to": 1986,
+            "make": "Buick",
+            "model": "Century",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1982,
+            "year_to": 1984,
+            "make": "Chevrolet",
+            "model": "Camaro",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1982,
+            "year_to": 1986,
+            "make": "Chevrolet",
+            "model": "Celebrity",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1982,
+            "year_to": 1993,
+            "make": "Chevrolet",
+            "model": "S10",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1983,
+            "year_to": 1989,
+            "make": "Chevrolet",
+            "model": "S10 Blazer",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1991,
+            "year_to": 1993,
+            "make": "GMC",
+            "model": "Sonoma",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 1986,
+            "make": "Jeep",
+            "model": "Cherokee",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1982,
+            "year_to": 1984,
+            "make": "Pontiac",
+            "model": "Firebird",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1982\u20131986 Buick Century",
+          "1982\u20131984 Chevrolet Camaro",
+          "1982\u20131986 Chevrolet Celebrity",
+          "1982\u20131993 Chevrolet S10",
+          "1983\u20131989 Chevrolet S10 Blazer",
+          "1991\u20131993 GMC Sonoma",
+          "1984\u20131986 Jeep Cherokee",
+          "1982\u20131984 Pontiac Firebird"
+        ],
+        "raw_compat_rows": 402,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398338688839",
+        "type": "Distributor Rotor",
+        "brand": "Standard",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors"
+      },
+      "vehicle_count_raw": 402,
+      "ebay_item_id": "398338688839",
+      "ebay_type": "Distributor Rotor",
+      "ebay_brand": "Standard",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors",
+      "stock": 1
+    },
+    {
+      "id": "J2YOVOUJ35SDFYKAXPMPZ4TP",
+      "name": "Standard DR318 Rotor NOS 5.0 5.7 7.4 Camaro C10",
+      "price": 11.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/10dbc3113ff0c9e86cd231edd8aa06750b0aa3ad/original.jpeg",
+      "url": "https://square.link/u/U2bY7Axg",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "OIT7ENOP7IB5PYONPXRJKLNQ",
+      "part_numbers": [
+        "DR318",
+        "DR971, DR318T, D448X, D468, 10456359, 19110934"
+      ],
+      "interchange": [
+        "DR-318",
+        "D157",
+        "RR173"
+      ],
+      "vehicles": [
+        "1979\u20131984 Cadillac DeVille",
+        "1975\u20131986 Chevrolet C10",
+        "1975\u20131986 Chevrolet Camaro",
+        "1984\u20131993 Chevrolet Corvette",
+        "1975\u20131986 Chevrolet El Camino",
+        "1975\u20131986 Chevrolet K10",
+        "1975\u20131986 GMC Jimmy",
+        "1974\u20131992 Pontiac Firebird"
+      ],
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "DR318",
+          "DR971, DR318T, D448X, D468, 10456359, 19110934"
+        ],
+        "interchange": [
+          "DR-318",
+          "D157",
+          "RR173"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1979,
+            "year_to": 1984,
+            "make": "Cadillac",
+            "model": "DeVille",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1975,
+            "year_to": 1986,
+            "make": "Chevrolet",
+            "model": "C10",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1975,
+            "year_to": 1986,
+            "make": "Chevrolet",
+            "model": "Camaro",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 1993,
+            "make": "Chevrolet",
+            "model": "Corvette",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1975,
+            "year_to": 1986,
+            "make": "Chevrolet",
+            "model": "El Camino",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1975,
+            "year_to": 1986,
+            "make": "Chevrolet",
+            "model": "K10",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1975,
+            "year_to": 1986,
+            "make": "GMC",
+            "model": "Jimmy",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1974,
+            "year_to": 1992,
+            "make": "Pontiac",
+            "model": "Firebird",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1979\u20131984 Cadillac DeVille",
+          "1975\u20131986 Chevrolet C10",
+          "1975\u20131986 Chevrolet Camaro",
+          "1984\u20131993 Chevrolet Corvette",
+          "1975\u20131986 Chevrolet El Camino",
+          "1975\u20131986 Chevrolet K10",
+          "1975\u20131986 GMC Jimmy",
+          "1974\u20131992 Pontiac Firebird"
+        ],
+        "raw_compat_rows": 707,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398338687140",
+        "type": "Distributor Rotor",
+        "brand": "Standard",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors"
+      },
+      "vehicle_count_raw": 707,
+      "ebay_item_id": "398338687140",
+      "ebay_type": "Distributor Rotor",
+      "ebay_brand": "Standard",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors",
+      "stock": 1
+    },
+    {
       "id": "32AQLQZDTGTJJERMMH45LF7K",
       "name": "Standard DY425 Ignition Module NOS IAD LX218",
       "price": 39.99,
@@ -52958,6 +55912,143 @@
       "stock": 1
     },
     {
+      "id": "KRVKFKCL2UME3KMLLHU6FD7S",
+      "name": "Standard LX-101 Module NOS 3.7 5.2 5.9 Cordoba",
+      "price": 39.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/62e0fdf5ffd2dd981a4e899bbadbb1ce3a3492d1/original.jpeg",
+      "url": "https://square.link/u/umQ1fqto",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "BZIUNUDU7GNQLMX67W56STOY",
+      "part_numbers": [
+        "LX-101",
+        "12334603, 3656127, 3656128, 3656900, 3755550, TP51, CBE14, LX101T"
+      ],
+      "interchange": [
+        "SL205G",
+        "3438850",
+        "3874020",
+        "4111850"
+      ],
+      "vehicles": [
+        "1975\u20131980 Chrysler Cordoba",
+        "1983\u20131989 Chrysler Fifth Avenue",
+        "1972\u20131981 Chrysler Newport",
+        "1981\u20131990 Dodge B250",
+        "1975\u20131980 Dodge D200",
+        "1972\u20131974 Plymouth Barracuda",
+        "1972\u20131974 Plymouth Satellite"
+      ],
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "LX-101",
+          "12334603, 3656127, 3656128, 3656900, 3755550, TP51, CBE14, LX101T"
+        ],
+        "interchange": [
+          "SL205G",
+          "3438850",
+          "3874020",
+          "4111850"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1975,
+            "year_to": 1980,
+            "make": "Chrysler",
+            "model": "Cordoba",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1983,
+            "year_to": 1989,
+            "make": "Chrysler",
+            "model": "Fifth Avenue",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1972,
+            "year_to": 1981,
+            "make": "Chrysler",
+            "model": "Newport",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1981,
+            "year_to": 1990,
+            "make": "Dodge",
+            "model": "B250",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1975,
+            "year_to": 1980,
+            "make": "Dodge",
+            "model": "D200",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1972,
+            "year_to": 1974,
+            "make": "Plymouth",
+            "model": "Barracuda",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1972,
+            "year_to": 1974,
+            "make": "Plymouth",
+            "model": "Satellite",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1975\u20131980 Chrysler Cordoba",
+          "1983\u20131989 Chrysler Fifth Avenue",
+          "1972\u20131981 Chrysler Newport",
+          "1981\u20131990 Dodge B250",
+          "1975\u20131980 Dodge D200",
+          "1972\u20131974 Plymouth Barracuda",
+          "1972\u20131974 Plymouth Satellite"
+        ],
+        "raw_compat_rows": 360,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398338691522",
+        "type": "Ignition Control Module",
+        "brand": "Standard",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Modules"
+      },
+      "vehicle_count_raw": 360,
+      "ebay_item_id": "398338691522",
+      "ebay_type": "Ignition Control Module",
+      "ebay_brand": "Standard",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Modules",
+      "stock": 1
+    },
+    {
       "id": "EMUYTWA6VOHICLPMCZSOZ4EV",
       "name": "Standard LX-338 Ignition Module NOS 3.0 3.8 V6 86-88 Grand Am",
       "price": 79.99,
@@ -52966,7 +56057,6 @@
       "category": "other",
       "checkout": true,
       "variation_id": "YAC5KLLD2CBE4JCELSBD276A",
-      "stock": 1,
       "part_numbers": [
         "LX-338",
         "1989533, DR143, TP400, CBE100"
@@ -52984,11 +56074,6 @@
         "1986\u20131987 Oldsmobile Calais",
         "1986\u20131987 Pontiac Grand Am"
       ],
-      "vehicle_count_raw": 57,
-      "ebay_item_id": "398336019310",
-      "ebay_type": "Ignition Control Module",
-      "ebay_brand": "Standard",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Modules",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -53068,7 +56153,13 @@
         "type": "Ignition Control Module",
         "brand": "Standard",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Modules"
-      }
+      },
+      "vehicle_count_raw": 57,
+      "ebay_item_id": "398336019310",
+      "ebay_type": "Ignition Control Module",
+      "ebay_brand": "Standard",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Modules",
+      "stock": 1
     },
     {
       "id": "5ELRARW5LXQ55KZS7CWDW2SE",
@@ -53117,6 +56208,125 @@
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Starters, Alternators, ECUs & Wiring:Voltage Regulators",
       "stock": 1,
       "vehicles": []
+    },
+    {
+      "id": "BT7CSRZZS2WV2SDVFQCPJIOC",
+      "name": "Standard PS-149 Oil Pressure Switch Ford 66-96 Bronco Mustang NOS",
+      "price": 14.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/b0c55a7d2be646f1ef86560feed1c18b3ed7ce2d/original.jpeg",
+      "url": "https://square.link/u/GImoluCn",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "MOMUO2P6R3BZY6BIPJI66REF",
+      "part_numbers": [
+        "PS-149",
+        "PS149, OP6615"
+      ],
+      "interchange": [
+        "D4AZ-9278-A"
+      ],
+      "vehicles": [
+        "1966\u20131996 Ford Bronco",
+        "1988\u20131989 Ford F-150",
+        "1970\u20131973 Ford Mustang",
+        "1992\u20131998 Ford Taurus",
+        "1991\u20131998 Lincoln Continental",
+        "1967\u20131979 Mercury Cougar"
+      ],
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "PS-149",
+          "PS149, OP6615"
+        ],
+        "interchange": [
+          "D4AZ-9278-A"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1966,
+            "year_to": 1996,
+            "make": "Ford",
+            "model": "Bronco",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1988,
+            "year_to": 1989,
+            "make": "Ford",
+            "model": "F-150",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1970,
+            "year_to": 1973,
+            "make": "Ford",
+            "model": "Mustang",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1992,
+            "year_to": 1998,
+            "make": "Ford",
+            "model": "Taurus",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1991,
+            "year_to": 1998,
+            "make": "Lincoln",
+            "model": "Continental",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1967,
+            "year_to": 1979,
+            "make": "Mercury",
+            "model": "Cougar",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1966\u20131996 Ford Bronco",
+          "1988\u20131989 Ford F-150",
+          "1970\u20131973 Ford Mustang",
+          "1992\u20131998 Ford Taurus",
+          "1991\u20131998 Lincoln Continental",
+          "1967\u20131979 Mercury Cougar"
+        ],
+        "raw_compat_rows": 681,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398339022537",
+        "type": "Engine Oil Pressure Switch",
+        "brand": "Standard",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Engine Sensors & Switches"
+      },
+      "vehicle_count_raw": 681,
+      "ebay_item_id": "398339022537",
+      "ebay_type": "Engine Oil Pressure Switch",
+      "ebay_brand": "Standard",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Engine Sensors & Switches",
+      "stock": 1
     },
     {
       "id": "J465UYL4RNFA4O2YQV5S46AO",
@@ -53454,6 +56664,143 @@
       "ebay_type": "A/C Compressor Control Relay",
       "ebay_brand": "Standard",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Starters, Alternators, ECUs & Wiring:Relays",
+      "stock": 1
+    },
+    {
+      "id": "HYUWEWF47KUQSYVGMFNNQAPC",
+      "name": "Standard SS200 Starter Solenoid NOS 65-94 Chevy C10 Camaro",
+      "price": 34.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/97991cc3a429eb5b1a8b3650f0b6e6001b26c3c3/original.jpeg",
+      "url": "https://square.link/u/RqaOV7gZ",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "HLYTQVI243ZRAWELZAA6D7GN",
+      "part_numbers": [
+        "SS200",
+        "D992, D981, 1114458, 33261, SW100"
+      ],
+      "interchange": [
+        "SS-200",
+        "SS200T",
+        "S100",
+        "ST124"
+      ],
+      "vehicles": [
+        "1965\u20131978 Cadillac Eldorado",
+        "1975\u20131986 Chevrolet C10",
+        "1967\u20131981 Chevrolet Camaro",
+        "1965\u20131966 Chevrolet Chevelle",
+        "1967\u20131981 Chevrolet Corvette",
+        "1983\u20131992 Chevrolet G20",
+        "1967\u20131968 Jeep Wagoneer"
+      ],
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "SS200",
+          "D992, D981, 1114458, 33261, SW100"
+        ],
+        "interchange": [
+          "SS-200",
+          "SS200T",
+          "S100",
+          "ST124"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1965,
+            "year_to": 1978,
+            "make": "Cadillac",
+            "model": "Eldorado",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1975,
+            "year_to": 1986,
+            "make": "Chevrolet",
+            "model": "C10",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1967,
+            "year_to": 1981,
+            "make": "Chevrolet",
+            "model": "Camaro",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1965,
+            "year_to": 1966,
+            "make": "Chevrolet",
+            "model": "Chevelle",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1967,
+            "year_to": 1981,
+            "make": "Chevrolet",
+            "model": "Corvette",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1983,
+            "year_to": 1992,
+            "make": "Chevrolet",
+            "model": "G20",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1967,
+            "year_to": 1968,
+            "make": "Jeep",
+            "model": "Wagoneer",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1965\u20131978 Cadillac Eldorado",
+          "1975\u20131986 Chevrolet C10",
+          "1967\u20131981 Chevrolet Camaro",
+          "1965\u20131966 Chevrolet Chevelle",
+          "1967\u20131981 Chevrolet Corvette",
+          "1983\u20131992 Chevrolet G20",
+          "1967\u20131968 Jeep Wagoneer"
+        ],
+        "raw_compat_rows": 1030,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398336521745",
+        "type": "Starter Solenoid",
+        "brand": "Standard",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Starters, Alternators, ECUs & Wiring:Starter Motor Parts"
+      },
+      "vehicle_count_raw": 1030,
+      "ebay_item_id": "398336521745",
+      "ebay_type": "Starter Solenoid",
+      "ebay_brand": "Standard",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Starters, Alternators, ECUs & Wiring:Starter Motor Parts",
       "stock": 1
     },
     {
@@ -56044,6 +59391,205 @@
       "vehicles": []
     },
     {
+      "id": "L6LWL7WVJFEWSEJA744DM6R4",
+      "name": "Tru-Tech UR125T Voltage Regulator NOS 70-76 Duster",
+      "price": 29.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/b9dd55a72da429600dfa5d4b1a60235da7a5f26f/original.jpeg",
+      "url": "https://square.link/u/W5YVXp2T",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "VWLKETVISHP4DKWI4A5WZB5X",
+      "part_numbers": [
+        "UR125T",
+        "3755850, 3755960, 4091050, 5234625"
+      ],
+      "interchange": [
+        "VR125T",
+        "CH543",
+        "AL154",
+        "VR733",
+        "R296"
+      ],
+      "vehicles": [
+        "1969\u20131971 Chrysler 300",
+        "1983\u20131989 Chrysler Fifth Avenue",
+        "1970\u20131975 Chrysler Imperial",
+        "1977\u20131987 Chrysler LeBaron",
+        "1970\u20131987 Chrysler New Yorker",
+        "1970\u20131981 Chrysler Newport",
+        "1970\u20131974 Dodge Challenger",
+        "1970\u20131976 Dodge Coronet",
+        "1970\u20131976 Dodge Dart",
+        "1970\u20131974 Plymouth Barracuda",
+        "1970\u20131976 Plymouth Duster",
+        "1970\u20131976 Plymouth Valiant"
+      ],
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "UR125T",
+          "3755850, 3755960, 4091050, 5234625"
+        ],
+        "interchange": [
+          "VR125T",
+          "CH543",
+          "AL154",
+          "VR733",
+          "R296"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1969,
+            "year_to": 1971,
+            "make": "Chrysler",
+            "model": "300",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1983,
+            "year_to": 1989,
+            "make": "Chrysler",
+            "model": "Fifth Avenue",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1970,
+            "year_to": 1975,
+            "make": "Chrysler",
+            "model": "Imperial",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1977,
+            "year_to": 1987,
+            "make": "Chrysler",
+            "model": "LeBaron",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1970,
+            "year_to": 1987,
+            "make": "Chrysler",
+            "model": "New Yorker",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1970,
+            "year_to": 1981,
+            "make": "Chrysler",
+            "model": "Newport",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1970,
+            "year_to": 1974,
+            "make": "Dodge",
+            "model": "Challenger",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1970,
+            "year_to": 1976,
+            "make": "Dodge",
+            "model": "Coronet",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1970,
+            "year_to": 1976,
+            "make": "Dodge",
+            "model": "Dart",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1970,
+            "year_to": 1974,
+            "make": "Plymouth",
+            "model": "Barracuda",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1970,
+            "year_to": 1976,
+            "make": "Plymouth",
+            "model": "Duster",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1970,
+            "year_to": 1976,
+            "make": "Plymouth",
+            "model": "Valiant",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1969\u20131971 Chrysler 300",
+          "1983\u20131989 Chrysler Fifth Avenue",
+          "1970\u20131975 Chrysler Imperial",
+          "1977\u20131987 Chrysler LeBaron",
+          "1970\u20131987 Chrysler New Yorker",
+          "1970\u20131981 Chrysler Newport",
+          "1970\u20131974 Dodge Challenger",
+          "1970\u20131976 Dodge Coronet",
+          "1970\u20131976 Dodge Dart",
+          "1970\u20131974 Plymouth Barracuda",
+          "1970\u20131976 Plymouth Duster",
+          "1970\u20131976 Plymouth Valiant"
+        ],
+        "raw_compat_rows": 1426,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398336464811",
+        "type": "Voltage Regulator",
+        "brand": "Tru-Tech",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Starters, Alternators, ECUs & Wiring:Voltage Regulators"
+      },
+      "vehicle_count_raw": 1426,
+      "ebay_item_id": "398336464811",
+      "ebay_type": "Voltage Regulator",
+      "ebay_brand": "Tru-Tech",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Starters, Alternators, ECUs & Wiring:Voltage Regulators",
+      "stock": 1
+    },
+    {
       "id": "45SYX7QMV7CA4275OHACUWOG",
       "name": "Victor JV544 Rear Main Kit NOS 87-89 Century 2.8",
       "price": 19.99,
@@ -57300,5 +60846,5 @@
       "stock": 1
     }
   ],
-  "fitment_built": "2026-08-29T06:00:51Z"
+  "fitment_built": "2026-08-30T05:00:46Z"
 }
