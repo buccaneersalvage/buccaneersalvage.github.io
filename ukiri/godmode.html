@@ -7,7 +7,7 @@
   <meta name="description" content="AI satire roast: FBI interview → walks free → Copart zero → NDMEA dredge “Arriving Nigeria in March” → Fetterman no fixed time frame. Public record. OPEN THE FILE." />
   <meta name="robots" content="index, follow, max-image-preview:large, max-video-preview:-1" />
   <meta name="theme-color" content="#07060a" />
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self' data:; media-src 'self' blob:; connect-src 'self'; base-uri 'self'; object-src 'none';" />
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; font-src 'self' data:; media-src 'self' blob:; connect-src 'self'; base-uri 'self'; object-src 'none';" />
   <meta http-equiv="X-Content-Type-Options" content="nosniff" />
   <meta name="referrer" content="no-referrer" />
   <meta name="author" content="Julian Deuerlein / BuccaneerSalvage family advocacy" />
@@ -38,8 +38,8 @@
 
   <link rel="icon" type="image/jpeg" href="assets/crest-rustjack-web.jpg" />
   <link rel="apple-touch-icon" href="assets/crest-rustjack-web.jpg" />
-  <link rel="stylesheet" href="/assets/fonts.css?v=d1b92d3ff4" integrity="sha384-IDnmxIHyfCaSAssmrqXZbMSqgbRm8AATad26bBSjsyTVbgLbsvJXqeQW642rJQFS" />
-  <link rel="stylesheet" href="/ukiri/styles.css?v=14577b6dc8" integrity="sha384-OfL6mdK4e9lmxDA4YJ097RAEw+G5HExAAaSxWMGtVpjy0C0IKcyDFiryfYH7HwNe" />
+  <link rel="stylesheet" href="/assets/fonts.css" />
+  <link rel="stylesheet" href="styles.css" />
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -859,8 +859,6 @@ https://buccaneersalvage.github.io/ukiri/
           Hub:
           <a href="https://buccaneersalvage.github.io/">BuccaneerSalvage home port</a>
           ·
-          <a href="https://buccaneersalvage.github.io/privacy.html">Privacy</a>
-          ·
           <a href="https://www.youtube.com/@BuccaneerSalvage" target="_blank" rel="noopener noreferrer">YouTube</a>
           ·
           <a href="https://x.com/jollyroger1480" target="_blank" rel="noopener noreferrer">X @jollyroger1480</a>
@@ -885,7 +883,45 @@ https://buccaneersalvage.github.io/ukiri/
   </footer>
 
 
-  <script src="/ukiri/player.js?v=95374a886d" integrity="sha384-jpBWhcQT3sQ4vOBB+54sU7ELAs9W9ild23ckO3MM+PgVivNTfYnAsoFQ3jspgXjN"></script>
-  <script src="/ukiri/main.js?v=c7f6086566" integrity="sha384-odH5vWKc59OjU+bB20XDK8Iptrq2/hoLl2auYI72fwUIz7PZru5qUKUEZGyMNUIh" defer></script>
+  <script>
+    (function () {
+      var player = document.getElementById("mainPlayer");
+      var source = document.getElementById("mainSource");
+      var title = document.getElementById("playerTitle");
+      var meta = document.getElementById("playerMeta");
+      var dl = document.getElementById("playerDownload");
+      var captions = document.getElementById("mainCaptions");
+      if (!player || !source) return;
+      document.querySelectorAll(".video-card[data-src]").forEach(function (card) {
+        card.addEventListener("click", function () {
+          var src = card.getAttribute("data-src");
+          var poster = card.getAttribute("data-poster") || "";
+          var cap = card.getAttribute("data-captions") || "";
+          var t = card.getAttribute("data-title") || "Ukiri roast";
+          var m = card.getAttribute("data-meta") || "";
+          source.src = src;
+          if (captions) {
+            if (cap) {
+              captions.src = cap;
+              captions.default = true;
+              captions.track && (captions.track.mode = "showing");
+            } else {
+              captions.removeAttribute("src");
+            }
+          }
+          player.poster = poster;
+          player.load();
+          player.scrollIntoView({ behavior: "smooth", block: "center" });
+          try { player.play(); } catch (e) {}
+          if (title) title.textContent = t;
+          if (meta) meta.textContent = " · " + m;
+          if (dl) { dl.href = src; }
+          document.querySelectorAll(".video-card").forEach(function (c) { c.classList.remove("is-active"); });
+          card.classList.add("is-active");
+        });
+      });
+    })();
+  </script>
+  <script src="main.js" defer></script>
 </body>
 </html>

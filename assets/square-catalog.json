@@ -1,7 +1,7 @@
 {
-  "updated": "2026-09-01T03:00:50Z",
+  "updated": "2026-09-01T04:00:58Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 540,
+  "count": 542,
   "items": [
     {
       "id": "S4IZBA4AG65C6HI2ZDIRMSJR",
@@ -30378,12 +30378,10 @@
       "category": "ignition",
       "checkout": true,
       "variation_id": "3LIKRXXSWRCURFTYFLADKK3B",
-      "stock": 1,
       "part_numbers": [
         "FD303",
         "DR332, E1FZ-12200-A, E6FZ-12200-B, FA142"
       ],
-      "interchange": [],
       "vehicles": [
         "1986 Ford Aerostar",
         "1984\u20131985 Ford Bronco",
@@ -30412,11 +30410,6 @@
         "1984\u20131985 Mercury Marquis",
         "1984\u20131986 Mercury Topaz"
       ],
-      "vehicle_count_raw": 643,
-      "ebay_item_id": "398345240249",
-      "ebay_type": "Distributor Rotor",
-      "ebay_brand": "Standard Motor Products",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Other Ignition Systems & Components",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -30722,7 +30715,14 @@
         "type": "Distributor Rotor",
         "brand": "Standard Motor Products",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Other Ignition Systems & Components"
-      }
+      },
+      "vehicle_count_raw": 643,
+      "ebay_item_id": "398345240249",
+      "ebay_type": "Distributor Rotor",
+      "ebay_brand": "Standard Motor Products",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Other Ignition Systems & Components",
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "LE4RWYBJ7NJP4EX2GEF3SXXI",
@@ -33704,6 +33704,359 @@
       "ebay_brand": "Standard Motor Products",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Coils",
       "stock": 1
+    },
+    {
+      "id": "UV6SJNQCXQRDOQIEQQK3VKUK",
+      "name": "Standard Motor Products LX-124 Distributor Pickup Dynasty Laser NOS",
+      "price": 24.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/6a20b76fb6e94bdf663ddf72521026aac51da506/original.jpeg",
+      "url": "https://square.link/u/5Tcrmds2",
+      "category": "ignition",
+      "checkout": true,
+      "variation_id": "3GCPGJUOKN7G5K5J3NZ5RDO2",
+      "stock": 1,
+      "part_numbers": [
+        "LX-124"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1988\u20131992 Chrysler Dynasty",
+        "1986 Chrysler Laser",
+        "1986\u20131993 Chrysler LeBaron",
+        "1986\u20131987 Chrysler New Yorker",
+        "1986\u20131988 Chrysler Town & Country",
+        "1986\u20131988 Dodge 600",
+        "1987\u20131989 Dodge Aries",
+        "1986\u20131995 Dodge Caravan",
+        "1986\u20131987 Dodge Charger",
+        "1987\u20131995 Dodge Dakota",
+        "1986\u20131993 Dodge Daytona",
+        "1988\u20131993 Dodge Dynasty",
+        "1988 Dodge Grand Caravan",
+        "1986\u20131989 Dodge Lancer",
+        "1986\u20131988 Dodge Mini Ram",
+        "1986\u20131990 Dodge Omni",
+        "1987\u20131994 Dodge Shadow",
+        "1989\u20131995 Dodge Spirit",
+        "1989\u20131995 Plymouth Acclaim",
+        "1986\u20131988 Plymouth Caravelle",
+        "1987\u20131989 Plymouth Expo",
+        "1988 Plymouth Grand Voyager",
+        "1986\u20131990 Plymouth Horizon",
+        "1986\u20131989 Plymouth Reliant",
+        "1987\u20131994 Plymouth Sundance",
+        "1986\u20131995 Plymouth Voyager"
+      ],
+      "vehicle_count_raw": 1042,
+      "ebay_item_id": "398345838494",
+      "ebay_type": "Distributor Pickup",
+      "ebay_brand": "Standard Motor Products",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributors",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "LX-124"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1988,
+            "year_to": 1992,
+            "make": "Chrysler",
+            "model": "Dynasty",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1986,
+            "year_to": 1986,
+            "make": "Chrysler",
+            "model": "Laser",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1986,
+            "year_to": 1993,
+            "make": "Chrysler",
+            "model": "LeBaron",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1986,
+            "year_to": 1987,
+            "make": "Chrysler",
+            "model": "New Yorker",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1986,
+            "year_to": 1988,
+            "make": "Chrysler",
+            "model": "Town & Country",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1986,
+            "year_to": 1988,
+            "make": "Dodge",
+            "model": "600",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1989,
+            "make": "Dodge",
+            "model": "Aries",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1986,
+            "year_to": 1995,
+            "make": "Dodge",
+            "model": "Caravan",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1986,
+            "year_to": 1987,
+            "make": "Dodge",
+            "model": "Charger",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1995,
+            "make": "Dodge",
+            "model": "Dakota",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1986,
+            "year_to": 1993,
+            "make": "Dodge",
+            "model": "Daytona",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1988,
+            "year_to": 1993,
+            "make": "Dodge",
+            "model": "Dynasty",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1988,
+            "year_to": 1988,
+            "make": "Dodge",
+            "model": "Grand Caravan",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1986,
+            "year_to": 1989,
+            "make": "Dodge",
+            "model": "Lancer",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1986,
+            "year_to": 1988,
+            "make": "Dodge",
+            "model": "Mini Ram",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1986,
+            "year_to": 1990,
+            "make": "Dodge",
+            "model": "Omni",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1994,
+            "make": "Dodge",
+            "model": "Shadow",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1989,
+            "year_to": 1995,
+            "make": "Dodge",
+            "model": "Spirit",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1989,
+            "year_to": 1995,
+            "make": "Plymouth",
+            "model": "Acclaim",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1986,
+            "year_to": 1988,
+            "make": "Plymouth",
+            "model": "Caravelle",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1989,
+            "make": "Plymouth",
+            "model": "Expo",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1988,
+            "year_to": 1988,
+            "make": "Plymouth",
+            "model": "Grand Voyager",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1986,
+            "year_to": 1990,
+            "make": "Plymouth",
+            "model": "Horizon",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1986,
+            "year_to": 1989,
+            "make": "Plymouth",
+            "model": "Reliant",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1994,
+            "make": "Plymouth",
+            "model": "Sundance",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1986,
+            "year_to": 1995,
+            "make": "Plymouth",
+            "model": "Voyager",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1988\u20131992 Chrysler Dynasty",
+          "1986 Chrysler Laser",
+          "1986\u20131993 Chrysler LeBaron",
+          "1986\u20131987 Chrysler New Yorker",
+          "1986\u20131988 Chrysler Town & Country",
+          "1986\u20131988 Dodge 600",
+          "1987\u20131989 Dodge Aries",
+          "1986\u20131995 Dodge Caravan",
+          "1986\u20131987 Dodge Charger",
+          "1987\u20131995 Dodge Dakota",
+          "1986\u20131993 Dodge Daytona",
+          "1988\u20131993 Dodge Dynasty",
+          "1988 Dodge Grand Caravan",
+          "1986\u20131989 Dodge Lancer",
+          "1986\u20131988 Dodge Mini Ram",
+          "1986\u20131990 Dodge Omni",
+          "1987\u20131994 Dodge Shadow",
+          "1989\u20131995 Dodge Spirit",
+          "1989\u20131995 Plymouth Acclaim",
+          "1986\u20131988 Plymouth Caravelle",
+          "1987\u20131989 Plymouth Expo",
+          "1988 Plymouth Grand Voyager",
+          "1986\u20131990 Plymouth Horizon",
+          "1986\u20131989 Plymouth Reliant",
+          "1987\u20131994 Plymouth Sundance",
+          "1986\u20131995 Plymouth Voyager"
+        ],
+        "raw_compat_rows": 1042,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398345838494",
+        "type": "Distributor Pickup",
+        "brand": "Standard Motor Products",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributors"
+      }
     },
     {
       "id": "D3BZO6O7POITBZ2EYFR5VF4H",
@@ -57475,6 +57828,59 @@
       "stock": 1
     },
     {
+      "id": "JKC5XXFR6RKQN2UFEKHVNMNZ",
+      "name": "Standard Motor Products LX-127 Pickup Assembly D250 D150 NOS",
+      "price": 34.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/bb32e10dea5b41db5b1241de2a73c5b8f2beab99/original.jpeg",
+      "url": "https://square.link/u/RhUiFWod",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "MQJVGWA4SO5WDWUBJM2ZO2PR",
+      "stock": 1,
+      "part_numbers": [
+        "LX-127"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1987\u20131993 Dodge Dakota"
+      ],
+      "vehicle_count_raw": 112,
+      "ebay_item_id": "398345836929",
+      "ebay_type": "Pickup Assembly",
+      "ebay_brand": "Standard Motor Products",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Other Ignition Systems & Components",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "LX-127"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1987,
+            "year_to": 1993,
+            "make": "Dodge",
+            "model": "Dakota",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1987\u20131993 Dodge Dakota"
+        ],
+        "raw_compat_rows": 112,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398345836929",
+        "type": "Pickup Assembly",
+        "brand": "Standard Motor Products",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Other Ignition Systems & Components"
+      }
+    },
+    {
       "id": "5ELRARW5LXQ55KZS7CWDW2SE",
       "name": "Standard Motor Products VR166T Voltage Regulator NOS 65-85 C/K F-Series",
       "price": 39.99,
@@ -62528,5 +62934,5 @@
       "stock": 1
     }
   ],
-  "fitment_built": "2026-09-01T03:00:50Z"
+  "fitment_built": "2026-09-01T04:00:58Z"
 }
