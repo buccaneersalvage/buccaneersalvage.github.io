@@ -1,7 +1,7 @@
 {
-  "updated": "2026-09-01T13:01:06Z",
+  "updated": "2026-09-01T15:01:20Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 576,
+  "count": 586,
   "items": [
     {
       "id": "S4IZBA4AG65C6HI2ZDIRMSJR",
@@ -34114,11 +34114,9 @@
       "category": "ignition",
       "checkout": true,
       "variation_id": "SYJM44PVFMW23U2JRJPVDNL3",
-      "stock": 1,
       "part_numbers": [
         "FD-118"
       ],
-      "interchange": [],
       "vehicles": [
         "1980\u20131986 Ford Bronco",
         "1977\u20131983 Ford E-100 Econoline",
@@ -34127,11 +34125,6 @@
         "1977\u20131986 Ford E-150 Econoline Club Wagon",
         "1977\u20131986 Ford E-250 Econoline"
       ],
-      "vehicle_count_raw": 429,
-      "ebay_item_id": "398347275505",
-      "ebay_type": "Distributor Rotor",
-      "ebay_brand": "Standard Motor Products",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -34216,7 +34209,14 @@
         "type": "Distributor Rotor",
         "brand": "Standard Motor Products",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors"
-      }
+      },
+      "vehicle_count_raw": 429,
+      "ebay_item_id": "398347275505",
+      "ebay_type": "Distributor Rotor",
+      "ebay_brand": "Standard Motor Products",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors",
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "BGBKUHIXBTDSBRB6RORCHV6U",
@@ -61340,11 +61340,9 @@
       "category": "other",
       "checkout": true,
       "variation_id": "HQPH4RNX7F3CLOI2DEUHX3OU",
-      "stock": 1,
       "part_numbers": [
         "DR-325"
       ],
-      "interchange": [],
       "vehicles": [
         "1985\u20131986 Buick Century",
         "1985\u20131986 Buick Skyhawk",
@@ -61366,11 +61364,6 @@
         "1985\u20131986 Pontiac Grand Am",
         "1986 Pontiac Sunbird"
       ],
-      "vehicle_count_raw": 169,
-      "ebay_item_id": "398347285376",
-      "ebay_type": "Distributor Rotor",
-      "ebay_brand": "Standard Motor Products",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -61598,6 +61591,66 @@
         "type": "Distributor Rotor",
         "brand": "Standard Motor Products",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors"
+      },
+      "vehicle_count_raw": 169,
+      "ebay_item_id": "398347285376",
+      "ebay_type": "Distributor Rotor",
+      "ebay_brand": "Standard Motor Products",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors",
+      "stock": 1,
+      "interchange": []
+    },
+    {
+      "id": "YS4VTDA7ZHCBWCKKUL42BT7X",
+      "name": "Standard Motor Products FD-308 Rotor 4.9 E-150 F-150 NOS",
+      "price": 14.68,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/ecf4a72e7ebee32dc44d1173eea90fd43eefa36c/original.jpeg",
+      "url": "https://square.link/u/NZTS94CP",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "5TGNPEALYXCRVDDWNFHWGVTV",
+      "stock": 1,
+      "part_numbers": [
+        "FD-308"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1996 Ford F-150"
+      ],
+      "vehicle_count_raw": 14,
+      "ebay_item_id": "398347637906",
+      "ebay_type": "Distributor Rotor",
+      "ebay_brand": "Standard Motor Products",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "FD-308"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1996,
+            "year_to": 1996,
+            "make": "Ford",
+            "model": "F-150",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1996 Ford F-150"
+        ],
+        "raw_compat_rows": 14,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398347637906",
+        "type": "Distributor Rotor",
+        "brand": "Standard Motor Products",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors"
       }
     },
     {
@@ -61609,19 +61662,12 @@
       "category": "other",
       "checkout": true,
       "variation_id": "TE3BSJBTMDCVCNZXN2TOSWU6",
-      "stock": 1,
       "part_numbers": [
         "FD-312"
       ],
-      "interchange": [],
       "vehicles": [
         "1986\u20131989 Ford F-150"
       ],
-      "vehicle_count_raw": 48,
-      "ebay_item_id": "398347287339",
-      "ebay_type": "Distributor Rotor",
-      "ebay_brand": "Standard Motor Products",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -61651,7 +61697,14 @@
         "type": "Distributor Rotor",
         "brand": "Standard Motor Products",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors"
-      }
+      },
+      "vehicle_count_raw": 48,
+      "ebay_item_id": "398347287339",
+      "ebay_type": "Distributor Rotor",
+      "ebay_brand": "Standard Motor Products",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors",
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "YE3LPUFVKD53KDYC2L42FABZ",
@@ -62716,12 +62769,10 @@
       "category": "other",
       "checkout": true,
       "variation_id": "C2F6BOQLJT2TQN726SSH6LZX",
-      "stock": 1,
       "part_numbers": [
         "JR-105",
         "173-7933"
       ],
-      "interchange": [],
       "vehicles": [
         "1990\u20131994 Nissan D21",
         "1991\u20131993 Nissan NX",
@@ -62729,11 +62780,6 @@
         "1989\u20131990 Nissan Pulsar NX",
         "1986\u20131995 Nissan Sentra"
       ],
-      "vehicle_count_raw": 131,
-      "ebay_item_id": "398347282519",
-      "ebay_type": "Distributor Rotor",
-      "ebay_brand": "Standard Motor Products",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -62805,6 +62851,66 @@
         "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398347282519",
+        "type": "Distributor Rotor",
+        "brand": "Standard Motor Products",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors"
+      },
+      "vehicle_count_raw": 131,
+      "ebay_item_id": "398347282519",
+      "ebay_type": "Distributor Rotor",
+      "ebay_brand": "Standard Motor Products",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors",
+      "stock": 1,
+      "interchange": []
+    },
+    {
+      "id": "WL6C2AQLFKMSMIFGEP5LM7PQ",
+      "name": "Standard Motor Products JR-111 Rotor 2.0 2.1 Prelude NOS",
+      "price": 14.14,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/e8d1fac0fb74909822e0e3aa038eb65cdf4d9eca/original.jpeg",
+      "url": "https://square.link/u/6Ya8vNGP",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "LIWWGEEINFP7ILS5MMEHLLAA",
+      "stock": 1,
+      "part_numbers": [
+        "JR-111"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1991 Honda Prelude"
+      ],
+      "vehicle_count_raw": 5,
+      "ebay_item_id": "398347634557",
+      "ebay_type": "Distributor Rotor",
+      "ebay_brand": "Standard Motor Products",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "JR-111"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1991,
+            "year_to": 1991,
+            "make": "Honda",
+            "model": "Prelude",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1991 Honda Prelude"
+        ],
+        "raw_compat_rows": 5,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398347634557",
         "type": "Distributor Rotor",
         "brand": "Standard Motor Products",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors"
@@ -62924,6 +63030,85 @@
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors",
       "stock": 1,
       "interchange": []
+    },
+    {
+      "id": "EJNODPUSPFHS5ZJWASMZGBXF",
+      "name": "Standard Motor Products JR122T Rotor 1.2 1.6 Justy NOS",
+      "price": 17.57,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/63f618b49b2333fa3e687e534b5cec8760256f76/original.jpeg",
+      "url": "https://square.link/u/RiVgwdIb",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "D4LI55ULSX5TF3JFBXJJYQCR",
+      "stock": 1,
+      "part_numbers": [
+        "JR122T",
+        "AGP 14-222"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1986\u20131989 Mazda 323",
+        "1987\u20131989 Mercury Tracer",
+        "1987\u20131991 Subaru Justy"
+      ],
+      "vehicle_count_raw": 50,
+      "ebay_item_id": "398347636910",
+      "ebay_type": "Distributor Rotor",
+      "ebay_brand": "Standard Motor Products",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "JR122T",
+          "AGP 14-222"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1986,
+            "year_to": 1989,
+            "make": "Mazda",
+            "model": "323",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1989,
+            "make": "Mercury",
+            "model": "Tracer",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1991,
+            "make": "Subaru",
+            "model": "Justy",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1986\u20131989 Mazda 323",
+          "1987\u20131989 Mercury Tracer",
+          "1987\u20131991 Subaru Justy"
+        ],
+        "raw_compat_rows": 50,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398347636910",
+        "type": "Distributor Rotor",
+        "brand": "Standard Motor Products",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors"
+      }
     },
     {
       "id": "PVXB4LVSTZEUMMSNMBLD4OKY",
@@ -63731,6 +63916,539 @@
       "stock": 1
     },
     {
+      "id": "2UFOBJE4YQLVYJC54V6WZVUW",
+      "name": "Standard Motor Products PS-129 Oil Pressure Switch Century Electra NOS",
+      "price": 21.62,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/ea59759a1570981e5247e84a11d5f07a418d1132/original.jpeg",
+      "url": "https://square.link/u/ABOZAmhb",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "FTR2VDAA4PZ3DSVCL3AP54NW",
+      "stock": 1,
+      "part_numbers": [
+        "PS-129"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1978\u20131985 Buick Century",
+        "1980\u20131984 Buick Electra",
+        "1978\u20131985 Buick LeSabre",
+        "1978\u20131987 Buick Regal",
+        "1979\u20131984 Buick Riviera",
+        "1980\u20131986 Buick Skyhawk",
+        "1978\u20131979 Buick Skylark",
+        "1987\u20131992 Cadillac Allante",
+        "1984\u20131986 Cadillac Cimarron",
+        "1980\u20131983 Cadillac Commercial Chassis",
+        "1980\u20131982 Cadillac DeVille",
+        "1981\u20131982 Cadillac Eldorado",
+        "1980\u20131981 Cadillac Fleetwood",
+        "1980\u20131981 Cadillac Seville",
+        "1981 Chevrolet Camaro",
+        "1980\u20131985 Chevrolet Caprice",
+        "1984 Chevrolet Cavalier",
+        "1979\u20131981 Chevrolet El Camino",
+        "1980\u20131985 Chevrolet Impala",
+        "1978\u20131983 Chevrolet Malibu",
+        "1978\u20131987 Chevrolet Monte Carlo",
+        "1982\u20131985 Oldsmobile 98",
+        "1978\u20131981 Oldsmobile Cutlass",
+        "1978\u20131984 Oldsmobile Cutlass Calais",
+        "1982\u20131985 Oldsmobile Cutlass Ciera",
+        "1978\u20131987 Oldsmobile Cutlass Salon",
+        "1977\u20131987 Oldsmobile Cutlass Supreme",
+        "1978\u20131985 Oldsmobile Delta 88",
+        "1978\u20131979 Oldsmobile Omega",
+        "1981\u20131984 Oldsmobile Toronado",
+        "1980\u20131985 Pontiac Bonneville",
+        "1978\u20131981 Pontiac Catalina",
+        "1978\u20131981 Pontiac Firebird",
+        "1979 Pontiac Grand Am",
+        "1978\u20131981 Pontiac Grand LeMans",
+        "1978\u20131984 Pontiac Grand Prix",
+        "1981 Pontiac Laurentian",
+        "1978\u20131981 Pontiac LeMans",
+        "1981\u20131985 Pontiac Parisienne",
+        "1978\u20131979 Pontiac Phoenix",
+        "1978\u20131979 Pontiac Sunbird"
+      ],
+      "vehicle_count_raw": 2652,
+      "ebay_item_id": "398347607456",
+      "ebay_type": "Oil Pressure Switch",
+      "ebay_brand": "Standard Motor Products",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Interior Parts & Accessories:Switches & Controls",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "PS-129"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1978,
+            "year_to": 1985,
+            "make": "Buick",
+            "model": "Century",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1980,
+            "year_to": 1984,
+            "make": "Buick",
+            "model": "Electra",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1978,
+            "year_to": 1985,
+            "make": "Buick",
+            "model": "LeSabre",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1978,
+            "year_to": 1987,
+            "make": "Buick",
+            "model": "Regal",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1979,
+            "year_to": 1984,
+            "make": "Buick",
+            "model": "Riviera",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1980,
+            "year_to": 1986,
+            "make": "Buick",
+            "model": "Skyhawk",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1978,
+            "year_to": 1979,
+            "make": "Buick",
+            "model": "Skylark",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1992,
+            "make": "Cadillac",
+            "model": "Allante",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 1986,
+            "make": "Cadillac",
+            "model": "Cimarron",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1980,
+            "year_to": 1983,
+            "make": "Cadillac",
+            "model": "Commercial Chassis",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1980,
+            "year_to": 1982,
+            "make": "Cadillac",
+            "model": "DeVille",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1981,
+            "year_to": 1982,
+            "make": "Cadillac",
+            "model": "Eldorado",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1980,
+            "year_to": 1981,
+            "make": "Cadillac",
+            "model": "Fleetwood",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1980,
+            "year_to": 1981,
+            "make": "Cadillac",
+            "model": "Seville",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1981,
+            "year_to": 1981,
+            "make": "Chevrolet",
+            "model": "Camaro",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1980,
+            "year_to": 1985,
+            "make": "Chevrolet",
+            "model": "Caprice",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 1984,
+            "make": "Chevrolet",
+            "model": "Cavalier",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1979,
+            "year_to": 1981,
+            "make": "Chevrolet",
+            "model": "El Camino",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1980,
+            "year_to": 1985,
+            "make": "Chevrolet",
+            "model": "Impala",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1978,
+            "year_to": 1983,
+            "make": "Chevrolet",
+            "model": "Malibu",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1978,
+            "year_to": 1987,
+            "make": "Chevrolet",
+            "model": "Monte Carlo",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1982,
+            "year_to": 1985,
+            "make": "Oldsmobile",
+            "model": "98",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1978,
+            "year_to": 1981,
+            "make": "Oldsmobile",
+            "model": "Cutlass",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1978,
+            "year_to": 1984,
+            "make": "Oldsmobile",
+            "model": "Cutlass Calais",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1982,
+            "year_to": 1985,
+            "make": "Oldsmobile",
+            "model": "Cutlass Ciera",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1978,
+            "year_to": 1987,
+            "make": "Oldsmobile",
+            "model": "Cutlass Salon",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1977,
+            "year_to": 1987,
+            "make": "Oldsmobile",
+            "model": "Cutlass Supreme",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1978,
+            "year_to": 1985,
+            "make": "Oldsmobile",
+            "model": "Delta 88",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1978,
+            "year_to": 1979,
+            "make": "Oldsmobile",
+            "model": "Omega",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1981,
+            "year_to": 1984,
+            "make": "Oldsmobile",
+            "model": "Toronado",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1980,
+            "year_to": 1985,
+            "make": "Pontiac",
+            "model": "Bonneville",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1978,
+            "year_to": 1981,
+            "make": "Pontiac",
+            "model": "Catalina",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1978,
+            "year_to": 1981,
+            "make": "Pontiac",
+            "model": "Firebird",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1979,
+            "year_to": 1979,
+            "make": "Pontiac",
+            "model": "Grand Am",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1978,
+            "year_to": 1981,
+            "make": "Pontiac",
+            "model": "Grand LeMans",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1978,
+            "year_to": 1984,
+            "make": "Pontiac",
+            "model": "Grand Prix",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1981,
+            "year_to": 1981,
+            "make": "Pontiac",
+            "model": "Laurentian",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1978,
+            "year_to": 1981,
+            "make": "Pontiac",
+            "model": "LeMans",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1981,
+            "year_to": 1985,
+            "make": "Pontiac",
+            "model": "Parisienne",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1978,
+            "year_to": 1979,
+            "make": "Pontiac",
+            "model": "Phoenix",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1978,
+            "year_to": 1979,
+            "make": "Pontiac",
+            "model": "Sunbird",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1978\u20131985 Buick Century",
+          "1980\u20131984 Buick Electra",
+          "1978\u20131985 Buick LeSabre",
+          "1978\u20131987 Buick Regal",
+          "1979\u20131984 Buick Riviera",
+          "1980\u20131986 Buick Skyhawk",
+          "1978\u20131979 Buick Skylark",
+          "1987\u20131992 Cadillac Allante",
+          "1984\u20131986 Cadillac Cimarron",
+          "1980\u20131983 Cadillac Commercial Chassis",
+          "1980\u20131982 Cadillac DeVille",
+          "1981\u20131982 Cadillac Eldorado",
+          "1980\u20131981 Cadillac Fleetwood",
+          "1980\u20131981 Cadillac Seville",
+          "1981 Chevrolet Camaro",
+          "1980\u20131985 Chevrolet Caprice",
+          "1984 Chevrolet Cavalier",
+          "1979\u20131981 Chevrolet El Camino",
+          "1980\u20131985 Chevrolet Impala",
+          "1978\u20131983 Chevrolet Malibu",
+          "1978\u20131987 Chevrolet Monte Carlo",
+          "1982\u20131985 Oldsmobile 98",
+          "1978\u20131981 Oldsmobile Cutlass",
+          "1978\u20131984 Oldsmobile Cutlass Calais",
+          "1982\u20131985 Oldsmobile Cutlass Ciera",
+          "1978\u20131987 Oldsmobile Cutlass Salon",
+          "1977\u20131987 Oldsmobile Cutlass Supreme",
+          "1978\u20131985 Oldsmobile Delta 88",
+          "1978\u20131979 Oldsmobile Omega",
+          "1981\u20131984 Oldsmobile Toronado",
+          "1980\u20131985 Pontiac Bonneville",
+          "1978\u20131981 Pontiac Catalina",
+          "1978\u20131981 Pontiac Firebird",
+          "1979 Pontiac Grand Am",
+          "1978\u20131981 Pontiac Grand LeMans",
+          "1978\u20131984 Pontiac Grand Prix",
+          "1981 Pontiac Laurentian",
+          "1978\u20131981 Pontiac LeMans",
+          "1981\u20131985 Pontiac Parisienne",
+          "1978\u20131979 Pontiac Phoenix",
+          "1978\u20131979 Pontiac Sunbird"
+        ],
+        "raw_compat_rows": 2652,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398347607456",
+        "type": "Oil Pressure Switch",
+        "brand": "Standard Motor Products",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Interior Parts & Accessories:Switches & Controls"
+      }
+    },
+    {
       "id": "2UHZXDWSJGPKK7FBY7FVWJQX",
       "name": "Standard Motor Products PS-155 Oil Pressure Switch Century Skyhawk NOS",
       "price": 19.99,
@@ -63739,11 +64457,9 @@
       "category": "other",
       "checkout": true,
       "variation_id": "UI6QYT4QRB5YWO6MMZWYBOG6",
-      "stock": 1,
       "part_numbers": [
         "PS-155"
       ],
-      "interchange": [],
       "vehicles": [
         "1977\u20131983 Buick Century",
         "1983\u20131986 Buick Skyhawk",
@@ -63751,11 +64467,6 @@
         "1982\u20131986 Cadillac Cimarron",
         "1987\u20131991 Chevrolet B60"
       ],
-      "vehicle_count_raw": 331,
-      "ebay_item_id": "398347273083",
-      "ebay_type": "Oil Pressure Switch",
-      "ebay_brand": "Standard Motor Products",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Interior Parts & Accessories:Switches & Controls",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -63829,7 +64540,14 @@
         "type": "Oil Pressure Switch",
         "brand": "Standard Motor Products",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Interior Parts & Accessories:Switches & Controls"
-      }
+      },
+      "vehicle_count_raw": 331,
+      "ebay_item_id": "398347273083",
+      "ebay_type": "Oil Pressure Switch",
+      "ebay_brand": "Standard Motor Products",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Interior Parts & Accessories:Switches & Controls",
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "VO5WYTWPWTXXJVQKQL2FWKCJ",
@@ -63840,11 +64558,9 @@
       "category": "other",
       "checkout": true,
       "variation_id": "SQGP3OSHJMJRTSRBBMFTNMMJ",
-      "stock": 1,
       "part_numbers": [
         "PS-233"
       ],
-      "interchange": [],
       "vehicles": [
         "1988\u20131994 Dodge B150",
         "1995\u20131997 Dodge B1500",
@@ -63856,11 +64572,6 @@
         "1992 Dodge Daytona",
         "1990\u20131993 Dodge Ramcharger"
       ],
-      "vehicle_count_raw": 461,
-      "ebay_item_id": "398347280500",
-      "ebay_type": "Oil Pressure Sender",
-      "ebay_brand": "Standard Motor Products",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Filters",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -63975,6 +64686,1312 @@
         "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398347280500",
+        "type": "Oil Pressure Sender",
+        "brand": "Standard Motor Products",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Filters"
+      },
+      "vehicle_count_raw": 461,
+      "ebay_item_id": "398347280500",
+      "ebay_type": "Oil Pressure Sender",
+      "ebay_brand": "Standard Motor Products",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Filters",
+      "stock": 1,
+      "interchange": []
+    },
+    {
+      "id": "YOGCBZHWP2YLJKVAB6HBZO3F",
+      "name": "Standard Motor Products PS-236 Oil Pressure Switch Regal Cimarron NOS",
+      "price": 35.2,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/4480aeac7ab80976ab01af45f145fd7eb46d77ab/original.jpeg",
+      "url": "https://square.link/u/b8k4cuzD",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "JXJQDEZP3WUBAD3A4RZ7DCKY",
+      "stock": 1,
+      "part_numbers": [
+        "PS-236"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1989\u20131991 Buick Regal",
+        "1988 Cadillac Cimarron",
+        "1988\u20131989 Chevrolet Beretta",
+        "1989\u20131997 Chevrolet Camaro",
+        "1994\u20131996 Chevrolet Caprice",
+        "1988\u20131989 Chevrolet Cavalier",
+        "1988\u20131989 Chevrolet Corsica",
+        "1988\u20131996 Chevrolet Corvette",
+        "1994\u20131996 Chevrolet Impala",
+        "1990\u20131991 Chevrolet Lumina",
+        "1990 Chevrolet Lumina APV",
+        "1988\u20131994 Chevrolet S10 Blazer",
+        "1991\u20131992 Oldsmobile Bravada",
+        "1989 Oldsmobile Cutlass Ciera",
+        "1989 Oldsmobile Cutlass Cruiser",
+        "1989\u20131990 Oldsmobile Cutlass Supreme",
+        "1990 Oldsmobile Silhouette",
+        "1987\u20131990 Pontiac 6000",
+        "1989\u20131997 Pontiac Firebird",
+        "1989 Pontiac Grand Prix",
+        "1988\u20131990 Pontiac Tempest",
+        "1990 Pontiac Trans Sport"
+      ],
+      "vehicle_count_raw": 436,
+      "ebay_item_id": "398347610240",
+      "ebay_type": "Oil Pressure Switch",
+      "ebay_brand": "Standard Motor Products",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Interior Parts & Accessories:Switches & Controls",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "PS-236"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1989,
+            "year_to": 1991,
+            "make": "Buick",
+            "model": "Regal",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1988,
+            "year_to": 1988,
+            "make": "Cadillac",
+            "model": "Cimarron",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1988,
+            "year_to": 1989,
+            "make": "Chevrolet",
+            "model": "Beretta",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1989,
+            "year_to": 1997,
+            "make": "Chevrolet",
+            "model": "Camaro",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1994,
+            "year_to": 1996,
+            "make": "Chevrolet",
+            "model": "Caprice",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1988,
+            "year_to": 1989,
+            "make": "Chevrolet",
+            "model": "Cavalier",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1988,
+            "year_to": 1989,
+            "make": "Chevrolet",
+            "model": "Corsica",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1988,
+            "year_to": 1996,
+            "make": "Chevrolet",
+            "model": "Corvette",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1994,
+            "year_to": 1996,
+            "make": "Chevrolet",
+            "model": "Impala",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1990,
+            "year_to": 1991,
+            "make": "Chevrolet",
+            "model": "Lumina",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1990,
+            "year_to": 1990,
+            "make": "Chevrolet",
+            "model": "Lumina APV",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1988,
+            "year_to": 1994,
+            "make": "Chevrolet",
+            "model": "S10 Blazer",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1991,
+            "year_to": 1992,
+            "make": "Oldsmobile",
+            "model": "Bravada",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1989,
+            "year_to": 1989,
+            "make": "Oldsmobile",
+            "model": "Cutlass Ciera",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1989,
+            "year_to": 1989,
+            "make": "Oldsmobile",
+            "model": "Cutlass Cruiser",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1989,
+            "year_to": 1990,
+            "make": "Oldsmobile",
+            "model": "Cutlass Supreme",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1990,
+            "year_to": 1990,
+            "make": "Oldsmobile",
+            "model": "Silhouette",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1990,
+            "make": "Pontiac",
+            "model": "6000",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1989,
+            "year_to": 1997,
+            "make": "Pontiac",
+            "model": "Firebird",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1989,
+            "year_to": 1989,
+            "make": "Pontiac",
+            "model": "Grand Prix",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1988,
+            "year_to": 1990,
+            "make": "Pontiac",
+            "model": "Tempest",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1990,
+            "year_to": 1990,
+            "make": "Pontiac",
+            "model": "Trans Sport",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1989\u20131991 Buick Regal",
+          "1988 Cadillac Cimarron",
+          "1988\u20131989 Chevrolet Beretta",
+          "1989\u20131997 Chevrolet Camaro",
+          "1994\u20131996 Chevrolet Caprice",
+          "1988\u20131989 Chevrolet Cavalier",
+          "1988\u20131989 Chevrolet Corsica",
+          "1988\u20131996 Chevrolet Corvette",
+          "1994\u20131996 Chevrolet Impala",
+          "1990\u20131991 Chevrolet Lumina",
+          "1990 Chevrolet Lumina APV",
+          "1988\u20131994 Chevrolet S10 Blazer",
+          "1991\u20131992 Oldsmobile Bravada",
+          "1989 Oldsmobile Cutlass Ciera",
+          "1989 Oldsmobile Cutlass Cruiser",
+          "1989\u20131990 Oldsmobile Cutlass Supreme",
+          "1990 Oldsmobile Silhouette",
+          "1987\u20131990 Pontiac 6000",
+          "1989\u20131997 Pontiac Firebird",
+          "1989 Pontiac Grand Prix",
+          "1988\u20131990 Pontiac Tempest",
+          "1990 Pontiac Trans Sport"
+        ],
+        "raw_compat_rows": 436,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398347610240",
+        "type": "Oil Pressure Switch",
+        "brand": "Standard Motor Products",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Interior Parts & Accessories:Switches & Controls"
+      }
+    },
+    {
+      "id": "EGDCGCLLZAM7FAWTBIOTQB6T",
+      "name": "Standard Motor Products PS-241 Oil Pressure Sender Century Electra NOS",
+      "price": 36.39,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/a5c699b398fc0ab1f4ce664df7786ec527e15624/original.jpeg",
+      "url": "https://square.link/u/xzg3NXf6",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "XVGCCQWSU2XDF5PWSOUJWLMP",
+      "stock": 1,
+      "part_numbers": [
+        "PS-241"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1985\u20131988 Buick Century",
+        "1986 Buick Electra",
+        "1986 Buick LeSabre",
+        "1982\u20131986 Buick Skyhawk",
+        "1984\u20131986 Buick Skylark",
+        "1986 Buick Somerset",
+        "1985 Buick Somerset Regal",
+        "1985\u20131988 Chevrolet Astro",
+        "1984\u20131986 Chevrolet Camaro",
+        "1988 Chevrolet Celebrity",
+        "1983 Chevrolet Citation",
+        "1984\u20131985 Chevrolet Citation II",
+        "1986 Oldsmobile 98",
+        "1985\u20131986 Oldsmobile Calais",
+        "1984\u20131990 Oldsmobile Cutlass Ciera",
+        "1986 Oldsmobile Delta 88",
+        "1982\u20131986 Oldsmobile Firenza",
+        "1984 Oldsmobile Omega",
+        "1982\u20131991 Pontiac 6000",
+        "1985\u20131988 Pontiac Fiero",
+        "1985\u20131986 Pontiac Grand Am",
+        "1982\u20131983 Pontiac J2000",
+        "1983\u20131984 Pontiac Phoenix",
+        "1986 Pontiac Sunbird"
+      ],
+      "vehicle_count_raw": 842,
+      "ebay_item_id": "398347611174",
+      "ebay_type": "Oil Pressure Sender",
+      "ebay_brand": "Standard Motor Products",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Filters",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "PS-241"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1985,
+            "year_to": 1988,
+            "make": "Buick",
+            "model": "Century",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1986,
+            "year_to": 1986,
+            "make": "Buick",
+            "model": "Electra",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1986,
+            "year_to": 1986,
+            "make": "Buick",
+            "model": "LeSabre",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1982,
+            "year_to": 1986,
+            "make": "Buick",
+            "model": "Skyhawk",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 1986,
+            "make": "Buick",
+            "model": "Skylark",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1986,
+            "year_to": 1986,
+            "make": "Buick",
+            "model": "Somerset",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1985,
+            "make": "Buick",
+            "model": "Somerset Regal",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1988,
+            "make": "Chevrolet",
+            "model": "Astro",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 1986,
+            "make": "Chevrolet",
+            "model": "Camaro",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1988,
+            "year_to": 1988,
+            "make": "Chevrolet",
+            "model": "Celebrity",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1983,
+            "year_to": 1983,
+            "make": "Chevrolet",
+            "model": "Citation",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 1985,
+            "make": "Chevrolet",
+            "model": "Citation II",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1986,
+            "year_to": 1986,
+            "make": "Oldsmobile",
+            "model": "98",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1986,
+            "make": "Oldsmobile",
+            "model": "Calais",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 1990,
+            "make": "Oldsmobile",
+            "model": "Cutlass Ciera",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1986,
+            "year_to": 1986,
+            "make": "Oldsmobile",
+            "model": "Delta 88",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1982,
+            "year_to": 1986,
+            "make": "Oldsmobile",
+            "model": "Firenza",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 1984,
+            "make": "Oldsmobile",
+            "model": "Omega",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1982,
+            "year_to": 1991,
+            "make": "Pontiac",
+            "model": "6000",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1988,
+            "make": "Pontiac",
+            "model": "Fiero",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1986,
+            "make": "Pontiac",
+            "model": "Grand Am",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1982,
+            "year_to": 1983,
+            "make": "Pontiac",
+            "model": "J2000",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1983,
+            "year_to": 1984,
+            "make": "Pontiac",
+            "model": "Phoenix",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1986,
+            "year_to": 1986,
+            "make": "Pontiac",
+            "model": "Sunbird",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1985\u20131988 Buick Century",
+          "1986 Buick Electra",
+          "1986 Buick LeSabre",
+          "1982\u20131986 Buick Skyhawk",
+          "1984\u20131986 Buick Skylark",
+          "1986 Buick Somerset",
+          "1985 Buick Somerset Regal",
+          "1985\u20131988 Chevrolet Astro",
+          "1984\u20131986 Chevrolet Camaro",
+          "1988 Chevrolet Celebrity",
+          "1983 Chevrolet Citation",
+          "1984\u20131985 Chevrolet Citation II",
+          "1986 Oldsmobile 98",
+          "1985\u20131986 Oldsmobile Calais",
+          "1984\u20131990 Oldsmobile Cutlass Ciera",
+          "1986 Oldsmobile Delta 88",
+          "1982\u20131986 Oldsmobile Firenza",
+          "1984 Oldsmobile Omega",
+          "1982\u20131991 Pontiac 6000",
+          "1985\u20131988 Pontiac Fiero",
+          "1985\u20131986 Pontiac Grand Am",
+          "1982\u20131983 Pontiac J2000",
+          "1983\u20131984 Pontiac Phoenix",
+          "1986 Pontiac Sunbird"
+        ],
+        "raw_compat_rows": 842,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398347611174",
+        "type": "Oil Pressure Sender",
+        "brand": "Standard Motor Products",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Filters"
+      }
+    },
+    {
+      "id": "FFQXR643YGFJ2UMQNWCKWC5D",
+      "name": "Standard Motor Products PS-245 Oil Pressure Sender Electra Lesabre NOS",
+      "price": 47.61,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/1320e7f19b1483cf204d1914f46791234c906054/original.jpeg",
+      "url": "https://square.link/u/TZd7F624",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "R4G7OXMUFLJ3TH22YNIY2AT5",
+      "stock": 1,
+      "part_numbers": [
+        "PS-245"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1987\u20131989 Buick Electra",
+        "1988\u20131990 Buick LeSabre",
+        "1991\u20131993 Buick Regal",
+        "2007 Buick Rendezvous",
+        "1987\u20131988 Buick Skyhawk",
+        "1992\u20131995 Buick Skylark",
+        "1999\u20132000 Cadillac Escalade",
+        "1987\u20131999 Chevrolet Astro",
+        "1988\u20131994 Chevrolet Beretta",
+        "1994 Chevrolet Blazer",
+        "1995\u20131997 Chevrolet C1500 Suburban",
+        "1992\u20131997 Chevrolet C2500 Suburban",
+        "1993 Chevrolet Camaro",
+        "1989\u20131993 Chevrolet Cavalier",
+        "1988\u20131996 Chevrolet Corsica",
+        "1992\u20131993 Chevrolet Corvette",
+        "1997\u20132001 Chevrolet Express 1500",
+        "1996\u20131999 Chevrolet Express 2500",
+        "1996\u20131997 Chevrolet Express 3500",
+        "1990\u20131995 Chevrolet G10",
+        "1992\u20131995 Chevrolet G20",
+        "1992\u20131996 Chevrolet G30",
+        "1993 Chevrolet GP3500",
+        "1992\u20131999 Chevrolet K1500 Suburban",
+        "1992\u20131999 Chevrolet K2500 Suburban",
+        "1987\u20131995 Chevrolet LLV",
+        "1990\u20131994 Chevrolet Lumina",
+        "1990\u20131998 Chevrolet P30",
+        "1991 Chevrolet R1500 Suburban",
+        "1992 Chevrolet S10 Blazer",
+        "2000\u20132002 Chevrolet Sonora",
+        "1995\u20131999 Chevrolet Tahoe",
+        "1996\u20131998 Isuzu Hombre",
+        "1989 Oldsmobile 98",
+        "1994\u20131996 Oldsmobile Achieva",
+        "1987 Oldsmobile Calais",
+        "1989\u20131991 Oldsmobile Cutlass Calais",
+        "1989\u20131990 Oldsmobile Cutlass Ciera",
+        "1992 Oldsmobile Cutlass Supreme",
+        "1987\u20131988 Oldsmobile Delta 88",
+        "1988 Oldsmobile Firenza",
+        "1991\u20131992 Oldsmobile Silhouette",
+        "1988\u20131991 Pontiac 6000",
+        "1987\u20131990 Pontiac Bonneville",
+        "1993\u20131994 Pontiac Firebird",
+        "1987\u20131995 Pontiac Grand Am",
+        "1993\u20131994 Pontiac Grand Prix",
+        "1988 Pontiac LeMans",
+        "1987 Pontiac Safari",
+        "1987\u20131994 Pontiac Sunbird",
+        "1987\u20131991 Pontiac Tempest",
+        "1991\u20131992 Pontiac Trans Sport"
+      ],
+      "vehicle_count_raw": 1788,
+      "ebay_item_id": "398347612299",
+      "ebay_type": "Oil Pressure Sender",
+      "ebay_brand": "Standard Motor Products",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Filters",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "PS-245"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1987,
+            "year_to": 1989,
+            "make": "Buick",
+            "model": "Electra",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1988,
+            "year_to": 1990,
+            "make": "Buick",
+            "model": "LeSabre",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1991,
+            "year_to": 1993,
+            "make": "Buick",
+            "model": "Regal",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2007,
+            "year_to": 2007,
+            "make": "Buick",
+            "model": "Rendezvous",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1988,
+            "make": "Buick",
+            "model": "Skyhawk",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1992,
+            "year_to": 1995,
+            "make": "Buick",
+            "model": "Skylark",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1999,
+            "year_to": 2000,
+            "make": "Cadillac",
+            "model": "Escalade",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1999,
+            "make": "Chevrolet",
+            "model": "Astro",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1988,
+            "year_to": 1994,
+            "make": "Chevrolet",
+            "model": "Beretta",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1994,
+            "year_to": 1994,
+            "make": "Chevrolet",
+            "model": "Blazer",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1995,
+            "year_to": 1997,
+            "make": "Chevrolet",
+            "model": "C1500 Suburban",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1992,
+            "year_to": 1997,
+            "make": "Chevrolet",
+            "model": "C2500 Suburban",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1993,
+            "year_to": 1993,
+            "make": "Chevrolet",
+            "model": "Camaro",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1989,
+            "year_to": 1993,
+            "make": "Chevrolet",
+            "model": "Cavalier",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1988,
+            "year_to": 1996,
+            "make": "Chevrolet",
+            "model": "Corsica",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1992,
+            "year_to": 1993,
+            "make": "Chevrolet",
+            "model": "Corvette",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1997,
+            "year_to": 2001,
+            "make": "Chevrolet",
+            "model": "Express 1500",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1996,
+            "year_to": 1999,
+            "make": "Chevrolet",
+            "model": "Express 2500",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1996,
+            "year_to": 1997,
+            "make": "Chevrolet",
+            "model": "Express 3500",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1990,
+            "year_to": 1995,
+            "make": "Chevrolet",
+            "model": "G10",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1992,
+            "year_to": 1995,
+            "make": "Chevrolet",
+            "model": "G20",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1992,
+            "year_to": 1996,
+            "make": "Chevrolet",
+            "model": "G30",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1993,
+            "year_to": 1993,
+            "make": "Chevrolet",
+            "model": "GP3500",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1992,
+            "year_to": 1999,
+            "make": "Chevrolet",
+            "model": "K1500 Suburban",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1992,
+            "year_to": 1999,
+            "make": "Chevrolet",
+            "model": "K2500 Suburban",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1995,
+            "make": "Chevrolet",
+            "model": "LLV",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1990,
+            "year_to": 1994,
+            "make": "Chevrolet",
+            "model": "Lumina",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1990,
+            "year_to": 1998,
+            "make": "Chevrolet",
+            "model": "P30",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1991,
+            "year_to": 1991,
+            "make": "Chevrolet",
+            "model": "R1500 Suburban",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1992,
+            "year_to": 1992,
+            "make": "Chevrolet",
+            "model": "S10 Blazer",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2000,
+            "year_to": 2002,
+            "make": "Chevrolet",
+            "model": "Sonora",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1995,
+            "year_to": 1999,
+            "make": "Chevrolet",
+            "model": "Tahoe",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1996,
+            "year_to": 1998,
+            "make": "Isuzu",
+            "model": "Hombre",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1989,
+            "year_to": 1989,
+            "make": "Oldsmobile",
+            "model": "98",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1994,
+            "year_to": 1996,
+            "make": "Oldsmobile",
+            "model": "Achieva",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1987,
+            "make": "Oldsmobile",
+            "model": "Calais",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1989,
+            "year_to": 1991,
+            "make": "Oldsmobile",
+            "model": "Cutlass Calais",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1989,
+            "year_to": 1990,
+            "make": "Oldsmobile",
+            "model": "Cutlass Ciera",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1992,
+            "year_to": 1992,
+            "make": "Oldsmobile",
+            "model": "Cutlass Supreme",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1988,
+            "make": "Oldsmobile",
+            "model": "Delta 88",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1988,
+            "year_to": 1988,
+            "make": "Oldsmobile",
+            "model": "Firenza",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1991,
+            "year_to": 1992,
+            "make": "Oldsmobile",
+            "model": "Silhouette",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1988,
+            "year_to": 1991,
+            "make": "Pontiac",
+            "model": "6000",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1990,
+            "make": "Pontiac",
+            "model": "Bonneville",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1993,
+            "year_to": 1994,
+            "make": "Pontiac",
+            "model": "Firebird",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1995,
+            "make": "Pontiac",
+            "model": "Grand Am",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1993,
+            "year_to": 1994,
+            "make": "Pontiac",
+            "model": "Grand Prix",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1988,
+            "year_to": 1988,
+            "make": "Pontiac",
+            "model": "LeMans",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1987,
+            "make": "Pontiac",
+            "model": "Safari",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1994,
+            "make": "Pontiac",
+            "model": "Sunbird",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1991,
+            "make": "Pontiac",
+            "model": "Tempest",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1991,
+            "year_to": 1992,
+            "make": "Pontiac",
+            "model": "Trans Sport",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1987\u20131989 Buick Electra",
+          "1988\u20131990 Buick LeSabre",
+          "1991\u20131993 Buick Regal",
+          "2007 Buick Rendezvous",
+          "1987\u20131988 Buick Skyhawk",
+          "1992\u20131995 Buick Skylark",
+          "1999\u20132000 Cadillac Escalade",
+          "1987\u20131999 Chevrolet Astro",
+          "1988\u20131994 Chevrolet Beretta",
+          "1994 Chevrolet Blazer",
+          "1995\u20131997 Chevrolet C1500 Suburban",
+          "1992\u20131997 Chevrolet C2500 Suburban",
+          "1993 Chevrolet Camaro",
+          "1989\u20131993 Chevrolet Cavalier",
+          "1988\u20131996 Chevrolet Corsica",
+          "1992\u20131993 Chevrolet Corvette",
+          "1997\u20132001 Chevrolet Express 1500",
+          "1996\u20131999 Chevrolet Express 2500",
+          "1996\u20131997 Chevrolet Express 3500",
+          "1990\u20131995 Chevrolet G10",
+          "1992\u20131995 Chevrolet G20",
+          "1992\u20131996 Chevrolet G30",
+          "1993 Chevrolet GP3500",
+          "1992\u20131999 Chevrolet K1500 Suburban",
+          "1992\u20131999 Chevrolet K2500 Suburban",
+          "1987\u20131995 Chevrolet LLV",
+          "1990\u20131994 Chevrolet Lumina",
+          "1990\u20131998 Chevrolet P30",
+          "1991 Chevrolet R1500 Suburban",
+          "1992 Chevrolet S10 Blazer",
+          "2000\u20132002 Chevrolet Sonora",
+          "1995\u20131999 Chevrolet Tahoe",
+          "1996\u20131998 Isuzu Hombre",
+          "1989 Oldsmobile 98",
+          "1994\u20131996 Oldsmobile Achieva",
+          "1987 Oldsmobile Calais",
+          "1989\u20131991 Oldsmobile Cutlass Calais",
+          "1989\u20131990 Oldsmobile Cutlass Ciera",
+          "1992 Oldsmobile Cutlass Supreme",
+          "1987\u20131988 Oldsmobile Delta 88",
+          "1988 Oldsmobile Firenza",
+          "1991\u20131992 Oldsmobile Silhouette",
+          "1988\u20131991 Pontiac 6000",
+          "1987\u20131990 Pontiac Bonneville",
+          "1993\u20131994 Pontiac Firebird",
+          "1987\u20131995 Pontiac Grand Am",
+          "1993\u20131994 Pontiac Grand Prix",
+          "1988 Pontiac LeMans",
+          "1987 Pontiac Safari",
+          "1987\u20131994 Pontiac Sunbird",
+          "1987\u20131991 Pontiac Tempest",
+          "1991\u20131992 Pontiac Trans Sport"
+        ],
+        "raw_compat_rows": 1788,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398347612299",
         "type": "Oil Pressure Sender",
         "brand": "Standard Motor Products",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Filters"
@@ -65675,6 +67692,44 @@
       "interchange": []
     },
     {
+      "id": "PI6B4CEY4KORIH3DERO7XF7Z",
+      "name": "Standard Motor Products PS205 Oil Pressure Switch Shelby NOS",
+      "price": 27.74,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/0f6c20ea81ad7d5810dfbb4992b4cc5d38562844/original.jpeg",
+      "url": "https://square.link/u/kvJydhJz",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "5FK3Q3PPUGUYAIKJ6OJ2IXBP",
+      "stock": 1,
+      "part_numbers": [
+        "PS205"
+      ],
+      "interchange": [],
+      "vehicles": [],
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398347609059",
+      "ebay_type": "Oil Pressure Switch",
+      "ebay_brand": "Standard Motor Products",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Starters, Alternators, ECUs & Wiring:Relays",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "medium",
+      "fitment": {
+        "part_numbers": [
+          "PS205"
+        ],
+        "interchange": [],
+        "vehicles": [],
+        "vehicle_labels": [],
+        "raw_compat_rows": 0,
+        "source": "ebay_listing",
+        "confidence": "medium",
+        "ebay_item_id": "398347609059",
+        "type": "Oil Pressure Switch",
+        "brand": "Standard Motor Products",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Starters, Alternators, ECUs & Wiring:Relays"
+      }
+    },
+    {
       "id": "ST2BCN57RGLMTPBNNZLELJXI",
       "name": "Standard Motor Products RY-113 Fan Relay NOS 85-87 Corvette",
       "price": 9.99,
@@ -65994,6 +68049,371 @@
       "interchange": []
     },
     {
+      "id": "LOWQO3DB54E2B4UQL4Y7ZLGV",
+      "name": "Standard Motor Products RY-119 Automotive Relay Dynasty Lebaron NOS",
+      "price": 25.86,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/a7c572fe7505ed897364de595d9d0db125f9c8b5/original.jpeg",
+      "url": "https://square.link/u/dcd1gKlI",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "DFFNVDRETOQ3YUCIGZAISYT4",
+      "stock": 1,
+      "part_numbers": [
+        "RY-119"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1988 Chrysler Dynasty",
+        "1989\u20131995 Chrysler LeBaron",
+        "1988\u20131994 Chrysler New Yorker",
+        "1988 Chrysler Town & Country",
+        "1989 Dodge 2000 GTX",
+        "1989 Dodge Aries",
+        "1990\u20131993 Dodge B250",
+        "1990\u20131993 Dodge B350",
+        "1988\u20131989 Dodge Caravan",
+        "1991 Dodge Colt",
+        "1988\u20131993 Dodge Dakota",
+        "1989\u20131991 Dodge Daytona",
+        "1988\u20131991 Dodge Dynasty",
+        "1988\u20131991 Dodge Grand Caravan",
+        "1989 Dodge Lancer",
+        "1988\u20131993 Dodge Ramcharger",
+        "1991\u20131994 Dodge Shadow",
+        "1989\u20131995 Dodge Spirit",
+        "1991 Dodge Stealth",
+        "1990 Mitsubishi Eclipse",
+        "1989\u20131995 Plymouth Acclaim",
+        "1991\u20131992 Plymouth Colt",
+        "1988\u20131994 Plymouth Grand Voyager",
+        "1991\u20131992 Plymouth Laser",
+        "1989 Plymouth Reliant",
+        "1991\u20131994 Plymouth Sundance",
+        "1988\u20131994 Plymouth Voyager"
+      ],
+      "vehicle_count_raw": 740,
+      "ebay_item_id": "398347617364",
+      "ebay_type": "Automotive Relay",
+      "ebay_brand": "Standard Motor Products",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Starters, Alternators, ECUs & Wiring:Relays",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "RY-119"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1988,
+            "year_to": 1988,
+            "make": "Chrysler",
+            "model": "Dynasty",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1989,
+            "year_to": 1995,
+            "make": "Chrysler",
+            "model": "LeBaron",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1988,
+            "year_to": 1994,
+            "make": "Chrysler",
+            "model": "New Yorker",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1988,
+            "year_to": 1988,
+            "make": "Chrysler",
+            "model": "Town & Country",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1989,
+            "year_to": 1989,
+            "make": "Dodge",
+            "model": "2000 GTX",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1989,
+            "year_to": 1989,
+            "make": "Dodge",
+            "model": "Aries",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1990,
+            "year_to": 1993,
+            "make": "Dodge",
+            "model": "B250",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1990,
+            "year_to": 1993,
+            "make": "Dodge",
+            "model": "B350",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1988,
+            "year_to": 1989,
+            "make": "Dodge",
+            "model": "Caravan",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1991,
+            "year_to": 1991,
+            "make": "Dodge",
+            "model": "Colt",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1988,
+            "year_to": 1993,
+            "make": "Dodge",
+            "model": "Dakota",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1989,
+            "year_to": 1991,
+            "make": "Dodge",
+            "model": "Daytona",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1988,
+            "year_to": 1991,
+            "make": "Dodge",
+            "model": "Dynasty",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1988,
+            "year_to": 1991,
+            "make": "Dodge",
+            "model": "Grand Caravan",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1989,
+            "year_to": 1989,
+            "make": "Dodge",
+            "model": "Lancer",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1988,
+            "year_to": 1993,
+            "make": "Dodge",
+            "model": "Ramcharger",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1991,
+            "year_to": 1994,
+            "make": "Dodge",
+            "model": "Shadow",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1989,
+            "year_to": 1995,
+            "make": "Dodge",
+            "model": "Spirit",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1991,
+            "year_to": 1991,
+            "make": "Dodge",
+            "model": "Stealth",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1990,
+            "year_to": 1990,
+            "make": "Mitsubishi",
+            "model": "Eclipse",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1989,
+            "year_to": 1995,
+            "make": "Plymouth",
+            "model": "Acclaim",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1991,
+            "year_to": 1992,
+            "make": "Plymouth",
+            "model": "Colt",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1988,
+            "year_to": 1994,
+            "make": "Plymouth",
+            "model": "Grand Voyager",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1991,
+            "year_to": 1992,
+            "make": "Plymouth",
+            "model": "Laser",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1989,
+            "year_to": 1989,
+            "make": "Plymouth",
+            "model": "Reliant",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1991,
+            "year_to": 1994,
+            "make": "Plymouth",
+            "model": "Sundance",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1988,
+            "year_to": 1994,
+            "make": "Plymouth",
+            "model": "Voyager",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1988 Chrysler Dynasty",
+          "1989\u20131995 Chrysler LeBaron",
+          "1988\u20131994 Chrysler New Yorker",
+          "1988 Chrysler Town & Country",
+          "1989 Dodge 2000 GTX",
+          "1989 Dodge Aries",
+          "1990\u20131993 Dodge B250",
+          "1990\u20131993 Dodge B350",
+          "1988\u20131989 Dodge Caravan",
+          "1991 Dodge Colt",
+          "1988\u20131993 Dodge Dakota",
+          "1989\u20131991 Dodge Daytona",
+          "1988\u20131991 Dodge Dynasty",
+          "1988\u20131991 Dodge Grand Caravan",
+          "1989 Dodge Lancer",
+          "1988\u20131993 Dodge Ramcharger",
+          "1991\u20131994 Dodge Shadow",
+          "1989\u20131995 Dodge Spirit",
+          "1991 Dodge Stealth",
+          "1990 Mitsubishi Eclipse",
+          "1989\u20131995 Plymouth Acclaim",
+          "1991\u20131992 Plymouth Colt",
+          "1988\u20131994 Plymouth Grand Voyager",
+          "1991\u20131992 Plymouth Laser",
+          "1989 Plymouth Reliant",
+          "1991\u20131994 Plymouth Sundance",
+          "1988\u20131994 Plymouth Voyager"
+        ],
+        "raw_compat_rows": 740,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398347617364",
+        "type": "Automotive Relay",
+        "brand": "Standard Motor Products",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Starters, Alternators, ECUs & Wiring:Relays"
+      }
+    },
+    {
       "id": "TWDOU6Z474MK5JMPUDNWRU7D",
       "name": "Standard Motor Products SG22 O2 Sensor 2.2 2.5 5.2 NOS Daytona",
       "price": 20.0,
@@ -66201,11 +68621,9 @@
       "category": "other",
       "checkout": true,
       "variation_id": "E2PH4ZMOPDQMYG3D7B4GCMRY",
-      "stock": 1,
       "part_numbers": [
         "SG7"
       ],
-      "interchange": [],
       "vehicles": [
         "1985\u20131989 Chrysler Fifth Avenue",
         "1985\u20131986 Chrysler LeBaron",
@@ -66216,11 +68634,6 @@
         "1985\u20131987 Dodge Omni",
         "1985\u20131987 Plymouth Horizon"
       ],
-      "vehicle_count_raw": 82,
-      "ebay_item_id": "398347293508",
-      "ebay_type": "Oxygen Sensor",
-      "ebay_brand": "Standard Motor Products",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Exhaust & Emission Systems:Oxygen Sensors",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -66327,7 +68740,14 @@
         "type": "Oxygen Sensor",
         "brand": "Standard Motor Products",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Exhaust & Emission Systems:Oxygen Sensors"
-      }
+      },
+      "vehicle_count_raw": 82,
+      "ebay_item_id": "398347293508",
+      "ebay_type": "Oxygen Sensor",
+      "ebay_brand": "Standard Motor Products",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Exhaust & Emission Systems:Oxygen Sensors",
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "MMNA66XAHHCD4RP6WZH4BGI6",
@@ -66775,12 +69195,10 @@
       "category": "other",
       "checkout": true,
       "variation_id": "7Z7UHGQCMMF65SGD4KT4M7AU",
-      "stock": 1,
       "part_numbers": [
         "TH-52",
         "AIRTEX 5S5084"
       ],
-      "interchange": [],
       "vehicles": [
         "1990 Chrysler Imperial",
         "1989\u20131990 Chrysler LeBaron",
@@ -66798,11 +69216,6 @@
         "1989\u20131990 Plymouth Sundance",
         "1989\u20131990 Plymouth Voyager"
       ],
-      "vehicle_count_raw": 196,
-      "ebay_item_id": "398347292090",
-      "ebay_type": "Throttle Position Sensor",
-      "ebay_brand": "Standard Motor Products",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Intake & Fuel Sensors",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -66987,6 +69400,66 @@
         "type": "Throttle Position Sensor",
         "brand": "Standard Motor Products",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Intake & Fuel Sensors"
+      },
+      "vehicle_count_raw": 196,
+      "ebay_item_id": "398347292090",
+      "ebay_type": "Throttle Position Sensor",
+      "ebay_brand": "Standard Motor Products",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Intake & Fuel Sensors",
+      "stock": 1,
+      "interchange": []
+    },
+    {
+      "id": "44Y5HILGGT62F7AEHA3ZBO5Q",
+      "name": "Standard Motor Products TX3 Coolant Temperature Sender Silverado Sierra NOS",
+      "price": 24.29,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/347b40d04d5fda01744294bfc8cf33fe91eb5ba4/original.jpeg",
+      "url": "https://square.link/u/374bWobO",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "UBOIYKECHX2EJRJVHADQPPDU",
+      "stock": 1,
+      "part_numbers": [
+        "TX3"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "2018 GMC Sierra"
+      ],
+      "vehicle_count_raw": 3,
+      "ebay_item_id": "398347629503",
+      "ebay_type": "Coolant Temperature Sender",
+      "ebay_brand": "Standard Motor Products",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Intake & Fuel Sensors",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "TX3"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 2018,
+            "year_to": 2018,
+            "make": "GMC",
+            "model": "Sierra",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "2018 GMC Sierra"
+        ],
+        "raw_compat_rows": 3,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398347629503",
+        "type": "Coolant Temperature Sender",
+        "brand": "Standard Motor Products",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Intake & Fuel Sensors"
       }
     },
     {
@@ -66998,11 +69471,9 @@
       "category": "other",
       "checkout": true,
       "variation_id": "HPWGHRBZZ3PFGNZRN7H5J22R",
-      "stock": 1,
       "part_numbers": [
         "US-98"
       ],
-      "interchange": [],
       "vehicles": [
         "1986\u20131991 Ford Aerostar",
         "1984\u20131986 Ford Bronco II",
@@ -67021,11 +69492,6 @@
         "1984\u20131994 Mercury Topaz",
         "1978\u20131983 Mercury Zephyr"
       ],
-      "vehicle_count_raw": 716,
-      "ebay_item_id": "398347290804",
-      "ebay_type": "Ignition Switch",
-      "ebay_brand": "Standard Motor Products",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Other Ignition Systems & Components",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -67220,7 +69686,14 @@
         "type": "Ignition Switch",
         "brand": "Standard Motor Products",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Other Ignition Systems & Components"
-      }
+      },
+      "vehicle_count_raw": 716,
+      "ebay_item_id": "398347290804",
+      "ebay_type": "Ignition Switch",
+      "ebay_brand": "Standard Motor Products",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Other Ignition Systems & Components",
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "5ELRARW5LXQ55KZS7CWDW2SE",
@@ -67279,18 +69752,10 @@
       "category": "other",
       "checkout": true,
       "variation_id": "F776NJDAELTZRZEBHMGE2R4C",
-      "stock": 1,
       "part_numbers": [
         "TN7",
         "TN-7"
       ],
-      "interchange": [],
-      "vehicles": [],
-      "vehicle_count_raw": 0,
-      "ebay_item_id": "398347278273",
-      "ebay_type": "Ignition Terminal Nipple",
-      "ebay_brand": "Standard Plus",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Wires & Coil Boots",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -67308,7 +69773,15 @@
         "type": "Ignition Terminal Nipple",
         "brand": "Standard Plus",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Wires & Coil Boots"
-      }
+      },
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398347278273",
+      "ebay_type": "Ignition Terminal Nipple",
+      "ebay_brand": "Standard Plus",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Wires & Coil Boots",
+      "stock": 1,
+      "interchange": [],
+      "vehicles": []
     },
     {
       "id": "BT7CSRZZS2WV2SDVFQCPJIOC",
@@ -72719,5 +75192,5 @@
       "stock": 1
     }
   ],
-  "fitment_built": "2026-09-01T13:01:06Z"
+  "fitment_built": "2026-09-01T15:01:20Z"
 }
