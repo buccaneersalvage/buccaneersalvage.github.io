@@ -1,7 +1,7 @@
 {
-  "updated": "2026-09-01T06:01:09Z",
+  "updated": "2026-09-01T08:01:09Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 550,
+  "count": 556,
   "items": [
     {
       "id": "S4IZBA4AG65C6HI2ZDIRMSJR",
@@ -33554,7 +33554,6 @@
       "category": "ignition",
       "checkout": true,
       "variation_id": "6RTDECX3S76FISSULA2P7WXY",
-      "stock": 1,
       "part_numbers": [
         "DR326",
         "DR-326, D447, 4R1041, 10496798"
@@ -33601,11 +33600,6 @@
         "1987 Chevrolet R10",
         "1987\u20131988 Chevrolet R10 Suburban"
       ],
-      "vehicle_count_raw": 1676,
-      "ebay_item_id": "398346140463",
-      "ebay_type": "Distributor Rotor",
-      "ebay_brand": "Standard Motor Products",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -34014,7 +34008,13 @@
         "type": "Distributor Rotor",
         "brand": "Standard Motor Products",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors"
-      }
+      },
+      "vehicle_count_raw": 1676,
+      "ebay_item_id": "398346140463",
+      "ebay_type": "Distributor Rotor",
+      "ebay_brand": "Standard Motor Products",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors",
+      "stock": 1
     },
     {
       "id": "GQYXGNW3IHDN5YPMD76XLXM2",
@@ -34175,6 +34175,633 @@
       "ebay_brand": "Standard Motor Products",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Coils",
       "stock": 1
+    },
+    {
+      "id": "CXHZCXT4DJIFGQCOMMMEG6KT",
+      "name": "Standard Motor Products JH159 Distributor Cap 2.0 2.1 Prelude NOS",
+      "price": 14.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/776cdf9f58da8e8753c5950baf1b7804061f4c4a/original.jpeg",
+      "url": "https://square.link/u/715I33eq",
+      "category": "ignition",
+      "checkout": true,
+      "variation_id": "46LCUFSZ25MTQCBBEC33N26W",
+      "stock": 1,
+      "part_numbers": [
+        "JH159"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1988\u20131991 Honda Prelude"
+      ],
+      "vehicle_count_raw": 17,
+      "ebay_item_id": "398346430644",
+      "ebay_type": "Distributor Cap",
+      "ebay_brand": "Standard Motor Products",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "JH159"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1988,
+            "year_to": 1991,
+            "make": "Honda",
+            "model": "Prelude",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1988\u20131991 Honda Prelude"
+        ],
+        "raw_compat_rows": 17,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398346430644",
+        "type": "Distributor Cap",
+        "brand": "Standard Motor Products",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps"
+      }
+    },
+    {
+      "id": "AV7V4GJNVXDLZEMNL2ME4HIK",
+      "name": "Standard Motor Products JR-75 Distributor Rotor Corolla Tracker NOS",
+      "price": 9.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/5598f6d824fd56f3c20ec5e91338da1cf0516e3c/original.jpeg",
+      "url": "https://square.link/u/pA8ejPcF",
+      "category": "ignition",
+      "checkout": true,
+      "variation_id": "F3CUJKHPSMO6SSI57WR7DWHN",
+      "stock": 1,
+      "part_numbers": [
+        "JR-75",
+        "JR75, 1910238160"
+      ],
+      "interchange": [
+        "JR75T",
+        "EP324",
+        "D571",
+        "4R1114"
+      ],
+      "vehicles": [
+        "1976\u20131980 Chevrolet LUV",
+        "1985 Chevrolet Spectrum",
+        "1985\u20131988 Chevrolet Sprint",
+        "1989\u20131990 Chevrolet Tracker",
+        "1985\u20131989 Dodge Ram 50",
+        "1989\u20131995 Geo Tracker",
+        "1983\u20131984 Isuzu I-Mark",
+        "1985\u20131988 Mitsubishi Cordia",
+        "1985\u20131989 Mitsubishi Mighty Max",
+        "1985\u20131988 Mitsubishi Tredia",
+        "1985\u20131988 Pontiac Firefly",
+        "1985 Pontiac Sunburst",
+        "1978\u20131987 Subaru Brat",
+        "1976\u20131987 Subaru DL",
+        "1979 Subaru FE",
+        "1976\u20131979 Subaru GF",
+        "1979\u20131989 Subaru GL",
+        "1985 Subaru GL-10",
+        "1980\u20131982 Subaru GLF",
+        "1977\u20131987 Subaru Standard",
+        "1985\u20131986 Subaru XT",
+        "1985\u20131988 Suzuki Forsa",
+        "1980\u20131984 Suzuki SJ410",
+        "1989\u20131990 Suzuki Sidekick",
+        "1971\u20131973 Toyota Carina",
+        "1972\u20131974 Toyota Celica",
+        "1971\u20131979 Toyota Corolla",
+        "1972\u20131974 Toyota Corona",
+        "1972 Toyota Mark II",
+        "1972\u20131974 Toyota Pickup",
+        "1984\u20131986 Toyota Tercel"
+      ],
+      "vehicle_count_raw": 495,
+      "ebay_item_id": "398346426056",
+      "ebay_type": "Distributor Rotor",
+      "ebay_brand": "Standard Motor Products",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "JR-75",
+          "JR75, 1910238160"
+        ],
+        "interchange": [
+          "JR75T",
+          "EP324",
+          "D571",
+          "4R1114"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1976,
+            "year_to": 1980,
+            "make": "Chevrolet",
+            "model": "LUV",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1985,
+            "make": "Chevrolet",
+            "model": "Spectrum",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1988,
+            "make": "Chevrolet",
+            "model": "Sprint",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1989,
+            "year_to": 1990,
+            "make": "Chevrolet",
+            "model": "Tracker",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1989,
+            "make": "Dodge",
+            "model": "Ram 50",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1989,
+            "year_to": 1995,
+            "make": "Geo",
+            "model": "Tracker",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1983,
+            "year_to": 1984,
+            "make": "Isuzu",
+            "model": "I-Mark",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1988,
+            "make": "Mitsubishi",
+            "model": "Cordia",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1989,
+            "make": "Mitsubishi",
+            "model": "Mighty Max",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1988,
+            "make": "Mitsubishi",
+            "model": "Tredia",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1988,
+            "make": "Pontiac",
+            "model": "Firefly",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1985,
+            "make": "Pontiac",
+            "model": "Sunburst",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1978,
+            "year_to": 1987,
+            "make": "Subaru",
+            "model": "Brat",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1976,
+            "year_to": 1987,
+            "make": "Subaru",
+            "model": "DL",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1979,
+            "year_to": 1979,
+            "make": "Subaru",
+            "model": "FE",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1976,
+            "year_to": 1979,
+            "make": "Subaru",
+            "model": "GF",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1979,
+            "year_to": 1989,
+            "make": "Subaru",
+            "model": "GL",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1985,
+            "make": "Subaru",
+            "model": "GL-10",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1980,
+            "year_to": 1982,
+            "make": "Subaru",
+            "model": "GLF",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1977,
+            "year_to": 1987,
+            "make": "Subaru",
+            "model": "Standard",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1986,
+            "make": "Subaru",
+            "model": "XT",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1988,
+            "make": "Suzuki",
+            "model": "Forsa",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1980,
+            "year_to": 1984,
+            "make": "Suzuki",
+            "model": "SJ410",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1989,
+            "year_to": 1990,
+            "make": "Suzuki",
+            "model": "Sidekick",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1971,
+            "year_to": 1973,
+            "make": "Toyota",
+            "model": "Carina",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1972,
+            "year_to": 1974,
+            "make": "Toyota",
+            "model": "Celica",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1971,
+            "year_to": 1979,
+            "make": "Toyota",
+            "model": "Corolla",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1972,
+            "year_to": 1974,
+            "make": "Toyota",
+            "model": "Corona",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1972,
+            "year_to": 1972,
+            "make": "Toyota",
+            "model": "Mark II",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1972,
+            "year_to": 1974,
+            "make": "Toyota",
+            "model": "Pickup",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 1986,
+            "make": "Toyota",
+            "model": "Tercel",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1976\u20131980 Chevrolet LUV",
+          "1985 Chevrolet Spectrum",
+          "1985\u20131988 Chevrolet Sprint",
+          "1989\u20131990 Chevrolet Tracker",
+          "1985\u20131989 Dodge Ram 50",
+          "1989\u20131995 Geo Tracker",
+          "1983\u20131984 Isuzu I-Mark",
+          "1985\u20131988 Mitsubishi Cordia",
+          "1985\u20131989 Mitsubishi Mighty Max",
+          "1985\u20131988 Mitsubishi Tredia",
+          "1985\u20131988 Pontiac Firefly",
+          "1985 Pontiac Sunburst",
+          "1978\u20131987 Subaru Brat",
+          "1976\u20131987 Subaru DL",
+          "1979 Subaru FE",
+          "1976\u20131979 Subaru GF",
+          "1979\u20131989 Subaru GL",
+          "1985 Subaru GL-10",
+          "1980\u20131982 Subaru GLF",
+          "1977\u20131987 Subaru Standard",
+          "1985\u20131986 Subaru XT",
+          "1985\u20131988 Suzuki Forsa",
+          "1980\u20131984 Suzuki SJ410",
+          "1989\u20131990 Suzuki Sidekick",
+          "1971\u20131973 Toyota Carina",
+          "1972\u20131974 Toyota Celica",
+          "1971\u20131979 Toyota Corolla",
+          "1972\u20131974 Toyota Corona",
+          "1972 Toyota Mark II",
+          "1972\u20131974 Toyota Pickup",
+          "1984\u20131986 Toyota Tercel"
+        ],
+        "raw_compat_rows": 495,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398346426056",
+        "type": "Distributor Rotor",
+        "brand": "Standard Motor Products",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors"
+      }
+    },
+    {
+      "id": "JFGR7QUENXN5NTRLR26WOIUA",
+      "name": "Standard Motor Products JR-95 Distributor Rotor Nova 4Runner NOS",
+      "price": 9.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/013e13c46b338ebaf87ba5c080836701a388b514/original.jpeg",
+      "url": "https://square.link/u/ibpdR8za",
+      "category": "ignition",
+      "checkout": true,
+      "variation_id": "YJFGPKPJ7ENBZG3OJ37YHRKO",
+      "stock": 1,
+      "part_numbers": [
+        "JR-95",
+        "JR95, 1910216020"
+      ],
+      "interchange": [
+        "JR95T",
+        "EP687",
+        "D600",
+        "4R1126"
+      ],
+      "vehicles": [
+        "1985\u20131988 Chevrolet Nova",
+        "1986\u20131995 Toyota 4Runner",
+        "1983\u20131986 Toyota Camry",
+        "1986\u20131989 Toyota Celica",
+        "1983\u20131988 Toyota Corolla",
+        "1989\u20131995 Toyota Pickup",
+        "1983\u20131988 Toyota Tercel",
+        "1984\u20131985 Toyota Van"
+      ],
+      "vehicle_count_raw": 227,
+      "ebay_item_id": "398346429694",
+      "ebay_type": "Distributor Rotor",
+      "ebay_brand": "Standard Motor Products",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "JR-95",
+          "JR95, 1910216020"
+        ],
+        "interchange": [
+          "JR95T",
+          "EP687",
+          "D600",
+          "4R1126"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1985,
+            "year_to": 1988,
+            "make": "Chevrolet",
+            "model": "Nova",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1986,
+            "year_to": 1995,
+            "make": "Toyota",
+            "model": "4Runner",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1983,
+            "year_to": 1986,
+            "make": "Toyota",
+            "model": "Camry",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1986,
+            "year_to": 1989,
+            "make": "Toyota",
+            "model": "Celica",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1983,
+            "year_to": 1988,
+            "make": "Toyota",
+            "model": "Corolla",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1989,
+            "year_to": 1995,
+            "make": "Toyota",
+            "model": "Pickup",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1983,
+            "year_to": 1988,
+            "make": "Toyota",
+            "model": "Tercel",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 1985,
+            "make": "Toyota",
+            "model": "Van",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1985\u20131988 Chevrolet Nova",
+          "1986\u20131995 Toyota 4Runner",
+          "1983\u20131986 Toyota Camry",
+          "1986\u20131989 Toyota Celica",
+          "1983\u20131988 Toyota Corolla",
+          "1989\u20131995 Toyota Pickup",
+          "1983\u20131988 Toyota Tercel",
+          "1984\u20131985 Toyota Van"
+        ],
+        "raw_compat_rows": 227,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398346429694",
+        "type": "Distributor Rotor",
+        "brand": "Standard Motor Products",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors"
+      }
     },
     {
       "id": "TKDYIWUGUV4DYZEH7FP4JKFT",
@@ -34420,7 +35047,6 @@
       "category": "ignition",
       "checkout": true,
       "variation_id": "KDS44PMKGXPEHBJ3Y4UO2MHA",
-      "stock": 1,
       "part_numbers": [
         "JR72",
         "JR-72, 4R1105, 173-7994, D27Z12200A"
@@ -34462,11 +35088,6 @@
         "1977\u20131986 Subaru Standard",
         "1970\u20131972 Subaru Star"
       ],
-      "vehicle_count_raw": 693,
-      "ebay_item_id": "398346164679",
-      "ebay_type": "Distributor Rotor",
-      "ebay_brand": "Standard Motor Products",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -34820,7 +35441,13 @@
         "type": "Distributor Rotor",
         "brand": "Standard Motor Products",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors"
-      }
+      },
+      "vehicle_count_raw": 693,
+      "ebay_item_id": "398346164679",
+      "ebay_type": "Distributor Rotor",
+      "ebay_brand": "Standard Motor Products",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors",
+      "stock": 1
     },
     {
       "id": "EACQEYCUQ3CDD77A32NJSTRZ",
@@ -34831,22 +35458,15 @@
       "category": "ignition",
       "checkout": true,
       "variation_id": "K7TSBQICWI5WNEYAVX5R2WL2",
-      "stock": 1,
       "part_numbers": [
         "JR89",
         "JR-89, JR89T, EP821, D669, 12-0178, 4R1125"
       ],
-      "interchange": [],
       "vehicles": [
         "1986\u20131987 Acura Integra",
         "1981\u20131989 Honda Accord",
         "1981\u20131989 Honda Prelude"
       ],
-      "vehicle_count_raw": 80,
-      "ebay_item_id": "398346064225",
-      "ebay_type": "Distributor Rotor",
-      "ebay_brand": "Standard Motor Products",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -34899,7 +35519,14 @@
         "type": "Distributor Rotor",
         "brand": "Standard Motor Products",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors"
-      }
+      },
+      "vehicle_count_raw": 80,
+      "ebay_item_id": "398346064225",
+      "ebay_type": "Distributor Rotor",
+      "ebay_brand": "Standard Motor Products",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors",
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "UV6SJNQCXQRDOQIEQQK3VKUK",
@@ -39619,7 +40246,6 @@
       "category": "interior",
       "checkout": true,
       "variation_id": "AX5UC7M2N2QVEC4YHECH6XII",
-      "stock": 1,
       "part_numbers": [
         "DS-68",
         "1S4831, UDS421, 1972149, B9A13532A, J3160926"
@@ -39668,11 +40294,6 @@
         "1959\u20131961 Dodge Custom",
         "1975 Dodge D100"
       ],
-      "vehicle_count_raw": 3000,
-      "ebay_item_id": "398346106091",
-      "ebay_type": "Headlight Dimmer Switch",
-      "ebay_brand": "Standard Motor Products",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Interior Parts & Accessories:Switches & Controls",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -40103,7 +40724,13 @@
         "type": "Headlight Dimmer Switch",
         "brand": "Standard Motor Products",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Interior Parts & Accessories:Switches & Controls"
-      }
+      },
+      "vehicle_count_raw": 3000,
+      "ebay_item_id": "398346106091",
+      "ebay_type": "Headlight Dimmer Switch",
+      "ebay_brand": "Standard Motor Products",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Interior Parts & Accessories:Switches & Controls",
+      "stock": 1
     },
     {
       "id": "DXGUWRY66N5ZJA555QWZQVRW",
@@ -59519,6 +60146,385 @@
       "stock": 1
     },
     {
+      "id": "YE3LPUFVKD53KDYC2L42FABZ",
+      "name": "Standard Motor Products HR151 Horn Relay 74-96 Century NOS",
+      "price": 14.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/053cf29b1f3ca5058b0768d2b35b1576244a516e/original.jpeg",
+      "url": "https://square.link/u/p0wWlLVQ",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "QT475CSYM4PE5WIEJEWZ37UB",
+      "stock": 1,
+      "part_numbers": [
+        "HR151",
+        "16133, 7D8, 14029600, 5456847, D1776"
+      ],
+      "interchange": [
+        "HR151T",
+        "HR143",
+        "R636",
+        "DR1037",
+        "1R1726"
+      ],
+      "vehicles": [
+        "1974\u20131975 Buick Apollo",
+        "1974\u20131996 Buick Century",
+        "1974\u20131989 Buick Electra",
+        "1976\u20131983 Buick Estate Wagon",
+        "1974\u20131990 Buick LeSabre",
+        "1976\u20131979 Buick Opel",
+        "1988 Buick Reatta",
+        "1974\u20131988 Buick Regal",
+        "1974\u20131986 Buick Riviera",
+        "1991\u20131992 Buick Roadmaster",
+        "1975\u20131989 Buick Skyhawk",
+        "1975\u20131998 Buick Skylark",
+        "1986\u20131987 Buick Somerset",
+        "1985 Buick Somerset Regal",
+        "1982\u20131988 Cadillac Cimarron",
+        "1977\u20131984 Cadillac DeVille",
+        "1977\u20131984 Cadillac Eldorado",
+        "1977\u20131985 Cadillac Fleetwood",
+        "1977\u20131984 Cadillac Seville",
+        "1985\u20131995 Chevrolet Astro",
+        "1974\u20131981 Chevrolet Bel Air",
+        "1987\u20131996 Chevrolet Beretta",
+        "1973\u20131994 Chevrolet Blazer",
+        "1975\u20131986 Chevrolet C10",
+        "1973\u20131974 Chevrolet C10 Pickup",
+        "1973\u20131986 Chevrolet C10 Suburban",
+        "1975\u20131979 Chevrolet C20"
+      ],
+      "vehicle_count_raw": 3000,
+      "ebay_item_id": "398346178886",
+      "ebay_type": "Horn Relay",
+      "ebay_brand": "Standard Motor Products",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Starters, Alternators, ECUs & Wiring:Relays",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "HR151",
+          "16133, 7D8, 14029600, 5456847, D1776"
+        ],
+        "interchange": [
+          "HR151T",
+          "HR143",
+          "R636",
+          "DR1037",
+          "1R1726"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1974,
+            "year_to": 1975,
+            "make": "Buick",
+            "model": "Apollo",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1974,
+            "year_to": 1996,
+            "make": "Buick",
+            "model": "Century",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1974,
+            "year_to": 1989,
+            "make": "Buick",
+            "model": "Electra",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1976,
+            "year_to": 1983,
+            "make": "Buick",
+            "model": "Estate Wagon",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1974,
+            "year_to": 1990,
+            "make": "Buick",
+            "model": "LeSabre",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1976,
+            "year_to": 1979,
+            "make": "Buick",
+            "model": "Opel",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1988,
+            "year_to": 1988,
+            "make": "Buick",
+            "model": "Reatta",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1974,
+            "year_to": 1988,
+            "make": "Buick",
+            "model": "Regal",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1974,
+            "year_to": 1986,
+            "make": "Buick",
+            "model": "Riviera",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1991,
+            "year_to": 1992,
+            "make": "Buick",
+            "model": "Roadmaster",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1975,
+            "year_to": 1989,
+            "make": "Buick",
+            "model": "Skyhawk",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1975,
+            "year_to": 1998,
+            "make": "Buick",
+            "model": "Skylark",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1986,
+            "year_to": 1987,
+            "make": "Buick",
+            "model": "Somerset",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1985,
+            "make": "Buick",
+            "model": "Somerset Regal",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1982,
+            "year_to": 1988,
+            "make": "Cadillac",
+            "model": "Cimarron",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1977,
+            "year_to": 1984,
+            "make": "Cadillac",
+            "model": "DeVille",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1977,
+            "year_to": 1984,
+            "make": "Cadillac",
+            "model": "Eldorado",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1977,
+            "year_to": 1985,
+            "make": "Cadillac",
+            "model": "Fleetwood",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1977,
+            "year_to": 1984,
+            "make": "Cadillac",
+            "model": "Seville",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1995,
+            "make": "Chevrolet",
+            "model": "Astro",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1974,
+            "year_to": 1981,
+            "make": "Chevrolet",
+            "model": "Bel Air",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1996,
+            "make": "Chevrolet",
+            "model": "Beretta",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1973,
+            "year_to": 1994,
+            "make": "Chevrolet",
+            "model": "Blazer",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1975,
+            "year_to": 1986,
+            "make": "Chevrolet",
+            "model": "C10",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1973,
+            "year_to": 1974,
+            "make": "Chevrolet",
+            "model": "C10 Pickup",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1973,
+            "year_to": 1986,
+            "make": "Chevrolet",
+            "model": "C10 Suburban",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1975,
+            "year_to": 1979,
+            "make": "Chevrolet",
+            "model": "C20",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1974\u20131975 Buick Apollo",
+          "1974\u20131996 Buick Century",
+          "1974\u20131989 Buick Electra",
+          "1976\u20131983 Buick Estate Wagon",
+          "1974\u20131990 Buick LeSabre",
+          "1976\u20131979 Buick Opel",
+          "1988 Buick Reatta",
+          "1974\u20131988 Buick Regal",
+          "1974\u20131986 Buick Riviera",
+          "1991\u20131992 Buick Roadmaster",
+          "1975\u20131989 Buick Skyhawk",
+          "1975\u20131998 Buick Skylark",
+          "1986\u20131987 Buick Somerset",
+          "1985 Buick Somerset Regal",
+          "1982\u20131988 Cadillac Cimarron",
+          "1977\u20131984 Cadillac DeVille",
+          "1977\u20131984 Cadillac Eldorado",
+          "1977\u20131985 Cadillac Fleetwood",
+          "1977\u20131984 Cadillac Seville",
+          "1985\u20131995 Chevrolet Astro",
+          "1974\u20131981 Chevrolet Bel Air",
+          "1987\u20131996 Chevrolet Beretta",
+          "1973\u20131994 Chevrolet Blazer",
+          "1975\u20131986 Chevrolet C10",
+          "1973\u20131974 Chevrolet C10 Pickup",
+          "1973\u20131986 Chevrolet C10 Suburban",
+          "1975\u20131979 Chevrolet C20"
+        ],
+        "raw_compat_rows": 3000,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398346178886",
+        "type": "Horn Relay",
+        "brand": "Standard Motor Products",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Starters, Alternators, ECUs & Wiring:Relays"
+      }
+    },
+    {
       "id": "AHCTQGDHYOQQH74NAWYNJUHZ",
       "name": "Standard Motor Products IH121 Ignition Condenser 53-67 F-100 NOS",
       "price": 9.99,
@@ -59527,7 +60533,6 @@
       "category": "other",
       "checkout": true,
       "variation_id": "FVXF6D27LQFPI3QXJFPMCVHK",
-      "stock": 1,
       "part_numbers": [
         "IH121",
         "IH-121, D9PJ12300A, 360700C1, 86D281A, 5H1104"
@@ -59591,11 +60596,6 @@
         "1975 International Harvester Travelall",
         "1963 Mercury Meteor"
       ],
-      "vehicle_count_raw": 1181,
-      "ebay_item_id": "398346131503",
-      "ebay_type": "Ignition Condenser",
-      "ebay_brand": "Standard Motor Products",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Condensers",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -60191,7 +61191,13 @@
         "type": "Ignition Condenser",
         "brand": "Standard Motor Products",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Condensers"
-      }
+      },
+      "vehicle_count_raw": 1181,
+      "ebay_item_id": "398346131503",
+      "ebay_type": "Ignition Condenser",
+      "ebay_brand": "Standard Motor Products",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Condensers",
+      "stock": 1
     },
     {
       "id": "JKC5XXFR6RKQN2UFEKHVNMNZ",
@@ -60245,6 +61251,369 @@
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Other Ignition Systems & Components",
       "stock": 1,
       "interchange": []
+    },
+    {
+      "id": "INX6OHUH4UZ4NYE7ACBGMK5V",
+      "name": "Standard Motor Products PC7 Crank Sensor 2.2 2.8 3.1 Century NOS",
+      "price": 19.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/1f2995d8f7b076f1e6a093075190517ffffb989c/original.jpeg",
+      "url": "https://square.link/u/S9LsHsdg",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "M4ZJ3SPBAN5I2A3RCDLWGA6O",
+      "stock": 1,
+      "part_numbers": [
+        "PC7",
+        "PC-7, 10456043, 213-148"
+      ],
+      "interchange": [
+        "CSS16",
+        "5S1665",
+        "SU137"
+      ],
+      "vehicles": [
+        "1987\u20132005 Buick Century",
+        "1988\u20131996 Buick Regal",
+        "1994\u20131998 Buick Skylark",
+        "1986\u20131988 Cadillac Cimarron",
+        "1987\u20131996 Chevrolet Beretta",
+        "1991\u20131992 Chevrolet Camaro",
+        "1987\u20131994 Chevrolet Cavalier",
+        "1987\u20131990 Chevrolet Celebrity",
+        "1987\u20131996 Chevrolet Corsica",
+        "1994\u20131995 Chevrolet LLV",
+        "1990\u20132001 Chevrolet Lumina",
+        "1997\u20132003 Chevrolet Malibu",
+        "1995\u20131999 Chevrolet Monte Carlo",
+        "1994\u20131998 Oldsmobile Achieva",
+        "2002\u20132004 Oldsmobile Alero",
+        "1995\u20131998 Oldsmobile Cutlass",
+        "1986\u20131996 Oldsmobile Cutlass Ciera",
+        "1987\u20131994 Oldsmobile Cutlass Cruiser",
+        "1988\u20131997 Oldsmobile Cutlass Supreme",
+        "1986\u20131987 Oldsmobile Firenza",
+        "1987\u20131991 Pontiac 6000",
+        "1990\u20131992 Pontiac Firebird",
+        "1994\u20132005 Pontiac Grand Am",
+        "1988\u20132003 Pontiac Grand Prix",
+        "1991\u20131994 Pontiac Sunbird",
+        "1987\u20131991 Pontiac Tempest"
+      ],
+      "vehicle_count_raw": 691,
+      "ebay_item_id": "398346427625",
+      "ebay_type": "Crankshaft Position Sensor",
+      "ebay_brand": "Standard Motor Products",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributors",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "PC7",
+          "PC-7, 10456043, 213-148"
+        ],
+        "interchange": [
+          "CSS16",
+          "5S1665",
+          "SU137"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1987,
+            "year_to": 2005,
+            "make": "Buick",
+            "model": "Century",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1988,
+            "year_to": 1996,
+            "make": "Buick",
+            "model": "Regal",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1994,
+            "year_to": 1998,
+            "make": "Buick",
+            "model": "Skylark",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1986,
+            "year_to": 1988,
+            "make": "Cadillac",
+            "model": "Cimarron",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1996,
+            "make": "Chevrolet",
+            "model": "Beretta",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1991,
+            "year_to": 1992,
+            "make": "Chevrolet",
+            "model": "Camaro",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1994,
+            "make": "Chevrolet",
+            "model": "Cavalier",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1990,
+            "make": "Chevrolet",
+            "model": "Celebrity",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1996,
+            "make": "Chevrolet",
+            "model": "Corsica",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1994,
+            "year_to": 1995,
+            "make": "Chevrolet",
+            "model": "LLV",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1990,
+            "year_to": 2001,
+            "make": "Chevrolet",
+            "model": "Lumina",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1997,
+            "year_to": 2003,
+            "make": "Chevrolet",
+            "model": "Malibu",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1995,
+            "year_to": 1999,
+            "make": "Chevrolet",
+            "model": "Monte Carlo",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1994,
+            "year_to": 1998,
+            "make": "Oldsmobile",
+            "model": "Achieva",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2002,
+            "year_to": 2004,
+            "make": "Oldsmobile",
+            "model": "Alero",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1995,
+            "year_to": 1998,
+            "make": "Oldsmobile",
+            "model": "Cutlass",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1986,
+            "year_to": 1996,
+            "make": "Oldsmobile",
+            "model": "Cutlass Ciera",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1994,
+            "make": "Oldsmobile",
+            "model": "Cutlass Cruiser",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1988,
+            "year_to": 1997,
+            "make": "Oldsmobile",
+            "model": "Cutlass Supreme",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1986,
+            "year_to": 1987,
+            "make": "Oldsmobile",
+            "model": "Firenza",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1991,
+            "make": "Pontiac",
+            "model": "6000",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1990,
+            "year_to": 1992,
+            "make": "Pontiac",
+            "model": "Firebird",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1994,
+            "year_to": 2005,
+            "make": "Pontiac",
+            "model": "Grand Am",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1988,
+            "year_to": 2003,
+            "make": "Pontiac",
+            "model": "Grand Prix",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1991,
+            "year_to": 1994,
+            "make": "Pontiac",
+            "model": "Sunbird",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1991,
+            "make": "Pontiac",
+            "model": "Tempest",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1987\u20132005 Buick Century",
+          "1988\u20131996 Buick Regal",
+          "1994\u20131998 Buick Skylark",
+          "1986\u20131988 Cadillac Cimarron",
+          "1987\u20131996 Chevrolet Beretta",
+          "1991\u20131992 Chevrolet Camaro",
+          "1987\u20131994 Chevrolet Cavalier",
+          "1987\u20131990 Chevrolet Celebrity",
+          "1987\u20131996 Chevrolet Corsica",
+          "1994\u20131995 Chevrolet LLV",
+          "1990\u20132001 Chevrolet Lumina",
+          "1997\u20132003 Chevrolet Malibu",
+          "1995\u20131999 Chevrolet Monte Carlo",
+          "1994\u20131998 Oldsmobile Achieva",
+          "2002\u20132004 Oldsmobile Alero",
+          "1995\u20131998 Oldsmobile Cutlass",
+          "1986\u20131996 Oldsmobile Cutlass Ciera",
+          "1987\u20131994 Oldsmobile Cutlass Cruiser",
+          "1988\u20131997 Oldsmobile Cutlass Supreme",
+          "1986\u20131987 Oldsmobile Firenza",
+          "1987\u20131991 Pontiac 6000",
+          "1990\u20131992 Pontiac Firebird",
+          "1994\u20132005 Pontiac Grand Am",
+          "1988\u20132003 Pontiac Grand Prix",
+          "1991\u20131994 Pontiac Sunbird",
+          "1987\u20131991 Pontiac Tempest"
+        ],
+        "raw_compat_rows": 691,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398346427625",
+        "type": "Crankshaft Position Sensor",
+        "brand": "Standard Motor Products",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributors"
+      }
     },
     {
       "id": "ECMKVL6T77Q244Z4HXD65J23",
@@ -61258,12 +62627,10 @@
       "category": "other",
       "checkout": true,
       "variation_id": "D47EXMZ56PBURIMTNAOWBOQQ",
-      "stock": 1,
       "part_numbers": [
         "SLS66",
         "SLS-66, DR496, SLS66T, SW5163"
       ],
-      "interchange": [],
       "vehicles": [
         "1973\u20131975 Buick Apollo",
         "1971\u20131973 Buick Centurion",
@@ -61274,11 +62641,6 @@
         "1977\u20131979 Buick Opel",
         "1973\u20131974 Buick Regal"
       ],
-      "vehicle_count_raw": 843,
-      "ebay_item_id": "398346065920",
-      "ebay_type": "Stoplight Switch",
-      "ebay_brand": "Standard Motor Products",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Interior Parts & Accessories:Switches & Controls",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -61386,6 +62748,148 @@
         "type": "Stoplight Switch",
         "brand": "Standard Motor Products",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Interior Parts & Accessories:Switches & Controls"
+      },
+      "vehicle_count_raw": 843,
+      "ebay_item_id": "398346065920",
+      "ebay_type": "Stoplight Switch",
+      "ebay_brand": "Standard Motor Products",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Interior Parts & Accessories:Switches & Controls",
+      "stock": 1,
+      "interchange": []
+    },
+    {
+      "id": "3CQY6RSJPHBPNUICLOLZYJKK",
+      "name": "Standard Motor Products SR-113 Starter Relay Jeep Cherokee NOS",
+      "price": 29.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/d3078f9bc669c17953d41bcbb2aef350884a0d07/original.jpeg",
+      "url": "https://square.link/u/ct6rz75e",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "HMCK73DXDIQSRMJDIMWEFJ4E",
+      "stock": 1,
+      "part_numbers": [
+        "SR-113",
+        "SR113, 3236793, 5758600"
+      ],
+      "interchange": [
+        "SR15",
+        "S647",
+        "1S5030"
+      ],
+      "vehicles": [
+        "1988 Dodge W100",
+        "1981\u20131983 Jeep CJ7",
+        "1984\u20131987 Jeep Cherokee",
+        "1986\u20131987 Jeep Comanche",
+        "1981\u20131983 Jeep Scrambler",
+        "1984\u20131986 Jeep Wagoneer",
+        "1989\u20131990 Jeep Wrangler"
+      ],
+      "vehicle_count_raw": 181,
+      "ebay_item_id": "398346428807",
+      "ebay_type": "Starter Relay",
+      "ebay_brand": "Standard Motor Products",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Starters, Alternators, ECUs & Wiring:Relays",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "SR-113",
+          "SR113, 3236793, 5758600"
+        ],
+        "interchange": [
+          "SR15",
+          "S647",
+          "1S5030"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1988,
+            "year_to": 1988,
+            "make": "Dodge",
+            "model": "W100",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1981,
+            "year_to": 1983,
+            "make": "Jeep",
+            "model": "CJ7",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 1987,
+            "make": "Jeep",
+            "model": "Cherokee",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1986,
+            "year_to": 1987,
+            "make": "Jeep",
+            "model": "Comanche",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1981,
+            "year_to": 1983,
+            "make": "Jeep",
+            "model": "Scrambler",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 1986,
+            "make": "Jeep",
+            "model": "Wagoneer",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1989,
+            "year_to": 1990,
+            "make": "Jeep",
+            "model": "Wrangler",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1988 Dodge W100",
+          "1981\u20131983 Jeep CJ7",
+          "1984\u20131987 Jeep Cherokee",
+          "1986\u20131987 Jeep Comanche",
+          "1981\u20131983 Jeep Scrambler",
+          "1984\u20131986 Jeep Wagoneer",
+          "1989\u20131990 Jeep Wrangler"
+        ],
+        "raw_compat_rows": 181,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398346428807",
+        "type": "Starter Relay",
+        "brand": "Standard Motor Products",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Starters, Alternators, ECUs & Wiring:Relays"
       }
     },
     {
@@ -66442,5 +67946,5 @@
       "stock": 1
     }
   ],
-  "fitment_built": "2026-09-01T06:01:09Z"
+  "fitment_built": "2026-09-01T08:01:09Z"
 }
