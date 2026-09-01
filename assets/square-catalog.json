@@ -1,7 +1,7 @@
 {
-  "updated": "2026-08-30T21:00:50Z",
+  "updated": "2026-09-01T03:00:50Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 538,
+  "count": 540,
   "items": [
     {
       "id": "S4IZBA4AG65C6HI2ZDIRMSJR",
@@ -30370,6 +30370,361 @@
       "interchange": []
     },
     {
+      "id": "DRNPPIERWNZVSWEAPQ5IVO46",
+      "name": "Standard FD303 Distributor Rotor NOS 81-94 Escort Tempo Mustang F150 Ranger Lynx",
+      "price": 19.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/de5a56eb0a5818a654808661c85a85ea5c4e2963/original.jpeg",
+      "url": "https://square.link/u/dAl1XSKr",
+      "category": "ignition",
+      "checkout": true,
+      "variation_id": "3LIKRXXSWRCURFTYFLADKK3B",
+      "stock": 1,
+      "part_numbers": [
+        "FD303",
+        "DR332, E1FZ-12200-A, E6FZ-12200-B, FA142"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1986 Ford Aerostar",
+        "1984\u20131985 Ford Bronco",
+        "1984\u20131985 Ford Bronco II",
+        "1984\u20131985 Ford E-150 Econoline",
+        "1984\u20131985 Ford E-150 Econoline Club Wagon",
+        "1984\u20131985 Ford E-250 Econoline",
+        "1984\u20131985 Ford E-250 Econoline Club Wagon",
+        "1984\u20131985 Ford E-350 Econoline",
+        "1984\u20131985 Ford E-350 Econoline Club Wagon",
+        "1982\u20131986 Ford EXP",
+        "1981\u20131986 Ford Escort",
+        "1984\u20131985 Ford F-150",
+        "1985 Ford F-250",
+        "1985 Ford F-350",
+        "1992\u20131994 Ford Ghia",
+        "1984\u20131985 Ford LTD",
+        "1983\u20131985 Ford Mustang",
+        "1983\u20131985 Ford Ranger",
+        "1985\u20131994 Ford Tempo",
+        "1983\u20131985 Ford Thunderbird",
+        "1983\u20131986 Mercury Capri",
+        "1984\u20131985 Mercury Cougar",
+        "1982\u20131983 Mercury LN7",
+        "1981\u20131986 Mercury Lynx",
+        "1984\u20131985 Mercury Marquis",
+        "1984\u20131986 Mercury Topaz"
+      ],
+      "vehicle_count_raw": 643,
+      "ebay_item_id": "398345240249",
+      "ebay_type": "Distributor Rotor",
+      "ebay_brand": "Standard Motor Products",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Other Ignition Systems & Components",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "FD303",
+          "DR332, E1FZ-12200-A, E6FZ-12200-B, FA142"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1986,
+            "year_to": 1986,
+            "make": "Ford",
+            "model": "Aerostar",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 1985,
+            "make": "Ford",
+            "model": "Bronco",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 1985,
+            "make": "Ford",
+            "model": "Bronco II",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 1985,
+            "make": "Ford",
+            "model": "E-150 Econoline",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 1985,
+            "make": "Ford",
+            "model": "E-150 Econoline Club Wagon",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 1985,
+            "make": "Ford",
+            "model": "E-250 Econoline",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 1985,
+            "make": "Ford",
+            "model": "E-250 Econoline Club Wagon",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 1985,
+            "make": "Ford",
+            "model": "E-350 Econoline",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 1985,
+            "make": "Ford",
+            "model": "E-350 Econoline Club Wagon",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1982,
+            "year_to": 1986,
+            "make": "Ford",
+            "model": "EXP",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1981,
+            "year_to": 1986,
+            "make": "Ford",
+            "model": "Escort",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 1985,
+            "make": "Ford",
+            "model": "F-150",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1985,
+            "make": "Ford",
+            "model": "F-250",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1985,
+            "make": "Ford",
+            "model": "F-350",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1992,
+            "year_to": 1994,
+            "make": "Ford",
+            "model": "Ghia",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 1985,
+            "make": "Ford",
+            "model": "LTD",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1983,
+            "year_to": 1985,
+            "make": "Ford",
+            "model": "Mustang",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1983,
+            "year_to": 1985,
+            "make": "Ford",
+            "model": "Ranger",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1994,
+            "make": "Ford",
+            "model": "Tempo",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1983,
+            "year_to": 1985,
+            "make": "Ford",
+            "model": "Thunderbird",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1983,
+            "year_to": 1986,
+            "make": "Mercury",
+            "model": "Capri",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 1985,
+            "make": "Mercury",
+            "model": "Cougar",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1982,
+            "year_to": 1983,
+            "make": "Mercury",
+            "model": "LN7",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1981,
+            "year_to": 1986,
+            "make": "Mercury",
+            "model": "Lynx",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 1985,
+            "make": "Mercury",
+            "model": "Marquis",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 1986,
+            "make": "Mercury",
+            "model": "Topaz",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1986 Ford Aerostar",
+          "1984\u20131985 Ford Bronco",
+          "1984\u20131985 Ford Bronco II",
+          "1984\u20131985 Ford E-150 Econoline",
+          "1984\u20131985 Ford E-150 Econoline Club Wagon",
+          "1984\u20131985 Ford E-250 Econoline",
+          "1984\u20131985 Ford E-250 Econoline Club Wagon",
+          "1984\u20131985 Ford E-350 Econoline",
+          "1984\u20131985 Ford E-350 Econoline Club Wagon",
+          "1982\u20131986 Ford EXP",
+          "1981\u20131986 Ford Escort",
+          "1984\u20131985 Ford F-150",
+          "1985 Ford F-250",
+          "1985 Ford F-350",
+          "1992\u20131994 Ford Ghia",
+          "1984\u20131985 Ford LTD",
+          "1983\u20131985 Ford Mustang",
+          "1983\u20131985 Ford Ranger",
+          "1985\u20131994 Ford Tempo",
+          "1983\u20131985 Ford Thunderbird",
+          "1983\u20131986 Mercury Capri",
+          "1984\u20131985 Mercury Cougar",
+          "1982\u20131983 Mercury LN7",
+          "1981\u20131986 Mercury Lynx",
+          "1984\u20131985 Mercury Marquis",
+          "1984\u20131986 Mercury Topaz"
+        ],
+        "raw_compat_rows": 643,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398345240249",
+        "type": "Distributor Rotor",
+        "brand": "Standard Motor Products",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Other Ignition Systems & Components"
+      }
+    },
+    {
       "id": "LE4RWYBJ7NJP4EX2GEF3SXXI",
       "name": "Standard JH-108 Distributor Cap NOS Mitsubishi Plymouth 84-89",
       "price": 19.98,
@@ -42144,6 +42499,79 @@
       "ebay_type": "Transmission Pump Seal",
       "ebay_brand": "Federal Mogul",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Exterior Parts & Accessories:Doors, Trunk Lids & Hatches:Liftgates",
+      "stock": 1
+    },
+    {
+      "id": "55TV4ONAOMGG5GGLEWPF64RF",
+      "name": "Fel-Pro BS-30138 Rear Main Seal Set FE 352 390 428 Thunderbird Mustang NOS",
+      "price": 29.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/7b2ef9f3c35aaaf3387939f226a62fdcb4566839/original.jpeg",
+      "url": "https://square.link/u/hYh1BSpS",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "7W23CQINERJLMSQC6QUUSI5O",
+      "part_numbers": [
+        "BS-30138",
+        "2-10734, 2-10754"
+      ],
+      "interchange": [
+        "BS30138",
+        "2-30138"
+      ],
+      "vehicles": [
+        "1967\u20131970 Ford Mustang",
+        "1958\u20131969 Ford Thunderbird"
+      ],
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "BS-30138",
+          "2-10734, 2-10754"
+        ],
+        "interchange": [
+          "BS30138",
+          "2-30138"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1967,
+            "year_to": 1970,
+            "make": "Ford",
+            "model": "Mustang",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1958,
+            "year_to": 1969,
+            "make": "Ford",
+            "model": "Thunderbird",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1967\u20131970 Ford Mustang",
+          "1958\u20131969 Ford Thunderbird"
+        ],
+        "raw_compat_rows": 142,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398341561807",
+        "type": "Rear Main Seal Set",
+        "brand": "Fel-Pro",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Gaskets, Seals & Hardware:Gaskets & Seals"
+      },
+      "vehicle_count_raw": 142,
+      "ebay_item_id": "398341561807",
+      "ebay_type": "Rear Main Seal Set",
+      "ebay_brand": "Fel-Pro",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Gaskets, Seals & Hardware:Gaskets & Seals",
       "stock": 1
     },
     {
@@ -56172,7 +56600,6 @@
       "category": "other",
       "checkout": true,
       "variation_id": "7HB4W2EDASWHV7LXINAMJUB6",
-      "stock": 1,
       "part_numbers": [
         "40706",
         "Filko P-153, C4ZE-6A666-A2"
@@ -56191,11 +56618,6 @@
         "1963\u20131969 Mercury Comet",
         "1967\u20131969 Mercury Cougar"
       ],
-      "vehicle_count_raw": 273,
-      "ebay_item_id": "398339872796",
-      "ebay_type": "PCV Valve",
-      "ebay_brand": "Sosmetal",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Steering & Suspension:Power Steering Pump Parts",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -56286,7 +56708,13 @@
         "type": "PCV Valve",
         "brand": "Sosmetal",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Steering & Suspension:Power Steering Pump Parts"
-      }
+      },
+      "vehicle_count_raw": 273,
+      "ebay_item_id": "398339872796",
+      "ebay_type": "PCV Valve",
+      "ebay_brand": "Sosmetal",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Steering & Suspension:Power Steering Pump Parts",
+      "stock": 1
     },
     {
       "id": "45QCCVHCD3OGIHM53VDOFBKJ",
@@ -62100,5 +62528,5 @@
       "stock": 1
     }
   ],
-  "fitment_built": "2026-08-30T21:00:50Z"
+  "fitment_built": "2026-09-01T03:00:50Z"
 }
