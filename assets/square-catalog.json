@@ -1,7 +1,7 @@
 {
-  "updated": "2026-09-01T16:01:08Z",
+  "updated": "2026-09-01T17:00:52Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 590,
+  "count": 592,
   "items": [
     {
       "id": "S4IZBA4AG65C6HI2ZDIRMSJR",
@@ -62872,11 +62872,9 @@
       "category": "other",
       "checkout": true,
       "variation_id": "Z7FUA3CUOEK2AFDWIO27ZMHD",
-      "stock": 1,
       "part_numbers": [
         "JR-109"
       ],
-      "interchange": [],
       "vehicles": [
         "1992\u20131994 Dodge Colt",
         "1992\u20131996 Eagle Summit",
@@ -62886,11 +62884,6 @@
         "1992\u20131994 Plymouth Colt",
         "1990\u20131994 Plymouth Laser"
       ],
-      "vehicle_count_raw": 84,
-      "ebay_item_id": "398347642382",
-      "ebay_type": "Distributor Rotor",
-      "ebay_brand": "Standard Motor Products",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -62986,7 +62979,14 @@
         "type": "Distributor Rotor",
         "brand": "Standard Motor Products",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors"
-      }
+      },
+      "vehicle_count_raw": 84,
+      "ebay_item_id": "398347642382",
+      "ebay_type": "Distributor Rotor",
+      "ebay_brand": "Standard Motor Products",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors",
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "WL6C2AQLFKMSMIFGEP5LM7PQ",
@@ -63686,11 +63686,9 @@
       "category": "other",
       "checkout": true,
       "variation_id": "QFZYYHONX6YKSHHL4N23QSVT",
-      "stock": 1,
       "part_numbers": [
         "LX301"
       ],
-      "interchange": [],
       "vehicles": [
         "1974\u20131981 Buick Century",
         "1976\u20131988 Buick Electra",
@@ -63698,11 +63696,6 @@
         "1974\u20131987 Buick Regal",
         "1975\u20131979 Buick Skylark"
       ],
-      "vehicle_count_raw": 420,
-      "ebay_item_id": "398347658609",
-      "ebay_type": "Ignition Module",
-      "ebay_brand": "Standard Motor Products",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Other Ignition Systems & Components",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -63776,7 +63769,14 @@
         "type": "Ignition Module",
         "brand": "Standard Motor Products",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Other Ignition Systems & Components"
-      }
+      },
+      "vehicle_count_raw": 420,
+      "ebay_item_id": "398347658609",
+      "ebay_type": "Ignition Module",
+      "ebay_brand": "Standard Motor Products",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Other Ignition Systems & Components",
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "INX6OHUH4UZ4NYE7ACBGMK5V",
@@ -66915,6 +66915,287 @@
       "interchange": []
     },
     {
+      "id": "AUQPAGAL3RHQTPEP2IKUYZKI",
+      "name": "Standard Motor Products PS132 Oil Pressure Switch Concord Gremlin NOS",
+      "price": 14.25,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/1dbe178961acb2fa2e5c46f90f3dcd552f9d1efe/original.jpeg",
+      "url": "https://square.link/u/0CQxvixU",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "QX6CNU4NOXUHUCPY2AEFQCJC",
+      "stock": 1,
+      "part_numbers": [
+        "PS132"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1985\u20131986 Chrysler Laser",
+        "1982\u20131984 Chrysler LeBaron",
+        "1983 Chrysler New Yorker",
+        "1982\u20131983 Chrysler Town & Country",
+        "1982\u20131983 Dodge 400",
+        "1983\u20131984 Dodge 600",
+        "1981\u20131985 Dodge Aries",
+        "1983\u20131987 Dodge Charger",
+        "1988 Dodge Dakota",
+        "1987\u20131988 Dodge Daytona",
+        "1978\u20131987 Dodge Omni",
+        "1982\u20131984 Dodge Rampage",
+        "1983\u20131984 Plymouth Caravelle",
+        "1978\u20131984 Plymouth Horizon",
+        "1981\u20131984 Plymouth Reliant",
+        "1983 Plymouth Scamp",
+        "1983 Plymouth Turismo",
+        "1987 Plymouth Voyager",
+        "1979 Volkswagen Transporter",
+        "1980 Volkswagen Vanagon"
+      ],
+      "vehicle_count_raw": 359,
+      "ebay_item_id": "398347895360",
+      "ebay_type": "Oil Pressure Switch",
+      "ebay_brand": "Standard Motor Products",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Interior Parts & Accessories:Switches & Controls",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "PS132"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1985,
+            "year_to": 1986,
+            "make": "Chrysler",
+            "model": "Laser",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1982,
+            "year_to": 1984,
+            "make": "Chrysler",
+            "model": "LeBaron",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1983,
+            "year_to": 1983,
+            "make": "Chrysler",
+            "model": "New Yorker",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1982,
+            "year_to": 1983,
+            "make": "Chrysler",
+            "model": "Town & Country",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1982,
+            "year_to": 1983,
+            "make": "Dodge",
+            "model": "400",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1983,
+            "year_to": 1984,
+            "make": "Dodge",
+            "model": "600",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1981,
+            "year_to": 1985,
+            "make": "Dodge",
+            "model": "Aries",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1983,
+            "year_to": 1987,
+            "make": "Dodge",
+            "model": "Charger",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1988,
+            "year_to": 1988,
+            "make": "Dodge",
+            "model": "Dakota",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1988,
+            "make": "Dodge",
+            "model": "Daytona",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1978,
+            "year_to": 1987,
+            "make": "Dodge",
+            "model": "Omni",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1982,
+            "year_to": 1984,
+            "make": "Dodge",
+            "model": "Rampage",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1983,
+            "year_to": 1984,
+            "make": "Plymouth",
+            "model": "Caravelle",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1978,
+            "year_to": 1984,
+            "make": "Plymouth",
+            "model": "Horizon",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1981,
+            "year_to": 1984,
+            "make": "Plymouth",
+            "model": "Reliant",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1983,
+            "year_to": 1983,
+            "make": "Plymouth",
+            "model": "Scamp",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1983,
+            "year_to": 1983,
+            "make": "Plymouth",
+            "model": "Turismo",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1987,
+            "make": "Plymouth",
+            "model": "Voyager",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1979,
+            "year_to": 1979,
+            "make": "Volkswagen",
+            "model": "Transporter",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1980,
+            "year_to": 1980,
+            "make": "Volkswagen",
+            "model": "Vanagon",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1985\u20131986 Chrysler Laser",
+          "1982\u20131984 Chrysler LeBaron",
+          "1983 Chrysler New Yorker",
+          "1982\u20131983 Chrysler Town & Country",
+          "1982\u20131983 Dodge 400",
+          "1983\u20131984 Dodge 600",
+          "1981\u20131985 Dodge Aries",
+          "1983\u20131987 Dodge Charger",
+          "1988 Dodge Dakota",
+          "1987\u20131988 Dodge Daytona",
+          "1978\u20131987 Dodge Omni",
+          "1982\u20131984 Dodge Rampage",
+          "1983\u20131984 Plymouth Caravelle",
+          "1978\u20131984 Plymouth Horizon",
+          "1981\u20131984 Plymouth Reliant",
+          "1983 Plymouth Scamp",
+          "1983 Plymouth Turismo",
+          "1987 Plymouth Voyager",
+          "1979 Volkswagen Transporter",
+          "1980 Volkswagen Vanagon"
+        ],
+        "raw_compat_rows": 359,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398347895360",
+        "type": "Oil Pressure Switch",
+        "brand": "Standard Motor Products",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Interior Parts & Accessories:Switches & Controls"
+      }
+    },
+    {
       "id": "ECMKVL6T77Q244Z4HXD65J23",
       "name": "Standard Motor Products PS160 Oil Pressure Switch NOS 89-97 Geo Metro",
       "price": 9.0,
@@ -69644,11 +69925,9 @@
       "category": "other",
       "checkout": true,
       "variation_id": "GESNMDFETZUY6IDD7J3BUY2S",
-      "stock": 1,
       "part_numbers": [
         "TH-61"
       ],
-      "interchange": [],
       "vehicles": [
         "1988\u20131990 Chrysler Dynasty",
         "1984\u20131986 Chrysler Laser",
@@ -69681,11 +69960,6 @@
         "1985\u20131987 Plymouth Turismo",
         "1984\u20131990 Plymouth Voyager"
       ],
-      "vehicle_count_raw": 731,
-      "ebay_item_id": "398347651543",
-      "ebay_type": "Throttle Position Sensor",
-      "ebay_brand": "Standard Motor Products",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Intake & Fuel Sensors",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -70034,6 +70308,294 @@
         "type": "Throttle Position Sensor",
         "brand": "Standard Motor Products",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Intake & Fuel Sensors"
+      },
+      "vehicle_count_raw": 731,
+      "ebay_item_id": "398347651543",
+      "ebay_type": "Throttle Position Sensor",
+      "ebay_brand": "Standard Motor Products",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Intake & Fuel Sensors",
+      "stock": 1,
+      "interchange": []
+    },
+    {
+      "id": "LWHGZ5TZRDJEBWO75BDKJ44N",
+      "name": "Standard Motor Products TH41 Throttle Position Sensor Astro NOS",
+      "price": 53.16,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/c2b9c015b238cafd49191b7e319fd6e3cf392e26/original.jpeg",
+      "url": "https://square.link/u/dUN37ZkT",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "7CR4ZXIVPKLVLSKBTNR3TCPJ",
+      "stock": 1,
+      "part_numbers": [
+        "TH41"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1986\u20131990 Chevrolet Astro",
+        "1987\u20131990 Chevrolet Blazer",
+        "1986\u20131990 Chevrolet Caprice",
+        "1986\u20131987 Chevrolet El Camino",
+        "1987\u20131990 Chevrolet G10",
+        "1987\u20131990 Chevrolet G20",
+        "1987\u20131990 Chevrolet G30",
+        "1986\u20131988 Chevrolet Monte Carlo",
+        "1987\u20131989 Chevrolet P20",
+        "1987\u20131990 Chevrolet P30",
+        "1987\u20131988 Chevrolet R10 Suburban",
+        "1989\u20131990 Chevrolet R1500 Suburban",
+        "1988\u20131991 Chevrolet S10 Blazer",
+        "1987\u20131988 Chevrolet V10 Suburban",
+        "1989\u20131990 Chevrolet V1500 Suburban",
+        "1987\u20131988 Chevrolet V20 Suburban",
+        "1991 Oldsmobile Bravada",
+        "1986 Pontiac Bonneville",
+        "1986\u20131987 Pontiac Grand Prix",
+        "1986 Pontiac Parisienne"
+      ],
+      "vehicle_count_raw": 558,
+      "ebay_item_id": "398347893664",
+      "ebay_type": "Throttle Position Sensor",
+      "ebay_brand": "Standard Motor Products",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Intake & Fuel Sensors",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "TH41"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1986,
+            "year_to": 1990,
+            "make": "Chevrolet",
+            "model": "Astro",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1990,
+            "make": "Chevrolet",
+            "model": "Blazer",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1986,
+            "year_to": 1990,
+            "make": "Chevrolet",
+            "model": "Caprice",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1986,
+            "year_to": 1987,
+            "make": "Chevrolet",
+            "model": "El Camino",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1990,
+            "make": "Chevrolet",
+            "model": "G10",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1990,
+            "make": "Chevrolet",
+            "model": "G20",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1990,
+            "make": "Chevrolet",
+            "model": "G30",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1986,
+            "year_to": 1988,
+            "make": "Chevrolet",
+            "model": "Monte Carlo",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1989,
+            "make": "Chevrolet",
+            "model": "P20",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1990,
+            "make": "Chevrolet",
+            "model": "P30",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1988,
+            "make": "Chevrolet",
+            "model": "R10 Suburban",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1989,
+            "year_to": 1990,
+            "make": "Chevrolet",
+            "model": "R1500 Suburban",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1988,
+            "year_to": 1991,
+            "make": "Chevrolet",
+            "model": "S10 Blazer",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1988,
+            "make": "Chevrolet",
+            "model": "V10 Suburban",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1989,
+            "year_to": 1990,
+            "make": "Chevrolet",
+            "model": "V1500 Suburban",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1988,
+            "make": "Chevrolet",
+            "model": "V20 Suburban",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1991,
+            "year_to": 1991,
+            "make": "Oldsmobile",
+            "model": "Bravada",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1986,
+            "year_to": 1986,
+            "make": "Pontiac",
+            "model": "Bonneville",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1986,
+            "year_to": 1987,
+            "make": "Pontiac",
+            "model": "Grand Prix",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1986,
+            "year_to": 1986,
+            "make": "Pontiac",
+            "model": "Parisienne",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1986\u20131990 Chevrolet Astro",
+          "1987\u20131990 Chevrolet Blazer",
+          "1986\u20131990 Chevrolet Caprice",
+          "1986\u20131987 Chevrolet El Camino",
+          "1987\u20131990 Chevrolet G10",
+          "1987\u20131990 Chevrolet G20",
+          "1987\u20131990 Chevrolet G30",
+          "1986\u20131988 Chevrolet Monte Carlo",
+          "1987\u20131989 Chevrolet P20",
+          "1987\u20131990 Chevrolet P30",
+          "1987\u20131988 Chevrolet R10 Suburban",
+          "1989\u20131990 Chevrolet R1500 Suburban",
+          "1988\u20131991 Chevrolet S10 Blazer",
+          "1987\u20131988 Chevrolet V10 Suburban",
+          "1989\u20131990 Chevrolet V1500 Suburban",
+          "1987\u20131988 Chevrolet V20 Suburban",
+          "1991 Oldsmobile Bravada",
+          "1986 Pontiac Bonneville",
+          "1986\u20131987 Pontiac Grand Prix",
+          "1986 Pontiac Parisienne"
+        ],
+        "raw_compat_rows": 558,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398347893664",
+        "type": "Throttle Position Sensor",
+        "brand": "Standard Motor Products",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Intake & Fuel Sensors"
       }
     },
     {
@@ -70045,11 +70607,9 @@
       "category": "other",
       "checkout": true,
       "variation_id": "KJAHMF3PDVRRG45BQ56YORXS",
-      "stock": 1,
       "part_numbers": [
         "TM-36"
       ],
-      "interchange": [],
       "vehicles": [
         "1975\u20131976 Ford Bronco",
         "1972 Ford Custom",
@@ -70060,11 +70620,6 @@
         "1970\u20131996 Ford F-250",
         "1970\u20131977 Ford F-350"
       ],
-      "vehicle_count_raw": 3000,
-      "ebay_item_id": "398347654803",
-      "ebay_type": "Transmission Modulator",
-      "ebay_brand": "Standard Motor Products",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Other Ignition Systems & Components",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -70171,7 +70726,14 @@
         "type": "Transmission Modulator",
         "brand": "Standard Motor Products",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Other Ignition Systems & Components"
-      }
+      },
+      "vehicle_count_raw": 3000,
+      "ebay_item_id": "398347654803",
+      "ebay_type": "Transmission Modulator",
+      "ebay_brand": "Standard Motor Products",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Other Ignition Systems & Components",
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "44Y5HILGGT62F7AEHA3ZBO5Q",
@@ -75956,5 +76518,5 @@
       "stock": 1
     }
   ],
-  "fitment_built": "2026-09-01T16:01:08Z"
+  "fitment_built": "2026-09-01T17:00:52Z"
 }
