@@ -1,7 +1,7 @@
 {
-  "updated": "2026-09-01T15:01:20Z",
+  "updated": "2026-09-01T16:01:08Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 586,
+  "count": 590,
   "items": [
     {
       "id": "S4IZBA4AG65C6HI2ZDIRMSJR",
@@ -61609,19 +61609,12 @@
       "category": "other",
       "checkout": true,
       "variation_id": "5TGNPEALYXCRVDDWNFHWGVTV",
-      "stock": 1,
       "part_numbers": [
         "FD-308"
       ],
-      "interchange": [],
       "vehicles": [
         "1996 Ford F-150"
       ],
-      "vehicle_count_raw": 14,
-      "ebay_item_id": "398347637906",
-      "ebay_type": "Distributor Rotor",
-      "ebay_brand": "Standard Motor Products",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -61651,7 +61644,14 @@
         "type": "Distributor Rotor",
         "brand": "Standard Motor Products",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors"
-      }
+      },
+      "vehicle_count_raw": 14,
+      "ebay_item_id": "398347637906",
+      "ebay_type": "Distributor Rotor",
+      "ebay_brand": "Standard Motor Products",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors",
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "J6R52MB4S3KZI5VZFURS3VB4",
@@ -62864,6 +62864,131 @@
       "interchange": []
     },
     {
+      "id": "KJYX5B7UKULYQPS2MTEUERU4",
+      "name": "Standard Motor Products JR-109 Rotor 1.8 Colt Gl NOS",
+      "price": 8.96,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/c27717a30cc721d4663a170651bd4cf404bbba3c/original.jpeg",
+      "url": "https://square.link/u/tSvQOvcp",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "Z7FUA3CUOEK2AFDWIO27ZMHD",
+      "stock": 1,
+      "part_numbers": [
+        "JR-109"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1992\u20131994 Dodge Colt",
+        "1992\u20131996 Eagle Summit",
+        "1993\u20131994 Eagle Talon",
+        "1990\u20131994 Mitsubishi Eclipse",
+        "1993\u20131995 Mitsubishi Mirage",
+        "1992\u20131994 Plymouth Colt",
+        "1990\u20131994 Plymouth Laser"
+      ],
+      "vehicle_count_raw": 84,
+      "ebay_item_id": "398347642382",
+      "ebay_type": "Distributor Rotor",
+      "ebay_brand": "Standard Motor Products",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "JR-109"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1992,
+            "year_to": 1994,
+            "make": "Dodge",
+            "model": "Colt",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1992,
+            "year_to": 1996,
+            "make": "Eagle",
+            "model": "Summit",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1993,
+            "year_to": 1994,
+            "make": "Eagle",
+            "model": "Talon",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1990,
+            "year_to": 1994,
+            "make": "Mitsubishi",
+            "model": "Eclipse",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1993,
+            "year_to": 1995,
+            "make": "Mitsubishi",
+            "model": "Mirage",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1992,
+            "year_to": 1994,
+            "make": "Plymouth",
+            "model": "Colt",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1990,
+            "year_to": 1994,
+            "make": "Plymouth",
+            "model": "Laser",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1992\u20131994 Dodge Colt",
+          "1992\u20131996 Eagle Summit",
+          "1993\u20131994 Eagle Talon",
+          "1990\u20131994 Mitsubishi Eclipse",
+          "1993\u20131995 Mitsubishi Mirage",
+          "1992\u20131994 Plymouth Colt",
+          "1990\u20131994 Plymouth Laser"
+        ],
+        "raw_compat_rows": 84,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398347642382",
+        "type": "Distributor Rotor",
+        "brand": "Standard Motor Products",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors"
+      }
+    },
+    {
       "id": "WL6C2AQLFKMSMIFGEP5LM7PQ",
       "name": "Standard Motor Products JR-111 Rotor 2.0 2.1 Prelude NOS",
       "price": 14.14,
@@ -62872,19 +62997,12 @@
       "category": "other",
       "checkout": true,
       "variation_id": "LIWWGEEINFP7ILS5MMEHLLAA",
-      "stock": 1,
       "part_numbers": [
         "JR-111"
       ],
-      "interchange": [],
       "vehicles": [
         "1991 Honda Prelude"
       ],
-      "vehicle_count_raw": 5,
-      "ebay_item_id": "398347634557",
-      "ebay_type": "Distributor Rotor",
-      "ebay_brand": "Standard Motor Products",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -62914,7 +63032,14 @@
         "type": "Distributor Rotor",
         "brand": "Standard Motor Products",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors"
-      }
+      },
+      "vehicle_count_raw": 5,
+      "ebay_item_id": "398347634557",
+      "ebay_type": "Distributor Rotor",
+      "ebay_brand": "Standard Motor Products",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors",
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "ELETXJXPBCHUS7ZJXVRP7HZK",
@@ -63040,22 +63165,15 @@
       "category": "other",
       "checkout": true,
       "variation_id": "D4LI55ULSX5TF3JFBXJJYQCR",
-      "stock": 1,
       "part_numbers": [
         "JR122T",
         "AGP 14-222"
       ],
-      "interchange": [],
       "vehicles": [
         "1986\u20131989 Mazda 323",
         "1987\u20131989 Mercury Tracer",
         "1987\u20131991 Subaru Justy"
       ],
-      "vehicle_count_raw": 50,
-      "ebay_item_id": "398347636910",
-      "ebay_type": "Distributor Rotor",
-      "ebay_brand": "Standard Motor Products",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -63108,7 +63226,14 @@
         "type": "Distributor Rotor",
         "brand": "Standard Motor Products",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors"
-      }
+      },
+      "vehicle_count_raw": 50,
+      "ebay_item_id": "398347636910",
+      "ebay_type": "Distributor Rotor",
+      "ebay_brand": "Standard Motor Products",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors",
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "PVXB4LVSTZEUMMSNMBLD4OKY",
@@ -63553,6 +63678,107 @@
       "interchange": []
     },
     {
+      "id": "ENPGTX42MUCB6ZYZO4HO7AMO",
+      "name": "Standard Motor Products LX301 Ignition Module 4.1 5.0 5.7 Century NOS",
+      "price": 49.84,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/3bc9a3a280d0cb9f11b512dd588eb06dd71ffa3a/original.jpeg",
+      "url": "https://square.link/u/QPUY2yGA",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "QFZYYHONX6YKSHHL4N23QSVT",
+      "stock": 1,
+      "part_numbers": [
+        "LX301"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1974\u20131981 Buick Century",
+        "1976\u20131988 Buick Electra",
+        "1974\u20131987 Buick LeSabre",
+        "1974\u20131987 Buick Regal",
+        "1975\u20131979 Buick Skylark"
+      ],
+      "vehicle_count_raw": 420,
+      "ebay_item_id": "398347658609",
+      "ebay_type": "Ignition Module",
+      "ebay_brand": "Standard Motor Products",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Other Ignition Systems & Components",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "LX301"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1974,
+            "year_to": 1981,
+            "make": "Buick",
+            "model": "Century",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1976,
+            "year_to": 1988,
+            "make": "Buick",
+            "model": "Electra",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1974,
+            "year_to": 1987,
+            "make": "Buick",
+            "model": "LeSabre",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1974,
+            "year_to": 1987,
+            "make": "Buick",
+            "model": "Regal",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1975,
+            "year_to": 1979,
+            "make": "Buick",
+            "model": "Skylark",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1974\u20131981 Buick Century",
+          "1976\u20131988 Buick Electra",
+          "1974\u20131987 Buick LeSabre",
+          "1974\u20131987 Buick Regal",
+          "1975\u20131979 Buick Skylark"
+        ],
+        "raw_compat_rows": 420,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398347658609",
+        "type": "Ignition Module",
+        "brand": "Standard Motor Products",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Other Ignition Systems & Components"
+      }
+    },
+    {
       "id": "INX6OHUH4UZ4NYE7ACBGMK5V",
       "name": "Standard Motor Products PC7 Crank Sensor 2.2 2.8 3.1 Century NOS",
       "price": 19.99,
@@ -63924,11 +64150,9 @@
       "category": "other",
       "checkout": true,
       "variation_id": "FTR2VDAA4PZ3DSVCL3AP54NW",
-      "stock": 1,
       "part_numbers": [
         "PS-129"
       ],
-      "interchange": [],
       "vehicles": [
         "1978\u20131985 Buick Century",
         "1980\u20131984 Buick Electra",
@@ -63972,11 +64196,6 @@
         "1978\u20131979 Pontiac Phoenix",
         "1978\u20131979 Pontiac Sunbird"
       ],
-      "vehicle_count_raw": 2652,
-      "ebay_item_id": "398347607456",
-      "ebay_type": "Oil Pressure Switch",
-      "ebay_brand": "Standard Motor Products",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Interior Parts & Accessories:Switches & Controls",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -64446,7 +64665,14 @@
         "type": "Oil Pressure Switch",
         "brand": "Standard Motor Products",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Interior Parts & Accessories:Switches & Controls"
-      }
+      },
+      "vehicle_count_raw": 2652,
+      "ebay_item_id": "398347607456",
+      "ebay_type": "Oil Pressure Switch",
+      "ebay_brand": "Standard Motor Products",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Interior Parts & Accessories:Switches & Controls",
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "2UHZXDWSJGPKK7FBY7FVWJQX",
@@ -64707,11 +64933,9 @@
       "category": "other",
       "checkout": true,
       "variation_id": "JXJQDEZP3WUBAD3A4RZ7DCKY",
-      "stock": 1,
       "part_numbers": [
         "PS-236"
       ],
-      "interchange": [],
       "vehicles": [
         "1989\u20131991 Buick Regal",
         "1988 Cadillac Cimarron",
@@ -64736,11 +64960,6 @@
         "1988\u20131990 Pontiac Tempest",
         "1990 Pontiac Trans Sport"
       ],
-      "vehicle_count_raw": 436,
-      "ebay_item_id": "398347610240",
-      "ebay_type": "Oil Pressure Switch",
-      "ebay_brand": "Standard Motor Products",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Interior Parts & Accessories:Switches & Controls",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -65001,7 +65220,14 @@
         "type": "Oil Pressure Switch",
         "brand": "Standard Motor Products",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Interior Parts & Accessories:Switches & Controls"
-      }
+      },
+      "vehicle_count_raw": 436,
+      "ebay_item_id": "398347610240",
+      "ebay_type": "Oil Pressure Switch",
+      "ebay_brand": "Standard Motor Products",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Interior Parts & Accessories:Switches & Controls",
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "EGDCGCLLZAM7FAWTBIOTQB6T",
@@ -65012,11 +65238,9 @@
       "category": "other",
       "checkout": true,
       "variation_id": "XVGCCQWSU2XDF5PWSOUJWLMP",
-      "stock": 1,
       "part_numbers": [
         "PS-241"
       ],
-      "interchange": [],
       "vehicles": [
         "1985\u20131988 Buick Century",
         "1986 Buick Electra",
@@ -65043,11 +65267,6 @@
         "1983\u20131984 Pontiac Phoenix",
         "1986 Pontiac Sunbird"
       ],
-      "vehicle_count_raw": 842,
-      "ebay_item_id": "398347611174",
-      "ebay_type": "Oil Pressure Sender",
-      "ebay_brand": "Standard Motor Products",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Filters",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -65330,7 +65549,14 @@
         "type": "Oil Pressure Sender",
         "brand": "Standard Motor Products",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Filters"
-      }
+      },
+      "vehicle_count_raw": 842,
+      "ebay_item_id": "398347611174",
+      "ebay_type": "Oil Pressure Sender",
+      "ebay_brand": "Standard Motor Products",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Filters",
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "FFQXR643YGFJ2UMQNWCKWC5D",
@@ -65341,11 +65567,9 @@
       "category": "other",
       "checkout": true,
       "variation_id": "R4G7OXMUFLJ3TH22YNIY2AT5",
-      "stock": 1,
       "part_numbers": [
         "PS-245"
       ],
-      "interchange": [],
       "vehicles": [
         "1987\u20131989 Buick Electra",
         "1988\u20131990 Buick LeSabre",
@@ -65400,11 +65624,6 @@
         "1987\u20131991 Pontiac Tempest",
         "1991\u20131992 Pontiac Trans Sport"
       ],
-      "vehicle_count_raw": 1788,
-      "ebay_item_id": "398347612299",
-      "ebay_type": "Oil Pressure Sender",
-      "ebay_brand": "Standard Motor Products",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Filters",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -65995,7 +66214,14 @@
         "type": "Oil Pressure Sender",
         "brand": "Standard Motor Products",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Filters"
-      }
+      },
+      "vehicle_count_raw": 1788,
+      "ebay_item_id": "398347612299",
+      "ebay_type": "Oil Pressure Sender",
+      "ebay_brand": "Standard Motor Products",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Filters",
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "NOLAVD4AAMPFT4NYQT44B5GW",
@@ -67700,17 +67926,9 @@
       "category": "other",
       "checkout": true,
       "variation_id": "5FK3Q3PPUGUYAIKJ6OJ2IXBP",
-      "stock": 1,
       "part_numbers": [
         "PS205"
       ],
-      "interchange": [],
-      "vehicles": [],
-      "vehicle_count_raw": 0,
-      "ebay_item_id": "398347609059",
-      "ebay_type": "Oil Pressure Switch",
-      "ebay_brand": "Standard Motor Products",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Starters, Alternators, ECUs & Wiring:Relays",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "medium",
       "fitment": {
@@ -67727,7 +67945,15 @@
         "type": "Oil Pressure Switch",
         "brand": "Standard Motor Products",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Starters, Alternators, ECUs & Wiring:Relays"
-      }
+      },
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398347609059",
+      "ebay_type": "Oil Pressure Switch",
+      "ebay_brand": "Standard Motor Products",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Starters, Alternators, ECUs & Wiring:Relays",
+      "stock": 1,
+      "interchange": [],
+      "vehicles": []
     },
     {
       "id": "ST2BCN57RGLMTPBNNZLELJXI",
@@ -68057,11 +68283,9 @@
       "category": "other",
       "checkout": true,
       "variation_id": "DFFNVDRETOQ3YUCIGZAISYT4",
-      "stock": 1,
       "part_numbers": [
         "RY-119"
       ],
-      "interchange": [],
       "vehicles": [
         "1988 Chrysler Dynasty",
         "1989\u20131995 Chrysler LeBaron",
@@ -68091,11 +68315,6 @@
         "1991\u20131994 Plymouth Sundance",
         "1988\u20131994 Plymouth Voyager"
       ],
-      "vehicle_count_raw": 740,
-      "ebay_item_id": "398347617364",
-      "ebay_type": "Automotive Relay",
-      "ebay_brand": "Standard Motor Products",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Starters, Alternators, ECUs & Wiring:Relays",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -68411,7 +68630,14 @@
         "type": "Automotive Relay",
         "brand": "Standard Motor Products",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Starters, Alternators, ECUs & Wiring:Relays"
-      }
+      },
+      "vehicle_count_raw": 740,
+      "ebay_item_id": "398347617364",
+      "ebay_type": "Automotive Relay",
+      "ebay_brand": "Standard Motor Products",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Starters, Alternators, ECUs & Wiring:Relays",
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "TWDOU6Z474MK5JMPUDNWRU7D",
@@ -69410,6 +69636,544 @@
       "interchange": []
     },
     {
+      "id": "NXL7EHGVNQTJHW6YPEXKJNIR",
+      "name": "Standard Motor Products TH-61 Throttle Position Sensor Dynasty Laser NOS",
+      "price": 42.78,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/91859cb9bfb08f79c665d45bb2fb60dda1e8662b/original.jpeg",
+      "url": "https://square.link/u/j0dtcKMx",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "GESNMDFETZUY6IDD7J3BUY2S",
+      "stock": 1,
+      "part_numbers": [
+        "TH-61"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1988\u20131990 Chrysler Dynasty",
+        "1984\u20131986 Chrysler Laser",
+        "1986\u20131990 Chrysler LeBaron",
+        "1986\u20131987 Chrysler New Yorker",
+        "1990 Chrysler Phantom",
+        "1990 Chrysler Shadow",
+        "1990 Chrysler Spirit",
+        "1986\u20131988 Chrysler Town & Country",
+        "1985\u20131988 Dodge 600",
+        "1985\u20131989 Dodge Aries",
+        "1985\u20131990 Dodge Caravan",
+        "1986 Dodge Charger",
+        "1987\u20131990 Dodge Dakota",
+        "1984\u20131990 Dodge Daytona",
+        "1988\u20131993 Dodge Dynasty",
+        "1987\u20131989 Dodge Grand Caravan",
+        "1985\u20131989 Dodge Lancer",
+        "1986\u20131987 Dodge Mini Ram",
+        "1986\u20131990 Dodge Omni",
+        "1987\u20131990 Dodge Shadow",
+        "1989\u20131990 Dodge Spirit",
+        "1989\u20131990 Plymouth Acclaim",
+        "1985\u20131988 Plymouth Caravelle",
+        "1987\u20131989 Plymouth Expo",
+        "1988 Plymouth Grand Voyager",
+        "1985\u20131990 Plymouth Horizon",
+        "1985\u20131989 Plymouth Reliant",
+        "1987\u20131990 Plymouth Sundance",
+        "1985\u20131987 Plymouth Turismo",
+        "1984\u20131990 Plymouth Voyager"
+      ],
+      "vehicle_count_raw": 731,
+      "ebay_item_id": "398347651543",
+      "ebay_type": "Throttle Position Sensor",
+      "ebay_brand": "Standard Motor Products",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Intake & Fuel Sensors",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "TH-61"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1988,
+            "year_to": 1990,
+            "make": "Chrysler",
+            "model": "Dynasty",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 1986,
+            "make": "Chrysler",
+            "model": "Laser",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1986,
+            "year_to": 1990,
+            "make": "Chrysler",
+            "model": "LeBaron",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1986,
+            "year_to": 1987,
+            "make": "Chrysler",
+            "model": "New Yorker",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1990,
+            "year_to": 1990,
+            "make": "Chrysler",
+            "model": "Phantom",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1990,
+            "year_to": 1990,
+            "make": "Chrysler",
+            "model": "Shadow",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1990,
+            "year_to": 1990,
+            "make": "Chrysler",
+            "model": "Spirit",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1986,
+            "year_to": 1988,
+            "make": "Chrysler",
+            "model": "Town & Country",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1988,
+            "make": "Dodge",
+            "model": "600",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1989,
+            "make": "Dodge",
+            "model": "Aries",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1990,
+            "make": "Dodge",
+            "model": "Caravan",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1986,
+            "year_to": 1986,
+            "make": "Dodge",
+            "model": "Charger",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1990,
+            "make": "Dodge",
+            "model": "Dakota",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 1990,
+            "make": "Dodge",
+            "model": "Daytona",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1988,
+            "year_to": 1993,
+            "make": "Dodge",
+            "model": "Dynasty",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1989,
+            "make": "Dodge",
+            "model": "Grand Caravan",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1989,
+            "make": "Dodge",
+            "model": "Lancer",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1986,
+            "year_to": 1987,
+            "make": "Dodge",
+            "model": "Mini Ram",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1986,
+            "year_to": 1990,
+            "make": "Dodge",
+            "model": "Omni",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1990,
+            "make": "Dodge",
+            "model": "Shadow",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1989,
+            "year_to": 1990,
+            "make": "Dodge",
+            "model": "Spirit",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1989,
+            "year_to": 1990,
+            "make": "Plymouth",
+            "model": "Acclaim",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1988,
+            "make": "Plymouth",
+            "model": "Caravelle",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1989,
+            "make": "Plymouth",
+            "model": "Expo",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1988,
+            "year_to": 1988,
+            "make": "Plymouth",
+            "model": "Grand Voyager",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1990,
+            "make": "Plymouth",
+            "model": "Horizon",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1989,
+            "make": "Plymouth",
+            "model": "Reliant",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1990,
+            "make": "Plymouth",
+            "model": "Sundance",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1987,
+            "make": "Plymouth",
+            "model": "Turismo",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 1990,
+            "make": "Plymouth",
+            "model": "Voyager",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1988\u20131990 Chrysler Dynasty",
+          "1984\u20131986 Chrysler Laser",
+          "1986\u20131990 Chrysler LeBaron",
+          "1986\u20131987 Chrysler New Yorker",
+          "1990 Chrysler Phantom",
+          "1990 Chrysler Shadow",
+          "1990 Chrysler Spirit",
+          "1986\u20131988 Chrysler Town & Country",
+          "1985\u20131988 Dodge 600",
+          "1985\u20131989 Dodge Aries",
+          "1985\u20131990 Dodge Caravan",
+          "1986 Dodge Charger",
+          "1987\u20131990 Dodge Dakota",
+          "1984\u20131990 Dodge Daytona",
+          "1988\u20131993 Dodge Dynasty",
+          "1987\u20131989 Dodge Grand Caravan",
+          "1985\u20131989 Dodge Lancer",
+          "1986\u20131987 Dodge Mini Ram",
+          "1986\u20131990 Dodge Omni",
+          "1987\u20131990 Dodge Shadow",
+          "1989\u20131990 Dodge Spirit",
+          "1989\u20131990 Plymouth Acclaim",
+          "1985\u20131988 Plymouth Caravelle",
+          "1987\u20131989 Plymouth Expo",
+          "1988 Plymouth Grand Voyager",
+          "1985\u20131990 Plymouth Horizon",
+          "1985\u20131989 Plymouth Reliant",
+          "1987\u20131990 Plymouth Sundance",
+          "1985\u20131987 Plymouth Turismo",
+          "1984\u20131990 Plymouth Voyager"
+        ],
+        "raw_compat_rows": 731,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398347651543",
+        "type": "Throttle Position Sensor",
+        "brand": "Standard Motor Products",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Intake & Fuel Sensors"
+      }
+    },
+    {
+      "id": "7MYGJFQ47W5NT5C7QHGIW3VR",
+      "name": "Standard Motor Products TM-36 Transmission Modulator Bronco Custom NOS",
+      "price": 63.87,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/1cdb6f7e8a3e04695fbe77803075f4203b04ceca/original.jpeg",
+      "url": "https://square.link/u/mpyA0ozF",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "KJAHMF3PDVRRG45BQ56YORXS",
+      "stock": 1,
+      "part_numbers": [
+        "TM-36"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1975\u20131976 Ford Bronco",
+        "1972 Ford Custom",
+        "1973\u20131974 Ford E-200 Econoline",
+        "1973\u20131974 Ford E-300 Econoline",
+        "1970\u20131979 Ford F-100",
+        "1975\u20131996 Ford F-150",
+        "1970\u20131996 Ford F-250",
+        "1970\u20131977 Ford F-350"
+      ],
+      "vehicle_count_raw": 3000,
+      "ebay_item_id": "398347654803",
+      "ebay_type": "Transmission Modulator",
+      "ebay_brand": "Standard Motor Products",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Other Ignition Systems & Components",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "TM-36"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1975,
+            "year_to": 1976,
+            "make": "Ford",
+            "model": "Bronco",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1972,
+            "year_to": 1972,
+            "make": "Ford",
+            "model": "Custom",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1973,
+            "year_to": 1974,
+            "make": "Ford",
+            "model": "E-200 Econoline",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1973,
+            "year_to": 1974,
+            "make": "Ford",
+            "model": "E-300 Econoline",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1970,
+            "year_to": 1979,
+            "make": "Ford",
+            "model": "F-100",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1975,
+            "year_to": 1996,
+            "make": "Ford",
+            "model": "F-150",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1970,
+            "year_to": 1996,
+            "make": "Ford",
+            "model": "F-250",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1970,
+            "year_to": 1977,
+            "make": "Ford",
+            "model": "F-350",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1975\u20131976 Ford Bronco",
+          "1972 Ford Custom",
+          "1973\u20131974 Ford E-200 Econoline",
+          "1973\u20131974 Ford E-300 Econoline",
+          "1970\u20131979 Ford F-100",
+          "1975\u20131996 Ford F-150",
+          "1970\u20131996 Ford F-250",
+          "1970\u20131977 Ford F-350"
+        ],
+        "raw_compat_rows": 3000,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398347654803",
+        "type": "Transmission Modulator",
+        "brand": "Standard Motor Products",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Other Ignition Systems & Components"
+      }
+    },
+    {
       "id": "44Y5HILGGT62F7AEHA3ZBO5Q",
       "name": "Standard Motor Products TX3 Coolant Temperature Sender Silverado Sierra NOS",
       "price": 24.29,
@@ -69418,19 +70182,12 @@
       "category": "other",
       "checkout": true,
       "variation_id": "UBOIYKECHX2EJRJVHADQPPDU",
-      "stock": 1,
       "part_numbers": [
         "TX3"
       ],
-      "interchange": [],
       "vehicles": [
         "2018 GMC Sierra"
       ],
-      "vehicle_count_raw": 3,
-      "ebay_item_id": "398347629503",
-      "ebay_type": "Coolant Temperature Sender",
-      "ebay_brand": "Standard Motor Products",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Intake & Fuel Sensors",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -69460,7 +70217,14 @@
         "type": "Coolant Temperature Sender",
         "brand": "Standard Motor Products",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Intake & Fuel Sensors"
-      }
+      },
+      "vehicle_count_raw": 3,
+      "ebay_item_id": "398347629503",
+      "ebay_type": "Coolant Temperature Sender",
+      "ebay_brand": "Standard Motor Products",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Intake & Fuel Sensors",
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "44TXEAZR2J7BS4YN2LYIQGUK",
@@ -75192,5 +75956,5 @@
       "stock": 1
     }
   ],
-  "fitment_built": "2026-09-01T15:01:20Z"
+  "fitment_built": "2026-09-01T16:01:08Z"
 }
