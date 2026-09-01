@@ -1057,7 +1057,7 @@ def main() -> None:
   <meta name="twitter:image" content="{esc(img)}" />
   <link rel="icon" type="image/jpeg" href="../assets/crest-rustjack-web.jpg" />
   <link rel="stylesheet" href="../assets/fonts.css?v=d1b92d3ff4" integrity="sha384-IDnmxIHyfCaSAssmrqXZbMSqgbRm8AATad26bBSjsyTVbgLbsvJXqeQW642rJQFS" />
-  <link rel="stylesheet" href="../styles.css?v=2786c14441" integrity="sha384-ZPSc4MMllBcXxQYpvAPi4OB4l2FvG3xKyRv4ZCplrNZ+7DxcyMW3qeyeDn1AxmZO" />
+  <link rel="stylesheet" href="../styles.css?v=ca09a30653" integrity="sha384-LcFblKsafJH82DkKA1rSlmT7yre/AtnNtQQzDBgUw78GRWFQom454EMfA4LDq07d" />
   <script type="application/ld+json">{schema_json}</script>
   <script type="application/ld+json">{crumbs_json}</script>
   <script src="../pdp-gallery.js?v=c0683cc878" integrity="sha384-Nj6Y6bFnU9x3YJ9AyAWSOJX+uvPDgCk5a/sSqAuEm5Q4zqfdhyfQMQg8SrGb8Goq" defer></script>
@@ -1144,7 +1144,7 @@ def main() -> None:
   </aside>
   <div id="pdpLightbox" class="pdp-lightbox" hidden>
     <button type="button" class="pdp-lightbox-close" aria-label="Close photo">×</button>
-    <div class="pdp-lightbox-stage"><img id="pdpLightboxImage" alt="" /></div>
+    <div class="pdp-lightbox-stage"><img id="pdpLightboxImage" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="" /></div>
   </div>
   <footer role="contentinfo" class="footer">
     <div class="shell footer-bottom">

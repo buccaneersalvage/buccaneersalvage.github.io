@@ -186,8 +186,8 @@ a:hover { color: #ddd6fe; }
 }
 .btn-primary {
   color: #0b0612;
-  background: linear-gradient(165deg, #ddd6fe 0%, var(--violet) 45%, var(--violet-deep) 100%);
-  box-shadow: 0 10px 30px rgba(109, 40, 217, 0.3);
+  background: linear-gradient(165deg, #f5f3ff 0%, #ddd6fe 42%, #c4b5fd 100%);
+  box-shadow: 0 0 0 1px var(--violet-deep), 0 10px 30px rgba(109, 40, 217, 0.3);
 }
 .btn-primary:hover { transform: translateY(-2px); color: #0b0612; }
 .btn-ghost {
@@ -234,7 +234,7 @@ a:hover { color: #ddd6fe; }
 }
 .stat span {
   font-family: var(--font-mono);
-  font-size: 0.62rem;
+  font-size: 0.75rem;
   letter-spacing: 0.12em;
   text-transform: uppercase;
   color: var(--faint);
@@ -249,7 +249,7 @@ main { position: relative; z-index: 2; }
 }
 .section-kicker {
   font-family: var(--font-mono);
-  font-size: 0.68rem;
+  font-size: 0.75rem;
   letter-spacing: 0.18em;
   text-transform: uppercase;
   color: var(--violet);
@@ -297,7 +297,7 @@ main { position: relative; z-index: 2; }
 .alert-strip-badge {
   flex-shrink: 0;
   font-family: var(--font-mono);
-  font-size: 0.62rem;
+  font-size: 0.75rem;
   letter-spacing: 0.18em;
   text-transform: uppercase;
   font-weight: 500;
@@ -336,7 +336,7 @@ main { position: relative; z-index: 2; }
 }
 .warn-banner .label {
   font-family: var(--font-mono);
-  font-size: 0.68rem;
+  font-size: 0.75rem;
   letter-spacing: 0.22em;
   text-transform: uppercase;
   color: #fda4af;
@@ -384,7 +384,7 @@ main { position: relative; z-index: 2; }
 }
 .entity-badge {
   font-family: var(--font-mono);
-  font-size: 0.65rem;
+  font-size: 0.75rem;
   letter-spacing: 0.16em;
   text-transform: uppercase;
   color: #fda4af;
@@ -497,7 +497,7 @@ main { position: relative; z-index: 2; }
 }
 .fact-table th {
   font-family: var(--font-mono);
-  font-size: 0.68rem;
+  font-size: 0.75rem;
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: var(--faint);
@@ -525,6 +525,7 @@ main { position: relative; z-index: 2; }
   transition: border-color 0.25s, transform 0.3s var(--ease);
 }
 .card:hover { border-color: var(--line-hot); }
+.card h2,
 .card h3 {
   font-family: var(--font-display);
   font-size: 1.35rem;
@@ -539,7 +540,7 @@ main { position: relative; z-index: 2; }
 .tag {
   display: inline-block;
   font-family: var(--font-mono);
-  font-size: 0.62rem;
+  font-size: 0.75rem;
   letter-spacing: 0.14em;
   text-transform: uppercase;
   color: var(--crimson);
@@ -678,7 +679,7 @@ main { position: relative; z-index: 2; }
 label {
   display: block;
   font-family: var(--font-mono);
-  font-size: 0.68rem;
+  font-size: 0.75rem;
   letter-spacing: 0.12em;
   text-transform: uppercase;
   color: var(--faint);
@@ -713,7 +714,7 @@ input:focus, textarea:focus {
 .sources a span {
   display: block;
   font-family: var(--font-mono);
-  font-size: 0.65rem;
+  font-size: 0.75rem;
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: var(--faint);
@@ -818,7 +819,7 @@ input:focus, textarea:focus {
 }
 .name-tags span {
   font-family: var(--font-mono);
-  font-size: 0.62rem;
+  font-size: 0.75rem;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--faint);
@@ -865,7 +866,7 @@ input:focus, textarea:focus {
 }
 .nav-brand-sub {
   font-family: var(--font-mono);
-  font-size: 0.58rem;
+  font-size: 0.75rem;
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: var(--crimson, #e11d48);
@@ -881,7 +882,7 @@ input:focus, textarea:focus {
 }
 @media (max-width: 420px) {
   .nav-brand-sub { display: none; }
-  .nav-brand-main { font-size: 0.66rem; letter-spacing: 0.04em; }
+  .nav-brand-main { font-size: 0.75rem; letter-spacing: 0.04em; }
 }
 
 
@@ -909,7 +910,7 @@ input:focus, textarea:focus {
 }
 .one-a-kicker {
   font-family: var(--font-mono);
-  font-size: 0.68rem;
+  font-size: 0.75rem;
   letter-spacing: 0.14em;
   text-transform: uppercase;
   color: var(--violet);
@@ -974,7 +975,7 @@ input:focus, textarea:focus {
 }
 .fund-tag {
   font-family: var(--font-mono);
-  font-size: 0.62rem;
+  font-size: 0.75rem;
   letter-spacing: 0.14em;
   text-transform: uppercase;
   color: var(--faint);
@@ -1012,7 +1013,7 @@ input:focus, textarea:focus {
 }
 .gov-blast-kicker {
   font-family: var(--font-mono);
-  font-size: 0.68rem;
+  font-size: 0.75rem;
   letter-spacing: 0.12em;
   text-transform: uppercase;
   color: #fda4af;
@@ -1052,7 +1053,7 @@ input:focus, textarea:focus {
 }
 .gov-who {
   font-family: var(--font-mono);
-  font-size: 0.68rem;
+  font-size: 0.75rem;
   letter-spacing: 0.12em;
   text-transform: uppercase;
   color: var(--violet);
@@ -1094,7 +1095,7 @@ input:focus, textarea:focus {
 }
 .gov-share .label {
   font-family: var(--font-mono);
-  font-size: 0.68rem;
+  font-size: 0.75rem;
   letter-spacing: 0.12em;
   text-transform: uppercase;
   color: var(--faint);
@@ -1192,11 +1193,12 @@ input:focus, textarea:focus {
 .email-doc-badge {
   margin: 0 0 0.45rem;
   font-family: var(--font-mono, monospace);
-  font-size: 0.68rem;
+  font-size: 0.75rem;
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: var(--crimson, #c43c3c);
 }
+.email-doc-head h3,
 .email-doc-head h4 {
   margin: 0 0 0.85rem;
   font-family: var(--font-display, Georgia, serif);
@@ -1220,7 +1222,7 @@ input:focus, textarea:focus {
 .email-meta dt {
   margin: 0;
   font-family: var(--font-mono, monospace);
-  font-size: 0.68rem;
+  font-size: 0.75rem;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--faint);
@@ -1344,7 +1346,7 @@ body { overflow-x: clip; }
 
 .breadcrumbs {
   font-family: var(--font-mono);
-  font-size: 0.68rem;
+  font-size: 0.75rem;
   letter-spacing: 0.08em;
   text-transform: uppercase;
   color: var(--faint);
@@ -1397,7 +1399,7 @@ body { overflow-x: clip; }
 }
 .hub-num {
   font-family: var(--font-mono);
-  font-size: 0.65rem;
+  font-size: 0.75rem;
   letter-spacing: 0.14em;
   color: var(--faint);
 }
@@ -1458,7 +1460,7 @@ body { overflow-x: clip; }
 }
 .page-nav-link span {
   font-family: var(--font-mono);
-  font-size: 0.65rem;
+  font-size: 0.75rem;
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: var(--faint);
@@ -1556,14 +1558,14 @@ main {
     max-width: min(52rem, 68vw);
   }
   .nav-links a {
-    font-size: 0.62rem;
+    font-size: 0.75rem;
     letter-spacing: 0.06em;
     padding: 0.4rem 0.5rem;
   }
 }
 @media (min-width: 1100px) {
   .nav-links a {
-    font-size: 0.68rem;
+    font-size: 0.75rem;
     padding: 0.45rem 0.55rem;
   }
 }
@@ -1778,11 +1780,11 @@ main {
   top: 0.7rem;
   left: 0.7rem;
   font-family: var(--font-mono);
-  font-size: 0.58rem;
+  font-size: 0.75rem;
   letter-spacing: 0.14em;
   text-transform: uppercase;
   color: var(--pirate-ink);
-  background: linear-gradient(165deg, var(--pirate-gold-foil) 0%, var(--pirate-gold-mid) 48%, var(--pirate-gold-deep) 100%);
+  background: linear-gradient(165deg, var(--pirate-gold-foil) 0%, var(--pirate-gold) 52%, var(--pirate-gold-mid) 100%);
   padding: 0.28rem 0.55rem;
   border-radius: 6px;
   font-weight: 600;
@@ -1797,7 +1799,7 @@ main {
 }
 .video-tag {
   font-family: var(--font-mono);
-  font-size: 0.62rem;
+  font-size: 0.75rem;
   letter-spacing: 0.14em;
   text-transform: uppercase;
   color: var(--pirate-gold-bright);
