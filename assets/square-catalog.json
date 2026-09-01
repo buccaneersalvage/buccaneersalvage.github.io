@@ -1,7 +1,7 @@
 {
-  "updated": "2026-09-01T09:00:56Z",
+  "updated": "2026-09-01T10:00:54Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 558,
+  "count": 559,
   "items": [
     {
       "id": "S4IZBA4AG65C6HI2ZDIRMSJR",
@@ -35890,7 +35890,6 @@
       "category": "ignition",
       "checkout": true,
       "variation_id": "Q4K3GWN3TQB75CGHABCD7EOV",
-      "stock": 1,
       "part_numbers": [
         "UC-12",
         "221-9139"
@@ -35918,11 +35917,6 @@
         "1963\u20131965 Jeep Truck",
         "1966\u20131967 Jeep Wagoneer"
       ],
-      "vehicle_count_raw": 131,
-      "ebay_item_id": "398346517577",
-      "ebay_type": "Ignition Coil",
-      "ebay_brand": "Standard Motor Products",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Coils",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -36122,7 +36116,13 @@
         "type": "Ignition Coil",
         "brand": "Standard Motor Products",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Coils"
-      }
+      },
+      "vehicle_count_raw": 131,
+      "ebay_item_id": "398346517577",
+      "ebay_type": "Ignition Coil",
+      "ebay_brand": "Standard Motor Products",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Coils",
+      "stock": 1
     },
     {
       "id": "D3BZO6O7POITBZ2EYFR5VF4H",
@@ -39187,7 +39187,6 @@
       "category": "driveline",
       "checkout": true,
       "variation_id": "P3CYL3VCAH4IZO4VIZLNNEBM",
-      "stock": 1,
       "part_numbers": [
         "S-610N"
       ],
@@ -39228,11 +39227,6 @@
         "1980\u20131988 Pontiac Bonneville",
         "1977\u20131980 Pontiac Catalina"
       ],
-      "vehicle_count_raw": 927,
-      "ebay_item_id": "398346522246",
-      "ebay_type": "Timing Sprocket",
-      "ebay_brand": "Perfect Circle",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Timing Components & Kits:Sprockets",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -39595,7 +39589,13 @@
         "type": "Timing Sprocket",
         "brand": "Perfect Circle",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Timing Components & Kits:Sprockets"
-      }
+      },
+      "vehicle_count_raw": 927,
+      "ebay_item_id": "398346522246",
+      "ebay_type": "Timing Sprocket",
+      "ebay_brand": "Perfect Circle",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Timing Components & Kits:Sprockets",
+      "stock": 1
     },
     {
       "id": "PL6WEBGXYDPQUY4GTJH3ZYYJ",
@@ -64060,6 +64060,409 @@
       "stock": 1
     },
     {
+      "id": "ZYYN3CHAUGZCT4BQSNTYCNX6",
+      "name": "Standard SS-598 Diode Starter Switch NOS 83-99 Mustang Ranger",
+      "price": 29.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/dfa556ccc251982730a94e8fc6b651513bc20579/original.jpeg",
+      "url": "https://square.link/u/J5G3sYOl",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "VC2OTY3K33ZTWCS7HOMGLSNZ",
+      "stock": 1,
+      "part_numbers": [
+        "SS-598",
+        "D2DZ11450A, D2OZ11450B, E5AZ11450A, E9TZ11450A"
+      ],
+      "interchange": [
+        "SW1533A",
+        "S5049",
+        "FF-138D",
+        "SW95A",
+        "E7TZ11450A"
+      ],
+      "vehicles": [
+        "1993 Chevrolet Corvette",
+        "1984\u20131989 Dodge Ramcharger",
+        "1986\u20131997 Ford Aerostar",
+        "1985\u20131996 Ford Bronco",
+        "1985\u20131986 Ford Bronco II",
+        "1985\u20131987 Ford Cougar",
+        "1987\u20131988 Ford Country Squire",
+        "1993\u20131995 Ford Crown Victoria",
+        "1957 Ford Custom",
+        "1985\u20131987 Ford EXP",
+        "1996 Ford Econoline Super Duty",
+        "1984\u20131990 Ford Escort",
+        "2000\u20132002 Ford Excursion",
+        "1998\u20132003 Ford Expedition",
+        "1991\u20132007 Ford Explorer",
+        "1985\u20132003 Ford F-150",
+        "1984\u20131999 Ford F-250",
+        "1999\u20132003 Ford F-250 Super Duty",
+        "1984\u20131997 Ford F-350",
+        "2000\u20132003 Ford F-350 Super Duty",
+        "1999\u20132002 Ford F-550 Super Duty",
+        "1997 Ford F-700",
+        "2000 Ford F-750",
+        "1990\u20131998 Ford F-800",
+        "1981 Ford Granada",
+        "1995 Ford Grand Marquis",
+        "1987\u20131991 Ford LTD Crown Victoria",
+        "1975\u20131976 Ford Maverick",
+        "1983\u20131987 Ford Mustang"
+      ],
+      "vehicle_count_raw": 3000,
+      "ebay_item_id": "398346815674",
+      "ebay_type": "Starter Solenoid Switch",
+      "ebay_brand": "Standard Motor Products",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Starters, Alternators, ECUs & Wiring:Starter Motor Parts",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "SS-598",
+          "D2DZ11450A, D2OZ11450B, E5AZ11450A, E9TZ11450A"
+        ],
+        "interchange": [
+          "SW1533A",
+          "S5049",
+          "FF-138D",
+          "SW95A",
+          "E7TZ11450A"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1993,
+            "year_to": 1993,
+            "make": "Chevrolet",
+            "model": "Corvette",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 1989,
+            "make": "Dodge",
+            "model": "Ramcharger",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1986,
+            "year_to": 1997,
+            "make": "Ford",
+            "model": "Aerostar",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1996,
+            "make": "Ford",
+            "model": "Bronco",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1986,
+            "make": "Ford",
+            "model": "Bronco II",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1987,
+            "make": "Ford",
+            "model": "Cougar",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1988,
+            "make": "Ford",
+            "model": "Country Squire",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1993,
+            "year_to": 1995,
+            "make": "Ford",
+            "model": "Crown Victoria",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1957,
+            "year_to": 1957,
+            "make": "Ford",
+            "model": "Custom",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1987,
+            "make": "Ford",
+            "model": "EXP",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1996,
+            "year_to": 1996,
+            "make": "Ford",
+            "model": "Econoline Super Duty",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 1990,
+            "make": "Ford",
+            "model": "Escort",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2000,
+            "year_to": 2002,
+            "make": "Ford",
+            "model": "Excursion",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1998,
+            "year_to": 2003,
+            "make": "Ford",
+            "model": "Expedition",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1991,
+            "year_to": 2007,
+            "make": "Ford",
+            "model": "Explorer",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 2003,
+            "make": "Ford",
+            "model": "F-150",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 1999,
+            "make": "Ford",
+            "model": "F-250",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1999,
+            "year_to": 2003,
+            "make": "Ford",
+            "model": "F-250 Super Duty",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 1997,
+            "make": "Ford",
+            "model": "F-350",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2000,
+            "year_to": 2003,
+            "make": "Ford",
+            "model": "F-350 Super Duty",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1999,
+            "year_to": 2002,
+            "make": "Ford",
+            "model": "F-550 Super Duty",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1997,
+            "year_to": 1997,
+            "make": "Ford",
+            "model": "F-700",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2000,
+            "year_to": 2000,
+            "make": "Ford",
+            "model": "F-750",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1990,
+            "year_to": 1998,
+            "make": "Ford",
+            "model": "F-800",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1981,
+            "year_to": 1981,
+            "make": "Ford",
+            "model": "Granada",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1995,
+            "year_to": 1995,
+            "make": "Ford",
+            "model": "Grand Marquis",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1991,
+            "make": "Ford",
+            "model": "LTD Crown Victoria",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1975,
+            "year_to": 1976,
+            "make": "Ford",
+            "model": "Maverick",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1983,
+            "year_to": 1987,
+            "make": "Ford",
+            "model": "Mustang",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1993 Chevrolet Corvette",
+          "1984\u20131989 Dodge Ramcharger",
+          "1986\u20131997 Ford Aerostar",
+          "1985\u20131996 Ford Bronco",
+          "1985\u20131986 Ford Bronco II",
+          "1985\u20131987 Ford Cougar",
+          "1987\u20131988 Ford Country Squire",
+          "1993\u20131995 Ford Crown Victoria",
+          "1957 Ford Custom",
+          "1985\u20131987 Ford EXP",
+          "1996 Ford Econoline Super Duty",
+          "1984\u20131990 Ford Escort",
+          "2000\u20132002 Ford Excursion",
+          "1998\u20132003 Ford Expedition",
+          "1991\u20132007 Ford Explorer",
+          "1985\u20132003 Ford F-150",
+          "1984\u20131999 Ford F-250",
+          "1999\u20132003 Ford F-250 Super Duty",
+          "1984\u20131997 Ford F-350",
+          "2000\u20132003 Ford F-350 Super Duty",
+          "1999\u20132002 Ford F-550 Super Duty",
+          "1997 Ford F-700",
+          "2000 Ford F-750",
+          "1990\u20131998 Ford F-800",
+          "1981 Ford Granada",
+          "1995 Ford Grand Marquis",
+          "1987\u20131991 Ford LTD Crown Victoria",
+          "1975\u20131976 Ford Maverick",
+          "1983\u20131987 Ford Mustang"
+        ],
+        "raw_compat_rows": 3000,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398346815674",
+        "type": "Starter Solenoid Switch",
+        "brand": "Standard Motor Products",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Starters, Alternators, ECUs & Wiring:Starter Motor Parts"
+      }
+    },
+    {
       "id": "HYUWEWF47KUQSYVGMFNNQAPC",
       "name": "Standard SS200 Starter Solenoid NOS 65-94 Chevy C10 Camaro",
       "price": 34.99,
@@ -68608,5 +69011,5 @@
       "stock": 1
     }
   ],
-  "fitment_built": "2026-09-01T09:00:56Z"
+  "fitment_built": "2026-09-01T10:00:54Z"
 }
