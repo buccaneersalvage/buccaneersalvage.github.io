@@ -58,17 +58,17 @@
       <div class="shell contact-shell">
         <header class="section-head">
           <div>
-            <h1 class="section-title">Contact the yard</h1>
-            <p class="section-aside">Parts, scrap, orders, or a quick question. Sends straight to Cap&rsquo;n Jules — no mail app pop-up.</p>
+            <h1 class="section-title" id="bucContactTitle">Contact</h1>
+            <p class="section-aside" id="bucContactAside">Parts, orders, or listing help. Message goes to Cap&rsquo;n Jules — no mail app pop-up.</p>
           </div>
         </header>
 
-        <p class="contact-lede">
-          Store &amp; listings: use the form.
+        <p class="contact-lede" id="bucContactLede">
           Scrap, junk, or e-waste in NEPA: book on
           <a class="link-gold" href="scrap.html">Scrap Removal</a>
           (phone is on that page only).
-          Pickup by appointment · 12 Beech St, Carbondale, PA 18407.
+          Listing help pricing is on
+          <a class="link-gold" href="services.html">eBay services</a>.
         </p>
 
         <p id="bucPaidBanner" class="contact-paid-banner" hidden role="status"></p>
@@ -91,7 +91,7 @@
             </div>
             <div>
               <label for="c-topic">Topic</label>
-              <input id="c-topic" name="topic" type="text" maxlength="80" placeholder="Order, fitment, scrap, services…" />
+              <input id="c-topic" name="topic" type="text" maxlength="80" placeholder="Order, fitment, listing help…" />
             </div>
             <div class="full">
               <label for="c-message">Message <span class="req">required</span></label>
@@ -104,13 +104,13 @@
             </div>
             <div class="full contact-actions">
               <button type="submit" class="btn btn-primary" id="bucContactSubmit">Send message</button>
-              <a class="btn btn-ghost" href="store.html">Shop the store</a>
+              <a class="btn btn-ghost" id="bucContactSecondary" href="store.html">Shop the store</a>
             </div>
           </div>
         </form>
 
-        <p class="contact-foot">
-          This form goes straight to the yard — no public mailbox on the site.
+        <p class="contact-foot" id="bucContactFoot">
+          This form goes to Cap&rsquo;n Jules — no public mailbox on the site.
           <a class="link-gold" href="privacy.html">Privacy</a> ·
           <a class="link-gold" href="index.html">Hub</a>
         </p>
@@ -132,7 +132,7 @@
   </footer>
 
   <script src="formspree-config.js?v=ceb6c76477" integrity="sha384-ueEuUiZOLQaQmHtvI1zEi8sjOSgrPYprb7VdeQEdcuH7rfYE90ZCRu0milOV0TmB" defer></script>
-  <script src="contact.js?v=7f9df136b3" integrity="sha384-Ig+BKJpmCSoCGbca/9OkMiywyt4Lw7ttrlPsKQpwDXjpOH78JvYpHthGjq2dYIXv" defer></script>
+  <script src="contact.js?v=df24970e9f" integrity="sha384-PX7+Uh4L7lDURkuXex8n1pu+4s6CTGzzsBQ7FBgwEFeZ+G5YNIq/9oqmThlJxeBH" defer></script>
   <script src="main.js?v=9da67f0636" integrity="sha384-mNVrA0WpCjDkXtUBYliDxWfHkjAy+yMIt84Qi7f8dCpfkAR1HWijmmVQ06CnZ678" defer></script>
 </body>
 </html>
