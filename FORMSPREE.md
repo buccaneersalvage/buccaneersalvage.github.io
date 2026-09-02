@@ -38,3 +38,16 @@ That is usually fine for real yard traffic. It is **not** fine if bots hammer th
 ## Deploy
 
 After `formspree-config.js` change: `python3 scripts/stamp_sri.py`, commit, push Pages. Smoke-test `/contact.html` once (counts against the 50).
+
+## Square checkout → Formspree (after pay)
+
+Square and Formspree do **not** share a backend. Tie-in is **redirect after pay** onto Contact (Formspree `mlggwlyo`):
+
+| Path | After-pay landing |
+|------|-------------------|
+| Hub **cart** (Worker payment links) | `REDIRECT_URL` → `contact.html?source=square-store&topic=Store%20order` |
+| **Services** `square.link` buttons | In Square Dashboard → each Payment Link → **After payment** / redirect URL → `https://buccaneersalvage.github.io/contact.html?source=square-services&topic=Listing%20services` |
+
+Contact prefills topic/message and tags Formspree `source` (`hub-contact-square-store` / `hub-contact-square-services`). Still counts against the **50/mo** free pool — only when the buyer actually sends the form.
+
+Do **not** POST every Square webhook into Formspree (burns quota; no buyer message).

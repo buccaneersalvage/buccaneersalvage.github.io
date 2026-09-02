@@ -3873,3 +3873,17 @@ body.buc-ask-open .pdp-buybar { display: none; }
 @media (max-width: 640px) {
   .contact-grid { grid-template-columns: 1fr; }
 }
+
+
+/* Post–Square-pay handoff on contact.html */
+.contact-paid-banner {
+  margin: 0 0 1rem;
+  padding: 0.9rem 1rem;
+  border: 1px solid rgba(197, 160, 40, 0.35);
+  border-radius: 10px;
+  background: rgba(197, 160, 40, 0.08);
+  color: var(--parchment, #e8e0d0);
+  line-height: 1.45;
+  font-size: 0.95rem;
+}
+.contact-paid-banner[hidden] { display: none !important; }
