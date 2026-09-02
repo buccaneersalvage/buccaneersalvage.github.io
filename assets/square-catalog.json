@@ -1,7 +1,7 @@
 {
-  "updated": "2026-09-02T09:00:44Z",
+  "updated": "2026-09-02T11:00:49Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 585,
+  "count": 586,
   "items": [
     {
       "id": "S4IZBA4AG65C6HI2ZDIRMSJR",
@@ -64497,6 +64497,73 @@
       "interchange": []
     },
     {
+      "id": "MTX7KW66AA3NVFGTNTJJ2HHU",
+      "name": "Standard Motor Products PS-226 Oil Pressure Switch 05-07 A4 NOS",
+      "price": 19.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/83d020a79cc8d802e21c3bd50e1fa5bf425e3c76/original.jpeg",
+      "url": "https://square.link/u/0FJXEfW9",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "AB6NLWYRKI7RXOURKIMI4RGI",
+      "stock": 1,
+      "part_numbers": [
+        "PS-226",
+        "PS226, PS0226"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "2005\u20132007 Audi A4",
+        "2004\u20132006 Volkswagen Jetta"
+      ],
+      "vehicle_count_raw": 95,
+      "ebay_item_id": "398350673342",
+      "ebay_type": "Oil Pressure Switch",
+      "ebay_brand": "Standard Motor Products",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Interior Parts & Accessories:Switches & Controls",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "PS-226",
+          "PS226, PS0226"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 2005,
+            "year_to": 2007,
+            "make": "Audi",
+            "model": "A4",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2004,
+            "year_to": 2006,
+            "make": "Volkswagen",
+            "model": "Jetta",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "2005\u20132007 Audi A4",
+          "2004\u20132006 Volkswagen Jetta"
+        ],
+        "raw_compat_rows": 95,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398350673342",
+        "type": "Oil Pressure Switch",
+        "brand": "Standard Motor Products",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Interior Parts & Accessories:Switches & Controls"
+      }
+    },
+    {
       "id": "VO5WYTWPWTXXJVQKQL2FWKCJ",
       "name": "Standard Motor Products PS-233 Oil Pressure Sender B150 B1500 NOS",
       "price": 19.99,
@@ -75139,5 +75206,5 @@
       "stock": 1
     }
   ],
-  "fitment_built": "2026-09-02T09:00:44Z"
+  "fitment_built": "2026-09-02T11:00:49Z"
 }
