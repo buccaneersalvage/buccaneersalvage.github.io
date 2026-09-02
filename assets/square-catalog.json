@@ -1,7 +1,7 @@
 {
-  "updated": "2026-09-02T13:33:14Z",
+  "updated": "2026-09-02T18:01:02Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 585,
+  "count": 587,
   "items": [
     {
       "id": "S4IZBA4AG65C6HI2ZDIRMSJR",
@@ -33260,6 +33260,73 @@
       "stock": 1
     },
     {
+      "id": "GBQXK42E4QIPNFQC4IQXBTN2",
+      "name": "Standard Motor Products CH307 Distributor Rotor 88-95 Caravan NOS",
+      "price": 9.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/453300e9dd4ce51a6499cdb574ded02b89259558/original.jpeg",
+      "url": "https://square.link/u/USsUR3S3",
+      "category": "ignition",
+      "checkout": true,
+      "variation_id": "BTQSAIVTKRXB264EDMTBUCXS",
+      "stock": 1,
+      "part_numbers": [
+        "CH307",
+        "5142587AA, 5226535, 12336264, MO22, CH307X"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1988\u20131995 Dodge Caravan",
+        "1988\u20131996 Dodge Dakota"
+      ],
+      "vehicle_count_raw": 95,
+      "ebay_item_id": "398351732127",
+      "ebay_type": "Distributor Rotor",
+      "ebay_brand": "Standard Motor Products",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "CH307",
+          "5142587AA, 5226535, 12336264, MO22, CH307X"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1988,
+            "year_to": 1995,
+            "make": "Dodge",
+            "model": "Caravan",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1988,
+            "year_to": 1996,
+            "make": "Dodge",
+            "model": "Dakota",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1988\u20131995 Dodge Caravan",
+          "1988\u20131996 Dodge Dakota"
+        ],
+        "raw_compat_rows": 95,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398351732127",
+        "type": "Distributor Rotor",
+        "brand": "Standard Motor Products",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors"
+      }
+    },
+    {
       "id": "KVSPPTNWS4SLW7XKRCIHW3YC",
       "name": "Standard Motor Products DR-39 Ignition Coil NOS GM 3.8L V6 1986-2005",
       "price": 29.99,
@@ -34175,6 +34242,73 @@
       "ebay_brand": "Standard Motor Products",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Coils",
       "stock": 1
+    },
+    {
+      "id": "IUFPK34JHFPZEP7AQY5PPVKQ",
+      "name": "Standard Motor Products GB-344 Distributor Rotor 81-84 Rabbit NOS",
+      "price": 17.75,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/e22450d80bcca95eaaa69c4516116eb150d18aca/original.jpeg",
+      "url": "https://square.link/u/iY20onug",
+      "category": "ignition",
+      "checkout": true,
+      "variation_id": "JXT3OOTX2UNHOKTJD5NGOZCH",
+      "stock": 1,
+      "part_numbers": [
+        "GB-344",
+        "035905225B, 04184, 12111272114, 1336240, 60723008"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1981\u20131984 Volkswagen Rabbit",
+        "1975\u20131985 Volvo 244"
+      ],
+      "vehicle_count_raw": 55,
+      "ebay_item_id": "398351734157",
+      "ebay_type": "Distributor Rotor",
+      "ebay_brand": "Standard Motor Products",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "GB-344",
+          "035905225B, 04184, 12111272114, 1336240, 60723008"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1981,
+            "year_to": 1984,
+            "make": "Volkswagen",
+            "model": "Rabbit",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1975,
+            "year_to": 1985,
+            "make": "Volvo",
+            "model": "244",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1981\u20131984 Volkswagen Rabbit",
+          "1975\u20131985 Volvo 244"
+        ],
+        "raw_compat_rows": 55,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398351734157",
+        "type": "Distributor Rotor",
+        "brand": "Standard Motor Products",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors"
+      }
     },
     {
       "id": "CXHZCXT4DJIFGQCOMMMEG6KT",
@@ -75093,5 +75227,5 @@
       "stock": 1
     }
   ],
-  "fitment_built": "2026-09-02T13:33:14Z"
+  "fitment_built": "2026-09-02T18:01:02Z"
 }
