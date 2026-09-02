@@ -46,7 +46,7 @@ Square and Formspree do **not** share a backend. Formspree is only for **message
 | Path | After-pay landing |
 |------|-------------------|
 | Hub **store cart** (Worker) | `thanks.html` — pirate thank-you. **No** Formspree redirect. Optional Contact link on that page. |
-| **eBay listing services** (`services.html` / `square.link`) | **Done via Square API 2026-09-02** (all 10 `services.html` square.link URLs). Re-run if links are recreated. Manual path was: Square Dashboard → Payment Link → After payment redirect → `https://buccaneersalvage.github.io/contact.html?source=square-services&topic=Listing%20services` so buyers can send photos / PNs / store URL via Formspree `mlggwlyo`. |
+| **eBay listing services** (`services.html` / `square.link`) | **Done via Square API 2026-09-02** (10 services links + Partner `$59` `2Fj74DTt`). Re-run if links are recreated. Manual path was: Square Dashboard → Payment Link → After payment redirect → `https://buccaneersalvage.github.io/contact.html?source=square-services&topic=Listing%20services` so buyers can send photos / PNs / store URL via Formspree `mlggwlyo`. |
 
 Contact tags Formspree `source=hub-contact-square-services`. Counts against the **50/mo** pool only when they submit the form.
 
