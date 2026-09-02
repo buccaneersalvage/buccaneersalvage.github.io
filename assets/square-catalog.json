@@ -1,7 +1,7 @@
 {
-  "updated": "2026-09-02T11:00:49Z",
+  "updated": "2026-09-02T13:33:14Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 586,
+  "count": 585,
   "items": [
     {
       "id": "S4IZBA4AG65C6HI2ZDIRMSJR",
@@ -9065,119 +9065,6 @@
       "ebay_brand": "Lee",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware",
       "stock": 1
-    },
-    {
-      "id": "PPFBJTDOJNVEFGNPFIXASTZV",
-      "name": "Lee 7164 USA Made Drum Brake Hardware Kit 1976-2002 Ford E-250 E-350 F-350 NOS",
-      "price": 22.99,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/a04d562576cd97d2c841c6b61be70cf780073589/original.jpeg",
-      "url": "https://square.link/u/9VKOEqbt",
-      "category": "brake",
-      "checkout": true,
-      "variation_id": "44JQIAZ4HWIRULFQI4Y6Z5AV",
-      "part_numbers": [
-        "7164"
-      ],
-      "vehicles": [
-        "1995\u20131998 Ford Club Wagon",
-        "1976\u20132002 Ford E-250",
-        "1976\u20132002 Ford E-250 Econoline",
-        "1977\u20131996 Ford E-350 Econoline",
-        "1980\u20131999 Ford F-250",
-        "1976\u20131995 Ford F-350"
-      ],
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "high",
-      "fitment": {
-        "part_numbers": [
-          "7164"
-        ],
-        "interchange": [],
-        "vehicles": [
-          {
-            "year_from": 1995,
-            "year_to": 1998,
-            "make": "Ford",
-            "model": "Club Wagon",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1976,
-            "year_to": 2002,
-            "make": "Ford",
-            "model": "E-250",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1976,
-            "year_to": 2002,
-            "make": "Ford",
-            "model": "E-250 Econoline",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1977,
-            "year_to": 1996,
-            "make": "Ford",
-            "model": "E-350 Econoline",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1980,
-            "year_to": 1999,
-            "make": "Ford",
-            "model": "F-250",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1976,
-            "year_to": 1995,
-            "make": "Ford",
-            "model": "F-350",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          }
-        ],
-        "vehicle_labels": [
-          "1995\u20131998 Ford Club Wagon",
-          "1976\u20132002 Ford E-250",
-          "1976\u20132002 Ford E-250 Econoline",
-          "1977\u20131996 Ford E-350 Econoline",
-          "1980\u20131999 Ford F-250",
-          "1976\u20131995 Ford F-350"
-        ],
-        "raw_compat_rows": 3001,
-        "source": "ebay_listing",
-        "confidence": "high",
-        "ebay_item_id": "398305598847",
-        "type": "Drum Brake Hardware Kit",
-        "brand": "Lee",
-        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware"
-      },
-      "vehicle_count_raw": 3001,
-      "ebay_item_id": "398305598847",
-      "ebay_type": "Drum Brake Hardware Kit",
-      "ebay_brand": "Lee",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware",
-      "stock": 1,
-      "interchange": []
     },
     {
       "id": "NECCBCVVCXSQ5PYK2VPUY3GH",
@@ -64505,21 +64392,14 @@
       "category": "other",
       "checkout": true,
       "variation_id": "AB6NLWYRKI7RXOURKIMI4RGI",
-      "stock": 1,
       "part_numbers": [
         "PS-226",
         "PS226, PS0226"
       ],
-      "interchange": [],
       "vehicles": [
         "2005\u20132007 Audi A4",
         "2004\u20132006 Volkswagen Jetta"
       ],
-      "vehicle_count_raw": 95,
-      "ebay_item_id": "398350673342",
-      "ebay_type": "Oil Pressure Switch",
-      "ebay_brand": "Standard Motor Products",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Interior Parts & Accessories:Switches & Controls",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -64561,7 +64441,14 @@
         "type": "Oil Pressure Switch",
         "brand": "Standard Motor Products",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Interior Parts & Accessories:Switches & Controls"
-      }
+      },
+      "vehicle_count_raw": 95,
+      "ebay_item_id": "398350673342",
+      "ebay_type": "Oil Pressure Switch",
+      "ebay_brand": "Standard Motor Products",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Interior Parts & Accessories:Switches & Controls",
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "VO5WYTWPWTXXJVQKQL2FWKCJ",
@@ -75206,5 +75093,5 @@
       "stock": 1
     }
   ],
-  "fitment_built": "2026-09-02T11:00:49Z"
+  "fitment_built": "2026-09-02T13:33:14Z"
 }
