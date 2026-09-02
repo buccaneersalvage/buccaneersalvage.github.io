@@ -36,7 +36,6 @@ ASSETS = (
     "assets/redirect-store.js",
     "ukiri/styles.css",
     "ukiri/main.js",
-    "ukiri/player.js",
 )
 
 TAG_RE = re.compile(r"<(?:link|script)\b[^>]*>", re.I)
