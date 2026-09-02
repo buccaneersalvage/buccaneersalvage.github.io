@@ -1912,7 +1912,7 @@ ul { list-style: none; }
 /* Was position:sticky — pinned the sidebar in place while the (much longer)
    product grid scrolled past underneath it, then it would abruptly "catch up"
    at the very bottom of the page. Felt broken on a mouse thumbwheel
-   (2026-08-14, Julian). Plain in-flow column scrolls with the grid instead. */
+   (2026-08-14). Plain in-flow column scrolls with the grid instead. */
 .st-facets-title {
   margin: 0 0 0.35rem;
   font-family: var(--font-display, Georgia, serif);

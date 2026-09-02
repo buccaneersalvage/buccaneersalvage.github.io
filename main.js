@@ -644,21 +644,14 @@
 (() => {
   "use strict";
 
-  const PHONE = "(570) 468-2901";
-  const PHONE_HREF = "tel:+15704682901";
   const EMAIL = "Contact";
   const EMAIL_HREF = "contact.html";  // Formspree contact — no public mailbox
   const EMAIL_LINK = "<a href=\"" + EMAIL_HREF + "\">" + EMAIL + "</a>";
-  const PHONE_LINK = "<a href=\"" + PHONE_HREF + "\">" + PHONE + "</a>";
-  const PAGE = (location.pathname.split("/").pop() || "index.html").toLowerCase();
-  const PHONE_OK = PAGE === "scrap.html";
-  const SCRAP_HINT = PHONE_OK
-    ? "see <a href=\"/scrap.html\">Scrap Removal</a> or call " + PHONE_LINK
-    : "see <a href=\"/scrap.html\">Scrap Removal</a>";
-  const CONTACT_SCRAP = PHONE_OK ? PHONE_LINK : "<a href=\"/scrap.html\">Scrap Removal</a>";
-  const ASK_SUB = PHONE_OK
-    ? "Basic answers. Call if you need a person."
-    : "Basic answers. Use Contact if you need a person.";
+  // Phone number lives only on scrap.html (not in this shared bundle).
+  const SCRAP_LINK = "<a href=\"/scrap.html\">Scrap Removal</a>";
+  const SCRAP_HINT = "see " + SCRAP_LINK;
+  const CONTACT_SCRAP = SCRAP_LINK;
+  const ASK_SUB = "Basic answers. Use Contact or Scrap Removal if you need a person.";
 
   function normalize(text) {
     return String(text || "")
@@ -739,7 +732,7 @@
       escalate: false,
       keys: ["hours", "are you open", "when are you open", "business hours"],
       html:
-        "By appointment. Store questions: email " +
+        "By appointment. Store questions: " +
         EMAIL_LINK +
         ". Scrap or junk: " +
         SCRAP_HINT +
