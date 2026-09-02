@@ -1,7 +1,7 @@
 {
-  "updated": "2026-09-02T18:01:02Z",
+  "updated": "2026-09-02T19:01:10Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 587,
+  "count": 594,
   "items": [
     {
       "id": "S4IZBA4AG65C6HI2ZDIRMSJR",
@@ -33268,21 +33268,14 @@
       "category": "ignition",
       "checkout": true,
       "variation_id": "BTQSAIVTKRXB264EDMTBUCXS",
-      "stock": 1,
       "part_numbers": [
         "CH307",
         "5142587AA, 5226535, 12336264, MO22, CH307X"
       ],
-      "interchange": [],
       "vehicles": [
         "1988\u20131995 Dodge Caravan",
         "1988\u20131996 Dodge Dakota"
       ],
-      "vehicle_count_raw": 95,
-      "ebay_item_id": "398351732127",
-      "ebay_type": "Distributor Rotor",
-      "ebay_brand": "Standard Motor Products",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -33324,7 +33317,14 @@
         "type": "Distributor Rotor",
         "brand": "Standard Motor Products",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors"
-      }
+      },
+      "vehicle_count_raw": 95,
+      "ebay_item_id": "398351732127",
+      "ebay_type": "Distributor Rotor",
+      "ebay_brand": "Standard Motor Products",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors",
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "KVSPPTNWS4SLW7XKRCIHW3YC",
@@ -34252,21 +34252,14 @@
       "category": "ignition",
       "checkout": true,
       "variation_id": "JXT3OOTX2UNHOKTJD5NGOZCH",
-      "stock": 1,
       "part_numbers": [
         "GB-344",
         "035905225B, 04184, 12111272114, 1336240, 60723008"
       ],
-      "interchange": [],
       "vehicles": [
         "1981\u20131984 Volkswagen Rabbit",
         "1975\u20131985 Volvo 244"
       ],
-      "vehicle_count_raw": 55,
-      "ebay_item_id": "398351734157",
-      "ebay_type": "Distributor Rotor",
-      "ebay_brand": "Standard Motor Products",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -34308,7 +34301,14 @@
         "type": "Distributor Rotor",
         "brand": "Standard Motor Products",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors"
-      }
+      },
+      "vehicle_count_raw": 55,
+      "ebay_item_id": "398351734157",
+      "ebay_type": "Distributor Rotor",
+      "ebay_brand": "Standard Motor Products",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors",
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "CXHZCXT4DJIFGQCOMMMEG6KT",
@@ -44271,6 +44271,44 @@
       "vehicles": []
     },
     {
+      "id": "5HUVKP6IUWCTZLUAB3PJFD36",
+      "name": "Cornell-Dubilier RX-103 Motor Brush Set NOS",
+      "price": 12.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/4a3af10dc859340f96dbb67c5c3c3bdfa3d9ce31/original.jpeg",
+      "url": "https://square.link/u/FgxVSC6Q",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "A3HRZ4M7KWZLZSOL2YS54XZ7",
+      "stock": 1,
+      "part_numbers": [
+        "RX-103"
+      ],
+      "interchange": [],
+      "vehicles": [],
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398352066416",
+      "ebay_type": "Motor Brush Set",
+      "ebay_brand": "Cornell-Dubilier",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Other Ignition Systems & Components",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "medium",
+      "fitment": {
+        "part_numbers": [
+          "RX-103"
+        ],
+        "interchange": [],
+        "vehicles": [],
+        "vehicle_labels": [],
+        "raw_compat_rows": 0,
+        "source": "ebay_listing",
+        "confidence": "medium",
+        "ebay_item_id": "398352066416",
+        "type": "Motor Brush Set",
+        "brand": "Cornell-Dubilier",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Other Ignition Systems & Components"
+      }
+    },
+    {
       "id": "UIUCPMUO2RIEGBYM4EU3USAQ",
       "name": "CR 13668 Oil Seal NOS HMSHA4",
       "price": 11.99,
@@ -45844,6 +45882,44 @@
       "ebay_brand": "CR Services",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:Differentials, Assemblies & Parts:Seals & Gaskets",
       "stock": 1
+    },
+    {
+      "id": "54TI7WM47WUFNUD3SQ5U3IMN",
+      "name": "Delco Remy F-200 Ignition Condenser Villager Ranger NOS",
+      "price": 10.37,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/9802f127923d27324451b31f061c62593691c45d/original.jpeg",
+      "url": "https://square.link/u/6z7H5ivs",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "A65U6GSSNTZARUYTSLZT5SCT",
+      "stock": 1,
+      "part_numbers": [
+        "F-200"
+      ],
+      "interchange": [],
+      "vehicles": [],
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398352067972",
+      "ebay_type": "Ignition Condenser",
+      "ebay_brand": "Delco Remy",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Condensers",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "medium",
+      "fitment": {
+        "part_numbers": [
+          "F-200"
+        ],
+        "interchange": [],
+        "vehicles": [],
+        "vehicle_labels": [],
+        "raw_compat_rows": 0,
+        "source": "ebay_listing",
+        "confidence": "medium",
+        "ebay_item_id": "398352067972",
+        "type": "Ignition Condenser",
+        "brand": "Delco Remy",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Condensers"
+      }
     },
     {
       "id": "F4ZAWKHZUGJQDPNRUSVBI5AQ",
@@ -60184,6 +60260,71 @@
       "stock": 1
     },
     {
+      "id": "4OYXQDU5RDADPZSERIFIO4QG",
+      "name": "Sosmetal PV-590 PCV Valve MX6 RX-7 626 NOS",
+      "price": 12.49,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/c6a174ca732e1cc3b11dd67a5621e514922525e6/original.jpeg",
+      "url": "https://square.link/u/5WQGbpav",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "QOTSJG4QDEYUOIF2CSWZJ3HH",
+      "stock": 1,
+      "part_numbers": [
+        "PV-590"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1990\u20131997 Mazda 626",
+        "1993\u20131995 Mazda RX-7"
+      ],
+      "vehicle_count_raw": 43,
+      "ebay_item_id": "398352069004",
+      "ebay_type": "PCV Valve",
+      "ebay_brand": "Sosmetal",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Filters",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "PV-590"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1990,
+            "year_to": 1997,
+            "make": "Mazda",
+            "model": "626",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1993,
+            "year_to": 1995,
+            "make": "Mazda",
+            "model": "RX-7",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1990\u20131997 Mazda 626",
+          "1993\u20131995 Mazda RX-7"
+        ],
+        "raw_compat_rows": 43,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398352069004",
+        "type": "PCV Valve",
+        "brand": "Sosmetal",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Filters"
+      }
+    },
+    {
       "id": "45QCCVHCD3OGIHM53VDOFBKJ",
       "name": "Standard D1980 Ignition Module NOS IAD LX339",
       "price": 39.99,
@@ -68785,6 +68926,71 @@
       "interchange": []
     },
     {
+      "id": "3OH5YXVR7IQJ4KGTOAPYUXVF",
+      "name": "Standard Motor Products SLS-131 Stoplight Switch Skylark Riviera NOS",
+      "price": 14.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/2ad2cd83951c85a5ba98dbc841930667d63e8da6/original.jpeg",
+      "url": "https://square.link/u/STtjSJhJ",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "EN7MMGPNQXJP55FJORGPL2GF",
+      "stock": 1,
+      "part_numbers": [
+        "SLS-131"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1991 Buick Riviera",
+        "1986\u20131992 Buick Skylark"
+      ],
+      "vehicle_count_raw": 71,
+      "ebay_item_id": "398352071195",
+      "ebay_type": "Stoplight Switch",
+      "ebay_brand": "Standard Motor Products",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Starters, Alternators, ECUs & Wiring:Relays",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "SLS-131"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1991,
+            "year_to": 1991,
+            "make": "Buick",
+            "model": "Riviera",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1986,
+            "year_to": 1992,
+            "make": "Buick",
+            "model": "Skylark",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1991 Buick Riviera",
+          "1986\u20131992 Buick Skylark"
+        ],
+        "raw_compat_rows": 71,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398352071195",
+        "type": "Stoplight Switch",
+        "brand": "Standard Motor Products",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Starters, Alternators, ECUs & Wiring:Relays"
+      }
+    },
+    {
       "id": "MMNA66XAHHCD4RP6WZH4BGI6",
       "name": "Standard Motor Products SLS66 Stoplight Switch NOS 68-71 Ambassador American",
       "price": 12.99,
@@ -69445,6 +69651,71 @@
       "interchange": []
     },
     {
+      "id": "M6TVIH3HUDQXQ4PBHLGEW3YR",
+      "name": "Standard Motor Products TS176 Temp Send 84-93 Daytona Caravan NOS",
+      "price": 30.14,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/70b1841755fe254f4593d2a933b04283f8887561/original.jpeg",
+      "url": "https://square.link/u/3Ei8mkF2",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "WYERJOOTNLGKWCGBQRQSBCFP",
+      "stock": 1,
+      "part_numbers": [
+        "TS176"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1984\u20131993 Chrysler Daytona",
+        "1984\u20131996 Dodge Caravan"
+      ],
+      "vehicle_count_raw": 187,
+      "ebay_item_id": "398352071832",
+      "ebay_type": "Coolant Temperature Sending Switch",
+      "ebay_brand": "Standard Motor Products",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Interior Parts & Accessories:Switches & Controls",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "TS176"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1984,
+            "year_to": 1993,
+            "make": "Chrysler",
+            "model": "Daytona",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 1996,
+            "make": "Dodge",
+            "model": "Caravan",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1984\u20131993 Chrysler Daytona",
+          "1984\u20131996 Dodge Caravan"
+        ],
+        "raw_compat_rows": 187,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398352071832",
+        "type": "Coolant Temperature Sending Switch",
+        "brand": "Standard Motor Products",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Interior Parts & Accessories:Switches & Controls"
+      }
+    },
+    {
       "id": "44Y5HILGGT62F7AEHA3ZBO5Q",
       "name": "Standard Motor Products TX3 Coolant Temperature Sender Silverado Sierra NOS",
       "price": 24.29,
@@ -69496,6 +69767,71 @@
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Intake & Fuel Sensors",
       "stock": 1,
       "interchange": []
+    },
+    {
+      "id": "V2ZZQ6HGOXOGXQO2TEUHFS3E",
+      "name": "Standard Motor Products TX6 Coolant Temperature Sensor Thunderbird Taurus NOS",
+      "price": 22.28,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/45e17e8199a3323ef418049fc8150cd410de8f62/original.jpeg",
+      "url": "https://square.link/u/9mmAcWHs",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "TGH7R4AOKLRKWLJY46WIC4UA",
+      "stock": 1,
+      "part_numbers": [
+        "TX6"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1986\u20131995 Ford Taurus",
+        "1983\u20131995 Ford Thunderbird"
+      ],
+      "vehicle_count_raw": 239,
+      "ebay_item_id": "398352072342",
+      "ebay_type": "Coolant Temperature Sensor",
+      "ebay_brand": "Standard Motor Products",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Intake & Fuel Sensors",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "TX6"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1986,
+            "year_to": 1995,
+            "make": "Ford",
+            "model": "Taurus",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1983,
+            "year_to": 1995,
+            "make": "Ford",
+            "model": "Thunderbird",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1986\u20131995 Ford Taurus",
+          "1983\u20131995 Ford Thunderbird"
+        ],
+        "raw_compat_rows": 239,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398352072342",
+        "type": "Coolant Temperature Sensor",
+        "brand": "Standard Motor Products",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Intake & Fuel Sensors"
+      }
     },
     {
       "id": "44TXEAZR2J7BS4YN2LYIQGUK",
@@ -70915,6 +71251,44 @@
       "ebay_brand": "Standard",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Starters, Alternators, ECUs & Wiring:Starter Motor Parts",
       "stock": 2
+    },
+    {
+      "id": "SYZF7WE5KAHVK7TOZXZ7DVAW",
+      "name": "Standard ST60 Push-On Metal Wire Terminal Clips 34 of 50 NOS",
+      "price": 14.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/a3feb6d83a613b6aa86c55fb5e896b1c8d5121bb/original.jpeg",
+      "url": "https://square.link/u/KNxGvL5s",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "GFNLVAE47D32LUZUKIFBML6Y",
+      "stock": 1,
+      "part_numbers": [
+        "ST60"
+      ],
+      "interchange": [],
+      "vehicles": [],
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398351996136",
+      "ebay_type": "Electrical Connector",
+      "ebay_brand": "Standard Motor Products",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Starters, Alternators, ECUs & Wiring:Wiring Harnesses, Cables & Connectors",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "medium",
+      "fitment": {
+        "part_numbers": [
+          "ST60"
+        ],
+        "interchange": [],
+        "vehicles": [],
+        "vehicle_labels": [],
+        "raw_compat_rows": 0,
+        "source": "ebay_listing",
+        "confidence": "medium",
+        "ebay_item_id": "398351996136",
+        "type": "Electrical Connector",
+        "brand": "Standard Motor Products",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Starters, Alternators, ECUs & Wiring:Wiring Harnesses, Cables & Connectors"
+      }
     },
     {
       "id": "I7XZKPK4PXRWNG7KFILRPHK7",
@@ -75227,5 +75601,5 @@
       "stock": 1
     }
   ],
-  "fitment_built": "2026-09-02T18:01:02Z"
+  "fitment_built": "2026-09-02T19:01:10Z"
 }
