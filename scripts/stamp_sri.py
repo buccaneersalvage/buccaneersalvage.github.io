@@ -18,6 +18,8 @@ ASSETS = (
     "styles.css",
     "videos.css",
     "main.js",
+    "formspree-config.js",
+    "contact.js",
     "store.js",
     "pdp-gallery.js",
     "videos.js",

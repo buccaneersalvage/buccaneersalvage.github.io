@@ -919,3 +919,17 @@
     .phone-line a { color: var(--gold); font-family: var(--mono); }
 
   
+
+/* shared with hub contact status (services intake) */
+.contact-status {
+  margin: 0 0 1rem;
+  max-width: 720px;
+  padding: 0.75rem 0.9rem;
+  border-radius: 10px;
+  border: 1px solid rgba(212,175,55,0.35);
+  background: rgba(212,175,55,0.08);
+  line-height: 1.45;
+}
+.contact-status--ok { border-color: rgba(90,180,110,0.5); background: rgba(90,180,110,0.12); }
+.contact-status--err { border-color: rgba(200,80,80,0.55); background: rgba(200,80,80,0.12); }
+.contact-status--warn { border-color: rgba(220,160,40,0.55); background: rgba(220,160,40,0.12); }

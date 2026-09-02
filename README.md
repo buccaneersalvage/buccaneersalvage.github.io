@@ -20,3 +20,5 @@ Old `jollyroger1480.github.io` is **deleted (404)** — only `buccaneersalvage.g
 ## Deploy
 
 GitHub Pages: org repo `buccaneersalvage/buccaneersalvage.github.io` (hub at `/`, ukiri at `/ukiri/`).
+
+Contact form: Formspree — see `FORMSPREE.md` (claim URL + endpoint wiring).

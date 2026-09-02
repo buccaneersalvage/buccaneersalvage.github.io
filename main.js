@@ -646,8 +646,8 @@
 
   const PHONE = "(570) 468-2901";
   const PHONE_HREF = "tel:+15704682901";
-  const EMAIL = "jollyroger1480@gmail.com";
-  const EMAIL_HREF = "mailto:jollyroger1480@gmail.com";
+  const EMAIL = "Contact";
+  const EMAIL_HREF = "contact.html";  // Formspree contact — no public mailbox
   const EMAIL_LINK = "<a href=\"" + EMAIL_HREF + "\">" + EMAIL + "</a>";
   const PHONE_LINK = "<a href=\"" + PHONE_HREF + "\">" + PHONE + "</a>";
   const PAGE = (location.pathname.split("/").pop() || "index.html").toLowerCase();
@@ -658,7 +658,7 @@
   const CONTACT_SCRAP = PHONE_OK ? PHONE_LINK : "<a href=\"/scrap.html\">Scrap Removal</a>";
   const ASK_SUB = PHONE_OK
     ? "Basic answers. Call if you need a person."
-    : "Basic answers. Email if you need a person.";
+    : "Basic answers. Use Contact if you need a person.";
 
   function normalize(text) {
     return String(text || "")
@@ -673,13 +673,13 @@
       id: "dispute",
       escalate: true,
       keys: ["dispute", "attorney", "lawyer", "lawsuit", "legal action"],
-      html: "We will review this. Please email " + EMAIL_LINK + ".",
+      html: "We will review this. Please use the " + EMAIL_LINK + ".",
     },
     {
       id: "damage",
       escalate: true,
       keys: ["damaged", "broken", "defect", "crushed", "wrong item"],
-      html: "Sorry that happened. Email " + EMAIL_LINK + " and we will sort it.",
+      html: "Sorry that happened. Please use the " + EMAIL_LINK + " and we will sort it out.",
     },
     {
       id: "order",
@@ -693,7 +693,7 @@
         "cancel my order",
       ],
       html:
-        "This chat cannot look up orders. Bought here: email " +
+        "This chat cannot look up orders. Bought here: use the " +
         EMAIL_LINK +
         ". Bought on eBay: message that listing.",
     },
@@ -728,7 +728,7 @@
       escalate: false,
       keys: ["pickup", "pick up", "pick it up", "come get", "come by", "appointment"],
       html:
-        "Local parts pickup at 12 Beech St, Carbondale, PA 18407, by appointment. Email " +
+        "Local parts pickup at 12 Beech St, Carbondale, PA 18407, by appointment. Use the " +
         EMAIL_LINK +
         " to set a time. Scrap or junk: " +
         SCRAP_HINT +

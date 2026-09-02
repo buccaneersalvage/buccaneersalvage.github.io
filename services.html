@@ -6,7 +6,7 @@
   <title>eBay Listing Service - Parts &amp; Vintage Fitment Research from $2.50 | BuccaneerSalvage</title>
   <meta name="description" content="I write eBay listings for parts and vintage sellers. Plain listing $2.50, HTML listing $5, 10 plain for $20, store look-over $19, monthly from $29. You approve every draft. Square payments.">
   <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; font-src 'self' data:; img-src 'self' data: https://i.ebayimg.com https://i.ibb.co; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none'; frame-src 'none';" />
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; font-src 'self' data:; img-src 'self' data: https://i.ebayimg.com https://i.ibb.co; connect-src 'self' https://formspree.io; object-src 'none'; base-uri 'self'; form-action 'self' https://formspree.io; frame-src 'none';" />
   <link rel="canonical" href="https://buccaneersalvage.github.io/services.html">
 
   <meta property="og:type" content="website">
@@ -40,7 +40,11 @@
       "@type": "LocalBusiness",
       "name": "BuccaneerSalvage",
       "url": "https://buccaneersalvage.github.io/",
-      "email": "jollyroger1480@gmail.com",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "customer service",
+        "url": "https://buccaneersalvage.github.io/contact.html"
+      },
       "address": {
         "@type": "PostalAddress",
         "addressLocality": "Carbondale",
@@ -60,8 +64,8 @@
         { "@type": "Offer", "name": "Catalog 25 Plain SKUs", "price": "50.00", "priceCurrency": "USD", "description": "Bulk CSV or batched Seller Hub delivery. 50 SKUs $90. Same-MPN-family variants cheaper." },
         { "@type": "Offer", "name": "Store Audit", "price": "19.00", "priceCurrency": "USD", "description": "Look-over of the first 50 listings with a written list of what is wrong. Rewriting a listing $2.50 plain or $5 HTML after you pick." },
         { "@type": "Offer", "name": "Audit + First 10 Fixes", "price": "39.00", "priceCurrency": "USD", "description": "Look-over plus rewriting the first ten plain listings you pick, checked after they go live." },
-        { "@type": "Offer", "name": "Maintain Retainer", "price": "29.00", "priceCurrency": "USD", "description": "Monthly: 12 new plain listings or 6 HTML. If eBay rejects one of those listings, I rewrite it at no extra charge. Extra listings $2.50 plain / $4 HTML." },
-        { "@type": "Offer", "name": "Partner Retainer", "price": "59.00", "priceCurrency": "USD", "description": "Monthly: 25 plain or 12 HTML listings, extra listings $2.50/$4, rewrites on those listings up to 30 a month." },
+        { "@type": "Offer", "name": "Maintain Retainer", "price": "29.00", "priceCurrency": "USD", "description": "Monthly: 16 new plain listings or 8 HTML. If eBay rejects one of those listings, I rewrite it at no extra charge. Extra listings $2.50 plain / $5 HTML." },
+        { "@type": "Offer", "name": "Partner Retainer", "price": "59.00", "priceCurrency": "USD", "description": "Monthly: 30 plain or 15 HTML listings, extra listings $2.50/$5, rewrites on those listings up to 40 a month." },
         { "@type": "Offer", "name": "Landing Page", "price": "199.00", "priceCurrency": "USD", "description": "One-page site from the demo gallery. Extra page $99, copy-only $149." }
       ]
     },
@@ -89,7 +93,7 @@
     ]
   }
   </script>
-    <link rel="stylesheet" href="services.css?v=69a301aca7" integrity="sha384-wKVP9v1UvAokJxzsHnwm2pSbQTaa/wNWhUiSozHP7Yl/au7tPfvKg5SHca0krczG" />
+    <link rel="stylesheet" href="services.css?v=f9de0bd974" integrity="sha384-iLiEeywjCG/aRFyvCV4jzMW/Guv+9EpAmjN3T89eQ3f4NocL2nc5Q933kE7o8aF1" />
 </head>
 <body>
   <div class="grain" aria-hidden="true"></div>
@@ -121,7 +125,7 @@
       <a href="templates-example.html">Templates</a>
       <a href="terms-service.html">Service terms</a>
       <a href="scrap.html">Scrap Removal</a>
-      <a href="mailto:jollyroger1480@gmail.com">Email jollyroger1480@gmail.com</a>
+      <a href="contact.html">Contact</a>
     </div>
   </header>
 
@@ -186,9 +190,9 @@
             <p class="price-amount">$29<span>/month</span></p>
             <p class="price-per">Twelve new plain listings a month, or six with HTML. If eBay later flags one of those listings, I rewrite it at no extra charge.</p>
             <ul class="price-features">
-              <li class="price-feature"><strong>12 plain or 6 HTML</strong> each month. Extra listings <strong>$2.50 plain / $4 HTML</strong></li>
+              <li class="price-feature"><strong>16 plain or 8 HTML</strong> each month. Extra listings <strong>$2.50 plain / $5 HTML</strong></li>
               <li class="price-feature">If eBay rejects one of those listings, I rewrite it. No extra bill.</li>
-              <li class="price-feature">Need more volume? <strong>Partner $59/mo</strong> is 25 plain or 12 HTML. Extra listings $2.50 / $4. Rewrites on those listings, up to 30 a month</li>
+              <li class="price-feature">Need more volume? <strong>Partner $59/mo</strong> is 30 plain or 15 HTML. Extra listings $2.50 / $5. Rewrites on those listings, up to 40 a month</li>
               <li class="price-feature">Slow month: pause 30 days, once per 6 months. Unused listings from that month roll one month</li>
               <li class="price-feature">Quit anytime. You only pay for work already delivered</li>
             </ul>
@@ -236,7 +240,7 @@
         </div>
 
         <div class="why-strip reveal">
-          <p><strong>After you pay, email me what you need.</strong> Photos, part numbers, store URL, which design — <a href="mailto:jollyroger1480@gmail.com">jollyroger1480@gmail.com</a>. Work starts once that email lands.</p>
+          <p><strong>After you pay, send what you need.</strong> Photos, part numbers, store URL, which design — use <a href="contact.html">Contact</a>. Work starts once that message lands.</p>
         </div>
         <div class="why-strip reveal">
           <p>I don't guess fitment to fill a table. If the catalog doesn't support a row, the listing says so. One person, my own store as the test bed, you approve every draft.</p>
@@ -426,9 +430,10 @@
       <div class="shell">
         <div class="section-head reveal">
           <p class="section-eyebrow">After you pay</p>
-          <h2 class="section-title">Email me what you need</h2>
+          <h2 class="section-title">After you pay, tell me what you need</h2>
           <p class="section-aside">Pay on Square first. Then send this so I know what to build. No account, no signup.</p>
         </div>
+        <p id="f-status" class="contact-status" hidden role="status" aria-live="polite"></p>
         <div class="intake-form reveal">
           <div><label for="f-email">Your email</label><input id="f-email" type="email" placeholder="you@store.com"></div>
           <div><label for="f-store">eBay store URL</label><input id="f-store" type="url" placeholder="ebay.com/str/yourstore"></div>
@@ -448,13 +453,13 @@
               <option>Plain listing $2.50</option>
               <option>HTML listing $5</option>
               <option>Store look-over</option>
-              <option>Maintain $29/mo (12 plain / 6 HTML)</option>
-              <option>Partner $59/mo (25 plain / 12 HTML)</option>
+              <option>Maintain $29/mo (16 plain / 8 HTML)</option>
+              <option>Partner $59/mo (30 plain / 15 HTML)</option>
               <option>Landing page $199</option>
             </select>
           </div>
           <div class="full"><label for="f-photos">Link to photo folder (Drive/Dropbox - optional)</label><input id="f-photos" type="url" placeholder="https://..."></div>
-          <div class="full"><button type="button" class="btn btn-primary btn-block" id="f-send">Compose email
+          <div class="full"><button type="button" class="btn btn-primary btn-block" id="f-send">Send intake
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
           </button></div>
         </div>
@@ -479,8 +484,8 @@
     <section class="section">
       <div class="shell">
         <div class="cta-band reveal">
-          <h2 class="cta-title">Pay, then email me what you need.</h2>
-          <p class="cta-sub">Square checkout first. After it clears, email photos, part numbers, or your store URL to <a href="mailto:jollyroger1480@gmail.com">jollyroger1480@gmail.com</a>.</p>
+          <h2 class="cta-title">Pay, then send the details</h2>
+          <p class="cta-sub">Square checkout first. After it clears, send photos, part numbers, or your store URL through <a href="contact.html">Contact</a>.</p>
           <div class="cta-actions">
             <a href="https://square.link/u/3WUeH2X6" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Pay $2.50 - one plain listing</a>
           </div>
@@ -504,7 +509,7 @@
           <img src="assets/crest-rustjack-web.jpg" width="28" height="28" alt="BuccaneerSalvage crest">
           <span class="footer-brand-name">BuccaneerSalvage</span>
         </a>
-        <p class="footer-copy">© 2026 BuccaneerSalvage · Carbondale, PA · jollyroger1480@gmail.com</p>
+        <p class="footer-copy">© 2026 BuccaneerSalvage · Carbondale, PA · <a href="contact.html">Contact</a></p>
         <nav class="footer-links" aria-label="Footer">
           <a href="index.html">Home</a>
           <a href="store.html">Store</a>
@@ -518,6 +523,7 @@
     </div>
   </footer>
 
-  <script src="services.js?v=93bc055302" integrity="sha384-k1nZc5pkW8XSbfVQ79C5iOpZyoTal2gE9nWn9jvTQtmUABKSaaJHUV46JtJiktDR" defer></script>
+  <script src="formspree-config.js?v=ceb6c76477" integrity="sha384-ueEuUiZOLQaQmHtvI1zEi8sjOSgrPYprb7VdeQEdcuH7rfYE90ZCRu0milOV0TmB" defer></script>
+  <script src="services.js?v=a2a437a0ba" integrity="sha384-V4EbPzc/+UsJjw2LzOeCqAOvxZtGDmLz5Xp7NJqY+swHbN2n8LGv15YSfxBLS5FN" defer></script>
 </body>
 </html>

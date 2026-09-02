@@ -34,8 +34,9 @@
     if (!m) return null;
     const n = parseFloat(m[0]);
     if (!Number.isFinite(n)) return null;
-    // Amounts are never negative for this catalog — clamp
-    return Math.max(0, Math.abs(n));
+    // Min/max filters reject negatives (do not abs-clamp — that made -50 act like 0)
+    if (n < 0) return null;
+    return n;
   }
 
   /**

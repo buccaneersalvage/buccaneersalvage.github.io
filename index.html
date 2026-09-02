@@ -11,7 +11,7 @@
   <meta name="apple-mobile-web-app-title" content="BuccaneerSalvage" />
   <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
   <meta name="theme-color" content="#050403" />
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data: https://items-images-production.s3.us-west-2.amazonaws.com https://*.s3.us-west-2.amazonaws.com https://*.s3.amazonaws.com https://*.squareup.com https://*.squarecdn.com; font-src 'self' data:; connect-src 'self' https://buc-square-checkout.jollyroger1480.workers.dev; base-uri 'self'; form-action 'self'; object-src 'none'; frame-src 'none';" />
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data: https://items-images-production.s3.us-west-2.amazonaws.com https://*.s3.us-west-2.amazonaws.com https://*.s3.amazonaws.com https://*.squareup.com https://*.squarecdn.com; font-src 'self' data:; connect-src 'self' https://buc-square-checkout.jollyroger1480.workers.dev https://formspree.io; base-uri 'self'; form-action 'self' https://formspree.io; object-src 'none'; frame-src 'none';" />
   <meta name="referrer" content="strict-origin-when-cross-origin" />
   <link rel="canonical" href="https://buccaneersalvage.github.io/" />
 
@@ -38,7 +38,7 @@
   <link rel="preload" as="font" href="assets/fonts/QGYvz_MVcBeNP4NJtEtq.woff2" type="font/woff2" crossorigin />
   <link rel="preload" as="image" href="assets/hero-atmosphere-web-480.webp" type="image/webp" fetchpriority="high" />
   <link rel="stylesheet" href="assets/fonts.css?v=d1b92d3ff4" integrity="sha384-IDnmxIHyfCaSAssmrqXZbMSqgbRm8AATad26bBSjsyTVbgLbsvJXqeQW642rJQFS" />
-  <link rel="stylesheet" href="styles.css?v=ca09a30653" integrity="sha384-LcFblKsafJH82DkKA1rSlmT7yre/AtnNtQQzDBgUw78GRWFQom454EMfA4LDq07d" />
+  <link rel="stylesheet" href="styles.css?v=99baeb55fe" integrity="sha384-P2J3OUaStkspeLLLJv9wINWKmhtZPG3xyq03xA+SkLnR+A+7c7kaGzN348mWZOsq" />
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -69,7 +69,11 @@
         "alternateName": ["Cap'n Jules the Rustjack", "Rustjack"],
         "url": "https://buccaneersalvage.github.io/",
         "telephone": "+1-570-468-2901",
-        "email": "jollyroger1480@gmail.com",
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "contactType": "customer service",
+          "url": "https://buccaneersalvage.github.io/contact.html"
+        },
         "image": "https://buccaneersalvage.github.io/assets/og-share.jpg",
         "logo": {
           "@type": "ImageObject",
@@ -121,7 +125,11 @@
         "@id": "https://buccaneersalvage.github.io/#organization",
         "name": "BuccaneerSalvage",
         "url": "https://buccaneersalvage.github.io/",
-        "email": "jollyroger1480@gmail.com",
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "contactType": "customer service",
+          "url": "https://buccaneersalvage.github.io/contact.html"
+        },
         "logo": {
           "@type": "ImageObject",
           "url": "https://buccaneersalvage.github.io/assets/crest-rustjack-web.jpg"
@@ -149,7 +157,11 @@
         "name": "Cap'n Jules the Rustjack",
         "alternateName": ["Julian Deuerlein", "Rustjack", "jollyroger1480"],
         "url": "https://buccaneersalvage.github.io/",
-        "email": "jollyroger1480@gmail.com",
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "contactType": "customer service",
+          "url": "https://buccaneersalvage.github.io/contact.html"
+        },
         "image": "https://buccaneersalvage.github.io/assets/crest-rustjack-web.jpg",
         "jobTitle": "Creator · salvager · dark AI music",
         "homeLocation": {
@@ -186,7 +198,7 @@
         "itemListElement": [
           {"@type": "ListItem", "position": 1, "name": "BuccaneerSalvage Store", "url": "https://buccaneersalvage.github.io/store.html"},
           {"@type": "ListItem", "position": 2, "name": "eBay BuccaneerSalvage (secondary)", "url": "https://www.ebay.com/str/buccaneersalvage"},
-          {"@type": "ListItem", "position": 3, "name": "Local scrap & e-waste", "url": "https://buccaneersalvage.github.io/scrap.html"},
+          {"@type": "ListItem", "position": 3, "name": "Scrap Removal", "url": "https://buccaneersalvage.github.io/scrap.html"},
           {"@type": "ListItem", "position": 4, "name": "YouTube @BuccaneerSalvage", "url": "https://www.youtube.com/@BuccaneerSalvage"},
           {"@type": "ListItem", "position": 5, "name": "Ukiri dossier", "url": "https://buccaneersalvage.github.io/ukiri/"},
           {"@type": "ListItem", "position": 6, "name": "X @jollyroger1480", "url": "https://x.com/jollyroger1480"}
@@ -274,7 +286,7 @@
             </a>
           </div>
           <div class="hero-meta">
-            <a href="mailto:jollyroger1480@gmail.com" class="link-bare">jollyroger1480@gmail.com</a>
+            <a href="contact.html" class="link-bare">Contact</a>
             <span>Pickup PA 18407</span>
           </div>
         </div>
@@ -361,7 +373,7 @@
               <h3>Scrap free · e-waste for a fee</h3>
               <p>Carbondale / NEPA: free scrap metal haul by appointment. Junk removal and e-waste are paid. Call or text to schedule.</p>
               <span class="port-go">
-                Open scrap &amp; e-waste
+                Open Scrap Removal
                 <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
               </span>
             </div>
@@ -428,7 +440,7 @@
               Full details, photos of the yard, and booking live on the
               <a class="link-gold" href="scrap.html">Scrap Removal page</a>.
               Call or text <a class="link-gold" href="tel:+15704682901">(570) 468-2901</a>
-              · email <a class="link-gold" href="mailto:jollyroger1480@gmail.com">jollyroger1480@gmail.com</a>.
+              · <a class="link-gold" href="contact.html">Contact</a>.
             </p>
             <p>
               Online parts ship US-wide from the <a class="link-gold" href="store.html">site store</a>
@@ -544,10 +556,8 @@
       <div>
         <h2>Contact</h2>
         <div class="footer-contact">
-          <a href="mailto:jollyroger1480@gmail.com">
-            <span class="footer-contact-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg></span>
-            jollyroger1480@gmail.com
-          </a>
+          <a href="contact.html">
+            <span class="footer-contact-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg></span>Contact</a>
           <a href="scrap.html">
             <span class="footer-contact-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s7-4.5 7-11a7 7 0 1 0-14 0c0 6.5 7 11 7 11z"/><circle cx="12" cy="10" r="2.5"/></svg></span>
             Scrap Removal
@@ -575,6 +585,6 @@
     </div>
   </footer>
 
-  <script src="main.js?v=92c5380c18" integrity="sha384-4lJkMILV4kOoQOSYCx2bZyS7YbFLH40nNjDz+M72w4SU3zdL3JfXYR3QdBbckI4s" defer></script>
+  <script src="main.js?v=a20276f511" integrity="sha384-eJBlJeLvnBZBgpo48H5MCF9OslT91hbEk4eOXsYOq7/bYi+yn/8pSnnFqn4sncyv" defer></script>
 </body>
 </html>

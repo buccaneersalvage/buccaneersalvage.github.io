@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Contact &mdash; BuccaneerSalvage</title>
+  <meta name="description" content="Contact BuccaneerSalvage in Carbondale PA: parts questions, scrap booking, order help. Form goes straight to the yard — no mail app required." />
+  <meta name="robots" content="index, follow" />
+  <meta name="theme-color" content="#050403" />
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data: https://items-images-production.s3.us-west-2.amazonaws.com https://*.s3.us-west-2.amazonaws.com https://*.s3.amazonaws.com https://*.squareup.com https://*.squarecdn.com; font-src 'self' data:; connect-src 'self' https://buc-square-checkout.jollyroger1480.workers.dev https://formspree.io; base-uri 'self'; form-action 'self' https://formspree.io; object-src 'none'; frame-src 'none';" />
+  <meta name="referrer" content="strict-origin-when-cross-origin" />
+  <link rel="canonical" href="https://buccaneersalvage.github.io/contact.html" />
+  <link rel="icon" type="image/jpeg" href="assets/crest-rustjack-web.jpg" />
+  <link rel="stylesheet" href="assets/fonts.css?v=d1b92d3ff4" integrity="sha384-IDnmxIHyfCaSAssmrqXZbMSqgbRm8AATad26bBSjsyTVbgLbsvJXqeQW642rJQFS" />
+  <link rel="stylesheet" href="styles.css?v=99baeb55fe" integrity="sha384-P2J3OUaStkspeLLLJv9wINWKmhtZPG3xyq03xA+SkLnR+A+7c7kaGzN348mWZOsq" />
+</head>
+<body class="page-store page-legal page-contact">
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="nav is-solid" role="banner" id="nav">
+    <div class="nav-inner">
+      <a class="nav-brand" href="index.html" aria-label="BuccaneerSalvage home">
+        <picture><source type="image/webp" srcset="assets/crest-rustjack-web.webp" /><img class="nav-mark" src="assets/crest-rustjack-web.jpg" width="38" height="38" alt="BuccaneerSalvage Jolly Roger logo" /></picture>
+        <span class="nav-word">BuccaneerSalvage</span>
+      </a>
+      <nav class="nav-links" aria-label="Primary">
+        <a href="index.html">Home</a>
+        <a href="store.html">Store</a>
+        <a href="terms.html">Terms</a>
+        <a href="videos.html">Music</a>
+        <a class="nav-port" href="scrap.html"><img class="nav-port-icon" loading="lazy" decoding="async" src="assets/nav/scrap-pirate-48.webp" width="22" height="22" alt="" />Scrap Removal</a>
+        <a href="map.html">Directions</a>
+        <a href="/ukiri/" class="nav-warn">Ukiri dossier</a>
+      </nav>
+      <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="drawer" id="navToggle">
+        <span></span>
+      </button>
+    </div>
+    <div class="nav-drawer" id="drawer" hidden>
+      <a href="index.html">Home</a>
+      <a href="store.html">Store catalog</a>
+      <a href="privacy.html">Privacy</a>
+      <a href="terms.html">Terms &amp; returns</a>
+      <a href="shame.html">Shame</a>
+      <a href="videos.html">Music</a>
+      <a class="nav-port" href="https://www.ebay.com/str/buccaneersalvage" target="_blank" rel="noopener noreferrer"><img class="nav-port-icon" loading="lazy" decoding="async" src="assets/nav/ebay-pirate-48.webp" width="22" height="22" alt="" />eBay (secondary)</a>
+      <a class="nav-port" href="scrap.html"><img class="nav-port-icon" loading="lazy" decoding="async" src="assets/nav/scrap-pirate-48.webp" width="22" height="22" alt="" />Scrap Removal</a>
+      <a href="map.html">Directions &amp; map</a>
+      <a class="nav-port" href="https://www.youtube.com/@BuccaneerSalvage" target="_blank" rel="noopener noreferrer"><img class="nav-port-icon" loading="lazy" decoding="async" src="assets/nav/youtube-pirate-48.webp" width="22" height="22" alt="" />YouTube</a>
+      <a class="nav-port" href="https://x.com/jollyroger1480" target="_blank" rel="noopener noreferrer"><img class="nav-port-icon" loading="lazy" decoding="async" src="assets/nav/x-pirate-48.webp" width="22" height="22" alt="" />X @jollyroger1480</a>
+      <a href="/ukiri/">Ukiri dossier</a>
+      <a href="contact.html" aria-current="page">Contact</a>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="section">
+      <div class="shell contact-shell">
+        <header class="section-head">
+          <div>
+            <h1 class="section-title">Contact the yard</h1>
+            <p class="section-aside">Parts, scrap, orders, or a quick question. Sends straight to Cap&rsquo;n Jules — no mail app pop-up.</p>
+          </div>
+        </header>
+
+        <p class="contact-lede">
+          Store &amp; listings: use the form. Scrap or junk in NEPA: call/text
+          <a class="link-gold" href="tel:+15704682901">(570) 468-2901</a>
+          or book on <a class="link-gold" href="scrap.html">Scrap Removal</a>.
+          Pickup by appointment · 12 Beech St, Carbondale, PA 18407.
+        </p>
+
+        <p id="bucContactStatus" class="contact-status" hidden role="status" aria-live="polite"></p>
+
+        <form class="contact-form" id="bucContactForm" novalidate>
+          <div class="contact-grid">
+            <div>
+              <label for="c-name">Name</label>
+              <input id="c-name" name="name" type="text" maxlength="100" autocomplete="name" placeholder="Your name" />
+            </div>
+            <div>
+              <label for="c-email">Email <span class="req">required</span></label>
+              <input id="c-email" name="email" type="email" required maxlength="200" autocomplete="email" placeholder="you@example.com" />
+            </div>
+            <div>
+              <label for="c-phone">Phone</label>
+              <input id="c-phone" name="phone" type="tel" maxlength="40" autocomplete="tel" placeholder="Optional" />
+            </div>
+            <div>
+              <label for="c-topic">Topic</label>
+              <input id="c-topic" name="topic" type="text" maxlength="80" placeholder="Order, fitment, scrap, services…" />
+            </div>
+            <div class="full">
+              <label for="c-message">Message <span class="req">required</span></label>
+              <textarea id="c-message" name="message" required maxlength="2000" rows="6" placeholder="What do you need?"></textarea>
+            </div>
+            <!-- honeypot -->
+            <div class="hp" aria-hidden="true">
+              <label for="c-gotcha">Leave blank</label>
+              <input id="c-gotcha" name="_gotcha" type="text" tabindex="-1" autocomplete="off" />
+            </div>
+            <div class="full contact-actions">
+              <button type="submit" class="btn btn-primary" id="bucContactSubmit">Send message</button>
+              <a class="btn btn-ghost" href="store.html">Shop the store</a>
+            </div>
+          </div>
+        </form>
+
+        <p class="contact-foot">
+          This form goes straight to the yard — no public mailbox on the site.
+          <a class="link-gold" href="privacy.html">Privacy</a> ·
+          <a class="link-gold" href="index.html">Hub</a>
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer role="contentinfo" class="footer">
+    <div class="shell footer-bottom">
+      <span>&copy; <span id="y">2026</span> Rustjack &middot; BuccaneerSalvage</span>
+      <nav class="footer-bottom-links" aria-label="More">
+        <a href="index.html">Hub</a>
+        <a href="store.html">Store</a>
+        <a href="terms.html">Terms</a>
+        <a href="privacy.html">Privacy</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="formspree-config.js?v=ceb6c76477" integrity="sha384-ueEuUiZOLQaQmHtvI1zEi8sjOSgrPYprb7VdeQEdcuH7rfYE90ZCRu0milOV0TmB" defer></script>
+  <script src="contact.js?v=2bb0155cd9" integrity="sha384-+Df1SYm3ZWQrxTzPLRdXfv4X4Kc51R2QeTK5LFvmd16qymTsUH04IxRa0tmkhhKw" defer></script>
+  <script src="main.js?v=a20276f511" integrity="sha384-eJBlJeLvnBZBgpo48H5MCF9OslT91hbEk4eOXsYOq7/bYi+yn/8pSnnFqn4sncyv" defer></script>
+</body>
+</html>
