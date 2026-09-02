@@ -39,15 +39,16 @@ That is usually fine for real yard traffic. It is **not** fine if bots hammer th
 
 After `formspree-config.js` change: `python3 scripts/stamp_sri.py`, commit, push Pages. Smoke-test `/contact.html` once (counts against the 50).
 
-## Square checkout → Formspree (after pay)
+## Square → Formspree (eBay listing services only)
 
-Square and Formspree do **not** share a backend. Tie-in is **redirect after pay** onto Contact (Formspree `mlggwlyo`):
+Square and Formspree do **not** share a backend. Formspree is only for **messages**, not payment.
 
 | Path | After-pay landing |
 |------|-------------------|
-| Hub **cart** (Worker payment links) | `REDIRECT_URL` → `contact.html?source=square-store&topic=Store%20order` |
-| **Services** `square.link` buttons | In Square Dashboard → each Payment Link → **After payment** / redirect URL → `https://buccaneersalvage.github.io/contact.html?source=square-services&topic=Listing%20services` |
+| Hub **store cart** (Worker) | `thanks.html` — pirate thank-you. **No** Formspree redirect. Optional Contact link on that page. |
+| **eBay listing services** (`services.html` / `square.link`) | Square Dashboard → each Payment Link → **After payment** redirect → `https://buccaneersalvage.github.io/contact.html?source=square-services&topic=Listing%20services` so buyers can send photos / PNs / store URL via Formspree `mlggwlyo`. |
 
-Contact prefills topic/message and tags Formspree `source` (`hub-contact-square-store` / `hub-contact-square-services`). Still counts against the **50/mo** free pool — only when the buyer actually sends the form.
+Contact tags Formspree `source=hub-contact-square-services`. Counts against the **50/mo** pool only when they submit the form.
 
-Do **not** POST every Square webhook into Formspree (burns quota; no buyer message).
+Do **not** POST Square webhooks into Formspree (burns quota). Do **not** send store checkout to Contact by default.
+
