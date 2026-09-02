@@ -651,7 +651,7 @@
   const EMAIL_LINK = "<a href=\"" + EMAIL_HREF + "\">" + EMAIL + "</a>";
   const PHONE_LINK = "<a href=\"" + PHONE_HREF + "\">" + PHONE + "</a>";
   const PAGE = (location.pathname.split("/").pop() || "index.html").toLowerCase();
-  const PHONE_OK = PAGE === "scrap.html" || PAGE === "map.html";
+  const PHONE_OK = PAGE === "scrap.html";
   const SCRAP_HINT = PHONE_OK
     ? "see <a href=\"/scrap.html\">Scrap Removal</a> or call " + PHONE_LINK
     : "see <a href=\"/scrap.html\">Scrap Removal</a>";
