@@ -114,7 +114,7 @@
     if (isServicesPay) {
       banner.innerHTML =
         '<strong class="gold-em">Next step (required)</strong> ' +
-        "Payment is done. Work starts when this form is sent — not before.";
+        "Payment is done. Work starts when this form is sent — not before. Typical handling: 1–2 business days after we have your details.";
     } else {
       banner.innerHTML =
         '<strong class="gold-em">Optional note</strong> ' +
