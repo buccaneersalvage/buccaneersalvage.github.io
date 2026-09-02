@@ -1,7 +1,7 @@
 {
-  "updated": "2026-09-02T19:01:10Z",
+  "updated": "2026-09-02T20:01:00Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 594,
+  "count": 595,
   "items": [
     {
       "id": "S4IZBA4AG65C6HI2ZDIRMSJR",
@@ -25273,6 +25273,44 @@
       "interchange": []
     },
     {
+      "id": "BXDTJ5LQL26BTQGWU7LXC6HR",
+      "name": "Mighty 4-413 Distributor Rotor NOS",
+      "price": 9.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/746e16bd7ea7a3d23cb53f953b2da68899fa3d8c/original.jpeg",
+      "url": "https://square.link/u/3mYeLEVh",
+      "category": "ignition",
+      "checkout": true,
+      "variation_id": "LJACODGYPJCYIWOMFHFVOG5J",
+      "stock": 1,
+      "part_numbers": [
+        "4-413"
+      ],
+      "interchange": [],
+      "vehicles": [],
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398352122227",
+      "ebay_type": "Distributor Rotor",
+      "ebay_brand": "Mighty",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "medium",
+      "fitment": {
+        "part_numbers": [
+          "4-413"
+        ],
+        "interchange": [],
+        "vehicles": [],
+        "vehicle_labels": [],
+        "raw_compat_rows": 0,
+        "source": "ebay_listing",
+        "confidence": "medium",
+        "ebay_item_id": "398352122227",
+        "type": "Distributor Rotor",
+        "brand": "Mighty",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors"
+      }
+    },
+    {
       "id": "6GLFQLRM64VCWRYXXKKTCQVD",
       "name": "NOS Pace Setter PT345 Distributor Pickup Coil Chrysler Dodge Plymouth Mitsubishi",
       "price": 14.99,
@@ -44279,17 +44317,9 @@
       "category": "other",
       "checkout": true,
       "variation_id": "A3HRZ4M7KWZLZSOL2YS54XZ7",
-      "stock": 1,
       "part_numbers": [
         "RX-103"
       ],
-      "interchange": [],
-      "vehicles": [],
-      "vehicle_count_raw": 0,
-      "ebay_item_id": "398352066416",
-      "ebay_type": "Motor Brush Set",
-      "ebay_brand": "Cornell-Dubilier",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Other Ignition Systems & Components",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "medium",
       "fitment": {
@@ -44306,7 +44336,15 @@
         "type": "Motor Brush Set",
         "brand": "Cornell-Dubilier",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Other Ignition Systems & Components"
-      }
+      },
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398352066416",
+      "ebay_type": "Motor Brush Set",
+      "ebay_brand": "Cornell-Dubilier",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Other Ignition Systems & Components",
+      "stock": 1,
+      "interchange": [],
+      "vehicles": []
     },
     {
       "id": "UIUCPMUO2RIEGBYM4EU3USAQ",
@@ -45892,17 +45930,9 @@
       "category": "other",
       "checkout": true,
       "variation_id": "A65U6GSSNTZARUYTSLZT5SCT",
-      "stock": 1,
       "part_numbers": [
         "F-200"
       ],
-      "interchange": [],
-      "vehicles": [],
-      "vehicle_count_raw": 0,
-      "ebay_item_id": "398352067972",
-      "ebay_type": "Ignition Condenser",
-      "ebay_brand": "Delco Remy",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Condensers",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "medium",
       "fitment": {
@@ -45919,7 +45949,15 @@
         "type": "Ignition Condenser",
         "brand": "Delco Remy",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Condensers"
-      }
+      },
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398352067972",
+      "ebay_type": "Ignition Condenser",
+      "ebay_brand": "Delco Remy",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Condensers",
+      "stock": 1,
+      "interchange": [],
+      "vehicles": []
     },
     {
       "id": "F4ZAWKHZUGJQDPNRUSVBI5AQ",
@@ -60268,20 +60306,13 @@
       "category": "other",
       "checkout": true,
       "variation_id": "QOTSJG4QDEYUOIF2CSWZJ3HH",
-      "stock": 1,
       "part_numbers": [
         "PV-590"
       ],
-      "interchange": [],
       "vehicles": [
         "1990\u20131997 Mazda 626",
         "1993\u20131995 Mazda RX-7"
       ],
-      "vehicle_count_raw": 43,
-      "ebay_item_id": "398352069004",
-      "ebay_type": "PCV Valve",
-      "ebay_brand": "Sosmetal",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Filters",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -60322,7 +60353,14 @@
         "type": "PCV Valve",
         "brand": "Sosmetal",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Filters"
-      }
+      },
+      "vehicle_count_raw": 43,
+      "ebay_item_id": "398352069004",
+      "ebay_type": "PCV Valve",
+      "ebay_brand": "Sosmetal",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Filters",
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "45QCCVHCD3OGIHM53VDOFBKJ",
@@ -60833,143 +60871,6 @@
       "stock": 1
     },
     {
-      "id": "KRVKFKCL2UME3KMLLHU6FD7S",
-      "name": "Standard LX-101 Module NOS 3.7 5.2 5.9 Cordoba",
-      "price": 39.99,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/62e0fdf5ffd2dd981a4e899bbadbb1ce3a3492d1/original.jpeg",
-      "url": "https://square.link/u/umQ1fqto",
-      "category": "other",
-      "checkout": true,
-      "variation_id": "BZIUNUDU7GNQLMX67W56STOY",
-      "part_numbers": [
-        "LX-101",
-        "12334603, 3656127, 3656128, 3656900, 3755550, TP51, CBE14, LX101T"
-      ],
-      "interchange": [
-        "SL205G",
-        "3438850",
-        "3874020",
-        "4111850"
-      ],
-      "vehicles": [
-        "1975\u20131980 Chrysler Cordoba",
-        "1983\u20131989 Chrysler Fifth Avenue",
-        "1972\u20131981 Chrysler Newport",
-        "1981\u20131990 Dodge B250",
-        "1975\u20131980 Dodge D200",
-        "1972\u20131974 Plymouth Barracuda",
-        "1972\u20131974 Plymouth Satellite"
-      ],
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "high",
-      "fitment": {
-        "part_numbers": [
-          "LX-101",
-          "12334603, 3656127, 3656128, 3656900, 3755550, TP51, CBE14, LX101T"
-        ],
-        "interchange": [
-          "SL205G",
-          "3438850",
-          "3874020",
-          "4111850"
-        ],
-        "vehicles": [
-          {
-            "year_from": 1975,
-            "year_to": 1980,
-            "make": "Chrysler",
-            "model": "Cordoba",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1983,
-            "year_to": 1989,
-            "make": "Chrysler",
-            "model": "Fifth Avenue",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1972,
-            "year_to": 1981,
-            "make": "Chrysler",
-            "model": "Newport",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1981,
-            "year_to": 1990,
-            "make": "Dodge",
-            "model": "B250",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1975,
-            "year_to": 1980,
-            "make": "Dodge",
-            "model": "D200",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1972,
-            "year_to": 1974,
-            "make": "Plymouth",
-            "model": "Barracuda",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1972,
-            "year_to": 1974,
-            "make": "Plymouth",
-            "model": "Satellite",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          }
-        ],
-        "vehicle_labels": [
-          "1975\u20131980 Chrysler Cordoba",
-          "1983\u20131989 Chrysler Fifth Avenue",
-          "1972\u20131981 Chrysler Newport",
-          "1981\u20131990 Dodge B250",
-          "1975\u20131980 Dodge D200",
-          "1972\u20131974 Plymouth Barracuda",
-          "1972\u20131974 Plymouth Satellite"
-        ],
-        "raw_compat_rows": 360,
-        "source": "ebay_listing",
-        "confidence": "high",
-        "ebay_item_id": "398338691522",
-        "type": "Ignition Control Module",
-        "brand": "Standard",
-        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Modules"
-      },
-      "vehicle_count_raw": 360,
-      "ebay_item_id": "398338691522",
-      "ebay_type": "Ignition Control Module",
-      "ebay_brand": "Standard",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Modules",
-      "stock": 1
-    },
-    {
       "id": "EMUYTWA6VOHICLPMCZSOZ4EV",
       "name": "Standard LX-338 Ignition Module NOS 3.0 3.8 V6 86-88 Grand Am",
       "price": 79.99,
@@ -61081,6 +60982,179 @@
       "ebay_brand": "Standard",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Modules",
       "stock": 1
+    },
+    {
+      "id": "GBETPGQHE6PJWWE4X64J4MGW",
+      "name": "Standard Motor Products AS5 MAP Sensor 4.2 6.1 SLX NOS",
+      "price": 48.29,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/9a12280f9b1a5bc8ae5fac3116cb208bc1aa9237/original.jpeg",
+      "url": "https://square.link/u/elmSnW8E",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "ISK24JEMOZ7SD74R4WBEUCLN",
+      "stock": 1,
+      "part_numbers": [
+        "AS5"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1996\u20131997 Acura SLX",
+        "1982\u20132004 Buick Century",
+        "1985\u20131990 Buick LeSabre",
+        "1985\u20131996 Buick Regal",
+        "2002\u20132003 Buick Rendezvous",
+        "1985 Buick Riviera",
+        "1991\u20131996 Buick Roadmaster",
+        "1982\u20131989 Buick Skyhawk",
+        "1982\u20131998 Buick Skylark",
+        "1986\u20131987 Buick Somerset",
+        "1985 Buick Somerset Regal"
+      ],
+      "vehicle_count_raw": 706,
+      "ebay_item_id": "398352122954",
+      "ebay_type": "Manifold Absolute Pressure (MAP) Sensor",
+      "ebay_brand": "Standard Motor Products",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Intake & Fuel Sensors",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "AS5"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1996,
+            "year_to": 1997,
+            "make": "Acura",
+            "model": "SLX",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1982,
+            "year_to": 2004,
+            "make": "Buick",
+            "model": "Century",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1990,
+            "make": "Buick",
+            "model": "LeSabre",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1996,
+            "make": "Buick",
+            "model": "Regal",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2002,
+            "year_to": 2003,
+            "make": "Buick",
+            "model": "Rendezvous",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1985,
+            "make": "Buick",
+            "model": "Riviera",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1991,
+            "year_to": 1996,
+            "make": "Buick",
+            "model": "Roadmaster",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1982,
+            "year_to": 1989,
+            "make": "Buick",
+            "model": "Skyhawk",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1982,
+            "year_to": 1998,
+            "make": "Buick",
+            "model": "Skylark",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1986,
+            "year_to": 1987,
+            "make": "Buick",
+            "model": "Somerset",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1985,
+            "make": "Buick",
+            "model": "Somerset Regal",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1996\u20131997 Acura SLX",
+          "1982\u20132004 Buick Century",
+          "1985\u20131990 Buick LeSabre",
+          "1985\u20131996 Buick Regal",
+          "2002\u20132003 Buick Rendezvous",
+          "1985 Buick Riviera",
+          "1991\u20131996 Buick Roadmaster",
+          "1982\u20131989 Buick Skyhawk",
+          "1982\u20131998 Buick Skylark",
+          "1986\u20131987 Buick Somerset",
+          "1985 Buick Somerset Regal"
+        ],
+        "raw_compat_rows": 706,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398352122954",
+        "type": "Manifold Absolute Pressure (MAP) Sensor",
+        "brand": "Standard Motor Products",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Intake & Fuel Sensors"
+      }
     },
     {
       "id": "TENWAIRUFKCSIZRGJUE7JJJR",
@@ -68934,20 +69008,13 @@
       "category": "other",
       "checkout": true,
       "variation_id": "EN7MMGPNQXJP55FJORGPL2GF",
-      "stock": 1,
       "part_numbers": [
         "SLS-131"
       ],
-      "interchange": [],
       "vehicles": [
         "1991 Buick Riviera",
         "1986\u20131992 Buick Skylark"
       ],
-      "vehicle_count_raw": 71,
-      "ebay_item_id": "398352071195",
-      "ebay_type": "Stoplight Switch",
-      "ebay_brand": "Standard Motor Products",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Starters, Alternators, ECUs & Wiring:Relays",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -68988,7 +69055,14 @@
         "type": "Stoplight Switch",
         "brand": "Standard Motor Products",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Starters, Alternators, ECUs & Wiring:Relays"
-      }
+      },
+      "vehicle_count_raw": 71,
+      "ebay_item_id": "398352071195",
+      "ebay_type": "Stoplight Switch",
+      "ebay_brand": "Standard Motor Products",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Starters, Alternators, ECUs & Wiring:Relays",
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "MMNA66XAHHCD4RP6WZH4BGI6",
@@ -69659,20 +69733,13 @@
       "category": "other",
       "checkout": true,
       "variation_id": "WYERJOOTNLGKWCGBQRQSBCFP",
-      "stock": 1,
       "part_numbers": [
         "TS176"
       ],
-      "interchange": [],
       "vehicles": [
         "1984\u20131993 Chrysler Daytona",
         "1984\u20131996 Dodge Caravan"
       ],
-      "vehicle_count_raw": 187,
-      "ebay_item_id": "398352071832",
-      "ebay_type": "Coolant Temperature Sending Switch",
-      "ebay_brand": "Standard Motor Products",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Interior Parts & Accessories:Switches & Controls",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -69713,7 +69780,14 @@
         "type": "Coolant Temperature Sending Switch",
         "brand": "Standard Motor Products",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Interior Parts & Accessories:Switches & Controls"
-      }
+      },
+      "vehicle_count_raw": 187,
+      "ebay_item_id": "398352071832",
+      "ebay_type": "Coolant Temperature Sending Switch",
+      "ebay_brand": "Standard Motor Products",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Interior Parts & Accessories:Switches & Controls",
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "44Y5HILGGT62F7AEHA3ZBO5Q",
@@ -69777,20 +69851,13 @@
       "category": "other",
       "checkout": true,
       "variation_id": "TGH7R4AOKLRKWLJY46WIC4UA",
-      "stock": 1,
       "part_numbers": [
         "TX6"
       ],
-      "interchange": [],
       "vehicles": [
         "1986\u20131995 Ford Taurus",
         "1983\u20131995 Ford Thunderbird"
       ],
-      "vehicle_count_raw": 239,
-      "ebay_item_id": "398352072342",
-      "ebay_type": "Coolant Temperature Sensor",
-      "ebay_brand": "Standard Motor Products",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Intake & Fuel Sensors",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -69831,7 +69898,14 @@
         "type": "Coolant Temperature Sensor",
         "brand": "Standard Motor Products",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Intake & Fuel Sensors"
-      }
+      },
+      "vehicle_count_raw": 239,
+      "ebay_item_id": "398352072342",
+      "ebay_type": "Coolant Temperature Sensor",
+      "ebay_brand": "Standard Motor Products",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Intake & Fuel Sensors",
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "44TXEAZR2J7BS4YN2LYIQGUK",
@@ -71261,17 +71335,9 @@
       "category": "other",
       "checkout": true,
       "variation_id": "GFNLVAE47D32LUZUKIFBML6Y",
-      "stock": 1,
       "part_numbers": [
         "ST60"
       ],
-      "interchange": [],
-      "vehicles": [],
-      "vehicle_count_raw": 0,
-      "ebay_item_id": "398351996136",
-      "ebay_type": "Electrical Connector",
-      "ebay_brand": "Standard Motor Products",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Starters, Alternators, ECUs & Wiring:Wiring Harnesses, Cables & Connectors",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "medium",
       "fitment": {
@@ -71288,7 +71354,15 @@
         "type": "Electrical Connector",
         "brand": "Standard Motor Products",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Starters, Alternators, ECUs & Wiring:Wiring Harnesses, Cables & Connectors"
-      }
+      },
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398351996136",
+      "ebay_type": "Electrical Connector",
+      "ebay_brand": "Standard Motor Products",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Starters, Alternators, ECUs & Wiring:Wiring Harnesses, Cables & Connectors",
+      "stock": 1,
+      "interchange": [],
+      "vehicles": []
     },
     {
       "id": "I7XZKPK4PXRWNG7KFILRPHK7",
@@ -75601,5 +75675,5 @@
       "stock": 1
     }
   ],
-  "fitment_built": "2026-09-02T19:01:10Z"
+  "fitment_built": "2026-09-02T20:01:00Z"
 }
