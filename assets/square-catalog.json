@@ -1,7 +1,7 @@
 {
-  "updated": "2026-09-02T20:01:00Z",
+  "updated": "2026-09-04T04:01:48Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 595,
+  "count": 596,
   "items": [
     {
       "id": "S4IZBA4AG65C6HI2ZDIRMSJR",
@@ -3228,6 +3228,46 @@
       "ebay_brand": "Carlson",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware",
       "stock": 1
+    },
+    {
+      "id": "Z74TJSA62YBYA62HRIRISKNM",
+      "name": "Carlson 17415 Rear Parking Brake Hardware Kit NOS Sonata",
+      "price": 39.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/7f7e3d0c552edb6a23870fab70e03d1081f23315/original.jpeg",
+      "url": "https://square.link/u/ZfYFb9m4",
+      "category": "brake",
+      "checkout": true,
+      "variation_id": "3UGTEFBAPYKBU6VCAZ6RE74Y",
+      "stock": 1,
+      "part_numbers": [
+        "17415",
+        "CR 17415, SKF 17415, Wagner H17544, Dorman HW17415"
+      ],
+      "interchange": [],
+      "vehicles": [],
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398357173571",
+      "ebay_type": "Parking Brake Hardware Kit",
+      "ebay_brand": "Carlson",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "17415",
+          "CR 17415, SKF 17415, Wagner H17544, Dorman HW17415"
+        ],
+        "interchange": [],
+        "vehicles": [],
+        "vehicle_labels": [],
+        "raw_compat_rows": 0,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398357173571",
+        "type": "Parking Brake Hardware Kit",
+        "brand": "Carlson",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware"
+      }
     },
     {
       "id": "C2LKTK5OKSGH3QPILFO4AWBE",
@@ -10292,6 +10332,46 @@
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pads",
       "stock": 1,
       "interchange": []
+    },
+    {
+      "id": "OZPMBD3I6OWHW6DNSPKOPCO7",
+      "name": "Kohler 12-083-05-S Air Filter Element Hardware Kit NOS",
+      "price": 16.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/e8d3e045299f1219875378e36df02d4adda72cf3/original.jpeg",
+      "url": "https://square.link/u/ssk3Uuoj",
+      "category": "filters",
+      "checkout": true,
+      "variation_id": "FQZQNKAC5NO5DADXE2OXB426",
+      "stock": 1,
+      "part_numbers": [
+        "12-083",
+        "12-083-05-S"
+      ],
+      "interchange": [],
+      "vehicles": [],
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398357172859",
+      "ebay_type": "Air Filter Element",
+      "ebay_brand": "Kohler",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Filters",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "12-083",
+          "12-083-05-S"
+        ],
+        "interchange": [],
+        "vehicles": [],
+        "vehicle_labels": [],
+        "raw_compat_rows": 0,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398357172859",
+        "type": "Air Filter Element",
+        "brand": "Kohler",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Filters"
+      }
     },
     {
       "id": "KRV3JMSZ3Y3W2E4S4IJ7WUD7",
@@ -25281,17 +25361,9 @@
       "category": "ignition",
       "checkout": true,
       "variation_id": "LJACODGYPJCYIWOMFHFVOG5J",
-      "stock": 1,
       "part_numbers": [
         "4-413"
       ],
-      "interchange": [],
-      "vehicles": [],
-      "vehicle_count_raw": 0,
-      "ebay_item_id": "398352122227",
-      "ebay_type": "Distributor Rotor",
-      "ebay_brand": "Mighty",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "medium",
       "fitment": {
@@ -25308,7 +25380,15 @@
         "type": "Distributor Rotor",
         "brand": "Mighty",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors"
-      }
+      },
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398352122227",
+      "ebay_type": "Distributor Rotor",
+      "ebay_brand": "Mighty",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors",
+      "stock": 1,
+      "interchange": [],
+      "vehicles": []
     },
     {
       "id": "6GLFQLRM64VCWRYXXKKTCQVD",
@@ -27504,235 +27584,44 @@
       "interchange": []
     },
     {
-      "id": "YTDCMDOM3HP6CNWXKQ2AQUFL",
-      "name": "Standard CH408 Dist Cap NOS 86-96 Chrysler Dodge Plymouth 2.2L 2.5L 4cyl",
-      "price": 19.98,
+      "id": "RC5WTPCEYC4HAJ4XGXA4IRGD",
+      "name": "Standard CH408 Distributor Cap 2.2 2.5 LeBaron NOS",
+      "price": 19.99,
       "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/de796444b7c677f3baf6d76dffb2059edf9baf72/original.jpeg",
-      "url": "https://square.link/u/bRBEWMqj",
+      "url": "https://square.link/u/GXMuoKFr",
       "category": "ignition",
       "checkout": true,
-      "variation_id": "XCDVC2B2SR4BMTBEEORMB2XR",
+      "variation_id": "DHHPZLJXOBIAIBZ3FR7TXYJH",
+      "stock": 2,
       "part_numbers": [
-        "CH408"
+        "CH408",
+        "C262, CR914, KEM 1931"
       ],
-      "interchange": [
-        "CH-408",
-        "C262",
-        "CR914",
-        "KEM 1931"
-      ],
-      "vehicles": [
-        "1986\u20131993 Chrysler Daytona",
-        "1988\u20131993 Chrysler Dynasty",
-        "1986\u20131995 Chrysler LeBaron",
-        "1990\u20131995 Chrysler Spirit",
-        "1986\u20131989 Dodge Aries",
-        "1986\u20131995 Dodge Caravan",
-        "1986\u20131993 Dodge Daytona",
-        "1988\u20131993 Dodge Dynasty",
-        "1987\u20131994 Dodge Shadow",
-        "1989\u20131995 Dodge Spirit",
-        "1989\u20131995 Plymouth Acclaim",
-        "1986\u20131989 Plymouth Reliant",
-        "1987\u20131994 Plymouth Sundance",
-        "1986\u20131987 Plymouth Turismo",
-        "1986\u20131995 Plymouth Voyager"
-      ],
+      "interchange": [],
+      "vehicles": [],
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398357206737",
+      "ebay_type": "Distributor Cap",
+      "ebay_brand": "Standard",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
-          "CH408"
+          "CH408",
+          "C262, CR914, KEM 1931"
         ],
-        "interchange": [
-          "CH-408",
-          "C262",
-          "CR914",
-          "KEM 1931"
-        ],
-        "vehicles": [
-          {
-            "year_from": 1986,
-            "year_to": 1993,
-            "make": "Chrysler",
-            "model": "Daytona",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1988,
-            "year_to": 1993,
-            "make": "Chrysler",
-            "model": "Dynasty",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1986,
-            "year_to": 1995,
-            "make": "Chrysler",
-            "model": "LeBaron",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1990,
-            "year_to": 1995,
-            "make": "Chrysler",
-            "model": "Spirit",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1986,
-            "year_to": 1989,
-            "make": "Dodge",
-            "model": "Aries",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1986,
-            "year_to": 1995,
-            "make": "Dodge",
-            "model": "Caravan",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1986,
-            "year_to": 1993,
-            "make": "Dodge",
-            "model": "Daytona",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1988,
-            "year_to": 1993,
-            "make": "Dodge",
-            "model": "Dynasty",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1987,
-            "year_to": 1994,
-            "make": "Dodge",
-            "model": "Shadow",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1989,
-            "year_to": 1995,
-            "make": "Dodge",
-            "model": "Spirit",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1989,
-            "year_to": 1995,
-            "make": "Plymouth",
-            "model": "Acclaim",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1986,
-            "year_to": 1989,
-            "make": "Plymouth",
-            "model": "Reliant",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1987,
-            "year_to": 1994,
-            "make": "Plymouth",
-            "model": "Sundance",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1986,
-            "year_to": 1987,
-            "make": "Plymouth",
-            "model": "Turismo",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1986,
-            "year_to": 1995,
-            "make": "Plymouth",
-            "model": "Voyager",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          }
-        ],
-        "vehicle_labels": [
-          "1986\u20131993 Chrysler Daytona",
-          "1988\u20131993 Chrysler Dynasty",
-          "1986\u20131995 Chrysler LeBaron",
-          "1990\u20131995 Chrysler Spirit",
-          "1986\u20131989 Dodge Aries",
-          "1986\u20131995 Dodge Caravan",
-          "1986\u20131993 Dodge Daytona",
-          "1988\u20131993 Dodge Dynasty",
-          "1987\u20131994 Dodge Shadow",
-          "1989\u20131995 Dodge Spirit",
-          "1989\u20131995 Plymouth Acclaim",
-          "1986\u20131989 Plymouth Reliant",
-          "1987\u20131994 Plymouth Sundance",
-          "1986\u20131987 Plymouth Turismo",
-          "1986\u20131995 Plymouth Voyager"
-        ],
-        "raw_compat_rows": 30,
+        "interchange": [],
+        "vehicles": [],
+        "vehicle_labels": [],
+        "raw_compat_rows": 0,
         "source": "ebay_listing",
         "confidence": "high",
-        "ebay_item_id": "398264656269",
+        "ebay_item_id": "398357206737",
         "type": "Distributor Cap",
         "brand": "Standard",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps"
-      },
-      "vehicle_count_raw": 30,
-      "ebay_item_id": "398264656269",
-      "ebay_type": "Distributor Cap",
-      "ebay_brand": "Standard",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps",
-      "stock": 2
+      }
     },
     {
       "id": "BKZKXFOXVJBPUCF4PLHYSPHK",
@@ -28867,479 +28756,52 @@
       "stock": 1
     },
     {
-      "id": "QL6HCEKR6EBMBI7V24QEATT6",
-      "name": "Standard DR460 Dist Cap NOS 85-92 Camaro Firebird Chevy V6",
-      "price": 19.98,
+      "id": "WG6JUBHCAR5UNLN3D4B3AHKB",
+      "name": "Standard DR460 Dist Cap NOS 2.8 85-92 Camaro Firebird",
+      "price": 19.99,
       "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/b956b235ba0c7f69872d3d007f6f1eea121190cf/original.jpeg",
-      "url": "https://square.link/u/va6MwddA",
+      "url": "https://square.link/u/O7XkDo4W",
       "category": "ignition",
       "checkout": true,
-      "variation_id": "2VEGZX446253QEZTL6XONP2V",
+      "variation_id": "2V5CFW57DPT2NW2XD45SCQ43",
+      "stock": 1,
       "part_numbers": [
         "DR460",
-        "GM 10476273",
-        "DR-460, DR460T, Standard Ignition DR460"
+        "DR460T, Standard Ignition DR460"
       ],
       "interchange": [
         "ACDelco D314A",
         "ACDelco D580A",
-        "Delphi DC1015",
-        "KEM 1452"
+        "Delphi DC1015"
       ],
-      "vehicles": [
-        "1985 Buick Skylark",
-        "1985\u20131986 Cadillac Cimarron",
-        "1986\u20131995 Chevrolet Astro",
-        "1988\u20131995 Chevrolet C1500",
-        "1988\u20131995 Chevrolet C2500",
-        "1985\u20131992 Chevrolet Camaro",
-        "1985\u20131992 Chevrolet Caprice",
-        "1986 Chevrolet Cavalier",
-        "1985\u20131986 Chevrolet Celebrity",
-        "1985 Chevrolet Citation II",
-        "1985\u20131986 Chevrolet El Camino",
-        "1996 Chevrolet Express 1500",
-        "1996 Chevrolet Express 2500",
-        "1988\u20131995 Chevrolet G10",
-        "1987\u20131995 Chevrolet G20",
-        "1987\u20131996 Chevrolet G30",
-        "1985 Chevrolet Impala",
-        "1989\u20131995 Chevrolet K1500",
-        "1988\u20131995 Chevrolet K2500",
-        "1985\u20131988 Chevrolet Monte Carlo",
-        "1988\u20131995 Chevrolet S10",
-        "1989\u20131994 Chevrolet S10 Blazer",
-        "1988\u20131995 GMC C1500",
-        "1988\u20131995 GMC C2500",
-        "1988\u20131994 GMC Jimmy",
-        "1988\u20131995 GMC K1500",
-        "1988\u20131995 GMC K2500",
-        "1986\u20131995 GMC Safari",
-        "1996 GMC Savana 1500",
-        "1996 GMC Savana 2500",
-        "1991\u20131995 GMC Sonoma",
-        "1985\u20131986 Pontiac 6000",
-        "1985\u20131988 Pontiac Fiero",
-        "1985\u20131992 Pontiac Firebird",
-        "1986\u20131987 Pontiac Grand Prix"
-      ],
+      "vehicles": [],
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398357188738",
+      "ebay_type": "Distributor Cap",
+      "ebay_brand": "Standard",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
           "DR460",
-          "GM 10476273",
-          "DR-460, DR460T, Standard Ignition DR460"
+          "DR460T, Standard Ignition DR460"
         ],
         "interchange": [
           "ACDelco D314A",
           "ACDelco D580A",
-          "Delphi DC1015",
-          "KEM 1452"
+          "Delphi DC1015"
         ],
-        "vehicles": [
-          {
-            "year_from": 1985,
-            "year_to": 1985,
-            "make": "Buick",
-            "model": "Skylark",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1985,
-            "year_to": 1986,
-            "make": "Cadillac",
-            "model": "Cimarron",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1986,
-            "year_to": 1995,
-            "make": "Chevrolet",
-            "model": "Astro",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1988,
-            "year_to": 1995,
-            "make": "Chevrolet",
-            "model": "C1500",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1988,
-            "year_to": 1995,
-            "make": "Chevrolet",
-            "model": "C2500",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1985,
-            "year_to": 1992,
-            "make": "Chevrolet",
-            "model": "Camaro",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1985,
-            "year_to": 1992,
-            "make": "Chevrolet",
-            "model": "Caprice",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1986,
-            "year_to": 1986,
-            "make": "Chevrolet",
-            "model": "Cavalier",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1985,
-            "year_to": 1986,
-            "make": "Chevrolet",
-            "model": "Celebrity",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1985,
-            "year_to": 1985,
-            "make": "Chevrolet",
-            "model": "Citation II",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1985,
-            "year_to": 1986,
-            "make": "Chevrolet",
-            "model": "El Camino",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1996,
-            "year_to": 1996,
-            "make": "Chevrolet",
-            "model": "Express 1500",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1996,
-            "year_to": 1996,
-            "make": "Chevrolet",
-            "model": "Express 2500",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1988,
-            "year_to": 1995,
-            "make": "Chevrolet",
-            "model": "G10",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1987,
-            "year_to": 1995,
-            "make": "Chevrolet",
-            "model": "G20",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1987,
-            "year_to": 1996,
-            "make": "Chevrolet",
-            "model": "G30",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1985,
-            "year_to": 1985,
-            "make": "Chevrolet",
-            "model": "Impala",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1989,
-            "year_to": 1995,
-            "make": "Chevrolet",
-            "model": "K1500",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1988,
-            "year_to": 1995,
-            "make": "Chevrolet",
-            "model": "K2500",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1985,
-            "year_to": 1988,
-            "make": "Chevrolet",
-            "model": "Monte Carlo",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1988,
-            "year_to": 1995,
-            "make": "Chevrolet",
-            "model": "S10",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1989,
-            "year_to": 1994,
-            "make": "Chevrolet",
-            "model": "S10 Blazer",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1988,
-            "year_to": 1995,
-            "make": "GMC",
-            "model": "C1500",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1988,
-            "year_to": 1995,
-            "make": "GMC",
-            "model": "C2500",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1988,
-            "year_to": 1994,
-            "make": "GMC",
-            "model": "Jimmy",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1988,
-            "year_to": 1995,
-            "make": "GMC",
-            "model": "K1500",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1988,
-            "year_to": 1995,
-            "make": "GMC",
-            "model": "K2500",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1986,
-            "year_to": 1995,
-            "make": "GMC",
-            "model": "Safari",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1996,
-            "year_to": 1996,
-            "make": "GMC",
-            "model": "Savana 1500",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1996,
-            "year_to": 1996,
-            "make": "GMC",
-            "model": "Savana 2500",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1991,
-            "year_to": 1995,
-            "make": "GMC",
-            "model": "Sonoma",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1985,
-            "year_to": 1986,
-            "make": "Pontiac",
-            "model": "6000",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1985,
-            "year_to": 1988,
-            "make": "Pontiac",
-            "model": "Fiero",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1985,
-            "year_to": 1992,
-            "make": "Pontiac",
-            "model": "Firebird",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1986,
-            "year_to": 1987,
-            "make": "Pontiac",
-            "model": "Grand Prix",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          }
-        ],
-        "vehicle_labels": [
-          "1985 Buick Skylark",
-          "1985\u20131986 Cadillac Cimarron",
-          "1986\u20131995 Chevrolet Astro",
-          "1988\u20131995 Chevrolet C1500",
-          "1988\u20131995 Chevrolet C2500",
-          "1985\u20131992 Chevrolet Camaro",
-          "1985\u20131992 Chevrolet Caprice",
-          "1986 Chevrolet Cavalier",
-          "1985\u20131986 Chevrolet Celebrity",
-          "1985 Chevrolet Citation II",
-          "1985\u20131986 Chevrolet El Camino",
-          "1996 Chevrolet Express 1500",
-          "1996 Chevrolet Express 2500",
-          "1988\u20131995 Chevrolet G10",
-          "1987\u20131995 Chevrolet G20",
-          "1987\u20131996 Chevrolet G30",
-          "1985 Chevrolet Impala",
-          "1989\u20131995 Chevrolet K1500",
-          "1988\u20131995 Chevrolet K2500",
-          "1985\u20131988 Chevrolet Monte Carlo",
-          "1988\u20131995 Chevrolet S10",
-          "1989\u20131994 Chevrolet S10 Blazer",
-          "1988\u20131995 GMC C1500",
-          "1988\u20131995 GMC C2500",
-          "1988\u20131994 GMC Jimmy",
-          "1988\u20131995 GMC K1500",
-          "1988\u20131995 GMC K2500",
-          "1986\u20131995 GMC Safari",
-          "1996 GMC Savana 1500",
-          "1996 GMC Savana 2500",
-          "1991\u20131995 GMC Sonoma",
-          "1985\u20131986 Pontiac 6000",
-          "1985\u20131988 Pontiac Fiero",
-          "1985\u20131992 Pontiac Firebird",
-          "1986\u20131987 Pontiac Grand Prix"
-        ],
-        "raw_compat_rows": 62,
+        "vehicles": [],
+        "vehicle_labels": [],
+        "raw_compat_rows": 0,
         "source": "ebay_listing",
         "confidence": "high",
-        "ebay_item_id": "398264126675",
+        "ebay_item_id": "398357188738",
         "type": "Distributor Cap",
         "brand": "Standard",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps"
-      },
-      "vehicle_count_raw": 62,
-      "ebay_item_id": "398264126675",
-      "ebay_type": "Distributor Cap",
-      "ebay_brand": "Standard",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps",
-      "stock": 1
+      }
     },
     {
       "id": "OWQ2BLLPZCUE24B5WP6MOARN",
@@ -29950,349 +29412,48 @@
       "interchange": []
     },
     {
-      "id": "A5GBRFWLVOPHJ4PCVOATAAN4",
-      "name": "Standard FD-168 Dist Cap NOS 76-96 Ford Mustang F150 Bronco",
-      "price": 16.98,
+      "id": "PGC4T67T7WW3XM45Q7TMLMHO",
+      "name": "Standard FD-168 Dist Cap NOS 76-96 Mustang F150 Bronco",
+      "price": 16.99,
       "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/136574d8d8cce0535ff645e63540b2d43bcc2b3c/original.jpeg",
-      "url": "https://square.link/u/arB8f5Dd",
+      "url": "https://square.link/u/7DtAE7Pq",
       "category": "ignition",
       "checkout": true,
-      "variation_id": "ZQCIGU4AJQ7KLUVPMOBOGBEE",
+      "variation_id": "4V4EBSDDRGOQJBTCD7W7YEGM",
+      "stock": 1,
       "part_numbers": [
         "FD-168",
-        "Motorcraft DH411",
-        "FD168, FD168T, Standard Ignition FD168"
+        "FD168T, Standard Ignition FD168"
       ],
-      "vehicles": [
-        "1978\u20131996 Ford Bronco",
-        "1976\u20131995 Ford E-150 Econoline",
-        "1976\u20131995 Ford E-250 Econoline",
-        "1976\u20131996 Ford E-350 Econoline",
-        "1977\u20131983 Ford F-100",
-        "1977\u20131996 Ford F-150",
-        "1978\u20131997 Ford F-250",
-        "1977\u20131997 Ford F-350",
-        "1979\u20131995 Ford Mustang",
-        "1977\u20131978 Ford Mustang II",
-        "1978\u20131979 Ford Ranchero",
-        "1978\u20131992 Ford Thunderbird",
-        "1979\u20131987 Lincoln Continental",
-        "1978 Lincoln Mark V",
-        "1983 Lincoln Mark VI",
-        "1985\u20131992 Lincoln Mark VII",
-        "1981\u20131990 Lincoln Town Car",
-        "1977\u20131980 Lincoln Versailles",
-        "1979\u20131984 Mercury Capri",
-        "1988\u20131991 Mercury Colony Park",
-        "1978\u20131997 Mercury Cougar",
-        "1979\u20131996 Mercury Grand Marquis",
-        "1979\u20131986 Mercury Marquis",
-        "1977\u20131979 Mercury Monarch",
-        "1978\u20131982 Mercury Zephyr"
+      "interchange": [
+        "Motorcraft DH411"
       ],
+      "vehicles": [],
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398357201698",
+      "ebay_type": "Distributor Cap",
+      "ebay_brand": "Standard",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
           "FD-168",
-          "Motorcraft DH411",
-          "FD168, FD168T, Standard Ignition FD168"
+          "FD168T, Standard Ignition FD168"
         ],
-        "interchange": [],
-        "vehicles": [
-          {
-            "year_from": 1978,
-            "year_to": 1996,
-            "make": "Ford",
-            "model": "Bronco",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1976,
-            "year_to": 1995,
-            "make": "Ford",
-            "model": "E-150 Econoline",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1976,
-            "year_to": 1995,
-            "make": "Ford",
-            "model": "E-250 Econoline",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1976,
-            "year_to": 1996,
-            "make": "Ford",
-            "model": "E-350 Econoline",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1977,
-            "year_to": 1983,
-            "make": "Ford",
-            "model": "F-100",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1977,
-            "year_to": 1996,
-            "make": "Ford",
-            "model": "F-150",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1978,
-            "year_to": 1997,
-            "make": "Ford",
-            "model": "F-250",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1977,
-            "year_to": 1997,
-            "make": "Ford",
-            "model": "F-350",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1979,
-            "year_to": 1995,
-            "make": "Ford",
-            "model": "Mustang",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1977,
-            "year_to": 1978,
-            "make": "Ford",
-            "model": "Mustang II",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1978,
-            "year_to": 1979,
-            "make": "Ford",
-            "model": "Ranchero",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1978,
-            "year_to": 1992,
-            "make": "Ford",
-            "model": "Thunderbird",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1979,
-            "year_to": 1987,
-            "make": "Lincoln",
-            "model": "Continental",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1978,
-            "year_to": 1978,
-            "make": "Lincoln",
-            "model": "Mark V",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1983,
-            "year_to": 1983,
-            "make": "Lincoln",
-            "model": "Mark VI",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1985,
-            "year_to": 1992,
-            "make": "Lincoln",
-            "model": "Mark VII",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1981,
-            "year_to": 1990,
-            "make": "Lincoln",
-            "model": "Town Car",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1977,
-            "year_to": 1980,
-            "make": "Lincoln",
-            "model": "Versailles",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1979,
-            "year_to": 1984,
-            "make": "Mercury",
-            "model": "Capri",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1988,
-            "year_to": 1991,
-            "make": "Mercury",
-            "model": "Colony Park",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1978,
-            "year_to": 1997,
-            "make": "Mercury",
-            "model": "Cougar",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1979,
-            "year_to": 1996,
-            "make": "Mercury",
-            "model": "Grand Marquis",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1979,
-            "year_to": 1986,
-            "make": "Mercury",
-            "model": "Marquis",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1977,
-            "year_to": 1979,
-            "make": "Mercury",
-            "model": "Monarch",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1978,
-            "year_to": 1982,
-            "make": "Mercury",
-            "model": "Zephyr",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          }
+        "interchange": [
+          "Motorcraft DH411"
         ],
-        "vehicle_labels": [
-          "1978\u20131996 Ford Bronco",
-          "1976\u20131995 Ford E-150 Econoline",
-          "1976\u20131995 Ford E-250 Econoline",
-          "1976\u20131996 Ford E-350 Econoline",
-          "1977\u20131983 Ford F-100",
-          "1977\u20131996 Ford F-150",
-          "1978\u20131997 Ford F-250",
-          "1977\u20131997 Ford F-350",
-          "1979\u20131995 Ford Mustang",
-          "1977\u20131978 Ford Mustang II",
-          "1978\u20131979 Ford Ranchero",
-          "1978\u20131992 Ford Thunderbird",
-          "1979\u20131987 Lincoln Continental",
-          "1978 Lincoln Mark V",
-          "1983 Lincoln Mark VI",
-          "1985\u20131992 Lincoln Mark VII",
-          "1981\u20131990 Lincoln Town Car",
-          "1977\u20131980 Lincoln Versailles",
-          "1979\u20131984 Mercury Capri",
-          "1988\u20131991 Mercury Colony Park",
-          "1978\u20131997 Mercury Cougar",
-          "1979\u20131996 Mercury Grand Marquis",
-          "1979\u20131986 Mercury Marquis",
-          "1977\u20131979 Mercury Monarch",
-          "1978\u20131982 Mercury Zephyr"
-        ],
-        "raw_compat_rows": 48,
+        "vehicles": [],
+        "vehicle_labels": [],
+        "raw_compat_rows": 0,
         "source": "ebay_listing",
         "confidence": "high",
-        "ebay_item_id": "398264347725",
+        "ebay_item_id": "398357201698",
         "type": "Distributor Cap",
         "brand": "Standard",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps"
-      },
-      "vehicle_count_raw": 48,
-      "ebay_item_id": "398264347725",
-      "ebay_type": "Distributor Cap",
-      "ebay_brand": "Standard",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps",
-      "stock": 1,
-      "interchange": []
+      }
     },
     {
       "id": "DRNPPIERWNZVSWEAPQ5IVO46",
@@ -30751,22 +29912,26 @@
       "interchange": []
     },
     {
-      "id": "ZKHIPPOJHX3J6DBWQX22N3FA",
-      "name": "Standard JH-109 Distributor Cap NOS Toyota Celica Supra Cressida",
-      "price": 19.98,
+      "id": "G2ZHSD6QG2TXB2PA567HWHXF",
+      "name": "Standard JH-109 Dist Cap NOS 2.8 Celica Supra Cressida",
+      "price": 19.99,
       "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/fb6a576f5e106291517eff15e7cf5a82ed530cd0/original.jpeg",
-      "url": "https://square.link/u/bIfAo6sy",
+      "url": "https://square.link/u/L5vIzqoi",
       "category": "ignition",
       "checkout": true,
-      "variation_id": "FBG4O4P3BE5XOXZWMCR7H3EN",
+      "variation_id": "CIAPLHWNQWQ37XT2LYF2SJKF",
+      "stock": 1,
       "part_numbers": [
         "JH-109",
         "JH109"
       ],
-      "vehicles": [
-        "1984\u20131988 Toyota Celica",
-        "1985\u20131988 Toyota Cressida"
-      ],
+      "interchange": [],
+      "vehicles": [],
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398357180422",
+      "ebay_type": "Distributor Cap",
+      "ebay_brand": "Standard",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -30775,226 +29940,52 @@
           "JH109"
         ],
         "interchange": [],
-        "vehicles": [
-          {
-            "year_from": 1984,
-            "year_to": 1988,
-            "make": "Toyota",
-            "model": "Celica",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1985,
-            "year_to": 1988,
-            "make": "Toyota",
-            "model": "Cressida",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          }
-        ],
-        "vehicle_labels": [
-          "1984\u20131988 Toyota Celica",
-          "1985\u20131988 Toyota Cressida"
-        ],
-        "raw_compat_rows": 4,
+        "vehicles": [],
+        "vehicle_labels": [],
+        "raw_compat_rows": 0,
         "source": "ebay_listing",
         "confidence": "high",
-        "ebay_item_id": "398258668767",
+        "ebay_item_id": "398357180422",
         "type": "Distributor Cap",
         "brand": "Standard",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps"
-      },
-      "vehicle_count_raw": 4,
-      "ebay_item_id": "398258668767",
+      }
+    },
+    {
+      "id": "XNDZYJP2A266LM7ORTPMBDRG",
+      "name": "Standard JH-110 Dist Cap NOS 1.5 73-83 Civic Accord",
+      "price": 19.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/86c5d41ad58694e86befa67d9b3367e286caa710/original.jpeg",
+      "url": "https://square.link/u/yKCvU4Fq",
+      "category": "ignition",
+      "checkout": true,
+      "variation_id": "F5ZP74WIWKEFUF4QO2GAJMER",
+      "stock": 1,
+      "part_numbers": [
+        "JH-110",
+        "JH110T, Standard Motor Products JH-110"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1973\u20131983 Honda Accord",
+        "1973\u20131983 Honda Civic"
+      ],
+      "vehicle_count_raw": 2,
+      "ebay_item_id": "398357202298",
       "ebay_type": "Distributor Cap",
       "ebay_brand": "Standard",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps",
-      "stock": 1,
-      "interchange": []
-    },
-    {
-      "id": "ECJYLFI2Z4Q7ASTJGGX2MU7A",
-      "name": "Standard JH-110 Dist Cap NOS 73-83 Civic 76-83 Accord Subaru",
-      "price": 19.98,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/86c5d41ad58694e86befa67d9b3367e286caa710/original.jpeg",
-      "url": "https://square.link/u/4uc00OQE",
-      "category": "ignition",
-      "checkout": true,
-      "variation_id": "7RSSOPFQ4D3B654MVJMR2HNL",
-      "part_numbers": [
-        "JH-110",
-        "JH110, JH110T, Standard Motor Products JH-110"
-      ],
-      "vehicles": [
-        "1975 Chevrolet LUV",
-        "1982\u20131985 Chevrolet S10",
-        "1983\u20131984 Chevrolet S10 Blazer",
-        "1971\u20131973 Datsun 1200",
-        "1968\u20131969 Datsun 1600",
-        "1968\u20131973 Datsun 510",
-        "1973 Datsun 610",
-        "1972\u20131973 Datsun 620 Pickup",
-        "1970\u20131973 Datsun B110",
-        "1972 Ford Courier",
-        "1982\u20131985 GMC S15",
-        "1983\u20131984 GMC S15 Jimmy",
-        "1976\u20131983 Honda Accord",
-        "1973\u20131983 Honda Civic",
-        "1979\u20131982 Honda Prelude",
-        "1972 Mazda 618",
-        "1972\u20131976 Mazda 808",
-        "1977\u20131985 Mazda GLC",
-        "1987\u20131989 Nissan Ichi Van",
-        "1984\u20131988 Nissan Pickup",
-        "1984\u20131986 Nissan Sakura",
-        "1984\u20131985 Nissan Tsuru",
-        "1973\u20131974 Subaru 1400",
-        "1978\u20131987 Subaru Brat",
-        "1973\u20131986 Subaru DL",
-        "1972\u20131973 Subaru Deluxe",
-        "1979 Subaru FE",
-        "1977\u20131979 Subaru GF",
-        "1972\u20131986 Subaru GL",
-        "1980 Subaru GLF",
-        "1977\u20131983 Subaru Standard",
-        "1970\u20131972 Subaru Star"
-      ],
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "high",
+      "fitment_source": "ebay_listing+title",
+      "fitment_confidence": "medium",
       "fitment": {
         "part_numbers": [
           "JH-110",
-          "JH110, JH110T, Standard Motor Products JH-110"
+          "JH110T, Standard Motor Products JH-110"
         ],
         "interchange": [],
         "vehicles": [
           {
-            "year_from": 1975,
-            "year_to": 1975,
-            "make": "Chevrolet",
-            "model": "LUV",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1982,
-            "year_to": 1985,
-            "make": "Chevrolet",
-            "model": "S10",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1983,
-            "year_to": 1984,
-            "make": "Chevrolet",
-            "model": "S10 Blazer",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1971,
-            "year_to": 1973,
-            "make": "Datsun",
-            "model": "1200",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1968,
-            "year_to": 1969,
-            "make": "Datsun",
-            "model": "1600",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1968,
-            "year_to": 1973,
-            "make": "Datsun",
-            "model": "510",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
             "year_from": 1973,
-            "year_to": 1973,
-            "make": "Datsun",
-            "model": "610",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1972,
-            "year_to": 1973,
-            "make": "Datsun",
-            "model": "620 Pickup",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1970,
-            "year_to": 1973,
-            "make": "Datsun",
-            "model": "B110",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1972,
-            "year_to": 1972,
-            "make": "Ford",
-            "model": "Courier",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1982,
-            "year_to": 1985,
-            "make": "GMC",
-            "model": "S15",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1983,
-            "year_to": 1984,
-            "make": "GMC",
-            "model": "S15 Jimmy",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1976,
             "year_to": 1983,
             "make": "Honda",
             "model": "Accord",
@@ -31012,237 +30003,20 @@
             "source": "ebay_compat",
             "confidence": "high",
             "trim_count": null
-          },
-          {
-            "year_from": 1979,
-            "year_to": 1982,
-            "make": "Honda",
-            "model": "Prelude",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1972,
-            "year_to": 1972,
-            "make": "Mazda",
-            "model": "618",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1972,
-            "year_to": 1976,
-            "make": "Mazda",
-            "model": "808",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1977,
-            "year_to": 1985,
-            "make": "Mazda",
-            "model": "GLC",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1987,
-            "year_to": 1989,
-            "make": "Nissan",
-            "model": "Ichi Van",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1984,
-            "year_to": 1988,
-            "make": "Nissan",
-            "model": "Pickup",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1984,
-            "year_to": 1986,
-            "make": "Nissan",
-            "model": "Sakura",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1984,
-            "year_to": 1985,
-            "make": "Nissan",
-            "model": "Tsuru",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1973,
-            "year_to": 1974,
-            "make": "Subaru",
-            "model": "1400",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1978,
-            "year_to": 1987,
-            "make": "Subaru",
-            "model": "Brat",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1973,
-            "year_to": 1986,
-            "make": "Subaru",
-            "model": "DL",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1972,
-            "year_to": 1973,
-            "make": "Subaru",
-            "model": "Deluxe",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1979,
-            "year_to": 1979,
-            "make": "Subaru",
-            "model": "FE",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1977,
-            "year_to": 1979,
-            "make": "Subaru",
-            "model": "GF",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1972,
-            "year_to": 1986,
-            "make": "Subaru",
-            "model": "GL",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1980,
-            "year_to": 1980,
-            "make": "Subaru",
-            "model": "GLF",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1977,
-            "year_to": 1983,
-            "make": "Subaru",
-            "model": "Standard",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1970,
-            "year_to": 1972,
-            "make": "Subaru",
-            "model": "Star",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
           }
         ],
         "vehicle_labels": [
-          "1975 Chevrolet LUV",
-          "1982\u20131985 Chevrolet S10",
-          "1983\u20131984 Chevrolet S10 Blazer",
-          "1971\u20131973 Datsun 1200",
-          "1968\u20131969 Datsun 1600",
-          "1968\u20131973 Datsun 510",
-          "1973 Datsun 610",
-          "1972\u20131973 Datsun 620 Pickup",
-          "1970\u20131973 Datsun B110",
-          "1972 Ford Courier",
-          "1982\u20131985 GMC S15",
-          "1983\u20131984 GMC S15 Jimmy",
-          "1976\u20131983 Honda Accord",
-          "1973\u20131983 Honda Civic",
-          "1979\u20131982 Honda Prelude",
-          "1972 Mazda 618",
-          "1972\u20131976 Mazda 808",
-          "1977\u20131985 Mazda GLC",
-          "1987\u20131989 Nissan Ichi Van",
-          "1984\u20131988 Nissan Pickup",
-          "1984\u20131986 Nissan Sakura",
-          "1984\u20131985 Nissan Tsuru",
-          "1973\u20131974 Subaru 1400",
-          "1978\u20131987 Subaru Brat",
-          "1973\u20131986 Subaru DL",
-          "1972\u20131973 Subaru Deluxe",
-          "1979 Subaru FE",
-          "1977\u20131979 Subaru GF",
-          "1972\u20131986 Subaru GL",
-          "1980 Subaru GLF",
-          "1977\u20131983 Subaru Standard",
-          "1970\u20131972 Subaru Star"
+          "1973\u20131983 Honda Accord",
+          "1973\u20131983 Honda Civic"
         ],
-        "raw_compat_rows": 58,
-        "source": "ebay_listing",
-        "confidence": "high",
-        "ebay_item_id": "398264352811",
+        "raw_compat_rows": 2,
+        "source": "ebay_listing+title",
+        "confidence": "medium",
+        "ebay_item_id": "398357202298",
         "type": "Distributor Cap",
         "brand": "Standard",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps"
-      },
-      "vehicle_count_raw": 58,
-      "ebay_item_id": "398264352811",
-      "ebay_type": "Distributor Cap",
-      "ebay_brand": "Standard",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps",
-      "stock": 1,
-      "interchange": []
+      }
     },
     {
       "id": "HDOYNAMWPSTRQIYRILQHGNSR",
@@ -31545,44 +30319,40 @@
       "interchange": []
     },
     {
-      "id": "2IOULNK2VCKWX2MYIHBZCIS5",
-      "name": "Standard JH-167 Dist Cap NOS 90-92 Geo Prizm 90-91 Toyota Corolla",
+      "id": "GKGW7IFRDDEIRLP63TH4R75N",
+      "name": "Standard JH-167 Distributor Cap Corolla NOS",
       "price": 24.99,
       "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/f03693651af3979d444407945b8d073ab84f57c6/original.jpeg",
-      "url": "https://square.link/u/AiJ90InF",
+      "url": "https://square.link/u/J9IkKhM3",
       "category": "ignition",
       "checkout": true,
-      "variation_id": "CGMDVRHWQGM7XLAEBML2T2ZC",
+      "variation_id": "JGRWVYLJSL2AETN44WEDA54A",
+      "stock": 1,
       "part_numbers": [
         "JH-167",
-        "JH167, JH167T, Standard Motor Products JH-167"
+        "JH167T, Standard Motor Products JH-167"
       ],
+      "interchange": [],
       "vehicles": [
-        "1990\u20131992 Geo Prizm",
-        "1990\u20131991 Toyota Corolla"
+        "Toyota Corolla"
       ],
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "high",
+      "vehicle_count_raw": 1,
+      "ebay_item_id": "398357207373",
+      "ebay_type": "Distributor Cap",
+      "ebay_brand": "Standard",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps",
+      "fitment_source": "ebay_listing+title",
+      "fitment_confidence": "medium",
       "fitment": {
         "part_numbers": [
           "JH-167",
-          "JH167, JH167T, Standard Motor Products JH-167"
+          "JH167T, Standard Motor Products JH-167"
         ],
         "interchange": [],
         "vehicles": [
           {
-            "year_from": 1990,
-            "year_to": 1992,
-            "make": "Geo",
-            "model": "Prizm",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1990,
-            "year_to": 1991,
+            "year_from": null,
+            "year_to": null,
             "make": "Toyota",
             "model": "Corolla",
             "notes": "",
@@ -31592,171 +30362,49 @@
           }
         ],
         "vehicle_labels": [
-          "1990\u20131992 Geo Prizm",
-          "1990\u20131991 Toyota Corolla"
+          "Toyota Corolla"
         ],
-        "raw_compat_rows": 4,
-        "source": "ebay_listing",
-        "confidence": "high",
-        "ebay_item_id": "398264656833",
+        "raw_compat_rows": 1,
+        "source": "ebay_listing+title",
+        "confidence": "medium",
+        "ebay_item_id": "398357207373",
         "type": "Distributor Cap",
         "brand": "Standard",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps"
-      },
-      "vehicle_count_raw": 4,
-      "ebay_item_id": "398264656833",
+      }
+    },
+    {
+      "id": "2BXV22TJIWESYH7K7NCSOOIZ",
+      "name": "Standard JH-67 Dist Cap NOS 1.4 74-81 Nissan 510 B210",
+      "price": 16.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/2d0a8b2a60341f2dede95630d31c0f968b31fc1d/original.jpeg",
+      "url": "https://square.link/u/KA3DxhNs",
+      "category": "ignition",
+      "checkout": true,
+      "variation_id": "VXNC27CUR3RGEF4FPXGTQH4W",
+      "stock": 1,
+      "part_numbers": [
+        "JH-67",
+        "JH67T, Standard Ignition JH-67"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1974\u20131981 Nissan 510"
+      ],
+      "vehicle_count_raw": 1,
+      "ebay_item_id": "398357199952",
       "ebay_type": "Distributor Cap",
       "ebay_brand": "Standard",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps",
-      "stock": 1,
-      "interchange": []
-    },
-    {
-      "id": "QBCHWS2B4JRJYVC6TRDAP5CS",
-      "name": "Standard JH-67 Dist Cap NOS 74-81 Nissan 510 B210 Mazda",
-      "price": 16.98,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/2d0a8b2a60341f2dede95630d31c0f968b31fc1d/original.jpeg",
-      "url": "https://square.link/u/IAwlrTZM",
-      "category": "ignition",
-      "checkout": true,
-      "variation_id": "HAZYEQXCQU4TF5ZNDSBM6GNH",
-      "part_numbers": [
-        "JH-67",
-        "JH67, JH67T, Standard Ignition JH-67"
-      ],
-      "vehicles": [
-        "1979\u20131981 Datsun 210",
-        "1978\u20131981 Datsun 510",
-        "1974\u20131976 Datsun 610",
-        "1974\u20131977 Datsun 710",
-        "1974\u20131978 Datsun B210",
-        "1970\u20131971 Mazda 1200",
-        "1970 Mazda 616",
-        "1973\u20131974 Mazda B1600",
-        "1977\u20131978 Mazda B1800",
-        "1979 Mazda B2000",
-        "1976\u20131977 Mazda Mizer",
-        "1974\u20131981 Nissan 510"
-      ],
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "high",
+      "fitment_source": "ebay_listing+title",
+      "fitment_confidence": "medium",
       "fitment": {
         "part_numbers": [
           "JH-67",
-          "JH67, JH67T, Standard Ignition JH-67"
+          "JH67T, Standard Ignition JH-67"
         ],
         "interchange": [],
         "vehicles": [
-          {
-            "year_from": 1979,
-            "year_to": 1981,
-            "make": "Datsun",
-            "model": "210",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1978,
-            "year_to": 1981,
-            "make": "Datsun",
-            "model": "510",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1974,
-            "year_to": 1976,
-            "make": "Datsun",
-            "model": "610",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1974,
-            "year_to": 1977,
-            "make": "Datsun",
-            "model": "710",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1974,
-            "year_to": 1978,
-            "make": "Datsun",
-            "model": "B210",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1970,
-            "year_to": 1971,
-            "make": "Mazda",
-            "model": "1200",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1970,
-            "year_to": 1970,
-            "make": "Mazda",
-            "model": "616",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1973,
-            "year_to": 1974,
-            "make": "Mazda",
-            "model": "B1600",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1977,
-            "year_to": 1978,
-            "make": "Mazda",
-            "model": "B1800",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1979,
-            "year_to": 1979,
-            "make": "Mazda",
-            "model": "B2000",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1976,
-            "year_to": 1977,
-            "make": "Mazda",
-            "model": "Mizer",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
           {
             "year_from": 1974,
             "year_to": 1981,
@@ -31769,34 +30417,16 @@
           }
         ],
         "vehicle_labels": [
-          "1979\u20131981 Datsun 210",
-          "1978\u20131981 Datsun 510",
-          "1974\u20131976 Datsun 610",
-          "1974\u20131977 Datsun 710",
-          "1974\u20131978 Datsun B210",
-          "1970\u20131971 Mazda 1200",
-          "1970 Mazda 616",
-          "1973\u20131974 Mazda B1600",
-          "1977\u20131978 Mazda B1800",
-          "1979 Mazda B2000",
-          "1976\u20131977 Mazda Mizer",
           "1974\u20131981 Nissan 510"
         ],
-        "raw_compat_rows": 22,
-        "source": "ebay_listing",
-        "confidence": "high",
-        "ebay_item_id": "398264341853",
+        "raw_compat_rows": 1,
+        "source": "ebay_listing+title",
+        "confidence": "medium",
+        "ebay_item_id": "398357199952",
         "type": "Distributor Cap",
         "brand": "Standard",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps"
-      },
-      "vehicle_count_raw": 22,
-      "ebay_item_id": "398264341853",
-      "ebay_type": "Distributor Cap",
-      "ebay_brand": "Standard",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps",
-      "stock": 1,
-      "interchange": []
+      }
     },
     {
       "id": "PUYKSXBNLPGQBVY34KDERYG2",
@@ -32333,30 +30963,48 @@
       "stock": 1
     },
     {
-      "id": "XYRG2GULZOF3VOETJ2L6IBVO",
-      "name": "Standard JH125 Distributor Cap NOS Honda Civic Mid-1980s Class",
-      "price": 19.98,
+      "id": "MZBOZSLIMJQRFN55HLHER74F",
+      "name": "Standard JH125 Distributor Cap NOS 84-85 Civic CRX",
+      "price": 19.99,
       "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/754688a0ef6e911fa79ab34ca5a7f80420a49376/original.jpeg",
-      "url": "https://square.link/u/LtNyT1s1",
+      "url": "https://square.link/u/ZhPGPIc8",
       "category": "ignition",
       "checkout": true,
-      "variation_id": "NT3IGRQYCG3ZDBCNSDL32ZK3",
+      "variation_id": "TLAALC6R7MDPEZSVOIOKRCDK",
+      "stock": 1,
       "part_numbers": [
         "JH125",
-        "JH-125, SMP JH125"
+        "SMP JH125, JH-125"
       ],
+      "interchange": [],
       "vehicles": [
+        "1984\u20131985 Honda CRX",
         "1984\u20131985 Honda Civic"
       ],
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "high",
+      "vehicle_count_raw": 2,
+      "ebay_item_id": "398357174390",
+      "ebay_type": "Distributor Cap",
+      "ebay_brand": "Standard",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps",
+      "fitment_source": "ebay_listing+title",
+      "fitment_confidence": "medium",
       "fitment": {
         "part_numbers": [
           "JH125",
-          "JH-125, SMP JH125"
+          "SMP JH125, JH-125"
         ],
         "interchange": [],
         "vehicles": [
+          {
+            "year_from": 1984,
+            "year_to": 1985,
+            "make": "Honda",
+            "model": "CRX",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
           {
             "year_from": 1984,
             "year_to": 1985,
@@ -32369,306 +31017,57 @@
           }
         ],
         "vehicle_labels": [
+          "1984\u20131985 Honda CRX",
           "1984\u20131985 Honda Civic"
         ],
-        "raw_compat_rows": 23,
-        "source": "ebay_listing",
-        "confidence": "high",
-        "ebay_item_id": "398258096229",
+        "raw_compat_rows": 2,
+        "source": "ebay_listing+title",
+        "confidence": "medium",
+        "ebay_item_id": "398357174390",
         "type": "Distributor Cap",
-        "brand": "Standard Ignition",
+        "brand": "Standard",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps"
-      },
-      "vehicle_count_raw": 23,
-      "ebay_item_id": "398258096229",
-      "ebay_type": "Distributor Cap",
-      "ebay_brand": "Standard Ignition",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps",
-      "stock": 1,
-      "interchange": []
+      }
     },
     {
-      "id": "TILR3CSPKZR4II2UPXVFGD3C",
-      "name": "Standard JH128 Distributor Cap NOS Mitsubishi Montero 1987-1989 2.6L 4Cyl",
-      "price": 19.98,
+      "id": "MR3HSYKTT5K57L2WYYWHUQTG",
+      "name": "Standard JH128 Distributor Cap NOS 2.6 87-89 Montero",
+      "price": 19.99,
       "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/54ef97714319a22e6f1418f16edf20c03f4cdac7/original.jpeg",
-      "url": "https://square.link/u/WOt1LMnw",
+      "url": "https://square.link/u/ptrB3aJo",
       "category": "ignition",
       "checkout": true,
-      "variation_id": "72HD2Y57NWJSNM6YRXY3YXAW",
+      "variation_id": "XDXZSKYCBVIW6RTPWDU2MM6V",
+      "stock": 1,
       "part_numbers": [
         "JH128",
-        "JH-128, SMP JH128, MD602949 (market cross \u2014 verify)"
+        "SMP JH128, MD602949"
       ],
-      "vehicles": [
-        "1989\u20131990 Dodge 2000 GTX",
-        "1984\u20131990 Dodge Colt",
-        "1988\u20131989 Dodge Raider",
-        "1988\u20131989 Dodge Ram 50",
-        "1989\u20131990 Eagle Summit",
-        "1991 Eagle Vista",
-        "1986\u20131994 Hyundai Excel",
-        "1984\u20131987 Hyundai Pony",
-        "1991\u20131995 Hyundai Scoupe",
-        "1989\u20131994 Hyundai Sonata",
-        "1985\u20131987 Hyundai Stellar",
-        "1987\u20131988 Mazda B2600",
-        "1987\u20131988 Mitsubishi Cordia",
-        "1995\u20131996 Mitsubishi Mighty Max",
-        "1985\u20131990 Mitsubishi Mirage",
-        "1987\u20131989 Mitsubishi Montero",
-        "1987\u20131994 Mitsubishi Precis",
-        "1988 Mitsubishi Tredia",
-        "1987\u20131990 Mitsubishi Van",
-        "1984\u20131991 Plymouth Colt"
-      ],
+      "interchange": [],
+      "vehicles": [],
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398357120967",
+      "ebay_type": "Distributor Cap",
+      "ebay_brand": "Standard",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
           "JH128",
-          "JH-128, SMP JH128, MD602949 (market cross \u2014 verify)"
+          "SMP JH128, MD602949"
         ],
         "interchange": [],
-        "vehicles": [
-          {
-            "year_from": 1989,
-            "year_to": 1990,
-            "make": "Dodge",
-            "model": "2000 GTX",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1984,
-            "year_to": 1990,
-            "make": "Dodge",
-            "model": "Colt",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1988,
-            "year_to": 1989,
-            "make": "Dodge",
-            "model": "Raider",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1988,
-            "year_to": 1989,
-            "make": "Dodge",
-            "model": "Ram 50",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1989,
-            "year_to": 1990,
-            "make": "Eagle",
-            "model": "Summit",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1991,
-            "year_to": 1991,
-            "make": "Eagle",
-            "model": "Vista",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1986,
-            "year_to": 1994,
-            "make": "Hyundai",
-            "model": "Excel",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1984,
-            "year_to": 1987,
-            "make": "Hyundai",
-            "model": "Pony",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1991,
-            "year_to": 1995,
-            "make": "Hyundai",
-            "model": "Scoupe",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1989,
-            "year_to": 1994,
-            "make": "Hyundai",
-            "model": "Sonata",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1985,
-            "year_to": 1987,
-            "make": "Hyundai",
-            "model": "Stellar",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1987,
-            "year_to": 1988,
-            "make": "Mazda",
-            "model": "B2600",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1987,
-            "year_to": 1988,
-            "make": "Mitsubishi",
-            "model": "Cordia",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1995,
-            "year_to": 1996,
-            "make": "Mitsubishi",
-            "model": "Mighty Max",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1985,
-            "year_to": 1990,
-            "make": "Mitsubishi",
-            "model": "Mirage",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1987,
-            "year_to": 1989,
-            "make": "Mitsubishi",
-            "model": "Montero",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1987,
-            "year_to": 1994,
-            "make": "Mitsubishi",
-            "model": "Precis",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1988,
-            "year_to": 1988,
-            "make": "Mitsubishi",
-            "model": "Tredia",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1987,
-            "year_to": 1990,
-            "make": "Mitsubishi",
-            "model": "Van",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1984,
-            "year_to": 1991,
-            "make": "Plymouth",
-            "model": "Colt",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          }
-        ],
-        "vehicle_labels": [
-          "1989\u20131990 Dodge 2000 GTX",
-          "1984\u20131990 Dodge Colt",
-          "1988\u20131989 Dodge Raider",
-          "1988\u20131989 Dodge Ram 50",
-          "1989\u20131990 Eagle Summit",
-          "1991 Eagle Vista",
-          "1986\u20131994 Hyundai Excel",
-          "1984\u20131987 Hyundai Pony",
-          "1991\u20131995 Hyundai Scoupe",
-          "1989\u20131994 Hyundai Sonata",
-          "1985\u20131987 Hyundai Stellar",
-          "1987\u20131988 Mazda B2600",
-          "1987\u20131988 Mitsubishi Cordia",
-          "1995\u20131996 Mitsubishi Mighty Max",
-          "1985\u20131990 Mitsubishi Mirage",
-          "1987\u20131989 Mitsubishi Montero",
-          "1987\u20131994 Mitsubishi Precis",
-          "1988 Mitsubishi Tredia",
-          "1987\u20131990 Mitsubishi Van",
-          "1984\u20131991 Plymouth Colt"
-        ],
-        "raw_compat_rows": 38,
+        "vehicles": [],
+        "vehicle_labels": [],
+        "raw_compat_rows": 0,
         "source": "ebay_listing",
         "confidence": "high",
-        "ebay_item_id": "398258063596",
+        "ebay_item_id": "398357120967",
         "type": "Distributor Cap",
-        "brand": "Standard Ignition",
+        "brand": "Standard",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps"
-      },
-      "vehicle_count_raw": 38,
-      "ebay_item_id": "398258063596",
-      "ebay_type": "Distributor Cap",
-      "ebay_brand": "Standard Ignition",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps",
-      "stock": 1,
-      "interchange": []
+      }
     },
     {
       "id": "QFCHUL2LX5Q5EWZDRGPELEUK",
@@ -33013,34 +31412,41 @@
       "stock": 1
     },
     {
-      "id": "BBUP4BQEBUP7CGDWCUP2LGX7",
-      "name": "Standard JH207 Distributor Cap NOS Honda Accord Early-Mid 1990s 2.2L",
-      "price": 19.98,
+      "id": "M4LLJWH6SYBIDSQJL772A6ZZ",
+      "name": "Standard JH207 Distributor Cap NOS 2.2 92-01 Accord Prelude",
+      "price": 19.99,
       "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/350b4a20e31c98333522cbac8be1769ae37e4cf7/original.jpeg",
-      "url": "https://square.link/u/60qlx6Du",
+      "url": "https://square.link/u/Yx7xdKwQ",
       "category": "ignition",
       "checkout": true,
-      "variation_id": "PZBIUIJNNS5OAWDKGTDRTS7N",
+      "variation_id": "MJOCHG57ZUAIJSCBCZOH5PJY",
+      "stock": 1,
       "part_numbers": [
         "JH207",
-        "JH-207, SMP JH207"
+        "SMP JH207, JH-207"
       ],
+      "interchange": [],
       "vehicles": [
-        "1992\u20131997 Honda Accord",
+        "1992\u20132001 Honda Accord",
         "1992\u20132001 Honda Prelude"
       ],
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "high",
+      "vehicle_count_raw": 2,
+      "ebay_item_id": "398357175241",
+      "ebay_type": "Distributor Cap",
+      "ebay_brand": "Standard",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps",
+      "fitment_source": "ebay_listing+title",
+      "fitment_confidence": "medium",
       "fitment": {
         "part_numbers": [
           "JH207",
-          "JH-207, SMP JH207"
+          "SMP JH207, JH-207"
         ],
         "interchange": [],
         "vehicles": [
           {
             "year_from": 1992,
-            "year_to": 1997,
+            "year_to": 2001,
             "make": "Honda",
             "model": "Accord",
             "notes": "",
@@ -33060,66 +31466,55 @@
           }
         ],
         "vehicle_labels": [
-          "1992\u20131997 Honda Accord",
+          "1992\u20132001 Honda Accord",
           "1992\u20132001 Honda Prelude"
         ],
-        "raw_compat_rows": 104,
-        "source": "ebay_listing",
-        "confidence": "high",
-        "ebay_item_id": "398258097177",
+        "raw_compat_rows": 2,
+        "source": "ebay_listing+title",
+        "confidence": "medium",
+        "ebay_item_id": "398357175241",
         "type": "Distributor Cap",
-        "brand": "Standard Ignition",
+        "brand": "Standard",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps"
-      },
-      "vehicle_count_raw": 104,
-      "ebay_item_id": "398258097177",
-      "ebay_type": "Distributor Cap",
-      "ebay_brand": "Standard Ignition",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps",
-      "stock": 1,
-      "interchange": []
+      }
     },
     {
-      "id": "UWVUANLPWLZ5WJBUXTAOVUGC",
-      "name": "Standard JH95 Distributor Cap NOS Honda Accord Prelude Italy",
-      "price": 17.98,
+      "id": "TGR75WCEGXLVRMXHT5TR3B43",
+      "name": "Standard JH95 Distributor Cap Accord NOS",
+      "price": 17.99,
       "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/2e6134f9aa069fda80b9615525057fd6cd4b8357/original.jpeg",
-      "url": "https://square.link/u/OwAqBBJ0",
+      "url": "https://square.link/u/eZfplypU",
       "category": "ignition",
       "checkout": true,
-      "variation_id": "BD4GP2J222R2YTBTQORDIRKK",
+      "variation_id": "QA3TK6MA2G7LSADZN6C4VJDV",
+      "stock": 1,
       "part_numbers": [
         "JH95",
-        "JH-95, JH95, Standard Motor Products JH95"
+        "Standard Motor Products JH95"
       ],
+      "interchange": [],
       "vehicles": [
-        "1986\u20131989 Honda Accord",
-        "1983\u20131990 Honda Prelude"
+        "Honda Accord"
       ],
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "high",
+      "vehicle_count_raw": 1,
+      "ebay_item_id": "398357206004",
+      "ebay_type": "Distributor Cap",
+      "ebay_brand": "Standard",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps",
+      "fitment_source": "ebay_listing+title",
+      "fitment_confidence": "medium",
       "fitment": {
         "part_numbers": [
           "JH95",
-          "JH-95, JH95, Standard Motor Products JH95"
+          "Standard Motor Products JH95"
         ],
         "interchange": [],
         "vehicles": [
           {
-            "year_from": 1986,
-            "year_to": 1989,
+            "year_from": null,
+            "year_to": null,
             "make": "Honda",
             "model": "Accord",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1983,
-            "year_to": 1990,
-            "make": "Honda",
-            "model": "Prelude",
             "notes": "",
             "source": "ebay_compat",
             "confidence": "high",
@@ -33127,24 +31522,16 @@
           }
         ],
         "vehicle_labels": [
-          "1986\u20131989 Honda Accord",
-          "1983\u20131990 Honda Prelude"
+          "Honda Accord"
         ],
-        "raw_compat_rows": 4,
-        "source": "ebay_listing",
-        "confidence": "high",
-        "ebay_item_id": "398264625287",
+        "raw_compat_rows": 1,
+        "source": "ebay_listing+title",
+        "confidence": "medium",
+        "ebay_item_id": "398357206004",
         "type": "Distributor Cap",
         "brand": "Standard",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps"
-      },
-      "vehicle_count_raw": 4,
-      "ebay_item_id": "398264625287",
-      "ebay_type": "Distributor Cap",
-      "ebay_brand": "Standard",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps",
-      "stock": 1,
-      "interchange": []
+      }
     },
     {
       "id": "5SY4OWTUDY6NZXZTBGY4SRF2",
@@ -36612,344 +34999,122 @@
       "stock": 1
     },
     {
-      "id": "7G7QMJIPJDP6N2LQV42RQS62",
-      "name": "Beck Arnley 103-2250 CV Boot Kit NOS LOBRO Audi VW Porsche Saab",
-      "price": 24.99,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/2b0e9fa4f70920c71a2e7eef34e2bf4c2b001087/original.jpeg",
-      "url": "https://square.link/u/jXMpYLb5",
-      "category": "driveline",
-      "checkout": true,
-      "variation_id": "FXQBDZ7YUL23IWM3EDGD5DW2",
-      "part_numbers": [
-        "103-2250",
-        "1032250, MOOG CV2490, LOBRO 6152127500513"
-      ],
-      "vehicles": [
-        "1998\u20132000 Volkswagen Beetle",
-        "1995\u20132002 Volkswagen Cabrio",
-        "1990\u20131994 Volkswagen Corrado",
-        "1992\u20132000 Volkswagen Golf",
-        "1984\u20131991 Volkswagen Jetta",
-        "1983\u20131987 Volkswagen Quantum",
-        "1985 Volkswagen Scirocco"
-      ],
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "high",
-      "fitment": {
-        "part_numbers": [
-          "103-2250",
-          "1032250, MOOG CV2490, LOBRO 6152127500513"
-        ],
-        "interchange": [],
-        "vehicles": [
-          {
-            "year_from": 1998,
-            "year_to": 2000,
-            "make": "Volkswagen",
-            "model": "Beetle",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1995,
-            "year_to": 2002,
-            "make": "Volkswagen",
-            "model": "Cabrio",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1990,
-            "year_to": 1994,
-            "make": "Volkswagen",
-            "model": "Corrado",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1992,
-            "year_to": 2000,
-            "make": "Volkswagen",
-            "model": "Golf",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1984,
-            "year_to": 1991,
-            "make": "Volkswagen",
-            "model": "Jetta",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1983,
-            "year_to": 1987,
-            "make": "Volkswagen",
-            "model": "Quantum",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1985,
-            "year_to": 1985,
-            "make": "Volkswagen",
-            "model": "Scirocco",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          }
-        ],
-        "vehicle_labels": [
-          "1998\u20132000 Volkswagen Beetle",
-          "1995\u20132002 Volkswagen Cabrio",
-          "1990\u20131994 Volkswagen Corrado",
-          "1992\u20132000 Volkswagen Golf",
-          "1984\u20131991 Volkswagen Jetta",
-          "1983\u20131987 Volkswagen Quantum",
-          "1985 Volkswagen Scirocco"
-        ],
-        "raw_compat_rows": 13,
-        "source": "ebay_listing",
-        "confidence": "high",
-        "ebay_item_id": "398264521813",
-        "type": "CV Joint Boot Kit",
-        "brand": "Beck/Arnley",
-        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:CV Joints, Boots & Parts"
-      },
-      "vehicle_count_raw": 13,
-      "ebay_item_id": "398264521813",
-      "ebay_type": "CV Joint Boot Kit",
-      "ebay_brand": "Beck/Arnley",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:CV Joints, Boots & Parts",
-      "stock": 1,
-      "interchange": []
-    },
-    {
-      "id": "KBHKLZPKJEX6N4RXTHE7PHVC",
-      "name": "Beck Arnley 103-2263 Outer CV Boot Kit NOS Honda Datsun Class",
-      "price": 19.98,
+      "id": "PKRO54YXV77LKRBN427GDE6V",
+      "name": "Beck Arnley 103-2263 Outer CV Boot Kit NOS",
+      "price": 19.99,
       "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/5ca296c1749678ac226a90a229234678bd6020e2/original.jpeg",
-      "url": "https://square.link/u/uBRerkM3",
+      "url": "https://square.link/u/aXDQJwbC",
       "category": "driveline",
       "checkout": true,
-      "variation_id": "Y3PTMTRTLII53VJER5LZI3CM",
+      "variation_id": "RUX4GKSIWUGVOMDZCORKRYW3",
+      "stock": 1,
       "part_numbers": [
         "103-2263",
         "1032263"
       ],
-      "vehicles": [
-        "Datsun",
-        "Honda"
-      ],
+      "interchange": [],
+      "vehicles": [],
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398357202361",
+      "ebay_type": "CV Joint Boot Kit",
+      "ebay_brand": "Beck Arnley",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:CV Joints, Boots & Parts",
       "fitment_source": "ebay_listing",
-      "fitment_confidence": "medium",
+      "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
           "103-2263",
           "1032263"
         ],
         "interchange": [],
-        "vehicles": [
-          {
-            "year_from": null,
-            "year_to": null,
-            "make": "Datsun",
-            "model": "",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": null,
-            "year_to": null,
-            "make": "Honda",
-            "model": "",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          }
-        ],
-        "vehicle_labels": [
-          "Datsun",
-          "Honda"
-        ],
-        "raw_compat_rows": 2,
+        "vehicles": [],
+        "vehicle_labels": [],
+        "raw_compat_rows": 0,
         "source": "ebay_listing",
-        "confidence": "medium",
-        "ebay_item_id": "398258751741",
+        "confidence": "high",
+        "ebay_item_id": "398357202361",
         "type": "CV Joint Boot Kit",
-        "brand": "Beck/Arnley",
+        "brand": "Beck Arnley",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:CV Joints, Boots & Parts"
-      },
-      "vehicle_count_raw": 2,
-      "ebay_item_id": "398258751741",
-      "ebay_type": "CV Joint Boot Kit",
-      "ebay_brand": "Beck/Arnley",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:CV Joints, Boots & Parts",
-      "stock": 1,
-      "interchange": []
+      }
     },
     {
-      "id": "FTBJMXUC4ZOEECTDNXBEP5HC",
-      "name": "Beck Arnley 103-2285 CV Boot Kit NOS Renault Alliance Encore 83-87 Front Outer",
-      "price": 19.98,
+      "id": "YAAIDJVG2IW2UKW6HGI4BNCX",
+      "name": "Beck Arnley 103-2285 CV Boot Kit NOS 83-87 Alliance Encore",
+      "price": 19.99,
       "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/bb4bf50f50d6cd1d0094a5f3dbf2f1395ac46f1f/original.jpeg",
-      "url": "https://square.link/u/nweFaXTW",
+      "url": "https://square.link/u/nP5pwL8g",
       "category": "driveline",
       "checkout": true,
-      "variation_id": "D25DPWFEWZLD23FMGIK5MKU3",
+      "variation_id": "UJFEWKGM3KQQRVBYC5FBSIUM",
+      "stock": 1,
       "part_numbers": [
         "103-2285",
-        "1032285, 7701348568, 816-1085, 86-1108, 22421, CV6450"
+        "7701348568, 816-1085, 86-1108, 22421, CV6450"
       ],
-      "vehicles": [
-        "1983\u20131987 Renault Alliance",
-        "1984\u20131986 Renault Encore",
-        "1981\u20131983 Renault R18",
-        "1981\u20131983 Renault R18i"
-      ],
+      "interchange": [],
+      "vehicles": [],
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398357202953",
+      "ebay_type": "CV Joint Boot Kit",
+      "ebay_brand": "Beck Arnley",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:CV Joints, Boots & Parts",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
           "103-2285",
-          "1032285, 7701348568, 816-1085, 86-1108, 22421, CV6450"
+          "7701348568, 816-1085, 86-1108, 22421, CV6450"
         ],
         "interchange": [],
-        "vehicles": [
-          {
-            "year_from": 1983,
-            "year_to": 1987,
-            "make": "Renault",
-            "model": "Alliance",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1984,
-            "year_to": 1986,
-            "make": "Renault",
-            "model": "Encore",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1981,
-            "year_to": 1983,
-            "make": "Renault",
-            "model": "R18",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1981,
-            "year_to": 1983,
-            "make": "Renault",
-            "model": "R18i",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          }
-        ],
-        "vehicle_labels": [
-          "1983\u20131987 Renault Alliance",
-          "1984\u20131986 Renault Encore",
-          "1981\u20131983 Renault R18",
-          "1981\u20131983 Renault R18i"
-        ],
-        "raw_compat_rows": 8,
+        "vehicles": [],
+        "vehicle_labels": [],
+        "raw_compat_rows": 0,
         "source": "ebay_listing",
         "confidence": "high",
-        "ebay_item_id": "398264435514",
+        "ebay_item_id": "398357202953",
         "type": "CV Joint Boot Kit",
-        "brand": "Beck/Arnley",
+        "brand": "Beck Arnley",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:CV Joints, Boots & Parts"
-      },
-      "vehicle_count_raw": 8,
-      "ebay_item_id": "398264435514",
-      "ebay_type": "CV Joint Boot Kit",
-      "ebay_brand": "Beck/Arnley",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:CV Joints, Boots & Parts",
-      "stock": 1,
-      "interchange": []
+      }
     },
     {
-      "id": "YSEN54ZAIGOC66SNHV7PULGM",
-      "name": "Beck Arnley 103-2461 CV Boot Kit NOS Acura Legend 86-90 Class",
-      "price": 18.98,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/2b0e9fa4f70920c71a2e7eef34e2bf4c2b001087/original.jpeg",
-      "url": "https://square.link/u/IWtCyM0J",
+      "id": "6HZLPPKTUI4MNIWB2HSGRDQ6",
+      "name": "Beck Arnley 103-2461 CV Boot Kit Legend NOS",
+      "price": 18.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/847c3f5dbb0bc43ae38d9f46f2479b61d3fdc926/original.jpeg",
+      "url": "https://square.link/u/2X2JvKow",
       "category": "driveline",
       "checkout": true,
-      "variation_id": "QJ7UEN2KJEMPZB7MI63OIWLR",
+      "variation_id": "VFNQJBHWUGMTBWVEQXATH3U2",
+      "stock": 1,
       "part_numbers": [
-        "103-2461",
-        "1032461"
+        "103-2461"
       ],
-      "vehicles": [
-        "1986\u20131990 Acura Legend"
-      ],
+      "interchange": [],
+      "vehicles": [],
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398357203500",
+      "ebay_type": "CV Joint Boot Kit",
+      "ebay_brand": "Beck Arnley",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:CV Joints, Boots & Parts",
       "fitment_source": "ebay_listing",
-      "fitment_confidence": "high",
+      "fitment_confidence": "medium",
       "fitment": {
         "part_numbers": [
-          "103-2461",
-          "1032461"
+          "103-2461"
         ],
         "interchange": [],
-        "vehicles": [
-          {
-            "year_from": 1986,
-            "year_to": 1990,
-            "make": "Acura",
-            "model": "Legend",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          }
-        ],
-        "vehicle_labels": [
-          "1986\u20131990 Acura Legend"
-        ],
-        "raw_compat_rows": 29,
+        "vehicles": [],
+        "vehicle_labels": [],
+        "raw_compat_rows": 0,
         "source": "ebay_listing",
-        "confidence": "high",
-        "ebay_item_id": "398264440602",
+        "confidence": "medium",
+        "ebay_item_id": "398357203500",
         "type": "CV Joint Boot Kit",
-        "brand": "Beck/Arnley",
+        "brand": "Beck Arnley",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:CV Joints, Boots & Parts"
-      },
-      "vehicle_count_raw": 29,
-      "ebay_item_id": "398264440602",
-      "ebay_type": "CV Joint Boot Kit",
-      "ebay_brand": "Beck/Arnley",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:CV Joints, Boots & Parts",
-      "stock": 1,
-      "interchange": []
+      }
     },
     {
       "id": "U7IAHNRLDFHIMBOV75GFFH7W",
@@ -37357,348 +35522,126 @@
       "interchange": []
     },
     {
-      "id": "C2J2NYOGP2MZSHCARASEWCUX",
-      "name": "MOOG CV2460 CV Joint Boot Kit NOS Outer 1982-1984 Cavalier",
-      "price": 19.98,
+      "id": "UPJXZPBN6AG6P5I7IUMM3CPQ",
+      "name": "MOOG CV2460 CV Joint Boot Kit Cavalier NOS",
+      "price": 19.99,
       "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/b812855b392f4770c7f91b03f97d287a05683135/original.jpeg",
-      "url": "https://square.link/u/IMGLCtJd",
+      "url": "https://square.link/u/Zm4Qgnl8",
       "category": "driveline",
       "checkout": true,
-      "variation_id": "XK7DWMMQRIH4YEN2SLZKHA77",
+      "variation_id": "NFIKAKJMJ6J3OV4PLVED2ZFA",
+      "stock": 1,
       "part_numbers": [
         "CV2460",
-        "2460, CV-2460, Dorman 614-003"
+        "Dorman 614-003, 2460"
       ],
-      "vehicles": [
-        "1982\u20131984 Chevrolet Cavalier"
-      ],
+      "interchange": [],
+      "vehicles": [],
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398357204125",
+      "ebay_type": "CV Joint Boot Kit",
+      "ebay_brand": "MOOG",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:CV Joints, Boots & Parts",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
           "CV2460",
-          "2460, CV-2460, Dorman 614-003"
+          "Dorman 614-003, 2460"
         ],
         "interchange": [],
-        "vehicles": [
-          {
-            "year_from": 1982,
-            "year_to": 1984,
-            "make": "Chevrolet",
-            "model": "Cavalier",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          }
-        ],
-        "vehicle_labels": [
-          "1982\u20131984 Chevrolet Cavalier"
-        ],
-        "raw_compat_rows": 2,
+        "vehicles": [],
+        "vehicle_labels": [],
+        "raw_compat_rows": 0,
         "source": "ebay_listing",
         "confidence": "high",
-        "ebay_item_id": "398264531664",
+        "ebay_item_id": "398357204125",
         "type": "CV Joint Boot Kit",
         "brand": "MOOG",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:CV Joints, Boots & Parts"
-      },
-      "vehicle_count_raw": 2,
-      "ebay_item_id": "398264531664",
-      "ebay_type": "CV Joint Boot Kit",
-      "ebay_brand": "MOOG",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:CV Joints, Boots & Parts",
-      "stock": 1,
-      "interchange": []
+      }
     },
     {
-      "id": "MEZ55T56RBITV6IWAJK3IJ75",
-      "name": "MOOG CV2485 CV Joint Boot Kit NOS Boot Clamps Grease",
+      "id": "3B245GBALPZYHXNXY7UMJQUV",
+      "name": "MOOG CV2485 CV Boot Kit NOS 85-92 Golf Jetta",
       "price": 24.99,
       "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/e1922e16429cb3ab40e6a721542d93cb882e8aee/original.jpeg",
-      "url": "https://square.link/u/1CFMqQ3F",
+      "url": "https://square.link/u/sAOlMHjJ",
       "category": "driveline",
       "checkout": true,
-      "variation_id": "2KWJCJBFBVRVP65RXGHCOLBT",
+      "variation_id": "WSPYAZHXYPHDOU3WGSDTKAD4",
+      "stock": 1,
       "part_numbers": [
         "CV2485",
-        "2485, CV-2485, 614-001, 614-002, 66-1251, 816-1251, 103-2250"
+        "Dorman 614-001, 103-2250, 2485, 614-002, 66-1251"
       ],
       "interchange": [
-        "Dorman 614-001",
-        "Dorman 614-002",
-        "McQuay-Norris 66-1251",
-        "Spicer 816-1251",
         "Beck",
         "Arnley 103-2250"
       ],
-      "vehicles": [
-        "1989\u20131994 Audi 100",
-        "1972\u20131977 Audi 100 Series",
-        "1980\u20131987 Audi 4000",
-        "1978\u20131988 Audi 5000",
-        "1988\u20131995 Audi 90",
-        "1981\u20131987 Audi Coupe",
-        "1988\u20131989 Eagle Medallion",
-        "1990\u20131993 Geo Storm",
-        "1987\u20132001 Porsche 911",
-        "1986\u20131998 Saab 9000",
-        "1985\u20131993 Volkswagen Cabriolet",
-        "1990\u20131995 Volkswagen Corrado",
-        "1985\u20131992 Volkswagen Golf",
-        "1985\u20131992 Volkswagen Jetta",
-        "1982\u20131988 Volkswagen Quantum",
-        "1982\u20131988 Volkswagen Scirocco"
-      ],
+      "vehicles": [],
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398357193800",
+      "ebay_type": "CV Joint Boot Kit",
+      "ebay_brand": "MOOG",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:CV Joints, Boots & Parts",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
           "CV2485",
-          "2485, CV-2485, 614-001, 614-002, 66-1251, 816-1251, 103-2250"
+          "Dorman 614-001, 103-2250, 2485, 614-002, 66-1251"
         ],
         "interchange": [
-          "Dorman 614-001",
-          "Dorman 614-002",
-          "McQuay-Norris 66-1251",
-          "Spicer 816-1251",
           "Beck",
           "Arnley 103-2250"
         ],
-        "vehicles": [
-          {
-            "year_from": 1989,
-            "year_to": 1994,
-            "make": "Audi",
-            "model": "100",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1972,
-            "year_to": 1977,
-            "make": "Audi",
-            "model": "100 Series",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1980,
-            "year_to": 1987,
-            "make": "Audi",
-            "model": "4000",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1978,
-            "year_to": 1988,
-            "make": "Audi",
-            "model": "5000",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1988,
-            "year_to": 1995,
-            "make": "Audi",
-            "model": "90",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1981,
-            "year_to": 1987,
-            "make": "Audi",
-            "model": "Coupe",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1988,
-            "year_to": 1989,
-            "make": "Eagle",
-            "model": "Medallion",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1990,
-            "year_to": 1993,
-            "make": "Geo",
-            "model": "Storm",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1987,
-            "year_to": 2001,
-            "make": "Porsche",
-            "model": "911",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1986,
-            "year_to": 1998,
-            "make": "Saab",
-            "model": "9000",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1985,
-            "year_to": 1993,
-            "make": "Volkswagen",
-            "model": "Cabriolet",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1990,
-            "year_to": 1995,
-            "make": "Volkswagen",
-            "model": "Corrado",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1985,
-            "year_to": 1992,
-            "make": "Volkswagen",
-            "model": "Golf",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1985,
-            "year_to": 1992,
-            "make": "Volkswagen",
-            "model": "Jetta",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1982,
-            "year_to": 1988,
-            "make": "Volkswagen",
-            "model": "Quantum",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1982,
-            "year_to": 1988,
-            "make": "Volkswagen",
-            "model": "Scirocco",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          }
-        ],
-        "vehicle_labels": [
-          "1989\u20131994 Audi 100",
-          "1972\u20131977 Audi 100 Series",
-          "1980\u20131987 Audi 4000",
-          "1978\u20131988 Audi 5000",
-          "1988\u20131995 Audi 90",
-          "1981\u20131987 Audi Coupe",
-          "1988\u20131989 Eagle Medallion",
-          "1990\u20131993 Geo Storm",
-          "1987\u20132001 Porsche 911",
-          "1986\u20131998 Saab 9000",
-          "1985\u20131993 Volkswagen Cabriolet",
-          "1990\u20131995 Volkswagen Corrado",
-          "1985\u20131992 Volkswagen Golf",
-          "1985\u20131992 Volkswagen Jetta",
-          "1982\u20131988 Volkswagen Quantum",
-          "1982\u20131988 Volkswagen Scirocco"
-        ],
-        "raw_compat_rows": 32,
+        "vehicles": [],
+        "vehicle_labels": [],
+        "raw_compat_rows": 0,
         "source": "ebay_listing",
         "confidence": "high",
-        "ebay_item_id": "398264291029",
+        "ebay_item_id": "398357193800",
         "type": "CV Joint Boot Kit",
         "brand": "MOOG",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:CV Joints, Boots & Parts"
-      },
-      "vehicle_count_raw": 32,
-      "ebay_item_id": "398264291029",
-      "ebay_type": "CV Joint Boot Kit",
-      "ebay_brand": "MOOG",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:CV Joints, Boots & Parts",
-      "stock": 1
+      }
     },
     {
-      "id": "TDXRVKI5YT3CSUWO5MTPQA2D",
-      "name": "MOOG CV4405 Front Outer CV Boot Kit NOS Acura Integra Honda Accord",
-      "price": 19.98,
+      "id": "IFOA4XQWTFUCAYHG6OI3AHLF",
+      "name": "MOOG CV4405 Front Outer CV Boot Kit NOS Integra Accord",
+      "price": 19.99,
       "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/66614537d54db20d9b388ee818ddaa91bea0b08f/original.jpeg",
-      "url": "https://square.link/u/ra9pPE9A",
+      "url": "https://square.link/u/9StIvLyP",
       "category": "driveline",
       "checkout": true,
-      "variation_id": "QK7IIHMUFCCWRBNRJDIIESKY",
+      "variation_id": "E6QYYBVVTYEBYO6TJX576MSJ",
+      "stock": 1,
       "part_numbers": [
         "CV4405",
-        "McQuay-Norris CV4405"
+        "McQuay-Norris CV4405, Precision 4405"
       ],
+      "interchange": [],
       "vehicles": [
-        "1986\u20131996 Acura Integra",
-        "1986\u20131989 Honda Accord"
+        "Honda Accord"
       ],
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "high",
+      "vehicle_count_raw": 1,
+      "ebay_item_id": "398357185866",
+      "ebay_type": "CV Boot Kit",
+      "ebay_brand": "MOOG",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:CV Joints, Boots & Parts",
+      "fitment_source": "ebay_listing+title",
+      "fitment_confidence": "medium",
       "fitment": {
         "part_numbers": [
           "CV4405",
-          "McQuay-Norris CV4405"
+          "McQuay-Norris CV4405, Precision 4405"
         ],
         "interchange": [],
         "vehicles": [
           {
-            "year_from": 1986,
-            "year_to": 1996,
-            "make": "Acura",
-            "model": "Integra",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1986,
-            "year_to": 1989,
+            "year_from": null,
+            "year_to": null,
             "make": "Honda",
             "model": "Accord",
             "notes": "",
@@ -37708,47 +35651,46 @@
           }
         ],
         "vehicle_labels": [
-          "1986\u20131996 Acura Integra",
-          "1986\u20131989 Honda Accord"
+          "Honda Accord"
         ],
-        "raw_compat_rows": 4,
-        "source": "ebay_listing",
-        "confidence": "high",
-        "ebay_item_id": "398258717306",
+        "raw_compat_rows": 1,
+        "source": "ebay_listing+title",
+        "confidence": "medium",
+        "ebay_item_id": "398357185866",
         "type": "CV Boot Kit",
         "brand": "MOOG",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:CV Joints, Boots & Parts"
-      },
-      "vehicle_count_raw": 4,
-      "ebay_item_id": "398258717306",
-      "ebay_type": "CV Boot Kit",
-      "ebay_brand": "MOOG",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:CV Joints, Boots & Parts",
-      "stock": 1,
-      "interchange": []
+      }
     },
     {
-      "id": "6H7GJGEFGD5CKNLW7W7JRAKK",
-      "name": "MOOG CV4444 CV Boot Kit NOS Subaru GL Loyale XT Class Roll Pin",
+      "id": "KQJL4PJPM5LRIPD5CC6WZENV",
+      "name": "MOOG CV4444 CV Boot Kit NOS Subaru GL Loyale XT",
       "price": 24.99,
       "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/4d63230863a8bacccff4f4d8e8521e54edd4a5b2/original.jpeg",
-      "url": "https://square.link/u/ZM080DHY",
+      "url": "https://square.link/u/1MO0yBHN",
       "category": "driveline",
       "checkout": true,
-      "variation_id": "XEONFYNRXZZSZ573IYIM27X7",
+      "variation_id": "GQEE3RZ6Z77O3OXIQKHEMEGK",
+      "stock": 1,
       "part_numbers": [
         "CV4444",
-        "4444, CV-4444, MOOG 4444, Precision 4444, 23222GA112"
+        "Precision 4444, 4444, MOOG 4444, 23222GA112"
       ],
+      "interchange": [],
       "vehicles": [
         "Subaru GL"
       ],
-      "fitment_source": "ebay_listing",
+      "vehicle_count_raw": 1,
+      "ebay_item_id": "398357177362",
+      "ebay_type": "CV Joint Boot Kit",
+      "ebay_brand": "MOOG",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:CV Joints, Boots & Parts",
+      "fitment_source": "ebay_listing+title",
       "fitment_confidence": "medium",
       "fitment": {
         "part_numbers": [
           "CV4444",
-          "4444, CV-4444, MOOG 4444, Precision 4444, 23222GA112"
+          "Precision 4444, 4444, MOOG 4444, 23222GA112"
         ],
         "interchange": [],
         "vehicles": [
@@ -37767,20 +35709,13 @@
           "Subaru GL"
         ],
         "raw_compat_rows": 1,
-        "source": "ebay_listing",
+        "source": "ebay_listing+title",
         "confidence": "medium",
-        "ebay_item_id": "398258189714",
+        "ebay_item_id": "398357177362",
         "type": "CV Joint Boot Kit",
         "brand": "MOOG",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:CV Joints, Boots & Parts"
-      },
-      "vehicle_count_raw": 1,
-      "ebay_item_id": "398258189714",
-      "ebay_type": "CV Joint Boot Kit",
-      "ebay_brand": "MOOG",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:CV Joints, Boots & Parts",
-      "stock": 1,
-      "interchange": []
+      }
     },
     {
       "id": "2GQB5BOBVHBNLXNWOQQ7CCFC",
@@ -38200,103 +36135,44 @@
       "interchange": []
     },
     {
-      "id": "XNGQANCKGVZRTWO43TY3BAC6",
-      "name": "MOOG CV5865 CV Joint Boot Kit NOS Front Outer Spectrum",
+      "id": "DS66H64WQR62APGLMQN2OXET",
+      "name": "MOOG CV5865 CV Joint Boot Kit Spectrum NOS",
       "price": 22.99,
       "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/730ce7bd37546fd576d1f5fd6095d7eb95075261/original.jpeg",
-      "url": "https://square.link/u/7O9pPRlT",
+      "url": "https://square.link/u/Z1u6tw0e",
       "category": "driveline",
       "checkout": true,
-      "variation_id": "L6QKY67ZB5SJ7WXLL456HRQ3",
+      "variation_id": "JK7E7HVMBE6NYTYECYPRLDY4",
+      "stock": 1,
       "part_numbers": [
         "CV5865",
-        "5865, CV-5865, CV5865"
+        "CR 19820, SKF 19820, Precision 5865, 5865"
       ],
-      "interchange": [
-        "Precision 5865",
-        "Carlson 5865",
-        "Neapco 5865"
-      ],
-      "vehicles": [
-        "1985\u20131988 Chevrolet Spectrum",
-        "1989 Geo Spectrum",
-        "1985\u20131989 Isuzu I-Mark",
-        "1985\u20131988 Pontiac Sunburst"
-      ],
+      "interchange": [],
+      "vehicles": [],
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398357204948",
+      "ebay_type": "CV Joint Boot Kit",
+      "ebay_brand": "MOOG",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:CV Joints, Boots & Parts",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
           "CV5865",
-          "5865, CV-5865, CV5865"
+          "CR 19820, SKF 19820, Precision 5865, 5865"
         ],
-        "interchange": [
-          "Precision 5865",
-          "Carlson 5865",
-          "Neapco 5865"
-        ],
-        "vehicles": [
-          {
-            "year_from": 1985,
-            "year_to": 1988,
-            "make": "Chevrolet",
-            "model": "Spectrum",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1989,
-            "year_to": 1989,
-            "make": "Geo",
-            "model": "Spectrum",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1985,
-            "year_to": 1989,
-            "make": "Isuzu",
-            "model": "I-Mark",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1985,
-            "year_to": 1988,
-            "make": "Pontiac",
-            "model": "Sunburst",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          }
-        ],
-        "vehicle_labels": [
-          "1985\u20131988 Chevrolet Spectrum",
-          "1989 Geo Spectrum",
-          "1985\u20131989 Isuzu I-Mark",
-          "1985\u20131988 Pontiac Sunburst"
-        ],
-        "raw_compat_rows": 7,
+        "interchange": [],
+        "vehicles": [],
+        "vehicle_labels": [],
+        "raw_compat_rows": 0,
         "source": "ebay_listing",
         "confidence": "high",
-        "ebay_item_id": "398264622996",
+        "ebay_item_id": "398357204948",
         "type": "CV Joint Boot Kit",
         "brand": "MOOG",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:CV Joints, Boots & Parts"
-      },
-      "vehicle_count_raw": 7,
-      "ebay_item_id": "398264622996",
-      "ebay_type": "CV Joint Boot Kit",
-      "ebay_brand": "MOOG",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:CV Joints, Boots & Parts",
-      "stock": 1
+      }
     },
     {
       "id": "FVIUKDGPEB4BE367SRFRYUJ5",
@@ -38959,47 +36835,42 @@
       "interchange": []
     },
     {
-      "id": "5OSU7K3THNBB3QREL3AVIFMF",
-      "name": "Moog CV8448 CV Boot Kit NOS Ford Taurus Sable Toyota Camry Outer",
+      "id": "GLWPAC6PC5HYC3DH4T5GUPM7",
+      "name": "MOOG CV8448 CV Boot Kit NOS Taurus Sable Camry",
       "price": 22.99,
       "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/a3b851ac45296080a983eec4c7d6e3c5d8fe679f/original.jpeg",
-      "url": "https://square.link/u/VQ0Vk7yS",
+      "url": "https://square.link/u/ghRwrj2b",
       "category": "driveline",
       "checkout": true,
-      "variation_id": "PWXZG7IL6KMY4WLH5HKMFXXW",
+      "variation_id": "YIOX3LTEMZVMFBJCCNBPPWMH",
+      "stock": 1,
       "part_numbers": [
         "CV8448",
-        "8448, CV-8448"
+        "Precision 8448, 8448, CV8448SB"
       ],
+      "interchange": [],
       "vehicles": [
-        "1995\u20131997 Ford Contour",
-        "1986\u20131994 Ford Taurus",
-        "1995\u20131997 Mercury Mystique",
-        "1986\u20131994 Mercury Sable",
-        "1989\u20131991 Toyota Camry"
+        "Ford Taurus",
+        "Mercury Sable",
+        "Toyota Camry"
       ],
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "high",
+      "vehicle_count_raw": 3,
+      "ebay_item_id": "398357197831",
+      "ebay_type": "CV Boot Kit",
+      "ebay_brand": "MOOG",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:CV Joints, Boots & Parts",
+      "fitment_source": "ebay_listing+title",
+      "fitment_confidence": "medium",
       "fitment": {
         "part_numbers": [
           "CV8448",
-          "8448, CV-8448"
+          "Precision 8448, 8448, CV8448SB"
         ],
         "interchange": [],
         "vehicles": [
           {
-            "year_from": 1995,
-            "year_to": 1997,
-            "make": "Ford",
-            "model": "Contour",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1986,
-            "year_to": 1994,
+            "year_from": null,
+            "year_to": null,
             "make": "Ford",
             "model": "Taurus",
             "notes": "",
@@ -39008,18 +36879,8 @@
             "trim_count": null
           },
           {
-            "year_from": 1995,
-            "year_to": 1997,
-            "make": "Mercury",
-            "model": "Mystique",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1986,
-            "year_to": 1994,
+            "year_from": null,
+            "year_to": null,
             "make": "Mercury",
             "model": "Sable",
             "notes": "",
@@ -39028,8 +36889,8 @@
             "trim_count": null
           },
           {
-            "year_from": 1989,
-            "year_to": 1991,
+            "year_from": null,
+            "year_to": null,
             "make": "Toyota",
             "model": "Camry",
             "notes": "",
@@ -39039,27 +36900,18 @@
           }
         ],
         "vehicle_labels": [
-          "1995\u20131997 Ford Contour",
-          "1986\u20131994 Ford Taurus",
-          "1995\u20131997 Mercury Mystique",
-          "1986\u20131994 Mercury Sable",
-          "1989\u20131991 Toyota Camry"
+          "Ford Taurus",
+          "Mercury Sable",
+          "Toyota Camry"
         ],
-        "raw_compat_rows": 278,
-        "source": "ebay_listing",
-        "confidence": "high",
-        "ebay_item_id": "398264327564",
-        "type": "CV Joint Boot Kit",
+        "raw_compat_rows": 3,
+        "source": "ebay_listing+title",
+        "confidence": "medium",
+        "ebay_item_id": "398357197831",
+        "type": "CV Boot Kit",
         "brand": "MOOG",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:CV Joints, Boots & Parts"
-      },
-      "vehicle_count_raw": 278,
-      "ebay_item_id": "398264327564",
-      "ebay_type": "CV Joint Boot Kit",
-      "ebay_brand": "MOOG",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:CV Joints, Boots & Parts",
-      "stock": 1,
-      "interchange": []
+      }
     },
     {
       "id": "7FGRFQ3FFWTU25CSM5IZT5HY",
@@ -39165,170 +37017,32 @@
       "interchange": []
     },
     {
-      "id": "4ECZSIWI3GYL62HTX52NNMJP",
-      "name": "Motormite Speedi-Boot 03602 Outer CV Split Boot Kit NOS 92-97 Civic 82-84 GM",
+      "id": "6EDYF6YDMXJ2R3WW2RE3C3EL",
+      "name": "Motormite Speedi-Boot 03602 Outer CV Split Boot Kit NOS",
       "price": 28.99,
       "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/b035282663f1c11deb588206239b057825f4b447/original.jpeg",
-      "url": "https://square.link/u/AS3DiuGO",
+      "url": "https://square.link/u/cp6cbrer",
       "category": "driveline",
       "checkout": true,
-      "variation_id": "IFCQJXISWXNH6CSO3DS3R2AG",
+      "variation_id": "BI7MF4LIGCLCE2X2NKQ6GETU",
+      "stock": 1,
       "part_numbers": [
         "03602",
         "Speedi-Boot 03602, Dorman 03602, 44018-SR1-901"
       ],
-      "vehicles": [
-        "1992\u20131997 GM",
-        "1992\u20131997 Honda Civic"
-      ],
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "medium",
-      "fitment": {
-        "part_numbers": [
-          "03602",
-          "Speedi-Boot 03602, Dorman 03602, 44018-SR1-901"
-        ],
-        "interchange": [],
-        "vehicles": [
-          {
-            "year_from": 1992,
-            "year_to": 1997,
-            "make": "GM",
-            "model": "",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1992,
-            "year_to": 1997,
-            "make": "Honda",
-            "model": "Civic",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          }
-        ],
-        "vehicle_labels": [
-          "1992\u20131997 GM",
-          "1992\u20131997 Honda Civic"
-        ],
-        "raw_compat_rows": 4,
-        "source": "ebay_listing",
-        "confidence": "medium",
-        "ebay_item_id": "398258161739",
-        "type": "CV Joint Boot Kit \u2014 Outer, Bolted Split Boot",
-        "brand": "Motormite",
-        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:CV Joints, Boots & Parts"
-      },
-      "vehicle_count_raw": 4,
-      "ebay_item_id": "398258161739",
-      "ebay_type": "CV Joint Boot Kit \u2014 Outer, Bolted Split Boot",
+      "interchange": [],
+      "vehicles": [],
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398357176655",
+      "ebay_type": "CV Joint Boot Kit",
       "ebay_brand": "Motormite",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:CV Joints, Boots & Parts",
-      "stock": 1,
-      "interchange": []
-    },
-    {
-      "id": "7PIXZAWC3MUI2DWMCAUMHFT3",
-      "name": "Motormite Speedi-Boot 03603 Outer CV Split Boot Kit NOS Toyota Ford Mercury",
-      "price": 28.99,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/b50d53564d2e8bf7e012749813ecb24c8f7ade4e/original.jpeg",
-      "url": "https://square.link/u/r4uHTY2R",
-      "category": "driveline",
-      "checkout": true,
-      "variation_id": "LMNVYTXZI2EJ7M6EIUUH3PAY",
-      "part_numbers": [
-        "03603",
-        "Speedi-Boot 03603, Dorman 03603, 9903600A"
-      ],
-      "vehicles": [
-        "Ford",
-        "Mercury",
-        "Toyota"
-      ],
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "medium",
-      "fitment": {
-        "part_numbers": [
-          "03603",
-          "Speedi-Boot 03603, Dorman 03603, 9903600A"
-        ],
-        "interchange": [],
-        "vehicles": [
-          {
-            "year_from": null,
-            "year_to": null,
-            "make": "Ford",
-            "model": "",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": null,
-            "year_to": null,
-            "make": "Mercury",
-            "model": "",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": null,
-            "year_to": null,
-            "make": "Toyota",
-            "model": "",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          }
-        ],
-        "vehicle_labels": [
-          "Ford",
-          "Mercury",
-          "Toyota"
-        ],
-        "raw_compat_rows": 3,
-        "source": "ebay_listing",
-        "confidence": "medium",
-        "ebay_item_id": "398258151978",
-        "type": "CV Joint Boot Kit \u2014 Outer, Bolted Split (no hardware)",
-        "brand": "Motormite",
-        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:CV Joints, Boots & Parts"
-      },
-      "vehicle_count_raw": 3,
-      "ebay_item_id": "398258151978",
-      "ebay_type": "CV Joint Boot Kit \u2014 Outer, Bolted Split (no hardware)",
-      "ebay_brand": "Motormite",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:CV Joints, Boots & Parts",
-      "stock": 1,
-      "interchange": []
-    },
-    {
-      "id": "NQCEPRXPSF62D2B367KYOSCO",
-      "name": "Perfect Circle 66-1372 Dana CV Joint Boot Kit NOS Clamps Grease",
-      "price": 24.99,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/c033af35e6802d9a04bd2084b9fe0e50aacc5688/original.jpeg",
-      "url": "https://square.link/u/zPTQFeCL",
-      "category": "driveline",
-      "checkout": true,
-      "variation_id": "6SHA4R4ZHJG43BTVZSOB33R3",
-      "part_numbers": [
-        "66-1372",
-        "661372, Dana 66-1372, PC 66-1372"
-      ],
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
-          "66-1372",
-          "661372, Dana 66-1372, PC 66-1372"
+          "03602",
+          "Speedi-Boot 03602, Dorman 03602, 44018-SR1-901"
         ],
         "interchange": [],
         "vehicles": [],
@@ -39336,19 +37050,51 @@
         "raw_compat_rows": 0,
         "source": "ebay_listing",
         "confidence": "high",
-        "ebay_item_id": "398264407087",
+        "ebay_item_id": "398357176655",
         "type": "CV Joint Boot Kit",
-        "brand": "Perfect Circle",
+        "brand": "Motormite",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:CV Joints, Boots & Parts"
-      },
-      "vehicle_count_raw": 0,
-      "ebay_item_id": "398264407087",
-      "ebay_type": "CV Joint Boot Kit",
-      "ebay_brand": "Perfect Circle",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:CV Joints, Boots & Parts",
+      }
+    },
+    {
+      "id": "EB43GIYKURYSB6OALCGTB43P",
+      "name": "Motormite Speedi-Boot 03603 Outer CV Split Boot Kit NOS",
+      "price": 28.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/b50d53564d2e8bf7e012749813ecb24c8f7ade4e/original.jpeg",
+      "url": "https://square.link/u/zMvtdALA",
+      "category": "driveline",
+      "checkout": true,
+      "variation_id": "GNVEY2EBNM6XZ3LTHNLSTXMA",
       "stock": 1,
+      "part_numbers": [
+        "03603",
+        "Speedi-Boot 03603, Dorman 03603, 9903600A"
+      ],
       "interchange": [],
-      "vehicles": []
+      "vehicles": [],
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398357175989",
+      "ebay_type": "CV Joint Boot Kit",
+      "ebay_brand": "Motormite",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:CV Joints, Boots & Parts",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "03603",
+          "Speedi-Boot 03603, Dorman 03603, 9903600A"
+        ],
+        "interchange": [],
+        "vehicles": [],
+        "vehicle_labels": [],
+        "raw_compat_rows": 0,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398357175989",
+        "type": "CV Joint Boot Kit",
+        "brand": "Motormite",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:CV Joints, Boots & Parts"
+      }
     },
     {
       "id": "Y3TWHJZJGTP77VPBAUO3T3RG",
@@ -40716,73 +38462,6 @@
       "ebay_brand": "AP Exhaust",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Exhaust & Emission Systems:Exhaust Gaskets",
       "stock": 1
-    },
-    {
-      "id": "3YKKZSK4N5HMOC7TOVXSFOHH",
-      "name": "AP Exhaust 9235 Dual Port Flange Gasket Ford Ranger Bronco II NOS",
-      "price": 19.98,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/7aa129b4e13376dec94c664e3a3e7552a3bfa70a/original.jpeg",
-      "url": "https://square.link/u/CpNhWuNv",
-      "category": "exhaust",
-      "checkout": true,
-      "variation_id": "D77XVERDQDPDFV76NOLRYTVK",
-      "part_numbers": [
-        "9235",
-        "EG24812, 31395, 60688, GT79812"
-      ],
-      "vehicles": [
-        "1986\u20131990 Ford Bronco II",
-        "1986\u20131990 Ford Ranger"
-      ],
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "high",
-      "fitment": {
-        "part_numbers": [
-          "9235",
-          "EG24812, 31395, 60688, GT79812"
-        ],
-        "interchange": [],
-        "vehicles": [
-          {
-            "year_from": 1986,
-            "year_to": 1990,
-            "make": "Ford",
-            "model": "Bronco II",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1986,
-            "year_to": 1990,
-            "make": "Ford",
-            "model": "Ranger",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          }
-        ],
-        "vehicle_labels": [
-          "1986\u20131990 Ford Bronco II",
-          "1986\u20131990 Ford Ranger"
-        ],
-        "raw_compat_rows": 4,
-        "source": "ebay_listing",
-        "confidence": "high",
-        "ebay_item_id": "398264989890",
-        "type": "Exhaust Gasket",
-        "brand": "AP Exhaust",
-        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Exhaust & Emission Systems:Exhaust Gaskets"
-      },
-      "vehicle_count_raw": 4,
-      "ebay_item_id": "398264989890",
-      "ebay_type": "Exhaust Gasket",
-      "ebay_brand": "AP Exhaust",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Exhaust & Emission Systems:Exhaust Gaskets",
-      "stock": 1,
-      "interchange": []
     },
     {
       "id": "RLDFAATFFK6423JIPQIQSH3D",
@@ -55406,6 +53085,46 @@
       "interchange": []
     },
     {
+      "id": "RKBBSI4CT2AYOG4D5WLRHBUX",
+      "name": "KC Industries 6-1001 Deluxe Heavy Duty Oil Can Spout NOS",
+      "price": 22.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/3f3eadc2f7507b866b0fbffdcbffa53ebd5fba5e/original.jpeg",
+      "url": "https://square.link/u/UX2geeO4",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "2S7SD6TKHZUXTUPCDY2PURQ2",
+      "stock": 1,
+      "part_numbers": [
+        "6-1001",
+        "6.1001, 6-1001, 1001C, 6-5746"
+      ],
+      "interchange": [],
+      "vehicles": [],
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398357184144",
+      "ebay_type": "Oil Can Spout",
+      "ebay_brand": "KC Industries",
+      "ebay_category": "Business & Industrial:Light Equipment & Tools:Other Light Equipment & Tools",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "6-1001",
+          "6.1001, 6-1001, 1001C, 6-5746"
+        ],
+        "interchange": [],
+        "vehicles": [],
+        "vehicle_labels": [],
+        "raw_compat_rows": 0,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398357184144",
+        "type": "Oil Can Spout",
+        "brand": "KC Industries",
+        "ebay_category": "Business & Industrial:Light Equipment & Tools:Other Light Equipment & Tools"
+      }
+    },
+    {
       "id": "XGARF6J3H4LOYHSFZV2FBLQG",
       "name": "KW DA-20 Voltage Regulator NOS 55-60 Chevy Truck AMC Jeep",
       "price": 79.99,
@@ -60992,11 +58711,9 @@
       "category": "other",
       "checkout": true,
       "variation_id": "ISK24JEMOZ7SD74R4WBEUCLN",
-      "stock": 1,
       "part_numbers": [
         "AS5"
       ],
-      "interchange": [],
       "vehicles": [
         "1996\u20131997 Acura SLX",
         "1982\u20132004 Buick Century",
@@ -61010,11 +58727,6 @@
         "1986\u20131987 Buick Somerset",
         "1985 Buick Somerset Regal"
       ],
-      "vehicle_count_raw": 706,
-      "ebay_item_id": "398352122954",
-      "ebay_type": "Manifold Absolute Pressure (MAP) Sensor",
-      "ebay_brand": "Standard Motor Products",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Intake & Fuel Sensors",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -61154,7 +58866,14 @@
         "type": "Manifold Absolute Pressure (MAP) Sensor",
         "brand": "Standard Motor Products",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Intake & Fuel Sensors"
-      }
+      },
+      "vehicle_count_raw": 706,
+      "ebay_item_id": "398352122954",
+      "ebay_type": "Manifold Absolute Pressure (MAP) Sensor",
+      "ebay_brand": "Standard Motor Products",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Intake & Fuel Sensors",
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "TENWAIRUFKCSIZRGJUE7JJJR",
@@ -74153,6 +71872,67 @@
       "vehicles": []
     },
     {
+      "id": "ZEALCMTVCTPGOB2JEXNC2LNW",
+      "name": "TRQ Front Rear Sway Bar End Links Set 95-07 Taurus Sable NOS",
+      "price": 29.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/de5c1029c191dcdabe0f97498842ff6ebb9b6191/original.jpeg",
+      "url": "https://square.link/u/CGhzs69A",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "HCGQCDMJBRCWAHIGB4JY5QHH",
+      "stock": 1,
+      "part_numbers": [],
+      "interchange": [],
+      "vehicles": [
+        "1995\u20132007 Ford Taurus",
+        "1995\u20132007 Mercury Sable"
+      ],
+      "vehicle_count_raw": 2,
+      "ebay_item_id": "398357171773",
+      "ebay_type": "Sway Bar End Link Set",
+      "ebay_brand": "TRQ",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Steering & Suspension:Sway Bars, Links & Bushings",
+      "fitment_source": "ebay_listing+title",
+      "fitment_confidence": "medium",
+      "fitment": {
+        "part_numbers": [],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1995,
+            "year_to": 2007,
+            "make": "Ford",
+            "model": "Taurus",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1995,
+            "year_to": 2007,
+            "make": "Mercury",
+            "model": "Sable",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1995\u20132007 Ford Taurus",
+          "1995\u20132007 Mercury Sable"
+        ],
+        "raw_compat_rows": 2,
+        "source": "ebay_listing+title",
+        "confidence": "medium",
+        "ebay_item_id": "398357171773",
+        "type": "Sway Bar End Link Set",
+        "brand": "TRQ",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Steering & Suspension:Sway Bars, Links & Bushings"
+      }
+    },
+    {
       "id": "L6LWL7WVJFEWSEJA744DM6R4",
       "name": "Tru-Tech UR125T Voltage Regulator NOS 70-76 Duster",
       "price": 29.99,
@@ -75675,5 +73455,5 @@
       "stock": 1
     }
   ],
-  "fitment_built": "2026-09-02T20:01:00Z"
+  "fitment_built": "2026-09-04T04:01:48Z"
 }

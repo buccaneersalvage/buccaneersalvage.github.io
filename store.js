@@ -6,7 +6,7 @@
    * Search + category + price filter + sort + pagination (not the full catalog at once).
    * Commerce-style facets; brand-dark gold cards; cores warn on-card.
    */
-  const CATALOG_URL = "assets/square-catalog.json?v=202609022001";
+  const CATALOG_URL = "assets/square-catalog.json?v=202609040402";
   const CORE_WARN = "FOR PARTS OR REBUILD · UNTESTED · NO RETURNS";
   const DEFAULT_PAGE = 12;
 
