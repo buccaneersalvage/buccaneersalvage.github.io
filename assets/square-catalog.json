@@ -1,7 +1,7 @@
 {
-  "updated": "2026-09-04T10:01:04Z",
+  "updated": "2026-09-04T13:33:22Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 188,
+  "count": 195,
   "items": [
     {
       "id": "5LLWTR3B27YDLV6ZR6XMBPWL",
@@ -1806,22 +1806,15 @@
       "category": "brake",
       "checkout": true,
       "variation_id": "XZGM6K6BQNGZXVTRUAAZABTT",
-      "stock": 1,
       "part_numbers": [
         "AGFF, H7157, H7246, BK7157, Firestone 7157"
       ],
-      "interchange": [],
       "vehicles": [
         "1986\u20131992 Ford Aerostar",
         "1974\u20131978 Ford Mustang II",
         "1971\u20131980 Ford Pinto",
         "1983\u20131994 Ford Ranger"
       ],
-      "vehicle_count_raw": 515,
-      "ebay_item_id": "398358026441",
-      "ebay_type": "Brake Spring Kit",
-      "ebay_brand": "Unbranded",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -1884,7 +1877,14 @@
         "type": "Brake Spring Kit",
         "brand": "Unbranded",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware"
-      }
+      },
+      "vehicle_count_raw": 515,
+      "ebay_item_id": "398358026441",
+      "ebay_type": "Brake Spring Kit",
+      "ebay_brand": "Unbranded",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware",
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "KN7R2NFJUHA6U6BNO2WTN7EU",
@@ -7266,17 +7266,9 @@
       "category": "brake",
       "checkout": true,
       "variation_id": "PF2ERMT6CBPHQR2CRA7PS75B",
-      "stock": 2,
       "part_numbers": [
         "C-100"
       ],
-      "interchange": [],
-      "vehicles": [],
-      "vehicle_count_raw": 0,
-      "ebay_item_id": "398358028429",
-      "ebay_type": "Catalog",
-      "ebay_brand": "Carlson",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "medium",
       "fitment": {
@@ -7293,7 +7285,15 @@
         "type": "Catalog",
         "brand": "Carlson",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware"
-      }
+      },
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398358028429",
+      "ebay_type": "Catalog",
+      "ebay_brand": "Carlson",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware",
+      "stock": 2,
+      "interchange": [],
+      "vehicles": []
     },
     {
       "id": "DPRSU7RX4SKAHPRFDDTPFKZR",
@@ -11051,23 +11051,16 @@
       "category": "filters",
       "checkout": true,
       "variation_id": "LK6GA3VRQFXJ4HQEW4BEZB5V",
-      "stock": 1,
       "part_numbers": [
         "46976",
         "6976 NAPA Gold"
       ],
-      "interchange": [],
       "vehicles": [
         "1985\u20131994 Ford Bronco",
         "1988\u20131996 Ford E-150 Econoline",
         "1988\u20131993 Ford E-250 Econoline",
         "1988\u20131993 Ford E-350 Econoline"
       ],
-      "vehicle_count_raw": 510,
-      "ebay_item_id": "398358023390",
-      "ebay_type": "Crankcase Breather Element",
-      "ebay_brand": "WIX",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Filters",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -11131,7 +11124,14 @@
         "type": "Crankcase Breather Element",
         "brand": "WIX",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Filters"
-      }
+      },
+      "vehicle_count_raw": 510,
+      "ebay_item_id": "398358023390",
+      "ebay_type": "Crankcase Breather Element",
+      "ebay_brand": "WIX",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Filters",
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "UBT3FXADYKZ3WXWENYQJVA7W",
@@ -17556,6 +17556,183 @@
       "interchange": []
     },
     {
+      "id": "MNQFS75A4S3GK34J543DSOL3",
+      "name": "Speedi-Boot 03600 CV Split Boot Kit Bolted Screw-Together NOS",
+      "price": 22.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/04189857dbe7fea45a7c78c1ab8cb5ffff810b75/original.jpeg",
+      "url": "https://square.link/u/YLEJBwRk",
+      "category": "driveline",
+      "checkout": true,
+      "variation_id": "ZLQB5HBPFI6ZHOUKVZ6Z3QYU",
+      "stock": 1,
+      "part_numbers": [
+        "03600",
+        "Motormite, R&B Inc"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1980 Audi 4000"
+      ],
+      "vehicle_count_raw": 4,
+      "ebay_item_id": "398358611914",
+      "ebay_type": "CV Boot Kit",
+      "ebay_brand": "Speedi-Boot",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:CV Joints, Boots & Parts",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "03600",
+          "Motormite, R&B Inc"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1980,
+            "year_to": 1980,
+            "make": "Audi",
+            "model": "4000",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1980 Audi 4000"
+        ],
+        "raw_compat_rows": 4,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398358611914",
+        "type": "CV Boot Kit",
+        "brand": "Speedi-Boot",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:CV Joints, Boots & Parts"
+      }
+    },
+    {
+      "id": "GSKC23MUSDCRYIRMPN3IDKMO",
+      "name": "Speedi-Boot 03609 Outer CV Joint Boot Kit FWD NOS Motormite R&B",
+      "price": 24.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/ed526b0826336d722f62a6ccfc520f0e7329b43b/original.jpeg",
+      "url": "https://square.link/u/fwGV85ix",
+      "category": "driveline",
+      "checkout": true,
+      "variation_id": "IZ4D2YET4KUESWLUWLQHQWPR",
+      "stock": 1,
+      "part_numbers": [
+        "03609",
+        "Motormite, R&B Inc"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1967\u20131978 Oldsmobile Toronado"
+      ],
+      "vehicle_count_raw": 32,
+      "ebay_item_id": "398358615707",
+      "ebay_type": "CV Boot Kit",
+      "ebay_brand": "Speedi-Boot",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:CV Joints, Boots & Parts",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "03609",
+          "Motormite, R&B Inc"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1967,
+            "year_to": 1978,
+            "make": "Oldsmobile",
+            "model": "Toronado",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1967\u20131978 Oldsmobile Toronado"
+        ],
+        "raw_compat_rows": 32,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398358615707",
+        "type": "CV Boot Kit",
+        "brand": "Speedi-Boot",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:CV Joints, Boots & Parts"
+      }
+    },
+    {
+      "id": "3HSUXND5DIL53SLEIV3T7JY3",
+      "name": "Speedi-Boot 03612 CV Split Boot Kit Sentra 82-86 NOS",
+      "price": 16.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/b6ec334be3ceecf1303303dbf18a4c7679e68712/original.jpeg",
+      "url": "https://square.link/u/AXwB8m6s",
+      "category": "driveline",
+      "checkout": true,
+      "variation_id": "WHAMOOR3NZ3VT4B6WUWNVL6G",
+      "stock": 1,
+      "part_numbers": [
+        "03612",
+        "Motormite"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1983 Nissan Pulsar",
+        "1982\u20131986 Nissan Sentra"
+      ],
+      "vehicle_count_raw": 67,
+      "ebay_item_id": "398358616659",
+      "ebay_type": "CV Boot Kit",
+      "ebay_brand": "Speedi-Boot",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:CV Joints, Boots & Parts",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "03612",
+          "Motormite"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1983,
+            "year_to": 1983,
+            "make": "Nissan",
+            "model": "Pulsar",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1982,
+            "year_to": 1986,
+            "make": "Nissan",
+            "model": "Sentra",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1983 Nissan Pulsar",
+          "1982\u20131986 Nissan Sentra"
+        ],
+        "raw_compat_rows": 67,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398358616659",
+        "type": "CV Boot Kit",
+        "brand": "Speedi-Boot",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:CV Joints, Boots & Parts"
+      }
+    },
+    {
       "id": "6TYAN64XV3F4PSRWFXZQRDBI",
       "name": "Victor Reinz F7398 Exhaust Pipe Ring NOS 1983-1993 GM 2.5L L4",
       "price": 10.99,
@@ -17700,6 +17877,73 @@
       "ebay_category": ""
     },
     {
+      "id": "LT2O32Z4HK3RE4Y6ZUDM5PZQ",
+      "name": "Beck Arnley 045-0264 PCV Valve Civic CRX 88-91 NOS World Parts",
+      "price": 10.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/1d0ab9c310b193561e079f38e2f51e7d1a20b61e/original.jpeg",
+      "url": "https://square.link/u/jw5QARbq",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "7TR2W5JYUN24OP57JKXVFGPV",
+      "stock": 1,
+      "part_numbers": [
+        "045-0264",
+        "World Parts"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1988\u20131991 Honda CRX",
+        "1988\u20131991 Honda Civic"
+      ],
+      "vehicle_count_raw": 47,
+      "ebay_item_id": "398358617483",
+      "ebay_type": "PCV Valve",
+      "ebay_brand": "Beck Arnley",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Steering & Suspension:Power Steering Pump Parts",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "045-0264",
+          "World Parts"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1988,
+            "year_to": 1991,
+            "make": "Honda",
+            "model": "CRX",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1988,
+            "year_to": 1991,
+            "make": "Honda",
+            "model": "Civic",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1988\u20131991 Honda CRX",
+          "1988\u20131991 Honda Civic"
+        ],
+        "raw_compat_rows": 47,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398358617483",
+        "type": "PCV Valve",
+        "brand": "Beck Arnley",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Steering & Suspension:Power Steering Pump Parts"
+      }
+    },
+    {
       "id": "EJ4RJNXDQ53RQJB363MPICNE",
       "name": "CR 8724 Oil Seal NOS",
       "price": 11.99,
@@ -17750,18 +17994,10 @@
       "category": "other",
       "checkout": true,
       "variation_id": "BLEAP5S3NV7L23ZSXCJD2MUV",
-      "stock": 1,
       "part_numbers": [
         "24153",
         "Corteco, Federal-Mogul"
       ],
-      "interchange": [],
-      "vehicles": [],
-      "vehicle_count_raw": 0,
-      "ebay_item_id": "398358029433",
-      "ebay_type": "A/C Gasket",
-      "ebay_brand": "Four Seasons",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air Conditioning & Heating:Other Air Conditioning & Heating",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -17779,7 +18015,15 @@
         "type": "A/C Gasket",
         "brand": "Four Seasons",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air Conditioning & Heating:Other Air Conditioning & Heating"
-      }
+      },
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398358029433",
+      "ebay_type": "A/C Gasket",
+      "ebay_brand": "Four Seasons",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air Conditioning & Heating:Other Air Conditioning & Heating",
+      "stock": 1,
+      "interchange": [],
+      "vehicles": []
     },
     {
       "id": "IDQSYL4ADTBMZWFAJY7D7VVC",
@@ -17790,12 +18034,10 @@
       "category": "other",
       "checkout": true,
       "variation_id": "3KM67NB2BBHWBPT4BYTK2DXU",
-      "stock": 1,
       "part_numbers": [
         "38623",
         "38623 AR, 38902, 38904, 3033879, 19187522"
       ],
-      "interchange": [],
       "vehicles": [
         "1977\u20131996 Cadillac Eldorado",
         "1976\u20131986 Chevrolet C10",
@@ -17803,11 +18045,6 @@
         "1996\u20132021 Chevrolet Express 2500",
         "1996\u20132014 GMC Savana 1500"
       ],
-      "vehicle_count_raw": 1484,
-      "ebay_item_id": "398358030548",
-      "ebay_type": "A/C Orifice Tube",
-      "ebay_brand": "Four Seasons",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air Conditioning & Heating:Other Air Conditioning & Heating",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -17882,7 +18119,14 @@
         "type": "A/C Orifice Tube",
         "brand": "Four Seasons",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air Conditioning & Heating:Other Air Conditioning & Heating"
-      }
+      },
+      "vehicle_count_raw": 1484,
+      "ebay_item_id": "398358030548",
+      "ebay_type": "A/C Orifice Tube",
+      "ebay_brand": "Four Seasons",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air Conditioning & Heating:Other Air Conditioning & Heating",
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "RQOB32J32LNRAO7HLKGHQ3ZQ",
@@ -20307,6 +20551,44 @@
       "stock": 1
     },
     {
+      "id": "HHVEE4DCJYI72XLYE5ZHPTE4",
+      "name": "Majesco AGB-BWCE Golden Nugget Casino GBA Cart AS-IS Untested",
+      "price": 6.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/7298efba561ada715f5adb3b3794c1d36bb49eab/original.jpeg",
+      "url": "https://square.link/u/jSSNHE3j",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "732VB2LQX24V73SJ6FUIWFLS",
+      "stock": 1,
+      "part_numbers": [
+        "AGB-BWCE-USA"
+      ],
+      "interchange": [],
+      "vehicles": [],
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398358638234",
+      "ebay_type": "Cartridge",
+      "ebay_brand": "Majesco",
+      "ebay_category": "Video Games & Consoles:Video Games",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "medium",
+      "fitment": {
+        "part_numbers": [
+          "AGB-BWCE-USA"
+        ],
+        "interchange": [],
+        "vehicles": [],
+        "vehicle_labels": [],
+        "raw_compat_rows": 0,
+        "source": "ebay_listing",
+        "confidence": "medium",
+        "ebay_item_id": "398358638234",
+        "type": "Cartridge",
+        "brand": "Majesco",
+        "ebay_category": "Video Games & Consoles:Video Games"
+      }
+    },
+    {
       "id": "SC35APDMF4H4WLKIMMILITM3",
       "name": "Mr. G 1956 Tire Valve Straight Long Stem Chrome Pair Carded Used Wheel",
       "price": 8.99,
@@ -20315,17 +20597,9 @@
       "category": "other",
       "checkout": true,
       "variation_id": "2W3IWPJ7XBGKVHIMGD66EPYE",
-      "stock": 1,
       "part_numbers": [
         "G-1956"
       ],
-      "interchange": [],
-      "vehicles": [],
-      "vehicle_count_raw": 0,
-      "ebay_item_id": "398357964724",
-      "ebay_type": "Tire Valve",
-      "ebay_brand": "Mr. G",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Wheels, Tires & Parts:Valve Stems & Caps",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -20342,7 +20616,15 @@
         "type": "Tire Valve",
         "brand": "Mr. G",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Wheels, Tires & Parts:Valve Stems & Caps"
-      }
+      },
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398357964724",
+      "ebay_type": "Tire Valve",
+      "ebay_brand": "Mr. G",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Wheels, Tires & Parts:Valve Stems & Caps",
+      "stock": 1,
+      "interchange": [],
+      "vehicles": []
     },
     {
       "id": "2IGN4TREF7DNKIIYWCK3U4BR",
@@ -20507,18 +20789,10 @@
       "category": "other",
       "checkout": true,
       "variation_id": "IT4NCZSXJHAA7BYC7ZCLJ4NG",
-      "stock": 1,
       "part_numbers": [
         "50-CRN-208",
         "CRN-208"
       ],
-      "interchange": [],
-      "vehicles": [],
-      "vehicle_count_raw": 0,
-      "ebay_item_id": "398357966851",
-      "ebay_type": "Connecting Rod Nuts",
-      "ebay_brand": "Pioneer",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Connecting Rods & Parts",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -20536,7 +20810,15 @@
         "type": "Connecting Rod Nuts",
         "brand": "Pioneer",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Connecting Rods & Parts"
-      }
+      },
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398357966851",
+      "ebay_type": "Connecting Rod Nuts",
+      "ebay_brand": "Pioneer",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Connecting Rods & Parts",
+      "stock": 1,
+      "interchange": [],
+      "vehicles": []
     },
     {
       "id": "GWSOPVVPT5PCTAYBGCDGEGZW",
@@ -20547,12 +20829,10 @@
       "category": "other",
       "checkout": true,
       "variation_id": "L27W5EAR5ECUOAROJO2RBJS4",
-      "stock": 1,
       "part_numbers": [
         "DR2270XP",
         "CS786, CS786P, DR2270P, DR-2270XP"
       ],
-      "interchange": [],
       "vehicles": [
         "1968\u20131970 AMC AMX",
         "1958\u20131974 AMC Ambassador",
@@ -20566,11 +20846,6 @@
         "1958\u20131974 Chevrolet Impala",
         "1967\u20131974 Pontiac Firebird"
       ],
-      "vehicle_count_raw": 1952,
-      "ebay_item_id": "398358030318",
-      "ebay_type": "Ignition Points",
-      "ebay_brand": "Standard Motor Products",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Points",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -20711,6 +20986,53 @@
         "type": "Ignition Points",
         "brand": "Standard Motor Products",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Points"
+      },
+      "vehicle_count_raw": 1952,
+      "ebay_item_id": "398358030318",
+      "ebay_type": "Ignition Points",
+      "ebay_brand": "Standard Motor Products",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Points",
+      "stock": 1,
+      "interchange": []
+    },
+    {
+      "id": "R5YJKJWQQS24S5AELSDA4JUW",
+      "name": "Stant Ideal 3-063 Engine Coolant Thermostat 192F 89C Pellet Jiggle NOS USA",
+      "price": 9.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/e315df49f31d9b5abf133a47a6b48e66a2f9a0d7/original.jpeg",
+      "url": "https://square.link/u/aMrO4KNr",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "BIA22YD4EKWQ7DKMSEUYIGFV",
+      "stock": 1,
+      "part_numbers": [
+        "3-063",
+        "Ideal"
+      ],
+      "interchange": [],
+      "vehicles": [],
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398358618146",
+      "ebay_type": "Thermostat",
+      "ebay_brand": "Stant",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Thermostats & Housings",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "3-063",
+          "Ideal"
+        ],
+        "interchange": [],
+        "vehicles": [],
+        "vehicle_labels": [],
+        "raw_compat_rows": 0,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398358618146",
+        "type": "Thermostat",
+        "brand": "Stant",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Thermostats & Housings"
       }
     },
     {
@@ -20722,18 +21044,10 @@
       "category": "other",
       "checkout": true,
       "variation_id": "6S52V4XFOB5MGR2ISPH5CFDG",
-      "stock": 1,
       "part_numbers": [
         "DA-12-24",
         "DA-12, DA-12-24W, DA12-24W"
       ],
-      "interchange": [],
-      "vehicles": [],
-      "vehicle_count_raw": 0,
-      "ebay_item_id": "398358061640",
-      "ebay_type": "Class 2 Transformer",
-      "ebay_brand": "TDC Power",
-      "ebay_category": "Business & Industrial:Electrical Equipment & Supplies:Transformers:Power Transformers",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -20751,8 +21065,56 @@
         "type": "Class 2 Transformer",
         "brand": "TDC Power",
         "ebay_category": "Business & Industrial:Electrical Equipment & Supplies:Transformers:Power Transformers"
+      },
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398358061640",
+      "ebay_type": "Class 2 Transformer",
+      "ebay_brand": "TDC Power",
+      "ebay_category": "Business & Industrial:Electrical Equipment & Supplies:Transformers:Power Transformers",
+      "stock": 1,
+      "interchange": [],
+      "vehicles": []
+    },
+    {
+      "id": "KJ66KU2BVAYKKHJQOICULGUJ",
+      "name": "U.S. Games 1025 Space Jockey Atari 2600 Cart AS-IS Untested",
+      "price": 5.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/7b8062a745e3ce9daf218d5e5dfa6f1ed6276974/original.jpeg",
+      "url": "https://square.link/u/zusJq9PO",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "4TT7LGL5DF5MBADGIXBG7KKL",
+      "stock": 1,
+      "part_numbers": [
+        "1025",
+        "Vidtec, VC 1001"
+      ],
+      "interchange": [],
+      "vehicles": [],
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398358636971",
+      "ebay_type": "Cartridge",
+      "ebay_brand": "U.S. Games",
+      "ebay_category": "Video Games & Consoles:Video Games",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "1025",
+          "Vidtec, VC 1001"
+        ],
+        "interchange": [],
+        "vehicles": [],
+        "vehicle_labels": [],
+        "raw_compat_rows": 0,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398358636971",
+        "type": "Cartridge",
+        "brand": "U.S. Games",
+        "ebay_category": "Video Games & Consoles:Video Games"
       }
     }
   ],
-  "fitment_built": "2026-09-04T10:01:04Z"
+  "fitment_built": "2026-09-04T13:33:22Z"
 }
