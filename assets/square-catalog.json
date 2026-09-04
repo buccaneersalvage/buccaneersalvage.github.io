@@ -1,7 +1,7 @@
 {
-  "updated": "2026-09-04T08:00:49Z",
+  "updated": "2026-09-04T10:01:04Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 179,
+  "count": 188,
   "items": [
     {
       "id": "5LLWTR3B27YDLV6ZR6XMBPWL",
@@ -1796,6 +1796,95 @@
       "ebay_type": "Hardware",
       "ebay_brand": "Carlson",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware"
+    },
+    {
+      "id": "E76DT5BWRVPORPY7XTHHRYVU",
+      "name": "AGFF 7157 Rear Drum Spring Hardware Kit Open Bag Ranger Pinto Aerostar",
+      "price": 24.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/ea8b4b635309c876680ca5cce9d10781adeb82e5/original.jpeg",
+      "url": "https://square.link/u/hggNIev3",
+      "category": "brake",
+      "checkout": true,
+      "variation_id": "XZGM6K6BQNGZXVTRUAAZABTT",
+      "stock": 1,
+      "part_numbers": [
+        "AGFF, H7157, H7246, BK7157, Firestone 7157"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1986\u20131992 Ford Aerostar",
+        "1974\u20131978 Ford Mustang II",
+        "1971\u20131980 Ford Pinto",
+        "1983\u20131994 Ford Ranger"
+      ],
+      "vehicle_count_raw": 515,
+      "ebay_item_id": "398358026441",
+      "ebay_type": "Brake Spring Kit",
+      "ebay_brand": "Unbranded",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "AGFF, H7157, H7246, BK7157, Firestone 7157"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1986,
+            "year_to": 1992,
+            "make": "Ford",
+            "model": "Aerostar",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1974,
+            "year_to": 1978,
+            "make": "Ford",
+            "model": "Mustang II",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1971,
+            "year_to": 1980,
+            "make": "Ford",
+            "model": "Pinto",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1983,
+            "year_to": 1994,
+            "make": "Ford",
+            "model": "Ranger",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1986\u20131992 Ford Aerostar",
+          "1974\u20131978 Ford Mustang II",
+          "1971\u20131980 Ford Pinto",
+          "1983\u20131994 Ford Ranger"
+        ],
+        "raw_compat_rows": 515,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398358026441",
+        "type": "Brake Spring Kit",
+        "brand": "Unbranded",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware"
+      }
     },
     {
       "id": "KN7R2NFJUHA6U6BNO2WTN7EU",
@@ -7169,6 +7258,44 @@
       "stock": 1
     },
     {
+      "id": "PQI2SHI6UKDCTC5O23CY6H34",
+      "name": "Carlson Quality Brake Parts C-100 July 2015 FMSI Pad & Shoe Kits Guide",
+      "price": 11.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/0203a8e4ae824222a1b9bc79b12859a27d7a4715/original.jpeg",
+      "url": "https://square.link/u/nmS0Y7DI",
+      "category": "brake",
+      "checkout": true,
+      "variation_id": "PF2ERMT6CBPHQR2CRA7PS75B",
+      "stock": 2,
+      "part_numbers": [
+        "C-100"
+      ],
+      "interchange": [],
+      "vehicles": [],
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398358028429",
+      "ebay_type": "Catalog",
+      "ebay_brand": "Carlson",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "medium",
+      "fitment": {
+        "part_numbers": [
+          "C-100"
+        ],
+        "interchange": [],
+        "vehicles": [],
+        "vehicle_labels": [],
+        "raw_compat_rows": 0,
+        "source": "ebay_listing",
+        "confidence": "medium",
+        "ebay_item_id": "398358028429",
+        "type": "Catalog",
+        "brand": "Carlson",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware"
+      }
+    },
+    {
       "id": "DPRSU7RX4SKAHPRFDDTPFKZR",
       "name": "Wagner QS ZX603A Disc Brake Pads for Mercedes-Benz S-Class / SL-Class - New!",
       "price": 34.99,
@@ -10914,6 +11041,97 @@
       "ebay_brand": "WIX",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Filters",
       "stock": 1
+    },
+    {
+      "id": "L36MCDFVEFX3HO75DDO5TUBD",
+      "name": "WIX 46976 Crankcase Breather Element Ford 88-96 E F Bronco NOS",
+      "price": 12.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/30a8cab2ed1ac8cd5a348baac8ddff82d672fa6f/original.jpeg",
+      "url": "https://square.link/u/PzjEMQWg",
+      "category": "filters",
+      "checkout": true,
+      "variation_id": "LK6GA3VRQFXJ4HQEW4BEZB5V",
+      "stock": 1,
+      "part_numbers": [
+        "46976",
+        "6976 NAPA Gold"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1985\u20131994 Ford Bronco",
+        "1988\u20131996 Ford E-150 Econoline",
+        "1988\u20131993 Ford E-250 Econoline",
+        "1988\u20131993 Ford E-350 Econoline"
+      ],
+      "vehicle_count_raw": 510,
+      "ebay_item_id": "398358023390",
+      "ebay_type": "Crankcase Breather Element",
+      "ebay_brand": "WIX",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Filters",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "46976",
+          "6976 NAPA Gold"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1985,
+            "year_to": 1994,
+            "make": "Ford",
+            "model": "Bronco",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1988,
+            "year_to": 1996,
+            "make": "Ford",
+            "model": "E-150 Econoline",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1988,
+            "year_to": 1993,
+            "make": "Ford",
+            "model": "E-250 Econoline",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1988,
+            "year_to": 1993,
+            "make": "Ford",
+            "model": "E-350 Econoline",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1985\u20131994 Ford Bronco",
+          "1988\u20131996 Ford E-150 Econoline",
+          "1988\u20131993 Ford E-250 Econoline",
+          "1988\u20131993 Ford E-350 Econoline"
+        ],
+        "raw_compat_rows": 510,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398358023390",
+        "type": "Crankcase Breather Element",
+        "brand": "WIX",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Filters"
+      }
     },
     {
       "id": "UBT3FXADYKZ3WXWENYQJVA7W",
@@ -17524,6 +17742,149 @@
       "vehicles": []
     },
     {
+      "id": "ZFHQHCRDVJYPEBHQZMRDTOPO",
+      "name": "Four Seasons 24153 A/C Compressor Gasket Lot of 9 Partial Box NOS Rubber",
+      "price": 14.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/66b468110135474279c587a5c77049898d6f20f7/original.jpeg",
+      "url": "https://square.link/u/poTOWEFy",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "BLEAP5S3NV7L23ZSXCJD2MUV",
+      "stock": 1,
+      "part_numbers": [
+        "24153",
+        "Corteco, Federal-Mogul"
+      ],
+      "interchange": [],
+      "vehicles": [],
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398358029433",
+      "ebay_type": "A/C Gasket",
+      "ebay_brand": "Four Seasons",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air Conditioning & Heating:Other Air Conditioning & Heating",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "24153",
+          "Corteco, Federal-Mogul"
+        ],
+        "interchange": [],
+        "vehicles": [],
+        "vehicle_labels": [],
+        "raw_compat_rows": 0,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398358029433",
+        "type": "A/C Gasket",
+        "brand": "Four Seasons",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air Conditioning & Heating:Other Air Conditioning & Heating"
+      }
+    },
+    {
+      "id": "IDQSYL4ADTBMZWFAJY7D7VVC",
+      "name": "Four Seasons 38623 White A/C Orifice Tube NOS C10 Express Savana Eldorado",
+      "price": 11.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/c2e6f5bb56d122a87b20ce85299b481dc8475c31/original.jpeg",
+      "url": "https://square.link/u/nulkhOwJ",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "3KM67NB2BBHWBPT4BYTK2DXU",
+      "stock": 1,
+      "part_numbers": [
+        "38623",
+        "38623 AR, 38902, 38904, 3033879, 19187522"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1977\u20131996 Cadillac Eldorado",
+        "1976\u20131986 Chevrolet C10",
+        "1996\u20132014 Chevrolet Express 1500",
+        "1996\u20132021 Chevrolet Express 2500",
+        "1996\u20132014 GMC Savana 1500"
+      ],
+      "vehicle_count_raw": 1484,
+      "ebay_item_id": "398358030548",
+      "ebay_type": "A/C Orifice Tube",
+      "ebay_brand": "Four Seasons",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air Conditioning & Heating:Other Air Conditioning & Heating",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "38623",
+          "38623 AR, 38902, 38904, 3033879, 19187522"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1977,
+            "year_to": 1996,
+            "make": "Cadillac",
+            "model": "Eldorado",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1976,
+            "year_to": 1986,
+            "make": "Chevrolet",
+            "model": "C10",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1996,
+            "year_to": 2014,
+            "make": "Chevrolet",
+            "model": "Express 1500",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1996,
+            "year_to": 2021,
+            "make": "Chevrolet",
+            "model": "Express 2500",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1996,
+            "year_to": 2014,
+            "make": "GMC",
+            "model": "Savana 1500",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1977\u20131996 Cadillac Eldorado",
+          "1976\u20131986 Chevrolet C10",
+          "1996\u20132014 Chevrolet Express 1500",
+          "1996\u20132021 Chevrolet Express 2500",
+          "1996\u20132014 GMC Savana 1500"
+        ],
+        "raw_compat_rows": 1484,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398358030548",
+        "type": "A/C Orifice Tube",
+        "brand": "Four Seasons",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air Conditioning & Heating:Other Air Conditioning & Heating"
+      }
+    },
+    {
       "id": "RQOB32J32LNRAO7HLKGHQ3ZQ",
       "name": "Gates 131094 Engine Oil Filler Cap NOS",
       "price": 14.99,
@@ -19946,6 +20307,44 @@
       "stock": 1
     },
     {
+      "id": "SC35APDMF4H4WLKIMMILITM3",
+      "name": "Mr. G 1956 Tire Valve Straight Long Stem Chrome Pair Carded Used Wheel",
+      "price": 8.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/26f29b5ad2059414d66d0ca4992edceb89863621/original.jpeg",
+      "url": "https://square.link/u/rvMh2IrT",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "2W3IWPJ7XBGKVHIMGD66EPYE",
+      "stock": 1,
+      "part_numbers": [
+        "G-1956"
+      ],
+      "interchange": [],
+      "vehicles": [],
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398357964724",
+      "ebay_type": "Tire Valve",
+      "ebay_brand": "Mr. G",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Wheels, Tires & Parts:Valve Stems & Caps",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "G-1956"
+        ],
+        "interchange": [],
+        "vehicles": [],
+        "vehicle_labels": [],
+        "raw_compat_rows": 0,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398357964724",
+        "type": "Tire Valve",
+        "brand": "Mr. G",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Wheels, Tires & Parts:Valve Stems & Caps"
+      }
+    },
+    {
       "id": "2IGN4TREF7DNKIIYWCK3U4BR",
       "name": "Parts Master 31999 Thermostat 195 2.2 2.5 84-95 Caravan NOS USA",
       "price": 12.99,
@@ -20098,7 +20497,262 @@
       "ebay_brand": "Perfect Circle",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Steering & Suspension:Control Arms, Ball Joints & Assemblies",
       "stock": 1
+    },
+    {
+      "id": "PH57CHWIHY2TZA2KZAXGCGKL",
+      "name": "Pioneer 50-CRN-208 Connecting Rod Nuts 11/32-24 Open Box 30 of 50 NOS",
+      "price": 12.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/5937f4f3eea26d14376aa6e016312a6d7602f34d/original.jpeg",
+      "url": "https://square.link/u/hosii2Xy",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "IT4NCZSXJHAA7BYC7ZCLJ4NG",
+      "stock": 1,
+      "part_numbers": [
+        "50-CRN-208",
+        "CRN-208"
+      ],
+      "interchange": [],
+      "vehicles": [],
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398357966851",
+      "ebay_type": "Connecting Rod Nuts",
+      "ebay_brand": "Pioneer",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Connecting Rods & Parts",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "50-CRN-208",
+          "CRN-208"
+        ],
+        "interchange": [],
+        "vehicles": [],
+        "vehicle_labels": [],
+        "raw_compat_rows": 0,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398357966851",
+        "type": "Connecting Rod Nuts",
+        "brand": "Pioneer",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Connecting Rods & Parts"
+      }
+    },
+    {
+      "id": "GWSOPVVPT5PCTAYBGCDGEGZW",
+      "name": "Standard DR2270XP Lubripoints 55-80 Camaro Impala Corvette Firebird NOS",
+      "price": 24.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/7c2391776cc9ae4c37b2fd58500b1baf3dfe3505/original.jpeg",
+      "url": "https://square.link/u/CKaDYU2h",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "L27W5EAR5ECUOAROJO2RBJS4",
+      "stock": 1,
+      "part_numbers": [
+        "DR2270XP",
+        "CS786, CS786P, DR2270P, DR-2270XP"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1968\u20131970 AMC AMX",
+        "1958\u20131974 AMC Ambassador",
+        "1967\u20131968 AMC American",
+        "1970\u20131974 AMC Hornet",
+        "1968\u20131974 AMC Javelin",
+        "1971\u20131974 AMC Matador",
+        "1958\u20131970 AMC Rebel",
+        "1967\u20131974 Chevrolet Camaro",
+        "1956\u20131974 Chevrolet Corvette",
+        "1958\u20131974 Chevrolet Impala",
+        "1967\u20131974 Pontiac Firebird"
+      ],
+      "vehicle_count_raw": 1952,
+      "ebay_item_id": "398358030318",
+      "ebay_type": "Ignition Points",
+      "ebay_brand": "Standard Motor Products",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Points",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "DR2270XP",
+          "CS786, CS786P, DR2270P, DR-2270XP"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1968,
+            "year_to": 1970,
+            "make": "AMC",
+            "model": "AMX",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1958,
+            "year_to": 1974,
+            "make": "AMC",
+            "model": "Ambassador",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1967,
+            "year_to": 1968,
+            "make": "AMC",
+            "model": "American",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1970,
+            "year_to": 1974,
+            "make": "AMC",
+            "model": "Hornet",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1968,
+            "year_to": 1974,
+            "make": "AMC",
+            "model": "Javelin",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1971,
+            "year_to": 1974,
+            "make": "AMC",
+            "model": "Matador",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1958,
+            "year_to": 1970,
+            "make": "AMC",
+            "model": "Rebel",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1967,
+            "year_to": 1974,
+            "make": "Chevrolet",
+            "model": "Camaro",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1956,
+            "year_to": 1974,
+            "make": "Chevrolet",
+            "model": "Corvette",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1958,
+            "year_to": 1974,
+            "make": "Chevrolet",
+            "model": "Impala",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1967,
+            "year_to": 1974,
+            "make": "Pontiac",
+            "model": "Firebird",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1968\u20131970 AMC AMX",
+          "1958\u20131974 AMC Ambassador",
+          "1967\u20131968 AMC American",
+          "1970\u20131974 AMC Hornet",
+          "1968\u20131974 AMC Javelin",
+          "1971\u20131974 AMC Matador",
+          "1958\u20131970 AMC Rebel",
+          "1967\u20131974 Chevrolet Camaro",
+          "1956\u20131974 Chevrolet Corvette",
+          "1958\u20131974 Chevrolet Impala",
+          "1967\u20131974 Pontiac Firebird"
+        ],
+        "raw_compat_rows": 1952,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398358030318",
+        "type": "Ignition Points",
+        "brand": "Standard Motor Products",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Points"
+      }
+    },
+    {
+      "id": "RITM5G3PUNW4LJDA5MP5ZGL7",
+      "name": "TDC Power DA-12-24 Class 2 Transformer 24VAC 0.5A 12VA UL Plug-In Used",
+      "price": 17.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/20332cca09138465104538f9a3b06124bc7b99b9/original.jpeg",
+      "url": "https://square.link/u/MKuVAOau",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "6S52V4XFOB5MGR2ISPH5CFDG",
+      "stock": 1,
+      "part_numbers": [
+        "DA-12-24",
+        "DA-12, DA-12-24W, DA12-24W"
+      ],
+      "interchange": [],
+      "vehicles": [],
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398358061640",
+      "ebay_type": "Class 2 Transformer",
+      "ebay_brand": "TDC Power",
+      "ebay_category": "Business & Industrial:Electrical Equipment & Supplies:Transformers:Power Transformers",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "DA-12-24",
+          "DA-12, DA-12-24W, DA12-24W"
+        ],
+        "interchange": [],
+        "vehicles": [],
+        "vehicle_labels": [],
+        "raw_compat_rows": 0,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398358061640",
+        "type": "Class 2 Transformer",
+        "brand": "TDC Power",
+        "ebay_category": "Business & Industrial:Electrical Equipment & Supplies:Transformers:Power Transformers"
+      }
     }
   ],
-  "fitment_built": "2026-09-04T08:00:49Z"
+  "fitment_built": "2026-09-04T10:01:04Z"
 }
