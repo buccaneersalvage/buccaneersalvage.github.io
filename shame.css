@@ -1,0 +1,111 @@
+/* Hall of shame — same tokens as styles.css, tighter hierarchy.
+   Poster: paper edge, no drop-glow. Cards: one hairline, no shadow. */
+
+.page-shame .st-title {
+  font-size: clamp(2.2rem, 4.6vw, 3.25rem);
+  line-height: 1.08;
+  letter-spacing: -0.02em;
+  margin-bottom: 0.7rem;
+}
+.page-shame .st-sub {
+  font-size: var(--text-base);
+  line-height: 1.55;
+  max-width: 58ch;
+  color: var(--parchment-muted);
+}
+.page-shame .st-entries-title {
+  font-size: var(--text-2xl);
+  font-weight: 600;
+  line-height: 1.15;
+  margin: 0 0 1.5rem;
+}
+
+.shame-list {
+  gap: 1.15rem;
+}
+.shame-card {
+  grid-template-columns: 6.75rem minmax(0, 1fr);
+  gap: 1.15rem 1.25rem;
+  align-items: center;
+  background: var(--ink-elevated);
+  border: 1px solid var(--glass-edge);
+  border-radius: var(--radius-sm);
+  box-shadow: none;
+  padding: 1.1rem 1.2rem;
+}
+.shame-card:hover {
+  border-color: var(--glass-edge-hot);
+}
+.shame-thumb {
+  display: block;
+  width: 6.75rem;
+  height: 6.75rem;
+  overflow: hidden;
+  border-radius: 6px;
+  background: var(--void);
+}
+.shame-thumb picture {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.shame-thumb img {
+  width: 6.75rem;
+  height: 6.75rem;
+  object-fit: cover;
+  display: block;
+}
+.shame-card-body h3 {
+  font-size: var(--text-xl);
+  font-weight: 600;
+  line-height: 1.2;
+  margin: 0 0 0.45rem;
+}
+.shame-card-body p {
+  font-size: var(--text-sm);
+  line-height: 1.5;
+}
+
+.shame-poster img,
+.shame-board img {
+  border-radius: 3px;
+  border: 2px solid rgba(240, 208, 120, 0.38);
+  box-shadow: none;
+}
+.shame-file h2 {
+  font-size: var(--text-2xl);
+  line-height: 1.12;
+  margin: 0 0 0.85rem;
+}
+.shame-lede {
+  font-size: var(--text-lg);
+  line-height: 1.45;
+  color: var(--parchment);
+  margin: 0 0 1.4rem;
+}
+.shame-meta dd {
+  font-size: var(--text-base);
+}
+.shame-case h2 {
+  font-size: var(--text-2xl);
+  line-height: 1.15;
+  margin: 2.35rem 0 0.75rem;
+}
+.shame-case p,
+.shame-steps {
+  font-size: var(--text-base);
+}
+.shame-case blockquote {
+  border-left-width: 1px;
+}
+
+@media (max-width: 480px) {
+  .shame-card {
+    grid-template-columns: 1fr;
+  }
+  .shame-thumb,
+  .shame-thumb img {
+    width: 11rem;
+    height: 11rem;
+  }
+}
