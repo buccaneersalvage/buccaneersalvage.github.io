@@ -1,7 +1,7 @@
 {
-  "updated": "2026-09-04T19:00:47Z",
+  "updated": "2026-09-05T01:00:57Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 179,
+  "count": 184,
   "items": [
     {
       "id": "5LLWTR3B27YDLV6ZR6XMBPWL",
@@ -17338,6 +17338,97 @@
       "interchange": []
     },
     {
+      "id": "ACIZB62Y2YH5WZ3GWEXPGKJE",
+      "name": "Speedi-Boot 03615 CV Split Boot Kit 73-85 VW Rabbit Jetta Scirocco NOS Motormite",
+      "price": 16.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/0c9345d1ea7e53bad236387f0931e693edf4d4ce/original.jpeg",
+      "url": "https://square.link/u/YViCzBVU",
+      "category": "driveline",
+      "checkout": true,
+      "variation_id": "WTBMPLVJW7IAQLTCU3NX7O3C",
+      "stock": 1,
+      "part_numbers": [
+        "03615",
+        "Motormite"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1980 Audi 4000",
+        "1980\u20131985 Volkswagen Jetta",
+        "1979\u20131984 Volkswagen Rabbit",
+        "1975\u20131985 Volkswagen Scirocco"
+      ],
+      "vehicle_count_raw": 145,
+      "ebay_item_id": "398360379115",
+      "ebay_type": "CV Boot Kit",
+      "ebay_brand": "Speedi-Boot",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:CV Joints, Boots & Parts",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "03615",
+          "Motormite"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1980,
+            "year_to": 1980,
+            "make": "Audi",
+            "model": "4000",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1980,
+            "year_to": 1985,
+            "make": "Volkswagen",
+            "model": "Jetta",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1979,
+            "year_to": 1984,
+            "make": "Volkswagen",
+            "model": "Rabbit",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1975,
+            "year_to": 1985,
+            "make": "Volkswagen",
+            "model": "Scirocco",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1980 Audi 4000",
+          "1980\u20131985 Volkswagen Jetta",
+          "1979\u20131984 Volkswagen Rabbit",
+          "1975\u20131985 Volkswagen Scirocco"
+        ],
+        "raw_compat_rows": 145,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398360379115",
+        "type": "CV Boot Kit",
+        "brand": "Speedi-Boot",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:CV Joints, Boots & Parts"
+      }
+    },
+    {
       "id": "6TYAN64XV3F4PSRWFXZQRDBI",
       "name": "Victor Reinz F7398 Exhaust Pipe Ring NOS 1983-1993 GM 2.5L L4",
       "price": 10.99,
@@ -17480,6 +17571,105 @@
       "ebay_type": "",
       "ebay_brand": "",
       "ebay_category": ""
+    },
+    {
+      "id": "W5UDUYIX7N6IWHDKEHT4W5R6",
+      "name": "Beck Arnley 045-0253 PCV Valve 1.6 1.8 2.5 Miata Escort NOS",
+      "price": 10.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/1d768ddddb7a67b16f5feee8a50189e3ea17f7de/original.jpeg",
+      "url": "https://square.link/u/h75BHcP7",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "Z6UB2L32I66OOI4DXKTLJ3YV",
+      "stock": 1,
+      "part_numbers": [
+        "045-0253",
+        "Worldparts, FV258, V245"
+      ],
+      "interchange": [
+        "BP0513890",
+        "F0CZ6A666A",
+        "12204-15030"
+      ],
+      "vehicles": [
+        "1991\u20131996 Ford Escort",
+        "1990\u20132005 Mazda Miata",
+        "1991\u20131996 Mercury Tracer",
+        "1983\u20131985 Toyota Corolla"
+      ],
+      "vehicle_count_raw": 78,
+      "ebay_item_id": "398360453544",
+      "ebay_type": "PCV Valve",
+      "ebay_brand": "Beck Arnley",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Exhaust & Emission Systems:Other Exhaust & Emission Parts",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "045-0253",
+          "Worldparts, FV258, V245"
+        ],
+        "interchange": [
+          "BP0513890",
+          "F0CZ6A666A",
+          "12204-15030"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1991,
+            "year_to": 1996,
+            "make": "Ford",
+            "model": "Escort",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1990,
+            "year_to": 2005,
+            "make": "Mazda",
+            "model": "Miata",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1991,
+            "year_to": 1996,
+            "make": "Mercury",
+            "model": "Tracer",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1983,
+            "year_to": 1985,
+            "make": "Toyota",
+            "model": "Corolla",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1991\u20131996 Ford Escort",
+          "1990\u20132005 Mazda Miata",
+          "1991\u20131996 Mercury Tracer",
+          "1983\u20131985 Toyota Corolla"
+        ],
+        "raw_compat_rows": 78,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398360453544",
+        "type": "PCV Valve",
+        "brand": "Beck Arnley",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Exhaust & Emission Systems:Other Exhaust & Emission Parts"
+      }
     },
     {
       "id": "EJ4RJNXDQ53RQJB363MPICNE",
@@ -19623,6 +19813,46 @@
       "interchange": []
     },
     {
+      "id": "VMQOOEBJRALZ33K3ZDHNGKCT",
+      "name": "HP 0950-4392 Printer AC Adapter 15V 32V 3-Pin Deskjet 3550 3650 3840 Used",
+      "price": 6.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/2fa358152ddf5f434c2ef361b02db7e9117f20a4/original.jpeg",
+      "url": "https://square.link/u/6yreCFXB",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "SCTZWWYOXTONJODQUTEIQLAF",
+      "stock": 1,
+      "part_numbers": [
+        "0950-4392",
+        "A17071A, 09504392, Yokogawa"
+      ],
+      "interchange": [],
+      "vehicles": [],
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398360421809",
+      "ebay_type": "AC Adapter",
+      "ebay_brand": "HP",
+      "ebay_category": "Computers/Tablets & Networking:Printers, Scanners & Supplies:Printer & Scanner Parts & Accs:Power Supplies",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "0950-4392",
+          "A17071A, 09504392, Yokogawa"
+        ],
+        "interchange": [],
+        "vehicles": [],
+        "vehicle_labels": [],
+        "raw_compat_rows": 0,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398360421809",
+        "type": "AC Adapter",
+        "brand": "HP",
+        "ebay_category": "Computers/Tablets & Networking:Printers, Scanners & Supplies:Printer & Scanner Parts & Accs:Power Supplies"
+      }
+    },
+    {
       "id": "4KCC2BYBB5UEG2PK6YUUH4ML",
       "name": "IAD D439HP Dist Rotor NOS 2.8 3.1 4.3 85-92 Camaro",
       "price": 14.99,
@@ -20025,6 +20255,44 @@
       "interchange": []
     },
     {
+      "id": "V6W25CWDWIIRA3LHHD2PPA22",
+      "name": "Penox AT70 Oxygen Flowmeter 0-8 LPM DISS Thorpe Tube Surplus Untested Used",
+      "price": 19.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/9a527a6a34092f8b777dbd95891f6d1952ce7469/original.jpeg",
+      "url": "https://square.link/u/9JzERRfF",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "7FBIJKU5JOH7ITTUOVLB3CYK",
+      "stock": 1,
+      "part_numbers": [
+        "AT70"
+      ],
+      "interchange": [],
+      "vehicles": [],
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398360423434",
+      "ebay_type": "Flowmeter",
+      "ebay_brand": "Penox",
+      "ebay_category": "Business & Industrial:Healthcare, Lab & Dental:Medical & Lab Equipment, Devices:Other Medical & Lab Equipment",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "medium",
+      "fitment": {
+        "part_numbers": [
+          "AT70"
+        ],
+        "interchange": [],
+        "vehicles": [],
+        "vehicle_labels": [],
+        "raw_compat_rows": 0,
+        "source": "ebay_listing",
+        "confidence": "medium",
+        "ebay_item_id": "398360423434",
+        "type": "Flowmeter",
+        "brand": "Penox",
+        "ebay_category": "Business & Industrial:Healthcare, Lab & Dental:Medical & Lab Equipment, Devices:Other Medical & Lab Equipment"
+      }
+    },
+    {
       "id": "4ZIBBGXFF65NRMKSS3IQ2R3T",
       "name": "Perfect Circle 260-5045 Right Lower Control Arm 2.3L 85-94 Tempo Topaz NOS",
       "price": 24.99,
@@ -20098,7 +20366,94 @@
       "ebay_brand": "Perfect Circle",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Steering & Suspension:Control Arms, Ball Joints & Assemblies",
       "stock": 1
+    },
+    {
+      "id": "ZSYBWKXDQSCLGBN73EETZNPR",
+      "name": "Standard Motor Products JR80 Rotor 1.5 1.6 2.6 74-91 Colt NOS",
+      "price": 9.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/d6122e1553a94d5a9f47fee45fa591fb92d61047/original.jpeg",
+      "url": "https://square.link/u/gSgpgzoI",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "FTRZLMOS7ICIX37XAAT4U5YO",
+      "stock": 1,
+      "part_numbers": [
+        "JR80",
+        "JR-80, D577, EP342"
+      ],
+      "interchange": [
+        "MD611850",
+        "AM0124312",
+        "27115-21020"
+      ],
+      "vehicles": [
+        "1974\u20131991 Dodge Colt",
+        "1984\u20131989 Dodge Ram 50",
+        "1986\u20131989 Hyundai Excel"
+      ],
+      "vehicle_count_raw": 187,
+      "ebay_item_id": "398360456201",
+      "ebay_type": "Distributor Rotor",
+      "ebay_brand": "Standard Motor Products",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "JR80",
+          "JR-80, D577, EP342"
+        ],
+        "interchange": [
+          "MD611850",
+          "AM0124312",
+          "27115-21020"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1974,
+            "year_to": 1991,
+            "make": "Dodge",
+            "model": "Colt",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 1989,
+            "make": "Dodge",
+            "model": "Ram 50",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1986,
+            "year_to": 1989,
+            "make": "Hyundai",
+            "model": "Excel",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1974\u20131991 Dodge Colt",
+          "1984\u20131989 Dodge Ram 50",
+          "1986\u20131989 Hyundai Excel"
+        ],
+        "raw_compat_rows": 187,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398360456201",
+        "type": "Distributor Rotor",
+        "brand": "Standard Motor Products",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors"
+      }
     }
   ],
-  "fitment_built": "2026-09-04T19:00:47Z"
+  "fitment_built": "2026-09-05T01:00:57Z"
 }
