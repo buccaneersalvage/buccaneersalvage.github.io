@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-06T12:13:51Z",
+  "updated": "2026-09-06T12:15:23Z",
   "store": "https://buccaneersalvage.square.site/",
   "count": 199,
   "items": [
@@ -2149,30 +2149,105 @@
         "H1150-2"
       ],
       "fitment_source": "ebay_listing",
-      "fitment_confidence": "medium",
+      "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
           "H1150-2"
         ],
         "interchange": [],
-        "vehicles": [],
-        "vehicle_labels": [],
-        "raw_compat_rows": 0,
+        "vehicles": [
+          {
+            "year_from": 1964,
+            "year_to": 1998,
+            "make": "Buick",
+            "model": "Skylark",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1968,
+            "year_to": 1999,
+            "make": "Cadillac",
+            "model": "DeVille",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1967,
+            "year_to": 1997,
+            "make": "Chevrolet",
+            "model": "Camaro",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1966,
+            "year_to": 1996,
+            "make": "Chevrolet",
+            "model": "Caprice",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1960,
+            "year_to": 1985,
+            "make": "Chevrolet",
+            "model": "Impala",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1967,
+            "year_to": 1997,
+            "make": "Pontiac",
+            "model": "Firebird",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1964\u20131998 Buick Skylark",
+          "1968\u20131999 Cadillac DeVille",
+          "1967\u20131997 Chevrolet Camaro",
+          "1966\u20131996 Chevrolet Caprice",
+          "1960\u20131985 Chevrolet Impala",
+          "1967\u20131997 Pontiac Firebird"
+        ],
+        "raw_compat_rows": 2672,
         "source": "ebay_listing",
-        "confidence": "medium",
+        "confidence": "high",
         "ebay_item_id": "398365460744",
         "type": "Drum Brake Shoe Hold Down Spring",
         "brand": "Carlson",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware"
       },
-      "vehicle_count_raw": 0,
+      "vehicle_count_raw": 2672,
       "ebay_item_id": "398365460744",
       "ebay_type": "Drum Brake Shoe Hold Down Spring",
       "ebay_brand": "Carlson",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware",
       "stock": 1,
       "interchange": [],
-      "vehicles": []
+      "vehicles": [
+        "1964\u20131998 Buick Skylark",
+        "1968\u20131999 Cadillac DeVille",
+        "1967\u20131997 Chevrolet Camaro",
+        "1966\u20131996 Chevrolet Caprice",
+        "1960\u20131985 Chevrolet Impala",
+        "1967\u20131997 Pontiac Firebird"
+      ]
     },
     {
       "id": "ASC7PZUPXVDXMQGNMPZWRF6P",
@@ -2187,30 +2262,93 @@
         "H2090-2"
       ],
       "fitment_source": "ebay_listing",
-      "fitment_confidence": "medium",
+      "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
           "H2090-2"
         ],
         "interchange": [],
-        "vehicles": [],
-        "vehicle_labels": [],
-        "raw_compat_rows": 0,
+        "vehicles": [
+          {
+            "year_from": 1967,
+            "year_to": 1996,
+            "make": "Ford",
+            "model": "Bronco",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1975,
+            "year_to": 2002,
+            "make": "Ford",
+            "model": "E-150 Econoline",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1975,
+            "year_to": 2010,
+            "make": "Ford",
+            "model": "F-150",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1965,
+            "year_to": 1974,
+            "make": "Ford",
+            "model": "LTD",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1964,
+            "year_to": 1993,
+            "make": "Ford",
+            "model": "Mustang",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1967\u20131996 Ford Bronco",
+          "1975\u20132002 Ford E-150 Econoline",
+          "1975\u20132010 Ford F-150",
+          "1965\u20131974 Ford LTD",
+          "1964\u20131993 Ford Mustang"
+        ],
+        "raw_compat_rows": 3000,
         "source": "ebay_listing",
-        "confidence": "medium",
+        "confidence": "high",
         "ebay_item_id": "398365461040",
         "type": "Drum Brake Self-Adjuster Cable Guide",
         "brand": "Carlson",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware"
       },
-      "vehicle_count_raw": 0,
+      "vehicle_count_raw": 3000,
       "ebay_item_id": "398365461040",
       "ebay_type": "Drum Brake Self-Adjuster Cable Guide",
       "ebay_brand": "Carlson",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware",
       "stock": 1,
       "interchange": [],
-      "vehicles": []
+      "vehicles": [
+        "1967\u20131996 Ford Bronco",
+        "1975\u20132002 Ford E-150 Econoline",
+        "1975\u20132010 Ford F-150",
+        "1965\u20131974 Ford LTD",
+        "1964\u20131993 Ford Mustang"
+      ]
     },
     {
       "id": "XHF4IRCQUFOFNT72CH43Z7FT",
@@ -2225,30 +2363,105 @@
         "H2148-2"
       ],
       "fitment_source": "ebay_listing",
-      "fitment_confidence": "medium",
+      "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
           "H2148-2"
         ],
         "interchange": [],
-        "vehicles": [],
-        "vehicle_labels": [],
-        "raw_compat_rows": 0,
+        "vehicles": [
+          {
+            "year_from": 1975,
+            "year_to": 1986,
+            "make": "Chevrolet",
+            "model": "C10",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1967,
+            "year_to": 1978,
+            "make": "Chevrolet",
+            "model": "Camaro",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1977,
+            "year_to": 1993,
+            "make": "Chevrolet",
+            "model": "Caprice",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1969,
+            "year_to": 1978,
+            "make": "Chevrolet",
+            "model": "Nova",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1970,
+            "year_to": 1994,
+            "make": "GMC",
+            "model": "Jimmy",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1967,
+            "year_to": 1978,
+            "make": "Pontiac",
+            "model": "Firebird",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1975\u20131986 Chevrolet C10",
+          "1967\u20131978 Chevrolet Camaro",
+          "1977\u20131993 Chevrolet Caprice",
+          "1969\u20131978 Chevrolet Nova",
+          "1970\u20131994 GMC Jimmy",
+          "1967\u20131978 Pontiac Firebird"
+        ],
+        "raw_compat_rows": 1541,
         "source": "ebay_listing",
-        "confidence": "medium",
+        "confidence": "high",
         "ebay_item_id": "398365461202",
         "type": "Drum Brake Adjusting Lever Return Spring",
         "brand": "Carlson",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware"
       },
-      "vehicle_count_raw": 0,
+      "vehicle_count_raw": 1541,
       "ebay_item_id": "398365461202",
       "ebay_type": "Drum Brake Adjusting Lever Return Spring",
       "ebay_brand": "Carlson",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware",
       "stock": 1,
       "interchange": [],
-      "vehicles": []
+      "vehicles": [
+        "1975\u20131986 Chevrolet C10",
+        "1967\u20131978 Chevrolet Camaro",
+        "1977\u20131993 Chevrolet Caprice",
+        "1969\u20131978 Chevrolet Nova",
+        "1970\u20131994 GMC Jimmy",
+        "1967\u20131978 Pontiac Firebird"
+      ]
     },
     {
       "id": "C2LKTK5OKSGH3QPILFO4AWBE",
@@ -4399,30 +4612,105 @@
         "H4019-2"
       ],
       "fitment_source": "ebay_listing",
-      "fitment_confidence": "medium",
+      "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
           "H4019-2"
         ],
         "interchange": [],
-        "vehicles": [],
-        "vehicle_labels": [],
-        "raw_compat_rows": 0,
+        "vehicles": [
+          {
+            "year_from": 1977,
+            "year_to": 1996,
+            "make": "Cadillac",
+            "model": "Fleetwood",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 2002,
+            "make": "Chevrolet",
+            "model": "Astro",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1967,
+            "year_to": 1997,
+            "make": "Chevrolet",
+            "model": "Camaro",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1977,
+            "year_to": 1996,
+            "make": "Chevrolet",
+            "model": "Caprice",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1982,
+            "year_to": 2003,
+            "make": "Chevrolet",
+            "model": "S10",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1967,
+            "year_to": 1997,
+            "make": "Pontiac",
+            "model": "Firebird",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1977\u20131996 Cadillac Fleetwood",
+          "1985\u20132002 Chevrolet Astro",
+          "1967\u20131997 Chevrolet Camaro",
+          "1977\u20131996 Chevrolet Caprice",
+          "1982\u20132003 Chevrolet S10",
+          "1967\u20131997 Pontiac Firebird"
+        ],
+        "raw_compat_rows": 1746,
         "source": "ebay_listing",
-        "confidence": "medium",
+        "confidence": "high",
         "ebay_item_id": "398365461369",
         "type": "Drum Brake Shoe Hold Down Kit",
         "brand": "Carlson",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware"
       },
-      "vehicle_count_raw": 0,
+      "vehicle_count_raw": 1746,
       "ebay_item_id": "398365461369",
       "ebay_type": "Drum Brake Shoe Hold Down Kit",
       "ebay_brand": "Carlson",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware",
       "stock": 1,
       "interchange": [],
-      "vehicles": []
+      "vehicles": [
+        "1977\u20131996 Cadillac Fleetwood",
+        "1985\u20132002 Chevrolet Astro",
+        "1967\u20131997 Chevrolet Camaro",
+        "1977\u20131996 Chevrolet Caprice",
+        "1982\u20132003 Chevrolet S10",
+        "1967\u20131997 Pontiac Firebird"
+      ]
     },
     {
       "id": "HY3F6WEOGRLUWAP3FMO62QTJ",
@@ -4639,30 +4927,105 @@
         "H4099-2"
       ],
       "fitment_source": "ebay_listing",
-      "fitment_confidence": "medium",
+      "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
           "H4099-2"
         ],
         "interchange": [],
-        "vehicles": [],
-        "vehicle_labels": [],
-        "raw_compat_rows": 0,
+        "vehicles": [
+          {
+            "year_from": 1982,
+            "year_to": 1992,
+            "make": "Buick",
+            "model": "Century",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1982,
+            "year_to": 1998,
+            "make": "Buick",
+            "model": "Skylark",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1991,
+            "year_to": 1996,
+            "make": "Chevrolet",
+            "model": "Beretta",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1982,
+            "year_to": 2000,
+            "make": "Chevrolet",
+            "model": "Cavalier",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1982,
+            "year_to": 1990,
+            "make": "Chevrolet",
+            "model": "Celebrity",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1996,
+            "make": "Chevrolet",
+            "model": "Corsica",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1982\u20131992 Buick Century",
+          "1982\u20131998 Buick Skylark",
+          "1991\u20131996 Chevrolet Beretta",
+          "1982\u20132000 Chevrolet Cavalier",
+          "1982\u20131990 Chevrolet Celebrity",
+          "1987\u20131996 Chevrolet Corsica"
+        ],
+        "raw_compat_rows": 846,
         "source": "ebay_listing",
-        "confidence": "medium",
+        "confidence": "high",
         "ebay_item_id": "398365461940",
         "type": "Drum Brake Shoe Hold Down Kit",
         "brand": "Carlson",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware"
       },
-      "vehicle_count_raw": 0,
+      "vehicle_count_raw": 846,
       "ebay_item_id": "398365461940",
       "ebay_type": "Drum Brake Shoe Hold Down Kit",
       "ebay_brand": "Carlson",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware",
       "stock": 1,
       "interchange": [],
-      "vehicles": []
+      "vehicles": [
+        "1982\u20131992 Buick Century",
+        "1982\u20131998 Buick Skylark",
+        "1991\u20131996 Chevrolet Beretta",
+        "1982\u20132000 Chevrolet Cavalier",
+        "1982\u20131990 Chevrolet Celebrity",
+        "1987\u20131996 Chevrolet Corsica"
+      ]
     },
     {
       "id": "QFZS6IO6ITZEWP3J6ACRLKOF",
@@ -6014,7 +6377,7 @@
         "2000\u20132002 Dodge Durango",
         "Ford F-Series"
       ],
-      "fitment_source": "ebay_listing+carlson_specs+title",
+      "fitment_source": "ebay_listing+carlson_specs",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
@@ -6060,7 +6423,7 @@
           "Ford F-Series"
         ],
         "raw_compat_rows": 131,
-        "source": "ebay_listing+carlson_specs+title",
+        "source": "ebay_listing+carlson_specs",
         "confidence": "high",
         "ebay_item_id": "398070091739",
         "type": "Disc Brake Hardware Kit",
@@ -11486,7 +11849,7 @@
       "ebay_type": "Oil Filter",
       "ebay_brand": "WIX",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Filters",
-      "fitment_source": "ebay_listing+title",
+      "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
@@ -11645,7 +12008,7 @@
           "1984\u20131989 Toyota Van"
         ],
         "raw_compat_rows": 252,
-        "source": "ebay_listing+title",
+        "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398268503856",
         "type": "Oil Filter",
@@ -16671,7 +17034,7 @@
       "ebay_type": "Oil Filter",
       "ebay_brand": "WIX",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Filters",
-      "fitment_source": "ebay_listing+title",
+      "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
@@ -17084,7 +17447,7 @@
           "1998\u20132003 GMC W4500 Forward"
         ],
         "raw_compat_rows": 775,
-        "source": "ebay_listing+title",
+        "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398268765097",
         "type": "Oil Filter",
@@ -23315,5 +23678,5 @@
       "stock": 1
     }
   ],
-  "fitment_built": "2026-09-06T12:13:51Z"
+  "fitment_built": "2026-09-06T12:15:23Z"
 }
