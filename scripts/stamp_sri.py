@@ -16,6 +16,7 @@ ROOT = Path(__file__).resolve().parents[1]
 
 ASSETS = (
     "styles.css",
+    "shame.css",
     "videos.css",
     "main.js",
     "formspree-config.js",
