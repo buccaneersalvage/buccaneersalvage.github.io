@@ -153,17 +153,30 @@
     return `assets/product-thumbs/${id}.webp`;
   }
 
-  function bindThumbFallbacks(root) {
+  function applyThumbFallback(img) {
+    if (!img || img.tagName !== "IMG" || !img.classList.contains("st-img")) return;
+    const next = img.getAttribute("data-fallback") || "";
+    if (!next) return;
+    img.removeAttribute("data-fallback");
+    if (next !== img.getAttribute("src")) img.src = next;
+  }
+
+  function recoverBrokenThumbs(root) {
     if (!root) return;
     root.querySelectorAll("img.st-img[data-fallback]").forEach((img) => {
-      const fallback = () => {
-        const next = img.getAttribute("data-fallback") || "";
-        img.removeAttribute("data-fallback");
-        if (next && next !== img.getAttribute("src")) img.src = next;
-      };
-      img.addEventListener("error", fallback);
-      if (img.complete && img.naturalWidth === 0) fallback();
+      if (img.complete && img.naturalWidth === 0) applyThumbFallback(img);
     });
+  }
+
+  function bindThumbFallbacks(root) {
+    if (!root) return;
+    // error does not bubble. Capture on the grid so idle-inserted cards and
+    // List.js page remounts still swap to the Square original.
+    if (root.dataset.thumbFallbackBound !== "1") {
+      root.dataset.thumbFallbackBound = "1";
+      root.addEventListener("error", (e) => applyThumbFallback(e.target), true);
+    }
+    recoverBrokenThumbs(root);
   }
 
   function rankCat(c) {
@@ -1365,7 +1378,10 @@
         item: "<li><button type='button' class='page'></button></li>",
       },
     });
-    list.on("updated", updateShowing);
+    list.on("updated", () => {
+      updateShowing();
+      recoverBrokenThumbs(document.getElementById("stGrid"));
+    });
     list.on("searchComplete", updateShowing);
     list.on("filterComplete", updateShowing);
     applySort(document.getElementById("stSort")?.value || "featured");
@@ -1432,6 +1448,7 @@
         )
         .join("");
       grid.insertAdjacentHTML("beforeend", html);
+      recoverBrokenThumbs(grid);
       offset = end;
       idle(pump);
     }
