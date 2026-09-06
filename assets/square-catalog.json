@@ -1,7 +1,7 @@
 {
-  "updated": "2026-09-06T12:48:55Z",
+  "updated": "2026-09-06T12:56:14Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 199,
+  "count": 191,
   "items": [
     {
       "id": "5LLWTR3B27YDLV6ZR6XMBPWL",
@@ -2148,6 +2148,14 @@
       "part_numbers": [
         "H1150-2"
       ],
+      "vehicles": [
+        "1964\u20131998 Buick Skylark",
+        "1968\u20131999 Cadillac DeVille",
+        "1967\u20131997 Chevrolet Camaro",
+        "1966\u20131996 Chevrolet Caprice",
+        "1960\u20131985 Chevrolet Impala",
+        "1967\u20131997 Pontiac Firebird"
+      ],
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -2239,15 +2247,7 @@
       "ebay_brand": "Carlson",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware",
       "stock": 1,
-      "interchange": [],
-      "vehicles": [
-        "1964\u20131998 Buick Skylark",
-        "1968\u20131999 Cadillac DeVille",
-        "1967\u20131997 Chevrolet Camaro",
-        "1966\u20131996 Chevrolet Caprice",
-        "1960\u20131985 Chevrolet Impala",
-        "1967\u20131997 Pontiac Firebird"
-      ]
+      "interchange": []
     },
     {
       "id": "ASC7PZUPXVDXMQGNMPZWRF6P",
@@ -2260,6 +2260,13 @@
       "variation_id": "IPBRXZYZ3NKRELXNTBSKQURH",
       "part_numbers": [
         "H2090-2"
+      ],
+      "vehicles": [
+        "1967\u20131996 Ford Bronco",
+        "1975\u20132002 Ford E-150 Econoline",
+        "1975\u20132010 Ford F-150",
+        "1965\u20131974 Ford LTD",
+        "1964\u20131993 Ford Mustang"
       ],
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
@@ -2341,14 +2348,7 @@
       "ebay_brand": "Carlson",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware",
       "stock": 1,
-      "interchange": [],
-      "vehicles": [
-        "1967\u20131996 Ford Bronco",
-        "1975\u20132002 Ford E-150 Econoline",
-        "1975\u20132010 Ford F-150",
-        "1965\u20131974 Ford LTD",
-        "1964\u20131993 Ford Mustang"
-      ]
+      "interchange": []
     },
     {
       "id": "XHF4IRCQUFOFNT72CH43Z7FT",
@@ -2361,6 +2361,14 @@
       "variation_id": "56WC3Z6ZCIFEU5OML4NZP7WH",
       "part_numbers": [
         "H2148-2"
+      ],
+      "vehicles": [
+        "1975\u20131986 Chevrolet C10",
+        "1967\u20131978 Chevrolet Camaro",
+        "1977\u20131993 Chevrolet Caprice",
+        "1969\u20131978 Chevrolet Nova",
+        "1970\u20131994 GMC Jimmy",
+        "1967\u20131978 Pontiac Firebird"
       ],
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
@@ -2453,15 +2461,7 @@
       "ebay_brand": "Carlson",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware",
       "stock": 1,
-      "interchange": [],
-      "vehicles": [
-        "1975\u20131986 Chevrolet C10",
-        "1967\u20131978 Chevrolet Camaro",
-        "1977\u20131993 Chevrolet Caprice",
-        "1969\u20131978 Chevrolet Nova",
-        "1970\u20131994 GMC Jimmy",
-        "1967\u20131978 Pontiac Firebird"
-      ]
+      "interchange": []
     },
     {
       "id": "C2LKTK5OKSGH3QPILFO4AWBE",
@@ -4611,6 +4611,14 @@
       "part_numbers": [
         "H4019-2"
       ],
+      "vehicles": [
+        "1977\u20131996 Cadillac Fleetwood",
+        "1985\u20132002 Chevrolet Astro",
+        "1967\u20131997 Chevrolet Camaro",
+        "1977\u20131996 Chevrolet Caprice",
+        "1982\u20132003 Chevrolet S10",
+        "1967\u20131997 Pontiac Firebird"
+      ],
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -4702,27 +4710,26 @@
       "ebay_brand": "Carlson",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware",
       "stock": 1,
-      "interchange": [],
-      "vehicles": [
-        "1977\u20131996 Cadillac Fleetwood",
-        "1985\u20132002 Chevrolet Astro",
-        "1967\u20131997 Chevrolet Camaro",
-        "1977\u20131996 Chevrolet Caprice",
-        "1982\u20132003 Chevrolet S10",
-        "1967\u20131997 Pontiac Firebird"
-      ]
+      "interchange": []
     },
     {
-      "id": "HY3F6WEOGRLUWAP3FMO62QTJ",
-      "name": "Carlson H4050-2 Drum Brake Shoe Hold Down Kit NOS",
+      "id": "RXWSJPWWBMQGIEFN4CI7MW5P",
+      "name": "Carlson H4050-2 Drum Brake Shoe Hold Down Kit NOS 62-72 Fury Polara Galaxie",
       "price": 14.99,
-      "image": "",
-      "url": "https://square.link/u/YZn8rCry",
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/8eb1a0447457893760ad6adae868c112cfb7f85e/original.jpeg",
+      "url": "https://square.link/u/3CyTSyHg",
       "category": "brake",
       "checkout": true,
-      "variation_id": "UFDAJJTAVPI22KHKXWTLMB47",
+      "variation_id": "CQHMK5F54F4FW2FXXEE667MF",
       "part_numbers": [
         "H4050-2"
+      ],
+      "vehicles": [
+        "1963\u20131973 Chrysler Imperial",
+        "1963\u20131972 Dodge Polara",
+        "1965\u20131967 Ford Galaxie",
+        "1962\u20131971 Plymouth Belvedere",
+        "1962\u20131972 Plymouth Fury"
       ],
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
@@ -4803,116 +4810,8 @@
       "ebay_type": "Drum Brake Shoe Hold Down Kit",
       "ebay_brand": "Carlson",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware",
-      "stock": 0,
-      "interchange": [],
-      "vehicles": [
-        "1963\u20131973 Chrysler Imperial",
-        "1963\u20131972 Dodge Polara",
-        "1965\u20131967 Ford Galaxie",
-        "1962\u20131971 Plymouth Belvedere",
-        "1962\u20131972 Plymouth Fury"
-      ]
-    },
-    {
-      "id": "RXWSJPWWBMQGIEFN4CI7MW5P",
-      "name": "Carlson H4050-2 Drum Brake Shoe Hold Down Kit NOS 62-72 Fury Polara Galaxie",
-      "price": 14.99,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/8eb1a0447457893760ad6adae868c112cfb7f85e/original.jpeg",
-      "url": "https://square.link/u/3CyTSyHg",
-      "category": "brake",
-      "checkout": true,
-      "variation_id": "CQHMK5F54F4FW2FXXEE667MF",
       "stock": 1,
-      "part_numbers": [
-        "H4050-2"
-      ],
-      "interchange": [],
-      "vehicles": [
-        "1963\u20131973 Chrysler Imperial",
-        "1963\u20131972 Dodge Polara",
-        "1965\u20131967 Ford Galaxie",
-        "1962\u20131971 Plymouth Belvedere",
-        "1962\u20131972 Plymouth Fury"
-      ],
-      "vehicle_count_raw": 1193,
-      "ebay_item_id": "398365461579",
-      "ebay_type": "Drum Brake Shoe Hold Down Kit",
-      "ebay_brand": "Carlson",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware",
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "high",
-      "fitment": {
-        "part_numbers": [
-          "H4050-2"
-        ],
-        "interchange": [],
-        "vehicles": [
-          {
-            "year_from": 1963,
-            "year_to": 1973,
-            "make": "Chrysler",
-            "model": "Imperial",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1963,
-            "year_to": 1972,
-            "make": "Dodge",
-            "model": "Polara",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1965,
-            "year_to": 1967,
-            "make": "Ford",
-            "model": "Galaxie",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1962,
-            "year_to": 1971,
-            "make": "Plymouth",
-            "model": "Belvedere",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1962,
-            "year_to": 1972,
-            "make": "Plymouth",
-            "model": "Fury",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          }
-        ],
-        "vehicle_labels": [
-          "1963\u20131973 Chrysler Imperial",
-          "1963\u20131972 Dodge Polara",
-          "1965\u20131967 Ford Galaxie",
-          "1962\u20131971 Plymouth Belvedere",
-          "1962\u20131972 Plymouth Fury"
-        ],
-        "raw_compat_rows": 1193,
-        "source": "ebay_listing",
-        "confidence": "high",
-        "ebay_item_id": "398365461579",
-        "type": "Drum Brake Shoe Hold Down Kit",
-        "brand": "Carlson",
-        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware"
-      }
+      "interchange": []
     },
     {
       "id": "JIT5DHTHXVHWC3QE4R5SKKSQ",
@@ -4925,6 +4824,14 @@
       "variation_id": "7LXEM4NRFBUSEZO4JCZOBBJN",
       "part_numbers": [
         "H4099-2"
+      ],
+      "vehicles": [
+        "1982\u20131992 Buick Century",
+        "1982\u20131998 Buick Skylark",
+        "1991\u20131996 Chevrolet Beretta",
+        "1982\u20132000 Chevrolet Cavalier",
+        "1982\u20131990 Chevrolet Celebrity",
+        "1987\u20131996 Chevrolet Corsica"
       ],
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
@@ -5017,15 +4924,7 @@
       "ebay_brand": "Carlson",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware",
       "stock": 1,
-      "interchange": [],
-      "vehicles": [
-        "1982\u20131992 Buick Century",
-        "1982\u20131998 Buick Skylark",
-        "1991\u20131996 Chevrolet Beretta",
-        "1982\u20132000 Chevrolet Cavalier",
-        "1982\u20131990 Chevrolet Celebrity",
-        "1987\u20131996 Chevrolet Corsica"
-      ]
+      "interchange": []
     },
     {
       "id": "QFZS6IO6ITZEWP3J6ACRLKOF",
@@ -6292,73 +6191,6 @@
       "stock": 1
     },
     {
-      "id": "3TPJ4JX2EAEMSVFN4CCZZWB2",
-      "name": "Carlson H5675 Front Disc Brake Hardware Kit Dodge Dakota Durango 00-02",
-      "price": 19.99,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/3e0e745c4120a30340c344c4545e81e0971fa846/original.jpeg",
-      "url": "https://square.link/u/i55INBVu",
-      "category": "brake",
-      "checkout": true,
-      "variation_id": "BUDEISRWYMA4NYC2GOEA2YF6",
-      "stock": 1,
-      "part_numbers": [
-        "H5675",
-        "Wearever H5675, 30044296A, 117.67005"
-      ],
-      "interchange": [],
-      "vehicles": [
-        "2000\u20132002 Dodge Dakota",
-        "2000\u20132002 Dodge Durango"
-      ],
-      "vehicle_count_raw": 130,
-      "ebay_item_id": "398070091739",
-      "ebay_type": "Disc Brake Hardware Kit",
-      "ebay_brand": "Carlson",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware",
-      "fitment_source": "ebay_listing+carlson_specs",
-      "fitment_confidence": "high",
-      "fitment": {
-        "part_numbers": [
-          "H5675",
-          "Wearever H5675, 30044296A, 117.67005"
-        ],
-        "interchange": [],
-        "vehicles": [
-          {
-            "year_from": 2000,
-            "year_to": 2002,
-            "make": "Dodge",
-            "model": "Dakota",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 2000,
-            "year_to": 2002,
-            "make": "Dodge",
-            "model": "Durango",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          }
-        ],
-        "vehicle_labels": [
-          "2000\u20132002 Dodge Dakota",
-          "2000\u20132002 Dodge Durango"
-        ],
-        "raw_compat_rows": 130,
-        "source": "ebay_listing+carlson_specs",
-        "confidence": "high",
-        "ebay_item_id": "398070091739",
-        "type": "Disc Brake Hardware Kit",
-        "brand": "Carlson",
-        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware"
-      }
-    },
-    {
       "id": "YUE4BUX4MHLAIFD7SJQHN3DT",
       "name": "Carlson H5675 Front Disc Brake Hardware Pro Kit for Ford F-Series / E-Series",
       "price": 19.98,
@@ -6371,7 +6203,6 @@
         "H5675",
         "Wearever H5675, 30044296A, 117.67005"
       ],
-      "interchange": [],
       "vehicles": [
         "2000\u20132002 Dodge Dakota",
         "2000\u20132002 Dodge Durango",
@@ -6435,7 +6266,8 @@
       "ebay_type": "Disc Brake Hardware Kit",
       "ebay_brand": "Carlson",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware",
-      "stock": 1
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "56GXRPYVBJM2GXYYVTXP4ORY",
@@ -11812,211 +11644,6 @@
       "stock": 1
     },
     {
-      "id": "UN2PWWBZGCIFFYEPIBOHIVRB",
-      "name": "WIX 51034 Oil Filter NOS 1.6 1.8 2.0 Toyota LUV Fiesta Forklift 68-89",
-      "price": 12.99,
-      "image": "",
-      "url": "https://square.link/u/XkgJmL8i",
-      "category": "filters",
-      "checkout": true,
-      "variation_id": "2G76TAZM6RLWAZX63W65WAGG",
-      "stock": 1,
-      "part_numbers": [
-        "51034",
-        "P502086, LF3434, PH2825, LFP201, L20064"
-      ],
-      "interchange": [
-        "NAPA 1034",
-        "B113"
-      ],
-      "vehicles": [
-        "1972 Austin America",
-        "1975 Chevrolet LUV",
-        "1978\u20131980 Ford Fiesta",
-        "1987\u20131994 Nissan Ichi Van",
-        "1984\u20131986 Nissan Sakura",
-        "1985\u20131987 Nissan Samurai",
-        "1971\u20131974 Toyota Celica",
-        "1968\u20131979 Toyota Corolla",
-        "1970\u20131974 Toyota Corona",
-        "1968\u20131989 Toyota LUV",
-        "1969\u20131974 Toyota Pickup",
-        "1965 Toyota Stout",
-        "1984\u20131989 Toyota Van"
-      ],
-      "vehicle_count_raw": 252,
-      "ebay_item_id": "398268503856",
-      "ebay_type": "Oil Filter",
-      "ebay_brand": "WIX",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Filters",
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "high",
-      "fitment": {
-        "part_numbers": [
-          "51034",
-          "P502086, LF3434, PH2825, LFP201, L20064"
-        ],
-        "interchange": [
-          "NAPA 1034",
-          "B113"
-        ],
-        "vehicles": [
-          {
-            "year_from": 1972,
-            "year_to": 1972,
-            "make": "Austin",
-            "model": "America",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1975,
-            "year_to": 1975,
-            "make": "Chevrolet",
-            "model": "LUV",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1978,
-            "year_to": 1980,
-            "make": "Ford",
-            "model": "Fiesta",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1987,
-            "year_to": 1994,
-            "make": "Nissan",
-            "model": "Ichi Van",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1984,
-            "year_to": 1986,
-            "make": "Nissan",
-            "model": "Sakura",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1985,
-            "year_to": 1987,
-            "make": "Nissan",
-            "model": "Samurai",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1971,
-            "year_to": 1974,
-            "make": "Toyota",
-            "model": "Celica",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1968,
-            "year_to": 1979,
-            "make": "Toyota",
-            "model": "Corolla",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1970,
-            "year_to": 1974,
-            "make": "Toyota",
-            "model": "Corona",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1968,
-            "year_to": 1989,
-            "make": "Toyota",
-            "model": "LUV",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1969,
-            "year_to": 1974,
-            "make": "Toyota",
-            "model": "Pickup",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1965,
-            "year_to": 1965,
-            "make": "Toyota",
-            "model": "Stout",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1984,
-            "year_to": 1989,
-            "make": "Toyota",
-            "model": "Van",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          }
-        ],
-        "vehicle_labels": [
-          "1972 Austin America",
-          "1975 Chevrolet LUV",
-          "1978\u20131980 Ford Fiesta",
-          "1987\u20131994 Nissan Ichi Van",
-          "1984\u20131986 Nissan Sakura",
-          "1985\u20131987 Nissan Samurai",
-          "1971\u20131974 Toyota Celica",
-          "1968\u20131979 Toyota Corolla",
-          "1970\u20131974 Toyota Corona",
-          "1968\u20131989 Toyota LUV",
-          "1969\u20131974 Toyota Pickup",
-          "1965 Toyota Stout",
-          "1984\u20131989 Toyota Van"
-        ],
-        "raw_compat_rows": 252,
-        "source": "ebay_listing",
-        "confidence": "high",
-        "ebay_item_id": "398268503856",
-        "type": "Oil Filter",
-        "brand": "WIX",
-        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Filters"
-      }
-    },
-    {
       "id": "UBT3FXADYKZ3WXWENYQJVA7W",
       "name": "WIX 51034 Oil Filter NOS Fits Chevy LUV Toyota 68-89 Ford Fiesta MG Tractor",
       "price": 12.99,
@@ -12313,411 +11940,6 @@
       "ebay_brand": "WIX",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Filters",
       "stock": 1
-    },
-    {
-      "id": "F3A3XN546HRSRVZEERWMKULZ",
-      "name": "WIX 51049 Oil Filter NOS AMC Jeep CJ5 Wagoneer Buick Cadillac 59-83",
-      "price": 19.99,
-      "image": "",
-      "url": "https://square.link/u/jWjQw8UM",
-      "category": "filters",
-      "checkout": true,
-      "variation_id": "PUV4A26E6TIQJCEUSIBTIGUG",
-      "stock": 1,
-      "part_numbers": [
-        "51049"
-      ],
-      "interchange": [
-        "NAPA 1049"
-      ],
-      "vehicles": [
-        "1974 Bricklin SV-1",
-        "1963\u20131966 Buick Electra",
-        "1966 Buick Gran Sport",
-        "1963\u20131964 Buick LeSabre",
-        "1963\u20131966 Buick Riviera",
-        "1966 Buick Skylark",
-        "1962\u20131966 Buick Special",
-        "1963\u20131966 Buick Wildcat",
-        "1965\u20131967 Cadillac Calais",
-        "1960\u20131967 Cadillac DeVille",
-        "1960\u20131967 Cadillac Eldorado",
-        "1965\u20131967 Cadillac Fleetwood",
-        "1960\u20131964 Cadillac Series 62",
-        "1966\u20131971 Jeep CJ5",
-        "1967\u20131971 Jeep CJ6",
-        "1967\u20131971 Jeep Commando",
-        "1966\u20131971 Jeep DJ5",
-        "1966\u20131968 Jeep DJ6",
-        "1966 Jeep Dispatcher",
-        "1969\u20131971 Jeep Jeepster",
-        "1967\u20131971 Jeep Wagoneer",
-        "1965\u20131967 Oldsmobile Cutlass",
-        "1961\u20131967 Oldsmobile F85",
-        "1963 Oldsmobile Jetfire",
-        "1965 Oldsmobile Jetstar 88",
-        "1966\u20131967 Oldsmobile Toronado",
-        "1964\u20131967 Oldsmobile Vista Cruiser",
-        "1962\u20131963 Pontiac Bonneville",
-        "1962 Pontiac Catalina",
-        "1961\u20131966 Pontiac Tempest"
-      ],
-      "vehicle_count_raw": 652,
-      "ebay_item_id": "398268509010",
-      "ebay_type": "Oil Filter",
-      "ebay_brand": "WIX",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Filters",
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "high",
-      "fitment": {
-        "part_numbers": [
-          "51049"
-        ],
-        "interchange": [
-          "NAPA 1049"
-        ],
-        "vehicles": [
-          {
-            "year_from": 1974,
-            "year_to": 1974,
-            "make": "Bricklin",
-            "model": "SV-1",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1963,
-            "year_to": 1966,
-            "make": "Buick",
-            "model": "Electra",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1966,
-            "year_to": 1966,
-            "make": "Buick",
-            "model": "Gran Sport",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1963,
-            "year_to": 1964,
-            "make": "Buick",
-            "model": "LeSabre",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1963,
-            "year_to": 1966,
-            "make": "Buick",
-            "model": "Riviera",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1966,
-            "year_to": 1966,
-            "make": "Buick",
-            "model": "Skylark",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1962,
-            "year_to": 1966,
-            "make": "Buick",
-            "model": "Special",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1963,
-            "year_to": 1966,
-            "make": "Buick",
-            "model": "Wildcat",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1965,
-            "year_to": 1967,
-            "make": "Cadillac",
-            "model": "Calais",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1960,
-            "year_to": 1967,
-            "make": "Cadillac",
-            "model": "DeVille",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1960,
-            "year_to": 1967,
-            "make": "Cadillac",
-            "model": "Eldorado",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1965,
-            "year_to": 1967,
-            "make": "Cadillac",
-            "model": "Fleetwood",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1960,
-            "year_to": 1964,
-            "make": "Cadillac",
-            "model": "Series 62",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1966,
-            "year_to": 1971,
-            "make": "Jeep",
-            "model": "CJ5",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1967,
-            "year_to": 1971,
-            "make": "Jeep",
-            "model": "CJ6",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1967,
-            "year_to": 1971,
-            "make": "Jeep",
-            "model": "Commando",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1966,
-            "year_to": 1971,
-            "make": "Jeep",
-            "model": "DJ5",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1966,
-            "year_to": 1968,
-            "make": "Jeep",
-            "model": "DJ6",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1966,
-            "year_to": 1966,
-            "make": "Jeep",
-            "model": "Dispatcher",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1969,
-            "year_to": 1971,
-            "make": "Jeep",
-            "model": "Jeepster",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1967,
-            "year_to": 1971,
-            "make": "Jeep",
-            "model": "Wagoneer",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1965,
-            "year_to": 1967,
-            "make": "Oldsmobile",
-            "model": "Cutlass",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1961,
-            "year_to": 1967,
-            "make": "Oldsmobile",
-            "model": "F85",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1963,
-            "year_to": 1963,
-            "make": "Oldsmobile",
-            "model": "Jetfire",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1965,
-            "year_to": 1965,
-            "make": "Oldsmobile",
-            "model": "Jetstar 88",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1966,
-            "year_to": 1967,
-            "make": "Oldsmobile",
-            "model": "Toronado",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1964,
-            "year_to": 1967,
-            "make": "Oldsmobile",
-            "model": "Vista Cruiser",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1962,
-            "year_to": 1963,
-            "make": "Pontiac",
-            "model": "Bonneville",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1962,
-            "year_to": 1962,
-            "make": "Pontiac",
-            "model": "Catalina",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1961,
-            "year_to": 1966,
-            "make": "Pontiac",
-            "model": "Tempest",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          }
-        ],
-        "vehicle_labels": [
-          "1974 Bricklin SV-1",
-          "1963\u20131966 Buick Electra",
-          "1966 Buick Gran Sport",
-          "1963\u20131964 Buick LeSabre",
-          "1963\u20131966 Buick Riviera",
-          "1966 Buick Skylark",
-          "1962\u20131966 Buick Special",
-          "1963\u20131966 Buick Wildcat",
-          "1965\u20131967 Cadillac Calais",
-          "1960\u20131967 Cadillac DeVille",
-          "1960\u20131967 Cadillac Eldorado",
-          "1965\u20131967 Cadillac Fleetwood",
-          "1960\u20131964 Cadillac Series 62",
-          "1966\u20131971 Jeep CJ5",
-          "1967\u20131971 Jeep CJ6",
-          "1967\u20131971 Jeep Commando",
-          "1966\u20131971 Jeep DJ5",
-          "1966\u20131968 Jeep DJ6",
-          "1966 Jeep Dispatcher",
-          "1969\u20131971 Jeep Jeepster",
-          "1967\u20131971 Jeep Wagoneer",
-          "1965\u20131967 Oldsmobile Cutlass",
-          "1961\u20131967 Oldsmobile F85",
-          "1963 Oldsmobile Jetfire",
-          "1965 Oldsmobile Jetstar 88",
-          "1966\u20131967 Oldsmobile Toronado",
-          "1964\u20131967 Oldsmobile Vista Cruiser",
-          "1962\u20131963 Pontiac Bonneville",
-          "1962 Pontiac Catalina",
-          "1961\u20131966 Pontiac Tempest"
-        ],
-        "raw_compat_rows": 652,
-        "source": "ebay_listing",
-        "confidence": "high",
-        "ebay_item_id": "398268509010",
-        "type": "Oil Filter",
-        "brand": "WIX",
-        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Filters"
-      }
     },
     {
       "id": "MZZIJ5QG5YE5PLNRHB74F6HH",
@@ -13264,203 +12486,6 @@
       "ebay_brand": "WIX",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Filters",
       "stock": 1
-    },
-    {
-      "id": "EP64ILBJNSWKRGUS6VNBG2QH",
-      "name": "WIX 51143 Oil Filter NOS Chevy Impala Corvette Chevelle Volvo 50-69",
-      "price": 15.99,
-      "image": "",
-      "url": "https://square.link/u/m2DUhzuj",
-      "category": "filters",
-      "checkout": true,
-      "variation_id": "YVD4T6LX7RCO7YP57FVJZVGQ",
-      "stock": 1,
-      "part_numbers": [
-        "51143",
-        "Carquest 85143, LF553, FL22, 25010471"
-      ],
-      "interchange": [
-        "NAPA 1143",
-        "PF141",
-        "CH200PL",
-        "P141"
-      ],
-      "vehicles": [
-        "1958\u20131964 Chevrolet Bel Air",
-        "1958\u20131964 Chevrolet Biscayne",
-        "1969 Chevrolet Blazer",
-        "1958\u20131960 Chevrolet Brookwood",
-        "1962 Chevrolet C40",
-        "1967 Chevrolet Camaro",
-        "1964\u20131967 Chevrolet Chevelle",
-        "1957\u20131967 Chevrolet Corvette",
-        "1958\u20131964 Chevrolet Impala",
-        "1959\u20131960 Chevrolet Kingswood",
-        "1958\u20131960 Chevrolet Nomad",
-        "1959\u20131960 Chevrolet Parkwood"
-      ],
-      "vehicle_count_raw": 440,
-      "ebay_item_id": "398268529236",
-      "ebay_type": "Oil Filter",
-      "ebay_brand": "WIX",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Filters",
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "high",
-      "fitment": {
-        "part_numbers": [
-          "51143",
-          "Carquest 85143, LF553, FL22, 25010471"
-        ],
-        "interchange": [
-          "NAPA 1143",
-          "PF141",
-          "CH200PL",
-          "P141"
-        ],
-        "vehicles": [
-          {
-            "year_from": 1958,
-            "year_to": 1964,
-            "make": "Chevrolet",
-            "model": "Bel Air",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1958,
-            "year_to": 1964,
-            "make": "Chevrolet",
-            "model": "Biscayne",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1969,
-            "year_to": 1969,
-            "make": "Chevrolet",
-            "model": "Blazer",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1958,
-            "year_to": 1960,
-            "make": "Chevrolet",
-            "model": "Brookwood",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1962,
-            "year_to": 1962,
-            "make": "Chevrolet",
-            "model": "C40",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1967,
-            "year_to": 1967,
-            "make": "Chevrolet",
-            "model": "Camaro",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1964,
-            "year_to": 1967,
-            "make": "Chevrolet",
-            "model": "Chevelle",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1957,
-            "year_to": 1967,
-            "make": "Chevrolet",
-            "model": "Corvette",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1958,
-            "year_to": 1964,
-            "make": "Chevrolet",
-            "model": "Impala",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1959,
-            "year_to": 1960,
-            "make": "Chevrolet",
-            "model": "Kingswood",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1958,
-            "year_to": 1960,
-            "make": "Chevrolet",
-            "model": "Nomad",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1959,
-            "year_to": 1960,
-            "make": "Chevrolet",
-            "model": "Parkwood",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          }
-        ],
-        "vehicle_labels": [
-          "1958\u20131964 Chevrolet Bel Air",
-          "1958\u20131964 Chevrolet Biscayne",
-          "1969 Chevrolet Blazer",
-          "1958\u20131960 Chevrolet Brookwood",
-          "1962 Chevrolet C40",
-          "1967 Chevrolet Camaro",
-          "1964\u20131967 Chevrolet Chevelle",
-          "1957\u20131967 Chevrolet Corvette",
-          "1958\u20131964 Chevrolet Impala",
-          "1959\u20131960 Chevrolet Kingswood",
-          "1958\u20131960 Chevrolet Nomad",
-          "1959\u20131960 Chevrolet Parkwood"
-        ],
-        "raw_compat_rows": 440,
-        "source": "ebay_listing",
-        "confidence": "high",
-        "ebay_item_id": "398268529236",
-        "type": "Oil Filter",
-        "brand": "WIX",
-        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Filters"
-      }
     },
     {
       "id": "7JJNYFHOIERGZ2DQNGO557B5",
@@ -15314,155 +14339,6 @@
       "stock": 1
     },
     {
-      "id": "EPPD2KLQI3QATXN5E6ZMU2P3",
-      "name": "WIX 51347 Oil Filter NOS Ford Courier Pinto 1.8 2.0 2.8 Komatsu 72-82",
-      "price": 12.99,
-      "image": "",
-      "url": "https://square.link/u/DVu6Dt99",
-      "category": "filters",
-      "checkout": true,
-      "variation_id": "J45P3JEEDM4G7YJMNAL4FYYD",
-      "stock": 1,
-      "part_numbers": [
-        "51347",
-        "B161-S, P502056, L17662"
-      ],
-      "interchange": [
-        "NAPA 1347",
-        "PH2849A",
-        "PH2849",
-        "LF16354"
-      ],
-      "vehicles": [
-        "1972\u20131982 Ford Courier",
-        "1975\u20131979 Ford Pinto",
-        "2008 Giant Motors GF3600",
-        "1970\u20131971 Mazda 1800",
-        "1970 Mazda 616",
-        "1970 Mazda R100",
-        "1975\u20131979 Mercury Bobcat",
-        "1991 Peugeot 505"
-      ],
-      "vehicle_count_raw": 121,
-      "ebay_item_id": "398268622596",
-      "ebay_type": "Oil Filter",
-      "ebay_brand": "WIX",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Filters",
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "high",
-      "fitment": {
-        "part_numbers": [
-          "51347",
-          "B161-S, P502056, L17662"
-        ],
-        "interchange": [
-          "NAPA 1347",
-          "PH2849A",
-          "PH2849",
-          "LF16354"
-        ],
-        "vehicles": [
-          {
-            "year_from": 1972,
-            "year_to": 1982,
-            "make": "Ford",
-            "model": "Courier",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1975,
-            "year_to": 1979,
-            "make": "Ford",
-            "model": "Pinto",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 2008,
-            "year_to": 2008,
-            "make": "Giant Motors",
-            "model": "GF3600",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1970,
-            "year_to": 1971,
-            "make": "Mazda",
-            "model": "1800",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1970,
-            "year_to": 1970,
-            "make": "Mazda",
-            "model": "616",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1970,
-            "year_to": 1970,
-            "make": "Mazda",
-            "model": "R100",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1975,
-            "year_to": 1979,
-            "make": "Mercury",
-            "model": "Bobcat",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1991,
-            "year_to": 1991,
-            "make": "Peugeot",
-            "model": "505",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          }
-        ],
-        "vehicle_labels": [
-          "1972\u20131982 Ford Courier",
-          "1975\u20131979 Ford Pinto",
-          "2008 Giant Motors GF3600",
-          "1970\u20131971 Mazda 1800",
-          "1970 Mazda 616",
-          "1970 Mazda R100",
-          "1975\u20131979 Mercury Bobcat",
-          "1991 Peugeot 505"
-        ],
-        "raw_compat_rows": 121,
-        "source": "ebay_listing",
-        "confidence": "high",
-        "ebay_item_id": "398268622596",
-        "type": "Oil Filter",
-        "brand": "WIX",
-        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Filters"
-      }
-    },
-    {
       "id": "I4OT2WD25KTGE4H2JHDXB2MU",
       "name": "WIX 51356 Oil Filter NOS Fits Chrysler Dodge Mazda 71-06 Mitsubishi",
       "price": 15.99,
@@ -16973,489 +15849,6 @@
       "stock": 1
     },
     {
-      "id": "VOVE2SSHAO5Z5MLOYHHJ32M4",
-      "name": "WIX 51794 Oil Filter NOS Chevy GMC C60 C70 Kodiak Topkick P60 B60 80-03 Gas",
-      "price": 22.99,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/3eb36b96db2980df76c1fd447d78265411be9c03/original.jpeg",
-      "url": "https://square.link/u/oNAkLtSp",
-      "category": "filters",
-      "checkout": true,
-      "variation_id": "IFPTI54KTCLF2SSLUBQZ2MXA",
-      "stock": 1,
-      "part_numbers": [
-        "51794",
-        "LFP170832, PH373, LFP832, L40084"
-      ],
-      "interchange": [
-        "NAPA 1794",
-        "B7",
-        "LF692"
-      ],
-      "vehicles": [
-        "1994 Blue Bird Commercial Bus",
-        "1993 Blue Bird SHL TC2000",
-        "1998 Blue Bird TC1000",
-        "1992\u20131998 Blue Bird TC2000",
-        "1980\u20131991 Chevrolet B60",
-        "1993\u20132000 Chevrolet B7",
-        "1990\u20131991 Chevrolet C5500 Kodiak",
-        "1980\u20131990 Chevrolet C60",
-        "1990\u20131996 Chevrolet C60 Kodiak",
-        "1997\u20132000 Chevrolet C6500 Kodiak",
-        "1980\u20131990 Chevrolet C70",
-        "1990\u20131996 Chevrolet C70 Kodiak",
-        "1997\u20132000 Chevrolet C7500 Kodiak",
-        "1983\u20131996 Chevrolet P60",
-        "1992\u20131996 Chevrolet P6000",
-        "1997\u20131998 Chevrolet T6500",
-        "1997\u20131998 Chevrolet T7500",
-        "1995\u20132003 Chevrolet W3500 Tiltmaster",
-        "1998\u20132003 Chevrolet W4500 Tiltmaster",
-        "1980\u20131991 GMC B6000",
-        "1993\u20132000 GMC B7",
-        "1981 GMC Brigadier",
-        "1990\u20131991 GMC C5000 Topkick",
-        "1980\u20132003 GMC C60",
-        "1980\u20131990 GMC C6000",
-        "1990\u20131996 GMC C6000 Topkick",
-        "1997\u20132000 GMC C6500 Topkick",
-        "1980\u20131990 GMC C7000",
-        "1990\u20131996 GMC C7000 Topkick",
-        "1997\u20132000 GMC C7500 Topkick",
-        "1992\u20131996 GMC P6000",
-        "1992\u20131996 GMC P6500",
-        "1997\u20131998 GMC T6500",
-        "1997\u20131998 GMC T7500",
-        "1995\u20132003 GMC W3500 Forward",
-        "1998\u20132003 GMC W4500 Forward"
-      ],
-      "vehicle_count_raw": 775,
-      "ebay_item_id": "398268765097",
-      "ebay_type": "Oil Filter",
-      "ebay_brand": "WIX",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Filters",
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "high",
-      "fitment": {
-        "part_numbers": [
-          "51794",
-          "LFP170832, PH373, LFP832, L40084"
-        ],
-        "interchange": [
-          "NAPA 1794",
-          "B7",
-          "LF692"
-        ],
-        "vehicles": [
-          {
-            "year_from": 1994,
-            "year_to": 1994,
-            "make": "Blue Bird",
-            "model": "Commercial Bus",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1993,
-            "year_to": 1993,
-            "make": "Blue Bird",
-            "model": "SHL TC2000",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1998,
-            "year_to": 1998,
-            "make": "Blue Bird",
-            "model": "TC1000",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1992,
-            "year_to": 1998,
-            "make": "Blue Bird",
-            "model": "TC2000",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1980,
-            "year_to": 1991,
-            "make": "Chevrolet",
-            "model": "B60",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1993,
-            "year_to": 2000,
-            "make": "Chevrolet",
-            "model": "B7",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1990,
-            "year_to": 1991,
-            "make": "Chevrolet",
-            "model": "C5500 Kodiak",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1980,
-            "year_to": 1990,
-            "make": "Chevrolet",
-            "model": "C60",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1990,
-            "year_to": 1996,
-            "make": "Chevrolet",
-            "model": "C60 Kodiak",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1997,
-            "year_to": 2000,
-            "make": "Chevrolet",
-            "model": "C6500 Kodiak",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1980,
-            "year_to": 1990,
-            "make": "Chevrolet",
-            "model": "C70",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1990,
-            "year_to": 1996,
-            "make": "Chevrolet",
-            "model": "C70 Kodiak",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1997,
-            "year_to": 2000,
-            "make": "Chevrolet",
-            "model": "C7500 Kodiak",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1983,
-            "year_to": 1996,
-            "make": "Chevrolet",
-            "model": "P60",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1992,
-            "year_to": 1996,
-            "make": "Chevrolet",
-            "model": "P6000",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1997,
-            "year_to": 1998,
-            "make": "Chevrolet",
-            "model": "T6500",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1997,
-            "year_to": 1998,
-            "make": "Chevrolet",
-            "model": "T7500",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1995,
-            "year_to": 2003,
-            "make": "Chevrolet",
-            "model": "W3500 Tiltmaster",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1998,
-            "year_to": 2003,
-            "make": "Chevrolet",
-            "model": "W4500 Tiltmaster",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1980,
-            "year_to": 1991,
-            "make": "GMC",
-            "model": "B6000",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1993,
-            "year_to": 2000,
-            "make": "GMC",
-            "model": "B7",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1981,
-            "year_to": 1981,
-            "make": "GMC",
-            "model": "Brigadier",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1990,
-            "year_to": 1991,
-            "make": "GMC",
-            "model": "C5000 Topkick",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1980,
-            "year_to": 2003,
-            "make": "GMC",
-            "model": "C60",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1980,
-            "year_to": 1990,
-            "make": "GMC",
-            "model": "C6000",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1990,
-            "year_to": 1996,
-            "make": "GMC",
-            "model": "C6000 Topkick",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1997,
-            "year_to": 2000,
-            "make": "GMC",
-            "model": "C6500 Topkick",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1980,
-            "year_to": 1990,
-            "make": "GMC",
-            "model": "C7000",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1990,
-            "year_to": 1996,
-            "make": "GMC",
-            "model": "C7000 Topkick",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1997,
-            "year_to": 2000,
-            "make": "GMC",
-            "model": "C7500 Topkick",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1992,
-            "year_to": 1996,
-            "make": "GMC",
-            "model": "P6000",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1992,
-            "year_to": 1996,
-            "make": "GMC",
-            "model": "P6500",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1997,
-            "year_to": 1998,
-            "make": "GMC",
-            "model": "T6500",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1997,
-            "year_to": 1998,
-            "make": "GMC",
-            "model": "T7500",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1995,
-            "year_to": 2003,
-            "make": "GMC",
-            "model": "W3500 Forward",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1998,
-            "year_to": 2003,
-            "make": "GMC",
-            "model": "W4500 Forward",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          }
-        ],
-        "vehicle_labels": [
-          "1994 Blue Bird Commercial Bus",
-          "1993 Blue Bird SHL TC2000",
-          "1998 Blue Bird TC1000",
-          "1992\u20131998 Blue Bird TC2000",
-          "1980\u20131991 Chevrolet B60",
-          "1993\u20132000 Chevrolet B7",
-          "1990\u20131991 Chevrolet C5500 Kodiak",
-          "1980\u20131990 Chevrolet C60",
-          "1990\u20131996 Chevrolet C60 Kodiak",
-          "1997\u20132000 Chevrolet C6500 Kodiak",
-          "1980\u20131990 Chevrolet C70",
-          "1990\u20131996 Chevrolet C70 Kodiak",
-          "1997\u20132000 Chevrolet C7500 Kodiak",
-          "1983\u20131996 Chevrolet P60",
-          "1992\u20131996 Chevrolet P6000",
-          "1997\u20131998 Chevrolet T6500",
-          "1997\u20131998 Chevrolet T7500",
-          "1995\u20132003 Chevrolet W3500 Tiltmaster",
-          "1998\u20132003 Chevrolet W4500 Tiltmaster",
-          "1980\u20131991 GMC B6000",
-          "1993\u20132000 GMC B7",
-          "1981 GMC Brigadier",
-          "1990\u20131991 GMC C5000 Topkick",
-          "1980\u20132003 GMC C60",
-          "1980\u20131990 GMC C6000",
-          "1990\u20131996 GMC C6000 Topkick",
-          "1997\u20132000 GMC C6500 Topkick",
-          "1980\u20131990 GMC C7000",
-          "1990\u20131996 GMC C7000 Topkick",
-          "1997\u20132000 GMC C7500 Topkick",
-          "1992\u20131996 GMC P6000",
-          "1992\u20131996 GMC P6500",
-          "1997\u20131998 GMC T6500",
-          "1997\u20131998 GMC T7500",
-          "1995\u20132003 GMC W3500 Forward",
-          "1998\u20132003 GMC W4500 Forward"
-        ],
-        "raw_compat_rows": 775,
-        "source": "ebay_listing",
-        "confidence": "high",
-        "ebay_item_id": "398268765097",
-        "type": "Oil Filter",
-        "brand": "WIX",
-        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Filters"
-      }
-    },
-    {
       "id": "3TXARKOUGFEDR2NWA7V3YQZ5",
       "name": "WIX 51794 Oil Filter NOS Fits Chevy GMC Trucks 73-93",
       "price": 29.99,
@@ -18655,315 +17048,6 @@
       "ebay_type": "Distributor Ignition Pickup Coil",
       "ebay_brand": "Pace Setter",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Other Ignition Systems & Components",
-      "stock": 1
-    },
-    {
-      "id": "W6HWOIYW37UPTCYYD5KLB7BF",
-      "name": "Pace Setter DR-186 Ignition Coil NOS Buick Cadillac Chevy GMC Olds Pontiac 78-89",
-      "price": 29.99,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/f2d66347adfac85940581ccc8851caefe15d1a8c/original.jpeg",
-      "url": "https://square.link/u/T2vSADoe",
-      "category": "ignition",
-      "checkout": true,
-      "variation_id": "XH5UKZ2YHET7AT5WVNTDJ2Q7",
-      "part_numbers": [
-        "DR-186"
-      ],
-      "interchange": [
-        "DR37"
-      ],
-      "vehicles": [
-        "1978\u20131989 Buick Century",
-        "1978\u20131989 Buick Electra",
-        "1978\u20131989 Buick LeSabre",
-        "1978\u20131989 Buick Regal",
-        "1978\u20131989 Buick Riviera",
-        "1978\u20131989 Cadillac DeVille",
-        "1978\u20131989 Cadillac Eldorado",
-        "1978\u20131989 Cadillac Seville",
-        "1978\u20131989 Chevrolet Camaro",
-        "1978\u20131989 Chevrolet Caprice",
-        "1978\u20131989 Chevrolet Corvette",
-        "1978\u20131985 Chevrolet Impala",
-        "1978\u20131983 Chevrolet Malibu",
-        "1978\u20131988 Chevrolet Monte Carlo",
-        "1978\u20131988 Chevrolet Nova",
-        "1978\u20131987 GMC Caballero",
-        "1978\u20131989 GMC Olds",
-        "1978\u20131989 Oldsmobile Cutlass",
-        "1978\u20131989 Oldsmobile Delta 88",
-        "1978\u20131989 Pontiac Bonneville",
-        "1978\u20131989 Pontiac Firebird",
-        "1978\u20131989 Pontiac Grand Prix"
-      ],
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "high",
-      "fitment": {
-        "part_numbers": [
-          "DR-186"
-        ],
-        "interchange": [
-          "DR37"
-        ],
-        "vehicles": [
-          {
-            "year_from": 1978,
-            "year_to": 1989,
-            "make": "Buick",
-            "model": "Century",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1978,
-            "year_to": 1989,
-            "make": "Buick",
-            "model": "Electra",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1978,
-            "year_to": 1989,
-            "make": "Buick",
-            "model": "LeSabre",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1978,
-            "year_to": 1989,
-            "make": "Buick",
-            "model": "Regal",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1978,
-            "year_to": 1989,
-            "make": "Buick",
-            "model": "Riviera",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1978,
-            "year_to": 1989,
-            "make": "Cadillac",
-            "model": "DeVille",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1978,
-            "year_to": 1989,
-            "make": "Cadillac",
-            "model": "Eldorado",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1978,
-            "year_to": 1989,
-            "make": "Cadillac",
-            "model": "Seville",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1978,
-            "year_to": 1989,
-            "make": "Chevrolet",
-            "model": "Camaro",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1978,
-            "year_to": 1989,
-            "make": "Chevrolet",
-            "model": "Caprice",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1978,
-            "year_to": 1989,
-            "make": "Chevrolet",
-            "model": "Corvette",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1978,
-            "year_to": 1985,
-            "make": "Chevrolet",
-            "model": "Impala",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1978,
-            "year_to": 1983,
-            "make": "Chevrolet",
-            "model": "Malibu",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1978,
-            "year_to": 1988,
-            "make": "Chevrolet",
-            "model": "Monte Carlo",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1978,
-            "year_to": 1988,
-            "make": "Chevrolet",
-            "model": "Nova",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1978,
-            "year_to": 1987,
-            "make": "GMC",
-            "model": "Caballero",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1978,
-            "year_to": 1989,
-            "make": "GMC",
-            "model": "Olds",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1978,
-            "year_to": 1989,
-            "make": "Oldsmobile",
-            "model": "Cutlass",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1978,
-            "year_to": 1989,
-            "make": "Oldsmobile",
-            "model": "Delta 88",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1978,
-            "year_to": 1989,
-            "make": "Pontiac",
-            "model": "Bonneville",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1978,
-            "year_to": 1989,
-            "make": "Pontiac",
-            "model": "Firebird",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1978,
-            "year_to": 1989,
-            "make": "Pontiac",
-            "model": "Grand Prix",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          }
-        ],
-        "vehicle_labels": [
-          "1978\u20131989 Buick Century",
-          "1978\u20131989 Buick Electra",
-          "1978\u20131989 Buick LeSabre",
-          "1978\u20131989 Buick Regal",
-          "1978\u20131989 Buick Riviera",
-          "1978\u20131989 Cadillac DeVille",
-          "1978\u20131989 Cadillac Eldorado",
-          "1978\u20131989 Cadillac Seville",
-          "1978\u20131989 Chevrolet Camaro",
-          "1978\u20131989 Chevrolet Caprice",
-          "1978\u20131989 Chevrolet Corvette",
-          "1978\u20131985 Chevrolet Impala",
-          "1978\u20131983 Chevrolet Malibu",
-          "1978\u20131988 Chevrolet Monte Carlo",
-          "1978\u20131988 Chevrolet Nova",
-          "1978\u20131987 GMC Caballero",
-          "1978\u20131989 GMC Olds",
-          "1978\u20131989 Oldsmobile Cutlass",
-          "1978\u20131989 Oldsmobile Delta 88",
-          "1978\u20131989 Pontiac Bonneville",
-          "1978\u20131989 Pontiac Firebird",
-          "1978\u20131989 Pontiac Grand Prix"
-        ],
-        "raw_compat_rows": 2136,
-        "source": "ebay_listing",
-        "confidence": "high",
-        "ebay_item_id": "398274743110",
-        "type": "Ignition Coil",
-        "brand": "Pace Setter",
-        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Coils"
-      },
-      "vehicle_count_raw": 2136,
-      "ebay_item_id": "398274743110",
-      "ebay_type": "Ignition Coil",
-      "ebay_brand": "Pace Setter",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Coils",
       "stock": 1
     },
     {
@@ -23678,5 +21762,5 @@
       "stock": 1
     }
   ],
-  "fitment_built": "2026-09-06T12:48:55Z"
+  "fitment_built": "2026-09-06T12:56:14Z"
 }
