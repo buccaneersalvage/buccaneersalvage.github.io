@@ -875,9 +875,14 @@
       ? "For parts or rebuild only. Untested. No returns. View product details."
       : "View product details";
     const checkoutUrl = item.checkout && item.url ? String(item.url) : "";
+    const stockN = Number(item.stock);
+    const stockAttr =
+      Number.isFinite(stockN) && stockN >= 0
+        ? ` data-stock="${escapeAttr(String(Math.floor(stockN)))}"`
+        : "";
     const addBtn =
       checkoutUrl && /^https:\/\/(?:[\w-]+\.)?square\.link\//i.test(checkoutUrl)
-        ? `<button type="button" class="st-add-cart pdp-add-cart" data-id="${escapeAttr(id)}" data-title="${escapeAttr(item.name || "")}" data-price="${escapeAttr(priceLabel)}" data-photo="${escapeAttr(imgUrl || fallback)}" data-checkout="${escapeAttr(checkoutUrl)}">Add to cart</button>`
+        ? `<button type="button" class="st-add-cart pdp-add-cart" data-id="${escapeAttr(id)}" data-title="${escapeAttr(item.name || "")}" data-price="${escapeAttr(priceLabel)}" data-photo="${escapeAttr(imgUrl || fallback)}" data-checkout="${escapeAttr(checkoutUrl)}"${stockAttr}>Add to cart</button>`
         : "";
     const searchblob = buildSearchBlob(item);
     const vehHint = Array.isArray(item.vehicles)
@@ -1368,6 +1373,9 @@
     applySort(document.getElementById("stSort")?.value || "featured");
     applyFilters();
     updateShowing();
+    if (window.BucCart && typeof window.BucCart.refresh === "function") {
+      window.BucCart.refresh();
+    }
   }
 
   function initList() {
@@ -1399,6 +1407,9 @@
       .map((i, idx) => cardHtml(i, { featured: idx < eagerN }))
       .join("");
     bindThumbFallbacks(grid);
+    if (window.BucCart && typeof window.BucCart.refresh === "function") {
+      window.BucCart.refresh();
+    }
 
     let offset = firstN;
     const CHUNK = 16;

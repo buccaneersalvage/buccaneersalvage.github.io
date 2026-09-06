@@ -1695,8 +1695,12 @@ ul { list-style: none; }
   color: inherit;
 }
 .st-add-cart {
+  position: relative;
+  z-index: 2;
+  align-self: stretch;
+  box-sizing: border-box;
   margin: 0 0.85rem 0.85rem;
-  width: calc(100% - 1.7rem);
+  width: auto;
   padding: 0.5rem 0.65rem;
   border-radius: 6px;
   border: 1px solid rgba(212, 175, 55, 0.55);
@@ -1712,6 +1716,10 @@ ul { list-style: none; }
 }
 .st-add-cart[data-added-lock] {
   background: rgba(212, 175, 55, 0.38);
+}
+.st-add-cart:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
 }
 .st-card-media {
   position: relative;
@@ -2813,10 +2821,12 @@ ul.pagination .disabled .page {
   inset: 0;
   z-index: 60;
   background: rgba(5, 4, 3, 0.62);
+  pointer-events: none;
 }
 .pdp-cart-drawer {
   position: fixed;
   z-index: 61;
+  pointer-events: auto;
   top: 0;
   right: 0;
   width: min(26rem, 100vw);

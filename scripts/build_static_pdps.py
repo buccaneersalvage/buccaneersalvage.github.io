@@ -1057,11 +1057,11 @@ def main() -> None:
   <meta name="twitter:image" content="{esc(img)}" />
   <link rel="icon" type="image/jpeg" href="../assets/crest-rustjack-web.jpg" />
   <link rel="stylesheet" href="../assets/fonts.css?v=d1b92d3ff4" integrity="sha384-IDnmxIHyfCaSAssmrqXZbMSqgbRm8AATad26bBSjsyTVbgLbsvJXqeQW642rJQFS" />
-  <link rel="stylesheet" href="../styles.css?v=e8277f2c37" integrity="sha384-nITmXaN2aZR0aMsDNh3dZokbUZv5Uo9jt+5zWn+XaSrUjsrjFUhqz+U06nloDVsI" />
+  <link rel="stylesheet" href="../styles.css?v=14edf3746f" integrity="sha384-9jD78BpuaJIC3TDF9gFUiSZgwIKVJLKv04hR+4PFmof0cdYpVVFxDnXGPGT3nU0/" />
   <script type="application/ld+json">{schema_json}</script>
   <script type="application/ld+json">{crumbs_json}</script>
   <script src="../pdp-gallery.js?v=c0683cc878" integrity="sha384-Nj6Y6bFnU9x3YJ9AyAWSOJX+uvPDgCk5a/sSqAuEm5Q4zqfdhyfQMQg8SrGb8Goq" defer></script>
-  <script src="../main.js?v=9da67f0636" integrity="sha384-mNVrA0WpCjDkXtUBYliDxWfHkjAy+yMIt84Qi7f8dCpfkAR1HWijmmVQ06CnZ678" defer></script>
+  <script src="../main.js?v=eac0175f18" integrity="sha384-DOItLexUw4LZYXf+Yco4OwRFr4jtaf1SI/8U+FEoKGQp3WbdASvhg0oexGiURXpU" defer></script>
 </head>
 <body class="page-item">
   <a class="skip-link" href="#main">Skip to content</a>

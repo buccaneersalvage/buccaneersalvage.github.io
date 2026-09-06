@@ -151,6 +151,17 @@
     return Math.round(n * 100);
   }
 
+  // Missing data-stock must stay "unknown", not 0. Number(null) === 0, which
+  // disabled every store-grid Add to cart after the first add (2026-09-06).
+  function parseStock(raw) {
+    if (raw == null) return null;
+    const s = String(raw).trim();
+    if (s === "") return null;
+    const n = Number(s);
+    if (!Number.isFinite(n) || n < 0) return null;
+    return Math.floor(n);
+  }
+
   function money(cents) {
     return new Intl.NumberFormat("en-US", { style: "currency", currency: "USD" }).format(
       (Number(cents) || 0) / 100
@@ -163,10 +174,9 @@
     if (!ID_RE.test(id)) return null;
     const checkout = String(raw.checkout || "").trim();
     if (!isSafeCheckout(checkout)) return null;
-    // stock comes from the PDP's data-stock (baked from the catalog at build
-    // time). null = unknown/legacy page, treat as unlimited (MAX_QTY only).
-    const rawStock = Number(raw.stock);
-    const stock = Number.isFinite(rawStock) && rawStock >= 0 ? Math.floor(rawStock) : null;
+    // stock comes from data-stock (PDP bake or store card). null = unknown,
+    // treat as unlimited (MAX_QTY only). Do not Number() a missing attribute.
+    const stock = parseStock(raw.stock);
     const cap = stock === null ? MAX_QTY : Math.min(MAX_QTY, stock);
     let qty = Number(raw.qty);
     if (!Number.isFinite(qty)) qty = 1;
@@ -362,8 +372,7 @@
   function syncAddButtons(items) {
     document.querySelectorAll(".pdp-add-cart[data-id]").forEach((btn) => {
       const id = btn.getAttribute("data-id");
-      const rawStock = Number(btn.getAttribute("data-stock"));
-      const stock = Number.isFinite(rawStock) && rawStock >= 0 ? Math.floor(rawStock) : null;
+      const stock = parseStock(btn.getAttribute("data-stock"));
       const hit = items.find((it) => it.id === id);
       const qty = hit ? hit.qty : 0;
       const cap = stock == null ? MAX_QTY : Math.min(MAX_QTY, stock);
@@ -511,13 +520,7 @@
       if (!item) return;
       add(item);
       markAdded(addBtn);
-      const drawer = document.getElementById("pdpCartDrawer");
-      const drawerOpen = drawer && !drawer.hidden;
-      // Store overlay covers the grid — opening it here makes the next
-      // Add to cart click do nothing. Keep shopping; open from Cart / PDP.
-      if (drawerOpen || document.body.classList.contains("page-item")) {
-        open();
-      }
+      open();
       return;
     }
     if (e.target.closest(".pdp-cart-close") || e.target.id === "pdpCartOverlay") {
@@ -630,6 +633,7 @@
     load,
     open,
     close,
+    refresh: render,
     parseMetaProductsParam,
     count: () => countOf(load()),
   };
