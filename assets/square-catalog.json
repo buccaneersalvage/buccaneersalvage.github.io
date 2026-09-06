@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-06T14:07:38Z",
+  "updated": "2026-09-06T14:50:32Z",
   "store": "https://buccaneersalvage.square.site/",
   "count": 843,
   "items": [
@@ -25,7 +25,7 @@
       "ebay_type": "Turbocharger",
       "ebay_brand": "Holset",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Turbos, Superchargers & Intercoolers:Turbos & Parts",
-      "fitment_source": "ebay_listing+title",
+      "fitment_source": "ebay_listing",
       "fitment_confidence": "medium",
       "fitment": {
         "part_numbers": [
@@ -48,7 +48,7 @@
           "Mack"
         ],
         "raw_compat_rows": 1,
-        "source": "ebay_listing+title",
+        "source": "ebay_listing",
         "confidence": "medium",
         "ebay_item_id": "398246339681",
         "type": "Turbocharger",
@@ -78,7 +78,7 @@
       "ebay_type": "Fuel Injection Pump",
       "ebay_brand": "Mack",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Fuel Pumps & Sending Units",
-      "fitment_source": "ebay_listing+title",
+      "fitment_source": "ebay_listing",
       "fitment_confidence": "medium",
       "fitment": {
         "part_numbers": [
@@ -101,7 +101,7 @@
           "Mack"
         ],
         "raw_compat_rows": 1,
-        "source": "ebay_listing+title",
+        "source": "ebay_listing",
         "confidence": "medium",
         "ebay_item_id": "398246323881",
         "type": "Fuel Injection Pump",
@@ -2004,19 +2004,23 @@
       "variation_id": "ZDIKWOHAAC677X7U3B6DQV7D",
       "stock": 1,
       "ebay_item_id": "398314526696",
-      "part_numbers": [],
+      "part_numbers": [
+        "1976"
+      ],
       "interchange": [],
       "vehicles": [
         "1976\u20131986 Jeep CJ"
       ],
-      "vehicle_count_raw": 1,
+      "vehicle_count_raw": 2,
       "ebay_type": "Brake Pedal, Clutch Pedal",
       "ebay_brand": "Jeep",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware",
       "fitment_source": "ebay_listing+title",
       "fitment_confidence": "medium",
       "fitment": {
-        "part_numbers": [],
+        "part_numbers": [
+          "1976"
+        ],
         "interchange": [],
         "vehicles": [
           {
@@ -2033,7 +2037,7 @@
         "vehicle_labels": [
           "1976\u20131986 Jeep CJ"
         ],
-        "raw_compat_rows": 1,
+        "raw_compat_rows": 2,
         "source": "ebay_listing+title",
         "confidence": "medium",
         "ebay_item_id": "398314526696",
@@ -2547,7 +2551,7 @@
       "ebay_type": "Disc Brake Hardware",
       "ebay_brand": "Carlson",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware",
-      "fitment_source": "ebay_listing+carlson_specs+title",
+      "fitment_source": "ebay_listing+carlson_specs",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
@@ -2682,7 +2686,7 @@
           "1989\u20131990 Plymouth Colt"
         ],
         "raw_compat_rows": 361,
-        "source": "ebay_listing+carlson_specs+title",
+        "source": "ebay_listing+carlson_specs",
         "confidence": "high",
         "ebay_item_id": "398089188916",
         "type": "Disc Brake Hardware",
@@ -7265,7 +7269,7 @@
       "ebay_type": "Drum Brake Hardware",
       "ebay_brand": "Carlson",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware",
-      "fitment_source": "ebay_listing+carlson_specs+title",
+      "fitment_source": "ebay_listing+carlson_specs",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
@@ -7367,7 +7371,7 @@
           "2004\u20132015 Nissan TITAN"
         ],
         "raw_compat_rows": 346,
-        "source": "ebay_listing+carlson_specs+title",
+        "source": "ebay_listing+carlson_specs",
         "confidence": "high",
         "ebay_item_id": "398085067140",
         "type": "Drum Brake Hardware",
@@ -7962,7 +7966,7 @@
       "ebay_type": "Drum Brake Self-Adjuster Cable",
       "ebay_brand": "Carlson",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware",
-      "fitment_source": "ebay_listing+title",
+      "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
@@ -8393,7 +8397,7 @@
           "Ford F-350"
         ],
         "raw_compat_rows": 3001,
-        "source": "ebay_listing+title",
+        "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398126245353",
         "type": "Drum Brake Self-Adjuster Cable",
@@ -9222,7 +9226,7 @@
       "ebay_type": "Drum Brake Self-Adjuster",
       "ebay_brand": "Carlson",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware",
-      "fitment_source": "ebay_listing+carlson_specs+title",
+      "fitment_source": "ebay_listing+carlson_specs",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
@@ -9676,7 +9680,7 @@
           "Ram Ranger"
         ],
         "raw_compat_rows": 3001,
-        "source": "ebay_listing+carlson_specs+title",
+        "source": "ebay_listing+carlson_specs",
         "confidence": "high",
         "ebay_item_id": "398095523809",
         "type": "Drum Brake Self-Adjuster",
@@ -9707,7 +9711,7 @@
       "ebay_type": "Self Adjusting Cable",
       "ebay_brand": "Carlson",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware",
-      "fitment_source": "ebay_listing+title",
+      "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
@@ -9741,7 +9745,7 @@
           "Mazda B"
         ],
         "raw_compat_rows": 447,
-        "source": "ebay_listing+title",
+        "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398095724726",
         "type": "Self Adjusting Cable",
@@ -9993,7 +9997,7 @@
       "ebay_type": "Hardware",
       "ebay_brand": "Carlson",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware",
-      "fitment_source": "ebay_listing+carlson_specs+title",
+      "fitment_source": "ebay_listing+carlson_specs",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
@@ -10348,7 +10352,7 @@
           "1965\u20131968 Plymouth Satellite"
         ],
         "raw_compat_rows": 3001,
-        "source": "ebay_listing+carlson_specs+title",
+        "source": "ebay_listing+carlson_specs",
         "confidence": "high",
         "ebay_item_id": "398095523463",
         "type": "Hardware",
@@ -10403,7 +10407,7 @@
       "ebay_type": "Hardware",
       "ebay_brand": "Carlson",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware",
-      "fitment_source": "ebay_listing+carlson_specs+title",
+      "fitment_source": "ebay_listing+carlson_specs",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
@@ -10681,7 +10685,7 @@
           "2013\u20132024 Ram 5500"
         ],
         "raw_compat_rows": 3001,
-        "source": "ebay_listing+carlson_specs+title",
+        "source": "ebay_listing+carlson_specs",
         "confidence": "high",
         "ebay_item_id": "398089082833",
         "type": "Hardware",
@@ -11910,7 +11914,7 @@
       "ebay_type": "Repair Kit",
       "ebay_brand": "Carlson",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware",
-      "fitment_source": "ebay_listing+carlson_specs+title",
+      "fitment_source": "ebay_listing+carlson_specs",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
@@ -12100,7 +12104,7 @@
           "Ram 2500"
         ],
         "raw_compat_rows": 1506,
-        "source": "ebay_listing+carlson_specs+title",
+        "source": "ebay_listing+carlson_specs",
         "confidence": "high",
         "ebay_item_id": "398095724760",
         "type": "Repair Kit",
@@ -14752,7 +14756,7 @@
       "ebay_type": "Drum Brake Self-Adjuster",
       "ebay_brand": "Carlson",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware",
-      "fitment_source": "ebay_listing+carlson_specs+title",
+      "fitment_source": "ebay_listing+carlson_specs",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
@@ -15085,7 +15089,7 @@
           "1992\u20131999 Pontiac Trans Sport"
         ],
         "raw_compat_rows": 490,
-        "source": "ebay_listing+carlson_specs+title",
+        "source": "ebay_listing+carlson_specs",
         "confidence": "high",
         "ebay_item_id": "398085067294",
         "type": "Drum Brake Self-Adjuster",
@@ -20187,7 +20191,7 @@
       "ebay_type": "Disc Brake Guide Pin Kit",
       "ebay_brand": "Carlson",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware",
-      "fitment_source": "ebay_listing+carlson_specs+title",
+      "fitment_source": "ebay_listing+carlson_specs",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
@@ -20476,7 +20480,7 @@
           "2008\u20132024 Nissan TITAN"
         ],
         "raw_compat_rows": 3002,
-        "source": "ebay_listing+carlson_specs+title",
+        "source": "ebay_listing+carlson_specs",
         "confidence": "high",
         "ebay_item_id": "398095621242",
         "type": "Disc Brake Guide Pin Kit",
@@ -25050,7 +25054,7 @@
       "ebay_type": "Rear Disc Brake Pro Kit",
       "ebay_brand": "Carlson",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware",
-      "fitment_source": "ebay_listing+carlson_specs+title",
+      "fitment_source": "ebay_listing+carlson_specs",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
@@ -25262,7 +25266,7 @@
           "2006\u20132010 Mercury Mountaineer"
         ],
         "raw_compat_rows": 727,
-        "source": "ebay_listing+carlson_specs+title",
+        "source": "ebay_listing+carlson_specs",
         "confidence": "high",
         "ebay_item_id": "398095488798",
         "type": "Rear Disc Brake Pro Kit",
@@ -25417,7 +25421,7 @@
       "ebay_type": "Disc Brake QuietGlide Kit",
       "ebay_brand": "Carlson",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware",
-      "fitment_source": "ebay_listing+carlson_specs+title",
+      "fitment_source": "ebay_listing+carlson_specs",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
@@ -25640,7 +25644,7 @@
           "1997\u20131999 Pontiac Trans Sport"
         ],
         "raw_compat_rows": 258,
-        "source": "ebay_listing+carlson_specs+title",
+        "source": "ebay_listing+carlson_specs",
         "confidence": "high",
         "ebay_item_id": "398089190664",
         "type": "Disc Brake QuietGlide Kit",
@@ -25684,7 +25688,7 @@
       "ebay_type": "Disc Brake Hardware",
       "ebay_brand": "Carlson",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware",
-      "fitment_source": "ebay_listing+carlson_specs+title",
+      "fitment_source": "ebay_listing+carlson_specs",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
@@ -25841,7 +25845,7 @@
           "1999\u20132005 Pontiac Grand Am"
         ],
         "raw_compat_rows": 325,
-        "source": "ebay_listing+carlson_specs+title",
+        "source": "ebay_listing+carlson_specs",
         "confidence": "high",
         "ebay_item_id": "398085067698",
         "type": "Disc Brake Hardware",
@@ -26630,7 +26634,7 @@
       "ebay_type": "Disc Brake Pro Kit",
       "ebay_brand": "Carlson",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware",
-      "fitment_source": "ebay_listing+carlson_specs+title",
+      "fitment_source": "ebay_listing+carlson_specs",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
@@ -26831,7 +26835,7 @@
           "2007\u20132010 Saturn Outlook"
         ],
         "raw_compat_rows": 335,
-        "source": "ebay_listing+carlson_specs+title",
+        "source": "ebay_listing+carlson_specs",
         "confidence": "high",
         "ebay_item_id": "398085067822",
         "type": "Disc Brake Pro Kit",
@@ -28002,7 +28006,7 @@
       "ebay_type": "QuietGlide Rear Disc Kit",
       "ebay_brand": "Carlson",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware",
-      "fitment_source": "ebay_listing+carlson_specs+title",
+      "fitment_source": "ebay_listing+carlson_specs",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
@@ -28170,7 +28174,7 @@
           "2009\u20132012 Volkswagen Routan"
         ],
         "raw_compat_rows": 344,
-        "source": "ebay_listing+carlson_specs+title",
+        "source": "ebay_listing+carlson_specs",
         "confidence": "high",
         "ebay_item_id": "398095620624",
         "type": "QuietGlide Rear Disc Kit",
@@ -29099,7 +29103,7 @@
       "ebay_type": "Drum Brake Hardware",
       "ebay_brand": "Carlson",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware",
-      "fitment_source": "ebay_listing+carlson_specs+title",
+      "fitment_source": "ebay_listing+carlson_specs",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
@@ -29355,7 +29359,7 @@
           "1983\u20131989 Plymouth Reliant"
         ],
         "raw_compat_rows": 622,
-        "source": "ebay_listing+carlson_specs+title",
+        "source": "ebay_listing+carlson_specs",
         "confidence": "high",
         "ebay_item_id": "398085068100",
         "type": "Drum Brake Hardware",
@@ -30599,7 +30603,7 @@
       "ebay_type": "Drum Brake Spring",
       "ebay_brand": "Carlson",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware",
-      "fitment_source": "ebay_listing+carlson_specs+title",
+      "fitment_source": "ebay_listing+carlson_specs",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
@@ -30657,7 +30661,7 @@
           "1990 Jeep Wagoneer"
         ],
         "raw_compat_rows": 115,
-        "source": "ebay_listing+carlson_specs+title",
+        "source": "ebay_listing+carlson_specs",
         "confidence": "high",
         "ebay_item_id": "398095614794",
         "type": "Drum Brake Spring",
@@ -31669,7 +31673,7 @@
       "ebay_type": "Drum Brake Spring",
       "ebay_brand": "Carlson",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware",
-      "fitment_source": "ebay_listing+carlson_specs+title",
+      "fitment_source": "ebay_listing+carlson_specs",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
@@ -31749,7 +31753,7 @@
           "2002\u20132007 Saturn Vue"
         ],
         "raw_compat_rows": 36,
-        "source": "ebay_listing+carlson_specs+title",
+        "source": "ebay_listing+carlson_specs",
         "confidence": "high",
         "ebay_item_id": "398095523081",
         "type": "Drum Brake Spring",
@@ -32909,7 +32913,7 @@
       "ebay_type": "Brake Bleeder Screw",
       "ebay_brand": "Carlson",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware",
-      "fitment_source": "ebay_listing+title",
+      "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
@@ -33449,7 +33453,7 @@
           "Isuzu Heavy"
         ],
         "raw_compat_rows": 1206,
-        "source": "ebay_listing+title",
+        "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398089191212",
         "type": "Brake Bleeder Screw",
@@ -34686,7 +34690,7 @@
       "ebay_type": "Drum Brake Hardware Kit",
       "ebay_brand": "Lee",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware",
-      "fitment_source": "ebay_listing+title",
+      "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
@@ -34775,7 +34779,7 @@
           "1984\u20131994 Mercury Topaz"
         ],
         "raw_compat_rows": 510,
-        "source": "ebay_listing+title",
+        "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398305599495",
         "type": "Drum Brake Hardware Kit",
@@ -34901,7 +34905,7 @@
       "ebay_type": "Disc Brake Pads",
       "ebay_brand": "NJA",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pads",
-      "fitment_source": "ebay_listing+title",
+      "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
@@ -34935,7 +34939,7 @@
           "1977\u20131981 Honda Civic"
         ],
         "raw_compat_rows": 13,
-        "source": "ebay_listing+title",
+        "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398309898300",
         "type": "Disc Brake Pads",
@@ -34970,7 +34974,7 @@
       "ebay_type": "Disc Brake Pads",
       "ebay_brand": "NJA",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pads",
-      "fitment_source": "ebay_listing+title",
+      "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
@@ -35038,7 +35042,7 @@
           "1970\u20131976 Porsche 914"
         ],
         "raw_compat_rows": 50,
-        "source": "ebay_listing+title",
+        "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398310188179",
         "type": "Disc Brake Pads",
@@ -36785,7 +36789,7 @@
       "ebay_type": "Cartridge Fuel Metal Canister Filter",
       "ebay_brand": "WIX",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Fuel Filters",
-      "fitment_source": "ebay_listing+title",
+      "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
@@ -37287,7 +37291,7 @@
           "1949\u20131952 Mercury Mercury"
         ],
         "raw_compat_rows": 716,
-        "source": "ebay_listing+title",
+        "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398322848408",
         "type": "Cartridge Fuel Metal Canister Filter",
@@ -37471,7 +37475,7 @@
       "ebay_type": "Fuel Filter (In-Line, Complete)",
       "ebay_brand": "WIX",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Fuel Filters",
-      "fitment_source": "ebay_listing+title",
+      "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
@@ -37619,7 +37623,7 @@
           "1967\u20131974 Mercury Monterey"
         ],
         "raw_compat_rows": 1258,
-        "source": "ebay_listing+title",
+        "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398322295240",
         "type": "Fuel Filter (In-Line, Complete)",
@@ -42023,7 +42027,7 @@
       "ebay_type": "PCV Breather Filter",
       "ebay_brand": "WIX",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Filters",
-      "fitment_source": "ebay_listing+title",
+      "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
@@ -42403,7 +42407,7 @@
           "1970\u20131982 Mercury LTD"
         ],
         "raw_compat_rows": 3001,
-        "source": "ebay_listing+title",
+        "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398318164883",
         "type": "PCV Breather Filter",
@@ -50892,7 +50896,7 @@
       "ebay_type": "Distributor",
       "ebay_brand": "Ford",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributors",
-      "fitment_source": "ebay_listing+title",
+      "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
@@ -50948,7 +50952,7 @@
           "1975\u20131986 Ford F-250"
         ],
         "raw_compat_rows": 1421,
-        "source": "ebay_listing+title",
+        "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "397903879750",
         "type": "Distributor",
@@ -51798,11 +51802,11 @@
         "1974\u20131995 GMC",
         "1974\u20131995 Pontiac"
       ],
-      "vehicle_count_raw": 4,
+      "vehicle_count_raw": 8,
       "ebay_type": "Distributor Rotor",
       "ebay_brand": "IAD",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors",
-      "fitment_source": "ebay_listing+title",
+      "fitment_source": "ebay_listing",
       "fitment_confidence": "medium",
       "fitment": {
         "part_numbers": [
@@ -51862,8 +51866,8 @@
           "1974\u20131995 GMC",
           "1974\u20131995 Pontiac"
         ],
-        "raw_compat_rows": 4,
-        "source": "ebay_listing+title",
+        "raw_compat_rows": 8,
+        "source": "ebay_listing",
         "confidence": "medium",
         "ebay_item_id": "398310435889",
         "type": "Distributor Rotor",
@@ -52400,7 +52404,7 @@
       "ebay_type": "Spark Plug Wire Set",
       "ebay_brand": "LaSalle",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Wires & Coil Boots",
-      "fitment_source": "ebay_listing+title",
+      "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
@@ -52445,7 +52449,7 @@
           "Jeep Willys"
         ],
         "raw_compat_rows": 4,
-        "source": "ebay_listing+title",
+        "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398313272684",
         "type": "Spark Plug Wire Set",
@@ -52618,7 +52622,7 @@
       "ebay_type": "Spark Plug Wire Set",
       "ebay_brand": "LaSalle",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Wires & Coil Boots",
-      "fitment_source": "ebay_listing+title",
+      "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
@@ -52795,7 +52799,7 @@
           "1978\u20131983 Mercury Zephyr"
         ],
         "raw_compat_rows": 191,
-        "source": "ebay_listing+title",
+        "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398332877552",
         "type": "Spark Plug Wire Set",
@@ -53439,11 +53443,11 @@
       "vehicles": [
         "1987\u20131991 Dodge"
       ],
-      "vehicle_count_raw": 1,
+      "vehicle_count_raw": 2,
       "ebay_type": "Spark Plug Wire Set",
       "ebay_brand": "LaSalle",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Wires & Coil Boots",
-      "fitment_source": "ebay_listing+title",
+      "fitment_source": "ebay_listing",
       "fitment_confidence": "medium",
       "fitment": {
         "part_numbers": [
@@ -53467,8 +53471,8 @@
         "vehicle_labels": [
           "1987\u20131991 Dodge"
         ],
-        "raw_compat_rows": 1,
-        "source": "ebay_listing+title",
+        "raw_compat_rows": 2,
+        "source": "ebay_listing",
         "confidence": "medium",
         "ebay_item_id": "398324660959",
         "type": "Spark Plug Wire Set",
@@ -54069,11 +54073,11 @@
         "1990\u20131995 Dodge",
         "1990\u20131995 Plymouth"
       ],
-      "vehicle_count_raw": 3,
+      "vehicle_count_raw": 6,
       "ebay_type": "Spark Plug Wire Set / Ignition Wires",
       "ebay_brand": "LaSalle",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Wires & Coil Boots",
-      "fitment_source": "ebay_listing+title",
+      "fitment_source": "ebay_listing",
       "fitment_confidence": "medium",
       "fitment": {
         "part_numbers": [
@@ -54118,8 +54122,8 @@
           "1990\u20131995 Dodge",
           "1990\u20131995 Plymouth"
         ],
-        "raw_compat_rows": 3,
-        "source": "ebay_listing+title",
+        "raw_compat_rows": 6,
+        "source": "ebay_listing",
         "confidence": "medium",
         "ebay_item_id": "398310144846",
         "type": "Spark Plug Wire Set / Ignition Wires",
@@ -55562,11 +55566,11 @@
         "1984\u20131997 Mazda",
         "1984\u20131997 Mercury"
       ],
-      "vehicle_count_raw": 4,
+      "vehicle_count_raw": 8,
       "ebay_type": "Ignition Coil",
       "ebay_brand": "Pace Setter",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Coils",
-      "fitment_source": "ebay_listing+title",
+      "fitment_source": "ebay_listing",
       "fitment_confidence": "medium",
       "fitment": {
         "part_numbers": [
@@ -55621,8 +55625,8 @@
           "1984\u20131997 Mazda",
           "1984\u20131997 Mercury"
         ],
-        "raw_compat_rows": 4,
-        "source": "ebay_listing+title",
+        "raw_compat_rows": 8,
+        "source": "ebay_listing",
         "confidence": "medium",
         "ebay_item_id": "398310182623",
         "type": "Ignition Coil",
@@ -55667,7 +55671,7 @@
       "ebay_type": "Distributor Cap",
       "ebay_brand": "Pacesetter",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps",
-      "fitment_source": "ebay_listing+title",
+      "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
@@ -55805,7 +55809,7 @@
           "1977\u20131980 Pontiac Sunbird"
         ],
         "raw_compat_rows": 104,
-        "source": "ebay_listing+title",
+        "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398309902201",
         "type": "Distributor Cap",
@@ -57083,7 +57087,7 @@
       "ebay_type": "Distributor Cap & Ignition Module Assembly",
       "ebay_brand": "Standard",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps",
-      "fitment_source": "ebay_listing+title",
+      "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
@@ -57294,7 +57298,7 @@
           "1977 Pontiac Ventura"
         ],
         "raw_compat_rows": 127,
-        "source": "ebay_listing+title",
+        "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398310768653",
         "type": "Distributor Cap & Ignition Module Assembly",
@@ -59722,7 +59726,7 @@
       "ebay_type": "Distributor Cap",
       "ebay_brand": "Standard",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps",
-      "fitment_source": "ebay_listing+title",
+      "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
@@ -59812,7 +59816,7 @@
           "1974\u20131981 Nissan 510"
         ],
         "raw_compat_rows": 102,
-        "source": "ebay_listing+title",
+        "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398357199952",
         "type": "Distributor Cap",
@@ -60320,7 +60324,7 @@
       "ebay_type": "Distributor Cap",
       "ebay_brand": "Standard",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps",
-      "fitment_source": "ebay_listing+title",
+      "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
@@ -60355,7 +60359,7 @@
           "1984\u20131985 Honda Civic"
         ],
         "raw_compat_rows": 24,
-        "source": "ebay_listing+title",
+        "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398357174390",
         "type": "Distributor Cap",
@@ -67828,7 +67832,7 @@
         "1999\u20132002 GMC Sierra 1500",
         "2000\u20132002 GMC Yukon"
       ],
-      "fitment_source": "ebay_listing+title",
+      "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
@@ -67906,7 +67910,7 @@
           "2000\u20132002 GMC Yukon"
         ],
         "raw_compat_rows": 246,
-        "source": "ebay_listing+title",
+        "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398084288803",
         "type": "Headlight Switch, Dimmer Switch",
@@ -70708,20 +70712,24 @@
       "variation_id": "EQVIO2TASINZ6H2ZK3LDSFLM",
       "stock": 1,
       "ebay_item_id": "398084830710",
-      "part_numbers": [],
+      "part_numbers": [
+        "1973"
+      ],
       "interchange": [],
       "vehicles": [
         "1973\u20131987 Chevrolet",
         "1973\u20131987 GMC C10"
       ],
-      "vehicle_count_raw": 2,
+      "vehicle_count_raw": 4,
       "ebay_type": "Chevy GMC C10 C20 Square Body Passenger Vent Wing Window",
       "ebay_brand": "GM OEM",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Interior Parts & Accessories:Other Interior Parts & Accessories",
       "fitment_source": "ebay_listing+title",
       "fitment_confidence": "medium",
       "fitment": {
-        "part_numbers": [],
+        "part_numbers": [
+          "1973"
+        ],
         "interchange": [],
         "vehicles": [
           {
@@ -70749,7 +70757,7 @@
           "1973\u20131987 Chevrolet",
           "1973\u20131987 GMC C10"
         ],
-        "raw_compat_rows": 2,
+        "raw_compat_rows": 4,
         "source": "ebay_listing+title",
         "confidence": "medium",
         "ebay_item_id": "398084830710",
@@ -70769,7 +70777,9 @@
       "variation_id": "IMFDHKGAEPX3JIHC23CNJYD4",
       "stock": 1,
       "ebay_item_id": "398314527400",
-      "part_numbers": [],
+      "part_numbers": [
+        "1981"
+      ],
       "interchange": [],
       "vehicles": [
         "1981\u20131986 Chevrolet C10",
@@ -70782,7 +70792,9 @@
       "fitment_source": "ebay_listing+title",
       "fitment_confidence": "high",
       "fitment": {
-        "part_numbers": [],
+        "part_numbers": [
+          "1981"
+        ],
         "interchange": [],
         "vehicles": [
           {
@@ -70915,11 +70927,11 @@
         "2000\u20132006 Chevrolet Silverado",
         "2000\u20132006 GMC Sierra"
       ],
-      "vehicle_count_raw": 2,
+      "vehicle_count_raw": 4,
       "ebay_type": "Flex Fuel Sensor",
       "ebay_brand": "General Motors",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Intake & Fuel Sensors",
-      "fitment_source": "ebay_listing+title",
+      "fitment_source": "ebay_listing",
       "fitment_confidence": "medium",
       "fitment": {
         "part_numbers": [
@@ -70952,8 +70964,8 @@
           "2000\u20132006 Chevrolet Silverado",
           "2000\u20132006 GMC Sierra"
         ],
-        "raw_compat_rows": 2,
-        "source": "ebay_listing+title",
+        "raw_compat_rows": 4,
+        "source": "ebay_listing",
         "confidence": "medium",
         "ebay_item_id": "398260278071",
         "type": "Flex Fuel Sensor",
@@ -70972,19 +70984,23 @@
       "variation_id": "GUYSIWMPAXWBU3DFSASNXRMR",
       "stock": 1,
       "ebay_item_id": "398084829970",
-      "part_numbers": [],
+      "part_numbers": [
+        "2000"
+      ],
       "interchange": [],
       "vehicles": [
         "2000\u20132006 Chevrolet Tahoe"
       ],
-      "vehicle_count_raw": 1,
+      "vehicle_count_raw": 2,
       "ebay_type": "Chevy Tahoe Suburban Overhead Console",
       "ebay_brand": "GM OEM",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Interior Parts & Accessories:Center, Overhead Consoles & Parts:Center & Overhead Consoles",
       "fitment_source": "ebay_listing+title",
       "fitment_confidence": "medium",
       "fitment": {
-        "part_numbers": [],
+        "part_numbers": [
+          "2000"
+        ],
         "interchange": [],
         "vehicles": [
           {
@@ -71001,7 +71017,7 @@
         "vehicle_labels": [
           "2000\u20132006 Chevrolet Tahoe"
         ],
-        "raw_compat_rows": 1,
+        "raw_compat_rows": 2,
         "source": "ebay_listing+title",
         "confidence": "medium",
         "ebay_item_id": "398084829970",
@@ -71021,7 +71037,9 @@
       "variation_id": "B67GAGB2V3OLFPRCNRRPDMK6",
       "stock": 1,
       "ebay_item_id": "398084830800",
-      "part_numbers": [],
+      "part_numbers": [
+        "2000"
+      ],
       "interchange": [],
       "vehicles": [
         "2000\u20132006 Chevrolet Suburban 1500",
@@ -71033,10 +71051,12 @@
       "ebay_type": "Chevy Tahoe Suburban Passenger Sun Visor",
       "ebay_brand": "GM OEM",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Interior Parts & Accessories:Sun Visors",
-      "fitment_source": "ebay_listing",
+      "fitment_source": "ebay_listing+title",
       "fitment_confidence": "high",
       "fitment": {
-        "part_numbers": [],
+        "part_numbers": [
+          "2000"
+        ],
         "interchange": [],
         "vehicles": [
           {
@@ -71087,7 +71107,7 @@
           "2000\u20132006 GMC Yukon XL 1500"
         ],
         "raw_compat_rows": 183,
-        "source": "ebay_listing",
+        "source": "ebay_listing+title",
         "confidence": "high",
         "ebay_item_id": "398084830800",
         "type": "Chevy Tahoe Suburban Passenger Sun Visor",
@@ -71106,7 +71126,9 @@
       "variation_id": "PLCKT4TEGXJTJQKC3EKVOZ4S",
       "stock": 1,
       "ebay_item_id": "398314527561",
-      "part_numbers": [],
+      "part_numbers": [
+        "2003"
+      ],
       "interchange": [],
       "vehicles": [
         "2003\u20132007 Chevrolet Silverado",
@@ -71121,7 +71143,9 @@
       "fitment_source": "ebay_listing+title",
       "fitment_confidence": "high",
       "fitment": {
-        "part_numbers": [],
+        "part_numbers": [
+          "2003"
+        ],
         "interchange": [],
         "vehicles": [
           {
@@ -71204,7 +71228,7 @@
       "ebay_type": "Heater Selector Switch",
       "ebay_brand": "Unbranded",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air Conditioning & Heating:HVAC Controls & Control Units",
-      "fitment_source": "ebay_listing+title",
+      "fitment_source": "ebay_listing",
       "fitment_confidence": "medium",
       "fitment": {
         "part_numbers": [
@@ -71239,7 +71263,7 @@
           "GMC"
         ],
         "raw_compat_rows": 2,
-        "source": "ebay_listing+title",
+        "source": "ebay_listing",
         "confidence": "medium",
         "ebay_item_id": "398358025245",
         "type": "Heater Selector Switch",
@@ -71561,7 +71585,7 @@
       "ebay_type": "Shifter Cable Bracket",
       "ebay_brand": "B&M",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:Shifters, Cables & Linkages",
-      "fitment_source": "ebay_listing+title",
+      "fitment_source": "ebay_listing",
       "fitment_confidence": "medium",
       "fitment": {
         "part_numbers": [
@@ -71584,7 +71608,7 @@
           "Chrysler Torqueflite"
         ],
         "raw_compat_rows": 1,
-        "source": "ebay_listing+title",
+        "source": "ebay_listing",
         "confidence": "medium",
         "ebay_item_id": "397849161629",
         "type": "Shifter Cable Bracket",
@@ -72735,7 +72759,7 @@
       "ebay_type": "Starter Solenoid",
       "ebay_brand": "Blue Streak",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Starters, Alternators, ECUs & Wiring:Starter Motor Parts",
-      "fitment_source": "ebay_listing+title",
+      "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
@@ -72818,7 +72842,7 @@
           "1976\u20131979 Jeep CJ7"
         ],
         "raw_compat_rows": 782,
-        "source": "ebay_listing+title",
+        "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398336186050",
         "type": "Starter Solenoid",
@@ -73210,7 +73234,7 @@
       "ebay_type": "Mechanical Speedometer",
       "ebay_brand": "Chevrolet / GM / AC Delco",
       "ebay_category": "Consumer Electronics:Vehicle Electronics & GPS:Car Electronics Accessories:Replacement Faceplates",
-      "fitment_source": "ebay_listing+title",
+      "fitment_source": "ebay_listing",
       "fitment_confidence": "medium",
       "fitment": {
         "part_numbers": [
@@ -73233,7 +73257,7 @@
           "Chevrolet 80s"
         ],
         "raw_compat_rows": 1,
-        "source": "ebay_listing+title",
+        "source": "ebay_listing",
         "confidence": "medium",
         "ebay_item_id": "398182380158",
         "type": "Mechanical Speedometer",
@@ -73261,7 +73285,7 @@
       "ebay_type": "Remote Control Box",
       "ebay_brand": "Chrysler",
       "ebay_category": "eBay Motors:Parts & Accessories:Boat Parts:Controls & Steering",
-      "fitment_source": "ebay_listing+title",
+      "fitment_source": "ebay_listing",
       "fitment_confidence": "medium",
       "fitment": {
         "part_numbers": [],
@@ -73282,7 +73306,7 @@
           "Chrysler Marine"
         ],
         "raw_compat_rows": 1,
-        "source": "ebay_listing+title",
+        "source": "ebay_listing",
         "confidence": "medium",
         "ebay_item_id": "398108511511",
         "type": "Remote Control Box",
@@ -73504,7 +73528,7 @@
       "ebay_type": "Differential Pinion Seal",
       "ebay_brand": "CR",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Exterior Parts & Accessories:Doors, Trunk Lids & Hatches:Liftgates",
-      "fitment_source": "ebay_listing+title",
+      "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
@@ -73576,7 +73600,7 @@
           "1994\u20132003 Ram 1500"
         ],
         "raw_compat_rows": 1245,
-        "source": "ebay_listing+title",
+        "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398315292756",
         "type": "Differential Pinion Seal",
@@ -74739,7 +74763,7 @@
       "ebay_type": "Wheel Seal",
       "ebay_brand": "CR Services",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:Differentials, Assemblies & Parts:Seals & Gaskets",
-      "fitment_source": "ebay_listing+title",
+      "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
@@ -74867,7 +74891,7 @@
           "1974\u20131977 Plymouth Trailduster"
         ],
         "raw_compat_rows": 402,
-        "source": "ebay_listing+title",
+        "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398322283751",
         "type": "Wheel Seal",
@@ -74897,7 +74921,7 @@
       "ebay_type": "In-Dash Receiver",
       "ebay_brand": "Delco Electronics",
       "ebay_category": "eBay Motors:Parts & Accessories:In-Car Technology, GPS & Security:In-Car Entertainment:Car Stereos & Head Units",
-      "fitment_source": "ebay_listing+title",
+      "fitment_source": "ebay_listing",
       "fitment_confidence": "medium",
       "fitment": {
         "part_numbers": [
@@ -74920,7 +74944,7 @@
           "Pontiac AM"
         ],
         "raw_compat_rows": 1,
-        "source": "ebay_listing+title",
+        "source": "ebay_listing",
         "confidence": "medium",
         "ebay_item_id": "398314528646",
         "type": "In-Dash Receiver",
@@ -75616,7 +75640,7 @@
       "ebay_type": "Voltage Regulator",
       "ebay_brand": "Ford",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Starters, Alternators, ECUs & Wiring:Voltage Regulators",
-      "fitment_source": "ebay_listing+title",
+      "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
@@ -75678,7 +75702,7 @@
           "1968\u20131986 Ford Mustang"
         ],
         "raw_compat_rows": 624,
-        "source": "ebay_listing+title",
+        "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398314580568",
         "type": "Voltage Regulator",
@@ -75720,7 +75744,7 @@
       "ebay_type": "Clutch Slave Cylinder",
       "ebay_brand": "Ford",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:Clutch Parts & Kits:Additional Clutch Parts",
-      "fitment_source": "ebay_listing+title",
+      "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
@@ -75805,7 +75829,7 @@
           "1983\u20131984 Ford Ranger"
         ],
         "raw_compat_rows": 1161,
-        "source": "ebay_listing+title",
+        "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398336422066",
         "type": "Clutch Slave Cylinder",
@@ -75838,7 +75862,7 @@
       "ebay_type": "Engine Control Module (ECM/PCM/ECU)",
       "ebay_brand": "Ford",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Starters, Alternators, ECUs & Wiring:ECUs & Computer Modules",
-      "fitment_source": "ebay_listing+title",
+      "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
@@ -75884,7 +75908,7 @@
           "1999\u20132001 Mercury Mountaineer"
         ],
         "raw_compat_rows": 15,
-        "source": "ebay_listing+title",
+        "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398182926053",
         "type": "Engine Control Module (ECM/PCM/ECU)",
@@ -76359,11 +76383,11 @@
         "1976\u20131990 Oldsmobile",
         "1976\u20131990 Pontiac"
       ],
-      "vehicle_count_raw": 5,
+      "vehicle_count_raw": 10,
       "ebay_type": "Heater Valve",
       "ebay_brand": "Four Seasons",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air Conditioning & Heating:Heater Control Valves",
-      "fitment_source": "ebay_listing+title",
+      "fitment_source": "ebay_listing",
       "fitment_confidence": "medium",
       "fitment": {
         "part_numbers": [
@@ -76430,8 +76454,8 @@
           "1976\u20131990 Oldsmobile",
           "1976\u20131990 Pontiac"
         ],
-        "raw_compat_rows": 5,
-        "source": "ebay_listing+title",
+        "raw_compat_rows": 10,
+        "source": "ebay_listing",
         "confidence": "medium",
         "ebay_item_id": "398310119922",
         "type": "Heater Valve",
@@ -78594,7 +78618,7 @@
       "ebay_type": "Engine Oil Filler Cap",
       "ebay_brand": "Gates",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Drain Plugs, Filler Caps & Dipsticks",
-      "fitment_source": "ebay_listing+title",
+      "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
@@ -79618,7 +79642,7 @@
           "2002\u20132017 Ford F-150"
         ],
         "raw_compat_rows": 781,
-        "source": "ebay_listing+title",
+        "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398313004713",
         "type": "Engine Oil Filler Cap",
@@ -79898,7 +79922,7 @@
       "ebay_type": "Engine Oil Filler Cap",
       "ebay_brand": "Gates",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Drain Plugs, Filler Caps & Dipsticks",
-      "fitment_source": "ebay_listing+title",
+      "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
@@ -80306,7 +80330,7 @@
           "1985\u20132008 Ford F-150"
         ],
         "raw_compat_rows": 3001,
-        "source": "ebay_listing+title",
+        "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398313010453",
         "type": "Engine Oil Filler Cap",
@@ -85019,7 +85043,7 @@
       "ebay_type": "Radiator Cap",
       "ebay_brand": "Gates",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Caps",
-      "fitment_source": "ebay_listing+title",
+      "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
@@ -85669,7 +85693,7 @@
           "2001\u20132024 Chrysler 300"
         ],
         "raw_compat_rows": 3001,
-        "source": "ebay_listing+title",
+        "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398313200054",
         "type": "Radiator Cap",
@@ -85775,7 +85799,7 @@
       "ebay_type": "Fuel Cap",
       "ebay_brand": "Gates",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Fuel Tank Caps",
-      "fitment_source": "ebay_listing+title",
+      "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
@@ -86634,7 +86658,7 @@
           "1977\u20131991 Honda Civic"
         ],
         "raw_compat_rows": 3001,
-        "source": "ebay_listing+title",
+        "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398313190272",
         "type": "Fuel Cap",
@@ -86735,7 +86759,7 @@
       "ebay_type": "Fuel Cap",
       "ebay_brand": "Gates",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Fuel Tank Caps",
-      "fitment_source": "ebay_listing+title",
+      "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
@@ -87479,7 +87503,7 @@
           "1980\u20131982 Toyota Tercel"
         ],
         "raw_compat_rows": 2332,
-        "source": "ebay_listing+title",
+        "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398313210856",
         "type": "Fuel Cap",
@@ -87554,7 +87578,7 @@
       "ebay_type": "Fuel Cap",
       "ebay_brand": "Gates",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Fuel Tank Caps",
-      "fitment_source": "ebay_listing+title",
+      "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
@@ -88072,7 +88096,7 @@
           "1970 Mercury Montego"
         ],
         "raw_compat_rows": 3001,
-        "source": "ebay_listing+title",
+        "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398313314869",
         "type": "Fuel Cap",
@@ -88107,7 +88131,7 @@
       "ebay_type": "Fuel Tank Cap",
       "ebay_brand": "Gates",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Fuel Tanks & Filler Necks",
-      "fitment_source": "ebay_listing+title",
+      "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
@@ -88185,7 +88209,7 @@
           "1972\u20131980 Dodge C"
         ],
         "raw_compat_rows": 126,
-        "source": "ebay_listing+title",
+        "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398335438347",
         "type": "Fuel Tank Cap",
@@ -88250,7 +88274,7 @@
       "ebay_type": "Fuel Cap",
       "ebay_brand": "Gates",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Fuel Tanks & Filler Necks",
-      "fitment_source": "ebay_listing+title",
+      "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
@@ -88618,7 +88642,7 @@
           "1999\u20132008 Jeep Cherokee"
         ],
         "raw_compat_rows": 3002,
-        "source": "ebay_listing+title",
+        "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398313022903",
         "type": "Fuel Cap",
@@ -91647,7 +91671,7 @@
       "ebay_type": "Thermostat",
       "ebay_brand": "Gates",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Thermostats & Housings",
-      "fitment_source": "ebay_listing+title",
+      "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
@@ -92132,7 +92156,7 @@
           "1985\u20131991 Subaru XT"
         ],
         "raw_compat_rows": 1479,
-        "source": "ebay_listing+title",
+        "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398313329089",
         "type": "Thermostat",
@@ -92242,7 +92266,7 @@
       "ebay_type": "Thermostat",
       "ebay_brand": "Gates",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Thermostats & Housings",
-      "fitment_source": "ebay_listing+title",
+      "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
@@ -92298,7 +92322,7 @@
           "1988\u20131990 Honda Prelude"
         ],
         "raw_compat_rows": 46,
-        "source": "ebay_listing+title",
+        "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398313202617",
         "type": "Thermostat",
@@ -92714,7 +92738,7 @@
       "ebay_type": "Thermostat",
       "ebay_brand": "Gates",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Gaskets, Seals & O-Rings",
-      "fitment_source": "ebay_listing+title",
+      "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
@@ -92858,7 +92882,7 @@
           "1996\u20131998 Suzuki X-90"
         ],
         "raw_compat_rows": 794,
-        "source": "ebay_listing+title",
+        "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398313314205",
         "type": "Thermostat",
@@ -92963,11 +92987,11 @@
       "vehicles": [
         "1957\u20131966 Dodge D100"
       ],
-      "vehicle_count_raw": 1,
+      "vehicle_count_raw": 2,
       "ebay_type": "Thermostat",
       "ebay_brand": "Gates",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Thermostats & Housings",
-      "fitment_source": "ebay_listing+title",
+      "fitment_source": "ebay_listing",
       "fitment_confidence": "medium",
       "fitment": {
         "part_numbers": [
@@ -92989,8 +93013,8 @@
         "vehicle_labels": [
           "1957\u20131966 Dodge D100"
         ],
-        "raw_compat_rows": 1,
-        "source": "ebay_listing+title",
+        "raw_compat_rows": 2,
+        "source": "ebay_listing",
         "confidence": "medium",
         "ebay_item_id": "398313169227",
         "type": "Thermostat",
@@ -93135,11 +93159,11 @@
         "1973\u20132000 Chevrolet",
         "1973\u20132000 GM"
       ],
-      "vehicle_count_raw": 2,
+      "vehicle_count_raw": 4,
       "ebay_type": "Differential Carrier Assembly",
       "ebay_brand": "Factory, OEM, OE, Chevy, Chevrolet, GM, GMC",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:Differentials, Assemblies & Parts:Additional Differential Parts",
-      "fitment_source": "ebay_listing+title",
+      "fitment_source": "ebay_listing",
       "fitment_confidence": "medium",
       "fitment": {
         "part_numbers": [],
@@ -93170,8 +93194,8 @@
           "1973\u20132000 Chevrolet",
           "1973\u20132000 GM"
         ],
-        "raw_compat_rows": 2,
-        "source": "ebay_listing+title",
+        "raw_compat_rows": 4,
+        "source": "ebay_listing",
         "confidence": "medium",
         "ebay_item_id": "397853085711",
         "type": "Differential Carrier Assembly",
@@ -93208,7 +93232,7 @@
       "ebay_type": "Steering Column",
       "ebay_brand": "GM",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Steering & Suspension:Steering Columns",
-      "fitment_source": "ebay_listing+title",
+      "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
@@ -93278,7 +93302,7 @@
           "2003\u20132006 GMC Sierra 1500"
         ],
         "raw_compat_rows": 679,
-        "source": "ebay_listing+title",
+        "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398316735224",
         "type": "Steering Column",
@@ -93304,11 +93328,11 @@
       "vehicles": [
         "2003\u20132007 GM 4L80E"
       ],
-      "vehicle_count_raw": 1,
+      "vehicle_count_raw": 2,
       "ebay_type": "Shifter Cable Bracket",
       "ebay_brand": "GM",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:Shifters, Cables & Linkages",
-      "fitment_source": "ebay_listing+title",
+      "fitment_source": "ebay_listing",
       "fitment_confidence": "medium",
       "fitment": {
         "part_numbers": [
@@ -93330,8 +93354,8 @@
         "vehicle_labels": [
           "2003\u20132007 GM 4L80E"
         ],
-        "raw_compat_rows": 1,
-        "source": "ebay_listing+title",
+        "raw_compat_rows": 2,
+        "source": "ebay_listing",
         "confidence": "medium",
         "ebay_item_id": "397849194322",
         "type": "Shifter Cable Bracket",
@@ -93462,7 +93486,7 @@
       "ebay_type": "GM 6.0L LS Engine Oil Pump Pickup",
       "ebay_brand": "GM OEM",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Pumps & Parts",
-      "fitment_source": "ebay_listing+title",
+      "fitment_source": "ebay_listing",
       "fitment_confidence": "medium",
       "fitment": {
         "part_numbers": [
@@ -93485,7 +93509,7 @@
           "GM"
         ],
         "raw_compat_rows": 1,
-        "source": "ebay_listing+title",
+        "source": "ebay_listing",
         "confidence": "medium",
         "ebay_item_id": "398084829442",
         "type": "GM 6.0L LS Engine Oil Pump Pickup",
@@ -93514,11 +93538,11 @@
         "1996\u20132002 GM Delco",
         "1996\u20132002 GMC"
       ],
-      "vehicle_count_raw": 3,
+      "vehicle_count_raw": 6,
       "ebay_type": "GM Delco Fuel Tank Pressure Sensor",
       "ebay_brand": "ACDelco",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Intake & Fuel Sensors",
-      "fitment_source": "ebay_listing+title",
+      "fitment_source": "ebay_listing",
       "fitment_confidence": "medium",
       "fitment": {
         "part_numbers": [
@@ -93563,8 +93587,8 @@
           "1996\u20132002 GM Delco",
           "1996\u20132002 GMC"
         ],
-        "raw_compat_rows": 3,
-        "source": "ebay_listing+title",
+        "raw_compat_rows": 6,
+        "source": "ebay_listing",
         "confidence": "medium",
         "ebay_item_id": "398084846262",
         "type": "GM Delco Fuel Tank Pressure Sensor",
@@ -93588,11 +93612,11 @@
       "vehicles": [
         "1999\u20132007 GM"
       ],
-      "vehicle_count_raw": 1,
+      "vehicle_count_raw": 2,
       "ebay_type": "LS Flexplate",
       "ebay_brand": "GM OEM",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:Flywheels & Flexplates",
-      "fitment_source": "ebay_listing+title",
+      "fitment_source": "ebay_listing",
       "fitment_confidence": "medium",
       "fitment": {
         "part_numbers": [],
@@ -93612,8 +93636,8 @@
         "vehicle_labels": [
           "1999\u20132007 GM"
         ],
-        "raw_compat_rows": 1,
-        "source": "ebay_listing+title",
+        "raw_compat_rows": 2,
+        "source": "ebay_listing",
         "confidence": "medium",
         "ebay_item_id": "398084829644",
         "type": "LS Flexplate",
@@ -94161,7 +94185,7 @@
       "ebay_type": "Choke Pull-Off",
       "ebay_brand": "Hygrade",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Carburetor Parts",
-      "fitment_source": "ebay_listing+title",
+      "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
@@ -94294,7 +94318,7 @@
           "1975\u20131981 Pontiac Firebird"
         ],
         "raw_compat_rows": 1042,
-        "source": "ebay_listing+title",
+        "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398309884345",
         "type": "Choke Pull-Off",
@@ -96060,7 +96084,7 @@
       "ebay_type": "PCV Valve",
       "ebay_brand": "IAD",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Steering & Suspension:Power Steering Pump Parts",
-      "fitment_source": "ebay_listing+title",
+      "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
@@ -96363,7 +96387,7 @@
           "1977\u20131994 Pontiac Sunbird"
         ],
         "raw_compat_rows": 2267,
-        "source": "ebay_listing+title",
+        "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398310191376",
         "type": "PCV Valve",
@@ -98070,7 +98094,7 @@
       "ebay_type": "OnStar Communication Module",
       "ebay_brand": "Motorola",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Starters, Alternators, ECUs & Wiring:ECUs & Computer Modules",
-      "fitment_source": "ebay_listing+title",
+      "fitment_source": "ebay_listing",
       "fitment_confidence": "medium",
       "fitment": {
         "part_numbers": [
@@ -98094,7 +98118,7 @@
           "GM Transceiver"
         ],
         "raw_compat_rows": 1,
-        "source": "ebay_listing+title",
+        "source": "ebay_listing",
         "confidence": "medium",
         "ebay_item_id": "398182661385",
         "type": "OnStar Communication Module",
@@ -99242,7 +99266,7 @@
       "ebay_type": "Transmission Output Seal",
       "ebay_brand": "National",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Exterior Parts & Accessories:Doors, Trunk Lids & Hatches:Liftgates",
-      "fitment_source": "ebay_listing+title",
+      "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
@@ -99313,7 +99337,7 @@
           "2004\u20132007 Mercury Mountaineer"
         ],
         "raw_compat_rows": 46,
-        "source": "ebay_listing+title",
+        "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398315289966",
         "type": "Transmission Output Seal",
@@ -99387,7 +99411,7 @@
       "ebay_type": "Oil Seal",
       "ebay_brand": "National",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Exterior Parts & Accessories:Doors, Trunk Lids & Hatches:Liftgates",
-      "fitment_source": "ebay_listing+title",
+      "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
@@ -99844,7 +99868,7 @@
           "2009\u20132010 Volkswagen Routan"
         ],
         "raw_compat_rows": 1559,
-        "source": "ebay_listing+title",
+        "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398322613594",
         "type": "Oil Seal",
@@ -100556,7 +100580,7 @@
       "ebay_type": "Wheel Seal",
       "ebay_brand": "National",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Exterior Parts & Accessories:Doors, Trunk Lids & Hatches:Liftgates",
-      "fitment_source": "ebay_listing+title",
+      "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
@@ -100597,7 +100621,7 @@
           "1980\u20131987 Ford Bronco"
         ],
         "raw_compat_rows": 64,
-        "source": "ebay_listing+title",
+        "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398315185330",
         "type": "Wheel Seal",
@@ -100687,7 +100711,7 @@
       "ebay_type": "Transmission Output Seal",
       "ebay_brand": "National",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Exterior Parts & Accessories:Doors, Trunk Lids & Hatches:Liftgates",
-      "fitment_source": "ebay_listing+title",
+      "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
@@ -100836,7 +100860,7 @@
           "1980 Plymouth PB300"
         ],
         "raw_compat_rows": 1542,
-        "source": "ebay_listing+title",
+        "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398315287948",
         "type": "Transmission Output Seal",
@@ -100883,7 +100907,7 @@
       "ebay_type": "Transmission Output Seal",
       "ebay_brand": "National",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Exterior Parts & Accessories:Doors, Trunk Lids & Hatches:Liftgates",
-      "fitment_source": "ebay_listing+title",
+      "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
@@ -101033,7 +101057,7 @@
           "2003\u20132010 Honda Civic"
         ],
         "raw_compat_rows": 45,
-        "source": "ebay_listing+title",
+        "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398315182600",
         "type": "Transmission Output Seal",
@@ -101375,7 +101399,7 @@
       "ebay_type": "Differential Pinion Seal",
       "ebay_brand": "National",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Exterior Parts & Accessories:Doors, Trunk Lids & Hatches:Liftgates",
-      "fitment_source": "ebay_listing+title",
+      "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
@@ -101492,7 +101516,7 @@
           "1994\u20132003 Ram 1500"
         ],
         "raw_compat_rows": 301,
-        "source": "ebay_listing+title",
+        "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398315288847",
         "type": "Differential Pinion Seal",
@@ -101728,7 +101752,7 @@
       "ebay_type": "Differential Pinion Seal",
       "ebay_brand": "National",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:Differentials, Assemblies & Parts:Seals & Gaskets",
-      "fitment_source": "ebay_listing+title",
+      "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
@@ -101911,7 +101935,7 @@
           "1980\u20131989 Plymouth Gran Fury"
         ],
         "raw_compat_rows": 435,
-        "source": "ebay_listing+title",
+        "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398322623044",
         "type": "Differential Pinion Seal",
@@ -102629,7 +102653,7 @@
       "ebay_type": "Radiator Support",
       "ebay_brand": "Chevrolet",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Exterior Parts & Accessories:Panels:Additional Panels",
-      "fitment_source": "ebay_listing+title",
+      "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
@@ -102674,7 +102698,7 @@
           "1981\u20131987 GMC Squarebody"
         ],
         "raw_compat_rows": 156,
-        "source": "ebay_listing+title",
+        "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398314527895",
         "type": "Radiator Support",
@@ -102784,7 +102808,7 @@
       "ebay_type": "Oil Pan",
       "ebay_brand": "GM",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:Automatic Transmission Parts",
-      "fitment_source": "ebay_listing+title",
+      "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [],
@@ -102849,7 +102873,7 @@
           "2000\u20132006 GMC Yukon"
         ],
         "raw_compat_rows": 689,
-        "source": "ebay_listing+title",
+        "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398314526839",
         "type": "Oil Pan",
@@ -103026,7 +103050,7 @@
       "ebay_type": "Ignition Control Module",
       "ebay_brand": "Pace Setter",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Modules",
-      "fitment_source": "ebay_listing+title",
+      "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
@@ -103170,7 +103194,7 @@
           "1975\u20131987 Pontiac Grand Prix"
         ],
         "raw_compat_rows": 2027,
-        "source": "ebay_listing+title",
+        "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398310252079",
         "type": "Ignition Control Module",
@@ -104619,7 +104643,7 @@
       "ebay_type": "DDR SDRAM",
       "ebay_brand": "Samsung",
       "ebay_category": "Computers/Tablets & Networking:Computer Components & Parts:Memory (RAM)",
-      "fitment_source": "ebay_listing+title",
+      "fitment_source": "ebay_listing",
       "fitment_confidence": "medium",
       "fitment": {
         "part_numbers": [
@@ -104642,7 +104666,7 @@
           "Ram Matched"
         ],
         "raw_compat_rows": 1,
-        "source": "ebay_listing+title",
+        "source": "ebay_listing",
         "confidence": "medium",
         "ebay_item_id": "398096110179",
         "type": "DDR SDRAM",
@@ -116464,11 +116488,11 @@
       "vehicles": [
         "1971\u20131990 Chrysler"
       ],
-      "vehicle_count_raw": 1,
+      "vehicle_count_raw": 2,
       "ebay_type": "Rear Main Seal Kit",
       "ebay_brand": "Victor Reinz",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Exterior Parts & Accessories:Doors, Trunk Lids & Hatches:Liftgates",
-      "fitment_source": "ebay_listing+title",
+      "fitment_source": "ebay_listing",
       "fitment_confidence": "medium",
       "fitment": {
         "part_numbers": [
@@ -116495,8 +116519,8 @@
         "vehicle_labels": [
           "1971\u20131990 Chrysler"
         ],
-        "raw_compat_rows": 1,
-        "source": "ebay_listing+title",
+        "raw_compat_rows": 2,
+        "source": "ebay_listing",
         "confidence": "medium",
         "ebay_item_id": "398318190776",
         "type": "Rear Main Seal Kit",
@@ -117996,5 +118020,5 @@
       "ebay_brand": ""
     }
   ],
-  "fitment_built": "2026-09-06T14:07:38Z"
+  "fitment_built": "2026-09-06T14:50:32Z"
 }
