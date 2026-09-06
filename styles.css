@@ -3576,12 +3576,11 @@ a.shame-handle:hover {
   border-radius: 999px;
   background: rgba(243, 234, 216, 0.25);
   transform: translate(-50%, -50%);
-  transition: background 0.2s, transform 0.2s, width 0.2s, height 0.2s;
+  transition: background 0.2s, transform 0.2s;
 }
 .scrap-carousel-dots button.is-active::after {
   background: var(--gold-bright);
-  width: 0.7rem;
-  height: 0.7rem;
+  transform: translate(-50%, -50%) scale(1.4);
 }
 
 .scrap-lightbox {

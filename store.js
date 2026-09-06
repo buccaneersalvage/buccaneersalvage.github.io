@@ -444,7 +444,7 @@
       );
       return item._st;
     }
-    if (cat === "material-handling" || /forklift/.test(blob)) {
+    if (cat === "material-handling" || (cat !== "filters" && /forklift/.test(blob))) {
       item._st = packStore(
         "industrial-warehouse",
         "Industrial & Warehouse",
@@ -957,7 +957,7 @@
     const counts = { all: 0 };
     catalog.forEach((i) => {
       const st = itemStoreTree(i);
-      if (!isNonVehicleDept(i)) counts.all++;
+      counts.all++;
       const k = st.parentSlug;
       if (!counts[k]) counts[k] = { label: st.parent, n: 0 };
       counts[k].n++;
@@ -982,7 +982,6 @@
   function inCurrentDept(i) {
     if (!itemHitsParent(i, category)) return false;
     if (activeSub && !itemHitsSub(i, activeSub)) return false;
-    if ((!category || category === "all") && isNonVehicleDept(i)) return false;
     return true;
   }
 
@@ -1272,9 +1271,8 @@
       if (category !== "all") {
         if (!rec || !itemHitsParent(rec, category)) return false;
       }
-      if (rec && isNonVehicleDept(rec)) {
-        if (activeMake || activeModel || activeYear) return false;
-        if (category === "all" && !textQ) return false;
+      if (rec && isNonVehicleDept(rec) && (activeMake || activeModel || activeYear)) {
+        return false;
       }
       if (activeSub) {
         if (!rec || !itemHitsSub(rec, activeSub)) return false;
@@ -1579,8 +1577,7 @@
       );
       byId = new Map(catalog.map((i) => [String(i.id || ""), i]));
       if (countEl) {
-        const autoN = catalog.filter((i) => !isNonVehicleDept(i)).length;
-        countEl.textContent = `${autoN} listings`;
+        countEl.textContent = `${catalog.length} listings`;
       }
       fillCounts();
       const bootQ = new URLSearchParams(location.search).get("q");
