@@ -1,7 +1,7 @@
 {
-  "updated": "2026-09-07T13:33:18Z",
+  "updated": "2026-09-07T18:00:55Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 839,
+  "count": 840,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -43689,6 +43689,205 @@
       "ebay_brand": "WIX",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Filters",
       "stock": 1
+    },
+    {
+      "id": "T7QPN3OZMYHWCHDM6FAEE6M2",
+      "name": "WIX 46234 Air Filter Cavalier 87-94 Century NOS Dent",
+      "price": 14.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/53bda5fba691e13f06806ee43e3d5228279141d4/original.jpeg",
+      "url": "https://square.link/u/N01Tw40P",
+      "category": "filters",
+      "checkout": true,
+      "variation_id": "L62CQSMCXDT2U6KV6YHLAY4O",
+      "stock": 1,
+      "part_numbers": [
+        "46234",
+        "PA2162; NAPA 6234; A1098C; GM 25096829; PA910"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1987\u20131989 Buick Century",
+        "1988 Buick Regal",
+        "1987\u20131988 Cadillac Cimarron",
+        "1987\u20131994 Chevrolet Cavalier",
+        "1987\u20131990 Chevrolet Celebrity",
+        "1987\u20131989 Oldsmobile Cutlass",
+        "1987\u20131989 Oldsmobile Cutlass Ciera",
+        "1987\u20131989 Oldsmobile Cutlass Cruiser",
+        "1988 Oldsmobile Cutlass Supreme",
+        "1987 Oldsmobile Firenza",
+        "1987\u20131991 Pontiac 6000",
+        "1988 Pontiac Grand Prix",
+        "1991\u20131994 Pontiac Sunbird"
+      ],
+      "vehicle_count_raw": 423,
+      "ebay_item_id": "398370107381",
+      "ebay_type": "Air Filter",
+      "ebay_brand": "WIX",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Filters",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "46234",
+          "PA2162; NAPA 6234; A1098C; GM 25096829; PA910"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1987,
+            "year_to": 1989,
+            "make": "Buick",
+            "model": "Century",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1988,
+            "year_to": 1988,
+            "make": "Buick",
+            "model": "Regal",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1988,
+            "make": "Cadillac",
+            "model": "Cimarron",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1994,
+            "make": "Chevrolet",
+            "model": "Cavalier",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1990,
+            "make": "Chevrolet",
+            "model": "Celebrity",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1989,
+            "make": "Oldsmobile",
+            "model": "Cutlass",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1989,
+            "make": "Oldsmobile",
+            "model": "Cutlass Ciera",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1989,
+            "make": "Oldsmobile",
+            "model": "Cutlass Cruiser",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1988,
+            "year_to": 1988,
+            "make": "Oldsmobile",
+            "model": "Cutlass Supreme",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1987,
+            "make": "Oldsmobile",
+            "model": "Firenza",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1991,
+            "make": "Pontiac",
+            "model": "6000",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1988,
+            "year_to": 1988,
+            "make": "Pontiac",
+            "model": "Grand Prix",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1991,
+            "year_to": 1994,
+            "make": "Pontiac",
+            "model": "Sunbird",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1987\u20131989 Buick Century",
+          "1988 Buick Regal",
+          "1987\u20131988 Cadillac Cimarron",
+          "1987\u20131994 Chevrolet Cavalier",
+          "1987\u20131990 Chevrolet Celebrity",
+          "1987\u20131989 Oldsmobile Cutlass",
+          "1987\u20131989 Oldsmobile Cutlass Ciera",
+          "1987\u20131989 Oldsmobile Cutlass Cruiser",
+          "1988 Oldsmobile Cutlass Supreme",
+          "1987 Oldsmobile Firenza",
+          "1987\u20131991 Pontiac 6000",
+          "1988 Pontiac Grand Prix",
+          "1991\u20131994 Pontiac Sunbird"
+        ],
+        "raw_compat_rows": 423,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398370107381",
+        "type": "Air Filter",
+        "brand": "WIX",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Filters"
+      }
     },
     {
       "id": "W5MM5VFJATVRESHXM7OGGXC2",
@@ -117605,5 +117804,5 @@
       "ebay_brand": ""
     }
   ],
-  "fitment_built": "2026-09-07T13:33:18Z"
+  "fitment_built": "2026-09-07T18:00:55Z"
 }
