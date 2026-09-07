@@ -1,7 +1,7 @@
 {
-  "updated": "2026-09-07T18:00:55Z",
+  "updated": "2026-09-07T19:00:56Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 840,
+  "count": 842,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -43699,12 +43699,10 @@
       "category": "filters",
       "checkout": true,
       "variation_id": "L62CQSMCXDT2U6KV6YHLAY4O",
-      "stock": 1,
       "part_numbers": [
         "46234",
         "PA2162; NAPA 6234; A1098C; GM 25096829; PA910"
       ],
-      "interchange": [],
       "vehicles": [
         "1987\u20131989 Buick Century",
         "1988 Buick Regal",
@@ -43720,11 +43718,6 @@
         "1988 Pontiac Grand Prix",
         "1991\u20131994 Pontiac Sunbird"
       ],
-      "vehicle_count_raw": 423,
-      "ebay_item_id": "398370107381",
-      "ebay_type": "Air Filter",
-      "ebay_brand": "WIX",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Filters",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -43887,7 +43880,14 @@
         "type": "Air Filter",
         "brand": "WIX",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Filters"
-      }
+      },
+      "vehicle_count_raw": 423,
+      "ebay_item_id": "398370107381",
+      "ebay_type": "Air Filter",
+      "ebay_brand": "WIX",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Filters",
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "W5MM5VFJATVRESHXM7OGGXC2",
@@ -65498,6 +65498,141 @@
       "interchange": []
     },
     {
+      "id": "63Y7ECXTGXSAZATKEXTKORCF",
+      "name": "MOOG CV2470 Front Outer CV Joint Boot Kit NOS 75-91 Jetta Rabbit Golf VW",
+      "price": 19.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/84638c9af4a5f780357c0f4f1dd3f149b888ba7d/original.jpeg",
+      "url": "https://square.link/u/arlOtvsF",
+      "category": "driveline",
+      "checkout": true,
+      "variation_id": "M3DCWKRQDBB5MQKTGXPXFJIE",
+      "stock": 1,
+      "part_numbers": [
+        "CV2470",
+        "171498203, 321498203, 321407285B"
+      ],
+      "interchange": [
+        "Precision 2470",
+        "85-0906",
+        "103-2110"
+      ],
+      "vehicles": [
+        "1974\u20131981 Volkswagen Dasher",
+        "1987\u20131993 Volkswagen Fox",
+        "1985\u20131991 Volkswagen Golf",
+        "1980\u20131991 Volkswagen Jetta",
+        "1982\u20131985 Volkswagen Quantum",
+        "1975\u20131984 Volkswagen Rabbit",
+        "1975\u20131984 Volkswagen Scirocco"
+      ],
+      "vehicle_count_raw": 405,
+      "ebay_item_id": "398370270427",
+      "ebay_type": "CV Joint Boot Kit",
+      "ebay_brand": "MOOG",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:CV Joints, Boots & Parts",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "CV2470",
+          "171498203, 321498203, 321407285B"
+        ],
+        "interchange": [
+          "Precision 2470",
+          "85-0906",
+          "103-2110"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1974,
+            "year_to": 1981,
+            "make": "Volkswagen",
+            "model": "Dasher",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1993,
+            "make": "Volkswagen",
+            "model": "Fox",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1991,
+            "make": "Volkswagen",
+            "model": "Golf",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1980,
+            "year_to": 1991,
+            "make": "Volkswagen",
+            "model": "Jetta",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1982,
+            "year_to": 1985,
+            "make": "Volkswagen",
+            "model": "Quantum",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1975,
+            "year_to": 1984,
+            "make": "Volkswagen",
+            "model": "Rabbit",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1975,
+            "year_to": 1984,
+            "make": "Volkswagen",
+            "model": "Scirocco",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1974\u20131981 Volkswagen Dasher",
+          "1987\u20131993 Volkswagen Fox",
+          "1985\u20131991 Volkswagen Golf",
+          "1980\u20131991 Volkswagen Jetta",
+          "1982\u20131985 Volkswagen Quantum",
+          "1975\u20131984 Volkswagen Rabbit",
+          "1975\u20131984 Volkswagen Scirocco"
+        ],
+        "raw_compat_rows": 405,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398370270427",
+        "type": "CV Joint Boot Kit",
+        "brand": "MOOG",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:CV Joints, Boots & Parts"
+      }
+    },
+    {
       "id": "NZ6F4QFGH4VYKXOOFPUTQUQE",
       "name": "MOOG CV2485 CV Boot Kit NOS 85-92 Golf Jetta",
       "price": 24.99,
@@ -66091,6 +66226,105 @@
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:CV Joints, Boots & Parts",
       "stock": 1,
       "interchange": []
+    },
+    {
+      "id": "BFQFIWSSBK6RZDMUBBMYIVOE",
+      "name": "MOOG CV6450 Front Outer CV Joint Boot Kit NOS 83-87 Alliance Encore USA",
+      "price": 19.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/247a30773546829163923ab25210f175b46abb70/original.jpeg",
+      "url": "https://square.link/u/tWQLCi1q",
+      "category": "driveline",
+      "checkout": true,
+      "variation_id": "AZR4FBVQQOLPQLHXIBVIL2IZ",
+      "stock": 1,
+      "part_numbers": [
+        "CV6450",
+        "85-0958, 816-1085, 22421"
+      ],
+      "interchange": [
+        "Precision 6450",
+        "103-2285",
+        "66-1085"
+      ],
+      "vehicles": [
+        "1983\u20131987 Renault Alliance",
+        "1984\u20131986 Renault Encore",
+        "1981 Renault R18",
+        "1981\u20131983 Renault R18i"
+      ],
+      "vehicle_count_raw": 134,
+      "ebay_item_id": "398370268877",
+      "ebay_type": "CV Joint Boot Kit",
+      "ebay_brand": "MOOG",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:CV Joints, Boots & Parts",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "CV6450",
+          "85-0958, 816-1085, 22421"
+        ],
+        "interchange": [
+          "Precision 6450",
+          "103-2285",
+          "66-1085"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1983,
+            "year_to": 1987,
+            "make": "Renault",
+            "model": "Alliance",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 1986,
+            "make": "Renault",
+            "model": "Encore",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1981,
+            "year_to": 1981,
+            "make": "Renault",
+            "model": "R18",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1981,
+            "year_to": 1983,
+            "make": "Renault",
+            "model": "R18i",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1983\u20131987 Renault Alliance",
+          "1984\u20131986 Renault Encore",
+          "1981 Renault R18",
+          "1981\u20131983 Renault R18i"
+        ],
+        "raw_compat_rows": 134,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398370268877",
+        "type": "CV Joint Boot Kit",
+        "brand": "MOOG",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:CV Joints, Boots & Parts"
+      }
     },
     {
       "id": "FRYLOLNIYQXUP4LRFR4OW4KH",
@@ -117804,5 +118038,5 @@
       "ebay_brand": ""
     }
   ],
-  "fitment_built": "2026-09-07T18:00:55Z"
+  "fitment_built": "2026-09-07T19:00:56Z"
 }
