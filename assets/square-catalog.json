@@ -1,7 +1,7 @@
 {
-  "updated": "2026-09-07T00:37:07Z",
+  "updated": "2026-09-07T12:00:56Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 838,
+  "count": 839,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -66362,8 +66362,8 @@
     },
     {
       "id": "AMSPWYNEOHSIXCWK62OPTHDD",
-      "name": "Moog CV7451 CV Joint Boot Kit NOS",
-      "price": 24.99,
+      "name": "Moog CV7451 CV Joint Boot Kit 84-91 Tempo Escort Neon Aries Reliant NOS",
+      "price": 20.39,
       "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/ce15873e350bcb16050134189cfbdfe88a099c76/original.jpeg",
       "url": "https://square.link/u/5O3Fi9C5",
       "category": "driveline",
@@ -66436,13 +66436,13 @@
         "raw_compat_rows": 60,
         "source": "ebay_listing",
         "confidence": "high",
-        "ebay_item_id": "398332880123",
+        "ebay_item_id": "398369084485",
         "type": "CV Joint Boot Kit",
         "brand": "Moog",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:CV Joints, Boots & Parts"
       },
       "vehicle_count_raw": 60,
-      "ebay_item_id": "398332880123",
+      "ebay_item_id": "398369084485",
       "ebay_type": "CV Joint Boot Kit",
       "ebay_brand": "Moog",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:CV Joints, Boots & Parts",
@@ -66631,6 +66631,193 @@
       "stock": 1,
       "interchange": [],
       "vehicles": []
+    },
+    {
+      "id": "NNSPLDEJTBG4K45OJODL2YSQ",
+      "name": "Perfect Circle 66-1191 Dana Outer CV Boot Kit Civic CRX Tracker Colt NOS",
+      "price": 24.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/360b644b4e3fc936bbd9181788d8abcb97291bcc/original.jpeg",
+      "url": "https://square.link/u/XnV4Ac22",
+      "category": "driveline",
+      "checkout": true,
+      "variation_id": "C35BYSGKKDZFPOGKANLWS5HS",
+      "stock": 1,
+      "part_numbers": [
+        "66-1191",
+        "2499, MB109183, MB176162, 661191"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1989\u20131998 Chevrolet Tracker",
+        "1989\u20131992 Dodge Colt",
+        "1989\u20131991 GMC Tracker",
+        "1989\u20131997 Geo Tracker",
+        "1988\u20131991 Honda CRX",
+        "1988\u20131997 Honda Civic",
+        "1995\u20131999 Hyundai Accent",
+        "1986\u20131994 Hyundai Excel",
+        "1991\u20131992 Hyundai Scoupe",
+        "1987\u20131994 Mazda 323",
+        "1981\u20131985 Mazda GLC",
+        "1989\u20131992 Plymouth Colt"
+      ],
+      "vehicle_count_raw": 401,
+      "ebay_item_id": "398369082488",
+      "ebay_type": "CV Boot Kit",
+      "ebay_brand": "Perfect Circle",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:CV Joints, Boots & Parts",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "66-1191",
+          "2499, MB109183, MB176162, 661191"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1989,
+            "year_to": 1998,
+            "make": "Chevrolet",
+            "model": "Tracker",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1989,
+            "year_to": 1992,
+            "make": "Dodge",
+            "model": "Colt",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1989,
+            "year_to": 1991,
+            "make": "GMC",
+            "model": "Tracker",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1989,
+            "year_to": 1997,
+            "make": "Geo",
+            "model": "Tracker",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1988,
+            "year_to": 1991,
+            "make": "Honda",
+            "model": "CRX",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1988,
+            "year_to": 1997,
+            "make": "Honda",
+            "model": "Civic",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1995,
+            "year_to": 1999,
+            "make": "Hyundai",
+            "model": "Accent",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1986,
+            "year_to": 1994,
+            "make": "Hyundai",
+            "model": "Excel",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1991,
+            "year_to": 1992,
+            "make": "Hyundai",
+            "model": "Scoupe",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1994,
+            "make": "Mazda",
+            "model": "323",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1981,
+            "year_to": 1985,
+            "make": "Mazda",
+            "model": "GLC",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1989,
+            "year_to": 1992,
+            "make": "Plymouth",
+            "model": "Colt",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1989\u20131998 Chevrolet Tracker",
+          "1989\u20131992 Dodge Colt",
+          "1989\u20131991 GMC Tracker",
+          "1989\u20131997 Geo Tracker",
+          "1988\u20131991 Honda CRX",
+          "1988\u20131997 Honda Civic",
+          "1995\u20131999 Hyundai Accent",
+          "1986\u20131994 Hyundai Excel",
+          "1991\u20131992 Hyundai Scoupe",
+          "1987\u20131994 Mazda 323",
+          "1981\u20131985 Mazda GLC",
+          "1989\u20131992 Plymouth Colt"
+        ],
+        "raw_compat_rows": 401,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398369082488",
+        "type": "CV Boot Kit",
+        "brand": "Perfect Circle",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:CV Joints, Boots & Parts"
+      }
     },
     {
       "id": "JJDFK4IBPT3KFNIL2KOCV24H",
@@ -117418,5 +117605,5 @@
       "ebay_brand": ""
     }
   ],
-  "fitment_built": "2026-09-07T00:37:07Z"
+  "fitment_built": "2026-09-07T12:00:56Z"
 }
