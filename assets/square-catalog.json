@@ -1,7 +1,7 @@
 {
-  "updated": "2026-09-06T15:00:57Z",
+  "updated": "2026-09-07T00:00:58Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 853,
+  "count": 851,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -6731,159 +6731,6 @@
       "vehicle_count_raw": 376,
       "ebay_item_id": "398089189271",
       "ebay_type": "Parking Brake Hardware",
-      "ebay_brand": "Carlson",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware",
-      "stock": 1
-    },
-    {
-      "id": "QMBDXKEAMPHIUN2J7KACJMOF",
-      "name": "Carlson 17390 Drum Brake Hardware Kit \u2013 New in Original Box",
-      "price": 25.49,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/431d68a0fc42fa66097ca89dff2813435e5153a9/original.jpeg",
-      "url": "https://square.link/u/Iu7r8UPa",
-      "category": "brake",
-      "checkout": true,
-      "variation_id": "7WJVVSHTZM32ZLFUGNQXPD4A",
-      "part_numbers": [
-        "17390"
-      ],
-      "interchange": [
-        "118.44029"
-      ],
-      "vehicles": [
-        "1992\u20132003 Lexus ES300",
-        "2004\u20132006 Lexus ES330",
-        "2007\u20132012 Lexus ES350",
-        "1999\u20132003 Lexus RX300",
-        "1995\u20132012 Toyota Avalon",
-        "1992\u20132011 Toyota Camry",
-        "1993\u20131999 Toyota Celica",
-        "2001\u20132003 Toyota Highlander",
-        "1999\u20132008 Toyota Solara"
-      ],
-      "fitment_source": "ebay_listing+carlson_specs",
-      "fitment_confidence": "high",
-      "fitment": {
-        "part_numbers": [
-          "17390"
-        ],
-        "interchange": [
-          "118.44029"
-        ],
-        "vehicles": [
-          {
-            "year_from": 1992,
-            "year_to": 2003,
-            "make": "Lexus",
-            "model": "ES300",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 2004,
-            "year_to": 2006,
-            "make": "Lexus",
-            "model": "ES330",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 2007,
-            "year_to": 2012,
-            "make": "Lexus",
-            "model": "ES350",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1999,
-            "year_to": 2003,
-            "make": "Lexus",
-            "model": "RX300",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1995,
-            "year_to": 2012,
-            "make": "Toyota",
-            "model": "Avalon",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1992,
-            "year_to": 2011,
-            "make": "Toyota",
-            "model": "Camry",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1993,
-            "year_to": 1999,
-            "make": "Toyota",
-            "model": "Celica",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 2001,
-            "year_to": 2003,
-            "make": "Toyota",
-            "model": "Highlander",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1999,
-            "year_to": 2008,
-            "make": "Toyota",
-            "model": "Solara",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          }
-        ],
-        "vehicle_labels": [
-          "1992\u20132003 Lexus ES300",
-          "2004\u20132006 Lexus ES330",
-          "2007\u20132012 Lexus ES350",
-          "1999\u20132003 Lexus RX300",
-          "1995\u20132012 Toyota Avalon",
-          "1992\u20132011 Toyota Camry",
-          "1993\u20131999 Toyota Celica",
-          "2001\u20132003 Toyota Highlander",
-          "1999\u20132008 Toyota Solara"
-        ],
-        "raw_compat_rows": 18,
-        "source": "ebay_listing+carlson_specs",
-        "confidence": "high",
-        "ebay_item_id": "398081923329",
-        "type": "Hardware",
-        "brand": "Carlson",
-        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware"
-      },
-      "vehicle_count_raw": 18,
-      "ebay_item_id": "398081923329",
-      "ebay_type": "Hardware",
       "ebay_brand": "Carlson",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware",
       "stock": 1
@@ -15216,123 +15063,6 @@
       "stock": 1
     },
     {
-      "id": "VFED2WSLJBERZFVVSCX2ON7X",
-      "name": "Carlson H2660 Drum Brake Self-Adjuster Repair Kit",
-      "price": 17.98,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/ed648710d953c287d36e8b615cbd8b91b58ce0ff/original.jpeg",
-      "url": "https://square.link/u/OxfZRIzO",
-      "category": "brake",
-      "checkout": true,
-      "variation_id": "P52H32A3KBYJLMC5AWCOR6RM",
-      "part_numbers": [
-        "H2660"
-      ],
-      "interchange": [
-        "119.64006"
-      ],
-      "vehicles": [
-        "2001 Ford F-100 Ranger",
-        "1995\u20132009 Ford Ranger",
-        "1995\u20132009 Mazda B2300",
-        "1998\u20132001 Mazda B2500",
-        "1995\u20132008 Mazda B3000",
-        "1995\u20132009 Mazda B4000"
-      ],
-      "fitment_source": "ebay_listing+carlson_specs",
-      "fitment_confidence": "high",
-      "fitment": {
-        "part_numbers": [
-          "H2660"
-        ],
-        "interchange": [
-          "119.64006"
-        ],
-        "vehicles": [
-          {
-            "year_from": 2001,
-            "year_to": 2001,
-            "make": "Ford",
-            "model": "F-100 Ranger",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1995,
-            "year_to": 2009,
-            "make": "Ford",
-            "model": "Ranger",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1995,
-            "year_to": 2009,
-            "make": "Mazda",
-            "model": "B2300",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1998,
-            "year_to": 2001,
-            "make": "Mazda",
-            "model": "B2500",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1995,
-            "year_to": 2008,
-            "make": "Mazda",
-            "model": "B3000",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1995,
-            "year_to": 2009,
-            "make": "Mazda",
-            "model": "B4000",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          }
-        ],
-        "vehicle_labels": [
-          "2001 Ford F-100 Ranger",
-          "1995\u20132009 Ford Ranger",
-          "1995\u20132009 Mazda B2300",
-          "1998\u20132001 Mazda B2500",
-          "1995\u20132008 Mazda B3000",
-          "1995\u20132009 Mazda B4000"
-        ],
-        "raw_compat_rows": 11,
-        "source": "ebay_listing+carlson_specs",
-        "confidence": "high",
-        "ebay_item_id": "398081931640",
-        "type": "Repair Kit",
-        "brand": "Carlson",
-        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware"
-      },
-      "vehicle_count_raw": 11,
-      "ebay_item_id": "398081931640",
-      "ebay_type": "Repair Kit",
-      "ebay_brand": "Carlson",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware",
-      "stock": 1
-    },
-    {
       "id": "XQ7A3WW7Q6GQNZTRH64EBYCK",
       "name": "Carlson H2663 Drum Brake Self-Adjuster Kit 95-09 Ford Ranger B-Series Right",
       "price": 19.99,
@@ -21303,6 +21033,14 @@
       "part_numbers": [
         "H5107-2"
       ],
+      "vehicles": [
+        "1976\u20131980 Buick Skyhawk",
+        "1976\u20131980 Chevrolet Monza",
+        "1976\u20131977 Chevrolet Vega",
+        "1976\u20131980 Oldsmobile Starfire",
+        "1976\u20131977 Pontiac Astre",
+        "1976\u20131980 Pontiac Sunbird"
+      ],
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -21394,15 +21132,7 @@
       "ebay_brand": "Carlson",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware",
       "stock": 1,
-      "interchange": [],
-      "vehicles": [
-        "1976\u20131980 Buick Skyhawk",
-        "1976\u20131980 Chevrolet Monza",
-        "1976\u20131977 Chevrolet Vega",
-        "1976\u20131980 Oldsmobile Starfire",
-        "1976\u20131977 Pontiac Astre",
-        "1976\u20131980 Pontiac Sunbird"
-      ]
+      "interchange": []
     },
     {
       "id": "CODU7BN4KGSBU7WVFBZCL4F7",
@@ -22967,6 +22697,17 @@
       "part_numbers": [
         "H5430-2"
       ],
+      "vehicles": [
+        "1992\u20131993 Ford Crown Victoria",
+        "1991\u20131993 Ford Grand Marquis",
+        "1979\u20131986 Ford LTD",
+        "1987\u20131991 Ford LTD Crown Victoria",
+        "1980 Lincoln Continental",
+        "1980\u20131981 Lincoln Mark VI",
+        "1981 Lincoln Town Car",
+        "1981\u20131993 Mercury Grand Marquis",
+        "1981\u20131986 Mercury Marquis"
+      ],
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -23091,18 +22832,7 @@
       "ebay_brand": "Carlson",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware",
       "stock": 1,
-      "interchange": [],
-      "vehicles": [
-        "1992\u20131993 Ford Crown Victoria",
-        "1991\u20131993 Ford Grand Marquis",
-        "1979\u20131986 Ford LTD",
-        "1987\u20131991 Ford LTD Crown Victoria",
-        "1980 Lincoln Continental",
-        "1980\u20131981 Lincoln Mark VI",
-        "1981 Lincoln Town Car",
-        "1981\u20131993 Mercury Grand Marquis",
-        "1981\u20131986 Mercury Marquis"
-      ]
+      "interchange": []
     },
     {
       "id": "SU3CGU6QYUT76IMNM72M6AVW",
@@ -56986,7 +56716,6 @@
       "category": "ignition",
       "checkout": true,
       "variation_id": "YOPCSTDBVX4LXYHTPQS7HWZA",
-      "stock": 1,
       "part_numbers": [
         "DR-323",
         "DR323, D446, 4R1052, 10495408, 10497452"
@@ -57028,11 +56757,6 @@
         "1988\u20131992 GMC C2500",
         "1985\u20131987 GMC Caballero"
       ],
-      "vehicle_count_raw": 841,
-      "ebay_item_id": "398346953021",
-      "ebay_type": "Distributor Rotor",
-      "ebay_brand": "Standard Motor Products",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -57386,7 +57110,13 @@
         "type": "Distributor Rotor",
         "brand": "Standard Motor Products",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors"
-      }
+      },
+      "vehicle_count_raw": 841,
+      "ebay_item_id": "398346953021",
+      "ebay_type": "Distributor Rotor",
+      "ebay_brand": "Standard Motor Products",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors",
+      "stock": 1
     },
     {
       "id": "TPSOHKORO4WMGKQHKXBVMF2I",
@@ -68286,20 +68016,13 @@
       "category": "driveline",
       "checkout": true,
       "variation_id": "IMRD4SQD5H64F7EWMQ7QDE7D",
-      "stock": 1,
       "part_numbers": [
         "03600",
         "Motormite, R&B Inc"
       ],
-      "interchange": [],
       "vehicles": [
         "1980 Audi 4000"
       ],
-      "vehicle_count_raw": 4,
-      "ebay_item_id": "398358611914",
-      "ebay_type": "CV Boot Kit",
-      "ebay_brand": "Speedi-Boot",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:CV Joints, Boots & Parts",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -68330,7 +68053,14 @@
         "type": "CV Boot Kit",
         "brand": "Speedi-Boot",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:CV Joints, Boots & Parts"
-      }
+      },
+      "vehicle_count_raw": 4,
+      "ebay_item_id": "398358611914",
+      "ebay_type": "CV Boot Kit",
+      "ebay_brand": "Speedi-Boot",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:CV Joints, Boots & Parts",
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "CRLDKKMMFZKD7W2743J3IPI7",
@@ -68341,21 +68071,14 @@
       "category": "driveline",
       "checkout": true,
       "variation_id": "DHKOOTP5JXA6OU24XJFTXM2I",
-      "stock": 1,
       "part_numbers": [
         "03609",
         "Motormite, R&B Inc"
       ],
-      "interchange": [],
       "vehicles": [
         "1967\u20131978 Cadillac Eldorado",
         "1967\u20131978 Oldsmobile Toronado"
       ],
-      "vehicle_count_raw": 72,
-      "ebay_item_id": "398358615707",
-      "ebay_type": "CV Boot Kit",
-      "ebay_brand": "Speedi-Boot",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:CV Joints, Boots & Parts",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -68397,7 +68120,14 @@
         "type": "CV Boot Kit",
         "brand": "Speedi-Boot",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:CV Joints, Boots & Parts"
-      }
+      },
+      "vehicle_count_raw": 72,
+      "ebay_item_id": "398358615707",
+      "ebay_type": "CV Boot Kit",
+      "ebay_brand": "Speedi-Boot",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:CV Joints, Boots & Parts",
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "KQC5MTS5RVMU2TH3D2NOS4JE",
@@ -68408,20 +68138,13 @@
       "category": "driveline",
       "checkout": true,
       "variation_id": "PLA3RMKMNWUULYFCOCYZLWM3",
-      "stock": 1,
       "part_numbers": [
         "03612",
         "Motormite"
       ],
-      "interchange": [],
       "vehicles": [
         "1982\u20131985 Nissan Sentra"
       ],
-      "vehicle_count_raw": 47,
-      "ebay_item_id": "398358616659",
-      "ebay_type": "CV Boot Kit",
-      "ebay_brand": "Speedi-Boot",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:CV Joints, Boots & Parts",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -68452,7 +68175,14 @@
         "type": "CV Boot Kit",
         "brand": "Speedi-Boot",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:CV Joints, Boots & Parts"
-      }
+      },
+      "vehicle_count_raw": 47,
+      "ebay_item_id": "398358616659",
+      "ebay_type": "CV Boot Kit",
+      "ebay_brand": "Speedi-Boot",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:CV Joints, Boots & Parts",
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "ACIZB62Y2YH5WZ3GWEXPGKJE",
@@ -73524,15 +73254,6 @@
       "category": "other",
       "checkout": true,
       "variation_id": "UBX64UJ3LUOOQNCTXFAWJTX4",
-      "stock": 1,
-      "part_numbers": [],
-      "interchange": [],
-      "vehicles": [],
-      "vehicle_count_raw": 0,
-      "ebay_item_id": "398182147137",
-      "ebay_type": "Movie",
-      "ebay_brand": "Jesse Duplantis Ministries",
-      "ebay_category": "Movies & TV:DVDs & Blu-ray Discs",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "medium",
       "fitment": {
@@ -73547,7 +73268,16 @@
         "type": "Movie",
         "brand": "Jesse Duplantis Ministries",
         "ebay_category": "Movies & TV:DVDs & Blu-ray Discs"
-      }
+      },
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398182147137",
+      "ebay_type": "Movie",
+      "ebay_brand": "Jesse Duplantis Ministries",
+      "ebay_category": "Movies & TV:DVDs & Blu-ray Discs",
+      "stock": 1,
+      "part_numbers": [],
+      "interchange": [],
+      "vehicles": []
     },
     {
       "id": "AEOP6VWNTLDURMOOLNN4QRNS",
@@ -93770,17 +93500,9 @@
       "category": "other",
       "checkout": true,
       "variation_id": "LHOICPKMTB6NN6HSP35RXOHT",
-      "stock": 1,
       "part_numbers": [
         "X0438D"
       ],
-      "interchange": [],
-      "vehicles": [],
-      "vehicle_count_raw": 0,
-      "ebay_item_id": "398182831120",
-      "ebay_type": "Instructional",
-      "ebay_brand": "GunVideo",
-      "ebay_category": "Movies & TV:DVDs & Blu-ray Discs",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "medium",
       "fitment": {
@@ -93797,7 +93519,15 @@
         "type": "Instructional",
         "brand": "GunVideo",
         "ebay_category": "Movies & TV:DVDs & Blu-ray Discs"
-      }
+      },
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398182831120",
+      "ebay_type": "Instructional",
+      "ebay_brand": "GunVideo",
+      "ebay_category": "Movies & TV:DVDs & Blu-ray Discs",
+      "stock": 1,
+      "interchange": [],
+      "vehicles": []
     },
     {
       "id": "JXSAJGLQRD3AMK6UNNLXN2PX",
@@ -98392,17 +98122,9 @@
       "category": "other",
       "checkout": true,
       "variation_id": "OAN5RDMI6BE6N6U7J3DH7B7U",
-      "stock": 1,
       "part_numbers": [
         "AGB-BWCE-USA"
       ],
-      "interchange": [],
-      "vehicles": [],
-      "vehicle_count_raw": 0,
-      "ebay_item_id": "398358638234",
-      "ebay_type": "Cartridge",
-      "ebay_brand": "Majesco",
-      "ebay_category": "Toys & Hobbies:Games:Electronic Games",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "medium",
       "fitment": {
@@ -98419,7 +98141,15 @@
         "type": "Cartridge",
         "brand": "Majesco",
         "ebay_category": "Toys & Hobbies:Games:Electronic Games"
-      }
+      },
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398358638234",
+      "ebay_type": "Cartridge",
+      "ebay_brand": "Majesco",
+      "ebay_category": "Toys & Hobbies:Games:Electronic Games",
+      "stock": 1,
+      "interchange": [],
+      "vehicles": []
     },
     {
       "id": "7PHGMCTGVDLTOS37IXK4HBGE",
@@ -105724,15 +105454,6 @@
       "category": "other",
       "checkout": true,
       "variation_id": "GBHGR252ZY2NZ54TT5NAAQA5",
-      "stock": 1,
-      "part_numbers": [],
-      "interchange": [],
-      "vehicles": [],
-      "vehicle_count_raw": 0,
-      "ebay_item_id": "398182273233",
-      "ebay_type": "Movie",
-      "ebay_brand": "Sony Pictures",
-      "ebay_category": "Movies & TV:DVDs & Blu-ray Discs",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "medium",
       "fitment": {
@@ -105747,7 +105468,16 @@
         "type": "Movie",
         "brand": "Sony Pictures",
         "ebay_category": "Movies & TV:DVDs & Blu-ray Discs"
-      }
+      },
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398182273233",
+      "ebay_type": "Movie",
+      "ebay_brand": "Sony Pictures",
+      "ebay_category": "Movies & TV:DVDs & Blu-ray Discs",
+      "stock": 1,
+      "part_numbers": [],
+      "interchange": [],
+      "vehicles": []
     },
     {
       "id": "HBW7V4XAT5JYO4FEZPTSCZ5M",
@@ -115895,15 +115625,6 @@
       "category": "other",
       "checkout": true,
       "variation_id": "4MTHL4KIYKMENQJXYGK5KEZK",
-      "stock": 1,
-      "part_numbers": [],
-      "interchange": [],
-      "vehicles": [],
-      "vehicle_count_raw": 0,
-      "ebay_item_id": "398182249770",
-      "ebay_type": "Movie",
-      "ebay_brand": "",
-      "ebay_category": "Movies & TV:DVDs & Blu-ray Discs",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "medium",
       "fitment": {
@@ -115918,7 +115639,16 @@
         "type": "Movie",
         "brand": "",
         "ebay_category": "Movies & TV:DVDs & Blu-ray Discs"
-      }
+      },
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398182249770",
+      "ebay_type": "Movie",
+      "ebay_category": "Movies & TV:DVDs & Blu-ray Discs",
+      "stock": 1,
+      "part_numbers": [],
+      "interchange": [],
+      "vehicles": [],
+      "ebay_brand": ""
     },
     {
       "id": "7GJYTQHQNFXOOT6UNZEBX5ML",
@@ -116005,15 +115735,6 @@
       "category": "other",
       "checkout": true,
       "variation_id": "BCLVNPMEAJZJU3R2X575NSET",
-      "stock": 1,
-      "part_numbers": [],
-      "interchange": [],
-      "vehicles": [],
-      "vehicle_count_raw": 0,
-      "ebay_item_id": "398182160697",
-      "ebay_type": "Movie",
-      "ebay_brand": "Warner Bros.",
-      "ebay_category": "Movies & TV:DVDs & Blu-ray Discs",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "medium",
       "fitment": {
@@ -116028,7 +115749,16 @@
         "type": "Movie",
         "brand": "Warner Bros.",
         "ebay_category": "Movies & TV:DVDs & Blu-ray Discs"
-      }
+      },
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398182160697",
+      "ebay_type": "Movie",
+      "ebay_brand": "Warner Bros.",
+      "ebay_category": "Movies & TV:DVDs & Blu-ray Discs",
+      "stock": 1,
+      "part_numbers": [],
+      "interchange": [],
+      "vehicles": []
     },
     {
       "id": "PMMHFPDOXFZZMZF5KNT6C3VC",
@@ -116113,15 +115843,6 @@
       "category": "other",
       "checkout": true,
       "variation_id": "TBI66OG2JLRDX5IDFTOPN7J4",
-      "stock": 1,
-      "part_numbers": [],
-      "interchange": [],
-      "vehicles": [],
-      "vehicle_count_raw": 0,
-      "ebay_item_id": "398182239447",
-      "ebay_type": "Movie",
-      "ebay_brand": "Warner Bros.",
-      "ebay_category": "Movies & TV:DVDs & Blu-ray Discs",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "medium",
       "fitment": {
@@ -116136,7 +115857,16 @@
         "type": "Movie",
         "brand": "Warner Bros.",
         "ebay_category": "Movies & TV:DVDs & Blu-ray Discs"
-      }
+      },
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398182239447",
+      "ebay_type": "Movie",
+      "ebay_brand": "Warner Bros.",
+      "ebay_category": "Movies & TV:DVDs & Blu-ray Discs",
+      "stock": 1,
+      "part_numbers": [],
+      "interchange": [],
+      "vehicles": []
     },
     {
       "id": "UIZBKAXWFXNVQHANFP3BEQTU",
@@ -116181,15 +115911,6 @@
       "category": "other",
       "checkout": true,
       "variation_id": "T7EGRHR6YJA3WJ2EUDHLMWXG",
-      "stock": 1,
-      "part_numbers": [],
-      "interchange": [],
-      "vehicles": [],
-      "vehicle_count_raw": 0,
-      "ebay_item_id": "398182321556",
-      "ebay_type": "Movie",
-      "ebay_brand": "20th Century Fox",
-      "ebay_category": "Movies & TV:DVDs & Blu-ray Discs",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "medium",
       "fitment": {
@@ -116204,7 +115925,16 @@
         "type": "Movie",
         "brand": "20th Century Fox",
         "ebay_category": "Movies & TV:DVDs & Blu-ray Discs"
-      }
+      },
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398182321556",
+      "ebay_type": "Movie",
+      "ebay_brand": "20th Century Fox",
+      "ebay_category": "Movies & TV:DVDs & Blu-ray Discs",
+      "stock": 1,
+      "part_numbers": [],
+      "interchange": [],
+      "vehicles": []
     },
     {
       "id": "XCHI6EDFNOF6P4BTTTEGWSS7",
@@ -116215,15 +115945,6 @@
       "category": "other",
       "checkout": true,
       "variation_id": "TQB4M2YGPOUBJMM5QOX6CQUI",
-      "stock": 1,
-      "part_numbers": [],
-      "interchange": [],
-      "vehicles": [],
-      "vehicle_count_raw": 0,
-      "ebay_item_id": "397897422837",
-      "ebay_type": "DVD Player",
-      "ebay_brand": "Toshiba",
-      "ebay_category": "Consumer Electronics:TV, Video & Home Audio:TV & Video:DVD & Blu-ray Players",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "medium",
       "fitment": {
@@ -116238,7 +115959,16 @@
         "type": "DVD Player",
         "brand": "Toshiba",
         "ebay_category": "Consumer Electronics:TV, Video & Home Audio:TV & Video:DVD & Blu-ray Players"
-      }
+      },
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "397897422837",
+      "ebay_type": "DVD Player",
+      "ebay_brand": "Toshiba",
+      "ebay_category": "Consumer Electronics:TV, Video & Home Audio:TV & Video:DVD & Blu-ray Players",
+      "stock": 1,
+      "part_numbers": [],
+      "interchange": [],
+      "vehicles": []
     },
     {
       "id": "BP3WAE6OTPH4X5HN7URTIPKZ",
@@ -116576,18 +116306,10 @@
       "category": "other",
       "checkout": true,
       "variation_id": "F4SWZ7ZA3YZQB2QLOCU7Q5OM",
-      "stock": 1,
       "part_numbers": [
         "1025",
         "Vidtec, VC 1001"
       ],
-      "interchange": [],
-      "vehicles": [],
-      "vehicle_count_raw": 0,
-      "ebay_item_id": "398358636971",
-      "ebay_type": "Cartridge",
-      "ebay_brand": "U.S. Games",
-      "ebay_category": "Toys & Hobbies:Games:Electronic Games",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -116605,7 +116327,15 @@
         "type": "Cartridge",
         "brand": "U.S. Games",
         "ebay_category": "Toys & Hobbies:Games:Electronic Games"
-      }
+      },
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398358636971",
+      "ebay_type": "Cartridge",
+      "ebay_brand": "U.S. Games",
+      "ebay_category": "Toys & Hobbies:Games:Electronic Games",
+      "stock": 1,
+      "interchange": [],
+      "vehicles": []
     },
     {
       "id": "Y4JOOESSSXWL3UXRRWM324UN",
@@ -118959,5 +118689,5 @@
       "ebay_brand": ""
     }
   ],
-  "fitment_built": "2026-09-06T15:00:57Z"
+  "fitment_built": "2026-09-07T00:00:58Z"
 }
