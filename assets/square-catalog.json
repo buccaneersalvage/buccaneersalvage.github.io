@@ -1,7 +1,7 @@
 {
-  "updated": "2026-09-07T19:00:56Z",
+  "updated": "2026-09-07T20:01:01Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 842,
+  "count": 843,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -15355,6 +15355,325 @@
       "ebay_brand": "Carlson",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware",
       "stock": 1
+    },
+    {
+      "id": "7A5BNSS737LKFR6IKNK3G4MF",
+      "name": "Carlson H4090-2 Drum Brake Shoe Hold Down Kit 72-75 Torino Mustang Cougar NOS",
+      "price": 12.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/de7c6e6a7ade47f0288d5f743295d99203e1e188/original.jpeg",
+      "url": "https://square.link/u/HW4aj0Hf",
+      "category": "brake",
+      "checkout": true,
+      "variation_id": "BQE7V6UAEJYOQ2AGJ5P4DRYT",
+      "stock": 1,
+      "part_numbers": [
+        "H4090-2",
+        "13-7877-2, H40902, BHH0"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1986\u20131989 Ford Aerostar",
+        "1987\u20131991 Ford Country Squire",
+        "1975 Ford Elite",
+        "1980\u20131983 Ford F-100",
+        "1980\u20131983 Ford F-150",
+        "1972\u20131975 Ford Gran Torino",
+        "1975\u20131980 Ford Granada",
+        "1979\u20131986 Ford LTD",
+        "1987\u20131991 Ford LTD Crown Victoria",
+        "1971\u20131975 Ford Maverick",
+        "1972\u20131973 Ford Mustang",
+        "1984\u20131989 Ford Ranger",
+        "1972\u20131975 Ford Torino",
+        "1980\u20131990 Lincoln Continental",
+        "1980\u20131983 Lincoln Mark VI",
+        "1981\u20131990 Lincoln Town Car",
+        "1991\u20131994 Mazda Navajo",
+        "1972\u20131975 Mercury Comet",
+        "1972\u20131975 Mercury Cougar",
+        "1981\u20131991 Mercury Grand Marquis",
+        "1981\u20131986 Mercury Marquis",
+        "1975\u20131980 Mercury Monarch",
+        "1972\u20131975 Mercury Montego"
+      ],
+      "vehicle_count_raw": 1860,
+      "ebay_item_id": "398370394845",
+      "ebay_type": "Drum Brake Shoe Hold Down Kit",
+      "ebay_brand": "Carlson",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "H4090-2",
+          "13-7877-2, H40902, BHH0"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1986,
+            "year_to": 1989,
+            "make": "Ford",
+            "model": "Aerostar",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1991,
+            "make": "Ford",
+            "model": "Country Squire",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1975,
+            "year_to": 1975,
+            "make": "Ford",
+            "model": "Elite",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1980,
+            "year_to": 1983,
+            "make": "Ford",
+            "model": "F-100",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1980,
+            "year_to": 1983,
+            "make": "Ford",
+            "model": "F-150",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1972,
+            "year_to": 1975,
+            "make": "Ford",
+            "model": "Gran Torino",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1975,
+            "year_to": 1980,
+            "make": "Ford",
+            "model": "Granada",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1979,
+            "year_to": 1986,
+            "make": "Ford",
+            "model": "LTD",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1991,
+            "make": "Ford",
+            "model": "LTD Crown Victoria",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1971,
+            "year_to": 1975,
+            "make": "Ford",
+            "model": "Maverick",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1972,
+            "year_to": 1973,
+            "make": "Ford",
+            "model": "Mustang",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 1989,
+            "make": "Ford",
+            "model": "Ranger",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1972,
+            "year_to": 1975,
+            "make": "Ford",
+            "model": "Torino",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1980,
+            "year_to": 1990,
+            "make": "Lincoln",
+            "model": "Continental",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1980,
+            "year_to": 1983,
+            "make": "Lincoln",
+            "model": "Mark VI",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1981,
+            "year_to": 1990,
+            "make": "Lincoln",
+            "model": "Town Car",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1991,
+            "year_to": 1994,
+            "make": "Mazda",
+            "model": "Navajo",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1972,
+            "year_to": 1975,
+            "make": "Mercury",
+            "model": "Comet",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1972,
+            "year_to": 1975,
+            "make": "Mercury",
+            "model": "Cougar",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1981,
+            "year_to": 1991,
+            "make": "Mercury",
+            "model": "Grand Marquis",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1981,
+            "year_to": 1986,
+            "make": "Mercury",
+            "model": "Marquis",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1975,
+            "year_to": 1980,
+            "make": "Mercury",
+            "model": "Monarch",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1972,
+            "year_to": 1975,
+            "make": "Mercury",
+            "model": "Montego",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1986\u20131989 Ford Aerostar",
+          "1987\u20131991 Ford Country Squire",
+          "1975 Ford Elite",
+          "1980\u20131983 Ford F-100",
+          "1980\u20131983 Ford F-150",
+          "1972\u20131975 Ford Gran Torino",
+          "1975\u20131980 Ford Granada",
+          "1979\u20131986 Ford LTD",
+          "1987\u20131991 Ford LTD Crown Victoria",
+          "1971\u20131975 Ford Maverick",
+          "1972\u20131973 Ford Mustang",
+          "1984\u20131989 Ford Ranger",
+          "1972\u20131975 Ford Torino",
+          "1980\u20131990 Lincoln Continental",
+          "1980\u20131983 Lincoln Mark VI",
+          "1981\u20131990 Lincoln Town Car",
+          "1991\u20131994 Mazda Navajo",
+          "1972\u20131975 Mercury Comet",
+          "1972\u20131975 Mercury Cougar",
+          "1981\u20131991 Mercury Grand Marquis",
+          "1981\u20131986 Mercury Marquis",
+          "1975\u20131980 Mercury Monarch",
+          "1972\u20131975 Mercury Montego"
+        ],
+        "raw_compat_rows": 1860,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398370394845",
+        "type": "Drum Brake Shoe Hold Down Kit",
+        "brand": "Carlson",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware"
+      }
     },
     {
       "id": "CLMFA7X63KOP4FYYZGX6ZQDR",
@@ -65506,7 +65825,6 @@
       "category": "driveline",
       "checkout": true,
       "variation_id": "M3DCWKRQDBB5MQKTGXPXFJIE",
-      "stock": 1,
       "part_numbers": [
         "CV2470",
         "171498203, 321498203, 321407285B"
@@ -65525,11 +65843,6 @@
         "1975\u20131984 Volkswagen Rabbit",
         "1975\u20131984 Volkswagen Scirocco"
       ],
-      "vehicle_count_raw": 405,
-      "ebay_item_id": "398370270427",
-      "ebay_type": "CV Joint Boot Kit",
-      "ebay_brand": "MOOG",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:CV Joints, Boots & Parts",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -65630,7 +65943,13 @@
         "type": "CV Joint Boot Kit",
         "brand": "MOOG",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:CV Joints, Boots & Parts"
-      }
+      },
+      "vehicle_count_raw": 405,
+      "ebay_item_id": "398370270427",
+      "ebay_type": "CV Joint Boot Kit",
+      "ebay_brand": "MOOG",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:CV Joints, Boots & Parts",
+      "stock": 1
     },
     {
       "id": "NZ6F4QFGH4VYKXOOFPUTQUQE",
@@ -66236,7 +66555,6 @@
       "category": "driveline",
       "checkout": true,
       "variation_id": "AZR4FBVQQOLPQLHXIBVIL2IZ",
-      "stock": 1,
       "part_numbers": [
         "CV6450",
         "85-0958, 816-1085, 22421"
@@ -66252,11 +66570,6 @@
         "1981 Renault R18",
         "1981\u20131983 Renault R18i"
       ],
-      "vehicle_count_raw": 134,
-      "ebay_item_id": "398370268877",
-      "ebay_type": "CV Joint Boot Kit",
-      "ebay_brand": "MOOG",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:CV Joints, Boots & Parts",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -66324,7 +66637,13 @@
         "type": "CV Joint Boot Kit",
         "brand": "MOOG",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:CV Joints, Boots & Parts"
-      }
+      },
+      "vehicle_count_raw": 134,
+      "ebay_item_id": "398370268877",
+      "ebay_type": "CV Joint Boot Kit",
+      "ebay_brand": "MOOG",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:CV Joints, Boots & Parts",
+      "stock": 1
     },
     {
       "id": "FRYLOLNIYQXUP4LRFR4OW4KH",
@@ -118038,5 +118357,5 @@
       "ebay_brand": ""
     }
   ],
-  "fitment_built": "2026-09-07T19:00:56Z"
+  "fitment_built": "2026-09-07T20:01:01Z"
 }
