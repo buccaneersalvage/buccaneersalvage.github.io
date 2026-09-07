@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-07T12:00:56Z",
+  "updated": "2026-09-07T13:33:18Z",
   "store": "https://buccaneersalvage.square.site/",
   "count": 839,
   "items": [
@@ -65245,7 +65245,7 @@
     },
     {
       "id": "BCSBL46NLOJF2NDIY5AE2GJC",
-      "name": "MOOG CV2460 CV Joint Boot Kit Cavalier NOS",
+      "name": "MOOG CV2460 Outer CV Joint Boot Kit 82-84 Cavalier Clamps Grease NOS USA",
       "price": 19.99,
       "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/d901f8640264aae95d6e874ef0e84c44100a5468/original.jpeg",
       "url": "https://square.link/u/xDiZW0La",
@@ -65285,13 +65285,13 @@
         "raw_compat_rows": 50,
         "source": "ebay_listing",
         "confidence": "high",
-        "ebay_item_id": "398357204125",
+        "ebay_item_id": "398369421308",
         "type": "CV Joint Boot Kit",
         "brand": "MOOG",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:CV Joints, Boots & Parts"
       },
       "vehicle_count_raw": 50,
-      "ebay_item_id": "398357204125",
+      "ebay_item_id": "398369421308",
       "ebay_type": "CV Joint Boot Kit",
       "ebay_brand": "MOOG",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:CV Joints, Boots & Parts",
@@ -66641,12 +66641,10 @@
       "category": "driveline",
       "checkout": true,
       "variation_id": "C35BYSGKKDZFPOGKANLWS5HS",
-      "stock": 1,
       "part_numbers": [
         "66-1191",
         "2499, MB109183, MB176162, 661191"
       ],
-      "interchange": [],
       "vehicles": [
         "1989\u20131998 Chevrolet Tracker",
         "1989\u20131992 Dodge Colt",
@@ -66661,11 +66659,6 @@
         "1981\u20131985 Mazda GLC",
         "1989\u20131992 Plymouth Colt"
       ],
-      "vehicle_count_raw": 401,
-      "ebay_item_id": "398369082488",
-      "ebay_type": "CV Boot Kit",
-      "ebay_brand": "Perfect Circle",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:CV Joints, Boots & Parts",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -66817,7 +66810,14 @@
         "type": "CV Boot Kit",
         "brand": "Perfect Circle",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:CV Joints, Boots & Parts"
-      }
+      },
+      "vehicle_count_raw": 401,
+      "ebay_item_id": "398369082488",
+      "ebay_type": "CV Boot Kit",
+      "ebay_brand": "Perfect Circle",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:CV Joints, Boots & Parts",
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "JJDFK4IBPT3KFNIL2KOCV24H",
@@ -117605,5 +117605,5 @@
       "ebay_brand": ""
     }
   ],
-  "fitment_built": "2026-09-07T12:00:56Z"
+  "fitment_built": "2026-09-07T13:33:18Z"
 }
