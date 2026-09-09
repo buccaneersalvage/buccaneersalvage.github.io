@@ -1,7 +1,7 @@
 {
-  "updated": "2026-09-09T09:01:42Z",
+  "updated": "2026-09-09T13:33:53Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 826,
+  "count": 825,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -47836,477 +47836,6 @@
       "stock": 1
     },
     {
-      "id": "3TXARKOUGFEDR2NWA7V3YQZ5",
-      "name": "WIX 51794 Oil Filter NOS Fits Chevy GMC Trucks 73-93",
-      "price": 29.99,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/0651a93ad6070d8238851139189d3b5501ae1f41/original.jpeg",
-      "url": "https://square.link/u/zaMi5FZM",
-      "category": "filters",
-      "checkout": true,
-      "variation_id": "UDSLBLCBLKL64Z5CBBFKECEQ",
-      "part_numbers": [
-        "51794",
-        "LFP170832, PH373, LFP832, L40084"
-      ],
-      "interchange": [
-        "NAPA 1794",
-        "B7",
-        "LF692"
-      ],
-      "vehicles": [
-        "1994 Blue Bird Commercial Bus",
-        "1993 Blue Bird SHL TC2000",
-        "1998 Blue Bird TC1000",
-        "1992\u20131998 Blue Bird TC2000",
-        "1980\u20131991 Chevrolet B60",
-        "1993\u20132000 Chevrolet B7",
-        "1990\u20131991 Chevrolet C5500 Kodiak",
-        "1980\u20131990 Chevrolet C60",
-        "1990\u20131996 Chevrolet C60 Kodiak",
-        "1997\u20132000 Chevrolet C6500 Kodiak",
-        "1980\u20131990 Chevrolet C70",
-        "1990\u20131996 Chevrolet C70 Kodiak",
-        "1997\u20132000 Chevrolet C7500 Kodiak",
-        "1983\u20131996 Chevrolet P60",
-        "1992\u20131996 Chevrolet P6000",
-        "1997\u20131998 Chevrolet T6500",
-        "1997\u20131998 Chevrolet T7500",
-        "1995\u20132003 Chevrolet W3500 Tiltmaster",
-        "1998\u20132003 Chevrolet W4500 Tiltmaster",
-        "1980\u20131991 GMC B6000",
-        "1993\u20132000 GMC B7",
-        "1981 GMC Brigadier",
-        "1990\u20131991 GMC C5000 Topkick",
-        "1980\u20131990 GMC C6000",
-        "1990\u20131996 GMC C6000 Topkick",
-        "1997\u20132000 GMC C6500 Topkick",
-        "1980\u20131990 GMC C7000",
-        "1990\u20131996 GMC C7000 Topkick",
-        "1997\u20132000 GMC C7500 Topkick",
-        "1992\u20131996 GMC P6000",
-        "1992\u20131996 GMC P6500",
-        "1997\u20131998 GMC T6500",
-        "1997\u20131998 GMC T7500",
-        "1995\u20132003 GMC W3500 Forward",
-        "1998\u20132003 GMC W4500 Forward"
-      ],
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "high",
-      "fitment": {
-        "part_numbers": [
-          "51794",
-          "LFP170832, PH373, LFP832, L40084"
-        ],
-        "interchange": [
-          "NAPA 1794",
-          "B7",
-          "LF692"
-        ],
-        "vehicles": [
-          {
-            "year_from": 1994,
-            "year_to": 1994,
-            "make": "Blue Bird",
-            "model": "Commercial Bus",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1993,
-            "year_to": 1993,
-            "make": "Blue Bird",
-            "model": "SHL TC2000",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1998,
-            "year_to": 1998,
-            "make": "Blue Bird",
-            "model": "TC1000",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1992,
-            "year_to": 1998,
-            "make": "Blue Bird",
-            "model": "TC2000",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1980,
-            "year_to": 1991,
-            "make": "Chevrolet",
-            "model": "B60",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1993,
-            "year_to": 2000,
-            "make": "Chevrolet",
-            "model": "B7",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1990,
-            "year_to": 1991,
-            "make": "Chevrolet",
-            "model": "C5500 Kodiak",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1980,
-            "year_to": 1990,
-            "make": "Chevrolet",
-            "model": "C60",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1990,
-            "year_to": 1996,
-            "make": "Chevrolet",
-            "model": "C60 Kodiak",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1997,
-            "year_to": 2000,
-            "make": "Chevrolet",
-            "model": "C6500 Kodiak",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1980,
-            "year_to": 1990,
-            "make": "Chevrolet",
-            "model": "C70",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1990,
-            "year_to": 1996,
-            "make": "Chevrolet",
-            "model": "C70 Kodiak",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1997,
-            "year_to": 2000,
-            "make": "Chevrolet",
-            "model": "C7500 Kodiak",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1983,
-            "year_to": 1996,
-            "make": "Chevrolet",
-            "model": "P60",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1992,
-            "year_to": 1996,
-            "make": "Chevrolet",
-            "model": "P6000",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1997,
-            "year_to": 1998,
-            "make": "Chevrolet",
-            "model": "T6500",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1997,
-            "year_to": 1998,
-            "make": "Chevrolet",
-            "model": "T7500",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1995,
-            "year_to": 2003,
-            "make": "Chevrolet",
-            "model": "W3500 Tiltmaster",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1998,
-            "year_to": 2003,
-            "make": "Chevrolet",
-            "model": "W4500 Tiltmaster",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1980,
-            "year_to": 1991,
-            "make": "GMC",
-            "model": "B6000",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1993,
-            "year_to": 2000,
-            "make": "GMC",
-            "model": "B7",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1981,
-            "year_to": 1981,
-            "make": "GMC",
-            "model": "Brigadier",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1990,
-            "year_to": 1991,
-            "make": "GMC",
-            "model": "C5000 Topkick",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1980,
-            "year_to": 1990,
-            "make": "GMC",
-            "model": "C6000",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1990,
-            "year_to": 1996,
-            "make": "GMC",
-            "model": "C6000 Topkick",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1997,
-            "year_to": 2000,
-            "make": "GMC",
-            "model": "C6500 Topkick",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1980,
-            "year_to": 1990,
-            "make": "GMC",
-            "model": "C7000",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1990,
-            "year_to": 1996,
-            "make": "GMC",
-            "model": "C7000 Topkick",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1997,
-            "year_to": 2000,
-            "make": "GMC",
-            "model": "C7500 Topkick",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1992,
-            "year_to": 1996,
-            "make": "GMC",
-            "model": "P6000",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1992,
-            "year_to": 1996,
-            "make": "GMC",
-            "model": "P6500",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1997,
-            "year_to": 1998,
-            "make": "GMC",
-            "model": "T6500",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1997,
-            "year_to": 1998,
-            "make": "GMC",
-            "model": "T7500",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1995,
-            "year_to": 2003,
-            "make": "GMC",
-            "model": "W3500 Forward",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1998,
-            "year_to": 2003,
-            "make": "GMC",
-            "model": "W4500 Forward",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          }
-        ],
-        "vehicle_labels": [
-          "1994 Blue Bird Commercial Bus",
-          "1993 Blue Bird SHL TC2000",
-          "1998 Blue Bird TC1000",
-          "1992\u20131998 Blue Bird TC2000",
-          "1980\u20131991 Chevrolet B60",
-          "1993\u20132000 Chevrolet B7",
-          "1990\u20131991 Chevrolet C5500 Kodiak",
-          "1980\u20131990 Chevrolet C60",
-          "1990\u20131996 Chevrolet C60 Kodiak",
-          "1997\u20132000 Chevrolet C6500 Kodiak",
-          "1980\u20131990 Chevrolet C70",
-          "1990\u20131996 Chevrolet C70 Kodiak",
-          "1997\u20132000 Chevrolet C7500 Kodiak",
-          "1983\u20131996 Chevrolet P60",
-          "1992\u20131996 Chevrolet P6000",
-          "1997\u20131998 Chevrolet T6500",
-          "1997\u20131998 Chevrolet T7500",
-          "1995\u20132003 Chevrolet W3500 Tiltmaster",
-          "1998\u20132003 Chevrolet W4500 Tiltmaster",
-          "1980\u20131991 GMC B6000",
-          "1993\u20132000 GMC B7",
-          "1981 GMC Brigadier",
-          "1990\u20131991 GMC C5000 Topkick",
-          "1980\u20131990 GMC C6000",
-          "1990\u20131996 GMC C6000 Topkick",
-          "1997\u20132000 GMC C6500 Topkick",
-          "1980\u20131990 GMC C7000",
-          "1990\u20131996 GMC C7000 Topkick",
-          "1997\u20132000 GMC C7500 Topkick",
-          "1992\u20131996 GMC P6000",
-          "1992\u20131996 GMC P6500",
-          "1997\u20131998 GMC T6500",
-          "1997\u20131998 GMC T7500",
-          "1995\u20132003 GMC W3500 Forward",
-          "1998\u20132003 GMC W4500 Forward"
-        ],
-        "raw_compat_rows": 774,
-        "source": "ebay_listing",
-        "confidence": "high",
-        "ebay_item_id": "398268765097",
-        "type": "Oil Filter",
-        "brand": "WIX",
-        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Filters"
-      },
-      "vehicle_count_raw": 774,
-      "ebay_item_id": "398268765097",
-      "ebay_type": "Oil Filter",
-      "ebay_brand": "WIX",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Filters",
-      "stock": 1
-    },
-    {
       "id": "JTJFVAEKFBFL4WGPHP43R27Z",
       "name": "WIX 51896 Transmission Filter NOS 03-17 Accord 2.0 2.4 3.5",
       "price": 14.99,
@@ -66958,11 +66487,9 @@
       "category": "driveline",
       "checkout": true,
       "variation_id": "SKRD662UJEGWME25NEXSF4ZO",
-      "stock": 1,
       "part_numbers": [
         "Motormite 03605"
       ],
-      "interchange": [],
       "vehicles": [
         "1983\u20131986 Chrysler LeBaron",
         "1983\u20131986 Chrysler New Yorker",
@@ -66975,11 +66502,6 @@
         "1978\u20131986 Plymouth Horizon",
         "1983\u20131986 Plymouth Reliant"
       ],
-      "vehicle_count_raw": 175,
-      "ebay_item_id": "398376572265",
-      "ebay_type": "CV Boot Kit",
-      "ebay_brand": "Speedi-Boot",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:CV Joints, Boots & Parts",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -67108,7 +66630,14 @@
         "type": "CV Boot Kit",
         "brand": "Speedi-Boot",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:CV Joints, Boots & Parts"
-      }
+      },
+      "vehicle_count_raw": 175,
+      "ebay_item_id": "398376572265",
+      "ebay_type": "CV Boot Kit",
+      "ebay_brand": "Speedi-Boot",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:CV Joints, Boots & Parts",
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "VXCFEL4ORP3KMNMMPDEFDI6R",
@@ -67119,11 +66648,9 @@
       "category": "driveline",
       "checkout": true,
       "variation_id": "WIKXD7E5C2ZAGV2K4AIEN6NE",
-      "stock": 1,
       "part_numbers": [
         "Motormite 03608"
       ],
-      "interchange": [],
       "vehicles": [
         "1980\u20131984 AMC Eagle",
         "1980\u20131983 AMC Spirit",
@@ -67131,11 +66658,6 @@
         "1973\u20131985 Honda Civic",
         "1979\u20131985 Honda Prelude"
       ],
-      "vehicle_count_raw": 203,
-      "ebay_item_id": "398376576163",
-      "ebay_type": "CV Boot Kit",
-      "ebay_brand": "Speedi-Boot",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:CV Joints, Boots & Parts",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -67209,7 +66731,14 @@
         "type": "CV Boot Kit",
         "brand": "Speedi-Boot",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:CV Joints, Boots & Parts"
-      }
+      },
+      "vehicle_count_raw": 203,
+      "ebay_item_id": "398376576163",
+      "ebay_type": "CV Boot Kit",
+      "ebay_brand": "Speedi-Boot",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:CV Joints, Boots & Parts",
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "EI6IIJST5VQ56MZJAZCMIJFV",
@@ -115633,5 +115162,5 @@
       "ebay_brand": ""
     }
   ],
-  "fitment_built": "2026-09-09T09:01:42Z"
+  "fitment_built": "2026-09-09T13:33:53Z"
 }
