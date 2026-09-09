@@ -94,6 +94,7 @@ def test_workshop_tools_class_not_craftsman_blob():
     py_src = (HUB / "scripts/dept_tree.py").read_text(encoding="utf-8")
     py_fn = re.search(r"def item_store_tree\([\s\S]+", py_src)
     assert py_fn, "item_store_tree missing"
+    assert "craftsman" not in py_src.lower()
     assert "craftsman" not in py_fn.group(0).lower()
     assert "is_workshop_tools" in py_fn.group(0)
     js_src = (HUB / "store.js").read_text(encoding="utf-8")
@@ -103,6 +104,7 @@ def test_workshop_tools_class_not_craftsman_blob():
         re.S,
     )
     assert js_fn, "itemStoreTree missing"
+    assert "craftsman" not in js_src.lower()
     assert "craftsman" not in js_fn.group(0).lower()
     assert "isWorkshopTools" in js_fn.group(0)
     assert "tools & workshop equipment" in py_src.lower()

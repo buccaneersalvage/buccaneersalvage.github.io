@@ -9,7 +9,7 @@ from pathlib import Path
 
 HUB = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from dept_tree import TYPE_PARENT, dept_label, item_store_tree  # noqa: E402
+from dept_tree import TYPE_PARENT, dept_label, item_ebay_tree, item_store_tree  # noqa: E402
 
 
 def test_store_js_type_parent_lockstep():
@@ -46,6 +46,27 @@ def test_catalog_dept_labels():
     assert "Parts" not in labels
 
 
+def test_electric_motors_from_square_category_not_brand():
+    """Shop motor dept label is Square category, not a Craftsman title blob."""
+    for pat, _ in TYPE_PARENT:
+        assert "craftsman" not in pat.lower()
+    motor = {
+        "id": "TESTELECTRICMOTOR0001",
+        "name": "Baldor 1 HP Shop Motor 1725 RPM 115V",
+        "category": "electric-motors",
+        "price": 1,
+        "ebay_category": "",
+    }
+    assert dept_label(motor) == "Electric Motors"
+    assert item_ebay_tree(motor)["parent"] == "Electric Motors"
+    assert item_store_tree(motor)["parent"] == "Tools"
+    assert item_store_tree(motor)["sub"] == "Electric Motors"
+    py = (HUB / "scripts/dept_tree.py").read_text(encoding="utf-8").lower()
+    js = (HUB / "store.js").read_text(encoding="utf-8").lower()
+    assert "craftsman" not in py
+    assert "craftsman" not in js
+
+
 def test_store_parent_labels():
     cat = json.loads((HUB / "assets/square-catalog.json").read_text(encoding="utf-8"))
     by = {i["id"]: i for i in cat["items"]}
@@ -69,5 +90,6 @@ def test_store_parent_labels():
 if __name__ == "__main__":
     test_store_js_type_parent_lockstep()
     test_catalog_dept_labels()
+    test_electric_motors_from_square_category_not_brand()
     test_store_parent_labels()
     print("dept_tree ok")

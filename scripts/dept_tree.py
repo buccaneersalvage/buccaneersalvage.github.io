@@ -29,7 +29,7 @@ TYPE_PARENT = [
     (r"wheelchair", "Mobility"),
     (r"\bbicycle\b|\bbike\b|\bmasi\b", "Cycling"),
     (r"forklift", "Material Handling"),
-    (r"capacitor motor|\bcraftsman\b.*\bmotor\b", "Electric Motors"),
+    (r"capacitor motor", "Electric Motors"),
 ]
 
 _TYPE_RX = [(re.compile(pat, re.I), parent) for pat, parent in TYPE_PARENT]
@@ -95,7 +95,9 @@ def canon_sub_slug(s: str) -> str:
     return SUB_CANON.get(k, k)
 
 
-def type_parent_name(typ: str, name: str) -> str:
+def type_parent_name(typ: str, name: str, cat: str = "") -> str:
+    if cat == "electric-motors":
+        return "Electric Motors"
     for blob in (typ or "", name or ""):
         if not blob:
             continue
@@ -128,23 +130,24 @@ def item_ebay_tree(item: dict | None) -> dict:
     elif len(kept) == 1:
         parent = kept[0]
         sub = typ or kept[0]
-    typed = type_parent_name(typ, item.get("name") or "")
+    cat = item.get("category") or ""
+    typed = type_parent_name(typ, item.get("name") or "", cat)
     if typed and slug_key(parent) != slug_key(typed):
         parent = typed
         if typ and not re.match(r"^vintage$", typ, re.I):
             sub = typ
     if not parent:
-        if item.get("category") in ("turbo", "pump"):
+        if cat in ("turbo", "pump"):
             parent = "Cores"
         else:
-            parent = type_parent_name(typ, item.get("name") or "")
+            parent = type_parent_name(typ, item.get("name") or "", cat)
     raw_slug = slug_key(parent)
     if raw_slug == "health-beauty":
-        parent = type_parent_name(typ, item.get("name") or "") or "Mobility"
+        parent = type_parent_name(typ, item.get("name") or "", cat) or "Mobility"
     elif raw_slug == "sporting-goods":
-        parent = type_parent_name(typ, item.get("name") or "") or "Cycling"
+        parent = type_parent_name(typ, item.get("name") or "", cat) or "Cycling"
     elif raw_slug == "business-industrial":
-        parent = type_parent_name(typ, item.get("name") or "") or "Material Handling"
+        parent = type_parent_name(typ, item.get("name") or "", cat) or "Material Handling"
     if not sub or re.match(r"^vintage$", sub, re.I):
         if typ and not re.match(r"^vintage$", typ, re.I):
             sub = typ

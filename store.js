@@ -280,7 +280,7 @@
     [/wheelchair/i, "Mobility"],
     [/\bbicycle\b|\bbike\b|\bmasi\b/i, "Cycling"],
     [/forklift/i, "Material Handling"],
-    [/capacitor motor|\bcraftsman\b.*\bmotor\b/i, "Electric Motors"],
+    [/capacitor motor/i, "Electric Motors"],
   ];
 
   /** Non-vehicle eBay-site depts (card/PDP labels). Not the store-parent rail. */
@@ -649,7 +649,8 @@
     return have === want;
   }
 
-  function typeParentName(typ, name) {
+  function typeParentName(typ, name, cat) {
+    if (cat === "electric-motors") return "Electric Motors";
     const tryOn = [typ || "", name || ""];
     for (let t = 0; t < tryOn.length; t++) {
       const s = tryOn[t];
@@ -683,19 +684,19 @@
       parent = kept[0];
       sub = typ || kept[0];
     }
-    const typed = typeParentName(typ, item.name || "");
+    const typed = typeParentName(typ, item.name || "", item.category || "");
     if (typed && slugKey(parent) !== slugKey(typed)) {
       parent = typed;
       if (typ && !/^vintage$/i.test(typ)) sub = typ;
     }
     if (!parent) {
       if (item.category === "turbo" || item.category === "pump") parent = "Cores";
-      else parent = typeParentName(typ, item.name || "");
+      else parent = typeParentName(typ, item.name || "", item.category || "");
     }
     const rawSlug = slugKey(parent);
-    if (rawSlug === "health-beauty") parent = typeParentName(typ, item.name || "") || "Mobility";
-    else if (rawSlug === "sporting-goods") parent = typeParentName(typ, item.name || "") || "Cycling";
-    else if (rawSlug === "business-industrial") parent = typeParentName(typ, item.name || "") || "Material Handling";
+    if (rawSlug === "health-beauty") parent = typeParentName(typ, item.name || "", item.category || "") || "Mobility";
+    else if (rawSlug === "sporting-goods") parent = typeParentName(typ, item.name || "", item.category || "") || "Cycling";
+    else if (rawSlug === "business-industrial") parent = typeParentName(typ, item.name || "", item.category || "") || "Material Handling";
     if (!sub || /^vintage$/i.test(sub)) {
       sub = typ && !/^vintage$/i.test(typ) ? typ : kept[kept.length - 1] || parent;
     }
