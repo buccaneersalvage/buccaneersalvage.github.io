@@ -1,7 +1,7 @@
 {
-  "updated": "2026-09-09T13:33:53Z",
+  "updated": "2026-09-09T14:01:20Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 825,
+  "count": 824,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -6234,99 +6234,6 @@
       "vehicle_count_raw": 317,
       "ebay_item_id": "398095724688",
       "ebay_type": "Hardware",
-      "ebay_brand": "Carlson",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware",
-      "stock": 1
-    },
-    {
-      "id": "FFLOE3NPYFOEOCSXEQBSV3FP",
-      "name": "Carlson 17347 Rear Drum Brake Hardware Kit 93-08 Subaru Legacy Impreza Forester",
-      "price": 14.99,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/5c7bcc569df57a2bb2faf52c78f55544bb876df5/original.jpeg",
-      "url": "https://square.link/u/YF9oFz8J",
-      "category": "brake",
-      "checkout": true,
-      "variation_id": "7SKX77L2YIDID7XN5VQ4KPH2",
-      "part_numbers": [
-        "17347"
-      ],
-      "interchange": [
-        "118.47003"
-      ],
-      "vehicles": [
-        "1998\u20132008 Subaru Forester",
-        "1993\u20132003 Subaru Impreza",
-        "1995\u20132001 Subaru Legacy",
-        "2001 Subaru Outback"
-      ],
-      "fitment_source": "ebay_listing+carlson_specs",
-      "fitment_confidence": "high",
-      "fitment": {
-        "part_numbers": [
-          "17347"
-        ],
-        "interchange": [
-          "118.47003"
-        ],
-        "vehicles": [
-          {
-            "year_from": 1998,
-            "year_to": 2008,
-            "make": "Subaru",
-            "model": "Forester",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1993,
-            "year_to": 2003,
-            "make": "Subaru",
-            "model": "Impreza",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1995,
-            "year_to": 2001,
-            "make": "Subaru",
-            "model": "Legacy",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 2001,
-            "year_to": 2001,
-            "make": "Subaru",
-            "model": "Outback",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          }
-        ],
-        "vehicle_labels": [
-          "1998\u20132008 Subaru Forester",
-          "1993\u20132003 Subaru Impreza",
-          "1995\u20132001 Subaru Legacy",
-          "2001 Subaru Outback"
-        ],
-        "raw_compat_rows": 191,
-        "source": "ebay_listing+carlson_specs",
-        "confidence": "high",
-        "ebay_item_id": "398085249451",
-        "type": "Rear Drum Brake Hardware",
-        "brand": "Carlson",
-        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware"
-      },
-      "vehicle_count_raw": 191,
-      "ebay_item_id": "398085249451",
-      "ebay_type": "Rear Drum Brake Hardware",
       "ebay_brand": "Carlson",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware",
       "stock": 1
@@ -115162,5 +115069,5 @@
       "ebay_brand": ""
     }
   ],
-  "fitment_built": "2026-09-09T13:33:53Z"
+  "fitment_built": "2026-09-09T14:01:20Z"
 }
