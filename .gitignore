@@ -11,3 +11,7 @@ reviews/
 
 # local CodeGraph index
 .codegraph/
+
+# Ukiri SoT is ~/sites/ukirithief — deploy rsyncs that to /ukiri/.
+# Do not keep a second copy under the hub tree.
+ukiri/
