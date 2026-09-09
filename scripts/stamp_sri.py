@@ -110,9 +110,7 @@ def html_targets() -> list[Path]:
     builder = ROOT / "scripts" / "build_static_pdps.py"
     if builder.is_file():
         files.append(builder)
-    ukiri = ROOT / "ukiri"
-    if ukiri.is_dir():
-        files.extend(sorted(ukiri.glob("*.html")))
+    # Ukiri SoT is ~/sites/ukirithief. Never stamp a nested hub/ukiri copy.
     return files
 
 

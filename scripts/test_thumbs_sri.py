@@ -106,6 +106,11 @@ def test_load_stamps_covers_core():
         assert len(v) == 10 and h.startswith("sha384-")
 
 
+def test_html_targets_never_include_ukiri():
+    paths = sri.html_targets()
+    assert all("ukiri" not in p.parts for p in paths)
+
+
 if __name__ == "__main__":
     tests = [
         test_allowed_image_url,
@@ -115,6 +120,7 @@ if __name__ == "__main__":
         test_rewrite_tag_stamps_v_and_integrity,
         test_stamp_text_skips_foreign,
         test_load_stamps_covers_core,
+        test_html_targets_never_include_ukiri,
     ]
     failed = 0
     for fn in tests:

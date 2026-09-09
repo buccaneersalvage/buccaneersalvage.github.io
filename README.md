@@ -17,6 +17,15 @@ Premium static hub. Stack: `index.html`, `styles.css`, `main.js`, `assets/`.
 Only live host: **buccaneersalvage.github.io**. Old InfinityFree host deleted - never link it.  
 Old `jollyroger1480.github.io` is **deleted (404)** — only `buccaneersalvage.github.io`.
 
+## Local sources (one SoT)
+
+| Edit here | Live path |
+|-----------|-----------|
+| `~/sites/buccaneersalvage-hub/` | `/` |
+| `~/sites/ukirithief/` | `/ukiri/` |
+
+Do not plant `ukiri/` inside this hub checkout. Pages still ships `/ukiri/` from `ukirithief` via `deploy-buccaneer-pages` (`git add -f ukiri` in the deploy clone). Hub checkout uses sparse-checkout to exclude `ukiri/`. One git worktree only: this folder on `origin/main`.
+
 ## Deploy
 
 GitHub Pages: org repo `buccaneersalvage/buccaneersalvage.github.io` (hub at `/`, ukiri at `/ukiri/`).
