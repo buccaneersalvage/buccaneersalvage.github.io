@@ -137,6 +137,23 @@ def test_generated_files_and_sitemap():
     assert "pdp-slugs.json" in main
 
 
+def test_h1_matches_catalog_name():
+    import html as html_lib
+
+    items = {i["id"]: i for i in load_items()}
+    slugs = assign_pdp_slugs(list(items.values()))
+    # Julian 2026-09-08: hub H1 was short_h1, Square checkout had the listing title.
+    iid = "373RPPOCYAZFVEE4KH3VYLOY"
+    stem = slugs[iid]
+    name = items[iid]["name"]
+    page = (HUB / "p" / f"{stem}.html").read_text(encoding="utf-8")
+    assert f'<h1 class="pdp-title">{html_lib.escape(name)}</h1>' in page
+    assert "Gates 5536 · 160 F" not in page
+    t08 = items["BYO4CA2ORO6PIIHKJ6BAJ7Z5"]
+    p08 = (HUB / "p" / f"{slugs[t08['id']]}.html").read_text(encoding="utf-8")
+    assert f'<h1 class="pdp-title">{html_lib.escape(t08["name"])}</h1>' in p08
+
+
 if __name__ == "__main__":
     tests = [
         test_slug_charset,
@@ -146,6 +163,7 @@ if __name__ == "__main__":
         test_no_ebay_brand_mpn_mpn_in_catalog,
         test_catalog_slugs_unique,
         test_generated_files_and_sitemap,
+        test_h1_matches_catalog_name,
     ]
     failed = 0
     for fn in tests:

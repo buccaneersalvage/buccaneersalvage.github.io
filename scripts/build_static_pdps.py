@@ -970,7 +970,9 @@ def main() -> None:
             else "Carbondale, PA 18407"
         )
         ship_rate, ship_label = ship_for_item(iid, ship_map, pickup=pickup)
-        heading = short_h1(item)
+        # On-page H1 matches Square/eBay catalog name. short_h1 dropped type +
+        # YMM ("Gates 5536 · 160 F") while checkout still showed the full title.
+        heading = name.strip() or short_h1(item)
         ebay_type = str(item.get("ebay_type") or "").strip()
         leaf_crumb = (item_display_pns(item) or [heading])[0]
         # Google truncates SERP titles around ~60 chars. Catalog product names
