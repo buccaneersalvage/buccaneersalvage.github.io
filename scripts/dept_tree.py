@@ -249,6 +249,21 @@ def _auto_sub(cat: str, typ: str, name: str) -> tuple[str, str]:
     return "engine-parts", "Engine Parts"
 
 
+def ebay_category_parts(item: dict | None) -> tuple[list[str], list[str], bool]:
+    """Split ebay_category. motors=True when the path starts at eBay Motors."""
+    if not item:
+        return [], [], False
+    raw = (
+        item.get("ebay_category")
+        or ((item.get("fitment") or {}).get("ebay_category") if isinstance(item.get("fitment"), dict) else "")
+        or ""
+    ).strip()
+    parts = [p.strip() for p in raw.split(":") if p.strip()] if raw else []
+    kept = [p for p in parts if p.lower() not in EBAY_SKIP]
+    motors = bool(parts) and parts[0].lower() == "ebay motors"
+    return parts, kept, motors
+
+
 def item_store_tree(item: dict | None) -> dict:
     """eBay-store parent + child. Same rules as store.js itemStoreTree()."""
     if not item:
@@ -307,6 +322,24 @@ def item_store_tree(item: dict | None) -> dict:
             "parent": "Truck Air Springs",
             "subSlug": sub_slug,
             "sub": sub,
+        }
+    _parts, kept, motors = ebay_category_parts(item)
+    if not motors and kept:
+        l1 = kept[0]
+        leaf = kept[-1]
+        l1_slug = slug_key(l1)
+        if l1_slug == "collectibles":
+            parent_slug, parent = "vintage-collectibles", "Vintage & Collectibles"
+        elif l1_slug == "business-industrial":
+            parent_slug, parent = "industrial-warehouse", "Industrial & Warehouse"
+        else:
+            parent_slug, parent = l1_slug or "other", l1
+        sub_slug = slug_key(leaf) or "other"
+        return {
+            "parentSlug": parent_slug,
+            "parent": parent,
+            "subSlug": sub_slug,
+            "sub": leaf,
         }
     sub_slug, sub = _auto_sub(cat, typ, name)
     return {

@@ -10,9 +10,11 @@ HUB = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from build_static_pdps import (  # noqa: E402
     BASE,
+    SQUARE_ID_RE,
     assign_pdp_slugs,
     item_mpn,
     pdp_slug_base,
+    pdp_slug_from_name,
     slug_stem,
 )
 
@@ -29,16 +31,15 @@ def test_slug_charset():
 
 
 def test_store_brand_omitted():
-    item = {
+    assert pdp_slug_base({"id": "AAAAAAAAAAAAAAAA", "name": "x", "part_numbers": []}) == "x"
+    store = {
         "id": "AAAAAAAAAAAAAAAA",
         "name": "Mystery gasket",
-        "part_numbers": ["ZZ-999"],
-        "ebay_brand": "",
+        "part_numbers": [],
+        "ebay_brand": "BuccaneerSalvage Store",
     }
-    # brand_guess falls back to first PN token or store name; pin store brand
-    item["name"] = "Mystery gasket"
-    item["part_numbers"] = []
-    assert pdp_slug_base({"id": "AAAAAAAAAAAAAAAA", "name": "x", "part_numbers": []}) == "AAAAAAAAAAAAAAAA"
+    assert pdp_slug_base(store) == "mystery-gasket"
+    assert "buccaneersalvage" not in pdp_slug_base(store)
 
 
 def test_collision_suffix():
@@ -106,7 +107,8 @@ def test_catalog_slugs_unique():
         if mpn:
             assert stem != iid or pdp_slug_base(item) == iid
         else:
-            assert stem == iid
+            assert stem != iid
+            assert not SQUARE_ID_RE.fullmatch(stem.upper())
 
 
 def test_generated_files_and_sitemap():
@@ -137,6 +139,56 @@ def test_generated_files_and_sitemap():
     assert "pdp-slugs.json" in main
 
 
+def test_no_mpn_name_slug_not_square_id():
+    coleman = {
+        "id": "W54WMQYKJ4OJRLJQRQSYYXHV",
+        "name": "Vintage 1972 Coleman 425 2-Burner Camp Stove Green Case Restoration Project",
+        "part_numbers": [],
+        "ebay_brand": "Coleman",
+    }
+    stem = pdp_slug_base(coleman)
+    assert stem != coleman["id"]
+    assert stem.startswith("coleman-1972-425")
+    assert "vintage" not in stem
+    tile = {
+        "id": "76ZJG6NNDY73XL2QXHGWC56L",
+        "name": "Vintage 24 Inch Heavy Duty Manual Tile Cutter Ceramic Floor Wall Contractor",
+        "part_numbers": [],
+        "ebay_brand": "Unbranded",
+    }
+    tstem = pdp_slug_base(tile)
+    assert tstem != tile["id"]
+    assert "unbranded" not in tstem
+    assert "tile-cutter" in tstem
+    empty = {"id": "W54WMQYKJ4OJRLJQRQSYYXHV", "name": "", "part_numbers": []}
+    assert pdp_slug_from_name(empty, empty["id"]).startswith("item-")
+
+
+def test_generated_no_mpn_files():
+    items = {i["id"]: i for i in load_items()}
+    slugs = assign_pdp_slugs(list(items.values()))
+    for iid in (
+        "W54WMQYKJ4OJRLJQRQSYYXHV",
+        "76ZJG6NNDY73XL2QXHGWC56L",
+        "W4MUULZLATJKYPEY6SEKNP25",
+    ):
+        stem = slugs[iid]
+        assert stem != iid
+        page = (HUB / "p" / f"{stem}.html").read_text(encoding="utf-8")
+        assert f"{BASE}/p/{stem}.html" in page
+        assert 'content="noindex"' not in page
+        stub = (HUB / "p" / f"{iid}.html").read_text(encoding="utf-8")
+        assert "noindex" in stub
+        assert f"url={stem}.html" in stub
+        if iid == "W54WMQYKJ4OJRLJQRQSYYXHV":
+            assert "Sporting Goods" in page
+            assert "Camping Stoves" in page
+        if iid == "76ZJG6NNDY73XL2QXHGWC56L":
+            assert "Home &amp; Garden" in page or "Home & Garden" in page
+        if iid == "W4MUULZLATJKYPEY6SEKNP25":
+            assert "Rifle Scopes" in page
+
+
 def test_h1_matches_catalog_name():
     import html as html_lib
 
@@ -162,7 +214,9 @@ if __name__ == "__main__":
         test_ebay_brand_preferred,
         test_no_ebay_brand_mpn_mpn_in_catalog,
         test_catalog_slugs_unique,
+        test_no_mpn_name_slug_not_square_id,
         test_generated_files_and_sitemap,
+        test_generated_no_mpn_files,
         test_h1_matches_catalog_name,
     ]
     failed = 0

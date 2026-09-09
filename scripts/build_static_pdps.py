@@ -547,6 +547,37 @@ def offer_return_policy(category, force_no_returns=False):
 SQUARE_ID_RE = re.compile(r"^[A-Z0-9]{16,32}$")
 _SLUG_JUNK_RE = re.compile(r"[^a-z0-9]+")
 _STORE_BRAND = "BuccaneerSalvage Store"
+_SKIP_BRANDS = {_STORE_BRAND.lower(), "unbranded", "unknown", "n/a", "na", "none"}
+_SLUG_STOP = {
+    "vintage",
+    "the",
+    "a",
+    "an",
+    "and",
+    "or",
+    "for",
+    "with",
+    "from",
+    "of",
+    "to",
+    "in",
+    "on",
+    "by",
+    "nos",
+    "oem",
+    "new",
+    "used",
+    "original",
+    "unboxed",
+    "boxed",
+    "as",
+    "is",
+    "asis",
+    "untested",
+    "tested",
+    "working",
+    "lot",
+}
 SLUG_MAX = 80
 
 
@@ -556,11 +587,37 @@ def slug_stem(text: str) -> str:
     return s[:SLUG_MAX].strip("-")
 
 
+def _slug_brand(item) -> str:
+    brand = str(item.get("ebay_brand") or "").strip()
+    if brand.lower() in _SKIP_BRANDS:
+        return ""
+    return brand
+
+
+def pdp_slug_from_name(item, iid: str) -> str:
+    """Canonical stem when there is no manufacturer PN. Never the Square id."""
+    brand = _slug_brand(item)
+    brand_stem = slug_stem(brand)
+    brand_parts = set(brand_stem.split("-")) if brand_stem else set()
+    tokens = []
+    if brand_stem:
+        tokens.append(brand_stem)
+    for tok in re.split(r"[^a-z0-9]+", str(item.get("name") or "").lower()):
+        if not tok or tok in _SLUG_STOP or tok in brand_parts:
+            continue
+        tokens.append(tok)
+    stem = slug_stem("-".join(tokens))
+    if stem and not SQUARE_ID_RE.fullmatch(stem.upper()):
+        return stem
+    fallback = slug_stem(f"item-{iid[:8].lower()}")
+    return fallback or iid
+
+
 def pdp_slug_base(item) -> str:
     iid = str(item.get("id") or "")
     mpn = item_mpn(item)
     if not mpn:
-        return iid
+        return pdp_slug_from_name(item, iid)
     # Prefer ebay_brand (same as short_h1). brand_guess alone often returns the
     # PN token when the catalog PN is bare → mpn-mpn URLs (175-5866-175-5866).
     brand = str(item.get("ebay_brand") or brand_guess(item) or "").strip()
@@ -572,7 +629,7 @@ def pdp_slug_base(item) -> str:
         stem = slug_stem(f"{brand}-{mpn}")
     else:
         stem = slug_stem(mpn)
-    return stem or iid
+    return stem or pdp_slug_from_name(item, iid)
 
 
 def assign_pdp_slugs(items) -> dict:

@@ -7,7 +7,7 @@
    * Commerce-style facets; brand-dark gold cards; cores warn on-card.
    */
   const CATALOG_URL = "assets/square-catalog.json?v=202609072001";
-  const SLUGS_URL = "assets/pdp-slugs.json?v=20260908";
+  const SLUGS_URL = "assets/pdp-slugs.json?v=20260909";
   const CORE_WARN = "FOR PARTS OR REBUILD · UNTESTED · NO RETURNS";
   const DEFAULT_PAGE = 12;
 
@@ -298,6 +298,15 @@
     { slug: "auto-parts", label: "Auto Parts & Accessories", auto: true },
     { slug: "vintage-collectibles", label: "Vintage & Collectibles", auto: false },
     { slug: "industrial-warehouse", label: "Industrial & Warehouse", auto: false },
+    { slug: "home-garden", label: "Home & Garden", auto: false },
+    { slug: "sporting-goods", label: "Sporting Goods", auto: false },
+    { slug: "consumer-electronics", label: "Consumer Electronics", auto: false },
+    { slug: "movies-tv", label: "Movies & TV", auto: false },
+    { slug: "computers-tablets-networking", label: "Computers/Tablets & Networking", auto: false },
+    { slug: "health-beauty", label: "Health & Beauty", auto: false },
+    { slug: "toys-hobbies", label: "Toys & Hobbies", auto: false },
+    { slug: "jewelry-watches", label: "Jewelry & Watches", auto: false },
+    { slug: "cameras-photo", label: "Cameras & Photo", auto: false },
   ];
   const AUTO_STORE = new Set(STORE_PARENTS.filter((p) => p.auto).map((p) => p.slug));
 
@@ -477,6 +486,33 @@
     if (cat === "air-spring" || /air spring|rolling lobe|convoluted/.test(blob)) {
       const [subSlug, sub] = airSpringSub(name, typ);
       item._st = packStore("truck-air-springs", "Truck Air Springs", subSlug, sub);
+      return item._st;
+    }
+
+    const rawCat = (
+      item.ebay_category ||
+      (item.fitment && item.fitment.ebay_category) ||
+      ""
+    ).trim();
+    const catParts = rawCat
+      ? rawCat.split(":").map((s) => s.trim()).filter(Boolean)
+      : [];
+    const motors = catParts.length > 0 && catParts[0].toLowerCase() === "ebay motors";
+    const kept = catParts.filter((p) => !EBAY_SKIP.has(p.toLowerCase()));
+    if (!motors && kept.length) {
+      const l1 = kept[0];
+      const leaf = kept[kept.length - 1] || l1;
+      const l1Slug = slugKey(l1);
+      let parentSlug = l1Slug;
+      let parent = l1;
+      if (l1Slug === "collectibles") {
+        parentSlug = "vintage-collectibles";
+        parent = "Vintage & Collectibles";
+      } else if (l1Slug === "business-industrial") {
+        parentSlug = "industrial-warehouse";
+        parent = "Industrial & Warehouse";
+      }
+      item._st = packStore(parentSlug, parent, slugKey(leaf) || "other", leaf);
       return item._st;
     }
 
@@ -1602,6 +1638,13 @@
         (i) => Number(i.price) > 0 && /^[A-Z0-9]{16,32}$/.test(String(i.id || ""))
       );
       byId = new Map(catalog.map((i) => [String(i.id || ""), i]));
+      const seenParents = new Set(STORE_PARENTS.map((p) => p.slug));
+      catalog.forEach((i) => {
+        const st = itemStoreTree(i);
+        if (!st.parentSlug || seenParents.has(st.parentSlug)) return;
+        seenParents.add(st.parentSlug);
+        STORE_PARENTS.push({ slug: st.parentSlug, label: st.parent, auto: false });
+      });
       if (countEl) {
         countEl.textContent = `${catalog.length} listings`;
       }

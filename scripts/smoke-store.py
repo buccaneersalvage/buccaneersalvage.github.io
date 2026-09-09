@@ -63,7 +63,7 @@ def main():
         check("catalog loaded", catalog_size > 0, f"n={catalog_size}")
         by_id = {i.get("id"): i.get("category") for i in cat.get("items", [])}
         want_buckets = {
-            "LI7R7ABGGB2TXJQUEGHG5TRX": "mobility",
+            "W3LT2QSYY5C2YYPE5PYLATNO": "mobility",
             "EZW5JY5PWZJO4PH5R2TQGYC3": "material-handling",
             "7CESL5VZLPSRKJGWUFCHL5R5": "electric-motors",
             "3YKKZSK4N5HMOC7TOVXSFOHH": "exhaust",
@@ -510,7 +510,7 @@ def main():
                 "Vintage & Collectibles" in (page.text_content(".pdp-category") or ""),
                 page.text_content(".pdp-category"),
             )
-            page.goto(f"{BASE}/p/LI7R7ABGGB2TXJQUEGHG5TRX.html")
+            page.goto(f"{BASE}/p/W3LT2QSYY5C2YYPE5PYLATNO.html")
             check(
                 "pdp wheelchair category is Vintage",
                 "Vintage & Collectibles" in (page.text_content(".pdp-category") or ""),
