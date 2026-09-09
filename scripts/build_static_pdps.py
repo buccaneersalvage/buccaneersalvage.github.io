@@ -1,5 +1,9 @@
 #!/usr/bin/env python3
-"""Regenerate static PDP pages under p/{id}.html for no-JS crawler SEO."""
+"""Regenerate static PDP pages under p/{brand-mpn}.html for no-JS crawler SEO.
+
+Square catalog ids stay on sku and as noindex meta-refresh stubs when the
+canonical filename is a brand-mpn slug. GitHub Pages has no HTTP 301.
+"""
 from __future__ import annotations
 
 import html
@@ -367,10 +371,11 @@ def related_card_note(item, shared_keys=None):
     return " - ".join(bits[:2])
 
 
-def related_card_html(other, esc, esc_t, shared_keys=None):
+def related_card_html(other, esc, esc_t, shared_keys=None, slug=None):
     iid = str(other.get("id") or "")
     if not SQUARE_ID_RE.fullmatch(iid):
         return ""
+    stem = slug or iid
     src = related_thumb(other)
     title = related_card_title(other)
     note = related_card_note(other, shared_keys=shared_keys)
@@ -378,7 +383,7 @@ def related_card_html(other, esc, esc_t, shared_keys=None):
     note_html = f'<p class="pdp-rel-note">{esc_t(note)}</p>' if note else ""
     price_html = f'<p class="pdp-rel-price">{esc_t(price)}</p>' if price else ""
     return (
-        f'<a class="pdp-rel-card" href="{esc(iid)}.html">'
+        f'<a class="pdp-rel-card" href="{esc(stem)}.html">'
         f'<span class="pdp-rel-media"><img src="{esc(src)}" alt="" width="200" height="200" loading="lazy" /></span>'
         f'<span class="pdp-rel-body">'
         f'<span class="pdp-rel-title">{esc_t(title)}</span>'
@@ -394,16 +399,22 @@ def catalog_browse_href(item):
     return "../store.html"
 
 
-def related_html(item, items, esc, esc_t):
+def related_html(item, items, esc, esc_t, slug_by_id=None):
+    slug_by_id = slug_by_id or {}
     also = also_stocked_items(item, items)
     also_ids = {o.get("id") for o in also}
     related = [o for o in related_items(item, items) if o.get("id") not in also_ids]
     typ = (item.get("ebay_type") or "").strip()
     if not also and not related and not typ:
         return ""
+
+    def _stem(other):
+        oid = other.get("id")
+        return slug_by_id.get(oid, oid)
+
     blocks = []
     if also:
-        cards = "".join(related_card_html(o, esc, esc_t) for o in also)
+        cards = "".join(related_card_html(o, esc, esc_t, slug=_stem(o)) for o in also)
         blocks.append(
             '<div class="pdp-related-block">'
             '<p class="pdp-related-h">Same part number</p>'
@@ -413,7 +424,11 @@ def related_html(item, items, esc, esc_t):
         head = display_vehicle_keys(item)
         cards = "".join(
             related_card_html(
-                o, esc, esc_t, shared_keys=head & display_vehicle_keys(o, limit=None)
+                o,
+                esc,
+                esc_t,
+                shared_keys=head & display_vehicle_keys(o, limit=None),
+                slug=_stem(o),
             )
             for o in related
         )
@@ -530,6 +545,83 @@ def offer_return_policy(category, force_no_returns=False):
 
 
 SQUARE_ID_RE = re.compile(r"^[A-Z0-9]{16,32}$")
+_SLUG_JUNK_RE = re.compile(r"[^a-z0-9]+")
+_STORE_BRAND = "BuccaneerSalvage Store"
+SLUG_MAX = 80
+
+
+def slug_stem(text: str) -> str:
+    s = _SLUG_JUNK_RE.sub("-", (text or "").lower()).strip("-")
+    s = re.sub(r"-{2,}", "-", s)
+    return s[:SLUG_MAX].strip("-")
+
+
+def pdp_slug_base(item) -> str:
+    iid = str(item.get("id") or "")
+    mpn = item_mpn(item)
+    if not mpn:
+        return iid
+    # Prefer ebay_brand (same as short_h1). brand_guess alone often returns the
+    # PN token when the catalog PN is bare → mpn-mpn URLs (175-5866-175-5866).
+    brand = str(item.get("ebay_brand") or brand_guess(item) or "").strip()
+    if brand == _STORE_BRAND:
+        brand = ""
+    if brand and slug_stem(brand) == slug_stem(mpn):
+        brand = ""
+    if brand:
+        stem = slug_stem(f"{brand}-{mpn}")
+    else:
+        stem = slug_stem(mpn)
+    return stem or iid
+
+
+def assign_pdp_slugs(items) -> dict:
+    """Map Square catalog id → PDP filename stem (no .html)."""
+    used = {"index"}
+    out = {}
+    for item in items:
+        iid = str(item.get("id") or "")
+        if not SQUARE_ID_RE.fullmatch(iid):
+            continue
+        base = pdp_slug_base(item)
+        if base not in used:
+            out[iid] = base
+            used.add(base)
+            continue
+        n = 6
+        stem = f"{base}-{iid[:n].lower()}"
+        while stem in used:
+            n += 2
+            extra = iid[: min(n, len(iid))].lower()
+            stem = f"{base}-{extra}"
+            if n >= len(iid):
+                break
+        if stem in used:
+            stem = iid.lower()
+            while stem in used:
+                stem = f"{stem}-x"
+        used.add(stem)
+        out[iid] = stem
+    return out
+
+
+def redirect_stub(slug: str) -> str:
+    dest = f"{slug}.html"
+    canonical = f"{BASE}/p/{slug}.html"
+    return (
+        "<!DOCTYPE html>\n"
+        '<html lang="en"><head>\n'
+        '<meta charset="UTF-8" />\n'
+        "<meta http-equiv=\"Content-Security-Policy\" content=\"default-src 'self'; script-src 'self'; style-src 'self'; base-uri 'self'; form-action 'self'; object-src 'none'; frame-src 'none';\" />\n"
+        '<meta name="referrer" content="strict-origin-when-cross-origin" />\n'
+        f'<meta http-equiv="refresh" content="0;url={html.escape(dest, quote=True)}" />\n'
+        f'<link rel="canonical" href="{html.escape(canonical, quote=True)}" />\n'
+        '<meta name="robots" content="noindex" />\n'
+        "<title>Redirecting</title>\n"
+        "</head><body>"
+        f'<p><a href="{html.escape(dest, quote=True)}">Continue to product</a></p>'
+        "</body></html>\n"
+    )
 LISTED_DIR = Path.home() / "ebay" / "listings" / "listed"
 # Paid Ground on Square today. Mack 255310368025 stays $0 until a $40 profile exists.
 POLICY_SHIP = {
@@ -831,10 +923,17 @@ def main() -> None:
     out_dir = HUB / "p"
     out_dir.mkdir(exist_ok=True)
     ship_map = load_ship_map()
+    slug_by_id = assign_pdp_slugs(items)
+    (HUB / "assets" / "pdp-slugs.json").write_text(
+        json.dumps(slug_by_id, indent=2, sort_keys=True) + "\n",
+        encoding="utf-8",
+    )
 
     written = []
+    stubs = []
     for item in items:
         iid = safe_item_id(item.get("id"))
+        slug = slug_by_id[iid]
         name = item.get("name") or "Product"
         price_n = item.get("price")
         price = money(price_n)
@@ -884,7 +983,7 @@ def main() -> None:
         _BRAND_SUFFIX = " | BuccaneerSalvage Store"
         title = name if len(name) + len(_BRAND_SUFFIX) > 60 else f"{name}{_BRAND_SUFFIX}"
         desc = pdp_desc(item, name, desc_kind, price, custom_warn)
-        canonical = f"{BASE}/p/{iid}.html"
+        canonical = f"{BASE}/p/{slug}.html"
         schema = {
             "@context": "https://schema.org",
             "@type": "Product",
@@ -997,7 +1096,7 @@ def main() -> None:
         else:
             warn = ""
         fitment = pdp_fitment_html(item, esc_t)
-        related = related_html(item, items, esc, esc_t)
+        related = related_html(item, items, esc, esc_t, slug_by_id=slug_by_id)
         img_tag = f'<img id="pdpMainImage" class="pdp-image" src="{esc(img)}" alt="{esc(name)}" width="600" height="600" />'
         video_el = (
             f'<video id="pdpMainVideo" class="pdp-video" controls preload="metadata" '
@@ -1061,7 +1160,7 @@ def main() -> None:
   <script type="application/ld+json">{schema_json}</script>
   <script type="application/ld+json">{crumbs_json}</script>
   <script src="../pdp-gallery.js?v=c0683cc878" integrity="sha384-Nj6Y6bFnU9x3YJ9AyAWSOJX+uvPDgCk5a/sSqAuEm5Q4zqfdhyfQMQg8SrGb8Goq" defer></script>
-  <script src="../main.js?v=eac0175f18" integrity="sha384-DOItLexUw4LZYXf+Yco4OwRFr4jtaf1SI/8U+FEoKGQp3WbdASvhg0oexGiURXpU" defer></script>
+  <script src="../main.js?v=d62911a0a1" integrity="sha384-bjTL+oi4j/tRjU7Pb35mIoEkSoQBENgMgmuTO+kkh1Uy+OYkHUlFwJpFWzgPZoME" defer></script>
 </head>
 <body class="page-item">
   <a class="skip-link" href="#main">Skip to content</a>
@@ -1164,13 +1263,19 @@ def main() -> None:
 </body>
 </html>
 """
-        dest = (out_dir / f"{iid}.html").resolve()
+        dest = (out_dir / f"{slug}.html").resolve()
         if dest.parent != out_dir.resolve():
             raise SystemExit(f"ERROR: PDP path escaped p/: {dest}")
         dest.write_text(page, encoding="utf-8")
-        written.append(iid)
+        written.append(slug)
+        if slug != iid:
+            stub_path = (out_dir / f"{iid}.html").resolve()
+            if stub_path.parent != out_dir.resolve():
+                raise SystemExit(f"ERROR: stub path escaped p/: {stub_path}")
+            stub_path.write_text(redirect_stub(slug), encoding="utf-8")
+            stubs.append(iid)
 
-    keep = set(written) | {"index"}
+    keep = set(written) | set(stubs) | {"index"}
     for stale in out_dir.glob("*.html"):
         if stale.stem not in keep:
             stale.unlink()
@@ -1212,8 +1317,8 @@ def main() -> None:
   </url>"""
 
     store_urls = [url_entry(f"{BASE}/store.html", "0.95")]
-    for iid in written:
-        store_urls.append(url_entry(f"{BASE}/p/{iid}.html"))
+    for slug in written:
+        store_urls.append(url_entry(f"{BASE}/p/{slug}.html"))
     (HUB / "sitemap-store.xml").write_text(
         '<?xml version="1.0" encoding="UTF-8"?>\n'
         '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'

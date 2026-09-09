@@ -98,6 +98,13 @@
   const MAX_QTY = 20;
   const MAX_LINES = 30;
   const CHECKOUT_API = "https://buc-square-checkout.jollyroger1480.workers.dev/checkout";
+  const SLUGS_URL = "/assets/pdp-slugs.json?v=20260908";
+  let pdpSlugs = Object.create(null);
+
+  function pdpHref(id) {
+    const stem = pdpSlugs[id] || id;
+    return `p/${encodeURIComponent(stem)}.html`;
+  }
 
   function escapeHtml(s) {
     return String(s)
@@ -341,7 +348,7 @@
     const img = it.photo
       ? `<img class="pdp-cart-line-photo" src="${escapeHtml(it.photo)}" alt="" width="64" height="64" />`
       : `<span class="pdp-cart-line-photo" aria-hidden="true"></span>`;
-    const href = `p/${encodeURIComponent(it.id)}.html`;
+    const href = pdpHref(it.id);
     const pdp = document.body.classList.contains("page-item") ? `../${href}` : href;
     // The per-line link is the item's static SINGLE-quantity Square payment
     // link — it has no way to encode "qty 2". Only show it at qty 1; any
@@ -615,8 +622,21 @@
     open();
   }
 
+  function loadSlugs() {
+    fetch(SLUGS_URL, { cache: "no-cache", credentials: "same-origin" })
+      .then((r) => (r.ok ? r.json() : {}))
+      .then((slugs) => {
+        if (slugs && typeof slugs === "object" && !Array.isArray(slugs)) {
+          pdpSlugs = slugs;
+          render();
+        }
+      })
+      .catch(() => {});
+  }
+
   function init() {
     ensureDrawer();
+    loadSlugs();
     render();
     document.addEventListener("click", onClick);
     document.addEventListener("keydown", (e) => {

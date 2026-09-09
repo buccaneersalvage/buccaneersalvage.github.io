@@ -7,10 +7,12 @@
    * Commerce-style facets; brand-dark gold cards; cores warn on-card.
    */
   const CATALOG_URL = "assets/square-catalog.json?v=202609072001";
+  const SLUGS_URL = "assets/pdp-slugs.json?v=20260908";
   const CORE_WARN = "FOR PARTS OR REBUILD · UNTESTED · NO RETURNS";
   const DEFAULT_PAGE = 12;
 
   let catalog = [];
+  let pdpSlugs = Object.create(null);
   let list = null;
   let category = "all";
   let priceMin = null;
@@ -869,7 +871,7 @@
     const id = String((item && item.id) || "");
     if (!/^[A-Z0-9]{16,32}$/.test(id)) return "";
     const core = isCore(item);
-    const href = `p/${encodeURIComponent(id)}.html`;
+    const href = `p/${encodeURIComponent(pdpSlugs[id] || id)}.html`;
     // Prefer local thumb; else Square original. No inline onerror (CSP script-src 'self').
     const imgUrl = cardImageUrl(item);
     const fallback = safeImageUrl(item && item.image);
@@ -1586,9 +1588,16 @@
   async function boot() {
     const countEl = document.getElementById("stCount");
     try {
+      const slugP = fetch(SLUGS_URL, { cache: "no-cache" })
+        .then((r) => (r.ok ? r.json() : {}))
+        .catch(() => ({}));
       const res = await fetch(CATALOG_URL, { cache: "no-cache" });
       if (!res.ok) throw new Error(`catalog ${res.status}`);
       const data = await res.json();
+      const slugs = await slugP;
+      if (slugs && typeof slugs === "object" && !Array.isArray(slugs)) {
+        pdpSlugs = slugs;
+      }
       catalog = (Array.isArray(data.items) ? data.items : []).filter(
         (i) => Number(i.price) > 0 && /^[A-Z0-9]{16,32}$/.test(String(i.id || ""))
       );
