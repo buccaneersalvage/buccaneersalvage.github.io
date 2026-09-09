@@ -295,6 +295,7 @@ def main():
             tools_titles = " ".join(page.locator("#stGrid .st-card .name").all_inner_texts()).lower()
             check("Tools parent exists", bool(page.query_selector("#stCatSelect option[value='tools']")))
             check("Tools holds the Craftsman motor", "craftsman" in tools_titles, tools_titles[:160])
+            check("Tools holds workshop leftovers", "tile cutter" in tools_titles, tools_titles[:200])
             page.select_option("#stCatSelect", "industrial-warehouse")
             page.wait_for_timeout(300)
             showing_ind = page.text_content("#stShowing").strip()

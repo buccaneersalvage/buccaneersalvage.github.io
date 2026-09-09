@@ -221,9 +221,23 @@ def test_generated_no_mpn_files():
             assert "Sporting Goods" in page
             assert "Camping Stoves" in page
         if iid == "76ZJG6NNDY73XL2QXHGWC56L":
-            assert "Home &amp; Garden" in page or "Home & Garden" in page
+            assert "Tools" in page
+            assert "Cutting Tools" in page
         if iid == "W4MUULZLATJKYPEY6SEKNP25":
             assert "Rifle Scopes" in page
+
+
+def test_superseded_year_slug_stub_kept():
+    jeep = next(i for i in load_items() if i["id"] == "STX3QQ2VRH3VAFUCF55IA3VR")
+    slugs = assign_pdp_slugs(load_items())
+    stem = slugs[jeep["id"]]
+    assert stem != "jeep-1976"
+    stub = (HUB / "p" / "jeep-1976.html").read_text(encoding="utf-8")
+    assert "noindex" in stub
+    assert f"url={stem}.html" in stub
+    sm = (HUB / "sitemap-store.xml").read_text(encoding="utf-8")
+    assert f"{BASE}/p/{stem}.html" in sm
+    assert f"{BASE}/p/jeep-1976.html" not in sm
 
 
 def test_h1_matches_catalog_name():
@@ -256,6 +270,7 @@ if __name__ == "__main__":
         test_generated_files_and_sitemap,
         test_generated_no_mpn_files,
         test_breadcrumb_is_full_name,
+        test_superseded_year_slug_stub_kept,
         test_h1_matches_catalog_name,
     ]
     failed = 0

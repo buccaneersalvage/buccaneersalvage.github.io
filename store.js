@@ -374,6 +374,16 @@
     return { parentSlug, parent, subSlug: subSlug || "other", sub: sub || parent };
   }
 
+  /** Leftover workshop class from catalog fields (not a brand-name blob). */
+  function isWorkshopTools(cat, kept, motors) {
+    if (motors) return false;
+    if (cat === "electric-motors") return true;
+    return (kept || []).some((p) => {
+      const pl = String(p || "").toLowerCase();
+      return pl === "tools & workshop equipment" || pl === "tools, hardware & locks";
+    });
+  }
+
   function carlsonSub(name, typ) {
     const blob = `${name} ${typ}`.toLowerCase();
     if (/self-adjuster|self adjuster/.test(blob)) return ["self-adjuster-kits", "Self-Adjuster Kits"];
@@ -460,10 +470,6 @@
       );
       return item._st;
     }
-    if (cat === "electric-motors" || (/craftsman/.test(blob) && /motor/.test(blob))) {
-      item._st = packStore("tools", "Tools", "electric-motors", "Electric Motors");
-      return item._st;
-    }
     if (cat === "material-handling" || (cat !== "filters" && /forklift/.test(blob))) {
       item._st = packStore(
         "industrial-warehouse",
@@ -495,6 +501,20 @@
       : [];
     const motors = catParts.length > 0 && catParts[0].toLowerCase() === "ebay motors";
     const kept = catParts.filter((p) => !EBAY_SKIP.has(p.toLowerCase()));
+    if (isWorkshopTools(cat, kept, motors)) {
+      let subSlug;
+      let sub;
+      if (cat === "electric-motors" && !kept.length) {
+        subSlug = "electric-motors";
+        sub = "Electric Motors";
+      } else {
+        const leaf = kept.length ? kept[kept.length - 1] : "Electric Motors";
+        subSlug = slugKey(leaf) || "other";
+        sub = leaf;
+      }
+      item._st = packStore("tools", "Tools", subSlug, sub);
+      return item._st;
+    }
     if (!motors && kept.length) {
       const l1 = kept[0];
       const leaf = kept[kept.length - 1] || l1;

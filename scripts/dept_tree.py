@@ -265,6 +265,28 @@ def ebay_category_parts(item: dict | None) -> tuple[list[str], list[str], bool]:
     return parts, kept, motors
 
 
+def is_workshop_tools(cat: str, kept: list[str], motors: bool) -> bool:
+    """Leftover workshop class from catalog fields (not a brand-name blob).
+
+    Tools parent when the item is not eBay Motors and either:
+    - Square category is electric-motors, or
+    - eBay path has Home & Garden Tools & Workshop Equipment, or
+    - eBay path has Collectibles Tools, Hardware & Locks.
+
+    Appliance motors, BI Light Equipment, HVAC blowers, and advertising tins
+    do not match these crumbs and stay on leftover L1.
+    """
+    if motors:
+        return False
+    if cat == "electric-motors":
+        return True
+    for p in kept:
+        pl = (p or "").lower()
+        if pl in ("tools & workshop equipment", "tools, hardware & locks"):
+            return True
+    return False
+
+
 def item_store_tree(item: dict | None) -> dict:
     """eBay-store parent + child. Same rules as store.js itemStoreTree()."""
     if not item:
@@ -294,13 +316,6 @@ def item_store_tree(item: dict | None) -> dict:
             "subSlug": "household-medical",
             "sub": "Household & Medical",
         }
-    if cat == "electric-motors" or ("craftsman" in blob and "motor" in blob):
-        return {
-            "parentSlug": "tools",
-            "parent": "Tools",
-            "subSlug": "electric-motors",
-            "sub": "Electric Motors",
-        }
     if cat == "material-handling" or "forklift" in blob:
         return {
             "parentSlug": "industrial-warehouse",
@@ -325,6 +340,18 @@ def item_store_tree(item: dict | None) -> dict:
             "sub": sub,
         }
     _parts, kept, motors = ebay_category_parts(item)
+    if is_workshop_tools(cat, kept, motors):
+        if cat == "electric-motors" and not kept:
+            sub_slug, sub = "electric-motors", "Electric Motors"
+        else:
+            leaf = kept[-1] if kept else "Electric Motors"
+            sub_slug, sub = slug_key(leaf) or "other", leaf
+        return {
+            "parentSlug": "tools",
+            "parent": "Tools",
+            "subSlug": sub_slug,
+            "sub": sub,
+        }
     if not motors and kept:
         l1 = kept[0]
         leaf = kept[-1]

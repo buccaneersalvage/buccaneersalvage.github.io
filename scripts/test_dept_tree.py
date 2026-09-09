@@ -59,7 +59,7 @@ def test_store_parent_labels():
     assert coleman["parent"] == "Sporting Goods"
     assert coleman["sub"] == "Camping Stoves"
     tile = item_store_tree(by["76ZJG6NNDY73XL2QXHGWC56L"])
-    assert tile["parent"] == "Home & Garden"
+    assert tile["parent"] == "Tools"
     assert tile["sub"] == "Cutting Tools"
     scope = item_store_tree(by["W4MUULZLATJKYPEY6SEKNP25"])
     assert scope["parent"] == "Sporting Goods"

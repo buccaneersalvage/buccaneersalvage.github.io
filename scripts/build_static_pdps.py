@@ -1376,10 +1376,23 @@ def main() -> None:
         used_names.add(old_slug)
 
     keep = set(written) | set(stubs) | {"index"}
+    stub_refresh_re = re.compile(r"url=([A-Za-z0-9-]+)\.html")
     for stale in out_dir.glob("*.html"):
-        if stale.stem not in keep:
-            stale.unlink()
-            print(f"removed stale PDP {stale.name}")
+        if stale.stem in keep:
+            continue
+        try:
+            old_html = stale.read_text(encoding="utf-8")
+        except OSError:
+            old_html = ""
+        # Keep a superseded-slug noindex stub if it still points at a
+        # canonical this run wrote. pdp-slugs.json only stores the current
+        # stem, so year-PN → name slugs would 404 on the next rebuild.
+        m = stub_refresh_re.search(old_html)
+        if m and m.group(1) in keep and "noindex" in old_html:
+            keep.add(stale.stem)
+            continue
+        stale.unlink()
+        print(f"removed stale PDP {stale.name}")
 
     if len(written) != len(items):
         raise SystemExit(f"ERROR: wrote {len(written)} PDPs != catalog {len(items)}")
