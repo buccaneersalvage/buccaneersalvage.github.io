@@ -298,6 +298,7 @@
     { slug: "auto-parts", label: "Auto Parts & Accessories", auto: true },
     { slug: "vintage-collectibles", label: "Vintage & Collectibles", auto: false },
     { slug: "industrial-warehouse", label: "Industrial & Warehouse", auto: false },
+    { slug: "tools", label: "Tools", auto: false },
     { slug: "home-garden", label: "Home & Garden", auto: false },
     { slug: "sporting-goods", label: "Sporting Goods", auto: false },
     { slug: "consumer-electronics", label: "Consumer Electronics", auto: false },
@@ -460,12 +461,7 @@
       return item._st;
     }
     if (cat === "electric-motors" || (/craftsman/.test(blob) && /motor/.test(blob))) {
-      item._st = packStore(
-        "vintage-collectibles",
-        "Vintage & Collectibles",
-        "vintage-tools",
-        "Vintage Tools & Hardware"
-      );
+      item._st = packStore("tools", "Tools", "electric-motors", "Electric Motors");
       return item._st;
     }
     if (cat === "material-handling" || (cat !== "filters" && /forklift/.test(blob))) {

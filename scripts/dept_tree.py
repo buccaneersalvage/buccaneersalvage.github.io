@@ -174,6 +174,7 @@ STORE_PARENT_LABEL = {
     "auto-parts": "Auto Parts & Accessories",
     "vintage-collectibles": "Vintage & Collectibles",
     "industrial-warehouse": "Industrial & Warehouse",
+    "tools": "Tools",
 }
 
 
@@ -295,10 +296,10 @@ def item_store_tree(item: dict | None) -> dict:
         }
     if cat == "electric-motors" or ("craftsman" in blob and "motor" in blob):
         return {
-            "parentSlug": "vintage-collectibles",
-            "parent": "Vintage & Collectibles",
-            "subSlug": "vintage-tools",
-            "sub": "Vintage Tools & Hardware",
+            "parentSlug": "tools",
+            "parent": "Tools",
+            "subSlug": "electric-motors",
+            "sub": "Electric Motors",
         }
     if cat == "material-handling" or "forklift" in blob:
         return {

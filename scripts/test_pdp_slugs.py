@@ -12,6 +12,8 @@ from build_static_pdps import (  # noqa: E402
     BASE,
     SQUARE_ID_RE,
     assign_pdp_slugs,
+    is_title_year_pn,
+    item_display_pns,
     item_mpn,
     pdp_slug_base,
     pdp_slug_from_name,
@@ -139,6 +141,41 @@ def test_generated_files_and_sitemap():
     assert "pdp-slugs.json" in main
 
 
+def test_title_year_not_mpn():
+    jeep = {
+        "id": "STX3QQ2VRH3VAFUCF55IA3VR",
+        "name": "1976-1986 Jeep CJ Clutch Brake Pedal Assembly Manual Transmission OEM",
+        "part_numbers": ["1976"],
+        "ebay_brand": "Jeep",
+    }
+    assert is_title_year_pn("1976", jeep["name"])
+    assert item_display_pns(jeep) == []
+    assert item_mpn(jeep) == ""
+    stem = pdp_slug_base(jeep)
+    assert stem != "jeep-1976"
+    assert "clutch" in stem
+    assert "1976" in stem
+    national = {
+        "id": "BBBBBBBBBBBBBBBB",
+        "name": "National 2043 Pinion Seal NOS 88-97 Chevy K1500",
+        "part_numbers": ["2043"],
+        "ebay_brand": "National",
+    }
+    assert not is_title_year_pn("2043", national["name"])
+    assert item_mpn(national) == "2043"
+
+
+def test_breadcrumb_is_full_name():
+    items = {i["id"]: i for i in load_items()}
+    slugs = assign_pdp_slugs(list(items.values()))
+    jeep = items["STX3QQ2VRH3VAFUCF55IA3VR"]
+    stem = slugs[jeep["id"]]
+    page = (HUB / "p" / f"{stem}.html").read_text(encoding="utf-8")
+    assert jeep["name"] in page
+    assert f'<span>{jeep["name"]}</span>' in page or "Clutch Brake Pedal Assembly" in page
+    assert ">1976<" not in page.split("pdp-breadcrumb")[1].split("</nav>")[0]
+
+
 def test_no_mpn_name_slug_not_square_id():
     coleman = {
         "id": "W54WMQYKJ4OJRLJQRQSYYXHV",
@@ -214,9 +251,11 @@ if __name__ == "__main__":
         test_ebay_brand_preferred,
         test_no_ebay_brand_mpn_mpn_in_catalog,
         test_catalog_slugs_unique,
+        test_title_year_not_mpn,
         test_no_mpn_name_slug_not_square_id,
         test_generated_files_and_sitemap,
         test_generated_no_mpn_files,
+        test_breadcrumb_is_full_name,
         test_h1_matches_catalog_name,
     ]
     failed = 0

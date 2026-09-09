@@ -23,6 +23,7 @@ KNOWN_STORE = {
     "auto-parts",
     "vintage-collectibles",
     "industrial-warehouse",
+    "tools",
     "home-garden",
     "sporting-goods",
     "consumer-electronics",
@@ -49,6 +50,7 @@ def test_only_parents_on_buc():
     assert parents["auto-parts"] >= 150
     assert parents["home-garden"] >= 1
     assert parents["sporting-goods"] >= 1
+    assert parents["tools"] >= 1
     assert sum(parents.values()) == len(items)
 
 
@@ -56,7 +58,7 @@ def test_yard_not_dumped_into_auto():
     cat = json.loads((HUB / "assets/square-catalog.json").read_text(encoding="utf-8"))
     by = {i["id"]: i for i in cat["items"]}
     assert store_tree(by["W3LT2QSYY5C2YYPE5PYLATNO"])[0] == "vintage-collectibles"  # wheelchair
-    assert store_tree(by["7CESL5VZLPSRKJGWUFCHL5R5"])[0] == "vintage-collectibles"  # Craftsman
+    assert store_tree(by["7CESL5VZLPSRKJGWUFCHL5R5"])[0] == "tools"  # Craftsman motor
     assert store_tree(by["EZW5JY5PWZJO4PH5R2TQGYC3"])[0] == "industrial-warehouse"  # forklift
     thermo = next(i for i in cat["items"] if "33039" in (i.get("name") or ""))
     assert store_tree(thermo)[0] == "auto-parts"
@@ -90,6 +92,7 @@ def test_store_js_has_ebay_store_parents():
         "auto-parts",
         "vintage-collectibles",
         "industrial-warehouse",
+        "tools",
         "home-garden",
         "sporting-goods",
         "consumer-electronics",

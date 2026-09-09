@@ -132,23 +132,39 @@ def pns_from_name(name):
     return _uniq_keep(out)
 
 
+def is_title_year_pn(pn, name) -> bool:
+    """Square often stores the title's leading year as part_numbers (1976-1986 → '1976')."""
+    s = str(pn or "").strip()
+    if not re.fullmatch(r"(19|20)\d{2}", s):
+        return False
+    n = str(name or "").strip()
+    return bool(re.match(rf"^{re.escape(s)}(?:\s|-(?:19|20)\d{{2}}\b|$)", n))
+
+
+def _real_pns(seq, name):
+    return [p for p in _uniq_keep(seq) if not is_title_year_pn(p, name)]
+
+
 def item_part_numbers(item):
     fit = item.get("fitment") if isinstance(item.get("fitment"), dict) else {}
-    return _uniq_keep(
+    name = item.get("name")
+    return _real_pns(
         _split_pns(item.get("part_numbers"))
         + _split_pns(fit.get("part_numbers"))
-        + pns_from_name(item.get("name"))
+        + pns_from_name(name),
+        name,
     )
 
 
 def item_display_pns(item):
     """Primary part numbers only. Extra comma-blobs in later list entries are xrefs."""
+    name = item.get("name")
     raw = item.get("part_numbers")
     if isinstance(raw, list) and raw:
-        first = _uniq_keep(_split_pns(raw[0]))
+        first = _real_pns(_split_pns(raw[0]), name)
         if first:
             return first
-    named = pns_from_name(item.get("name"))
+    named = _real_pns(pns_from_name(name), name)
     if named:
         return named
     all_pns = item_part_numbers(item)
@@ -980,8 +996,17 @@ def main() -> None:
     out_dir = HUB / "p"
     out_dir.mkdir(exist_ok=True)
     ship_map = load_ship_map()
+    slugs_path = HUB / "assets" / "pdp-slugs.json"
+    prev_slugs = {}
+    if slugs_path.is_file():
+        try:
+            prev = json.loads(slugs_path.read_text(encoding="utf-8"))
+            if isinstance(prev, dict):
+                prev_slugs = prev
+        except (json.JSONDecodeError, OSError):
+            prev_slugs = {}
     slug_by_id = assign_pdp_slugs(items)
-    (HUB / "assets" / "pdp-slugs.json").write_text(
+    slugs_path.write_text(
         json.dumps(slug_by_id, indent=2, sort_keys=True) + "\n",
         encoding="utf-8",
     )
@@ -1031,7 +1056,7 @@ def main() -> None:
         # YMM ("Gates 5536 · 160 F") while checkout still showed the full title.
         heading = name.strip() or short_h1(item)
         ebay_type = str(item.get("ebay_type") or "").strip()
-        leaf_crumb = (item_display_pns(item) or [heading])[0]
+        leaf_crumb = heading
         # Google truncates SERP titles around ~60 chars. Catalog product names
         # (sourced from eBay listing titles) commonly run 60-100+ chars on
         # their own — appending " | BuccaneerSalvage Store" (24 chars) to an
@@ -1333,6 +1358,22 @@ def main() -> None:
                 raise SystemExit(f"ERROR: stub path escaped p/: {stub_path}")
             stub_path.write_text(redirect_stub(slug), encoding="utf-8")
             stubs.append(iid)
+
+    used_names = set(written) | set(stubs) | {"index"}
+    for iid, old_slug in prev_slugs.items():
+        if not isinstance(old_slug, str) or not old_slug:
+            continue
+        new_slug = slug_by_id.get(iid)
+        if not new_slug or old_slug in (new_slug, iid):
+            continue
+        if old_slug in used_names:
+            continue
+        stub_path = (out_dir / f"{old_slug}.html").resolve()
+        if stub_path.parent != out_dir.resolve():
+            raise SystemExit(f"ERROR: stub path escaped p/: {stub_path}")
+        stub_path.write_text(redirect_stub(new_slug), encoding="utf-8")
+        stubs.append(old_slug)
+        used_names.add(old_slug)
 
     keep = set(written) | set(stubs) | {"index"}
     for stale in out_dir.glob("*.html"):

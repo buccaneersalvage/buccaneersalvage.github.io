@@ -50,7 +50,8 @@ def test_store_parent_labels():
     cat = json.loads((HUB / "assets/square-catalog.json").read_text(encoding="utf-8"))
     by = {i["id"]: i for i in cat["items"]}
     assert item_store_tree(by["W3LT2QSYY5C2YYPE5PYLATNO"])["parent"] == "Vintage & Collectibles"
-    assert item_store_tree(by["7CESL5VZLPSRKJGWUFCHL5R5"])["parent"] == "Vintage & Collectibles"
+    assert item_store_tree(by["7CESL5VZLPSRKJGWUFCHL5R5"])["parent"] == "Tools"
+    assert item_store_tree(by["7CESL5VZLPSRKJGWUFCHL5R5"])["sub"] == "Electric Motors"
     assert item_store_tree(by["EZW5JY5PWZJO4PH5R2TQGYC3"])["parent"] == "Industrial & Warehouse"
     assert item_store_tree(by["5LLWTR3B27YDLV6ZR6XMBPWL"])["parent"] == "Truck Air Springs"
     assert item_store_tree(by["BYO4CA2ORO6PIIHKJ6BAJ7Z5"])["parent"] == "Auto Parts & Accessories"
