@@ -132,23 +132,39 @@ def pns_from_name(name):
     return _uniq_keep(out)
 
 
+def is_title_year_pn(pn, name) -> bool:
+    """Square often stores the title's leading year as part_numbers (1976-1986 → '1976')."""
+    s = str(pn or "").strip()
+    if not re.fullmatch(r"(19|20)\d{2}", s):
+        return False
+    n = str(name or "").strip()
+    return bool(re.match(rf"^{re.escape(s)}(?:\s|-(?:19|20)\d{{2}}\b|$)", n))
+
+
+def _real_pns(seq, name):
+    return [p for p in _uniq_keep(seq) if not is_title_year_pn(p, name)]
+
+
 def item_part_numbers(item):
     fit = item.get("fitment") if isinstance(item.get("fitment"), dict) else {}
-    return _uniq_keep(
+    name = item.get("name")
+    return _real_pns(
         _split_pns(item.get("part_numbers"))
         + _split_pns(fit.get("part_numbers"))
-        + pns_from_name(item.get("name"))
+        + pns_from_name(name),
+        name,
     )
 
 
 def item_display_pns(item):
     """Primary part numbers only. Extra comma-blobs in later list entries are xrefs."""
+    name = item.get("name")
     raw = item.get("part_numbers")
     if isinstance(raw, list) and raw:
-        first = _uniq_keep(_split_pns(raw[0]))
+        first = _real_pns(_split_pns(raw[0]), name)
         if first:
             return first
-    named = pns_from_name(item.get("name"))
+    named = _real_pns(pns_from_name(name), name)
     if named:
         return named
     all_pns = item_part_numbers(item)
@@ -547,6 +563,37 @@ def offer_return_policy(category, force_no_returns=False):
 SQUARE_ID_RE = re.compile(r"^[A-Z0-9]{16,32}$")
 _SLUG_JUNK_RE = re.compile(r"[^a-z0-9]+")
 _STORE_BRAND = "BuccaneerSalvage Store"
+_SKIP_BRANDS = {_STORE_BRAND.lower(), "unbranded", "unknown", "n/a", "na", "none"}
+_SLUG_STOP = {
+    "vintage",
+    "the",
+    "a",
+    "an",
+    "and",
+    "or",
+    "for",
+    "with",
+    "from",
+    "of",
+    "to",
+    "in",
+    "on",
+    "by",
+    "nos",
+    "oem",
+    "new",
+    "used",
+    "original",
+    "unboxed",
+    "boxed",
+    "as",
+    "is",
+    "asis",
+    "untested",
+    "tested",
+    "working",
+    "lot",
+}
 SLUG_MAX = 80
 
 
@@ -556,11 +603,37 @@ def slug_stem(text: str) -> str:
     return s[:SLUG_MAX].strip("-")
 
 
+def _slug_brand(item) -> str:
+    brand = str(item.get("ebay_brand") or "").strip()
+    if brand.lower() in _SKIP_BRANDS:
+        return ""
+    return brand
+
+
+def pdp_slug_from_name(item, iid: str) -> str:
+    """Canonical stem when there is no manufacturer PN. Never the Square id."""
+    brand = _slug_brand(item)
+    brand_stem = slug_stem(brand)
+    brand_parts = set(brand_stem.split("-")) if brand_stem else set()
+    tokens = []
+    if brand_stem:
+        tokens.append(brand_stem)
+    for tok in re.split(r"[^a-z0-9]+", str(item.get("name") or "").lower()):
+        if not tok or tok in _SLUG_STOP or tok in brand_parts:
+            continue
+        tokens.append(tok)
+    stem = slug_stem("-".join(tokens))
+    if stem and not SQUARE_ID_RE.fullmatch(stem.upper()):
+        return stem
+    fallback = slug_stem(f"item-{iid[:8].lower()}")
+    return fallback or iid
+
+
 def pdp_slug_base(item) -> str:
     iid = str(item.get("id") or "")
     mpn = item_mpn(item)
     if not mpn:
-        return iid
+        return pdp_slug_from_name(item, iid)
     # Prefer ebay_brand (same as short_h1). brand_guess alone often returns the
     # PN token when the catalog PN is bare → mpn-mpn URLs (175-5866-175-5866).
     brand = str(item.get("ebay_brand") or brand_guess(item) or "").strip()
@@ -572,7 +645,7 @@ def pdp_slug_base(item) -> str:
         stem = slug_stem(f"{brand}-{mpn}")
     else:
         stem = slug_stem(mpn)
-    return stem or iid
+    return stem or pdp_slug_from_name(item, iid)
 
 
 def assign_pdp_slugs(items) -> dict:
@@ -923,8 +996,17 @@ def main() -> None:
     out_dir = HUB / "p"
     out_dir.mkdir(exist_ok=True)
     ship_map = load_ship_map()
+    slugs_path = HUB / "assets" / "pdp-slugs.json"
+    prev_slugs = {}
+    if slugs_path.is_file():
+        try:
+            prev = json.loads(slugs_path.read_text(encoding="utf-8"))
+            if isinstance(prev, dict):
+                prev_slugs = prev
+        except (json.JSONDecodeError, OSError):
+            prev_slugs = {}
     slug_by_id = assign_pdp_slugs(items)
-    (HUB / "assets" / "pdp-slugs.json").write_text(
+    slugs_path.write_text(
         json.dumps(slug_by_id, indent=2, sort_keys=True) + "\n",
         encoding="utf-8",
     )
@@ -970,9 +1052,11 @@ def main() -> None:
             else "Carbondale, PA 18407"
         )
         ship_rate, ship_label = ship_for_item(iid, ship_map, pickup=pickup)
-        heading = short_h1(item)
+        # On-page H1 matches Square/eBay catalog name. short_h1 dropped type +
+        # YMM ("Gates 5536 · 160 F") while checkout still showed the full title.
+        heading = name.strip() or short_h1(item)
         ebay_type = str(item.get("ebay_type") or "").strip()
-        leaf_crumb = (item_display_pns(item) or [heading])[0]
+        leaf_crumb = heading
         # Google truncates SERP titles around ~60 chars. Catalog product names
         # (sourced from eBay listing titles) commonly run 60-100+ chars on
         # their own — appending " | BuccaneerSalvage Store" (24 chars) to an
@@ -1275,11 +1359,40 @@ def main() -> None:
             stub_path.write_text(redirect_stub(slug), encoding="utf-8")
             stubs.append(iid)
 
+    used_names = set(written) | set(stubs) | {"index"}
+    for iid, old_slug in prev_slugs.items():
+        if not isinstance(old_slug, str) or not old_slug:
+            continue
+        new_slug = slug_by_id.get(iid)
+        if not new_slug or old_slug in (new_slug, iid):
+            continue
+        if old_slug in used_names:
+            continue
+        stub_path = (out_dir / f"{old_slug}.html").resolve()
+        if stub_path.parent != out_dir.resolve():
+            raise SystemExit(f"ERROR: stub path escaped p/: {stub_path}")
+        stub_path.write_text(redirect_stub(new_slug), encoding="utf-8")
+        stubs.append(old_slug)
+        used_names.add(old_slug)
+
     keep = set(written) | set(stubs) | {"index"}
+    stub_refresh_re = re.compile(r"url=([A-Za-z0-9-]+)\.html")
     for stale in out_dir.glob("*.html"):
-        if stale.stem not in keep:
-            stale.unlink()
-            print(f"removed stale PDP {stale.name}")
+        if stale.stem in keep:
+            continue
+        try:
+            old_html = stale.read_text(encoding="utf-8")
+        except OSError:
+            old_html = ""
+        # Keep a superseded-slug noindex stub if it still points at a
+        # canonical this run wrote. pdp-slugs.json only stores the current
+        # stem, so year-PN → name slugs would 404 on the next rebuild.
+        m = stub_refresh_re.search(old_html)
+        if m and m.group(1) in keep and "noindex" in old_html:
+            keep.add(stale.stem)
+            continue
+        stale.unlink()
+        print(f"removed stale PDP {stale.name}")
 
     if len(written) != len(items):
         raise SystemExit(f"ERROR: wrote {len(written)} PDPs != catalog {len(items)}")
