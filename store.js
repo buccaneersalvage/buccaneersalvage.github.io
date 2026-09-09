@@ -6,8 +6,8 @@
    * Search + category + price filter + sort + pagination (not the full catalog at once).
    * Commerce-style facets; brand-dark gold cards; cores warn on-card.
    */
-  const CATALOG_URL = "assets/square-catalog.json?v=202609072001";
-  const SLUGS_URL = "assets/pdp-slugs.json?v=20260909";
+  const CATALOG_URL = "assets/square-catalog.json?v=202609090400";
+  const SLUGS_URL = "assets/pdp-slugs.json?v=20260908";
   const CORE_WARN = "FOR PARTS OR REBUILD · UNTESTED · NO RETURNS";
   const DEFAULT_PAGE = 12;
 
@@ -280,7 +280,7 @@
     [/wheelchair/i, "Mobility"],
     [/\bbicycle\b|\bbike\b|\bmasi\b/i, "Cycling"],
     [/forklift/i, "Material Handling"],
-    [/capacitor motor/i, "Electric Motors"],
+    [/capacitor motor|\bcraftsman\b.*\bmotor\b/i, "Electric Motors"],
   ];
 
   /** Non-vehicle eBay-site depts (card/PDP labels). Not the store-parent rail. */
@@ -298,16 +298,6 @@
     { slug: "auto-parts", label: "Auto Parts & Accessories", auto: true },
     { slug: "vintage-collectibles", label: "Vintage & Collectibles", auto: false },
     { slug: "industrial-warehouse", label: "Industrial & Warehouse", auto: false },
-    { slug: "tools", label: "Tools", auto: false },
-    { slug: "home-garden", label: "Home & Garden", auto: false },
-    { slug: "sporting-goods", label: "Sporting Goods", auto: false },
-    { slug: "consumer-electronics", label: "Consumer Electronics", auto: false },
-    { slug: "movies-tv", label: "Movies & TV", auto: false },
-    { slug: "computers-tablets-networking", label: "Computers/Tablets & Networking", auto: false },
-    { slug: "health-beauty", label: "Health & Beauty", auto: false },
-    { slug: "toys-hobbies", label: "Toys & Hobbies", auto: false },
-    { slug: "jewelry-watches", label: "Jewelry & Watches", auto: false },
-    { slug: "cameras-photo", label: "Cameras & Photo", auto: false },
   ];
   const AUTO_STORE = new Set(STORE_PARENTS.filter((p) => p.auto).map((p) => p.slug));
 
@@ -372,16 +362,6 @@
 
   function packStore(parentSlug, parent, subSlug, sub) {
     return { parentSlug, parent, subSlug: subSlug || "other", sub: sub || parent };
-  }
-
-  /** Leftover workshop class from catalog fields (not a brand-name blob). */
-  function isWorkshopTools(cat, kept, motors) {
-    if (motors) return false;
-    if (cat === "electric-motors") return true;
-    return (kept || []).some((p) => {
-      const pl = String(p || "").toLowerCase();
-      return pl === "tools & workshop equipment" || pl === "tools, hardware & locks";
-    });
   }
 
   function carlsonSub(name, typ) {
@@ -470,6 +450,15 @@
       );
       return item._st;
     }
+    if (cat === "electric-motors" || (/craftsman/.test(blob) && /motor/.test(blob))) {
+      item._st = packStore(
+        "vintage-collectibles",
+        "Vintage & Collectibles",
+        "vintage-tools",
+        "Vintage Tools & Hardware"
+      );
+      return item._st;
+    }
     if (cat === "material-handling" || (cat !== "filters" && /forklift/.test(blob))) {
       item._st = packStore(
         "industrial-warehouse",
@@ -488,47 +477,6 @@
     if (cat === "air-spring" || /air spring|rolling lobe|convoluted/.test(blob)) {
       const [subSlug, sub] = airSpringSub(name, typ);
       item._st = packStore("truck-air-springs", "Truck Air Springs", subSlug, sub);
-      return item._st;
-    }
-
-    const rawCat = (
-      item.ebay_category ||
-      (item.fitment && item.fitment.ebay_category) ||
-      ""
-    ).trim();
-    const catParts = rawCat
-      ? rawCat.split(":").map((s) => s.trim()).filter(Boolean)
-      : [];
-    const motors = catParts.length > 0 && catParts[0].toLowerCase() === "ebay motors";
-    const kept = catParts.filter((p) => !EBAY_SKIP.has(p.toLowerCase()));
-    if (isWorkshopTools(cat, kept, motors)) {
-      let subSlug;
-      let sub;
-      if (cat === "electric-motors" && !kept.length) {
-        subSlug = "electric-motors";
-        sub = "Electric Motors";
-      } else {
-        const leaf = kept.length ? kept[kept.length - 1] : "Electric Motors";
-        subSlug = slugKey(leaf) || "other";
-        sub = leaf;
-      }
-      item._st = packStore("tools", "Tools", subSlug, sub);
-      return item._st;
-    }
-    if (!motors && kept.length) {
-      const l1 = kept[0];
-      const leaf = kept[kept.length - 1] || l1;
-      const l1Slug = slugKey(l1);
-      let parentSlug = l1Slug;
-      let parent = l1;
-      if (l1Slug === "collectibles") {
-        parentSlug = "vintage-collectibles";
-        parent = "Vintage & Collectibles";
-      } else if (l1Slug === "business-industrial") {
-        parentSlug = "industrial-warehouse";
-        parent = "Industrial & Warehouse";
-      }
-      item._st = packStore(parentSlug, parent, slugKey(leaf) || "other", leaf);
       return item._st;
     }
 
@@ -649,8 +597,7 @@
     return have === want;
   }
 
-  function typeParentName(typ, name, cat) {
-    if (cat === "electric-motors") return "Electric Motors";
+  function typeParentName(typ, name) {
     const tryOn = [typ || "", name || ""];
     for (let t = 0; t < tryOn.length; t++) {
       const s = tryOn[t];
@@ -684,19 +631,19 @@
       parent = kept[0];
       sub = typ || kept[0];
     }
-    const typed = typeParentName(typ, item.name || "", item.category || "");
+    const typed = typeParentName(typ, item.name || "");
     if (typed && slugKey(parent) !== slugKey(typed)) {
       parent = typed;
       if (typ && !/^vintage$/i.test(typ)) sub = typ;
     }
     if (!parent) {
       if (item.category === "turbo" || item.category === "pump") parent = "Cores";
-      else parent = typeParentName(typ, item.name || "", item.category || "");
+      else parent = typeParentName(typ, item.name || "");
     }
     const rawSlug = slugKey(parent);
-    if (rawSlug === "health-beauty") parent = typeParentName(typ, item.name || "", item.category || "") || "Mobility";
-    else if (rawSlug === "sporting-goods") parent = typeParentName(typ, item.name || "", item.category || "") || "Cycling";
-    else if (rawSlug === "business-industrial") parent = typeParentName(typ, item.name || "", item.category || "") || "Material Handling";
+    if (rawSlug === "health-beauty") parent = typeParentName(typ, item.name || "") || "Mobility";
+    else if (rawSlug === "sporting-goods") parent = typeParentName(typ, item.name || "") || "Cycling";
+    else if (rawSlug === "business-industrial") parent = typeParentName(typ, item.name || "") || "Material Handling";
     if (!sub || /^vintage$/i.test(sub)) {
       sub = typ && !/^vintage$/i.test(typ) ? typ : kept[kept.length - 1] || parent;
     }
@@ -1655,13 +1602,6 @@
         (i) => Number(i.price) > 0 && /^[A-Z0-9]{16,32}$/.test(String(i.id || ""))
       );
       byId = new Map(catalog.map((i) => [String(i.id || ""), i]));
-      const seenParents = new Set(STORE_PARENTS.map((p) => p.slug));
-      catalog.forEach((i) => {
-        const st = itemStoreTree(i);
-        if (!st.parentSlug || seenParents.has(st.parentSlug)) return;
-        seenParents.add(st.parentSlug);
-        STORE_PARENTS.push({ slug: st.parentSlug, label: st.parent, auto: false });
-      });
       if (countEl) {
         countEl.textContent = `${catalog.length} listings`;
       }

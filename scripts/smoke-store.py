@@ -63,7 +63,7 @@ def main():
         check("catalog loaded", catalog_size > 0, f"n={catalog_size}")
         by_id = {i.get("id"): i.get("category") for i in cat.get("items", [])}
         want_buckets = {
-            "W3LT2QSYY5C2YYPE5PYLATNO": "mobility",
+            "LI7R7ABGGB2TXJQUEGHG5TRX": "mobility",
             "EZW5JY5PWZJO4PH5R2TQGYC3": "material-handling",
             "7CESL5VZLPSRKJGWUFCHL5R5": "electric-motors",
             "3YKKZSK4N5HMOC7TOVXSFOHH": "exhaust",
@@ -287,15 +287,9 @@ def main():
             check("vehicle hidden on Vintage", not page.is_visible("#stMakeSelect"))
             check(
                 "Vintage holds yard stock",
-                "wheelchair" in vin_titles,
+                "wheelchair" in vin_titles and "craftsman" in vin_titles,
                 showing_vin,
             )
-            page.select_option("#stCatSelect", "tools")
-            page.wait_for_timeout(300)
-            tools_titles = " ".join(page.locator("#stGrid .st-card .name").all_inner_texts()).lower()
-            check("Tools parent exists", bool(page.query_selector("#stCatSelect option[value='tools']")))
-            check("Tools holds the Craftsman motor", "craftsman" in tools_titles, tools_titles[:160])
-            check("Tools holds workshop leftovers", "tile cutter" in tools_titles, tools_titles[:200])
             page.select_option("#stCatSelect", "industrial-warehouse")
             page.wait_for_timeout(300)
             showing_ind = page.text_content("#stShowing").strip()
@@ -512,11 +506,11 @@ def main():
             pdp = page.goto(f"{BASE}/p/7CESL5VZLPSRKJGWUFCHL5R5.html")
             check("pdp chrome item loads", pdp and pdp.ok, f"status={getattr(pdp, 'status', None)}")
             check(
-                "pdp Craftsman category is Tools",
-                "Tools" in (page.text_content(".pdp-category") or ""),
+                "pdp Craftsman category is Vintage",
+                "Vintage & Collectibles" in (page.text_content(".pdp-category") or ""),
                 page.text_content(".pdp-category"),
             )
-            page.goto(f"{BASE}/p/W3LT2QSYY5C2YYPE5PYLATNO.html")
+            page.goto(f"{BASE}/p/LI7R7ABGGB2TXJQUEGHG5TRX.html")
             check(
                 "pdp wheelchair category is Vintage",
                 "Vintage & Collectibles" in (page.text_content(".pdp-category") or ""),

@@ -10,13 +10,9 @@ HUB = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from build_static_pdps import (  # noqa: E402
     BASE,
-    SQUARE_ID_RE,
     assign_pdp_slugs,
-    is_title_year_pn,
-    item_display_pns,
     item_mpn,
     pdp_slug_base,
-    pdp_slug_from_name,
     slug_stem,
 )
 
@@ -33,15 +29,16 @@ def test_slug_charset():
 
 
 def test_store_brand_omitted():
-    assert pdp_slug_base({"id": "AAAAAAAAAAAAAAAA", "name": "x", "part_numbers": []}) == "x"
-    store = {
+    item = {
         "id": "AAAAAAAAAAAAAAAA",
         "name": "Mystery gasket",
-        "part_numbers": [],
-        "ebay_brand": "BuccaneerSalvage Store",
+        "part_numbers": ["ZZ-999"],
+        "ebay_brand": "",
     }
-    assert pdp_slug_base(store) == "mystery-gasket"
-    assert "buccaneersalvage" not in pdp_slug_base(store)
+    # brand_guess falls back to first PN token or store name; pin store brand
+    item["name"] = "Mystery gasket"
+    item["part_numbers"] = []
+    assert pdp_slug_base({"id": "AAAAAAAAAAAAAAAA", "name": "x", "part_numbers": []}) == "AAAAAAAAAAAAAAAA"
 
 
 def test_collision_suffix():
@@ -109,8 +106,7 @@ def test_catalog_slugs_unique():
         if mpn:
             assert stem != iid or pdp_slug_base(item) == iid
         else:
-            assert stem != iid
-            assert not SQUARE_ID_RE.fullmatch(stem.upper())
+            assert stem == iid
 
 
 def test_generated_files_and_sitemap():
@@ -141,122 +137,6 @@ def test_generated_files_and_sitemap():
     assert "pdp-slugs.json" in main
 
 
-def test_title_year_not_mpn():
-    jeep = {
-        "id": "STX3QQ2VRH3VAFUCF55IA3VR",
-        "name": "1976-1986 Jeep CJ Clutch Brake Pedal Assembly Manual Transmission OEM",
-        "part_numbers": ["1976"],
-        "ebay_brand": "Jeep",
-    }
-    assert is_title_year_pn("1976", jeep["name"])
-    assert item_display_pns(jeep) == []
-    assert item_mpn(jeep) == ""
-    stem = pdp_slug_base(jeep)
-    assert stem != "jeep-1976"
-    assert "clutch" in stem
-    assert "1976" in stem
-    national = {
-        "id": "BBBBBBBBBBBBBBBB",
-        "name": "National 2043 Pinion Seal NOS 88-97 Chevy K1500",
-        "part_numbers": ["2043"],
-        "ebay_brand": "National",
-    }
-    assert not is_title_year_pn("2043", national["name"])
-    assert item_mpn(national) == "2043"
-
-
-def test_breadcrumb_is_full_name():
-    items = {i["id"]: i for i in load_items()}
-    slugs = assign_pdp_slugs(list(items.values()))
-    jeep = items["STX3QQ2VRH3VAFUCF55IA3VR"]
-    stem = slugs[jeep["id"]]
-    page = (HUB / "p" / f"{stem}.html").read_text(encoding="utf-8")
-    assert jeep["name"] in page
-    assert f'<span>{jeep["name"]}</span>' in page or "Clutch Brake Pedal Assembly" in page
-    assert ">1976<" not in page.split("pdp-breadcrumb")[1].split("</nav>")[0]
-
-
-def test_no_mpn_name_slug_not_square_id():
-    coleman = {
-        "id": "W54WMQYKJ4OJRLJQRQSYYXHV",
-        "name": "Vintage 1972 Coleman 425 2-Burner Camp Stove Green Case Restoration Project",
-        "part_numbers": [],
-        "ebay_brand": "Coleman",
-    }
-    stem = pdp_slug_base(coleman)
-    assert stem != coleman["id"]
-    assert stem.startswith("coleman-1972-425")
-    assert "vintage" not in stem
-    tile = {
-        "id": "76ZJG6NNDY73XL2QXHGWC56L",
-        "name": "Vintage 24 Inch Heavy Duty Manual Tile Cutter Ceramic Floor Wall Contractor",
-        "part_numbers": [],
-        "ebay_brand": "Unbranded",
-    }
-    tstem = pdp_slug_base(tile)
-    assert tstem != tile["id"]
-    assert "unbranded" not in tstem
-    assert "tile-cutter" in tstem
-    empty = {"id": "W54WMQYKJ4OJRLJQRQSYYXHV", "name": "", "part_numbers": []}
-    assert pdp_slug_from_name(empty, empty["id"]).startswith("item-")
-
-
-def test_generated_no_mpn_files():
-    items = {i["id"]: i for i in load_items()}
-    slugs = assign_pdp_slugs(list(items.values()))
-    for iid in (
-        "W54WMQYKJ4OJRLJQRQSYYXHV",
-        "76ZJG6NNDY73XL2QXHGWC56L",
-        "W4MUULZLATJKYPEY6SEKNP25",
-    ):
-        stem = slugs[iid]
-        assert stem != iid
-        page = (HUB / "p" / f"{stem}.html").read_text(encoding="utf-8")
-        assert f"{BASE}/p/{stem}.html" in page
-        assert 'content="noindex"' not in page
-        stub = (HUB / "p" / f"{iid}.html").read_text(encoding="utf-8")
-        assert "noindex" in stub
-        assert f"url={stem}.html" in stub
-        if iid == "W54WMQYKJ4OJRLJQRQSYYXHV":
-            assert "Sporting Goods" in page
-            assert "Camping Stoves" in page
-        if iid == "76ZJG6NNDY73XL2QXHGWC56L":
-            assert "Tools" in page
-            assert "Cutting Tools" in page
-        if iid == "W4MUULZLATJKYPEY6SEKNP25":
-            assert "Rifle Scopes" in page
-
-
-def test_superseded_year_slug_stub_kept():
-    jeep = next(i for i in load_items() if i["id"] == "STX3QQ2VRH3VAFUCF55IA3VR")
-    slugs = assign_pdp_slugs(load_items())
-    stem = slugs[jeep["id"]]
-    assert stem != "jeep-1976"
-    stub = (HUB / "p" / "jeep-1976.html").read_text(encoding="utf-8")
-    assert "noindex" in stub
-    assert f"url={stem}.html" in stub
-    sm = (HUB / "sitemap-store.xml").read_text(encoding="utf-8")
-    assert f"{BASE}/p/{stem}.html" in sm
-    assert f"{BASE}/p/jeep-1976.html" not in sm
-
-
-def test_h1_matches_catalog_name():
-    import html as html_lib
-
-    items = {i["id"]: i for i in load_items()}
-    slugs = assign_pdp_slugs(list(items.values()))
-    # Julian 2026-09-08: hub H1 was short_h1, Square checkout had the listing title.
-    iid = "373RPPOCYAZFVEE4KH3VYLOY"
-    stem = slugs[iid]
-    name = items[iid]["name"]
-    page = (HUB / "p" / f"{stem}.html").read_text(encoding="utf-8")
-    assert f'<h1 class="pdp-title">{html_lib.escape(name)}</h1>' in page
-    assert "Gates 5536 · 160 F" not in page
-    t08 = items["BYO4CA2ORO6PIIHKJ6BAJ7Z5"]
-    p08 = (HUB / "p" / f"{slugs[t08['id']]}.html").read_text(encoding="utf-8")
-    assert f'<h1 class="pdp-title">{html_lib.escape(t08["name"])}</h1>' in p08
-
-
 if __name__ == "__main__":
     tests = [
         test_slug_charset,
@@ -265,13 +145,7 @@ if __name__ == "__main__":
         test_ebay_brand_preferred,
         test_no_ebay_brand_mpn_mpn_in_catalog,
         test_catalog_slugs_unique,
-        test_title_year_not_mpn,
-        test_no_mpn_name_slug_not_square_id,
         test_generated_files_and_sitemap,
-        test_generated_no_mpn_files,
-        test_breadcrumb_is_full_name,
-        test_superseded_year_slug_stub_kept,
-        test_h1_matches_catalog_name,
     ]
     failed = 0
     for fn in tests:

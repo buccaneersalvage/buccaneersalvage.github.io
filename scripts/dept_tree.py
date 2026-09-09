@@ -29,7 +29,7 @@ TYPE_PARENT = [
     (r"wheelchair", "Mobility"),
     (r"\bbicycle\b|\bbike\b|\bmasi\b", "Cycling"),
     (r"forklift", "Material Handling"),
-    (r"capacitor motor", "Electric Motors"),
+    (r"capacitor motor|\bcraftsman\b.*\bmotor\b", "Electric Motors"),
 ]
 
 _TYPE_RX = [(re.compile(pat, re.I), parent) for pat, parent in TYPE_PARENT]
@@ -95,9 +95,7 @@ def canon_sub_slug(s: str) -> str:
     return SUB_CANON.get(k, k)
 
 
-def type_parent_name(typ: str, name: str, cat: str = "") -> str:
-    if cat == "electric-motors":
-        return "Electric Motors"
+def type_parent_name(typ: str, name: str) -> str:
     for blob in (typ or "", name or ""):
         if not blob:
             continue
@@ -130,24 +128,23 @@ def item_ebay_tree(item: dict | None) -> dict:
     elif len(kept) == 1:
         parent = kept[0]
         sub = typ or kept[0]
-    cat = item.get("category") or ""
-    typed = type_parent_name(typ, item.get("name") or "", cat)
+    typed = type_parent_name(typ, item.get("name") or "")
     if typed and slug_key(parent) != slug_key(typed):
         parent = typed
         if typ and not re.match(r"^vintage$", typ, re.I):
             sub = typ
     if not parent:
-        if cat in ("turbo", "pump"):
+        if item.get("category") in ("turbo", "pump"):
             parent = "Cores"
         else:
-            parent = type_parent_name(typ, item.get("name") or "", cat)
+            parent = type_parent_name(typ, item.get("name") or "")
     raw_slug = slug_key(parent)
     if raw_slug == "health-beauty":
-        parent = type_parent_name(typ, item.get("name") or "", cat) or "Mobility"
+        parent = type_parent_name(typ, item.get("name") or "") or "Mobility"
     elif raw_slug == "sporting-goods":
-        parent = type_parent_name(typ, item.get("name") or "", cat) or "Cycling"
+        parent = type_parent_name(typ, item.get("name") or "") or "Cycling"
     elif raw_slug == "business-industrial":
-        parent = type_parent_name(typ, item.get("name") or "", cat) or "Material Handling"
+        parent = type_parent_name(typ, item.get("name") or "") or "Material Handling"
     if not sub or re.match(r"^vintage$", sub, re.I):
         if typ and not re.match(r"^vintage$", typ, re.I):
             sub = typ
@@ -177,7 +174,6 @@ STORE_PARENT_LABEL = {
     "auto-parts": "Auto Parts & Accessories",
     "vintage-collectibles": "Vintage & Collectibles",
     "industrial-warehouse": "Industrial & Warehouse",
-    "tools": "Tools",
 }
 
 
@@ -253,43 +249,6 @@ def _auto_sub(cat: str, typ: str, name: str) -> tuple[str, str]:
     return "engine-parts", "Engine Parts"
 
 
-def ebay_category_parts(item: dict | None) -> tuple[list[str], list[str], bool]:
-    """Split ebay_category. motors=True when the path starts at eBay Motors."""
-    if not item:
-        return [], [], False
-    raw = (
-        item.get("ebay_category")
-        or ((item.get("fitment") or {}).get("ebay_category") if isinstance(item.get("fitment"), dict) else "")
-        or ""
-    ).strip()
-    parts = [p.strip() for p in raw.split(":") if p.strip()] if raw else []
-    kept = [p for p in parts if p.lower() not in EBAY_SKIP]
-    motors = bool(parts) and parts[0].lower() == "ebay motors"
-    return parts, kept, motors
-
-
-def is_workshop_tools(cat: str, kept: list[str], motors: bool) -> bool:
-    """Leftover workshop class from catalog fields (not a brand-name blob).
-
-    Tools parent when the item is not eBay Motors and either:
-    - Square category is electric-motors, or
-    - eBay path has Home & Garden Tools & Workshop Equipment, or
-    - eBay path has Collectibles Tools, Hardware & Locks.
-
-    Appliance motors, BI Light Equipment, HVAC blowers, and advertising tins
-    do not match these crumbs and stay on leftover L1.
-    """
-    if motors:
-        return False
-    if cat == "electric-motors":
-        return True
-    for p in kept:
-        pl = (p or "").lower()
-        if pl in ("tools & workshop equipment", "tools, hardware & locks"):
-            return True
-    return False
-
-
 def item_store_tree(item: dict | None) -> dict:
     """eBay-store parent + child. Same rules as store.js itemStoreTree()."""
     if not item:
@@ -319,6 +278,13 @@ def item_store_tree(item: dict | None) -> dict:
             "subSlug": "household-medical",
             "sub": "Household & Medical",
         }
+    if cat == "electric-motors" or ("craftsman" in blob and "motor" in blob):
+        return {
+            "parentSlug": "vintage-collectibles",
+            "parent": "Vintage & Collectibles",
+            "subSlug": "vintage-tools",
+            "sub": "Vintage Tools & Hardware",
+        }
     if cat == "material-handling" or "forklift" in blob:
         return {
             "parentSlug": "industrial-warehouse",
@@ -341,36 +307,6 @@ def item_store_tree(item: dict | None) -> dict:
             "parent": "Truck Air Springs",
             "subSlug": sub_slug,
             "sub": sub,
-        }
-    _parts, kept, motors = ebay_category_parts(item)
-    if is_workshop_tools(cat, kept, motors):
-        if cat == "electric-motors" and not kept:
-            sub_slug, sub = "electric-motors", "Electric Motors"
-        else:
-            leaf = kept[-1] if kept else "Electric Motors"
-            sub_slug, sub = slug_key(leaf) or "other", leaf
-        return {
-            "parentSlug": "tools",
-            "parent": "Tools",
-            "subSlug": sub_slug,
-            "sub": sub,
-        }
-    if not motors and kept:
-        l1 = kept[0]
-        leaf = kept[-1]
-        l1_slug = slug_key(l1)
-        if l1_slug == "collectibles":
-            parent_slug, parent = "vintage-collectibles", "Vintage & Collectibles"
-        elif l1_slug == "business-industrial":
-            parent_slug, parent = "industrial-warehouse", "Industrial & Warehouse"
-        else:
-            parent_slug, parent = l1_slug or "other", l1
-        sub_slug = slug_key(leaf) or "other"
-        return {
-            "parentSlug": parent_slug,
-            "parent": parent,
-            "subSlug": sub_slug,
-            "sub": leaf,
         }
     sub_slug, sub = _auto_sub(cat, typ, name)
     return {

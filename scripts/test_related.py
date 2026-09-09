@@ -10,6 +10,7 @@ HUB = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from build_static_pdps import (  # noqa: E402
     also_stocked_items,
+    assign_pdp_slugs,
     listing_photo_files,
     load_ship_map,
     related_card_title,
@@ -179,16 +180,22 @@ def test_short_h1_and_site_checkout():
     assert safe_checkout(url) == url
     assert safe_checkout("https://evil.example/product/BYO4CA2ORO6PIIHKJ6BAJ7Z5") == ""
     assert safe_checkout("https://square.link/u/kBO2Zgdy").startswith("https://square.link/")
-    page = (HUB / "p" / f"{t08['id']}.html").read_text(encoding="utf-8")
+    slugs = assign_pdp_slugs(items)
+    page = (HUB / "p" / f"{slugs[t08['id']]}.html").read_text(encoding="utf-8")
     assert f'href="{safe_checkout(t08.get("url"))}"' in page
     assert 'data-bind="checkout"' in page
     assert "Auto Parts &amp; Accessories" in page or "Auto Parts & Accessories" in page
-    air = (HUB / "p" / "5LLWTR3B27YDLV6ZR6XMBPWL.html").read_text(encoding="utf-8")
-    assert "Truck Air Springs" in air
+    if slugs[t08["id"]] != t08["id"]:
+        stub = (HUB / "p" / f"{t08['id']}.html").read_text(encoding="utf-8")
+        assert "noindex" in stub
+        assert slugs[t08["id"]] in stub
     air_item = by_id["5LLWTR3B27YDLV6ZR6XMBPWL"]
+    air = (HUB / "p" / f"{slugs[air_item['id']]}.html").read_text(encoding="utf-8")
+    assert "Truck Air Springs" in air
     assert f'href="{safe_checkout(air_item.get("url"))}"' in air
     assert "square.site/product/" not in air
-    vintage = (HUB / "p" / "7CESL5VZLPSRKJGWUFCHL5R5.html").read_text(encoding="utf-8")
+    vintage_id = "7CESL5VZLPSRKJGWUFCHL5R5"
+    vintage = (HUB / "p" / f"{slugs[vintage_id]}.html").read_text(encoding="utf-8")
     assert "Vintage &amp; Collectibles" in vintage or "Vintage & Collectibles" in vintage
 
 
