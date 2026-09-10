@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 """Regenerate static PDP pages under p/{brand-mpn}.html for no-JS crawler SEO.
 
-Square catalog ids stay on sku and as noindex meta-refresh stubs when the
-canonical filename is a brand-mpn slug. GitHub Pages has no HTTP 301.
+Square catalog ids stay as noindex meta-refresh stubs when the canonical
+filename is a brand-mpn slug. GitHub Pages has no HTTP 301. Product sku in
+JSON-LD is the manufacturer PN (or the slug), never the Square catalog id.
 """
 from __future__ import annotations
 
@@ -1075,7 +1076,7 @@ def main() -> None:
             "name": name,
             "description": desc,
             "image": [schema_image_url(u) for u in ([img, *gallery] if gallery else [img])],
-            "sku": iid,
+            "sku": item_mpn(item) or slug,
             "brand": {"@type": "Brand", "name": brand_guess(item)},
             "isPartOf": {
                 "@type": "WebSite",

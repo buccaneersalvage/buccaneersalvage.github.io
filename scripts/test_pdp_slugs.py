@@ -124,6 +124,8 @@ def test_generated_files_and_sitemap():
     page = (HUB / "p" / f"{stem}.html").read_text(encoding="utf-8")
     assert f"{BASE}/p/{stem}.html" in page
     assert 'content="noindex"' not in page
+    assert f'"sku": "{t08}"' not in page
+    assert '"sku": "33008"' in page or "33008" in page
     stub = (HUB / "p" / f"{t08}.html").read_text(encoding="utf-8")
     if stem != t08:
         assert "noindex" in stub
