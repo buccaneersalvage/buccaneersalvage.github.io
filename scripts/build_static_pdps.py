@@ -938,18 +938,37 @@ def ensure_hero_webp(item, fallback):
     return f"../assets/pdp-gallery/{iid}/01.webp"
 
 
+def baked_extra_gallery_urls(iid):
+    """Already-written extra shots (02.webp…) so a catalog URL swap cannot drop them."""
+    dest_dir = GALLERY_DIR / iid
+    if not dest_dir.is_dir():
+        return []
+    urls = []
+    for dest in sorted(dest_dir.glob("[0-9][0-9].webp")):
+        if dest.stem == "01":
+            continue
+        urls.append(f"../assets/pdp-gallery/{iid}/{dest.name}")
+        if len(urls) >= _GALLERY_MAX:
+            break
+    return urls
+
+
 def ensure_listing_gallery(item):
-    """Extra shots from the eBay listing folder. Skip photo-01 (usually the Square hero)."""
+    """Extra shots from the eBay listing folder. Skip photo-01 (usually the Square hero).
+
+    If listed/ is empty on this box, reuse webps already baked under pdp-gallery.
+    Office is the photo archive; main only needs those extras, not the originals.
+    """
     iid = safe_item_id(item.get("id"))
     if not iid:
         return []
     extras = listing_photo_files(item.get("ebay_item_id"))[1 : 1 + _GALLERY_MAX]
     if not extras:
-        return []
+        return baked_extra_gallery_urls(iid)
     try:
         from PIL import Image  # noqa: F401 — availability check only
     except ImportError:
-        return []
+        return baked_extra_gallery_urls(iid)
     dest_dir = GALLERY_DIR / iid
     dest_dir.mkdir(parents=True, exist_ok=True)
     urls = []
@@ -1033,6 +1052,14 @@ def main() -> None:
         gallery = [u for u in gallery_raw if u and u != img]
         if not gallery:
             gallery = [u for u in (safe_image(u) for u in ensure_listing_gallery(item)) if u]
+        elif not any(_LOCAL_GALLERY_RE.fullmatch(u) for u in gallery):
+            # Catalog extras are Square URLs (or empty after a URL-only re-export).
+            # Still bake/reuse eBay listing extras so PDPs keep every shot.
+            baked = [u for u in (safe_image(u) for u in ensure_listing_gallery(item)) if u]
+            if baked:
+                gallery = baked
+        if gallery:
+            item["images"] = gallery
         video = safe_video(item.get("video"))
         # square.site/product/{catalogId} is a dead Square SPA shell ($0.00).
         # Real checkout is the catalog square.link payment URL.
@@ -1442,6 +1469,10 @@ def main() -> None:
     )
 
     print(f"OK {len(written)} static PDPs → {out_dir}")
+    cat_path = HUB / "assets/square-catalog.json"
+    cat_path.write_text(json.dumps(cat, indent=2) + "\n", encoding="utf-8")
+    n_gal = sum(1 for i in cat["items"] if len(i.get("images") or []) > 0)
+    print(f"OK persisted images[] on {n_gal}/{len(cat['items'])} catalog items")
     assert_named_product_pages(HUB)
 
 

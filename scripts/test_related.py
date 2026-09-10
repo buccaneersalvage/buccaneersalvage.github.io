@@ -146,6 +146,26 @@ def test_listing_gallery_and_zero_price_filter():
     assert safe_image("../assets/pdp-gallery/../02.webp") == ""
 
 
+def test_baked_gallery_survives_missing_listed():
+    """Main box has no listed/ photos; extras already under pdp-gallery must still attach."""
+    import build_static_pdps as m
+
+    items, by_id = load_items()
+    iid = "7FGRFQ3FFWTU25CSM5IZT5HY"
+    item = by_id[iid]
+    gal = HUB / "assets" / "pdp-gallery" / iid
+    extras = sorted(p for p in gal.glob("*.webp") if p.stem != "01") if gal.is_dir() else []
+    assert extras, iid
+    real = m.listing_photo_files
+    m.listing_photo_files = lambda *a, **k: []
+    try:
+        urls = m.ensure_listing_gallery(item)
+    finally:
+        m.listing_photo_files = real
+    assert any(u.endswith("/02.webp") for u in urls), urls
+    assert all(u.startswith(f"../assets/pdp-gallery/{iid}/") for u in urls)
+
+
 def test_ship_snapshot_matches_square_profiles():
     items, by_id = load_items()
     sm = load_ship_map()
@@ -209,6 +229,7 @@ if __name__ == "__main__":
         test_luv_cap_does_not_dump_subaru,
         test_html_uses_cards_not_title_wall,
         test_listing_gallery_and_zero_price_filter,
+        test_baked_gallery_survives_missing_listed,
         test_ship_snapshot_matches_square_profiles,
         test_short_h1_and_site_checkout,
     ]
