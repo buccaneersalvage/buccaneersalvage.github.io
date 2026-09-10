@@ -525,6 +525,7 @@ main { position: relative; z-index: 2; }
   transition: border-color 0.25s, transform 0.3s var(--ease);
 }
 .card:hover { border-color: var(--line-hot); }
+.card h2,
 .card h3 {
   font-family: var(--font-display);
   font-size: 1.35rem;
