@@ -11,12 +11,14 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 from build_static_pdps import (  # noqa: E402
     BASE,
     SQUARE_ID_RE,
+    assert_named_product_pages,
     assign_pdp_slugs,
     is_title_year_pn,
     item_display_pns,
     item_mpn,
     pdp_slug_base,
     pdp_slug_from_name,
+    redirect_stub,
     slug_stem,
 )
 
@@ -240,6 +242,42 @@ def test_superseded_year_slug_stub_kept():
     assert f"{BASE}/p/jeep-1976.html" not in sm
 
 
+def test_named_page_gate_rejects_stub_canonical():
+    """Class rule: slug file must be a product page, not a refresh stub."""
+    import shutil
+    import tempfile
+
+    tmp = Path(tempfile.mkdtemp())
+    try:
+        (tmp / "assets").mkdir()
+        (tmp / "p").mkdir()
+        iid = "A" * 24
+        name = "Gates 33008 Thermostat"
+        slug = "gates-33008"
+        (tmp / "assets" / "square-catalog.json").write_text(
+            json.dumps({"items": [{"id": iid, "name": name, "price": 12.0}]}),
+            encoding="utf-8",
+        )
+        (tmp / "assets" / "pdp-slugs.json").write_text(
+            json.dumps({iid: slug}),
+            encoding="utf-8",
+        )
+        (tmp / "p" / f"{slug}.html").write_text(redirect_stub(slug), encoding="utf-8")
+        try:
+            assert_named_product_pages(tmp)
+        except SystemExit:
+            pass
+        else:
+            raise AssertionError("stub canonical must fail the named-page gate")
+        (tmp / "p" / f"{slug}.html").write_text(
+            f'<h1 class="pdp-title">{name}</h1>\n',
+            encoding="utf-8",
+        )
+        assert_named_product_pages(tmp)
+    finally:
+        shutil.rmtree(tmp)
+
+
 def test_h1_matches_catalog_name():
     import html as html_lib
 
@@ -271,6 +309,7 @@ if __name__ == "__main__":
         test_generated_no_mpn_files,
         test_breadcrumb_is_full_name,
         test_superseded_year_slug_stub_kept,
+        test_named_page_gate_rejects_stub_canonical,
         test_h1_matches_catalog_name,
     ]
     failed = 0

@@ -1441,7 +1441,70 @@ def main() -> None:
     )
 
     print(f"OK {len(written)} static PDPs → {out_dir}")
+    assert_named_product_pages(HUB)
+
+
+def is_pdp_redirect_stub(page: str) -> bool:
+    """True when the file is a noindex meta-refresh, not a product page."""
+    return (
+        "http-equiv=\"refresh\"" in page
+        and "noindex" in page
+        and 'class="pdp-title"' not in page
+    )
+
+
+def assert_named_product_pages(hub: Path) -> None:
+    """Canonical PDP files must be named product HTML, not Square-ID stubs.
+
+    Catalog / sitemap / store.js all point at p/{slug}.html. A tree of only
+    ID refresh stubs 404s every catalog click (Lost at Sea). Square-ID files
+    may be stubs; the slug file must contain the product name in an H1.
+    """
+    hub = Path(hub)
+    cat = json.loads((hub / "assets" / "square-catalog.json").read_text(encoding="utf-8"))
+    items = [i for i in cat["items"] if has_sale_price(i)]
+    slugs = json.loads((hub / "assets" / "pdp-slugs.json").read_text(encoding="utf-8"))
+    out_dir = hub / "p"
+    missing = []
+    stub_canonicals = []
+    nameless = []
+    for item in items:
+        iid = str(item.get("id") or "")
+        slug = slugs.get(iid)
+        name = str(item.get("name") or "").strip()
+        if not slug:
+            missing.append(iid)
+            continue
+        path = out_dir / f"{slug}.html"
+        if not path.is_file():
+            missing.append(slug)
+            continue
+        page = path.read_text(encoding="utf-8")
+        if is_pdp_redirect_stub(page):
+            stub_canonicals.append(slug)
+            continue
+        esc_name = html.escape(name)
+        if 'class="pdp-title"' not in page or (
+            name and esc_name not in page and name not in page
+        ):
+            nameless.append(slug)
+    problems = []
+    if missing:
+        problems.append(f"missing named PDP ({len(missing)}): {missing[:8]}")
+    if stub_canonicals:
+        problems.append(
+            f"canonical is redirect stub ({len(stub_canonicals)}): {stub_canonicals[:8]}"
+        )
+    if nameless:
+        problems.append(f"canonical missing product name H1 ({len(nameless)}): {nameless[:8]}")
+    if problems:
+        raise SystemExit("ERROR: named PDP gate: " + " | ".join(problems))
 
 
 if __name__ == "__main__":
-    main()
+    if len(sys.argv) > 1 and sys.argv[1] == "--verify":
+        target = Path(sys.argv[2]).resolve() if len(sys.argv) > 2 else HUB
+        assert_named_product_pages(target)
+        print(f"OK named PDP gate → {target}")
+    else:
+        main()
