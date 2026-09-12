@@ -892,11 +892,23 @@ GALLERY_DIR = HUB / "assets" / "pdp-gallery"
 # Square product galleries must never keep them — they ate extra slots and
 # then persist-images[] locked the mix-in.
 _STORE_BRAND_URL_MARKERS = ("uegAAeSwPZZqNDe1", "0lIAAeSw9SNqNDe1")
+# Exact pixel sizes of the two eBay store shots (portrait or landscape).
+_STORE_BRAND_SIZES = frozenset(
+    {(832, 1248), (1248, 832), (960, 640), (640, 960)}
+)
 _STORE_BRAND_MD5 = {
+    # hub webp encodes
     "1d660edbba7f7d75076717f80c88f1f0",
     "1d5dea8b5f898e0e6b8b4de1a1ec765b",
     "118c3ef0dc6edfee7652a6f8c9186f56",
     "5ee77765e2ceffa7cc3a9351f2824673",
+    "17e093a5a6ea49fad858489b27323e1a",
+    "e6128bbbd80e834e7277e99338c54d0f",
+    # office listed jpg / alternate encodes of the same two shots
+    "3326c66594bef96ddf48ceee7d9a94ee",
+    "e02ea56efacde52b72594c5b91581e0d",
+    "9db6631c452d41a156f962d243ae900d",
+    "b1f5e3bc531c9a2f99f80ac801e1f885",
 }
 
 
@@ -913,10 +925,22 @@ def is_store_brand_photo(src):
             p = HUB / s
     try:
         if p.is_file():
-            return hashlib.md5(p.read_bytes()).hexdigest() in _STORE_BRAND_MD5
+            if hashlib.md5(p.read_bytes()).hexdigest() in _STORE_BRAND_MD5:
+                return True
+            return _store_brand_size(p)
     except OSError:
         return False
     return False
+
+
+def _store_brand_size(p):
+    try:
+        from PIL import Image
+
+        with Image.open(p) as im:
+            return im.size in _STORE_BRAND_SIZES
+    except Exception:
+        return False
 
 
 def compact_store_brand_gallery_dir(dest_dir):
