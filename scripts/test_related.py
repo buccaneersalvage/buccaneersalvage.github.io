@@ -187,6 +187,39 @@ def test_store_brand_photos_skipped_from_gallery():
             m._STORE_BRAND_MD5 = real
 
 
+def test_listing_photos_from_hires_and_id_file():
+    """Office listed extras live in ebay-hires/ or slug folders with ebay_id.txt."""
+    import tempfile
+    from pathlib import Path
+
+    import build_static_pdps as m
+
+    with tempfile.TemporaryDirectory() as td:
+        listed = Path(td) / "listed"
+        hires = listed / "111111111111-part" / "photos" / "ebay-hires"
+        hires.mkdir(parents=True)
+        (hires / "a.jpg").write_bytes(b"a")
+        (hires / "b.jpg").write_bytes(b"b")
+        (hires / "c.jpg").write_bytes(b"c")
+        slug = listed / "slug-only-folder" / "photos" / "ebay-hires"
+        slug.mkdir(parents=True)
+        (listed / "slug-only-folder" / "ebay_id.txt").write_text("222222222222\n")
+        (slug / "d.jpg").write_bytes(b"d")
+        (slug / "e.jpg").write_bytes(b"e")
+        real = m.LISTED
+        try:
+            m.LISTED = listed
+            m._reset_listed_index()
+            got = m.listing_photo_files("111111111111")
+            assert [p.name for p in got] == ["a.jpg", "b.jpg", "c.jpg"]
+            got2 = m.listing_photo_files("222222222222")
+            assert [p.name for p in got2] == ["d.jpg", "e.jpg"]
+            assert m.listing_photo_files("000000000000") == []
+        finally:
+            m.LISTED = real
+            m._reset_listed_index()
+
+
 def test_baked_gallery_survives_missing_listed():
     """Main box has no listed/ photos; extras already under pdp-gallery must still attach."""
     import build_static_pdps as m
@@ -271,6 +304,7 @@ if __name__ == "__main__":
         test_html_uses_cards_not_title_wall,
         test_listing_gallery_and_zero_price_filter,
         test_store_brand_photos_skipped_from_gallery,
+        test_listing_photos_from_hires_and_id_file,
         test_baked_gallery_survives_missing_listed,
         test_ship_snapshot_matches_square_profiles,
         test_short_h1_and_site_checkout,

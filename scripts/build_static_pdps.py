@@ -959,6 +959,60 @@ def scrub_store_brand_galleries():
     return dropped, dirs
 
 
+_PHOTO_SUBDIRS = ("ebay-hires", "cleaned", "_originals")
+_LISTED_INDEX = None
+
+
+def _reset_listed_index():
+    global _LISTED_INDEX
+    _LISTED_INDEX = None
+
+
+def _read_listed_ebay_id(folder):
+    idf = folder / "ebay_id.txt"
+    if not idf.is_file():
+        return ""
+    try:
+        line = idf.read_text(encoding="utf-8", errors="ignore").strip().splitlines()
+    except OSError:
+        return ""
+    if not line:
+        return ""
+    raw = line[0].strip()
+    return raw if raw.isdigit() else ""
+
+
+def _listed_folders_for(eid):
+    """Office archive is `{eid}-slug` or a slug folder with ebay_id.txt."""
+    global _LISTED_INDEX
+    if _LISTED_INDEX is None:
+        idx = {}
+        if LISTED.is_dir():
+            for folder in LISTED.iterdir():
+                if not folder.is_dir():
+                    continue
+                prefix = folder.name.split("-", 1)[0]
+                if prefix.isdigit():
+                    idx.setdefault(prefix, []).append(folder)
+                file_id = _read_listed_ebay_id(folder)
+                if file_id:
+                    idx.setdefault(file_id, []).append(folder)
+        _LISTED_INDEX = idx
+    return _LISTED_INDEX.get(eid, [])
+
+
+def _image_files(dirpath):
+    if not dirpath.is_dir():
+        return []
+    return sorted(
+        p
+        for p in dirpath.iterdir()
+        if p.is_file()
+        and p.suffix.lower() in _PHOTO_EXTS
+        and not is_store_brand_photo(p)
+    )
+
+
 def listing_photo_files(ebay_item_id):
     eid = str(ebay_item_id or "").strip()
     if not eid.isdigit() or not LISTED.is_dir():
@@ -966,17 +1020,12 @@ def listing_photo_files(ebay_item_id):
     best = []
     for folder in _listed_folders_for(eid):
         photos = folder / "photos"
-        if not photos.is_dir():
-            continue
-        files = sorted(
-            p
-            for p in photos.iterdir()
-            if p.is_file()
-            and p.suffix.lower() in _PHOTO_EXTS
-            and not is_store_brand_photo(p)
-        )
-        if len(files) > len(best):
-            best = files
+        for files in (
+            _image_files(photos),
+            *(_image_files(photos / sub) for sub in _PHOTO_SUBDIRS),
+        ):
+            if len(files) > len(best):
+                best = files
     return best
 
 
