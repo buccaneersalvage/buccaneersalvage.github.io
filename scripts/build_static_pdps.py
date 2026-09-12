@@ -883,7 +883,7 @@ def safe_video(u):
 
 
 _LOCAL_GALLERY_RE = re.compile(r"^\.\./assets/pdp-gallery/[A-Z0-9]{16,32}/\d{2}\.webp$")
-_PHOTO_EXTS = {".jpg", ".jpeg", ".png", ".webp"}
+_PHOTO_EXTS = {".jpg", ".jpeg", ".png", ".webp", ".jpgf", ".pngf"}
 _GALLERY_MAX = 6
 _GALLERY_EDGE = 1400
 LISTED = Path.home() / "ebay" / "listings" / "listed"
@@ -892,11 +892,23 @@ GALLERY_DIR = HUB / "assets" / "pdp-gallery"
 # Square product galleries must never keep them — they ate extra slots and
 # then persist-images[] locked the mix-in.
 _STORE_BRAND_URL_MARKERS = ("uegAAeSwPZZqNDe1", "0lIAAeSw9SNqNDe1")
+# Exact pixel sizes of the two eBay store shots (portrait or landscape).
+_STORE_BRAND_SIZES = frozenset(
+    {(832, 1248), (1248, 832), (960, 640), (640, 960)}
+)
 _STORE_BRAND_MD5 = {
+    # hub webp encodes
     "1d660edbba7f7d75076717f80c88f1f0",
     "1d5dea8b5f898e0e6b8b4de1a1ec765b",
     "118c3ef0dc6edfee7652a6f8c9186f56",
     "5ee77765e2ceffa7cc3a9351f2824673",
+    "17e093a5a6ea49fad858489b27323e1a",
+    "e6128bbbd80e834e7277e99338c54d0f",
+    # office listed jpg / alternate encodes of the same two shots
+    "3326c66594bef96ddf48ceee7d9a94ee",
+    "e02ea56efacde52b72594c5b91581e0d",
+    "9db6631c452d41a156f962d243ae900d",
+    "b1f5e3bc531c9a2f99f80ac801e1f885",
 }
 
 
@@ -913,10 +925,22 @@ def is_store_brand_photo(src):
             p = HUB / s
     try:
         if p.is_file():
-            return hashlib.md5(p.read_bytes()).hexdigest() in _STORE_BRAND_MD5
+            if hashlib.md5(p.read_bytes()).hexdigest() in _STORE_BRAND_MD5:
+                return True
+            return _store_brand_size(p)
     except OSError:
         return False
     return False
+
+
+def _store_brand_size(p):
+    try:
+        from PIL import Image
+
+        with Image.open(p) as im:
+            return im.size in _STORE_BRAND_SIZES
+    except Exception:
+        return False
 
 
 def compact_store_brand_gallery_dir(dest_dir):
@@ -959,24 +983,73 @@ def scrub_store_brand_galleries():
     return dropped, dirs
 
 
+_PHOTO_SUBDIRS = ("ebay-hires", "cleaned", "_originals")
+_LISTED_INDEX = None
+
+
+def _reset_listed_index():
+    global _LISTED_INDEX
+    _LISTED_INDEX = None
+
+
+def _read_listed_ebay_id(folder):
+    idf = folder / "ebay_id.txt"
+    if not idf.is_file():
+        return ""
+    try:
+        line = idf.read_text(encoding="utf-8", errors="ignore").strip().splitlines()
+    except OSError:
+        return ""
+    if not line:
+        return ""
+    raw = line[0].strip()
+    return raw if raw.isdigit() else ""
+
+
+def _listed_folders_for(eid):
+    """Office archive is `{eid}-slug` or a slug folder with ebay_id.txt."""
+    global _LISTED_INDEX
+    if _LISTED_INDEX is None:
+        idx = {}
+        if LISTED.is_dir():
+            for folder in LISTED.iterdir():
+                if not folder.is_dir():
+                    continue
+                prefix = folder.name.split("-", 1)[0]
+                if prefix.isdigit():
+                    idx.setdefault(prefix, []).append(folder)
+                file_id = _read_listed_ebay_id(folder)
+                if file_id:
+                    idx.setdefault(file_id, []).append(folder)
+        _LISTED_INDEX = idx
+    return _LISTED_INDEX.get(eid, [])
+
+
+def _image_files(dirpath):
+    if not dirpath.is_dir():
+        return []
+    return sorted(
+        p
+        for p in dirpath.iterdir()
+        if p.is_file()
+        and p.suffix.lower() in _PHOTO_EXTS
+        and not is_store_brand_photo(p)
+    )
+
+
 def listing_photo_files(ebay_item_id):
     eid = str(ebay_item_id or "").strip()
     if not eid.isdigit() or not LISTED.is_dir():
         return []
     best = []
-    for folder in sorted(LISTED.glob(f"{eid}-*")):
+    for folder in _listed_folders_for(eid):
         photos = folder / "photos"
-        if not photos.is_dir():
-            continue
-        files = sorted(
-            p
-            for p in photos.iterdir()
-            if p.is_file()
-            and p.suffix.lower() in _PHOTO_EXTS
-            and not is_store_brand_photo(p)
-        )
-        if len(files) > len(best):
-            best = files
+        for files in (
+            _image_files(photos),
+            *(_image_files(photos / sub) for sub in _PHOTO_SUBDIRS),
+        ):
+            if len(files) > len(best):
+                best = files
     return best
 
 
@@ -1053,13 +1126,23 @@ def ensure_listing_gallery(item):
         return baked_extra_gallery_urls(iid)
     dest_dir = GALLERY_DIR / iid
     dest_dir.mkdir(parents=True, exist_ok=True)
-    urls = []
     for i, src in enumerate(extras, start=2):
         dest = dest_dir / f"{i:02d}.webp"
         if not dest.is_file() or dest.stat().st_mtime < src.stat().st_mtime:
             _save_webp(src, dest)
-        urls.append(f"../assets/pdp-gallery/{iid}/{i:02d}.webp")
-    return urls
+    compact_store_brand_gallery_dir(dest_dir)
+    last = 1 + len(extras)
+    for dest in list(dest_dir.glob("[0-9][0-9].webp")):
+        try:
+            n = int(dest.stem)
+        except ValueError:
+            continue
+        if n > last:
+            try:
+                dest.unlink()
+            except OSError:
+                pass
+    return baked_extra_gallery_urls(iid)
 
 
 def schema_image_url(u):

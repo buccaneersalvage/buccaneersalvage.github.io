@@ -187,6 +187,84 @@ def test_store_brand_photos_skipped_from_gallery():
             m._STORE_BRAND_MD5 = real
 
 
+def test_listing_photos_from_hires_and_id_file():
+    """Office listed extras live in ebay-hires/ or slug folders with ebay_id.txt."""
+    import tempfile
+    from pathlib import Path
+
+    import build_static_pdps as m
+
+    with tempfile.TemporaryDirectory() as td:
+        listed = Path(td) / "listed"
+        hires = listed / "111111111111-part" / "photos" / "ebay-hires"
+        hires.mkdir(parents=True)
+        (hires / "a.jpg").write_bytes(b"a")
+        (hires / "b.jpgf").write_bytes(b"b")
+        (hires / "c.pngf").write_bytes(b"c")
+        slug = listed / "slug-only-folder" / "photos" / "ebay-hires"
+        slug.mkdir(parents=True)
+        (listed / "slug-only-folder" / "ebay_id.txt").write_text("222222222222\n")
+        (slug / "d.jpg").write_bytes(b"d")
+        (slug / "e.jpg").write_bytes(b"e")
+        real = m.LISTED
+        try:
+            m.LISTED = listed
+            m._reset_listed_index()
+            got = m.listing_photo_files("111111111111")
+            assert [p.name for p in got] == ["a.jpg", "b.jpgf", "c.pngf"]
+            got2 = m.listing_photo_files("222222222222")
+            assert [p.name for p in got2] == ["d.jpg", "e.jpg"]
+            assert m.listing_photo_files("000000000000") == []
+        finally:
+            m.LISTED = real
+            m._reset_listed_index()
+
+
+def test_listing_gallery_unlinks_leftover_extra_slots():
+    """Fewer listed extras must delete leftover 06/07 slots (store chrome)."""
+    import hashlib
+    import tempfile
+    from pathlib import Path
+
+    import build_static_pdps as m
+
+    with tempfile.TemporaryDirectory() as td:
+        td = Path(td)
+        listed = td / "listed"
+        hires = listed / "398000000001-part" / "photos" / "ebay-hires"
+        hires.mkdir(parents=True)
+        from PIL import Image
+
+        Image.new("RGB", (40, 40), (10, 10, 10)).save(hires / "00.jpg", "JPEG")
+        Image.new("RGB", (40, 40), (20, 20, 20)).save(hires / "01.jpg", "JPEG")
+        Image.new("RGB", (40, 40), (30, 30, 30)).save(hires / "02.jpg", "JPEG")
+        gal = td / "pdp-gallery" / "TESTITEMID00000001"
+        gal.mkdir(parents=True)
+        (gal / "01.webp").write_bytes(b"hero-webp")
+        leftover = b"store-brand-leftover"
+        (gal / "06.webp").write_bytes(leftover)
+        (gal / "07.webp").write_bytes(leftover)
+        real_g, real_l, real_md5 = m.GALLERY_DIR, m.LISTED, m._STORE_BRAND_MD5
+        try:
+            m.GALLERY_DIR = td / "pdp-gallery"
+            m.LISTED = listed
+            m._reset_listed_index()
+            m._STORE_BRAND_MD5 = {hashlib.md5(leftover).hexdigest()}
+            urls = m.ensure_listing_gallery(
+                {"id": "TESTITEMID00000001", "ebay_item_id": "398000000001"}
+            )
+            assert not (gal / "06.webp").exists(), "leftover 06 must go"
+            assert not (gal / "07.webp").exists(), "leftover 07 must go"
+            assert (gal / "02.webp").is_file()
+            assert (gal / "03.webp").is_file()
+            assert any(u.endswith("/02.webp") for u in urls), urls
+        finally:
+            m.GALLERY_DIR = real_g
+            m.LISTED = real_l
+            m._STORE_BRAND_MD5 = real_md5
+            m._reset_listed_index()
+
+
 def test_baked_gallery_survives_missing_listed():
     """Main box has no listed/ photos; extras already under pdp-gallery must still attach."""
     import build_static_pdps as m
@@ -271,6 +349,8 @@ if __name__ == "__main__":
         test_html_uses_cards_not_title_wall,
         test_listing_gallery_and_zero_price_filter,
         test_store_brand_photos_skipped_from_gallery,
+        test_listing_photos_from_hires_and_id_file,
+        test_listing_gallery_unlinks_leftover_extra_slots,
         test_baked_gallery_survives_missing_listed,
         test_ship_snapshot_matches_square_profiles,
         test_short_h1_and_site_checkout,
