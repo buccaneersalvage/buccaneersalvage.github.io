@@ -11,6 +11,8 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 from build_static_pdps import (  # noqa: E402
     also_stocked_items,
     assign_pdp_slugs,
+    compact_store_brand_gallery_dir,
+    is_store_brand_photo,
     listing_photo_files,
     load_ship_map,
     related_card_title,
@@ -146,6 +148,45 @@ def test_listing_gallery_and_zero_price_filter():
     assert safe_image("../assets/pdp-gallery/../02.webp") == ""
 
 
+def test_store_brand_photos_skipped_from_gallery():
+    """eBay store pirate/banner shots never occupy hub gallery slots."""
+    import hashlib
+    import tempfile
+    from pathlib import Path
+
+    import build_static_pdps as m
+
+    pirate = "https://i.ebayimg.com/00/s/MTI0OFg4MzI=/z/uegAAeSwPZZqNDe1/$_1.JPG?set_id=8800005007"
+    banner = "https://i.ebayimg.com/00/s/NjQwWDk2MA==/z/0lIAAeSw9SNqNDe1/$_1.JPG?set_id=8800005007"
+    product_url = "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/AAAAAeSwXXXX/$_1.JPG"
+    assert is_store_brand_photo(pirate)
+    assert is_store_brand_photo(banner)
+    assert not is_store_brand_photo(product_url)
+    assert not is_store_brand_photo("")
+
+    with tempfile.TemporaryDirectory() as td:
+        g = Path(td) / "gal"
+        g.mkdir()
+        product_a = b"product-shot-a"
+        product_b = b"product-shot-b"
+        brand = b"store-brand-bytes"
+        (g / "01.webp").write_bytes(product_a)
+        (g / "02.webp").write_bytes(brand)
+        (g / "03.webp").write_bytes(product_b)
+        real = m._STORE_BRAND_MD5
+        try:
+            m._STORE_BRAND_MD5 = {hashlib.md5(brand).hexdigest()}
+            assert is_store_brand_photo(g / "02.webp")
+            assert not is_store_brand_photo(g / "01.webp")
+            n = compact_store_brand_gallery_dir(g)
+            assert n == 1
+            assert (g / "01.webp").read_bytes() == product_a
+            assert (g / "02.webp").read_bytes() == product_b
+            assert not (g / "03.webp").exists()
+        finally:
+            m._STORE_BRAND_MD5 = real
+
+
 def test_baked_gallery_survives_missing_listed():
     """Main box has no listed/ photos; extras already under pdp-gallery must still attach."""
     import build_static_pdps as m
@@ -229,6 +270,7 @@ if __name__ == "__main__":
         test_luv_cap_does_not_dump_subaru,
         test_html_uses_cards_not_title_wall,
         test_listing_gallery_and_zero_price_filter,
+        test_store_brand_photos_skipped_from_gallery,
         test_baked_gallery_survives_missing_listed,
         test_ship_snapshot_matches_square_profiles,
         test_short_h1_and_site_checkout,

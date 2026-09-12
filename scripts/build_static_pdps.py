@@ -7,6 +7,7 @@ JSON-LD is the manufacturer PN (or the slug), never the Square catalog id.
 """
 from __future__ import annotations
 
+import hashlib
 import html
 import json
 import re
@@ -887,6 +888,75 @@ _GALLERY_MAX = 6
 _GALLERY_EDGE = 1400
 LISTED = Path.home() / "ebay" / "listings" / "listed"
 GALLERY_DIR = HUB / "assets" / "pdp-gallery"
+# eBay store pirate + banner (auto_list / push_photos append these). Hub and
+# Square product galleries must never keep them — they ate extra slots and
+# then persist-images[] locked the mix-in.
+_STORE_BRAND_URL_MARKERS = ("uegAAeSwPZZqNDe1", "0lIAAeSw9SNqNDe1")
+_STORE_BRAND_MD5 = {
+    "1d660edbba7f7d75076717f80c88f1f0",
+    "1d5dea8b5f898e0e6b8b4de1a1ec765b",
+    "118c3ef0dc6edfee7652a6f8c9186f56",
+    "5ee77765e2ceffa7cc3a9351f2824673",
+}
+
+
+def is_store_brand_photo(src):
+    """True for the eBay store pirate/banner shot (URL marker or baked webp hash)."""
+    s = str(src or "")
+    if any(m in s for m in _STORE_BRAND_URL_MARKERS):
+        return True
+    p = src if isinstance(src, Path) else Path(s)
+    if not p.is_file():
+        if s.startswith("../assets/pdp-gallery/"):
+            p = HUB / s[3:]
+        elif s.startswith("assets/pdp-gallery/"):
+            p = HUB / s
+    try:
+        if p.is_file():
+            return hashlib.md5(p.read_bytes()).hexdigest() in _STORE_BRAND_MD5
+    except OSError:
+        return False
+    return False
+
+
+def compact_store_brand_gallery_dir(dest_dir):
+    """Drop store-brand webps and renumber remaining shots 01.webp, 02.webp…"""
+    dest_dir = Path(dest_dir)
+    if not dest_dir.is_dir():
+        return 0
+    files = sorted(p for p in dest_dir.glob("[0-9][0-9].webp") if p.is_file())
+    keepers = [p for p in files if not is_store_brand_photo(p)]
+    dropped = [p for p in files if p not in keepers]
+    if not dropped:
+        return 0
+    staging = []
+    for i, src in enumerate(keepers, start=1):
+        tmp = dest_dir / f".tmp-{i:02d}.webp"
+        src.rename(tmp)
+        staging.append(tmp)
+    for src in dropped:
+        try:
+            src.unlink()
+        except OSError:
+            pass
+    for i, tmp in enumerate(staging, start=1):
+        tmp.rename(dest_dir / f"{i:02d}.webp")
+    return len(dropped)
+
+
+def scrub_store_brand_galleries():
+    if not GALLERY_DIR.is_dir():
+        return 0, 0
+    dropped = 0
+    dirs = 0
+    for dest_dir in GALLERY_DIR.iterdir():
+        if not dest_dir.is_dir():
+            continue
+        n = compact_store_brand_gallery_dir(dest_dir)
+        if n:
+            dropped += n
+            dirs += 1
+    return dropped, dirs
 
 
 def listing_photo_files(ebay_item_id):
@@ -899,7 +969,11 @@ def listing_photo_files(ebay_item_id):
         if not photos.is_dir():
             continue
         files = sorted(
-            p for p in photos.iterdir() if p.is_file() and p.suffix.lower() in _PHOTO_EXTS
+            p
+            for p in photos.iterdir()
+            if p.is_file()
+            and p.suffix.lower() in _PHOTO_EXTS
+            and not is_store_brand_photo(p)
         )
         if len(files) > len(best):
             best = files
@@ -926,13 +1000,21 @@ def ensure_hero_webp(item, fallback):
     if not dest_dir.is_dir():
         return fallback
     files = listing_photo_files(item.get("ebay_item_id"))
+    dest = dest_dir / "01.webp"
     if not files:
+        if dest.is_file() and not is_store_brand_photo(dest):
+            return f"../assets/pdp-gallery/{iid}/01.webp"
         return fallback
     try:
-        from PIL import Image
+        from PIL import Image  # noqa: F401
     except ImportError:
+        if dest.is_file() and not is_store_brand_photo(dest):
+            return f"../assets/pdp-gallery/{iid}/01.webp"
         return fallback
-    dest = dest_dir / "01.webp"
+    if is_store_brand_photo(files[0]):
+        if dest.is_file() and not is_store_brand_photo(dest):
+            return f"../assets/pdp-gallery/{iid}/01.webp"
+        return fallback
     if not dest.is_file() or dest.stat().st_mtime < files[0].stat().st_mtime:
         _save_webp(files[0], dest)
     return f"../assets/pdp-gallery/{iid}/01.webp"
@@ -945,7 +1027,7 @@ def baked_extra_gallery_urls(iid):
         return []
     urls = []
     for dest in sorted(dest_dir.glob("[0-9][0-9].webp")):
-        if dest.stem == "01":
+        if dest.stem == "01" or is_store_brand_photo(dest):
             continue
         urls.append(f"../assets/pdp-gallery/{iid}/{dest.name}")
         if len(urls) >= _GALLERY_MAX:
@@ -1031,6 +1113,10 @@ def main() -> None:
         encoding="utf-8",
     )
 
+    dropped, brand_dirs = scrub_store_brand_galleries()
+    if dropped:
+        print(f"scrubbed {dropped} store-brand webps from {brand_dirs} galleries")
+
     written = []
     stubs = []
     for item in items:
@@ -1048,18 +1134,24 @@ def main() -> None:
         desc_kind = item_ebay_tree(item).get("sub") or cat_label(item.get("category"))
         img = safe_image(item.get("image")) or f"{BASE}/assets/og-share.jpg"
         img = ensure_hero_webp(item, img)
-        gallery_raw = [safe_image(u) for u in (item.get("images") or [])]
-        gallery = [u for u in gallery_raw if u and u != img]
-        if not gallery:
-            gallery = [u for u in (safe_image(u) for u in ensure_listing_gallery(item)) if u]
-        elif not any(_LOCAL_GALLERY_RE.fullmatch(u) for u in gallery):
-            # Catalog extras are Square URLs (or empty after a URL-only re-export).
-            # Still bake/reuse eBay listing extras so PDPs keep every shot.
-            baked = [u for u in (safe_image(u) for u in ensure_listing_gallery(item)) if u]
-            if baked:
-                gallery = baked
-        if gallery:
-            item["images"] = gallery
+        baked = [
+            u
+            for u in (safe_image(u) for u in ensure_listing_gallery(item))
+            if u and u != img and not is_store_brand_photo(u)
+        ]
+        if baked:
+            gallery = baked
+        else:
+            gallery = []
+            for u in (item.get("images") or []):
+                su = safe_image(u)
+                if not su or su == img or is_store_brand_photo(su):
+                    continue
+                if _LOCAL_GALLERY_RE.fullmatch(su):
+                    if not (HUB / su[3:]).is_file():
+                        continue
+                gallery.append(su)
+        item["images"] = gallery
         video = safe_video(item.get("video"))
         # square.site/product/{catalogId} is a dead Square SPA shell ($0.00).
         # Real checkout is the catalog square.link payment URL.
