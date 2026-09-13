@@ -1,7 +1,7 @@
 {
-  "updated": "2026-09-13T00:02:06Z",
+  "updated": "2026-09-13T19:01:49Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 818,
+  "count": 820,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -2116,10 +2116,6 @@
       "ebay_type": "Drum Lid Band Clamp",
       "ebay_brand": "Unbranded",
       "ebay_category": "Business & Industrial:Material Handling:Other Material Handling",
-      "stock": 4,
-      "part_numbers": [],
-      "interchange": [],
-      "vehicles": [],
       "images": [
         "../assets/pdp-gallery/WWLZDHUOEAI4S5LWSYE23P3E/02.webp",
         "../assets/pdp-gallery/WWLZDHUOEAI4S5LWSYE23P3E/03.webp",
@@ -2127,7 +2123,11 @@
         "../assets/pdp-gallery/WWLZDHUOEAI4S5LWSYE23P3E/05.webp",
         "../assets/pdp-gallery/WWLZDHUOEAI4S5LWSYE23P3E/06.webp",
         "../assets/pdp-gallery/WWLZDHUOEAI4S5LWSYE23P3E/07.webp"
-      ]
+      ],
+      "stock": 4,
+      "part_numbers": [],
+      "interchange": [],
+      "vehicles": []
     },
     {
       "id": "ND5JSWM6S6BMROO2IVJLOHCU",
@@ -3212,11 +3212,11 @@
       "ebay_type": "Disc Brake Hardware",
       "ebay_brand": "Carlson",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware",
-      "stock": 1,
       "images": [
         "../assets/pdp-gallery/TXOZL5PYQVIKVFTECCYGMV3D/02.webp",
         "../assets/pdp-gallery/TXOZL5PYQVIKVFTECCYGMV3D/03.webp"
-      ]
+      ],
+      "stock": 1
     },
     {
       "id": "I5ILCVLWXSL42CAD6PIRRRF6",
@@ -34338,6 +34338,161 @@
         "../assets/pdp-gallery/YWQ6NVV3MVYEI2VJAP63AQEP/03.webp"
       ],
       "stock": 1
+    },
+    {
+      "id": "4NLIYGPWBIHAR5W7IFWBYUFC",
+      "name": "Metalazer Satisfied R553 Rear Drum Brake Shoes Cavalier Sunfire 85-02 NOS",
+      "price": 34.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/3709725ecc3d902a8c3770fd662f2c1432752a33/original.jpeg",
+      "url": "https://square.link/u/StxF3mF9",
+      "category": "brake",
+      "checkout": true,
+      "variation_id": "GD6RTOAJGXHJDFEOR7QUF7RW",
+      "stock": 1,
+      "part_numbers": [
+        "R553",
+        "Wagner PAB553R, Z553R, Bendix R553, AIMCO AFR553PG"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1985\u20131998 Buick Skylark",
+        "1985\u20131988 Cadillac Cimarron",
+        "1991\u20131996 Chevrolet Beretta",
+        "1985\u20132002 Chevrolet Cavalier",
+        "1987\u20131996 Chevrolet Corsica",
+        "1992\u20131998 Oldsmobile Achieva",
+        "1985\u20131998 Pontiac Grand Am",
+        "1986\u20131994 Pontiac Sunbird",
+        "1995\u20132002 Pontiac Sunfire"
+      ],
+      "vehicle_count_raw": 821,
+      "ebay_item_id": "398391342021",
+      "ebay_type": "Drum Brake Shoe",
+      "ebay_brand": "Metalazer",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Shoes",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "R553",
+          "Wagner PAB553R, Z553R, Bendix R553, AIMCO AFR553PG"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1985,
+            "year_to": 1998,
+            "make": "Buick",
+            "model": "Skylark",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1988,
+            "make": "Cadillac",
+            "model": "Cimarron",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1991,
+            "year_to": 1996,
+            "make": "Chevrolet",
+            "model": "Beretta",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 2002,
+            "make": "Chevrolet",
+            "model": "Cavalier",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1996,
+            "make": "Chevrolet",
+            "model": "Corsica",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1992,
+            "year_to": 1998,
+            "make": "Oldsmobile",
+            "model": "Achieva",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1998,
+            "make": "Pontiac",
+            "model": "Grand Am",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1986,
+            "year_to": 1994,
+            "make": "Pontiac",
+            "model": "Sunbird",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1995,
+            "year_to": 2002,
+            "make": "Pontiac",
+            "model": "Sunfire",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1985\u20131998 Buick Skylark",
+          "1985\u20131988 Cadillac Cimarron",
+          "1991\u20131996 Chevrolet Beretta",
+          "1985\u20132002 Chevrolet Cavalier",
+          "1987\u20131996 Chevrolet Corsica",
+          "1992\u20131998 Oldsmobile Achieva",
+          "1985\u20131998 Pontiac Grand Am",
+          "1986\u20131994 Pontiac Sunbird",
+          "1995\u20132002 Pontiac Sunfire"
+        ],
+        "raw_compat_rows": 821,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398391342021",
+        "type": "Drum Brake Shoe",
+        "brand": "Metalazer",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Shoes"
+      },
+      "images": [
+        "../assets/pdp-gallery/4NLIYGPWBIHAR5W7IFWBYUFC/02.webp",
+        "../assets/pdp-gallery/4NLIYGPWBIHAR5W7IFWBYUFC/03.webp"
+      ]
     },
     {
       "id": "XG2R5XT27N2LRQK74SBM2ROL",
@@ -68020,15 +68175,15 @@
       "ebay_type": "Headlight Switch, Dimmer Switch",
       "ebay_brand": "GM",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Interior Parts & Accessories:Switches & Controls",
-      "stock": 1,
-      "interchange": [],
       "images": [
         "../assets/pdp-gallery/EI6IIJST5VQ56MZJAZCMIJFV/02.webp",
         "../assets/pdp-gallery/EI6IIJST5VQ56MZJAZCMIJFV/03.webp",
         "../assets/pdp-gallery/EI6IIJST5VQ56MZJAZCMIJFV/04.webp",
         "../assets/pdp-gallery/EI6IIJST5VQ56MZJAZCMIJFV/05.webp",
         "../assets/pdp-gallery/EI6IIJST5VQ56MZJAZCMIJFV/06.webp"
-      ]
+      ],
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "6VKZCHQ3CNZUYCTTXW6CU5BP",
@@ -71030,17 +71185,17 @@
       "ebay_item_id": "398083977440",
       "ebay_type": "Oil Can",
       "ebay_category": "Collectibles:Advertising:Gas & Oil:Merchandise & Memorabilia:Cans & Buckets",
-      "stock": 1,
-      "interchange": [],
-      "vehicles": [],
-      "ebay_brand": "",
       "images": [
         "../assets/pdp-gallery/FF6CHCLPBXILGHAQESCBZL4V/02.webp",
         "../assets/pdp-gallery/FF6CHCLPBXILGHAQESCBZL4V/03.webp",
         "../assets/pdp-gallery/FF6CHCLPBXILGHAQESCBZL4V/04.webp",
         "../assets/pdp-gallery/FF6CHCLPBXILGHAQESCBZL4V/05.webp",
         "../assets/pdp-gallery/FF6CHCLPBXILGHAQESCBZL4V/06.webp"
-      ]
+      ],
+      "stock": 1,
+      "interchange": [],
+      "vehicles": [],
+      "ebay_brand": ""
     },
     {
       "id": "SY36JVVI7BQ7FY66IVSUGDPO",
@@ -71257,8 +71412,6 @@
       "ebay_type": "Engine Control Unit (ECU)",
       "ebay_brand": "Mopar / OEM",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Starters, Alternators, ECUs & Wiring:ECUs & Computer Modules",
-      "stock": 1,
-      "interchange": [],
       "images": [
         "../assets/pdp-gallery/SBBEYR7PVUONNSBQIIIXYVIZ/02.webp",
         "../assets/pdp-gallery/SBBEYR7PVUONNSBQIIIXYVIZ/03.webp",
@@ -71266,7 +71419,9 @@
         "../assets/pdp-gallery/SBBEYR7PVUONNSBQIIIXYVIZ/05.webp",
         "../assets/pdp-gallery/SBBEYR7PVUONNSBQIIIXYVIZ/06.webp",
         "../assets/pdp-gallery/SBBEYR7PVUONNSBQIIIXYVIZ/07.webp"
-      ]
+      ],
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "KFC7FQ7IOJKB57K2IYWLHKHG",
@@ -71330,15 +71485,15 @@
       "ebay_type": "Flex Fuel Sensor",
       "ebay_brand": "General Motors",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Intake & Fuel Sensors",
-      "stock": 1,
-      "interchange": [],
       "images": [
         "../assets/pdp-gallery/KFC7FQ7IOJKB57K2IYWLHKHG/02.webp",
         "../assets/pdp-gallery/KFC7FQ7IOJKB57K2IYWLHKHG/03.webp",
         "../assets/pdp-gallery/KFC7FQ7IOJKB57K2IYWLHKHG/04.webp",
         "../assets/pdp-gallery/KFC7FQ7IOJKB57K2IYWLHKHG/05.webp",
         "../assets/pdp-gallery/KFC7FQ7IOJKB57K2IYWLHKHG/06.webp"
-      ]
+      ],
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "D3ATAZAYG4VFM2I3AQE2LR5X",
@@ -71625,16 +71780,16 @@
       "ebay_type": "Sierra 4WD Transfer Case Selector Switch",
       "ebay_brand": "GM",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Fan & Shroud Assemblies",
-      "stock": 1,
-      "part_numbers": [],
-      "interchange": [],
       "images": [
         "../assets/pdp-gallery/VQCIYBGQBGMF2EGFVLCLNPQV/02.webp",
         "../assets/pdp-gallery/VQCIYBGQBGMF2EGFVLCLNPQV/03.webp",
         "../assets/pdp-gallery/VQCIYBGQBGMF2EGFVLCLNPQV/04.webp",
         "../assets/pdp-gallery/VQCIYBGQBGMF2EGFVLCLNPQV/05.webp",
         "../assets/pdp-gallery/VQCIYBGQBGMF2EGFVLCLNPQV/06.webp"
-      ]
+      ],
+      "stock": 1,
+      "part_numbers": [],
+      "interchange": []
     },
     {
       "id": "AFHL6F4NTUMJLCUNPISGIMYT",
@@ -71794,10 +71949,6 @@
       "ebay_type": "Hand Brace Drill",
       "ebay_brand": "Unbranded",
       "ebay_category": "Collectibles:Tools, Hardware & Locks:Tools:Carpentry, Woodworking:Drills",
-      "stock": 1,
-      "part_numbers": [],
-      "interchange": [],
-      "vehicles": [],
       "images": [
         "../assets/pdp-gallery/EUHHRIHKC5CP3XKVETQODNSR/02.webp",
         "../assets/pdp-gallery/EUHHRIHKC5CP3XKVETQODNSR/03.webp",
@@ -71805,7 +71956,11 @@
         "../assets/pdp-gallery/EUHHRIHKC5CP3XKVETQODNSR/05.webp",
         "../assets/pdp-gallery/EUHHRIHKC5CP3XKVETQODNSR/06.webp",
         "../assets/pdp-gallery/EUHHRIHKC5CP3XKVETQODNSR/07.webp"
-      ]
+      ],
+      "stock": 1,
+      "part_numbers": [],
+      "interchange": [],
+      "vehicles": []
     },
     {
       "id": "RQ7EKVR2HYZYW7K4B3QD5FHQ",
@@ -71836,14 +71991,14 @@
       "ebay_type": "Counterweight Pulley System",
       "ebay_brand": "Unbranded",
       "ebay_category": "Collectibles:Tools, Hardware & Locks:Tools:Pulleys, Block & Tackle",
-      "stock": 1,
-      "part_numbers": [],
-      "interchange": [],
-      "vehicles": [],
       "images": [
         "../assets/pdp-gallery/RQ7EKVR2HYZYW7K4B3QD5FHQ/02.webp",
         "../assets/pdp-gallery/RQ7EKVR2HYZYW7K4B3QD5FHQ/03.webp"
-      ]
+      ],
+      "stock": 1,
+      "part_numbers": [],
+      "interchange": [],
+      "vehicles": []
     },
     {
       "id": "QOUOYNZH6ZBHAGQJ4JLFQUIR",
@@ -73082,17 +73237,17 @@
       "ebay_type": "Central AC Compressor Contactor Relay",
       "ebay_brand": "Unbranded",
       "ebay_category": "Business & Industrial:Electrical Equipment & Supplies:Contactors:Definite Purpose Contactors",
-      "stock": 1,
-      "part_numbers": [],
-      "interchange": [],
-      "vehicles": [],
       "images": [
         "../assets/pdp-gallery/2LN22LKUSIWBSLJZ44RSVLNY/02.webp",
         "../assets/pdp-gallery/2LN22LKUSIWBSLJZ44RSVLNY/03.webp",
         "../assets/pdp-gallery/2LN22LKUSIWBSLJZ44RSVLNY/04.webp",
         "../assets/pdp-gallery/2LN22LKUSIWBSLJZ44RSVLNY/05.webp",
         "../assets/pdp-gallery/2LN22LKUSIWBSLJZ44RSVLNY/06.webp"
-      ]
+      ],
+      "stock": 1,
+      "part_numbers": [],
+      "interchange": [],
+      "vehicles": []
     },
     {
       "id": "ETJSGCSFJUGM5WSMCNZLVDRD",
@@ -75256,6 +75411,163 @@
       "vehicles": []
     },
     {
+      "id": "AITU7RX45TOM5GELQCAGJOJH",
+      "name": "Everco 2346 NOS Brass Copper Heater Core 94621 Mustang Thunderbird Cougar 79-93",
+      "price": 149.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/70df1375369320949807ae7da6a473c0da77e07f/original.jpeg",
+      "url": "https://square.link/u/0vhaVWzf",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "J5RBTGZ3SMZP77TNV2CJLWWN",
+      "stock": 1,
+      "part_numbers": [
+        "2346",
+        "2-352, FS 94621, Murray 279335, G&O 1052, E9LY-18476-A"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1979\u20131983 Ford Fairmont",
+        "1981\u20131982 Ford Granada",
+        "1979\u20131993 Ford Mustang",
+        "1980\u20131988 Ford Thunderbird",
+        "1982\u20131987 Lincoln Continental",
+        "1984\u20131992 Lincoln Mark VII",
+        "1979\u20131986 Mercury Capri",
+        "1984\u20131988 Mercury Cougar",
+        "1979\u20131983 Mercury Zephyr"
+      ],
+      "vehicle_count_raw": 649,
+      "ebay_item_id": "398391345993",
+      "ebay_type": "Heater Core",
+      "ebay_brand": "Everco",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air Conditioning & Heating:Heater Cores",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "2346",
+          "2-352, FS 94621, Murray 279335, G&O 1052, E9LY-18476-A"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1979,
+            "year_to": 1983,
+            "make": "Ford",
+            "model": "Fairmont",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1981,
+            "year_to": 1982,
+            "make": "Ford",
+            "model": "Granada",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1979,
+            "year_to": 1993,
+            "make": "Ford",
+            "model": "Mustang",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1980,
+            "year_to": 1988,
+            "make": "Ford",
+            "model": "Thunderbird",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1982,
+            "year_to": 1987,
+            "make": "Lincoln",
+            "model": "Continental",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 1992,
+            "make": "Lincoln",
+            "model": "Mark VII",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1979,
+            "year_to": 1986,
+            "make": "Mercury",
+            "model": "Capri",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 1988,
+            "make": "Mercury",
+            "model": "Cougar",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1979,
+            "year_to": 1983,
+            "make": "Mercury",
+            "model": "Zephyr",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1979\u20131983 Ford Fairmont",
+          "1981\u20131982 Ford Granada",
+          "1979\u20131993 Ford Mustang",
+          "1980\u20131988 Ford Thunderbird",
+          "1982\u20131987 Lincoln Continental",
+          "1984\u20131992 Lincoln Mark VII",
+          "1979\u20131986 Mercury Capri",
+          "1984\u20131988 Mercury Cougar",
+          "1979\u20131983 Mercury Zephyr"
+        ],
+        "raw_compat_rows": 649,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398391345993",
+        "type": "Heater Core",
+        "brand": "Everco",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air Conditioning & Heating:Heater Cores"
+      },
+      "images": [
+        "../assets/pdp-gallery/AITU7RX45TOM5GELQCAGJOJH/02.webp",
+        "../assets/pdp-gallery/AITU7RX45TOM5GELQCAGJOJH/03.webp",
+        "../assets/pdp-gallery/AITU7RX45TOM5GELQCAGJOJH/04.webp",
+        "../assets/pdp-gallery/AITU7RX45TOM5GELQCAGJOJH/05.webp"
+      ]
+    },
+    {
       "id": "ECB6SVNHFBQUE6N4C674BWRM",
       "name": "Fasco 70581751E 1503253701 HVAC 115V Furnace Blower Motor & Fan Assy Used Tested",
       "price": 70.99,
@@ -77400,9 +77712,6 @@
       "ebay_type": "Gas Valve",
       "ebay_brand": "Unbranded",
       "ebay_category": "Home & Garden:Major Appliances:Major Appliances Parts & Accessories:Washer & Dryer Parts",
-      "stock": 1,
-      "interchange": [],
-      "vehicles": [],
       "images": [
         "../assets/pdp-gallery/J4AK7OFXZBJFJMC3QCALNJRS/02.webp",
         "../assets/pdp-gallery/J4AK7OFXZBJFJMC3QCALNJRS/03.webp",
@@ -77410,7 +77719,10 @@
         "../assets/pdp-gallery/J4AK7OFXZBJFJMC3QCALNJRS/05.webp",
         "../assets/pdp-gallery/J4AK7OFXZBJFJMC3QCALNJRS/06.webp",
         "../assets/pdp-gallery/J4AK7OFXZBJFJMC3QCALNJRS/07.webp"
-      ]
+      ],
+      "stock": 1,
+      "interchange": [],
+      "vehicles": []
     },
     {
       "id": "LYDG34LYYNLO547GBDQWOPJU",
@@ -93004,15 +93316,15 @@
       "ebay_type": "GM 6.0L LS Engine Oil Pump Pickup",
       "ebay_brand": "GM OEM",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Pumps & Parts",
-      "stock": 1,
-      "interchange": [],
       "images": [
         "../assets/pdp-gallery/D4ADTAA2AU2OQAGUQ2CNE54H/02.webp",
         "../assets/pdp-gallery/D4ADTAA2AU2OQAGUQ2CNE54H/03.webp",
         "../assets/pdp-gallery/D4ADTAA2AU2OQAGUQ2CNE54H/04.webp",
         "../assets/pdp-gallery/D4ADTAA2AU2OQAGUQ2CNE54H/05.webp",
         "../assets/pdp-gallery/D4ADTAA2AU2OQAGUQ2CNE54H/06.webp"
-      ]
+      ],
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "KTHLKNRGLAFQXH3DHFTTF33N",
@@ -93143,16 +93455,16 @@
       "ebay_type": "LS Flexplate",
       "ebay_brand": "GM OEM",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:Flywheels & Flexplates",
-      "stock": 1,
-      "part_numbers": [],
-      "interchange": [],
       "images": [
         "../assets/pdp-gallery/YWCEP45MXI6F3WOTFZT3AX26/02.webp",
         "../assets/pdp-gallery/YWCEP45MXI6F3WOTFZT3AX26/03.webp",
         "../assets/pdp-gallery/YWCEP45MXI6F3WOTFZT3AX26/04.webp",
         "../assets/pdp-gallery/YWCEP45MXI6F3WOTFZT3AX26/05.webp",
         "../assets/pdp-gallery/YWCEP45MXI6F3WOTFZT3AX26/06.webp"
-      ]
+      ],
+      "stock": 1,
+      "part_numbers": [],
+      "interchange": []
     },
     {
       "id": "3ICV75PAFQP3JSDBQVGMI3LP",
@@ -97271,17 +97583,17 @@
       "ebay_type": "Cycle Selector Switch",
       "ebay_brand": "Whirlpool",
       "ebay_category": "Home & Garden:Major Appliances:Major Appliances Parts & Accessories:Washer & Dryer Parts",
-      "stock": 1,
-      "part_numbers": [],
-      "interchange": [],
-      "vehicles": [],
       "images": [
         "../assets/pdp-gallery/RT35B2NYUOAGKHFXR7PF3ZBV/02.webp",
         "../assets/pdp-gallery/RT35B2NYUOAGKHFXR7PF3ZBV/03.webp",
         "../assets/pdp-gallery/RT35B2NYUOAGKHFXR7PF3ZBV/04.webp",
         "../assets/pdp-gallery/RT35B2NYUOAGKHFXR7PF3ZBV/05.webp",
         "../assets/pdp-gallery/RT35B2NYUOAGKHFXR7PF3ZBV/06.webp"
-      ]
+      ],
+      "stock": 1,
+      "part_numbers": [],
+      "interchange": [],
+      "vehicles": []
     },
     {
       "id": "25ZPNHMVBIABVNIG7VUQVIQ3",
@@ -97520,16 +97832,16 @@
       "ebay_type": "Glass Turntable Plate",
       "ebay_brand": "Unbranded",
       "ebay_category": "Home & Garden:Kitchen, Dining & Bar:Small Kitchen Appliances:Microwave Parts",
-      "stock": 1,
-      "part_numbers": [],
-      "interchange": [],
-      "vehicles": [],
       "images": [
         "../assets/pdp-gallery/B4RQ6HQFWRCA345ELKWA2GEO/02.webp",
         "../assets/pdp-gallery/B4RQ6HQFWRCA345ELKWA2GEO/03.webp",
         "../assets/pdp-gallery/B4RQ6HQFWRCA345ELKWA2GEO/04.webp",
         "../assets/pdp-gallery/B4RQ6HQFWRCA345ELKWA2GEO/05.webp"
-      ]
+      ],
+      "stock": 1,
+      "part_numbers": [],
+      "interchange": [],
+      "vehicles": []
     },
     {
       "id": "ZRJ6GD7OPD3XOZ45AAK7YRFC",
@@ -97560,16 +97872,16 @@
       "ebay_type": "Glass Turntable Plate",
       "ebay_brand": "Unbranded",
       "ebay_category": "Home & Garden:Kitchen, Dining & Bar:Small Kitchen Appliances:Microwave Parts",
-      "stock": 1,
-      "part_numbers": [],
-      "interchange": [],
-      "vehicles": [],
       "images": [
         "../assets/pdp-gallery/ZRJ6GD7OPD3XOZ45AAK7YRFC/02.webp",
         "../assets/pdp-gallery/ZRJ6GD7OPD3XOZ45AAK7YRFC/03.webp",
         "../assets/pdp-gallery/ZRJ6GD7OPD3XOZ45AAK7YRFC/04.webp",
         "../assets/pdp-gallery/ZRJ6GD7OPD3XOZ45AAK7YRFC/05.webp"
-      ]
+      ],
+      "stock": 1,
+      "part_numbers": [],
+      "interchange": [],
+      "vehicles": []
     },
     {
       "id": "ST2WGS3FWP3OEBJNHEK6WN5P",
@@ -97600,10 +97912,6 @@
       "ebay_type": "Glass Turntable Plate",
       "ebay_brand": "Unbranded",
       "ebay_category": "Home & Garden:Kitchen, Dining & Bar:Small Kitchen Appliances:Microwave Parts",
-      "stock": 1,
-      "part_numbers": [],
-      "interchange": [],
-      "vehicles": [],
       "images": [
         "../assets/pdp-gallery/ST2WGS3FWP3OEBJNHEK6WN5P/02.webp",
         "../assets/pdp-gallery/ST2WGS3FWP3OEBJNHEK6WN5P/03.webp",
@@ -97611,7 +97919,11 @@
         "../assets/pdp-gallery/ST2WGS3FWP3OEBJNHEK6WN5P/05.webp",
         "../assets/pdp-gallery/ST2WGS3FWP3OEBJNHEK6WN5P/06.webp",
         "../assets/pdp-gallery/ST2WGS3FWP3OEBJNHEK6WN5P/07.webp"
-      ]
+      ],
+      "stock": 1,
+      "part_numbers": [],
+      "interchange": [],
+      "vehicles": []
     },
     {
       "id": "DKFXZR6MY2NQMUTB5DLH4DSA",
@@ -97642,16 +97954,16 @@
       "ebay_type": "Glass Turntable Plate",
       "ebay_brand": "Unbranded",
       "ebay_category": "Home & Garden:Kitchen, Dining & Bar:Small Kitchen Appliances:Microwave Parts",
-      "stock": 1,
-      "part_numbers": [],
-      "interchange": [],
-      "vehicles": [],
       "images": [
         "../assets/pdp-gallery/DKFXZR6MY2NQMUTB5DLH4DSA/02.webp",
         "../assets/pdp-gallery/DKFXZR6MY2NQMUTB5DLH4DSA/03.webp",
         "../assets/pdp-gallery/DKFXZR6MY2NQMUTB5DLH4DSA/04.webp",
         "../assets/pdp-gallery/DKFXZR6MY2NQMUTB5DLH4DSA/05.webp"
-      ]
+      ],
+      "stock": 1,
+      "part_numbers": [],
+      "interchange": [],
+      "vehicles": []
     },
     {
       "id": "6TO36GSQDA7IDCNI5VDDEJIM",
@@ -97682,16 +97994,16 @@
       "ebay_type": "Glass Turntable Plate",
       "ebay_brand": "Unbranded",
       "ebay_category": "Home & Garden:Kitchen, Dining & Bar:Small Kitchen Appliances:Microwave Parts",
-      "stock": 1,
-      "part_numbers": [],
-      "interchange": [],
-      "vehicles": [],
       "images": [
         "../assets/pdp-gallery/6TO36GSQDA7IDCNI5VDDEJIM/02.webp",
         "../assets/pdp-gallery/6TO36GSQDA7IDCNI5VDDEJIM/03.webp",
         "../assets/pdp-gallery/6TO36GSQDA7IDCNI5VDDEJIM/04.webp",
         "../assets/pdp-gallery/6TO36GSQDA7IDCNI5VDDEJIM/05.webp"
-      ]
+      ],
+      "stock": 1,
+      "part_numbers": [],
+      "interchange": [],
+      "vehicles": []
     },
     {
       "id": "AC4O5CEFTYDCUZCECOZZFZI4",
@@ -103273,9 +103585,6 @@
       "ebay_type": "Pair 1-Ton RV Chassis Idler Arm",
       "ebay_brand": "GM",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Exterior Parts & Accessories:Bumpers & Components:Bumpers & Reinforcements",
-      "stock": 2,
-      "part_numbers": [],
-      "interchange": [],
       "images": [
         "../assets/pdp-gallery/WCIQQHM2GHDI6K5GADJQT5XS/02.webp",
         "../assets/pdp-gallery/WCIQQHM2GHDI6K5GADJQT5XS/03.webp",
@@ -103283,7 +103592,10 @@
         "../assets/pdp-gallery/WCIQQHM2GHDI6K5GADJQT5XS/05.webp",
         "../assets/pdp-gallery/WCIQQHM2GHDI6K5GADJQT5XS/06.webp",
         "../assets/pdp-gallery/WCIQQHM2GHDI6K5GADJQT5XS/07.webp"
-      ]
+      ],
+      "stock": 2,
+      "part_numbers": [],
+      "interchange": []
     },
     {
       "id": "2IGN4TREF7DNKIIYWCK3U4BR",
@@ -103459,17 +103771,17 @@
       "ebay_type": "Folding Pocket Knife",
       "ebay_brand": "Unbranded",
       "ebay_category": "Collectibles:Knives, Swords & Blades:Collectible Folding Knives:Modern Folding Knives:Factory Manufactured",
-      "stock": 1,
-      "part_numbers": [],
-      "interchange": [],
-      "vehicles": [],
       "images": [
         "../assets/pdp-gallery/FB7CHXEJVOF2C2H7ZYWWV4HJ/02.webp",
         "../assets/pdp-gallery/FB7CHXEJVOF2C2H7ZYWWV4HJ/03.webp",
         "../assets/pdp-gallery/FB7CHXEJVOF2C2H7ZYWWV4HJ/04.webp",
         "../assets/pdp-gallery/FB7CHXEJVOF2C2H7ZYWWV4HJ/05.webp",
         "../assets/pdp-gallery/FB7CHXEJVOF2C2H7ZYWWV4HJ/06.webp"
-      ]
+      ],
+      "stock": 1,
+      "part_numbers": [],
+      "interchange": [],
+      "vehicles": []
     },
     {
       "id": "UL23E5AWBBQITTWVJSG6DJB2",
@@ -104644,10 +104956,6 @@
       "ebay_type": "TV Board Lot",
       "ebay_brand": "Sanyo",
       "ebay_category": "Consumer Electronics:TV, Video & Home Audio:TV, Video & Audio Parts:TV Boards, Parts & Components",
-      "stock": 1,
-      "part_numbers": [],
-      "interchange": [],
-      "vehicles": [],
       "images": [
         "../assets/pdp-gallery/EJAE65XYBMKXAR6GHJ7DNSHB/02.webp",
         "../assets/pdp-gallery/EJAE65XYBMKXAR6GHJ7DNSHB/03.webp",
@@ -104655,7 +104963,11 @@
         "../assets/pdp-gallery/EJAE65XYBMKXAR6GHJ7DNSHB/05.webp",
         "../assets/pdp-gallery/EJAE65XYBMKXAR6GHJ7DNSHB/06.webp",
         "../assets/pdp-gallery/EJAE65XYBMKXAR6GHJ7DNSHB/07.webp"
-      ]
+      ],
+      "stock": 1,
+      "part_numbers": [],
+      "interchange": [],
+      "vehicles": []
     },
     {
       "id": "EW6HQYMYXZOORQX5U2SZWAIV",
@@ -115413,10 +115725,6 @@
       "ebay_type": "Carburetor",
       "ebay_brand": "Tecumseh",
       "ebay_category": "Home & Garden:Yard, Garden & Outdoor Living:Lawn Mowers, Parts & Accessories:Lawn Mower Parts",
-      "stock": 1,
-      "part_numbers": [],
-      "interchange": [],
-      "vehicles": [],
       "images": [
         "../assets/pdp-gallery/TNS6QLHJ2CZ2JYAOKWWFY7NW/02.webp",
         "../assets/pdp-gallery/TNS6QLHJ2CZ2JYAOKWWFY7NW/03.webp",
@@ -115424,7 +115732,11 @@
         "../assets/pdp-gallery/TNS6QLHJ2CZ2JYAOKWWFY7NW/05.webp",
         "../assets/pdp-gallery/TNS6QLHJ2CZ2JYAOKWWFY7NW/06.webp",
         "../assets/pdp-gallery/TNS6QLHJ2CZ2JYAOKWWFY7NW/07.webp"
-      ]
+      ],
+      "stock": 1,
+      "part_numbers": [],
+      "interchange": [],
+      "vehicles": []
     },
     {
       "id": "F76QHIRADBJLU4DVZKQ62UPD",
@@ -117336,17 +117648,17 @@
       "ebay_type": "Pipe Wrench",
       "ebay_brand": "Unbranded",
       "ebay_category": "Collectibles:Tools, Hardware & Locks:Tools:Plumbing, Steam Fitting",
-      "stock": 1,
-      "part_numbers": [],
-      "interchange": [],
-      "vehicles": [],
       "images": [
         "../assets/pdp-gallery/YIDJ25TRSSDESIQDMLDQXHTT/02.webp",
         "../assets/pdp-gallery/YIDJ25TRSSDESIQDMLDQXHTT/03.webp",
         "../assets/pdp-gallery/YIDJ25TRSSDESIQDMLDQXHTT/04.webp",
         "../assets/pdp-gallery/YIDJ25TRSSDESIQDMLDQXHTT/05.webp",
         "../assets/pdp-gallery/YIDJ25TRSSDESIQDMLDQXHTT/06.webp"
-      ]
+      ],
+      "stock": 1,
+      "part_numbers": [],
+      "interchange": [],
+      "vehicles": []
     },
     {
       "id": "77J72B6LFMVB7DU65MRZSPN5",
@@ -117585,15 +117897,15 @@
       "ebay_type": "Circuit Breaker",
       "ebay_brand": "Unbranded",
       "ebay_category": "Business & Industrial:Electrical Equipment & Supplies:Circuit Breakers & Disconnectors:Circuit Breakers",
-      "stock": 1,
-      "part_numbers": [],
-      "interchange": [],
-      "vehicles": [],
       "images": [
         "../assets/pdp-gallery/F77LMGREWLSYTEFRJ7BXCP7N/02.webp",
         "../assets/pdp-gallery/F77LMGREWLSYTEFRJ7BXCP7N/03.webp",
         "../assets/pdp-gallery/F77LMGREWLSYTEFRJ7BXCP7N/04.webp"
-      ]
+      ],
+      "stock": 1,
+      "part_numbers": [],
+      "interchange": [],
+      "vehicles": []
     },
     {
       "id": "ATENLAHEUECPW7NSJL2L7ZVM",
@@ -117800,10 +118112,6 @@
       "ebay_type": "Motor Mount / Pivot Plate",
       "ebay_brand": "Toolkraft",
       "ebay_category": "Home & Garden:Tools & Workshop Equipment:Power Tool & Air Tool Replacement Parts",
-      "stock": 1,
-      "part_numbers": [],
-      "interchange": [],
-      "vehicles": [],
       "images": [
         "../assets/pdp-gallery/GQ4BXKCZB6AIQMCPFOQ2ZU6C/02.webp",
         "../assets/pdp-gallery/GQ4BXKCZB6AIQMCPFOQ2ZU6C/03.webp",
@@ -117811,7 +118119,11 @@
         "../assets/pdp-gallery/GQ4BXKCZB6AIQMCPFOQ2ZU6C/05.webp",
         "../assets/pdp-gallery/GQ4BXKCZB6AIQMCPFOQ2ZU6C/06.webp",
         "../assets/pdp-gallery/GQ4BXKCZB6AIQMCPFOQ2ZU6C/07.webp"
-      ]
+      ],
+      "stock": 1,
+      "part_numbers": [],
+      "interchange": [],
+      "vehicles": []
     },
     {
       "id": "YW7Q6GGGF5MXI7DX5NJ44PKV",
@@ -117842,14 +118154,14 @@
       "ebay_type": "Spiral Curry Comb (Reversible)",
       "ebay_brand": "Decker",
       "ebay_category": "Sporting Goods:Outdoor Sports:Equestrian:Horse Care & Grooming:Curry Combs",
-      "stock": 1,
-      "part_numbers": [],
-      "interchange": [],
-      "vehicles": [],
       "images": [
         "../assets/pdp-gallery/YW7Q6GGGF5MXI7DX5NJ44PKV/02.webp",
         "../assets/pdp-gallery/YW7Q6GGGF5MXI7DX5NJ44PKV/03.webp"
-      ]
+      ],
+      "stock": 1,
+      "part_numbers": [],
+      "interchange": [],
+      "vehicles": []
     },
     {
       "id": "QHFINKOODJCK3PAXVGS6UG2M",
@@ -117919,17 +118231,17 @@
       "ebay_type": "Steam Iron",
       "ebay_brand": "GE",
       "ebay_category": "Collectibles:Kitchen & Home:Small Appliances:Flat Irons",
-      "stock": 1,
-      "part_numbers": [],
-      "interchange": [],
-      "vehicles": [],
       "images": [
         "../assets/pdp-gallery/ZUQJ6Q4MMJCRFIAZVDRLZ6CC/02.webp",
         "../assets/pdp-gallery/ZUQJ6Q4MMJCRFIAZVDRLZ6CC/03.webp",
         "../assets/pdp-gallery/ZUQJ6Q4MMJCRFIAZVDRLZ6CC/04.webp",
         "../assets/pdp-gallery/ZUQJ6Q4MMJCRFIAZVDRLZ6CC/05.webp",
         "../assets/pdp-gallery/ZUQJ6Q4MMJCRFIAZVDRLZ6CC/06.webp"
-      ]
+      ],
+      "stock": 1,
+      "part_numbers": [],
+      "interchange": [],
+      "vehicles": []
     },
     {
       "id": "3Z6E3FAAX77FGJX25IUYVTOH",
@@ -117960,10 +118272,6 @@
       "ebay_type": "Speed Handle / Speeder Wrench",
       "ebay_brand": "Husky",
       "ebay_category": "eBay Motors:Automotive Tools & Supplies:Hand Tools:Sockets & Socket Sets",
-      "stock": 1,
-      "part_numbers": [],
-      "interchange": [],
-      "vehicles": [],
       "images": [
         "../assets/pdp-gallery/3Z6E3FAAX77FGJX25IUYVTOH/02.webp",
         "../assets/pdp-gallery/3Z6E3FAAX77FGJX25IUYVTOH/03.webp",
@@ -117971,7 +118279,11 @@
         "../assets/pdp-gallery/3Z6E3FAAX77FGJX25IUYVTOH/05.webp",
         "../assets/pdp-gallery/3Z6E3FAAX77FGJX25IUYVTOH/06.webp",
         "../assets/pdp-gallery/3Z6E3FAAX77FGJX25IUYVTOH/07.webp"
-      ]
+      ],
+      "stock": 1,
+      "part_numbers": [],
+      "interchange": [],
+      "vehicles": []
     },
     {
       "id": "6C5LCG66G3G6KB64QERQDXJS",
@@ -118200,10 +118512,6 @@
       "ebay_type": "Pocket Calculator",
       "ebay_brand": "Unisonic",
       "ebay_category": "Business & Industrial:Test, Measurement & Inspection:Test Meters & Detectors:Multimeters",
-      "stock": 1,
-      "part_numbers": [],
-      "interchange": [],
-      "vehicles": [],
       "images": [
         "../assets/pdp-gallery/TTX7GLOKQWCODUZ3JANYN7K2/02.webp",
         "../assets/pdp-gallery/TTX7GLOKQWCODUZ3JANYN7K2/03.webp",
@@ -118211,7 +118519,11 @@
         "../assets/pdp-gallery/TTX7GLOKQWCODUZ3JANYN7K2/05.webp",
         "../assets/pdp-gallery/TTX7GLOKQWCODUZ3JANYN7K2/06.webp",
         "../assets/pdp-gallery/TTX7GLOKQWCODUZ3JANYN7K2/07.webp"
-      ]
+      ],
+      "stock": 1,
+      "part_numbers": [],
+      "interchange": [],
+      "vehicles": []
     },
     {
       "id": "RUKBDS4ZQ7T2CHFZYTRIB7CX",
@@ -118466,18 +118778,18 @@
       "vehicle_count_raw": 0,
       "ebay_item_id": "398083977539",
       "ebay_category": "Collectibles:Militaria:WW II (1939-45):Original Period Items:United States:Other US WWII Original Items",
+      "images": [
+        "../assets/pdp-gallery/7KSG56AFIXHN5EVGZKK2RSVB/02.webp",
+        "../assets/pdp-gallery/7KSG56AFIXHN5EVGZKK2RSVB/03.webp",
+        "../assets/pdp-gallery/7KSG56AFIXHN5EVGZKK2RSVB/04.webp"
+      ],
       "stock": 1,
       "part_numbers": [],
       "interchange": [],
       "vehicles": [],
       "ebay_type": "",
-      "ebay_brand": "",
-      "images": [
-        "../assets/pdp-gallery/7KSG56AFIXHN5EVGZKK2RSVB/02.webp",
-        "../assets/pdp-gallery/7KSG56AFIXHN5EVGZKK2RSVB/03.webp",
-        "../assets/pdp-gallery/7KSG56AFIXHN5EVGZKK2RSVB/04.webp"
-      ]
+      "ebay_brand": ""
     }
   ],
-  "fitment_built": "2026-09-13T00:02:06Z"
+  "fitment_built": "2026-09-13T19:01:49Z"
 }
