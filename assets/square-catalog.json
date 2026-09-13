@@ -1,7 +1,7 @@
 {
-  "updated": "2026-09-13T20:01:35Z",
+  "updated": "2026-09-13T21:01:44Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 821,
+  "count": 824,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -2320,6 +2320,77 @@
       "part_numbers": [],
       "interchange": [],
       "vehicles": []
+    },
+    {
+      "id": "JZRM7ROKSEHFECSEP6KGPE23",
+      "name": "Big A 2M-7389 Front Disc Brake Pads Nissan Sentra NX 1.6 91-94 NOS",
+      "price": 29.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/beac5437d7776f44fab0a4d0742c0451964b1d91/original.jpeg",
+      "url": "https://square.link/u/aAGMEOIK",
+      "category": "brake",
+      "checkout": true,
+      "variation_id": "NNACV3WLW2ZPGTYPVYSSVIYS",
+      "stock": 1,
+      "part_numbers": [
+        "2M-7389",
+        "2M-510, Wagner MX510, Bendix MKD510"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1991\u20131993 Nissan NX",
+        "1991\u20131994 Nissan Sentra"
+      ],
+      "vehicle_count_raw": 37,
+      "ebay_item_id": "398391574405",
+      "ebay_type": "Disc Brake Pad",
+      "ebay_brand": "Big A",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Master Cylinders",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "2M-7389",
+          "2M-510, Wagner MX510, Bendix MKD510"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1991,
+            "year_to": 1993,
+            "make": "Nissan",
+            "model": "NX",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1991,
+            "year_to": 1994,
+            "make": "Nissan",
+            "model": "Sentra",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1991\u20131993 Nissan NX",
+          "1991\u20131994 Nissan Sentra"
+        ],
+        "raw_compat_rows": 37,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398391574405",
+        "type": "Disc Brake Pad",
+        "brand": "Big A",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Master Cylinders"
+      },
+      "images": [
+        "../assets/pdp-gallery/JZRM7ROKSEHFECSEP6KGPE23/02.webp",
+        "../assets/pdp-gallery/JZRM7ROKSEHFECSEP6KGPE23/03.webp"
+      ]
     },
     {
       "id": "UE5MBGKJT6KFHJB22HN5RVKU",
@@ -34680,12 +34751,10 @@
       "category": "brake",
       "checkout": true,
       "variation_id": "FMVLPUKMEZKV6PVDZJF4E4N2",
-      "stock": 1,
       "part_numbers": [
         "R245",
         "Bendix R245, Raybestos 242PG, Wagner Z242D"
       ],
-      "interchange": [],
       "vehicles": [
         "1967\u20131981 Chevrolet Camaro",
         "1964\u20131973 Chevrolet Chevelle",
@@ -34695,11 +34764,6 @@
         "1967\u20131981 Pontiac Firebird",
         "1964\u20131973 Pontiac GTO"
       ],
-      "vehicle_count_raw": 1477,
-      "ebay_item_id": "398391452944",
-      "ebay_type": "Drum Brake Shoe",
-      "ebay_brand": "NJA",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Shoes",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -34797,10 +34861,17 @@
         "brand": "NJA",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Shoes"
       },
+      "vehicle_count_raw": 1477,
+      "ebay_item_id": "398391452944",
+      "ebay_type": "Drum Brake Shoe",
+      "ebay_brand": "NJA",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Shoes",
       "images": [
         "../assets/pdp-gallery/MV4FACZJQKOQZGNFCYJA6MDF/02.webp",
         "../assets/pdp-gallery/MV4FACZJQKOQZGNFCYJA6MDF/03.webp"
-      ]
+      ],
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "O2DXUNFTNTKMVZKCXCBIUR3O",
@@ -35280,6 +35351,162 @@
         "../assets/pdp-gallery/S5TSSKMSRLVYMPCER543VB44/04.webp"
       ],
       "stock": 1
+    },
+    {
+      "id": "U2KII2JQB3ZTI4GNIDCGHHSW",
+      "name": "Wagner BD125045 Front Brake Rotor Subaru Impreza Legacy 90-01 NOS",
+      "price": 39.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/ba4fbe9d577771b2ea4935df33a8cbda65b3534a/original.jpeg",
+      "url": "https://square.link/u/Pv9Kh03x",
+      "category": "brake",
+      "checkout": true,
+      "variation_id": "Q7PSG5C3ISRV54765KKKNQZ7",
+      "stock": 1,
+      "part_numbers": [
+        "BD125045",
+        "BD125045E, Centric 120.4701"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1993\u20132001 Subaru Impreza",
+        "1990\u20132002 Subaru Legacy"
+      ],
+      "vehicle_count_raw": 181,
+      "ebay_item_id": "398391522901",
+      "ebay_type": "Brake Rotor",
+      "ebay_brand": "Wagner",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "BD125045",
+          "BD125045E, Centric 120.4701"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1993,
+            "year_to": 2001,
+            "make": "Subaru",
+            "model": "Impreza",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1990,
+            "year_to": 2002,
+            "make": "Subaru",
+            "model": "Legacy",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1993\u20132001 Subaru Impreza",
+          "1990\u20132002 Subaru Legacy"
+        ],
+        "raw_compat_rows": 181,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398391522901",
+        "type": "Brake Rotor",
+        "brand": "Wagner",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware"
+      },
+      "images": [
+        "../assets/pdp-gallery/U2KII2JQB3ZTI4GNIDCGHHSW/02.webp",
+        "../assets/pdp-gallery/U2KII2JQB3ZTI4GNIDCGHHSW/03.webp"
+      ]
+    },
+    {
+      "id": "JRJF2VVMS2FFFULQWB3L5FAO",
+      "name": "Wagner Edge EC707 Ceramic Pads Camry ES300 RX300 Solara + SG707T Kit NOS",
+      "price": 89.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/2ce6df68bb21e7d5d4ae4c589b4e4d545df49932/original.jpeg",
+      "url": "https://square.link/u/ceiUzVdh",
+      "category": "brake",
+      "checkout": true,
+      "variation_id": "OZBSHCTXJMZANZCANNB2UGOQ",
+      "stock": 1,
+      "part_numbers": [
+        "EC707",
+        "EC7581, SG707T"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1998\u20132004 Toyota Avalon",
+        "1997\u20132001 Toyota Camry",
+        "1999\u20132003 Toyota Solara"
+      ],
+      "vehicle_count_raw": 70,
+      "ebay_item_id": "398391633126",
+      "ebay_type": "Ceramic Brake Pad",
+      "ebay_brand": "Wagner",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Master Cylinders",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "EC707",
+          "EC7581, SG707T"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1998,
+            "year_to": 2004,
+            "make": "Toyota",
+            "model": "Avalon",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1997,
+            "year_to": 2001,
+            "make": "Toyota",
+            "model": "Camry",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1999,
+            "year_to": 2003,
+            "make": "Toyota",
+            "model": "Solara",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1998\u20132004 Toyota Avalon",
+          "1997\u20132001 Toyota Camry",
+          "1999\u20132003 Toyota Solara"
+        ],
+        "raw_compat_rows": 70,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398391633126",
+        "type": "Ceramic Brake Pad",
+        "brand": "Wagner",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Master Cylinders"
+      },
+      "images": [
+        "../assets/pdp-gallery/JRJF2VVMS2FFFULQWB3L5FAO/02.webp",
+        "../assets/pdp-gallery/JRJF2VVMS2FFFULQWB3L5FAO/03.webp",
+        "../assets/pdp-gallery/JRJF2VVMS2FFFULQWB3L5FAO/04.webp",
+        "../assets/pdp-gallery/JRJF2VVMS2FFFULQWB3L5FAO/05.webp"
+      ]
     },
     {
       "id": "DPRSU7RX4SKAHPRFDDTPFKZR",
@@ -118922,5 +119149,5 @@
       "ebay_brand": ""
     }
   ],
-  "fitment_built": "2026-09-13T20:01:35Z"
+  "fitment_built": "2026-09-13T21:01:44Z"
 }
