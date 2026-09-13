@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-13T21:01:44Z",
+  "updated": "2026-09-13T22:01:45Z",
   "store": "https://buccaneersalvage.square.site/",
   "count": 824,
   "items": [
@@ -2330,21 +2330,14 @@
       "category": "brake",
       "checkout": true,
       "variation_id": "NNACV3WLW2ZPGTYPVYSSVIYS",
-      "stock": 1,
       "part_numbers": [
         "2M-7389",
         "2M-510, Wagner MX510, Bendix MKD510"
       ],
-      "interchange": [],
       "vehicles": [
         "1991\u20131993 Nissan NX",
         "1991\u20131994 Nissan Sentra"
       ],
-      "vehicle_count_raw": 37,
-      "ebay_item_id": "398391574405",
-      "ebay_type": "Disc Brake Pad",
-      "ebay_brand": "Big A",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Master Cylinders",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -2387,10 +2380,17 @@
         "brand": "Big A",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Master Cylinders"
       },
+      "vehicle_count_raw": 37,
+      "ebay_item_id": "398391574405",
+      "ebay_type": "Disc Brake Pad",
+      "ebay_brand": "Big A",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Master Cylinders",
       "images": [
         "../assets/pdp-gallery/JZRM7ROKSEHFECSEP6KGPE23/02.webp",
         "../assets/pdp-gallery/JZRM7ROKSEHFECSEP6KGPE23/03.webp"
-      ]
+      ],
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "UE5MBGKJT6KFHJB22HN5RVKU",
@@ -35353,6 +35353,137 @@
       "stock": 1
     },
     {
+      "id": "VYBQUPEFPHBAKZSDPG6YPBC4",
+      "name": "UBP 8898 Rear Brake Drum Cavalier Beretta Corsica Sunfire 84-02 NOS",
+      "price": 39.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/e1e9d34e0a00bc8e697c050d4023d4d8fc42c93b/original.jpeg",
+      "url": "https://square.link/u/0DCsIOBP",
+      "category": "brake",
+      "checkout": true,
+      "variation_id": "WDS26CGOKIINDFPEHWOCI63S",
+      "stock": 1,
+      "part_numbers": [
+        "8898",
+        "Wagner BD125386, AIMCO 8898, Raybestos 2093, Bendix 140385"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1986\u20131998 Buick Skylark",
+        "1987\u20131996 Chevrolet Beretta",
+        "1984\u20132002 Chevrolet Cavalier",
+        "1987\u20131996 Chevrolet Corsica",
+        "1992\u20131998 Oldsmobile Achieva",
+        "1985\u20131998 Pontiac Grand Am",
+        "1995\u20132002 Pontiac Sunfire"
+      ],
+      "vehicle_count_raw": 738,
+      "ebay_item_id": "398391725221",
+      "ebay_type": "Brake Drum",
+      "ebay_brand": "UBP",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Drums",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "8898",
+          "Wagner BD125386, AIMCO 8898, Raybestos 2093, Bendix 140385"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1986,
+            "year_to": 1998,
+            "make": "Buick",
+            "model": "Skylark",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1996,
+            "make": "Chevrolet",
+            "model": "Beretta",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 2002,
+            "make": "Chevrolet",
+            "model": "Cavalier",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1996,
+            "make": "Chevrolet",
+            "model": "Corsica",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1992,
+            "year_to": 1998,
+            "make": "Oldsmobile",
+            "model": "Achieva",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1998,
+            "make": "Pontiac",
+            "model": "Grand Am",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1995,
+            "year_to": 2002,
+            "make": "Pontiac",
+            "model": "Sunfire",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1986\u20131998 Buick Skylark",
+          "1987\u20131996 Chevrolet Beretta",
+          "1984\u20132002 Chevrolet Cavalier",
+          "1987\u20131996 Chevrolet Corsica",
+          "1992\u20131998 Oldsmobile Achieva",
+          "1985\u20131998 Pontiac Grand Am",
+          "1995\u20132002 Pontiac Sunfire"
+        ],
+        "raw_compat_rows": 738,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398391725221",
+        "type": "Brake Drum",
+        "brand": "UBP",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Drums"
+      },
+      "images": [
+        "../assets/pdp-gallery/VYBQUPEFPHBAKZSDPG6YPBC4/02.webp",
+        "../assets/pdp-gallery/VYBQUPEFPHBAKZSDPG6YPBC4/03.webp"
+      ]
+    },
+    {
       "id": "U2KII2JQB3ZTI4GNIDCGHHSW",
       "name": "Wagner BD125045 Front Brake Rotor Subaru Impreza Legacy 90-01 NOS",
       "price": 39.99,
@@ -35361,21 +35492,14 @@
       "category": "brake",
       "checkout": true,
       "variation_id": "Q7PSG5C3ISRV54765KKKNQZ7",
-      "stock": 1,
       "part_numbers": [
         "BD125045",
         "BD125045E, Centric 120.4701"
       ],
-      "interchange": [],
       "vehicles": [
         "1993\u20132001 Subaru Impreza",
         "1990\u20132002 Subaru Legacy"
       ],
-      "vehicle_count_raw": 181,
-      "ebay_item_id": "398391522901",
-      "ebay_type": "Brake Rotor",
-      "ebay_brand": "Wagner",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -35418,10 +35542,17 @@
         "brand": "Wagner",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware"
       },
+      "vehicle_count_raw": 181,
+      "ebay_item_id": "398391522901",
+      "ebay_type": "Brake Rotor",
+      "ebay_brand": "Wagner",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware",
       "images": [
         "../assets/pdp-gallery/U2KII2JQB3ZTI4GNIDCGHHSW/02.webp",
         "../assets/pdp-gallery/U2KII2JQB3ZTI4GNIDCGHHSW/03.webp"
-      ]
+      ],
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "JRJF2VVMS2FFFULQWB3L5FAO",
@@ -35432,22 +35563,15 @@
       "category": "brake",
       "checkout": true,
       "variation_id": "OZBSHCTXJMZANZCANNB2UGOQ",
-      "stock": 1,
       "part_numbers": [
         "EC707",
         "EC7581, SG707T"
       ],
-      "interchange": [],
       "vehicles": [
         "1998\u20132004 Toyota Avalon",
         "1997\u20132001 Toyota Camry",
         "1999\u20132003 Toyota Solara"
       ],
-      "vehicle_count_raw": 70,
-      "ebay_item_id": "398391633126",
-      "ebay_type": "Ceramic Brake Pad",
-      "ebay_brand": "Wagner",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Master Cylinders",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -35501,12 +35625,19 @@
         "brand": "Wagner",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Master Cylinders"
       },
+      "vehicle_count_raw": 70,
+      "ebay_item_id": "398391633126",
+      "ebay_type": "Ceramic Brake Pad",
+      "ebay_brand": "Wagner",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Master Cylinders",
       "images": [
         "../assets/pdp-gallery/JRJF2VVMS2FFFULQWB3L5FAO/02.webp",
         "../assets/pdp-gallery/JRJF2VVMS2FFFULQWB3L5FAO/03.webp",
         "../assets/pdp-gallery/JRJF2VVMS2FFFULQWB3L5FAO/04.webp",
         "../assets/pdp-gallery/JRJF2VVMS2FFFULQWB3L5FAO/05.webp"
-      ]
+      ],
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "DPRSU7RX4SKAHPRFDDTPFKZR",
@@ -89386,313 +89517,6 @@
       "vehicles": []
     },
     {
-      "id": "RH257Y3MVBSABFFD5JCXZIN7",
-      "name": "Gates 33128 Thermostat 1977-1979 Ford F-100 F-150 NOS",
-      "price": 9.99,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/e25db17125fd31c1aaa3f52cdca51f444bc4db2f/original.jpeg",
-      "url": "https://square.link/u/tJjlsyV5",
-      "category": "other",
-      "checkout": true,
-      "variation_id": "LY2WXBMWMMVUT4LN73INK3KH",
-      "part_numbers": [
-        "33128"
-      ],
-      "interchange": [
-        "E8AC-18K077-AA",
-        "E5VY-18125-E",
-        "E5VY-18125-F",
-        "FOAZ-18125-A"
-      ],
-      "vehicles": [
-        "1980\u20131983 Ford B-700",
-        "1978\u20131981 Ford Bronco",
-        "1980\u20131983 Ford C700",
-        "1980\u20131983 Ford C800",
-        "1970\u20131974 Ford Country Sedan",
-        "1970\u20131974 Ford Country Squire",
-        "1970\u20131972 Ford Custom",
-        "1970\u20131977 Ford Custom 500",
-        "1975\u20131981 Ford E-100 Econoline",
-        "1975\u20131981 Ford E-100 Econoline Club Wagon",
-        "1975\u20131981 Ford E-150 Econoline",
-        "1975\u20131981 Ford E-150 Econoline Club Wagon",
-        "1975\u20131981 Ford E-250 Econoline",
-        "1975\u20131982 Ford E-250 Econoline Club Wagon",
-        "1975\u20131982 Ford E-350 Econoline",
-        "1977\u20131982 Ford E-350 Econoline Club Wagon",
-        "1975\u20131976 Ford Elite",
-        "1977\u20131979 Ford F-100",
-        "1977\u20131981 Ford F-150",
-        "1977\u20131982 Ford F-250",
-        "1977 Ford F-350"
-      ],
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "high",
-      "fitment": {
-        "part_numbers": [
-          "33128"
-        ],
-        "interchange": [
-          "E8AC-18K077-AA",
-          "E5VY-18125-E",
-          "E5VY-18125-F",
-          "FOAZ-18125-A"
-        ],
-        "vehicles": [
-          {
-            "year_from": 1980,
-            "year_to": 1983,
-            "make": "Ford",
-            "model": "B-700",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1978,
-            "year_to": 1981,
-            "make": "Ford",
-            "model": "Bronco",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1980,
-            "year_to": 1983,
-            "make": "Ford",
-            "model": "C700",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1980,
-            "year_to": 1983,
-            "make": "Ford",
-            "model": "C800",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1970,
-            "year_to": 1974,
-            "make": "Ford",
-            "model": "Country Sedan",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1970,
-            "year_to": 1974,
-            "make": "Ford",
-            "model": "Country Squire",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1970,
-            "year_to": 1972,
-            "make": "Ford",
-            "model": "Custom",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1970,
-            "year_to": 1977,
-            "make": "Ford",
-            "model": "Custom 500",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1975,
-            "year_to": 1981,
-            "make": "Ford",
-            "model": "E-100 Econoline",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1975,
-            "year_to": 1981,
-            "make": "Ford",
-            "model": "E-100 Econoline Club Wagon",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1975,
-            "year_to": 1981,
-            "make": "Ford",
-            "model": "E-150 Econoline",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1975,
-            "year_to": 1981,
-            "make": "Ford",
-            "model": "E-150 Econoline Club Wagon",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1975,
-            "year_to": 1981,
-            "make": "Ford",
-            "model": "E-250 Econoline",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1975,
-            "year_to": 1982,
-            "make": "Ford",
-            "model": "E-250 Econoline Club Wagon",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1975,
-            "year_to": 1982,
-            "make": "Ford",
-            "model": "E-350 Econoline",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1977,
-            "year_to": 1982,
-            "make": "Ford",
-            "model": "E-350 Econoline Club Wagon",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1975,
-            "year_to": 1976,
-            "make": "Ford",
-            "model": "Elite",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1977,
-            "year_to": 1979,
-            "make": "Ford",
-            "model": "F-100",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1977,
-            "year_to": 1981,
-            "make": "Ford",
-            "model": "F-150",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1977,
-            "year_to": 1982,
-            "make": "Ford",
-            "model": "F-250",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1977,
-            "year_to": 1977,
-            "make": "Ford",
-            "model": "F-350",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          }
-        ],
-        "vehicle_labels": [
-          "1980\u20131983 Ford B-700",
-          "1978\u20131981 Ford Bronco",
-          "1980\u20131983 Ford C700",
-          "1980\u20131983 Ford C800",
-          "1970\u20131974 Ford Country Sedan",
-          "1970\u20131974 Ford Country Squire",
-          "1970\u20131972 Ford Custom",
-          "1970\u20131977 Ford Custom 500",
-          "1975\u20131981 Ford E-100 Econoline",
-          "1975\u20131981 Ford E-100 Econoline Club Wagon",
-          "1975\u20131981 Ford E-150 Econoline",
-          "1975\u20131981 Ford E-150 Econoline Club Wagon",
-          "1975\u20131981 Ford E-250 Econoline",
-          "1975\u20131982 Ford E-250 Econoline Club Wagon",
-          "1975\u20131982 Ford E-350 Econoline",
-          "1977\u20131982 Ford E-350 Econoline Club Wagon",
-          "1975\u20131976 Ford Elite",
-          "1977\u20131979 Ford F-100",
-          "1977\u20131981 Ford F-150",
-          "1977\u20131982 Ford F-250",
-          "1977 Ford F-350"
-        ],
-        "raw_compat_rows": 3000,
-        "source": "ebay_listing",
-        "confidence": "high",
-        "ebay_item_id": "398313193287",
-        "type": "Thermostat",
-        "brand": "Gates",
-        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Thermostats & Housings"
-      },
-      "vehicle_count_raw": 3000,
-      "ebay_item_id": "398313193287",
-      "ebay_type": "Thermostat",
-      "ebay_brand": "Gates",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Thermostats & Housings",
-      "images": [
-        "../assets/pdp-gallery/RH257Y3MVBSABFFD5JCXZIN7/02.webp",
-        "../assets/pdp-gallery/RH257Y3MVBSABFFD5JCXZIN7/03.webp"
-      ],
-      "stock": 1
-    },
-    {
       "id": "SOXMKEYKRFWFV3WRV2EPEILA",
       "name": "Gates 33129 Thermostat 195 Deg 1969-1977 Ranchero NOS",
       "price": 9.99,
@@ -119149,5 +118973,5 @@
       "ebay_brand": ""
     }
   ],
-  "fitment_built": "2026-09-13T21:01:44Z"
+  "fitment_built": "2026-09-13T22:01:45Z"
 }
