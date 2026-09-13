@@ -1,7 +1,7 @@
 {
-  "updated": "2026-09-13T19:01:49Z",
+  "updated": "2026-09-13T20:01:35Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 820,
+  "count": 821,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -34348,12 +34348,10 @@
       "category": "brake",
       "checkout": true,
       "variation_id": "GD6RTOAJGXHJDFEOR7QUF7RW",
-      "stock": 1,
       "part_numbers": [
         "R553",
         "Wagner PAB553R, Z553R, Bendix R553, AIMCO AFR553PG"
       ],
-      "interchange": [],
       "vehicles": [
         "1985\u20131998 Buick Skylark",
         "1985\u20131988 Cadillac Cimarron",
@@ -34365,11 +34363,6 @@
         "1986\u20131994 Pontiac Sunbird",
         "1995\u20132002 Pontiac Sunfire"
       ],
-      "vehicle_count_raw": 821,
-      "ebay_item_id": "398391342021",
-      "ebay_type": "Drum Brake Shoe",
-      "ebay_brand": "Metalazer",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Shoes",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -34489,10 +34482,17 @@
         "brand": "Metalazer",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Shoes"
       },
+      "vehicle_count_raw": 821,
+      "ebay_item_id": "398391342021",
+      "ebay_type": "Drum Brake Shoe",
+      "ebay_brand": "Metalazer",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Shoes",
       "images": [
         "../assets/pdp-gallery/4NLIYGPWBIHAR5W7IFWBYUFC/02.webp",
         "../assets/pdp-gallery/4NLIYGPWBIHAR5W7IFWBYUFC/03.webp"
-      ]
+      ],
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "XG2R5XT27N2LRQK74SBM2ROL",
@@ -34670,6 +34670,137 @@
       ],
       "stock": 1,
       "interchange": []
+    },
+    {
+      "id": "MV4FACZJQKOQZGNFCYJA6MDF",
+      "name": "NJA R245 Relined Drum Brake Shoes 9.5x2 Camaro Chevelle Nova 67-81 NOS",
+      "price": 34.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/fcaab8469f1716b5c04f60c7e2ba2026da2e0664/original.jpeg",
+      "url": "https://square.link/u/sFwzHpaa",
+      "category": "brake",
+      "checkout": true,
+      "variation_id": "FMVLPUKMEZKV6PVDZJF4E4N2",
+      "stock": 1,
+      "part_numbers": [
+        "R245",
+        "Bendix R245, Raybestos 242PG, Wagner Z242D"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1967\u20131981 Chevrolet Camaro",
+        "1964\u20131973 Chevrolet Chevelle",
+        "1970\u20131975 Chevrolet Monte Carlo",
+        "1969\u20131979 Chevrolet Nova",
+        "1964\u20131972 Oldsmobile Cutlass",
+        "1967\u20131981 Pontiac Firebird",
+        "1964\u20131973 Pontiac GTO"
+      ],
+      "vehicle_count_raw": 1477,
+      "ebay_item_id": "398391452944",
+      "ebay_type": "Drum Brake Shoe",
+      "ebay_brand": "NJA",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Shoes",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "R245",
+          "Bendix R245, Raybestos 242PG, Wagner Z242D"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1967,
+            "year_to": 1981,
+            "make": "Chevrolet",
+            "model": "Camaro",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1964,
+            "year_to": 1973,
+            "make": "Chevrolet",
+            "model": "Chevelle",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1970,
+            "year_to": 1975,
+            "make": "Chevrolet",
+            "model": "Monte Carlo",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1969,
+            "year_to": 1979,
+            "make": "Chevrolet",
+            "model": "Nova",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1964,
+            "year_to": 1972,
+            "make": "Oldsmobile",
+            "model": "Cutlass",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1967,
+            "year_to": 1981,
+            "make": "Pontiac",
+            "model": "Firebird",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1964,
+            "year_to": 1973,
+            "make": "Pontiac",
+            "model": "GTO",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1967\u20131981 Chevrolet Camaro",
+          "1964\u20131973 Chevrolet Chevelle",
+          "1970\u20131975 Chevrolet Monte Carlo",
+          "1969\u20131979 Chevrolet Nova",
+          "1964\u20131972 Oldsmobile Cutlass",
+          "1967\u20131981 Pontiac Firebird",
+          "1964\u20131973 Pontiac GTO"
+        ],
+        "raw_compat_rows": 1477,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398391452944",
+        "type": "Drum Brake Shoe",
+        "brand": "NJA",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Shoes"
+      },
+      "images": [
+        "../assets/pdp-gallery/MV4FACZJQKOQZGNFCYJA6MDF/02.webp",
+        "../assets/pdp-gallery/MV4FACZJQKOQZGNFCYJA6MDF/03.webp"
+      ]
     },
     {
       "id": "O2DXUNFTNTKMVZKCXCBIUR3O",
@@ -75419,12 +75550,10 @@
       "category": "other",
       "checkout": true,
       "variation_id": "J5RBTGZ3SMZP77TNV2CJLWWN",
-      "stock": 1,
       "part_numbers": [
         "2346",
         "2-352, FS 94621, Murray 279335, G&O 1052, E9LY-18476-A"
       ],
-      "interchange": [],
       "vehicles": [
         "1979\u20131983 Ford Fairmont",
         "1981\u20131982 Ford Granada",
@@ -75436,11 +75565,6 @@
         "1984\u20131988 Mercury Cougar",
         "1979\u20131983 Mercury Zephyr"
       ],
-      "vehicle_count_raw": 649,
-      "ebay_item_id": "398391345993",
-      "ebay_type": "Heater Core",
-      "ebay_brand": "Everco",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air Conditioning & Heating:Heater Cores",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -75560,12 +75684,19 @@
         "brand": "Everco",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air Conditioning & Heating:Heater Cores"
       },
+      "vehicle_count_raw": 649,
+      "ebay_item_id": "398391345993",
+      "ebay_type": "Heater Core",
+      "ebay_brand": "Everco",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air Conditioning & Heating:Heater Cores",
       "images": [
         "../assets/pdp-gallery/AITU7RX45TOM5GELQCAGJOJH/02.webp",
         "../assets/pdp-gallery/AITU7RX45TOM5GELQCAGJOJH/03.webp",
         "../assets/pdp-gallery/AITU7RX45TOM5GELQCAGJOJH/04.webp",
         "../assets/pdp-gallery/AITU7RX45TOM5GELQCAGJOJH/05.webp"
-      ]
+      ],
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "ECB6SVNHFBQUE6N4C674BWRM",
@@ -118791,5 +118922,5 @@
       "ebay_brand": ""
     }
   ],
-  "fitment_built": "2026-09-13T19:01:49Z"
+  "fitment_built": "2026-09-13T20:01:35Z"
 }
