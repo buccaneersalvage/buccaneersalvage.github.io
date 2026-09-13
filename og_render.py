@@ -23,7 +23,7 @@ CARDS = {
     "store":         ("Store Catalog",                 [("chest", -4.4, 1.15), ("coins", 4.4, 1.0)]),
     "services":      ("eBay Listing Services",         [("spyglass", -4.4, 1.2), ("crate", 4.4, 1.1)]),
     "scrap":         ("Free Scrap & E-Waste Pickup",   [("barrel", -4.4, 1.2), ("crate", 4.5, 1.15)]),
-    "videos":        ("Video Walkthroughs",            [("cannon", -4.2, 1.0), ("barrel", 4.6, 1.1)]),
+    "videos":        ("YouTube Video Gallery",            [("cannon", -4.2, 1.0), ("barrel", 4.6, 1.1)]),
     "contact":       ("Contact the Yard",              [("envelope", -4.4, 1.2), ("barrel", 4.5, 1.15)]),
     "map":           ("Directions to the Yard",        [("spyglass", -4.4, 1.15), ("flag", 4.4, 1.1)]),
     "terms":         ("Terms & Returns",               [("crate", -4.4, 1.15), ("coins", 4.4, 1.0)]),
@@ -31,7 +31,7 @@ CARDS = {
     "privacy":       ("Privacy Policy",                [("lock", -4.4, 1.2), ("crate", 4.5, 1.1)]),
     "thanks":        ("Message Sent — Fair Winds",     [("flag", -4.3, 1.15), ("chest", 4.5, 1.1)]),
     "404":           ("Lost at Sea",                   [("barrel", -4.4, 1.15), ("crate", 4.5, 1.1)]),
-    "templates":     ("Yard Sale Templates",           [("envelope", -4.4, 1.2), ("coins", 4.4, 1.0)]),
+    "templates":     ("Web & eBay Listing Templates",           [("envelope", -4.4, 1.2), ("coins", 4.4, 1.0)]),
 }
 
 FLOOR_Z = -3.1
