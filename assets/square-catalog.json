@@ -1,7 +1,7 @@
 {
-  "updated": "2026-09-13T22:01:45Z",
+  "updated": "2026-09-13T23:01:43Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 824,
+  "count": 825,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -35361,12 +35361,10 @@
       "category": "brake",
       "checkout": true,
       "variation_id": "WDS26CGOKIINDFPEHWOCI63S",
-      "stock": 1,
       "part_numbers": [
         "8898",
         "Wagner BD125386, AIMCO 8898, Raybestos 2093, Bendix 140385"
       ],
-      "interchange": [],
       "vehicles": [
         "1986\u20131998 Buick Skylark",
         "1987\u20131996 Chevrolet Beretta",
@@ -35376,11 +35374,6 @@
         "1985\u20131998 Pontiac Grand Am",
         "1995\u20132002 Pontiac Sunfire"
       ],
-      "vehicle_count_raw": 738,
-      "ebay_item_id": "398391725221",
-      "ebay_type": "Brake Drum",
-      "ebay_brand": "UBP",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Drums",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -35478,10 +35471,17 @@
         "brand": "UBP",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Drums"
       },
+      "vehicle_count_raw": 738,
+      "ebay_item_id": "398391725221",
+      "ebay_type": "Brake Drum",
+      "ebay_brand": "UBP",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Drums",
       "images": [
         "../assets/pdp-gallery/VYBQUPEFPHBAKZSDPG6YPBC4/02.webp",
         "../assets/pdp-gallery/VYBQUPEFPHBAKZSDPG6YPBC4/03.webp"
-      ]
+      ],
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "U2KII2JQB3ZTI4GNIDCGHHSW",
@@ -35638,6 +35638,115 @@
       ],
       "stock": 1,
       "interchange": []
+    },
+    {
+      "id": "24RTAKCNUCZTQDRQQ3YCSIXH",
+      "name": "Wagner Edge EC752A Ceramic Pad Kit Malibu Grand Am Alero Replacement Shims NOS",
+      "price": 59.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/aa9841900382b8b93a2fc335b23f8634eef36527/original.jpeg",
+      "url": "https://square.link/u/6RFgv7v7",
+      "category": "brake",
+      "checkout": true,
+      "variation_id": "QED4PDRIVQRIPAT6B5BFQ4KR",
+      "stock": 1,
+      "part_numbers": [
+        "EC752A",
+        "EC7735, SG727Q, D727"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "2004\u20132005 Chevrolet Classic",
+        "1997\u20132003 Chevrolet Malibu",
+        "1999\u20132004 Oldsmobile Alero",
+        "1997\u20131999 Oldsmobile Cutlass",
+        "1999\u20132005 Pontiac Grand Am"
+      ],
+      "vehicle_count_raw": 171,
+      "ebay_item_id": "398391765080",
+      "ebay_type": "Ceramic Brake Pad",
+      "ebay_brand": "Wagner",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Master Cylinders",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "EC752A",
+          "EC7735, SG727Q, D727"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 2004,
+            "year_to": 2005,
+            "make": "Chevrolet",
+            "model": "Classic",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1997,
+            "year_to": 2003,
+            "make": "Chevrolet",
+            "model": "Malibu",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1999,
+            "year_to": 2004,
+            "make": "Oldsmobile",
+            "model": "Alero",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1997,
+            "year_to": 1999,
+            "make": "Oldsmobile",
+            "model": "Cutlass",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1999,
+            "year_to": 2005,
+            "make": "Pontiac",
+            "model": "Grand Am",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "2004\u20132005 Chevrolet Classic",
+          "1997\u20132003 Chevrolet Malibu",
+          "1999\u20132004 Oldsmobile Alero",
+          "1997\u20131999 Oldsmobile Cutlass",
+          "1999\u20132005 Pontiac Grand Am"
+        ],
+        "raw_compat_rows": 171,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398391765080",
+        "type": "Ceramic Brake Pad",
+        "brand": "Wagner",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Master Cylinders"
+      },
+      "images": [
+        "../assets/pdp-gallery/24RTAKCNUCZTQDRQQ3YCSIXH/02.webp",
+        "../assets/pdp-gallery/24RTAKCNUCZTQDRQQ3YCSIXH/03.webp",
+        "../assets/pdp-gallery/24RTAKCNUCZTQDRQQ3YCSIXH/04.webp",
+        "../assets/pdp-gallery/24RTAKCNUCZTQDRQQ3YCSIXH/05.webp"
+      ]
     },
     {
       "id": "DPRSU7RX4SKAHPRFDDTPFKZR",
@@ -118973,5 +119082,5 @@
       "ebay_brand": ""
     }
   ],
-  "fitment_built": "2026-09-13T22:01:45Z"
+  "fitment_built": "2026-09-13T23:01:43Z"
 }
