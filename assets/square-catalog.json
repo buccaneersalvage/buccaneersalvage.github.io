@@ -1,7 +1,7 @@
 {
-  "updated": "2026-09-14T20:20:07Z",
+  "updated": "2026-09-14T23:02:31Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 779,
+  "count": 782,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -2220,6 +2220,93 @@
       "part_numbers": [],
       "interchange": [],
       "vehicles": []
+    },
+    {
+      "id": "LOLWHY65WEFYFU7ZW3QBB43Q",
+      "name": "Big A Plus 1M-7478 Disc Brake Pads Front Mustang 94-98 NOS",
+      "price": 24.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/8c27f41aebbb8390924376482cf767f4ab7f632b/original.jpeg",
+      "url": "https://square.link/u/FtcL8nHu",
+      "category": "brake",
+      "checkout": true,
+      "variation_id": "55GBHUWMCLYQCITEHWDBGN2Y",
+      "stock": 1,
+      "part_numbers": [
+        "1M-7478",
+        "1M-600 D600 7478-D600 PGD600 MD600"
+      ],
+      "interchange": [
+        "MKD600"
+      ],
+      "vehicles": [
+        "1994\u20131998 Ford Mustang",
+        "1993\u20131997 Ford Thunderbird",
+        "1993\u20131997 Mercury Cougar"
+      ],
+      "vehicle_count_raw": 80,
+      "ebay_item_id": "398395025877",
+      "ebay_type": "Disc Brake Pad Set",
+      "ebay_brand": "Big A",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pads",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "1M-7478",
+          "1M-600 D600 7478-D600 PGD600 MD600"
+        ],
+        "interchange": [
+          "MKD600"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1994,
+            "year_to": 1998,
+            "make": "Ford",
+            "model": "Mustang",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1993,
+            "year_to": 1997,
+            "make": "Ford",
+            "model": "Thunderbird",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1993,
+            "year_to": 1997,
+            "make": "Mercury",
+            "model": "Cougar",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1994\u20131998 Ford Mustang",
+          "1993\u20131997 Ford Thunderbird",
+          "1993\u20131997 Mercury Cougar"
+        ],
+        "raw_compat_rows": 80,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398395025877",
+        "type": "Disc Brake Pad Set",
+        "brand": "Big A",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pads"
+      },
+      "images": [
+        "../assets/pdp-gallery/LOLWHY65WEFYFU7ZW3QBB43Q/02.webp",
+        "../assets/pdp-gallery/LOLWHY65WEFYFU7ZW3QBB43Q/03.webp"
+      ]
     },
     {
       "id": "UE5MBGKJT6KFHJB22HN5RVKU",
@@ -33970,6 +34057,125 @@
       ],
       "stock": 1,
       "interchange": []
+    },
+    {
+      "id": "UHT3CH22ZHVNBFSIMHDLL7QP",
+      "name": "WearEver MKD466 Disc Brake Pads Front Escort Protege 90-98 NOS",
+      "price": 24.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/d5599a66d65f814b11d583e92037e927593248e5/original.jpeg",
+      "url": "https://square.link/u/i8O1M7wY",
+      "category": "brake",
+      "checkout": true,
+      "variation_id": "EGTYGGCJMHXEYCGJFCTAGBHJ",
+      "stock": 1,
+      "part_numbers": [
+        "MKD466",
+        "MKD 466 876-D466 FF131 PMD466"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1994\u20131997 Ford Aspire",
+        "1991\u20131994 Ford Escort",
+        "2001\u20132002 Kia Rio",
+        "1990\u20131995 Mazda 323",
+        "1990\u20131998 Mazda Protege",
+        "1991\u20131994 Mercury Tracer"
+      ],
+      "vehicle_count_raw": 124,
+      "ebay_item_id": "398395080061",
+      "ebay_type": "Disc Brake Pad Set",
+      "ebay_brand": "WearEver",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pads",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "MKD466",
+          "MKD 466 876-D466 FF131 PMD466"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1994,
+            "year_to": 1997,
+            "make": "Ford",
+            "model": "Aspire",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1991,
+            "year_to": 1994,
+            "make": "Ford",
+            "model": "Escort",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2001,
+            "year_to": 2002,
+            "make": "Kia",
+            "model": "Rio",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1990,
+            "year_to": 1995,
+            "make": "Mazda",
+            "model": "323",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1990,
+            "year_to": 1998,
+            "make": "Mazda",
+            "model": "Protege",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1991,
+            "year_to": 1994,
+            "make": "Mercury",
+            "model": "Tracer",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1994\u20131997 Ford Aspire",
+          "1991\u20131994 Ford Escort",
+          "2001\u20132002 Kia Rio",
+          "1990\u20131995 Mazda 323",
+          "1990\u20131998 Mazda Protege",
+          "1991\u20131994 Mercury Tracer"
+        ],
+        "raw_compat_rows": 124,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398395080061",
+        "type": "Disc Brake Pad Set",
+        "brand": "WearEver",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pads"
+      },
+      "images": [
+        "../assets/pdp-gallery/UHT3CH22ZHVNBFSIMHDLL7QP/02.webp",
+        "../assets/pdp-gallery/UHT3CH22ZHVNBFSIMHDLL7QP/03.webp"
+      ]
     },
     {
       "id": "F7X2LR523KDOKA265ZBJIXIW",
@@ -69601,6 +69807,52 @@
         "../assets/pdp-gallery/BQJYLOOROD5CPI26LY53NLX7/04.webp"
       ],
       "stock": 1
+    },
+    {
+      "id": "VKJDX7VEJFPYQ7YKR7IZX6QW",
+      "name": "Daystar KG09101BK 2\" Front Leveling Kit Silverado Sierra 88-06 2WD NOS",
+      "price": 54.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/4c4e499c741328fc05c9b81d77209edfb256ff72/original.jpeg",
+      "url": "https://square.link/u/7GfMGLNG",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "KQHRH2CAEOMU66YTHR6L4GHH",
+      "stock": 1,
+      "part_numbers": [
+        "KG09101BK",
+        "M03132"
+      ],
+      "interchange": [],
+      "vehicles": [],
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398395146777",
+      "ebay_type": "Leveling Kit",
+      "ebay_brand": "Daystar",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Steering & Suspension:Self-Leveling Suspension Parts",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "KG09101BK",
+          "M03132"
+        ],
+        "interchange": [],
+        "vehicles": [],
+        "vehicle_labels": [],
+        "raw_compat_rows": 0,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398395146777",
+        "type": "Leveling Kit",
+        "brand": "Daystar",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Steering & Suspension:Self-Leveling Suspension Parts"
+      },
+      "images": [
+        "../assets/pdp-gallery/VKJDX7VEJFPYQ7YKR7IZX6QW/02.webp",
+        "../assets/pdp-gallery/VKJDX7VEJFPYQ7YKR7IZX6QW/03.webp",
+        "../assets/pdp-gallery/VKJDX7VEJFPYQ7YKR7IZX6QW/04.webp",
+        "../assets/pdp-gallery/VKJDX7VEJFPYQ7YKR7IZX6QW/05.webp"
+      ]
     },
     {
       "id": "W5PHRTXPG3C5J65NAG7RBJAQ",
@@ -112549,5 +112801,5 @@
       "ebay_brand": ""
     }
   ],
-  "fitment_built": "2026-09-14T20:20:07Z"
+  "fitment_built": "2026-09-14T23:02:31Z"
 }
