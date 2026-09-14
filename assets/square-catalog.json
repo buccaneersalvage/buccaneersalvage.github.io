@@ -1,7 +1,7 @@
 {
-  "updated": "2026-09-14T03:02:03Z",
+  "updated": "2026-09-14T04:01:45Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 829,
+  "count": 830,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -2292,22 +2292,15 @@
       "category": "brake",
       "checkout": true,
       "variation_id": "JDEKIAUFIDVFLL3PCUOOI5XC",
-      "stock": 1,
       "part_numbers": [
         "3-7298",
         "3-436, TDG28, D436, 7298-D436, WFD61F, 7298"
       ],
-      "interchange": [],
       "vehicles": [
         "1990\u20132002 Toyota 4Runner",
         "1989\u20131995 Toyota Pickup",
         "1995\u20132004 Toyota Tacoma"
       ],
-      "vehicle_count_raw": 277,
-      "ebay_item_id": "398392386925",
-      "ebay_type": "Disc Brake Pad",
-      "ebay_brand": "AutoPro",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Master Cylinders",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -2361,11 +2354,18 @@
         "brand": "AutoPro",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Master Cylinders"
       },
+      "vehicle_count_raw": 277,
+      "ebay_item_id": "398392386925",
+      "ebay_type": "Disc Brake Pad",
+      "ebay_brand": "AutoPro",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Master Cylinders",
       "images": [
         "../assets/pdp-gallery/IFHDT5IOPGKKZOHHFQHBPMAY/02.webp",
         "../assets/pdp-gallery/IFHDT5IOPGKKZOHHFQHBPMAY/03.webp",
         "../assets/pdp-gallery/IFHDT5IOPGKKZOHHFQHBPMAY/04.webp"
-      ]
+      ],
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "I5QVA3KVHZNLGLGKREENZ45D",
@@ -2376,23 +2376,16 @@
       "category": "brake",
       "checkout": true,
       "variation_id": "L5BAGYT64M76CNE26UWIOLOG",
-      "stock": 1,
       "part_numbers": [
         "3M-7162",
         "3M-256, BDH151, D256, 7162-D256"
       ],
-      "interchange": [],
       "vehicles": [
         "1988\u20131991 Honda CRX",
         "1984\u20131987 Honda Civic",
         "2001\u20132006 Honda Insight",
         "1983\u20131987 Honda Prelude"
       ],
-      "vehicle_count_raw": 74,
-      "ebay_item_id": "398392388399",
-      "ebay_type": "Disc Brake Pad",
-      "ebay_brand": "AutoPro",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Master Cylinders",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -2457,10 +2450,17 @@
         "brand": "AutoPro",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Master Cylinders"
       },
+      "vehicle_count_raw": 74,
+      "ebay_item_id": "398392388399",
+      "ebay_type": "Disc Brake Pad",
+      "ebay_brand": "AutoPro",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Master Cylinders",
       "images": [
         "../assets/pdp-gallery/I5QVA3KVHZNLGLGKREENZ45D/02.webp",
         "../assets/pdp-gallery/I5QVA3KVHZNLGLGKREENZ45D/03.webp"
-      ]
+      ],
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "T4S7T52RREE5FHPD3DBZ56WR",
@@ -35325,6 +35325,137 @@
         "../assets/pdp-gallery/S5TSSKMSRLVYMPCER543VB44/04.webp"
       ],
       "stock": 1
+    },
+    {
+      "id": "PSXWFJIVSRLGWQXZBDVOZRZG",
+      "name": "Raybestos PD377M ProStop Plus Semi-Metallic Pads 88-93 Regal Grand Prix NOS",
+      "price": 24.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/49743d7e977a7cd7d600d20a877990b0f9ab5bed/original.jpeg",
+      "url": "https://square.link/u/WlwoK1OB",
+      "category": "brake",
+      "checkout": true,
+      "variation_id": "LFZJFC3ZQGFKUEXBEIKCZ5HB",
+      "stock": 1,
+      "part_numbers": [
+        "PD377M",
+        "ProStop Plus, P107EB"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1988\u20131993 Buick Regal",
+        "1990\u20131993 Chevrolet Lumina",
+        "1991\u20131992 Lotus Elan",
+        "1988\u20131994 Oldsmobile Cutlass Ciera",
+        "1988\u20131990 Oldsmobile Cutlass Cruiser",
+        "1988\u20131993 Oldsmobile Cutlass Supreme",
+        "1988\u20131993 Pontiac Grand Prix"
+      ],
+      "vehicle_count_raw": 300,
+      "ebay_item_id": "398392445374",
+      "ebay_type": "Disc Brake Pad Set",
+      "ebay_brand": "Raybestos",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pads",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "PD377M",
+          "ProStop Plus, P107EB"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1988,
+            "year_to": 1993,
+            "make": "Buick",
+            "model": "Regal",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1990,
+            "year_to": 1993,
+            "make": "Chevrolet",
+            "model": "Lumina",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1991,
+            "year_to": 1992,
+            "make": "Lotus",
+            "model": "Elan",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1988,
+            "year_to": 1994,
+            "make": "Oldsmobile",
+            "model": "Cutlass Ciera",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1988,
+            "year_to": 1990,
+            "make": "Oldsmobile",
+            "model": "Cutlass Cruiser",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1988,
+            "year_to": 1993,
+            "make": "Oldsmobile",
+            "model": "Cutlass Supreme",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1988,
+            "year_to": 1993,
+            "make": "Pontiac",
+            "model": "Grand Prix",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1988\u20131993 Buick Regal",
+          "1990\u20131993 Chevrolet Lumina",
+          "1991\u20131992 Lotus Elan",
+          "1988\u20131994 Oldsmobile Cutlass Ciera",
+          "1988\u20131990 Oldsmobile Cutlass Cruiser",
+          "1988\u20131993 Oldsmobile Cutlass Supreme",
+          "1988\u20131993 Pontiac Grand Prix"
+        ],
+        "raw_compat_rows": 300,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398392445374",
+        "type": "Disc Brake Pad Set",
+        "brand": "Raybestos",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pads"
+      },
+      "images": [
+        "../assets/pdp-gallery/PSXWFJIVSRLGWQXZBDVOZRZG/02.webp",
+        "../assets/pdp-gallery/PSXWFJIVSRLGWQXZBDVOZRZG/03.webp"
+      ]
     },
     {
       "id": "VYBQUPEFPHBAKZSDPG6YPBC4",
@@ -73874,12 +74005,10 @@
       "category": "other",
       "checkout": true,
       "variation_id": "C6T4XJE5HHSKIXRULZ35HCRV",
-      "stock": 1,
       "part_numbers": [
         "2-3011BF",
         "2-3011, UJ234, P234, 5-3147X, BOL-02"
       ],
-      "interchange": [],
       "vehicles": [
         "1988\u20131999 Chevrolet C1500",
         "1988\u20131999 Chevrolet K1500",
@@ -73890,11 +74019,6 @@
         "1999\u20132016 GMC Sierra 1500",
         "2001\u20132006 GMC Sierra 2500 HD"
       ],
-      "vehicle_count_raw": 3000,
-      "ebay_item_id": "398392394956",
-      "ebay_type": "Universal Joint",
-      "ebay_brand": "Brute Force",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:Driveshafts & Parts:Driveshaft Bearings & U-Joints",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -74003,10 +74127,17 @@
         "brand": "Brute Force",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:Driveshafts & Parts:Driveshaft Bearings & U-Joints"
       },
+      "vehicle_count_raw": 3000,
+      "ebay_item_id": "398392394956",
+      "ebay_type": "Universal Joint",
+      "ebay_brand": "Brute Force",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:Driveshafts & Parts:Driveshaft Bearings & U-Joints",
       "images": [
         "../assets/pdp-gallery/LK6QITO74VS5ZTU6DBMYBZBX/02.webp",
         "../assets/pdp-gallery/LK6QITO74VS5ZTU6DBMYBZBX/03.webp"
-      ]
+      ],
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "76EIMHSX67UOCLAWCBIO3NEK",
@@ -119454,5 +119585,5 @@
       "ebay_brand": ""
     }
   ],
-  "fitment_built": "2026-09-14T03:02:03Z"
+  "fitment_built": "2026-09-14T04:01:45Z"
 }
