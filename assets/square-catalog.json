@@ -1,7 +1,7 @@
 {
-  "updated": "2026-09-14T02:01:42Z",
+  "updated": "2026-09-14T03:02:03Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 827,
+  "count": 829,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -2282,6 +2282,185 @@
       ],
       "stock": 1,
       "interchange": []
+    },
+    {
+      "id": "IFHDT5IOPGKKZOHHFQHBPMAY",
+      "name": "AutoPro 3-7298 Front Disc Brake Pads D436 Tacoma 4Runner Pickup 89-04 NOS",
+      "price": 29.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/ab5e364c34676c9b363918c8956f9cbed77aea75/original.jpeg",
+      "url": "https://square.link/u/BWTRbTsv",
+      "category": "brake",
+      "checkout": true,
+      "variation_id": "JDEKIAUFIDVFLL3PCUOOI5XC",
+      "stock": 1,
+      "part_numbers": [
+        "3-7298",
+        "3-436, TDG28, D436, 7298-D436, WFD61F, 7298"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1990\u20132002 Toyota 4Runner",
+        "1989\u20131995 Toyota Pickup",
+        "1995\u20132004 Toyota Tacoma"
+      ],
+      "vehicle_count_raw": 277,
+      "ebay_item_id": "398392386925",
+      "ebay_type": "Disc Brake Pad",
+      "ebay_brand": "AutoPro",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Master Cylinders",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "3-7298",
+          "3-436, TDG28, D436, 7298-D436, WFD61F, 7298"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1990,
+            "year_to": 2002,
+            "make": "Toyota",
+            "model": "4Runner",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1989,
+            "year_to": 1995,
+            "make": "Toyota",
+            "model": "Pickup",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1995,
+            "year_to": 2004,
+            "make": "Toyota",
+            "model": "Tacoma",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1990\u20132002 Toyota 4Runner",
+          "1989\u20131995 Toyota Pickup",
+          "1995\u20132004 Toyota Tacoma"
+        ],
+        "raw_compat_rows": 277,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398392386925",
+        "type": "Disc Brake Pad",
+        "brand": "AutoPro",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Master Cylinders"
+      },
+      "images": [
+        "../assets/pdp-gallery/IFHDT5IOPGKKZOHHFQHBPMAY/02.webp",
+        "../assets/pdp-gallery/IFHDT5IOPGKKZOHHFQHBPMAY/03.webp",
+        "../assets/pdp-gallery/IFHDT5IOPGKKZOHHFQHBPMAY/04.webp"
+      ]
+    },
+    {
+      "id": "I5QVA3KVHZNLGLGKREENZ45D",
+      "name": "AutoPro 3M-7162 Front Disc Pads BDH151 D256 Civic CRX Prelude 83-91 NOS",
+      "price": 29.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/d5f2cbe0743a80027f0e0d884b347685e3b6334e/original.jpeg",
+      "url": "https://square.link/u/HeoiefMn",
+      "category": "brake",
+      "checkout": true,
+      "variation_id": "L5BAGYT64M76CNE26UWIOLOG",
+      "stock": 1,
+      "part_numbers": [
+        "3M-7162",
+        "3M-256, BDH151, D256, 7162-D256"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1988\u20131991 Honda CRX",
+        "1984\u20131987 Honda Civic",
+        "2001\u20132006 Honda Insight",
+        "1983\u20131987 Honda Prelude"
+      ],
+      "vehicle_count_raw": 74,
+      "ebay_item_id": "398392388399",
+      "ebay_type": "Disc Brake Pad",
+      "ebay_brand": "AutoPro",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Master Cylinders",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "3M-7162",
+          "3M-256, BDH151, D256, 7162-D256"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1988,
+            "year_to": 1991,
+            "make": "Honda",
+            "model": "CRX",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 1987,
+            "make": "Honda",
+            "model": "Civic",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2001,
+            "year_to": 2006,
+            "make": "Honda",
+            "model": "Insight",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1983,
+            "year_to": 1987,
+            "make": "Honda",
+            "model": "Prelude",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1988\u20131991 Honda CRX",
+          "1984\u20131987 Honda Civic",
+          "2001\u20132006 Honda Insight",
+          "1983\u20131987 Honda Prelude"
+        ],
+        "raw_compat_rows": 74,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398392388399",
+        "type": "Disc Brake Pad",
+        "brand": "AutoPro",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Master Cylinders"
+      },
+      "images": [
+        "../assets/pdp-gallery/I5QVA3KVHZNLGLGKREENZ45D/02.webp",
+        "../assets/pdp-gallery/I5QVA3KVHZNLGLGKREENZ45D/03.webp"
+      ]
     },
     {
       "id": "T4S7T52RREE5FHPD3DBZ56WR",
@@ -6879,211 +7058,6 @@
       "images": [
         "../assets/pdp-gallery/JZ6R75TYCFO4JDSN3QJ4JHQP/02.webp",
         "../assets/pdp-gallery/JZ6R75TYCFO4JDSN3QJ4JHQP/03.webp"
-      ],
-      "stock": 1
-    },
-    {
-      "id": "Z3E6D4S4KNYLRAAXQXZH5FL5",
-      "name": "Carlson 17393 Drum Brake Hardware Kit 92-10 Toyota Highlander Sienna Rear",
-      "price": 34.49,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/0d610285b58cffc9678ca2c7d7a7fdca85f284d7/original.jpeg",
-      "url": "https://square.link/u/zfnVwdnz",
-      "category": "brake",
-      "checkout": true,
-      "variation_id": "7PCD7ND4AUA6XZXRY653LMNA",
-      "part_numbers": [
-        "17393"
-      ],
-      "interchange": [
-        "118.44028"
-      ],
-      "vehicles": [
-        "1998\u20132005 Lexus GS300",
-        "2001\u20132005 Lexus GS430",
-        "2001\u20132005 Lexus IS300",
-        "2004\u20132006 Lexus RX330",
-        "2007\u20132009 Lexus RX350",
-        "2006\u20132008 Lexus RX400h",
-        "2002\u20132010 Lexus SC430",
-        "2004\u20132014 Toyota Highlander",
-        "1991\u20131997 Toyota Previa",
-        "2004\u20132005 Toyota RAV4",
-        "2004\u20132010 Toyota Sienna",
-        "1993\u20131998 Toyota Supra",
-        "2009\u20132016 Toyota Venza"
-      ],
-      "fitment_source": "ebay_listing+carlson_specs",
-      "fitment_confidence": "high",
-      "fitment": {
-        "part_numbers": [
-          "17393"
-        ],
-        "interchange": [
-          "118.44028"
-        ],
-        "vehicles": [
-          {
-            "year_from": 1998,
-            "year_to": 2005,
-            "make": "Lexus",
-            "model": "GS300",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 2001,
-            "year_to": 2005,
-            "make": "Lexus",
-            "model": "GS430",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 2001,
-            "year_to": 2005,
-            "make": "Lexus",
-            "model": "IS300",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 2004,
-            "year_to": 2006,
-            "make": "Lexus",
-            "model": "RX330",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 2007,
-            "year_to": 2009,
-            "make": "Lexus",
-            "model": "RX350",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 2006,
-            "year_to": 2008,
-            "make": "Lexus",
-            "model": "RX400h",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 2002,
-            "year_to": 2010,
-            "make": "Lexus",
-            "model": "SC430",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 2004,
-            "year_to": 2014,
-            "make": "Toyota",
-            "model": "Highlander",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1991,
-            "year_to": 1997,
-            "make": "Toyota",
-            "model": "Previa",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 2004,
-            "year_to": 2005,
-            "make": "Toyota",
-            "model": "RAV4",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 2004,
-            "year_to": 2010,
-            "make": "Toyota",
-            "model": "Sienna",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1993,
-            "year_to": 1998,
-            "make": "Toyota",
-            "model": "Supra",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 2009,
-            "year_to": 2016,
-            "make": "Toyota",
-            "model": "Venza",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          }
-        ],
-        "vehicle_labels": [
-          "1998\u20132005 Lexus GS300",
-          "2001\u20132005 Lexus GS430",
-          "2001\u20132005 Lexus IS300",
-          "2004\u20132006 Lexus RX330",
-          "2007\u20132009 Lexus RX350",
-          "2006\u20132008 Lexus RX400h",
-          "2002\u20132010 Lexus SC430",
-          "2004\u20132014 Toyota Highlander",
-          "1991\u20131997 Toyota Previa",
-          "2004\u20132005 Toyota RAV4",
-          "2004\u20132010 Toyota Sienna",
-          "1993\u20131998 Toyota Supra",
-          "2009\u20132016 Toyota Venza"
-        ],
-        "raw_compat_rows": 252,
-        "source": "ebay_listing+carlson_specs",
-        "confidence": "high",
-        "ebay_item_id": "398085067068",
-        "type": "Drum Brake Hardware",
-        "brand": "Carlson",
-        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware"
-      },
-      "vehicle_count_raw": 252,
-      "ebay_item_id": "398085067068",
-      "ebay_type": "Drum Brake Hardware",
-      "ebay_brand": "Carlson",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware",
-      "images": [
-        "../assets/pdp-gallery/Z3E6D4S4KNYLRAAXQXZH5FL5/02.webp",
-        "../assets/pdp-gallery/Z3E6D4S4KNYLRAAXQXZH5FL5/03.webp"
       ],
       "stock": 1
     },
@@ -35757,12 +35731,10 @@
       "category": "brake",
       "checkout": true,
       "variation_id": "5TNK5ID4Z5HEMECXTVSIT6NS",
-      "stock": 1,
       "part_numbers": [
         "EX369",
         "SG369, FD369, D369"
       ],
-      "interchange": [],
       "vehicles": [
         "1990\u20132002 Chevrolet Astro",
         "1988\u20131999 Chevrolet C1500",
@@ -35775,11 +35747,6 @@
         "1996\u20132002 GMC Savana 1500",
         "1992\u20132000 GMC Yukon"
       ],
-      "vehicle_count_raw": 1882,
-      "ebay_item_id": "398392076729",
-      "ebay_type": "Disc Brake Pad",
-      "ebay_brand": "Wagner",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pads",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -35910,12 +35877,19 @@
         "brand": "Wagner",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pads"
       },
+      "vehicle_count_raw": 1882,
+      "ebay_item_id": "398392076729",
+      "ebay_type": "Disc Brake Pad",
+      "ebay_brand": "Wagner",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pads",
       "images": [
         "../assets/pdp-gallery/C4YTEKK53F2APV7ZUS6UBTQB/02.webp",
         "../assets/pdp-gallery/C4YTEKK53F2APV7ZUS6UBTQB/03.webp",
         "../assets/pdp-gallery/C4YTEKK53F2APV7ZUS6UBTQB/04.webp",
         "../assets/pdp-gallery/C4YTEKK53F2APV7ZUS6UBTQB/05.webp"
-      ]
+      ],
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "DPRSU7RX4SKAHPRFDDTPFKZR",
@@ -73892,6 +73866,149 @@
       "interchange": []
     },
     {
+      "id": "LK6QITO74VS5ZTU6DBMYBZBX",
+      "name": "Brute Force 2-3011BF 3R U-Joint ISR 1.125 Silverado Sierra C1500 88-16 NOS",
+      "price": 24.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/9c5f00b680e13a5a1e170e66dce92e21970b0a7f/original.jpeg",
+      "url": "https://square.link/u/Ft3Cmq2D",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "C6T4XJE5HHSKIXRULZ35HCRV",
+      "stock": 1,
+      "part_numbers": [
+        "2-3011BF",
+        "2-3011, UJ234, P234, 5-3147X, BOL-02"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1988\u20131999 Chevrolet C1500",
+        "1988\u20131999 Chevrolet K1500",
+        "1999\u20132016 Chevrolet Silverado 1500",
+        "2001\u20132016 Chevrolet Silverado 2500 HD",
+        "2007 Chevrolet Silverado 2500 HD Classic",
+        "1982\u20131999 GMC C1500",
+        "1999\u20132016 GMC Sierra 1500",
+        "2001\u20132006 GMC Sierra 2500 HD"
+      ],
+      "vehicle_count_raw": 3000,
+      "ebay_item_id": "398392394956",
+      "ebay_type": "Universal Joint",
+      "ebay_brand": "Brute Force",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:Driveshafts & Parts:Driveshaft Bearings & U-Joints",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "2-3011BF",
+          "2-3011, UJ234, P234, 5-3147X, BOL-02"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1988,
+            "year_to": 1999,
+            "make": "Chevrolet",
+            "model": "C1500",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1988,
+            "year_to": 1999,
+            "make": "Chevrolet",
+            "model": "K1500",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1999,
+            "year_to": 2016,
+            "make": "Chevrolet",
+            "model": "Silverado 1500",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2001,
+            "year_to": 2016,
+            "make": "Chevrolet",
+            "model": "Silverado 2500 HD",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2007,
+            "year_to": 2007,
+            "make": "Chevrolet",
+            "model": "Silverado 2500 HD Classic",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1982,
+            "year_to": 1999,
+            "make": "GMC",
+            "model": "C1500",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1999,
+            "year_to": 2016,
+            "make": "GMC",
+            "model": "Sierra 1500",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2001,
+            "year_to": 2006,
+            "make": "GMC",
+            "model": "Sierra 2500 HD",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1988\u20131999 Chevrolet C1500",
+          "1988\u20131999 Chevrolet K1500",
+          "1999\u20132016 Chevrolet Silverado 1500",
+          "2001\u20132016 Chevrolet Silverado 2500 HD",
+          "2007 Chevrolet Silverado 2500 HD Classic",
+          "1982\u20131999 GMC C1500",
+          "1999\u20132016 GMC Sierra 1500",
+          "2001\u20132006 GMC Sierra 2500 HD"
+        ],
+        "raw_compat_rows": 3000,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398392394956",
+        "type": "Universal Joint",
+        "brand": "Brute Force",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:Driveshafts & Parts:Driveshaft Bearings & U-Joints"
+      },
+      "images": [
+        "../assets/pdp-gallery/LK6QITO74VS5ZTU6DBMYBZBX/02.webp",
+        "../assets/pdp-gallery/LK6QITO74VS5ZTU6DBMYBZBX/03.webp"
+      ]
+    },
+    {
       "id": "76EIMHSX67UOCLAWCBIO3NEK",
       "name": "Bulova Accutron 2 Quartz Elgin Ladies Watch Lot of 3 Gold Mesh Tank Parts Repair",
       "price": 74.99,
@@ -98474,22 +98591,15 @@
       "category": "other",
       "checkout": true,
       "variation_id": "5HSTPCJ4UTTCOCWVWCATYWW4",
-      "stock": 1,
       "part_numbers": [
         "05134625AC",
         "5134625AA, 5134625AB, 05134625AC"
       ],
-      "interchange": [],
       "vehicles": [
         "2004\u20132007 Chrysler Town & Country",
         "2004\u20132007 Dodge Caravan",
         "2004\u20132007 Dodge Grand Caravan"
       ],
-      "vehicle_count_raw": 78,
-      "ebay_item_id": "398392081486",
-      "ebay_type": "Climate Control Module",
-      "ebay_brand": "Mopar",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Interior Parts & Accessories:Switches & Controls",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -98543,13 +98653,20 @@
         "brand": "Mopar",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Interior Parts & Accessories:Switches & Controls"
       },
+      "vehicle_count_raw": 78,
+      "ebay_item_id": "398392081486",
+      "ebay_type": "Climate Control Module",
+      "ebay_brand": "Mopar",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Interior Parts & Accessories:Switches & Controls",
       "images": [
         "../assets/pdp-gallery/R7GQ462F6JOBVXYRLDXJ4PQY/02.webp",
         "../assets/pdp-gallery/R7GQ462F6JOBVXYRLDXJ4PQY/03.webp",
         "../assets/pdp-gallery/R7GQ462F6JOBVXYRLDXJ4PQY/04.webp",
         "../assets/pdp-gallery/R7GQ462F6JOBVXYRLDXJ4PQY/05.webp",
         "../assets/pdp-gallery/R7GQ462F6JOBVXYRLDXJ4PQY/06.webp"
-      ]
+      ],
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "AC4O5CEFTYDCUZCECOZZFZI4",
@@ -119337,5 +119454,5 @@
       "ebay_brand": ""
     }
   ],
-  "fitment_built": "2026-09-14T02:01:42Z"
+  "fitment_built": "2026-09-14T03:02:03Z"
 }
