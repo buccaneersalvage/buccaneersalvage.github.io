@@ -1,7 +1,7 @@
 {
-  "updated": "2026-09-14T17:01:41Z",
+  "updated": "2026-09-14T18:02:02Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 829,
+  "count": 832,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -2570,6 +2570,119 @@
       ],
       "stock": 1,
       "interchange": []
+    },
+    {
+      "id": "R3JVSMDKJYSGSVS6JHDRDQ2G",
+      "name": "Big A BDK271 Disc Brake Pads Front Ranger Explorer 83-94 NOS",
+      "price": 34.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/0be3814a8f0715e0e5d3ecdfce53a061a3aefe10/original.jpeg",
+      "url": "https://square.link/u/t4TnH4Yq",
+      "category": "brake",
+      "checkout": true,
+      "variation_id": "UWINX2XIFT7BBSMFAPITVANC",
+      "stock": 1,
+      "part_numbers": [
+        "BDK271",
+        "2M-7125A, 2M-249, MKD205, 17D249M"
+      ],
+      "interchange": [
+        "Bendix MKD205",
+        "FMSI 7125A-D249"
+      ],
+      "vehicles": [
+        "1987\u20131997 Ford Aerostar",
+        "1984\u20131990 Ford Bronco II",
+        "1991\u20131994 Ford Explorer",
+        "1983\u20131994 Ford Ranger",
+        "1991\u20131994 Mazda Navajo"
+      ],
+      "vehicle_count_raw": 650,
+      "ebay_item_id": "398394482746",
+      "ebay_type": "Disc Brake Pad",
+      "ebay_brand": "Big A",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Disc Rotors",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "BDK271",
+          "2M-7125A, 2M-249, MKD205, 17D249M"
+        ],
+        "interchange": [
+          "Bendix MKD205",
+          "FMSI 7125A-D249"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1987,
+            "year_to": 1997,
+            "make": "Ford",
+            "model": "Aerostar",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 1990,
+            "make": "Ford",
+            "model": "Bronco II",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1991,
+            "year_to": 1994,
+            "make": "Ford",
+            "model": "Explorer",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1983,
+            "year_to": 1994,
+            "make": "Ford",
+            "model": "Ranger",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1991,
+            "year_to": 1994,
+            "make": "Mazda",
+            "model": "Navajo",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1987\u20131997 Ford Aerostar",
+          "1984\u20131990 Ford Bronco II",
+          "1991\u20131994 Ford Explorer",
+          "1983\u20131994 Ford Ranger",
+          "1991\u20131994 Mazda Navajo"
+        ],
+        "raw_compat_rows": 650,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398394482746",
+        "type": "Disc Brake Pad",
+        "brand": "Big A",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Disc Rotors"
+      },
+      "images": [
+        "../assets/pdp-gallery/R3JVSMDKJYSGSVS6JHDRDQ2G/02.webp",
+        "../assets/pdp-gallery/R3JVSMDKJYSGSVS6JHDRDQ2G/03.webp"
+      ]
     },
     {
       "id": "UE5MBGKJT6KFHJB22HN5RVKU",
@@ -36514,6 +36627,126 @@
       ],
       "stock": 1,
       "interchange": []
+    },
+    {
+      "id": "NMEOBGV2YN4LAKWXCBJTQW6B",
+      "name": "Wearever YH140610 Brake Drum Rear Chevy Blazer 1992 NOS",
+      "price": 60.0,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/99a8799f5620256b53c24cfad0ada9e95d229f78/original.jpeg",
+      "url": "https://square.link/u/er3YBTx0",
+      "category": "brake",
+      "checkout": true,
+      "variation_id": "NFBC43AKJ3UZ3DYPHFQGLHJE",
+      "stock": 1,
+      "part_numbers": [
+        "YH140610",
+        "Aimco 8988, Bendix 140610, Raybestos 2505"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1992 Chevrolet Blazer"
+      ],
+      "vehicle_count_raw": 2,
+      "ebay_item_id": "398394492123",
+      "ebay_type": "Brake Drum",
+      "ebay_brand": "Wearever",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Drums",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "YH140610",
+          "Aimco 8988, Bendix 140610, Raybestos 2505"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1992,
+            "year_to": 1992,
+            "make": "Chevrolet",
+            "model": "Blazer",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1992 Chevrolet Blazer"
+        ],
+        "raw_compat_rows": 2,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398394492123",
+        "type": "Brake Drum",
+        "brand": "Wearever",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Drums"
+      },
+      "images": [
+        "../assets/pdp-gallery/NMEOBGV2YN4LAKWXCBJTQW6B/02.webp",
+        "../assets/pdp-gallery/NMEOBGV2YN4LAKWXCBJTQW6B/03.webp",
+        "../assets/pdp-gallery/NMEOBGV2YN4LAKWXCBJTQW6B/04.webp"
+      ]
+    },
+    {
+      "id": "MWCKGWYE3Y5JDXZVCYC6GGBB",
+      "name": "Wearever YH140690 Brake Drum Rear Ford F-150 97-01 NOS",
+      "price": 60.0,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/b46f12fbc21847cb117051527254b5267fcd06a8/original.jpeg",
+      "url": "https://square.link/u/7s0TtTCd",
+      "category": "brake",
+      "checkout": true,
+      "variation_id": "NZUCELIIFLRMOOLFGBCDAAS3",
+      "stock": 1,
+      "part_numbers": [
+        "YH140690",
+        "Aimco 80023, Bendix 140690, Raybestos 9676"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1997\u20132001 Ford F-150"
+      ],
+      "vehicle_count_raw": 178,
+      "ebay_item_id": "398394486456",
+      "ebay_type": "Brake Drum",
+      "ebay_brand": "Wearever",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Drums",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "YH140690",
+          "Aimco 80023, Bendix 140690, Raybestos 9676"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1997,
+            "year_to": 2001,
+            "make": "Ford",
+            "model": "F-150",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1997\u20132001 Ford F-150"
+        ],
+        "raw_compat_rows": 178,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398394486456",
+        "type": "Brake Drum",
+        "brand": "Wearever",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Drums"
+      },
+      "images": [
+        "../assets/pdp-gallery/MWCKGWYE3Y5JDXZVCYC6GGBB/02.webp",
+        "../assets/pdp-gallery/MWCKGWYE3Y5JDXZVCYC6GGBB/03.webp",
+        "../assets/pdp-gallery/MWCKGWYE3Y5JDXZVCYC6GGBB/04.webp"
+      ]
     },
     {
       "id": "F7X2LR523KDOKA265ZBJIXIW",
@@ -119533,5 +119766,5 @@
       "ebay_brand": ""
     }
   ],
-  "fitment_built": "2026-09-14T17:01:41Z"
+  "fitment_built": "2026-09-14T18:02:02Z"
 }
