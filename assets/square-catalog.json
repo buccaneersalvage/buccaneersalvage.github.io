@@ -1,7 +1,7 @@
 {
-  "updated": "2026-09-14T05:01:36Z",
+  "updated": "2026-09-14T16:02:03Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 830,
+  "count": 829,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -35335,12 +35335,10 @@
       "category": "brake",
       "checkout": true,
       "variation_id": "LFZJFC3ZQGFKUEXBEIKCZ5HB",
-      "stock": 1,
       "part_numbers": [
         "PD377M",
         "ProStop Plus, P107EB"
       ],
-      "interchange": [],
       "vehicles": [
         "1988\u20131993 Buick Regal",
         "1990\u20131993 Chevrolet Lumina",
@@ -35350,11 +35348,6 @@
         "1988\u20131993 Oldsmobile Cutlass Supreme",
         "1988\u20131993 Pontiac Grand Prix"
       ],
-      "vehicle_count_raw": 300,
-      "ebay_item_id": "398392445374",
-      "ebay_type": "Disc Brake Pad Set",
-      "ebay_brand": "Raybestos",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pads",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -35452,10 +35445,17 @@
         "brand": "Raybestos",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pads"
       },
+      "vehicle_count_raw": 300,
+      "ebay_item_id": "398392445374",
+      "ebay_type": "Disc Brake Pad Set",
+      "ebay_brand": "Raybestos",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pads",
       "images": [
         "../assets/pdp-gallery/PSXWFJIVSRLGWQXZBDVOZRZG/02.webp",
         "../assets/pdp-gallery/PSXWFJIVSRLGWQXZBDVOZRZG/03.webp"
-      ]
+      ],
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "VYBQUPEFPHBAKZSDPG6YPBC4",
@@ -93527,58 +93527,6 @@
       "vehicles": []
     },
     {
-      "id": "FFMVYPXYFACPCX5NJYU7YH7F",
-      "name": "Gecko Aqua-Flo XP2e Marathon 5KCP49TN9099X 2HP 230V 56Z Spa Hot Tub Motor Tested",
-      "price": 136.99,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/5dd9edaa8b1b4119b310ac164e9797b45441f676/original.jpeg",
-      "url": "https://square.link/u/PcaDBbRD",
-      "category": "other",
-      "checkout": true,
-      "variation_id": "ZGFN2M2PQCCRGF2LF5B5GHK2",
-      "part_numbers": [
-        "5KCP49TN9099X",
-        "05734030-5",
-        "XP2e",
-        "Marathon 5KCP49TN9099X"
-      ],
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "high",
-      "fitment": {
-        "part_numbers": [
-          "5KCP49TN9099X",
-          "05734030-5",
-          "XP2e",
-          "Marathon 5KCP49TN9099X"
-        ],
-        "interchange": [],
-        "vehicles": [],
-        "vehicle_labels": [],
-        "raw_compat_rows": 0,
-        "source": "ebay_listing",
-        "confidence": "high",
-        "ebay_item_id": "398057731777",
-        "type": "Spa Pump Motor",
-        "brand": "Gecko",
-        "ebay_category": "Home & Garden:Yard, Garden & Outdoor Living:Pools & Spas:Pool Equipment & Parts:Pool Pumps"
-      },
-      "vehicle_count_raw": 0,
-      "ebay_item_id": "398057731777",
-      "ebay_type": "Spa Pump Motor",
-      "ebay_brand": "Gecko",
-      "ebay_category": "Home & Garden:Yard, Garden & Outdoor Living:Pools & Spas:Pool Equipment & Parts:Pool Pumps",
-      "images": [
-        "../assets/pdp-gallery/FFMVYPXYFACPCX5NJYU7YH7F/02.webp",
-        "../assets/pdp-gallery/FFMVYPXYFACPCX5NJYU7YH7F/03.webp",
-        "../assets/pdp-gallery/FFMVYPXYFACPCX5NJYU7YH7F/04.webp",
-        "../assets/pdp-gallery/FFMVYPXYFACPCX5NJYU7YH7F/05.webp",
-        "../assets/pdp-gallery/FFMVYPXYFACPCX5NJYU7YH7F/06.webp",
-        "../assets/pdp-gallery/FFMVYPXYFACPCX5NJYU7YH7F/07.webp"
-      ],
-      "stock": 1,
-      "interchange": [],
-      "vehicles": []
-    },
-    {
       "id": "LT2FV2K54ORAWWL6WNUKND4I",
       "name": "Glock Magic DVD GunVideo Lenny Magill Instructional Tested Working",
       "price": 14.99,
@@ -119585,5 +119533,5 @@
       "ebay_brand": ""
     }
   ],
-  "fitment_built": "2026-09-14T05:01:36Z"
+  "fitment_built": "2026-09-14T16:02:03Z"
 }
