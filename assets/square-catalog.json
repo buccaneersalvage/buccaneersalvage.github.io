@@ -1,7 +1,7 @@
 {
-  "updated": "2026-09-14T00:01:39Z",
+  "updated": "2026-09-14T01:01:45Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 825,
+  "count": 827,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -35648,12 +35648,10 @@
       "category": "brake",
       "checkout": true,
       "variation_id": "QED4PDRIVQRIPAT6B5BFQ4KR",
-      "stock": 1,
       "part_numbers": [
         "EC752A",
         "EC7735, SG727Q, D727"
       ],
-      "interchange": [],
       "vehicles": [
         "2004\u20132005 Chevrolet Classic",
         "1997\u20132003 Chevrolet Malibu",
@@ -35661,11 +35659,6 @@
         "1997\u20131999 Oldsmobile Cutlass",
         "1999\u20132005 Pontiac Grand Am"
       ],
-      "vehicle_count_raw": 171,
-      "ebay_item_id": "398391765080",
-      "ebay_type": "Ceramic Brake Pad",
-      "ebay_brand": "Wagner",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Master Cylinders",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -35741,11 +35734,187 @@
         "brand": "Wagner",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Master Cylinders"
       },
+      "vehicle_count_raw": 171,
+      "ebay_item_id": "398391765080",
+      "ebay_type": "Ceramic Brake Pad",
+      "ebay_brand": "Wagner",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Master Cylinders",
       "images": [
         "../assets/pdp-gallery/24RTAKCNUCZTQDRQQ3YCSIXH/02.webp",
         "../assets/pdp-gallery/24RTAKCNUCZTQDRQQ3YCSIXH/03.webp",
         "../assets/pdp-gallery/24RTAKCNUCZTQDRQQ3YCSIXH/04.webp",
         "../assets/pdp-gallery/24RTAKCNUCZTQDRQQ3YCSIXH/05.webp"
+      ],
+      "stock": 1,
+      "interchange": []
+    },
+    {
+      "id": "C4YTEKK53F2APV7ZUS6UBTQB",
+      "name": "Wagner Edge EX369 Disc Brake Pads SG369 Kit C1500 Tahoe Astro 88-02 NOS",
+      "price": 34.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/281eb8b8d7a232e4953fc2b91c2e1d0f368f40bf/original.jpeg",
+      "url": "https://square.link/u/UMyonyEb",
+      "category": "brake",
+      "checkout": true,
+      "variation_id": "5TNK5ID4Z5HEMECXTVSIT6NS",
+      "stock": 1,
+      "part_numbers": [
+        "EX369",
+        "SG369, FD369, D369"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1990\u20132002 Chevrolet Astro",
+        "1988\u20131999 Chevrolet C1500",
+        "1988\u20132000 Chevrolet C2500",
+        "1996\u20132002 Chevrolet Express 1500",
+        "1988\u20131999 Chevrolet K1500",
+        "1995\u20132000 Chevrolet Tahoe",
+        "1994\u20131999 Dodge Ram 1500",
+        "1990\u20132002 GMC Safari",
+        "1996\u20132002 GMC Savana 1500",
+        "1992\u20132000 GMC Yukon"
+      ],
+      "vehicle_count_raw": 1882,
+      "ebay_item_id": "398392076729",
+      "ebay_type": "Disc Brake Pad",
+      "ebay_brand": "Wagner",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pads",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "EX369",
+          "SG369, FD369, D369"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1990,
+            "year_to": 2002,
+            "make": "Chevrolet",
+            "model": "Astro",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1988,
+            "year_to": 1999,
+            "make": "Chevrolet",
+            "model": "C1500",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1988,
+            "year_to": 2000,
+            "make": "Chevrolet",
+            "model": "C2500",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1996,
+            "year_to": 2002,
+            "make": "Chevrolet",
+            "model": "Express 1500",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1988,
+            "year_to": 1999,
+            "make": "Chevrolet",
+            "model": "K1500",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1995,
+            "year_to": 2000,
+            "make": "Chevrolet",
+            "model": "Tahoe",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1994,
+            "year_to": 1999,
+            "make": "Dodge",
+            "model": "Ram 1500",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1990,
+            "year_to": 2002,
+            "make": "GMC",
+            "model": "Safari",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1996,
+            "year_to": 2002,
+            "make": "GMC",
+            "model": "Savana 1500",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1992,
+            "year_to": 2000,
+            "make": "GMC",
+            "model": "Yukon",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1990\u20132002 Chevrolet Astro",
+          "1988\u20131999 Chevrolet C1500",
+          "1988\u20132000 Chevrolet C2500",
+          "1996\u20132002 Chevrolet Express 1500",
+          "1988\u20131999 Chevrolet K1500",
+          "1995\u20132000 Chevrolet Tahoe",
+          "1994\u20131999 Dodge Ram 1500",
+          "1990\u20132002 GMC Safari",
+          "1996\u20132002 GMC Savana 1500",
+          "1992\u20132000 GMC Yukon"
+        ],
+        "raw_compat_rows": 1882,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398392076729",
+        "type": "Disc Brake Pad",
+        "brand": "Wagner",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pads"
+      },
+      "images": [
+        "../assets/pdp-gallery/C4YTEKK53F2APV7ZUS6UBTQB/02.webp",
+        "../assets/pdp-gallery/C4YTEKK53F2APV7ZUS6UBTQB/03.webp",
+        "../assets/pdp-gallery/C4YTEKK53F2APV7ZUS6UBTQB/04.webp",
+        "../assets/pdp-gallery/C4YTEKK53F2APV7ZUS6UBTQB/05.webp"
       ]
     },
     {
@@ -98297,6 +98466,92 @@
       "vehicles": []
     },
     {
+      "id": "R7GQ462F6JOBVXYRLDXJ4PQY",
+      "name": "Mopar 05134625AC Climate Control 2.4 3.3 3.8 Town Country Caravan 04-07 NOS",
+      "price": 149.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/e6c1b3e4c7c2b26569fd2816b75fb887aa016be9/original.jpeg",
+      "url": "https://square.link/u/HEQ9OJGw",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "5HSTPCJ4UTTCOCWVWCATYWW4",
+      "stock": 1,
+      "part_numbers": [
+        "05134625AC",
+        "5134625AA, 5134625AB, 05134625AC"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "2004\u20132007 Chrysler Town & Country",
+        "2004\u20132007 Dodge Caravan",
+        "2004\u20132007 Dodge Grand Caravan"
+      ],
+      "vehicle_count_raw": 78,
+      "ebay_item_id": "398392081486",
+      "ebay_type": "Climate Control Module",
+      "ebay_brand": "Mopar",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Interior Parts & Accessories:Switches & Controls",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "05134625AC",
+          "5134625AA, 5134625AB, 05134625AC"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 2004,
+            "year_to": 2007,
+            "make": "Chrysler",
+            "model": "Town & Country",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2004,
+            "year_to": 2007,
+            "make": "Dodge",
+            "model": "Caravan",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2004,
+            "year_to": 2007,
+            "make": "Dodge",
+            "model": "Grand Caravan",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "2004\u20132007 Chrysler Town & Country",
+          "2004\u20132007 Dodge Caravan",
+          "2004\u20132007 Dodge Grand Caravan"
+        ],
+        "raw_compat_rows": 78,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398392081486",
+        "type": "Climate Control Module",
+        "brand": "Mopar",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Interior Parts & Accessories:Switches & Controls"
+      },
+      "images": [
+        "../assets/pdp-gallery/R7GQ462F6JOBVXYRLDXJ4PQY/02.webp",
+        "../assets/pdp-gallery/R7GQ462F6JOBVXYRLDXJ4PQY/03.webp",
+        "../assets/pdp-gallery/R7GQ462F6JOBVXYRLDXJ4PQY/04.webp",
+        "../assets/pdp-gallery/R7GQ462F6JOBVXYRLDXJ4PQY/05.webp",
+        "../assets/pdp-gallery/R7GQ462F6JOBVXYRLDXJ4PQY/06.webp"
+      ]
+    },
+    {
       "id": "AC4O5CEFTYDCUZCECOZZFZI4",
       "name": "Mopar CH-320L Rotor 5213040 1.6 1.7 2.2 Aries LeBaron NOS",
       "price": 29.99,
@@ -119082,5 +119337,5 @@
       "ebay_brand": ""
     }
   ],
-  "fitment_built": "2026-09-14T00:01:39Z"
+  "fitment_built": "2026-09-14T01:01:45Z"
 }
