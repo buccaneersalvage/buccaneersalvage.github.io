@@ -1,7 +1,7 @@
 {
-  "updated": "2026-09-15T02:03:23Z",
+  "updated": "2026-09-15T03:02:27Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 790,
+  "count": 792,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -34345,6 +34345,161 @@
       ],
       "stock": 1,
       "interchange": []
+    },
+    {
+      "id": "3HFC6OZJ3NIJHUHNRZZK246B",
+      "name": "FRAM PH3593A Extra Guard Oil Filter Honda Acura Civic Accord SureGrip NOS",
+      "price": 12.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/26371cfc6f7f11fa68feacee35d44281d11bfdf1/original.jpeg",
+      "url": "https://square.link/u/j1QhQg07",
+      "category": "filters",
+      "checkout": true,
+      "variation_id": "OCTAYZNNBLVANIIVRLGEO5XU",
+      "stock": 1,
+      "part_numbers": [
+        "PH3593A",
+        "PH3593A, TG3593A, XG3593A, HM3593A"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "Acura Civic",
+        "1990\u20132001 Acura Integra",
+        "2005 Acura RL",
+        "1999\u20132002 Acura TL",
+        "2001\u20132005 Chrysler Sebring",
+        "1998\u20132002 Honda Accord",
+        "1988\u20132000 Honda Civic",
+        "1999\u20132002 Honda Odyssey",
+        "1990\u20131999 Subaru Legacy"
+      ],
+      "vehicle_count_raw": 289,
+      "ebay_item_id": "398395627195",
+      "ebay_type": "Oil Filter",
+      "ebay_brand": "FRAM",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Filters",
+      "fitment_source": "ebay_listing+title",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "PH3593A",
+          "PH3593A, TG3593A, XG3593A, HM3593A"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": null,
+            "year_to": null,
+            "make": "Acura",
+            "model": "Civic",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1990,
+            "year_to": 2001,
+            "make": "Acura",
+            "model": "Integra",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2005,
+            "year_to": 2005,
+            "make": "Acura",
+            "model": "RL",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1999,
+            "year_to": 2002,
+            "make": "Acura",
+            "model": "TL",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2001,
+            "year_to": 2005,
+            "make": "Chrysler",
+            "model": "Sebring",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1998,
+            "year_to": 2002,
+            "make": "Honda",
+            "model": "Accord",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1988,
+            "year_to": 2000,
+            "make": "Honda",
+            "model": "Civic",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1999,
+            "year_to": 2002,
+            "make": "Honda",
+            "model": "Odyssey",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1990,
+            "year_to": 1999,
+            "make": "Subaru",
+            "model": "Legacy",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "Acura Civic",
+          "1990\u20132001 Acura Integra",
+          "2005 Acura RL",
+          "1999\u20132002 Acura TL",
+          "2001\u20132005 Chrysler Sebring",
+          "1998\u20132002 Honda Accord",
+          "1988\u20132000 Honda Civic",
+          "1999\u20132002 Honda Odyssey",
+          "1990\u20131999 Subaru Legacy"
+        ],
+        "raw_compat_rows": 289,
+        "source": "ebay_listing+title",
+        "confidence": "high",
+        "ebay_item_id": "398395627195",
+        "type": "Oil Filter",
+        "brand": "FRAM",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Filters"
+      },
+      "images": [
+        "../assets/pdp-gallery/3HFC6OZJ3NIJHUHNRZZK246B/02.webp",
+        "../assets/pdp-gallery/3HFC6OZJ3NIJHUHNRZZK246B/03.webp"
+      ]
     },
     {
       "id": "LI27QWM3ZP4GE6HYAQ5REDRG",
@@ -87887,12 +88042,10 @@
       "category": "other",
       "checkout": true,
       "variation_id": "MJMS2Y3OELJELT3UNEASVPPH",
-      "stock": 1,
       "part_numbers": [
         "20446341",
         "2044634, 20411768, 20411769"
       ],
-      "interchange": [],
       "vehicles": [
         "1979\u20131988 Buick Century",
         "1979\u20131988 Buick Electra",
@@ -87910,11 +88063,6 @@
         "1979\u20131988 Pontiac Bonneville",
         "1979\u20131988 Pontiac Grand Prix"
       ],
-      "vehicle_count_raw": 1831,
-      "ebay_item_id": "398395436679",
-      "ebay_type": "Power Seat Switch",
-      "ebay_brand": "GM",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Interior Parts & Accessories:Switches & Controls",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -88100,10 +88248,17 @@
         "brand": "GM",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Interior Parts & Accessories:Switches & Controls"
       },
+      "vehicle_count_raw": 1831,
+      "ebay_item_id": "398395436679",
+      "ebay_type": "Power Seat Switch",
+      "ebay_brand": "GM",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Interior Parts & Accessories:Switches & Controls",
       "images": [
         "../assets/pdp-gallery/GHJ2ICH6KGCI2CTGOLC5MMPN/02.webp",
         "../assets/pdp-gallery/GHJ2ICH6KGCI2CTGOLC5MMPN/03.webp"
-      ]
+      ],
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "XRWNFGYE2MCD4QC4SRPF4N2Y",
@@ -114096,6 +114251,113 @@
       "vehicles": []
     },
     {
+      "id": "TN4JN7DIDHLYWGHIHRJFBNFI",
+      "name": "Wagner F112409 Wheel Cylinder 13/16 Ford Ranger Aerostar 87-94 NOS",
+      "price": 14.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/1ed79f797905c82b5d1e53b0e4c9448e2fab29a9/original.jpeg",
+      "url": "https://square.link/u/76Z9kY2V",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "V5JLVNRBHH7UGSUVA74HNXGU",
+      "stock": 1,
+      "part_numbers": [
+        "F112409",
+        "WC112409 FD-122380 NAPA 37663"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1986\u20131989 Ford Aerostar",
+        "1987\u20131994 Ford Ranger",
+        "1994 Mazda B2300",
+        "1994 Mazda B3000",
+        "1994 Mazda B4000"
+      ],
+      "vehicle_count_raw": 295,
+      "ebay_item_id": "398395678140",
+      "ebay_type": "Drum Brake Wheel Cylinder",
+      "ebay_brand": "Wagner",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Wheel Cylinders",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "F112409",
+          "WC112409 FD-122380 NAPA 37663"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1986,
+            "year_to": 1989,
+            "make": "Ford",
+            "model": "Aerostar",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1994,
+            "make": "Ford",
+            "model": "Ranger",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1994,
+            "year_to": 1994,
+            "make": "Mazda",
+            "model": "B2300",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1994,
+            "year_to": 1994,
+            "make": "Mazda",
+            "model": "B3000",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1994,
+            "year_to": 1994,
+            "make": "Mazda",
+            "model": "B4000",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1986\u20131989 Ford Aerostar",
+          "1987\u20131994 Ford Ranger",
+          "1994 Mazda B2300",
+          "1994 Mazda B3000",
+          "1994 Mazda B4000"
+        ],
+        "raw_compat_rows": 295,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398395678140",
+        "type": "Drum Brake Wheel Cylinder",
+        "brand": "Wagner",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Wheel Cylinders"
+      },
+      "images": [
+        "../assets/pdp-gallery/TN4JN7DIDHLYWGHIHRJFBNFI/02.webp",
+        "../assets/pdp-gallery/TN4JN7DIDHLYWGHIHRJFBNFI/03.webp"
+      ]
+    },
+    {
       "id": "F3M4DDRQVK4NS2KBT4IDD32B",
       "name": "Whirlpool Washer Pressure Switch 63834 Water Level 738-607-2 Used",
       "price": 16.99,
@@ -114226,5 +114488,5 @@
       "ebay_brand": ""
     }
   ],
-  "fitment_built": "2026-09-15T02:03:23Z"
+  "fitment_built": "2026-09-15T03:02:27Z"
 }
