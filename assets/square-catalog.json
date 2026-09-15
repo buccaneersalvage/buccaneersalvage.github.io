@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-15T20:02:42Z",
+  "updated": "2026-09-15T21:02:31Z",
   "store": "https://buccaneersalvage.square.site/",
   "count": 802,
   "items": [
@@ -32270,12 +32270,12 @@
       "vehicles": [
         "1994\u20132014 Ford"
       ],
-      "vehicle_count_raw": 1,
+      "vehicle_count_raw": 2,
       "ebay_item_id": "398398145540",
       "ebay_type": "Caliper Bracket Bolt",
       "ebay_brand": "Dorman",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Master Cylinders",
-      "fitment_source": "ebay_listing+title",
+      "fitment_source": "ebay_listing",
       "fitment_confidence": "medium",
       "fitment": {
         "part_numbers": [
@@ -32297,8 +32297,8 @@
         "vehicle_labels": [
           "1994\u20132014 Ford"
         ],
-        "raw_compat_rows": 1,
-        "source": "ebay_listing+title",
+        "raw_compat_rows": 2,
+        "source": "ebay_listing",
         "confidence": "medium",
         "ebay_item_id": "398398145540",
         "type": "Caliper Bracket Bolt",
@@ -115367,5 +115367,5 @@
       "ebay_brand": ""
     }
   ],
-  "fitment_built": "2026-09-15T20:02:42Z"
+  "fitment_built": "2026-09-15T21:02:31Z"
 }
