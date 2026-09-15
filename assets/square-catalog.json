@@ -1,7 +1,7 @@
 {
-  "updated": "2026-09-15T01:03:02Z",
+  "updated": "2026-09-15T02:03:23Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 789,
+  "count": 790,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -60282,12 +60282,10 @@
       "category": "driveline",
       "checkout": true,
       "variation_id": "PSMIH4C44M4PPF7G3PFZB22G",
-      "stock": 1,
       "part_numbers": [
         "F8AZ-6256-BA",
         "F81E-6256-BA, F8AZ6256BA, F3AZ-6256-A"
       ],
-      "interchange": [],
       "vehicles": [
         "1994\u20132011 Ford Crown Victoria",
         "2002\u20132014 Ford E-150",
@@ -60305,12 +60303,7 @@
         "1994\u20132011 Lincoln Town Car",
         "1994\u20132011 Mercury Grand Marquis"
       ],
-      "vehicle_count_raw": 1628,
-      "ebay_item_id": "398395303233",
-      "ebay_type": "Camshaft Sprocket",
-      "ebay_brand": "Ford",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Timing Components & Kits:Sprockets",
-      "fitment_source": "ebay_listing+title",
+      "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
@@ -60488,18 +60481,25 @@
           "1994\u20132011 Mercury Grand Marquis"
         ],
         "raw_compat_rows": 1628,
-        "source": "ebay_listing+title",
+        "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398395303233",
         "type": "Camshaft Sprocket",
         "brand": "Ford",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Timing Components & Kits:Sprockets"
       },
+      "vehicle_count_raw": 1628,
+      "ebay_item_id": "398395303233",
+      "ebay_type": "Camshaft Sprocket",
+      "ebay_brand": "Ford",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Timing Components & Kits:Sprockets",
       "images": [
         "../assets/pdp-gallery/4S3QPNFBCIS2ZIUNK4QBGOVV/02.webp",
         "../assets/pdp-gallery/4S3QPNFBCIS2ZIUNK4QBGOVV/03.webp",
         "../assets/pdp-gallery/4S3QPNFBCIS2ZIUNK4QBGOVV/04.webp"
-      ]
+      ],
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "EOLHBW3OFT5I3RRUC3XCFRBO",
@@ -87570,12 +87570,10 @@
       "category": "other",
       "checkout": true,
       "variation_id": "ZVO3PEZD3US7JVOT2PCCDJMG",
-      "stock": 1,
       "part_numbers": [
         "10324036",
         "15841665, 19120851"
       ],
-      "interchange": [],
       "vehicles": [
         "2005\u20132007 Buick Terraza",
         "2005\u20132008 Chevrolet Uplander",
@@ -87585,12 +87583,7 @@
         "2001\u20132006 Pontiac Montana",
         "2005\u20132007 Saturn Relay"
       ],
-      "vehicle_count_raw": 94,
-      "ebay_item_id": "398395294663",
-      "ebay_type": "Door Lock Actuator",
-      "ebay_brand": "GM",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Exterior Parts & Accessories:Exterior Locks & Lock Hardware",
-      "fitment_source": "ebay_listing+title",
+      "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
@@ -87680,19 +87673,26 @@
           "2005\u20132007 Saturn Relay"
         ],
         "raw_compat_rows": 94,
-        "source": "ebay_listing+title",
+        "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398395294663",
         "type": "Door Lock Actuator",
         "brand": "GM",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Exterior Parts & Accessories:Exterior Locks & Lock Hardware"
       },
+      "vehicle_count_raw": 94,
+      "ebay_item_id": "398395294663",
+      "ebay_type": "Door Lock Actuator",
+      "ebay_brand": "GM",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Exterior Parts & Accessories:Exterior Locks & Lock Hardware",
       "images": [
         "../assets/pdp-gallery/CLXMCJWEUVD2O3OXCR5X3TV7/02.webp",
         "../assets/pdp-gallery/CLXMCJWEUVD2O3OXCR5X3TV7/03.webp",
         "../assets/pdp-gallery/CLXMCJWEUVD2O3OXCR5X3TV7/04.webp",
         "../assets/pdp-gallery/CLXMCJWEUVD2O3OXCR5X3TV7/05.webp"
-      ]
+      ],
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "JXSAJGLQRD3AMK6UNNLXN2PX",
@@ -87877,6 +87877,233 @@
         "../assets/pdp-gallery/BWZCBSFN6DKI57MWYCUP35FT/07.webp"
       ],
       "stock": 1
+    },
+    {
+      "id": "GHJ2ICH6KGCI2CTGOLC5MMPN",
+      "name": "GM 20446341 6 Way Power Seat Control Switch 7 Pin 79-88 Driver Side Tested",
+      "price": 99.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/9fc3de0f2e47979aa5c0ef1b93479914d6017c54/original.jpeg",
+      "url": "https://square.link/u/SSOdAWXz",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "MJMS2Y3OELJELT3UNEASVPPH",
+      "stock": 1,
+      "part_numbers": [
+        "20446341",
+        "2044634, 20411768, 20411769"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1979\u20131988 Buick Century",
+        "1979\u20131988 Buick Electra",
+        "1979\u20131988 Buick LeSabre",
+        "1979\u20131988 Buick Regal",
+        "1979\u20131988 Cadillac DeVille",
+        "1979\u20131988 Cadillac Eldorado",
+        "1979\u20131988 Cadillac Fleetwood",
+        "1979\u20131988 Cadillac Seville",
+        "1979\u20131988 Chevrolet Caprice",
+        "1979\u20131987 Chevrolet El Camino",
+        "1979\u20131988 Chevrolet Monte Carlo",
+        "1979\u20131988 Oldsmobile Cutlass Supreme",
+        "1979\u20131988 Oldsmobile Delta 88",
+        "1979\u20131988 Pontiac Bonneville",
+        "1979\u20131988 Pontiac Grand Prix"
+      ],
+      "vehicle_count_raw": 1831,
+      "ebay_item_id": "398395436679",
+      "ebay_type": "Power Seat Switch",
+      "ebay_brand": "GM",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Interior Parts & Accessories:Switches & Controls",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "20446341",
+          "2044634, 20411768, 20411769"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1979,
+            "year_to": 1988,
+            "make": "Buick",
+            "model": "Century",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1979,
+            "year_to": 1988,
+            "make": "Buick",
+            "model": "Electra",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1979,
+            "year_to": 1988,
+            "make": "Buick",
+            "model": "LeSabre",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1979,
+            "year_to": 1988,
+            "make": "Buick",
+            "model": "Regal",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1979,
+            "year_to": 1988,
+            "make": "Cadillac",
+            "model": "DeVille",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1979,
+            "year_to": 1988,
+            "make": "Cadillac",
+            "model": "Eldorado",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1979,
+            "year_to": 1988,
+            "make": "Cadillac",
+            "model": "Fleetwood",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1979,
+            "year_to": 1988,
+            "make": "Cadillac",
+            "model": "Seville",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1979,
+            "year_to": 1988,
+            "make": "Chevrolet",
+            "model": "Caprice",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1979,
+            "year_to": 1987,
+            "make": "Chevrolet",
+            "model": "El Camino",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1979,
+            "year_to": 1988,
+            "make": "Chevrolet",
+            "model": "Monte Carlo",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1979,
+            "year_to": 1988,
+            "make": "Oldsmobile",
+            "model": "Cutlass Supreme",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1979,
+            "year_to": 1988,
+            "make": "Oldsmobile",
+            "model": "Delta 88",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1979,
+            "year_to": 1988,
+            "make": "Pontiac",
+            "model": "Bonneville",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1979,
+            "year_to": 1988,
+            "make": "Pontiac",
+            "model": "Grand Prix",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1979\u20131988 Buick Century",
+          "1979\u20131988 Buick Electra",
+          "1979\u20131988 Buick LeSabre",
+          "1979\u20131988 Buick Regal",
+          "1979\u20131988 Cadillac DeVille",
+          "1979\u20131988 Cadillac Eldorado",
+          "1979\u20131988 Cadillac Fleetwood",
+          "1979\u20131988 Cadillac Seville",
+          "1979\u20131988 Chevrolet Caprice",
+          "1979\u20131987 Chevrolet El Camino",
+          "1979\u20131988 Chevrolet Monte Carlo",
+          "1979\u20131988 Oldsmobile Cutlass Supreme",
+          "1979\u20131988 Oldsmobile Delta 88",
+          "1979\u20131988 Pontiac Bonneville",
+          "1979\u20131988 Pontiac Grand Prix"
+        ],
+        "raw_compat_rows": 1831,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398395436679",
+        "type": "Power Seat Switch",
+        "brand": "GM",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Interior Parts & Accessories:Switches & Controls"
+      },
+      "images": [
+        "../assets/pdp-gallery/GHJ2ICH6KGCI2CTGOLC5MMPN/02.webp",
+        "../assets/pdp-gallery/GHJ2ICH6KGCI2CTGOLC5MMPN/03.webp"
+      ]
     },
     {
       "id": "XRWNFGYE2MCD4QC4SRPF4N2Y",
@@ -88114,23 +88341,16 @@
       "category": "other",
       "checkout": true,
       "variation_id": "LS5WWEXSSAOW7OI7HWSLPEO5",
-      "stock": 1,
       "part_numbers": [
         "918367"
       ],
-      "interchange": [],
       "vehicles": [
         "GM 918367",
         "1982\u20131983 Pontiac J2000",
         "1985 Pontiac J2000 Sunbird",
         "1986\u20131988 Pontiac Sunbird"
       ],
-      "vehicle_count_raw": 114,
-      "ebay_item_id": "398395284447",
-      "ebay_type": "Side Marker Light",
-      "ebay_brand": "GM",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:Axle Housings & Parts",
-      "fitment_source": "ebay_listing+title",
+      "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
@@ -88186,18 +88406,25 @@
           "1986\u20131988 Pontiac Sunbird"
         ],
         "raw_compat_rows": 114,
-        "source": "ebay_listing+title",
+        "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398395284447",
         "type": "Side Marker Light",
         "brand": "GM",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:Axle Housings & Parts"
       },
+      "vehicle_count_raw": 114,
+      "ebay_item_id": "398395284447",
+      "ebay_type": "Side Marker Light",
+      "ebay_brand": "GM",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:Axle Housings & Parts",
       "images": [
         "../assets/pdp-gallery/2D35U3CCJGIUVG6DZUJPUPHD/02.webp",
         "../assets/pdp-gallery/2D35U3CCJGIUVG6DZUJPUPHD/03.webp",
         "../assets/pdp-gallery/2D35U3CCJGIUVG6DZUJPUPHD/04.webp"
-      ]
+      ],
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "KTHLKNRGLAFQXH3DHFTTF33N",
@@ -92887,12 +93114,10 @@
       "category": "other",
       "checkout": true,
       "variation_id": "D2VI7UX7J5FHE3H4GNIUQC37",
-      "stock": 1,
       "part_numbers": [
         "K6337",
         "MK6337"
       ],
-      "interchange": [],
       "vehicles": [
         "1987\u20131989 Buick Skyhawk",
         "1987\u20131998 Buick Skylark",
@@ -92907,11 +93132,6 @@
         "1987\u20131994 Pontiac Sunbird",
         "1987\u20131991 Pontiac Tempest"
       ],
-      "vehicle_count_raw": 748,
-      "ebay_item_id": "398395303813",
-      "ebay_type": "Rack and Pinion Mount Bushing",
-      "ebay_brand": "MOOG",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Lighting & Lamps:Side Marker Light Assemblies",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -93064,11 +93284,18 @@
         "brand": "MOOG",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Lighting & Lamps:Side Marker Light Assemblies"
       },
+      "vehicle_count_raw": 748,
+      "ebay_item_id": "398395303813",
+      "ebay_type": "Rack and Pinion Mount Bushing",
+      "ebay_brand": "MOOG",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Lighting & Lamps:Side Marker Light Assemblies",
       "images": [
         "../assets/pdp-gallery/ZBJFR3PUXBOXTNZWIF23XUPX/02.webp",
         "../assets/pdp-gallery/ZBJFR3PUXBOXTNZWIF23XUPX/03.webp",
         "../assets/pdp-gallery/ZBJFR3PUXBOXTNZWIF23XUPX/04.webp"
-      ]
+      ],
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "AC4O5CEFTYDCUZCECOZZFZI4",
@@ -113999,5 +114226,5 @@
       "ebay_brand": ""
     }
   ],
-  "fitment_built": "2026-09-15T01:03:02Z"
+  "fitment_built": "2026-09-15T02:03:23Z"
 }
