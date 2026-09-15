@@ -1,7 +1,7 @@
 {
-  "updated": "2026-09-14T23:02:31Z",
+  "updated": "2026-09-15T00:02:40Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 782,
+  "count": 785,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -2230,7 +2230,6 @@
       "category": "brake",
       "checkout": true,
       "variation_id": "55GBHUWMCLYQCITEHWDBGN2Y",
-      "stock": 1,
       "part_numbers": [
         "1M-7478",
         "1M-600 D600 7478-D600 PGD600 MD600"
@@ -2243,11 +2242,6 @@
         "1993\u20131997 Ford Thunderbird",
         "1993\u20131997 Mercury Cougar"
       ],
-      "vehicle_count_raw": 80,
-      "ebay_item_id": "398395025877",
-      "ebay_type": "Disc Brake Pad Set",
-      "ebay_brand": "Big A",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pads",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -2303,10 +2297,16 @@
         "brand": "Big A",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pads"
       },
+      "vehicle_count_raw": 80,
+      "ebay_item_id": "398395025877",
+      "ebay_type": "Disc Brake Pad Set",
+      "ebay_brand": "Big A",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pads",
       "images": [
         "../assets/pdp-gallery/LOLWHY65WEFYFU7ZW3QBB43Q/02.webp",
         "../assets/pdp-gallery/LOLWHY65WEFYFU7ZW3QBB43Q/03.webp"
-      ]
+      ],
+      "stock": 1
     },
     {
       "id": "UE5MBGKJT6KFHJB22HN5RVKU",
@@ -33566,6 +33566,102 @@
       "stock": 1
     },
     {
+      "id": "2QPEKEV63TKSMBTYJXE5357O",
+      "name": "Wagner F109059 Parking Brake Cable E250 E350 Econoline 80-91 NOS",
+      "price": 16.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/79c093e2a3ebba527697e941479042d4372211dd/original.jpeg",
+      "url": "https://square.link/u/ozFlTrAW",
+      "category": "brake",
+      "checkout": true,
+      "variation_id": "A3FYMHTIB7RNEZYVEG7RKCC6",
+      "stock": 1,
+      "part_numbers": [
+        "F109059",
+        "BC109059, C1835, 93210, D9TZ-2A635-B, E0UZ-2A635-D"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1980\u20131991 Ford E-250 Econoline",
+        "1980\u20131991 Ford E-250 Econoline Club Wagon",
+        "1980\u20131991 Ford E-350 Econoline",
+        "1980\u20131991 Ford E-350 Econoline Club Wagon"
+      ],
+      "vehicle_count_raw": 1303,
+      "ebay_item_id": "398395231713",
+      "ebay_type": "Parking Brake Cable",
+      "ebay_brand": "Wagner",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Cables",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "F109059",
+          "BC109059, C1835, 93210, D9TZ-2A635-B, E0UZ-2A635-D"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1980,
+            "year_to": 1991,
+            "make": "Ford",
+            "model": "E-250 Econoline",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1980,
+            "year_to": 1991,
+            "make": "Ford",
+            "model": "E-250 Econoline Club Wagon",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1980,
+            "year_to": 1991,
+            "make": "Ford",
+            "model": "E-350 Econoline",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1980,
+            "year_to": 1991,
+            "make": "Ford",
+            "model": "E-350 Econoline Club Wagon",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1980\u20131991 Ford E-250 Econoline",
+          "1980\u20131991 Ford E-250 Econoline Club Wagon",
+          "1980\u20131991 Ford E-350 Econoline",
+          "1980\u20131991 Ford E-350 Econoline Club Wagon"
+        ],
+        "raw_compat_rows": 1303,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398395231713",
+        "type": "Parking Brake Cable",
+        "brand": "Wagner",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Cables"
+      },
+      "images": [
+        "../assets/pdp-gallery/2QPEKEV63TKSMBTYJXE5357O/02.webp",
+        "../assets/pdp-gallery/2QPEKEV63TKSMBTYJXE5357O/03.webp",
+        "../assets/pdp-gallery/2QPEKEV63TKSMBTYJXE5357O/04.webp"
+      ]
+    },
+    {
       "id": "DPRSU7RX4SKAHPRFDDTPFKZR",
       "name": "Wagner QS ZX603A Disc Brake Pads for Mercedes-Benz S-Class / SL-Class - New!",
       "price": 34.99,
@@ -34067,12 +34163,10 @@
       "category": "brake",
       "checkout": true,
       "variation_id": "EGTYGGCJMHXEYCGJFCTAGBHJ",
-      "stock": 1,
       "part_numbers": [
         "MKD466",
         "MKD 466 876-D466 FF131 PMD466"
       ],
-      "interchange": [],
       "vehicles": [
         "1994\u20131997 Ford Aspire",
         "1991\u20131994 Ford Escort",
@@ -34081,11 +34175,6 @@
         "1990\u20131998 Mazda Protege",
         "1991\u20131994 Mercury Tracer"
       ],
-      "vehicle_count_raw": 124,
-      "ebay_item_id": "398395080061",
-      "ebay_type": "Disc Brake Pad Set",
-      "ebay_brand": "WearEver",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pads",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -34172,10 +34261,17 @@
         "brand": "WearEver",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pads"
       },
+      "vehicle_count_raw": 124,
+      "ebay_item_id": "398395080061",
+      "ebay_type": "Disc Brake Pad Set",
+      "ebay_brand": "WearEver",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pads",
       "images": [
         "../assets/pdp-gallery/UHT3CH22ZHVNBFSIMHDLL7QP/02.webp",
         "../assets/pdp-gallery/UHT3CH22ZHVNBFSIMHDLL7QP/03.webp"
-      ]
+      ],
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "F7X2LR523KDOKA265ZBJIXIW",
@@ -59950,6 +60046,234 @@
       "stock": 1
     },
     {
+      "id": "LOADPB3GJFNIZO64EIIA7Z6G",
+      "name": "Ford F8AZ-6256-AA Cam Sprocket RH 4.6 5.4 6.8 F150 93-11 NOS",
+      "price": 29.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/d9537d26e18269c2728deb9dc2648485e739b9e5/original.jpeg",
+      "url": "https://square.link/u/PKl2oJWP",
+      "category": "driveline",
+      "checkout": true,
+      "variation_id": "24UTEWOHW4ZEAFJ4B5MB36KV",
+      "stock": 1,
+      "part_numbers": [
+        "F8AZ-6256-AA",
+        "F8AE-6256-AA, F8AZ6256AA, S766T"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1994\u20132011 Ford Crown Victoria",
+        "2002\u20132014 Ford E-150",
+        "2003\u20132014 Ford E-250",
+        "2000\u20132005 Ford Excursion",
+        "1997\u20132005 Ford Expedition",
+        "2002\u20132005 Ford Explorer",
+        "1997\u20132010 Ford F-150",
+        "1999\u20132009 Ford F-250 Super Duty",
+        "1999\u20132006 Ford F-350 Super Duty",
+        "1993\u20132011 Ford F8AZ-6256-AA",
+        "1996\u20132004 Ford Mustang",
+        "1993\u20131998 Lincoln Mark VIII",
+        "1998\u20132004 Lincoln Navigator",
+        "1994\u20132011 Lincoln Town Car",
+        "1994\u20132011 Mercury Grand Marquis"
+      ],
+      "vehicle_count_raw": 1628,
+      "ebay_item_id": "398395231284",
+      "ebay_type": "Camshaft Sprocket",
+      "ebay_brand": "Ford",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Timing Components & Kits:Sprockets",
+      "fitment_source": "ebay_listing+title",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "F8AZ-6256-AA",
+          "F8AE-6256-AA, F8AZ6256AA, S766T"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1994,
+            "year_to": 2011,
+            "make": "Ford",
+            "model": "Crown Victoria",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2002,
+            "year_to": 2014,
+            "make": "Ford",
+            "model": "E-150",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2003,
+            "year_to": 2014,
+            "make": "Ford",
+            "model": "E-250",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2000,
+            "year_to": 2005,
+            "make": "Ford",
+            "model": "Excursion",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1997,
+            "year_to": 2005,
+            "make": "Ford",
+            "model": "Expedition",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2002,
+            "year_to": 2005,
+            "make": "Ford",
+            "model": "Explorer",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1997,
+            "year_to": 2010,
+            "make": "Ford",
+            "model": "F-150",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1999,
+            "year_to": 2009,
+            "make": "Ford",
+            "model": "F-250 Super Duty",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1999,
+            "year_to": 2006,
+            "make": "Ford",
+            "model": "F-350 Super Duty",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1993,
+            "year_to": 2011,
+            "make": "Ford",
+            "model": "F8AZ-6256-AA",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1996,
+            "year_to": 2004,
+            "make": "Ford",
+            "model": "Mustang",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1993,
+            "year_to": 1998,
+            "make": "Lincoln",
+            "model": "Mark VIII",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1998,
+            "year_to": 2004,
+            "make": "Lincoln",
+            "model": "Navigator",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1994,
+            "year_to": 2011,
+            "make": "Lincoln",
+            "model": "Town Car",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1994,
+            "year_to": 2011,
+            "make": "Mercury",
+            "model": "Grand Marquis",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1994\u20132011 Ford Crown Victoria",
+          "2002\u20132014 Ford E-150",
+          "2003\u20132014 Ford E-250",
+          "2000\u20132005 Ford Excursion",
+          "1997\u20132005 Ford Expedition",
+          "2002\u20132005 Ford Explorer",
+          "1997\u20132010 Ford F-150",
+          "1999\u20132009 Ford F-250 Super Duty",
+          "1999\u20132006 Ford F-350 Super Duty",
+          "1993\u20132011 Ford F8AZ-6256-AA",
+          "1996\u20132004 Ford Mustang",
+          "1993\u20131998 Lincoln Mark VIII",
+          "1998\u20132004 Lincoln Navigator",
+          "1994\u20132011 Lincoln Town Car",
+          "1994\u20132011 Mercury Grand Marquis"
+        ],
+        "raw_compat_rows": 1628,
+        "source": "ebay_listing+title",
+        "confidence": "high",
+        "ebay_item_id": "398395231284",
+        "type": "Camshaft Sprocket",
+        "brand": "Ford",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Timing Components & Kits:Sprockets"
+      },
+      "images": [
+        "../assets/pdp-gallery/LOADPB3GJFNIZO64EIIA7Z6G/02.webp",
+        "../assets/pdp-gallery/LOADPB3GJFNIZO64EIIA7Z6G/03.webp",
+        "../assets/pdp-gallery/LOADPB3GJFNIZO64EIIA7Z6G/04.webp"
+      ]
+    },
+    {
       "id": "EOLHBW3OFT5I3RRUC3XCFRBO",
       "name": "Gates CD70 Timing Belt Corolla NOS",
       "price": 19.99,
@@ -69817,18 +70141,10 @@
       "category": "other",
       "checkout": true,
       "variation_id": "KQHRH2CAEOMU66YTHR6L4GHH",
-      "stock": 1,
       "part_numbers": [
         "KG09101BK",
         "M03132"
       ],
-      "interchange": [],
-      "vehicles": [],
-      "vehicle_count_raw": 0,
-      "ebay_item_id": "398395146777",
-      "ebay_type": "Leveling Kit",
-      "ebay_brand": "Daystar",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Steering & Suspension:Self-Leveling Suspension Parts",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -69847,12 +70163,20 @@
         "brand": "Daystar",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Steering & Suspension:Self-Leveling Suspension Parts"
       },
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398395146777",
+      "ebay_type": "Leveling Kit",
+      "ebay_brand": "Daystar",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Steering & Suspension:Self-Leveling Suspension Parts",
       "images": [
         "../assets/pdp-gallery/VKJDX7VEJFPYQ7YKR7IZX6QW/02.webp",
         "../assets/pdp-gallery/VKJDX7VEJFPYQ7YKR7IZX6QW/03.webp",
         "../assets/pdp-gallery/VKJDX7VEJFPYQ7YKR7IZX6QW/04.webp",
         "../assets/pdp-gallery/VKJDX7VEJFPYQ7YKR7IZX6QW/05.webp"
-      ]
+      ],
+      "stock": 1,
+      "interchange": [],
+      "vehicles": []
     },
     {
       "id": "W5PHRTXPG3C5J65NAG7RBJAQ",
@@ -100575,6 +100899,233 @@
       "interchange": []
     },
     {
+      "id": "4V6MKTH3RTVLY4U7QV7TO7JZ",
+      "name": "Standard LX-346 Ignition Module 2.8 3.1 3.4 GM DIS Lumina 87-05 NOS",
+      "price": 69.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/f0f2160856304e2726467bc7408fceb7bfdd7f26/original.jpeg",
+      "url": "https://square.link/u/RTbfqKzo",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "B6IK5ILFOYWN457RCCTEWXF7",
+      "stock": 1,
+      "part_numbers": [
+        "LX-346",
+        "LX346, TP404SB, 10489422"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1994\u20132005 Buick Century",
+        "1988\u20131996 Buick Regal",
+        "1987\u20131996 Chevrolet Beretta",
+        "1993\u20131995 Chevrolet Camaro",
+        "1987\u20131994 Chevrolet Cavalier",
+        "1987\u20131996 Chevrolet Corsica",
+        "1990\u20132001 Chevrolet Lumina",
+        "1997\u20132003 Chevrolet Malibu",
+        "1995\u20132005 Chevrolet Monte Carlo",
+        "1997\u20132005 Chevrolet Venture",
+        "1987\u20132005 GM DIS",
+        "1996\u20132004 Oldsmobile Silhouette",
+        "1993\u20131995 Pontiac Firebird",
+        "1994\u20132005 Pontiac Grand Am",
+        "1988\u20132003 Pontiac Grand Prix"
+      ],
+      "vehicle_count_raw": 477,
+      "ebay_item_id": "398395230760",
+      "ebay_type": "Ignition Control Module",
+      "ebay_brand": "Standard",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Modules",
+      "fitment_source": "ebay_listing+title",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "LX-346",
+          "LX346, TP404SB, 10489422"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1994,
+            "year_to": 2005,
+            "make": "Buick",
+            "model": "Century",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1988,
+            "year_to": 1996,
+            "make": "Buick",
+            "model": "Regal",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1996,
+            "make": "Chevrolet",
+            "model": "Beretta",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1993,
+            "year_to": 1995,
+            "make": "Chevrolet",
+            "model": "Camaro",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1994,
+            "make": "Chevrolet",
+            "model": "Cavalier",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1996,
+            "make": "Chevrolet",
+            "model": "Corsica",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1990,
+            "year_to": 2001,
+            "make": "Chevrolet",
+            "model": "Lumina",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1997,
+            "year_to": 2003,
+            "make": "Chevrolet",
+            "model": "Malibu",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1995,
+            "year_to": 2005,
+            "make": "Chevrolet",
+            "model": "Monte Carlo",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1997,
+            "year_to": 2005,
+            "make": "Chevrolet",
+            "model": "Venture",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 2005,
+            "make": "GM",
+            "model": "DIS",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1996,
+            "year_to": 2004,
+            "make": "Oldsmobile",
+            "model": "Silhouette",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1993,
+            "year_to": 1995,
+            "make": "Pontiac",
+            "model": "Firebird",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1994,
+            "year_to": 2005,
+            "make": "Pontiac",
+            "model": "Grand Am",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1988,
+            "year_to": 2003,
+            "make": "Pontiac",
+            "model": "Grand Prix",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1994\u20132005 Buick Century",
+          "1988\u20131996 Buick Regal",
+          "1987\u20131996 Chevrolet Beretta",
+          "1993\u20131995 Chevrolet Camaro",
+          "1987\u20131994 Chevrolet Cavalier",
+          "1987\u20131996 Chevrolet Corsica",
+          "1990\u20132001 Chevrolet Lumina",
+          "1997\u20132003 Chevrolet Malibu",
+          "1995\u20132005 Chevrolet Monte Carlo",
+          "1997\u20132005 Chevrolet Venture",
+          "1987\u20132005 GM DIS",
+          "1996\u20132004 Oldsmobile Silhouette",
+          "1993\u20131995 Pontiac Firebird",
+          "1994\u20132005 Pontiac Grand Am",
+          "1988\u20132003 Pontiac Grand Prix"
+        ],
+        "raw_compat_rows": 477,
+        "source": "ebay_listing+title",
+        "confidence": "high",
+        "ebay_item_id": "398395230760",
+        "type": "Ignition Control Module",
+        "brand": "Standard",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Modules"
+      },
+      "images": [
+        "../assets/pdp-gallery/4V6MKTH3RTVLY4U7QV7TO7JZ/02.webp",
+        "../assets/pdp-gallery/4V6MKTH3RTVLY4U7QV7TO7JZ/03.webp"
+      ]
+    },
+    {
       "id": "2GDSHONU473LO4VNJAQU6CFI",
       "name": "Standard Motor Products AS5 MAP 5.0 5.7 7.4 Camaro NOS",
       "price": 48.29,
@@ -112801,5 +113352,5 @@
       "ebay_brand": ""
     }
   ],
-  "fitment_built": "2026-09-14T23:02:31Z"
+  "fitment_built": "2026-09-15T00:02:40Z"
 }
