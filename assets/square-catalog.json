@@ -1,7 +1,7 @@
 {
-  "updated": "2026-09-15T17:02:37Z",
+  "updated": "2026-09-15T18:02:37Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 796,
+  "count": 800,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -33574,20 +33574,13 @@
       "category": "brake",
       "checkout": true,
       "variation_id": "Y6ZDRWLKBWFGNEMNQLUCEGUV",
-      "stock": 1,
       "part_numbers": [
         "F110946S",
         "7059 H7059"
       ],
-      "interchange": [],
       "vehicles": [
         "1992 Chevrolet Blazer"
       ],
-      "vehicle_count_raw": 2,
-      "ebay_item_id": "398397473826",
-      "ebay_type": "Drum Brake Hardware Kit",
-      "ebay_brand": "U.S.A. Brake Parts",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -33619,10 +33612,17 @@
         "brand": "U.S.A. Brake Parts",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware"
       },
+      "vehicle_count_raw": 2,
+      "ebay_item_id": "398397473826",
+      "ebay_type": "Drum Brake Hardware Kit",
+      "ebay_brand": "U.S.A. Brake Parts",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware",
       "images": [
         "../assets/pdp-gallery/E5W6LM2IYFLBQ26MLWESLEQK/02.webp",
         "../assets/pdp-gallery/E5W6LM2IYFLBQ26MLWESLEQK/03.webp"
-      ]
+      ],
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "2QPEKEV63TKSMBTYJXE5357O",
@@ -33719,6 +33719,213 @@
       ],
       "stock": 1,
       "interchange": []
+    },
+    {
+      "id": "K7LUL7IBB73YA5JJNNLUKRKZ",
+      "name": "Wagner F110420 Brake Hose RH 82-94 Century Celebrity Ciera NOS",
+      "price": 14.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/fe8853ef5dbe2b599ef1e52b2417d716ad7d609a/original.jpeg",
+      "url": "https://square.link/u/llVs647K",
+      "category": "brake",
+      "checkout": true,
+      "variation_id": "DMUURQWNEG3USICPSWC5OJOO",
+      "stock": 3,
+      "part_numbers": [
+        "F110420",
+        "BH110420"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1982\u20131994 Buick Century",
+        "1984\u20131990 Chevrolet Celebrity",
+        "1984\u20131994 Oldsmobile Cutlass Ciera",
+        "1984 Oldsmobile Omega",
+        "1984\u20131991 Pontiac 6000"
+      ],
+      "vehicle_count_raw": 651,
+      "ebay_item_id": "398397737005",
+      "ebay_type": "Brake Hose",
+      "ebay_brand": "Wagner",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Hoses, Lines & Fittings",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "F110420",
+          "BH110420"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1982,
+            "year_to": 1994,
+            "make": "Buick",
+            "model": "Century",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 1990,
+            "make": "Chevrolet",
+            "model": "Celebrity",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 1994,
+            "make": "Oldsmobile",
+            "model": "Cutlass Ciera",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 1984,
+            "make": "Oldsmobile",
+            "model": "Omega",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 1991,
+            "make": "Pontiac",
+            "model": "6000",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1982\u20131994 Buick Century",
+          "1984\u20131990 Chevrolet Celebrity",
+          "1984\u20131994 Oldsmobile Cutlass Ciera",
+          "1984 Oldsmobile Omega",
+          "1984\u20131991 Pontiac 6000"
+        ],
+        "raw_compat_rows": 651,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398397737005",
+        "type": "Brake Hose",
+        "brand": "Wagner",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Hoses, Lines & Fittings"
+      },
+      "images": [
+        "../assets/pdp-gallery/K7LUL7IBB73YA5JJNNLUKRKZ/02.webp",
+        "../assets/pdp-gallery/K7LUL7IBB73YA5JJNNLUKRKZ/03.webp",
+        "../assets/pdp-gallery/K7LUL7IBB73YA5JJNNLUKRKZ/04.webp",
+        "../assets/pdp-gallery/K7LUL7IBB73YA5JJNNLUKRKZ/05.webp",
+        "../assets/pdp-gallery/K7LUL7IBB73YA5JJNNLUKRKZ/06.webp"
+      ]
+    },
+    {
+      "id": "7MJWJ7BJFBJC4ZK7QBU2PRSR",
+      "name": "Wagner F120516 Brake Hose LH 88-90 Dynasty New Yorker Imperial NOS",
+      "price": 14.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/265e4338d7d4b3c74d71e8db7b3acbcf098e1502/original.jpeg",
+      "url": "https://square.link/u/HpwRv5HX",
+      "category": "brake",
+      "checkout": true,
+      "variation_id": "VJFTPAGMH5T34MY3YKHIFQM4",
+      "stock": 3,
+      "part_numbers": [
+        "F120516",
+        "BH120516"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1988\u20131990 Chrysler Dynasty",
+        "1990 Chrysler Imperial",
+        "1988\u20131990 Chrysler New Yorker",
+        "1988\u20131990 Dodge Dynasty"
+      ],
+      "vehicle_count_raw": 31,
+      "ebay_item_id": "398397757341",
+      "ebay_type": "Brake Hose",
+      "ebay_brand": "Wagner",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Hoses, Lines & Fittings",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "F120516",
+          "BH120516"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1988,
+            "year_to": 1990,
+            "make": "Chrysler",
+            "model": "Dynasty",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1990,
+            "year_to": 1990,
+            "make": "Chrysler",
+            "model": "Imperial",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1988,
+            "year_to": 1990,
+            "make": "Chrysler",
+            "model": "New Yorker",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1988,
+            "year_to": 1990,
+            "make": "Dodge",
+            "model": "Dynasty",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1988\u20131990 Chrysler Dynasty",
+          "1990 Chrysler Imperial",
+          "1988\u20131990 Chrysler New Yorker",
+          "1988\u20131990 Dodge Dynasty"
+        ],
+        "raw_compat_rows": 31,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398397757341",
+        "type": "Brake Hose",
+        "brand": "Wagner",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Hoses, Lines & Fittings"
+      },
+      "images": [
+        "../assets/pdp-gallery/7MJWJ7BJFBJC4ZK7QBU2PRSR/02.webp",
+        "../assets/pdp-gallery/7MJWJ7BJFBJC4ZK7QBU2PRSR/03.webp",
+        "../assets/pdp-gallery/7MJWJ7BJFBJC4ZK7QBU2PRSR/04.webp",
+        "../assets/pdp-gallery/7MJWJ7BJFBJC4ZK7QBU2PRSR/05.webp"
+      ]
     },
     {
       "id": "DPRSU7RX4SKAHPRFDDTPFKZR",
@@ -34404,6 +34611,90 @@
       ],
       "stock": 1,
       "interchange": []
+    },
+    {
+      "id": "STFS5AX3DEPRWV7TIEJYJUSP",
+      "name": "FRAM CH8481 Oil Filter Cartridge 01-12 Mercedes C240 C320 NOS",
+      "price": 14.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/d5ea651da9acbceaab3020e91673bd7d33fe5dfe/original.jpeg",
+      "url": "https://square.link/u/sqwXktpS",
+      "category": "filters",
+      "checkout": true,
+      "variation_id": "AXEPL26L64GOTZJK6ABNCTH3",
+      "stock": 1,
+      "part_numbers": [
+        "CH8481"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "2001\u20132005 Mercedes-Benz C240",
+        "2010\u20132011 Mercedes-Benz C300",
+        "2001\u20132005 Mercedes-Benz C320"
+      ],
+      "vehicle_count_raw": 44,
+      "ebay_item_id": "398397802557",
+      "ebay_type": "Oil Filter",
+      "ebay_brand": "FRAM",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Filters",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "CH8481"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 2001,
+            "year_to": 2005,
+            "make": "Mercedes-Benz",
+            "model": "C240",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2010,
+            "year_to": 2011,
+            "make": "Mercedes-Benz",
+            "model": "C300",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2001,
+            "year_to": 2005,
+            "make": "Mercedes-Benz",
+            "model": "C320",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "2001\u20132005 Mercedes-Benz C240",
+          "2010\u20132011 Mercedes-Benz C300",
+          "2001\u20132005 Mercedes-Benz C320"
+        ],
+        "raw_compat_rows": 44,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398397802557",
+        "type": "Oil Filter",
+        "brand": "FRAM",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Filters"
+      },
+      "images": [
+        "../assets/pdp-gallery/STFS5AX3DEPRWV7TIEJYJUSP/02.webp",
+        "../assets/pdp-gallery/STFS5AX3DEPRWV7TIEJYJUSP/03.webp",
+        "../assets/pdp-gallery/STFS5AX3DEPRWV7TIEJYJUSP/04.webp",
+        "../assets/pdp-gallery/STFS5AX3DEPRWV7TIEJYJUSP/05.webp",
+        "../assets/pdp-gallery/STFS5AX3DEPRWV7TIEJYJUSP/06.webp"
+      ]
     },
     {
       "id": "3HFC6OZJ3NIJHUHNRZZK246B",
@@ -108762,6 +109053,90 @@
       "stock": 1
     },
     {
+      "id": "5DZJWNEFAXZSMT4KI7RL4JE6",
+      "name": "Standard US-94 Ignition Switch 5209891 78-83 Omni Horizon NOS",
+      "price": 39.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/7d21293acc91da7ece9cccd64f6f4cb2e592a913/original.jpeg",
+      "url": "https://square.link/u/u6pPHeat",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "JTSMDOSLT5UHUGHSYB4YMTNU",
+      "stock": 1,
+      "part_numbers": [
+        "US-94",
+        "5209891, 36033"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1978\u20131986 Dodge Charger",
+        "1978\u20131983 Dodge Omni",
+        "1978\u20131983 Plymouth Horizon"
+      ],
+      "vehicle_count_raw": 68,
+      "ebay_item_id": "398397818652",
+      "ebay_type": "Ignition Switch",
+      "ebay_brand": "Standard",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Other Ignition Systems & Components",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "US-94",
+          "5209891, 36033"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1978,
+            "year_to": 1986,
+            "make": "Dodge",
+            "model": "Charger",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1978,
+            "year_to": 1983,
+            "make": "Dodge",
+            "model": "Omni",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1978,
+            "year_to": 1983,
+            "make": "Plymouth",
+            "model": "Horizon",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1978\u20131986 Dodge Charger",
+          "1978\u20131983 Dodge Omni",
+          "1978\u20131983 Plymouth Horizon"
+        ],
+        "raw_compat_rows": 68,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398397818652",
+        "type": "Ignition Switch",
+        "brand": "Standard",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Other Ignition Systems & Components"
+      },
+      "images": [
+        "../assets/pdp-gallery/5DZJWNEFAXZSMT4KI7RL4JE6/02.webp",
+        "../assets/pdp-gallery/5DZJWNEFAXZSMT4KI7RL4JE6/03.webp",
+        "../assets/pdp-gallery/5DZJWNEFAXZSMT4KI7RL4JE6/04.webp"
+      ]
+    },
+    {
       "id": "E7XEXBNABGXW3SHRBKH33QBV",
       "name": "Standard US-98 Ignition Switch 86-91 Aerostar NOS",
       "price": 33.99,
@@ -114883,5 +115258,5 @@
       "ebay_brand": ""
     }
   ],
-  "fitment_built": "2026-09-15T17:02:37Z"
+  "fitment_built": "2026-09-15T18:02:37Z"
 }
