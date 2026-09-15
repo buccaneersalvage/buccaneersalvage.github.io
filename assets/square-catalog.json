@@ -1,7 +1,7 @@
 {
-  "updated": "2026-09-15T19:02:51Z",
+  "updated": "2026-09-15T20:02:42Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 800,
+  "count": 802,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -32254,6 +32254,63 @@
       "vehicles": []
     },
     {
+      "id": "IMKL4YNRBBV4FRO267KEJ2PZ",
+      "name": "Dorman HELP 13898 Caliper Bracket Bolts Ford 94-14 NOS",
+      "price": 12.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/af42ffca2b7e4b281667867605ac53ce6125bb08/original.jpeg",
+      "url": "https://square.link/u/6sozAR65",
+      "category": "brake",
+      "checkout": true,
+      "variation_id": "L5SPUEIMQX3KYHFJJROVGG74",
+      "stock": 1,
+      "part_numbers": [
+        "HELP 13898"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1994\u20132014 Ford"
+      ],
+      "vehicle_count_raw": 1,
+      "ebay_item_id": "398398145540",
+      "ebay_type": "Caliper Bracket Bolt",
+      "ebay_brand": "Dorman",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Master Cylinders",
+      "fitment_source": "ebay_listing+title",
+      "fitment_confidence": "medium",
+      "fitment": {
+        "part_numbers": [
+          "HELP 13898"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1994,
+            "year_to": 2014,
+            "make": "Ford",
+            "model": "",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1994\u20132014 Ford"
+        ],
+        "raw_compat_rows": 1,
+        "source": "ebay_listing+title",
+        "confidence": "medium",
+        "ebay_item_id": "398398145540",
+        "type": "Caliper Bracket Bolt",
+        "brand": "Dorman",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Master Cylinders"
+      },
+      "images": [
+        "../assets/pdp-gallery/IMKL4YNRBBV4FRO267KEJ2PZ/02.webp",
+        "../assets/pdp-gallery/IMKL4YNRBBV4FRO267KEJ2PZ/03.webp"
+      ]
+    },
+    {
       "id": "AY6IRRZZJKM42KV3PSO6YDHV",
       "name": "Lee 7071 Drum Brake Hardware Kit NOS 75-96 F-150 Bronco",
       "price": 12.99,
@@ -33926,6 +33983,102 @@
       ],
       "stock": 3,
       "interchange": []
+    },
+    {
+      "id": "IXLH2RTITNT3MLBIUKPCB7IK",
+      "name": "Wagner F120545 Brake Hose LH 85-94 Subaru Loyale GL XT NOS",
+      "price": 14.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/55f0972034f1b23edb67a4e6623b84eb28cd51b8/original.jpeg",
+      "url": "https://square.link/u/U8tlutfy",
+      "category": "brake",
+      "checkout": true,
+      "variation_id": "W5A2JHNMHZNX2KZPTK7PILDR",
+      "stock": 1,
+      "part_numbers": [
+        "F120545",
+        "BH120545"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1985\u20131989 Subaru DL",
+        "1985\u20131989 Subaru GL",
+        "1990\u20131994 Subaru Loyale",
+        "1985\u20131991 Subaru XT"
+      ],
+      "vehicle_count_raw": 95,
+      "ebay_item_id": "398398030959",
+      "ebay_type": "Brake Hose",
+      "ebay_brand": "Wagner",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Hoses, Lines & Fittings",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "F120545",
+          "BH120545"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1985,
+            "year_to": 1989,
+            "make": "Subaru",
+            "model": "DL",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1989,
+            "make": "Subaru",
+            "model": "GL",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1990,
+            "year_to": 1994,
+            "make": "Subaru",
+            "model": "Loyale",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1991,
+            "make": "Subaru",
+            "model": "XT",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1985\u20131989 Subaru DL",
+          "1985\u20131989 Subaru GL",
+          "1990\u20131994 Subaru Loyale",
+          "1985\u20131991 Subaru XT"
+        ],
+        "raw_compat_rows": 95,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398398030959",
+        "type": "Brake Hose",
+        "brand": "Wagner",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Hoses, Lines & Fittings"
+      },
+      "images": [
+        "../assets/pdp-gallery/IXLH2RTITNT3MLBIUKPCB7IK/02.webp",
+        "../assets/pdp-gallery/IXLH2RTITNT3MLBIUKPCB7IK/03.webp",
+        "../assets/pdp-gallery/IXLH2RTITNT3MLBIUKPCB7IK/04.webp"
+      ]
     },
     {
       "id": "DPRSU7RX4SKAHPRFDDTPFKZR",
@@ -71482,12 +71635,10 @@
       "category": "other",
       "checkout": true,
       "variation_id": "HKJUOBNCDBSNZZBOPNAS4SZD",
-      "stock": 1,
       "part_numbers": [
         "E0TZ-1022600-B",
         "E2TB-1022614-AA"
       ],
-      "interchange": [],
       "vehicles": [
         "1980\u20131986 Ford Bronco",
         "1980\u20131986 Ford E0TZ-1022600-B",
@@ -71495,12 +71646,7 @@
         "1980\u20131986 Ford F-250",
         "1980\u20131986 Ford F-350"
       ],
-      "vehicle_count_raw": 891,
-      "ebay_item_id": "398397888144",
-      "ebay_type": "Interior Door Handle",
-      "ebay_brand": "Ford",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Engine Rebuild Kits",
-      "fitment_source": "ebay_listing+title",
+      "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
@@ -71568,13 +71714,18 @@
           "1980\u20131986 Ford F-350"
         ],
         "raw_compat_rows": 891,
-        "source": "ebay_listing+title",
+        "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398397888144",
         "type": "Interior Door Handle",
         "brand": "Ford",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Engine Rebuild Kits"
       },
+      "vehicle_count_raw": 891,
+      "ebay_item_id": "398397888144",
+      "ebay_type": "Interior Door Handle",
+      "ebay_brand": "Ford",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Engine Rebuild Kits",
       "images": [
         "../assets/pdp-gallery/NDMWFVKFLPW6EI3X6VB6ZCV5/02.webp",
         "../assets/pdp-gallery/NDMWFVKFLPW6EI3X6VB6ZCV5/03.webp",
@@ -71582,7 +71733,9 @@
         "../assets/pdp-gallery/NDMWFVKFLPW6EI3X6VB6ZCV5/05.webp",
         "../assets/pdp-gallery/NDMWFVKFLPW6EI3X6VB6ZCV5/06.webp",
         "../assets/pdp-gallery/NDMWFVKFLPW6EI3X6VB6ZCV5/07.webp"
-      ]
+      ],
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "D3PA4OK4ISIXLEL2KFIF55LL",
@@ -115214,5 +115367,5 @@
       "ebay_brand": ""
     }
   ],
-  "fitment_built": "2026-09-15T19:02:51Z"
+  "fitment_built": "2026-09-15T20:02:42Z"
 }
