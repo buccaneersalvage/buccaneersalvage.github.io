@@ -1,7 +1,7 @@
 {
-  "updated": "2026-09-15T00:02:40Z",
+  "updated": "2026-09-15T01:03:02Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 785,
+  "count": 789,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -33574,23 +33574,16 @@
       "category": "brake",
       "checkout": true,
       "variation_id": "A3FYMHTIB7RNEZYVEG7RKCC6",
-      "stock": 1,
       "part_numbers": [
         "F109059",
         "BC109059, C1835, 93210, D9TZ-2A635-B, E0UZ-2A635-D"
       ],
-      "interchange": [],
       "vehicles": [
         "1980\u20131991 Ford E-250 Econoline",
         "1980\u20131991 Ford E-250 Econoline Club Wagon",
         "1980\u20131991 Ford E-350 Econoline",
         "1980\u20131991 Ford E-350 Econoline Club Wagon"
       ],
-      "vehicle_count_raw": 1303,
-      "ebay_item_id": "398395231713",
-      "ebay_type": "Parking Brake Cable",
-      "ebay_brand": "Wagner",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Cables",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -33655,11 +33648,18 @@
         "brand": "Wagner",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Cables"
       },
+      "vehicle_count_raw": 1303,
+      "ebay_item_id": "398395231713",
+      "ebay_type": "Parking Brake Cable",
+      "ebay_brand": "Wagner",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Cables",
       "images": [
         "../assets/pdp-gallery/2QPEKEV63TKSMBTYJXE5357O/02.webp",
         "../assets/pdp-gallery/2QPEKEV63TKSMBTYJXE5357O/03.webp",
         "../assets/pdp-gallery/2QPEKEV63TKSMBTYJXE5357O/04.webp"
-      ]
+      ],
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "DPRSU7RX4SKAHPRFDDTPFKZR",
@@ -60054,12 +60054,10 @@
       "category": "driveline",
       "checkout": true,
       "variation_id": "24UTEWOHW4ZEAFJ4B5MB36KV",
-      "stock": 1,
       "part_numbers": [
         "F8AZ-6256-AA",
         "F8AE-6256-AA, F8AZ6256AA, S766T"
       ],
-      "interchange": [],
       "vehicles": [
         "1994\u20132011 Ford Crown Victoria",
         "2002\u20132014 Ford E-150",
@@ -60077,12 +60075,7 @@
         "1994\u20132011 Lincoln Town Car",
         "1994\u20132011 Mercury Grand Marquis"
       ],
-      "vehicle_count_raw": 1628,
-      "ebay_item_id": "398395231284",
-      "ebay_type": "Camshaft Sprocket",
-      "ebay_brand": "Ford",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Timing Components & Kits:Sprockets",
-      "fitment_source": "ebay_listing+title",
+      "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
@@ -60260,17 +60253,252 @@
           "1994\u20132011 Mercury Grand Marquis"
         ],
         "raw_compat_rows": 1628,
-        "source": "ebay_listing+title",
+        "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398395231284",
         "type": "Camshaft Sprocket",
         "brand": "Ford",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Timing Components & Kits:Sprockets"
       },
+      "vehicle_count_raw": 1628,
+      "ebay_item_id": "398395231284",
+      "ebay_type": "Camshaft Sprocket",
+      "ebay_brand": "Ford",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Timing Components & Kits:Sprockets",
       "images": [
         "../assets/pdp-gallery/LOADPB3GJFNIZO64EIIA7Z6G/02.webp",
         "../assets/pdp-gallery/LOADPB3GJFNIZO64EIIA7Z6G/03.webp",
         "../assets/pdp-gallery/LOADPB3GJFNIZO64EIIA7Z6G/04.webp"
+      ],
+      "stock": 1,
+      "interchange": []
+    },
+    {
+      "id": "4S3QPNFBCIS2ZIUNK4QBGOVV",
+      "name": "Ford F8AZ-6256-BA Cam Sprocket LH 4.6 5.4 6.8 F150 93-11 NOS",
+      "price": 29.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/23a5c27d9ef456faa70d7354adba0dcf9b30ae8b/original.jpeg",
+      "url": "https://square.link/u/8jdUncvV",
+      "category": "driveline",
+      "checkout": true,
+      "variation_id": "PSMIH4C44M4PPF7G3PFZB22G",
+      "stock": 1,
+      "part_numbers": [
+        "F8AZ-6256-BA",
+        "F81E-6256-BA, F8AZ6256BA, F3AZ-6256-A"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1994\u20132011 Ford Crown Victoria",
+        "2002\u20132014 Ford E-150",
+        "2003\u20132014 Ford E-250",
+        "2000\u20132005 Ford Excursion",
+        "1997\u20132005 Ford Expedition",
+        "2002\u20132005 Ford Explorer",
+        "1997\u20132010 Ford F-150",
+        "1999\u20132009 Ford F-250 Super Duty",
+        "1999\u20132006 Ford F-350 Super Duty",
+        "1993\u20132011 Ford F8AZ-6256-BA",
+        "1996\u20132004 Ford Mustang",
+        "1993\u20131998 Lincoln Mark VIII",
+        "1998\u20132004 Lincoln Navigator",
+        "1994\u20132011 Lincoln Town Car",
+        "1994\u20132011 Mercury Grand Marquis"
+      ],
+      "vehicle_count_raw": 1628,
+      "ebay_item_id": "398395303233",
+      "ebay_type": "Camshaft Sprocket",
+      "ebay_brand": "Ford",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Timing Components & Kits:Sprockets",
+      "fitment_source": "ebay_listing+title",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "F8AZ-6256-BA",
+          "F81E-6256-BA, F8AZ6256BA, F3AZ-6256-A"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1994,
+            "year_to": 2011,
+            "make": "Ford",
+            "model": "Crown Victoria",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2002,
+            "year_to": 2014,
+            "make": "Ford",
+            "model": "E-150",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2003,
+            "year_to": 2014,
+            "make": "Ford",
+            "model": "E-250",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2000,
+            "year_to": 2005,
+            "make": "Ford",
+            "model": "Excursion",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1997,
+            "year_to": 2005,
+            "make": "Ford",
+            "model": "Expedition",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2002,
+            "year_to": 2005,
+            "make": "Ford",
+            "model": "Explorer",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1997,
+            "year_to": 2010,
+            "make": "Ford",
+            "model": "F-150",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1999,
+            "year_to": 2009,
+            "make": "Ford",
+            "model": "F-250 Super Duty",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1999,
+            "year_to": 2006,
+            "make": "Ford",
+            "model": "F-350 Super Duty",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1993,
+            "year_to": 2011,
+            "make": "Ford",
+            "model": "F8AZ-6256-BA",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1996,
+            "year_to": 2004,
+            "make": "Ford",
+            "model": "Mustang",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1993,
+            "year_to": 1998,
+            "make": "Lincoln",
+            "model": "Mark VIII",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1998,
+            "year_to": 2004,
+            "make": "Lincoln",
+            "model": "Navigator",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1994,
+            "year_to": 2011,
+            "make": "Lincoln",
+            "model": "Town Car",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1994,
+            "year_to": 2011,
+            "make": "Mercury",
+            "model": "Grand Marquis",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1994\u20132011 Ford Crown Victoria",
+          "2002\u20132014 Ford E-150",
+          "2003\u20132014 Ford E-250",
+          "2000\u20132005 Ford Excursion",
+          "1997\u20132005 Ford Expedition",
+          "2002\u20132005 Ford Explorer",
+          "1997\u20132010 Ford F-150",
+          "1999\u20132009 Ford F-250 Super Duty",
+          "1999\u20132006 Ford F-350 Super Duty",
+          "1993\u20132011 Ford F8AZ-6256-BA",
+          "1996\u20132004 Ford Mustang",
+          "1993\u20131998 Lincoln Mark VIII",
+          "1998\u20132004 Lincoln Navigator",
+          "1994\u20132011 Lincoln Town Car",
+          "1994\u20132011 Mercury Grand Marquis"
+        ],
+        "raw_compat_rows": 1628,
+        "source": "ebay_listing+title",
+        "confidence": "high",
+        "ebay_item_id": "398395303233",
+        "type": "Camshaft Sprocket",
+        "brand": "Ford",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Timing Components & Kits:Sprockets"
+      },
+      "images": [
+        "../assets/pdp-gallery/4S3QPNFBCIS2ZIUNK4QBGOVV/02.webp",
+        "../assets/pdp-gallery/4S3QPNFBCIS2ZIUNK4QBGOVV/03.webp",
+        "../assets/pdp-gallery/4S3QPNFBCIS2ZIUNK4QBGOVV/04.webp"
       ]
     },
     {
@@ -87334,6 +87562,139 @@
       "vehicles": []
     },
     {
+      "id": "CLXMCJWEUVD2O3OXCR5X3TV7",
+      "name": "GM 10324036 LH Slide Door Actuator 3.4 3.5 3.9 Uplander NOS",
+      "price": 59.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/8c8522c5462582da4c0d7d70145ab3775d985552/original.jpeg",
+      "url": "https://square.link/u/YWwqB3U9",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "ZVO3PEZD3US7JVOT2PCCDJMG",
+      "stock": 1,
+      "part_numbers": [
+        "10324036",
+        "15841665, 19120851"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "2005\u20132007 Buick Terraza",
+        "2005\u20132008 Chevrolet Uplander",
+        "2001\u20132003 Chevrolet Venture",
+        "GM 10324036",
+        "2001\u20132003 Oldsmobile Silhouette",
+        "2001\u20132006 Pontiac Montana",
+        "2005\u20132007 Saturn Relay"
+      ],
+      "vehicle_count_raw": 94,
+      "ebay_item_id": "398395294663",
+      "ebay_type": "Door Lock Actuator",
+      "ebay_brand": "GM",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Exterior Parts & Accessories:Exterior Locks & Lock Hardware",
+      "fitment_source": "ebay_listing+title",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "10324036",
+          "15841665, 19120851"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 2005,
+            "year_to": 2007,
+            "make": "Buick",
+            "model": "Terraza",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2005,
+            "year_to": 2008,
+            "make": "Chevrolet",
+            "model": "Uplander",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2001,
+            "year_to": 2003,
+            "make": "Chevrolet",
+            "model": "Venture",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": null,
+            "year_to": null,
+            "make": "GM",
+            "model": "10324036",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2001,
+            "year_to": 2003,
+            "make": "Oldsmobile",
+            "model": "Silhouette",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2001,
+            "year_to": 2006,
+            "make": "Pontiac",
+            "model": "Montana",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2005,
+            "year_to": 2007,
+            "make": "Saturn",
+            "model": "Relay",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "2005\u20132007 Buick Terraza",
+          "2005\u20132008 Chevrolet Uplander",
+          "2001\u20132003 Chevrolet Venture",
+          "GM 10324036",
+          "2001\u20132003 Oldsmobile Silhouette",
+          "2001\u20132006 Pontiac Montana",
+          "2005\u20132007 Saturn Relay"
+        ],
+        "raw_compat_rows": 94,
+        "source": "ebay_listing+title",
+        "confidence": "high",
+        "ebay_item_id": "398395294663",
+        "type": "Door Lock Actuator",
+        "brand": "GM",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Exterior Parts & Accessories:Exterior Locks & Lock Hardware"
+      },
+      "images": [
+        "../assets/pdp-gallery/CLXMCJWEUVD2O3OXCR5X3TV7/02.webp",
+        "../assets/pdp-gallery/CLXMCJWEUVD2O3OXCR5X3TV7/03.webp",
+        "../assets/pdp-gallery/CLXMCJWEUVD2O3OXCR5X3TV7/04.webp",
+        "../assets/pdp-gallery/CLXMCJWEUVD2O3OXCR5X3TV7/05.webp"
+      ]
+    },
+    {
       "id": "JXSAJGLQRD3AMK6UNNLXN2PX",
       "name": "GM 14 Bolt Full Floater 4.10 Diff Carrier Ring Pinion 73-00 Chevy",
       "price": 349.99,
@@ -87743,6 +88104,100 @@
       ],
       "stock": 1,
       "interchange": []
+    },
+    {
+      "id": "2D35U3CCJGIUVG6DZUJPUPHD",
+      "name": "GM 918367 Side Marker LH Amber 1.8 2.0 Sunbird J2000 NOS",
+      "price": 34.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/284afc72719ec640af519653793fb0406213d397/original.jpeg",
+      "url": "https://square.link/u/y6YdJmCW",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "LS5WWEXSSAOW7OI7HWSLPEO5",
+      "stock": 1,
+      "part_numbers": [
+        "918367"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "GM 918367",
+        "1982\u20131983 Pontiac J2000",
+        "1985 Pontiac J2000 Sunbird",
+        "1986\u20131988 Pontiac Sunbird"
+      ],
+      "vehicle_count_raw": 114,
+      "ebay_item_id": "398395284447",
+      "ebay_type": "Side Marker Light",
+      "ebay_brand": "GM",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:Axle Housings & Parts",
+      "fitment_source": "ebay_listing+title",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "918367"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": null,
+            "year_to": null,
+            "make": "GM",
+            "model": "918367",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1982,
+            "year_to": 1983,
+            "make": "Pontiac",
+            "model": "J2000",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1985,
+            "make": "Pontiac",
+            "model": "J2000 Sunbird",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1986,
+            "year_to": 1988,
+            "make": "Pontiac",
+            "model": "Sunbird",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "GM 918367",
+          "1982\u20131983 Pontiac J2000",
+          "1985 Pontiac J2000 Sunbird",
+          "1986\u20131988 Pontiac Sunbird"
+        ],
+        "raw_compat_rows": 114,
+        "source": "ebay_listing+title",
+        "confidence": "high",
+        "ebay_item_id": "398395284447",
+        "type": "Side Marker Light",
+        "brand": "GM",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:Axle Housings & Parts"
+      },
+      "images": [
+        "../assets/pdp-gallery/2D35U3CCJGIUVG6DZUJPUPHD/02.webp",
+        "../assets/pdp-gallery/2D35U3CCJGIUVG6DZUJPUPHD/03.webp",
+        "../assets/pdp-gallery/2D35U3CCJGIUVG6DZUJPUPHD/04.webp"
+      ]
     },
     {
       "id": "KTHLKNRGLAFQXH3DHFTTF33N",
@@ -92422,6 +92877,198 @@
       "part_numbers": [],
       "interchange": [],
       "vehicles": []
+    },
+    {
+      "id": "ZBJFR3PUXBOXTNZWIF23XUPX",
+      "name": "MOOG K6337 Rack Pinion Mount Bushing 1of2 Cavalier NOS",
+      "price": 14.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/ff3d556c4459e599a3f9693f81b10541ab94ba55/original.jpeg",
+      "url": "https://square.link/u/BapO6vy3",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "D2VI7UX7J5FHE3H4GNIUQC37",
+      "stock": 1,
+      "part_numbers": [
+        "K6337",
+        "MK6337"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1987\u20131989 Buick Skyhawk",
+        "1987\u20131998 Buick Skylark",
+        "1986\u20131987 Buick Somerset",
+        "1987\u20131988 Cadillac Cimarron",
+        "1987\u20131996 Chevrolet Beretta",
+        "1987\u20131994 Chevrolet Cavalier",
+        "1987\u20131996 Chevrolet Corsica",
+        "1992\u20131998 Oldsmobile Achieva",
+        "1988\u20131991 Oldsmobile Cutlass Calais",
+        "1987\u20131998 Pontiac Grand Am",
+        "1987\u20131994 Pontiac Sunbird",
+        "1987\u20131991 Pontiac Tempest"
+      ],
+      "vehicle_count_raw": 748,
+      "ebay_item_id": "398395303813",
+      "ebay_type": "Rack and Pinion Mount Bushing",
+      "ebay_brand": "MOOG",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Lighting & Lamps:Side Marker Light Assemblies",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "K6337",
+          "MK6337"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1987,
+            "year_to": 1989,
+            "make": "Buick",
+            "model": "Skyhawk",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1998,
+            "make": "Buick",
+            "model": "Skylark",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1986,
+            "year_to": 1987,
+            "make": "Buick",
+            "model": "Somerset",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1988,
+            "make": "Cadillac",
+            "model": "Cimarron",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1996,
+            "make": "Chevrolet",
+            "model": "Beretta",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1994,
+            "make": "Chevrolet",
+            "model": "Cavalier",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1996,
+            "make": "Chevrolet",
+            "model": "Corsica",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1992,
+            "year_to": 1998,
+            "make": "Oldsmobile",
+            "model": "Achieva",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1988,
+            "year_to": 1991,
+            "make": "Oldsmobile",
+            "model": "Cutlass Calais",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1998,
+            "make": "Pontiac",
+            "model": "Grand Am",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1994,
+            "make": "Pontiac",
+            "model": "Sunbird",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1991,
+            "make": "Pontiac",
+            "model": "Tempest",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1987\u20131989 Buick Skyhawk",
+          "1987\u20131998 Buick Skylark",
+          "1986\u20131987 Buick Somerset",
+          "1987\u20131988 Cadillac Cimarron",
+          "1987\u20131996 Chevrolet Beretta",
+          "1987\u20131994 Chevrolet Cavalier",
+          "1987\u20131996 Chevrolet Corsica",
+          "1992\u20131998 Oldsmobile Achieva",
+          "1988\u20131991 Oldsmobile Cutlass Calais",
+          "1987\u20131998 Pontiac Grand Am",
+          "1987\u20131994 Pontiac Sunbird",
+          "1987\u20131991 Pontiac Tempest"
+        ],
+        "raw_compat_rows": 748,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398395303813",
+        "type": "Rack and Pinion Mount Bushing",
+        "brand": "MOOG",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Lighting & Lamps:Side Marker Light Assemblies"
+      },
+      "images": [
+        "../assets/pdp-gallery/ZBJFR3PUXBOXTNZWIF23XUPX/02.webp",
+        "../assets/pdp-gallery/ZBJFR3PUXBOXTNZWIF23XUPX/03.webp",
+        "../assets/pdp-gallery/ZBJFR3PUXBOXTNZWIF23XUPX/04.webp"
+      ]
     },
     {
       "id": "AC4O5CEFTYDCUZCECOZZFZI4",
@@ -100907,12 +101554,10 @@
       "category": "other",
       "checkout": true,
       "variation_id": "B6IK5ILFOYWN457RCCTEWXF7",
-      "stock": 1,
       "part_numbers": [
         "LX-346",
         "LX346, TP404SB, 10489422"
       ],
-      "interchange": [],
       "vehicles": [
         "1994\u20132005 Buick Century",
         "1988\u20131996 Buick Regal",
@@ -100930,12 +101575,7 @@
         "1994\u20132005 Pontiac Grand Am",
         "1988\u20132003 Pontiac Grand Prix"
       ],
-      "vehicle_count_raw": 477,
-      "ebay_item_id": "398395230760",
-      "ebay_type": "Ignition Control Module",
-      "ebay_brand": "Standard",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Modules",
-      "fitment_source": "ebay_listing+title",
+      "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
@@ -101113,17 +101753,24 @@
           "1988\u20132003 Pontiac Grand Prix"
         ],
         "raw_compat_rows": 477,
-        "source": "ebay_listing+title",
+        "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398395230760",
         "type": "Ignition Control Module",
         "brand": "Standard",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Modules"
       },
+      "vehicle_count_raw": 477,
+      "ebay_item_id": "398395230760",
+      "ebay_type": "Ignition Control Module",
+      "ebay_brand": "Standard",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Modules",
       "images": [
         "../assets/pdp-gallery/4V6MKTH3RTVLY4U7QV7TO7JZ/02.webp",
         "../assets/pdp-gallery/4V6MKTH3RTVLY4U7QV7TO7JZ/03.webp"
-      ]
+      ],
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "2GDSHONU473LO4VNJAQU6CFI",
@@ -113352,5 +113999,5 @@
       "ebay_brand": ""
     }
   ],
-  "fitment_built": "2026-09-15T00:02:40Z"
+  "fitment_built": "2026-09-15T01:03:02Z"
 }
