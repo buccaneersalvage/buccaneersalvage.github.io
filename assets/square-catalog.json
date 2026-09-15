@@ -1,7 +1,7 @@
 {
-  "updated": "2026-09-15T03:02:27Z",
+  "updated": "2026-09-15T04:02:48Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 792,
+  "count": 795,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -34355,12 +34355,10 @@
       "category": "filters",
       "checkout": true,
       "variation_id": "OCTAYZNNBLVANIIVRLGEO5XU",
-      "stock": 1,
       "part_numbers": [
         "PH3593A",
         "PH3593A, TG3593A, XG3593A, HM3593A"
       ],
-      "interchange": [],
       "vehicles": [
         "Acura Civic",
         "1990\u20132001 Acura Integra",
@@ -34372,12 +34370,7 @@
         "1999\u20132002 Honda Odyssey",
         "1990\u20131999 Subaru Legacy"
       ],
-      "vehicle_count_raw": 289,
-      "ebay_item_id": "398395627195",
-      "ebay_type": "Oil Filter",
-      "ebay_brand": "FRAM",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Filters",
-      "fitment_source": "ebay_listing+title",
+      "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
@@ -34489,17 +34482,24 @@
           "1990\u20131999 Subaru Legacy"
         ],
         "raw_compat_rows": 289,
-        "source": "ebay_listing+title",
+        "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398395627195",
         "type": "Oil Filter",
         "brand": "FRAM",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Filters"
       },
+      "vehicle_count_raw": 289,
+      "ebay_item_id": "398395627195",
+      "ebay_type": "Oil Filter",
+      "ebay_brand": "FRAM",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Filters",
       "images": [
         "../assets/pdp-gallery/3HFC6OZJ3NIJHUHNRZZK246B/02.webp",
         "../assets/pdp-gallery/3HFC6OZJ3NIJHUHNRZZK246B/03.webp"
-      ]
+      ],
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "LI27QWM3ZP4GE6HYAQ5REDRG",
@@ -114251,6 +114251,211 @@
       "vehicles": []
     },
     {
+      "id": "UGXD4X7ZJG5KGF7DJ7RKMGYF",
+      "name": "Wagner F110873 Wheel Cylinder 13/16 Ford Ranger Bronco II Mazda NOS",
+      "price": 14.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/acc85bd2d588d3ce3d8fea7f5783be18adde765d/original.jpeg",
+      "url": "https://square.link/u/zy6K5nd0",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "ETYZTYX2FMHJES46NTDNQ2JO",
+      "stock": 1,
+      "part_numbers": [
+        "F110873",
+        "WC110873 NAPA 37640 Raybestos WC37640"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1984\u20131990 Ford Bronco II",
+        "1983\u20131992 Ford Ranger",
+        "1987\u20131993 Mazda B2200",
+        "1994\u20131997 Mazda B2300",
+        "1987\u20131993 Mazda B2600",
+        "1994\u20131997 Mazda B3000",
+        "1994\u20131997 Mazda B4000"
+      ],
+      "vehicle_count_raw": 519,
+      "ebay_item_id": "398395760920",
+      "ebay_type": "Drum Brake Wheel Cylinder",
+      "ebay_brand": "Wagner",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Wheel Cylinders",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "F110873",
+          "WC110873 NAPA 37640 Raybestos WC37640"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1984,
+            "year_to": 1990,
+            "make": "Ford",
+            "model": "Bronco II",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1983,
+            "year_to": 1992,
+            "make": "Ford",
+            "model": "Ranger",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1993,
+            "make": "Mazda",
+            "model": "B2200",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1994,
+            "year_to": 1997,
+            "make": "Mazda",
+            "model": "B2300",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1993,
+            "make": "Mazda",
+            "model": "B2600",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1994,
+            "year_to": 1997,
+            "make": "Mazda",
+            "model": "B3000",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1994,
+            "year_to": 1997,
+            "make": "Mazda",
+            "model": "B4000",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1984\u20131990 Ford Bronco II",
+          "1983\u20131992 Ford Ranger",
+          "1987\u20131993 Mazda B2200",
+          "1994\u20131997 Mazda B2300",
+          "1987\u20131993 Mazda B2600",
+          "1994\u20131997 Mazda B3000",
+          "1994\u20131997 Mazda B4000"
+        ],
+        "raw_compat_rows": 519,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398395760920",
+        "type": "Drum Brake Wheel Cylinder",
+        "brand": "Wagner",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Wheel Cylinders"
+      },
+      "images": [
+        "../assets/pdp-gallery/UGXD4X7ZJG5KGF7DJ7RKMGYF/02.webp",
+        "../assets/pdp-gallery/UGXD4X7ZJG5KGF7DJ7RKMGYF/03.webp",
+        "../assets/pdp-gallery/UGXD4X7ZJG5KGF7DJ7RKMGYF/04.webp",
+        "../assets/pdp-gallery/UGXD4X7ZJG5KGF7DJ7RKMGYF/05.webp",
+        "../assets/pdp-gallery/UGXD4X7ZJG5KGF7DJ7RKMGYF/06.webp"
+      ]
+    },
+    {
+      "id": "F4NAZZ2LLPTK7UZE6M4A2RF2",
+      "name": "Wagner F112365 Wheel Cylinder 1in Ford Taurus Sable 86-92 NOS",
+      "price": 14.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/607a8db44d24853621cb541e29cda65e9d7e02b6/original.jpeg",
+      "url": "https://square.link/u/E7yaJVoq",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "DP3FWZMCU5W27O5GPLC4XTFJ",
+      "stock": 1,
+      "part_numbers": [
+        "F112365",
+        "WC112365 NAPA 37668 Raybestos WC37668 Bendix 33917"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1986\u20131992 Ford Taurus",
+        "1986\u20131992 Mercury Sable"
+      ],
+      "vehicle_count_raw": 155,
+      "ebay_item_id": "398395750016",
+      "ebay_type": "Drum Brake Wheel Cylinder",
+      "ebay_brand": "Wagner",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Wheel Cylinders",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "F112365",
+          "WC112365 NAPA 37668 Raybestos WC37668 Bendix 33917"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1986,
+            "year_to": 1992,
+            "make": "Ford",
+            "model": "Taurus",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1986,
+            "year_to": 1992,
+            "make": "Mercury",
+            "model": "Sable",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1986\u20131992 Ford Taurus",
+          "1986\u20131992 Mercury Sable"
+        ],
+        "raw_compat_rows": 155,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398395750016",
+        "type": "Drum Brake Wheel Cylinder",
+        "brand": "Wagner",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Wheel Cylinders"
+      },
+      "images": [
+        "../assets/pdp-gallery/F4NAZZ2LLPTK7UZE6M4A2RF2/02.webp",
+        "../assets/pdp-gallery/F4NAZZ2LLPTK7UZE6M4A2RF2/03.webp"
+      ]
+    },
+    {
       "id": "TN4JN7DIDHLYWGHIHRJFBNFI",
       "name": "Wagner F112409 Wheel Cylinder 13/16 Ford Ranger Aerostar 87-94 NOS",
       "price": 14.99,
@@ -114259,12 +114464,10 @@
       "category": "other",
       "checkout": true,
       "variation_id": "V5JLVNRBHH7UGSUVA74HNXGU",
-      "stock": 1,
       "part_numbers": [
         "F112409",
         "WC112409 FD-122380 NAPA 37663"
       ],
-      "interchange": [],
       "vehicles": [
         "1986\u20131989 Ford Aerostar",
         "1987\u20131994 Ford Ranger",
@@ -114272,11 +114475,6 @@
         "1994 Mazda B3000",
         "1994 Mazda B4000"
       ],
-      "vehicle_count_raw": 295,
-      "ebay_item_id": "398395678140",
-      "ebay_type": "Drum Brake Wheel Cylinder",
-      "ebay_brand": "Wagner",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Wheel Cylinders",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -114352,9 +114550,147 @@
         "brand": "Wagner",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Wheel Cylinders"
       },
+      "vehicle_count_raw": 295,
+      "ebay_item_id": "398395678140",
+      "ebay_type": "Drum Brake Wheel Cylinder",
+      "ebay_brand": "Wagner",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Wheel Cylinders",
       "images": [
         "../assets/pdp-gallery/TN4JN7DIDHLYWGHIHRJFBNFI/02.webp",
         "../assets/pdp-gallery/TN4JN7DIDHLYWGHIHRJFBNFI/03.webp"
+      ],
+      "stock": 1,
+      "interchange": []
+    },
+    {
+      "id": "TN4PLB7SI7RZJQYKHVAIHMS5",
+      "name": "Wagner F113398 Wheel Cylinder 7/8 Isuzu Rodeo Honda Passport NOS",
+      "price": 14.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/4ab4922f0ef674ff1d6e4c60b7fc3e7c217e6771/original.jpeg",
+      "url": "https://square.link/u/MdIs716I",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "TBIYL4ZQEF42C5S46Q75CPG7",
+      "stock": 1,
+      "part_numbers": [
+        "F113398",
+        "WC113398 NAPA 37599 Raybestos WC37599"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1994\u20132002 Honda Passport",
+        "1989\u20131993 Isuzu Amigo",
+        "2002\u20132004 Isuzu Axiom",
+        "1984\u20131995 Isuzu Pickup",
+        "1991\u20132004 Isuzu Rodeo",
+        "2001\u20132003 Isuzu Rodeo Sport",
+        "1984\u20131987 Isuzu Trooper"
+      ],
+      "vehicle_count_raw": 239,
+      "ebay_item_id": "398395756061",
+      "ebay_type": "Drum Brake Wheel Cylinder",
+      "ebay_brand": "Wagner",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Wheel Cylinders",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "F113398",
+          "WC113398 NAPA 37599 Raybestos WC37599"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1994,
+            "year_to": 2002,
+            "make": "Honda",
+            "model": "Passport",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1989,
+            "year_to": 1993,
+            "make": "Isuzu",
+            "model": "Amigo",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2002,
+            "year_to": 2004,
+            "make": "Isuzu",
+            "model": "Axiom",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 1995,
+            "make": "Isuzu",
+            "model": "Pickup",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1991,
+            "year_to": 2004,
+            "make": "Isuzu",
+            "model": "Rodeo",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2001,
+            "year_to": 2003,
+            "make": "Isuzu",
+            "model": "Rodeo Sport",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 1987,
+            "make": "Isuzu",
+            "model": "Trooper",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1994\u20132002 Honda Passport",
+          "1989\u20131993 Isuzu Amigo",
+          "2002\u20132004 Isuzu Axiom",
+          "1984\u20131995 Isuzu Pickup",
+          "1991\u20132004 Isuzu Rodeo",
+          "2001\u20132003 Isuzu Rodeo Sport",
+          "1984\u20131987 Isuzu Trooper"
+        ],
+        "raw_compat_rows": 239,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398395756061",
+        "type": "Drum Brake Wheel Cylinder",
+        "brand": "Wagner",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Wheel Cylinders"
+      },
+      "images": [
+        "../assets/pdp-gallery/TN4PLB7SI7RZJQYKHVAIHMS5/02.webp",
+        "../assets/pdp-gallery/TN4PLB7SI7RZJQYKHVAIHMS5/03.webp"
       ]
     },
     {
@@ -114488,5 +114824,5 @@
       "ebay_brand": ""
     }
   ],
-  "fitment_built": "2026-09-15T03:02:27Z"
+  "fitment_built": "2026-09-15T04:02:48Z"
 }
