@@ -1,7 +1,7 @@
 {
-  "updated": "2026-09-16T01:02:25Z",
+  "updated": "2026-09-16T02:02:42Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 805,
+  "count": 807,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -67640,23 +67640,16 @@
       "category": "other",
       "checkout": true,
       "variation_id": "WVCQGWIEURBTPOCVKEPE2ZWU",
-      "stock": 1,
       "part_numbers": [
         "D8041",
         "89057520"
       ],
-      "interchange": [],
       "vehicles": [
         "1993\u20132002 Chevrolet Camaro",
         "1993\u20132002 GM 89057520",
         "1993\u20132002 Pontiac Firebird"
       ],
-      "vehicle_count_raw": 121,
-      "ebay_item_id": "398398746286",
-      "ebay_type": "Oil Pressure Switch",
-      "ebay_brand": "ACDelco",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Engine Sensors & Switches",
-      "fitment_source": "ebay_listing+title",
+      "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
@@ -67702,17 +67695,24 @@
           "1993\u20132002 Pontiac Firebird"
         ],
         "raw_compat_rows": 121,
-        "source": "ebay_listing+title",
+        "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398398746286",
         "type": "Oil Pressure Switch",
         "brand": "ACDelco",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Engine Sensors & Switches"
       },
+      "vehicle_count_raw": 121,
+      "ebay_item_id": "398398746286",
+      "ebay_type": "Oil Pressure Switch",
+      "ebay_brand": "ACDelco",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Engine Sensors & Switches",
       "images": [
         "../assets/pdp-gallery/BOHM2OSDRIQ6OPA3HQVL5WJY/02.webp",
         "../assets/pdp-gallery/BOHM2OSDRIQ6OPA3HQVL5WJY/03.webp"
-      ]
+      ],
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "EUHHRIHKC5CP3XKVETQODNSR",
@@ -98690,12 +98690,10 @@
       "category": "other",
       "checkout": true,
       "variation_id": "KKFQKWHSXT5JH2UJA7J5X2D4",
-      "stock": 1,
       "part_numbers": [
         "2-3011",
         "Spicer 5-3147X"
       ],
-      "interchange": [],
       "vehicles": [
         "1988\u20131999 Chevrolet C1500",
         "1988\u20131999 Chevrolet K1500",
@@ -98703,11 +98701,6 @@
         "1988\u20131999 GMC C1500",
         "1999\u20132016 GMC Sierra 1500"
       ],
-      "vehicle_count_raw": 1839,
-      "ebay_item_id": "398398744939",
-      "ebay_type": "Universal Joint",
-      "ebay_brand": "Neapco",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:Driveshafts & Parts:Driveshaft Bearings & U-Joints",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -98783,11 +98776,18 @@
         "brand": "Neapco",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:Driveshafts & Parts:Driveshaft Bearings & U-Joints"
       },
+      "vehicle_count_raw": 1839,
+      "ebay_item_id": "398398744939",
+      "ebay_type": "Universal Joint",
+      "ebay_brand": "Neapco",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:Driveshafts & Parts:Driveshaft Bearings & U-Joints",
       "images": [
         "../assets/pdp-gallery/AYWIWB4RXY4KLQYIJR4RZ6QO/02.webp",
         "../assets/pdp-gallery/AYWIWB4RXY4KLQYIJR4RZ6QO/03.webp",
         "../assets/pdp-gallery/AYWIWB4RXY4KLQYIJR4RZ6QO/04.webp"
-      ]
+      ],
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "WFSUCZEN6UB5VJCHR6GJARSK",
@@ -112585,6 +112585,90 @@
       "stock": 1
     },
     {
+      "id": "KO5NU5EL5YLWV4K3RD4F3FR4",
+      "name": "U-Haul 13480 Trailer Wiring Adapter 6-Way Round to 4-Flat Piggyback NOS",
+      "price": 16.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/85a6642bd0f777d8b72caac95130b7b401e2600d/original.jpeg",
+      "url": "https://square.link/u/6WzWaM94",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "HX2JIU45YJM7PAUWEEVUEMXM",
+      "stock": 1,
+      "part_numbers": [
+        "13480"
+      ],
+      "interchange": [],
+      "vehicles": [],
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398398949658",
+      "ebay_type": "Trailer Wiring Adapter",
+      "ebay_brand": "U-Haul",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Towing Parts & Accessories:Wiring, Harnesses & Connectors",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "medium",
+      "fitment": {
+        "part_numbers": [
+          "13480"
+        ],
+        "interchange": [],
+        "vehicles": [],
+        "vehicle_labels": [],
+        "raw_compat_rows": 0,
+        "source": "ebay_listing",
+        "confidence": "medium",
+        "ebay_item_id": "398398949658",
+        "type": "Trailer Wiring Adapter",
+        "brand": "U-Haul",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Towing Parts & Accessories:Wiring, Harnesses & Connectors"
+      },
+      "images": [
+        "../assets/pdp-gallery/KO5NU5EL5YLWV4K3RD4F3FR4/02.webp",
+        "../assets/pdp-gallery/KO5NU5EL5YLWV4K3RD4F3FR4/03.webp"
+      ]
+    },
+    {
+      "id": "2FLP2E6J3TKRSA7K2GNWJ64B",
+      "name": "U-Haul 14482 Trailer Wiring Adapter 7-Pin Round to 4-Flat Piggyback NOS",
+      "price": 16.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/8f7555837429b4c4cff24180e95e9ce43664d1b3/original.jpeg",
+      "url": "https://square.link/u/Dcpoxm2Z",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "QJWSHHDKCDLKTJ2OIFN4B2F3",
+      "stock": 1,
+      "part_numbers": [
+        "14482"
+      ],
+      "interchange": [],
+      "vehicles": [],
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398398953061",
+      "ebay_type": "Trailer Wiring Adapter",
+      "ebay_brand": "U-Haul",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Towing Parts & Accessories:Wiring, Harnesses & Connectors",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "medium",
+      "fitment": {
+        "part_numbers": [
+          "14482"
+        ],
+        "interchange": [],
+        "vehicles": [],
+        "vehicle_labels": [],
+        "raw_compat_rows": 0,
+        "source": "ebay_listing",
+        "confidence": "medium",
+        "ebay_item_id": "398398953061",
+        "type": "Trailer Wiring Adapter",
+        "brand": "U-Haul",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Towing Parts & Accessories:Wiring, Harnesses & Connectors"
+      },
+      "images": [
+        "../assets/pdp-gallery/2FLP2E6J3TKRSA7K2GNWJ64B/02.webp",
+        "../assets/pdp-gallery/2FLP2E6J3TKRSA7K2GNWJ64B/03.webp"
+      ]
+    },
+    {
       "id": "YN3ZVVIYMAC3QVB4HGFYB4G3",
       "name": "U.S. Games 1025 Space Jockey Atari 2600 Cart AS-IS Untested",
       "price": 5.99,
@@ -115663,5 +115747,5 @@
       "ebay_brand": ""
     }
   ],
-  "fitment_built": "2026-09-16T01:02:25Z"
+  "fitment_built": "2026-09-16T02:02:42Z"
 }
