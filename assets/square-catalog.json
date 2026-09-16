@@ -1,7 +1,7 @@
 {
-  "updated": "2026-09-16T22:02:40Z",
+  "updated": "2026-09-16T23:02:40Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 849,
+  "count": 850,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -74389,23 +74389,16 @@
       "category": "other",
       "checkout": true,
       "variation_id": "R33MJNVL3YAJEACEYGQ72FQV",
-      "stock": 1,
       "part_numbers": [
         "6-3765RA",
         "3765RA"
       ],
-      "interchange": [],
       "vehicles": [
         "1982\u20131989 Buick Century",
         "1982\u20131989 Chevrolet Celebrity",
         "1982\u20131989 Oldsmobile Cutlass Ciera",
         "1982\u20131989 Pontiac 6000"
       ],
-      "vehicle_count_raw": 208,
-      "ebay_item_id": "398401874265",
-      "ebay_type": "Connecting Rod Bearing Set",
-      "ebay_brand": "Federal-Mogul",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Engine Bearings",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -74470,11 +74463,18 @@
         "brand": "Federal-Mogul",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Engine Bearings"
       },
+      "vehicle_count_raw": 208,
+      "ebay_item_id": "398401874265",
+      "ebay_type": "Connecting Rod Bearing Set",
+      "ebay_brand": "Federal-Mogul",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Engine Bearings",
       "images": [
         "../assets/pdp-gallery/G57C33MVEUDBHLXACCVDWVQ7/02.webp",
         "../assets/pdp-gallery/G57C33MVEUDBHLXACCVDWVQ7/03.webp",
         "../assets/pdp-gallery/G57C33MVEUDBHLXACCVDWVQ7/04.webp"
-      ]
+      ],
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "5HHOJ7GJXFXMAJZZKQVOMKGJ",
@@ -118738,6 +118738,50 @@
       "stock": 1
     },
     {
+      "id": "J3QWNBTF5AOLYYUF42QJXRKQ",
+      "name": "Wagner 08543 Master Cylinder NOS",
+      "price": 54.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/7ef5fe7849e538aaf8f9bb2a3cf993b38ee03aa0/original.jpeg",
+      "url": "https://square.link/u/NUO8ergV",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "36WE3LPT6GJD7PCEURWHDRYA",
+      "stock": 1,
+      "part_numbers": [
+        "08543",
+        "53209 800-228 08943 153209"
+      ],
+      "interchange": [],
+      "vehicles": [],
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398402066281",
+      "ebay_type": "Master Cylinder",
+      "ebay_brand": "Wagner",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Master Cylinders",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "08543",
+          "53209 800-228 08943 153209"
+        ],
+        "interchange": [],
+        "vehicles": [],
+        "vehicle_labels": [],
+        "raw_compat_rows": 0,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398402066281",
+        "type": "Master Cylinder",
+        "brand": "Wagner",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Master Cylinders"
+      },
+      "images": [
+        "../assets/pdp-gallery/J3QWNBTF5AOLYYUF42QJXRKQ/02.webp",
+        "../assets/pdp-gallery/J3QWNBTF5AOLYYUF42QJXRKQ/03.webp"
+      ]
+    },
+    {
       "id": "U7A3AB25DS3F54MHTGJSMXNS",
       "name": "Wagner BD61281 Zinc Lug Nut Lot of 3 Partial 1/2-20 81-89 Concord Fifth Ave NOS",
       "price": 15.99,
@@ -119811,5 +119855,5 @@
       "ebay_brand": ""
     }
   ],
-  "fitment_built": "2026-09-16T22:02:40Z"
+  "fitment_built": "2026-09-16T23:02:40Z"
 }
