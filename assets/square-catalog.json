@@ -1,7 +1,7 @@
 {
-  "updated": "2026-09-16T02:02:42Z",
+  "updated": "2026-09-16T10:17:47Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 807,
+  "count": 835,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -892,6 +892,47 @@
       ],
       "stock": 1,
       "vehicles": []
+    },
+    {
+      "id": "3DRPCFU5TODRHPH6LA6JYJVE",
+      "name": "Automann ABSP3B32RA-7847 Triple Convolute Air Spring New W01-358-7847",
+      "price": 175.0,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/76c6e8847ba3f070c2364333f3b8eccc2d2497cc/original.jpeg",
+      "url": "https://square.link/u/I83poqWa",
+      "category": "air-spring",
+      "checkout": true,
+      "variation_id": "NAAV57IH4MTU4MBMJ6PLHAA4",
+      "stock": 1,
+      "part_numbers": [
+        "ABSP3B32RA-7847",
+        "W01-358-7847"
+      ],
+      "interchange": [],
+      "vehicles": [],
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398385277717",
+      "ebay_type": "Triple Convoluted",
+      "ebay_brand": "Automann",
+      "ebay_category": "eBay Motors:Parts & Accessories:Commercial Truck Parts:Suspension & Steering:Air Ride Suspension",
+      "fitment_source": "ebay_listing+airspring_inventory",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "ABSP3B32RA-7847",
+          "W01-358-7847"
+        ],
+        "interchange": [],
+        "vehicles": [],
+        "vehicle_labels": [],
+        "raw_compat_rows": 0,
+        "source": "ebay_listing+airspring_inventory",
+        "confidence": "high",
+        "ebay_item_id": "398385277717",
+        "type": "Triple Convoluted",
+        "brand": "Automann",
+        "ebay_category": "eBay Motors:Parts & Accessories:Commercial Truck Parts:Suspension & Steering:Air Ride Suspension"
+      },
+      "images": []
     },
     {
       "id": "MJAQDKIB2WT55I26Q552PZXS",
@@ -2220,6 +2261,62 @@
       "part_numbers": [],
       "interchange": [],
       "vehicles": []
+    },
+    {
+      "id": "C3DOVNOGN5E7R3CN7L6TGBIE",
+      "name": "Big A 2M-7179 Front Disc Brake Pads Dodge B150 Van 81-94 NOS",
+      "price": 29.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/5c3bd24b5f7e7bfcc25524380b2b7d8457b23620/original.jpeg",
+      "url": "https://square.link/u/5yfAn9eo",
+      "category": "brake",
+      "checkout": true,
+      "variation_id": "GLMS3RH2RU4YZIJRNDZ5QIZO",
+      "stock": 1,
+      "part_numbers": [
+        "2M-7179",
+        "2M-269, Wagner MX269, Bendix MKD86"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1981\u20131994 Dodge B150"
+      ],
+      "vehicle_count_raw": 56,
+      "ebay_item_id": "398391586466",
+      "ebay_type": "Disc Brake Pad",
+      "ebay_brand": "Big A",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Master Cylinders",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "2M-7179",
+          "2M-269, Wagner MX269, Bendix MKD86"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1981,
+            "year_to": 1994,
+            "make": "Dodge",
+            "model": "B150",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1981\u20131994 Dodge B150"
+        ],
+        "raw_compat_rows": 56,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398391586466",
+        "type": "Disc Brake Pad",
+        "brand": "Big A",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Master Cylinders"
+      },
+      "images": []
     },
     {
       "id": "LOLWHY65WEFYFU7ZW3QBB43Q",
@@ -7190,6 +7287,222 @@
       "vehicles": []
     },
     {
+      "id": "5PZV4GAHBORB24BFV2TRZIC6",
+      "name": "Carlson H1150-2 Drum Brake Hold Down Spring NOS 67-97 Camaro Firebird Impala",
+      "price": 12.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/5f856e368d221f05ab3a9695b8e2907764308f01/original.jpeg",
+      "url": "https://square.link/u/HsWkPUuA",
+      "category": "brake",
+      "checkout": true,
+      "variation_id": "47GNRZ3LXGDTBWDA5YFSO2LD",
+      "stock": 1,
+      "part_numbers": [
+        "H1150-2"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1964\u20131998 Buick Skylark",
+        "1968\u20131999 Cadillac DeVille",
+        "1967\u20131997 Chevrolet Camaro",
+        "1966\u20131996 Chevrolet Caprice",
+        "1960\u20131985 Chevrolet Impala",
+        "1967\u20131997 Pontiac Firebird"
+      ],
+      "vehicle_count_raw": 2672,
+      "ebay_item_id": "398365460744",
+      "ebay_type": "Drum Brake Shoe Hold Down Spring",
+      "ebay_brand": "Carlson",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "H1150-2"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1964,
+            "year_to": 1998,
+            "make": "Buick",
+            "model": "Skylark",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1968,
+            "year_to": 1999,
+            "make": "Cadillac",
+            "model": "DeVille",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1967,
+            "year_to": 1997,
+            "make": "Chevrolet",
+            "model": "Camaro",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1966,
+            "year_to": 1996,
+            "make": "Chevrolet",
+            "model": "Caprice",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1960,
+            "year_to": 1985,
+            "make": "Chevrolet",
+            "model": "Impala",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1967,
+            "year_to": 1997,
+            "make": "Pontiac",
+            "model": "Firebird",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1964\u20131998 Buick Skylark",
+          "1968\u20131999 Cadillac DeVille",
+          "1967\u20131997 Chevrolet Camaro",
+          "1966\u20131996 Chevrolet Caprice",
+          "1960\u20131985 Chevrolet Impala",
+          "1967\u20131997 Pontiac Firebird"
+        ],
+        "raw_compat_rows": 2672,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398365460744",
+        "type": "Drum Brake Shoe Hold Down Spring",
+        "brand": "Carlson",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware"
+      },
+      "images": []
+    },
+    {
+      "id": "DYMI33CWW4NR5RMBNK6AHZFU",
+      "name": "Carlson H2090-2 Drum Brake Adjuster Cable Guide NOS 64-93 Mustang F-150",
+      "price": 9.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/10c27e6961385f487f3e0183b8a79ca17459f133/original.jpeg",
+      "url": "https://square.link/u/zIBX54Uc",
+      "category": "brake",
+      "checkout": true,
+      "variation_id": "WZIDPEJBXTKROAP5VOFMZSAZ",
+      "stock": 1,
+      "part_numbers": [
+        "H2090-2"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1967\u20131996 Ford Bronco",
+        "1975\u20132002 Ford E-150 Econoline",
+        "1975\u20132010 Ford F-150",
+        "1965\u20131974 Ford LTD",
+        "1964\u20131993 Ford Mustang"
+      ],
+      "vehicle_count_raw": 3000,
+      "ebay_item_id": "398365461040",
+      "ebay_type": "Drum Brake Self-Adjuster Cable Guide",
+      "ebay_brand": "Carlson",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "H2090-2"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1967,
+            "year_to": 1996,
+            "make": "Ford",
+            "model": "Bronco",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1975,
+            "year_to": 2002,
+            "make": "Ford",
+            "model": "E-150 Econoline",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1975,
+            "year_to": 2010,
+            "make": "Ford",
+            "model": "F-150",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1965,
+            "year_to": 1974,
+            "make": "Ford",
+            "model": "LTD",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1964,
+            "year_to": 1993,
+            "make": "Ford",
+            "model": "Mustang",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1967\u20131996 Ford Bronco",
+          "1975\u20132002 Ford E-150 Econoline",
+          "1975\u20132010 Ford F-150",
+          "1965\u20131974 Ford LTD",
+          "1964\u20131993 Ford Mustang"
+        ],
+        "raw_compat_rows": 3000,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398365461040",
+        "type": "Drum Brake Self-Adjuster Cable Guide",
+        "brand": "Carlson",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware"
+      },
+      "images": []
+    },
+    {
       "id": "KDJ2HS5DZLSH3FVDMR3SRBNZ",
       "name": "Carlson H2102 Front Drum Brake Self-Adjuster Cable Set/2 NOS Ford Bronco",
       "price": 12.99,
@@ -9139,6 +9452,120 @@
       ],
       "stock": 1,
       "interchange": []
+    },
+    {
+      "id": "EQC2EJRDXS3RBURQNXTELGBF",
+      "name": "Carlson H2148-2 Drum Brake Adjusting Spring NOS 67-78 Camaro Firebird Nova",
+      "price": 9.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/adcfb7664aedffc582fc3b96105f5418164f928d/original.jpeg",
+      "url": "https://square.link/u/XCWt4i0k",
+      "category": "brake",
+      "checkout": true,
+      "variation_id": "7CZGGU676W7TQ34D7UWYLTE4",
+      "stock": 1,
+      "part_numbers": [
+        "H2148-2"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1975\u20131986 Chevrolet C10",
+        "1967\u20131978 Chevrolet Camaro",
+        "1977\u20131993 Chevrolet Caprice",
+        "1969\u20131978 Chevrolet Nova",
+        "1970\u20131994 GMC Jimmy",
+        "1967\u20131978 Pontiac Firebird"
+      ],
+      "vehicle_count_raw": 1541,
+      "ebay_item_id": "398365461202",
+      "ebay_type": "Drum Brake Adjusting Lever Return Spring",
+      "ebay_brand": "Carlson",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "H2148-2"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1975,
+            "year_to": 1986,
+            "make": "Chevrolet",
+            "model": "C10",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1967,
+            "year_to": 1978,
+            "make": "Chevrolet",
+            "model": "Camaro",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1977,
+            "year_to": 1993,
+            "make": "Chevrolet",
+            "model": "Caprice",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1969,
+            "year_to": 1978,
+            "make": "Chevrolet",
+            "model": "Nova",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1970,
+            "year_to": 1994,
+            "make": "GMC",
+            "model": "Jimmy",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1967,
+            "year_to": 1978,
+            "make": "Pontiac",
+            "model": "Firebird",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1975\u20131986 Chevrolet C10",
+          "1967\u20131978 Chevrolet Camaro",
+          "1977\u20131993 Chevrolet Caprice",
+          "1969\u20131978 Chevrolet Nova",
+          "1970\u20131994 GMC Jimmy",
+          "1967\u20131978 Pontiac Firebird"
+        ],
+        "raw_compat_rows": 1541,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398365461202",
+        "type": "Drum Brake Adjusting Lever Return Spring",
+        "brand": "Carlson",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware"
+      },
+      "images": []
     },
     {
       "id": "GBUDJ7DEQQ47YXBCGQKMC26U",
@@ -14693,6 +15120,108 @@
       "stock": 1
     },
     {
+      "id": "IS4PXZ34XEFXXGS22JESUEOV",
+      "name": "Carlson H4050-2 Drum Brake Shoe Hold Down Kit NOS 62-72 Fury Polara Galaxie",
+      "price": 14.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/b719ca4656708955c91f5d269b04877f35f7cd21/original.jpeg",
+      "url": "https://square.link/u/Hb68JGUr",
+      "category": "brake",
+      "checkout": true,
+      "variation_id": "7U7LMWUWQDKHWGA5E42UL3GB",
+      "stock": 1,
+      "part_numbers": [
+        "H4050-2"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1963\u20131973 Chrysler Imperial",
+        "1963\u20131972 Dodge Polara",
+        "1965\u20131967 Ford Galaxie",
+        "1962\u20131971 Plymouth Belvedere",
+        "1962\u20131972 Plymouth Fury"
+      ],
+      "vehicle_count_raw": 1193,
+      "ebay_item_id": "398365461579",
+      "ebay_type": "Drum Brake Shoe Hold Down Kit",
+      "ebay_brand": "Carlson",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "H4050-2"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1963,
+            "year_to": 1973,
+            "make": "Chrysler",
+            "model": "Imperial",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1963,
+            "year_to": 1972,
+            "make": "Dodge",
+            "model": "Polara",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1965,
+            "year_to": 1967,
+            "make": "Ford",
+            "model": "Galaxie",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1962,
+            "year_to": 1971,
+            "make": "Plymouth",
+            "model": "Belvedere",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1962,
+            "year_to": 1972,
+            "make": "Plymouth",
+            "model": "Fury",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1963\u20131973 Chrysler Imperial",
+          "1963\u20131972 Dodge Polara",
+          "1965\u20131967 Ford Galaxie",
+          "1962\u20131971 Plymouth Belvedere",
+          "1962\u20131972 Plymouth Fury"
+        ],
+        "raw_compat_rows": 1193,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398365461579",
+        "type": "Drum Brake Shoe Hold Down Kit",
+        "brand": "Carlson",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware"
+      },
+      "images": []
+    },
+    {
       "id": "7A5BNSS737LKFR6IKNK3G4MF",
       "name": "Carlson H4090-2 Drum Brake Shoe Hold Down Kit 72-75 Torino Mustang Cougar NOS",
       "price": 12.99,
@@ -15014,6 +15543,120 @@
       ],
       "stock": 1,
       "interchange": []
+    },
+    {
+      "id": "CQXMJOSX3TPH7JPQDCXPQRKE",
+      "name": "Carlson H4099-2 Drum Brake Shoe Hold Down Kit NOS 82-00 Cavalier Skylark",
+      "price": 9.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/37309c8c45786091834558097082875197e71454/original.jpeg",
+      "url": "https://square.link/u/Otb9auep",
+      "category": "brake",
+      "checkout": true,
+      "variation_id": "D4VDS72KERVVZZR7VICSLA46",
+      "stock": 1,
+      "part_numbers": [
+        "H4099-2"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1982\u20131992 Buick Century",
+        "1982\u20131998 Buick Skylark",
+        "1991\u20131996 Chevrolet Beretta",
+        "1982\u20132000 Chevrolet Cavalier",
+        "1982\u20131990 Chevrolet Celebrity",
+        "1987\u20131996 Chevrolet Corsica"
+      ],
+      "vehicle_count_raw": 846,
+      "ebay_item_id": "398365461940",
+      "ebay_type": "Drum Brake Shoe Hold Down Kit",
+      "ebay_brand": "Carlson",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "H4099-2"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1982,
+            "year_to": 1992,
+            "make": "Buick",
+            "model": "Century",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1982,
+            "year_to": 1998,
+            "make": "Buick",
+            "model": "Skylark",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1991,
+            "year_to": 1996,
+            "make": "Chevrolet",
+            "model": "Beretta",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1982,
+            "year_to": 2000,
+            "make": "Chevrolet",
+            "model": "Cavalier",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1982,
+            "year_to": 1990,
+            "make": "Chevrolet",
+            "model": "Celebrity",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1996,
+            "make": "Chevrolet",
+            "model": "Corsica",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1982\u20131992 Buick Century",
+          "1982\u20131998 Buick Skylark",
+          "1991\u20131996 Chevrolet Beretta",
+          "1982\u20132000 Chevrolet Cavalier",
+          "1982\u20131990 Chevrolet Celebrity",
+          "1987\u20131996 Chevrolet Corsica"
+        ],
+        "raw_compat_rows": 846,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398365461940",
+        "type": "Drum Brake Shoe Hold Down Kit",
+        "brand": "Carlson",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware"
+      },
+      "images": []
     },
     {
       "id": "CLMFA7X63KOP4FYYZGX6ZQDR",
@@ -20074,6 +20717,96 @@
       "interchange": []
     },
     {
+      "id": "5OJTGNVQVKD5HIPOWNP5UJOL",
+      "name": "Carlson H5107-2 Brake Star Lock Washers NOS 76-80 Monza Sunbird Skyhawk",
+      "price": 9.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/b36b73eaeb671bc284c7d184807bd6662fd80892/original.jpeg",
+      "url": "https://square.link/u/gkKmAjvL",
+      "category": "brake",
+      "checkout": true,
+      "variation_id": "ENL4JFIOYJ5C7QFW4LMYSPBY",
+      "stock": 1,
+      "part_numbers": [
+        "H5107-2"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1976\u20131980 Buick Skyhawk",
+        "1976\u20131980 Chevrolet Monza",
+        "1976\u20131980 Oldsmobile Starfire",
+        "1976\u20131980 Pontiac Sunbird"
+      ],
+      "vehicle_count_raw": 194,
+      "ebay_item_id": "398365462434",
+      "ebay_type": "Brake Hardware Star Lock Washers",
+      "ebay_brand": "Carlson",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "H5107-2"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1976,
+            "year_to": 1980,
+            "make": "Buick",
+            "model": "Skyhawk",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1976,
+            "year_to": 1980,
+            "make": "Chevrolet",
+            "model": "Monza",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1976,
+            "year_to": 1980,
+            "make": "Oldsmobile",
+            "model": "Starfire",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1976,
+            "year_to": 1980,
+            "make": "Pontiac",
+            "model": "Sunbird",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1976\u20131980 Buick Skyhawk",
+          "1976\u20131980 Chevrolet Monza",
+          "1976\u20131980 Oldsmobile Starfire",
+          "1976\u20131980 Pontiac Sunbird"
+        ],
+        "raw_compat_rows": 194,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398365462434",
+        "type": "Brake Hardware Star Lock Washers",
+        "brand": "Carlson",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware"
+      },
+      "images": []
+    },
+    {
       "id": "CODU7BN4KGSBU7WVFBZCL4F7",
       "name": "Carlson H5412 Disc Brake Anti-Rattle Clip Kit 8 Piece Multi-Application New",
       "price": 12.99,
@@ -21635,6 +22368,96 @@
       ],
       "stock": 1,
       "interchange": []
+    },
+    {
+      "id": "GCDHRNGVTE65X5HQWL4PNGJT",
+      "name": "Carlson H5430-2 Disc Brake Anti-Rattle Spring NOS 79-93 LTD Grand Marquis",
+      "price": 14.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/00805946cbff5580798ef7da1d863644323df091/original.jpeg",
+      "url": "https://square.link/u/WRyGWCyI",
+      "category": "brake",
+      "checkout": true,
+      "variation_id": "DAWDHIYJQVYMCRYW2I4S64LC",
+      "stock": 1,
+      "part_numbers": [
+        "H5430-2"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1979\u20131986 Ford LTD",
+        "1987\u20131991 Ford LTD Crown Victoria",
+        "1981\u20131993 Mercury Grand Marquis",
+        "1981\u20131986 Mercury Marquis"
+      ],
+      "vehicle_count_raw": 332,
+      "ebay_item_id": "398365462974",
+      "ebay_type": "Disc Brake Anti-Rattle Spring",
+      "ebay_brand": "Carlson",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "H5430-2"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1979,
+            "year_to": 1986,
+            "make": "Ford",
+            "model": "LTD",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1991,
+            "make": "Ford",
+            "model": "LTD Crown Victoria",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1981,
+            "year_to": 1993,
+            "make": "Mercury",
+            "model": "Grand Marquis",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1981,
+            "year_to": 1986,
+            "make": "Mercury",
+            "model": "Marquis",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1979\u20131986 Ford LTD",
+          "1987\u20131991 Ford LTD Crown Victoria",
+          "1981\u20131993 Mercury Grand Marquis",
+          "1981\u20131986 Mercury Marquis"
+        ],
+        "raw_compat_rows": 332,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398365462974",
+        "type": "Disc Brake Anti-Rattle Spring",
+        "brand": "Carlson",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware"
+      },
+      "images": []
     },
     {
       "id": "SU3CGU6QYUT76IMNM72M6AVW",
@@ -33682,6 +34505,110 @@
       "interchange": []
     },
     {
+      "id": "P7Z5QGCU4NTYW4DFMTMTFKBV",
+      "name": "Wagner Edge EC707 Ceramic Pad Kit Camry Solara Avalon Replacement Shims NOS",
+      "price": 89.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/7977cff87a1a53029c0ed201eea75dd4f1a98ff3/original.jpeg",
+      "url": "https://square.link/u/FCqvaQdy",
+      "category": "brake",
+      "checkout": true,
+      "variation_id": "ALV26NV4F6RWZQXD3WRJ3OID",
+      "stock": 1,
+      "part_numbers": [
+        "EC707",
+        "EC7581, SG707T"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1997\u20132001 Lexus ES300",
+        "1999\u20132001 Lexus RX300",
+        "1998\u20132004 Toyota Avalon",
+        "1997\u20132001 Toyota Camry",
+        "1999\u20132003 Toyota Solara"
+      ],
+      "vehicle_count_raw": 78,
+      "ebay_item_id": "398391633126",
+      "ebay_type": "Ceramic Brake Pad",
+      "ebay_brand": "Wagner",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Master Cylinders",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "EC707",
+          "EC7581, SG707T"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1997,
+            "year_to": 2001,
+            "make": "Lexus",
+            "model": "ES300",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1999,
+            "year_to": 2001,
+            "make": "Lexus",
+            "model": "RX300",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1998,
+            "year_to": 2004,
+            "make": "Toyota",
+            "model": "Avalon",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1997,
+            "year_to": 2001,
+            "make": "Toyota",
+            "model": "Camry",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1999,
+            "year_to": 2003,
+            "make": "Toyota",
+            "model": "Solara",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1997\u20132001 Lexus ES300",
+          "1999\u20132001 Lexus RX300",
+          "1998\u20132004 Toyota Avalon",
+          "1997\u20132001 Toyota Camry",
+          "1999\u20132003 Toyota Solara"
+        ],
+        "raw_compat_rows": 78,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398391633126",
+        "type": "Ceramic Brake Pad",
+        "brand": "Wagner",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Master Cylinders"
+      },
+      "images": []
+    },
+    {
       "id": "2QPEKEV63TKSMBTYJXE5357O",
       "name": "Wagner F109059 Parking Brake Cable E250 E350 Econoline 80-91 NOS",
       "price": 16.99,
@@ -34693,6 +35620,74 @@
       "interchange": []
     },
     {
+      "id": "Z5MH7REBN6M3M46NVHAOJNM4",
+      "name": "Wearever NB723 Brake Shoes Reman Kit F-150 97-01 Dakota NOS",
+      "price": 60.0,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/1a6aea29ad58f40f3176a4e4dd9f6e0e38f34a5c/original.jpeg",
+      "url": "https://square.link/u/m6bxvxUP",
+      "category": "brake",
+      "checkout": true,
+      "variation_id": "IYTSEXYBDOPAKYQ2LGKVWRLW",
+      "stock": 1,
+      "part_numbers": [
+        "NB723",
+        "Wagner Z723, BS723, B723"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "2000\u20132004 Dodge Dakota",
+        "1997\u20132001 Ford F-150"
+      ],
+      "vehicle_count_raw": 335,
+      "ebay_item_id": "398394502712",
+      "ebay_type": "Brake Shoe",
+      "ebay_brand": "Wearever",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Shoes",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "NB723",
+          "Wagner Z723, BS723, B723"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 2000,
+            "year_to": 2004,
+            "make": "Dodge",
+            "model": "Dakota",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1997,
+            "year_to": 2001,
+            "make": "Ford",
+            "model": "F-150",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "2000\u20132004 Dodge Dakota",
+          "1997\u20132001 Ford F-150"
+        ],
+        "raw_compat_rows": 335,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398394502712",
+        "type": "Brake Shoe",
+        "brand": "Wearever",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Shoes"
+      },
+      "images": []
+    },
+    {
       "id": "F7X2LR523KDOKA265ZBJIXIW",
       "name": "Yamaha FJ1100 FJ1200 Rear Brake Master Cylinder Assembly OEM Rebuildable Core",
       "price": 24.99,
@@ -35328,6 +36323,418 @@
         "../assets/pdp-gallery/4VAJXJSACKFNOSFFMMXA64HH/05.webp"
       ],
       "stock": 1
+    },
+    {
+      "id": "67HCXJ5DAGZTVU4JHC4LV543",
+      "name": "Parts Master 62472 WIX 42472 Air Filter Beetle Jetta Golf GTI TT 98-10 NOS",
+      "price": 24.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/e53a8767a92e51c5c407f7163eb46dd9bbe74683/original.jpeg",
+      "url": "https://square.link/u/OnKWuDDB",
+      "category": "filters",
+      "checkout": true,
+      "variation_id": "ETSGSODAO3QX3QNLSGDZPKNI",
+      "stock": 1,
+      "part_numbers": [
+        "62472",
+        "WIX 42472, 1J0129620, 1J0129620A"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "2007 Audi TT",
+        "1998\u20132010 Volkswagen Beetle",
+        "1998\u20132006 Volkswagen Golf",
+        "2007\u20132010 Volkswagen Golf City",
+        "1999\u20132010 Volkswagen Jetta",
+        "2007\u20132009 Volkswagen Jetta City",
+        "2004 Volkswagen R32"
+      ],
+      "vehicle_count_raw": 331,
+      "ebay_item_id": "398392080159",
+      "ebay_type": "Air Filter",
+      "ebay_brand": "Parts Master",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Filters",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "62472",
+          "WIX 42472, 1J0129620, 1J0129620A"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 2007,
+            "year_to": 2007,
+            "make": "Audi",
+            "model": "TT",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1998,
+            "year_to": 2010,
+            "make": "Volkswagen",
+            "model": "Beetle",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1998,
+            "year_to": 2006,
+            "make": "Volkswagen",
+            "model": "Golf",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2007,
+            "year_to": 2010,
+            "make": "Volkswagen",
+            "model": "Golf City",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1999,
+            "year_to": 2010,
+            "make": "Volkswagen",
+            "model": "Jetta",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2007,
+            "year_to": 2009,
+            "make": "Volkswagen",
+            "model": "Jetta City",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2004,
+            "year_to": 2004,
+            "make": "Volkswagen",
+            "model": "R32",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "2007 Audi TT",
+          "1998\u20132010 Volkswagen Beetle",
+          "1998\u20132006 Volkswagen Golf",
+          "2007\u20132010 Volkswagen Golf City",
+          "1999\u20132010 Volkswagen Jetta",
+          "2007\u20132009 Volkswagen Jetta City",
+          "2004 Volkswagen R32"
+        ],
+        "raw_compat_rows": 331,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398392080159",
+        "type": "Air Filter",
+        "brand": "Parts Master",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Filters"
+      },
+      "images": []
+    },
+    {
+      "id": "HPS4YOS6LHY7CCNJ2FRJFWK2",
+      "name": "Parts Master 67312 Oil Filter Kit w Cap Ford 6.0 6.4 Super Duty NOS",
+      "price": 27.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/bbc6f83ccdd108fc4018fc7b08993421f0bd1dcf/original.jpeg",
+      "url": "https://square.link/u/i8oeqAez",
+      "category": "filters",
+      "checkout": true,
+      "variation_id": "4X73QMCVI63V3TM2B4FF5T44",
+      "stock": 1,
+      "part_numbers": [
+        "67312",
+        "LP2017, LF558, L45515, FL2016, NAPA 7312"
+      ],
+      "interchange": [
+        "WIX 57312",
+        "Fram CH9549",
+        "AC PF1704"
+      ],
+      "vehicles": [
+        "2003\u20132005 Ford Excursion",
+        "2003\u20132010 Ford F-250 Super Duty",
+        "2003\u20132010 Ford F-350 Super Duty",
+        "2003\u20132010 Ford F-450 Super Duty",
+        "2003\u20132010 Ford F-550 Super Duty",
+        "2004\u20132008 Ford F-650",
+        "2004\u20132008 Ford F-750"
+      ],
+      "vehicle_count_raw": 403,
+      "ebay_item_id": "398395548001",
+      "ebay_type": "Oil Filter Kit",
+      "ebay_brand": "Parts Master",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Filters",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "67312",
+          "LP2017, LF558, L45515, FL2016, NAPA 7312"
+        ],
+        "interchange": [
+          "WIX 57312",
+          "Fram CH9549",
+          "AC PF1704"
+        ],
+        "vehicles": [
+          {
+            "year_from": 2003,
+            "year_to": 2005,
+            "make": "Ford",
+            "model": "Excursion",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2003,
+            "year_to": 2010,
+            "make": "Ford",
+            "model": "F-250 Super Duty",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2003,
+            "year_to": 2010,
+            "make": "Ford",
+            "model": "F-350 Super Duty",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2003,
+            "year_to": 2010,
+            "make": "Ford",
+            "model": "F-450 Super Duty",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2003,
+            "year_to": 2010,
+            "make": "Ford",
+            "model": "F-550 Super Duty",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2004,
+            "year_to": 2008,
+            "make": "Ford",
+            "model": "F-650",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2004,
+            "year_to": 2008,
+            "make": "Ford",
+            "model": "F-750",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "2003\u20132005 Ford Excursion",
+          "2003\u20132010 Ford F-250 Super Duty",
+          "2003\u20132010 Ford F-350 Super Duty",
+          "2003\u20132010 Ford F-450 Super Duty",
+          "2003\u20132010 Ford F-550 Super Duty",
+          "2004\u20132008 Ford F-650",
+          "2004\u20132008 Ford F-750"
+        ],
+        "raw_compat_rows": 403,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398395548001",
+        "type": "Oil Filter Kit",
+        "brand": "Parts Master",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Filters"
+      },
+      "images": []
+    },
+    {
+      "id": "ZUWWVWS63ETFQ5LNRV5MOCUJ",
+      "name": "Purolator FCG-152 Fuel Filter 2.0 2.4 2.5 Diesel Volvo 240 740 NOS",
+      "price": 24.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/9650061766d7bbc64eadf2371df3f7ac501fe9fc/original.jpeg",
+      "url": "https://square.link/u/bq8h6Hj0",
+      "category": "filters",
+      "checkout": true,
+      "variation_id": "MBSXEPJYSQOU5TOQMZCFHZDE",
+      "stock": 1,
+      "part_numbers": [
+        "FCG-152",
+        "FCG152, WIX 33372, MANN WK842/2, WK842/2, PER152F"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "Volvo 240",
+        "1985\u20131986 Volvo 740",
+        "1985 Volvo 760"
+      ],
+      "vehicle_count_raw": 6,
+      "ebay_item_id": "398395629897",
+      "ebay_type": "Fuel Filter",
+      "ebay_brand": "Purolator",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Fuel Filters",
+      "fitment_source": "ebay_listing+title",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "FCG-152",
+          "FCG152, WIX 33372, MANN WK842/2, WK842/2, PER152F"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": null,
+            "year_to": null,
+            "make": "Volvo",
+            "model": "240",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1986,
+            "make": "Volvo",
+            "model": "740",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1985,
+            "make": "Volvo",
+            "model": "760",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "Volvo 240",
+          "1985\u20131986 Volvo 740",
+          "1985 Volvo 760"
+        ],
+        "raw_compat_rows": 6,
+        "source": "ebay_listing+title",
+        "confidence": "high",
+        "ebay_item_id": "398395629897",
+        "type": "Fuel Filter",
+        "brand": "Purolator",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Fuel Filters"
+      },
+      "images": []
+    },
+    {
+      "id": "D4J4GCM62OUOT7BTKKRGWKAQ",
+      "name": "STP S10855 Oil Filter Cartridge 3.3 3.5 Hyundai Santa Fe Kia Sorento NOS",
+      "price": 12.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/5142a4bc27a9d458fabf6fdae4caa56d52cbaf1b/original.jpeg",
+      "url": "https://square.link/u/o26THncV",
+      "category": "filters",
+      "checkout": true,
+      "variation_id": "ACWJE3INIHQ6EOMT67LJ677N",
+      "stock": 1,
+      "part_numbers": [
+        "S10855",
+        "S10855, CH10855, 57050, L26127, OX417D, 26320-3CAA0, 263203CAA0"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "Hyundai Santa",
+        "Kia Sorento"
+      ],
+      "vehicle_count_raw": 2,
+      "ebay_item_id": "398395765877",
+      "ebay_type": "Oil Filter",
+      "ebay_brand": "STP",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Filters",
+      "fitment_source": "ebay_listing+title",
+      "fitment_confidence": "medium",
+      "fitment": {
+        "part_numbers": [
+          "S10855",
+          "S10855, CH10855, 57050, L26127, OX417D, 26320-3CAA0, 263203CAA0"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": null,
+            "year_to": null,
+            "make": "Hyundai",
+            "model": "Santa",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": null,
+            "year_to": null,
+            "make": "Kia",
+            "model": "Sorento",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "Hyundai Santa",
+          "Kia Sorento"
+        ],
+        "raw_compat_rows": 2,
+        "source": "ebay_listing+title",
+        "confidence": "medium",
+        "ebay_item_id": "398395765877",
+        "type": "Oil Filter",
+        "brand": "STP",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Filters"
+      },
+      "images": []
     },
     {
       "id": "JIBSVW6R77QCOA5HFO3R5EHA",
@@ -60081,6 +61488,809 @@
       "stock": 1
     },
     {
+      "id": "YI7TDRMI6U7DHCK6NN4DFEP5",
+      "name": "Wells 780411 Spark Plug Wire Set 7MM 3 Cyl Sprint Firefly NOS",
+      "price": 40.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/962bffcf45491ed1f945578ed3083533bc1a3c8e/original.jpeg",
+      "url": "https://square.link/u/zj5vBt5x",
+      "category": "ignition",
+      "checkout": true,
+      "variation_id": "7YK6BNWHIVBXXLURXCXZS46A",
+      "stock": 1,
+      "part_numbers": [
+        "LaSalle 780411"
+      ],
+      "interchange": [],
+      "vehicles": [],
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398376693582",
+      "ebay_type": "Spark Plug Wire Set",
+      "ebay_brand": "Wells",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Wires & Coil Boots",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "LaSalle 780411"
+        ],
+        "interchange": [],
+        "vehicles": [],
+        "vehicle_labels": [],
+        "raw_compat_rows": 0,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398376693582",
+        "type": "Spark Plug Wire Set",
+        "brand": "Wells",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Wires & Coil Boots"
+      },
+      "images": []
+    },
+    {
+      "id": "HCAFHSPIFMUFT4YV4PKNF74C",
+      "name": "Wells C838 Ignition Coil 2.2 2.5 5.2 Chrysler Dodge 79-93 NOS",
+      "price": 29.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/df0327c52442cee78c065d783c78196931a377cd/original.jpeg",
+      "url": "https://square.link/u/NdnGIGnG",
+      "category": "ignition",
+      "checkout": true,
+      "variation_id": "42MVJYE5T47IFHCTJQFQXI5D",
+      "stock": 1,
+      "part_numbers": [
+        "C838",
+        "4176009 4167126 5227250 5C1086 5185 U12L E39 IC-27"
+      ],
+      "interchange": [
+        "UC-16"
+      ],
+      "vehicles": [
+        "1979\u20131983 Chrysler Cordoba",
+        "1984\u20131990 Chrysler Daytona",
+        "1988\u20131990 Chrysler Dynasty",
+        "1983\u20131984 Chrysler E Class",
+        "1983\u20131989 Chrysler Fifth Avenue",
+        "1981\u20131983 Chrysler Imperial",
+        "1984\u20131986 Chrysler Laser",
+        "1979\u20131990 Chrysler LeBaron",
+        "1979\u20131989 Chrysler New Yorker",
+        "1979\u20131981 Chrysler Newport",
+        "1981\u20131989 Dodge Aries",
+        "1979\u20131980 Dodge Aspen",
+        "1984\u20131990 Dodge Caravan",
+        "1983\u20131987 Dodge Charger",
+        "1987\u20131993 Dodge Dakota",
+        "1984\u20131990 Dodge Daytona",
+        "1979\u20131989 Dodge Diplomat",
+        "1988\u20131990 Dodge Dynasty",
+        "1987\u20131989 Dodge Grand Caravan",
+        "1985\u20131989 Dodge Lancer",
+        "1980\u20131983 Dodge Mirada",
+        "1981\u20131990 Dodge Omni",
+        "1982\u20131984 Dodge Rampage",
+        "1987\u20131990 Dodge Shadow",
+        "1989\u20131990 Dodge Spirit",
+        "1979\u20131981 Dodge St. Regis",
+        "1989\u20131990 Plymouth Acclaim",
+        "1979\u20131989 Plymouth Caravelle",
+        "1987\u20131989 Plymouth Expo",
+        "1980\u20131989 Plymouth Gran Fury",
+        "1987\u20131988 Plymouth Grand Voyager",
+        "1981\u20131990 Plymouth Horizon",
+        "1981\u20131989 Plymouth Reliant",
+        "1983 Plymouth Scamp",
+        "1987\u20131990 Plymouth Sundance",
+        "1981\u20131982 Plymouth TC3",
+        "1979\u20131981 Plymouth Trailduster",
+        "1983\u20131987 Plymouth Turismo",
+        "1979\u20131980 Plymouth Volare",
+        "1984\u20131990 Plymouth Voyager"
+      ],
+      "vehicle_count_raw": 870,
+      "ebay_item_id": "398395012754",
+      "ebay_type": "Ignition Coil",
+      "ebay_brand": "Wells",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Other Ignition Systems & Components",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "C838",
+          "4176009 4167126 5227250 5C1086 5185 U12L E39 IC-27"
+        ],
+        "interchange": [
+          "UC-16"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1979,
+            "year_to": 1983,
+            "make": "Chrysler",
+            "model": "Cordoba",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 1990,
+            "make": "Chrysler",
+            "model": "Daytona",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1988,
+            "year_to": 1990,
+            "make": "Chrysler",
+            "model": "Dynasty",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1983,
+            "year_to": 1984,
+            "make": "Chrysler",
+            "model": "E Class",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1983,
+            "year_to": 1989,
+            "make": "Chrysler",
+            "model": "Fifth Avenue",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1981,
+            "year_to": 1983,
+            "make": "Chrysler",
+            "model": "Imperial",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 1986,
+            "make": "Chrysler",
+            "model": "Laser",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1979,
+            "year_to": 1990,
+            "make": "Chrysler",
+            "model": "LeBaron",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1979,
+            "year_to": 1989,
+            "make": "Chrysler",
+            "model": "New Yorker",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1979,
+            "year_to": 1981,
+            "make": "Chrysler",
+            "model": "Newport",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1981,
+            "year_to": 1989,
+            "make": "Dodge",
+            "model": "Aries",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1979,
+            "year_to": 1980,
+            "make": "Dodge",
+            "model": "Aspen",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 1990,
+            "make": "Dodge",
+            "model": "Caravan",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1983,
+            "year_to": 1987,
+            "make": "Dodge",
+            "model": "Charger",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1993,
+            "make": "Dodge",
+            "model": "Dakota",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 1990,
+            "make": "Dodge",
+            "model": "Daytona",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1979,
+            "year_to": 1989,
+            "make": "Dodge",
+            "model": "Diplomat",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1988,
+            "year_to": 1990,
+            "make": "Dodge",
+            "model": "Dynasty",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1989,
+            "make": "Dodge",
+            "model": "Grand Caravan",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1989,
+            "make": "Dodge",
+            "model": "Lancer",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1980,
+            "year_to": 1983,
+            "make": "Dodge",
+            "model": "Mirada",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1981,
+            "year_to": 1990,
+            "make": "Dodge",
+            "model": "Omni",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1982,
+            "year_to": 1984,
+            "make": "Dodge",
+            "model": "Rampage",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1990,
+            "make": "Dodge",
+            "model": "Shadow",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1989,
+            "year_to": 1990,
+            "make": "Dodge",
+            "model": "Spirit",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1979,
+            "year_to": 1981,
+            "make": "Dodge",
+            "model": "St. Regis",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1989,
+            "year_to": 1990,
+            "make": "Plymouth",
+            "model": "Acclaim",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1979,
+            "year_to": 1989,
+            "make": "Plymouth",
+            "model": "Caravelle",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1989,
+            "make": "Plymouth",
+            "model": "Expo",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1980,
+            "year_to": 1989,
+            "make": "Plymouth",
+            "model": "Gran Fury",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1988,
+            "make": "Plymouth",
+            "model": "Grand Voyager",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1981,
+            "year_to": 1990,
+            "make": "Plymouth",
+            "model": "Horizon",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1981,
+            "year_to": 1989,
+            "make": "Plymouth",
+            "model": "Reliant",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1983,
+            "year_to": 1983,
+            "make": "Plymouth",
+            "model": "Scamp",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1990,
+            "make": "Plymouth",
+            "model": "Sundance",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1981,
+            "year_to": 1982,
+            "make": "Plymouth",
+            "model": "TC3",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1979,
+            "year_to": 1981,
+            "make": "Plymouth",
+            "model": "Trailduster",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1983,
+            "year_to": 1987,
+            "make": "Plymouth",
+            "model": "Turismo",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1979,
+            "year_to": 1980,
+            "make": "Plymouth",
+            "model": "Volare",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 1990,
+            "make": "Plymouth",
+            "model": "Voyager",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1979\u20131983 Chrysler Cordoba",
+          "1984\u20131990 Chrysler Daytona",
+          "1988\u20131990 Chrysler Dynasty",
+          "1983\u20131984 Chrysler E Class",
+          "1983\u20131989 Chrysler Fifth Avenue",
+          "1981\u20131983 Chrysler Imperial",
+          "1984\u20131986 Chrysler Laser",
+          "1979\u20131990 Chrysler LeBaron",
+          "1979\u20131989 Chrysler New Yorker",
+          "1979\u20131981 Chrysler Newport",
+          "1981\u20131989 Dodge Aries",
+          "1979\u20131980 Dodge Aspen",
+          "1984\u20131990 Dodge Caravan",
+          "1983\u20131987 Dodge Charger",
+          "1987\u20131993 Dodge Dakota",
+          "1984\u20131990 Dodge Daytona",
+          "1979\u20131989 Dodge Diplomat",
+          "1988\u20131990 Dodge Dynasty",
+          "1987\u20131989 Dodge Grand Caravan",
+          "1985\u20131989 Dodge Lancer",
+          "1980\u20131983 Dodge Mirada",
+          "1981\u20131990 Dodge Omni",
+          "1982\u20131984 Dodge Rampage",
+          "1987\u20131990 Dodge Shadow",
+          "1989\u20131990 Dodge Spirit",
+          "1979\u20131981 Dodge St. Regis",
+          "1989\u20131990 Plymouth Acclaim",
+          "1979\u20131989 Plymouth Caravelle",
+          "1987\u20131989 Plymouth Expo",
+          "1980\u20131989 Plymouth Gran Fury",
+          "1987\u20131988 Plymouth Grand Voyager",
+          "1981\u20131990 Plymouth Horizon",
+          "1981\u20131989 Plymouth Reliant",
+          "1983 Plymouth Scamp",
+          "1987\u20131990 Plymouth Sundance",
+          "1981\u20131982 Plymouth TC3",
+          "1979\u20131981 Plymouth Trailduster",
+          "1983\u20131987 Plymouth Turismo",
+          "1979\u20131980 Plymouth Volare",
+          "1984\u20131990 Plymouth Voyager"
+        ],
+        "raw_compat_rows": 870,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398395012754",
+        "type": "Ignition Coil",
+        "brand": "Wells",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Other Ignition Systems & Components"
+      },
+      "images": []
+    },
+    {
+      "id": "H7D7IOXNSYXGODCPWZ3MSN3R",
+      "name": "Wells F968 Distributor Cap 4-Cyl 81-94 Mustang Tempo Escort Ranger NOS",
+      "price": 17.95,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/856550faad09aaa0f2450546275d5574a0061ce8/original.jpeg",
+      "url": "https://square.link/u/dREhkElv",
+      "category": "ignition",
+      "checkout": true,
+      "variation_id": "3ZOE5YEYRYZMHE4QYLVKG5EK",
+      "stock": 1,
+      "part_numbers": [
+        "F968",
+        "FA137, FD-159, 5D1125, DH390"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1986\u20131987 Ford Aerostar",
+        "1982\u20131988 Ford EXP",
+        "1981\u20131990 Ford Escort",
+        "1984\u20131986 Ford LTD",
+        "1983\u20131990 Ford Mustang",
+        "1985\u20131989 Ford Ranger",
+        "1986\u20131991 Ford Taurus",
+        "1984\u20131994 Ford Tempo",
+        "1983\u20131988 Ford Thunderbird",
+        "1983\u20131986 Mercury Capri",
+        "1984\u20131986 Mercury Cougar",
+        "1981\u20131987 Mercury Lynx",
+        "1984\u20131986 Mercury Marquis",
+        "1986 Mercury Sable",
+        "1984\u20131994 Mercury Topaz",
+        "1985\u20131989 Merkur XR4Ti"
+      ],
+      "vehicle_count_raw": 634,
+      "ebay_item_id": "398394213785",
+      "ebay_type": "Distributor Cap",
+      "ebay_brand": "Wells",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "F968",
+          "FA137, FD-159, 5D1125, DH390"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1986,
+            "year_to": 1987,
+            "make": "Ford",
+            "model": "Aerostar",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1982,
+            "year_to": 1988,
+            "make": "Ford",
+            "model": "EXP",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1981,
+            "year_to": 1990,
+            "make": "Ford",
+            "model": "Escort",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 1986,
+            "make": "Ford",
+            "model": "LTD",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1983,
+            "year_to": 1990,
+            "make": "Ford",
+            "model": "Mustang",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1989,
+            "make": "Ford",
+            "model": "Ranger",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1986,
+            "year_to": 1991,
+            "make": "Ford",
+            "model": "Taurus",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 1994,
+            "make": "Ford",
+            "model": "Tempo",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1983,
+            "year_to": 1988,
+            "make": "Ford",
+            "model": "Thunderbird",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1983,
+            "year_to": 1986,
+            "make": "Mercury",
+            "model": "Capri",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 1986,
+            "make": "Mercury",
+            "model": "Cougar",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1981,
+            "year_to": 1987,
+            "make": "Mercury",
+            "model": "Lynx",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 1986,
+            "make": "Mercury",
+            "model": "Marquis",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1986,
+            "year_to": 1986,
+            "make": "Mercury",
+            "model": "Sable",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 1994,
+            "make": "Mercury",
+            "model": "Topaz",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1989,
+            "make": "Merkur",
+            "model": "XR4Ti",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1986\u20131987 Ford Aerostar",
+          "1982\u20131988 Ford EXP",
+          "1981\u20131990 Ford Escort",
+          "1984\u20131986 Ford LTD",
+          "1983\u20131990 Ford Mustang",
+          "1985\u20131989 Ford Ranger",
+          "1986\u20131991 Ford Taurus",
+          "1984\u20131994 Ford Tempo",
+          "1983\u20131988 Ford Thunderbird",
+          "1983\u20131986 Mercury Capri",
+          "1984\u20131986 Mercury Cougar",
+          "1981\u20131987 Mercury Lynx",
+          "1984\u20131986 Mercury Marquis",
+          "1986 Mercury Sable",
+          "1984\u20131994 Mercury Topaz",
+          "1985\u20131989 Merkur XR4Ti"
+        ],
+        "raw_compat_rows": 634,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398394213785",
+        "type": "Distributor Cap",
+        "brand": "Wells",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps"
+      },
+      "images": []
+    },
+    {
       "id": "IHLMXFVWTYRVMEYCA6GOEJHM",
       "name": "Beck Arnley 103-2250 CV Boot Kit Golf NOS",
       "price": 24.99,
@@ -61931,6 +64141,146 @@
       "interchange": []
     },
     {
+      "id": "JGTRHKYAV4ZC37KNKWWXSSIL",
+      "name": "MOOG CV5463 Outer CV Boot Kit NOS 86-05 Century Cavalier Grand Am",
+      "price": 19.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/e0ae3c11e79df3f8e2ef8a7331b4de8e0f7f42f1/original.jpeg",
+      "url": "https://square.link/u/xnwRGNXR",
+      "category": "driveline",
+      "checkout": true,
+      "variation_id": "APM7NUVZ3DH6XYPNQGT6Z67H",
+      "stock": 1,
+      "part_numbers": [
+        "CV5463",
+        "5463"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1994\u20132005 Buick Century",
+        "1996\u20132005 Buick LeSabre",
+        "1994\u20131996 Buick Park Avenue",
+        "1986\u20131993 Buick Riviera",
+        "1986\u20131993 Buick Skylark",
+        "1986\u20131993 Chevrolet Cavalier",
+        "1985\u20131996 Pontiac Grand Am",
+        "2005\u20132007 Pontiac Grand Prix"
+      ],
+      "vehicle_count_raw": 429,
+      "ebay_item_id": "398369627224",
+      "ebay_type": "CV Joint Boot Kit",
+      "ebay_brand": "MOOG",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:CV Joints, Boots & Parts",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "CV5463",
+          "5463"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1994,
+            "year_to": 2005,
+            "make": "Buick",
+            "model": "Century",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1996,
+            "year_to": 2005,
+            "make": "Buick",
+            "model": "LeSabre",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1994,
+            "year_to": 1996,
+            "make": "Buick",
+            "model": "Park Avenue",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1986,
+            "year_to": 1993,
+            "make": "Buick",
+            "model": "Riviera",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1986,
+            "year_to": 1993,
+            "make": "Buick",
+            "model": "Skylark",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1986,
+            "year_to": 1993,
+            "make": "Chevrolet",
+            "model": "Cavalier",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1996,
+            "make": "Pontiac",
+            "model": "Grand Am",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2005,
+            "year_to": 2007,
+            "make": "Pontiac",
+            "model": "Grand Prix",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1994\u20132005 Buick Century",
+          "1996\u20132005 Buick LeSabre",
+          "1994\u20131996 Buick Park Avenue",
+          "1986\u20131993 Buick Riviera",
+          "1986\u20131993 Buick Skylark",
+          "1986\u20131993 Chevrolet Cavalier",
+          "1985\u20131996 Pontiac Grand Am",
+          "2005\u20132007 Pontiac Grand Prix"
+        ],
+        "raw_compat_rows": 429,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398369627224",
+        "type": "CV Joint Boot Kit",
+        "brand": "MOOG",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:CV Joints, Boots & Parts"
+      },
+      "images": []
+    },
+    {
       "id": "3GWF62PZY2JL5TQQGPTT25TB",
       "name": "MOOG CV5865 CV Joint Boot Kit Spectrum NOS",
       "price": 22.99,
@@ -62717,6 +65067,96 @@
       "interchange": []
     },
     {
+      "id": "HBE25QLOV4HVHF24OJGQTD47",
+      "name": "Moog CV7451 CV Joint Boot Kit NOS",
+      "price": 24.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/ce15873e350bcb16050134189cfbdfe88a099c76/original.jpeg",
+      "url": "https://square.link/u/q4k33QRU",
+      "category": "driveline",
+      "checkout": true,
+      "variation_id": "K27WU6XGEHPCWOAEJSBFXIQH",
+      "stock": 1,
+      "part_numbers": [
+        "CV7451"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1993\u20131994 Ford Taurus",
+        "1993\u20131994 Ford Tempo",
+        "1993\u20131994 Mercury Sable",
+        "1993\u20131994 Mercury Topaz"
+      ],
+      "vehicle_count_raw": 60,
+      "ebay_item_id": "398332880123",
+      "ebay_type": "CV Joint Boot Kit",
+      "ebay_brand": "Moog",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:CV Joints, Boots & Parts",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "CV7451"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1993,
+            "year_to": 1994,
+            "make": "Ford",
+            "model": "Taurus",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1993,
+            "year_to": 1994,
+            "make": "Ford",
+            "model": "Tempo",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1993,
+            "year_to": 1994,
+            "make": "Mercury",
+            "model": "Sable",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1993,
+            "year_to": 1994,
+            "make": "Mercury",
+            "model": "Topaz",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1993\u20131994 Ford Taurus",
+          "1993\u20131994 Ford Tempo",
+          "1993\u20131994 Mercury Sable",
+          "1993\u20131994 Mercury Topaz"
+        ],
+        "raw_compat_rows": 60,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398332880123",
+        "type": "CV Joint Boot Kit",
+        "brand": "Moog",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:CV Joints, Boots & Parts"
+      },
+      "images": []
+    },
+    {
       "id": "7FGRFQ3FFWTU25CSM5IZT5HY",
       "name": "MOOG CV8448 Outer CV Joint Boot Kit NOS 86-94 Taurus Sable Camry",
       "price": 24.99,
@@ -62824,6 +65264,47 @@
       ],
       "stock": 1,
       "interchange": []
+    },
+    {
+      "id": "KGPA7N2GXOXA6MAYRD7DD5CH",
+      "name": "Motormite Speedi-Boot 03602 Outer CV Split Boot Kit NOS",
+      "price": 28.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/0a58da700e85db51e99317d6eccba07aaf6c28a4/original.jpeg",
+      "url": "https://square.link/u/4WzrxeXI",
+      "category": "driveline",
+      "checkout": true,
+      "variation_id": "7SLSQUZODG466DWPXT6PKR6R",
+      "stock": 2,
+      "part_numbers": [
+        "03602",
+        "Speedi-Boot 03602, Dorman 03602, 44018-SR1-901"
+      ],
+      "interchange": [],
+      "vehicles": [],
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398357176655",
+      "ebay_type": "CV Joint Boot Kit",
+      "ebay_brand": "Motormite",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:CV Joints, Boots & Parts",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "03602",
+          "Speedi-Boot 03602, Dorman 03602, 44018-SR1-901"
+        ],
+        "interchange": [],
+        "vehicles": [],
+        "vehicle_labels": [],
+        "raw_compat_rows": 0,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398357176655",
+        "type": "CV Joint Boot Kit",
+        "brand": "Motormite",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:CV Joints, Boots & Parts"
+      },
+      "images": []
     },
     {
       "id": "BDSHXAQZN6J5SCJR4ZEICYIZ",
@@ -63656,6 +66137,98 @@
       ],
       "stock": 1,
       "interchange": []
+    },
+    {
+      "id": "LNLTFQ4NYYAOU47P5N6NMHJY",
+      "name": "Speedi-Boot 03615 CV Split Boot Kit 73-85 VW Rabbit Jetta Scirocco NOS Motormite",
+      "price": 16.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/9651085e84311004c35cabf136e6e918067c767a/original.jpeg",
+      "url": "https://square.link/u/XzlXwZWy",
+      "category": "driveline",
+      "checkout": true,
+      "variation_id": "D2K3XWO3VRKZCTR6HLBYNIZZ",
+      "stock": 1,
+      "part_numbers": [
+        "03615",
+        "Motormite"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1980 Audi 4000",
+        "1980\u20131985 Volkswagen Jetta",
+        "1979\u20131984 Volkswagen Rabbit",
+        "1975\u20131985 Volkswagen Scirocco"
+      ],
+      "vehicle_count_raw": 145,
+      "ebay_item_id": "398360379115",
+      "ebay_type": "CV Boot Kit",
+      "ebay_brand": "Speedi-Boot",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:CV Joints, Boots & Parts",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "03615",
+          "Motormite"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1980,
+            "year_to": 1980,
+            "make": "Audi",
+            "model": "4000",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1980,
+            "year_to": 1985,
+            "make": "Volkswagen",
+            "model": "Jetta",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1979,
+            "year_to": 1984,
+            "make": "Volkswagen",
+            "model": "Rabbit",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1975,
+            "year_to": 1985,
+            "make": "Volkswagen",
+            "model": "Scirocco",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1980 Audi 4000",
+          "1980\u20131985 Volkswagen Jetta",
+          "1979\u20131984 Volkswagen Rabbit",
+          "1975\u20131985 Volkswagen Scirocco"
+        ],
+        "raw_compat_rows": 145,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398360379115",
+        "type": "CV Boot Kit",
+        "brand": "Speedi-Boot",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:CV Joints, Boots & Parts"
+      },
+      "images": []
     },
     {
       "id": "Z4DFFERT3JJJJDHG6RFR4Y2P",
@@ -67896,6 +70469,106 @@
       ],
       "stock": 1,
       "interchange": []
+    },
+    {
+      "id": "6QFGK6O5HFAXRNIWBZG3EUR2",
+      "name": "Beck Arnley 045-0253 PCV Valve 1.6 1.8 2.5 Miata Escort NOS",
+      "price": 10.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/083723585c3a7270fe568f0618dabf9712fe61a0/original.jpeg",
+      "url": "https://square.link/u/6m1BPxaS",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "XVP4BH24OYCU3JEMHLPS2FBH",
+      "stock": 1,
+      "part_numbers": [
+        "045-0253",
+        "Worldparts, FV258, V245"
+      ],
+      "interchange": [
+        "BP0513890",
+        "F0CZ6A666A",
+        "12204-15030"
+      ],
+      "vehicles": [
+        "1991\u20131996 Ford Escort",
+        "1990\u20132005 Mazda Miata",
+        "1991\u20131996 Mercury Tracer",
+        "1983\u20131985 Toyota Corolla"
+      ],
+      "vehicle_count_raw": 78,
+      "ebay_item_id": "398360453544",
+      "ebay_type": "PCV Valve",
+      "ebay_brand": "Beck Arnley",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Exhaust & Emission Systems:Other Exhaust & Emission Parts",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "045-0253",
+          "Worldparts, FV258, V245"
+        ],
+        "interchange": [
+          "BP0513890",
+          "F0CZ6A666A",
+          "12204-15030"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1991,
+            "year_to": 1996,
+            "make": "Ford",
+            "model": "Escort",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1990,
+            "year_to": 2005,
+            "make": "Mazda",
+            "model": "Miata",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1991,
+            "year_to": 1996,
+            "make": "Mercury",
+            "model": "Tracer",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1983,
+            "year_to": 1985,
+            "make": "Toyota",
+            "model": "Corolla",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1991\u20131996 Ford Escort",
+          "1990\u20132005 Mazda Miata",
+          "1991\u20131996 Mercury Tracer",
+          "1983\u20131985 Toyota Corolla"
+        ],
+        "raw_compat_rows": 78,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398360453544",
+        "type": "PCV Valve",
+        "brand": "Beck Arnley",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Exhaust & Emission Systems:Other Exhaust & Emission Parts"
+      },
+      "images": []
     },
     {
       "id": "SHE3E6GUF5Y56TCXY2CHPLLY",
@@ -89302,6 +91975,47 @@
       "vehicles": []
     },
     {
+      "id": "LANHA3SISCMF45MDA62R4QKP",
+      "name": "HP 0950-4392 Printer AC Adapter 15V 32V 3-Pin Deskjet 3550 3650 3840 Used",
+      "price": 6.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/51f15338e81ad0ff571a5af81ac72333a1f20461/original.jpeg",
+      "url": "https://square.link/u/KDWHllKn",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "IA7GZP5KCHICHALJ2KQWX6YH",
+      "stock": 1,
+      "part_numbers": [
+        "0950-4392",
+        "A17071A, 09504392, Yokogawa"
+      ],
+      "interchange": [],
+      "vehicles": [],
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398360421809",
+      "ebay_type": "AC Adapter",
+      "ebay_brand": "HP",
+      "ebay_category": "Computers/Tablets & Networking:Printers, Scanners & Supplies:Printer & Scanner Parts & Accs:Power Supplies",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "0950-4392",
+          "A17071A, 09504392, Yokogawa"
+        ],
+        "interchange": [],
+        "vehicles": [],
+        "vehicle_labels": [],
+        "raw_compat_rows": 0,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398360421809",
+        "type": "AC Adapter",
+        "brand": "HP",
+        "ebay_category": "Computers/Tablets & Networking:Printers, Scanners & Supplies:Printer & Scanner Parts & Accs:Power Supplies"
+      },
+      "images": []
+    },
+    {
       "id": "QVTHCYWEVWJHIGJ4FWRBKXUN",
       "name": "Hygrade CPA-145 Choke Pull-Off 2.5 3.8 4.3 5.0 5.7 1975-84 GM",
       "price": 19.99,
@@ -98790,6 +101504,41 @@
       "interchange": []
     },
     {
+      "id": "UA6H3VDLPZDNHE6JCRIVCPWB",
+      "name": "NEMA 14-50 4-Prong 50A Electric Range Stove Power Cord 4-Wire Used Tested",
+      "price": 12.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/81e4ce237f58df71e092989cbbf1c2d357e983fc/original.jpeg",
+      "url": "https://square.link/u/SjM37m7L",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "Z6DSTKL7N7TS5E5GGBQNRJLO",
+      "stock": 1,
+      "part_numbers": [],
+      "interchange": [],
+      "vehicles": [],
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398377231115",
+      "ebay_type": "Range Power Cord",
+      "ebay_brand": "Unbranded",
+      "ebay_category": "Home & Garden:Major Appliances:Major Appliances Parts & Accessories:Cooking Appliance Parts",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "medium",
+      "fitment": {
+        "part_numbers": [],
+        "interchange": [],
+        "vehicles": [],
+        "vehicle_labels": [],
+        "raw_compat_rows": 0,
+        "source": "ebay_listing",
+        "confidence": "medium",
+        "ebay_item_id": "398377231115",
+        "type": "Range Power Cord",
+        "brand": "Unbranded",
+        "ebay_category": "Home & Garden:Major Appliances:Major Appliances Parts & Accessories:Cooking Appliance Parts"
+      },
+      "images": []
+    },
+    {
       "id": "WFSUCZEN6UB5VJCHR6GJARSK",
       "name": "Nestl\u00e9 Compleat Pediatric Organic Blends 9 Cases (4 Vegan + 5 Chicken) Exp 2027",
       "price": 499.99,
@@ -99879,6 +102628,45 @@
       "part_numbers": [],
       "interchange": [],
       "vehicles": []
+    },
+    {
+      "id": "U2GH7LFOMJ2TE5P3DFMR62CS",
+      "name": "Penox AT70 Oxygen Flowmeter 0-8 LPM DISS Thorpe Tube Surplus Untested Used",
+      "price": 19.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/f33e8c775177806e494305ed5bf2033dcb53680f/original.jpeg",
+      "url": "https://square.link/u/KhgaRIoh",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "K72CD26RETRUXDLQBJOWHSDL",
+      "stock": 1,
+      "part_numbers": [
+        "AT70"
+      ],
+      "interchange": [],
+      "vehicles": [],
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398360423434",
+      "ebay_type": "Flowmeter",
+      "ebay_brand": "Penox",
+      "ebay_category": "Business & Industrial:Healthcare, Lab & Dental:Medical & Lab Equipment, Devices:Other Medical & Lab Equipment",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "medium",
+      "fitment": {
+        "part_numbers": [
+          "AT70"
+        ],
+        "interchange": [],
+        "vehicles": [],
+        "vehicle_labels": [],
+        "raw_compat_rows": 0,
+        "source": "ebay_listing",
+        "confidence": "medium",
+        "ebay_item_id": "398360423434",
+        "type": "Flowmeter",
+        "brand": "Penox",
+        "ebay_category": "Business & Industrial:Healthcare, Lab & Dental:Medical & Lab Equipment, Devices:Other Medical & Lab Equipment"
+      },
+      "images": []
     },
     {
       "id": "UL23E5AWBBQITTWVJSG6DJB2",
@@ -104052,6 +106840,94 @@
         "../assets/pdp-gallery/W4KKFKOYNVK2UZJCQE6D6EBT/03.webp"
       ],
       "stock": 1
+    },
+    {
+      "id": "NXK4U2EL2FLAMDM3TSONOD54",
+      "name": "Standard Motor Products JR80 Rotor 1.5 1.6 2.6 74-91 Colt NOS",
+      "price": 9.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/30a6953430df501c7780b7b5614401f30003867a/original.jpeg",
+      "url": "https://square.link/u/lqc183S4",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "UINMI3N47JKSGRGLCQMRAGWF",
+      "stock": 1,
+      "part_numbers": [
+        "JR80",
+        "JR-80, D577, EP342"
+      ],
+      "interchange": [
+        "MD611850",
+        "AM0124312",
+        "27115-21020"
+      ],
+      "vehicles": [
+        "1974\u20131991 Dodge Colt",
+        "1984\u20131989 Dodge Ram 50",
+        "1986\u20131989 Hyundai Excel"
+      ],
+      "vehicle_count_raw": 187,
+      "ebay_item_id": "398360456201",
+      "ebay_type": "Distributor Rotor",
+      "ebay_brand": "Standard Motor Products",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "JR80",
+          "JR-80, D577, EP342"
+        ],
+        "interchange": [
+          "MD611850",
+          "AM0124312",
+          "27115-21020"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1974,
+            "year_to": 1991,
+            "make": "Dodge",
+            "model": "Colt",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 1989,
+            "make": "Dodge",
+            "model": "Ram 50",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1986,
+            "year_to": 1989,
+            "make": "Hyundai",
+            "model": "Excel",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1974\u20131991 Dodge Colt",
+          "1984\u20131989 Dodge Ram 50",
+          "1986\u20131989 Hyundai Excel"
+        ],
+        "raw_compat_rows": 187,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398360456201",
+        "type": "Distributor Rotor",
+        "brand": "Standard Motor Products",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors"
+      },
+      "images": []
     },
     {
       "id": "GXECZQPESKZ6IGU2E75QQFGE",
@@ -112593,17 +115469,9 @@
       "category": "other",
       "checkout": true,
       "variation_id": "HX2JIU45YJM7PAUWEEVUEMXM",
-      "stock": 1,
       "part_numbers": [
         "13480"
       ],
-      "interchange": [],
-      "vehicles": [],
-      "vehicle_count_raw": 0,
-      "ebay_item_id": "398398949658",
-      "ebay_type": "Trailer Wiring Adapter",
-      "ebay_brand": "U-Haul",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Towing Parts & Accessories:Wiring, Harnesses & Connectors",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "medium",
       "fitment": {
@@ -112621,10 +115489,18 @@
         "brand": "U-Haul",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Towing Parts & Accessories:Wiring, Harnesses & Connectors"
       },
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398398949658",
+      "ebay_type": "Trailer Wiring Adapter",
+      "ebay_brand": "U-Haul",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Towing Parts & Accessories:Wiring, Harnesses & Connectors",
       "images": [
         "../assets/pdp-gallery/KO5NU5EL5YLWV4K3RD4F3FR4/02.webp",
         "../assets/pdp-gallery/KO5NU5EL5YLWV4K3RD4F3FR4/03.webp"
-      ]
+      ],
+      "stock": 1,
+      "interchange": [],
+      "vehicles": []
     },
     {
       "id": "2FLP2E6J3TKRSA7K2GNWJ64B",
@@ -112635,17 +115511,9 @@
       "category": "other",
       "checkout": true,
       "variation_id": "QJWSHHDKCDLKTJ2OIFN4B2F3",
-      "stock": 1,
       "part_numbers": [
         "14482"
       ],
-      "interchange": [],
-      "vehicles": [],
-      "vehicle_count_raw": 0,
-      "ebay_item_id": "398398953061",
-      "ebay_type": "Trailer Wiring Adapter",
-      "ebay_brand": "U-Haul",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Towing Parts & Accessories:Wiring, Harnesses & Connectors",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "medium",
       "fitment": {
@@ -112663,10 +115531,18 @@
         "brand": "U-Haul",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Towing Parts & Accessories:Wiring, Harnesses & Connectors"
       },
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398398953061",
+      "ebay_type": "Trailer Wiring Adapter",
+      "ebay_brand": "U-Haul",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Towing Parts & Accessories:Wiring, Harnesses & Connectors",
       "images": [
         "../assets/pdp-gallery/2FLP2E6J3TKRSA7K2GNWJ64B/02.webp",
         "../assets/pdp-gallery/2FLP2E6J3TKRSA7K2GNWJ64B/03.webp"
-      ]
+      ],
+      "stock": 1,
+      "interchange": [],
+      "vehicles": []
     },
     {
       "id": "YN3ZVVIYMAC3QVB4HGFYB4G3",
@@ -114614,6 +117490,41 @@
       "vehicles": []
     },
     {
+      "id": "QSHI2HGWQ4BHFN7H6LLKURMF",
+      "name": "Vintage Forged Hedge Shears Wood Handle Riveted Working Garden Clippers Used",
+      "price": 49.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/b8a5e4bd646d407b2b1310c363e772a11f4037a3/original.jpeg",
+      "url": "https://square.link/u/ihwjrVrz",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "UA4USUNLYKCZKTQ3QZSIDR5V",
+      "stock": 1,
+      "part_numbers": [],
+      "interchange": [],
+      "vehicles": [],
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398388035459",
+      "ebay_type": "Hedge Shears",
+      "ebay_brand": "Unbranded",
+      "ebay_category": "Home & Garden:Yard, Garden & Outdoor Living:Garden Hand Tools & Equipment:Hedge & Grass Shears",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "medium",
+      "fitment": {
+        "part_numbers": [],
+        "interchange": [],
+        "vehicles": [],
+        "vehicle_labels": [],
+        "raw_compat_rows": 0,
+        "source": "ebay_listing",
+        "confidence": "medium",
+        "ebay_item_id": "398388035459",
+        "type": "Hedge Shears",
+        "brand": "Unbranded",
+        "ebay_category": "Home & Garden:Yard, Garden & Outdoor Living:Garden Hand Tools & Equipment:Hedge & Grass Shears"
+      },
+      "images": []
+    },
+    {
       "id": "QHFINKOODJCK3PAXVGS6UG2M",
       "name": "Vintage Fox Head Premium 2 Gallon Motor Oil Can Metal Tin Fox Logo",
       "price": 59.99,
@@ -115747,5 +118658,5 @@
       "ebay_brand": ""
     }
   ],
-  "fitment_built": "2026-09-16T02:02:42Z"
+  "fitment_built": "2026-09-16T10:17:47Z"
 }
