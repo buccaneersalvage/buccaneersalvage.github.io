@@ -1,7 +1,7 @@
 {
-  "updated": "2026-09-16T13:34:23Z",
+  "updated": "2026-09-16T16:02:33Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 844,
+  "count": 847,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -2261,6 +2261,78 @@
       "part_numbers": [],
       "interchange": [],
       "vehicles": []
+    },
+    {
+      "id": "GYSLEHLNSTF3J332J3PTAXOA",
+      "name": "Big A 2M-7125A Front Disc Brake Pad Set 83-94 Ranger 91-94 Explorer NOS",
+      "price": 34.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/d6f126dff461f162fd180a83f3c64abe66de97d7/original.jpeg",
+      "url": "https://square.link/u/Qmi6sy0D",
+      "category": "brake",
+      "checkout": true,
+      "variation_id": "M6LN4GN62Q2FTP4XDB7YPQ5B",
+      "stock": 4,
+      "part_numbers": [
+        "2M-7125A",
+        "2M-249, PX01"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1991\u20131994 Ford Explorer",
+        "1983\u20131994 Ford Ranger"
+      ],
+      "vehicle_count_raw": 451,
+      "ebay_item_id": "398401035281",
+      "ebay_type": "Disc Brake Pad",
+      "ebay_brand": "Big A",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Disc Rotors",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "2M-7125A",
+          "2M-249, PX01"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1991,
+            "year_to": 1994,
+            "make": "Ford",
+            "model": "Explorer",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1983,
+            "year_to": 1994,
+            "make": "Ford",
+            "model": "Ranger",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1991\u20131994 Ford Explorer",
+          "1983\u20131994 Ford Ranger"
+        ],
+        "raw_compat_rows": 451,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398401035281",
+        "type": "Disc Brake Pad",
+        "brand": "Big A",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Disc Rotors"
+      },
+      "images": [
+        "../assets/pdp-gallery/GYSLEHLNSTF3J332J3PTAXOA/02.webp",
+        "../assets/pdp-gallery/GYSLEHLNSTF3J332J3PTAXOA/03.webp",
+        "../assets/pdp-gallery/GYSLEHLNSTF3J332J3PTAXOA/04.webp"
+      ]
     },
     {
       "id": "C3DOVNOGN5E7R3CN7L6TGBIE",
@@ -34820,20 +34892,13 @@
       "category": "brake",
       "checkout": true,
       "variation_id": "NT5XOCLJ6BSCJV4R7XJ3TMYI",
-      "stock": 1,
       "part_numbers": [
         "F110132",
         "BH110132"
       ],
-      "interchange": [],
       "vehicles": [
         "1983\u20131984 Ford Thunderbird"
       ],
-      "vehicle_count_raw": 20,
-      "ebay_item_id": "398400512148",
-      "ebay_type": "Brake Hose",
-      "ebay_brand": "Wagner",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Hoses, Lines & Fittings",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -34865,12 +34930,19 @@
         "brand": "Wagner",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Hoses, Lines & Fittings"
       },
+      "vehicle_count_raw": 20,
+      "ebay_item_id": "398400512148",
+      "ebay_type": "Brake Hose",
+      "ebay_brand": "Wagner",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Hoses, Lines & Fittings",
       "images": [
         "../assets/pdp-gallery/CKT2DZJWKF4SL4DK6AMUEPFQ/02.webp",
         "../assets/pdp-gallery/CKT2DZJWKF4SL4DK6AMUEPFQ/03.webp",
         "../assets/pdp-gallery/CKT2DZJWKF4SL4DK6AMUEPFQ/04.webp",
         "../assets/pdp-gallery/CKT2DZJWKF4SL4DK6AMUEPFQ/05.webp"
-      ]
+      ],
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "K7LUL7IBB73YA5JJNNLUKRKZ",
@@ -74079,21 +74151,14 @@
       "category": "other",
       "checkout": true,
       "variation_id": "5KVQYYLREONYBIYSWLZ7M3K2",
-      "stock": 1,
       "part_numbers": [
         "931-134",
         "88980997"
       ],
-      "interchange": [],
       "vehicles": [
         "2005\u20132009 Chevrolet Equinox",
         "2006\u20132009 Pontiac Torrent"
       ],
-      "vehicle_count_raw": 28,
-      "ebay_item_id": "398400505443",
-      "ebay_type": "Door Lock Actuator",
-      "ebay_brand": "Dorman",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Exterior Parts & Accessories:Doors, Trunk Lids & Hatches:Hatches & Trunk Lids",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -74136,11 +74201,18 @@
         "brand": "Dorman",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Exterior Parts & Accessories:Doors, Trunk Lids & Hatches:Hatches & Trunk Lids"
       },
+      "vehicle_count_raw": 28,
+      "ebay_item_id": "398400505443",
+      "ebay_type": "Door Lock Actuator",
+      "ebay_brand": "Dorman",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Exterior Parts & Accessories:Doors, Trunk Lids & Hatches:Hatches & Trunk Lids",
       "images": [
         "../assets/pdp-gallery/R2CH6HVOCNFJI7LDF6AQRW7V/02.webp",
         "../assets/pdp-gallery/R2CH6HVOCNFJI7LDF6AQRW7V/03.webp",
         "../assets/pdp-gallery/R2CH6HVOCNFJI7LDF6AQRW7V/04.webp"
-      ]
+      ],
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "OUGOXXEV24SED3UP5CC2WG2P",
@@ -91775,6 +91847,78 @@
       "interchange": []
     },
     {
+      "id": "QLDY75CNYRROMFYJLKJI2RWY",
+      "name": "GM 20731009 LH 6-Way Seat Switch 85-93 Cadillac DeVille Fleetwood NOS",
+      "price": 99.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/0291bb72e2ec17e1117b1fb271bee12edc9324b6/original.jpeg",
+      "url": "https://square.link/u/yhnReENX",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "MLOK2UHIQECFQMZ2SSYEG6QZ",
+      "stock": 1,
+      "part_numbers": [
+        "20731009",
+        "SW ASM LH GR 11.556"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1985\u20131993 Cadillac DeVille",
+        "1985\u20131993 Cadillac Fleetwood"
+      ],
+      "vehicle_count_raw": 98,
+      "ebay_item_id": "398401133174",
+      "ebay_type": "Power Seat Switch",
+      "ebay_brand": "GM",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Lighting & Lamps:Side Marker Light Assemblies",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "20731009",
+          "SW ASM LH GR 11.556"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1985,
+            "year_to": 1993,
+            "make": "Cadillac",
+            "model": "DeVille",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1993,
+            "make": "Cadillac",
+            "model": "Fleetwood",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1985\u20131993 Cadillac DeVille",
+          "1985\u20131993 Cadillac Fleetwood"
+        ],
+        "raw_compat_rows": 98,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398401133174",
+        "type": "Power Seat Switch",
+        "brand": "GM",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Lighting & Lamps:Side Marker Light Assemblies"
+      },
+      "images": [
+        "../assets/pdp-gallery/QLDY75CNYRROMFYJLKJI2RWY/02.webp",
+        "../assets/pdp-gallery/QLDY75CNYRROMFYJLKJI2RWY/03.webp",
+        "../assets/pdp-gallery/QLDY75CNYRROMFYJLKJI2RWY/04.webp"
+      ]
+    },
+    {
       "id": "XRWNFGYE2MCD4QC4SRPF4N2Y",
       "name": "GM 4L80E Shift Cable Mount Bracket OEM 03-07 Silverado Sierra Tahoe",
       "price": 19.99,
@@ -97016,24 +97160,13 @@
       "category": "other",
       "checkout": true,
       "variation_id": "7IJNNIH6BGJHOE6YFFGSOPMP",
-      "images": [
-        "../assets/pdp-gallery/C6ZZ6UDEZWYYCDOWRLDM3NNT/02.webp",
-        "../assets/pdp-gallery/C6ZZ6UDEZWYYCDOWRLDM3NNT/03.webp"
-      ],
-      "stock": 1,
       "part_numbers": [
         "K90628",
         "GD7E28156 101-5589"
       ],
-      "interchange": [],
       "vehicles": [
         "1998\u20131999 Mazda 626"
       ],
-      "vehicle_count_raw": 8,
-      "ebay_item_id": "398400526531",
-      "ebay_type": "Stabilizer Bar Bushing Kit",
-      "ebay_brand": "Moog",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Steering & Suspension:Sway Bars, Links & Bushings",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -97064,7 +97197,18 @@
         "type": "Stabilizer Bar Bushing Kit",
         "brand": "Moog",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Steering & Suspension:Sway Bars, Links & Bushings"
-      }
+      },
+      "vehicle_count_raw": 8,
+      "ebay_item_id": "398400526531",
+      "ebay_type": "Stabilizer Bar Bushing Kit",
+      "ebay_brand": "Moog",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Steering & Suspension:Sway Bars, Links & Bushings",
+      "images": [
+        "../assets/pdp-gallery/C6ZZ6UDEZWYYCDOWRLDM3NNT/02.webp",
+        "../assets/pdp-gallery/C6ZZ6UDEZWYYCDOWRLDM3NNT/03.webp"
+      ],
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "AC4O5CEFTYDCUZCECOZZFZI4",
@@ -118346,20 +118490,13 @@
       "category": "other",
       "checkout": true,
       "variation_id": "QX35D3GXL6E2ARYPY4ARYUBI",
-      "stock": 1,
       "part_numbers": [
         "BD61281"
       ],
-      "interchange": [],
       "vehicles": [
         "1981\u20131983 AMC Concord",
         "1983\u20131989 Chrysler Fifth Avenue"
       ],
-      "vehicle_count_raw": 50,
-      "ebay_item_id": "398400606720",
-      "ebay_type": "Lug Nut",
-      "ebay_brand": "Wagner",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Wheels, Tires & Parts:Wheel Nuts, Bolts & Studs",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -118401,10 +118538,17 @@
         "brand": "Wagner",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Wheels, Tires & Parts:Wheel Nuts, Bolts & Studs"
       },
+      "vehicle_count_raw": 50,
+      "ebay_item_id": "398400606720",
+      "ebay_type": "Lug Nut",
+      "ebay_brand": "Wagner",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Wheels, Tires & Parts:Wheel Nuts, Bolts & Studs",
       "images": [
         "../assets/pdp-gallery/U7A3AB25DS3F54MHTGJSMXNS/02.webp",
         "../assets/pdp-gallery/U7A3AB25DS3F54MHTGJSMXNS/03.webp"
-      ]
+      ],
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "JCDJSJGKBSBMYGCFTLNAKJ3O",
@@ -118512,6 +118656,75 @@
       "interchange": []
     },
     {
+      "id": "MNMOQDIY5TFLEOHM3R5TXV7V",
+      "name": "Wagner BD61288 Lug Nut Lot of 9 M12-1.5 23mm 91-94 Buick LeSabre NOS",
+      "price": 29.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/1c423b28b784acde69c430fdff7de0c078f324ef/original.jpeg",
+      "url": "https://square.link/u/tXt9sdVw",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "HFPMJHNJWVOT5RDG7C6NJTFI",
+      "stock": 1,
+      "part_numbers": [
+        "BD61288"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1991\u20131994 Buick Commercial Chassis",
+        "1991\u20131994 Buick LeSabre"
+      ],
+      "vehicle_count_raw": 15,
+      "ebay_item_id": "398401028505",
+      "ebay_type": "Lug Nut",
+      "ebay_brand": "Wagner",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Wheels, Tires & Parts:Wheel Nuts, Bolts & Studs",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "BD61288"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1991,
+            "year_to": 1994,
+            "make": "Buick",
+            "model": "Commercial Chassis",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1991,
+            "year_to": 1994,
+            "make": "Buick",
+            "model": "LeSabre",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1991\u20131994 Buick Commercial Chassis",
+          "1991\u20131994 Buick LeSabre"
+        ],
+        "raw_compat_rows": 15,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398401028505",
+        "type": "Lug Nut",
+        "brand": "Wagner",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Wheels, Tires & Parts:Wheel Nuts, Bolts & Studs"
+      },
+      "images": [
+        "../assets/pdp-gallery/MNMOQDIY5TFLEOHM3R5TXV7V/02.webp",
+        "../assets/pdp-gallery/MNMOQDIY5TFLEOHM3R5TXV7V/03.webp"
+      ]
+    },
+    {
       "id": "4G347M77RZWOOFBLEGAD5MUV",
       "name": "Wagner BD61301 Zinc Lug Nut Lot of 9 M12-1.5 85-88 Chevy Nova Charade NOS",
       "price": 29.99,
@@ -118520,21 +118733,14 @@
       "category": "other",
       "checkout": true,
       "variation_id": "UGFCPCRGUTBDSTYHE3UCEVI4",
-      "stock": 1,
       "part_numbers": [
         "BD61301"
       ],
-      "interchange": [],
       "vehicles": [
         "1985\u20131988 Chevrolet Nova",
         "1990\u20131991 Chevrolet V1500 Suburban",
         "1988\u20131992 Daihatsu Charade"
       ],
-      "vehicle_count_raw": 49,
-      "ebay_item_id": "398400597537",
-      "ebay_type": "Lug Nut",
-      "ebay_brand": "Wagner",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Wheels, Tires & Parts:Wheel Nuts, Bolts & Studs",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -118587,10 +118793,17 @@
         "brand": "Wagner",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Wheels, Tires & Parts:Wheel Nuts, Bolts & Studs"
       },
+      "vehicle_count_raw": 49,
+      "ebay_item_id": "398400597537",
+      "ebay_type": "Lug Nut",
+      "ebay_brand": "Wagner",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Wheels, Tires & Parts:Wheel Nuts, Bolts & Studs",
       "images": [
         "../assets/pdp-gallery/4G347M77RZWOOFBLEGAD5MUV/02.webp",
         "../assets/pdp-gallery/4G347M77RZWOOFBLEGAD5MUV/03.webp"
-      ]
+      ],
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "POMCXYPKYQBKQGI53E5H3BCD",
@@ -118601,21 +118814,14 @@
       "category": "other",
       "checkout": true,
       "variation_id": "RO4HB5UX3BOLU7KFG7UKNZM4",
-      "stock": 1,
       "part_numbers": [
         "BD61302"
       ],
-      "interchange": [],
       "vehicles": [
         "1982\u20131994 Buick Century",
         "1985\u20131990 Buick Electra",
         "1988\u20131994 Buick LeSabre"
       ],
-      "vehicle_count_raw": 322,
-      "ebay_item_id": "398400609821",
-      "ebay_type": "Lug Nut",
-      "ebay_brand": "Wagner",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Wheels, Tires & Parts:Wheel Nuts, Bolts & Studs",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -118668,10 +118874,17 @@
         "brand": "Wagner",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Wheels, Tires & Parts:Wheel Nuts, Bolts & Studs"
       },
+      "vehicle_count_raw": 322,
+      "ebay_item_id": "398400609821",
+      "ebay_type": "Lug Nut",
+      "ebay_brand": "Wagner",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Wheels, Tires & Parts:Wheel Nuts, Bolts & Studs",
       "images": [
         "../assets/pdp-gallery/POMCXYPKYQBKQGI53E5H3BCD/02.webp",
         "../assets/pdp-gallery/POMCXYPKYQBKQGI53E5H3BCD/03.webp"
-      ]
+      ],
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "HE5YXWYEYRADNDXAHDLL7XX2",
@@ -118682,23 +118895,16 @@
       "category": "other",
       "checkout": true,
       "variation_id": "FW6RT6IX7ZQIGRQHMZZQSPUR",
-      "stock": 1,
       "part_numbers": [
         "BD61355",
         "611-065.1"
       ],
-      "interchange": [],
       "vehicles": [
         "1991\u20131994 INFINITI G20",
         "1990\u20131994 INFINITI Q45",
         "1993\u20131994 Mercury Villager",
         "1984\u20131988 Nissan 200SX"
       ],
-      "vehicle_count_raw": 46,
-      "ebay_item_id": "398400600259",
-      "ebay_type": "Lug Nut",
-      "ebay_brand": "Wagner",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Wheels, Tires & Parts:Wheel Nuts, Bolts & Studs",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -118763,10 +118969,17 @@
         "brand": "Wagner",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Wheels, Tires & Parts:Wheel Nuts, Bolts & Studs"
       },
+      "vehicle_count_raw": 46,
+      "ebay_item_id": "398400600259",
+      "ebay_type": "Lug Nut",
+      "ebay_brand": "Wagner",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Wheels, Tires & Parts:Wheel Nuts, Bolts & Studs",
       "images": [
         "../assets/pdp-gallery/HE5YXWYEYRADNDXAHDLL7XX2/02.webp",
         "../assets/pdp-gallery/HE5YXWYEYRADNDXAHDLL7XX2/03.webp"
-      ]
+      ],
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "UGXD4X7ZJG5KGF7DJ7RKMGYF",
@@ -119342,5 +119555,5 @@
       "ebay_brand": ""
     }
   ],
-  "fitment_built": "2026-09-16T13:34:23Z"
+  "fitment_built": "2026-09-16T16:02:33Z"
 }
