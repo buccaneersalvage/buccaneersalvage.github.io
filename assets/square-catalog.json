@@ -1,7 +1,7 @@
 {
-  "updated": "2026-09-16T11:02:21Z",
+  "updated": "2026-09-16T12:02:34Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 835,
+  "count": 837,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -902,18 +902,10 @@
       "category": "air-spring",
       "checkout": true,
       "variation_id": "NAAV57IH4MTU4MBMJ6PLHAA4",
-      "stock": 1,
       "part_numbers": [
         "ABSP3B32RA-7847",
         "W01-358-7847"
       ],
-      "interchange": [],
-      "vehicles": [],
-      "vehicle_count_raw": 0,
-      "ebay_item_id": "398385277717",
-      "ebay_type": "Triple Convoluted",
-      "ebay_brand": "Automann",
-      "ebay_category": "eBay Motors:Parts & Accessories:Commercial Truck Parts:Suspension & Steering:Air Ride Suspension",
       "fitment_source": "ebay_listing+airspring_inventory",
       "fitment_confidence": "high",
       "fitment": {
@@ -932,6 +924,14 @@
         "brand": "Automann",
         "ebay_category": "eBay Motors:Parts & Accessories:Commercial Truck Parts:Suspension & Steering:Air Ride Suspension"
       },
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398385277717",
+      "ebay_type": "Triple Convoluted",
+      "ebay_brand": "Automann",
+      "ebay_category": "eBay Motors:Parts & Accessories:Commercial Truck Parts:Suspension & Steering:Air Ride Suspension",
+      "stock": 1,
+      "interchange": [],
+      "vehicles": [],
       "images": []
     },
     {
@@ -2271,20 +2271,13 @@
       "category": "brake",
       "checkout": true,
       "variation_id": "GLMS3RH2RU4YZIJRNDZ5QIZO",
-      "stock": 1,
       "part_numbers": [
         "2M-7179",
         "2M-269, Wagner MX269, Bendix MKD86"
       ],
-      "interchange": [],
       "vehicles": [
         "1981\u20131994 Dodge B150"
       ],
-      "vehicle_count_raw": 56,
-      "ebay_item_id": "398391586466",
-      "ebay_type": "Disc Brake Pad",
-      "ebay_brand": "Big A",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Master Cylinders",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -2316,6 +2309,13 @@
         "brand": "Big A",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Master Cylinders"
       },
+      "vehicle_count_raw": 56,
+      "ebay_item_id": "398391586466",
+      "ebay_type": "Disc Brake Pad",
+      "ebay_brand": "Big A",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Master Cylinders",
+      "stock": 1,
+      "interchange": [],
       "images": []
     },
     {
@@ -7295,11 +7295,9 @@
       "category": "brake",
       "checkout": true,
       "variation_id": "47GNRZ3LXGDTBWDA5YFSO2LD",
-      "stock": 1,
       "part_numbers": [
         "H1150-2"
       ],
-      "interchange": [],
       "vehicles": [
         "1964\u20131998 Buick Skylark",
         "1968\u20131999 Cadillac DeVille",
@@ -7308,11 +7306,6 @@
         "1960\u20131985 Chevrolet Impala",
         "1967\u20131997 Pontiac Firebird"
       ],
-      "vehicle_count_raw": 2672,
-      "ebay_item_id": "398365460744",
-      "ebay_type": "Drum Brake Shoe Hold Down Spring",
-      "ebay_brand": "Carlson",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -7398,6 +7391,13 @@
         "brand": "Carlson",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware"
       },
+      "vehicle_count_raw": 2672,
+      "ebay_item_id": "398365460744",
+      "ebay_type": "Drum Brake Shoe Hold Down Spring",
+      "ebay_brand": "Carlson",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware",
+      "stock": 1,
+      "interchange": [],
       "images": []
     },
     {
@@ -7409,11 +7409,9 @@
       "category": "brake",
       "checkout": true,
       "variation_id": "WZIDPEJBXTKROAP5VOFMZSAZ",
-      "stock": 1,
       "part_numbers": [
         "H2090-2"
       ],
-      "interchange": [],
       "vehicles": [
         "1967\u20131996 Ford Bronco",
         "1975\u20132002 Ford E-150 Econoline",
@@ -7421,11 +7419,6 @@
         "1965\u20131974 Ford LTD",
         "1964\u20131993 Ford Mustang"
       ],
-      "vehicle_count_raw": 3000,
-      "ebay_item_id": "398365461040",
-      "ebay_type": "Drum Brake Self-Adjuster Cable Guide",
-      "ebay_brand": "Carlson",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -7500,6 +7493,13 @@
         "brand": "Carlson",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware"
       },
+      "vehicle_count_raw": 3000,
+      "ebay_item_id": "398365461040",
+      "ebay_type": "Drum Brake Self-Adjuster Cable Guide",
+      "ebay_brand": "Carlson",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware",
+      "stock": 1,
+      "interchange": [],
       "images": []
     },
     {
@@ -9462,11 +9462,9 @@
       "category": "brake",
       "checkout": true,
       "variation_id": "7CZGGU676W7TQ34D7UWYLTE4",
-      "stock": 1,
       "part_numbers": [
         "H2148-2"
       ],
-      "interchange": [],
       "vehicles": [
         "1975\u20131986 Chevrolet C10",
         "1967\u20131978 Chevrolet Camaro",
@@ -9475,11 +9473,6 @@
         "1970\u20131994 GMC Jimmy",
         "1967\u20131978 Pontiac Firebird"
       ],
-      "vehicle_count_raw": 1541,
-      "ebay_item_id": "398365461202",
-      "ebay_type": "Drum Brake Adjusting Lever Return Spring",
-      "ebay_brand": "Carlson",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -9565,6 +9558,13 @@
         "brand": "Carlson",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware"
       },
+      "vehicle_count_raw": 1541,
+      "ebay_item_id": "398365461202",
+      "ebay_type": "Drum Brake Adjusting Lever Return Spring",
+      "ebay_brand": "Carlson",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware",
+      "stock": 1,
+      "interchange": [],
       "images": []
     },
     {
@@ -15128,11 +15128,9 @@
       "category": "brake",
       "checkout": true,
       "variation_id": "7U7LMWUWQDKHWGA5E42UL3GB",
-      "stock": 1,
       "part_numbers": [
         "H4050-2"
       ],
-      "interchange": [],
       "vehicles": [
         "1963\u20131973 Chrysler Imperial",
         "1963\u20131972 Dodge Polara",
@@ -15140,11 +15138,6 @@
         "1962\u20131971 Plymouth Belvedere",
         "1962\u20131972 Plymouth Fury"
       ],
-      "vehicle_count_raw": 1193,
-      "ebay_item_id": "398365461579",
-      "ebay_type": "Drum Brake Shoe Hold Down Kit",
-      "ebay_brand": "Carlson",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -15219,6 +15212,13 @@
         "brand": "Carlson",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware"
       },
+      "vehicle_count_raw": 1193,
+      "ebay_item_id": "398365461579",
+      "ebay_type": "Drum Brake Shoe Hold Down Kit",
+      "ebay_brand": "Carlson",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware",
+      "stock": 1,
+      "interchange": [],
       "images": []
     },
     {
@@ -15553,11 +15553,9 @@
       "category": "brake",
       "checkout": true,
       "variation_id": "D4VDS72KERVVZZR7VICSLA46",
-      "stock": 1,
       "part_numbers": [
         "H4099-2"
       ],
-      "interchange": [],
       "vehicles": [
         "1982\u20131992 Buick Century",
         "1982\u20131998 Buick Skylark",
@@ -15566,11 +15564,6 @@
         "1982\u20131990 Chevrolet Celebrity",
         "1987\u20131996 Chevrolet Corsica"
       ],
-      "vehicle_count_raw": 846,
-      "ebay_item_id": "398365461940",
-      "ebay_type": "Drum Brake Shoe Hold Down Kit",
-      "ebay_brand": "Carlson",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -15656,6 +15649,13 @@
         "brand": "Carlson",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware"
       },
+      "vehicle_count_raw": 846,
+      "ebay_item_id": "398365461940",
+      "ebay_type": "Drum Brake Shoe Hold Down Kit",
+      "ebay_brand": "Carlson",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware",
+      "stock": 1,
+      "interchange": [],
       "images": []
     },
     {
@@ -20725,22 +20725,15 @@
       "category": "brake",
       "checkout": true,
       "variation_id": "ENL4JFIOYJ5C7QFW4LMYSPBY",
-      "stock": 1,
       "part_numbers": [
         "H5107-2"
       ],
-      "interchange": [],
       "vehicles": [
         "1976\u20131980 Buick Skyhawk",
         "1976\u20131980 Chevrolet Monza",
         "1976\u20131980 Oldsmobile Starfire",
         "1976\u20131980 Pontiac Sunbird"
       ],
-      "vehicle_count_raw": 194,
-      "ebay_item_id": "398365462434",
-      "ebay_type": "Brake Hardware Star Lock Washers",
-      "ebay_brand": "Carlson",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -20804,6 +20797,13 @@
         "brand": "Carlson",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware"
       },
+      "vehicle_count_raw": 194,
+      "ebay_item_id": "398365462434",
+      "ebay_type": "Brake Hardware Star Lock Washers",
+      "ebay_brand": "Carlson",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware",
+      "stock": 1,
+      "interchange": [],
       "images": []
     },
     {
@@ -22378,22 +22378,15 @@
       "category": "brake",
       "checkout": true,
       "variation_id": "DAWDHIYJQVYMCRYW2I4S64LC",
-      "stock": 1,
       "part_numbers": [
         "H5430-2"
       ],
-      "interchange": [],
       "vehicles": [
         "1979\u20131986 Ford LTD",
         "1987\u20131991 Ford LTD Crown Victoria",
         "1981\u20131993 Mercury Grand Marquis",
         "1981\u20131986 Mercury Marquis"
       ],
-      "vehicle_count_raw": 332,
-      "ebay_item_id": "398365462974",
-      "ebay_type": "Disc Brake Anti-Rattle Spring",
-      "ebay_brand": "Carlson",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -22457,6 +22450,13 @@
         "brand": "Carlson",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware"
       },
+      "vehicle_count_raw": 332,
+      "ebay_item_id": "398365462974",
+      "ebay_type": "Disc Brake Anti-Rattle Spring",
+      "ebay_brand": "Carlson",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware",
+      "stock": 1,
+      "interchange": [],
       "images": []
     },
     {
@@ -34513,12 +34513,10 @@
       "category": "brake",
       "checkout": true,
       "variation_id": "ALV26NV4F6RWZQXD3WRJ3OID",
-      "stock": 1,
       "part_numbers": [
         "EC707",
         "EC7581, SG707T"
       ],
-      "interchange": [],
       "vehicles": [
         "1997\u20132001 Lexus ES300",
         "1999\u20132001 Lexus RX300",
@@ -34526,11 +34524,6 @@
         "1997\u20132001 Toyota Camry",
         "1999\u20132003 Toyota Solara"
       ],
-      "vehicle_count_raw": 78,
-      "ebay_item_id": "398391633126",
-      "ebay_type": "Ceramic Brake Pad",
-      "ebay_brand": "Wagner",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Master Cylinders",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -34606,6 +34599,13 @@
         "brand": "Wagner",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Master Cylinders"
       },
+      "vehicle_count_raw": 78,
+      "ebay_item_id": "398391633126",
+      "ebay_type": "Ceramic Brake Pad",
+      "ebay_brand": "Wagner",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Master Cylinders",
+      "stock": 1,
+      "interchange": [],
       "images": []
     },
     {
@@ -34703,6 +34703,113 @@
       ],
       "stock": 1,
       "interchange": []
+    },
+    {
+      "id": "H6PBMNIGB3BHHYPO2U2YR5BU",
+      "name": "Wagner F109093 Parking Brake Cable Rear 4WD 84-91 S10 Blazer Jimmy NOS",
+      "price": 15.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/147710a9feaceda38b1a678e95cbd805ce8faf6f/original.jpeg",
+      "url": "https://square.link/u/JlQZdQLV",
+      "category": "brake",
+      "checkout": true,
+      "variation_id": "GUKP5XI3DKHEFR7PLZTSXUUL",
+      "images": [
+        "../assets/pdp-gallery/H6PBMNIGB3BHHYPO2U2YR5BU/02.webp",
+        "../assets/pdp-gallery/H6PBMNIGB3BHHYPO2U2YR5BU/03.webp"
+      ],
+      "stock": 1,
+      "part_numbers": [
+        "F109093",
+        "BC109093 UP93493 C93493"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1984\u20131991 Chevrolet S10",
+        "1984\u20131991 Chevrolet S10 Blazer",
+        "1984\u20131990 GMC S15",
+        "1984\u20131991 GMC S15 Jimmy",
+        "1991 Oldsmobile Bravada"
+      ],
+      "vehicle_count_raw": 473,
+      "ebay_item_id": "398400455192",
+      "ebay_type": "Parking Brake Cable",
+      "ebay_brand": "Wagner",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Cables",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "F109093",
+          "BC109093 UP93493 C93493"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1984,
+            "year_to": 1991,
+            "make": "Chevrolet",
+            "model": "S10",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 1991,
+            "make": "Chevrolet",
+            "model": "S10 Blazer",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 1990,
+            "make": "GMC",
+            "model": "S15",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 1991,
+            "make": "GMC",
+            "model": "S15 Jimmy",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1991,
+            "year_to": 1991,
+            "make": "Oldsmobile",
+            "model": "Bravada",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1984\u20131991 Chevrolet S10",
+          "1984\u20131991 Chevrolet S10 Blazer",
+          "1984\u20131990 GMC S15",
+          "1984\u20131991 GMC S15 Jimmy",
+          "1991 Oldsmobile Bravada"
+        ],
+        "raw_compat_rows": 473,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398400455192",
+        "type": "Parking Brake Cable",
+        "brand": "Wagner",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Cables"
+      }
     },
     {
       "id": "K7LUL7IBB73YA5JJNNLUKRKZ",
@@ -35006,6 +35113,65 @@
       ],
       "stock": 1,
       "interchange": []
+    },
+    {
+      "id": "7TUI4ZKQI3TI3PQ63GO5GNIW",
+      "name": "Wagner F120889 Parking Brake Cable Front 125WB 86-91 Ford Ranger Pickup NOS",
+      "price": 19.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/e6a518824a23ed75f40aff0fb3c5a2428696aa89/original.jpeg",
+      "url": "https://square.link/u/RKVHQJ5r",
+      "category": "brake",
+      "checkout": true,
+      "variation_id": "FEVLTL5B3UDT4752357WRNCB",
+      "stock": 1,
+      "part_numbers": [
+        "F120889",
+        "BC120889 UP93523 C93523 E6TZ-2853-A"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1986\u20131991 Ford Ranger"
+      ],
+      "vehicle_count_raw": 220,
+      "ebay_item_id": "398400456684",
+      "ebay_type": "Parking Brake Cable",
+      "ebay_brand": "Wagner",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Cables",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "F120889",
+          "BC120889 UP93523 C93523 E6TZ-2853-A"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1986,
+            "year_to": 1991,
+            "make": "Ford",
+            "model": "Ranger",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1986\u20131991 Ford Ranger"
+        ],
+        "raw_compat_rows": 220,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398400456684",
+        "type": "Parking Brake Cable",
+        "brand": "Wagner",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Cables"
+      },
+      "images": [
+        "../assets/pdp-gallery/7TUI4ZKQI3TI3PQ63GO5GNIW/02.webp",
+        "../assets/pdp-gallery/7TUI4ZKQI3TI3PQ63GO5GNIW/03.webp"
+      ]
     },
     {
       "id": "DPRSU7RX4SKAHPRFDDTPFKZR",
@@ -35628,21 +35794,14 @@
       "category": "brake",
       "checkout": true,
       "variation_id": "IYTSEXYBDOPAKYQ2LGKVWRLW",
-      "stock": 1,
       "part_numbers": [
         "NB723",
         "Wagner Z723, BS723, B723"
       ],
-      "interchange": [],
       "vehicles": [
         "2000\u20132004 Dodge Dakota",
         "1997\u20132001 Ford F-150"
       ],
-      "vehicle_count_raw": 335,
-      "ebay_item_id": "398394502712",
-      "ebay_type": "Brake Shoe",
-      "ebay_brand": "Wearever",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Shoes",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -35685,6 +35844,13 @@
         "brand": "Wearever",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Shoes"
       },
+      "vehicle_count_raw": 335,
+      "ebay_item_id": "398394502712",
+      "ebay_type": "Brake Shoe",
+      "ebay_brand": "Wearever",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Shoes",
+      "stock": 1,
+      "interchange": [],
       "images": []
     },
     {
@@ -36333,12 +36499,10 @@
       "category": "filters",
       "checkout": true,
       "variation_id": "ETSGSODAO3QX3QNLSGDZPKNI",
-      "stock": 1,
       "part_numbers": [
         "62472",
         "WIX 42472, 1J0129620, 1J0129620A"
       ],
-      "interchange": [],
       "vehicles": [
         "2007 Audi TT",
         "1998\u20132010 Volkswagen Beetle",
@@ -36348,11 +36512,6 @@
         "2007\u20132009 Volkswagen Jetta City",
         "2004 Volkswagen R32"
       ],
-      "vehicle_count_raw": 331,
-      "ebay_item_id": "398392080159",
-      "ebay_type": "Air Filter",
-      "ebay_brand": "Parts Master",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Filters",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -36450,6 +36609,13 @@
         "brand": "Parts Master",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Filters"
       },
+      "vehicle_count_raw": 331,
+      "ebay_item_id": "398392080159",
+      "ebay_type": "Air Filter",
+      "ebay_brand": "Parts Master",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Filters",
+      "stock": 1,
+      "interchange": [],
       "images": []
     },
     {
@@ -36461,7 +36627,6 @@
       "category": "filters",
       "checkout": true,
       "variation_id": "4X73QMCVI63V3TM2B4FF5T44",
-      "stock": 1,
       "part_numbers": [
         "67312",
         "LP2017, LF558, L45515, FL2016, NAPA 7312"
@@ -36480,11 +36645,6 @@
         "2004\u20132008 Ford F-650",
         "2004\u20132008 Ford F-750"
       ],
-      "vehicle_count_raw": 403,
-      "ebay_item_id": "398395548001",
-      "ebay_type": "Oil Filter Kit",
-      "ebay_brand": "Parts Master",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Filters",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -36586,6 +36746,12 @@
         "brand": "Parts Master",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Filters"
       },
+      "vehicle_count_raw": 403,
+      "ebay_item_id": "398395548001",
+      "ebay_type": "Oil Filter Kit",
+      "ebay_brand": "Parts Master",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Filters",
+      "stock": 1,
       "images": []
     },
     {
@@ -36597,22 +36763,15 @@
       "category": "filters",
       "checkout": true,
       "variation_id": "MBSXEPJYSQOU5TOQMZCFHZDE",
-      "stock": 1,
       "part_numbers": [
         "FCG-152",
         "FCG152, WIX 33372, MANN WK842/2, WK842/2, PER152F"
       ],
-      "interchange": [],
       "vehicles": [
         "Volvo 240",
         "1985\u20131986 Volvo 740",
         "1985 Volvo 760"
       ],
-      "vehicle_count_raw": 6,
-      "ebay_item_id": "398395629897",
-      "ebay_type": "Fuel Filter",
-      "ebay_brand": "Purolator",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Fuel Filters",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -36666,6 +36825,13 @@
         "brand": "Purolator",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Fuel Filters"
       },
+      "vehicle_count_raw": 6,
+      "ebay_item_id": "398395629897",
+      "ebay_type": "Fuel Filter",
+      "ebay_brand": "Purolator",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Fuel Filters",
+      "stock": 1,
+      "interchange": [],
       "images": []
     },
     {
@@ -36677,21 +36843,14 @@
       "category": "filters",
       "checkout": true,
       "variation_id": "ACWJE3INIHQ6EOMT67LJ677N",
-      "stock": 1,
       "part_numbers": [
         "S10855",
         "S10855, CH10855, 57050, L26127, OX417D, 26320-3CAA0, 263203CAA0"
       ],
-      "interchange": [],
       "vehicles": [
         "Hyundai Santa",
         "Kia Sorento"
       ],
-      "vehicle_count_raw": 2,
-      "ebay_item_id": "398395765877",
-      "ebay_type": "Oil Filter",
-      "ebay_brand": "STP",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Filters",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "medium",
       "fitment": {
@@ -36734,6 +36893,13 @@
         "brand": "STP",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Filters"
       },
+      "vehicle_count_raw": 2,
+      "ebay_item_id": "398395765877",
+      "ebay_type": "Oil Filter",
+      "ebay_brand": "STP",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Filters",
+      "stock": 1,
+      "interchange": [],
       "images": []
     },
     {
@@ -61496,17 +61662,9 @@
       "category": "ignition",
       "checkout": true,
       "variation_id": "7YK6BNWHIVBXXLURXCXZS46A",
-      "stock": 1,
       "part_numbers": [
         "LaSalle 780411"
       ],
-      "interchange": [],
-      "vehicles": [],
-      "vehicle_count_raw": 0,
-      "ebay_item_id": "398376693582",
-      "ebay_type": "Spark Plug Wire Set",
-      "ebay_brand": "Wells",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Wires & Coil Boots",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -61524,6 +61682,14 @@
         "brand": "Wells",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Wires & Coil Boots"
       },
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398376693582",
+      "ebay_type": "Spark Plug Wire Set",
+      "ebay_brand": "Wells",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Wires & Coil Boots",
+      "stock": 1,
+      "interchange": [],
+      "vehicles": [],
       "images": []
     },
     {
@@ -61535,7 +61701,6 @@
       "category": "ignition",
       "checkout": true,
       "variation_id": "42MVJYE5T47IFHCTJQFQXI5D",
-      "stock": 1,
       "part_numbers": [
         "C838",
         "4176009 4167126 5227250 5C1086 5185 U12L E39 IC-27"
@@ -61585,11 +61750,6 @@
         "1979\u20131980 Plymouth Volare",
         "1984\u20131990 Plymouth Voyager"
       ],
-      "vehicle_count_raw": 870,
-      "ebay_item_id": "398395012754",
-      "ebay_type": "Ignition Coil",
-      "ebay_brand": "Wells",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Other Ignition Systems & Components",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -62052,6 +62212,12 @@
         "brand": "Wells",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Other Ignition Systems & Components"
       },
+      "vehicle_count_raw": 870,
+      "ebay_item_id": "398395012754",
+      "ebay_type": "Ignition Coil",
+      "ebay_brand": "Wells",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Other Ignition Systems & Components",
+      "stock": 1,
       "images": []
     },
     {
@@ -62063,12 +62229,10 @@
       "category": "ignition",
       "checkout": true,
       "variation_id": "3ZOE5YEYRYZMHE4QYLVKG5EK",
-      "stock": 1,
       "part_numbers": [
         "F968",
         "FA137, FD-159, 5D1125, DH390"
       ],
-      "interchange": [],
       "vehicles": [
         "1986\u20131987 Ford Aerostar",
         "1982\u20131988 Ford EXP",
@@ -62087,11 +62251,6 @@
         "1984\u20131994 Mercury Topaz",
         "1985\u20131989 Merkur XR4Ti"
       ],
-      "vehicle_count_raw": 634,
-      "ebay_item_id": "398394213785",
-      "ebay_type": "Distributor Cap",
-      "ebay_brand": "Wells",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -62288,6 +62447,13 @@
         "brand": "Wells",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps"
       },
+      "vehicle_count_raw": 634,
+      "ebay_item_id": "398394213785",
+      "ebay_type": "Distributor Cap",
+      "ebay_brand": "Wells",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps",
+      "stock": 1,
+      "interchange": [],
       "images": []
     },
     {
@@ -64149,12 +64315,10 @@
       "category": "driveline",
       "checkout": true,
       "variation_id": "APM7NUVZ3DH6XYPNQGT6Z67H",
-      "stock": 1,
       "part_numbers": [
         "CV5463",
         "5463"
       ],
-      "interchange": [],
       "vehicles": [
         "1994\u20132005 Buick Century",
         "1996\u20132005 Buick LeSabre",
@@ -64165,11 +64329,6 @@
         "1985\u20131996 Pontiac Grand Am",
         "2005\u20132007 Pontiac Grand Prix"
       ],
-      "vehicle_count_raw": 429,
-      "ebay_item_id": "398369627224",
-      "ebay_type": "CV Joint Boot Kit",
-      "ebay_brand": "MOOG",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:CV Joints, Boots & Parts",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -64278,6 +64437,13 @@
         "brand": "MOOG",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:CV Joints, Boots & Parts"
       },
+      "vehicle_count_raw": 429,
+      "ebay_item_id": "398369627224",
+      "ebay_type": "CV Joint Boot Kit",
+      "ebay_brand": "MOOG",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:CV Joints, Boots & Parts",
+      "stock": 1,
+      "interchange": [],
       "images": []
     },
     {
@@ -65075,22 +65241,15 @@
       "category": "driveline",
       "checkout": true,
       "variation_id": "K27WU6XGEHPCWOAEJSBFXIQH",
-      "stock": 1,
       "part_numbers": [
         "CV7451"
       ],
-      "interchange": [],
       "vehicles": [
         "1993\u20131994 Ford Taurus",
         "1993\u20131994 Ford Tempo",
         "1993\u20131994 Mercury Sable",
         "1993\u20131994 Mercury Topaz"
       ],
-      "vehicle_count_raw": 60,
-      "ebay_item_id": "398332880123",
-      "ebay_type": "CV Joint Boot Kit",
-      "ebay_brand": "Moog",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:CV Joints, Boots & Parts",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -65154,6 +65313,13 @@
         "brand": "Moog",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:CV Joints, Boots & Parts"
       },
+      "vehicle_count_raw": 60,
+      "ebay_item_id": "398332880123",
+      "ebay_type": "CV Joint Boot Kit",
+      "ebay_brand": "Moog",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:CV Joints, Boots & Parts",
+      "stock": 1,
+      "interchange": [],
       "images": []
     },
     {
@@ -65274,18 +65440,10 @@
       "category": "driveline",
       "checkout": true,
       "variation_id": "7SLSQUZODG466DWPXT6PKR6R",
-      "stock": 2,
       "part_numbers": [
         "03602",
         "Speedi-Boot 03602, Dorman 03602, 44018-SR1-901"
       ],
-      "interchange": [],
-      "vehicles": [],
-      "vehicle_count_raw": 0,
-      "ebay_item_id": "398357176655",
-      "ebay_type": "CV Joint Boot Kit",
-      "ebay_brand": "Motormite",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:CV Joints, Boots & Parts",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -65304,6 +65462,14 @@
         "brand": "Motormite",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:CV Joints, Boots & Parts"
       },
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398357176655",
+      "ebay_type": "CV Joint Boot Kit",
+      "ebay_brand": "Motormite",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:CV Joints, Boots & Parts",
+      "stock": 2,
+      "interchange": [],
+      "vehicles": [],
       "images": []
     },
     {
@@ -66147,23 +66313,16 @@
       "category": "driveline",
       "checkout": true,
       "variation_id": "D2K3XWO3VRKZCTR6HLBYNIZZ",
-      "stock": 1,
       "part_numbers": [
         "03615",
         "Motormite"
       ],
-      "interchange": [],
       "vehicles": [
         "1980 Audi 4000",
         "1980\u20131985 Volkswagen Jetta",
         "1979\u20131984 Volkswagen Rabbit",
         "1975\u20131985 Volkswagen Scirocco"
       ],
-      "vehicle_count_raw": 145,
-      "ebay_item_id": "398360379115",
-      "ebay_type": "CV Boot Kit",
-      "ebay_brand": "Speedi-Boot",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:CV Joints, Boots & Parts",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -66228,6 +66387,13 @@
         "brand": "Speedi-Boot",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:CV Joints, Boots & Parts"
       },
+      "vehicle_count_raw": 145,
+      "ebay_item_id": "398360379115",
+      "ebay_type": "CV Boot Kit",
+      "ebay_brand": "Speedi-Boot",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:CV Joints, Boots & Parts",
+      "stock": 1,
+      "interchange": [],
       "images": []
     },
     {
@@ -70479,7 +70645,6 @@
       "category": "other",
       "checkout": true,
       "variation_id": "XVP4BH24OYCU3JEMHLPS2FBH",
-      "stock": 1,
       "part_numbers": [
         "045-0253",
         "Worldparts, FV258, V245"
@@ -70495,11 +70660,6 @@
         "1991\u20131996 Mercury Tracer",
         "1983\u20131985 Toyota Corolla"
       ],
-      "vehicle_count_raw": 78,
-      "ebay_item_id": "398360453544",
-      "ebay_type": "PCV Valve",
-      "ebay_brand": "Beck Arnley",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Exhaust & Emission Systems:Other Exhaust & Emission Parts",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -70568,6 +70728,12 @@
         "brand": "Beck Arnley",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Exhaust & Emission Systems:Other Exhaust & Emission Parts"
       },
+      "vehicle_count_raw": 78,
+      "ebay_item_id": "398360453544",
+      "ebay_type": "PCV Valve",
+      "ebay_brand": "Beck Arnley",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Exhaust & Emission Systems:Other Exhaust & Emission Parts",
+      "stock": 1,
       "images": []
     },
     {
@@ -91983,18 +92149,10 @@
       "category": "other",
       "checkout": true,
       "variation_id": "IA7GZP5KCHICHALJ2KQWX6YH",
-      "stock": 1,
       "part_numbers": [
         "0950-4392",
         "A17071A, 09504392, Yokogawa"
       ],
-      "interchange": [],
-      "vehicles": [],
-      "vehicle_count_raw": 0,
-      "ebay_item_id": "398360421809",
-      "ebay_type": "AC Adapter",
-      "ebay_brand": "HP",
-      "ebay_category": "Computers/Tablets & Networking:Printers, Scanners & Supplies:Printer & Scanner Parts & Accs:Power Supplies",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -92013,6 +92171,14 @@
         "brand": "HP",
         "ebay_category": "Computers/Tablets & Networking:Printers, Scanners & Supplies:Printer & Scanner Parts & Accs:Power Supplies"
       },
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398360421809",
+      "ebay_type": "AC Adapter",
+      "ebay_brand": "HP",
+      "ebay_category": "Computers/Tablets & Networking:Printers, Scanners & Supplies:Printer & Scanner Parts & Accs:Power Supplies",
+      "stock": 1,
+      "interchange": [],
+      "vehicles": [],
       "images": []
     },
     {
@@ -101512,15 +101678,6 @@
       "category": "other",
       "checkout": true,
       "variation_id": "Z6DSTKL7N7TS5E5GGBQNRJLO",
-      "stock": 1,
-      "part_numbers": [],
-      "interchange": [],
-      "vehicles": [],
-      "vehicle_count_raw": 0,
-      "ebay_item_id": "398377231115",
-      "ebay_type": "Range Power Cord",
-      "ebay_brand": "Unbranded",
-      "ebay_category": "Home & Garden:Major Appliances:Major Appliances Parts & Accessories:Cooking Appliance Parts",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "medium",
       "fitment": {
@@ -101536,6 +101693,15 @@
         "brand": "Unbranded",
         "ebay_category": "Home & Garden:Major Appliances:Major Appliances Parts & Accessories:Cooking Appliance Parts"
       },
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398377231115",
+      "ebay_type": "Range Power Cord",
+      "ebay_brand": "Unbranded",
+      "ebay_category": "Home & Garden:Major Appliances:Major Appliances Parts & Accessories:Cooking Appliance Parts",
+      "stock": 1,
+      "part_numbers": [],
+      "interchange": [],
+      "vehicles": [],
       "images": []
     },
     {
@@ -102638,17 +102804,9 @@
       "category": "other",
       "checkout": true,
       "variation_id": "K72CD26RETRUXDLQBJOWHSDL",
-      "stock": 1,
       "part_numbers": [
         "AT70"
       ],
-      "interchange": [],
-      "vehicles": [],
-      "vehicle_count_raw": 0,
-      "ebay_item_id": "398360423434",
-      "ebay_type": "Flowmeter",
-      "ebay_brand": "Penox",
-      "ebay_category": "Business & Industrial:Healthcare, Lab & Dental:Medical & Lab Equipment, Devices:Other Medical & Lab Equipment",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "medium",
       "fitment": {
@@ -102666,6 +102824,14 @@
         "brand": "Penox",
         "ebay_category": "Business & Industrial:Healthcare, Lab & Dental:Medical & Lab Equipment, Devices:Other Medical & Lab Equipment"
       },
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398360423434",
+      "ebay_type": "Flowmeter",
+      "ebay_brand": "Penox",
+      "ebay_category": "Business & Industrial:Healthcare, Lab & Dental:Medical & Lab Equipment, Devices:Other Medical & Lab Equipment",
+      "stock": 1,
+      "interchange": [],
+      "vehicles": [],
       "images": []
     },
     {
@@ -106850,7 +107016,6 @@
       "category": "other",
       "checkout": true,
       "variation_id": "UINMI3N47JKSGRGLCQMRAGWF",
-      "stock": 1,
       "part_numbers": [
         "JR80",
         "JR-80, D577, EP342"
@@ -106865,11 +107030,6 @@
         "1984\u20131989 Dodge Ram 50",
         "1986\u20131989 Hyundai Excel"
       ],
-      "vehicle_count_raw": 187,
-      "ebay_item_id": "398360456201",
-      "ebay_type": "Distributor Rotor",
-      "ebay_brand": "Standard Motor Products",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -106927,6 +107087,12 @@
         "brand": "Standard Motor Products",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors"
       },
+      "vehicle_count_raw": 187,
+      "ebay_item_id": "398360456201",
+      "ebay_type": "Distributor Rotor",
+      "ebay_brand": "Standard Motor Products",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors",
+      "stock": 1,
       "images": []
     },
     {
@@ -117498,15 +117664,6 @@
       "category": "other",
       "checkout": true,
       "variation_id": "UA4USUNLYKCZKTQ3QZSIDR5V",
-      "stock": 1,
-      "part_numbers": [],
-      "interchange": [],
-      "vehicles": [],
-      "vehicle_count_raw": 0,
-      "ebay_item_id": "398388035459",
-      "ebay_type": "Hedge Shears",
-      "ebay_brand": "Unbranded",
-      "ebay_category": "Home & Garden:Yard, Garden & Outdoor Living:Garden Hand Tools & Equipment:Hedge & Grass Shears",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "medium",
       "fitment": {
@@ -117522,6 +117679,15 @@
         "brand": "Unbranded",
         "ebay_category": "Home & Garden:Yard, Garden & Outdoor Living:Garden Hand Tools & Equipment:Hedge & Grass Shears"
       },
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398388035459",
+      "ebay_type": "Hedge Shears",
+      "ebay_brand": "Unbranded",
+      "ebay_category": "Home & Garden:Yard, Garden & Outdoor Living:Garden Hand Tools & Equipment:Hedge & Grass Shears",
+      "stock": 1,
+      "part_numbers": [],
+      "interchange": [],
+      "vehicles": [],
       "images": []
     },
     {
@@ -118658,5 +118824,5 @@
       "ebay_brand": ""
     }
   ],
-  "fitment_built": "2026-09-16T11:02:21Z"
+  "fitment_built": "2026-09-16T12:02:34Z"
 }
