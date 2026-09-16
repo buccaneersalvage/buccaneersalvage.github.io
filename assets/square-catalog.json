@@ -1,7 +1,7 @@
 {
-  "updated": "2026-09-16T21:02:36Z",
+  "updated": "2026-09-16T22:02:40Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 848,
+  "count": 849,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -74381,6 +74381,102 @@
       "stock": 1
     },
     {
+      "id": "G57C33MVEUDBHLXACCVDWVQ7",
+      "name": "Federal-Mogul 6-3765RA Rod Bearings .75mm NOS 80-89 Celebrity 2.8 3.1",
+      "price": 19.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/09ecb2689d53138e945c0635a69b7705993974ed/original.jpeg",
+      "url": "https://square.link/u/AuTlYMNH",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "R33MJNVL3YAJEACEYGQ72FQV",
+      "stock": 1,
+      "part_numbers": [
+        "6-3765RA",
+        "3765RA"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1982\u20131989 Buick Century",
+        "1982\u20131989 Chevrolet Celebrity",
+        "1982\u20131989 Oldsmobile Cutlass Ciera",
+        "1982\u20131989 Pontiac 6000"
+      ],
+      "vehicle_count_raw": 208,
+      "ebay_item_id": "398401874265",
+      "ebay_type": "Connecting Rod Bearing Set",
+      "ebay_brand": "Federal-Mogul",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Engine Bearings",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "6-3765RA",
+          "3765RA"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1982,
+            "year_to": 1989,
+            "make": "Buick",
+            "model": "Century",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1982,
+            "year_to": 1989,
+            "make": "Chevrolet",
+            "model": "Celebrity",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1982,
+            "year_to": 1989,
+            "make": "Oldsmobile",
+            "model": "Cutlass Ciera",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1982,
+            "year_to": 1989,
+            "make": "Pontiac",
+            "model": "6000",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1982\u20131989 Buick Century",
+          "1982\u20131989 Chevrolet Celebrity",
+          "1982\u20131989 Oldsmobile Cutlass Ciera",
+          "1982\u20131989 Pontiac 6000"
+        ],
+        "raw_compat_rows": 208,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398401874265",
+        "type": "Connecting Rod Bearing Set",
+        "brand": "Federal-Mogul",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Engine Bearings"
+      },
+      "images": [
+        "../assets/pdp-gallery/G57C33MVEUDBHLXACCVDWVQ7/02.webp",
+        "../assets/pdp-gallery/G57C33MVEUDBHLXACCVDWVQ7/03.webp",
+        "../assets/pdp-gallery/G57C33MVEUDBHLXACCVDWVQ7/04.webp"
+      ]
+    },
+    {
       "id": "5HHOJ7GJXFXMAJZZKQVOMKGJ",
       "name": "Fel-Pro BS-30138 Rear Main Seal Set FE 352 390 428 Thunderbird Mustang NOS",
       "price": 29.99,
@@ -118454,7 +118550,6 @@
       "category": "other",
       "checkout": true,
       "variation_id": "VNWNWMM3AT3Y55Z4DCBXMK5Y",
-      "stock": 1,
       "part_numbers": [
         "08536",
         "F101254 M76162 MC36306 18M18 11944"
@@ -118476,11 +118571,6 @@
         "1969\u20131977 Oldsmobile Cutlass",
         "1970\u20131980 Pontiac Firebird"
       ],
-      "vehicle_count_raw": 1899,
-      "ebay_item_id": "398401680452",
-      "ebay_type": "Brake Master Cylinder",
-      "ebay_brand": "Wagner",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Master Cylinders",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -118635,11 +118725,17 @@
         "brand": "Wagner",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Master Cylinders"
       },
+      "vehicle_count_raw": 1899,
+      "ebay_item_id": "398401680452",
+      "ebay_type": "Brake Master Cylinder",
+      "ebay_brand": "Wagner",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Master Cylinders",
       "images": [
         "../assets/pdp-gallery/E7DOV3PLNPCZDXYFP4MJG2HT/02.webp",
         "../assets/pdp-gallery/E7DOV3PLNPCZDXYFP4MJG2HT/03.webp",
         "../assets/pdp-gallery/E7DOV3PLNPCZDXYFP4MJG2HT/04.webp"
-      ]
+      ],
+      "stock": 1
     },
     {
       "id": "U7A3AB25DS3F54MHTGJSMXNS",
@@ -119715,5 +119811,5 @@
       "ebay_brand": ""
     }
   ],
-  "fitment_built": "2026-09-16T21:02:36Z"
+  "fitment_built": "2026-09-16T22:02:40Z"
 }
