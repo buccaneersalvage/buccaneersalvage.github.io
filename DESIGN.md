@@ -9,6 +9,7 @@
 | Surface | URL | Role |
 |---------|-----|------|
 | **Hub** | https://buccaneersalvage.github.io/ | Flagship: music, lanes, ports, brand thesis |
+| **AI Concierge** | https://buccaneersalvage.github.io/concierge.html | Shop-owner process help ($49 audit, monthly quoted) |
 | **Store (primary)** | https://buccaneersalvage.github.io/store.html | Parts catalog + checkout (own store) |
 | **eBay (secondary)** | https://www.ebay.com/str/buccaneersalvage | Marketplace listings |
 | **YouTube** | https://www.youtube.com/@BuccaneerSalvage | Dark AI music / Rustjack |

@@ -1,4 +1,15 @@
     /* Concierge-only layout on top of services.css tokens. */
+    .hero {
+      min-height: 0;
+      text-align: left;
+      padding: 5.25rem var(--gutter) 2.25rem;
+      place-items: stretch;
+    }
+    .hero .hero-inner.hero-split {
+      max-width: var(--max);
+      width: 100%;
+      margin: 0 auto;
+    }
     .hero-split {
       display: grid;
       gap: var(--space-6);
@@ -6,6 +17,15 @@
     }
     @media (min-width: 900px) {
       .hero-split { grid-template-columns: 1.15fr 0.85fr; gap: var(--space-7); }
+    }
+    .hero-split .hero-sub {
+      margin-left: 0;
+      max-width: 52ch;
+      margin-bottom: 1.2rem;
+    }
+    .hero-split .hero-actions {
+      justify-content: flex-start;
+      margin-bottom: 0;
     }
     .hero-photo {
       border-radius: var(--radius);
@@ -16,10 +36,16 @@
     .hero-photo img {
       width: 100%;
       height: auto;
+      max-height: 300px;
       aspect-ratio: 16 / 9;
       object-fit: cover;
     }
-    .hero-title { font-size: clamp(2.1rem, 1.2rem + 3.2vw, 4.1rem); }
+    .hero-title {
+      font-size: clamp(1.85rem, 1.05rem + 2.4vw, 3.15rem);
+      margin-bottom: 0.85rem;
+      line-height: 1.12;
+    }
+    .hero-eyebrow { margin-bottom: 0.85rem; }
 
     .split-row {
       display: grid;

@@ -8,6 +8,7 @@ Premium static hub. Stack: `index.html`, `styles.css`, `main.js`, `assets/`.
 |------|-----|
 | Store (primary) | https://buccaneersalvage.github.io/store.html |
 | eBay services | https://buccaneersalvage.github.io/services.html |
+| AI Concierge | https://buccaneersalvage.github.io/concierge.html |
 | eBay (secondary) | https://www.ebay.com/str/buccaneersalvage |
 | YouTube | https://www.youtube.com/@BuccaneerSalvage |
 | X | https://x.com/jollyroger1480 |
