@@ -18,18 +18,15 @@
     const sendBtn = document.getElementById('f-send');
     if (sendBtn) {
       sendBtn.addEventListener('click', async () => {
+        const kind = sendBtn.getAttribute('data-kind') || 'listing';
         const email = document.getElementById('f-email').value.trim();
-        const store = document.getElementById('f-store').value.trim();
-        const count = document.getElementById('f-count').value;
-        const plan = document.getElementById('f-plan').value;
-        const photos = document.getElementById('f-photos').value.trim();
         const status = document.getElementById('f-status');
         const endpoint = (window.BUC_FORMSPREE && window.BUC_FORMSPREE.endpoint) || '';
 
-        function setStatus(kind, text) {
+        function setStatus(kindStatus, text) {
           if (!status) return;
           status.hidden = !text;
-          status.className = 'contact-status' + (kind ? ' contact-status--' + kind : '');
+          status.className = 'contact-status' + (kindStatus ? ' contact-status--' + kindStatus : '');
           status.textContent = text || '';
         }
 
@@ -37,26 +34,55 @@
           setStatus('err', 'Email is required.');
           return;
         }
+
+        let payload;
+        let fallbackTopic;
+        if (kind === 'concierge') {
+          const shop = (document.getElementById('f-shop') || {}).value || '';
+          const hours = (document.getElementById('f-hours') || {}).value || '';
+          const want = (document.getElementById('f-want') || {}).value || '';
+          const job = (document.getElementById('f-job') || {}).value || '';
+          fallbackTopic = 'AI Concierge - ' + want;
+          payload = {
+            email,
+            shop: shop.trim(),
+            hours,
+            want,
+            job: job.trim(),
+            topic: 'AI Concierge',
+            message: `AI Concierge intake\nWant: ${want}\nShop: ${shop}\nHours/week: ${hours}\nJob: ${job}`,
+            _subject: `BuccaneerSalvage concierge - ${want}`,
+            source: 'hub-concierge',
+            page: location.href,
+          };
+        } else {
+          const store = document.getElementById('f-store').value.trim();
+          const count = document.getElementById('f-count').value;
+          const plan = document.getElementById('f-plan').value;
+          const photos = document.getElementById('f-photos').value.trim();
+          fallbackTopic = 'Listing services - ' + plan;
+          payload = {
+            email,
+            store_url: store,
+            sku_count: count,
+            plan,
+            photos,
+            topic: 'Listing services',
+            message: `Listing services intake\nPlan: ${plan}\nSKU count: ${count}\nStore: ${store}\nPhotos: ${photos}`,
+            _subject: `BuccaneerSalvage services - ${plan} (${count})`,
+            source: 'hub-services',
+            page: location.href,
+          };
+        }
+
         if (!endpoint) {
           setStatus('warn', 'Form backend not configured yet. Open contact.html setup notes, or email after Square pay.');
-          window.location.href = 'contact.html?topic=' + encodeURIComponent('Listing services - ' + plan);
+          window.location.href = 'contact.html?topic=' + encodeURIComponent(fallbackTopic);
           return;
         }
 
         sendBtn.disabled = true;
         setStatus('pending', 'Sending…');
-        const payload = {
-          email,
-          store_url: store,
-          sku_count: count,
-          plan,
-          photos,
-          topic: 'Listing services',
-          message: `Listing services intake\nPlan: ${plan}\nSKU count: ${count}\nStore: ${store}\nPhotos: ${photos}`,
-          _subject: `BuccaneerSalvage services - ${plan} (${count})`,
-          source: "hub-services",
-          page: location.href,
-        };
         try {
           const res = await fetch(endpoint, {
             method: 'POST',

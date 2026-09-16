@@ -26,6 +26,7 @@ ASSETS = (
     "videos.js",
     "services.css",
     "services.js",
+    "concierge.css",
     "templates.css",
     "templates.js",
     "terms-service.css",

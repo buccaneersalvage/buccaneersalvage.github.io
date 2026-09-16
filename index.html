@@ -117,7 +117,8 @@
             {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Free local scrap metal removal", "description": "We haul scrap metal at no charge in the local Carbondale PA area by appointment."}},
             {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Electronic recycling / e-waste", "description": "E-waste recycling for a fee - not free. Book on the Scrap Removal page."}},
             {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Auto parts and vintage collectibles", "description": "Auto parts and vintage collectible treasures — shop the BuccaneerSalvage Store first; eBay secondary."}},
-            {"@type": "Offer", "url": "https://buccaneersalvage.github.io/services.html", "itemOffered": {"@type": "Service", "name": "eBay listing writing", "description": "Text drafts $2.50, styled pages $5. You approve before anything goes live."}}
+            {"@type": "Offer", "url": "https://buccaneersalvage.github.io/services.html", "itemOffered": {"@type": "Service", "name": "eBay listing writing", "description": "Text drafts $2.50, styled pages $5. You approve before anything goes live."}},
+            {"@type": "Offer", "url": "https://buccaneersalvage.github.io/concierge.html", "itemOffered": {"@type": "Service", "name": "AI Concierge for shop owners", "description": "$49 written audit of one process, then two calls a month quoted after. You approve every public send."}}
           ]
         }
       },
@@ -195,15 +196,16 @@
         "@type": "ItemList",
         "@id": "https://buccaneersalvage.github.io/#destinations",
         "name": "BuccaneerSalvage destinations",
-        "numberOfItems": 7,
+        "numberOfItems": 8,
         "itemListElement": [
           {"@type": "ListItem", "position": 1, "name": "BuccaneerSalvage Store", "url": "https://buccaneersalvage.github.io/store.html"},
           {"@type": "ListItem", "position": 2, "name": "eBay listing writing", "url": "https://buccaneersalvage.github.io/services.html"},
-          {"@type": "ListItem", "position": 3, "name": "eBay BuccaneerSalvage (secondary)", "url": "https://www.ebay.com/str/buccaneersalvage"},
-          {"@type": "ListItem", "position": 4, "name": "Scrap Removal", "url": "https://buccaneersalvage.github.io/scrap.html"},
-          {"@type": "ListItem", "position": 5, "name": "YouTube @BuccaneerSalvage", "url": "https://www.youtube.com/@BuccaneerSalvage"},
-          {"@type": "ListItem", "position": 6, "name": "Ukiri dossier", "url": "https://buccaneersalvage.github.io/ukiri/"},
-          {"@type": "ListItem", "position": 7, "name": "X @jollyroger1480", "url": "https://x.com/jollyroger1480"}
+          {"@type": "ListItem", "position": 3, "name": "AI Concierge", "url": "https://buccaneersalvage.github.io/concierge.html"},
+          {"@type": "ListItem", "position": 4, "name": "eBay BuccaneerSalvage (secondary)", "url": "https://www.ebay.com/str/buccaneersalvage"},
+          {"@type": "ListItem", "position": 5, "name": "Scrap Removal", "url": "https://buccaneersalvage.github.io/scrap.html"},
+          {"@type": "ListItem", "position": 6, "name": "YouTube @BuccaneerSalvage", "url": "https://www.youtube.com/@BuccaneerSalvage"},
+          {"@type": "ListItem", "position": 7, "name": "Ukiri dossier", "url": "https://buccaneersalvage.github.io/ukiri/"},
+          {"@type": "ListItem", "position": 8, "name": "X @jollyroger1480", "url": "https://x.com/jollyroger1480"}
         ]
       }
     ]
@@ -250,6 +252,7 @@
       <a href="index.html" aria-current="page">Home</a>
       <a href="store.html">Store</a>
       <a href="services.html">eBay services</a>
+      <a href="concierge.html">Concierge</a>
       <a href="terms.html">Terms</a>
       <a href="privacy.html">Privacy</a>
       <a href="shame.html">Shame</a>
@@ -383,6 +386,24 @@
 
           <a
             class="port reveal reveal-delay-3"
+            href="concierge.html"
+          >
+            <div class="port-media">
+              <picture><source type="image/webp" srcset="assets/concierge/shop-counter.webp" /><img src="assets/concierge/shop-counter.jpg" alt="Shop counter: AI Concierge for owners who will sit two calls a month on a real process" width="1248" height="832" loading="lazy" class="img-pos-40" /></picture>
+            </div>
+            <div class="port-body">
+              <span class="port-tag sq">Owners</span>
+              <h3>AI Concierge</h3>
+              <p>$49 written audit of one process. Two calls a month quoted after, if the hours are real. Not listing typing. Not a chatbot.</p>
+              <span class="port-go">
+                Open Concierge
+                <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </span>
+            </div>
+          </a>
+
+          <a
+            class="port reveal"
             href="https://www.youtube.com/@BuccaneerSalvage"
             target="_blank"
             rel="noopener noreferrer"
@@ -515,6 +536,13 @@
             <span class="footer-port-meta">
               <span class="footer-port-label">eBay listings</span>
               <span class="footer-port-sub">From $2.50</span>
+            </span>
+          </a>
+          <a class="footer-port" href="concierge.html">
+            <span class="footer-port-ico" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 4h14v4H5zm0 6h14v10H5zM8 14h8"/></svg></span>
+            <span class="footer-port-meta">
+              <span class="footer-port-label">Concierge</span>
+              <span class="footer-port-sub">$49 process audit</span>
             </span>
           </a>
           <a class="footer-port" href="https://www.ebay.com/str/buccaneersalvage" target="_blank" rel="noopener noreferrer">

@@ -1,7 +1,7 @@
 {
-  "updated": "2026-09-16T00:02:25Z",
+  "updated": "2026-09-16T01:02:25Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 803,
+  "count": 805,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -67632,6 +67632,89 @@
       "stock": 1
     },
     {
+      "id": "BOHM2OSDRIQ6OPA3HQVL5WJY",
+      "name": "ACDelco D8041 GM 89057520 Oil Pressure Switch Camaro Firebird 93-02 NOS",
+      "price": 34.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/4287dc38bc4158331d12aac890212ca535936d01/original.jpeg",
+      "url": "https://square.link/u/huZaKcYt",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "WVCQGWIEURBTPOCVKEPE2ZWU",
+      "stock": 1,
+      "part_numbers": [
+        "D8041",
+        "89057520"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1993\u20132002 Chevrolet Camaro",
+        "1993\u20132002 GM 89057520",
+        "1993\u20132002 Pontiac Firebird"
+      ],
+      "vehicle_count_raw": 121,
+      "ebay_item_id": "398398746286",
+      "ebay_type": "Oil Pressure Switch",
+      "ebay_brand": "ACDelco",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Engine Sensors & Switches",
+      "fitment_source": "ebay_listing+title",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "D8041",
+          "89057520"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1993,
+            "year_to": 2002,
+            "make": "Chevrolet",
+            "model": "Camaro",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1993,
+            "year_to": 2002,
+            "make": "GM",
+            "model": "89057520",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1993,
+            "year_to": 2002,
+            "make": "Pontiac",
+            "model": "Firebird",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1993\u20132002 Chevrolet Camaro",
+          "1993\u20132002 GM 89057520",
+          "1993\u20132002 Pontiac Firebird"
+        ],
+        "raw_compat_rows": 121,
+        "source": "ebay_listing+title",
+        "confidence": "high",
+        "ebay_item_id": "398398746286",
+        "type": "Oil Pressure Switch",
+        "brand": "ACDelco",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Engine Sensors & Switches"
+      },
+      "images": [
+        "../assets/pdp-gallery/BOHM2OSDRIQ6OPA3HQVL5WJY/02.webp",
+        "../assets/pdp-gallery/BOHM2OSDRIQ6OPA3HQVL5WJY/03.webp"
+      ]
+    },
+    {
       "id": "EUHHRIHKC5CP3XKVETQODNSR",
       "name": "Antique 13\" Ratchet Brace Hand Drill Vintage Woodworking Tool Working",
       "price": 24.99,
@@ -98599,6 +98682,114 @@
       "vehicles": []
     },
     {
+      "id": "AYWIWB4RXY4KLQYIJR4RZ6QO",
+      "name": "Neapco 2-3011 U-Joint Greasable 3R ISR 1.125 Silverado Sierra 88-16 NOS",
+      "price": 24.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/b6b75eab692758bef31e8d9587c53d0bdd833ce6/original.jpeg",
+      "url": "https://square.link/u/krU2Bpqd",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "KKFQKWHSXT5JH2UJA7J5X2D4",
+      "stock": 1,
+      "part_numbers": [
+        "2-3011",
+        "Spicer 5-3147X"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1988\u20131999 Chevrolet C1500",
+        "1988\u20131999 Chevrolet K1500",
+        "1999\u20132016 Chevrolet Silverado 1500",
+        "1988\u20131999 GMC C1500",
+        "1999\u20132016 GMC Sierra 1500"
+      ],
+      "vehicle_count_raw": 1839,
+      "ebay_item_id": "398398744939",
+      "ebay_type": "Universal Joint",
+      "ebay_brand": "Neapco",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:Driveshafts & Parts:Driveshaft Bearings & U-Joints",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "2-3011",
+          "Spicer 5-3147X"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1988,
+            "year_to": 1999,
+            "make": "Chevrolet",
+            "model": "C1500",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1988,
+            "year_to": 1999,
+            "make": "Chevrolet",
+            "model": "K1500",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1999,
+            "year_to": 2016,
+            "make": "Chevrolet",
+            "model": "Silverado 1500",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1988,
+            "year_to": 1999,
+            "make": "GMC",
+            "model": "C1500",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1999,
+            "year_to": 2016,
+            "make": "GMC",
+            "model": "Sierra 1500",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1988\u20131999 Chevrolet C1500",
+          "1988\u20131999 Chevrolet K1500",
+          "1999\u20132016 Chevrolet Silverado 1500",
+          "1988\u20131999 GMC C1500",
+          "1999\u20132016 GMC Sierra 1500"
+        ],
+        "raw_compat_rows": 1839,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398398744939",
+        "type": "Universal Joint",
+        "brand": "Neapco",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:Driveshafts & Parts:Driveshaft Bearings & U-Joints"
+      },
+      "images": [
+        "../assets/pdp-gallery/AYWIWB4RXY4KLQYIJR4RZ6QO/02.webp",
+        "../assets/pdp-gallery/AYWIWB4RXY4KLQYIJR4RZ6QO/03.webp",
+        "../assets/pdp-gallery/AYWIWB4RXY4KLQYIJR4RZ6QO/04.webp"
+      ]
+    },
+    {
       "id": "WFSUCZEN6UB5VJCHR6GJARSK",
       "name": "Nestl\u00e9 Compleat Pediatric Organic Blends 9 Cases (4 Vegan + 5 Chicken) Exp 2027",
       "price": 499.99,
@@ -114802,11 +114993,9 @@
       "category": "other",
       "checkout": true,
       "variation_id": "AIT5ZC2PRA3YABOP5QIU23JU",
-      "stock": 1,
       "part_numbers": [
         "BD61283"
       ],
-      "interchange": [],
       "vehicles": [
         "1985\u20131989 Buick Century",
         "1981\u20131989 Buick Electra",
@@ -114814,11 +115003,6 @@
         "1987\u20131990 Cadillac Brougham",
         "1981\u20131984 Chevrolet El Camino"
       ],
-      "vehicle_count_raw": 316,
-      "ebay_item_id": "398398621554",
-      "ebay_type": "Lug Nut",
-      "ebay_brand": "Wagner",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Wheels, Tires & Parts:Wheel Nuts, Bolts & Studs",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -114893,10 +115077,17 @@
         "brand": "Wagner",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Wheels, Tires & Parts:Wheel Nuts, Bolts & Studs"
       },
+      "vehicle_count_raw": 316,
+      "ebay_item_id": "398398621554",
+      "ebay_type": "Lug Nut",
+      "ebay_brand": "Wagner",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Wheels, Tires & Parts:Wheel Nuts, Bolts & Studs",
       "images": [
         "../assets/pdp-gallery/JCDJSJGKBSBMYGCFTLNAKJ3O/02.webp",
         "../assets/pdp-gallery/JCDJSJGKBSBMYGCFTLNAKJ3O/03.webp"
-      ]
+      ],
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "UGXD4X7ZJG5KGF7DJ7RKMGYF",
@@ -115472,5 +115663,5 @@
       "ebay_brand": ""
     }
   ],
-  "fitment_built": "2026-09-16T00:02:25Z"
+  "fitment_built": "2026-09-16T01:02:25Z"
 }

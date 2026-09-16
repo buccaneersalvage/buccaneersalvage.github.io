@@ -22,6 +22,7 @@ CARDS = {
     "index":         ("Parts, Service & Salvage",      [("chest", -4.4, 1.1), ("barrel", 4.5, 1.15)]),
     "store":         ("Store Catalog",                 [("chest", -4.4, 1.15), ("coins", 4.4, 1.0)]),
     "services":      ("eBay Listing Services",         [("spyglass", -4.4, 1.2), ("crate", 4.4, 1.1)]),
+    "concierge":     ("AI Concierge for Shop Owners",  [("spyglass", -4.4, 1.2), ("envelope", 4.4, 1.1)]),
     "scrap":         ("Free Scrap & E-Waste Pickup",   [("barrel", -4.4, 1.2), ("crate", 4.5, 1.15)]),
     "videos":        ("YouTube Video Gallery",            [("cannon", -4.2, 1.0), ("barrel", 4.6, 1.1)]),
     "contact":       ("Contact the Yard",              [("envelope", -4.4, 1.2), ("barrel", 4.5, 1.15)]),
