@@ -1,7 +1,7 @@
 {
-  "updated": "2026-09-15T21:02:31Z",
+  "updated": "2026-09-16T00:02:25Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 802,
+  "count": 803,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -32262,19 +32262,12 @@
       "category": "brake",
       "checkout": true,
       "variation_id": "L5SPUEIMQX3KYHFJJROVGG74",
-      "stock": 1,
       "part_numbers": [
         "HELP 13898"
       ],
-      "interchange": [],
       "vehicles": [
         "1994\u20132014 Ford"
       ],
-      "vehicle_count_raw": 2,
-      "ebay_item_id": "398398145540",
-      "ebay_type": "Caliper Bracket Bolt",
-      "ebay_brand": "Dorman",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Master Cylinders",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "medium",
       "fitment": {
@@ -32305,10 +32298,17 @@
         "brand": "Dorman",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Master Cylinders"
       },
+      "vehicle_count_raw": 2,
+      "ebay_item_id": "398398145540",
+      "ebay_type": "Caliper Bracket Bolt",
+      "ebay_brand": "Dorman",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Master Cylinders",
       "images": [
         "../assets/pdp-gallery/IMKL4YNRBBV4FRO267KEJ2PZ/02.webp",
         "../assets/pdp-gallery/IMKL4YNRBBV4FRO267KEJ2PZ/03.webp"
-      ]
+      ],
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "AY6IRRZZJKM42KV3PSO6YDHV",
@@ -33993,23 +33993,16 @@
       "category": "brake",
       "checkout": true,
       "variation_id": "W5A2JHNMHZNX2KZPTK7PILDR",
-      "stock": 1,
       "part_numbers": [
         "F120545",
         "BH120545"
       ],
-      "interchange": [],
       "vehicles": [
         "1985\u20131989 Subaru DL",
         "1985\u20131989 Subaru GL",
         "1990\u20131994 Subaru Loyale",
         "1985\u20131991 Subaru XT"
       ],
-      "vehicle_count_raw": 95,
-      "ebay_item_id": "398398030959",
-      "ebay_type": "Brake Hose",
-      "ebay_brand": "Wagner",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Hoses, Lines & Fittings",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -34074,11 +34067,18 @@
         "brand": "Wagner",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Hoses, Lines & Fittings"
       },
+      "vehicle_count_raw": 95,
+      "ebay_item_id": "398398030959",
+      "ebay_type": "Brake Hose",
+      "ebay_brand": "Wagner",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Hoses, Lines & Fittings",
       "images": [
         "../assets/pdp-gallery/IXLH2RTITNT3MLBIUKPCB7IK/02.webp",
         "../assets/pdp-gallery/IXLH2RTITNT3MLBIUKPCB7IK/03.webp",
         "../assets/pdp-gallery/IXLH2RTITNT3MLBIUKPCB7IK/04.webp"
-      ]
+      ],
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "DPRSU7RX4SKAHPRFDDTPFKZR",
@@ -114794,6 +114794,111 @@
       "vehicles": []
     },
     {
+      "id": "JCDJSJGKBSBMYGCFTLNAKJ3O",
+      "name": "Wagner BD61283 Wheel Lug Nuts Lot of 5 1/2-20 13/16 Electra LeSabre NOS",
+      "price": 16.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/eb60453d19ed73127b60c72c90e1d3491d666a4d/original.jpeg",
+      "url": "https://square.link/u/RR3gbYfC",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "AIT5ZC2PRA3YABOP5QIU23JU",
+      "stock": 1,
+      "part_numbers": [
+        "BD61283"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1985\u20131989 Buick Century",
+        "1981\u20131989 Buick Electra",
+        "1985\u20131990 Buick LeSabre",
+        "1987\u20131990 Cadillac Brougham",
+        "1981\u20131984 Chevrolet El Camino"
+      ],
+      "vehicle_count_raw": 316,
+      "ebay_item_id": "398398621554",
+      "ebay_type": "Lug Nut",
+      "ebay_brand": "Wagner",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Wheels, Tires & Parts:Wheel Nuts, Bolts & Studs",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "BD61283"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1985,
+            "year_to": 1989,
+            "make": "Buick",
+            "model": "Century",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1981,
+            "year_to": 1989,
+            "make": "Buick",
+            "model": "Electra",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1990,
+            "make": "Buick",
+            "model": "LeSabre",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1990,
+            "make": "Cadillac",
+            "model": "Brougham",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1981,
+            "year_to": 1984,
+            "make": "Chevrolet",
+            "model": "El Camino",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1985\u20131989 Buick Century",
+          "1981\u20131989 Buick Electra",
+          "1985\u20131990 Buick LeSabre",
+          "1987\u20131990 Cadillac Brougham",
+          "1981\u20131984 Chevrolet El Camino"
+        ],
+        "raw_compat_rows": 316,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398398621554",
+        "type": "Lug Nut",
+        "brand": "Wagner",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Wheels, Tires & Parts:Wheel Nuts, Bolts & Studs"
+      },
+      "images": [
+        "../assets/pdp-gallery/JCDJSJGKBSBMYGCFTLNAKJ3O/02.webp",
+        "../assets/pdp-gallery/JCDJSJGKBSBMYGCFTLNAKJ3O/03.webp"
+      ]
+    },
+    {
       "id": "UGXD4X7ZJG5KGF7DJ7RKMGYF",
       "name": "Wagner F110873 Wheel Cylinder 13/16 Ford Ranger Bronco II Mazda NOS",
       "price": 14.99,
@@ -115367,5 +115472,5 @@
       "ebay_brand": ""
     }
   ],
-  "fitment_built": "2026-09-15T21:02:31Z"
+  "fitment_built": "2026-09-16T00:02:25Z"
 }
