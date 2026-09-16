@@ -1,7 +1,7 @@
 {
-  "updated": "2026-09-16T16:02:33Z",
+  "updated": "2026-09-16T17:02:22Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 847,
+  "count": 846,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -2271,21 +2271,14 @@
       "category": "brake",
       "checkout": true,
       "variation_id": "M6LN4GN62Q2FTP4XDB7YPQ5B",
-      "stock": 4,
       "part_numbers": [
         "2M-7125A",
         "2M-249, PX01"
       ],
-      "interchange": [],
       "vehicles": [
         "1991\u20131994 Ford Explorer",
         "1983\u20131994 Ford Ranger"
       ],
-      "vehicle_count_raw": 451,
-      "ebay_item_id": "398401035281",
-      "ebay_type": "Disc Brake Pad",
-      "ebay_brand": "Big A",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Disc Rotors",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -2328,11 +2321,18 @@
         "brand": "Big A",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Disc Rotors"
       },
+      "vehicle_count_raw": 451,
+      "ebay_item_id": "398401035281",
+      "ebay_type": "Disc Brake Pad",
+      "ebay_brand": "Big A",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Disc Rotors",
       "images": [
         "../assets/pdp-gallery/GYSLEHLNSTF3J332J3PTAXOA/02.webp",
         "../assets/pdp-gallery/GYSLEHLNSTF3J332J3PTAXOA/03.webp",
         "../assets/pdp-gallery/GYSLEHLNSTF3J332J3PTAXOA/04.webp"
-      ]
+      ],
+      "stock": 4,
+      "interchange": []
     },
     {
       "id": "C3DOVNOGN5E7R3CN7L6TGBIE",
@@ -88115,87 +88115,6 @@
       "vehicles": []
     },
     {
-      "id": "H6Q3563YMDVDRCI5XLGMRMT4",
-      "name": "Gates 33188 Thermostat 180 2003 Volvo C70 71-74 Jaguar XKE NOS USA",
-      "price": 19.98,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/69707c052c90695d56ec3935f5f50093a4991bfc/original.jpeg",
-      "url": "https://square.link/u/LaUfchEj",
-      "category": "other",
-      "checkout": true,
-      "variation_id": "SV7OIW5B2SWHNHO254PVTBD4",
-      "part_numbers": [
-        "33188"
-      ],
-      "vehicles": [
-        "1987\u20131994 Ford CF8000",
-        "1971\u20131974 Jaguar XKE",
-        "2003 Volvo C70"
-      ],
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "high",
-      "fitment": {
-        "part_numbers": [
-          "33188"
-        ],
-        "interchange": [],
-        "vehicles": [
-          {
-            "year_from": 1987,
-            "year_to": 1994,
-            "make": "Ford",
-            "model": "CF8000",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1971,
-            "year_to": 1974,
-            "make": "Jaguar",
-            "model": "XKE",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 2003,
-            "year_to": 2003,
-            "make": "Volvo",
-            "model": "C70",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          }
-        ],
-        "vehicle_labels": [
-          "1987\u20131994 Ford CF8000",
-          "1971\u20131974 Jaguar XKE",
-          "2003 Volvo C70"
-        ],
-        "raw_compat_rows": 29,
-        "source": "ebay_listing",
-        "confidence": "high",
-        "ebay_item_id": "398297578885",
-        "type": "Thermostat",
-        "brand": "Gates",
-        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Thermostats & Housings"
-      },
-      "vehicle_count_raw": 29,
-      "ebay_item_id": "398297578885",
-      "ebay_type": "Thermostat",
-      "ebay_brand": "Gates",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Thermostats & Housings",
-      "images": [
-        "../assets/pdp-gallery/H6Q3563YMDVDRCI5XLGMRMT4/02.webp",
-        "../assets/pdp-gallery/H6Q3563YMDVDRCI5XLGMRMT4/03.webp"
-      ],
-      "stock": 2,
-      "interchange": []
-    },
-    {
       "id": "H2KTSFW7IOZFKZ7KKIZ5XH5E",
       "name": "Gates 33189 Thermostat 195 2003 Volvo C70 71-74 Jaguar XKE NOS USA",
       "price": 16.95,
@@ -91855,21 +91774,14 @@
       "category": "other",
       "checkout": true,
       "variation_id": "MLOK2UHIQECFQMZ2SSYEG6QZ",
-      "stock": 1,
       "part_numbers": [
         "20731009",
         "SW ASM LH GR 11.556"
       ],
-      "interchange": [],
       "vehicles": [
         "1985\u20131993 Cadillac DeVille",
         "1985\u20131993 Cadillac Fleetwood"
       ],
-      "vehicle_count_raw": 98,
-      "ebay_item_id": "398401133174",
-      "ebay_type": "Power Seat Switch",
-      "ebay_brand": "GM",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Lighting & Lamps:Side Marker Light Assemblies",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -91912,11 +91824,18 @@
         "brand": "GM",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Lighting & Lamps:Side Marker Light Assemblies"
       },
+      "vehicle_count_raw": 98,
+      "ebay_item_id": "398401133174",
+      "ebay_type": "Power Seat Switch",
+      "ebay_brand": "GM",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Lighting & Lamps:Side Marker Light Assemblies",
       "images": [
         "../assets/pdp-gallery/QLDY75CNYRROMFYJLKJI2RWY/02.webp",
         "../assets/pdp-gallery/QLDY75CNYRROMFYJLKJI2RWY/03.webp",
         "../assets/pdp-gallery/QLDY75CNYRROMFYJLKJI2RWY/04.webp"
-      ]
+      ],
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "XRWNFGYE2MCD4QC4SRPF4N2Y",
@@ -118664,20 +118583,13 @@
       "category": "other",
       "checkout": true,
       "variation_id": "HFPMJHNJWVOT5RDG7C6NJTFI",
-      "stock": 1,
       "part_numbers": [
         "BD61288"
       ],
-      "interchange": [],
       "vehicles": [
         "1991\u20131994 Buick Commercial Chassis",
         "1991\u20131994 Buick LeSabre"
       ],
-      "vehicle_count_raw": 15,
-      "ebay_item_id": "398401028505",
-      "ebay_type": "Lug Nut",
-      "ebay_brand": "Wagner",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Wheels, Tires & Parts:Wheel Nuts, Bolts & Studs",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -118719,10 +118631,17 @@
         "brand": "Wagner",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Wheels, Tires & Parts:Wheel Nuts, Bolts & Studs"
       },
+      "vehicle_count_raw": 15,
+      "ebay_item_id": "398401028505",
+      "ebay_type": "Lug Nut",
+      "ebay_brand": "Wagner",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Wheels, Tires & Parts:Wheel Nuts, Bolts & Studs",
       "images": [
         "../assets/pdp-gallery/MNMOQDIY5TFLEOHM3R5TXV7V/02.webp",
         "../assets/pdp-gallery/MNMOQDIY5TFLEOHM3R5TXV7V/03.webp"
-      ]
+      ],
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "4G347M77RZWOOFBLEGAD5MUV",
@@ -119555,5 +119474,5 @@
       "ebay_brand": ""
     }
   ],
-  "fitment_built": "2026-09-16T16:02:33Z"
+  "fitment_built": "2026-09-16T17:02:22Z"
 }
