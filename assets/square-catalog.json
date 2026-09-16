@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-16T10:17:47Z",
+  "updated": "2026-09-16T11:02:21Z",
   "store": "https://buccaneersalvage.square.site/",
   "count": 835,
   "items": [
@@ -36613,7 +36613,7 @@
       "ebay_type": "Fuel Filter",
       "ebay_brand": "Purolator",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Fuel Filters",
-      "fitment_source": "ebay_listing+title",
+      "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
@@ -36659,7 +36659,7 @@
           "1985 Volvo 760"
         ],
         "raw_compat_rows": 6,
-        "source": "ebay_listing+title",
+        "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398395629897",
         "type": "Fuel Filter",
@@ -36692,7 +36692,7 @@
       "ebay_type": "Oil Filter",
       "ebay_brand": "STP",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Filters",
-      "fitment_source": "ebay_listing+title",
+      "fitment_source": "ebay_listing",
       "fitment_confidence": "medium",
       "fitment": {
         "part_numbers": [
@@ -36727,7 +36727,7 @@
           "Kia Sorento"
         ],
         "raw_compat_rows": 2,
-        "source": "ebay_listing+title",
+        "source": "ebay_listing",
         "confidence": "medium",
         "ebay_item_id": "398395765877",
         "type": "Oil Filter",
@@ -118658,5 +118658,5 @@
       "ebay_brand": ""
     }
   ],
-  "fitment_built": "2026-09-16T10:17:47Z"
+  "fitment_built": "2026-09-16T11:02:21Z"
 }
