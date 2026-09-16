@@ -1,7 +1,7 @@
 {
-  "updated": "2026-09-16T19:02:40Z",
+  "updated": "2026-09-16T20:02:37Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 847,
+  "count": 848,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -104284,17 +104284,9 @@
       "category": "other",
       "checkout": true,
       "variation_id": "X4BQNL3VI3IOJNDUYLTKEMQB",
-      "stock": 1,
       "part_numbers": [
         "R12-14OZ"
       ],
-      "interchange": [],
-      "vehicles": [],
-      "vehicle_count_raw": 0,
-      "ebay_item_id": "398401333113",
-      "ebay_type": "Refrigerant",
-      "ebay_brand": "SERCON",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air Conditioning & Heating:A/C Expansion Valves",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "medium",
       "fitment": {
@@ -104312,13 +104304,21 @@
         "brand": "SERCON",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air Conditioning & Heating:A/C Expansion Valves"
       },
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398401333113",
+      "ebay_type": "Refrigerant",
+      "ebay_brand": "SERCON",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air Conditioning & Heating:A/C Expansion Valves",
       "images": [
         "../assets/pdp-gallery/VKR2FEZUEQ7QDXDCWQOMQ4OJ/02.webp",
         "../assets/pdp-gallery/VKR2FEZUEQ7QDXDCWQOMQ4OJ/03.webp",
         "../assets/pdp-gallery/VKR2FEZUEQ7QDXDCWQOMQ4OJ/04.webp",
         "../assets/pdp-gallery/VKR2FEZUEQ7QDXDCWQOMQ4OJ/05.webp",
         "../assets/pdp-gallery/VKR2FEZUEQ7QDXDCWQOMQ4OJ/06.webp"
-      ]
+      ],
+      "stock": 1,
+      "interchange": [],
+      "vehicles": []
     },
     {
       "id": "EW6HQYMYXZOORQX5U2SZWAIV",
@@ -118446,6 +118446,202 @@
       "vehicles": []
     },
     {
+      "id": "E7DOV3PLNPCZDXYFP4MJG2HT",
+      "name": "Wagner 08536 MC101254 Master Cylinder NOS 70-80 Camaro Firebird Impala",
+      "price": 51.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/88bac69a0ff1bb294b0390da32c97d22a2277639/original.jpeg",
+      "url": "https://square.link/u/KBqIA99p",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "VNWNWMM3AT3Y55Z4DCBXMK5Y",
+      "stock": 1,
+      "part_numbers": [
+        "08536",
+        "F101254 M76162 MC36306 18M18 11944"
+      ],
+      "interchange": [
+        "MC101254"
+      ],
+      "vehicles": [
+        "1971\u20131980 Buick LeSabre",
+        "1971\u20131975 Cadillac DeVille",
+        "1975\u20131980 Chevrolet C10",
+        "1970\u20131980 Chevrolet Camaro",
+        "1971\u20131980 Chevrolet Caprice",
+        "1971\u20131980 Chevrolet Impala",
+        "1971\u20131977 Chevrolet Monte Carlo",
+        "1975\u20131979 Chevrolet Nova",
+        "1973\u20131980 GMC Jimmy",
+        "1974\u20131980 Jeep Cherokee",
+        "1969\u20131977 Oldsmobile Cutlass",
+        "1970\u20131980 Pontiac Firebird"
+      ],
+      "vehicle_count_raw": 1899,
+      "ebay_item_id": "398401680452",
+      "ebay_type": "Brake Master Cylinder",
+      "ebay_brand": "Wagner",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Master Cylinders",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "08536",
+          "F101254 M76162 MC36306 18M18 11944"
+        ],
+        "interchange": [
+          "MC101254"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1971,
+            "year_to": 1980,
+            "make": "Buick",
+            "model": "LeSabre",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1971,
+            "year_to": 1975,
+            "make": "Cadillac",
+            "model": "DeVille",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1975,
+            "year_to": 1980,
+            "make": "Chevrolet",
+            "model": "C10",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1970,
+            "year_to": 1980,
+            "make": "Chevrolet",
+            "model": "Camaro",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1971,
+            "year_to": 1980,
+            "make": "Chevrolet",
+            "model": "Caprice",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1971,
+            "year_to": 1980,
+            "make": "Chevrolet",
+            "model": "Impala",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1971,
+            "year_to": 1977,
+            "make": "Chevrolet",
+            "model": "Monte Carlo",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1975,
+            "year_to": 1979,
+            "make": "Chevrolet",
+            "model": "Nova",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1973,
+            "year_to": 1980,
+            "make": "GMC",
+            "model": "Jimmy",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1974,
+            "year_to": 1980,
+            "make": "Jeep",
+            "model": "Cherokee",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1969,
+            "year_to": 1977,
+            "make": "Oldsmobile",
+            "model": "Cutlass",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1970,
+            "year_to": 1980,
+            "make": "Pontiac",
+            "model": "Firebird",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1971\u20131980 Buick LeSabre",
+          "1971\u20131975 Cadillac DeVille",
+          "1975\u20131980 Chevrolet C10",
+          "1970\u20131980 Chevrolet Camaro",
+          "1971\u20131980 Chevrolet Caprice",
+          "1971\u20131980 Chevrolet Impala",
+          "1971\u20131977 Chevrolet Monte Carlo",
+          "1975\u20131979 Chevrolet Nova",
+          "1973\u20131980 GMC Jimmy",
+          "1974\u20131980 Jeep Cherokee",
+          "1969\u20131977 Oldsmobile Cutlass",
+          "1970\u20131980 Pontiac Firebird"
+        ],
+        "raw_compat_rows": 1899,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398401680452",
+        "type": "Brake Master Cylinder",
+        "brand": "Wagner",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Master Cylinders"
+      },
+      "images": [
+        "../assets/pdp-gallery/E7DOV3PLNPCZDXYFP4MJG2HT/02.webp",
+        "../assets/pdp-gallery/E7DOV3PLNPCZDXYFP4MJG2HT/03.webp",
+        "../assets/pdp-gallery/E7DOV3PLNPCZDXYFP4MJG2HT/04.webp"
+      ]
+    },
+    {
       "id": "U7A3AB25DS3F54MHTGJSMXNS",
       "name": "Wagner BD61281 Zinc Lug Nut Lot of 3 Partial 1/2-20 81-89 Concord Fifth Ave NOS",
       "price": 15.99,
@@ -119519,5 +119715,5 @@
       "ebay_brand": ""
     }
   ],
-  "fitment_built": "2026-09-16T19:02:40Z"
+  "fitment_built": "2026-09-16T20:02:37Z"
 }
