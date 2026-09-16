@@ -1,7 +1,7 @@
 {
-  "updated": "2026-09-16T12:02:34Z",
+  "updated": "2026-09-16T13:02:44Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 837,
+  "count": 844,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -34713,16 +34713,10 @@
       "category": "brake",
       "checkout": true,
       "variation_id": "GUKP5XI3DKHEFR7PLZTSXUUL",
-      "images": [
-        "../assets/pdp-gallery/H6PBMNIGB3BHHYPO2U2YR5BU/02.webp",
-        "../assets/pdp-gallery/H6PBMNIGB3BHHYPO2U2YR5BU/03.webp"
-      ],
-      "stock": 1,
       "part_numbers": [
         "F109093",
         "BC109093 UP93493 C93493"
       ],
-      "interchange": [],
       "vehicles": [
         "1984\u20131991 Chevrolet S10",
         "1984\u20131991 Chevrolet S10 Blazer",
@@ -34730,11 +34724,6 @@
         "1984\u20131991 GMC S15 Jimmy",
         "1991 Oldsmobile Bravada"
       ],
-      "vehicle_count_raw": 473,
-      "ebay_item_id": "398400455192",
-      "ebay_type": "Parking Brake Cable",
-      "ebay_brand": "Wagner",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Cables",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -34809,7 +34798,79 @@
         "type": "Parking Brake Cable",
         "brand": "Wagner",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Cables"
-      }
+      },
+      "vehicle_count_raw": 473,
+      "ebay_item_id": "398400455192",
+      "ebay_type": "Parking Brake Cable",
+      "ebay_brand": "Wagner",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Cables",
+      "images": [
+        "../assets/pdp-gallery/H6PBMNIGB3BHHYPO2U2YR5BU/02.webp",
+        "../assets/pdp-gallery/H6PBMNIGB3BHHYPO2U2YR5BU/03.webp"
+      ],
+      "stock": 1,
+      "interchange": []
+    },
+    {
+      "id": "CKT2DZJWKF4SL4DK6AMUEPFQ",
+      "name": "Wagner F110132 Brake Hose Front LH/RH 83-84 Ford Thunderbird NOS Mexico",
+      "price": 10.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/044c7e9d744e051409573f6941a95888e8132e59/original.jpeg",
+      "url": "https://square.link/u/AiYVgDSj",
+      "category": "brake",
+      "checkout": true,
+      "variation_id": "NT5XOCLJ6BSCJV4R7XJ3TMYI",
+      "stock": 1,
+      "part_numbers": [
+        "F110132",
+        "BH110132"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1983\u20131984 Ford Thunderbird"
+      ],
+      "vehicle_count_raw": 20,
+      "ebay_item_id": "398400512148",
+      "ebay_type": "Brake Hose",
+      "ebay_brand": "Wagner",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Hoses, Lines & Fittings",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "F110132",
+          "BH110132"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1983,
+            "year_to": 1984,
+            "make": "Ford",
+            "model": "Thunderbird",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1983\u20131984 Ford Thunderbird"
+        ],
+        "raw_compat_rows": 20,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398400512148",
+        "type": "Brake Hose",
+        "brand": "Wagner",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Hoses, Lines & Fittings"
+      },
+      "images": [
+        "../assets/pdp-gallery/CKT2DZJWKF4SL4DK6AMUEPFQ/02.webp",
+        "../assets/pdp-gallery/CKT2DZJWKF4SL4DK6AMUEPFQ/03.webp",
+        "../assets/pdp-gallery/CKT2DZJWKF4SL4DK6AMUEPFQ/04.webp",
+        "../assets/pdp-gallery/CKT2DZJWKF4SL4DK6AMUEPFQ/05.webp"
+      ]
     },
     {
       "id": "K7LUL7IBB73YA5JJNNLUKRKZ",
@@ -35123,20 +35184,13 @@
       "category": "brake",
       "checkout": true,
       "variation_id": "FEVLTL5B3UDT4752357WRNCB",
-      "stock": 1,
       "part_numbers": [
         "F120889",
         "BC120889 UP93523 C93523 E6TZ-2853-A"
       ],
-      "interchange": [],
       "vehicles": [
         "1986\u20131991 Ford Ranger"
       ],
-      "vehicle_count_raw": 220,
-      "ebay_item_id": "398400456684",
-      "ebay_type": "Parking Brake Cable",
-      "ebay_brand": "Wagner",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Cables",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -35168,10 +35222,17 @@
         "brand": "Wagner",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Cables"
       },
+      "vehicle_count_raw": 220,
+      "ebay_item_id": "398400456684",
+      "ebay_type": "Parking Brake Cable",
+      "ebay_brand": "Wagner",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Cables",
       "images": [
         "../assets/pdp-gallery/7TUI4ZKQI3TI3PQ63GO5GNIW/02.webp",
         "../assets/pdp-gallery/7TUI4ZKQI3TI3PQ63GO5GNIW/03.webp"
-      ]
+      ],
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "DPRSU7RX4SKAHPRFDDTPFKZR",
@@ -74010,6 +74071,78 @@
       "vehicles": []
     },
     {
+      "id": "R2CH6HVOCNFJI7LDF6AQRW7V",
+      "name": "Dorman 931-134 Door Lock Actuator 05-09 Chevy Equinox Pontiac Torrent NOS",
+      "price": 105.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/870eb4c06f08801b32034a6a7bd58c81f412a801/original.jpeg",
+      "url": "https://square.link/u/L5qBQ1lF",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "5KVQYYLREONYBIYSWLZ7M3K2",
+      "stock": 1,
+      "part_numbers": [
+        "931-134",
+        "88980997"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "2005\u20132009 Chevrolet Equinox",
+        "2006\u20132009 Pontiac Torrent"
+      ],
+      "vehicle_count_raw": 28,
+      "ebay_item_id": "398400505443",
+      "ebay_type": "Door Lock Actuator",
+      "ebay_brand": "Dorman",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Exterior Parts & Accessories:Doors, Trunk Lids & Hatches:Hatches & Trunk Lids",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "931-134",
+          "88980997"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 2005,
+            "year_to": 2009,
+            "make": "Chevrolet",
+            "model": "Equinox",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2006,
+            "year_to": 2009,
+            "make": "Pontiac",
+            "model": "Torrent",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "2005\u20132009 Chevrolet Equinox",
+          "2006\u20132009 Pontiac Torrent"
+        ],
+        "raw_compat_rows": 28,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398400505443",
+        "type": "Door Lock Actuator",
+        "brand": "Dorman",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Exterior Parts & Accessories:Doors, Trunk Lids & Hatches:Hatches & Trunk Lids"
+      },
+      "images": [
+        "../assets/pdp-gallery/R2CH6HVOCNFJI7LDF6AQRW7V/02.webp",
+        "../assets/pdp-gallery/R2CH6HVOCNFJI7LDF6AQRW7V/03.webp",
+        "../assets/pdp-gallery/R2CH6HVOCNFJI7LDF6AQRW7V/04.webp"
+      ]
+    },
+    {
       "id": "OUGOXXEV24SED3UP5CC2WG2P",
       "name": "Electric Fireplace Heating Element 2000W H200U Replacement Coil Nichrome",
       "price": 15.99,
@@ -96875,6 +97008,65 @@
       "interchange": []
     },
     {
+      "id": "C6ZZ6UDEZWYYCDOWRLDM3NNT",
+      "name": "Moog K90628 Rear To Frame Rubber Sway Bar Bushing Kit 98-99 Mazda 626 NOS",
+      "price": 19.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/91357adbe606883aff667daf964ddb0506ef6879/original.jpeg",
+      "url": "https://square.link/u/70YFcwDj",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "7IJNNIH6BGJHOE6YFFGSOPMP",
+      "images": [
+        "../assets/pdp-gallery/C6ZZ6UDEZWYYCDOWRLDM3NNT/02.webp",
+        "../assets/pdp-gallery/C6ZZ6UDEZWYYCDOWRLDM3NNT/03.webp"
+      ],
+      "stock": 1,
+      "part_numbers": [
+        "K90628",
+        "GD7E28156 101-5589"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1998\u20131999 Mazda 626"
+      ],
+      "vehicle_count_raw": 8,
+      "ebay_item_id": "398400526531",
+      "ebay_type": "Stabilizer Bar Bushing Kit",
+      "ebay_brand": "Moog",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Steering & Suspension:Sway Bars, Links & Bushings",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "K90628",
+          "GD7E28156 101-5589"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1998,
+            "year_to": 1999,
+            "make": "Mazda",
+            "model": "626",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1998\u20131999 Mazda 626"
+        ],
+        "raw_compat_rows": 8,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398400526531",
+        "type": "Stabilizer Bar Bushing Kit",
+        "brand": "Moog",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Steering & Suspension:Sway Bars, Links & Bushings"
+      }
+    },
+    {
       "id": "AC4O5CEFTYDCUZCECOZZFZI4",
       "name": "Mopar CH-320L Rotor 5213040 1.6 1.7 2.2 Aries LeBaron NOS",
       "price": 29.99,
@@ -118146,6 +118338,75 @@
       "vehicles": []
     },
     {
+      "id": "U7A3AB25DS3F54MHTGJSMXNS",
+      "name": "Wagner BD61281 Zinc Lug Nut Lot of 3 Partial 1/2-20 81-89 Concord Fifth Ave NOS",
+      "price": 15.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/0913288698b3631358dbc286e8f6190123b40b2e/original.jpeg",
+      "url": "https://square.link/u/JIViu2i2",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "QX35D3GXL6E2ARYPY4ARYUBI",
+      "stock": 1,
+      "part_numbers": [
+        "BD61281"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1981\u20131983 AMC Concord",
+        "1983\u20131989 Chrysler Fifth Avenue"
+      ],
+      "vehicle_count_raw": 50,
+      "ebay_item_id": "398400606720",
+      "ebay_type": "Lug Nut",
+      "ebay_brand": "Wagner",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Wheels, Tires & Parts:Wheel Nuts, Bolts & Studs",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "BD61281"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1981,
+            "year_to": 1983,
+            "make": "AMC",
+            "model": "Concord",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1983,
+            "year_to": 1989,
+            "make": "Chrysler",
+            "model": "Fifth Avenue",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1981\u20131983 AMC Concord",
+          "1983\u20131989 Chrysler Fifth Avenue"
+        ],
+        "raw_compat_rows": 50,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398400606720",
+        "type": "Lug Nut",
+        "brand": "Wagner",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Wheels, Tires & Parts:Wheel Nuts, Bolts & Studs"
+      },
+      "images": [
+        "../assets/pdp-gallery/U7A3AB25DS3F54MHTGJSMXNS/02.webp",
+        "../assets/pdp-gallery/U7A3AB25DS3F54MHTGJSMXNS/03.webp"
+      ]
+    },
+    {
       "id": "JCDJSJGKBSBMYGCFTLNAKJ3O",
       "name": "Wagner BD61283 Wheel Lug Nuts Lot of 5 1/2-20 13/16 Electra LeSabre NOS",
       "price": 16.99,
@@ -118249,6 +118510,263 @@
       ],
       "stock": 1,
       "interchange": []
+    },
+    {
+      "id": "4G347M77RZWOOFBLEGAD5MUV",
+      "name": "Wagner BD61301 Zinc Lug Nut Lot of 9 M12-1.5 85-88 Chevy Nova Charade NOS",
+      "price": 29.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/dcb7e6c2ea3e8718a80147a752153ac2c715486d/original.jpeg",
+      "url": "https://square.link/u/8iNKrbqb",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "UGFCPCRGUTBDSTYHE3UCEVI4",
+      "stock": 1,
+      "part_numbers": [
+        "BD61301"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1985\u20131988 Chevrolet Nova",
+        "1990\u20131991 Chevrolet V1500 Suburban",
+        "1988\u20131992 Daihatsu Charade"
+      ],
+      "vehicle_count_raw": 49,
+      "ebay_item_id": "398400597537",
+      "ebay_type": "Lug Nut",
+      "ebay_brand": "Wagner",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Wheels, Tires & Parts:Wheel Nuts, Bolts & Studs",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "BD61301"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1985,
+            "year_to": 1988,
+            "make": "Chevrolet",
+            "model": "Nova",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1990,
+            "year_to": 1991,
+            "make": "Chevrolet",
+            "model": "V1500 Suburban",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1988,
+            "year_to": 1992,
+            "make": "Daihatsu",
+            "model": "Charade",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1985\u20131988 Chevrolet Nova",
+          "1990\u20131991 Chevrolet V1500 Suburban",
+          "1988\u20131992 Daihatsu Charade"
+        ],
+        "raw_compat_rows": 49,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398400597537",
+        "type": "Lug Nut",
+        "brand": "Wagner",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Wheels, Tires & Parts:Wheel Nuts, Bolts & Studs"
+      },
+      "images": [
+        "../assets/pdp-gallery/4G347M77RZWOOFBLEGAD5MUV/02.webp",
+        "../assets/pdp-gallery/4G347M77RZWOOFBLEGAD5MUV/03.webp"
+      ]
+    },
+    {
+      "id": "POMCXYPKYQBKQGI53E5H3BCD",
+      "name": "Wagner BD61302 Zinc Lug Nut Lot of 10 M12-1.5 82-94 Buick Century LeSabre NOS",
+      "price": 15.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/282e9e330dfdd441b07c199bb60af39696b21efe/original.jpeg",
+      "url": "https://square.link/u/kW5R498R",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "RO4HB5UX3BOLU7KFG7UKNZM4",
+      "stock": 1,
+      "part_numbers": [
+        "BD61302"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1982\u20131994 Buick Century",
+        "1985\u20131990 Buick Electra",
+        "1988\u20131994 Buick LeSabre"
+      ],
+      "vehicle_count_raw": 322,
+      "ebay_item_id": "398400609821",
+      "ebay_type": "Lug Nut",
+      "ebay_brand": "Wagner",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Wheels, Tires & Parts:Wheel Nuts, Bolts & Studs",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "BD61302"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1982,
+            "year_to": 1994,
+            "make": "Buick",
+            "model": "Century",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1990,
+            "make": "Buick",
+            "model": "Electra",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1988,
+            "year_to": 1994,
+            "make": "Buick",
+            "model": "LeSabre",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1982\u20131994 Buick Century",
+          "1985\u20131990 Buick Electra",
+          "1988\u20131994 Buick LeSabre"
+        ],
+        "raw_compat_rows": 322,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398400609821",
+        "type": "Lug Nut",
+        "brand": "Wagner",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Wheels, Tires & Parts:Wheel Nuts, Bolts & Studs"
+      },
+      "images": [
+        "../assets/pdp-gallery/POMCXYPKYQBKQGI53E5H3BCD/02.webp",
+        "../assets/pdp-gallery/POMCXYPKYQBKQGI53E5H3BCD/03.webp"
+      ]
+    },
+    {
+      "id": "HE5YXWYEYRADNDXAHDLL7XX2",
+      "name": "Wagner BD61355 Zinc Lug Nut Lot of 9 M12-1.25 81-94 Nissan 200SX G20 NOS",
+      "price": 29.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/4dd11c760dbd4a79d1c7455a3aa80b5f19298d37/original.jpeg",
+      "url": "https://square.link/u/GgZgNAAp",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "FW6RT6IX7ZQIGRQHMZZQSPUR",
+      "stock": 1,
+      "part_numbers": [
+        "BD61355",
+        "611-065.1"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1991\u20131994 INFINITI G20",
+        "1990\u20131994 INFINITI Q45",
+        "1993\u20131994 Mercury Villager",
+        "1984\u20131988 Nissan 200SX"
+      ],
+      "vehicle_count_raw": 46,
+      "ebay_item_id": "398400600259",
+      "ebay_type": "Lug Nut",
+      "ebay_brand": "Wagner",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Wheels, Tires & Parts:Wheel Nuts, Bolts & Studs",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "BD61355",
+          "611-065.1"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1991,
+            "year_to": 1994,
+            "make": "INFINITI",
+            "model": "G20",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1990,
+            "year_to": 1994,
+            "make": "INFINITI",
+            "model": "Q45",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1993,
+            "year_to": 1994,
+            "make": "Mercury",
+            "model": "Villager",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 1988,
+            "make": "Nissan",
+            "model": "200SX",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1991\u20131994 INFINITI G20",
+          "1990\u20131994 INFINITI Q45",
+          "1993\u20131994 Mercury Villager",
+          "1984\u20131988 Nissan 200SX"
+        ],
+        "raw_compat_rows": 46,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398400600259",
+        "type": "Lug Nut",
+        "brand": "Wagner",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Wheels, Tires & Parts:Wheel Nuts, Bolts & Studs"
+      },
+      "images": [
+        "../assets/pdp-gallery/HE5YXWYEYRADNDXAHDLL7XX2/02.webp",
+        "../assets/pdp-gallery/HE5YXWYEYRADNDXAHDLL7XX2/03.webp"
+      ]
     },
     {
       "id": "UGXD4X7ZJG5KGF7DJ7RKMGYF",
@@ -118824,5 +119342,5 @@
       "ebay_brand": ""
     }
   ],
-  "fitment_built": "2026-09-16T12:02:34Z"
+  "fitment_built": "2026-09-16T13:02:44Z"
 }
