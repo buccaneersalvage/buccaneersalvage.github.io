@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-17T13:02:31Z",
+  "updated": "2026-09-17T13:34:23Z",
   "store": "https://buccaneersalvage.square.site/",
   "count": 855,
   "items": [
@@ -75861,7 +75861,7 @@
       "ebay_type": "Electrical Connector (Tube Connector for EGR Manifold)",
       "ebay_brand": "Ford",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Starters, Alternators, ECUs & Wiring:ECUs & Computer Modules",
-      "fitment_source": "ebay_listing+title",
+      "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
@@ -75928,7 +75928,7 @@
           "1990\u20131996 Ford FOTZ-9F485-A"
         ],
         "raw_compat_rows": 863,
-        "source": "ebay_listing+title",
+        "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398403795543",
         "type": "Electrical Connector (Tube Connector for EGR Manifold)",
@@ -120468,5 +120468,5 @@
       "ebay_brand": ""
     }
   ],
-  "fitment_built": "2026-09-17T13:02:31Z"
+  "fitment_built": "2026-09-17T13:34:23Z"
 }
