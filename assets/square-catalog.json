@@ -1,7 +1,7 @@
 {
-  "updated": "2026-09-17T18:02:27Z",
+  "updated": "2026-09-17T19:02:33Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 858,
+  "count": 857,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -65209,96 +65209,6 @@
       "interchange": []
     },
     {
-      "id": "HBE25QLOV4HVHF24OJGQTD47",
-      "name": "Moog CV7451 CV Joint Boot Kit NOS",
-      "price": 24.99,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/ce15873e350bcb16050134189cfbdfe88a099c76/original.jpeg",
-      "url": "https://square.link/u/q4k33QRU",
-      "category": "driveline",
-      "checkout": true,
-      "variation_id": "K27WU6XGEHPCWOAEJSBFXIQH",
-      "part_numbers": [
-        "CV7451"
-      ],
-      "vehicles": [
-        "1993\u20131994 Ford Taurus",
-        "1993\u20131994 Ford Tempo",
-        "1993\u20131994 Mercury Sable",
-        "1993\u20131994 Mercury Topaz"
-      ],
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "high",
-      "fitment": {
-        "part_numbers": [
-          "CV7451"
-        ],
-        "interchange": [],
-        "vehicles": [
-          {
-            "year_from": 1993,
-            "year_to": 1994,
-            "make": "Ford",
-            "model": "Taurus",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1993,
-            "year_to": 1994,
-            "make": "Ford",
-            "model": "Tempo",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1993,
-            "year_to": 1994,
-            "make": "Mercury",
-            "model": "Sable",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1993,
-            "year_to": 1994,
-            "make": "Mercury",
-            "model": "Topaz",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          }
-        ],
-        "vehicle_labels": [
-          "1993\u20131994 Ford Taurus",
-          "1993\u20131994 Ford Tempo",
-          "1993\u20131994 Mercury Sable",
-          "1993\u20131994 Mercury Topaz"
-        ],
-        "raw_compat_rows": 60,
-        "source": "ebay_listing",
-        "confidence": "high",
-        "ebay_item_id": "398332880123",
-        "type": "CV Joint Boot Kit",
-        "brand": "Moog",
-        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:CV Joints, Boots & Parts"
-      },
-      "vehicle_count_raw": 60,
-      "ebay_item_id": "398332880123",
-      "ebay_type": "CV Joint Boot Kit",
-      "ebay_brand": "Moog",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:CV Joints, Boots & Parts",
-      "stock": 1,
-      "interchange": [],
-      "images": []
-    },
-    {
       "id": "7FGRFQ3FFWTU25CSM5IZT5HY",
       "name": "MOOG CV8448 Outer CV Joint Boot Kit NOS 86-94 Taurus Sable Camry",
       "price": 24.99,
@@ -120536,5 +120446,5 @@
       "ebay_brand": ""
     }
   ],
-  "fitment_built": "2026-09-17T18:02:27Z"
+  "fitment_built": "2026-09-17T19:02:33Z"
 }
