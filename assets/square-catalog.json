@@ -1,7 +1,7 @@
 {
-  "updated": "2026-09-17T20:02:07Z",
+  "updated": "2026-09-17T20:07:30Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 855,
+  "count": 856,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -105084,6 +105084,47 @@
       "vehicles": []
     },
     {
+      "id": "VKR2FEZUEQ7QDXDCWQOMQ4OJ",
+      "name": "SERCON R12-14OZ Refrigerant NOS Automotive AC",
+      "price": 99.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/b2358f07ba0cee2851b924ba81f5ff345c89f2ca/original.jpeg",
+      "url": "https://square.link/u/swk3J1um",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "X4BQNL3VI3IOJNDUYLTKEMQB",
+      "stock": 1,
+      "part_numbers": [],
+      "interchange": [],
+      "vehicles": [],
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "",
+      "ebay_type": "",
+      "ebay_brand": "",
+      "ebay_category": "",
+      "fitment_source": "title",
+      "fitment_confidence": "low",
+      "fitment": {
+        "part_numbers": [],
+        "interchange": [],
+        "vehicles": [],
+        "vehicle_labels": [],
+        "raw_compat_rows": 0,
+        "source": "title",
+        "confidence": "low",
+        "ebay_item_id": "",
+        "type": "",
+        "brand": "",
+        "ebay_category": ""
+      },
+      "images": [
+        "../assets/pdp-gallery/VKR2FEZUEQ7QDXDCWQOMQ4OJ/02.webp",
+        "../assets/pdp-gallery/VKR2FEZUEQ7QDXDCWQOMQ4OJ/03.webp",
+        "../assets/pdp-gallery/VKR2FEZUEQ7QDXDCWQOMQ4OJ/04.webp",
+        "../assets/pdp-gallery/VKR2FEZUEQ7QDXDCWQOMQ4OJ/05.webp",
+        "../assets/pdp-gallery/VKR2FEZUEQ7QDXDCWQOMQ4OJ/06.webp"
+      ]
+    },
+    {
       "id": "EW6HQYMYXZOORQX5U2SZWAIV",
       "name": "Skyworth CS800-A9K65N-50 Main Board Power Supply Combo 50UD7200 Tested Working",
       "price": 37.99,
@@ -120282,5 +120323,5 @@
       "ebay_brand": ""
     }
   ],
-  "fitment_built": "2026-09-17T20:02:07Z"
+  "fitment_built": "2026-09-17T20:07:30Z"
 }
