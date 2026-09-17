@@ -1,7 +1,7 @@
 {
-  "updated": "2026-09-17T12:02:33Z",
+  "updated": "2026-09-17T13:02:31Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 854,
+  "count": 855,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -71983,11 +71983,9 @@
       "category": "other",
       "checkout": true,
       "variation_id": "NFU5FBVFRW37U5IFOL7U6LWK",
-      "stock": 1,
       "part_numbers": [
         "08541"
       ],
-      "interchange": [],
       "vehicles": [
         "1976\u20131980 AMC Pacer",
         "1973 Buick Regal",
@@ -72010,12 +72008,7 @@
         "1975 Pontiac Firebird",
         "1973\u20131974 Pontiac Grand Prix"
       ],
-      "vehicle_count_raw": 552,
-      "ebay_item_id": "398403774213",
-      "ebay_type": "Lamp Socket",
-      "ebay_brand": "Calterm",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Towing Parts & Accessories:Wiring, Harnesses & Connectors",
-      "fitment_source": "ebay_listing+title",
+      "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
@@ -72247,17 +72240,24 @@
           "1973\u20131974 Pontiac Grand Prix"
         ],
         "raw_compat_rows": 552,
-        "source": "ebay_listing+title",
+        "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398403774213",
         "type": "Lamp Socket",
         "brand": "Calterm",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Towing Parts & Accessories:Wiring, Harnesses & Connectors"
       },
+      "vehicle_count_raw": 552,
+      "ebay_item_id": "398403774213",
+      "ebay_type": "Lamp Socket",
+      "ebay_brand": "Calterm",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Towing Parts & Accessories:Wiring, Harnesses & Connectors",
       "images": [
         "../assets/pdp-gallery/LYMJF7HTXBT3AX54RA5MFHAX/02.webp",
         "../assets/pdp-gallery/LYMJF7HTXBT3AX54RA5MFHAX/03.webp"
-      ]
+      ],
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "PO4DKWMD432JSYKZPTUEZJN4",
@@ -72268,20 +72268,13 @@
       "category": "other",
       "checkout": true,
       "variation_id": "6W4AXFMTBVREQLJ7P4G26QVT",
-      "stock": 1,
       "part_numbers": [
         "08543"
       ],
-      "interchange": [],
       "vehicles": [
         "Ford Socket"
       ],
-      "vehicle_count_raw": 1,
-      "ebay_item_id": "398403759050",
-      "ebay_type": "Lamp Socket",
-      "ebay_brand": "Calterm",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Towing Parts & Accessories:Wiring, Harnesses & Connectors",
-      "fitment_source": "ebay_listing+title",
+      "fitment_source": "ebay_listing",
       "fitment_confidence": "medium",
       "fitment": {
         "part_numbers": [
@@ -72304,17 +72297,24 @@
           "Ford Socket"
         ],
         "raw_compat_rows": 1,
-        "source": "ebay_listing+title",
+        "source": "ebay_listing",
         "confidence": "medium",
         "ebay_item_id": "398403759050",
         "type": "Lamp Socket",
         "brand": "Calterm",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Towing Parts & Accessories:Wiring, Harnesses & Connectors"
       },
+      "vehicle_count_raw": 1,
+      "ebay_item_id": "398403759050",
+      "ebay_type": "Lamp Socket",
+      "ebay_brand": "Calterm",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Towing Parts & Accessories:Wiring, Harnesses & Connectors",
       "images": [
         "../assets/pdp-gallery/PO4DKWMD432JSYKZPTUEZJN4/02.webp",
         "../assets/pdp-gallery/PO4DKWMD432JSYKZPTUEZJN4/03.webp"
-      ]
+      ],
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "QJGXH54UD7LIET5PBC5YUWTM",
@@ -72325,21 +72325,14 @@
       "category": "other",
       "checkout": true,
       "variation_id": "VP57SIKWNYR34JKOFEIHQZCC",
-      "stock": 1,
       "part_numbers": [
         "08552"
       ],
-      "interchange": [],
       "vehicles": [
         "Chrysler",
         "Ford Socket"
       ],
-      "vehicle_count_raw": 2,
-      "ebay_item_id": "398403784458",
-      "ebay_type": "Lamp Socket",
-      "ebay_brand": "Calterm",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Towing Parts & Accessories:Wiring, Harnesses & Connectors",
-      "fitment_source": "ebay_listing+title",
+      "fitment_source": "ebay_listing",
       "fitment_confidence": "medium",
       "fitment": {
         "part_numbers": [
@@ -72373,17 +72366,24 @@
           "Ford Socket"
         ],
         "raw_compat_rows": 2,
-        "source": "ebay_listing+title",
+        "source": "ebay_listing",
         "confidence": "medium",
         "ebay_item_id": "398403784458",
         "type": "Lamp Socket",
         "brand": "Calterm",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Towing Parts & Accessories:Wiring, Harnesses & Connectors"
       },
+      "vehicle_count_raw": 2,
+      "ebay_item_id": "398403784458",
+      "ebay_type": "Lamp Socket",
+      "ebay_brand": "Calterm",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Towing Parts & Accessories:Wiring, Harnesses & Connectors",
       "images": [
         "../assets/pdp-gallery/QJGXH54UD7LIET5PBC5YUWTM/02.webp",
         "../assets/pdp-gallery/QJGXH54UD7LIET5PBC5YUWTM/03.webp"
-      ]
+      ],
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "TQ4URXG4LR4HKWROM6SAD2F3",
@@ -72394,20 +72394,13 @@
       "category": "other",
       "checkout": true,
       "variation_id": "XZQNPJULEPE3OBNK5ZHBO262",
-      "stock": 1,
       "part_numbers": [
         "08606"
       ],
-      "interchange": [],
       "vehicles": [
         "Ford External"
       ],
-      "vehicle_count_raw": 1,
-      "ebay_item_id": "398403762767",
-      "ebay_type": "Wiring Harness",
-      "ebay_brand": "Calterm",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Towing Parts & Accessories:Wiring, Harnesses & Connectors",
-      "fitment_source": "ebay_listing+title",
+      "fitment_source": "ebay_listing",
       "fitment_confidence": "medium",
       "fitment": {
         "part_numbers": [
@@ -72430,17 +72423,24 @@
           "Ford External"
         ],
         "raw_compat_rows": 1,
-        "source": "ebay_listing+title",
+        "source": "ebay_listing",
         "confidence": "medium",
         "ebay_item_id": "398403762767",
         "type": "Wiring Harness",
         "brand": "Calterm",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Towing Parts & Accessories:Wiring, Harnesses & Connectors"
       },
+      "vehicle_count_raw": 1,
+      "ebay_item_id": "398403762767",
+      "ebay_type": "Wiring Harness",
+      "ebay_brand": "Calterm",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Towing Parts & Accessories:Wiring, Harnesses & Connectors",
       "images": [
         "../assets/pdp-gallery/TQ4URXG4LR4HKWROM6SAD2F3/02.webp",
         "../assets/pdp-gallery/TQ4URXG4LR4HKWROM6SAD2F3/03.webp"
-      ]
+      ],
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "4MPVF3MVSX3HNG3JFKHRF6EX",
@@ -72451,23 +72451,16 @@
       "category": "other",
       "checkout": true,
       "variation_id": "IBMAPW5NFCQVD6RQ4YAQ5ZIN",
-      "stock": 1,
       "part_numbers": [
         "09004",
         "9004 9007"
       ],
-      "interchange": [],
       "vehicles": [
         "1987\u20132000 Chrysler",
         "1987\u20132000 Ford",
         "1987\u20132000 GM"
       ],
-      "vehicle_count_raw": 3,
-      "ebay_item_id": "398403782093",
-      "ebay_type": "Headlight Socket",
-      "ebay_brand": "Calterm",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Towing Parts & Accessories:Wiring, Harnesses & Connectors",
-      "fitment_source": "ebay_listing+title",
+      "fitment_source": "ebay_listing",
       "fitment_confidence": "medium",
       "fitment": {
         "part_numbers": [
@@ -72512,18 +72505,25 @@
           "1987\u20132000 Ford",
           "1987\u20132000 GM"
         ],
-        "raw_compat_rows": 3,
-        "source": "ebay_listing+title",
+        "raw_compat_rows": 6,
+        "source": "ebay_listing",
         "confidence": "medium",
         "ebay_item_id": "398403782093",
         "type": "Headlight Socket",
         "brand": "Calterm",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Towing Parts & Accessories:Wiring, Harnesses & Connectors"
       },
+      "vehicle_count_raw": 6,
+      "ebay_item_id": "398403782093",
+      "ebay_type": "Headlight Socket",
+      "ebay_brand": "Calterm",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Towing Parts & Accessories:Wiring, Harnesses & Connectors",
       "images": [
         "../assets/pdp-gallery/4MPVF3MVSX3HNG3JFKHRF6EX/02.webp",
         "../assets/pdp-gallery/4MPVF3MVSX3HNG3JFKHRF6EX/03.webp"
-      ]
+      ],
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "2LN22LKUSIWBSLJZ44RSVLNY",
@@ -75834,6 +75834,112 @@
       ],
       "stock": 1,
       "interchange": []
+    },
+    {
+      "id": "Y62SACFH7PBZBZNZOYJXARDL",
+      "name": "Ford FOTZ-9F485-A EGR Connector 90-96 F-150 Bronco NOS",
+      "price": 27.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/183e260b34530237372f6b26b1512d749f70c16a/original.jpeg",
+      "url": "https://square.link/u/prHYtol6",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "ER4F2CJIHYGO6TWVSGHFT47I",
+      "stock": 1,
+      "part_numbers": [
+        "FOTZ-9F485-A"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1990\u20131996 Ford Bronco",
+        "1990\u20131996 Ford F-150",
+        "1990\u20131997 Ford F-250",
+        "1990\u20131997 Ford F-350",
+        "1990\u20131996 Ford FOTZ-9F485-A"
+      ],
+      "vehicle_count_raw": 863,
+      "ebay_item_id": "398403795543",
+      "ebay_type": "Electrical Connector (Tube Connector for EGR Manifold)",
+      "ebay_brand": "Ford",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Starters, Alternators, ECUs & Wiring:ECUs & Computer Modules",
+      "fitment_source": "ebay_listing+title",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "FOTZ-9F485-A"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1990,
+            "year_to": 1996,
+            "make": "Ford",
+            "model": "Bronco",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1990,
+            "year_to": 1996,
+            "make": "Ford",
+            "model": "F-150",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1990,
+            "year_to": 1997,
+            "make": "Ford",
+            "model": "F-250",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1990,
+            "year_to": 1997,
+            "make": "Ford",
+            "model": "F-350",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1990,
+            "year_to": 1996,
+            "make": "Ford",
+            "model": "FOTZ-9F485-A",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1990\u20131996 Ford Bronco",
+          "1990\u20131996 Ford F-150",
+          "1990\u20131997 Ford F-250",
+          "1990\u20131997 Ford F-350",
+          "1990\u20131996 Ford FOTZ-9F485-A"
+        ],
+        "raw_compat_rows": 863,
+        "source": "ebay_listing+title",
+        "confidence": "high",
+        "ebay_item_id": "398403795543",
+        "type": "Electrical Connector (Tube Connector for EGR Manifold)",
+        "brand": "Ford",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Starters, Alternators, ECUs & Wiring:ECUs & Computer Modules"
+      },
+      "images": [
+        "../assets/pdp-gallery/Y62SACFH7PBZBZNZOYJXARDL/02.webp",
+        "../assets/pdp-gallery/Y62SACFH7PBZBZNZOYJXARDL/03.webp",
+        "../assets/pdp-gallery/Y62SACFH7PBZBZNZOYJXARDL/04.webp"
+      ]
     },
     {
       "id": "SBZMA5DACIXF7NIMKDYPD226",
@@ -120362,5 +120468,5 @@
       "ebay_brand": ""
     }
   ],
-  "fitment_built": "2026-09-17T12:02:33Z"
+  "fitment_built": "2026-09-17T13:02:31Z"
 }
