@@ -1,7 +1,7 @@
 {
-  "updated": "2026-09-17T00:32:11Z",
+  "updated": "2026-09-17T12:02:33Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 849,
+  "count": 854,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -71975,6 +71975,557 @@
       "ebay_type": ""
     },
     {
+      "id": "LYMJF7HTXBT3AX54RA5MFHAX",
+      "name": "Calterm 08541 GM Socket Assembly Corvair Camaro Horizon NOS",
+      "price": 9.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/4c61298bd11dd7532a9e47301576626b6ab9ca94/original.jpeg",
+      "url": "https://square.link/u/B4luU1lm",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "NFU5FBVFRW37U5IFOL7U6LWK",
+      "stock": 1,
+      "part_numbers": [
+        "08541"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1976\u20131980 AMC Pacer",
+        "1973 Buick Regal",
+        "1964\u20131968 Buick Riviera",
+        "1964\u20131968 Cadillac DeVille",
+        "1967\u20131968 Chevrolet Camaro",
+        "1964\u20131968 Chevrolet Corvair",
+        "1983 Chrysler Executive Sedan",
+        "1983 Chrysler Fifth Avenue",
+        "1982\u20131983 Chrysler Imperial",
+        "1982\u20131984 Chrysler LeBaron",
+        "1978\u20131980 Dodge B200",
+        "1971\u20131974 Dodge Challenger",
+        "1973\u20131977 Ford Maverick",
+        "1973\u20131977 Ford Ranchero",
+        "GM Socket",
+        "1977 Mercury Cougar",
+        "1980\u20131984 Plymouth Horizon",
+        "1980 Pontiac Bonneville",
+        "1975 Pontiac Firebird",
+        "1973\u20131974 Pontiac Grand Prix"
+      ],
+      "vehicle_count_raw": 552,
+      "ebay_item_id": "398403774213",
+      "ebay_type": "Lamp Socket",
+      "ebay_brand": "Calterm",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Towing Parts & Accessories:Wiring, Harnesses & Connectors",
+      "fitment_source": "ebay_listing+title",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "08541"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1976,
+            "year_to": 1980,
+            "make": "AMC",
+            "model": "Pacer",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1973,
+            "year_to": 1973,
+            "make": "Buick",
+            "model": "Regal",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1964,
+            "year_to": 1968,
+            "make": "Buick",
+            "model": "Riviera",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1964,
+            "year_to": 1968,
+            "make": "Cadillac",
+            "model": "DeVille",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1967,
+            "year_to": 1968,
+            "make": "Chevrolet",
+            "model": "Camaro",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1964,
+            "year_to": 1968,
+            "make": "Chevrolet",
+            "model": "Corvair",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1983,
+            "year_to": 1983,
+            "make": "Chrysler",
+            "model": "Executive Sedan",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1983,
+            "year_to": 1983,
+            "make": "Chrysler",
+            "model": "Fifth Avenue",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1982,
+            "year_to": 1983,
+            "make": "Chrysler",
+            "model": "Imperial",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1982,
+            "year_to": 1984,
+            "make": "Chrysler",
+            "model": "LeBaron",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1978,
+            "year_to": 1980,
+            "make": "Dodge",
+            "model": "B200",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1971,
+            "year_to": 1974,
+            "make": "Dodge",
+            "model": "Challenger",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1973,
+            "year_to": 1977,
+            "make": "Ford",
+            "model": "Maverick",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1973,
+            "year_to": 1977,
+            "make": "Ford",
+            "model": "Ranchero",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": null,
+            "year_to": null,
+            "make": "GM",
+            "model": "Socket",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1977,
+            "year_to": 1977,
+            "make": "Mercury",
+            "model": "Cougar",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1980,
+            "year_to": 1984,
+            "make": "Plymouth",
+            "model": "Horizon",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1980,
+            "year_to": 1980,
+            "make": "Pontiac",
+            "model": "Bonneville",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1975,
+            "year_to": 1975,
+            "make": "Pontiac",
+            "model": "Firebird",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1973,
+            "year_to": 1974,
+            "make": "Pontiac",
+            "model": "Grand Prix",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1976\u20131980 AMC Pacer",
+          "1973 Buick Regal",
+          "1964\u20131968 Buick Riviera",
+          "1964\u20131968 Cadillac DeVille",
+          "1967\u20131968 Chevrolet Camaro",
+          "1964\u20131968 Chevrolet Corvair",
+          "1983 Chrysler Executive Sedan",
+          "1983 Chrysler Fifth Avenue",
+          "1982\u20131983 Chrysler Imperial",
+          "1982\u20131984 Chrysler LeBaron",
+          "1978\u20131980 Dodge B200",
+          "1971\u20131974 Dodge Challenger",
+          "1973\u20131977 Ford Maverick",
+          "1973\u20131977 Ford Ranchero",
+          "GM Socket",
+          "1977 Mercury Cougar",
+          "1980\u20131984 Plymouth Horizon",
+          "1980 Pontiac Bonneville",
+          "1975 Pontiac Firebird",
+          "1973\u20131974 Pontiac Grand Prix"
+        ],
+        "raw_compat_rows": 552,
+        "source": "ebay_listing+title",
+        "confidence": "high",
+        "ebay_item_id": "398403774213",
+        "type": "Lamp Socket",
+        "brand": "Calterm",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Towing Parts & Accessories:Wiring, Harnesses & Connectors"
+      },
+      "images": [
+        "../assets/pdp-gallery/LYMJF7HTXBT3AX54RA5MFHAX/02.webp",
+        "../assets/pdp-gallery/LYMJF7HTXBT3AX54RA5MFHAX/03.webp"
+      ]
+    },
+    {
+      "id": "PO4DKWMD432JSYKZPTUEZJN4",
+      "name": "Calterm 08543 Ford Socket with Ground Tab Stop Tail NOS",
+      "price": 9.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/7ef5fe7849e538aaf8f9bb2a3cf993b38ee03aa0/original.jpeg",
+      "url": "https://square.link/u/VomTvwBg",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "6W4AXFMTBVREQLJ7P4G26QVT",
+      "stock": 1,
+      "part_numbers": [
+        "08543"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "Ford Socket"
+      ],
+      "vehicle_count_raw": 1,
+      "ebay_item_id": "398403759050",
+      "ebay_type": "Lamp Socket",
+      "ebay_brand": "Calterm",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Towing Parts & Accessories:Wiring, Harnesses & Connectors",
+      "fitment_source": "ebay_listing+title",
+      "fitment_confidence": "medium",
+      "fitment": {
+        "part_numbers": [
+          "08543"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": null,
+            "year_to": null,
+            "make": "Ford",
+            "model": "Socket",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "Ford Socket"
+        ],
+        "raw_compat_rows": 1,
+        "source": "ebay_listing+title",
+        "confidence": "medium",
+        "ebay_item_id": "398403759050",
+        "type": "Lamp Socket",
+        "brand": "Calterm",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Towing Parts & Accessories:Wiring, Harnesses & Connectors"
+      },
+      "images": [
+        "../assets/pdp-gallery/PO4DKWMD432JSYKZPTUEZJN4/02.webp",
+        "../assets/pdp-gallery/PO4DKWMD432JSYKZPTUEZJN4/03.webp"
+      ]
+    },
+    {
+      "id": "QJGXH54UD7LIET5PBC5YUWTM",
+      "name": "Calterm 08552 AMC Chrysler Ford Socket Assembly NOS",
+      "price": 9.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/954effe61aed7287856ec6cab144a456f665069a/original.jpeg",
+      "url": "https://square.link/u/gJuarLB9",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "VP57SIKWNYR34JKOFEIHQZCC",
+      "stock": 1,
+      "part_numbers": [
+        "08552"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "Chrysler",
+        "Ford Socket"
+      ],
+      "vehicle_count_raw": 2,
+      "ebay_item_id": "398403784458",
+      "ebay_type": "Lamp Socket",
+      "ebay_brand": "Calterm",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Towing Parts & Accessories:Wiring, Harnesses & Connectors",
+      "fitment_source": "ebay_listing+title",
+      "fitment_confidence": "medium",
+      "fitment": {
+        "part_numbers": [
+          "08552"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": null,
+            "year_to": null,
+            "make": "Chrysler",
+            "model": "",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": null,
+            "year_to": null,
+            "make": "Ford",
+            "model": "Socket",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "Chrysler",
+          "Ford Socket"
+        ],
+        "raw_compat_rows": 2,
+        "source": "ebay_listing+title",
+        "confidence": "medium",
+        "ebay_item_id": "398403784458",
+        "type": "Lamp Socket",
+        "brand": "Calterm",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Towing Parts & Accessories:Wiring, Harnesses & Connectors"
+      },
+      "images": [
+        "../assets/pdp-gallery/QJGXH54UD7LIET5PBC5YUWTM/02.webp",
+        "../assets/pdp-gallery/QJGXH54UD7LIET5PBC5YUWTM/03.webp"
+      ]
+    },
+    {
+      "id": "TQ4URXG4LR4HKWROM6SAD2F3",
+      "name": "Calterm 08606 Ford External Voltage Regulator Harness NOS",
+      "price": 12.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/14de39b13d8d5f68fe49a8f8d862ae909ed7db3e/original.jpeg",
+      "url": "https://square.link/u/wmfU4doc",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "XZQNPJULEPE3OBNK5ZHBO262",
+      "stock": 1,
+      "part_numbers": [
+        "08606"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "Ford External"
+      ],
+      "vehicle_count_raw": 1,
+      "ebay_item_id": "398403762767",
+      "ebay_type": "Wiring Harness",
+      "ebay_brand": "Calterm",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Towing Parts & Accessories:Wiring, Harnesses & Connectors",
+      "fitment_source": "ebay_listing+title",
+      "fitment_confidence": "medium",
+      "fitment": {
+        "part_numbers": [
+          "08606"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": null,
+            "year_to": null,
+            "make": "Ford",
+            "model": "External",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "Ford External"
+        ],
+        "raw_compat_rows": 1,
+        "source": "ebay_listing+title",
+        "confidence": "medium",
+        "ebay_item_id": "398403762767",
+        "type": "Wiring Harness",
+        "brand": "Calterm",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Towing Parts & Accessories:Wiring, Harnesses & Connectors"
+      },
+      "images": [
+        "../assets/pdp-gallery/TQ4URXG4LR4HKWROM6SAD2F3/02.webp",
+        "../assets/pdp-gallery/TQ4URXG4LR4HKWROM6SAD2F3/03.webp"
+      ]
+    },
+    {
+      "id": "4MPVF3MVSX3HNG3JFKHRF6EX",
+      "name": "Calterm 09004 Halogen Headlight Socket 9004/9007 87-00 GM Chrysler Ford NOS",
+      "price": 9.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/095237f34309c7d5df3aab9367239f55ef0e2b7a/original.jpeg",
+      "url": "https://square.link/u/sHQrQALs",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "IBMAPW5NFCQVD6RQ4YAQ5ZIN",
+      "stock": 1,
+      "part_numbers": [
+        "09004",
+        "9004 9007"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1987\u20132000 Chrysler",
+        "1987\u20132000 Ford",
+        "1987\u20132000 GM"
+      ],
+      "vehicle_count_raw": 3,
+      "ebay_item_id": "398403782093",
+      "ebay_type": "Headlight Socket",
+      "ebay_brand": "Calterm",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Towing Parts & Accessories:Wiring, Harnesses & Connectors",
+      "fitment_source": "ebay_listing+title",
+      "fitment_confidence": "medium",
+      "fitment": {
+        "part_numbers": [
+          "09004",
+          "9004 9007"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1987,
+            "year_to": 2000,
+            "make": "Chrysler",
+            "model": "",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 2000,
+            "make": "Ford",
+            "model": "",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 2000,
+            "make": "GM",
+            "model": "",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1987\u20132000 Chrysler",
+          "1987\u20132000 Ford",
+          "1987\u20132000 GM"
+        ],
+        "raw_compat_rows": 3,
+        "source": "ebay_listing+title",
+        "confidence": "medium",
+        "ebay_item_id": "398403782093",
+        "type": "Headlight Socket",
+        "brand": "Calterm",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Towing Parts & Accessories:Wiring, Harnesses & Connectors"
+      },
+      "images": [
+        "../assets/pdp-gallery/4MPVF3MVSX3HNG3JFKHRF6EX/02.webp",
+        "../assets/pdp-gallery/4MPVF3MVSX3HNG3JFKHRF6EX/03.webp"
+      ]
+    },
+    {
       "id": "2LN22LKUSIWBSLJZ44RSVLNY",
       "name": "Central AC Compressor Contactor Relay 30-40 Amp Definite Purpose HVAC",
       "price": 12.99,
@@ -119811,5 +120362,5 @@
       "ebay_brand": ""
     }
   ],
-  "fitment_built": "2026-09-17T00:32:11Z"
+  "fitment_built": "2026-09-17T12:02:33Z"
 }
