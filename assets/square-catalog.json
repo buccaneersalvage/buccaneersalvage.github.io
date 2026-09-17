@@ -1,7 +1,7 @@
 {
-  "updated": "2026-09-17T21:02:21Z",
+  "updated": "2026-09-17T22:02:30Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 856,
+  "count": 858,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -67867,6 +67867,65 @@
       "vehicles": []
     },
     {
+      "id": "D7V4AQ3PTHTGFRJABYIHYXUW",
+      "name": "Motormite 85095 Headlight Switch Connector GM 76-95 NOS",
+      "price": 12.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/fc39bcf4a358f86f3f4c8ca3210f572cb6e79ca6/original.jpeg",
+      "url": "https://square.link/u/BYDPLyvs",
+      "category": "interior",
+      "checkout": true,
+      "variation_id": "TDEYR6LVJDMCHDPLX7HIPOR2",
+      "stock": 1,
+      "part_numbers": [
+        "85095",
+        "Fits GM switch 1995217"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1976\u20131995 GM"
+      ],
+      "vehicle_count_raw": 1,
+      "ebay_item_id": "398405176662",
+      "ebay_type": "Headlight Switch Connector",
+      "ebay_brand": "Motormite",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Interior Parts & Accessories:Switches & Controls",
+      "fitment_source": "ebay_listing+title",
+      "fitment_confidence": "medium",
+      "fitment": {
+        "part_numbers": [
+          "85095",
+          "Fits GM switch 1995217"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1976,
+            "year_to": 1995,
+            "make": "GM",
+            "model": "",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1976\u20131995 GM"
+        ],
+        "raw_compat_rows": 1,
+        "source": "ebay_listing+title",
+        "confidence": "medium",
+        "ebay_item_id": "398405176662",
+        "type": "Headlight Switch Connector",
+        "brand": "Motormite",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Interior Parts & Accessories:Switches & Controls"
+      },
+      "images": [
+        "../assets/pdp-gallery/D7V4AQ3PTHTGFRJABYIHYXUW/02.webp",
+        "../assets/pdp-gallery/D7V4AQ3PTHTGFRJABYIHYXUW/03.webp"
+      ]
+    },
+    {
       "id": "VC2457GJKT6D2VJNP3GW57DD",
       "name": "National 9025 4-Bolt Exhaust Flange Gasket NOS",
       "price": 14.99,
@@ -93107,6 +93166,58 @@
       "interchange": []
     },
     {
+      "id": "ATENLAHEUECPW7NSJL2L7ZVM",
+      "name": "H&R Pinion Snubber Ford Mustang 79-04 NOS w/ Hardware",
+      "price": 99.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/20f59e853f79bf771db3c1d0ed1ec78a74ae6b0d/original.jpeg",
+      "url": "https://square.link/u/YoyvnyBh",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "4R2ADO3OFCCXSAO6QRYX6RKL",
+      "fitment_source": "ebay_listing+title",
+      "fitment_confidence": "medium",
+      "fitment": {
+        "part_numbers": [],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1979,
+            "year_to": 2004,
+            "make": "Ford",
+            "model": "Mustang",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1979\u20132004 Ford Mustang"
+        ],
+        "raw_compat_rows": 1,
+        "source": "ebay_listing+title",
+        "confidence": "medium",
+        "ebay_item_id": "398405152975",
+        "type": "Boat Speedometer",
+        "brand": "Unbranded",
+        "ebay_category": "eBay Motors:Parts & Accessories:Boat Parts:Electrical & Lighting"
+      },
+      "vehicle_count_raw": 1,
+      "ebay_item_id": "398405152975",
+      "ebay_type": "Boat Speedometer",
+      "ebay_brand": "Unbranded",
+      "ebay_category": "eBay Motors:Parts & Accessories:Boat Parts:Electrical & Lighting",
+      "images": [
+        "../assets/pdp-gallery/ATENLAHEUECPW7NSJL2L7ZVM/02.webp"
+      ],
+      "stock": 1,
+      "part_numbers": [],
+      "interchange": [],
+      "vehicles": [
+        "1979\u20132004 Ford Mustang"
+      ]
+    },
+    {
       "id": "3ICV75PAFQP3JSDBQVGMI3LP",
       "name": "Hisense 1092-L 1092-R OEM TV Stand Legs Base Feet Pair for 55\" Hisense TV",
       "price": 14.99,
@@ -97936,6 +98047,78 @@
       ],
       "stock": 1,
       "interchange": []
+    },
+    {
+      "id": "V2MQ7NG3447JFZOS7MY5K2I5",
+      "name": "Mopar 52089516AB Front Diff Mount Isolator 05-10 Grand Cherokee Commander",
+      "price": 59.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/183d2418070505cdfbd69f5fda70e550805e7fbb/original.jpeg",
+      "url": "https://square.link/u/aUfN5nuQ",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "JG2FKXYWK2WKU2LHPMGRAVAD",
+      "stock": 1,
+      "part_numbers": [
+        "52089516AB",
+        "52089516, 52089516AA, 52114354AA"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "2006\u20132010 Jeep Commander",
+        "2005\u20132010 Jeep Grand Cherokee"
+      ],
+      "vehicle_count_raw": 107,
+      "ebay_item_id": "398405155785",
+      "ebay_type": "Differential Mount",
+      "ebay_brand": "Mopar",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Drums",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "52089516AB",
+          "52089516, 52089516AA, 52114354AA"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 2006,
+            "year_to": 2010,
+            "make": "Jeep",
+            "model": "Commander",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2005,
+            "year_to": 2010,
+            "make": "Jeep",
+            "model": "Grand Cherokee",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "2006\u20132010 Jeep Commander",
+          "2005\u20132010 Jeep Grand Cherokee"
+        ],
+        "raw_compat_rows": 107,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398405155785",
+        "type": "Differential Mount",
+        "brand": "Mopar",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Drums"
+      },
+      "images": [
+        "../assets/pdp-gallery/V2MQ7NG3447JFZOS7MY5K2I5/02.webp",
+        "../assets/pdp-gallery/V2MQ7NG3447JFZOS7MY5K2I5/03.webp",
+        "../assets/pdp-gallery/V2MQ7NG3447JFZOS7MY5K2I5/04.webp"
+      ]
     },
     {
       "id": "AC4O5CEFTYDCUZCECOZZFZI4",
@@ -105092,15 +105275,6 @@
       "category": "other",
       "checkout": true,
       "variation_id": "X4BQNL3VI3IOJNDUYLTKEMQB",
-      "stock": 1,
-      "part_numbers": [],
-      "interchange": [],
-      "vehicles": [],
-      "vehicle_count_raw": 0,
-      "ebay_item_id": "",
-      "ebay_type": "",
-      "ebay_brand": "",
-      "ebay_category": "",
       "fitment_source": "title",
       "fitment_confidence": "low",
       "fitment": {
@@ -105116,13 +105290,22 @@
         "brand": "",
         "ebay_category": ""
       },
+      "vehicle_count_raw": 0,
       "images": [
         "../assets/pdp-gallery/VKR2FEZUEQ7QDXDCWQOMQ4OJ/02.webp",
         "../assets/pdp-gallery/VKR2FEZUEQ7QDXDCWQOMQ4OJ/03.webp",
         "../assets/pdp-gallery/VKR2FEZUEQ7QDXDCWQOMQ4OJ/04.webp",
         "../assets/pdp-gallery/VKR2FEZUEQ7QDXDCWQOMQ4OJ/05.webp",
         "../assets/pdp-gallery/VKR2FEZUEQ7QDXDCWQOMQ4OJ/06.webp"
-      ]
+      ],
+      "stock": 1,
+      "part_numbers": [],
+      "interchange": [],
+      "vehicles": [],
+      "ebay_item_id": "",
+      "ebay_type": "",
+      "ebay_brand": "",
+      "ebay_category": ""
     },
     {
       "id": "EW6HQYMYXZOORQX5U2SZWAIV",
@@ -118504,44 +118687,6 @@
       "vehicles": []
     },
     {
-      "id": "ATENLAHEUECPW7NSJL2L7ZVM",
-      "name": "Vintage Boat Speedometer Gauge Dual Scale MPH 1970s Yellow Housing",
-      "price": 18.99,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/20f59e853f79bf771db3c1d0ed1ec78a74ae6b0d/original.jpeg",
-      "url": "https://square.link/u/YoyvnyBh",
-      "category": "other",
-      "checkout": true,
-      "variation_id": "4R2ADO3OFCCXSAO6QRYX6RKL",
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "medium",
-      "fitment": {
-        "part_numbers": [],
-        "interchange": [],
-        "vehicles": [],
-        "vehicle_labels": [],
-        "raw_compat_rows": 0,
-        "source": "ebay_listing",
-        "confidence": "medium",
-        "ebay_item_id": "398192753450",
-        "type": "Boat Speedometer",
-        "brand": "Unbranded",
-        "ebay_category": "eBay Motors:Parts & Accessories:Boat Parts:Electrical & Lighting"
-      },
-      "vehicle_count_raw": 0,
-      "ebay_item_id": "398192753450",
-      "ebay_type": "Boat Speedometer",
-      "ebay_brand": "Unbranded",
-      "ebay_category": "eBay Motors:Parts & Accessories:Boat Parts:Electrical & Lighting",
-      "images": [
-        "../assets/pdp-gallery/ATENLAHEUECPW7NSJL2L7ZVM/02.webp",
-        "../assets/pdp-gallery/ATENLAHEUECPW7NSJL2L7ZVM/03.webp"
-      ],
-      "stock": 1,
-      "part_numbers": [],
-      "interchange": [],
-      "vehicles": []
-    },
-    {
       "id": "DJXPSSQS3XFOZSHHJ4NORNKF",
       "name": "Vintage Carpenter Chrome Spotlight Searchlight Hot Rod Rat Rod Classic Truck",
       "price": 34.99,
@@ -120323,5 +120468,5 @@
       "ebay_brand": ""
     }
   ],
-  "fitment_built": "2026-09-17T21:02:21Z"
+  "fitment_built": "2026-09-17T22:02:30Z"
 }
