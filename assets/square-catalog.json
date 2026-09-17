@@ -1,7 +1,7 @@
 {
-  "updated": "2026-09-17T19:02:33Z",
+  "updated": "2026-09-17T20:01:40Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 857,
+  "count": 855,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -91161,87 +91161,6 @@
       "interchange": []
     },
     {
-      "id": "KBKJI6VPGFJ2ZZTFUNNPRVYF",
-      "name": "Gates 33479 Thermostat 195 84-85 Mazda 626 Nissan 520 NOS USA",
-      "price": 17.98,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/69707c052c90695d56ec3935f5f50093a4991bfc/original.jpeg",
-      "url": "https://square.link/u/rrEtsaHH",
-      "category": "other",
-      "checkout": true,
-      "variation_id": "5JE76KRG7W7TXM3ZYZF4BY5Y",
-      "part_numbers": [
-        "33479"
-      ],
-      "vehicles": [
-        "1984\u20131985 Mazda 626",
-        "1999\u20132008 Mazda B3000",
-        "1984\u20131985 Nissan 520"
-      ],
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "high",
-      "fitment": {
-        "part_numbers": [
-          "33479"
-        ],
-        "interchange": [],
-        "vehicles": [
-          {
-            "year_from": 1984,
-            "year_to": 1985,
-            "make": "Mazda",
-            "model": "626",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1999,
-            "year_to": 2008,
-            "make": "Mazda",
-            "model": "B3000",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1984,
-            "year_to": 1985,
-            "make": "Nissan",
-            "model": "520",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          }
-        ],
-        "vehicle_labels": [
-          "1984\u20131985 Mazda 626",
-          "1999\u20132008 Mazda B3000",
-          "1984\u20131985 Nissan 520"
-        ],
-        "raw_compat_rows": 65,
-        "source": "ebay_listing",
-        "confidence": "high",
-        "ebay_item_id": "398297620532",
-        "type": "Thermostat",
-        "brand": "Gates",
-        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Thermostats & Housings"
-      },
-      "vehicle_count_raw": 65,
-      "ebay_item_id": "398297620532",
-      "ebay_type": "Thermostat",
-      "ebay_brand": "Gates",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Thermostats & Housings",
-      "images": [
-        "../assets/pdp-gallery/KBKJI6VPGFJ2ZZTFUNNPRVYF/02.webp",
-        "../assets/pdp-gallery/KBKJI6VPGFJ2ZZTFUNNPRVYF/03.webp"
-      ],
-      "stock": 1,
-      "interchange": []
-    },
-    {
       "id": "YD7VODJFHE3DQATFDPUGBJXI",
       "name": "Gates 33479 Thermostat 1996-2008 Ford Ranger Mustang Taurus NOS",
       "price": 10.99,
@@ -91914,89 +91833,6 @@
       "images": [
         "../assets/pdp-gallery/WOXB3HJNWGKRNUYKZ4S57LPN/02.webp",
         "../assets/pdp-gallery/WOXB3HJNWGKRNUYKZ4S57LPN/03.webp"
-      ],
-      "stock": 1,
-      "interchange": []
-    },
-    {
-      "id": "373RPPOCYAZFVEE4KH3VYLOY",
-      "name": "Gates 5536 Thermostat 160 5.2 57-66 Dodge D100 W100 NOS USA",
-      "price": 12.99,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/69707c052c90695d56ec3935f5f50093a4991bfc/original.jpeg",
-      "url": "https://square.link/u/BR7xP039",
-      "category": "other",
-      "checkout": true,
-      "variation_id": "LTXDEWFVK4ZK5EIKYSJFO2WL",
-      "part_numbers": [
-        "5536",
-        "Gates 33036, Stant 13476, Motorad 206-160"
-      ],
-      "vehicles": [
-        "1957\u20131966 Dodge D100",
-        "1959\u20131966 Dodge D100 Town Wagon",
-        "1959\u20131966 Dodge W100 Town Wagon"
-      ],
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "high",
-      "fitment": {
-        "part_numbers": [
-          "5536",
-          "Gates 33036, Stant 13476, Motorad 206-160"
-        ],
-        "interchange": [],
-        "vehicles": [
-          {
-            "year_from": 1957,
-            "year_to": 1966,
-            "make": "Dodge",
-            "model": "D100",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1959,
-            "year_to": 1966,
-            "make": "Dodge",
-            "model": "D100 Town Wagon",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1959,
-            "year_to": 1966,
-            "make": "Dodge",
-            "model": "W100 Town Wagon",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          }
-        ],
-        "vehicle_labels": [
-          "1957\u20131966 Dodge D100",
-          "1959\u20131966 Dodge D100 Town Wagon",
-          "1959\u20131966 Dodge W100 Town Wagon"
-        ],
-        "raw_compat_rows": 17,
-        "source": "ebay_listing",
-        "confidence": "high",
-        "ebay_item_id": "398297635620",
-        "type": "Thermostat",
-        "brand": "Gates",
-        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Thermostats & Housings"
-      },
-      "vehicle_count_raw": 17,
-      "ebay_item_id": "398297635620",
-      "ebay_type": "Thermostat",
-      "ebay_brand": "Gates",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Thermostats & Housings",
-      "images": [
-        "../assets/pdp-gallery/373RPPOCYAZFVEE4KH3VYLOY/02.webp",
-        "../assets/pdp-gallery/373RPPOCYAZFVEE4KH3VYLOY/03.webp"
       ],
       "stock": 1,
       "interchange": []
@@ -120446,5 +120282,5 @@
       "ebay_brand": ""
     }
   ],
-  "fitment_built": "2026-09-17T19:02:33Z"
+  "fitment_built": "2026-09-17T20:01:40Z"
 }
