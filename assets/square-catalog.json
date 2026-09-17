@@ -1,7 +1,7 @@
 {
-  "updated": "2026-09-17T14:02:39Z",
+  "updated": "2026-09-17T15:02:43Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 855,
+  "count": 859,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -71975,6 +71975,255 @@
       "ebay_type": ""
     },
     {
+      "id": "Y7QDEJQMHZ6SSJIJFDZOIUPL",
+      "name": "Calterm 08535 Universal Socket Water Resistant NOS",
+      "price": 12.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/5bbdb5a7337b4c44619a1d8deb4686401296ab5f/original.jpeg",
+      "url": "https://square.link/u/fudx2L77",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "33DXTKKH2TH4KNGJKJQJE3WK",
+      "stock": 1,
+      "part_numbers": [
+        "08535"
+      ],
+      "interchange": [],
+      "vehicles": [],
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398404169300",
+      "ebay_type": "Lamp Socket",
+      "ebay_brand": "Calterm",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Towing Parts & Accessories:Wiring, Harnesses & Connectors",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "medium",
+      "fitment": {
+        "part_numbers": [
+          "08535"
+        ],
+        "interchange": [],
+        "vehicles": [],
+        "vehicle_labels": [],
+        "raw_compat_rows": 0,
+        "source": "ebay_listing",
+        "confidence": "medium",
+        "ebay_item_id": "398404169300",
+        "type": "Lamp Socket",
+        "brand": "Calterm",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Towing Parts & Accessories:Wiring, Harnesses & Connectors"
+      },
+      "images": [
+        "../assets/pdp-gallery/Y7QDEJQMHZ6SSJIJFDZOIUPL/02.webp",
+        "../assets/pdp-gallery/Y7QDEJQMHZ6SSJIJFDZOIUPL/03.webp"
+      ]
+    },
+    {
+      "id": "E7DOV3PLNPCZDXYFP4MJG2HT",
+      "name": "Calterm 08536 Ford Socket Water Resistant Double Contact NOS",
+      "price": 9.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/88bac69a0ff1bb294b0390da32c97d22a2277639/original.jpeg",
+      "url": "https://square.link/u/KBqIA99p",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "VNWNWMM3AT3Y55Z4DCBXMK5Y",
+      "part_numbers": [
+        "08536",
+        "F101254 M76162 MC36306 18M18 11944"
+      ],
+      "interchange": [
+        "MC101254"
+      ],
+      "vehicles": [
+        "1971\u20131980 Buick LeSabre",
+        "1971\u20131975 Cadillac DeVille",
+        "1975\u20131980 Chevrolet C10",
+        "1970\u20131980 Chevrolet Camaro",
+        "1971\u20131980 Chevrolet Caprice",
+        "1971\u20131980 Chevrolet Impala",
+        "1971\u20131977 Chevrolet Monte Carlo",
+        "1975\u20131979 Chevrolet Nova",
+        "Ford Socket",
+        "1973\u20131980 GMC Jimmy",
+        "1974\u20131980 Jeep Cherokee",
+        "1969\u20131977 Oldsmobile Cutlass",
+        "1970\u20131980 Pontiac Firebird"
+      ],
+      "fitment_source": "ebay_listing+title",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "08536",
+          "F101254 M76162 MC36306 18M18 11944"
+        ],
+        "interchange": [
+          "MC101254"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1971,
+            "year_to": 1980,
+            "make": "Buick",
+            "model": "LeSabre",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1971,
+            "year_to": 1975,
+            "make": "Cadillac",
+            "model": "DeVille",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1975,
+            "year_to": 1980,
+            "make": "Chevrolet",
+            "model": "C10",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1970,
+            "year_to": 1980,
+            "make": "Chevrolet",
+            "model": "Camaro",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1971,
+            "year_to": 1980,
+            "make": "Chevrolet",
+            "model": "Caprice",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1971,
+            "year_to": 1980,
+            "make": "Chevrolet",
+            "model": "Impala",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1971,
+            "year_to": 1977,
+            "make": "Chevrolet",
+            "model": "Monte Carlo",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1975,
+            "year_to": 1979,
+            "make": "Chevrolet",
+            "model": "Nova",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": null,
+            "year_to": null,
+            "make": "Ford",
+            "model": "Socket",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1973,
+            "year_to": 1980,
+            "make": "GMC",
+            "model": "Jimmy",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1974,
+            "year_to": 1980,
+            "make": "Jeep",
+            "model": "Cherokee",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1969,
+            "year_to": 1977,
+            "make": "Oldsmobile",
+            "model": "Cutlass",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1970,
+            "year_to": 1980,
+            "make": "Pontiac",
+            "model": "Firebird",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1971\u20131980 Buick LeSabre",
+          "1971\u20131975 Cadillac DeVille",
+          "1975\u20131980 Chevrolet C10",
+          "1970\u20131980 Chevrolet Camaro",
+          "1971\u20131980 Chevrolet Caprice",
+          "1971\u20131980 Chevrolet Impala",
+          "1971\u20131977 Chevrolet Monte Carlo",
+          "1975\u20131979 Chevrolet Nova",
+          "Ford Socket",
+          "1973\u20131980 GMC Jimmy",
+          "1974\u20131980 Jeep Cherokee",
+          "1969\u20131977 Oldsmobile Cutlass",
+          "1970\u20131980 Pontiac Firebird"
+        ],
+        "raw_compat_rows": 1899,
+        "source": "ebay_listing+title",
+        "confidence": "high",
+        "ebay_item_id": "398404088259",
+        "type": "Brake Master Cylinder",
+        "brand": "Wagner",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Master Cylinders"
+      },
+      "vehicle_count_raw": 1899,
+      "ebay_item_id": "398404088259",
+      "ebay_type": "Brake Master Cylinder",
+      "ebay_brand": "Wagner",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Master Cylinders",
+      "images": [
+        "../assets/pdp-gallery/E7DOV3PLNPCZDXYFP4MJG2HT/02.webp",
+        "../assets/pdp-gallery/E7DOV3PLNPCZDXYFP4MJG2HT/03.webp"
+      ],
+      "stock": 1
+    },
+    {
       "id": "LYMJF7HTXBT3AX54RA5MFHAX",
       "name": "Calterm 08541 GM Socket Assembly Corvair Camaro Horizon NOS",
       "price": 9.99,
@@ -72260,6 +72509,107 @@
       "interchange": []
     },
     {
+      "id": "KRPOEYRG45EXNOO6CRMOJLSS",
+      "name": "Calterm 08545 GM Socket Assembly 5947900 Double Contact NOS",
+      "price": 9.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/06db750101bd183478760136ab58b0db24fce88a/original.jpeg",
+      "url": "https://square.link/u/S6jU9V9k",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "JWUH2FIGR434HIC3TQYYMYHR",
+      "stock": 1,
+      "part_numbers": [
+        "08545",
+        "GM 5947900"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "GM Socket"
+      ],
+      "vehicle_count_raw": 1,
+      "ebay_item_id": "398404093415",
+      "ebay_type": "Lamp Socket",
+      "ebay_brand": "Calterm",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Towing Parts & Accessories:Wiring, Harnesses & Connectors",
+      "fitment_source": "ebay_listing+title",
+      "fitment_confidence": "medium",
+      "fitment": {
+        "part_numbers": [
+          "08545",
+          "GM 5947900"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": null,
+            "year_to": null,
+            "make": "GM",
+            "model": "Socket",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "GM Socket"
+        ],
+        "raw_compat_rows": 1,
+        "source": "ebay_listing+title",
+        "confidence": "medium",
+        "ebay_item_id": "398404093415",
+        "type": "Lamp Socket",
+        "brand": "Calterm",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Towing Parts & Accessories:Wiring, Harnesses & Connectors"
+      },
+      "images": [
+        "../assets/pdp-gallery/KRPOEYRG45EXNOO6CRMOJLSS/02.webp",
+        "../assets/pdp-gallery/KRPOEYRG45EXNOO6CRMOJLSS/03.webp"
+      ]
+    },
+    {
+      "id": "M7FOGX33AFF7DT7B3ILZHHBX",
+      "name": "Calterm 08546 Universal Socket Single Contact 3/4 Inch NOS",
+      "price": 12.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/a445ad86cc828bf890242acca2759c982550973b/original.jpeg",
+      "url": "https://square.link/u/zNxqhEac",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "YFNB52BL6JIXQOM2LT7VAFKS",
+      "stock": 1,
+      "part_numbers": [
+        "08546"
+      ],
+      "interchange": [],
+      "vehicles": [],
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398404172623",
+      "ebay_type": "Lamp Socket",
+      "ebay_brand": "Calterm",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Towing Parts & Accessories:Wiring, Harnesses & Connectors",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "medium",
+      "fitment": {
+        "part_numbers": [
+          "08546"
+        ],
+        "interchange": [],
+        "vehicles": [],
+        "vehicle_labels": [],
+        "raw_compat_rows": 0,
+        "source": "ebay_listing",
+        "confidence": "medium",
+        "ebay_item_id": "398404172623",
+        "type": "Lamp Socket",
+        "brand": "Calterm",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Towing Parts & Accessories:Wiring, Harnesses & Connectors"
+      },
+      "images": [
+        "../assets/pdp-gallery/M7FOGX33AFF7DT7B3ILZHHBX/02.webp",
+        "../assets/pdp-gallery/M7FOGX33AFF7DT7B3ILZHHBX/03.webp"
+      ]
+    },
+    {
       "id": "QJGXH54UD7LIET5PBC5YUWTM",
       "name": "Calterm 08552 AMC Chrysler Ford Socket Assembly NOS",
       "price": 9.99,
@@ -72337,20 +72687,13 @@
       "category": "other",
       "checkout": true,
       "variation_id": "QU6QKYJOSJ26U7FCCWAB2QJ5",
-      "stock": 1,
       "part_numbers": [
         "08554"
       ],
-      "interchange": [],
       "vehicles": [
         "Ford Socket"
       ],
-      "vehicle_count_raw": 1,
-      "ebay_item_id": "398404083275",
-      "ebay_type": "Lamp Socket",
-      "ebay_brand": "Calterm",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Towing Parts & Accessories:Wiring, Harnesses & Connectors",
-      "fitment_source": "ebay_listing+title",
+      "fitment_source": "ebay_listing",
       "fitment_confidence": "medium",
       "fitment": {
         "part_numbers": [
@@ -72373,17 +72716,24 @@
           "Ford Socket"
         ],
         "raw_compat_rows": 1,
-        "source": "ebay_listing+title",
+        "source": "ebay_listing",
         "confidence": "medium",
         "ebay_item_id": "398404083275",
         "type": "Lamp Socket",
         "brand": "Calterm",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Towing Parts & Accessories:Wiring, Harnesses & Connectors"
       },
+      "vehicle_count_raw": 1,
+      "ebay_item_id": "398404083275",
+      "ebay_type": "Lamp Socket",
+      "ebay_brand": "Calterm",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Towing Parts & Accessories:Wiring, Harnesses & Connectors",
       "images": [
         "../assets/pdp-gallery/ROJCOBT3TRXMR5M6GBVUWZTO/02.webp",
         "../assets/pdp-gallery/ROJCOBT3TRXMR5M6GBVUWZTO/03.webp"
-      ]
+      ],
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "TQ4URXG4LR4HKWROM6SAD2F3",
@@ -72451,20 +72801,13 @@
       "category": "other",
       "checkout": true,
       "variation_id": "AQAU4NRIBTHGXNSC5LCFKA4D",
-      "stock": 1,
       "part_numbers": [
         "08607"
       ],
-      "interchange": [],
       "vehicles": [
         "GM External"
       ],
-      "vehicle_count_raw": 1,
-      "ebay_item_id": "398404080735",
-      "ebay_type": "Wiring Harness",
-      "ebay_brand": "Calterm",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Towing Parts & Accessories:Wiring, Harnesses & Connectors",
-      "fitment_source": "ebay_listing+title",
+      "fitment_source": "ebay_listing",
       "fitment_confidence": "medium",
       "fitment": {
         "part_numbers": [
@@ -72487,16 +72830,82 @@
           "GM External"
         ],
         "raw_compat_rows": 1,
-        "source": "ebay_listing+title",
+        "source": "ebay_listing",
         "confidence": "medium",
         "ebay_item_id": "398404080735",
         "type": "Wiring Harness",
         "brand": "Calterm",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Towing Parts & Accessories:Wiring, Harnesses & Connectors"
       },
+      "vehicle_count_raw": 1,
+      "ebay_item_id": "398404080735",
+      "ebay_type": "Wiring Harness",
+      "ebay_brand": "Calterm",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Towing Parts & Accessories:Wiring, Harnesses & Connectors",
       "images": [
         "../assets/pdp-gallery/GDTSLV2Y4A5Q6HGRB6AD6FJA/02.webp",
         "../assets/pdp-gallery/GDTSLV2Y4A5Q6HGRB6AD6FJA/03.webp"
+      ],
+      "stock": 1,
+      "interchange": []
+    },
+    {
+      "id": "S4K4K2ZJHL5Q45FGEUXIPLSV",
+      "name": "Calterm 08653 GM Multi-Port Fuel Injection Socket Bosch Lucas NOS",
+      "price": 13.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/571d4aa188505258363cb09ae21a2e5ae8f99ecd/original.jpeg",
+      "url": "https://square.link/u/y46axDTm",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "RJSJFNUC6CBEWUBAUXBHERSW",
+      "stock": 1,
+      "part_numbers": [
+        "08653",
+        "GM 12085491"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "GM Multi-Port"
+      ],
+      "vehicle_count_raw": 1,
+      "ebay_item_id": "398404185245",
+      "ebay_type": "Fuel Injection Socket",
+      "ebay_brand": "Calterm",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Towing Parts & Accessories:Wiring, Harnesses & Connectors",
+      "fitment_source": "ebay_listing+title",
+      "fitment_confidence": "medium",
+      "fitment": {
+        "part_numbers": [
+          "08653",
+          "GM 12085491"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": null,
+            "year_to": null,
+            "make": "GM",
+            "model": "Multi-Port",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "GM Multi-Port"
+        ],
+        "raw_compat_rows": 1,
+        "source": "ebay_listing+title",
+        "confidence": "medium",
+        "ebay_item_id": "398404185245",
+        "type": "Fuel Injection Socket",
+        "brand": "Calterm",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Towing Parts & Accessories:Wiring, Harnesses & Connectors"
+      },
+      "images": [
+        "../assets/pdp-gallery/S4K4K2ZJHL5Q45FGEUXIPLSV/02.webp",
+        "../assets/pdp-gallery/S4K4K2ZJHL5Q45FGEUXIPLSV/03.webp"
       ]
     },
     {
@@ -119211,201 +119620,6 @@
       "vehicles": []
     },
     {
-      "id": "E7DOV3PLNPCZDXYFP4MJG2HT",
-      "name": "Wagner 08536 MC101254 Master Cylinder NOS 70-80 Camaro Firebird Impala",
-      "price": 51.99,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/88bac69a0ff1bb294b0390da32c97d22a2277639/original.jpeg",
-      "url": "https://square.link/u/KBqIA99p",
-      "category": "other",
-      "checkout": true,
-      "variation_id": "VNWNWMM3AT3Y55Z4DCBXMK5Y",
-      "part_numbers": [
-        "08536",
-        "F101254 M76162 MC36306 18M18 11944"
-      ],
-      "interchange": [
-        "MC101254"
-      ],
-      "vehicles": [
-        "1971\u20131980 Buick LeSabre",
-        "1971\u20131975 Cadillac DeVille",
-        "1975\u20131980 Chevrolet C10",
-        "1970\u20131980 Chevrolet Camaro",
-        "1971\u20131980 Chevrolet Caprice",
-        "1971\u20131980 Chevrolet Impala",
-        "1971\u20131977 Chevrolet Monte Carlo",
-        "1975\u20131979 Chevrolet Nova",
-        "1973\u20131980 GMC Jimmy",
-        "1974\u20131980 Jeep Cherokee",
-        "1969\u20131977 Oldsmobile Cutlass",
-        "1970\u20131980 Pontiac Firebird"
-      ],
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "high",
-      "fitment": {
-        "part_numbers": [
-          "08536",
-          "F101254 M76162 MC36306 18M18 11944"
-        ],
-        "interchange": [
-          "MC101254"
-        ],
-        "vehicles": [
-          {
-            "year_from": 1971,
-            "year_to": 1980,
-            "make": "Buick",
-            "model": "LeSabre",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1971,
-            "year_to": 1975,
-            "make": "Cadillac",
-            "model": "DeVille",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1975,
-            "year_to": 1980,
-            "make": "Chevrolet",
-            "model": "C10",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1970,
-            "year_to": 1980,
-            "make": "Chevrolet",
-            "model": "Camaro",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1971,
-            "year_to": 1980,
-            "make": "Chevrolet",
-            "model": "Caprice",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1971,
-            "year_to": 1980,
-            "make": "Chevrolet",
-            "model": "Impala",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1971,
-            "year_to": 1977,
-            "make": "Chevrolet",
-            "model": "Monte Carlo",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1975,
-            "year_to": 1979,
-            "make": "Chevrolet",
-            "model": "Nova",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1973,
-            "year_to": 1980,
-            "make": "GMC",
-            "model": "Jimmy",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1974,
-            "year_to": 1980,
-            "make": "Jeep",
-            "model": "Cherokee",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1969,
-            "year_to": 1977,
-            "make": "Oldsmobile",
-            "model": "Cutlass",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1970,
-            "year_to": 1980,
-            "make": "Pontiac",
-            "model": "Firebird",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          }
-        ],
-        "vehicle_labels": [
-          "1971\u20131980 Buick LeSabre",
-          "1971\u20131975 Cadillac DeVille",
-          "1975\u20131980 Chevrolet C10",
-          "1970\u20131980 Chevrolet Camaro",
-          "1971\u20131980 Chevrolet Caprice",
-          "1971\u20131980 Chevrolet Impala",
-          "1971\u20131977 Chevrolet Monte Carlo",
-          "1975\u20131979 Chevrolet Nova",
-          "1973\u20131980 GMC Jimmy",
-          "1974\u20131980 Jeep Cherokee",
-          "1969\u20131977 Oldsmobile Cutlass",
-          "1970\u20131980 Pontiac Firebird"
-        ],
-        "raw_compat_rows": 1899,
-        "source": "ebay_listing",
-        "confidence": "high",
-        "ebay_item_id": "398404088259",
-        "type": "Brake Master Cylinder",
-        "brand": "Wagner",
-        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Master Cylinders"
-      },
-      "vehicle_count_raw": 1899,
-      "ebay_item_id": "398404088259",
-      "ebay_type": "Brake Master Cylinder",
-      "ebay_brand": "Wagner",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Master Cylinders",
-      "images": [
-        "../assets/pdp-gallery/E7DOV3PLNPCZDXYFP4MJG2HT/02.webp",
-        "../assets/pdp-gallery/E7DOV3PLNPCZDXYFP4MJG2HT/03.webp"
-      ],
-      "stock": 1
-    },
-    {
       "id": "U7A3AB25DS3F54MHTGJSMXNS",
       "name": "Wagner BD61281 Zinc Lug Nut Lot of 3 Partial 1/2-20 81-89 Concord Fifth Ave NOS",
       "price": 15.99,
@@ -120479,5 +120693,5 @@
       "ebay_brand": ""
     }
   ],
-  "fitment_built": "2026-09-17T14:02:39Z"
+  "fitment_built": "2026-09-17T15:02:43Z"
 }
