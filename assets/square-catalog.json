@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-17T22:02:30Z",
+  "updated": "2026-09-17T23:02:19Z",
   "store": "https://buccaneersalvage.square.site/",
   "count": 858,
   "items": [
@@ -67884,12 +67884,12 @@
       "vehicles": [
         "1976\u20131995 GM"
       ],
-      "vehicle_count_raw": 1,
+      "vehicle_count_raw": 2,
       "ebay_item_id": "398405176662",
       "ebay_type": "Headlight Switch Connector",
       "ebay_brand": "Motormite",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Interior Parts & Accessories:Switches & Controls",
-      "fitment_source": "ebay_listing+title",
+      "fitment_source": "ebay_listing",
       "fitment_confidence": "medium",
       "fitment": {
         "part_numbers": [
@@ -67912,8 +67912,8 @@
         "vehicle_labels": [
           "1976\u20131995 GM"
         ],
-        "raw_compat_rows": 1,
-        "source": "ebay_listing+title",
+        "raw_compat_rows": 2,
+        "source": "ebay_listing",
         "confidence": "medium",
         "ebay_item_id": "398405176662",
         "type": "Headlight Switch Connector",
@@ -93174,7 +93174,7 @@
       "category": "other",
       "checkout": true,
       "variation_id": "4R2ADO3OFCCXSAO6QRYX6RKL",
-      "fitment_source": "ebay_listing+title",
+      "fitment_source": "ebay_listing",
       "fitment_confidence": "medium",
       "fitment": {
         "part_numbers": [],
@@ -93194,15 +93194,15 @@
         "vehicle_labels": [
           "1979\u20132004 Ford Mustang"
         ],
-        "raw_compat_rows": 1,
-        "source": "ebay_listing+title",
+        "raw_compat_rows": 2,
+        "source": "ebay_listing",
         "confidence": "medium",
         "ebay_item_id": "398405152975",
         "type": "Boat Speedometer",
         "brand": "Unbranded",
         "ebay_category": "eBay Motors:Parts & Accessories:Boat Parts:Electrical & Lighting"
       },
-      "vehicle_count_raw": 1,
+      "vehicle_count_raw": 2,
       "ebay_item_id": "398405152975",
       "ebay_type": "Boat Speedometer",
       "ebay_brand": "Unbranded",
@@ -120468,5 +120468,5 @@
       "ebay_brand": ""
     }
   ],
-  "fitment_built": "2026-09-17T22:02:30Z"
+  "fitment_built": "2026-09-17T23:02:19Z"
 }
