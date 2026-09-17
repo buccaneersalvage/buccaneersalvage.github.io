@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-17T15:02:43Z",
+  "updated": "2026-09-17T16:02:54Z",
   "store": "https://buccaneersalvage.square.site/",
   "count": 859,
   "items": [
@@ -72047,7 +72047,7 @@
         "1969\u20131977 Oldsmobile Cutlass",
         "1970\u20131980 Pontiac Firebird"
       ],
-      "fitment_source": "ebay_listing+title",
+      "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
@@ -72205,7 +72205,7 @@
           "1970\u20131980 Pontiac Firebird"
         ],
         "raw_compat_rows": 1899,
-        "source": "ebay_listing+title",
+        "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398404088259",
         "type": "Brake Master Cylinder",
@@ -72531,7 +72531,7 @@
       "ebay_type": "Lamp Socket",
       "ebay_brand": "Calterm",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Towing Parts & Accessories:Wiring, Harnesses & Connectors",
-      "fitment_source": "ebay_listing+title",
+      "fitment_source": "ebay_listing",
       "fitment_confidence": "medium",
       "fitment": {
         "part_numbers": [
@@ -72555,7 +72555,7 @@
           "GM Socket"
         ],
         "raw_compat_rows": 1,
-        "source": "ebay_listing+title",
+        "source": "ebay_listing",
         "confidence": "medium",
         "ebay_item_id": "398404093415",
         "type": "Lamp Socket",
@@ -72872,7 +72872,7 @@
       "ebay_type": "Fuel Injection Socket",
       "ebay_brand": "Calterm",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Towing Parts & Accessories:Wiring, Harnesses & Connectors",
-      "fitment_source": "ebay_listing+title",
+      "fitment_source": "ebay_listing",
       "fitment_confidence": "medium",
       "fitment": {
         "part_numbers": [
@@ -72896,7 +72896,7 @@
           "GM Multi-Port"
         ],
         "raw_compat_rows": 1,
-        "source": "ebay_listing+title",
+        "source": "ebay_listing",
         "confidence": "medium",
         "ebay_item_id": "398404185245",
         "type": "Fuel Injection Socket",
@@ -120693,5 +120693,5 @@
       "ebay_brand": ""
     }
   ],
-  "fitment_built": "2026-09-17T15:02:43Z"
+  "fitment_built": "2026-09-17T16:02:54Z"
 }
