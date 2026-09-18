@@ -1,7 +1,7 @@
 {
-  "updated": "2026-09-18T14:02:25Z",
+  "updated": "2026-09-18T15:02:39Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 867,
+  "count": 869,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -2514,6 +2514,81 @@
       "part_numbers": [],
       "interchange": [],
       "vehicles": []
+    },
+    {
+      "id": "TEJ4WRSA724AVT2VCHXCKYOP",
+      "name": "Calterm 08576 GM Tail Brake Light Socket 3057 Double Contact 88-94 NOS",
+      "price": 13.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/96a732077a0f12b62e0f1923c67a760c4ddc674e/original.jpeg",
+      "url": "https://square.link/u/5OZjfHMq",
+      "category": "brake",
+      "checkout": true,
+      "variation_id": "VYFRANR6ITUBZBF4JRBJLETM",
+      "stock": 1,
+      "part_numbers": [
+        "08576"
+      ],
+      "interchange": [
+        "GM 12083005",
+        "Delco LS-11"
+      ],
+      "vehicles": [
+        "1988\u20131994 GM Tail",
+        "1992\u20131994 GMC Yukon"
+      ],
+      "vehicle_count_raw": 13,
+      "ebay_item_id": "398407647858",
+      "ebay_type": "Tail Light Socket",
+      "ebay_brand": "Calterm",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware",
+      "fitment_source": "ebay_listing+title",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "08576"
+        ],
+        "interchange": [
+          "GM 12083005",
+          "Delco LS-11"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1988,
+            "year_to": 1994,
+            "make": "GM",
+            "model": "Tail",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1992,
+            "year_to": 1994,
+            "make": "GMC",
+            "model": "Yukon",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1988\u20131994 GM Tail",
+          "1992\u20131994 GMC Yukon"
+        ],
+        "raw_compat_rows": 13,
+        "source": "ebay_listing+title",
+        "confidence": "high",
+        "ebay_item_id": "398407647858",
+        "type": "Tail Light Socket",
+        "brand": "Calterm",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware"
+      },
+      "images": [
+        "../assets/pdp-gallery/TEJ4WRSA724AVT2VCHXCKYOP/02.webp",
+        "../assets/pdp-gallery/TEJ4WRSA724AVT2VCHXCKYOP/03.webp"
+      ]
     },
     {
       "id": "UIR6W6264WMTI3HZOMGZZ2UA",
@@ -32664,6 +32739,48 @@
       "stock": 2,
       "interchange": [],
       "vehicles": []
+    },
+    {
+      "id": "K7SWPTXHOE7IFWMEI5FR3KYL",
+      "name": "Dorman 03006 Brake Cable Adjuster Universal Parking Emergency NOS",
+      "price": 15.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/dfebb0bc3ce544ba8d2d219a6f860f1fe0e68c9f/original.jpeg",
+      "url": "https://square.link/u/88nnlRnc",
+      "category": "brake",
+      "checkout": true,
+      "variation_id": "YOEK2RW3UQGSCF64OT2GAOHM",
+      "stock": 1,
+      "part_numbers": [
+        "03006"
+      ],
+      "interchange": [],
+      "vehicles": [],
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398407624591",
+      "ebay_type": "Brake Cable Adjuster",
+      "ebay_brand": "Dorman",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "medium",
+      "fitment": {
+        "part_numbers": [
+          "03006"
+        ],
+        "interchange": [],
+        "vehicles": [],
+        "vehicle_labels": [],
+        "raw_compat_rows": 0,
+        "source": "ebay_listing",
+        "confidence": "medium",
+        "ebay_item_id": "398407624591",
+        "type": "Brake Cable Adjuster",
+        "brand": "Dorman",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware"
+      },
+      "images": [
+        "../assets/pdp-gallery/K7SWPTXHOE7IFWMEI5FR3KYL/02.webp",
+        "../assets/pdp-gallery/K7SWPTXHOE7IFWMEI5FR3KYL/03.webp"
+      ]
     },
     {
       "id": "IMKL4YNRBBV4FRO267KEJ2PZ",
@@ -121290,5 +121407,5 @@
       "ebay_brand": ""
     }
   ],
-  "fitment_built": "2026-09-18T14:02:25Z"
+  "fitment_built": "2026-09-18T15:02:39Z"
 }
