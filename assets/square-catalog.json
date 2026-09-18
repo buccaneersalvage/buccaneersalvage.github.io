@@ -1,7 +1,7 @@
 {
-  "updated": "2026-09-18T16:10:33Z",
+  "updated": "2026-09-18T17:02:40Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 871,
+  "count": 872,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -2831,17 +2831,9 @@
       "category": "brake",
       "checkout": true,
       "variation_id": "LYUMZIQE6GKJTCWPVSYF7RAD",
-      "stock": 1,
       "part_numbers": [
         "532752"
       ],
-      "interchange": [],
-      "vehicles": [],
-      "vehicle_count_raw": 0,
-      "ebay_item_id": "398407718584",
-      "ebay_type": "Power Brake Booster",
-      "ebay_brand": "A1 Cardone",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Boosters",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "medium",
       "fitment": {
@@ -2859,10 +2851,18 @@
         "brand": "A1 Cardone",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Boosters"
       },
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398407718584",
+      "ebay_type": "Power Brake Booster",
+      "ebay_brand": "A1 Cardone",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Boosters",
       "images": [
         "../assets/pdp-gallery/OHN5VWNY67652WIY4FCXKQGN/02.webp",
         "../assets/pdp-gallery/OHN5VWNY67652WIY4FCXKQGN/03.webp"
-      ]
+      ],
+      "stock": 1,
+      "interchange": [],
+      "vehicles": []
     },
     {
       "id": "NFGSJPHXFLQ43LZ4537CCPO2",
@@ -36590,6 +36590,121 @@
       "stock": 1,
       "interchange": [],
       "images": []
+    },
+    {
+      "id": "TMVAM6WSQIMVZSAZLGAPPJSD",
+      "name": "Parts Master 62487 Air Filter WIX 42487 Silverado Sierra Tahoe 99-19 NOS",
+      "price": 14.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/531bb9a38b1ff7d0bd2c9c150091c646cbd87e1b/original.jpeg",
+      "url": "https://square.link/u/hkiRuiKE",
+      "category": "filters",
+      "checkout": true,
+      "variation_id": "A7XBN4HYVN74NRRIQS3OLN4O",
+      "stock": 1,
+      "part_numbers": [
+        "62487"
+      ],
+      "interchange": [
+        "WIX 42487",
+        "Fram CA8756",
+        "ACDelco A1519C"
+      ],
+      "vehicles": [
+        "2002\u20132019 Cadillac Escalade",
+        "2007\u20132013 Chevrolet Avalanche",
+        "2014\u20132019 Chevrolet Suburban",
+        "2000\u20132019 Chevrolet Tahoe",
+        "2000\u20132019 GMC Yukon"
+      ],
+      "vehicle_count_raw": 467,
+      "ebay_item_id": "398407958553",
+      "ebay_type": "Air Filter",
+      "ebay_brand": "Parts Master",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Filters",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "62487"
+        ],
+        "interchange": [
+          "WIX 42487",
+          "Fram CA8756",
+          "ACDelco A1519C"
+        ],
+        "vehicles": [
+          {
+            "year_from": 2002,
+            "year_to": 2019,
+            "make": "Cadillac",
+            "model": "Escalade",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2007,
+            "year_to": 2013,
+            "make": "Chevrolet",
+            "model": "Avalanche",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2014,
+            "year_to": 2019,
+            "make": "Chevrolet",
+            "model": "Suburban",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2000,
+            "year_to": 2019,
+            "make": "Chevrolet",
+            "model": "Tahoe",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2000,
+            "year_to": 2019,
+            "make": "GMC",
+            "model": "Yukon",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "2002\u20132019 Cadillac Escalade",
+          "2007\u20132013 Chevrolet Avalanche",
+          "2014\u20132019 Chevrolet Suburban",
+          "2000\u20132019 Chevrolet Tahoe",
+          "2000\u20132019 GMC Yukon"
+        ],
+        "raw_compat_rows": 467,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398407958553",
+        "type": "Air Filter",
+        "brand": "Parts Master",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Filters"
+      },
+      "images": [
+        "../assets/pdp-gallery/TMVAM6WSQIMVZSAZLGAPPJSD/02.webp",
+        "../assets/pdp-gallery/TMVAM6WSQIMVZSAZLGAPPJSD/03.webp",
+        "../assets/pdp-gallery/TMVAM6WSQIMVZSAZLGAPPJSD/04.webp",
+        "../assets/pdp-gallery/TMVAM6WSQIMVZSAZLGAPPJSD/05.webp"
+      ]
     },
     {
       "id": "HPS4YOS6LHY7CCNJ2FRJFWK2",
@@ -75975,7 +76090,6 @@
       "category": "other",
       "checkout": true,
       "variation_id": "5JM72NNSNW2YO2XE7DRKDV2Y",
-      "stock": 1,
       "part_numbers": [
         "TOS 18663"
       ],
@@ -75987,11 +76101,6 @@
         "1982\u20131994 GM 700-R4",
         "1992\u20131994 GMC Yukon"
       ],
-      "vehicle_count_raw": 17,
-      "ebay_item_id": "398407722235",
-      "ebay_type": "Transmission Pan Gasket",
-      "ebay_brand": "Fel-Pro",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:Transmission Gaskets & Seals",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -76046,10 +76155,16 @@
         "brand": "Fel-Pro",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:Transmission Gaskets & Seals"
       },
+      "vehicle_count_raw": 17,
+      "ebay_item_id": "398407722235",
+      "ebay_type": "Transmission Pan Gasket",
+      "ebay_brand": "Fel-Pro",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:Transmission Gaskets & Seals",
       "images": [
         "../assets/pdp-gallery/BL7UZFKJJ2PYWEDB7VLCPW7X/02.webp",
         "../assets/pdp-gallery/BL7UZFKJJ2PYWEDB7VLCPW7X/03.webp"
-      ]
+      ],
+      "stock": 1
     },
     {
       "id": "VKRCNYYQTCMWEG335F4RNOYX",
@@ -93785,20 +93900,13 @@
       "category": "other",
       "checkout": true,
       "variation_id": "KNXJIY2MN2U7M4YUKA2BQVE4",
-      "stock": 1,
       "part_numbers": [
         "12554769"
       ],
-      "interchange": [],
       "vehicles": [
         "1996\u20132000 Chevrolet Express 3500",
         "1991\u20132000 GM Genuine"
       ],
-      "vehicle_count_raw": 36,
-      "ebay_item_id": "398407764589",
-      "ebay_type": "Cylinder Head Gasket",
-      "ebay_brand": "GM Genuine Parts",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Gaskets, Seals & Hardware:Gaskets & Seals",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -93840,10 +93948,17 @@
         "brand": "GM Genuine Parts",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Gaskets, Seals & Hardware:Gaskets & Seals"
       },
+      "vehicle_count_raw": 36,
+      "ebay_item_id": "398407764589",
+      "ebay_type": "Cylinder Head Gasket",
+      "ebay_brand": "GM Genuine Parts",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Gaskets, Seals & Hardware:Gaskets & Seals",
       "images": [
         "../assets/pdp-gallery/5A2HGX3SZZ43TZDADQQXRAYD/02.webp",
         "../assets/pdp-gallery/5A2HGX3SZZ43TZDADQQXRAYD/03.webp"
-      ]
+      ],
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "YWCEP45MXI6F3WOTFZT3AX26",
@@ -121475,5 +121590,5 @@
       "ebay_brand": ""
     }
   ],
-  "fitment_built": "2026-09-18T16:10:33Z"
+  "fitment_built": "2026-09-18T17:02:40Z"
 }
