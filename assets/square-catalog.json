@@ -1,7 +1,7 @@
 {
-  "updated": "2026-09-18T15:02:39Z",
+  "updated": "2026-09-18T16:02:45Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 869,
+  "count": 871,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -2524,7 +2524,6 @@
       "category": "brake",
       "checkout": true,
       "variation_id": "VYFRANR6ITUBZBF4JRBJLETM",
-      "stock": 1,
       "part_numbers": [
         "08576"
       ],
@@ -2536,12 +2535,7 @@
         "1988\u20131994 GM Tail",
         "1992\u20131994 GMC Yukon"
       ],
-      "vehicle_count_raw": 13,
-      "ebay_item_id": "398407647858",
-      "ebay_type": "Tail Light Socket",
-      "ebay_brand": "Calterm",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware",
-      "fitment_source": "ebay_listing+title",
+      "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
@@ -2578,17 +2572,23 @@
           "1992\u20131994 GMC Yukon"
         ],
         "raw_compat_rows": 13,
-        "source": "ebay_listing+title",
+        "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398407647858",
         "type": "Tail Light Socket",
         "brand": "Calterm",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware"
       },
+      "vehicle_count_raw": 13,
+      "ebay_item_id": "398407647858",
+      "ebay_type": "Tail Light Socket",
+      "ebay_brand": "Calterm",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware",
       "images": [
         "../assets/pdp-gallery/TEJ4WRSA724AVT2VCHXCKYOP/02.webp",
         "../assets/pdp-gallery/TEJ4WRSA724AVT2VCHXCKYOP/03.webp"
-      ]
+      ],
+      "stock": 1
     },
     {
       "id": "UIR6W6264WMTI3HZOMGZZ2UA",
@@ -2821,6 +2821,48 @@
         "../assets/pdp-gallery/UIR6W6264WMTI3HZOMGZZ2UA/04.webp"
       ],
       "stock": 1
+    },
+    {
+      "id": "OHN5VWNY67652WIY4FCXKQGN",
+      "name": "Cardone 53-2752 Power Brake Booster 99-04 Mitsubishi Montero Sport Reman",
+      "price": 239.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/3d839b95dfeb5e0d3496ec0627df3b15475b782a/original.jpeg",
+      "url": "https://square.link/u/6mP1opde",
+      "category": "brake",
+      "checkout": true,
+      "variation_id": "LYUMZIQE6GKJTCWPVSYF7RAD",
+      "stock": 1,
+      "part_numbers": [
+        "532752"
+      ],
+      "interchange": [],
+      "vehicles": [],
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398407718584",
+      "ebay_type": "Power Brake Booster",
+      "ebay_brand": "A1 Cardone",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Boosters",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "medium",
+      "fitment": {
+        "part_numbers": [
+          "532752"
+        ],
+        "interchange": [],
+        "vehicles": [],
+        "vehicle_labels": [],
+        "raw_compat_rows": 0,
+        "source": "ebay_listing",
+        "confidence": "medium",
+        "ebay_item_id": "398407718584",
+        "type": "Power Brake Booster",
+        "brand": "A1 Cardone",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Boosters"
+      },
+      "images": [
+        "../assets/pdp-gallery/OHN5VWNY67652WIY4FCXKQGN/02.webp",
+        "../assets/pdp-gallery/OHN5VWNY67652WIY4FCXKQGN/03.webp"
+      ]
     },
     {
       "id": "NFGSJPHXFLQ43LZ4537CCPO2",
@@ -32749,17 +32791,9 @@
       "category": "brake",
       "checkout": true,
       "variation_id": "YOEK2RW3UQGSCF64OT2GAOHM",
-      "stock": 1,
       "part_numbers": [
         "03006"
       ],
-      "interchange": [],
-      "vehicles": [],
-      "vehicle_count_raw": 0,
-      "ebay_item_id": "398407624591",
-      "ebay_type": "Brake Cable Adjuster",
-      "ebay_brand": "Dorman",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "medium",
       "fitment": {
@@ -32777,10 +32811,18 @@
         "brand": "Dorman",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware"
       },
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398407624591",
+      "ebay_type": "Brake Cable Adjuster",
+      "ebay_brand": "Dorman",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware",
       "images": [
         "../assets/pdp-gallery/K7SWPTXHOE7IFWMEI5FR3KYL/02.webp",
         "../assets/pdp-gallery/K7SWPTXHOE7IFWMEI5FR3KYL/03.webp"
-      ]
+      ],
+      "stock": 1,
+      "interchange": [],
+      "vehicles": []
     },
     {
       "id": "IMKL4YNRBBV4FRO267KEJ2PZ",
@@ -38965,134 +39007,6 @@
       ],
       "stock": 1,
       "interchange": []
-    },
-    {
-      "id": "GAITTOILYAJBPYNJWTC5GHLD",
-      "name": "WIX 33066 In-Line Fuel Filter NOS Toyota Corolla Starlet",
-      "price": 14.99,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/eabf7734ff5bbd905323608f979df73ed8d18548/original.jpeg",
-      "url": "https://square.link/u/uELglniL",
-      "category": "filters",
-      "checkout": true,
-      "variation_id": "DMNZKU4774PYPRHS5GKPZH6F",
-      "part_numbers": [
-        "33066",
-        "WIX-33066, 23310-23600-71, 23030-87602, Baldwin BF933"
-      ],
-      "interchange": [
-        "NAPA 3066",
-        "23300-25020",
-        "23300-25030"
-      ],
-      "vehicles": [
-        "1984 Toyota 4Runner",
-        "1975\u20131983 Toyota Corolla",
-        "1975\u20131979 Toyota Corona",
-        "1978\u20131985 Toyota Cressida",
-        "1981\u20131984 Toyota Starlet",
-        "1986\u20131990 Toyota Tercel"
-      ],
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "high",
-      "fitment": {
-        "part_numbers": [
-          "33066",
-          "WIX-33066, 23310-23600-71, 23030-87602, Baldwin BF933"
-        ],
-        "interchange": [
-          "NAPA 3066",
-          "23300-25020",
-          "23300-25030"
-        ],
-        "vehicles": [
-          {
-            "year_from": 1984,
-            "year_to": 1984,
-            "make": "Toyota",
-            "model": "4Runner",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1975,
-            "year_to": 1983,
-            "make": "Toyota",
-            "model": "Corolla",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1975,
-            "year_to": 1979,
-            "make": "Toyota",
-            "model": "Corona",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1978,
-            "year_to": 1985,
-            "make": "Toyota",
-            "model": "Cressida",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1981,
-            "year_to": 1984,
-            "make": "Toyota",
-            "model": "Starlet",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1986,
-            "year_to": 1990,
-            "make": "Toyota",
-            "model": "Tercel",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          }
-        ],
-        "vehicle_labels": [
-          "1984 Toyota 4Runner",
-          "1975\u20131983 Toyota Corolla",
-          "1975\u20131979 Toyota Corona",
-          "1978\u20131985 Toyota Cressida",
-          "1981\u20131984 Toyota Starlet",
-          "1986\u20131990 Toyota Tercel"
-        ],
-        "raw_compat_rows": 186,
-        "source": "ebay_listing",
-        "confidence": "high",
-        "ebay_item_id": "398317891319",
-        "type": "Fuel Filter",
-        "brand": "WIX",
-        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Fuel Filters"
-      },
-      "vehicle_count_raw": 186,
-      "ebay_item_id": "398317891319",
-      "ebay_type": "Fuel Filter",
-      "ebay_brand": "WIX",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Fuel Filters",
-      "images": [
-        "../assets/pdp-gallery/GAITTOILYAJBPYNJWTC5GHLD/02.webp",
-        "../assets/pdp-gallery/GAITTOILYAJBPYNJWTC5GHLD/03.webp",
-        "../assets/pdp-gallery/GAITTOILYAJBPYNJWTC5GHLD/04.webp"
-      ],
-      "stock": 1
     },
     {
       "id": "JE7HWGNZ7H34CERY5UXS4DG7",
@@ -76053,6 +75967,91 @@
       "stock": 1
     },
     {
+      "id": "BL7UZFKJJ2PYWEDB7VLCPW7X",
+      "name": "Fel-Pro TOS 18663 Trans Pan Gasket GM 700-R4 5.0 5.7 V8 Truck 82-94 NOS",
+      "price": 18.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/8208054081f29603137f8a904364bb04d752990c/original.jpeg",
+      "url": "https://square.link/u/YfAxkhmC",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "5JM72NNSNW2YO2XE7DRKDV2Y",
+      "stock": 1,
+      "part_numbers": [
+        "TOS 18663"
+      ],
+      "interchange": [
+        "TOS18663"
+      ],
+      "vehicles": [
+        "1987\u20131993 Chevrolet Suburban",
+        "1982\u20131994 GM 700-R4",
+        "1992\u20131994 GMC Yukon"
+      ],
+      "vehicle_count_raw": 17,
+      "ebay_item_id": "398407722235",
+      "ebay_type": "Transmission Pan Gasket",
+      "ebay_brand": "Fel-Pro",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:Transmission Gaskets & Seals",
+      "fitment_source": "ebay_listing+title",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "TOS 18663"
+        ],
+        "interchange": [
+          "TOS18663"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1987,
+            "year_to": 1993,
+            "make": "Chevrolet",
+            "model": "Suburban",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1982,
+            "year_to": 1994,
+            "make": "GM",
+            "model": "700-R4",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1992,
+            "year_to": 1994,
+            "make": "GMC",
+            "model": "Yukon",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1987\u20131993 Chevrolet Suburban",
+          "1982\u20131994 GM 700-R4",
+          "1992\u20131994 GMC Yukon"
+        ],
+        "raw_compat_rows": 17,
+        "source": "ebay_listing+title",
+        "confidence": "high",
+        "ebay_item_id": "398407722235",
+        "type": "Transmission Pan Gasket",
+        "brand": "Fel-Pro",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:Transmission Gaskets & Seals"
+      },
+      "images": [
+        "../assets/pdp-gallery/BL7UZFKJJ2PYWEDB7VLCPW7X/02.webp",
+        "../assets/pdp-gallery/BL7UZFKJJ2PYWEDB7VLCPW7X/03.webp"
+      ]
+    },
+    {
       "id": "VKRCNYYQTCMWEG335F4RNOYX",
       "name": "Fisher CR-9005 Studio Standard Stereo Double Cassette Deck For Parts Repair",
       "price": 39.99,
@@ -93776,6 +93775,75 @@
       ],
       "stock": 1,
       "interchange": []
+    },
+    {
+      "id": "5A2HGX3SZZ43TZDADQQXRAYD",
+      "name": "GM Genuine 12554769 Cylinder Head Gasket 7.4L 454 Chevy GMC 91-00 NOS",
+      "price": 79.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/143bb5eba54238031dab22f2e61fbc95bd2fab02/original.jpeg",
+      "url": "https://square.link/u/d8o0YQMI",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "KNXJIY2MN2U7M4YUKA2BQVE4",
+      "stock": 1,
+      "part_numbers": [
+        "12554769"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1996\u20132000 Chevrolet Express 3500",
+        "1991\u20132000 GM Genuine"
+      ],
+      "vehicle_count_raw": 36,
+      "ebay_item_id": "398407764589",
+      "ebay_type": "Cylinder Head Gasket",
+      "ebay_brand": "GM Genuine Parts",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Gaskets, Seals & Hardware:Gaskets & Seals",
+      "fitment_source": "ebay_listing+title",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "12554769"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1996,
+            "year_to": 2000,
+            "make": "Chevrolet",
+            "model": "Express 3500",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1991,
+            "year_to": 2000,
+            "make": "GM",
+            "model": "Genuine",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1996\u20132000 Chevrolet Express 3500",
+          "1991\u20132000 GM Genuine"
+        ],
+        "raw_compat_rows": 36,
+        "source": "ebay_listing+title",
+        "confidence": "high",
+        "ebay_item_id": "398407764589",
+        "type": "Cylinder Head Gasket",
+        "brand": "GM Genuine Parts",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Gaskets, Seals & Hardware:Gaskets & Seals"
+      },
+      "images": [
+        "../assets/pdp-gallery/5A2HGX3SZZ43TZDADQQXRAYD/02.webp",
+        "../assets/pdp-gallery/5A2HGX3SZZ43TZDADQQXRAYD/03.webp"
+      ]
     },
     {
       "id": "YWCEP45MXI6F3WOTFZT3AX26",
@@ -121407,5 +121475,5 @@
       "ebay_brand": ""
     }
   ],
-  "fitment_built": "2026-09-18T15:02:39Z"
+  "fitment_built": "2026-09-18T16:02:45Z"
 }
