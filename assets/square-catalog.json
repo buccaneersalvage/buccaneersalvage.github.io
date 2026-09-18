@@ -1,7 +1,7 @@
 {
-  "updated": "2026-09-18T20:02:28Z",
+  "updated": "2026-09-18T23:02:38Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 875,
+  "count": 879,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -35363,6 +35363,68 @@
       "interchange": []
     },
     {
+      "id": "NRMGBEVR2TP5XEM4VDG5BGZD",
+      "name": "FULL 17220-RBJ-000 Air Filter Honda Insight 1.3L 2010-2014 NOS Thailand",
+      "price": 21.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/7dd83319d1f4e31496297c364c74b7bec68630fc/original.jpeg",
+      "url": "https://square.link/u/ARpxcmpp",
+      "category": "filters",
+      "checkout": true,
+      "variation_id": "FQ5B5G5EATEY4SFOZXUKVOSM",
+      "stock": 1,
+      "part_numbers": [
+        "17220-RBJ-000"
+      ],
+      "interchange": [
+        "Honda 17220-RBJ-000"
+      ],
+      "vehicles": [
+        "2010\u20132014 Honda Insight"
+      ],
+      "vehicle_count_raw": 14,
+      "ebay_item_id": "398408758253",
+      "ebay_type": "Air Filter",
+      "ebay_brand": "FULL",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Filters",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "17220-RBJ-000"
+        ],
+        "interchange": [
+          "Honda 17220-RBJ-000"
+        ],
+        "vehicles": [
+          {
+            "year_from": 2010,
+            "year_to": 2014,
+            "make": "Honda",
+            "model": "Insight",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "2010\u20132014 Honda Insight"
+        ],
+        "raw_compat_rows": 14,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398408758253",
+        "type": "Air Filter",
+        "brand": "FULL",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Filters"
+      },
+      "images": [
+        "../assets/pdp-gallery/NRMGBEVR2TP5XEM4VDG5BGZD/02.webp",
+        "../assets/pdp-gallery/NRMGBEVR2TP5XEM4VDG5BGZD/03.webp",
+        "../assets/pdp-gallery/NRMGBEVR2TP5XEM4VDG5BGZD/04.webp"
+      ]
+    },
+    {
       "id": "LI27QWM3ZP4GE6HYAQ5REDRG",
       "name": "KN 33-2139 Air Filter Used Grand Cherokee 99-05 4.0 4.7 Cleanable",
       "price": 24.99,
@@ -36258,6 +36320,164 @@
         "../assets/pdp-gallery/HANCRIJE6YYQHZNNYFABL5EM/04.webp"
       ],
       "stock": 1
+    },
+    {
+      "id": "HJTVGK2Y6XBIYC2KPK2HE2WK",
+      "name": "Parts Master 66902 Air Filter WIX 46902 Buick Lucerne Cadillac DTS 06-11 NOS",
+      "price": 12.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/fc534038acab14f964d2b944266e9e63b8396a6d/original.jpeg",
+      "url": "https://square.link/u/66BH78m8",
+      "category": "filters",
+      "checkout": true,
+      "variation_id": "WDPMCM754ZW4SXXDW5UADBX7",
+      "stock": 1,
+      "part_numbers": [
+        "66902"
+      ],
+      "interchange": [
+        "WIX 46902"
+      ],
+      "vehicles": [
+        "2006\u20132011 Buick Lucerne",
+        "2006\u20132011 Cadillac DTS",
+        "2005\u20132010 Chevrolet Equinox",
+        "2008\u20132012 Chevrolet Malibu",
+        "2008\u20132010 Pontiac G6",
+        "2006\u20132009 Pontiac Torrent",
+        "2007\u20132009 Saturn Aura",
+        "2004\u20132007 Saturn Vue",
+        "2007\u20132009 Suzuki XL-7"
+      ],
+      "vehicle_count_raw": 210,
+      "ebay_item_id": "398408752911",
+      "ebay_type": "Air Filter",
+      "ebay_brand": "Parts Master",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Filters",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "66902"
+        ],
+        "interchange": [
+          "WIX 46902"
+        ],
+        "vehicles": [
+          {
+            "year_from": 2006,
+            "year_to": 2011,
+            "make": "Buick",
+            "model": "Lucerne",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2006,
+            "year_to": 2011,
+            "make": "Cadillac",
+            "model": "DTS",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2005,
+            "year_to": 2010,
+            "make": "Chevrolet",
+            "model": "Equinox",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2008,
+            "year_to": 2012,
+            "make": "Chevrolet",
+            "model": "Malibu",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2008,
+            "year_to": 2010,
+            "make": "Pontiac",
+            "model": "G6",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2006,
+            "year_to": 2009,
+            "make": "Pontiac",
+            "model": "Torrent",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2007,
+            "year_to": 2009,
+            "make": "Saturn",
+            "model": "Aura",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2004,
+            "year_to": 2007,
+            "make": "Saturn",
+            "model": "Vue",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2007,
+            "year_to": 2009,
+            "make": "Suzuki",
+            "model": "XL-7",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "2006\u20132011 Buick Lucerne",
+          "2006\u20132011 Cadillac DTS",
+          "2005\u20132010 Chevrolet Equinox",
+          "2008\u20132012 Chevrolet Malibu",
+          "2008\u20132010 Pontiac G6",
+          "2006\u20132009 Pontiac Torrent",
+          "2007\u20132009 Saturn Aura",
+          "2004\u20132007 Saturn Vue",
+          "2007\u20132009 Suzuki XL-7"
+        ],
+        "raw_compat_rows": 210,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398408752911",
+        "type": "Air Filter",
+        "brand": "Parts Master",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Filters"
+      },
+      "images": [
+        "../assets/pdp-gallery/HJTVGK2Y6XBIYC2KPK2HE2WK/02.webp",
+        "../assets/pdp-gallery/HJTVGK2Y6XBIYC2KPK2HE2WK/03.webp",
+        "../assets/pdp-gallery/HJTVGK2Y6XBIYC2KPK2HE2WK/04.webp"
+      ]
     },
     {
       "id": "HPS4YOS6LHY7CCNJ2FRJFWK2",
@@ -37369,6 +37589,256 @@
         "../assets/pdp-gallery/ZGHU3ZI64X2J6VXRXMIGVAMK/04.webp"
       ],
       "stock": 1
+    },
+    {
+      "id": "77M7ZVAJYNM6IIY2ZJ3IE7XS",
+      "name": "WIX 24822 Cabin Air Filter 1.8 VW Golf Jetta Passat Audi TT 94-11 NOS",
+      "price": 21.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/4b1206702e7485967333f63a608770a54c9916d8/original.jpeg",
+      "url": "https://square.link/u/IDNNYKLL",
+      "category": "filters",
+      "checkout": true,
+      "variation_id": "CCUPQ5Y5R37L7O632XHVNT4L",
+      "stock": 1,
+      "part_numbers": [
+        "24822",
+        "VW 1H0 819 644, 1J0 819 644"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "2000\u20132006 Audi TT",
+        "1994\u20131998 Volkswagen Golf",
+        "1994\u20131995 Volkswagen Jetta",
+        "1998\u20132005 Volkswagen Passat"
+      ],
+      "vehicle_count_raw": 61,
+      "ebay_item_id": "398408770026",
+      "ebay_type": "Cabin Air Filter",
+      "ebay_brand": "WIX",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Filters",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "24822",
+          "VW 1H0 819 644, 1J0 819 644"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 2000,
+            "year_to": 2006,
+            "make": "Audi",
+            "model": "TT",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1994,
+            "year_to": 1998,
+            "make": "Volkswagen",
+            "model": "Golf",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1994,
+            "year_to": 1995,
+            "make": "Volkswagen",
+            "model": "Jetta",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1998,
+            "year_to": 2005,
+            "make": "Volkswagen",
+            "model": "Passat",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "2000\u20132006 Audi TT",
+          "1994\u20131998 Volkswagen Golf",
+          "1994\u20131995 Volkswagen Jetta",
+          "1998\u20132005 Volkswagen Passat"
+        ],
+        "raw_compat_rows": 61,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398408770026",
+        "type": "Cabin Air Filter",
+        "brand": "WIX",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Filters"
+      },
+      "images": [
+        "../assets/pdp-gallery/77M7ZVAJYNM6IIY2ZJ3IE7XS/02.webp",
+        "../assets/pdp-gallery/77M7ZVAJYNM6IIY2ZJ3IE7XS/03.webp"
+      ]
+    },
+    {
+      "id": "HKBVFPNXGNT7JTSOIZGKUPN2",
+      "name": "WIX 24857 Cabin Air Filter 2.5 3.5 4.5 Infiniti FX35 Nissan Altima Maxima NOS",
+      "price": 21.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/9f0dac6ae7e38eae33a15dbe628ca9f66d93cb76/original.jpeg",
+      "url": "https://square.link/u/8BPdp3A1",
+      "category": "filters",
+      "checkout": true,
+      "variation_id": "KMVADAN3ZQNBUHFMZXMB2M2O",
+      "stock": 1,
+      "part_numbers": [
+        "24857",
+        "Nissan 999M1VP001"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "2004\u20132008 INFINITI FX35",
+        "2006\u20132008 INFINITI FX45",
+        "2004\u20132008 INFINITI G35",
+        "Infiniti FX35",
+        "2004\u20132006 Nissan Altima",
+        "2004\u20132007 Nissan Maxima",
+        "2004\u20132006 Nissan Murano",
+        "2004\u20132006 Nissan Sentra",
+        "2005\u20132006 Nissan X-Trail"
+      ],
+      "vehicle_count_raw": 81,
+      "ebay_item_id": "398408751613",
+      "ebay_type": "Cabin Air Filter",
+      "ebay_brand": "WIX",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Filters",
+      "fitment_source": "ebay_listing+title",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "24857",
+          "Nissan 999M1VP001"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 2004,
+            "year_to": 2008,
+            "make": "INFINITI",
+            "model": "FX35",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2006,
+            "year_to": 2008,
+            "make": "INFINITI",
+            "model": "FX45",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2004,
+            "year_to": 2008,
+            "make": "INFINITI",
+            "model": "G35",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": null,
+            "year_to": null,
+            "make": "Infiniti",
+            "model": "FX35",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2004,
+            "year_to": 2006,
+            "make": "Nissan",
+            "model": "Altima",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2004,
+            "year_to": 2007,
+            "make": "Nissan",
+            "model": "Maxima",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2004,
+            "year_to": 2006,
+            "make": "Nissan",
+            "model": "Murano",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2004,
+            "year_to": 2006,
+            "make": "Nissan",
+            "model": "Sentra",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2005,
+            "year_to": 2006,
+            "make": "Nissan",
+            "model": "X-Trail",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "2004\u20132008 INFINITI FX35",
+          "2006\u20132008 INFINITI FX45",
+          "2004\u20132008 INFINITI G35",
+          "Infiniti FX35",
+          "2004\u20132006 Nissan Altima",
+          "2004\u20132007 Nissan Maxima",
+          "2004\u20132006 Nissan Murano",
+          "2004\u20132006 Nissan Sentra",
+          "2005\u20132006 Nissan X-Trail"
+        ],
+        "raw_compat_rows": 81,
+        "source": "ebay_listing+title",
+        "confidence": "high",
+        "ebay_item_id": "398408751613",
+        "type": "Cabin Air Filter",
+        "brand": "WIX",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Filters"
+      },
+      "images": [
+        "../assets/pdp-gallery/HKBVFPNXGNT7JTSOIZGKUPN2/02.webp",
+        "../assets/pdp-gallery/HKBVFPNXGNT7JTSOIZGKUPN2/03.webp"
+      ]
     },
     {
       "id": "UC4GS6T43YBGNVCKFZN623MD",
@@ -121365,5 +121835,5 @@
       "ebay_brand": ""
     }
   ],
-  "fitment_built": "2026-09-18T20:02:28Z"
+  "fitment_built": "2026-09-18T23:02:38Z"
 }
