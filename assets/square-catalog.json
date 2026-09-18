@@ -1,7 +1,7 @@
 {
-  "updated": "2026-09-18T02:02:23Z",
+  "updated": "2026-09-18T03:02:31Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 862,
+  "count": 866,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -34850,6 +34850,96 @@
       "interchange": []
     },
     {
+      "id": "AHH4YEDHMZY35X5WHOJKMNUE",
+      "name": "Wagner F120536 Brake Hydraulic Hose Ford Bronco II Ranger 89-90 NOS",
+      "price": 21.52,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/ca2f87fea526fbf33080126c0aafa7dd3be39ba3/original.jpeg",
+      "url": "https://square.link/u/HwDKhDQC",
+      "category": "brake",
+      "checkout": true,
+      "variation_id": "VIUTDALLUYRTOR77K37UWNXS",
+      "stock": 1,
+      "part_numbers": [
+        "F120536"
+      ],
+      "interchange": [
+        "Raybestos BH38629",
+        "Dorman H38629",
+        "Centric 150.65063"
+      ],
+      "vehicles": [
+        "1989\u20131990 Ford Bronco",
+        "1989\u20131990 Ford Bronco II",
+        "1989\u20131990 Ford Ranger"
+      ],
+      "vehicle_count_raw": 53,
+      "ebay_item_id": "398405854612",
+      "ebay_type": "Brake Hydraulic Hose",
+      "ebay_brand": "Wagner",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Hoses, Lines & Fittings",
+      "fitment_source": "ebay_listing+title",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "F120536"
+        ],
+        "interchange": [
+          "Raybestos BH38629",
+          "Dorman H38629",
+          "Centric 150.65063"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1989,
+            "year_to": 1990,
+            "make": "Ford",
+            "model": "Bronco",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1989,
+            "year_to": 1990,
+            "make": "Ford",
+            "model": "Bronco II",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1989,
+            "year_to": 1990,
+            "make": "Ford",
+            "model": "Ranger",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1989\u20131990 Ford Bronco",
+          "1989\u20131990 Ford Bronco II",
+          "1989\u20131990 Ford Ranger"
+        ],
+        "raw_compat_rows": 53,
+        "source": "ebay_listing+title",
+        "confidence": "high",
+        "ebay_item_id": "398405854612",
+        "type": "Brake Hydraulic Hose",
+        "brand": "Wagner",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Hoses, Lines & Fittings"
+      },
+      "images": [
+        "../assets/pdp-gallery/AHH4YEDHMZY35X5WHOJKMNUE/02.webp",
+        "../assets/pdp-gallery/AHH4YEDHMZY35X5WHOJKMNUE/03.webp",
+        "../assets/pdp-gallery/AHH4YEDHMZY35X5WHOJKMNUE/04.webp"
+      ]
+    },
+    {
       "id": "IXLH2RTITNT3MLBIUKPCB7IK",
       "name": "Wagner F120545 Brake Hose LH 85-94 Subaru Loyale GL XT NOS",
       "price": 14.99,
@@ -36586,6 +36676,254 @@
       "images": []
     },
     {
+      "id": "ULHGGMBAQOSSAG6ZYKXVDLMD",
+      "name": "Parts Master 69012 Engine Air Filter Subaru Forester Impreza NOS",
+      "price": 19.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/32fa84a38639ffb982551df31bb89508ea25bac5/original.jpeg",
+      "url": "https://square.link/u/36JswV6W",
+      "category": "filters",
+      "checkout": true,
+      "variation_id": "ECZKZEP6TOXSH4YAY7UCYD32",
+      "stock": 1,
+      "part_numbers": [
+        "69012"
+      ],
+      "interchange": [
+        "Fram CA9997",
+        "WIX 49012"
+      ],
+      "vehicles": [
+        "2011\u20132018 Subaru Forester",
+        "2008\u20132011 Subaru Impreza",
+        "2008\u20132009 Subaru Legacy",
+        "2005\u20132011 Subaru Outback",
+        "2008\u20132011 Subaru Tribeca",
+        "2015\u20132016 Subaru WRX",
+        "2013\u20132015 Subaru XV Crosstrek"
+      ],
+      "vehicle_count_raw": 147,
+      "ebay_item_id": "398405745743",
+      "ebay_type": "Air Filter",
+      "ebay_brand": "Parts Master",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Filters",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "69012"
+        ],
+        "interchange": [
+          "Fram CA9997",
+          "WIX 49012"
+        ],
+        "vehicles": [
+          {
+            "year_from": 2011,
+            "year_to": 2018,
+            "make": "Subaru",
+            "model": "Forester",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2008,
+            "year_to": 2011,
+            "make": "Subaru",
+            "model": "Impreza",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2008,
+            "year_to": 2009,
+            "make": "Subaru",
+            "model": "Legacy",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2005,
+            "year_to": 2011,
+            "make": "Subaru",
+            "model": "Outback",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2008,
+            "year_to": 2011,
+            "make": "Subaru",
+            "model": "Tribeca",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2015,
+            "year_to": 2016,
+            "make": "Subaru",
+            "model": "WRX",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2013,
+            "year_to": 2015,
+            "make": "Subaru",
+            "model": "XV Crosstrek",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "2011\u20132018 Subaru Forester",
+          "2008\u20132011 Subaru Impreza",
+          "2008\u20132009 Subaru Legacy",
+          "2005\u20132011 Subaru Outback",
+          "2008\u20132011 Subaru Tribeca",
+          "2015\u20132016 Subaru WRX",
+          "2013\u20132015 Subaru XV Crosstrek"
+        ],
+        "raw_compat_rows": 147,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398405745743",
+        "type": "Air Filter",
+        "brand": "Parts Master",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Filters"
+      },
+      "images": [
+        "../assets/pdp-gallery/ULHGGMBAQOSSAG6ZYKXVDLMD/02.webp",
+        "../assets/pdp-gallery/ULHGGMBAQOSSAG6ZYKXVDLMD/03.webp",
+        "../assets/pdp-gallery/ULHGGMBAQOSSAG6ZYKXVDLMD/04.webp"
+      ]
+    },
+    {
+      "id": "5CDM7RAPWYTG7VFD2O7GXFWN",
+      "name": "Parts Master 69250 Engine Air Filter Hyundai Sonata Optima 10-16 NOS",
+      "price": 14.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/7c12384d16485cc5d52dcfbc747af0ac9ed226b7/original.jpeg",
+      "url": "https://square.link/u/aVpb3cYO",
+      "category": "filters",
+      "checkout": true,
+      "variation_id": "27PWV2AAZI5XFUPCDC3JIDLM",
+      "stock": 1,
+      "part_numbers": [
+        "69250"
+      ],
+      "interchange": [
+        "WIX 49250",
+        "Fram CA10881"
+      ],
+      "vehicles": [
+        "2013\u20132016 Hyundai Azera",
+        "2010\u20132012 Hyundai Santa Fe",
+        "2011\u20132014 Hyundai Sonata",
+        "2014\u20132015 Kia Optima",
+        "2014 Kia Sorento"
+      ],
+      "vehicle_count_raw": 40,
+      "ebay_item_id": "398405737831",
+      "ebay_type": "Air Filter",
+      "ebay_brand": "Parts Master",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Filters",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "69250"
+        ],
+        "interchange": [
+          "WIX 49250",
+          "Fram CA10881"
+        ],
+        "vehicles": [
+          {
+            "year_from": 2013,
+            "year_to": 2016,
+            "make": "Hyundai",
+            "model": "Azera",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2010,
+            "year_to": 2012,
+            "make": "Hyundai",
+            "model": "Santa Fe",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2011,
+            "year_to": 2014,
+            "make": "Hyundai",
+            "model": "Sonata",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2014,
+            "year_to": 2015,
+            "make": "Kia",
+            "model": "Optima",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2014,
+            "year_to": 2014,
+            "make": "Kia",
+            "model": "Sorento",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "2013\u20132016 Hyundai Azera",
+          "2010\u20132012 Hyundai Santa Fe",
+          "2011\u20132014 Hyundai Sonata",
+          "2014\u20132015 Kia Optima",
+          "2014 Kia Sorento"
+        ],
+        "raw_compat_rows": 40,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398405737831",
+        "type": "Air Filter",
+        "brand": "Parts Master",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Filters"
+      },
+      "images": [
+        "../assets/pdp-gallery/5CDM7RAPWYTG7VFD2O7GXFWN/02.webp",
+        "../assets/pdp-gallery/5CDM7RAPWYTG7VFD2O7GXFWN/03.webp",
+        "../assets/pdp-gallery/5CDM7RAPWYTG7VFD2O7GXFWN/04.webp"
+      ]
+    },
+    {
       "id": "ZUWWVWS63ETFQ5LNRV5MOCUJ",
       "name": "Purolator FCG-152 Fuel Filter 2.0 2.4 2.5 Diesel Volvo 240 740 NOS",
       "price": 24.99,
@@ -36732,6 +37070,192 @@
       "stock": 1,
       "interchange": [],
       "images": []
+    },
+    {
+      "id": "ZGHU3ZI64X2J6VXRXMIGVAMK",
+      "name": "WIX 24815 Cabin Air Filter Honda Accord Civic CR-V Acura MDX NOS",
+      "price": 21.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/614203bc1fa336d9e08ac77fc0ea0191b5bc683e/original.jpeg",
+      "url": "https://square.link/u/pirB3Qe0",
+      "category": "filters",
+      "checkout": true,
+      "variation_id": "BBJ6MW647M2NPR5VYWAUW46Z",
+      "stock": 1,
+      "part_numbers": [
+        "24815"
+      ],
+      "interchange": [
+        "Fram CF10134",
+        "Napa 4815",
+        "Honda 80292-SDA-A01"
+      ],
+      "vehicles": [
+        "2013\u20132022 Acura ILX",
+        "2014\u20132020 Acura MDX",
+        "2013\u20132018 Acura RDX",
+        "2007\u20132014 Acura TL",
+        "2004\u20132014 Acura TSX",
+        "2003\u20132017 Honda Accord",
+        "2007\u20132016 Honda CR-V",
+        "2006\u20132015 Honda Civic",
+        "2005\u20132017 Honda Odyssey",
+        "2009\u20132022 Honda Pilot",
+        "2006\u20132014 Honda Ridgeline"
+      ],
+      "vehicle_count_raw": 466,
+      "ebay_item_id": "398405844272",
+      "ebay_type": "Cabin Air Filter",
+      "ebay_brand": "WIX",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Filters",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "24815"
+        ],
+        "interchange": [
+          "Fram CF10134",
+          "Napa 4815",
+          "Honda 80292-SDA-A01"
+        ],
+        "vehicles": [
+          {
+            "year_from": 2013,
+            "year_to": 2022,
+            "make": "Acura",
+            "model": "ILX",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2014,
+            "year_to": 2020,
+            "make": "Acura",
+            "model": "MDX",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2013,
+            "year_to": 2018,
+            "make": "Acura",
+            "model": "RDX",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2007,
+            "year_to": 2014,
+            "make": "Acura",
+            "model": "TL",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2004,
+            "year_to": 2014,
+            "make": "Acura",
+            "model": "TSX",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2003,
+            "year_to": 2017,
+            "make": "Honda",
+            "model": "Accord",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2007,
+            "year_to": 2016,
+            "make": "Honda",
+            "model": "CR-V",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2006,
+            "year_to": 2015,
+            "make": "Honda",
+            "model": "Civic",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2005,
+            "year_to": 2017,
+            "make": "Honda",
+            "model": "Odyssey",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2009,
+            "year_to": 2022,
+            "make": "Honda",
+            "model": "Pilot",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2006,
+            "year_to": 2014,
+            "make": "Honda",
+            "model": "Ridgeline",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "2013\u20132022 Acura ILX",
+          "2014\u20132020 Acura MDX",
+          "2013\u20132018 Acura RDX",
+          "2007\u20132014 Acura TL",
+          "2004\u20132014 Acura TSX",
+          "2003\u20132017 Honda Accord",
+          "2007\u20132016 Honda CR-V",
+          "2006\u20132015 Honda Civic",
+          "2005\u20132017 Honda Odyssey",
+          "2009\u20132022 Honda Pilot",
+          "2006\u20132014 Honda Ridgeline"
+        ],
+        "raw_compat_rows": 466,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398405844272",
+        "type": "Cabin Air Filter",
+        "brand": "WIX",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Filters"
+      },
+      "images": [
+        "../assets/pdp-gallery/ZGHU3ZI64X2J6VXRXMIGVAMK/02.webp",
+        "../assets/pdp-gallery/ZGHU3ZI64X2J6VXRXMIGVAMK/03.webp",
+        "../assets/pdp-gallery/ZGHU3ZI64X2J6VXRXMIGVAMK/04.webp"
+      ]
     },
     {
       "id": "JIBSVW6R77QCOA5HFO3R5EHA",
@@ -120651,5 +121175,5 @@
       "ebay_brand": ""
     }
   ],
-  "fitment_built": "2026-09-18T02:02:23Z"
+  "fitment_built": "2026-09-18T03:02:31Z"
 }
