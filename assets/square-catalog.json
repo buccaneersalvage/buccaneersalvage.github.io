@@ -1,7 +1,7 @@
 {
-  "updated": "2026-09-18T03:02:31Z",
+  "updated": "2026-09-18T04:02:30Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 866,
+  "count": 869,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -34582,6 +34582,80 @@
       "interchange": []
     },
     {
+      "id": "TO7NXYEX7MJ4XBG6EAQB6AVR",
+      "name": "Wagner F109138 Brake Hose 83-84 Chevy C50 GMC C6000 Truck NOS USA",
+      "price": 16.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/f71732901f0f65a3fb0c540b1345604f686e7a1e/original.jpeg",
+      "url": "https://square.link/u/WMJjAput",
+      "category": "brake",
+      "checkout": true,
+      "variation_id": "QXCTLQ5FG3C6Z7RXAE2HK46A",
+      "stock": 1,
+      "part_numbers": [
+        "F109138"
+      ],
+      "interchange": [
+        "Wagner BH109138"
+      ],
+      "vehicles": [
+        "1983\u20131984 Chevrolet C50",
+        "1983\u20131984 GMC C6000"
+      ],
+      "vehicle_count_raw": 34,
+      "ebay_item_id": "398405952541",
+      "ebay_type": "Brake Hydraulic Hose",
+      "ebay_brand": "Wagner",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Hoses, Lines & Fittings",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "F109138"
+        ],
+        "interchange": [
+          "Wagner BH109138"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1983,
+            "year_to": 1984,
+            "make": "Chevrolet",
+            "model": "C50",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1983,
+            "year_to": 1984,
+            "make": "GMC",
+            "model": "C6000",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1983\u20131984 Chevrolet C50",
+          "1983\u20131984 GMC C6000"
+        ],
+        "raw_compat_rows": 34,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398405952541",
+        "type": "Brake Hydraulic Hose",
+        "brand": "Wagner",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Hoses, Lines & Fittings"
+      },
+      "images": [
+        "../assets/pdp-gallery/TO7NXYEX7MJ4XBG6EAQB6AVR/02.webp",
+        "../assets/pdp-gallery/TO7NXYEX7MJ4XBG6EAQB6AVR/03.webp",
+        "../assets/pdp-gallery/TO7NXYEX7MJ4XBG6EAQB6AVR/04.webp"
+      ]
+    },
+    {
       "id": "CKT2DZJWKF4SL4DK6AMUEPFQ",
       "name": "Wagner F110132 Brake Hose Front LH/RH 83-84 Ford Thunderbird NOS Mexico",
       "price": 10.99,
@@ -34858,7 +34932,6 @@
       "category": "brake",
       "checkout": true,
       "variation_id": "VIUTDALLUYRTOR77K37UWNXS",
-      "stock": 1,
       "part_numbers": [
         "F120536"
       ],
@@ -34872,12 +34945,7 @@
         "1989\u20131990 Ford Bronco II",
         "1989\u20131990 Ford Ranger"
       ],
-      "vehicle_count_raw": 53,
-      "ebay_item_id": "398405854612",
-      "ebay_type": "Brake Hydraulic Hose",
-      "ebay_brand": "Wagner",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Hoses, Lines & Fittings",
-      "fitment_source": "ebay_listing+title",
+      "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
@@ -34926,18 +34994,24 @@
           "1989\u20131990 Ford Ranger"
         ],
         "raw_compat_rows": 53,
-        "source": "ebay_listing+title",
+        "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398405854612",
         "type": "Brake Hydraulic Hose",
         "brand": "Wagner",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Hoses, Lines & Fittings"
       },
+      "vehicle_count_raw": 53,
+      "ebay_item_id": "398405854612",
+      "ebay_type": "Brake Hydraulic Hose",
+      "ebay_brand": "Wagner",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Hoses, Lines & Fittings",
       "images": [
         "../assets/pdp-gallery/AHH4YEDHMZY35X5WHOJKMNUE/02.webp",
         "../assets/pdp-gallery/AHH4YEDHMZY35X5WHOJKMNUE/03.webp",
         "../assets/pdp-gallery/AHH4YEDHMZY35X5WHOJKMNUE/04.webp"
-      ]
+      ],
+      "stock": 1
     },
     {
       "id": "IXLH2RTITNT3MLBIUKPCB7IK",
@@ -36684,7 +36758,6 @@
       "category": "filters",
       "checkout": true,
       "variation_id": "ECZKZEP6TOXSH4YAY7UCYD32",
-      "stock": 1,
       "part_numbers": [
         "69012"
       ],
@@ -36701,11 +36774,6 @@
         "2015\u20132016 Subaru WRX",
         "2013\u20132015 Subaru XV Crosstrek"
       ],
-      "vehicle_count_raw": 147,
-      "ebay_item_id": "398405745743",
-      "ebay_type": "Air Filter",
-      "ebay_brand": "Parts Master",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Filters",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -36805,11 +36873,17 @@
         "brand": "Parts Master",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Filters"
       },
+      "vehicle_count_raw": 147,
+      "ebay_item_id": "398405745743",
+      "ebay_type": "Air Filter",
+      "ebay_brand": "Parts Master",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Filters",
       "images": [
         "../assets/pdp-gallery/ULHGGMBAQOSSAG6ZYKXVDLMD/02.webp",
         "../assets/pdp-gallery/ULHGGMBAQOSSAG6ZYKXVDLMD/03.webp",
         "../assets/pdp-gallery/ULHGGMBAQOSSAG6ZYKXVDLMD/04.webp"
-      ]
+      ],
+      "stock": 1
     },
     {
       "id": "5CDM7RAPWYTG7VFD2O7GXFWN",
@@ -36820,7 +36894,6 @@
       "category": "filters",
       "checkout": true,
       "variation_id": "27PWV2AAZI5XFUPCDC3JIDLM",
-      "stock": 1,
       "part_numbers": [
         "69250"
       ],
@@ -36835,11 +36908,6 @@
         "2014\u20132015 Kia Optima",
         "2014 Kia Sorento"
       ],
-      "vehicle_count_raw": 40,
-      "ebay_item_id": "398405737831",
-      "ebay_type": "Air Filter",
-      "ebay_brand": "Parts Master",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Filters",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -36917,11 +36985,17 @@
         "brand": "Parts Master",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Filters"
       },
+      "vehicle_count_raw": 40,
+      "ebay_item_id": "398405737831",
+      "ebay_type": "Air Filter",
+      "ebay_brand": "Parts Master",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Filters",
       "images": [
         "../assets/pdp-gallery/5CDM7RAPWYTG7VFD2O7GXFWN/02.webp",
         "../assets/pdp-gallery/5CDM7RAPWYTG7VFD2O7GXFWN/03.webp",
         "../assets/pdp-gallery/5CDM7RAPWYTG7VFD2O7GXFWN/04.webp"
-      ]
+      ],
+      "stock": 1
     },
     {
       "id": "ZUWWVWS63ETFQ5LNRV5MOCUJ",
@@ -37080,7 +37154,6 @@
       "category": "filters",
       "checkout": true,
       "variation_id": "BBJ6MW647M2NPR5VYWAUW46Z",
-      "stock": 1,
       "part_numbers": [
         "24815"
       ],
@@ -37102,11 +37175,6 @@
         "2009\u20132022 Honda Pilot",
         "2006\u20132014 Honda Ridgeline"
       ],
-      "vehicle_count_raw": 466,
-      "ebay_item_id": "398405844272",
-      "ebay_type": "Cabin Air Filter",
-      "ebay_brand": "WIX",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Filters",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -37251,10 +37319,138 @@
         "brand": "WIX",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Filters"
       },
+      "vehicle_count_raw": 466,
+      "ebay_item_id": "398405844272",
+      "ebay_type": "Cabin Air Filter",
+      "ebay_brand": "WIX",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Filters",
       "images": [
         "../assets/pdp-gallery/ZGHU3ZI64X2J6VXRXMIGVAMK/02.webp",
         "../assets/pdp-gallery/ZGHU3ZI64X2J6VXRXMIGVAMK/03.webp",
         "../assets/pdp-gallery/ZGHU3ZI64X2J6VXRXMIGVAMK/04.webp"
+      ],
+      "stock": 1
+    },
+    {
+      "id": "UC4GS6T43YBGNVCKFZN623MD",
+      "name": "WIX 24876 Cabin Air Filter Ford F-150 Super Duty Expedition 97-04 NOS",
+      "price": 26.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/eb71477060aa2566036fd17fbff842b788ed10ea/original.jpeg",
+      "url": "https://square.link/u/s20vbioN",
+      "category": "filters",
+      "checkout": true,
+      "variation_id": "MC4H3V4UGNVQUGOZQRTFX2II",
+      "stock": 1,
+      "part_numbers": [
+        "24876"
+      ],
+      "interchange": [
+        "Fram CF8631"
+      ],
+      "vehicles": [
+        "1997\u20132004 Ford Expedition",
+        "1997\u20132004 Ford F-150",
+        "1999\u20132004 Ford F-250 Super Duty",
+        "1999\u20132004 Ford F-350 Super Duty",
+        "1999\u20132004 Ford F-450 Super Duty",
+        "1998\u20132004 Lincoln Navigator"
+      ],
+      "vehicle_count_raw": 717,
+      "ebay_item_id": "398405882216",
+      "ebay_type": "Cabin Air Filter",
+      "ebay_brand": "WIX",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Filters",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "24876"
+        ],
+        "interchange": [
+          "Fram CF8631"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1997,
+            "year_to": 2004,
+            "make": "Ford",
+            "model": "Expedition",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1997,
+            "year_to": 2004,
+            "make": "Ford",
+            "model": "F-150",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1999,
+            "year_to": 2004,
+            "make": "Ford",
+            "model": "F-250 Super Duty",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1999,
+            "year_to": 2004,
+            "make": "Ford",
+            "model": "F-350 Super Duty",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1999,
+            "year_to": 2004,
+            "make": "Ford",
+            "model": "F-450 Super Duty",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1998,
+            "year_to": 2004,
+            "make": "Lincoln",
+            "model": "Navigator",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1997\u20132004 Ford Expedition",
+          "1997\u20132004 Ford F-150",
+          "1999\u20132004 Ford F-250 Super Duty",
+          "1999\u20132004 Ford F-350 Super Duty",
+          "1999\u20132004 Ford F-450 Super Duty",
+          "1998\u20132004 Lincoln Navigator"
+        ],
+        "raw_compat_rows": 717,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398405882216",
+        "type": "Cabin Air Filter",
+        "brand": "WIX",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Filters"
+      },
+      "images": [
+        "../assets/pdp-gallery/UC4GS6T43YBGNVCKFZN623MD/02.webp",
+        "../assets/pdp-gallery/UC4GS6T43YBGNVCKFZN623MD/03.webp",
+        "../assets/pdp-gallery/UC4GS6T43YBGNVCKFZN623MD/04.webp"
       ]
     },
     {
@@ -98091,6 +98287,147 @@
       "vehicles": []
     },
     {
+      "id": "NRDBN3JUVZD6MI5P7CLGDVIL",
+      "name": "Mevotech GK5252 Front Sway Bar Link Kit Buick Skylark 75-98 NOS",
+      "price": 8.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/8511b7f3e9f8c1b95bcded3ceedb3b2e785c33a5/original.jpeg",
+      "url": "https://square.link/u/hONtVjzW",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "TKITZTTR4PRFQHGNO5EQEFVZ",
+      "stock": 1,
+      "part_numbers": [
+        "GK5252"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1973\u20131977 Buick Century",
+        "1971\u20131989 Buick Electra",
+        "1971\u20131990 Buick LeSabre",
+        "1971\u20131978 Buick Riviera",
+        "1975\u20131998 Buick Skylark",
+        "1987\u20131992 Cadillac Brougham",
+        "1991\u20131996 Cadillac Commercial Chassis",
+        "1977\u20131984 Cadillac DeVille"
+      ],
+      "vehicle_count_raw": 1054,
+      "ebay_item_id": "398405954423",
+      "ebay_type": "Sway Bar Link Kit",
+      "ebay_brand": "Mevotech",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Steering & Suspension:Sway Bars, Links & Bushings",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "GK5252"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1973,
+            "year_to": 1977,
+            "make": "Buick",
+            "model": "Century",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1971,
+            "year_to": 1989,
+            "make": "Buick",
+            "model": "Electra",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1971,
+            "year_to": 1990,
+            "make": "Buick",
+            "model": "LeSabre",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1971,
+            "year_to": 1978,
+            "make": "Buick",
+            "model": "Riviera",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1975,
+            "year_to": 1998,
+            "make": "Buick",
+            "model": "Skylark",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1992,
+            "make": "Cadillac",
+            "model": "Brougham",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1991,
+            "year_to": 1996,
+            "make": "Cadillac",
+            "model": "Commercial Chassis",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1977,
+            "year_to": 1984,
+            "make": "Cadillac",
+            "model": "DeVille",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1973\u20131977 Buick Century",
+          "1971\u20131989 Buick Electra",
+          "1971\u20131990 Buick LeSabre",
+          "1971\u20131978 Buick Riviera",
+          "1975\u20131998 Buick Skylark",
+          "1987\u20131992 Cadillac Brougham",
+          "1991\u20131996 Cadillac Commercial Chassis",
+          "1977\u20131984 Cadillac DeVille"
+        ],
+        "raw_compat_rows": 1054,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398405954423",
+        "type": "Sway Bar Link Kit",
+        "brand": "Mevotech",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Steering & Suspension:Sway Bars, Links & Bushings"
+      },
+      "images": [
+        "../assets/pdp-gallery/NRDBN3JUVZD6MI5P7CLGDVIL/02.webp",
+        "../assets/pdp-gallery/NRDBN3JUVZD6MI5P7CLGDVIL/03.webp"
+      ]
+    },
+    {
       "id": "AN7GJ7UMZMRWNOR2GWRAJSVE",
       "name": "Microwave Glass Plate + Roller Ring Set 9.5in OD Used Pull",
       "price": 14.99,
@@ -121175,5 +121512,5 @@
       "ebay_brand": ""
     }
   ],
-  "fitment_built": "2026-09-18T03:02:31Z"
+  "fitment_built": "2026-09-18T04:02:30Z"
 }
