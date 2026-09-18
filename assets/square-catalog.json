@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-18T16:02:45Z",
+  "updated": "2026-09-18T16:10:33Z",
   "store": "https://buccaneersalvage.square.site/",
   "count": 871,
   "items": [
@@ -75992,7 +75992,7 @@
       "ebay_type": "Transmission Pan Gasket",
       "ebay_brand": "Fel-Pro",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:Transmission Gaskets & Seals",
-      "fitment_source": "ebay_listing+title",
+      "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
@@ -76039,7 +76039,7 @@
           "1992\u20131994 GMC Yukon"
         ],
         "raw_compat_rows": 17,
-        "source": "ebay_listing+title",
+        "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398407722235",
         "type": "Transmission Pan Gasket",
@@ -93799,7 +93799,7 @@
       "ebay_type": "Cylinder Head Gasket",
       "ebay_brand": "GM Genuine Parts",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Gaskets, Seals & Hardware:Gaskets & Seals",
-      "fitment_source": "ebay_listing+title",
+      "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
@@ -93833,7 +93833,7 @@
           "1991\u20132000 GM Genuine"
         ],
         "raw_compat_rows": 36,
-        "source": "ebay_listing+title",
+        "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398407764589",
         "type": "Cylinder Head Gasket",
@@ -121475,5 +121475,5 @@
       "ebay_brand": ""
     }
   ],
-  "fitment_built": "2026-09-18T16:02:45Z"
+  "fitment_built": "2026-09-18T16:10:33Z"
 }
