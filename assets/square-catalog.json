@@ -1,7 +1,7 @@
 {
-  "updated": "2026-09-18T01:02:18Z",
+  "updated": "2026-09-18T02:02:23Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 863,
+  "count": 862,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -29331,151 +29331,6 @@
       "images": [
         "../assets/pdp-gallery/RHW3RWR3NFAYLDVA5DGGF3OY/02.webp",
         "../assets/pdp-gallery/RHW3RWR3NFAYLDVA5DGGF3OY/03.webp"
-      ],
-      "stock": 1
-    },
-    {
-      "id": "T7D2VHHUIRF3LHNO4MJ2CQKK",
-      "name": "Carlson H7282 Drum Brake Hardware Kit 91-02 Saturn SC SL SW Rear",
-      "price": 16.99,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/a7103f8d0265192c160dc6fb969de30fc4baaf2a/original.jpeg",
-      "url": "https://square.link/u/VXZehGbL",
-      "category": "brake",
-      "checkout": true,
-      "variation_id": "K4PKSK2VTJCOLIYIQ7SP43IW",
-      "part_numbers": [
-        "H7282"
-      ],
-      "interchange": [
-        "118.62028"
-      ],
-      "vehicles": [
-        "1991\u20131992 Saturn SC",
-        "1993\u20132002 Saturn SC1",
-        "1993\u20132002 Saturn SC2",
-        "1991\u20132002 Saturn SL",
-        "1991\u20132002 Saturn SL1",
-        "1991\u20132002 Saturn SL2",
-        "1993\u20131999 Saturn SW1",
-        "1993\u20132001 Saturn SW2"
-      ],
-      "fitment_source": "ebay_listing+carlson_specs",
-      "fitment_confidence": "high",
-      "fitment": {
-        "part_numbers": [
-          "H7282"
-        ],
-        "interchange": [
-          "118.62028"
-        ],
-        "vehicles": [
-          {
-            "year_from": 1991,
-            "year_to": 1992,
-            "make": "Saturn",
-            "model": "SC",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1993,
-            "year_to": 2002,
-            "make": "Saturn",
-            "model": "SC1",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1993,
-            "year_to": 2002,
-            "make": "Saturn",
-            "model": "SC2",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1991,
-            "year_to": 2002,
-            "make": "Saturn",
-            "model": "SL",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1991,
-            "year_to": 2002,
-            "make": "Saturn",
-            "model": "SL1",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1991,
-            "year_to": 2002,
-            "make": "Saturn",
-            "model": "SL2",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1993,
-            "year_to": 1999,
-            "make": "Saturn",
-            "model": "SW1",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1993,
-            "year_to": 2001,
-            "make": "Saturn",
-            "model": "SW2",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          }
-        ],
-        "vehicle_labels": [
-          "1991\u20131992 Saturn SC",
-          "1993\u20132002 Saturn SC1",
-          "1993\u20132002 Saturn SC2",
-          "1991\u20132002 Saturn SL",
-          "1991\u20132002 Saturn SL1",
-          "1991\u20132002 Saturn SL2",
-          "1993\u20131999 Saturn SW1",
-          "1993\u20132001 Saturn SW2"
-        ],
-        "raw_compat_rows": 74,
-        "source": "ebay_listing+carlson_specs",
-        "confidence": "high",
-        "ebay_item_id": "398085068284",
-        "type": "Drum Brake Hardware",
-        "brand": "Carlson",
-        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware"
-      },
-      "vehicle_count_raw": 74,
-      "ebay_item_id": "398085068284",
-      "ebay_type": "Drum Brake Hardware",
-      "ebay_brand": "Carlson",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware",
-      "images": [
-        "../assets/pdp-gallery/T7D2VHHUIRF3LHNO4MJ2CQKK/02.webp",
-        "../assets/pdp-gallery/T7D2VHHUIRF3LHNO4MJ2CQKK/03.webp"
       ],
       "stock": 1
     },
@@ -72556,19 +72411,12 @@
       "category": "other",
       "checkout": true,
       "variation_id": "I3AXXFFPIXSRJ3AQISNFWS3M",
-      "stock": 1,
       "part_numbers": [
         "08604"
       ],
-      "interchange": [],
       "vehicles": [
         "1965\u20131976 Ford Alternator"
       ],
-      "vehicle_count_raw": 2,
-      "ebay_item_id": "398405385363",
-      "ebay_type": "Alternator Wiring Harness",
-      "ebay_brand": "CalTerm",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Starters, Alternators, ECUs & Wiring:Wiring Harnesses, Cables & Connectors",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "medium",
       "fitment": {
@@ -72599,10 +72447,17 @@
         "brand": "CalTerm",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Starters, Alternators, ECUs & Wiring:Wiring Harnesses, Cables & Connectors"
       },
+      "vehicle_count_raw": 2,
+      "ebay_item_id": "398405385363",
+      "ebay_type": "Alternator Wiring Harness",
+      "ebay_brand": "CalTerm",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Starters, Alternators, ECUs & Wiring:Wiring Harnesses, Cables & Connectors",
       "images": [
         "../assets/pdp-gallery/5KMQFVPLDKRCFJPROI3ZMCYK/02.webp",
         "../assets/pdp-gallery/5KMQFVPLDKRCFJPROI3ZMCYK/03.webp"
-      ]
+      ],
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "TQ4URXG4LR4HKWROM6SAD2F3",
@@ -72727,19 +72582,12 @@
       "category": "other",
       "checkout": true,
       "variation_id": "KPETMCGZY2U3TNRHAMPOHHV2",
-      "stock": 1,
       "part_numbers": [
         "08630"
       ],
-      "interchange": [],
       "vehicles": [
         "1977\u20131984 Ford"
       ],
-      "vehicle_count_raw": 2,
-      "ebay_item_id": "398405386723",
-      "ebay_type": "Wiring Harness",
-      "ebay_brand": "CalTerm",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Other Ignition Systems & Components",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "medium",
       "fitment": {
@@ -72770,10 +72618,17 @@
         "brand": "CalTerm",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Other Ignition Systems & Components"
       },
+      "vehicle_count_raw": 2,
+      "ebay_item_id": "398405386723",
+      "ebay_type": "Wiring Harness",
+      "ebay_brand": "CalTerm",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Other Ignition Systems & Components",
       "images": [
         "../assets/pdp-gallery/2TPZAG2FRCEYPEQD6YGKBDIM/02.webp",
         "../assets/pdp-gallery/2TPZAG2FRCEYPEQD6YGKBDIM/03.webp"
-      ]
+      ],
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "S4K4K2ZJHL5Q45FGEUXIPLSV",
@@ -72926,17 +72781,9 @@
       "category": "other",
       "checkout": true,
       "variation_id": "2XSEY6VJKJRYVKAFTBC3BGBN",
-      "stock": 1,
       "part_numbers": [
         "40610"
       ],
-      "interchange": [],
-      "vehicles": [],
-      "vehicle_count_raw": 0,
-      "ebay_item_id": "398405387205",
-      "ebay_type": "Switch Panel",
-      "ebay_brand": "CalTerm",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Interior Parts & Accessories:Switches & Controls",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "medium",
       "fitment": {
@@ -72954,11 +72801,19 @@
         "brand": "CalTerm",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Interior Parts & Accessories:Switches & Controls"
       },
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398405387205",
+      "ebay_type": "Switch Panel",
+      "ebay_brand": "CalTerm",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Interior Parts & Accessories:Switches & Controls",
       "images": [
         "../assets/pdp-gallery/HLLNWIAZ7ZVGHGUGQHL4LA4P/02.webp",
         "../assets/pdp-gallery/HLLNWIAZ7ZVGHGUGQHL4LA4P/03.webp",
         "../assets/pdp-gallery/HLLNWIAZ7ZVGHGUGQHL4LA4P/04.webp"
-      ]
+      ],
+      "stock": 1,
+      "interchange": [],
+      "vehicles": []
     },
     {
       "id": "2LN22LKUSIWBSLJZ44RSVLNY",
@@ -98398,7 +98253,6 @@
       "category": "other",
       "checkout": true,
       "variation_id": "ZJWVLWOTAIDMQQ2TL4RQZSEV",
-      "stock": 1,
       "part_numbers": [
         "FW80PX9",
         "4615642, 4658567B, 1929267-4"
@@ -98413,11 +98267,6 @@
         "2011\u20132012 Ram 1500",
         "2011\u20132012 Ram 2500"
       ],
-      "vehicle_count_raw": 653,
-      "ebay_item_id": "398405381808",
-      "ebay_type": "Window Crank Handle",
-      "ebay_brand": "Mopar",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Interior Parts & Accessories:Window Cranks, Grab Handles & Door Pulls",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -98495,12 +98344,18 @@
         "brand": "Mopar",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Interior Parts & Accessories:Window Cranks, Grab Handles & Door Pulls"
       },
+      "vehicle_count_raw": 653,
+      "ebay_item_id": "398405381808",
+      "ebay_type": "Window Crank Handle",
+      "ebay_brand": "Mopar",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Interior Parts & Accessories:Window Cranks, Grab Handles & Door Pulls",
       "images": [
         "../assets/pdp-gallery/MFRS5ISFF3IXJAF2P7SVBQUF/02.webp",
         "../assets/pdp-gallery/MFRS5ISFF3IXJAF2P7SVBQUF/03.webp",
         "../assets/pdp-gallery/MFRS5ISFF3IXJAF2P7SVBQUF/04.webp",
         "../assets/pdp-gallery/MFRS5ISFF3IXJAF2P7SVBQUF/05.webp"
-      ]
+      ],
+      "stock": 1
     },
     {
       "id": "G5B6AXB5LJKYO2AI5AVQWT5W",
@@ -98511,19 +98366,12 @@
       "category": "other",
       "checkout": true,
       "variation_id": "XOVN4PED3O6AXIBWG47ZRNBZ",
-      "stock": 1,
       "part_numbers": [
         "85849"
       ],
-      "interchange": [],
       "vehicles": [
         "Ford Tail"
       ],
-      "vehicle_count_raw": 1,
-      "ebay_item_id": "398405391394",
-      "ebay_type": "Bulb Socket Assembly",
-      "ebay_brand": "Motormite",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Lighting & Lamps:Sockets, Connectors & Wiring",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "medium",
       "fitment": {
@@ -98554,11 +98402,18 @@
         "brand": "Motormite",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Lighting & Lamps:Sockets, Connectors & Wiring"
       },
+      "vehicle_count_raw": 1,
+      "ebay_item_id": "398405391394",
+      "ebay_type": "Bulb Socket Assembly",
+      "ebay_brand": "Motormite",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Lighting & Lamps:Sockets, Connectors & Wiring",
       "images": [
         "../assets/pdp-gallery/G5B6AXB5LJKYO2AI5AVQWT5W/02.webp",
         "../assets/pdp-gallery/G5B6AXB5LJKYO2AI5AVQWT5W/03.webp",
         "../assets/pdp-gallery/G5B6AXB5LJKYO2AI5AVQWT5W/04.webp"
-      ]
+      ],
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "L4OBF45GDR4EBOXGCHLWMDIG",
@@ -120796,5 +120651,5 @@
       "ebay_brand": ""
     }
   ],
-  "fitment_built": "2026-09-18T01:02:18Z"
+  "fitment_built": "2026-09-18T02:02:23Z"
 }
