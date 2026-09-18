@@ -1,7 +1,7 @@
 {
-  "updated": "2026-09-18T17:02:40Z",
+  "updated": "2026-09-18T17:52:07Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 872,
+  "count": 876,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -36600,7 +36600,6 @@
       "category": "filters",
       "checkout": true,
       "variation_id": "A7XBN4HYVN74NRRIQS3OLN4O",
-      "stock": 1,
       "part_numbers": [
         "62487"
       ],
@@ -36616,11 +36615,6 @@
         "2000\u20132019 Chevrolet Tahoe",
         "2000\u20132019 GMC Yukon"
       ],
-      "vehicle_count_raw": 467,
-      "ebay_item_id": "398407958553",
-      "ebay_type": "Air Filter",
-      "ebay_brand": "Parts Master",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Filters",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -36699,12 +36693,192 @@
         "brand": "Parts Master",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Filters"
       },
+      "vehicle_count_raw": 467,
+      "ebay_item_id": "398407958553",
+      "ebay_type": "Air Filter",
+      "ebay_brand": "Parts Master",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Filters",
       "images": [
         "../assets/pdp-gallery/TMVAM6WSQIMVZSAZLGAPPJSD/02.webp",
         "../assets/pdp-gallery/TMVAM6WSQIMVZSAZLGAPPJSD/03.webp",
         "../assets/pdp-gallery/TMVAM6WSQIMVZSAZLGAPPJSD/04.webp",
         "../assets/pdp-gallery/TMVAM6WSQIMVZSAZLGAPPJSD/05.webp"
-      ]
+      ],
+      "stock": 1
+    },
+    {
+      "id": "HANCRIJE6YYQHZNNYFABL5EM",
+      "name": "Parts Master 66213 Air Filter WIX 46213 Jeep Grand Cherokee Nissan Titan NOS",
+      "price": 13.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/b7a7c9f7fac8ee9910531d7f5271adeec8ecfabf/original.jpeg",
+      "url": "https://square.link/u/Vdn5KQu4",
+      "category": "filters",
+      "checkout": true,
+      "variation_id": "URKQCFTCSPQQBRQCEQHKASUZ",
+      "images": [
+        "../assets/pdp-gallery/HANCRIJE6YYQHZNNYFABL5EM/02.webp",
+        "../assets/pdp-gallery/HANCRIJE6YYQHZNNYFABL5EM/03.webp",
+        "../assets/pdp-gallery/HANCRIJE6YYQHZNNYFABL5EM/04.webp"
+      ],
+      "stock": 1,
+      "part_numbers": [
+        "66213"
+      ],
+      "interchange": [
+        "WIX 46213",
+        "AC A1267C",
+        "Fram CA7426"
+      ],
+      "vehicles": [
+        "2004\u20132010 INFINITI QX56",
+        "Jeep Grand",
+        "1993\u20132004 Jeep Grand Cherokee",
+        "1993 Jeep Grand Wagoneer",
+        "2005\u20132015 Nissan Armada",
+        "2005\u20132020 Nissan Frontier",
+        "2005\u20132012 Nissan Pathfinder",
+        "2004\u20132015 Nissan TITAN",
+        "2005\u20132015 Nissan Xterra",
+        "2009\u20132012 Suzuki Equator"
+      ],
+      "vehicle_count_raw": 416,
+      "ebay_item_id": "398408037088",
+      "ebay_type": "Air Filter",
+      "ebay_brand": "Parts Master",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Filters",
+      "fitment_source": "ebay_listing+title",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "66213"
+        ],
+        "interchange": [
+          "WIX 46213",
+          "AC A1267C",
+          "Fram CA7426"
+        ],
+        "vehicles": [
+          {
+            "year_from": 2004,
+            "year_to": 2010,
+            "make": "INFINITI",
+            "model": "QX56",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": null,
+            "year_to": null,
+            "make": "Jeep",
+            "model": "Grand",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1993,
+            "year_to": 2004,
+            "make": "Jeep",
+            "model": "Grand Cherokee",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1993,
+            "year_to": 1993,
+            "make": "Jeep",
+            "model": "Grand Wagoneer",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2005,
+            "year_to": 2015,
+            "make": "Nissan",
+            "model": "Armada",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2005,
+            "year_to": 2020,
+            "make": "Nissan",
+            "model": "Frontier",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2005,
+            "year_to": 2012,
+            "make": "Nissan",
+            "model": "Pathfinder",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2004,
+            "year_to": 2015,
+            "make": "Nissan",
+            "model": "TITAN",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2005,
+            "year_to": 2015,
+            "make": "Nissan",
+            "model": "Xterra",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2009,
+            "year_to": 2012,
+            "make": "Suzuki",
+            "model": "Equator",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "2004\u20132010 INFINITI QX56",
+          "Jeep Grand",
+          "1993\u20132004 Jeep Grand Cherokee",
+          "1993 Jeep Grand Wagoneer",
+          "2005\u20132015 Nissan Armada",
+          "2005\u20132020 Nissan Frontier",
+          "2005\u20132012 Nissan Pathfinder",
+          "2004\u20132015 Nissan TITAN",
+          "2005\u20132015 Nissan Xterra",
+          "2009\u20132012 Suzuki Equator"
+        ],
+        "raw_compat_rows": 416,
+        "source": "ebay_listing+title",
+        "confidence": "high",
+        "ebay_item_id": "398408037088",
+        "type": "Air Filter",
+        "brand": "Parts Master",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Filters"
+      }
     },
     {
       "id": "HPS4YOS6LHY7CCNJ2FRJFWK2",
@@ -36979,6 +37153,147 @@
       "stock": 1
     },
     {
+      "id": "Q2KCHKIPCZJC4RLSFZILZACW",
+      "name": "PARTS MASTER 69104 Air Filter 1.5L 1.8L Toyota Yaris Corolla xD Pontiac Vibe NOS",
+      "price": 21.08,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/3a146914bd1f383e2ed2180f406a53b78c224eae/original.jpeg",
+      "url": "https://square.link/u/kgLUiEgG",
+      "category": "filters",
+      "checkout": true,
+      "variation_id": "7QWCQWUAT5H6UEXOP3ZRRDR2",
+      "stock": 1,
+      "part_numbers": [
+        "69104"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "2009\u20132010 Pontiac Vibe",
+        "2016 Scion iM",
+        "2008\u20132014 Scion xD",
+        "2009\u20132019 Toyota Corolla",
+        "2017\u20132018 Toyota Corolla iM",
+        "2009\u20132014 Toyota Matrix",
+        "2006\u20132019 Toyota Yaris",
+        "2016\u20132018 Toyota Yaris R"
+      ],
+      "vehicle_count_raw": 251,
+      "ebay_item_id": "398408080309",
+      "ebay_type": "Air Filter",
+      "ebay_brand": "PARTS MASTER",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Filters",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "69104"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 2009,
+            "year_to": 2010,
+            "make": "Pontiac",
+            "model": "Vibe",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2016,
+            "year_to": 2016,
+            "make": "Scion",
+            "model": "iM",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2008,
+            "year_to": 2014,
+            "make": "Scion",
+            "model": "xD",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2009,
+            "year_to": 2019,
+            "make": "Toyota",
+            "model": "Corolla",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2017,
+            "year_to": 2018,
+            "make": "Toyota",
+            "model": "Corolla iM",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2009,
+            "year_to": 2014,
+            "make": "Toyota",
+            "model": "Matrix",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2006,
+            "year_to": 2019,
+            "make": "Toyota",
+            "model": "Yaris",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2016,
+            "year_to": 2018,
+            "make": "Toyota",
+            "model": "Yaris R",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "2009\u20132010 Pontiac Vibe",
+          "2016 Scion iM",
+          "2008\u20132014 Scion xD",
+          "2009\u20132019 Toyota Corolla",
+          "2017\u20132018 Toyota Corolla iM",
+          "2009\u20132014 Toyota Matrix",
+          "2006\u20132019 Toyota Yaris",
+          "2016\u20132018 Toyota Yaris R"
+        ],
+        "raw_compat_rows": 251,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398408080309",
+        "type": "Air Filter",
+        "brand": "PARTS MASTER",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Filters"
+      },
+      "images": [
+        "../assets/pdp-gallery/Q2KCHKIPCZJC4RLSFZILZACW/02.webp",
+        "../assets/pdp-gallery/Q2KCHKIPCZJC4RLSFZILZACW/03.webp"
+      ]
+    },
+    {
       "id": "5CDM7RAPWYTG7VFD2O7GXFWN",
       "name": "Parts Master 69250 Engine Air Filter Hyundai Sonata Optima 10-16 NOS",
       "price": 14.99,
@@ -37237,6 +37552,258 @@
       "stock": 1,
       "interchange": [],
       "images": []
+    },
+    {
+      "id": "ESTITK24EI7YKYV3IBRUE6E4",
+      "name": "WIX 24780 Cabin Air Filter Impala Monte Carlo Century Regal Grand Prix NOS",
+      "price": 16.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/d3e9df2bb60c615e13056a22f9dc50370c6de89a/original.jpeg",
+      "url": "https://square.link/u/C5HT1KKv",
+      "category": "filters",
+      "checkout": true,
+      "variation_id": "G36RRIMNSKDOYWKOMH7GV5KT",
+      "stock": 1,
+      "part_numbers": [
+        "24780"
+      ],
+      "interchange": [
+        "NAPA 4780",
+        "ACDelco CF1855"
+      ],
+      "vehicles": [
+        "2005\u20132009 Buick Allure",
+        "1997\u20132005 Buick Century",
+        "2005\u20132009 Buick LaCrosse",
+        "1997\u20132004 Buick Regal",
+        "2000\u20132011 Chevrolet Impala",
+        "2000\u20132007 Chevrolet Monte Carlo",
+        "1998\u20132002 Oldsmobile Intrigue",
+        "2004\u20132008 Pontiac Grand Prix"
+      ],
+      "vehicle_count_raw": 163,
+      "ebay_item_id": "398408064581",
+      "ebay_type": "Cabin Air Filter",
+      "ebay_brand": "WIX",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Filters",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "24780"
+        ],
+        "interchange": [
+          "NAPA 4780",
+          "ACDelco CF1855"
+        ],
+        "vehicles": [
+          {
+            "year_from": 2005,
+            "year_to": 2009,
+            "make": "Buick",
+            "model": "Allure",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1997,
+            "year_to": 2005,
+            "make": "Buick",
+            "model": "Century",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2005,
+            "year_to": 2009,
+            "make": "Buick",
+            "model": "LaCrosse",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1997,
+            "year_to": 2004,
+            "make": "Buick",
+            "model": "Regal",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2000,
+            "year_to": 2011,
+            "make": "Chevrolet",
+            "model": "Impala",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2000,
+            "year_to": 2007,
+            "make": "Chevrolet",
+            "model": "Monte Carlo",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1998,
+            "year_to": 2002,
+            "make": "Oldsmobile",
+            "model": "Intrigue",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2004,
+            "year_to": 2008,
+            "make": "Pontiac",
+            "model": "Grand Prix",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "2005\u20132009 Buick Allure",
+          "1997\u20132005 Buick Century",
+          "2005\u20132009 Buick LaCrosse",
+          "1997\u20132004 Buick Regal",
+          "2000\u20132011 Chevrolet Impala",
+          "2000\u20132007 Chevrolet Monte Carlo",
+          "1998\u20132002 Oldsmobile Intrigue",
+          "2004\u20132008 Pontiac Grand Prix"
+        ],
+        "raw_compat_rows": 163,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398408064581",
+        "type": "Cabin Air Filter",
+        "brand": "WIX",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Filters"
+      },
+      "images": [
+        "../assets/pdp-gallery/ESTITK24EI7YKYV3IBRUE6E4/02.webp",
+        "../assets/pdp-gallery/ESTITK24EI7YKYV3IBRUE6E4/03.webp"
+      ]
+    },
+    {
+      "id": "NRY6VVI3IV5S6IDQNFZFFXIZ",
+      "name": "WIX 24812 Cabin Air Filter Buick Lucerne Cadillac DTS LeSabre 00-11 NOS",
+      "price": 18.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/136bca94f14c43a3cf28dbc04fb036c4463df39b/original.jpeg",
+      "url": "https://square.link/u/LH1LZ8us",
+      "category": "filters",
+      "checkout": true,
+      "variation_id": "DGS4I5Y4GFZBRMGLNALJIXPO",
+      "stock": 1,
+      "part_numbers": [
+        "24812"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "2000\u20132005 Buick LeSabre",
+        "2006\u20132011 Buick Lucerne",
+        "2006\u20132011 Cadillac DTS",
+        "2001\u20132003 Oldsmobile Aurora",
+        "2000\u20132005 Pontiac Bonneville"
+      ],
+      "vehicle_count_raw": 96,
+      "ebay_item_id": "398408056474",
+      "ebay_type": "Cabin Air Filter",
+      "ebay_brand": "WIX",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Filters",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "24812"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 2000,
+            "year_to": 2005,
+            "make": "Buick",
+            "model": "LeSabre",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2006,
+            "year_to": 2011,
+            "make": "Buick",
+            "model": "Lucerne",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2006,
+            "year_to": 2011,
+            "make": "Cadillac",
+            "model": "DTS",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2001,
+            "year_to": 2003,
+            "make": "Oldsmobile",
+            "model": "Aurora",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2000,
+            "year_to": 2005,
+            "make": "Pontiac",
+            "model": "Bonneville",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "2000\u20132005 Buick LeSabre",
+          "2006\u20132011 Buick Lucerne",
+          "2006\u20132011 Cadillac DTS",
+          "2001\u20132003 Oldsmobile Aurora",
+          "2000\u20132005 Pontiac Bonneville"
+        ],
+        "raw_compat_rows": 96,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398408056474",
+        "type": "Cabin Air Filter",
+        "brand": "WIX",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Filters"
+      },
+      "images": [
+        "../assets/pdp-gallery/NRY6VVI3IV5S6IDQNFZFFXIZ/02.webp",
+        "../assets/pdp-gallery/NRY6VVI3IV5S6IDQNFZFFXIZ/03.webp"
+      ]
     },
     {
       "id": "ZGHU3ZI64X2J6VXRXMIGVAMK",
@@ -48327,6 +48894,83 @@
         "../assets/pdp-gallery/ELU4H27CU63ESZG72XG5V5EP/03.webp"
       ],
       "stock": 1
+    },
+    {
+      "id": "KBIIBWN6R3GSBS4KQ7IJD3PS",
+      "name": "WIX WA10127 Air Filter Hyundai Sonata Kia Optima 15-19 2.0 2.4 NOS",
+      "price": 16.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/028ce2d65bd138aa395c16e680a355d00d0fdf7a/original.jpeg",
+      "url": "https://square.link/u/Hkq2ZeHO",
+      "category": "filters",
+      "checkout": true,
+      "variation_id": "D2KDKDHYOQZMMPAVKIHHR7XN",
+      "stock": 1,
+      "part_numbers": [
+        "WA10127"
+      ],
+      "interchange": [
+        "25134",
+        "Fram CA11942",
+        "NAPA 200127"
+      ],
+      "vehicles": [
+        "2015\u20132019 Hyundai Sonata",
+        "2016\u20132019 Kia Optima"
+      ],
+      "vehicle_count_raw": 52,
+      "ebay_item_id": "398408053832",
+      "ebay_type": "Air Filter",
+      "ebay_brand": "WIX",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Filters",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "WA10127"
+        ],
+        "interchange": [
+          "25134",
+          "Fram CA11942",
+          "NAPA 200127"
+        ],
+        "vehicles": [
+          {
+            "year_from": 2015,
+            "year_to": 2019,
+            "make": "Hyundai",
+            "model": "Sonata",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2016,
+            "year_to": 2019,
+            "make": "Kia",
+            "model": "Optima",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "2015\u20132019 Hyundai Sonata",
+          "2016\u20132019 Kia Optima"
+        ],
+        "raw_compat_rows": 52,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398408053832",
+        "type": "Air Filter",
+        "brand": "WIX",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Filters"
+      },
+      "images": [
+        "../assets/pdp-gallery/KBIIBWN6R3GSBS4KQ7IJD3PS/02.webp",
+        "../assets/pdp-gallery/KBIIBWN6R3GSBS4KQ7IJD3PS/03.webp"
+      ]
     },
     {
       "id": "TDECSPKM5Q5LG4MNACR445CN",
@@ -61807,254 +62451,6 @@
       ],
       "stock": 1,
       "interchange": []
-    },
-    {
-      "id": "YRGHDXE7QGWQGUSPJJHPAHZ6",
-      "name": "Standard Motor Products UC-12 Ignition Coil 65-67 Impala NOS",
-      "price": 29.99,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/be3eae4007f33d979fea7dfe82932bcb23fe06f0/original.jpeg",
-      "url": "https://square.link/u/CnYToYjL",
-      "category": "ignition",
-      "checkout": true,
-      "variation_id": "OYGKOYMNHK7IUWJIXYJAXAPU",
-      "part_numbers": [
-        "UC-12",
-        "221-9139"
-      ],
-      "interchange": [
-        "UC12",
-        "C819",
-        "IC12SB"
-      ],
-      "vehicles": [
-        "1964\u20131967 AC 427",
-        "1967\u20131973 AC 428",
-        "1962\u20131973 AC Shelby Cobra",
-        "1969\u20131972 Avanti II",
-        "1965\u20131967 Chevrolet Impala",
-        "1968\u20131970 Chevrolet K10 Suburban",
-        "1956\u20131959 Dodge Coronet",
-        "1957\u20131958 Dodge Custom",
-        "1957 Dodge D100 Pickup",
-        "1955 GMC 100-22",
-        "1966 GMC 1000",
-        "1965\u20131967 International Harvester M1400",
-        "1980\u20131982 International Harvester S1624",
-        "1980\u20131984 International Harvester S1723",
-        "1963\u20131965 Jeep Truck",
-        "1966\u20131967 Jeep Wagoneer"
-      ],
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "high",
-      "fitment": {
-        "part_numbers": [
-          "UC-12",
-          "221-9139"
-        ],
-        "interchange": [
-          "UC12",
-          "C819",
-          "IC12SB"
-        ],
-        "vehicles": [
-          {
-            "year_from": 1964,
-            "year_to": 1967,
-            "make": "AC",
-            "model": "427",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1967,
-            "year_to": 1973,
-            "make": "AC",
-            "model": "428",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1962,
-            "year_to": 1973,
-            "make": "AC",
-            "model": "Shelby Cobra",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1969,
-            "year_to": 1972,
-            "make": "Avanti",
-            "model": "II",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1965,
-            "year_to": 1967,
-            "make": "Chevrolet",
-            "model": "Impala",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1968,
-            "year_to": 1970,
-            "make": "Chevrolet",
-            "model": "K10 Suburban",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1956,
-            "year_to": 1959,
-            "make": "Dodge",
-            "model": "Coronet",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1957,
-            "year_to": 1958,
-            "make": "Dodge",
-            "model": "Custom",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1957,
-            "year_to": 1957,
-            "make": "Dodge",
-            "model": "D100 Pickup",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1955,
-            "year_to": 1955,
-            "make": "GMC",
-            "model": "100-22",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1966,
-            "year_to": 1966,
-            "make": "GMC",
-            "model": "1000",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1965,
-            "year_to": 1967,
-            "make": "International Harvester",
-            "model": "M1400",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1980,
-            "year_to": 1982,
-            "make": "International Harvester",
-            "model": "S1624",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1980,
-            "year_to": 1984,
-            "make": "International Harvester",
-            "model": "S1723",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1963,
-            "year_to": 1965,
-            "make": "Jeep",
-            "model": "Truck",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1966,
-            "year_to": 1967,
-            "make": "Jeep",
-            "model": "Wagoneer",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          }
-        ],
-        "vehicle_labels": [
-          "1964\u20131967 AC 427",
-          "1967\u20131973 AC 428",
-          "1962\u20131973 AC Shelby Cobra",
-          "1969\u20131972 Avanti II",
-          "1965\u20131967 Chevrolet Impala",
-          "1968\u20131970 Chevrolet K10 Suburban",
-          "1956\u20131959 Dodge Coronet",
-          "1957\u20131958 Dodge Custom",
-          "1957 Dodge D100 Pickup",
-          "1955 GMC 100-22",
-          "1966 GMC 1000",
-          "1965\u20131967 International Harvester M1400",
-          "1980\u20131982 International Harvester S1624",
-          "1980\u20131984 International Harvester S1723",
-          "1963\u20131965 Jeep Truck",
-          "1966\u20131967 Jeep Wagoneer"
-        ],
-        "raw_compat_rows": 131,
-        "source": "ebay_listing",
-        "confidence": "high",
-        "ebay_item_id": "398346517577",
-        "type": "Ignition Coil",
-        "brand": "Standard Motor Products",
-        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Coils"
-      },
-      "vehicle_count_raw": 131,
-      "ebay_item_id": "398346517577",
-      "ebay_type": "Ignition Coil",
-      "ebay_brand": "Standard Motor Products",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Coils",
-      "images": [
-        "../assets/pdp-gallery/YRGHDXE7QGWQGUSPJJHPAHZ6/02.webp",
-        "../assets/pdp-gallery/YRGHDXE7QGWQGUSPJJHPAHZ6/03.webp",
-        "../assets/pdp-gallery/YRGHDXE7QGWQGUSPJJHPAHZ6/04.webp"
-      ],
-      "stock": 1
     },
     {
       "id": "ACG7ZXMDW3S7EUERPKAYAPMY",
@@ -121590,5 +121986,5 @@
       "ebay_brand": ""
     }
   ],
-  "fitment_built": "2026-09-18T17:02:40Z"
+  "fitment_built": "2026-09-18T17:52:07Z"
 }
