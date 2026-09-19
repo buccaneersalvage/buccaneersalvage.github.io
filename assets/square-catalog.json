@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-19T00:02:30Z",
+  "updated": "2026-09-19T01:02:31Z",
   "store": "https://buccaneersalvage.square.site/",
   "count": 879,
   "items": [
@@ -35371,7 +35371,6 @@
       "category": "filters",
       "checkout": true,
       "variation_id": "FQ5B5G5EATEY4SFOZXUKVOSM",
-      "stock": 1,
       "part_numbers": [
         "17220-RBJ-000"
       ],
@@ -35381,11 +35380,6 @@
       "vehicles": [
         "2010\u20132014 Honda Insight"
       ],
-      "vehicle_count_raw": 14,
-      "ebay_item_id": "398408758253",
-      "ebay_type": "Air Filter",
-      "ebay_brand": "FULL",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Filters",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -35418,11 +35412,17 @@
         "brand": "FULL",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Filters"
       },
+      "vehicle_count_raw": 14,
+      "ebay_item_id": "398408758253",
+      "ebay_type": "Air Filter",
+      "ebay_brand": "FULL",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Filters",
       "images": [
         "../assets/pdp-gallery/NRMGBEVR2TP5XEM4VDG5BGZD/02.webp",
         "../assets/pdp-gallery/NRMGBEVR2TP5XEM4VDG5BGZD/03.webp",
         "../assets/pdp-gallery/NRMGBEVR2TP5XEM4VDG5BGZD/04.webp"
-      ]
+      ],
+      "stock": 1
     },
     {
       "id": "LI27QWM3ZP4GE6HYAQ5REDRG",
@@ -36330,7 +36330,6 @@
       "category": "filters",
       "checkout": true,
       "variation_id": "WDPMCM754ZW4SXXDW5UADBX7",
-      "stock": 1,
       "part_numbers": [
         "66902"
       ],
@@ -36348,11 +36347,6 @@
         "2004\u20132007 Saturn Vue",
         "2007\u20132009 Suzuki XL-7"
       ],
-      "vehicle_count_raw": 210,
-      "ebay_item_id": "398408752911",
-      "ebay_type": "Air Filter",
-      "ebay_brand": "Parts Master",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Filters",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -36473,11 +36467,17 @@
         "brand": "Parts Master",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Filters"
       },
+      "vehicle_count_raw": 210,
+      "ebay_item_id": "398408752911",
+      "ebay_type": "Air Filter",
+      "ebay_brand": "Parts Master",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Filters",
       "images": [
         "../assets/pdp-gallery/HJTVGK2Y6XBIYC2KPK2HE2WK/02.webp",
         "../assets/pdp-gallery/HJTVGK2Y6XBIYC2KPK2HE2WK/03.webp",
         "../assets/pdp-gallery/HJTVGK2Y6XBIYC2KPK2HE2WK/04.webp"
-      ]
+      ],
+      "stock": 1
     },
     {
       "id": "HPS4YOS6LHY7CCNJ2FRJFWK2",
@@ -37599,23 +37599,16 @@
       "category": "filters",
       "checkout": true,
       "variation_id": "CCUPQ5Y5R37L7O632XHVNT4L",
-      "stock": 1,
       "part_numbers": [
         "24822",
         "VW 1H0 819 644, 1J0 819 644"
       ],
-      "interchange": [],
       "vehicles": [
         "2000\u20132006 Audi TT",
         "1994\u20131998 Volkswagen Golf",
         "1994\u20131995 Volkswagen Jetta",
         "1998\u20132005 Volkswagen Passat"
       ],
-      "vehicle_count_raw": 61,
-      "ebay_item_id": "398408770026",
-      "ebay_type": "Cabin Air Filter",
-      "ebay_brand": "WIX",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Filters",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -37680,10 +37673,17 @@
         "brand": "WIX",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Filters"
       },
+      "vehicle_count_raw": 61,
+      "ebay_item_id": "398408770026",
+      "ebay_type": "Cabin Air Filter",
+      "ebay_brand": "WIX",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Filters",
       "images": [
         "../assets/pdp-gallery/77M7ZVAJYNM6IIY2ZJ3IE7XS/02.webp",
         "../assets/pdp-gallery/77M7ZVAJYNM6IIY2ZJ3IE7XS/03.webp"
-      ]
+      ],
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "HKBVFPNXGNT7JTSOIZGKUPN2",
@@ -37694,12 +37694,10 @@
       "category": "filters",
       "checkout": true,
       "variation_id": "KMVADAN3ZQNBUHFMZXMB2M2O",
-      "stock": 1,
       "part_numbers": [
         "24857",
         "Nissan 999M1VP001"
       ],
-      "interchange": [],
       "vehicles": [
         "2004\u20132008 INFINITI FX35",
         "2006\u20132008 INFINITI FX45",
@@ -37711,11 +37709,6 @@
         "2004\u20132006 Nissan Sentra",
         "2005\u20132006 Nissan X-Trail"
       ],
-      "vehicle_count_raw": 81,
-      "ebay_item_id": "398408751613",
-      "ebay_type": "Cabin Air Filter",
-      "ebay_brand": "WIX",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Filters",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -37835,10 +37828,17 @@
         "brand": "WIX",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Filters"
       },
+      "vehicle_count_raw": 81,
+      "ebay_item_id": "398408751613",
+      "ebay_type": "Cabin Air Filter",
+      "ebay_brand": "WIX",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Filters",
       "images": [
         "../assets/pdp-gallery/HKBVFPNXGNT7JTSOIZGKUPN2/02.webp",
         "../assets/pdp-gallery/HKBVFPNXGNT7JTSOIZGKUPN2/03.webp"
-      ]
+      ],
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "UC4GS6T43YBGNVCKFZN623MD",
@@ -75876,6 +75876,62 @@
       "vehicles": []
     },
     {
+      "id": "ATENLAHEUECPW7NSJL2L7ZVM",
+      "name": "DIRECTV RC65 RC66 Remote Control Lot of 6 \u2014 2 With REC DVR Used",
+      "price": 24.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/20f59e853f79bf771db3c1d0ed1ec78a74ae6b0d/original.jpeg",
+      "url": "https://square.link/u/YoyvnyBh",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "4R2ADO3OFCCXSAO6QRYX6RKL",
+      "vehicles": [
+        "1979\u20132004 Ford Mustang"
+      ],
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "medium",
+      "fitment": {
+        "part_numbers": [],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1979,
+            "year_to": 2004,
+            "make": "Ford",
+            "model": "Mustang",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1979\u20132004 Ford Mustang"
+        ],
+        "raw_compat_rows": 2,
+        "source": "ebay_listing",
+        "confidence": "medium",
+        "ebay_item_id": "398408878310",
+        "type": "Boat Speedometer",
+        "brand": "Unbranded",
+        "ebay_category": "eBay Motors:Parts & Accessories:Boat Parts:Electrical & Lighting"
+      },
+      "vehicle_count_raw": 2,
+      "ebay_item_id": "398408878310",
+      "ebay_type": "Boat Speedometer",
+      "ebay_brand": "Unbranded",
+      "ebay_category": "eBay Motors:Parts & Accessories:Boat Parts:Electrical & Lighting",
+      "images": [
+        "../assets/pdp-gallery/ATENLAHEUECPW7NSJL2L7ZVM/02.webp",
+        "../assets/pdp-gallery/ATENLAHEUECPW7NSJL2L7ZVM/03.webp",
+        "../assets/pdp-gallery/ATENLAHEUECPW7NSJL2L7ZVM/04.webp",
+        "../assets/pdp-gallery/ATENLAHEUECPW7NSJL2L7ZVM/05.webp",
+        "../assets/pdp-gallery/ATENLAHEUECPW7NSJL2L7ZVM/06.webp"
+      ],
+      "stock": 1,
+      "part_numbers": [],
+      "interchange": []
+    },
+    {
       "id": "H27EINAOTVEZ6QDGQL3J4HPD",
       "name": "Dixie Stillson 24\" Steel Pipe Wrench Vintage Extra Large Heavy Duty USA Plumbing",
       "price": 32.99,
@@ -94256,58 +94312,6 @@
         "../assets/pdp-gallery/YWCEP45MXI6F3WOTFZT3AX26/04.webp",
         "../assets/pdp-gallery/YWCEP45MXI6F3WOTFZT3AX26/05.webp",
         "../assets/pdp-gallery/YWCEP45MXI6F3WOTFZT3AX26/06.webp"
-      ],
-      "stock": 1,
-      "part_numbers": [],
-      "interchange": []
-    },
-    {
-      "id": "ATENLAHEUECPW7NSJL2L7ZVM",
-      "name": "H&R Pinion Snubber Ford Mustang 79-04 NOS w/ Hardware",
-      "price": 99.99,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/20f59e853f79bf771db3c1d0ed1ec78a74ae6b0d/original.jpeg",
-      "url": "https://square.link/u/YoyvnyBh",
-      "category": "other",
-      "checkout": true,
-      "variation_id": "4R2ADO3OFCCXSAO6QRYX6RKL",
-      "vehicles": [
-        "1979\u20132004 Ford Mustang"
-      ],
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "medium",
-      "fitment": {
-        "part_numbers": [],
-        "interchange": [],
-        "vehicles": [
-          {
-            "year_from": 1979,
-            "year_to": 2004,
-            "make": "Ford",
-            "model": "Mustang",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          }
-        ],
-        "vehicle_labels": [
-          "1979\u20132004 Ford Mustang"
-        ],
-        "raw_compat_rows": 2,
-        "source": "ebay_listing",
-        "confidence": "medium",
-        "ebay_item_id": "398405152975",
-        "type": "Boat Speedometer",
-        "brand": "Unbranded",
-        "ebay_category": "eBay Motors:Parts & Accessories:Boat Parts:Electrical & Lighting"
-      },
-      "vehicle_count_raw": 2,
-      "ebay_item_id": "398405152975",
-      "ebay_type": "Boat Speedometer",
-      "ebay_brand": "Unbranded",
-      "ebay_category": "eBay Motors:Parts & Accessories:Boat Parts:Electrical & Lighting",
-      "images": [
-        "../assets/pdp-gallery/ATENLAHEUECPW7NSJL2L7ZVM/02.webp"
       ],
       "stock": 1,
       "part_numbers": [],
@@ -121835,5 +121839,5 @@
       "ebay_brand": ""
     }
   ],
-  "fitment_built": "2026-09-19T00:02:30Z"
+  "fitment_built": "2026-09-19T01:02:31Z"
 }
