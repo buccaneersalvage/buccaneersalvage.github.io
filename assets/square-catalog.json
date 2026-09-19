@@ -1,7 +1,7 @@
 {
-  "updated": "2026-09-19T16:02:50Z",
+  "updated": "2026-09-19T17:02:38Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 888,
+  "count": 890,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -32818,105 +32818,6 @@
       "interchange": []
     },
     {
-      "id": "YWQ6NVV3MVYEI2VJAP63AQEP",
-      "name": "Lee 7200 Drum Brake Hardware Kit NOS 92-01 Taurus Sable",
-      "price": 12.99,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/d0b34bebb6d9bc18793641482c37fe90b802952a/original.jpeg",
-      "url": "https://square.link/u/0SGNzhIe",
-      "category": "brake",
-      "checkout": true,
-      "variation_id": "YSHVPOJHQHNMAVEKA5GQ2MTC",
-      "part_numbers": [
-        "7200",
-        "Dorman HW7280, Wagner H7200, Bendix H7342"
-      ],
-      "interchange": [
-        "H7280"
-      ],
-      "vehicles": [
-        "1992\u20132001 Ford Taurus",
-        "1989\u20131997 Ford Thunderbird",
-        "1989\u20131996 Mercury Cougar",
-        "1992\u20132001 Mercury Sable"
-      ],
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "high",
-      "fitment": {
-        "part_numbers": [
-          "7200",
-          "Dorman HW7280, Wagner H7200, Bendix H7342"
-        ],
-        "interchange": [
-          "H7280"
-        ],
-        "vehicles": [
-          {
-            "year_from": 1992,
-            "year_to": 2001,
-            "make": "Ford",
-            "model": "Taurus",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1989,
-            "year_to": 1997,
-            "make": "Ford",
-            "model": "Thunderbird",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1989,
-            "year_to": 1996,
-            "make": "Mercury",
-            "model": "Cougar",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1992,
-            "year_to": 2001,
-            "make": "Mercury",
-            "model": "Sable",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          }
-        ],
-        "vehicle_labels": [
-          "1992\u20132001 Ford Taurus",
-          "1989\u20131997 Ford Thunderbird",
-          "1989\u20131996 Mercury Cougar",
-          "1992\u20132001 Mercury Sable"
-        ],
-        "raw_compat_rows": 268,
-        "source": "ebay_listing",
-        "confidence": "high",
-        "ebay_item_id": "398314612630",
-        "type": "Drum Brake Hardware Kit",
-        "brand": "Lee",
-        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware"
-      },
-      "vehicle_count_raw": 268,
-      "ebay_item_id": "398314612630",
-      "ebay_type": "Drum Brake Hardware Kit",
-      "ebay_brand": "Lee",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware",
-      "images": [
-        "../assets/pdp-gallery/YWQ6NVV3MVYEI2VJAP63AQEP/02.webp",
-        "../assets/pdp-gallery/YWQ6NVV3MVYEI2VJAP63AQEP/03.webp"
-      ],
-      "stock": 1
-    },
-    {
       "id": "XG2R5XT27N2LRQK74SBM2ROL",
       "name": "NJA D130 1977-1981 Honda Accord Civic Wagon Brake Pads NOS",
       "price": 19.99,
@@ -36298,6 +36199,214 @@
       "stock": 1
     },
     {
+      "id": "BQW4IT5KU32GP2KVR5TZERRV",
+      "name": "Parts Master 66116 WIX 46116 Air Filter Altima Infiniti G35 93-18 NOS",
+      "price": 18.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/b52efd581e2ef7060277158c7f1c9fd123c7b812/original.jpeg",
+      "url": "https://square.link/u/bYSyOhKF",
+      "category": "filters",
+      "checkout": true,
+      "variation_id": "POPXDZ4QDVYHGF6PUXIM32AE",
+      "stock": 1,
+      "part_numbers": [
+        "66116"
+      ],
+      "interchange": [
+        "WIX 46116",
+        "FRAM CA8221"
+      ],
+      "vehicles": [
+        "2003\u20132008 INFINITI FX35",
+        "1991\u20131996 INFINITI G20",
+        "2003\u20132007 INFINITI G35",
+        "1996\u20132001 INFINITI I30",
+        "2002\u20132004 INFINITI I35",
+        "1993\u20131997 INFINITI J30",
+        "1990\u20131992 INFINITI M30",
+        "2001\u20132003 INFINITI QX4",
+        "2014\u20132020 INFINITI QX60",
+        "1993\u20132018 Infiniti G35",
+        "2002\u20132018 Nissan Altima",
+        "1990\u20131994 Nissan D21",
+        "2001\u20132004 Nissan Frontier"
+      ],
+      "vehicle_count_raw": 187,
+      "ebay_item_id": "398411187050",
+      "ebay_type": "Air Filter",
+      "ebay_brand": "Parts Master",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Filters",
+      "fitment_source": "ebay_listing+title",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "66116"
+        ],
+        "interchange": [
+          "WIX 46116",
+          "FRAM CA8221"
+        ],
+        "vehicles": [
+          {
+            "year_from": 2003,
+            "year_to": 2008,
+            "make": "INFINITI",
+            "model": "FX35",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1991,
+            "year_to": 1996,
+            "make": "INFINITI",
+            "model": "G20",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2003,
+            "year_to": 2007,
+            "make": "INFINITI",
+            "model": "G35",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1996,
+            "year_to": 2001,
+            "make": "INFINITI",
+            "model": "I30",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2002,
+            "year_to": 2004,
+            "make": "INFINITI",
+            "model": "I35",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1993,
+            "year_to": 1997,
+            "make": "INFINITI",
+            "model": "J30",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1990,
+            "year_to": 1992,
+            "make": "INFINITI",
+            "model": "M30",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2001,
+            "year_to": 2003,
+            "make": "INFINITI",
+            "model": "QX4",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2014,
+            "year_to": 2020,
+            "make": "INFINITI",
+            "model": "QX60",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1993,
+            "year_to": 2018,
+            "make": "Infiniti",
+            "model": "G35",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2002,
+            "year_to": 2018,
+            "make": "Nissan",
+            "model": "Altima",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1990,
+            "year_to": 1994,
+            "make": "Nissan",
+            "model": "D21",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2001,
+            "year_to": 2004,
+            "make": "Nissan",
+            "model": "Frontier",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "2003\u20132008 INFINITI FX35",
+          "1991\u20131996 INFINITI G20",
+          "2003\u20132007 INFINITI G35",
+          "1996\u20132001 INFINITI I30",
+          "2002\u20132004 INFINITI I35",
+          "1993\u20131997 INFINITI J30",
+          "1990\u20131992 INFINITI M30",
+          "2001\u20132003 INFINITI QX4",
+          "2014\u20132020 INFINITI QX60",
+          "1993\u20132018 Infiniti G35",
+          "2002\u20132018 Nissan Altima",
+          "1990\u20131994 Nissan D21",
+          "2001\u20132004 Nissan Frontier"
+        ],
+        "raw_compat_rows": 187,
+        "source": "ebay_listing+title",
+        "confidence": "high",
+        "ebay_item_id": "398411187050",
+        "type": "Air Filter",
+        "brand": "Parts Master",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Filters"
+      },
+      "images": [
+        "../assets/pdp-gallery/BQW4IT5KU32GP2KVR5TZERRV/02.webp",
+        "../assets/pdp-gallery/BQW4IT5KU32GP2KVR5TZERRV/03.webp",
+        "../assets/pdp-gallery/BQW4IT5KU32GP2KVR5TZERRV/04.webp"
+      ]
+    },
+    {
       "id": "ZIPVKRGUTQZKZSJGM7QFT7TT",
       "name": "Parts Master 66153 Air Filter 3.1 3.4 3.8 Buick LaCrosse Grand Prix 04-09 NOS",
       "price": 14.99,
@@ -37042,12 +37151,12 @@
       "ebay_type": "Air Filter",
       "ebay_brand": "Parts Master",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Filters",
-      "stock": 1,
       "images": [
         "../assets/pdp-gallery/IYHGHYRJHJQR7YM6FGYGAPDT/02.webp",
         "../assets/pdp-gallery/IYHGHYRJHJQR7YM6FGYGAPDT/03.webp",
         "../assets/pdp-gallery/IYHGHYRJHJQR7YM6FGYGAPDT/04.webp"
-      ]
+      ],
+      "stock": 1
     },
     {
       "id": "HPS4YOS6LHY7CCNJ2FRJFWK2",
@@ -44209,12 +44318,12 @@
       "ebay_type": "Air Filter",
       "ebay_brand": "WIX",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Filters",
-      "stock": 1,
       "images": [
         "../assets/pdp-gallery/OIA6PNB475HKCLRVKAZJKRUD/02.webp",
         "../assets/pdp-gallery/OIA6PNB475HKCLRVKAZJKRUD/03.webp",
         "../assets/pdp-gallery/OIA6PNB475HKCLRVKAZJKRUD/04.webp"
-      ]
+      ],
+      "stock": 1
     },
     {
       "id": "FUGWDOIJSU54COBHLVR75OIW",
@@ -74671,6 +74780,49 @@
       "interchange": []
     },
     {
+      "id": "UXIDZMAZEC66RHUSN7LVHA76",
+      "name": "Chilton 6425 Truck Van Repair Manual 1970-76 Gas Diesel Hardcover Used",
+      "price": 14.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/f1e3fcb81065254c6243e7b30b5ae1d0bdfc8a13/original.jpeg",
+      "url": "https://square.link/u/ajVB1IxT",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "FAWLIJXDNP76PWJQWFUIFDSN",
+      "stock": 1,
+      "part_numbers": [
+        "6425"
+      ],
+      "interchange": [],
+      "vehicles": [],
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398411082057",
+      "ebay_type": "Repair Manual",
+      "ebay_brand": "Chilton",
+      "ebay_category": "Collectibles:Transportation:Automobilia:Books & Manuals:Other Vintage Auto Books",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "medium",
+      "fitment": {
+        "part_numbers": [
+          "6425"
+        ],
+        "interchange": [],
+        "vehicles": [],
+        "vehicle_labels": [],
+        "raw_compat_rows": 0,
+        "source": "ebay_listing",
+        "confidence": "medium",
+        "ebay_item_id": "398411082057",
+        "type": "Repair Manual",
+        "brand": "Chilton",
+        "ebay_category": "Collectibles:Transportation:Automobilia:Books & Manuals:Other Vintage Auto Books"
+      },
+      "images": [
+        "../assets/pdp-gallery/UXIDZMAZEC66RHUSN7LVHA76/02.webp",
+        "../assets/pdp-gallery/UXIDZMAZEC66RHUSN7LVHA76/03.webp",
+        "../assets/pdp-gallery/UXIDZMAZEC66RHUSN7LVHA76/04.webp"
+      ]
+    },
+    {
       "id": "OVN27H7TXSQKYE5GVJY5JOEY",
       "name": "Chilton 6499 Auto Repair Manual 1977 American Cars 1970-77 Hardcover Used",
       "price": 14.99,
@@ -74679,17 +74831,9 @@
       "category": "other",
       "checkout": true,
       "variation_id": "FMLA2IXVFBW6NC6SIXUDZP3V",
-      "stock": 1,
       "part_numbers": [
         "6499"
       ],
-      "interchange": [],
-      "vehicles": [],
-      "vehicle_count_raw": 0,
-      "ebay_item_id": "398411075764",
-      "ebay_type": "Repair Manual",
-      "ebay_brand": "Chilton",
-      "ebay_category": "Collectibles:Transportation:Automobilia:Books & Manuals:Other Vintage Auto Books",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "medium",
       "fitment": {
@@ -74707,11 +74851,120 @@
         "brand": "Chilton",
         "ebay_category": "Collectibles:Transportation:Automobilia:Books & Manuals:Other Vintage Auto Books"
       },
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398411075764",
+      "ebay_type": "Repair Manual",
+      "ebay_brand": "Chilton",
+      "ebay_category": "Collectibles:Transportation:Automobilia:Books & Manuals:Other Vintage Auto Books",
       "images": [
         "../assets/pdp-gallery/OVN27H7TXSQKYE5GVJY5JOEY/02.webp",
         "../assets/pdp-gallery/OVN27H7TXSQKYE5GVJY5JOEY/03.webp",
         "../assets/pdp-gallery/OVN27H7TXSQKYE5GVJY5JOEY/04.webp"
-      ]
+      ],
+      "stock": 1,
+      "interchange": [],
+      "vehicles": []
+    },
+    {
+      "id": "YWQ6NVV3MVYEI2VJAP63AQEP",
+      "name": "Chilton 7200 Auto Repair Manual 1983 American Cars 1976-83 Hardcover Used",
+      "price": 14.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/d0b34bebb6d9bc18793641482c37fe90b802952a/original.jpeg",
+      "url": "https://square.link/u/0SGNzhIe",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "YSHVPOJHQHNMAVEKA5GQ2MTC",
+      "part_numbers": [
+        "7200",
+        "Dorman HW7280, Wagner H7200, Bendix H7342"
+      ],
+      "interchange": [
+        "H7280"
+      ],
+      "vehicles": [
+        "1992\u20132001 Ford Taurus",
+        "1989\u20131997 Ford Thunderbird",
+        "1989\u20131996 Mercury Cougar",
+        "1992\u20132001 Mercury Sable"
+      ],
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "7200",
+          "Dorman HW7280, Wagner H7200, Bendix H7342"
+        ],
+        "interchange": [
+          "H7280"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1992,
+            "year_to": 2001,
+            "make": "Ford",
+            "model": "Taurus",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1989,
+            "year_to": 1997,
+            "make": "Ford",
+            "model": "Thunderbird",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1989,
+            "year_to": 1996,
+            "make": "Mercury",
+            "model": "Cougar",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1992,
+            "year_to": 2001,
+            "make": "Mercury",
+            "model": "Sable",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1992\u20132001 Ford Taurus",
+          "1989\u20131997 Ford Thunderbird",
+          "1989\u20131996 Mercury Cougar",
+          "1992\u20132001 Mercury Sable"
+        ],
+        "raw_compat_rows": 268,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398411084816",
+        "type": "Drum Brake Hardware Kit",
+        "brand": "Lee",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware"
+      },
+      "vehicle_count_raw": 268,
+      "ebay_item_id": "398411084816",
+      "ebay_type": "Drum Brake Hardware Kit",
+      "ebay_brand": "Lee",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware",
+      "images": [
+        "../assets/pdp-gallery/YWQ6NVV3MVYEI2VJAP63AQEP/02.webp",
+        "../assets/pdp-gallery/YWQ6NVV3MVYEI2VJAP63AQEP/03.webp",
+        "../assets/pdp-gallery/YWQ6NVV3MVYEI2VJAP63AQEP/04.webp",
+        "../assets/pdp-gallery/YWQ6NVV3MVYEI2VJAP63AQEP/05.webp"
+      ],
+      "stock": 1
     },
     {
       "id": "ZK5BT4P4X6RIABHSMBYPUEES",
@@ -74747,15 +75000,15 @@
       "ebay_type": "Repair Manual",
       "ebay_brand": "Chilton",
       "ebay_category": "Collectibles:Transportation:Automobilia:Books & Manuals:Other Vintage Auto Books",
-      "stock": 1,
-      "interchange": [],
-      "vehicles": [],
       "images": [
         "../assets/pdp-gallery/ZK5BT4P4X6RIABHSMBYPUEES/02.webp",
         "../assets/pdp-gallery/ZK5BT4P4X6RIABHSMBYPUEES/03.webp",
         "../assets/pdp-gallery/ZK5BT4P4X6RIABHSMBYPUEES/04.webp",
         "../assets/pdp-gallery/ZK5BT4P4X6RIABHSMBYPUEES/05.webp"
-      ]
+      ],
+      "stock": 1,
+      "interchange": [],
+      "vehicles": []
     },
     {
       "id": "JMZTZB47FVKZLALMJ2FAAV2F",
@@ -74766,17 +75019,9 @@
       "category": "other",
       "checkout": true,
       "variation_id": "HAZGC72GZBQ2SZSGFGK6KRO2",
-      "stock": 1,
       "part_numbers": [
         "7834"
       ],
-      "interchange": [],
-      "vehicles": [],
-      "vehicle_count_raw": 0,
-      "ebay_item_id": "398411079027",
-      "ebay_type": "Repair Manual",
-      "ebay_brand": "Chilton",
-      "ebay_category": "Collectibles:Transportation:Automobilia:Books & Manuals:Other Vintage Auto Books",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "medium",
       "fitment": {
@@ -74794,11 +75039,19 @@
         "brand": "Chilton",
         "ebay_category": "Collectibles:Transportation:Automobilia:Books & Manuals:Other Vintage Auto Books"
       },
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398411079027",
+      "ebay_type": "Repair Manual",
+      "ebay_brand": "Chilton",
+      "ebay_category": "Collectibles:Transportation:Automobilia:Books & Manuals:Other Vintage Auto Books",
       "images": [
         "../assets/pdp-gallery/JMZTZB47FVKZLALMJ2FAAV2F/02.webp",
         "../assets/pdp-gallery/JMZTZB47FVKZLALMJ2FAAV2F/03.webp",
         "../assets/pdp-gallery/JMZTZB47FVKZLALMJ2FAAV2F/04.webp"
-      ]
+      ],
+      "stock": 1,
+      "interchange": [],
+      "vehicles": []
     },
     {
       "id": "4YGTBLQWIDVSTVAA5WMIJUPG",
@@ -106250,14 +106503,14 @@
       "ebay_type": "Catalog",
       "ebay_brand": "Parts Master",
       "ebay_category": "Books & Magazines:Catalogs",
-      "stock": 1,
-      "interchange": [],
-      "vehicles": [],
       "images": [
         "../assets/pdp-gallery/5CEURPF2XQNQBLFSK2IJ2BVQ/02.webp",
         "../assets/pdp-gallery/5CEURPF2XQNQBLFSK2IJ2BVQ/03.webp",
         "../assets/pdp-gallery/5CEURPF2XQNQBLFSK2IJ2BVQ/04.webp"
-      ]
+      ],
+      "stock": 1,
+      "interchange": [],
+      "vehicles": []
     },
     {
       "id": "FB7CHXEJVOF2C2H7ZYWWV4HJ",
@@ -122686,5 +122939,5 @@
       "ebay_brand": ""
     }
   ],
-  "fitment_built": "2026-09-19T16:02:50Z"
+  "fitment_built": "2026-09-19T17:02:38Z"
 }
