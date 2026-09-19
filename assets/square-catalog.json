@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-18T23:02:38Z",
+  "updated": "2026-09-19T00:02:30Z",
   "store": "https://buccaneersalvage.square.site/",
   "count": 879,
   "items": [
@@ -37716,7 +37716,7 @@
       "ebay_type": "Cabin Air Filter",
       "ebay_brand": "WIX",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Filters",
-      "fitment_source": "ebay_listing+title",
+      "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
@@ -37828,7 +37828,7 @@
           "2005\u20132006 Nissan X-Trail"
         ],
         "raw_compat_rows": 81,
-        "source": "ebay_listing+title",
+        "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398408751613",
         "type": "Cabin Air Filter",
@@ -121835,5 +121835,5 @@
       "ebay_brand": ""
     }
   ],
-  "fitment_built": "2026-09-18T23:02:38Z"
+  "fitment_built": "2026-09-19T00:02:30Z"
 }
