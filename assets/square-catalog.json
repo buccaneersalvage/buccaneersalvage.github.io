@@ -1,7 +1,7 @@
 {
-  "updated": "2026-09-19T02:02:28Z",
+  "updated": "2026-09-19T04:02:30Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 879,
+  "count": 882,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -36148,6 +36148,326 @@
       "stock": 1
     },
     {
+      "id": "22KVRVBCDJOJW5OKTN2UJZR7",
+      "name": "Parts Master 66108 Air Filter WIX 46108 Saturn SC SL SW 1.9 1991-2002 NOS",
+      "price": 12.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/66f7b27ddd227dba7e0b9c302a5172f15ea4ca73/original.jpeg",
+      "url": "https://square.link/u/9II3CMUt",
+      "category": "filters",
+      "checkout": true,
+      "variation_id": "2D4QS7DRH23RHYU5KT56MZBC",
+      "stock": 1,
+      "part_numbers": [
+        "66108"
+      ],
+      "interchange": [
+        "WIX 46108",
+        "Fram CA7094",
+        "AC A1272C"
+      ],
+      "vehicles": [
+        "1991\u20132002 Saturn SC",
+        "1995\u20132002 Saturn SC1",
+        "1993\u20132002 Saturn SC2",
+        "1995\u20132002 Saturn SL",
+        "1995\u20132002 Saturn SL1",
+        "1991\u20132002 Saturn SL2",
+        "1995\u20131999 Saturn SW1",
+        "1993\u20132001 Saturn SW2"
+      ],
+      "vehicle_count_raw": 61,
+      "ebay_item_id": "398409340092",
+      "ebay_type": "Air Filter",
+      "ebay_brand": "Parts Master",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Filters",
+      "fitment_source": "ebay_listing+title",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "66108"
+        ],
+        "interchange": [
+          "WIX 46108",
+          "Fram CA7094",
+          "AC A1272C"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1991,
+            "year_to": 2002,
+            "make": "Saturn",
+            "model": "SC",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1995,
+            "year_to": 2002,
+            "make": "Saturn",
+            "model": "SC1",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1993,
+            "year_to": 2002,
+            "make": "Saturn",
+            "model": "SC2",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1995,
+            "year_to": 2002,
+            "make": "Saturn",
+            "model": "SL",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1995,
+            "year_to": 2002,
+            "make": "Saturn",
+            "model": "SL1",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1991,
+            "year_to": 2002,
+            "make": "Saturn",
+            "model": "SL2",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1995,
+            "year_to": 1999,
+            "make": "Saturn",
+            "model": "SW1",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1993,
+            "year_to": 2001,
+            "make": "Saturn",
+            "model": "SW2",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1991\u20132002 Saturn SC",
+          "1995\u20132002 Saturn SC1",
+          "1993\u20132002 Saturn SC2",
+          "1995\u20132002 Saturn SL",
+          "1995\u20132002 Saturn SL1",
+          "1991\u20132002 Saturn SL2",
+          "1995\u20131999 Saturn SW1",
+          "1993\u20132001 Saturn SW2"
+        ],
+        "raw_compat_rows": 61,
+        "source": "ebay_listing+title",
+        "confidence": "high",
+        "ebay_item_id": "398409340092",
+        "type": "Air Filter",
+        "brand": "Parts Master",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Filters"
+      },
+      "images": [
+        "../assets/pdp-gallery/22KVRVBCDJOJW5OKTN2UJZR7/02.webp",
+        "../assets/pdp-gallery/22KVRVBCDJOJW5OKTN2UJZR7/03.webp",
+        "../assets/pdp-gallery/22KVRVBCDJOJW5OKTN2UJZR7/04.webp"
+      ]
+    },
+    {
+      "id": "ZIPVKRGUTQZKZSJGM7QFT7TT",
+      "name": "Parts Master 66153 Air Filter 3.1 3.4 3.8 Buick LaCrosse Grand Prix 04-09 NOS",
+      "price": 14.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/097d692f2938520a7ac7cabea3add80cd942be65/original.jpeg",
+      "url": "https://square.link/u/kj51Kgy7",
+      "category": "filters",
+      "checkout": true,
+      "variation_id": "CLGN2RNY4JFTPR5TLD7YCO4Y",
+      "stock": 2,
+      "part_numbers": [
+        "66153"
+      ],
+      "interchange": [
+        "WIX 46153"
+      ],
+      "vehicles": [
+        "2005\u20132009 Buick Allure",
+        "2004\u20132005 Buick Century",
+        "2005\u20132009 Buick LaCrosse",
+        "2004\u20132005 Buick LeSabre",
+        "2004\u20132005 Buick Park Avenue",
+        "2004 Buick Regal",
+        "2004\u20132005 Chevrolet Impala",
+        "2004\u20132005 Chevrolet Monte Carlo",
+        "2004\u20132005 Pontiac Bonneville",
+        "2004\u20132008 Pontiac Grand Prix"
+      ],
+      "vehicle_count_raw": 66,
+      "ebay_item_id": "398409304630",
+      "ebay_type": "Air Filter",
+      "ebay_brand": "Parts Master",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Filters",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "66153"
+        ],
+        "interchange": [
+          "WIX 46153"
+        ],
+        "vehicles": [
+          {
+            "year_from": 2005,
+            "year_to": 2009,
+            "make": "Buick",
+            "model": "Allure",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2004,
+            "year_to": 2005,
+            "make": "Buick",
+            "model": "Century",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2005,
+            "year_to": 2009,
+            "make": "Buick",
+            "model": "LaCrosse",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2004,
+            "year_to": 2005,
+            "make": "Buick",
+            "model": "LeSabre",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2004,
+            "year_to": 2005,
+            "make": "Buick",
+            "model": "Park Avenue",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2004,
+            "year_to": 2004,
+            "make": "Buick",
+            "model": "Regal",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2004,
+            "year_to": 2005,
+            "make": "Chevrolet",
+            "model": "Impala",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2004,
+            "year_to": 2005,
+            "make": "Chevrolet",
+            "model": "Monte Carlo",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2004,
+            "year_to": 2005,
+            "make": "Pontiac",
+            "model": "Bonneville",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2004,
+            "year_to": 2008,
+            "make": "Pontiac",
+            "model": "Grand Prix",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "2005\u20132009 Buick Allure",
+          "2004\u20132005 Buick Century",
+          "2005\u20132009 Buick LaCrosse",
+          "2004\u20132005 Buick LeSabre",
+          "2004\u20132005 Buick Park Avenue",
+          "2004 Buick Regal",
+          "2004\u20132005 Chevrolet Impala",
+          "2004\u20132005 Chevrolet Monte Carlo",
+          "2004\u20132005 Pontiac Bonneville",
+          "2004\u20132008 Pontiac Grand Prix"
+        ],
+        "raw_compat_rows": 66,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398409304630",
+        "type": "Air Filter",
+        "brand": "Parts Master",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Filters"
+      },
+      "images": [
+        "../assets/pdp-gallery/ZIPVKRGUTQZKZSJGM7QFT7TT/02.webp",
+        "../assets/pdp-gallery/ZIPVKRGUTQZKZSJGM7QFT7TT/03.webp",
+        "../assets/pdp-gallery/ZIPVKRGUTQZKZSJGM7QFT7TT/04.webp"
+      ]
+    },
+    {
       "id": "HANCRIJE6YYQHZNNYFABL5EM",
       "name": "Parts Master 66213 Air Filter WIX 46213 Jeep Grand Cherokee Nissan Titan NOS",
       "price": 13.99,
@@ -36320,6 +36640,104 @@
         "../assets/pdp-gallery/HANCRIJE6YYQHZNNYFABL5EM/04.webp"
       ],
       "stock": 1
+    },
+    {
+      "id": "24VAGNGTORYL3EB2VFZXC5PV",
+      "name": "Parts Master 66673 Air Filter WIX 46673 Toyota Camry Highlander Sienna Lexus NOS",
+      "price": 16.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/a4893506f52a5ac2d541a22fef1c5ea89d8f4faa/original.jpeg",
+      "url": "https://square.link/u/SEIGDMt2",
+      "category": "filters",
+      "checkout": true,
+      "variation_id": "VH2HELWP2BAKPM6YROIHVJ5Q",
+      "stock": 1,
+      "part_numbers": [
+        "66673"
+      ],
+      "interchange": [
+        "WIX 46673"
+      ],
+      "vehicles": [
+        "2005\u20132006 Toyota Camry",
+        "2006\u20132013 Toyota Highlander",
+        "2004\u20132006 Toyota Sienna",
+        "2005\u20132008 Toyota Solara"
+      ],
+      "vehicle_count_raw": 71,
+      "ebay_item_id": "398409323541",
+      "ebay_type": "Air Filter",
+      "ebay_brand": "Parts Master",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Filters",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "66673"
+        ],
+        "interchange": [
+          "WIX 46673"
+        ],
+        "vehicles": [
+          {
+            "year_from": 2005,
+            "year_to": 2006,
+            "make": "Toyota",
+            "model": "Camry",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2006,
+            "year_to": 2013,
+            "make": "Toyota",
+            "model": "Highlander",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2004,
+            "year_to": 2006,
+            "make": "Toyota",
+            "model": "Sienna",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2005,
+            "year_to": 2008,
+            "make": "Toyota",
+            "model": "Solara",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "2005\u20132006 Toyota Camry",
+          "2006\u20132013 Toyota Highlander",
+          "2004\u20132006 Toyota Sienna",
+          "2005\u20132008 Toyota Solara"
+        ],
+        "raw_compat_rows": 71,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398409323541",
+        "type": "Air Filter",
+        "brand": "Parts Master",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Filters"
+      },
+      "images": [
+        "../assets/pdp-gallery/24VAGNGTORYL3EB2VFZXC5PV/02.webp",
+        "../assets/pdp-gallery/24VAGNGTORYL3EB2VFZXC5PV/03.webp",
+        "../assets/pdp-gallery/24VAGNGTORYL3EB2VFZXC5PV/04.webp"
+      ]
     },
     {
       "id": "HJTVGK2Y6XBIYC2KPK2HE2WK",
@@ -121839,5 +122257,5 @@
       "ebay_brand": ""
     }
   ],
-  "fitment_built": "2026-09-19T02:02:28Z"
+  "fitment_built": "2026-09-19T04:02:30Z"
 }
