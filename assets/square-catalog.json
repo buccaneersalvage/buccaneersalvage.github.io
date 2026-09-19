@@ -1,7 +1,7 @@
 {
-  "updated": "2026-09-19T18:02:37Z",
+  "updated": "2026-09-19T20:02:27Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 890,
+  "count": 892,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -35264,6 +35264,172 @@
       "interchange": []
     },
     {
+      "id": "BOT2ZLJPSPZTSASURL33AFM6",
+      "name": "FRAM CH9584 Oil Filter MINI Cooper 1.6L 2003-2008 NOS",
+      "price": 11.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/d3d1adb1fef3f6aef6ded1117218c2d7ac481f37/original.jpeg",
+      "url": "https://square.link/u/wkJBoKkP",
+      "category": "filters",
+      "checkout": true,
+      "variation_id": "6MNIA5D46XGENXGWSJ44EANM",
+      "stock": 1,
+      "part_numbers": [
+        "CH9584",
+        "CH-9584 CF5465"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "2003\u20132008 Mini Cooper"
+      ],
+      "vehicle_count_raw": 37,
+      "ebay_item_id": "398411489518",
+      "ebay_type": "Oil Filter",
+      "ebay_brand": "FRAM",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Filters",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "CH9584",
+          "CH-9584 CF5465"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 2003,
+            "year_to": 2008,
+            "make": "Mini",
+            "model": "Cooper",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "2003\u20132008 Mini Cooper"
+        ],
+        "raw_compat_rows": 37,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398411489518",
+        "type": "Oil Filter",
+        "brand": "FRAM",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Filters"
+      },
+      "images": [
+        "../assets/pdp-gallery/BOT2ZLJPSPZTSASURL33AFM6/02.webp",
+        "../assets/pdp-gallery/BOT2ZLJPSPZTSASURL33AFM6/03.webp"
+      ]
+    },
+    {
+      "id": "MDJA5ZS6BVW65YD7P3IR2QIU",
+      "name": "FRAM HM3675 High Mileage Oil Filter Cadillac DeVille 4.6 NOS",
+      "price": 10.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/af2324d7c55603c31f13990f54c93eb0400294f7/original.jpeg",
+      "url": "https://square.link/u/2zla94ao",
+      "category": "filters",
+      "checkout": true,
+      "variation_id": "LBNRK3WV4WGWVTRKOMPBWX4J",
+      "stock": 1,
+      "part_numbers": [
+        "HM3675",
+        "PH3675"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1997\u20132005 Cadillac DeVille",
+        "1997\u20132002 Cadillac Eldorado",
+        "2004 Cadillac SRX",
+        "1997\u20132004 Cadillac Seville",
+        "2004\u20132005 Cadillac XLR"
+      ],
+      "vehicle_count_raw": 80,
+      "ebay_item_id": "398411484567",
+      "ebay_type": "Oil Filter",
+      "ebay_brand": "FRAM",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Filters",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "HM3675",
+          "PH3675"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1997,
+            "year_to": 2005,
+            "make": "Cadillac",
+            "model": "DeVille",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1997,
+            "year_to": 2002,
+            "make": "Cadillac",
+            "model": "Eldorado",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2004,
+            "year_to": 2004,
+            "make": "Cadillac",
+            "model": "SRX",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1997,
+            "year_to": 2004,
+            "make": "Cadillac",
+            "model": "Seville",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2004,
+            "year_to": 2005,
+            "make": "Cadillac",
+            "model": "XLR",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1997\u20132005 Cadillac DeVille",
+          "1997\u20132002 Cadillac Eldorado",
+          "2004 Cadillac SRX",
+          "1997\u20132004 Cadillac Seville",
+          "2004\u20132005 Cadillac XLR"
+        ],
+        "raw_compat_rows": 80,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398411484567",
+        "type": "Oil Filter",
+        "brand": "FRAM",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Filters"
+      },
+      "images": [
+        "../assets/pdp-gallery/MDJA5ZS6BVW65YD7P3IR2QIU/02.webp",
+        "../assets/pdp-gallery/MDJA5ZS6BVW65YD7P3IR2QIU/03.webp"
+      ]
+    },
+    {
       "id": "NRMGBEVR2TP5XEM4VDG5BGZD",
       "name": "FULL 17220-RBJ-000 Air Filter Honda Insight 1.3L 2010-2014 NOS Thailand",
       "price": 21.99,
@@ -36207,7 +36373,6 @@
       "category": "filters",
       "checkout": true,
       "variation_id": "POPXDZ4QDVYHGF6PUXIM32AE",
-      "stock": 1,
       "part_numbers": [
         "66116"
       ],
@@ -36230,11 +36395,6 @@
         "1990\u20131994 Nissan D21",
         "2001\u20132004 Nissan Frontier"
       ],
-      "vehicle_count_raw": 187,
-      "ebay_item_id": "398411187050",
-      "ebay_type": "Air Filter",
-      "ebay_brand": "Parts Master",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Filters",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -36400,11 +36560,17 @@
         "brand": "Parts Master",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Filters"
       },
+      "vehicle_count_raw": 187,
+      "ebay_item_id": "398411187050",
+      "ebay_type": "Air Filter",
+      "ebay_brand": "Parts Master",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Filters",
       "images": [
         "../assets/pdp-gallery/BQW4IT5KU32GP2KVR5TZERRV/02.webp",
         "../assets/pdp-gallery/BQW4IT5KU32GP2KVR5TZERRV/03.webp",
         "../assets/pdp-gallery/BQW4IT5KU32GP2KVR5TZERRV/04.webp"
-      ]
+      ],
+      "stock": 1
     },
     {
       "id": "ZIPVKRGUTQZKZSJGM7QFT7TT",
@@ -74788,17 +74954,9 @@
       "category": "other",
       "checkout": true,
       "variation_id": "FAWLIJXDNP76PWJQWFUIFDSN",
-      "stock": 1,
       "part_numbers": [
         "6425"
       ],
-      "interchange": [],
-      "vehicles": [],
-      "vehicle_count_raw": 0,
-      "ebay_item_id": "398411082057",
-      "ebay_type": "Repair Manual",
-      "ebay_brand": "Chilton",
-      "ebay_category": "Collectibles:Transportation:Automobilia:Books & Manuals:Other Vintage Auto Books",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "medium",
       "fitment": {
@@ -74816,11 +74974,19 @@
         "brand": "Chilton",
         "ebay_category": "Collectibles:Transportation:Automobilia:Books & Manuals:Other Vintage Auto Books"
       },
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398411082057",
+      "ebay_type": "Repair Manual",
+      "ebay_brand": "Chilton",
+      "ebay_category": "Collectibles:Transportation:Automobilia:Books & Manuals:Other Vintage Auto Books",
       "images": [
         "../assets/pdp-gallery/UXIDZMAZEC66RHUSN7LVHA76/02.webp",
         "../assets/pdp-gallery/UXIDZMAZEC66RHUSN7LVHA76/03.webp",
         "../assets/pdp-gallery/UXIDZMAZEC66RHUSN7LVHA76/04.webp"
-      ]
+      ],
+      "stock": 1,
+      "interchange": [],
+      "vehicles": []
     },
     {
       "id": "OVN27H7TXSQKYE5GVJY5JOEY",
@@ -122939,5 +123105,5 @@
       "ebay_brand": ""
     }
   ],
-  "fitment_built": "2026-09-19T18:02:37Z"
+  "fitment_built": "2026-09-19T20:02:27Z"
 }
