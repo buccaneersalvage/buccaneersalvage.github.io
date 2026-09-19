@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-19T17:02:38Z",
+  "updated": "2026-09-19T18:02:37Z",
   "store": "https://buccaneersalvage.square.site/",
   "count": 890,
   "items": [
@@ -36235,7 +36235,7 @@
       "ebay_type": "Air Filter",
       "ebay_brand": "Parts Master",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Filters",
-      "fitment_source": "ebay_listing+title",
+      "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
@@ -36393,7 +36393,7 @@
           "2001\u20132004 Nissan Frontier"
         ],
         "raw_compat_rows": 187,
-        "source": "ebay_listing+title",
+        "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398411187050",
         "type": "Air Filter",
@@ -122939,5 +122939,5 @@
       "ebay_brand": ""
     }
   ],
-  "fitment_built": "2026-09-19T17:02:38Z"
+  "fitment_built": "2026-09-19T18:02:37Z"
 }
