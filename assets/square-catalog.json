@@ -1,7 +1,7 @@
 {
-  "updated": "2026-09-19T21:02:52Z",
+  "updated": "2026-09-19T22:03:17Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 898,
+  "count": 900,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -2821,48 +2821,6 @@
         "../assets/pdp-gallery/UIR6W6264WMTI3HZOMGZZ2UA/04.webp"
       ],
       "stock": 1
-    },
-    {
-      "id": "OHN5VWNY67652WIY4FCXKQGN",
-      "name": "Cardone 53-2752 Power Brake Booster 99-04 Mitsubishi Montero Sport Reman",
-      "price": 239.99,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/3d839b95dfeb5e0d3496ec0627df3b15475b782a/original.jpeg",
-      "url": "https://square.link/u/6mP1opde",
-      "category": "brake",
-      "checkout": true,
-      "variation_id": "LYUMZIQE6GKJTCWPVSYF7RAD",
-      "part_numbers": [
-        "532752"
-      ],
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "medium",
-      "fitment": {
-        "part_numbers": [
-          "532752"
-        ],
-        "interchange": [],
-        "vehicles": [],
-        "vehicle_labels": [],
-        "raw_compat_rows": 0,
-        "source": "ebay_listing",
-        "confidence": "medium",
-        "ebay_item_id": "398407718584",
-        "type": "Power Brake Booster",
-        "brand": "A1 Cardone",
-        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Boosters"
-      },
-      "vehicle_count_raw": 0,
-      "ebay_item_id": "398407718584",
-      "ebay_type": "Power Brake Booster",
-      "ebay_brand": "A1 Cardone",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Boosters",
-      "images": [
-        "../assets/pdp-gallery/OHN5VWNY67652WIY4FCXKQGN/02.webp",
-        "../assets/pdp-gallery/OHN5VWNY67652WIY4FCXKQGN/03.webp"
-      ],
-      "stock": 1,
-      "interchange": [],
-      "vehicles": []
     },
     {
       "id": "NFGSJPHXFLQ43LZ4537CCPO2",
@@ -35180,6 +35138,267 @@
       "interchange": []
     },
     {
+      "id": "OM7I4RJVT4BDE754HVILSGSO",
+      "name": "Bosch 3300 Premium Oil Filter Ford Escort Aspire 94-02 NOS",
+      "price": 11.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/479c161a2769fcc560a5654138af2246036e650c/original.jpeg",
+      "url": "https://square.link/u/C4u9UocH",
+      "category": "filters",
+      "checkout": true,
+      "variation_id": "K5COYXCBW5N3XL4KZOESNNHL",
+      "stock": 1,
+      "part_numbers": [
+        "3300"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "2015\u20132018 Chevrolet City Express",
+        "1994\u20131997 Ford Aspire",
+        "1994\u20132002 Ford Escort"
+      ],
+      "vehicle_count_raw": 91,
+      "ebay_item_id": "398411821734",
+      "ebay_type": "Oil Filter",
+      "ebay_brand": "Bosch",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Filters",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "3300"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 2015,
+            "year_to": 2018,
+            "make": "Chevrolet",
+            "model": "City Express",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1994,
+            "year_to": 1997,
+            "make": "Ford",
+            "model": "Aspire",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1994,
+            "year_to": 2002,
+            "make": "Ford",
+            "model": "Escort",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "2015\u20132018 Chevrolet City Express",
+          "1994\u20131997 Ford Aspire",
+          "1994\u20132002 Ford Escort"
+        ],
+        "raw_compat_rows": 91,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398411821734",
+        "type": "Oil Filter",
+        "brand": "Bosch",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Filters"
+      },
+      "images": [
+        "../assets/pdp-gallery/OM7I4RJVT4BDE754HVILSGSO/02.webp",
+        "../assets/pdp-gallery/OM7I4RJVT4BDE754HVILSGSO/03.webp"
+      ]
+    },
+    {
+      "id": "CBTIILXWV6EWPFJHFUOMAZHC",
+      "name": "Bosch 3422 Premium Oil Filter Edge Jeep 3.5 4.0 4.6 NOS",
+      "price": 11.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/0e67d878c39600c1cb71629b1dc8e9e8a38c312f/original.jpeg",
+      "url": "https://square.link/u/JKI9Gkay",
+      "category": "filters",
+      "checkout": true,
+      "variation_id": "J4VUQAV3MM2WXURWYOVGPXAZ",
+      "stock": 1,
+      "part_numbers": [
+        "3422"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "2007\u20132010 Ford Edge",
+        "2009\u20132010 Ford Flex"
+      ],
+      "vehicle_count_raw": 22,
+      "ebay_item_id": "398411824191",
+      "ebay_type": "Oil Filter",
+      "ebay_brand": "Bosch",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Filters",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "3422"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 2007,
+            "year_to": 2010,
+            "make": "Ford",
+            "model": "Edge",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2009,
+            "year_to": 2010,
+            "make": "Ford",
+            "model": "Flex",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "2007\u20132010 Ford Edge",
+          "2009\u20132010 Ford Flex"
+        ],
+        "raw_compat_rows": 22,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398411824191",
+        "type": "Oil Filter",
+        "brand": "Bosch",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Filters"
+      },
+      "images": [
+        "../assets/pdp-gallery/CBTIILXWV6EWPFJHFUOMAZHC/02.webp",
+        "../assets/pdp-gallery/CBTIILXWV6EWPFJHFUOMAZHC/03.webp"
+      ]
+    },
+    {
+      "id": "HXJSCSSDTXOLLNIANNNCHETZ",
+      "name": "Bosch 3500 Premium Oil Filter Ford Mustang F150 Bronco NOS",
+      "price": 11.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/37a9b1b4fd48a220ca1d2775a309c2deab61087b/original.jpeg",
+      "url": "https://square.link/u/lqgat3W4",
+      "category": "filters",
+      "checkout": true,
+      "variation_id": "RS5GFN2KI45DNL5534QVI2H5",
+      "stock": 1,
+      "part_numbers": [
+        "3500",
+        "51515 PH8A"
+      ],
+      "interchange": [
+        "WIX51515 PH8A L30001"
+      ],
+      "vehicles": [
+        "1968\u20131996 Ford Bronco",
+        "1991\u20132001 Ford Explorer",
+        "1975\u20131996 Ford F-150",
+        "1968\u20131995 Ford Mustang",
+        "1990\u20132000 Ford Ranger"
+      ],
+      "vehicle_count_raw": 1128,
+      "ebay_item_id": "398411825309",
+      "ebay_type": "Oil Filter",
+      "ebay_brand": "Bosch",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Filters",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "3500",
+          "51515 PH8A"
+        ],
+        "interchange": [
+          "WIX51515 PH8A L30001"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1968,
+            "year_to": 1996,
+            "make": "Ford",
+            "model": "Bronco",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1991,
+            "year_to": 2001,
+            "make": "Ford",
+            "model": "Explorer",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1975,
+            "year_to": 1996,
+            "make": "Ford",
+            "model": "F-150",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1968,
+            "year_to": 1995,
+            "make": "Ford",
+            "model": "Mustang",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1990,
+            "year_to": 2000,
+            "make": "Ford",
+            "model": "Ranger",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1968\u20131996 Ford Bronco",
+          "1991\u20132001 Ford Explorer",
+          "1975\u20131996 Ford F-150",
+          "1968\u20131995 Ford Mustang",
+          "1990\u20132000 Ford Ranger"
+        ],
+        "raw_compat_rows": 1128,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398411825309",
+        "type": "Oil Filter",
+        "brand": "Bosch",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Filters"
+      },
+      "images": [
+        "../assets/pdp-gallery/HXJSCSSDTXOLLNIANNNCHETZ/02.webp",
+        "../assets/pdp-gallery/HXJSCSSDTXOLLNIANNNCHETZ/03.webp"
+      ]
+    },
+    {
       "id": "TG6FY434URCRAB3YSQRQBOM4",
       "name": "Champion COS9715 Oil Filter Subaru 2.0 2.5 Impreza Legacy NOS",
       "price": 11.99,
@@ -35188,12 +35407,10 @@
       "category": "filters",
       "checkout": true,
       "variation_id": "KRGXR63ASX6KASJ7LBBZ4RNQ",
-      "stock": 1,
       "part_numbers": [
         "COS9715",
         "PH9715"
       ],
-      "interchange": [],
       "vehicles": [
         "2005\u20132010 Subaru Forester",
         "2008\u20132012 Subaru Impreza",
@@ -35201,11 +35418,6 @@
         "2005\u20132012 Subaru Outback",
         "2013\u20132016 Subaru WRX STI"
       ],
-      "vehicle_count_raw": 88,
-      "ebay_item_id": "398411607411",
-      "ebay_type": "Oil Filter",
-      "ebay_brand": "Champion",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Filters",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -35281,10 +35493,17 @@
         "brand": "Champion",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Filters"
       },
+      "vehicle_count_raw": 88,
+      "ebay_item_id": "398411607411",
+      "ebay_type": "Oil Filter",
+      "ebay_brand": "Champion",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Filters",
       "images": [
         "../assets/pdp-gallery/TG6FY434URCRAB3YSQRQBOM4/02.webp",
         "../assets/pdp-gallery/TG6FY434URCRAB3YSQRQBOM4/03.webp"
-      ]
+      ],
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "STFS5AX3DEPRWV7TIEJYJUSP",
@@ -35545,7 +35764,6 @@
       "category": "filters",
       "checkout": true,
       "variation_id": "7FARNWL6MFTOSPM2Y4ELTRNT",
-      "stock": 1,
       "part_numbers": [
         "PH9688",
         "A11891"
@@ -35557,11 +35775,6 @@
         "2012\u20132016 Hyundai Accent",
         "2011\u20132016 Hyundai Elantra"
       ],
-      "vehicle_count_raw": 73,
-      "ebay_item_id": "398411609468",
-      "ebay_type": "Oil Filter",
-      "ebay_brand": "FRAM",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Filters",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -35606,10 +35819,16 @@
         "brand": "FRAM",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Filters"
       },
+      "vehicle_count_raw": 73,
+      "ebay_item_id": "398411609468",
+      "ebay_type": "Oil Filter",
+      "ebay_brand": "FRAM",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Filters",
       "images": [
         "../assets/pdp-gallery/QMYCGQTIG6PXJ4XKYY72UR6W/02.webp",
         "../assets/pdp-gallery/QMYCGQTIG6PXJ4XKYY72UR6W/03.webp"
-      ]
+      ],
+      "stock": 1
     },
     {
       "id": "NRMGBEVR2TP5XEM4VDG5BGZD",
@@ -36154,6 +36373,216 @@
       "stock": 1
     },
     {
+      "id": "MGQRQIPVHBDYRPKSBGAUV5WX",
+      "name": "Parts Master 61223 Oil Filter BMW 325i X5 2.5 3.0 NOS",
+      "price": 12.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/b33a487ee4e8ffd6d15fe89522c2c9ebaa86f1fb/original.jpeg",
+      "url": "https://square.link/u/8v8dFW7q",
+      "category": "filters",
+      "checkout": true,
+      "variation_id": "5ZIWYXSHGZQQLP53AG222NUH",
+      "stock": 1,
+      "part_numbers": [
+        "61223",
+        "51223 CH8081"
+      ],
+      "interchange": [
+        "WIX51223 CH8081 L25247 PF2246"
+      ],
+      "vehicles": [
+        "2001\u20132006 BMW 325i",
+        "2001\u20132006 BMW 330i",
+        "2004\u20132006 BMW X3",
+        "2001\u20132006 BMW X5",
+        "2001\u20132002 BMW Z3"
+      ],
+      "vehicle_count_raw": 29,
+      "ebay_item_id": "398411827450",
+      "ebay_type": "Oil Filter",
+      "ebay_brand": "Parts Master",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Filters",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "61223",
+          "51223 CH8081"
+        ],
+        "interchange": [
+          "WIX51223 CH8081 L25247 PF2246"
+        ],
+        "vehicles": [
+          {
+            "year_from": 2001,
+            "year_to": 2006,
+            "make": "BMW",
+            "model": "325i",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2001,
+            "year_to": 2006,
+            "make": "BMW",
+            "model": "330i",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2004,
+            "year_to": 2006,
+            "make": "BMW",
+            "model": "X3",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2001,
+            "year_to": 2006,
+            "make": "BMW",
+            "model": "X5",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2001,
+            "year_to": 2002,
+            "make": "BMW",
+            "model": "Z3",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "2001\u20132006 BMW 325i",
+          "2001\u20132006 BMW 330i",
+          "2004\u20132006 BMW X3",
+          "2001\u20132006 BMW X5",
+          "2001\u20132002 BMW Z3"
+        ],
+        "raw_compat_rows": 29,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398411827450",
+        "type": "Oil Filter",
+        "brand": "Parts Master",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Filters"
+      },
+      "images": [
+        "../assets/pdp-gallery/MGQRQIPVHBDYRPKSBGAUV5WX/02.webp",
+        "../assets/pdp-gallery/MGQRQIPVHBDYRPKSBGAUV5WX/03.webp"
+      ]
+    },
+    {
+      "id": "MGSQAS75SYG3CKXEJL4EO4AG",
+      "name": "Parts Master 61315 Oil Filter Ford Escort Contour 2.0 NOS",
+      "price": 11.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/caedb92b2c8a080c46bbec5b9075fc6d6d5cfc9f/original.jpeg",
+      "url": "https://square.link/u/l8M4xNyy",
+      "category": "filters",
+      "checkout": true,
+      "variation_id": "MA2WJ4QBVSFKF3IJHNZGAUZV",
+      "stock": 1,
+      "part_numbers": [
+        "61315",
+        "51315"
+      ],
+      "interchange": [
+        "WIX51315"
+      ],
+      "vehicles": [
+        "1998\u20132000 Ford Contour",
+        "1998\u20132003 Ford Escort",
+        "1999\u20132002 Mercury Cougar",
+        "1998\u20132000 Mercury Mystique"
+      ],
+      "vehicle_count_raw": 46,
+      "ebay_item_id": "398411830472",
+      "ebay_type": "Oil Filter",
+      "ebay_brand": "Parts Master",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Filters",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "61315",
+          "51315"
+        ],
+        "interchange": [
+          "WIX51315"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1998,
+            "year_to": 2000,
+            "make": "Ford",
+            "model": "Contour",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1998,
+            "year_to": 2003,
+            "make": "Ford",
+            "model": "Escort",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1999,
+            "year_to": 2002,
+            "make": "Mercury",
+            "model": "Cougar",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1998,
+            "year_to": 2000,
+            "make": "Mercury",
+            "model": "Mystique",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1998\u20132000 Ford Contour",
+          "1998\u20132003 Ford Escort",
+          "1999\u20132002 Mercury Cougar",
+          "1998\u20132000 Mercury Mystique"
+        ],
+        "raw_compat_rows": 46,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398411830472",
+        "type": "Oil Filter",
+        "brand": "Parts Master",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Filters"
+      },
+      "images": [
+        "../assets/pdp-gallery/MGSQAS75SYG3CKXEJL4EO4AG/02.webp",
+        "../assets/pdp-gallery/MGSQAS75SYG3CKXEJL4EO4AG/03.webp"
+      ]
+    },
+    {
       "id": "KKZLDXRYO2XUKTN5MYUMLHRH",
       "name": "Parts Master 61356 Oil Filter Acura MDX RDX ILX NOS",
       "price": 11.99,
@@ -36162,7 +36591,6 @@
       "category": "filters",
       "checkout": true,
       "variation_id": "MWMZF3AX6OQCZPTHHQQWVAV5",
-      "stock": 1,
       "part_numbers": [
         "61356",
         "51356 PH7317"
@@ -36176,11 +36604,6 @@
         "2003\u20132016 Acura MDX",
         "2013\u20132016 Acura RDX"
       ],
-      "vehicle_count_raw": 46,
-      "ebay_item_id": "398411613666",
-      "ebay_type": "Oil Filter",
-      "ebay_brand": "Parts Master",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Filters",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -36247,9 +36670,114 @@
         "brand": "Parts Master",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Filters"
       },
+      "vehicle_count_raw": 46,
+      "ebay_item_id": "398411613666",
+      "ebay_type": "Oil Filter",
+      "ebay_brand": "Parts Master",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Filters",
       "images": [
         "../assets/pdp-gallery/KKZLDXRYO2XUKTN5MYUMLHRH/02.webp",
         "../assets/pdp-gallery/KKZLDXRYO2XUKTN5MYUMLHRH/03.webp"
+      ],
+      "stock": 1
+    },
+    {
+      "id": "UQIJC7EZZXP25SUVT6FHVL5J",
+      "name": "Parts Master 61393 Oil Filter VW Jetta 93-16 1.6 1.8 2.0 NOS",
+      "price": 11.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/402d0f48c1e4ab56adfef5ba93f06d0a3fcf970f/original.jpeg",
+      "url": "https://square.link/u/0oAH1VAQ",
+      "category": "filters",
+      "checkout": true,
+      "variation_id": "K5Q4SR3WURIPZHQIO3CGM34V",
+      "stock": 1,
+      "part_numbers": [
+        "61393",
+        "51393 PH2129"
+      ],
+      "interchange": [
+        "WIX51393 L20252 PF2129 LF274"
+      ],
+      "vehicles": [
+        "1988\u20131990 Audi 80",
+        "1998\u20132005 Volkswagen Beetle",
+        "1999\u20132005 Volkswagen Golf",
+        "1993\u20132016 Volkswagen Jetta"
+      ],
+      "vehicle_count_raw": 298,
+      "ebay_item_id": "398411838087",
+      "ebay_type": "Oil Filter",
+      "ebay_brand": "Parts Master",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Filters",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "61393",
+          "51393 PH2129"
+        ],
+        "interchange": [
+          "WIX51393 L20252 PF2129 LF274"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1988,
+            "year_to": 1990,
+            "make": "Audi",
+            "model": "80",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1998,
+            "year_to": 2005,
+            "make": "Volkswagen",
+            "model": "Beetle",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1999,
+            "year_to": 2005,
+            "make": "Volkswagen",
+            "model": "Golf",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1993,
+            "year_to": 2016,
+            "make": "Volkswagen",
+            "model": "Jetta",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1988\u20131990 Audi 80",
+          "1998\u20132005 Volkswagen Beetle",
+          "1999\u20132005 Volkswagen Golf",
+          "1993\u20132016 Volkswagen Jetta"
+        ],
+        "raw_compat_rows": 298,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398411838087",
+        "type": "Oil Filter",
+        "brand": "Parts Master",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Filters"
+      },
+      "images": [
+        "../assets/pdp-gallery/UQIJC7EZZXP25SUVT6FHVL5J/02.webp",
+        "../assets/pdp-gallery/UQIJC7EZZXP25SUVT6FHVL5J/03.webp"
       ]
     },
     {
@@ -37614,7 +38142,6 @@
       "category": "filters",
       "checkout": true,
       "variation_id": "ABS7SDYOCPEZ2JINX4DJL7F5",
-      "stock": 1,
       "part_numbers": [
         "67021",
         "57021 CH8712"
@@ -37628,11 +38155,6 @@
         "2004\u20132007 Volvo S60",
         "1999\u20132000 Volvo S70"
       ],
-      "vehicle_count_raw": 20,
-      "ebay_item_id": "398411617847",
-      "ebay_type": "Oil Filter",
-      "ebay_brand": "Parts Master",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Filters",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -37699,10 +38221,16 @@
         "brand": "Parts Master",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Filters"
       },
+      "vehicle_count_raw": 20,
+      "ebay_item_id": "398411617847",
+      "ebay_type": "Oil Filter",
+      "ebay_brand": "Parts Master",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Filters",
       "images": [
         "../assets/pdp-gallery/TW4QBBSXO3VQG3MSJEGDVSK6/02.webp",
         "../assets/pdp-gallery/TW4QBBSXO3VQG3MSJEGDVSK6/03.webp"
-      ]
+      ],
+      "stock": 1
     },
     {
       "id": "YQTLEDBRGVZKAEZWXMEOXY7F",
@@ -37713,7 +38241,6 @@
       "category": "filters",
       "checkout": true,
       "variation_id": "M3PV64YYTMKD4EKVOQB3UZ7Y",
-      "stock": 1,
       "part_numbers": [
         "67303",
         "57303 CH9584"
@@ -37724,11 +38251,6 @@
       "vehicles": [
         "2003\u20132008 Mini Cooper"
       ],
-      "vehicle_count_raw": 37,
-      "ebay_item_id": "398411629148",
-      "ebay_type": "Oil Filter",
-      "ebay_brand": "Parts Master",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Filters",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -37762,10 +38284,16 @@
         "brand": "Parts Master",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Filters"
       },
+      "vehicle_count_raw": 37,
+      "ebay_item_id": "398411629148",
+      "ebay_type": "Oil Filter",
+      "ebay_brand": "Parts Master",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Filters",
       "images": [
         "../assets/pdp-gallery/YQTLEDBRGVZKAEZWXMEOXY7F/02.webp",
         "../assets/pdp-gallery/YQTLEDBRGVZKAEZWXMEOXY7F/03.webp"
-      ]
+      ],
+      "stock": 1
     },
     {
       "id": "HPS4YOS6LHY7CCNJ2FRJFWK2",
@@ -37912,7 +38440,6 @@
       "category": "filters",
       "checkout": true,
       "variation_id": "VHD3LYBBPDRSGNQUEAIOSVXU",
-      "stock": 1,
       "part_numbers": [
         "67327",
         "57327 CH10075"
@@ -37927,11 +38454,6 @@
         "2012\u20132015 BMW X1",
         "2011\u20132016 BMW X3"
       ],
-      "vehicle_count_raw": 66,
-      "ebay_item_id": "398411637091",
-      "ebay_type": "Oil Filter",
-      "ebay_brand": "Parts Master",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Filters",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -38009,10 +38531,16 @@
         "brand": "Parts Master",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Filters"
       },
+      "vehicle_count_raw": 66,
+      "ebay_item_id": "398411637091",
+      "ebay_type": "Oil Filter",
+      "ebay_brand": "Parts Master",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Filters",
       "images": [
         "../assets/pdp-gallery/CANZAJVQZXCR7TSCZNDDRLKF/02.webp",
         "../assets/pdp-gallery/CANZAJVQZXCR7TSCZNDDRLKF/03.webp"
-      ]
+      ],
+      "stock": 1
     },
     {
       "id": "ULHGGMBAQOSSAG6ZYKXVDLMD",
@@ -71881,78 +72409,6 @@
       "ebay_brand": ""
     },
     {
-      "id": "SY36JVVI7BQ7FY66IVSUGDPO",
-      "name": "1973-87 Chevy GMC C10 C20 Square Body Passenger Vent Wing Window Broken Hinge",
-      "price": 49.99,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/d0a02312b9d183a981ab13f9c7b267028d10c064/original.jpeg",
-      "url": "https://square.link/u/nRHaTN4C",
-      "category": "other",
-      "checkout": true,
-      "variation_id": "EQVIO2TASINZ6H2ZK3LDSFLM",
-      "part_numbers": [
-        "1973"
-      ],
-      "vehicles": [
-        "1973\u20131987 Chevrolet",
-        "1973\u20131987 GMC C10"
-      ],
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "medium",
-      "fitment": {
-        "part_numbers": [
-          "1973"
-        ],
-        "interchange": [],
-        "vehicles": [
-          {
-            "year_from": 1973,
-            "year_to": 1987,
-            "make": "Chevrolet",
-            "model": "",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1973,
-            "year_to": 1987,
-            "make": "GMC",
-            "model": "C10",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          }
-        ],
-        "vehicle_labels": [
-          "1973\u20131987 Chevrolet",
-          "1973\u20131987 GMC C10"
-        ],
-        "raw_compat_rows": 4,
-        "source": "ebay_listing",
-        "confidence": "medium",
-        "ebay_item_id": "398084830710",
-        "type": "Chevy GMC C10 C20 Square Body Passenger Vent Wing Window",
-        "brand": "GM OEM",
-        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Interior Parts & Accessories:Other Interior Parts & Accessories"
-      },
-      "vehicle_count_raw": 4,
-      "ebay_item_id": "398084830710",
-      "ebay_type": "Chevy GMC C10 C20 Square Body Passenger Vent Wing Window",
-      "ebay_brand": "GM OEM",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Interior Parts & Accessories:Other Interior Parts & Accessories",
-      "images": [
-        "../assets/pdp-gallery/SY36JVVI7BQ7FY66IVSUGDPO/02.webp",
-        "../assets/pdp-gallery/SY36JVVI7BQ7FY66IVSUGDPO/03.webp",
-        "../assets/pdp-gallery/SY36JVVI7BQ7FY66IVSUGDPO/04.webp",
-        "../assets/pdp-gallery/SY36JVVI7BQ7FY66IVSUGDPO/05.webp",
-        "../assets/pdp-gallery/SY36JVVI7BQ7FY66IVSUGDPO/06.webp"
-      ],
-      "stock": 1,
-      "interchange": []
-    },
-    {
       "id": "QAXNAJ4JJEZZWNSTYTD33NQW",
       "name": "1981-1987 Chevy C10 C20 C30 GMC Right Front Manual Window Regulator OEM RF",
       "price": 59.99,
@@ -77610,45 +78066,6 @@
         "../assets/pdp-gallery/KLSOLJBWU4FAQ4TGW57X4GFL/03.webp"
       ],
       "stock": 1,
-      "interchange": [],
-      "vehicles": []
-    },
-    {
-      "id": "ZQRXEUPUTPUX5JK75WDYFFTO",
-      "name": "Deltrol 10226-08 10VDC Solenoid Coil Hydraulic Dump Trailer Snow Plow Valve",
-      "price": 16.99,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/6ee88ae1f3f4cce708c5096e964078f729251bd2/original.jpeg",
-      "url": "https://square.link/u/tPRM3EgD",
-      "category": "other",
-      "checkout": true,
-      "variation_id": "SC6NMHEGFKFUZQYI6NJJQTIE",
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "medium",
-      "fitment": {
-        "part_numbers": [],
-        "interchange": [],
-        "vehicles": [],
-        "vehicle_labels": [],
-        "raw_compat_rows": 0,
-        "source": "ebay_listing",
-        "confidence": "medium",
-        "ebay_item_id": "398084830426",
-        "type": "Solenoid Coil",
-        "brand": "Deltrol Controls",
-        "ebay_category": "Business & Industrial:Electrical Equipment & Supplies:Electronic Components & Semiconductors:Component Solenoids"
-      },
-      "vehicle_count_raw": 0,
-      "ebay_item_id": "398084830426",
-      "ebay_type": "Solenoid Coil",
-      "ebay_brand": "Deltrol Controls",
-      "ebay_category": "Business & Industrial:Electrical Equipment & Supplies:Electronic Components & Semiconductors:Component Solenoids",
-      "images": [
-        "../assets/pdp-gallery/ZQRXEUPUTPUX5JK75WDYFFTO/02.webp",
-        "../assets/pdp-gallery/ZQRXEUPUTPUX5JK75WDYFFTO/03.webp",
-        "../assets/pdp-gallery/ZQRXEUPUTPUX5JK75WDYFFTO/04.webp"
-      ],
-      "stock": 1,
-      "part_numbers": [],
       "interchange": [],
       "vehicles": []
     },
@@ -95488,78 +95905,6 @@
       "images": [
         "../assets/pdp-gallery/GHJ2ICH6KGCI2CTGOLC5MMPN/02.webp",
         "../assets/pdp-gallery/GHJ2ICH6KGCI2CTGOLC5MMPN/03.webp"
-      ],
-      "stock": 1,
-      "interchange": []
-    },
-    {
-      "id": "QLDY75CNYRROMFYJLKJI2RWY",
-      "name": "GM 20731009 LH 6-Way Seat Switch 85-93 Cadillac DeVille Fleetwood NOS",
-      "price": 99.99,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/0291bb72e2ec17e1117b1fb271bee12edc9324b6/original.jpeg",
-      "url": "https://square.link/u/yhnReENX",
-      "category": "other",
-      "checkout": true,
-      "variation_id": "MLOK2UHIQECFQMZ2SSYEG6QZ",
-      "part_numbers": [
-        "20731009",
-        "SW ASM LH GR 11.556"
-      ],
-      "vehicles": [
-        "1985\u20131993 Cadillac DeVille",
-        "1985\u20131993 Cadillac Fleetwood"
-      ],
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "high",
-      "fitment": {
-        "part_numbers": [
-          "20731009",
-          "SW ASM LH GR 11.556"
-        ],
-        "interchange": [],
-        "vehicles": [
-          {
-            "year_from": 1985,
-            "year_to": 1993,
-            "make": "Cadillac",
-            "model": "DeVille",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1985,
-            "year_to": 1993,
-            "make": "Cadillac",
-            "model": "Fleetwood",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          }
-        ],
-        "vehicle_labels": [
-          "1985\u20131993 Cadillac DeVille",
-          "1985\u20131993 Cadillac Fleetwood"
-        ],
-        "raw_compat_rows": 98,
-        "source": "ebay_listing",
-        "confidence": "high",
-        "ebay_item_id": "398401133174",
-        "type": "Power Seat Switch",
-        "brand": "GM",
-        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Lighting & Lamps:Side Marker Light Assemblies"
-      },
-      "vehicle_count_raw": 98,
-      "ebay_item_id": "398401133174",
-      "ebay_type": "Power Seat Switch",
-      "ebay_brand": "GM",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Lighting & Lamps:Side Marker Light Assemblies",
-      "images": [
-        "../assets/pdp-gallery/QLDY75CNYRROMFYJLKJI2RWY/02.webp",
-        "../assets/pdp-gallery/QLDY75CNYRROMFYJLKJI2RWY/03.webp",
-        "../assets/pdp-gallery/QLDY75CNYRROMFYJLKJI2RWY/04.webp"
       ],
       "stock": 1,
       "interchange": []
@@ -123659,5 +124004,5 @@
       "ebay_brand": ""
     }
   ],
-  "fitment_built": "2026-09-19T21:02:52Z"
+  "fitment_built": "2026-09-19T22:03:17Z"
 }
