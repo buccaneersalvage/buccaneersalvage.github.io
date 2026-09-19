@@ -1,7 +1,7 @@
 {
-  "updated": "2026-09-19T22:03:17Z",
+  "updated": "2026-09-19T23:03:37Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 900,
+  "count": 912,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -35146,21 +35146,14 @@
       "category": "filters",
       "checkout": true,
       "variation_id": "K5COYXCBW5N3XL4KZOESNNHL",
-      "stock": 1,
       "part_numbers": [
         "3300"
       ],
-      "interchange": [],
       "vehicles": [
         "2015\u20132018 Chevrolet City Express",
         "1994\u20131997 Ford Aspire",
         "1994\u20132002 Ford Escort"
       ],
-      "vehicle_count_raw": 91,
-      "ebay_item_id": "398411821734",
-      "ebay_type": "Oil Filter",
-      "ebay_brand": "Bosch",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Filters",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -35213,10 +35206,17 @@
         "brand": "Bosch",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Filters"
       },
+      "vehicle_count_raw": 91,
+      "ebay_item_id": "398411821734",
+      "ebay_type": "Oil Filter",
+      "ebay_brand": "Bosch",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Filters",
       "images": [
         "../assets/pdp-gallery/OM7I4RJVT4BDE754HVILSGSO/02.webp",
         "../assets/pdp-gallery/OM7I4RJVT4BDE754HVILSGSO/03.webp"
-      ]
+      ],
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "CBTIILXWV6EWPFJHFUOMAZHC",
@@ -35227,20 +35227,13 @@
       "category": "filters",
       "checkout": true,
       "variation_id": "J4VUQAV3MM2WXURWYOVGPXAZ",
-      "stock": 1,
       "part_numbers": [
         "3422"
       ],
-      "interchange": [],
       "vehicles": [
         "2007\u20132010 Ford Edge",
         "2009\u20132010 Ford Flex"
       ],
-      "vehicle_count_raw": 22,
-      "ebay_item_id": "398411824191",
-      "ebay_type": "Oil Filter",
-      "ebay_brand": "Bosch",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Filters",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -35282,10 +35275,17 @@
         "brand": "Bosch",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Filters"
       },
+      "vehicle_count_raw": 22,
+      "ebay_item_id": "398411824191",
+      "ebay_type": "Oil Filter",
+      "ebay_brand": "Bosch",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Filters",
       "images": [
         "../assets/pdp-gallery/CBTIILXWV6EWPFJHFUOMAZHC/02.webp",
         "../assets/pdp-gallery/CBTIILXWV6EWPFJHFUOMAZHC/03.webp"
-      ]
+      ],
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "HXJSCSSDTXOLLNIANNNCHETZ",
@@ -35296,7 +35296,6 @@
       "category": "filters",
       "checkout": true,
       "variation_id": "RS5GFN2KI45DNL5534QVI2H5",
-      "stock": 1,
       "part_numbers": [
         "3500",
         "51515 PH8A"
@@ -35311,11 +35310,6 @@
         "1968\u20131995 Ford Mustang",
         "1990\u20132000 Ford Ranger"
       ],
-      "vehicle_count_raw": 1128,
-      "ebay_item_id": "398411825309",
-      "ebay_type": "Oil Filter",
-      "ebay_brand": "Bosch",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Filters",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -35393,10 +35387,16 @@
         "brand": "Bosch",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Filters"
       },
+      "vehicle_count_raw": 1128,
+      "ebay_item_id": "398411825309",
+      "ebay_type": "Oil Filter",
+      "ebay_brand": "Bosch",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Filters",
       "images": [
         "../assets/pdp-gallery/HXJSCSSDTXOLLNIANNNCHETZ/02.webp",
         "../assets/pdp-gallery/HXJSCSSDTXOLLNIANNNCHETZ/03.webp"
-      ]
+      ],
+      "stock": 1
     },
     {
       "id": "TG6FY434URCRAB3YSQRQBOM4",
@@ -35754,6 +35754,87 @@
       ],
       "stock": 1,
       "interchange": []
+    },
+    {
+      "id": "W6XEF6SMEZH3Z4ZQS7HYU7JX",
+      "name": "FRAM PH3506 Oil Filter Cadillac DeVille Eldorado 4.6 NOS",
+      "price": 11.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/da44ab739978dc3fedc6060379d5cffc8c3c68bc/original.jpeg",
+      "url": "https://square.link/u/utMESZKx",
+      "category": "filters",
+      "checkout": true,
+      "variation_id": "JNGAX3QUZKZFVILUL6FOFSH5",
+      "stock": 1,
+      "part_numbers": [
+        "PH3506"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1997\u20132005 Cadillac DeVille",
+        "1997\u20132002 Cadillac Eldorado",
+        "2002\u20132004 Cadillac Seville"
+      ],
+      "vehicle_count_raw": 66,
+      "ebay_item_id": "398411894067",
+      "ebay_type": "Oil Filter",
+      "ebay_brand": "FRAM",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Filters",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "PH3506"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1997,
+            "year_to": 2005,
+            "make": "Cadillac",
+            "model": "DeVille",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1997,
+            "year_to": 2002,
+            "make": "Cadillac",
+            "model": "Eldorado",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2002,
+            "year_to": 2004,
+            "make": "Cadillac",
+            "model": "Seville",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1997\u20132005 Cadillac DeVille",
+          "1997\u20132002 Cadillac Eldorado",
+          "2002\u20132004 Cadillac Seville"
+        ],
+        "raw_compat_rows": 66,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398411894067",
+        "type": "Oil Filter",
+        "brand": "FRAM",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Filters"
+      },
+      "images": [
+        "../assets/pdp-gallery/W6XEF6SMEZH3Z4ZQS7HYU7JX/02.webp",
+        "../assets/pdp-gallery/W6XEF6SMEZH3Z4ZQS7HYU7JX/03.webp"
+      ]
     },
     {
       "id": "QMYCGQTIG6PXJ4XKYY72UR6W",
@@ -36381,7 +36462,6 @@
       "category": "filters",
       "checkout": true,
       "variation_id": "5ZIWYXSHGZQQLP53AG222NUH",
-      "stock": 1,
       "part_numbers": [
         "61223",
         "51223 CH8081"
@@ -36396,11 +36476,6 @@
         "2001\u20132006 BMW X5",
         "2001\u20132002 BMW Z3"
       ],
-      "vehicle_count_raw": 29,
-      "ebay_item_id": "398411827450",
-      "ebay_type": "Oil Filter",
-      "ebay_brand": "Parts Master",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Filters",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -36478,10 +36553,16 @@
         "brand": "Parts Master",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Filters"
       },
+      "vehicle_count_raw": 29,
+      "ebay_item_id": "398411827450",
+      "ebay_type": "Oil Filter",
+      "ebay_brand": "Parts Master",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Filters",
       "images": [
         "../assets/pdp-gallery/MGQRQIPVHBDYRPKSBGAUV5WX/02.webp",
         "../assets/pdp-gallery/MGQRQIPVHBDYRPKSBGAUV5WX/03.webp"
-      ]
+      ],
+      "stock": 1
     },
     {
       "id": "MGSQAS75SYG3CKXEJL4EO4AG",
@@ -36492,7 +36573,6 @@
       "category": "filters",
       "checkout": true,
       "variation_id": "MA2WJ4QBVSFKF3IJHNZGAUZV",
-      "stock": 1,
       "part_numbers": [
         "61315",
         "51315"
@@ -36506,11 +36586,6 @@
         "1999\u20132002 Mercury Cougar",
         "1998\u20132000 Mercury Mystique"
       ],
-      "vehicle_count_raw": 46,
-      "ebay_item_id": "398411830472",
-      "ebay_type": "Oil Filter",
-      "ebay_brand": "Parts Master",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Filters",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -36577,10 +36652,16 @@
         "brand": "Parts Master",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Filters"
       },
+      "vehicle_count_raw": 46,
+      "ebay_item_id": "398411830472",
+      "ebay_type": "Oil Filter",
+      "ebay_brand": "Parts Master",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Filters",
       "images": [
         "../assets/pdp-gallery/MGSQAS75SYG3CKXEJL4EO4AG/02.webp",
         "../assets/pdp-gallery/MGSQAS75SYG3CKXEJL4EO4AG/03.webp"
-      ]
+      ],
+      "stock": 1
     },
     {
       "id": "KKZLDXRYO2XUKTN5MYUMLHRH",
@@ -36690,7 +36771,6 @@
       "category": "filters",
       "checkout": true,
       "variation_id": "K5Q4SR3WURIPZHQIO3CGM34V",
-      "stock": 1,
       "part_numbers": [
         "61393",
         "51393 PH2129"
@@ -36704,11 +36784,6 @@
         "1999\u20132005 Volkswagen Golf",
         "1993\u20132016 Volkswagen Jetta"
       ],
-      "vehicle_count_raw": 298,
-      "ebay_item_id": "398411838087",
-      "ebay_type": "Oil Filter",
-      "ebay_brand": "Parts Master",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Filters",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -36775,9 +36850,114 @@
         "brand": "Parts Master",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Filters"
       },
+      "vehicle_count_raw": 298,
+      "ebay_item_id": "398411838087",
+      "ebay_type": "Oil Filter",
+      "ebay_brand": "Parts Master",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Filters",
       "images": [
         "../assets/pdp-gallery/UQIJC7EZZXP25SUVT6FHVL5J/02.webp",
         "../assets/pdp-gallery/UQIJC7EZZXP25SUVT6FHVL5J/03.webp"
+      ],
+      "stock": 1
+    },
+    {
+      "id": "IU27JEQZRMHPBZUDQKHRXQZH",
+      "name": "Parts Master 61626 Oil Filter Jeep Cherokee Wrangler 2.5 4.0 NOS",
+      "price": 11.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/a009a1fba3f78f7e59735393a55e9820f93ab647/original.jpeg",
+      "url": "https://square.link/u/18AIFV3S",
+      "category": "filters",
+      "checkout": true,
+      "variation_id": "E5Y67JYRCRBHKPFZEG2L6CQ6",
+      "stock": 1,
+      "part_numbers": [
+        "61626",
+        "51626 PH3985"
+      ],
+      "interchange": [
+        "WIX51626 PH3985"
+      ],
+      "vehicles": [
+        "1985\u20131990 Jeep Cherokee",
+        "1986\u20131990 Jeep Comanche",
+        "1985\u20131990 Jeep Wagoneer",
+        "1987\u20131990 Jeep Wrangler"
+      ],
+      "vehicle_count_raw": 133,
+      "ebay_item_id": "398411850861",
+      "ebay_type": "Oil Filter",
+      "ebay_brand": "Parts Master",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Filters",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "61626",
+          "51626 PH3985"
+        ],
+        "interchange": [
+          "WIX51626 PH3985"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1985,
+            "year_to": 1990,
+            "make": "Jeep",
+            "model": "Cherokee",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1986,
+            "year_to": 1990,
+            "make": "Jeep",
+            "model": "Comanche",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1990,
+            "make": "Jeep",
+            "model": "Wagoneer",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1990,
+            "make": "Jeep",
+            "model": "Wrangler",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1985\u20131990 Jeep Cherokee",
+          "1986\u20131990 Jeep Comanche",
+          "1985\u20131990 Jeep Wagoneer",
+          "1987\u20131990 Jeep Wrangler"
+        ],
+        "raw_compat_rows": 133,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398411850861",
+        "type": "Oil Filter",
+        "brand": "Parts Master",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Filters"
+      },
+      "images": [
+        "../assets/pdp-gallery/IU27JEQZRMHPBZUDQKHRXQZH/02.webp",
+        "../assets/pdp-gallery/IU27JEQZRMHPBZUDQKHRXQZH/03.webp"
       ]
     },
     {
@@ -38134,6 +38314,117 @@
       "stock": 1
     },
     {
+      "id": "KPUOQCV5ODJ5P2IK5CAXPRVZ",
+      "name": "Parts Master 67002 Oil Filter Mazda 3 CX-5 2.0 2.5 NOS",
+      "price": 11.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/294bd04559c808ec54506cc86bb6ec5742615b84/original.jpeg",
+      "url": "https://square.link/u/cHh0ihDV",
+      "category": "filters",
+      "checkout": true,
+      "variation_id": "UFT3QTQWZ5KTABNBGJSSEPRR",
+      "stock": 1,
+      "part_numbers": [
+        "67002",
+        "57002"
+      ],
+      "interchange": [
+        "WIX57002 57002"
+      ],
+      "vehicles": [
+        "2012\u20132023 Mazda 3",
+        "2017\u20132018 Mazda 6",
+        "2017\u20132023 Mazda CX-3",
+        "2017\u20132023 Mazda CX-5",
+        "2018\u20132023 Mazda MX-5 Miata"
+      ],
+      "vehicle_count_raw": 443,
+      "ebay_item_id": "398411854019",
+      "ebay_type": "Oil Filter",
+      "ebay_brand": "Parts Master",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Filters",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "67002",
+          "57002"
+        ],
+        "interchange": [
+          "WIX57002 57002"
+        ],
+        "vehicles": [
+          {
+            "year_from": 2012,
+            "year_to": 2023,
+            "make": "Mazda",
+            "model": "3",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2017,
+            "year_to": 2018,
+            "make": "Mazda",
+            "model": "6",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2017,
+            "year_to": 2023,
+            "make": "Mazda",
+            "model": "CX-3",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2017,
+            "year_to": 2023,
+            "make": "Mazda",
+            "model": "CX-5",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2018,
+            "year_to": 2023,
+            "make": "Mazda",
+            "model": "MX-5 Miata",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "2012\u20132023 Mazda 3",
+          "2017\u20132018 Mazda 6",
+          "2017\u20132023 Mazda CX-3",
+          "2017\u20132023 Mazda CX-5",
+          "2018\u20132023 Mazda MX-5 Miata"
+        ],
+        "raw_compat_rows": 443,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398411854019",
+        "type": "Oil Filter",
+        "brand": "Parts Master",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Filters"
+      },
+      "images": [
+        "../assets/pdp-gallery/KPUOQCV5ODJ5P2IK5CAXPRVZ/02.webp",
+        "../assets/pdp-gallery/KPUOQCV5ODJ5P2IK5CAXPRVZ/03.webp"
+      ]
+    },
+    {
       "id": "TW4QBBSXO3VQG3MSJEGDVSK6",
       "name": "Parts Master 67021 Oil Filter Volvo S60 C70 2.4 2.5 NOS",
       "price": 11.99,
@@ -38231,6 +38522,549 @@
         "../assets/pdp-gallery/TW4QBBSXO3VQG3MSJEGDVSK6/03.webp"
       ],
       "stock": 1
+    },
+    {
+      "id": "DDU6DJWJJACBJXN77ODZXGZZ",
+      "name": "Parts Master 67041 Oil Filter Tundra Sequoia 4.6 5.0 5.7 NOS",
+      "price": 11.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/4c2bc0f6736d7695f6277fe819f5c19dbd1bc2dc/original.jpeg",
+      "url": "https://square.link/u/rlEsIyWv",
+      "category": "filters",
+      "checkout": true,
+      "variation_id": "KIM62N533JALW6AGHCX3HIRH",
+      "stock": 1,
+      "part_numbers": [
+        "67041",
+        "57041 CH10295"
+      ],
+      "interchange": [
+        "WIX57041 CH10295 PF466G L25702"
+      ],
+      "vehicles": [
+        "2008\u20132014 Lexus IS F",
+        "2008\u20132015 Lexus LX570",
+        "2008\u20132016 Toyota Land Cruiser",
+        "2008\u20132016 Toyota Sequoia",
+        "2008\u20132016 Toyota Tundra"
+      ],
+      "vehicle_count_raw": 228,
+      "ebay_item_id": "398411892019",
+      "ebay_type": "Oil Filter",
+      "ebay_brand": "Parts Master",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Filters",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "67041",
+          "57041 CH10295"
+        ],
+        "interchange": [
+          "WIX57041 CH10295 PF466G L25702"
+        ],
+        "vehicles": [
+          {
+            "year_from": 2008,
+            "year_to": 2014,
+            "make": "Lexus",
+            "model": "IS F",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2008,
+            "year_to": 2015,
+            "make": "Lexus",
+            "model": "LX570",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2008,
+            "year_to": 2016,
+            "make": "Toyota",
+            "model": "Land Cruiser",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2008,
+            "year_to": 2016,
+            "make": "Toyota",
+            "model": "Sequoia",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2008,
+            "year_to": 2016,
+            "make": "Toyota",
+            "model": "Tundra",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "2008\u20132014 Lexus IS F",
+          "2008\u20132015 Lexus LX570",
+          "2008\u20132016 Toyota Land Cruiser",
+          "2008\u20132016 Toyota Sequoia",
+          "2008\u20132016 Toyota Tundra"
+        ],
+        "raw_compat_rows": 228,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398411892019",
+        "type": "Oil Filter",
+        "brand": "Parts Master",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Filters"
+      },
+      "images": [
+        "../assets/pdp-gallery/DDU6DJWJJACBJXN77ODZXGZZ/02.webp",
+        "../assets/pdp-gallery/DDU6DJWJJACBJXN77ODZXGZZ/03.webp"
+      ]
+    },
+    {
+      "id": "NKBJKSTSPXIZEYJ7J4Q6WIEM",
+      "name": "Parts Master 67061 Oil Filter Sonata Azera 3.3 3.8 06-10 NOS",
+      "price": 11.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/93ba0a9eb5a815a6d4cd5cad185a17bcf761f066/original.jpeg",
+      "url": "https://square.link/u/7WqwF5wU",
+      "category": "filters",
+      "checkout": true,
+      "variation_id": "SX34SQSVOO4Z3CHBSDCQDKKP",
+      "stock": 1,
+      "part_numbers": [
+        "67061",
+        "57061 CH9999"
+      ],
+      "interchange": [
+        "WIX57061 CH9999"
+      ],
+      "vehicles": [
+        "2006\u20132009 Hyundai Azera",
+        "2009\u20132016 Hyundai Genesis",
+        "2007\u20132009 Hyundai Santa Fe",
+        "2006\u20132010 Hyundai Sonata",
+        "2007\u20132009 Kia Sedona"
+      ],
+      "vehicle_count_raw": 51,
+      "ebay_item_id": "398411857491",
+      "ebay_type": "Oil Filter",
+      "ebay_brand": "Parts Master",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Filters",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "67061",
+          "57061 CH9999"
+        ],
+        "interchange": [
+          "WIX57061 CH9999"
+        ],
+        "vehicles": [
+          {
+            "year_from": 2006,
+            "year_to": 2009,
+            "make": "Hyundai",
+            "model": "Azera",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2009,
+            "year_to": 2016,
+            "make": "Hyundai",
+            "model": "Genesis",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2007,
+            "year_to": 2009,
+            "make": "Hyundai",
+            "model": "Santa Fe",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2006,
+            "year_to": 2010,
+            "make": "Hyundai",
+            "model": "Sonata",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2007,
+            "year_to": 2009,
+            "make": "Kia",
+            "model": "Sedona",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "2006\u20132009 Hyundai Azera",
+          "2009\u20132016 Hyundai Genesis",
+          "2007\u20132009 Hyundai Santa Fe",
+          "2006\u20132010 Hyundai Sonata",
+          "2007\u20132009 Kia Sedona"
+        ],
+        "raw_compat_rows": 51,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398411857491",
+        "type": "Oil Filter",
+        "brand": "Parts Master",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Filters"
+      },
+      "images": [
+        "../assets/pdp-gallery/NKBJKSTSPXIZEYJ7J4Q6WIEM/02.webp",
+        "../assets/pdp-gallery/NKBJKSTSPXIZEYJ7J4Q6WIEM/03.webp"
+      ]
+    },
+    {
+      "id": "JJRCAB6IFTZ4IARFABCU4HTR",
+      "name": "Parts Master 67064 Oil Filter Toyota 1.8 2.4 2.5 Camry NOS",
+      "price": 11.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/93bf0a6e7222ef85c1c6fdfaa23dd26c4fecb8cb/original.jpeg",
+      "url": "https://square.link/u/7Br4UqfY",
+      "category": "filters",
+      "checkout": true,
+      "variation_id": "XLV7R2YZGYQKFU35EDZQXFDJ",
+      "stock": 1,
+      "part_numbers": [
+        "67064",
+        "57064 CH10556"
+      ],
+      "interchange": [
+        "WIX57064 CH10556 PF1768 L14611"
+      ],
+      "vehicles": [
+        "2009\u20132010 Pontiac Vibe",
+        "2008\u20132015 Scion xB",
+        "2010\u20132017 Toyota Camry",
+        "2009\u20132019 Toyota Corolla"
+      ],
+      "vehicle_count_raw": 144,
+      "ebay_item_id": "398411860458",
+      "ebay_type": "Oil Filter",
+      "ebay_brand": "Parts Master",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Filters",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "67064",
+          "57064 CH10556"
+        ],
+        "interchange": [
+          "WIX57064 CH10556 PF1768 L14611"
+        ],
+        "vehicles": [
+          {
+            "year_from": 2009,
+            "year_to": 2010,
+            "make": "Pontiac",
+            "model": "Vibe",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2008,
+            "year_to": 2015,
+            "make": "Scion",
+            "model": "xB",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2010,
+            "year_to": 2017,
+            "make": "Toyota",
+            "model": "Camry",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2009,
+            "year_to": 2019,
+            "make": "Toyota",
+            "model": "Corolla",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "2009\u20132010 Pontiac Vibe",
+          "2008\u20132015 Scion xB",
+          "2010\u20132017 Toyota Camry",
+          "2009\u20132019 Toyota Corolla"
+        ],
+        "raw_compat_rows": 144,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398411860458",
+        "type": "Oil Filter",
+        "brand": "Parts Master",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Filters"
+      },
+      "images": [
+        "../assets/pdp-gallery/JJRCAB6IFTZ4IARFABCU4HTR/02.webp",
+        "../assets/pdp-gallery/JJRCAB6IFTZ4IARFABCU4HTR/03.webp"
+      ]
+    },
+    {
+      "id": "TPPJUH52FTDFZRQ3K2HHBTC7",
+      "name": "Parts Master 67078 Oil Filter MB Sprinter 3.0 3.2 5.5 NOS",
+      "price": 11.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/ec9d04668af8bc14dd1adb2db4910bde182fee35/original.jpeg",
+      "url": "https://square.link/u/8zQ5CtGx",
+      "category": "filters",
+      "checkout": true,
+      "variation_id": "FVSD5JMEY5ERA2P4R6MIFYI4",
+      "stock": 1,
+      "part_numbers": [
+        "67078",
+        "57078 CH8481"
+      ],
+      "interchange": [
+        "WIX57078 CH8481 7078"
+      ],
+      "vehicles": [
+        "2005\u20132006 Chrysler Crossfire",
+        "2007\u20132009 Dodge Sprinter 2500",
+        "2007\u20132009 Freightliner Sprinter 2500",
+        "2007\u20132009 Mercedes-Benz CLS550",
+        "2007\u20132011 Mercedes-Benz S550"
+      ],
+      "vehicle_count_raw": 38,
+      "ebay_item_id": "398411872717",
+      "ebay_type": "Oil Filter",
+      "ebay_brand": "Parts Master",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Filters",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "67078",
+          "57078 CH8481"
+        ],
+        "interchange": [
+          "WIX57078 CH8481 7078"
+        ],
+        "vehicles": [
+          {
+            "year_from": 2005,
+            "year_to": 2006,
+            "make": "Chrysler",
+            "model": "Crossfire",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2007,
+            "year_to": 2009,
+            "make": "Dodge",
+            "model": "Sprinter 2500",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2007,
+            "year_to": 2009,
+            "make": "Freightliner",
+            "model": "Sprinter 2500",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2007,
+            "year_to": 2009,
+            "make": "Mercedes-Benz",
+            "model": "CLS550",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2007,
+            "year_to": 2011,
+            "make": "Mercedes-Benz",
+            "model": "S550",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "2005\u20132006 Chrysler Crossfire",
+          "2007\u20132009 Dodge Sprinter 2500",
+          "2007\u20132009 Freightliner Sprinter 2500",
+          "2007\u20132009 Mercedes-Benz CLS550",
+          "2007\u20132011 Mercedes-Benz S550"
+        ],
+        "raw_compat_rows": 38,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398411872717",
+        "type": "Oil Filter",
+        "brand": "Parts Master",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Filters"
+      },
+      "images": [
+        "../assets/pdp-gallery/TPPJUH52FTDFZRQ3K2HHBTC7/02.webp",
+        "../assets/pdp-gallery/TPPJUH52FTDFZRQ3K2HHBTC7/03.webp"
+      ]
+    },
+    {
+      "id": "IZ6SVAXZSAIE2764BOUGJRP7",
+      "name": "Parts Master 67090 Oil Filter CTS Camaro 2.8 3.0 3.6 NOS",
+      "price": 11.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/94b67a9e625084432f02f86a7f5a796f599bed07/original.jpeg",
+      "url": "https://square.link/u/r6SJBrT2",
+      "category": "filters",
+      "checkout": true,
+      "variation_id": "OIUGFT3W3UT5A3M6GHQPGETP",
+      "stock": 1,
+      "part_numbers": [
+        "67090",
+        "57090 CH8765"
+      ],
+      "interchange": [
+        "WIX57090 CH8765 L25274 PF2129"
+      ],
+      "vehicles": [
+        "2013\u20132015 Cadillac ATS",
+        "2004\u20132015 Cadillac CTS",
+        "2004\u20132011 Cadillac SRX",
+        "2005\u20132011 Cadillac STS",
+        "2011\u20132015 Chevrolet Camaro"
+      ],
+      "vehicle_count_raw": 174,
+      "ebay_item_id": "398411879108",
+      "ebay_type": "Oil Filter",
+      "ebay_brand": "Parts Master",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Filters",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "67090",
+          "57090 CH8765"
+        ],
+        "interchange": [
+          "WIX57090 CH8765 L25274 PF2129"
+        ],
+        "vehicles": [
+          {
+            "year_from": 2013,
+            "year_to": 2015,
+            "make": "Cadillac",
+            "model": "ATS",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2004,
+            "year_to": 2015,
+            "make": "Cadillac",
+            "model": "CTS",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2004,
+            "year_to": 2011,
+            "make": "Cadillac",
+            "model": "SRX",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2005,
+            "year_to": 2011,
+            "make": "Cadillac",
+            "model": "STS",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2011,
+            "year_to": 2015,
+            "make": "Chevrolet",
+            "model": "Camaro",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "2013\u20132015 Cadillac ATS",
+          "2004\u20132015 Cadillac CTS",
+          "2004\u20132011 Cadillac SRX",
+          "2005\u20132011 Cadillac STS",
+          "2011\u20132015 Chevrolet Camaro"
+        ],
+        "raw_compat_rows": 174,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398411879108",
+        "type": "Oil Filter",
+        "brand": "Parts Master",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Filters"
+      },
+      "images": [
+        "../assets/pdp-gallery/IZ6SVAXZSAIE2764BOUGJRP7/02.webp",
+        "../assets/pdp-gallery/IZ6SVAXZSAIE2764BOUGJRP7/03.webp"
+      ]
     },
     {
       "id": "YQTLEDBRGVZKAEZWXMEOXY7F",
@@ -39078,6 +39912,117 @@
       "stock": 1,
       "interchange": [],
       "images": []
+    },
+    {
+      "id": "5AGU32TWKN2NR2V2LOY4VHTI",
+      "name": "STP S6607 Oil Filter Subaru Impreza Forester 2.0 2.5 NOS",
+      "price": 10.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/2c95a1fe166032bafe3a68c9dd06825b9caa459c/original.jpeg",
+      "url": "https://square.link/u/zlBD6yaD",
+      "category": "filters",
+      "checkout": true,
+      "variation_id": "ZLJCSUW4SP4ZYGLYAYBFAXZU",
+      "stock": 1,
+      "part_numbers": [
+        "S6607",
+        "S6607 PH9715"
+      ],
+      "interchange": [
+        "PH9715 PH7317"
+      ],
+      "vehicles": [
+        "2005\u20132006 Subaru Baja",
+        "2005\u20132010 Subaru Forester",
+        "2008\u20132012 Subaru Impreza",
+        "2008\u20132009 Subaru Legacy",
+        "2005\u20132012 Subaru Outback"
+      ],
+      "vehicle_count_raw": 76,
+      "ebay_item_id": "398411881868",
+      "ebay_type": "Oil Filter",
+      "ebay_brand": "STP",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Filters",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "S6607",
+          "S6607 PH9715"
+        ],
+        "interchange": [
+          "PH9715 PH7317"
+        ],
+        "vehicles": [
+          {
+            "year_from": 2005,
+            "year_to": 2006,
+            "make": "Subaru",
+            "model": "Baja",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2005,
+            "year_to": 2010,
+            "make": "Subaru",
+            "model": "Forester",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2008,
+            "year_to": 2012,
+            "make": "Subaru",
+            "model": "Impreza",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2008,
+            "year_to": 2009,
+            "make": "Subaru",
+            "model": "Legacy",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2005,
+            "year_to": 2012,
+            "make": "Subaru",
+            "model": "Outback",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "2005\u20132006 Subaru Baja",
+          "2005\u20132010 Subaru Forester",
+          "2008\u20132012 Subaru Impreza",
+          "2008\u20132009 Subaru Legacy",
+          "2005\u20132012 Subaru Outback"
+        ],
+        "raw_compat_rows": 76,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398411881868",
+        "type": "Oil Filter",
+        "brand": "STP",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Filters"
+      },
+      "images": [
+        "../assets/pdp-gallery/5AGU32TWKN2NR2V2LOY4VHTI/02.webp",
+        "../assets/pdp-gallery/5AGU32TWKN2NR2V2LOY4VHTI/03.webp"
+      ]
     },
     {
       "id": "ESTITK24EI7YKYV3IBRUE6E4",
@@ -50707,6 +51652,178 @@
         "../assets/pdp-gallery/4OMS4IXDFZS6UBGB4SO6SUVV/03.webp"
       ],
       "stock": 1
+    },
+    {
+      "id": "BR6DVIZHQSYTAUBRYELDSTEX",
+      "name": "WIX 57202XP XP Oil Filter Duramax 6.6 01-16 Silverado Sierra Open Box",
+      "price": 15.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/24854f2ee8a7c6e04c996c234c70a14d75809ea1/original.jpeg",
+      "url": "https://square.link/u/3I7olS1r",
+      "category": "filters",
+      "checkout": true,
+      "variation_id": "5PFNLI54L2FDIIG7G5VQ3GNP",
+      "stock": 1,
+      "part_numbers": [
+        "57202XP",
+        "57202"
+      ],
+      "interchange": [
+        "57202 57202XP"
+      ],
+      "vehicles": [
+        "2001\u20132016 Chevrolet Silverado 2500 HD",
+        "2001\u20132016 GMC Sierra 2500 HD"
+      ],
+      "vehicle_count_raw": 277,
+      "ebay_item_id": "398411884048",
+      "ebay_type": "Oil Filter",
+      "ebay_brand": "WIX",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Filters",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "57202XP",
+          "57202"
+        ],
+        "interchange": [
+          "57202 57202XP"
+        ],
+        "vehicles": [
+          {
+            "year_from": 2001,
+            "year_to": 2016,
+            "make": "Chevrolet",
+            "model": "Silverado 2500 HD",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2001,
+            "year_to": 2016,
+            "make": "GMC",
+            "model": "Sierra 2500 HD",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "2001\u20132016 Chevrolet Silverado 2500 HD",
+          "2001\u20132016 GMC Sierra 2500 HD"
+        ],
+        "raw_compat_rows": 277,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398411884048",
+        "type": "Oil Filter",
+        "brand": "WIX",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Filters"
+      },
+      "images": [
+        "../assets/pdp-gallery/BR6DVIZHQSYTAUBRYELDSTEX/02.webp",
+        "../assets/pdp-gallery/BR6DVIZHQSYTAUBRYELDSTEX/03.webp"
+      ]
+    },
+    {
+      "id": "TDR2W6Y6XCVTR2U4ZFWM6KP3",
+      "name": "WIX 57302 Oil Filter LS Jaguar 3.0 3.9 4.2 02-06 NOS",
+      "price": 11.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/6f0dad4bf50e0fc1f5844849151d9821693e1508/original.jpeg",
+      "url": "https://square.link/u/mjNYTcDk",
+      "category": "filters",
+      "checkout": true,
+      "variation_id": "YAXJ6OZ4OI5GLCV7C5LXEE63",
+      "stock": 2,
+      "part_numbers": [
+        "57302"
+      ],
+      "interchange": [
+        "57302 NAPA7302"
+      ],
+      "vehicles": [
+        "2003\u20132005 Ford Thunderbird",
+        "2009\u20132010 Jaguar XF",
+        "2004\u20132009 Jaguar XJ8",
+        "2002\u20132006 Lincoln LS"
+      ],
+      "vehicle_count_raw": 51,
+      "ebay_item_id": "398411886654",
+      "ebay_type": "Oil Filter",
+      "ebay_brand": "WIX",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Filters",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "57302"
+        ],
+        "interchange": [
+          "57302 NAPA7302"
+        ],
+        "vehicles": [
+          {
+            "year_from": 2003,
+            "year_to": 2005,
+            "make": "Ford",
+            "model": "Thunderbird",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2009,
+            "year_to": 2010,
+            "make": "Jaguar",
+            "model": "XF",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2004,
+            "year_to": 2009,
+            "make": "Jaguar",
+            "model": "XJ8",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2002,
+            "year_to": 2006,
+            "make": "Lincoln",
+            "model": "LS",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "2003\u20132005 Ford Thunderbird",
+          "2009\u20132010 Jaguar XF",
+          "2004\u20132009 Jaguar XJ8",
+          "2002\u20132006 Lincoln LS"
+        ],
+        "raw_compat_rows": 51,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398411886654",
+        "type": "Oil Filter",
+        "brand": "WIX",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Filters"
+      },
+      "images": [
+        "../assets/pdp-gallery/TDR2W6Y6XCVTR2U4ZFWM6KP3/02.webp",
+        "../assets/pdp-gallery/TDR2W6Y6XCVTR2U4ZFWM6KP3/03.webp"
+      ]
     },
     {
       "id": "ELU4H27CU63ESZG72XG5V5EP",
@@ -100777,6 +101894,174 @@
       "vehicles": []
     },
     {
+      "id": "VTYIPJ7EPD7J54IDW6TTN7BW",
+      "name": "McQuay-Norris DS899 Center Link GM Impala Caprice 77-96 NOS",
+      "price": 34.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/cd468fa97be85a2e4b432779fe5fbbc9c3feb384/original.jpeg",
+      "url": "https://square.link/u/UH45quCw",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "ESTW4XDVQ7WWDKYXSLNFUYGN",
+      "stock": 1,
+      "part_numbers": [
+        "DS899",
+        "DS899 MOOG DS899"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1977\u20131989 Buick Electra",
+        "1977\u20131990 Buick LeSabre",
+        "1991\u20131996 Buick Roadmaster",
+        "1977\u20131984 Cadillac DeVille",
+        "1977\u20131984 Cadillac Fleetwood",
+        "1977\u20131996 Chevrolet Caprice",
+        "1977\u20131996 Chevrolet Impala",
+        "1977\u20131984 Oldsmobile 98",
+        "1978\u20131992 Oldsmobile Custom Cruiser",
+        "1977\u20131981 Pontiac Bonneville"
+      ],
+      "vehicle_count_raw": 1120,
+      "ebay_item_id": "398411959342",
+      "ebay_type": "Center Link",
+      "ebay_brand": "McQuay-Norris",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Steering & Suspension:Tie Rods & Steering Linkages",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "DS899",
+          "DS899 MOOG DS899"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1977,
+            "year_to": 1989,
+            "make": "Buick",
+            "model": "Electra",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1977,
+            "year_to": 1990,
+            "make": "Buick",
+            "model": "LeSabre",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1991,
+            "year_to": 1996,
+            "make": "Buick",
+            "model": "Roadmaster",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1977,
+            "year_to": 1984,
+            "make": "Cadillac",
+            "model": "DeVille",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1977,
+            "year_to": 1984,
+            "make": "Cadillac",
+            "model": "Fleetwood",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1977,
+            "year_to": 1996,
+            "make": "Chevrolet",
+            "model": "Caprice",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1977,
+            "year_to": 1996,
+            "make": "Chevrolet",
+            "model": "Impala",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1977,
+            "year_to": 1984,
+            "make": "Oldsmobile",
+            "model": "98",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1978,
+            "year_to": 1992,
+            "make": "Oldsmobile",
+            "model": "Custom Cruiser",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1977,
+            "year_to": 1981,
+            "make": "Pontiac",
+            "model": "Bonneville",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1977\u20131989 Buick Electra",
+          "1977\u20131990 Buick LeSabre",
+          "1991\u20131996 Buick Roadmaster",
+          "1977\u20131984 Cadillac DeVille",
+          "1977\u20131984 Cadillac Fleetwood",
+          "1977\u20131996 Chevrolet Caprice",
+          "1977\u20131996 Chevrolet Impala",
+          "1977\u20131984 Oldsmobile 98",
+          "1978\u20131992 Oldsmobile Custom Cruiser",
+          "1977\u20131981 Pontiac Bonneville"
+        ],
+        "raw_compat_rows": 1120,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398411959342",
+        "type": "Center Link",
+        "brand": "McQuay-Norris",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Steering & Suspension:Tie Rods & Steering Linkages"
+      },
+      "images": [
+        "../assets/pdp-gallery/VTYIPJ7EPD7J54IDW6TTN7BW/02.webp",
+        "../assets/pdp-gallery/VTYIPJ7EPD7J54IDW6TTN7BW/03.webp",
+        "../assets/pdp-gallery/VTYIPJ7EPD7J54IDW6TTN7BW/04.webp"
+      ]
+    },
+    {
       "id": "NRDBN3JUVZD6MI5P7CLGDVIL",
       "name": "Mevotech GK5252 Front Sway Bar Link Kit Buick Skylark 75-98 NOS",
       "price": 8.99,
@@ -124004,5 +125289,5 @@
       "ebay_brand": ""
     }
   ],
-  "fitment_built": "2026-09-19T22:03:17Z"
+  "fitment_built": "2026-09-19T23:03:37Z"
 }
