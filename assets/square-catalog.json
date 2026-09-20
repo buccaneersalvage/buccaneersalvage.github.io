@@ -1,7 +1,7 @@
 {
-  "updated": "2026-09-20T05:02:42Z",
+  "updated": "2026-09-20T13:02:19Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 919,
+  "count": 918,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -2825,7 +2825,6 @@
       "category": "brake",
       "checkout": true,
       "variation_id": "CJ2ZKL6KVBNOWJMXVMXJSMD7",
-      "stock": 1,
       "part_numbers": [
         "R514",
         "514 514PG PAB514 17514R WB514R BS514"
@@ -2858,11 +2857,6 @@
         "1982\u20131997 Pontiac Firebird",
         "1978\u20131987 Pontiac Grand Prix"
       ],
-      "vehicle_count_raw": 2492,
-      "ebay_item_id": "398412527707",
-      "ebay_type": "Drum Brake Shoe",
-      "ebay_brand": "Bendix",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Shoes",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -3138,10 +3132,16 @@
         "brand": "Bendix",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Shoes"
       },
+      "vehicle_count_raw": 2492,
+      "ebay_item_id": "398412527707",
+      "ebay_type": "Drum Brake Shoe",
+      "ebay_brand": "Bendix",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Shoes",
       "images": [
         "../assets/pdp-gallery/PJ2SVR6HLYYPEDE7PWZUMODZ/02.webp",
         "../assets/pdp-gallery/PJ2SVR6HLYYPEDE7PWZUMODZ/03.webp"
-      ]
+      ],
+      "stock": 1
     },
     {
       "id": "GYSLEHLNSTF3J332J3PTAXOA",
@@ -34248,7 +34248,6 @@
       "category": "brake",
       "checkout": true,
       "variation_id": "VFQRFI4B5SW6BU75O44L3Z76",
-      "stock": 1,
       "part_numbers": [
         "201981",
         "1259649"
@@ -34267,11 +34266,6 @@
         "1990\u20131998 Pontiac Grand Am",
         "1995\u20132002 Pontiac Sunfire"
       ],
-      "vehicle_count_raw": 801,
-      "ebay_item_id": "398412553520",
-      "ebay_type": "Brake Drum",
-      "ebay_brand": "UBP",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Drums",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -34393,10 +34387,16 @@
         "brand": "UBP",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Drums"
       },
+      "vehicle_count_raw": 801,
+      "ebay_item_id": "398412553520",
+      "ebay_type": "Brake Drum",
+      "ebay_brand": "UBP",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Drums",
       "images": [
         "../assets/pdp-gallery/KBNLLN5LMMY2YC5RXXXAFLWJ/02.webp",
         "../assets/pdp-gallery/KBNLLN5LMMY2YC5RXXXAFLWJ/03.webp"
-      ]
+      ],
+      "stock": 1
     },
     {
       "id": "E5W6LM2IYFLBQ26MLWESLEQK",
@@ -47378,110 +47378,6 @@
       "images": [
         "../assets/pdp-gallery/E6A4YDYWUXE5FOMK6D7EQFSP/02.webp",
         "../assets/pdp-gallery/E6A4YDYWUXE5FOMK6D7EQFSP/03.webp"
-      ],
-      "stock": 1
-    },
-    {
-      "id": "OIA6PNB475HKCLRVKAZJKRUD",
-      "name": "WIX 46148 Air Filter Panel 2.2 2.6 3.0 88-98 Mazda MPV 929 B2200 B2600 NOS",
-      "price": 13.99,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/fcd1eb30833496d948f54c9cafea7dace0f84505/original.jpeg",
-      "url": "https://square.link/u/s3A9dhHk",
-      "category": "filters",
-      "checkout": true,
-      "variation_id": "WPFL7KG7Z47H6LSEJ2EUHPCG",
-      "part_numbers": [
-        "46148",
-        "Purolator A34625, Carquest 88148, Mazda JE15-13-Z40"
-      ],
-      "interchange": [
-        "NAPA 6148",
-        "FRAM CA6558",
-        "Baldwin PA2212"
-      ],
-      "vehicles": [
-        "1988\u20131991 Mazda 929",
-        "1990\u20131993 Mazda B2200",
-        "1989\u20131993 Mazda B2600",
-        "1989\u20131998 Mazda MPV"
-      ],
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "high",
-      "fitment": {
-        "part_numbers": [
-          "46148",
-          "Purolator A34625, Carquest 88148, Mazda JE15-13-Z40"
-        ],
-        "interchange": [
-          "NAPA 6148",
-          "FRAM CA6558",
-          "Baldwin PA2212"
-        ],
-        "vehicles": [
-          {
-            "year_from": 1988,
-            "year_to": 1991,
-            "make": "Mazda",
-            "model": "929",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1990,
-            "year_to": 1993,
-            "make": "Mazda",
-            "model": "B2200",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1989,
-            "year_to": 1993,
-            "make": "Mazda",
-            "model": "B2600",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1989,
-            "year_to": 1998,
-            "make": "Mazda",
-            "model": "MPV",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          }
-        ],
-        "vehicle_labels": [
-          "1988\u20131991 Mazda 929",
-          "1990\u20131993 Mazda B2200",
-          "1989\u20131993 Mazda B2600",
-          "1989\u20131998 Mazda MPV"
-        ],
-        "raw_compat_rows": 75,
-        "source": "ebay_listing",
-        "confidence": "high",
-        "ebay_item_id": "398410768821",
-        "type": "Air Filter",
-        "brand": "WIX",
-        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Filters"
-      },
-      "vehicle_count_raw": 75,
-      "ebay_item_id": "398410768821",
-      "ebay_type": "Air Filter",
-      "ebay_brand": "WIX",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Filters",
-      "images": [
-        "../assets/pdp-gallery/OIA6PNB475HKCLRVKAZJKRUD/02.webp",
-        "../assets/pdp-gallery/OIA6PNB475HKCLRVKAZJKRUD/03.webp",
-        "../assets/pdp-gallery/OIA6PNB475HKCLRVKAZJKRUD/04.webp"
       ],
       "stock": 1
     },
@@ -78199,17 +78095,9 @@
       "category": "other",
       "checkout": true,
       "variation_id": "FHTNBITUDWFUQ7HKLCF3IRFZ",
-      "stock": 1,
       "part_numbers": [
         "7672"
       ],
-      "interchange": [],
-      "vehicles": [],
-      "vehicle_count_raw": 0,
-      "ebay_item_id": "398412542931",
-      "ebay_type": "Repair Manual",
-      "ebay_brand": "Chilton",
-      "ebay_category": "eBay Motors:Parts & Accessories:Manuals & Literature:Car & Truck Manuals:Service & Repair Manuals",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "medium",
       "fitment": {
@@ -78227,12 +78115,20 @@
         "brand": "Chilton",
         "ebay_category": "eBay Motors:Parts & Accessories:Manuals & Literature:Car & Truck Manuals:Service & Repair Manuals"
       },
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398412542931",
+      "ebay_type": "Repair Manual",
+      "ebay_brand": "Chilton",
+      "ebay_category": "eBay Motors:Parts & Accessories:Manuals & Literature:Car & Truck Manuals:Service & Repair Manuals",
       "images": [
         "../assets/pdp-gallery/CJDPFZ2DD6AUZ4NKMGNTDXAS/02.webp",
         "../assets/pdp-gallery/CJDPFZ2DD6AUZ4NKMGNTDXAS/03.webp",
         "../assets/pdp-gallery/CJDPFZ2DD6AUZ4NKMGNTDXAS/04.webp",
         "../assets/pdp-gallery/CJDPFZ2DD6AUZ4NKMGNTDXAS/05.webp"
-      ]
+      ],
+      "stock": 1,
+      "interchange": [],
+      "vehicles": []
     },
     {
       "id": "JMZTZB47FVKZLALMJ2FAAV2F",
@@ -126336,5 +126232,5 @@
       "ebay_brand": ""
     }
   ],
-  "fitment_built": "2026-09-20T05:02:42Z"
+  "fitment_built": "2026-09-20T13:02:19Z"
 }
