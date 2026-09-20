@@ -1,7 +1,7 @@
 {
-  "updated": "2026-09-20T00:02:48Z",
+  "updated": "2026-09-20T01:02:46Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 915,
+  "count": 914,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -74821,86 +74821,6 @@
       "stock": 1
     },
     {
-      "id": "4UWHWKFIVKHSGDPTP7P6Q6AK",
-      "name": "Blue Streak AL111X Condenser NOS 46-72 Chrysler Dodge Jeep",
-      "price": 14.99,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/2dade5f0b37a4a9aef9ddf22eaf017d7d9f9cc2a/original.jpeg",
-      "url": "https://square.link/u/7o8fU2wN",
-      "category": "other",
-      "checkout": true,
-      "variation_id": "PR4YQ7PK44WEPNSJEAH7V5E5",
-      "part_numbers": [
-        "AL111X",
-        "Wells AL1531, Airtex 5H1018, ACDelco A202Z"
-      ],
-      "interchange": [
-        "Echlin AL869",
-        "BWD G124",
-        "Chrysler 200597"
-      ],
-      "vehicles": [
-        "1970\u20131972 Dodge Charger",
-        "1965\u20131967 Jeep CJ5"
-      ],
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "high",
-      "fitment": {
-        "part_numbers": [
-          "AL111X",
-          "Wells AL1531, Airtex 5H1018, ACDelco A202Z"
-        ],
-        "interchange": [
-          "Echlin AL869",
-          "BWD G124",
-          "Chrysler 200597"
-        ],
-        "vehicles": [
-          {
-            "year_from": 1970,
-            "year_to": 1972,
-            "make": "Dodge",
-            "model": "Charger",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1965,
-            "year_to": 1967,
-            "make": "Jeep",
-            "model": "CJ5",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          }
-        ],
-        "vehicle_labels": [
-          "1970\u20131972 Dodge Charger",
-          "1965\u20131967 Jeep CJ5"
-        ],
-        "raw_compat_rows": 17,
-        "source": "ebay_listing",
-        "confidence": "high",
-        "ebay_item_id": "398317629558",
-        "type": "Distributor Condenser",
-        "brand": "Blue Streak",
-        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Condensers"
-      },
-      "vehicle_count_raw": 17,
-      "ebay_item_id": "398317629558",
-      "ebay_type": "Distributor Condenser",
-      "ebay_brand": "Blue Streak",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Condensers",
-      "images": [
-        "../assets/pdp-gallery/4UWHWKFIVKHSGDPTP7P6Q6AK/02.webp",
-        "../assets/pdp-gallery/4UWHWKFIVKHSGDPTP7P6Q6AK/03.webp",
-        "../assets/pdp-gallery/4UWHWKFIVKHSGDPTP7P6Q6AK/04.webp"
-      ],
-      "stock": 1
-    },
-    {
       "id": "XBBH2T6O2TDRMTYC7LVWIGQN",
       "name": "Blue Streak DR-318X Rotor NOS 5.0 5.7 7.4 Camaro C10",
       "price": 12.99,
@@ -101694,15 +101614,6 @@
       "category": "other",
       "checkout": true,
       "variation_id": "VLOHJ7NGFMVSU453FBYO7WQG",
-      "stock": 1,
-      "part_numbers": [],
-      "interchange": [],
-      "vehicles": [],
-      "vehicle_count_raw": 0,
-      "ebay_item_id": "398411968064",
-      "ebay_type": "Walker Wheel",
-      "ebay_brand": "Unbranded",
-      "ebay_category": "Business & Industrial:Material Handling:Casters & Wheels:Caster Wheels",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "medium",
       "fitment": {
@@ -101718,10 +101629,19 @@
         "brand": "Unbranded",
         "ebay_category": "Business & Industrial:Material Handling:Casters & Wheels:Caster Wheels"
       },
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398411968064",
+      "ebay_type": "Walker Wheel",
+      "ebay_brand": "Unbranded",
+      "ebay_category": "Business & Industrial:Material Handling:Casters & Wheels:Caster Wheels",
       "images": [
         "../assets/pdp-gallery/NQLHK4JLMNADV5YMD27ISSK4/02.webp",
         "../assets/pdp-gallery/NQLHK4JLMNADV5YMD27ISSK4/03.webp"
-      ]
+      ],
+      "stock": 1,
+      "part_numbers": [],
+      "interchange": [],
+      "vehicles": []
     },
     {
       "id": "XSFWEU4ICEZANCDYVSZAVHW4",
@@ -101732,15 +101652,6 @@
       "category": "other",
       "checkout": true,
       "variation_id": "P2COCKLXE6MKR6RCJQ7BZDXS",
-      "stock": 2,
-      "part_numbers": [],
-      "interchange": [],
-      "vehicles": [],
-      "vehicle_count_raw": 0,
-      "ebay_item_id": "398411960900",
-      "ebay_type": "Walker Wheel",
-      "ebay_brand": "Unbranded",
-      "ebay_category": "Business & Industrial:Material Handling:Casters & Wheels:Caster Wheels",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "medium",
       "fitment": {
@@ -101756,11 +101667,20 @@
         "brand": "Unbranded",
         "ebay_category": "Business & Industrial:Material Handling:Casters & Wheels:Caster Wheels"
       },
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398411960900",
+      "ebay_type": "Walker Wheel",
+      "ebay_brand": "Unbranded",
+      "ebay_category": "Business & Industrial:Material Handling:Casters & Wheels:Caster Wheels",
       "images": [
         "../assets/pdp-gallery/XSFWEU4ICEZANCDYVSZAVHW4/02.webp",
         "../assets/pdp-gallery/XSFWEU4ICEZANCDYVSZAVHW4/03.webp",
         "../assets/pdp-gallery/XSFWEU4ICEZANCDYVSZAVHW4/04.webp"
-      ]
+      ],
+      "stock": 2,
+      "part_numbers": [],
+      "interchange": [],
+      "vehicles": []
     },
     {
       "id": "RT35B2NYUOAGKHFXR7PF3ZBV",
@@ -122029,15 +121949,6 @@
       "category": "other",
       "checkout": true,
       "variation_id": "KWHYLB2VQNMBIVIZU43SAKXK",
-      "stock": 1,
-      "part_numbers": [],
-      "interchange": [],
-      "vehicles": [],
-      "vehicle_count_raw": 0,
-      "ebay_item_id": "398411963656",
-      "ebay_type": "Oil Can / Oil Jug",
-      "ebay_brand": "Unbranded",
-      "ebay_category": "Collectibles:Advertising:Gas & Oil:Merchandise & Memorabilia:Cans & Buckets",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "medium",
       "fitment": {
@@ -122053,11 +121964,20 @@
         "brand": "Unbranded",
         "ebay_category": "Collectibles:Advertising:Gas & Oil:Merchandise & Memorabilia:Cans & Buckets"
       },
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398411963656",
+      "ebay_type": "Oil Can / Oil Jug",
+      "ebay_brand": "Unbranded",
+      "ebay_category": "Collectibles:Advertising:Gas & Oil:Merchandise & Memorabilia:Cans & Buckets",
       "images": [
         "../assets/pdp-gallery/YOAYCZ4MJCBPYWI3SY4LK7DW/02.webp",
         "../assets/pdp-gallery/YOAYCZ4MJCBPYWI3SY4LK7DW/03.webp",
         "../assets/pdp-gallery/YOAYCZ4MJCBPYWI3SY4LK7DW/04.webp"
-      ]
+      ],
+      "stock": 1,
+      "part_numbers": [],
+      "interchange": [],
+      "vehicles": []
     },
     {
       "id": "4IWVMECZEMO5R5Z57FJ4ZNDQ",
@@ -125405,5 +125325,5 @@
       "ebay_brand": ""
     }
   ],
-  "fitment_built": "2026-09-20T00:02:48Z"
+  "fitment_built": "2026-09-20T01:02:46Z"
 }
