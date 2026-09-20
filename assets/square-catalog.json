@@ -1,7 +1,7 @@
 {
-  "updated": "2026-09-20T21:02:18Z",
+  "updated": "2026-09-20T21:23:01Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 923,
+  "count": 924,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -34505,6 +34505,81 @@
       "interchange": []
     },
     {
+      "id": "MCKEHYTQNCFONCABSPRZXC6C",
+      "name": "Wagner BD61988 Front Brake Rotor Audi Cabriolet Coupe Quattro Used",
+      "price": 24.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/04c30780c93e566a26a1828e3d046d7ba57c9b9c/original.jpeg",
+      "url": "https://square.link/u/zTozYHKa",
+      "category": "brake",
+      "checkout": true,
+      "variation_id": "XPVNNI5TZZ3ZEVEMHRVL7P3W",
+      "stock": 1,
+      "part_numbers": [
+        "BD61988",
+        "639462, 61983"
+      ],
+      "interchange": [
+        "96428"
+      ],
+      "vehicles": [
+        "1994\u20131998 Audi Cabriolet",
+        "1990\u20131991 Audi Coupe Quattro"
+      ],
+      "vehicle_count_raw": 7,
+      "ebay_item_id": "398414732968",
+      "ebay_type": "Disc Brake Rotor",
+      "ebay_brand": "Wagner",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Disc Rotors",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "BD61988",
+          "639462, 61983"
+        ],
+        "interchange": [
+          "96428"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1994,
+            "year_to": 1998,
+            "make": "Audi",
+            "model": "Cabriolet",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1990,
+            "year_to": 1991,
+            "make": "Audi",
+            "model": "Coupe Quattro",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1994\u20131998 Audi Cabriolet",
+          "1990\u20131991 Audi Coupe Quattro"
+        ],
+        "raw_compat_rows": 7,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398414732968",
+        "type": "Disc Brake Rotor",
+        "brand": "Wagner",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Disc Rotors"
+      },
+      "images": [
+        "../assets/pdp-gallery/MCKEHYTQNCFONCABSPRZXC6C/02.webp",
+        "../assets/pdp-gallery/MCKEHYTQNCFONCABSPRZXC6C/03.webp"
+      ]
+    },
+    {
       "id": "UD6AH2CC4HDMSJS6FE7TTMGV",
       "name": "Wagner BD61992 Front Brake Rotor Escort Tracer Protege 1.8L Used",
       "price": 24.99,
@@ -34513,7 +34588,6 @@
       "category": "brake",
       "checkout": true,
       "variation_id": "LXSWQE7LHGA54VG36SD44IWU",
-      "stock": 1,
       "part_numbers": [
         "BD61992",
         "61983, FD5640"
@@ -34527,11 +34601,6 @@
         "1995 Mazda MX-3",
         "1995\u20131996 Mercury Tracer"
       ],
-      "vehicle_count_raw": 7,
-      "ebay_item_id": "398414679335",
-      "ebay_type": "Disc Brake Rotor",
-      "ebay_brand": "Wagner",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Disc Rotors",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -34588,10 +34657,16 @@
         "brand": "Wagner",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Disc Rotors"
       },
+      "vehicle_count_raw": 7,
+      "ebay_item_id": "398414679335",
+      "ebay_type": "Disc Brake Rotor",
+      "ebay_brand": "Wagner",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Disc Rotors",
       "images": [
         "../assets/pdp-gallery/UD6AH2CC4HDMSJS6FE7TTMGV/02.webp",
         "../assets/pdp-gallery/UD6AH2CC4HDMSJS6FE7TTMGV/03.webp"
-      ]
+      ],
+      "stock": 1
     },
     {
       "id": "P7Z5QGCU4NTYW4DFMTMTFKBV",
@@ -126614,5 +126689,5 @@
       "ebay_brand": ""
     }
   ],
-  "fitment_built": "2026-09-20T21:02:18Z"
+  "fitment_built": "2026-09-20T21:23:01Z"
 }
