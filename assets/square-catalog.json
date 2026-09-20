@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-20T19:31:40Z",
+  "updated": "2026-09-20T20:02:25Z",
   "store": "https://buccaneersalvage.square.site/",
   "count": 924,
   "items": [
@@ -33051,7 +33051,7 @@
       "ebay_type": "Parking Brake Rear Cable",
       "ebay_brand": "GM",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Cables",
-      "fitment_source": "ebay_listing+title",
+      "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
@@ -33097,7 +33097,7 @@
           "1995\u20131997 GMC Sonoma"
         ],
         "raw_compat_rows": 74,
-        "source": "ebay_listing+title",
+        "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398414492057",
         "type": "Parking Brake Rear Cable",
@@ -33137,7 +33137,7 @@
       "ebay_type": "Parking Brake Intermediate Cable",
       "ebay_brand": "GM",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Cables",
-      "fitment_source": "ebay_listing+title",
+      "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
@@ -33205,7 +33205,7 @@
           "1979\u20131983 GMC C2500"
         ],
         "raw_compat_rows": 1562,
-        "source": "ebay_listing+title",
+        "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398414490427",
         "type": "Parking Brake Intermediate Cable",
@@ -122501,7 +122501,9 @@
       },
       "images": [
         "../assets/pdp-gallery/DWS3RDJ7XVKWRKBHES4Z2CJE/02.webp",
-        "../assets/pdp-gallery/DWS3RDJ7XVKWRKBHES4Z2CJE/03.webp"
+        "../assets/pdp-gallery/DWS3RDJ7XVKWRKBHES4Z2CJE/03.webp",
+        "../assets/pdp-gallery/DWS3RDJ7XVKWRKBHES4Z2CJE/04.webp",
+        "../assets/pdp-gallery/DWS3RDJ7XVKWRKBHES4Z2CJE/05.webp"
       ]
     },
     {
@@ -126749,5 +126751,5 @@
       "ebay_brand": ""
     }
   ],
-  "fitment_built": "2026-09-20T19:31:40Z"
+  "fitment_built": "2026-09-20T20:02:25Z"
 }
