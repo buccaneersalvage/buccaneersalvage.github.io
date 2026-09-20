@@ -1,7 +1,7 @@
 {
-  "updated": "2026-09-20T19:02:18Z",
+  "updated": "2026-09-20T19:31:40Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 919,
+  "count": 924,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -33027,6 +33027,198 @@
       "interchange": []
     },
     {
+      "id": "EQVVAN54AR4BIPSYNT3LYF66",
+      "name": "GM 15710047 Parking Brake Rear Cable LH S10 Sonoma 95-97 NOS",
+      "price": 29.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/0eff8b99bc332e41d68614215bcf569bcff51af5/original.jpeg",
+      "url": "https://square.link/u/CMuerNcT",
+      "category": "brake",
+      "checkout": true,
+      "variation_id": "TB2AB66RPYZND5XE5FBYP6DZ",
+      "stock": 1,
+      "part_numbers": [
+        "15710047",
+        "C95028, 15709833, 15990411"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1995\u20131997 Chevrolet S10",
+        "1995\u20131997 GM 15710047",
+        "1995\u20131997 GMC Sonoma"
+      ],
+      "vehicle_count_raw": 74,
+      "ebay_item_id": "398414492057",
+      "ebay_type": "Parking Brake Rear Cable",
+      "ebay_brand": "GM",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Cables",
+      "fitment_source": "ebay_listing+title",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "15710047",
+          "C95028, 15709833, 15990411"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1995,
+            "year_to": 1997,
+            "make": "Chevrolet",
+            "model": "S10",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1995,
+            "year_to": 1997,
+            "make": "GM",
+            "model": "15710047",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1995,
+            "year_to": 1997,
+            "make": "GMC",
+            "model": "Sonoma",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1995\u20131997 Chevrolet S10",
+          "1995\u20131997 GM 15710047",
+          "1995\u20131997 GMC Sonoma"
+        ],
+        "raw_compat_rows": 74,
+        "source": "ebay_listing+title",
+        "confidence": "high",
+        "ebay_item_id": "398414492057",
+        "type": "Parking Brake Rear Cable",
+        "brand": "GM",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Cables"
+      },
+      "images": [
+        "../assets/pdp-gallery/EQVVAN54AR4BIPSYNT3LYF66/02.webp",
+        "../assets/pdp-gallery/EQVVAN54AR4BIPSYNT3LYF66/03.webp",
+        "../assets/pdp-gallery/EQVVAN54AR4BIPSYNT3LYF66/04.webp"
+      ]
+    },
+    {
+      "id": "VJVQD4DF34CMAIPX3G4ZXY7H",
+      "name": "GM 332724 Parking Brake Intermediate Cable C10 C20 75-83 NOS",
+      "price": 24.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/d3ac928127571039024994e82cc2c1874cdadfd8/original.jpeg",
+      "url": "https://square.link/u/L4QHRlja",
+      "category": "brake",
+      "checkout": true,
+      "variation_id": "CE2FIRY2N7MIZVRFTW6IGTAT",
+      "stock": 1,
+      "part_numbers": [
+        "332724",
+        "C93067, BC93067"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1975\u20131983 Chevrolet C10",
+        "1976\u20131983 Chevrolet C20",
+        "1975\u20131983 GM 332724",
+        "1979\u20131983 GMC C1500",
+        "1979\u20131983 GMC C2500"
+      ],
+      "vehicle_count_raw": 1562,
+      "ebay_item_id": "398414490427",
+      "ebay_type": "Parking Brake Intermediate Cable",
+      "ebay_brand": "GM",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Cables",
+      "fitment_source": "ebay_listing+title",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "332724",
+          "C93067, BC93067"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1975,
+            "year_to": 1983,
+            "make": "Chevrolet",
+            "model": "C10",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1976,
+            "year_to": 1983,
+            "make": "Chevrolet",
+            "model": "C20",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1975,
+            "year_to": 1983,
+            "make": "GM",
+            "model": "332724",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1979,
+            "year_to": 1983,
+            "make": "GMC",
+            "model": "C1500",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1979,
+            "year_to": 1983,
+            "make": "GMC",
+            "model": "C2500",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1975\u20131983 Chevrolet C10",
+          "1976\u20131983 Chevrolet C20",
+          "1975\u20131983 GM 332724",
+          "1979\u20131983 GMC C1500",
+          "1979\u20131983 GMC C2500"
+        ],
+        "raw_compat_rows": 1562,
+        "source": "ebay_listing+title",
+        "confidence": "high",
+        "ebay_item_id": "398414490427",
+        "type": "Parking Brake Intermediate Cable",
+        "brand": "GM",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Cables"
+      },
+      "images": [
+        "../assets/pdp-gallery/VJVQD4DF34CMAIPX3G4ZXY7H/02.webp",
+        "../assets/pdp-gallery/VJVQD4DF34CMAIPX3G4ZXY7H/03.webp",
+        "../assets/pdp-gallery/VJVQD4DF34CMAIPX3G4ZXY7H/04.webp"
+      ]
+    },
+    {
       "id": "AY6IRRZZJKM42KV3PSO6YDHV",
       "name": "Lee 7071 Drum Brake Hardware Kit NOS 75-96 F-150 Bronco",
       "price": 12.99,
@@ -38969,6 +39161,90 @@
         "../assets/pdp-gallery/24VAGNGTORYL3EB2VFZXC5PV/04.webp"
       ],
       "stock": 1
+    },
+    {
+      "id": "CIF3K62YVRDKE2FPMUVTYJFD",
+      "name": "Parts Master 66834 Air Filter 1.8L WIX 46834 Corolla Matrix NOS",
+      "price": 12.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/9724cf4fee4a61af07af26e7e06c807056c258d2/original.jpeg",
+      "url": "https://square.link/u/ycvF3xjg",
+      "category": "filters",
+      "checkout": true,
+      "variation_id": "TMAIS4KDMLQSJGXWPA5IQSNU",
+      "stock": 1,
+      "part_numbers": [
+        "66834",
+        "46834, 88834, PA5463, CA9482"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "2003\u20132008 Pontiac Vibe",
+        "2003\u20132008 Toyota Corolla",
+        "2003\u20132008 Toyota Matrix"
+      ],
+      "vehicle_count_raw": 43,
+      "ebay_item_id": "398414495151",
+      "ebay_type": "Air Filter",
+      "ebay_brand": "Parts Master",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Filters",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "66834",
+          "46834, 88834, PA5463, CA9482"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 2003,
+            "year_to": 2008,
+            "make": "Pontiac",
+            "model": "Vibe",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2003,
+            "year_to": 2008,
+            "make": "Toyota",
+            "model": "Corolla",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2003,
+            "year_to": 2008,
+            "make": "Toyota",
+            "model": "Matrix",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "2003\u20132008 Pontiac Vibe",
+          "2003\u20132008 Toyota Corolla",
+          "2003\u20132008 Toyota Matrix"
+        ],
+        "raw_compat_rows": 43,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398414495151",
+        "type": "Air Filter",
+        "brand": "Parts Master",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Filters"
+      },
+      "images": [
+        "../assets/pdp-gallery/CIF3K62YVRDKE2FPMUVTYJFD/02.webp",
+        "../assets/pdp-gallery/CIF3K62YVRDKE2FPMUVTYJFD/03.webp",
+        "../assets/pdp-gallery/CIF3K62YVRDKE2FPMUVTYJFD/04.webp"
+      ]
     },
     {
       "id": "HJTVGK2Y6XBIYC2KPK2HE2WK",
@@ -48143,6 +48419,66 @@
         "../assets/pdp-gallery/LSN2LRHG4CPLFJHJQURJG377/03.webp"
       ],
       "stock": 1
+    },
+    {
+      "id": "HHYQWZ53RG5G4DUKOEA362V4",
+      "name": "WIX 46443 Air Filter 1998-2002 Honda Accord 2.3L NOS",
+      "price": 12.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/ec14ac3e25bcbdba7d767e1e2b3dc9d3783b786e/original.jpeg",
+      "url": "https://square.link/u/H6W1J0oW",
+      "category": "filters",
+      "checkout": true,
+      "variation_id": "HQCA7WEIR6EMAZZWPSUTWZZC",
+      "stock": 1,
+      "part_numbers": [
+        "46443",
+        "CA8133, PA5248"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1998\u20132002 Honda Accord"
+      ],
+      "vehicle_count_raw": 37,
+      "ebay_item_id": "398414494514",
+      "ebay_type": "Air Filter",
+      "ebay_brand": "WIX",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Filters",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "46443",
+          "CA8133, PA5248"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1998,
+            "year_to": 2002,
+            "make": "Honda",
+            "model": "Accord",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1998\u20132002 Honda Accord"
+        ],
+        "raw_compat_rows": 37,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398414494514",
+        "type": "Air Filter",
+        "brand": "WIX",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Filters"
+      },
+      "images": [
+        "../assets/pdp-gallery/HHYQWZ53RG5G4DUKOEA362V4/02.webp",
+        "../assets/pdp-gallery/HHYQWZ53RG5G4DUKOEA362V4/03.webp",
+        "../assets/pdp-gallery/HHYQWZ53RG5G4DUKOEA362V4/04.webp"
+      ]
     },
     {
       "id": "DN7H7EL6DFKNVCLBBAFMSBWW",
@@ -122125,6 +122461,50 @@
       "ebay_brand": ""
     },
     {
+      "id": "DWS3RDJ7XVKWRKBHES4Z2CJE",
+      "name": "Summit SUM-G1151 Steel Universal Racing Seat Bracket Kit NOS",
+      "price": 59.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/97e0cc5410d2262e78006dbd6124778ea50c70ac/original.jpeg",
+      "url": "https://square.link/u/2crW1zW2",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "3SCB6GPQPDOVQM5DRKGEJKGR",
+      "stock": 1,
+      "part_numbers": [
+        "G1151",
+        "SUM-G1151, SUM-G1150"
+      ],
+      "interchange": [],
+      "vehicles": [],
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398414498216",
+      "ebay_type": "Seat Bracket Kit",
+      "ebay_brand": "Summit Racing",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Interior Parts & Accessories:Seats, Parts & Accessories:Additional Seat Parts",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "G1151",
+          "SUM-G1151, SUM-G1150"
+        ],
+        "interchange": [],
+        "vehicles": [],
+        "vehicle_labels": [],
+        "raw_compat_rows": 0,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398414498216",
+        "type": "Seat Bracket Kit",
+        "brand": "Summit Racing",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Interior Parts & Accessories:Seats, Parts & Accessories:Additional Seat Parts"
+      },
+      "images": [
+        "../assets/pdp-gallery/DWS3RDJ7XVKWRKBHES4Z2CJE/02.webp",
+        "../assets/pdp-gallery/DWS3RDJ7XVKWRKBHES4Z2CJE/03.webp"
+      ]
+    },
+    {
       "id": "7GJYTQHQNFXOOT6UNZEBX5ML",
       "name": "Sylvania 5001 Sealed Beam Headlamp PAR46 NOS",
       "price": 27.99,
@@ -126369,5 +126749,5 @@
       "ebay_brand": ""
     }
   ],
-  "fitment_built": "2026-09-20T19:02:18Z"
+  "fitment_built": "2026-09-20T19:31:40Z"
 }
