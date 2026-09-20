@@ -1,7 +1,7 @@
 {
-  "updated": "2026-09-20T20:02:25Z",
+  "updated": "2026-09-20T20:56:41Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 924,
+  "count": 923,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -28580,151 +28580,6 @@
       "stock": 1
     },
     {
-      "id": "WWT36JXFOVHFIPPT7OXWBUTF",
-      "name": "Carlson H7181 Drum Brake Hardware Kit",
-      "price": 15.99,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/4050eaaea6971197d846c5b91cc7d7c2eb3f9afa/original.jpeg",
-      "url": "https://square.link/u/FGvrDaVI",
-      "category": "brake",
-      "checkout": true,
-      "variation_id": "X46ZO6I3FFR73PRNMVE73AWI",
-      "part_numbers": [
-        "H7181"
-      ],
-      "interchange": [
-        "118.61022"
-      ],
-      "vehicles": [
-        "1978\u20132002 Ford E-250 Econoline",
-        "1978\u20131991 Ford E-250 Econoline Club Wagon",
-        "1978\u20132000 Ford E-350 Econoline",
-        "1978\u20132000 Ford E-350 Econoline Club Wagon",
-        "2000 Ford E-350 Super Duty",
-        "1980\u20131999 Ford F-250",
-        "1997 Ford F-250 HD",
-        "1977\u20131997 Ford F-350"
-      ],
-      "fitment_source": "ebay_listing+carlson_specs",
-      "fitment_confidence": "high",
-      "fitment": {
-        "part_numbers": [
-          "H7181"
-        ],
-        "interchange": [
-          "118.61022"
-        ],
-        "vehicles": [
-          {
-            "year_from": 1978,
-            "year_to": 2002,
-            "make": "Ford",
-            "model": "E-250 Econoline",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1978,
-            "year_to": 1991,
-            "make": "Ford",
-            "model": "E-250 Econoline Club Wagon",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1978,
-            "year_to": 2000,
-            "make": "Ford",
-            "model": "E-350 Econoline",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1978,
-            "year_to": 2000,
-            "make": "Ford",
-            "model": "E-350 Econoline Club Wagon",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 2000,
-            "year_to": 2000,
-            "make": "Ford",
-            "model": "E-350 Super Duty",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1980,
-            "year_to": 1999,
-            "make": "Ford",
-            "model": "F-250",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1997,
-            "year_to": 1997,
-            "make": "Ford",
-            "model": "F-250 HD",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1977,
-            "year_to": 1997,
-            "make": "Ford",
-            "model": "F-350",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          }
-        ],
-        "vehicle_labels": [
-          "1978\u20132002 Ford E-250 Econoline",
-          "1978\u20131991 Ford E-250 Econoline Club Wagon",
-          "1978\u20132000 Ford E-350 Econoline",
-          "1978\u20132000 Ford E-350 Econoline Club Wagon",
-          "2000 Ford E-350 Super Duty",
-          "1980\u20131999 Ford F-250",
-          "1997 Ford F-250 HD",
-          "1977\u20131997 Ford F-350"
-        ],
-        "raw_compat_rows": 14,
-        "source": "ebay_listing+carlson_specs",
-        "confidence": "high",
-        "ebay_item_id": "398081941738",
-        "type": "Drum Brake Hardware",
-        "brand": "Carlson",
-        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware"
-      },
-      "vehicle_count_raw": 14,
-      "ebay_item_id": "398081941738",
-      "ebay_type": "Drum Brake Hardware",
-      "ebay_brand": "Carlson",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware",
-      "images": [
-        "../assets/pdp-gallery/WWT36JXFOVHFIPPT7OXWBUTF/02.webp",
-        "../assets/pdp-gallery/WWT36JXFOVHFIPPT7OXWBUTF/03.webp"
-      ],
-      "stock": 1
-    },
-    {
       "id": "E3GBTQEP5U53G2JJ75TYEQRO",
       "name": "Carlson H7249 Drum Brake Hardware Kit - New In Box",
       "price": 12.99,
@@ -33035,22 +32890,15 @@
       "category": "brake",
       "checkout": true,
       "variation_id": "TB2AB66RPYZND5XE5FBYP6DZ",
-      "stock": 1,
       "part_numbers": [
         "15710047",
         "C95028, 15709833, 15990411"
       ],
-      "interchange": [],
       "vehicles": [
         "1995\u20131997 Chevrolet S10",
         "1995\u20131997 GM 15710047",
         "1995\u20131997 GMC Sonoma"
       ],
-      "vehicle_count_raw": 74,
-      "ebay_item_id": "398414492057",
-      "ebay_type": "Parking Brake Rear Cable",
-      "ebay_brand": "GM",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Cables",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -33104,11 +32952,18 @@
         "brand": "GM",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Cables"
       },
+      "vehicle_count_raw": 74,
+      "ebay_item_id": "398414492057",
+      "ebay_type": "Parking Brake Rear Cable",
+      "ebay_brand": "GM",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Cables",
       "images": [
         "../assets/pdp-gallery/EQVVAN54AR4BIPSYNT3LYF66/02.webp",
         "../assets/pdp-gallery/EQVVAN54AR4BIPSYNT3LYF66/03.webp",
         "../assets/pdp-gallery/EQVVAN54AR4BIPSYNT3LYF66/04.webp"
-      ]
+      ],
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "VJVQD4DF34CMAIPX3G4ZXY7H",
@@ -33119,12 +32974,10 @@
       "category": "brake",
       "checkout": true,
       "variation_id": "CE2FIRY2N7MIZVRFTW6IGTAT",
-      "stock": 1,
       "part_numbers": [
         "332724",
         "C93067, BC93067"
       ],
-      "interchange": [],
       "vehicles": [
         "1975\u20131983 Chevrolet C10",
         "1976\u20131983 Chevrolet C20",
@@ -33132,11 +32985,6 @@
         "1979\u20131983 GMC C1500",
         "1979\u20131983 GMC C2500"
       ],
-      "vehicle_count_raw": 1562,
-      "ebay_item_id": "398414490427",
-      "ebay_type": "Parking Brake Intermediate Cable",
-      "ebay_brand": "GM",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Cables",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -33212,11 +33060,18 @@
         "brand": "GM",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Cables"
       },
+      "vehicle_count_raw": 1562,
+      "ebay_item_id": "398414490427",
+      "ebay_type": "Parking Brake Intermediate Cable",
+      "ebay_brand": "GM",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Cables",
       "images": [
         "../assets/pdp-gallery/VJVQD4DF34CMAIPX3G4ZXY7H/02.webp",
         "../assets/pdp-gallery/VJVQD4DF34CMAIPX3G4ZXY7H/03.webp",
         "../assets/pdp-gallery/VJVQD4DF34CMAIPX3G4ZXY7H/04.webp"
-      ]
+      ],
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "AY6IRRZZJKM42KV3PSO6YDHV",
@@ -34648,6 +34503,95 @@
       ],
       "stock": 1,
       "interchange": []
+    },
+    {
+      "id": "UD6AH2CC4HDMSJS6FE7TTMGV",
+      "name": "Wagner BD61992 Front Brake Rotor Escort Tracer Protege 1.8L Used",
+      "price": 24.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/6d1deff0f2a74351d5043fd6f41125d0dfb785d1/original.jpeg",
+      "url": "https://square.link/u/vKQ4AU8D",
+      "category": "brake",
+      "checkout": true,
+      "variation_id": "LXSWQE7LHGA54VG36SD44IWU",
+      "stock": 1,
+      "part_numbers": [
+        "BD61992",
+        "61983, FD5640"
+      ],
+      "interchange": [
+        "BD61992E6",
+        "BD61992E12"
+      ],
+      "vehicles": [
+        "1995\u20131996 Ford Escort",
+        "1995 Mazda MX-3",
+        "1995\u20131996 Mercury Tracer"
+      ],
+      "vehicle_count_raw": 7,
+      "ebay_item_id": "398414679335",
+      "ebay_type": "Disc Brake Rotor",
+      "ebay_brand": "Wagner",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Disc Rotors",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "BD61992",
+          "61983, FD5640"
+        ],
+        "interchange": [
+          "BD61992E6",
+          "BD61992E12"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1995,
+            "year_to": 1996,
+            "make": "Ford",
+            "model": "Escort",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1995,
+            "year_to": 1995,
+            "make": "Mazda",
+            "model": "MX-3",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1995,
+            "year_to": 1996,
+            "make": "Mercury",
+            "model": "Tracer",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1995\u20131996 Ford Escort",
+          "1995 Mazda MX-3",
+          "1995\u20131996 Mercury Tracer"
+        ],
+        "raw_compat_rows": 7,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398414679335",
+        "type": "Disc Brake Rotor",
+        "brand": "Wagner",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Disc Rotors"
+      },
+      "images": [
+        "../assets/pdp-gallery/UD6AH2CC4HDMSJS6FE7TTMGV/02.webp",
+        "../assets/pdp-gallery/UD6AH2CC4HDMSJS6FE7TTMGV/03.webp"
+      ]
     },
     {
       "id": "P7Z5QGCU4NTYW4DFMTMTFKBV",
@@ -36915,87 +36859,6 @@
       "interchange": []
     },
     {
-      "id": "W6XEF6SMEZH3Z4ZQS7HYU7JX",
-      "name": "FRAM PH3506 Oil Filter Cadillac DeVille Eldorado 4.6 NOS",
-      "price": 11.99,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/da44ab739978dc3fedc6060379d5cffc8c3c68bc/original.jpeg",
-      "url": "https://square.link/u/utMESZKx",
-      "category": "filters",
-      "checkout": true,
-      "variation_id": "JNGAX3QUZKZFVILUL6FOFSH5",
-      "part_numbers": [
-        "PH3506"
-      ],
-      "vehicles": [
-        "1997\u20132005 Cadillac DeVille",
-        "1997\u20132002 Cadillac Eldorado",
-        "2002\u20132004 Cadillac Seville"
-      ],
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "high",
-      "fitment": {
-        "part_numbers": [
-          "PH3506"
-        ],
-        "interchange": [],
-        "vehicles": [
-          {
-            "year_from": 1997,
-            "year_to": 2005,
-            "make": "Cadillac",
-            "model": "DeVille",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1997,
-            "year_to": 2002,
-            "make": "Cadillac",
-            "model": "Eldorado",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 2002,
-            "year_to": 2004,
-            "make": "Cadillac",
-            "model": "Seville",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          }
-        ],
-        "vehicle_labels": [
-          "1997\u20132005 Cadillac DeVille",
-          "1997\u20132002 Cadillac Eldorado",
-          "2002\u20132004 Cadillac Seville"
-        ],
-        "raw_compat_rows": 66,
-        "source": "ebay_listing",
-        "confidence": "high",
-        "ebay_item_id": "398411894067",
-        "type": "Oil Filter",
-        "brand": "FRAM",
-        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Filters"
-      },
-      "vehicle_count_raw": 66,
-      "ebay_item_id": "398411894067",
-      "ebay_type": "Oil Filter",
-      "ebay_brand": "FRAM",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Filters",
-      "images": [
-        "../assets/pdp-gallery/W6XEF6SMEZH3Z4ZQS7HYU7JX/02.webp",
-        "../assets/pdp-gallery/W6XEF6SMEZH3Z4ZQS7HYU7JX/03.webp"
-      ],
-      "stock": 1,
-      "interchange": []
-    },
-    {
       "id": "QMYCGQTIG6PXJ4XKYY72UR6W",
       "name": "FRAM PH9688 Extra Guard Oil Filter Hyundai Accent Elantra NOS",
       "price": 10.99,
@@ -39171,22 +39034,15 @@
       "category": "filters",
       "checkout": true,
       "variation_id": "TMAIS4KDMLQSJGXWPA5IQSNU",
-      "stock": 1,
       "part_numbers": [
         "66834",
         "46834, 88834, PA5463, CA9482"
       ],
-      "interchange": [],
       "vehicles": [
         "2003\u20132008 Pontiac Vibe",
         "2003\u20132008 Toyota Corolla",
         "2003\u20132008 Toyota Matrix"
       ],
-      "vehicle_count_raw": 43,
-      "ebay_item_id": "398414495151",
-      "ebay_type": "Air Filter",
-      "ebay_brand": "Parts Master",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Filters",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -39240,11 +39096,18 @@
         "brand": "Parts Master",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Filters"
       },
+      "vehicle_count_raw": 43,
+      "ebay_item_id": "398414495151",
+      "ebay_type": "Air Filter",
+      "ebay_brand": "Parts Master",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Filters",
       "images": [
         "../assets/pdp-gallery/CIF3K62YVRDKE2FPMUVTYJFD/02.webp",
         "../assets/pdp-gallery/CIF3K62YVRDKE2FPMUVTYJFD/03.webp",
         "../assets/pdp-gallery/CIF3K62YVRDKE2FPMUVTYJFD/04.webp"
-      ]
+      ],
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "HJTVGK2Y6XBIYC2KPK2HE2WK",
@@ -48429,20 +48292,13 @@
       "category": "filters",
       "checkout": true,
       "variation_id": "HQCA7WEIR6EMAZZWPSUTWZZC",
-      "stock": 1,
       "part_numbers": [
         "46443",
         "CA8133, PA5248"
       ],
-      "interchange": [],
       "vehicles": [
         "1998\u20132002 Honda Accord"
       ],
-      "vehicle_count_raw": 37,
-      "ebay_item_id": "398414494514",
-      "ebay_type": "Air Filter",
-      "ebay_brand": "WIX",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Filters",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -48474,11 +48330,18 @@
         "brand": "WIX",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Filters"
       },
+      "vehicle_count_raw": 37,
+      "ebay_item_id": "398414494514",
+      "ebay_type": "Air Filter",
+      "ebay_brand": "WIX",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Filters",
       "images": [
         "../assets/pdp-gallery/HHYQWZ53RG5G4DUKOEA362V4/02.webp",
         "../assets/pdp-gallery/HHYQWZ53RG5G4DUKOEA362V4/03.webp",
         "../assets/pdp-gallery/HHYQWZ53RG5G4DUKOEA362V4/04.webp"
-      ]
+      ],
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "DN7H7EL6DFKNVCLBBAFMSBWW",
@@ -122469,18 +122332,10 @@
       "category": "other",
       "checkout": true,
       "variation_id": "3SCB6GPQPDOVQM5DRKGEJKGR",
-      "stock": 1,
       "part_numbers": [
         "G1151",
         "SUM-G1151, SUM-G1150"
       ],
-      "interchange": [],
-      "vehicles": [],
-      "vehicle_count_raw": 0,
-      "ebay_item_id": "398414498216",
-      "ebay_type": "Seat Bracket Kit",
-      "ebay_brand": "Summit Racing",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Interior Parts & Accessories:Seats, Parts & Accessories:Additional Seat Parts",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -122499,12 +122354,20 @@
         "brand": "Summit Racing",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Interior Parts & Accessories:Seats, Parts & Accessories:Additional Seat Parts"
       },
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398414498216",
+      "ebay_type": "Seat Bracket Kit",
+      "ebay_brand": "Summit Racing",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Interior Parts & Accessories:Seats, Parts & Accessories:Additional Seat Parts",
       "images": [
         "../assets/pdp-gallery/DWS3RDJ7XVKWRKBHES4Z2CJE/02.webp",
         "../assets/pdp-gallery/DWS3RDJ7XVKWRKBHES4Z2CJE/03.webp",
         "../assets/pdp-gallery/DWS3RDJ7XVKWRKBHES4Z2CJE/04.webp",
         "../assets/pdp-gallery/DWS3RDJ7XVKWRKBHES4Z2CJE/05.webp"
-      ]
+      ],
+      "stock": 1,
+      "interchange": [],
+      "vehicles": []
     },
     {
       "id": "7GJYTQHQNFXOOT6UNZEBX5ML",
@@ -126751,5 +126614,5 @@
       "ebay_brand": ""
     }
   ],
-  "fitment_built": "2026-09-20T20:02:25Z"
+  "fitment_built": "2026-09-20T20:56:41Z"
 }
