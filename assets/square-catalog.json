@@ -1,7 +1,7 @@
 {
-  "updated": "2026-09-20T01:02:46Z",
+  "updated": "2026-09-20T02:02:54Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 914,
+  "count": 916,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -2225,6 +2225,560 @@
       "interchange": []
     },
     {
+      "id": "QA6LOXE4QO4M6BPJTMEUKLXS",
+      "name": "Bendix BD61946 Front Brake Rotor 85-95 Caravan Voyager LeBaron NOS",
+      "price": 29.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/b9259dc730f99ca498c926871fde0d13e1cabe29/original.jpeg",
+      "url": "https://square.link/u/NopSItjC",
+      "category": "brake",
+      "checkout": true,
+      "variation_id": "IND2IBZCVSYN5KTPMFTI57XR",
+      "stock": 1,
+      "part_numbers": [
+        "BD61946",
+        "Bendix 141379, Parts Master 61946, Centric 120.63017"
+      ],
+      "interchange": [
+        "Raybestos 7063",
+        "Aimco 5329",
+        "Wagner BD61946"
+      ],
+      "vehicles": [
+        "1985\u20131993 Chrysler Daytona",
+        "1988\u20131993 Chrysler Dynasty",
+        "1990\u20131993 Chrysler Imperial",
+        "1984\u20131986 Chrysler Laser",
+        "1985\u20131995 Chrysler LeBaron",
+        "1985\u20131993 Chrysler New Yorker",
+        "1989\u20131991 Chrysler TC Maserati",
+        "1991\u20131995 Chrysler Town & Country",
+        "1985\u20131988 Dodge 600",
+        "1985\u20131989 Dodge Aries",
+        "1991\u20131995 Dodge Caravan",
+        "1983\u20131987 Dodge Charger",
+        "1984\u20131993 Dodge Daytona",
+        "1988\u20131993 Dodge Dynasty",
+        "1991\u20131995 Dodge Grand Caravan",
+        "1985\u20131989 Dodge Lancer",
+        "1987 Dodge Omni",
+        "1987\u20131994 Dodge Shadow",
+        "1990\u20131995 Dodge Spirit",
+        "1990\u20131995 Plymouth Acclaim",
+        "1985\u20131988 Plymouth Caravelle",
+        "1991\u20131995 Plymouth Grand Voyager",
+        "1985\u20131989 Plymouth Reliant",
+        "1987\u20131994 Plymouth Sundance",
+        "1991\u20131995 Plymouth Voyager"
+      ],
+      "vehicle_count_raw": 986,
+      "ebay_item_id": "398412281363",
+      "ebay_type": "Disc Brake Rotor",
+      "ebay_brand": "Bendix",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "BD61946",
+          "Bendix 141379, Parts Master 61946, Centric 120.63017"
+        ],
+        "interchange": [
+          "Raybestos 7063",
+          "Aimco 5329",
+          "Wagner BD61946"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1985,
+            "year_to": 1993,
+            "make": "Chrysler",
+            "model": "Daytona",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1988,
+            "year_to": 1993,
+            "make": "Chrysler",
+            "model": "Dynasty",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1990,
+            "year_to": 1993,
+            "make": "Chrysler",
+            "model": "Imperial",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 1986,
+            "make": "Chrysler",
+            "model": "Laser",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1995,
+            "make": "Chrysler",
+            "model": "LeBaron",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1993,
+            "make": "Chrysler",
+            "model": "New Yorker",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1989,
+            "year_to": 1991,
+            "make": "Chrysler",
+            "model": "TC Maserati",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1991,
+            "year_to": 1995,
+            "make": "Chrysler",
+            "model": "Town & Country",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1988,
+            "make": "Dodge",
+            "model": "600",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1989,
+            "make": "Dodge",
+            "model": "Aries",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1991,
+            "year_to": 1995,
+            "make": "Dodge",
+            "model": "Caravan",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1983,
+            "year_to": 1987,
+            "make": "Dodge",
+            "model": "Charger",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 1993,
+            "make": "Dodge",
+            "model": "Daytona",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1988,
+            "year_to": 1993,
+            "make": "Dodge",
+            "model": "Dynasty",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1991,
+            "year_to": 1995,
+            "make": "Dodge",
+            "model": "Grand Caravan",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1989,
+            "make": "Dodge",
+            "model": "Lancer",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1987,
+            "make": "Dodge",
+            "model": "Omni",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1994,
+            "make": "Dodge",
+            "model": "Shadow",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1990,
+            "year_to": 1995,
+            "make": "Dodge",
+            "model": "Spirit",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1990,
+            "year_to": 1995,
+            "make": "Plymouth",
+            "model": "Acclaim",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1988,
+            "make": "Plymouth",
+            "model": "Caravelle",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1991,
+            "year_to": 1995,
+            "make": "Plymouth",
+            "model": "Grand Voyager",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1989,
+            "make": "Plymouth",
+            "model": "Reliant",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1994,
+            "make": "Plymouth",
+            "model": "Sundance",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1991,
+            "year_to": 1995,
+            "make": "Plymouth",
+            "model": "Voyager",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1985\u20131993 Chrysler Daytona",
+          "1988\u20131993 Chrysler Dynasty",
+          "1990\u20131993 Chrysler Imperial",
+          "1984\u20131986 Chrysler Laser",
+          "1985\u20131995 Chrysler LeBaron",
+          "1985\u20131993 Chrysler New Yorker",
+          "1989\u20131991 Chrysler TC Maserati",
+          "1991\u20131995 Chrysler Town & Country",
+          "1985\u20131988 Dodge 600",
+          "1985\u20131989 Dodge Aries",
+          "1991\u20131995 Dodge Caravan",
+          "1983\u20131987 Dodge Charger",
+          "1984\u20131993 Dodge Daytona",
+          "1988\u20131993 Dodge Dynasty",
+          "1991\u20131995 Dodge Grand Caravan",
+          "1985\u20131989 Dodge Lancer",
+          "1987 Dodge Omni",
+          "1987\u20131994 Dodge Shadow",
+          "1990\u20131995 Dodge Spirit",
+          "1990\u20131995 Plymouth Acclaim",
+          "1985\u20131988 Plymouth Caravelle",
+          "1991\u20131995 Plymouth Grand Voyager",
+          "1985\u20131989 Plymouth Reliant",
+          "1987\u20131994 Plymouth Sundance",
+          "1991\u20131995 Plymouth Voyager"
+        ],
+        "raw_compat_rows": 986,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398412281363",
+        "type": "Disc Brake Rotor",
+        "brand": "Bendix",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware"
+      },
+      "images": [
+        "../assets/pdp-gallery/QA6LOXE4QO4M6BPJTMEUKLXS/02.webp",
+        "../assets/pdp-gallery/QA6LOXE4QO4M6BPJTMEUKLXS/03.webp"
+      ]
+    },
+    {
+      "id": "LTMQKEWHRTCMBTCRDE46JGID",
+      "name": "Bendix BD97064 Front Brake Rotor VW Rabbit Jetta Golf Scirocco NOS",
+      "price": 19.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/08e76632bf4021c312c9182a9abecc44ff3ba474/original.jpeg",
+      "url": "https://square.link/u/ZJfdy5fm",
+      "category": "brake",
+      "checkout": true,
+      "variation_id": "2TMWBQ7R43QQF2TN6FNIHQI3",
+      "stock": 1,
+      "part_numbers": [
+        "BD97064",
+        "Bendix 141095, Parts Master 97064, Brembo 08.4177.10"
+      ],
+      "interchange": [
+        "Raybestos 9228",
+        "Aimco 3416",
+        "Wagner BD97064"
+      ],
+      "vehicles": [
+        "1980\u20131984 Audi 4000",
+        "1981\u20131982 Audi Coupe",
+        "1973\u20131979 Audi Fox",
+        "1974\u20131981 Volkswagen Dasher",
+        "1987\u20131993 Volkswagen Fox",
+        "1985\u20131999 Volkswagen Golf",
+        "1980\u20131999 Volkswagen Jetta",
+        "1982\u20131988 Volkswagen Quantum",
+        "1975\u20131984 Volkswagen Rabbit",
+        "1980\u20131984 Volkswagen Rabbit Convertible",
+        "1980\u20131983 Volkswagen Rabbit Pickup",
+        "1977\u20131984 Volkswagen Scirocco"
+      ],
+      "vehicle_count_raw": 687,
+      "ebay_item_id": "398412286121",
+      "ebay_type": "Disc Brake Rotor",
+      "ebay_brand": "Bendix",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "BD97064",
+          "Bendix 141095, Parts Master 97064, Brembo 08.4177.10"
+        ],
+        "interchange": [
+          "Raybestos 9228",
+          "Aimco 3416",
+          "Wagner BD97064"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1980,
+            "year_to": 1984,
+            "make": "Audi",
+            "model": "4000",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1981,
+            "year_to": 1982,
+            "make": "Audi",
+            "model": "Coupe",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1973,
+            "year_to": 1979,
+            "make": "Audi",
+            "model": "Fox",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1974,
+            "year_to": 1981,
+            "make": "Volkswagen",
+            "model": "Dasher",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1993,
+            "make": "Volkswagen",
+            "model": "Fox",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1999,
+            "make": "Volkswagen",
+            "model": "Golf",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1980,
+            "year_to": 1999,
+            "make": "Volkswagen",
+            "model": "Jetta",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1982,
+            "year_to": 1988,
+            "make": "Volkswagen",
+            "model": "Quantum",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1975,
+            "year_to": 1984,
+            "make": "Volkswagen",
+            "model": "Rabbit",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1980,
+            "year_to": 1984,
+            "make": "Volkswagen",
+            "model": "Rabbit Convertible",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1980,
+            "year_to": 1983,
+            "make": "Volkswagen",
+            "model": "Rabbit Pickup",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1977,
+            "year_to": 1984,
+            "make": "Volkswagen",
+            "model": "Scirocco",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1980\u20131984 Audi 4000",
+          "1981\u20131982 Audi Coupe",
+          "1973\u20131979 Audi Fox",
+          "1974\u20131981 Volkswagen Dasher",
+          "1987\u20131993 Volkswagen Fox",
+          "1985\u20131999 Volkswagen Golf",
+          "1980\u20131999 Volkswagen Jetta",
+          "1982\u20131988 Volkswagen Quantum",
+          "1975\u20131984 Volkswagen Rabbit",
+          "1980\u20131984 Volkswagen Rabbit Convertible",
+          "1980\u20131983 Volkswagen Rabbit Pickup",
+          "1977\u20131984 Volkswagen Scirocco"
+        ],
+        "raw_compat_rows": 687,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398412286121",
+        "type": "Disc Brake Rotor",
+        "brand": "Bendix",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware"
+      },
+      "images": [
+        "../assets/pdp-gallery/LTMQKEWHRTCMBTCRDE46JGID/02.webp",
+        "../assets/pdp-gallery/LTMQKEWHRTCMBTCRDE46JGID/03.webp"
+      ]
+    },
+    {
       "id": "T4S7T52RREE5FHPD3DBZ56WR",
       "name": "Bendix Brakes Past Models Catalog 8-100A 1950s Cars Trucks Service Reference",
       "price": 24.99,
@@ -2389,6 +2943,114 @@
       "stock": 1,
       "interchange": [],
       "images": []
+    },
+    {
+      "id": "UXP7MRDC4LLA6RESFGGS6C26",
+      "name": "Big A Plus 1-7353 Front Brake Pads Escort Tracer Protege MX-3 NOS",
+      "price": 24.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/be816d86d852957dbf67ac98dd75e90dc2c1e6f9/original.jpeg",
+      "url": "https://square.link/u/tvMNzUd1",
+      "category": "brake",
+      "checkout": true,
+      "variation_id": "BQJ52J62P4JPOVESA6HIZXFW",
+      "stock": 1,
+      "part_numbers": [
+        "1-7353",
+        "WED61F, FMSI 7353"
+      ],
+      "interchange": [
+        "MKD473",
+        "D473",
+        "AXMD473",
+        "RPD473M",
+        "1-473"
+      ],
+      "vehicles": [
+        "1991\u20132003 Ford Escort",
+        "1992\u20131995 Mazda MX-3",
+        "1990\u20131997 Mazda Protege",
+        "1991\u20131999 Mercury Tracer"
+      ],
+      "vehicle_count_raw": 185,
+      "ebay_item_id": "398412289228",
+      "ebay_type": "Disc Brake Pad Set",
+      "ebay_brand": "Big A Plus",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Master Cylinders",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "1-7353",
+          "WED61F, FMSI 7353"
+        ],
+        "interchange": [
+          "MKD473",
+          "D473",
+          "AXMD473",
+          "RPD473M",
+          "1-473"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1991,
+            "year_to": 2003,
+            "make": "Ford",
+            "model": "Escort",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1992,
+            "year_to": 1995,
+            "make": "Mazda",
+            "model": "MX-3",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1990,
+            "year_to": 1997,
+            "make": "Mazda",
+            "model": "Protege",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1991,
+            "year_to": 1999,
+            "make": "Mercury",
+            "model": "Tracer",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1991\u20132003 Ford Escort",
+          "1992\u20131995 Mazda MX-3",
+          "1990\u20131997 Mazda Protege",
+          "1991\u20131999 Mercury Tracer"
+        ],
+        "raw_compat_rows": 185,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398412289228",
+        "type": "Disc Brake Pad Set",
+        "brand": "Big A Plus",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Master Cylinders"
+      },
+      "images": [
+        "../assets/pdp-gallery/UXP7MRDC4LLA6RESFGGS6C26/02.webp",
+        "../assets/pdp-gallery/UXP7MRDC4LLA6RESFGGS6C26/03.webp",
+        "../assets/pdp-gallery/UXP7MRDC4LLA6RESFGGS6C26/04.webp"
+      ]
     },
     {
       "id": "LOLWHY65WEFYFU7ZW3QBB43Q",
@@ -2819,187 +3481,6 @@
         "../assets/pdp-gallery/UIR6W6264WMTI3HZOMGZZ2UA/02.webp",
         "../assets/pdp-gallery/UIR6W6264WMTI3HZOMGZZ2UA/03.webp",
         "../assets/pdp-gallery/UIR6W6264WMTI3HZOMGZZ2UA/04.webp"
-      ],
-      "stock": 1
-    },
-    {
-      "id": "NFGSJPHXFLQ43LZ4537CCPO2",
-      "name": "Carlson 13142 Disc Brake Hardware Kit 84-00 Honda Civic Accord CRX Mazda Front",
-      "price": 18.99,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/b6432a6728641fc189249a9d6128040df9558c84/original.jpeg",
-      "url": "https://square.link/u/DZ4xO6Ha",
-      "category": "brake",
-      "checkout": true,
-      "variation_id": "RDCRP4ZKCDQH45YC2VNXAVS5",
-      "part_numbers": [
-        "13142"
-      ],
-      "interchange": [
-        "HW13142"
-      ],
-      "vehicles": [
-        "1987\u20131990 Dodge Colt",
-        "1984\u20131985 Honda Accord",
-        "1988\u20131991 Honda CRX",
-        "1988\u20132000 Honda Civic",
-        "1993\u20131997 Honda Civic del Sol",
-        "1986\u20131987 Mazda B2000",
-        "1987\u20131993 Mazda B2200",
-        "1987\u20131993 Mazda B2600",
-        "1984\u20132000 Mazda Front",
-        "1985\u20131987 Mitsubishi Galant",
-        "1989\u20131990 Plymouth Colt"
-      ],
-      "fitment_source": "ebay_listing+carlson_specs",
-      "fitment_confidence": "high",
-      "fitment": {
-        "part_numbers": [
-          "13142"
-        ],
-        "interchange": [
-          "HW13142"
-        ],
-        "vehicles": [
-          {
-            "year_from": 1987,
-            "year_to": 1990,
-            "make": "Dodge",
-            "model": "Colt",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1984,
-            "year_to": 1985,
-            "make": "Honda",
-            "model": "Accord",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1988,
-            "year_to": 1991,
-            "make": "Honda",
-            "model": "CRX",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1988,
-            "year_to": 2000,
-            "make": "Honda",
-            "model": "Civic",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1993,
-            "year_to": 1997,
-            "make": "Honda",
-            "model": "Civic del Sol",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1986,
-            "year_to": 1987,
-            "make": "Mazda",
-            "model": "B2000",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1987,
-            "year_to": 1993,
-            "make": "Mazda",
-            "model": "B2200",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1987,
-            "year_to": 1993,
-            "make": "Mazda",
-            "model": "B2600",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1984,
-            "year_to": 2000,
-            "make": "Mazda",
-            "model": "Front",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1985,
-            "year_to": 1987,
-            "make": "Mitsubishi",
-            "model": "Galant",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1989,
-            "year_to": 1990,
-            "make": "Plymouth",
-            "model": "Colt",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          }
-        ],
-        "vehicle_labels": [
-          "1987\u20131990 Dodge Colt",
-          "1984\u20131985 Honda Accord",
-          "1988\u20131991 Honda CRX",
-          "1988\u20132000 Honda Civic",
-          "1993\u20131997 Honda Civic del Sol",
-          "1986\u20131987 Mazda B2000",
-          "1987\u20131993 Mazda B2200",
-          "1987\u20131993 Mazda B2600",
-          "1984\u20132000 Mazda Front",
-          "1985\u20131987 Mitsubishi Galant",
-          "1989\u20131990 Plymouth Colt"
-        ],
-        "raw_compat_rows": 361,
-        "source": "ebay_listing+carlson_specs",
-        "confidence": "high",
-        "ebay_item_id": "398089188916",
-        "type": "Disc Brake Hardware",
-        "brand": "Carlson",
-        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware"
-      },
-      "vehicle_count_raw": 361,
-      "ebay_item_id": "398089188916",
-      "ebay_type": "Disc Brake Hardware",
-      "ebay_brand": "Carlson",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware",
-      "images": [
-        "../assets/pdp-gallery/NFGSJPHXFLQ43LZ4537CCPO2/02.webp",
-        "../assets/pdp-gallery/NFGSJPHXFLQ43LZ4537CCPO2/03.webp"
       ],
       "stock": 1
     },
@@ -125325,5 +125806,5 @@
       "ebay_brand": ""
     }
   ],
-  "fitment_built": "2026-09-20T01:02:46Z"
+  "fitment_built": "2026-09-20T02:02:54Z"
 }
