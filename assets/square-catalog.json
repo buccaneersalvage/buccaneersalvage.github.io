@@ -1,7 +1,7 @@
 {
-  "updated": "2026-09-20T03:02:42Z",
+  "updated": "2026-09-20T04:02:41Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 916,
+  "count": 919,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -2233,7 +2233,6 @@
       "category": "brake",
       "checkout": true,
       "variation_id": "IND2IBZCVSYN5KTPMFTI57XR",
-      "stock": 1,
       "part_numbers": [
         "BD61946",
         "Bendix 141379, Parts Master 61946, Centric 120.63017"
@@ -2270,11 +2269,6 @@
         "1987\u20131994 Plymouth Sundance",
         "1991\u20131995 Plymouth Voyager"
       ],
-      "vehicle_count_raw": 986,
-      "ebay_item_id": "398412281363",
-      "ebay_type": "Disc Brake Rotor",
-      "ebay_brand": "Bendix",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -2574,10 +2568,16 @@
         "brand": "Bendix",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware"
       },
+      "vehicle_count_raw": 986,
+      "ebay_item_id": "398412281363",
+      "ebay_type": "Disc Brake Rotor",
+      "ebay_brand": "Bendix",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware",
       "images": [
         "../assets/pdp-gallery/QA6LOXE4QO4M6BPJTMEUKLXS/02.webp",
         "../assets/pdp-gallery/QA6LOXE4QO4M6BPJTMEUKLXS/03.webp"
-      ]
+      ],
+      "stock": 1
     },
     {
       "id": "LTMQKEWHRTCMBTCRDE46JGID",
@@ -2588,7 +2588,6 @@
       "category": "brake",
       "checkout": true,
       "variation_id": "2TMWBQ7R43QQF2TN6FNIHQI3",
-      "stock": 1,
       "part_numbers": [
         "BD97064",
         "Bendix 141095, Parts Master 97064, Brembo 08.4177.10"
@@ -2612,11 +2611,6 @@
         "1980\u20131983 Volkswagen Rabbit Pickup",
         "1977\u20131984 Volkswagen Scirocco"
       ],
-      "vehicle_count_raw": 687,
-      "ebay_item_id": "398412286121",
-      "ebay_type": "Disc Brake Rotor",
-      "ebay_brand": "Bendix",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -2773,10 +2767,16 @@
         "brand": "Bendix",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware"
       },
+      "vehicle_count_raw": 687,
+      "ebay_item_id": "398412286121",
+      "ebay_type": "Disc Brake Rotor",
+      "ebay_brand": "Bendix",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware",
       "images": [
         "../assets/pdp-gallery/LTMQKEWHRTCMBTCRDE46JGID/02.webp",
         "../assets/pdp-gallery/LTMQKEWHRTCMBTCRDE46JGID/03.webp"
-      ]
+      ],
+      "stock": 1
     },
     {
       "id": "T4S7T52RREE5FHPD3DBZ56WR",
@@ -2815,6 +2815,333 @@
       "part_numbers": [],
       "interchange": [],
       "vehicles": []
+    },
+    {
+      "id": "PJ2SVR6HLYYPEDE7PWZUMODZ",
+      "name": "Bendix R514 Rear Drum Brake Shoes Regal S10 Camaro Firebird NOS",
+      "price": 24.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/d2952c162878f7673eec42070aa25f0e4f887885/original.jpeg",
+      "url": "https://square.link/u/nrOUEqht",
+      "category": "brake",
+      "checkout": true,
+      "variation_id": "CJ2ZKL6KVBNOWJMXVMXJSMD7",
+      "stock": 1,
+      "part_numbers": [
+        "R514",
+        "514 514PG PAB514 17514R WB514R BS514"
+      ],
+      "interchange": [
+        "514PG PAB514R 17514R WB514R NR514 UP514R AF514"
+      ],
+      "vehicles": [
+        "1978\u20131981 Buick Century",
+        "1978\u20131987 Buick Regal",
+        "1979\u20131985 Buick Riviera",
+        "1995\u20131997 Chevrolet Blazer",
+        "1982\u20131997 Chevrolet Camaro",
+        "1978\u20131987 Chevrolet El Camino",
+        "1987\u20131995 Chevrolet LLV",
+        "1978\u20131983 Chevrolet Malibu",
+        "1978\u20131988 Chevrolet Monte Carlo",
+        "1982\u20132003 Chevrolet S10",
+        "1983\u20131994 Chevrolet S10 Blazer",
+        "1978\u20131987 GMC Caballero",
+        "1992\u20131997 GMC Jimmy",
+        "1982\u20131990 GMC S15",
+        "1983\u20131991 GMC S15 Jimmy",
+        "1991\u20132003 GMC Sonoma",
+        "1996\u20132000 Isuzu Hombre",
+        "1978\u20131984 Oldsmobile Cutlass Calais",
+        "1979\u20131987 Oldsmobile Cutlass Supreme",
+        "1979\u20131983 Oldsmobile Toronado",
+        "1982\u20131986 Pontiac Bonneville",
+        "1982\u20131997 Pontiac Firebird",
+        "1978\u20131987 Pontiac Grand Prix"
+      ],
+      "vehicle_count_raw": 2492,
+      "ebay_item_id": "398412527707",
+      "ebay_type": "Drum Brake Shoe",
+      "ebay_brand": "Bendix",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Shoes",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "R514",
+          "514 514PG PAB514 17514R WB514R BS514"
+        ],
+        "interchange": [
+          "514PG PAB514R 17514R WB514R NR514 UP514R AF514"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1978,
+            "year_to": 1981,
+            "make": "Buick",
+            "model": "Century",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1978,
+            "year_to": 1987,
+            "make": "Buick",
+            "model": "Regal",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1979,
+            "year_to": 1985,
+            "make": "Buick",
+            "model": "Riviera",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1995,
+            "year_to": 1997,
+            "make": "Chevrolet",
+            "model": "Blazer",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1982,
+            "year_to": 1997,
+            "make": "Chevrolet",
+            "model": "Camaro",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1978,
+            "year_to": 1987,
+            "make": "Chevrolet",
+            "model": "El Camino",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1995,
+            "make": "Chevrolet",
+            "model": "LLV",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1978,
+            "year_to": 1983,
+            "make": "Chevrolet",
+            "model": "Malibu",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1978,
+            "year_to": 1988,
+            "make": "Chevrolet",
+            "model": "Monte Carlo",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1982,
+            "year_to": 2003,
+            "make": "Chevrolet",
+            "model": "S10",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1983,
+            "year_to": 1994,
+            "make": "Chevrolet",
+            "model": "S10 Blazer",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1978,
+            "year_to": 1987,
+            "make": "GMC",
+            "model": "Caballero",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1992,
+            "year_to": 1997,
+            "make": "GMC",
+            "model": "Jimmy",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1982,
+            "year_to": 1990,
+            "make": "GMC",
+            "model": "S15",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1983,
+            "year_to": 1991,
+            "make": "GMC",
+            "model": "S15 Jimmy",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1991,
+            "year_to": 2003,
+            "make": "GMC",
+            "model": "Sonoma",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1996,
+            "year_to": 2000,
+            "make": "Isuzu",
+            "model": "Hombre",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1978,
+            "year_to": 1984,
+            "make": "Oldsmobile",
+            "model": "Cutlass Calais",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1979,
+            "year_to": 1987,
+            "make": "Oldsmobile",
+            "model": "Cutlass Supreme",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1979,
+            "year_to": 1983,
+            "make": "Oldsmobile",
+            "model": "Toronado",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1982,
+            "year_to": 1986,
+            "make": "Pontiac",
+            "model": "Bonneville",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1982,
+            "year_to": 1997,
+            "make": "Pontiac",
+            "model": "Firebird",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1978,
+            "year_to": 1987,
+            "make": "Pontiac",
+            "model": "Grand Prix",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1978\u20131981 Buick Century",
+          "1978\u20131987 Buick Regal",
+          "1979\u20131985 Buick Riviera",
+          "1995\u20131997 Chevrolet Blazer",
+          "1982\u20131997 Chevrolet Camaro",
+          "1978\u20131987 Chevrolet El Camino",
+          "1987\u20131995 Chevrolet LLV",
+          "1978\u20131983 Chevrolet Malibu",
+          "1978\u20131988 Chevrolet Monte Carlo",
+          "1982\u20132003 Chevrolet S10",
+          "1983\u20131994 Chevrolet S10 Blazer",
+          "1978\u20131987 GMC Caballero",
+          "1992\u20131997 GMC Jimmy",
+          "1982\u20131990 GMC S15",
+          "1983\u20131991 GMC S15 Jimmy",
+          "1991\u20132003 GMC Sonoma",
+          "1996\u20132000 Isuzu Hombre",
+          "1978\u20131984 Oldsmobile Cutlass Calais",
+          "1979\u20131987 Oldsmobile Cutlass Supreme",
+          "1979\u20131983 Oldsmobile Toronado",
+          "1982\u20131986 Pontiac Bonneville",
+          "1982\u20131997 Pontiac Firebird",
+          "1978\u20131987 Pontiac Grand Prix"
+        ],
+        "raw_compat_rows": 2492,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398412527707",
+        "type": "Drum Brake Shoe",
+        "brand": "Bendix",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Shoes"
+      },
+      "images": [
+        "../assets/pdp-gallery/PJ2SVR6HLYYPEDE7PWZUMODZ/02.webp",
+        "../assets/pdp-gallery/PJ2SVR6HLYYPEDE7PWZUMODZ/03.webp"
+      ]
     },
     {
       "id": "GYSLEHLNSTF3J332J3PTAXOA",
@@ -2953,7 +3280,6 @@
       "category": "brake",
       "checkout": true,
       "variation_id": "BQJ52J62P4JPOVESA6HIZXFW",
-      "stock": 1,
       "part_numbers": [
         "1-7353",
         "WED61F, FMSI 7353"
@@ -2971,11 +3297,6 @@
         "1990\u20131997 Mazda Protege",
         "1991\u20131999 Mercury Tracer"
       ],
-      "vehicle_count_raw": 185,
-      "ebay_item_id": "398412289228",
-      "ebay_type": "Disc Brake Pad Set",
-      "ebay_brand": "Big A Plus",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Master Cylinders",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -3046,11 +3367,17 @@
         "brand": "Big A Plus",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Master Cylinders"
       },
+      "vehicle_count_raw": 185,
+      "ebay_item_id": "398412289228",
+      "ebay_type": "Disc Brake Pad Set",
+      "ebay_brand": "Big A Plus",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Master Cylinders",
       "images": [
         "../assets/pdp-gallery/UXP7MRDC4LLA6RESFGGS6C26/02.webp",
         "../assets/pdp-gallery/UXP7MRDC4LLA6RESFGGS6C26/03.webp",
         "../assets/pdp-gallery/UXP7MRDC4LLA6RESFGGS6C26/04.webp"
-      ]
+      ],
+      "stock": 1
     },
     {
       "id": "LOLWHY65WEFYFU7ZW3QBB43Q",
@@ -33911,6 +34238,165 @@
         "../assets/pdp-gallery/S5TSSKMSRLVYMPCER543VB44/04.webp"
       ],
       "stock": 1
+    },
+    {
+      "id": "KBNLLN5LMMY2YC5RXXXAFLWJ",
+      "name": "UBP 201981 MCI 4898 Rear Brake Drum Cavalier Grand Am NOS",
+      "price": 24.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/3a392b2ace16655d4ef1abee8060e8597f2947ff/original.jpeg",
+      "url": "https://square.link/u/HUPWUlqZ",
+      "category": "brake",
+      "checkout": true,
+      "variation_id": "VFQRFI4B5SW6BU75O44L3Z76",
+      "stock": 1,
+      "part_numbers": [
+        "201981",
+        "1259649"
+      ],
+      "interchange": [
+        "MCI-4898 Raybestos 2093 Bendix 140385"
+      ],
+      "vehicles": [
+        "1985\u20131989 Buick Skyhawk",
+        "1986\u20131998 Buick Skylark",
+        "1982\u20131988 Cadillac Cimarron",
+        "1987\u20131996 Chevrolet Beretta",
+        "1982\u20132002 Chevrolet Cavalier",
+        "1987\u20131996 Chevrolet Corsica",
+        "1992\u20131998 Oldsmobile Achieva",
+        "1990\u20131998 Pontiac Grand Am",
+        "1995\u20132002 Pontiac Sunfire"
+      ],
+      "vehicle_count_raw": 801,
+      "ebay_item_id": "398412553520",
+      "ebay_type": "Brake Drum",
+      "ebay_brand": "UBP",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Drums",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "201981",
+          "1259649"
+        ],
+        "interchange": [
+          "MCI-4898 Raybestos 2093 Bendix 140385"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1985,
+            "year_to": 1989,
+            "make": "Buick",
+            "model": "Skyhawk",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1986,
+            "year_to": 1998,
+            "make": "Buick",
+            "model": "Skylark",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1982,
+            "year_to": 1988,
+            "make": "Cadillac",
+            "model": "Cimarron",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1996,
+            "make": "Chevrolet",
+            "model": "Beretta",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1982,
+            "year_to": 2002,
+            "make": "Chevrolet",
+            "model": "Cavalier",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1996,
+            "make": "Chevrolet",
+            "model": "Corsica",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1992,
+            "year_to": 1998,
+            "make": "Oldsmobile",
+            "model": "Achieva",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1990,
+            "year_to": 1998,
+            "make": "Pontiac",
+            "model": "Grand Am",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1995,
+            "year_to": 2002,
+            "make": "Pontiac",
+            "model": "Sunfire",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1985\u20131989 Buick Skyhawk",
+          "1986\u20131998 Buick Skylark",
+          "1982\u20131988 Cadillac Cimarron",
+          "1987\u20131996 Chevrolet Beretta",
+          "1982\u20132002 Chevrolet Cavalier",
+          "1987\u20131996 Chevrolet Corsica",
+          "1992\u20131998 Oldsmobile Achieva",
+          "1990\u20131998 Pontiac Grand Am",
+          "1995\u20132002 Pontiac Sunfire"
+        ],
+        "raw_compat_rows": 801,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398412553520",
+        "type": "Brake Drum",
+        "brand": "UBP",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Drums"
+      },
+      "images": [
+        "../assets/pdp-gallery/KBNLLN5LMMY2YC5RXXXAFLWJ/02.webp",
+        "../assets/pdp-gallery/KBNLLN5LMMY2YC5RXXXAFLWJ/03.webp"
+      ]
     },
     {
       "id": "E5W6LM2IYFLBQ26MLWESLEQK",
@@ -77703,6 +78189,50 @@
       "stock": 1,
       "interchange": [],
       "vehicles": []
+    },
+    {
+      "id": "CJDPFZ2DD6AUZ4NKMGNTDXAS",
+      "name": "Chilton 7672 Import Car Manual 1980-1987 Softcover Used",
+      "price": 12.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/f0eeefbd4aa293ee8d5a3ca88b0b501074431d17/original.jpeg",
+      "url": "https://square.link/u/0MSHWmZx",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "FHTNBITUDWFUQ7HKLCF3IRFZ",
+      "stock": 1,
+      "part_numbers": [
+        "7672"
+      ],
+      "interchange": [],
+      "vehicles": [],
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398412542931",
+      "ebay_type": "Repair Manual",
+      "ebay_brand": "Chilton",
+      "ebay_category": "eBay Motors:Parts & Accessories:Manuals & Literature:Car & Truck Manuals:Service & Repair Manuals",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "medium",
+      "fitment": {
+        "part_numbers": [
+          "7672"
+        ],
+        "interchange": [],
+        "vehicles": [],
+        "vehicle_labels": [],
+        "raw_compat_rows": 0,
+        "source": "ebay_listing",
+        "confidence": "medium",
+        "ebay_item_id": "398412542931",
+        "type": "Repair Manual",
+        "brand": "Chilton",
+        "ebay_category": "eBay Motors:Parts & Accessories:Manuals & Literature:Car & Truck Manuals:Service & Repair Manuals"
+      },
+      "images": [
+        "../assets/pdp-gallery/CJDPFZ2DD6AUZ4NKMGNTDXAS/02.webp",
+        "../assets/pdp-gallery/CJDPFZ2DD6AUZ4NKMGNTDXAS/03.webp",
+        "../assets/pdp-gallery/CJDPFZ2DD6AUZ4NKMGNTDXAS/04.webp",
+        "../assets/pdp-gallery/CJDPFZ2DD6AUZ4NKMGNTDXAS/05.webp"
+      ]
     },
     {
       "id": "JMZTZB47FVKZLALMJ2FAAV2F",
@@ -125806,5 +126336,5 @@
       "ebay_brand": ""
     }
   ],
-  "fitment_built": "2026-09-20T03:02:42Z"
+  "fitment_built": "2026-09-20T04:02:41Z"
 }
