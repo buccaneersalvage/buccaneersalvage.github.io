@@ -1,7 +1,7 @@
 {
-  "updated": "2026-09-20T18:02:45Z",
+  "updated": "2026-09-20T19:02:18Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 920,
+  "count": 919,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -34456,74 +34456,6 @@
       ],
       "stock": 1,
       "interchange": []
-    },
-    {
-      "id": "GCNQ6WMPF5TV5SXIEAHISFRZ",
-      "name": "Wagner BD61961 Disc Brake Rotor Front NOS 85-89 Dodge Aries Plymouth Reliant",
-      "price": 34.99,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/01f9c4324770334f717b9cab5cdf1e3cf2935b94/original.jpeg",
-      "url": "https://square.link/u/lGAb6Cya",
-      "category": "brake",
-      "checkout": true,
-      "variation_id": "KSSECKBKNPF67YEM55O4AFIE",
-      "stock": 1,
-      "part_numbers": [
-        "BD61961",
-        "P141380, 141380, P7013, 7013R"
-      ],
-      "interchange": [],
-      "vehicles": [
-        "1985\u20131989 Dodge Aries",
-        "1985\u20131989 Plymouth Reliant"
-      ],
-      "vehicle_count_raw": 2,
-      "ebay_item_id": "398414334005",
-      "ebay_type": "Disc Brake Rotor",
-      "ebay_brand": "Wagner",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware",
-      "fitment_source": "ebay_listing+title",
-      "fitment_confidence": "medium",
-      "fitment": {
-        "part_numbers": [
-          "BD61961",
-          "P141380, 141380, P7013, 7013R"
-        ],
-        "interchange": [],
-        "vehicles": [
-          {
-            "year_from": 1985,
-            "year_to": 1989,
-            "make": "Dodge",
-            "model": "Aries",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1985,
-            "year_to": 1989,
-            "make": "Plymouth",
-            "model": "Reliant",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          }
-        ],
-        "vehicle_labels": [
-          "1985\u20131989 Dodge Aries",
-          "1985\u20131989 Plymouth Reliant"
-        ],
-        "raw_compat_rows": 2,
-        "source": "ebay_listing+title",
-        "confidence": "medium",
-        "ebay_item_id": "398414334005",
-        "type": "Disc Brake Rotor",
-        "brand": "Wagner",
-        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware"
-      },
-      "images": []
     },
     {
       "id": "P7Z5QGCU4NTYW4DFMTMTFKBV",
@@ -97930,15 +97862,6 @@
       "category": "other",
       "checkout": true,
       "variation_id": "6KI3VG4QTMU5ECX3PLUIOG5R",
-      "images": [
-        "../assets/pdp-gallery/M6RXTCCFCS7T3IY57547JJRR/02.webp",
-        "../assets/pdp-gallery/M6RXTCCFCS7T3IY57547JJRR/03.webp",
-        "../assets/pdp-gallery/M6RXTCCFCS7T3IY57547JJRR/04.webp",
-        "../assets/pdp-gallery/M6RXTCCFCS7T3IY57547JJRR/05.webp",
-        "../assets/pdp-gallery/M6RXTCCFCS7T3IY57547JJRR/06.webp",
-        "../assets/pdp-gallery/M6RXTCCFCS7T3IY57547JJRR/07.webp"
-      ],
-      "stock": 1,
       "part_numbers": [
         "Casting 317"
       ],
@@ -97954,12 +97877,7 @@
         "2001\u20132007 GMC Sierra 1500",
         "2001\u20132006 GMC Yukon"
       ],
-      "vehicle_count_raw": 121,
-      "ebay_item_id": "398414215595",
-      "ebay_type": "Cylinder Head",
-      "ebay_brand": "GM",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Cylinder Heads",
-      "fitment_source": "ebay_listing+title",
+      "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
@@ -98050,13 +97968,27 @@
           "2001\u20132006 GMC Yukon"
         ],
         "raw_compat_rows": 121,
-        "source": "ebay_listing+title",
+        "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398414215595",
         "type": "Cylinder Head",
         "brand": "GM",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Cylinder Heads"
-      }
+      },
+      "vehicle_count_raw": 121,
+      "ebay_item_id": "398414215595",
+      "ebay_type": "Cylinder Head",
+      "ebay_brand": "GM",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Cylinder Heads",
+      "images": [
+        "../assets/pdp-gallery/M6RXTCCFCS7T3IY57547JJRR/02.webp",
+        "../assets/pdp-gallery/M6RXTCCFCS7T3IY57547JJRR/03.webp",
+        "../assets/pdp-gallery/M6RXTCCFCS7T3IY57547JJRR/04.webp",
+        "../assets/pdp-gallery/M6RXTCCFCS7T3IY57547JJRR/05.webp",
+        "../assets/pdp-gallery/M6RXTCCFCS7T3IY57547JJRR/06.webp",
+        "../assets/pdp-gallery/M6RXTCCFCS7T3IY57547JJRR/07.webp"
+      ],
+      "stock": 1
     },
     {
       "id": "XRWNFGYE2MCD4QC4SRPF4N2Y",
@@ -126437,5 +126369,5 @@
       "ebay_brand": ""
     }
   ],
-  "fitment_built": "2026-09-20T18:02:45Z"
+  "fitment_built": "2026-09-20T19:02:18Z"
 }
