@@ -1,7 +1,7 @@
 {
-  "updated": "2026-09-20T22:02:20Z",
+  "updated": "2026-09-21T00:02:20Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 924,
+  "count": 928,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -34513,7 +34513,6 @@
       "category": "brake",
       "checkout": true,
       "variation_id": "XPVNNI5TZZ3ZEVEMHRVL7P3W",
-      "stock": 1,
       "part_numbers": [
         "BD61988",
         "639462, 61983"
@@ -34525,11 +34524,6 @@
         "1994\u20131998 Audi Cabriolet",
         "1990\u20131991 Audi Coupe Quattro"
       ],
-      "vehicle_count_raw": 7,
-      "ebay_item_id": "398414732968",
-      "ebay_type": "Disc Brake Rotor",
-      "ebay_brand": "Wagner",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Disc Rotors",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -34574,10 +34568,16 @@
         "brand": "Wagner",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Disc Rotors"
       },
+      "vehicle_count_raw": 7,
+      "ebay_item_id": "398414732968",
+      "ebay_type": "Disc Brake Rotor",
+      "ebay_brand": "Wagner",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Disc Rotors",
       "images": [
         "../assets/pdp-gallery/MCKEHYTQNCFONCABSPRZXC6C/02.webp",
         "../assets/pdp-gallery/MCKEHYTQNCFONCABSPRZXC6C/03.webp"
-      ]
+      ],
+      "stock": 1
     },
     {
       "id": "UD6AH2CC4HDMSJS6FE7TTMGV",
@@ -36682,6 +36682,101 @@
       ],
       "stock": 1,
       "interchange": []
+    },
+    {
+      "id": "3GXO52VAZ2V5HL2PCGAWXXL4",
+      "name": "FRAM CG-20 Fuel Filter NOS 63-66 Falcon Comet",
+      "price": 13.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/d67782dc0f0ab43cbbaaee62b4de749f7cd180ae/original.jpeg",
+      "url": "https://square.link/u/Q2bx8giZ",
+      "category": "filters",
+      "checkout": true,
+      "variation_id": "IGIRIY4FEO5TBMVPMPE6KXVB",
+      "part_numbers": [
+        "CG-20",
+        "CG20"
+      ],
+      "interchange": [
+        "GF-157",
+        "LG-111-5",
+        "L-214",
+        "FG-1",
+        "P111-5"
+      ],
+      "vehicles": [
+        "1962\u20131966 Ford Fairlane",
+        "1963\u20131966 Ford Falcon",
+        "1963\u20131966 Mercury Comet"
+      ],
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "CG-20",
+          "CG20"
+        ],
+        "interchange": [
+          "GF-157",
+          "LG-111-5",
+          "L-214",
+          "FG-1",
+          "P111-5"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1962,
+            "year_to": 1966,
+            "make": "Ford",
+            "model": "Fairlane",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1963,
+            "year_to": 1966,
+            "make": "Ford",
+            "model": "Falcon",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1963,
+            "year_to": 1966,
+            "make": "Mercury",
+            "model": "Comet",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1962\u20131966 Ford Fairlane",
+          "1963\u20131966 Ford Falcon",
+          "1963\u20131966 Mercury Comet"
+        ],
+        "raw_compat_rows": 182,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398414965617",
+        "type": "Fuel Filter",
+        "brand": "FRAM",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Fuel Filters"
+      },
+      "vehicle_count_raw": 182,
+      "ebay_item_id": "398414965617",
+      "ebay_type": "Fuel Filter",
+      "ebay_brand": "FRAM",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Fuel Filters",
+      "stock": 1,
+      "images": [
+        "../assets/pdp-gallery/3GXO52VAZ2V5HL2PCGAWXXL4/02.webp",
+        "../assets/pdp-gallery/3GXO52VAZ2V5HL2PCGAWXXL4/03.webp"
+      ]
     },
     {
       "id": "STFS5AX3DEPRWV7TIEJYJUSP",
@@ -80286,6 +80381,45 @@
       "stock": 1,
       "interchange": [],
       "vehicles": []
+    },
+    {
+      "id": "5JQVSX3X7G6VGOBFF2SCGCDR",
+      "name": "DIRECTV RC65 IR Clicker Open Box White New Other",
+      "price": 11.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/585008f773951c5b7bcbe42bcff58609489fb67e/original.jpeg",
+      "url": "https://square.link/u/IaX7Ieef",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "ONXINNPCFDQU7LUFMURW76WQ",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "medium",
+      "fitment": {
+        "part_numbers": [],
+        "interchange": [],
+        "vehicles": [],
+        "vehicle_labels": [],
+        "raw_compat_rows": 0,
+        "source": "ebay_listing",
+        "confidence": "medium",
+        "ebay_item_id": "398414985406",
+        "type": "Remote Control",
+        "brand": "DIRECTV",
+        "ebay_category": "Consumer Electronics:TV, Video & Home Audio:TV, Video & Audio Accessories:Remote Controls"
+      },
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398414985406",
+      "ebay_type": "Remote Control",
+      "ebay_brand": "DIRECTV",
+      "ebay_category": "Consumer Electronics:TV, Video & Home Audio:TV, Video & Audio Accessories:Remote Controls",
+      "stock": 1,
+      "part_numbers": [],
+      "interchange": [],
+      "vehicles": [],
+      "images": [
+        "../assets/pdp-gallery/5JQVSX3X7G6VGOBFF2SCGCDR/02.webp",
+        "../assets/pdp-gallery/5JQVSX3X7G6VGOBFF2SCGCDR/03.webp",
+        "../assets/pdp-gallery/5JQVSX3X7G6VGOBFF2SCGCDR/04.webp"
+      ]
     },
     {
       "id": "ATENLAHEUECPW7NSJL2L7ZVM",
@@ -125791,8 +125925,8 @@
     },
     {
       "id": "MNMOQDIY5TFLEOHM3R5TXV7V",
-      "name": "Wagner BD61288 Lug Nut Lot of 9 M12-1.5 23mm 91-94 Buick LeSabre NOS",
-      "price": 29.99,
+      "name": "Wagner BD61288 Conical Lug Nuts NOS 7pc USA",
+      "price": 18.99,
       "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/1c423b28b784acde69c430fdff7de0c078f324ef/original.jpeg",
       "url": "https://square.link/u/tXt9sdVw",
       "category": "other",
@@ -125841,13 +125975,13 @@
         "raw_compat_rows": 15,
         "source": "ebay_listing",
         "confidence": "high",
-        "ebay_item_id": "398401028505",
+        "ebay_item_id": "398414976613",
         "type": "Lug Nut",
         "brand": "Wagner",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Wheels, Tires & Parts:Wheel Nuts, Bolts & Studs"
       },
       "vehicle_count_raw": 15,
-      "ebay_item_id": "398401028505",
+      "ebay_item_id": "398414976613",
       "ebay_type": "Lug Nut",
       "ebay_brand": "Wagner",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Wheels, Tires & Parts:Wheel Nuts, Bolts & Studs",
@@ -125855,7 +125989,7 @@
         "../assets/pdp-gallery/MNMOQDIY5TFLEOHM3R5TXV7V/02.webp",
         "../assets/pdp-gallery/MNMOQDIY5TFLEOHM3R5TXV7V/03.webp"
       ],
-      "stock": 1,
+      "stock": 7,
       "interchange": []
     },
     {
@@ -126559,6 +126693,262 @@
       "interchange": []
     },
     {
+      "id": "62VM2GKGQNJXLB3NVG4CTMZG",
+      "name": "Wells C846 HEI Coil NOS 85-87 Jeep Cherokee",
+      "price": 17.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/9dea6dd5f6fb772fdac1e59889631e0fec9526fa/original.jpeg",
+      "url": "https://square.link/u/PHS0m2Oh",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "4OJPM25WJQIJYUBSIQQVLRXY",
+      "part_numbers": [
+        "C846",
+        "C-846"
+      ],
+      "interchange": [
+        "1115315",
+        "8983501871"
+      ],
+      "vehicles": [
+        "1985\u20131987 Jeep Cherokee",
+        "1985\u20131987 Jeep Wagoneer"
+      ],
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "C846",
+          "C-846"
+        ],
+        "interchange": [
+          "1115315",
+          "8983501871"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1985,
+            "year_to": 1987,
+            "make": "Jeep",
+            "model": "Cherokee",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1987,
+            "make": "Jeep",
+            "model": "Wagoneer",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1985\u20131987 Jeep Cherokee",
+          "1985\u20131987 Jeep Wagoneer"
+        ],
+        "raw_compat_rows": 34,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398414963243",
+        "type": "Ignition Coil",
+        "brand": "Wells",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Coils"
+      },
+      "vehicle_count_raw": 34,
+      "ebay_item_id": "398414963243",
+      "ebay_type": "Ignition Coil",
+      "ebay_brand": "Wells",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Coils",
+      "stock": 1,
+      "images": [
+        "../assets/pdp-gallery/62VM2GKGQNJXLB3NVG4CTMZG/02.webp",
+        "../assets/pdp-gallery/62VM2GKGQNJXLB3NVG4CTMZG/03.webp",
+        "../assets/pdp-gallery/62VM2GKGQNJXLB3NVG4CTMZG/04.webp"
+      ]
+    },
+    {
+      "id": "7TXW4I76SMO5GI2IMD2LYTVO",
+      "name": "Wells F967 Dist Rotor NOS 81-86 Ford Escort",
+      "price": 12.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/76a8368c0573c5af4cda95850a3a51577db4394f/original.jpeg",
+      "url": "https://square.link/u/qPLLoV5B",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "XXJULC52NHUNVS36IOVL5P2O",
+      "part_numbers": [
+        "F967",
+        "E6FZ-12200-B"
+      ],
+      "interchange": [
+        "E6FZ12200B",
+        "4R1085",
+        "DR332E",
+        "FD303"
+      ],
+      "vehicles": [
+        "1984\u20131985 Ford Bronco II",
+        "1982\u20131986 Ford EXP",
+        "1981\u20131986 Ford Escort",
+        "1984\u20131986 Ford F-150",
+        "1983\u20131986 Ford Mustang",
+        "1983\u20131985 Ford Ranger",
+        "1984\u20131986 Ford Tempo",
+        "1983\u20131986 Mercury Capri",
+        "1981\u20131986 Mercury Lynx",
+        "1984\u20131986 Mercury Topaz"
+      ],
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "F967",
+          "E6FZ-12200-B"
+        ],
+        "interchange": [
+          "E6FZ12200B",
+          "4R1085",
+          "DR332E",
+          "FD303"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1984,
+            "year_to": 1985,
+            "make": "Ford",
+            "model": "Bronco II",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1982,
+            "year_to": 1986,
+            "make": "Ford",
+            "model": "EXP",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1981,
+            "year_to": 1986,
+            "make": "Ford",
+            "model": "Escort",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 1986,
+            "make": "Ford",
+            "model": "F-150",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1983,
+            "year_to": 1986,
+            "make": "Ford",
+            "model": "Mustang",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1983,
+            "year_to": 1985,
+            "make": "Ford",
+            "model": "Ranger",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 1986,
+            "make": "Ford",
+            "model": "Tempo",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1983,
+            "year_to": 1986,
+            "make": "Mercury",
+            "model": "Capri",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1981,
+            "year_to": 1986,
+            "make": "Mercury",
+            "model": "Lynx",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 1986,
+            "make": "Mercury",
+            "model": "Topaz",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1984\u20131985 Ford Bronco II",
+          "1982\u20131986 Ford EXP",
+          "1981\u20131986 Ford Escort",
+          "1984\u20131986 Ford F-150",
+          "1983\u20131986 Ford Mustang",
+          "1983\u20131985 Ford Ranger",
+          "1984\u20131986 Ford Tempo",
+          "1983\u20131986 Mercury Capri",
+          "1981\u20131986 Mercury Lynx",
+          "1984\u20131986 Mercury Topaz"
+        ],
+        "raw_compat_rows": 402,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398414966570",
+        "type": "Distributor Rotor",
+        "brand": "Wells",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors"
+      },
+      "vehicle_count_raw": 402,
+      "ebay_item_id": "398414966570",
+      "ebay_type": "Distributor Rotor",
+      "ebay_brand": "Wells",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors",
+      "stock": 1,
+      "images": [
+        "../assets/pdp-gallery/7TXW4I76SMO5GI2IMD2LYTVO/02.webp",
+        "../assets/pdp-gallery/7TXW4I76SMO5GI2IMD2LYTVO/03.webp",
+        "../assets/pdp-gallery/7TXW4I76SMO5GI2IMD2LYTVO/04.webp"
+      ]
+    },
+    {
       "id": "F3M4DDRQVK4NS2KBT4IDD32B",
       "name": "Whirlpool Washer Pressure Switch 63834 Water Level 738-607-2 Used",
       "price": 16.99,
@@ -126689,5 +127079,5 @@
       "ebay_brand": ""
     }
   ],
-  "fitment_built": "2026-09-20T22:02:20Z"
+  "fitment_built": "2026-09-21T00:02:20Z"
 }
