@@ -1,7 +1,7 @@
 {
-  "updated": "2026-09-21T01:02:18Z",
+  "updated": "2026-09-21T19:03:07Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 928,
+  "count": 934,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -34505,6 +34505,78 @@
       "interchange": []
     },
     {
+      "id": "L65F3756PSQ2AZ4DLLLZESSB",
+      "name": "Wagner BD61988 Front Brake Rotor Audi Cabriolet Coupe Quattro NOS",
+      "price": 39.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/e2ca4e47d16e4065af2c94caa5ddb22bcc547979/original.jpeg",
+      "url": "https://square.link/u/0BomPid2",
+      "category": "brake",
+      "checkout": true,
+      "variation_id": "HH3CY2XPGFMJ5YCVUKL6LTT6",
+      "stock": 1,
+      "part_numbers": [
+        "BD61988",
+        "61983"
+      ],
+      "interchange": [
+        "96428"
+      ],
+      "vehicles": [
+        "1994\u20131998 Audi Cabriolet",
+        "1990\u20131991 Audi Coupe Quattro"
+      ],
+      "vehicle_count_raw": 7,
+      "ebay_item_id": "398414731250",
+      "ebay_type": "Disc Brake Rotor",
+      "ebay_brand": "Wagner",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Disc Rotors",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "BD61988",
+          "61983"
+        ],
+        "interchange": [
+          "96428"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1994,
+            "year_to": 1998,
+            "make": "Audi",
+            "model": "Cabriolet",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1990,
+            "year_to": 1991,
+            "make": "Audi",
+            "model": "Coupe Quattro",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1994\u20131998 Audi Cabriolet",
+          "1990\u20131991 Audi Coupe Quattro"
+        ],
+        "raw_compat_rows": 7,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398414731250",
+        "type": "Disc Brake Rotor",
+        "brand": "Wagner",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Disc Rotors"
+      },
+      "images": []
+    },
+    {
       "id": "MCKEHYTQNCFONCABSPRZXC6C",
       "name": "Wagner BD61988 Front Brake Rotor Audi Cabriolet Coupe Quattro Used",
       "price": 24.99,
@@ -36772,11 +36844,11 @@
       "ebay_type": "Fuel Filter",
       "ebay_brand": "FRAM",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Fuel Filters",
-      "stock": 1,
       "images": [
         "../assets/pdp-gallery/3GXO52VAZ2V5HL2PCGAWXXL4/02.webp",
         "../assets/pdp-gallery/3GXO52VAZ2V5HL2PCGAWXXL4/03.webp"
-      ]
+      ],
+      "stock": 1
     },
     {
       "id": "STFS5AX3DEPRWV7TIEJYJUSP",
@@ -37755,6 +37827,86 @@
         "../assets/pdp-gallery/MGQRQIPVHBDYRPKSBGAUV5WX/03.webp"
       ],
       "stock": 1
+    },
+    {
+      "id": "C5LFVQYCJNT2S3I25O5RGOAN",
+      "name": "Parts Master 61226 Cartridge Oil Filter 3.0 3.2 Crossfire CLK 04-08 NOS",
+      "price": 12.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/213e927a8262f663fd2cc2d64651d3ae982e9aa9/original.jpeg",
+      "url": "https://square.link/u/tr3z6jKB",
+      "category": "filters",
+      "checkout": true,
+      "variation_id": "I6LVDNM5EVGPBWXN7J5P6ASL",
+      "stock": 1,
+      "part_numbers": [
+        "61226",
+        "WIX 51226"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "2004\u20132008 Chrysler Crossfire",
+        "2007\u20132008 Mercedes-Benz CLK280",
+        "2009 Mercedes-Benz GLK280"
+      ],
+      "vehicle_count_raw": 21,
+      "ebay_item_id": "398398334968",
+      "ebay_type": "Oil Filter",
+      "ebay_brand": "Parts Master",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Filters",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "61226",
+          "WIX 51226"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 2004,
+            "year_to": 2008,
+            "make": "Chrysler",
+            "model": "Crossfire",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2007,
+            "year_to": 2008,
+            "make": "Mercedes-Benz",
+            "model": "CLK280",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2009,
+            "year_to": 2009,
+            "make": "Mercedes-Benz",
+            "model": "GLK280",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "2004\u20132008 Chrysler Crossfire",
+          "2007\u20132008 Mercedes-Benz CLK280",
+          "2009 Mercedes-Benz GLK280"
+        ],
+        "raw_compat_rows": 21,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398398334968",
+        "type": "Oil Filter",
+        "brand": "Parts Master",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Filters"
+      },
+      "images": []
     },
     {
       "id": "MGSQAS75SYG3CKXEJL4EO4AG",
@@ -76844,7 +76996,7 @@
     {
       "id": "E7DOV3PLNPCZDXYFP4MJG2HT",
       "name": "Calterm 08536 Ford Socket Water Resistant Double Contact NOS",
-      "price": 9.99,
+      "price": 12.99,
       "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/88bac69a0ff1bb294b0390da32c97d22a2277639/original.jpeg",
       "url": "https://square.link/u/KBqIA99p",
       "category": "other",
@@ -77332,6 +77484,59 @@
       ],
       "stock": 1,
       "interchange": []
+    },
+    {
+      "id": "PO4DKWMD432JSYKZPTUEZJN4",
+      "name": "Calterm 08543 Ford Socket with Ground Tab Stop Tail NOS",
+      "price": 12.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/7ef5fe7849e538aaf8f9bb2a3cf993b38ee03aa0/original.jpeg",
+      "url": "https://square.link/u/WEfP3xd9",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "6W4AXFMTBVREQLJ7P4G26QVT",
+      "stock": 2,
+      "part_numbers": [],
+      "interchange": [],
+      "vehicles": [
+        "Ford Socket"
+      ],
+      "vehicle_count_raw": 1,
+      "ebay_item_id": "",
+      "ebay_type": "",
+      "ebay_brand": "",
+      "ebay_category": "",
+      "fitment_source": "title",
+      "fitment_confidence": "low",
+      "fitment": {
+        "part_numbers": [],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": null,
+            "year_to": null,
+            "make": "Ford",
+            "model": "Socket",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "Ford Socket"
+        ],
+        "raw_compat_rows": 1,
+        "source": "title",
+        "confidence": "low",
+        "ebay_item_id": "",
+        "type": "",
+        "brand": "",
+        "ebay_category": ""
+      },
+      "images": [
+        "../assets/pdp-gallery/PO4DKWMD432JSYKZPTUEZJN4/02.webp",
+        "../assets/pdp-gallery/PO4DKWMD432JSYKZPTUEZJN4/03.webp"
+      ]
     },
     {
       "id": "KRPOEYRG45EXNOO6CRMOJLSS",
@@ -80411,15 +80616,15 @@
       "ebay_type": "Remote Control",
       "ebay_brand": "DIRECTV",
       "ebay_category": "Consumer Electronics:TV, Video & Home Audio:TV, Video & Audio Accessories:Remote Controls",
-      "stock": 1,
-      "part_numbers": [],
-      "interchange": [],
-      "vehicles": [],
       "images": [
         "../assets/pdp-gallery/5JQVSX3X7G6VGOBFF2SCGCDR/02.webp",
         "../assets/pdp-gallery/5JQVSX3X7G6VGOBFF2SCGCDR/03.webp",
         "../assets/pdp-gallery/5JQVSX3X7G6VGOBFF2SCGCDR/04.webp"
-      ]
+      ],
+      "stock": 1,
+      "part_numbers": [],
+      "interchange": [],
+      "vehicles": []
     },
     {
       "id": "ATENLAHEUECPW7NSJL2L7ZVM",
@@ -98927,6 +99132,56 @@
       "stock": 1,
       "part_numbers": [],
       "interchange": []
+    },
+    {
+      "id": "QDIFDITJJPYFABNL67CWRHTU",
+      "name": "H&R Pinion Snubber Ford Mustang 79-04 NOS w/ Hardware",
+      "price": 99.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/9fcef0bef418e606cdf3525a77427b4cd9aaae33/original.jpeg",
+      "url": "https://square.link/u/zSzPw29m",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "I5EE7JF6AV4N2WMJ4NKGWI6A",
+      "stock": 1,
+      "part_numbers": [],
+      "interchange": [],
+      "vehicles": [
+        "1979\u20132004 Ford Mustang"
+      ],
+      "vehicle_count_raw": 333,
+      "ebay_item_id": "398405152975",
+      "ebay_type": "Pinion Snubber",
+      "ebay_brand": "H&R",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Steering & Suspension:Gearboxes, Rack & Pinions",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1979,
+            "year_to": 2004,
+            "make": "Ford",
+            "model": "Mustang",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1979\u20132004 Ford Mustang"
+        ],
+        "raw_compat_rows": 333,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398405152975",
+        "type": "Pinion Snubber",
+        "brand": "H&R",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Steering & Suspension:Gearboxes, Rack & Pinions"
+      },
+      "images": []
     },
     {
       "id": "3ICV75PAFQP3JSDBQVGMI3LP",
@@ -125993,6 +126248,72 @@
       "interchange": []
     },
     {
+      "id": "FQGBFNZT6QL2ASTUAPZHNONH",
+      "name": "Wagner BD61288 Lug Nut Lot of 9 M12-1.5 23mm 91-94 Buick LeSabre NOS",
+      "price": 29.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/1c423b28b784acde69c430fdff7de0c078f324ef/original.jpeg",
+      "url": "https://square.link/u/XIeeKzAO",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "3E3O4QOLYYGXCSU62QKP6V75",
+      "stock": 1,
+      "part_numbers": [
+        "BD61288"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1991\u20131994 Buick Commercial Chassis",
+        "1991\u20131994 Buick LeSabre"
+      ],
+      "vehicle_count_raw": 15,
+      "ebay_item_id": "398401028505",
+      "ebay_type": "Lug Nut",
+      "ebay_brand": "Wagner",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Wheels, Tires & Parts:Wheel Nuts, Bolts & Studs",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "BD61288"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1991,
+            "year_to": 1994,
+            "make": "Buick",
+            "model": "Commercial Chassis",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1991,
+            "year_to": 1994,
+            "make": "Buick",
+            "model": "LeSabre",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1991\u20131994 Buick Commercial Chassis",
+          "1991\u20131994 Buick LeSabre"
+        ],
+        "raw_compat_rows": 15,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398401028505",
+        "type": "Lug Nut",
+        "brand": "Wagner",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Wheels, Tires & Parts:Wheel Nuts, Bolts & Studs"
+      },
+      "images": []
+    },
+    {
       "id": "4G347M77RZWOOFBLEGAD5MUV",
       "name": "Wagner BD61301 Zinc Lug Nut Lot of 9 M12-1.5 85-88 Chevy Nova Charade NOS",
       "price": 29.99,
@@ -126693,6 +127014,702 @@
       "interchange": []
     },
     {
+      "id": "O22X5CX7XF3JZKWR27FZELQL",
+      "name": "Wagner MC101254 Master Cylinder NOS 70-80 Camaro Firebird Impala",
+      "price": 99.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/88bac69a0ff1bb294b0390da32c97d22a2277639/original.jpeg",
+      "url": "https://square.link/u/CaoNnqF8",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "MLCM4LXHNK74JW3FNMXAXX43",
+      "stock": 1,
+      "part_numbers": [
+        "MC101254",
+        "F101254"
+      ],
+      "interchange": [
+        "F101254 18M18 MC36306 M76162 11944"
+      ],
+      "vehicles": [
+        "1975\u20131978 AMC Matador",
+        "1971\u20131973 Buick Centurion",
+        "1970\u20131972 Buick GS",
+        "1969 Buick GS 350",
+        "1969 Buick GS 400",
+        "1970\u20131972 Buick GS 455",
+        "1969 Buick Special",
+        "1969\u20131972 Buick Sportwagon",
+        "1971\u20131975 Cadillac Eldorado",
+        "1971\u20131972 Chevrolet Biscayne",
+        "1973\u20131974 Chevrolet Blazer",
+        "1971\u20131972 Chevrolet Brookwood",
+        "1973\u20131974 Chevrolet C10 Pickup",
+        "1973 Chevrolet Chevelle",
+        "1973\u20131974 Chevrolet G10 Van",
+        "1973 Chevrolet G20 Van",
+        "1972\u20131974 Chevrolet K10 Pickup",
+        "1971\u20131972 Chevrolet Kingswood",
+        "1973 Chevrolet P10 Van",
+        "1971\u20131972 Chevrolet Townsman",
+        "1973\u20131974 GMC C15/C1500 Pickup",
+        "1973\u20131974 GMC C15/C1500 Suburban",
+        "1973\u20131974 GMC G15/G1500 Van",
+        "1973 GMC G25/G2500 Van",
+        "1972\u20131974 GMC K15/K1500 Pickup",
+        "1972\u20131974 GMC K15/K1500 Suburban",
+        "1973 GMC P15/P1500 Van",
+        "1973\u20131976 GMC Sprint",
+        "1969\u20131971 Oldsmobile 442",
+        "1971\u20131980 Oldsmobile 98",
+        "1971\u20131979 Oldsmobile Custom Cruiser",
+        "1967\u20131977 Oldsmobile Cutlass",
+        "1975\u20131977 Oldsmobile Cutlass Salon",
+        "1969\u20131977 Oldsmobile Cutlass Supreme",
+        "1971\u20131980 Oldsmobile Delta 88",
+        "1969\u20131972 Oldsmobile F85",
+        "1975\u20131979 Oldsmobile Omega",
+        "1973\u20131978 Oldsmobile Toronado",
+        "1967\u20131975 Oldsmobile Vista Cruiser",
+        "1971\u20131980 Pontiac Bonneville",
+        "1971\u20131980 Pontiac Catalina",
+        "1970\u20131980 Pontiac Firebird",
+        "1969\u20131973 Pontiac GTO",
+        "1973\u20131975 Pontiac Grand Am",
+        "1975\u20131977 Pontiac Grand LeMans",
+        "1969\u20131977 Pontiac Grand Prix",
+        "1971\u20131978 Pontiac Grand Safari",
+        "1971\u20131975 Pontiac Grandville",
+        "1976\u20131980 Pontiac Laurentian",
+        "1969\u20131977 Pontiac LeMans",
+        "1976\u20131980 Pontiac Parisienne",
+        "1977\u20131979 Pontiac Phoenix",
+        "1969\u20131970 Pontiac Tempest",
+        "1975\u20131977 Pontiac Ventura"
+      ],
+      "vehicle_count_raw": 3000,
+      "ebay_item_id": "398401680452",
+      "ebay_type": "Brake Master Cylinder",
+      "ebay_brand": "Wagner",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Master Cylinders",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "MC101254",
+          "F101254"
+        ],
+        "interchange": [
+          "F101254 18M18 MC36306 M76162 11944"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1975,
+            "year_to": 1978,
+            "make": "AMC",
+            "model": "Matador",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1971,
+            "year_to": 1973,
+            "make": "Buick",
+            "model": "Centurion",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1970,
+            "year_to": 1972,
+            "make": "Buick",
+            "model": "GS",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1969,
+            "year_to": 1969,
+            "make": "Buick",
+            "model": "GS 350",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1969,
+            "year_to": 1969,
+            "make": "Buick",
+            "model": "GS 400",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1970,
+            "year_to": 1972,
+            "make": "Buick",
+            "model": "GS 455",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1969,
+            "year_to": 1969,
+            "make": "Buick",
+            "model": "Special",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1969,
+            "year_to": 1972,
+            "make": "Buick",
+            "model": "Sportwagon",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1971,
+            "year_to": 1975,
+            "make": "Cadillac",
+            "model": "Eldorado",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1971,
+            "year_to": 1972,
+            "make": "Chevrolet",
+            "model": "Biscayne",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1973,
+            "year_to": 1974,
+            "make": "Chevrolet",
+            "model": "Blazer",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1971,
+            "year_to": 1972,
+            "make": "Chevrolet",
+            "model": "Brookwood",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1973,
+            "year_to": 1974,
+            "make": "Chevrolet",
+            "model": "C10 Pickup",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1973,
+            "year_to": 1973,
+            "make": "Chevrolet",
+            "model": "Chevelle",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1973,
+            "year_to": 1974,
+            "make": "Chevrolet",
+            "model": "G10 Van",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1973,
+            "year_to": 1973,
+            "make": "Chevrolet",
+            "model": "G20 Van",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1972,
+            "year_to": 1974,
+            "make": "Chevrolet",
+            "model": "K10 Pickup",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1971,
+            "year_to": 1972,
+            "make": "Chevrolet",
+            "model": "Kingswood",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1973,
+            "year_to": 1973,
+            "make": "Chevrolet",
+            "model": "P10 Van",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1971,
+            "year_to": 1972,
+            "make": "Chevrolet",
+            "model": "Townsman",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1973,
+            "year_to": 1974,
+            "make": "GMC",
+            "model": "C15/C1500 Pickup",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1973,
+            "year_to": 1974,
+            "make": "GMC",
+            "model": "C15/C1500 Suburban",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1973,
+            "year_to": 1974,
+            "make": "GMC",
+            "model": "G15/G1500 Van",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1973,
+            "year_to": 1973,
+            "make": "GMC",
+            "model": "G25/G2500 Van",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1972,
+            "year_to": 1974,
+            "make": "GMC",
+            "model": "K15/K1500 Pickup",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1972,
+            "year_to": 1974,
+            "make": "GMC",
+            "model": "K15/K1500 Suburban",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1973,
+            "year_to": 1973,
+            "make": "GMC",
+            "model": "P15/P1500 Van",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1973,
+            "year_to": 1976,
+            "make": "GMC",
+            "model": "Sprint",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1969,
+            "year_to": 1971,
+            "make": "Oldsmobile",
+            "model": "442",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1971,
+            "year_to": 1980,
+            "make": "Oldsmobile",
+            "model": "98",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1971,
+            "year_to": 1979,
+            "make": "Oldsmobile",
+            "model": "Custom Cruiser",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1967,
+            "year_to": 1977,
+            "make": "Oldsmobile",
+            "model": "Cutlass",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1975,
+            "year_to": 1977,
+            "make": "Oldsmobile",
+            "model": "Cutlass Salon",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1969,
+            "year_to": 1977,
+            "make": "Oldsmobile",
+            "model": "Cutlass Supreme",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1971,
+            "year_to": 1980,
+            "make": "Oldsmobile",
+            "model": "Delta 88",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1969,
+            "year_to": 1972,
+            "make": "Oldsmobile",
+            "model": "F85",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1975,
+            "year_to": 1979,
+            "make": "Oldsmobile",
+            "model": "Omega",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1973,
+            "year_to": 1978,
+            "make": "Oldsmobile",
+            "model": "Toronado",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1967,
+            "year_to": 1975,
+            "make": "Oldsmobile",
+            "model": "Vista Cruiser",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1971,
+            "year_to": 1980,
+            "make": "Pontiac",
+            "model": "Bonneville",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1971,
+            "year_to": 1980,
+            "make": "Pontiac",
+            "model": "Catalina",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1970,
+            "year_to": 1980,
+            "make": "Pontiac",
+            "model": "Firebird",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1969,
+            "year_to": 1973,
+            "make": "Pontiac",
+            "model": "GTO",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1973,
+            "year_to": 1975,
+            "make": "Pontiac",
+            "model": "Grand Am",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1975,
+            "year_to": 1977,
+            "make": "Pontiac",
+            "model": "Grand LeMans",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1969,
+            "year_to": 1977,
+            "make": "Pontiac",
+            "model": "Grand Prix",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1971,
+            "year_to": 1978,
+            "make": "Pontiac",
+            "model": "Grand Safari",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1971,
+            "year_to": 1975,
+            "make": "Pontiac",
+            "model": "Grandville",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1976,
+            "year_to": 1980,
+            "make": "Pontiac",
+            "model": "Laurentian",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1969,
+            "year_to": 1977,
+            "make": "Pontiac",
+            "model": "LeMans",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1976,
+            "year_to": 1980,
+            "make": "Pontiac",
+            "model": "Parisienne",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1977,
+            "year_to": 1979,
+            "make": "Pontiac",
+            "model": "Phoenix",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1969,
+            "year_to": 1970,
+            "make": "Pontiac",
+            "model": "Tempest",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1975,
+            "year_to": 1977,
+            "make": "Pontiac",
+            "model": "Ventura",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1975\u20131978 AMC Matador",
+          "1971\u20131973 Buick Centurion",
+          "1970\u20131972 Buick GS",
+          "1969 Buick GS 350",
+          "1969 Buick GS 400",
+          "1970\u20131972 Buick GS 455",
+          "1969 Buick Special",
+          "1969\u20131972 Buick Sportwagon",
+          "1971\u20131975 Cadillac Eldorado",
+          "1971\u20131972 Chevrolet Biscayne",
+          "1973\u20131974 Chevrolet Blazer",
+          "1971\u20131972 Chevrolet Brookwood",
+          "1973\u20131974 Chevrolet C10 Pickup",
+          "1973 Chevrolet Chevelle",
+          "1973\u20131974 Chevrolet G10 Van",
+          "1973 Chevrolet G20 Van",
+          "1972\u20131974 Chevrolet K10 Pickup",
+          "1971\u20131972 Chevrolet Kingswood",
+          "1973 Chevrolet P10 Van",
+          "1971\u20131972 Chevrolet Townsman",
+          "1973\u20131974 GMC C15/C1500 Pickup",
+          "1973\u20131974 GMC C15/C1500 Suburban",
+          "1973\u20131974 GMC G15/G1500 Van",
+          "1973 GMC G25/G2500 Van",
+          "1972\u20131974 GMC K15/K1500 Pickup",
+          "1972\u20131974 GMC K15/K1500 Suburban",
+          "1973 GMC P15/P1500 Van",
+          "1973\u20131976 GMC Sprint",
+          "1969\u20131971 Oldsmobile 442",
+          "1971\u20131980 Oldsmobile 98",
+          "1971\u20131979 Oldsmobile Custom Cruiser",
+          "1967\u20131977 Oldsmobile Cutlass",
+          "1975\u20131977 Oldsmobile Cutlass Salon",
+          "1969\u20131977 Oldsmobile Cutlass Supreme",
+          "1971\u20131980 Oldsmobile Delta 88",
+          "1969\u20131972 Oldsmobile F85",
+          "1975\u20131979 Oldsmobile Omega",
+          "1973\u20131978 Oldsmobile Toronado",
+          "1967\u20131975 Oldsmobile Vista Cruiser",
+          "1971\u20131980 Pontiac Bonneville",
+          "1971\u20131980 Pontiac Catalina",
+          "1970\u20131980 Pontiac Firebird",
+          "1969\u20131973 Pontiac GTO",
+          "1973\u20131975 Pontiac Grand Am",
+          "1975\u20131977 Pontiac Grand LeMans",
+          "1969\u20131977 Pontiac Grand Prix",
+          "1971\u20131978 Pontiac Grand Safari",
+          "1971\u20131975 Pontiac Grandville",
+          "1976\u20131980 Pontiac Laurentian",
+          "1969\u20131977 Pontiac LeMans",
+          "1976\u20131980 Pontiac Parisienne",
+          "1977\u20131979 Pontiac Phoenix",
+          "1969\u20131970 Pontiac Tempest",
+          "1975\u20131977 Pontiac Ventura"
+        ],
+        "raw_compat_rows": 3000,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398401680452",
+        "type": "Brake Master Cylinder",
+        "brand": "Wagner",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Master Cylinders"
+      },
+      "images": []
+    },
+    {
       "id": "62VM2GKGQNJXLB3NVG4CTMZG",
       "name": "Wells C846 HEI Coil NOS 85-87 Jeep Cherokee",
       "price": 17.99,
@@ -126763,12 +127780,12 @@
       "ebay_type": "Ignition Coil",
       "ebay_brand": "Wells",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Coils",
-      "stock": 1,
       "images": [
         "../assets/pdp-gallery/62VM2GKGQNJXLB3NVG4CTMZG/02.webp",
         "../assets/pdp-gallery/62VM2GKGQNJXLB3NVG4CTMZG/03.webp",
         "../assets/pdp-gallery/62VM2GKGQNJXLB3NVG4CTMZG/04.webp"
-      ]
+      ],
+      "stock": 1
     },
     {
       "id": "7TXW4I76SMO5GI2IMD2LYTVO",
@@ -126941,12 +127958,12 @@
       "ebay_type": "Distributor Rotor",
       "ebay_brand": "Wells",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors",
-      "stock": 1,
       "images": [
         "../assets/pdp-gallery/7TXW4I76SMO5GI2IMD2LYTVO/02.webp",
         "../assets/pdp-gallery/7TXW4I76SMO5GI2IMD2LYTVO/03.webp",
         "../assets/pdp-gallery/7TXW4I76SMO5GI2IMD2LYTVO/04.webp"
-      ]
+      ],
+      "stock": 1
     },
     {
       "id": "F3M4DDRQVK4NS2KBT4IDD32B",
@@ -127079,5 +128096,5 @@
       "ebay_brand": ""
     }
   ],
-  "fitment_built": "2026-09-21T01:02:18Z"
+  "fitment_built": "2026-09-21T19:03:07Z"
 }
