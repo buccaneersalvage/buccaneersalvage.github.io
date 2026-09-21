@@ -1,7 +1,7 @@
 {
-  "updated": "2026-09-21T19:03:07Z",
+  "updated": "2026-09-21T21:02:56Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 934,
+  "count": 938,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -34513,7 +34513,6 @@
       "category": "brake",
       "checkout": true,
       "variation_id": "HH3CY2XPGFMJ5YCVUKL6LTT6",
-      "stock": 1,
       "part_numbers": [
         "BD61988",
         "61983"
@@ -34525,11 +34524,6 @@
         "1994\u20131998 Audi Cabriolet",
         "1990\u20131991 Audi Coupe Quattro"
       ],
-      "vehicle_count_raw": 7,
-      "ebay_item_id": "398414731250",
-      "ebay_type": "Disc Brake Rotor",
-      "ebay_brand": "Wagner",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Disc Rotors",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -34574,6 +34568,12 @@
         "brand": "Wagner",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Disc Rotors"
       },
+      "vehicle_count_raw": 7,
+      "ebay_item_id": "398414731250",
+      "ebay_type": "Disc Brake Rotor",
+      "ebay_brand": "Wagner",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Disc Rotors",
+      "stock": 1,
       "images": []
     },
     {
@@ -37837,22 +37837,15 @@
       "category": "filters",
       "checkout": true,
       "variation_id": "I6LVDNM5EVGPBWXN7J5P6ASL",
-      "stock": 1,
       "part_numbers": [
         "61226",
         "WIX 51226"
       ],
-      "interchange": [],
       "vehicles": [
         "2004\u20132008 Chrysler Crossfire",
         "2007\u20132008 Mercedes-Benz CLK280",
         "2009 Mercedes-Benz GLK280"
       ],
-      "vehicle_count_raw": 21,
-      "ebay_item_id": "398398334968",
-      "ebay_type": "Oil Filter",
-      "ebay_brand": "Parts Master",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Filters",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -37906,6 +37899,13 @@
         "brand": "Parts Master",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Filters"
       },
+      "vehicle_count_raw": 21,
+      "ebay_item_id": "398398334968",
+      "ebay_type": "Oil Filter",
+      "ebay_brand": "Parts Master",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Filters",
+      "stock": 1,
+      "interchange": [],
       "images": []
     },
     {
@@ -77494,18 +77494,10 @@
       "category": "other",
       "checkout": true,
       "variation_id": "6W4AXFMTBVREQLJ7P4G26QVT",
-      "stock": 2,
-      "part_numbers": [],
-      "interchange": [],
       "vehicles": [
         "Ford Socket"
       ],
-      "vehicle_count_raw": 1,
-      "ebay_item_id": "",
-      "ebay_type": "",
-      "ebay_brand": "",
-      "ebay_category": "",
-      "fitment_source": "title",
+      "fitment_source": "ebay_listing",
       "fitment_confidence": "low",
       "fitment": {
         "part_numbers": [],
@@ -77526,17 +77518,25 @@
           "Ford Socket"
         ],
         "raw_compat_rows": 1,
-        "source": "title",
+        "source": "ebay_listing",
         "confidence": "low",
         "ebay_item_id": "",
         "type": "",
         "brand": "",
         "ebay_category": ""
       },
+      "vehicle_count_raw": 1,
       "images": [
         "../assets/pdp-gallery/PO4DKWMD432JSYKZPTUEZJN4/02.webp",
         "../assets/pdp-gallery/PO4DKWMD432JSYKZPTUEZJN4/03.webp"
-      ]
+      ],
+      "stock": 2,
+      "part_numbers": [],
+      "interchange": [],
+      "ebay_item_id": "",
+      "ebay_type": "",
+      "ebay_brand": "",
+      "ebay_category": ""
     },
     {
       "id": "KRPOEYRG45EXNOO6CRMOJLSS",
@@ -99142,17 +99142,9 @@
       "category": "other",
       "checkout": true,
       "variation_id": "I5EE7JF6AV4N2WMJ4NKGWI6A",
-      "stock": 1,
-      "part_numbers": [],
-      "interchange": [],
       "vehicles": [
         "1979\u20132004 Ford Mustang"
       ],
-      "vehicle_count_raw": 333,
-      "ebay_item_id": "398405152975",
-      "ebay_type": "Pinion Snubber",
-      "ebay_brand": "H&R",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Steering & Suspension:Gearboxes, Rack & Pinions",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -99181,6 +99173,14 @@
         "brand": "H&R",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Steering & Suspension:Gearboxes, Rack & Pinions"
       },
+      "vehicle_count_raw": 333,
+      "ebay_item_id": "398405152975",
+      "ebay_type": "Pinion Snubber",
+      "ebay_brand": "H&R",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Steering & Suspension:Gearboxes, Rack & Pinions",
+      "stock": 1,
+      "part_numbers": [],
+      "interchange": [],
       "images": []
     },
     {
@@ -99220,6 +99220,102 @@
       "part_numbers": [],
       "interchange": [],
       "vehicles": []
+    },
+    {
+      "id": "ODN4VCTC3BOYRIGRI4RGB2OQ",
+      "name": "Hoover 38777037 Dirty Water Recovery Tank Used SteamVac F5837-900 38777065",
+      "price": 29.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/ff4e28a2e8ccec2d35376f7454290380aa059f31/original.jpeg",
+      "url": "https://square.link/u/m6sera8U",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "QFWGNPB435T3LDLOSEDEDXLT",
+      "stock": 1,
+      "part_numbers": [
+        "38777037"
+      ],
+      "interchange": [],
+      "vehicles": [],
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398418005129",
+      "ebay_type": "Water Tank",
+      "ebay_brand": "Hoover",
+      "ebay_category": "Home & Garden:Household Supplies & Cleaning:Vacuum Cleaner Parts",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "medium",
+      "fitment": {
+        "part_numbers": [
+          "38777037"
+        ],
+        "interchange": [],
+        "vehicles": [],
+        "vehicle_labels": [],
+        "raw_compat_rows": 0,
+        "source": "ebay_listing",
+        "confidence": "medium",
+        "ebay_item_id": "398418005129",
+        "type": "Water Tank",
+        "brand": "Hoover",
+        "ebay_category": "Home & Garden:Household Supplies & Cleaning:Vacuum Cleaner Parts"
+      },
+      "images": [
+        "../assets/pdp-gallery/ODN4VCTC3BOYRIGRI4RGB2OQ/02.webp",
+        "../assets/pdp-gallery/ODN4VCTC3BOYRIGRI4RGB2OQ/03.webp",
+        "../assets/pdp-gallery/ODN4VCTC3BOYRIGRI4RGB2OQ/04.webp",
+        "../assets/pdp-gallery/ODN4VCTC3BOYRIGRI4RGB2OQ/05.webp",
+        "../assets/pdp-gallery/ODN4VCTC3BOYRIGRI4RGB2OQ/06.webp",
+        "../assets/pdp-gallery/ODN4VCTC3BOYRIGRI4RGB2OQ/07.webp"
+      ]
+    },
+    {
+      "id": "IAPBCAKOCPZQPDGIA6MMTSDT",
+      "name": "Hoover 440007358 Clean Water Solution Tank Used SteamVac F5837-900 42272134",
+      "price": 25.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/6ee296d34271699bf81401a33a011704ef447ae3/original.jpeg",
+      "url": "https://square.link/u/8h82O2sb",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "5H5Q4SU6RJCHRNWSV2GIFL3F",
+      "stock": 1,
+      "part_numbers": [
+        "440007358",
+        "440001251, 42272145"
+      ],
+      "interchange": [
+        "42272134"
+      ],
+      "vehicles": [],
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398418006592",
+      "ebay_type": "Water Tank",
+      "ebay_brand": "Hoover",
+      "ebay_category": "Home & Garden:Household Supplies & Cleaning:Vacuum Cleaner Parts",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "440007358",
+          "440001251, 42272145"
+        ],
+        "interchange": [
+          "42272134"
+        ],
+        "vehicles": [],
+        "vehicle_labels": [],
+        "raw_compat_rows": 0,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398418006592",
+        "type": "Water Tank",
+        "brand": "Hoover",
+        "ebay_category": "Home & Garden:Household Supplies & Cleaning:Vacuum Cleaner Parts"
+      },
+      "images": [
+        "../assets/pdp-gallery/IAPBCAKOCPZQPDGIA6MMTSDT/02.webp",
+        "../assets/pdp-gallery/IAPBCAKOCPZQPDGIA6MMTSDT/03.webp",
+        "../assets/pdp-gallery/IAPBCAKOCPZQPDGIA6MMTSDT/04.webp",
+        "../assets/pdp-gallery/IAPBCAKOCPZQPDGIA6MMTSDT/05.webp"
+      ]
     },
     {
       "id": "LANHA3SISCMF45MDA62R4QKP",
@@ -103276,6 +103372,48 @@
       "stock": 1
     },
     {
+      "id": "TAQ7T7CVAGBWTA4PBZL2MKDS",
+      "name": "Lot 3 Used A/C Oils PAG46 59007 PAG150 59003 Johnsen 6808",
+      "price": 24.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/8b047770a660a56664eb9d54060a7d0a4c18892e/original.jpeg",
+      "url": "https://square.link/u/fHmpQGOc",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "OO3WAUPKEDL6KTPXPF5Z3BW5",
+      "stock": 1,
+      "part_numbers": [],
+      "interchange": [],
+      "vehicles": [],
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398418125174",
+      "ebay_type": "Refrigerant Oil",
+      "ebay_brand": "Unbranded",
+      "ebay_category": "eBay Motors:Automotive Tools & Supplies:Fluids & Chemicals:Air Conditioning Chemicals",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "medium",
+      "fitment": {
+        "part_numbers": [],
+        "interchange": [],
+        "vehicles": [],
+        "vehicle_labels": [],
+        "raw_compat_rows": 0,
+        "source": "ebay_listing",
+        "confidence": "medium",
+        "ebay_item_id": "398418125174",
+        "type": "Refrigerant Oil",
+        "brand": "Unbranded",
+        "ebay_category": "eBay Motors:Automotive Tools & Supplies:Fluids & Chemicals:Air Conditioning Chemicals"
+      },
+      "images": [
+        "../assets/pdp-gallery/TAQ7T7CVAGBWTA4PBZL2MKDS/02.webp",
+        "../assets/pdp-gallery/TAQ7T7CVAGBWTA4PBZL2MKDS/03.webp",
+        "../assets/pdp-gallery/TAQ7T7CVAGBWTA4PBZL2MKDS/04.webp",
+        "../assets/pdp-gallery/TAQ7T7CVAGBWTA4PBZL2MKDS/05.webp",
+        "../assets/pdp-gallery/TAQ7T7CVAGBWTA4PBZL2MKDS/06.webp",
+        "../assets/pdp-gallery/TAQ7T7CVAGBWTA4PBZL2MKDS/07.webp"
+      ]
+    },
+    {
       "id": "HTGYQ5UPG6YGNTCTFHPGX3RB",
       "name": "Lot of 10 Galvanized Trampoline Springs 6.5 in Heavy-Duty Replacement Set",
       "price": 21.99,
@@ -103349,6 +103487,45 @@
       "part_numbers": [],
       "interchange": [],
       "vehicles": []
+    },
+    {
+      "id": "VWGGJHJEBTTELGYROE64VSNE",
+      "name": "Lot of 2 Gray Rubber 5inch Walker Wheels Black 5spoke Hub Used",
+      "price": 18.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/89d75483ce7f97ccf443687f44633f26c79809d1/original.jpeg",
+      "url": "https://square.link/u/7iQkPqHQ",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "K36CCA2RYWEKZB5ZL3SCWBUB",
+      "stock": 1,
+      "part_numbers": [],
+      "interchange": [],
+      "vehicles": [],
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398418044990",
+      "ebay_type": "Walker Wheel",
+      "ebay_brand": "Unbranded",
+      "ebay_category": "Business & Industrial:Material Handling:Casters & Wheels:Caster Wheels",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "medium",
+      "fitment": {
+        "part_numbers": [],
+        "interchange": [],
+        "vehicles": [],
+        "vehicle_labels": [],
+        "raw_compat_rows": 0,
+        "source": "ebay_listing",
+        "confidence": "medium",
+        "ebay_item_id": "398418044990",
+        "type": "Walker Wheel",
+        "brand": "Unbranded",
+        "ebay_category": "Business & Industrial:Material Handling:Casters & Wheels:Caster Wheels"
+      },
+      "images": [
+        "../assets/pdp-gallery/VWGGJHJEBTTELGYROE64VSNE/02.webp",
+        "../assets/pdp-gallery/VWGGJHJEBTTELGYROE64VSNE/03.webp",
+        "../assets/pdp-gallery/VWGGJHJEBTTELGYROE64VSNE/04.webp"
+      ]
     },
     {
       "id": "XSFWEU4ICEZANCDYVSZAVHW4",
@@ -126256,20 +126433,13 @@
       "category": "other",
       "checkout": true,
       "variation_id": "3E3O4QOLYYGXCSU62QKP6V75",
-      "stock": 1,
       "part_numbers": [
         "BD61288"
       ],
-      "interchange": [],
       "vehicles": [
         "1991\u20131994 Buick Commercial Chassis",
         "1991\u20131994 Buick LeSabre"
       ],
-      "vehicle_count_raw": 15,
-      "ebay_item_id": "398401028505",
-      "ebay_type": "Lug Nut",
-      "ebay_brand": "Wagner",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Wheels, Tires & Parts:Wheel Nuts, Bolts & Studs",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -126311,6 +126481,13 @@
         "brand": "Wagner",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Wheels, Tires & Parts:Wheel Nuts, Bolts & Studs"
       },
+      "vehicle_count_raw": 15,
+      "ebay_item_id": "398401028505",
+      "ebay_type": "Lug Nut",
+      "ebay_brand": "Wagner",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Wheels, Tires & Parts:Wheel Nuts, Bolts & Studs",
+      "stock": 1,
+      "interchange": [],
       "images": []
     },
     {
@@ -127022,7 +127199,6 @@
       "category": "other",
       "checkout": true,
       "variation_id": "MLCM4LXHNK74JW3FNMXAXX43",
-      "stock": 1,
       "part_numbers": [
         "MC101254",
         "F101254"
@@ -127086,11 +127262,6 @@
         "1969\u20131970 Pontiac Tempest",
         "1975\u20131977 Pontiac Ventura"
       ],
-      "vehicle_count_raw": 3000,
-      "ebay_item_id": "398401680452",
-      "ebay_type": "Brake Master Cylinder",
-      "ebay_brand": "Wagner",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Master Cylinders",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -127707,6 +127878,12 @@
         "brand": "Wagner",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Master Cylinders"
       },
+      "vehicle_count_raw": 3000,
+      "ebay_item_id": "398401680452",
+      "ebay_type": "Brake Master Cylinder",
+      "ebay_brand": "Wagner",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Master Cylinders",
+      "stock": 1,
       "images": []
     },
     {
@@ -128096,5 +128273,5 @@
       "ebay_brand": ""
     }
   ],
-  "fitment_built": "2026-09-21T19:03:07Z"
+  "fitment_built": "2026-09-21T21:02:56Z"
 }
