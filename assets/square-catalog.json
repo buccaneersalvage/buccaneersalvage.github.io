@@ -1,7 +1,7 @@
 {
-  "updated": "2026-09-22T22:02:33Z",
+  "updated": "2026-09-22T23:02:33Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 938,
+  "count": 937,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -3270,114 +3270,6 @@
       "stock": 1,
       "interchange": [],
       "images": []
-    },
-    {
-      "id": "UXP7MRDC4LLA6RESFGGS6C26",
-      "name": "Big A Plus 1-7353 Front Brake Pads Escort Tracer Protege MX-3 NOS",
-      "price": 24.99,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/be816d86d852957dbf67ac98dd75e90dc2c1e6f9/original.jpeg",
-      "url": "https://square.link/u/tvMNzUd1",
-      "category": "brake",
-      "checkout": true,
-      "variation_id": "BQJ52J62P4JPOVESA6HIZXFW",
-      "part_numbers": [
-        "1-7353",
-        "WED61F, FMSI 7353"
-      ],
-      "interchange": [
-        "MKD473",
-        "D473",
-        "AXMD473",
-        "RPD473M",
-        "1-473"
-      ],
-      "vehicles": [
-        "1991\u20132003 Ford Escort",
-        "1992\u20131995 Mazda MX-3",
-        "1990\u20131997 Mazda Protege",
-        "1991\u20131999 Mercury Tracer"
-      ],
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "high",
-      "fitment": {
-        "part_numbers": [
-          "1-7353",
-          "WED61F, FMSI 7353"
-        ],
-        "interchange": [
-          "MKD473",
-          "D473",
-          "AXMD473",
-          "RPD473M",
-          "1-473"
-        ],
-        "vehicles": [
-          {
-            "year_from": 1991,
-            "year_to": 2003,
-            "make": "Ford",
-            "model": "Escort",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1992,
-            "year_to": 1995,
-            "make": "Mazda",
-            "model": "MX-3",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1990,
-            "year_to": 1997,
-            "make": "Mazda",
-            "model": "Protege",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1991,
-            "year_to": 1999,
-            "make": "Mercury",
-            "model": "Tracer",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          }
-        ],
-        "vehicle_labels": [
-          "1991\u20132003 Ford Escort",
-          "1992\u20131995 Mazda MX-3",
-          "1990\u20131997 Mazda Protege",
-          "1991\u20131999 Mercury Tracer"
-        ],
-        "raw_compat_rows": 185,
-        "source": "ebay_listing",
-        "confidence": "high",
-        "ebay_item_id": "398412289228",
-        "type": "Disc Brake Pad Set",
-        "brand": "Big A Plus",
-        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Master Cylinders"
-      },
-      "vehicle_count_raw": 185,
-      "ebay_item_id": "398412289228",
-      "ebay_type": "Disc Brake Pad Set",
-      "ebay_brand": "Big A Plus",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Master Cylinders",
-      "images": [
-        "../assets/pdp-gallery/UXP7MRDC4LLA6RESFGGS6C26/02.webp",
-        "../assets/pdp-gallery/UXP7MRDC4LLA6RESFGGS6C26/03.webp",
-        "../assets/pdp-gallery/UXP7MRDC4LLA6RESFGGS6C26/04.webp"
-      ],
-      "stock": 1
     },
     {
       "id": "LOLWHY65WEFYFU7ZW3QBB43Q",
@@ -127729,5 +127621,5 @@
       "vehicles": []
     }
   ],
-  "fitment_built": "2026-09-22T22:02:33Z"
+  "fitment_built": "2026-09-22T23:02:33Z"
 }
