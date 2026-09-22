@@ -1,7 +1,7 @@
 {
-  "updated": "2026-09-22T20:02:36Z",
+  "updated": "2026-09-22T21:02:26Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 939,
+  "count": 938,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -75011,135 +75011,6 @@
       "interchange": []
     },
     {
-      "id": "AFHL6F4NTUMJLCUNPISGIMYT",
-      "name": "ACDelco CV854C PCV Valve 5.0 5.8 NOS 81-01 Mustang",
-      "price": 9.99,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/890ffce300254dd0db3ec0ff1db954a2f8bdb9c5/original.jpeg",
-      "url": "https://square.link/u/rorTc1T2",
-      "category": "other",
-      "checkout": true,
-      "variation_id": "EYCAB5RMWB3VCDIIWIEOWYCV",
-      "part_numbers": [
-        "CV854C",
-        "12351219, FV198, PCV203, 2-9203, 19020"
-      ],
-      "interchange": [
-        "V201",
-        "25040321",
-        "EV98B",
-        "D8ZE-6A666-AA"
-      ],
-      "vehicles": [
-        "1980\u20131984 Ford Bronco",
-        "1979\u20131986 Ford F-150",
-        "1981\u20131995 Ford Mustang",
-        "1981\u20131988 Ford Thunderbird",
-        "1982\u20131990 Lincoln Town Car",
-        "1979\u20131991 Mercury Grand Marquis"
-      ],
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "high",
-      "fitment": {
-        "part_numbers": [
-          "CV854C",
-          "12351219, FV198, PCV203, 2-9203, 19020"
-        ],
-        "interchange": [
-          "V201",
-          "25040321",
-          "EV98B",
-          "D8ZE-6A666-AA"
-        ],
-        "vehicles": [
-          {
-            "year_from": 1980,
-            "year_to": 1984,
-            "make": "Ford",
-            "model": "Bronco",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1979,
-            "year_to": 1986,
-            "make": "Ford",
-            "model": "F-150",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1981,
-            "year_to": 1995,
-            "make": "Ford",
-            "model": "Mustang",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1981,
-            "year_to": 1988,
-            "make": "Ford",
-            "model": "Thunderbird",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1982,
-            "year_to": 1990,
-            "make": "Lincoln",
-            "model": "Town Car",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1979,
-            "year_to": 1991,
-            "make": "Mercury",
-            "model": "Grand Marquis",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          }
-        ],
-        "vehicle_labels": [
-          "1980\u20131984 Ford Bronco",
-          "1979\u20131986 Ford F-150",
-          "1981\u20131995 Ford Mustang",
-          "1981\u20131988 Ford Thunderbird",
-          "1982\u20131990 Lincoln Town Car",
-          "1979\u20131991 Mercury Grand Marquis"
-        ],
-        "raw_compat_rows": 366,
-        "source": "ebay_listing",
-        "confidence": "high",
-        "ebay_item_id": "398314767576",
-        "type": "PCV Valve",
-        "brand": "ACDelco",
-        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Steering & Suspension:Power Steering Pump Parts"
-      },
-      "vehicle_count_raw": 366,
-      "ebay_item_id": "398314767576",
-      "ebay_type": "PCV Valve",
-      "ebay_brand": "ACDelco",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Steering & Suspension:Power Steering Pump Parts",
-      "images": [
-        "../assets/pdp-gallery/AFHL6F4NTUMJLCUNPISGIMYT/02.webp",
-        "../assets/pdp-gallery/AFHL6F4NTUMJLCUNPISGIMYT/03.webp"
-      ],
-      "stock": 1
-    },
-    {
       "id": "BOHM2OSDRIQ6OPA3HQVL5WJY",
       "name": "ACDelco D8041 GM 89057520 Oil Pressure Switch Camaro Firebird 93-02 NOS",
       "price": 34.99,
@@ -127858,5 +127729,5 @@
       "vehicles": []
     }
   ],
-  "fitment_built": "2026-09-22T20:02:36Z"
+  "fitment_built": "2026-09-22T21:02:26Z"
 }
