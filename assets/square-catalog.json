@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-23T03:02:36Z",
+  "updated": "2026-09-23T13:36:34Z",
   "store": "https://buccaneersalvage.square.site/",
   "count": 936,
   "items": [
@@ -931,8 +931,7 @@
       "ebay_category": "eBay Motors:Parts & Accessories:Commercial Truck Parts:Suspension & Steering:Air Ride Suspension",
       "stock": 1,
       "interchange": [],
-      "vehicles": [],
-      "images": []
+      "vehicles": []
     },
     {
       "id": "MJAQDKIB2WT55I26Q552PZXS",
@@ -3268,8 +3267,109 @@
       "ebay_brand": "Big A",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Master Cylinders",
       "stock": 1,
-      "interchange": [],
-      "images": []
+      "interchange": []
+    },
+    {
+      "id": "UXP7MRDC4LLA6RESFGGS6C26",
+      "name": "Big A Plus 1-7353 Front Brake Pads Escort Tracer Protege MX-3 NOS",
+      "price": 24.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/be816d86d852957dbf67ac98dd75e90dc2c1e6f9/original.jpeg",
+      "url": "https://square.link/u/F72rfih9",
+      "category": "brake",
+      "checkout": true,
+      "variation_id": "BQJ52J62P4JPOVESA6HIZXFW",
+      "part_numbers": [
+        "1-7353",
+        "WED61F, FMSI 7353"
+      ],
+      "interchange": [
+        "MKD473",
+        "D473",
+        "AXMD473",
+        "RPD473M",
+        "1-473"
+      ],
+      "vehicles": [
+        "1991\u20132003 Ford Escort",
+        "1992\u20131995 Mazda MX-3",
+        "1990\u20131997 Mazda Protege",
+        "1991\u20131999 Mercury Tracer"
+      ],
+      "vehicle_count_raw": 185,
+      "ebay_item_id": "398422109324",
+      "ebay_type": "Disc Brake Pad Set",
+      "ebay_brand": "Big A Plus",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pads",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "1-7353",
+          "WED61F, FMSI 7353"
+        ],
+        "interchange": [
+          "MKD473",
+          "D473",
+          "AXMD473",
+          "RPD473M",
+          "1-473"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1991,
+            "year_to": 2003,
+            "make": "Ford",
+            "model": "Escort",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1992,
+            "year_to": 1995,
+            "make": "Mazda",
+            "model": "MX-3",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1990,
+            "year_to": 1997,
+            "make": "Mazda",
+            "model": "Protege",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1991,
+            "year_to": 1999,
+            "make": "Mercury",
+            "model": "Tracer",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1991\u20132003 Ford Escort",
+          "1992\u20131995 Mazda MX-3",
+          "1990\u20131997 Mazda Protege",
+          "1991\u20131999 Mercury Tracer"
+        ],
+        "raw_compat_rows": 185,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398422109324",
+        "type": "Disc Brake Pad Set",
+        "brand": "Big A Plus",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pads"
+      }
     },
     {
       "id": "LOLWHY65WEFYFU7ZW3QBB43Q",
@@ -8244,8 +8344,7 @@
       "ebay_brand": "Carlson",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware",
       "stock": 1,
-      "interchange": [],
-      "images": []
+      "interchange": []
     },
     {
       "id": "DYMI33CWW4NR5RMBNK6AHZFU",
@@ -8346,8 +8445,7 @@
       "ebay_brand": "Carlson",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware",
       "stock": 1,
-      "interchange": [],
-      "images": []
+      "interchange": []
     },
     {
       "id": "KDJ2HS5DZLSH3FVDMR3SRBNZ",
@@ -10411,8 +10509,7 @@
       "ebay_brand": "Carlson",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware",
       "stock": 1,
-      "interchange": [],
-      "images": []
+      "interchange": []
     },
     {
       "id": "GBUDJ7DEQQ47YXBCGQKMC26U",
@@ -16065,8 +16162,7 @@
       "ebay_brand": "Carlson",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware",
       "stock": 1,
-      "interchange": [],
-      "images": []
+      "interchange": []
     },
     {
       "id": "7A5BNSS737LKFR6IKNK3G4MF",
@@ -16502,8 +16598,7 @@
       "ebay_brand": "Carlson",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware",
       "stock": 1,
-      "interchange": [],
-      "images": []
+      "interchange": []
     },
     {
       "id": "CLMFA7X63KOP4FYYZGX6ZQDR",
@@ -21650,8 +21745,7 @@
       "ebay_brand": "Carlson",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware",
       "stock": 1,
-      "interchange": [],
-      "images": []
+      "interchange": []
     },
     {
       "id": "CODU7BN4KGSBU7WVFBZCL4F7",
@@ -23303,8 +23397,7 @@
       "ebay_brand": "Carlson",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware",
       "stock": 1,
-      "interchange": [],
-      "images": []
+      "interchange": []
     },
     {
       "id": "SU3CGU6QYUT76IMNM72M6AVW",
@@ -34044,8 +34137,7 @@
       "ebay_type": "Disc Brake Rotor",
       "ebay_brand": "Wagner",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Disc Rotors",
-      "stock": 1,
-      "images": []
+      "stock": 1
     },
     {
       "id": "MCKEHYTQNCFONCABSPRZXC6C",
@@ -34312,8 +34404,7 @@
       "ebay_brand": "Wagner",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Master Cylinders",
       "stock": 1,
-      "interchange": [],
-      "images": []
+      "interchange": []
     },
     {
       "id": "2QPEKEV63TKSMBTYJXE5357O",
@@ -35782,8 +35873,7 @@
       "ebay_brand": "Wearever",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Shoes",
       "stock": 1,
-      "interchange": [],
-      "images": []
+      "interchange": []
     },
     {
       "id": "F7X2LR523KDOKA265ZBJIXIW",
@@ -36740,8 +36830,7 @@
       "stock": 1,
       "part_numbers": [],
       "interchange": [],
-      "vehicles": [],
-      "images": []
+      "vehicles": []
     },
     {
       "id": "JDZ3Q3AOVSFQRF4KPLDOHPYX",
@@ -37376,8 +37465,7 @@
       "ebay_brand": "Parts Master",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Filters",
       "stock": 1,
-      "interchange": [],
-      "images": []
+      "interchange": []
     },
     {
       "id": "MGSQAS75SYG3CKXEJL4EO4AG",
@@ -37900,8 +37988,7 @@
       "ebay_brand": "Parts Master",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Filters",
       "stock": 1,
-      "interchange": [],
-      "images": []
+      "interchange": []
     },
     {
       "id": "TMVAM6WSQIMVZSAZLGAPPJSD",
@@ -40161,8 +40248,7 @@
       "ebay_type": "Oil Filter Kit",
       "ebay_brand": "Parts Master",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Filters",
-      "stock": 1,
-      "images": []
+      "stock": 1
     },
     {
       "id": "CANZAJVQZXCR7TSCZNDDRLKF",
@@ -40741,8 +40827,7 @@
       "ebay_brand": "Purolator",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Fuel Filters",
       "stock": 1,
-      "interchange": [],
-      "images": []
+      "interchange": []
     },
     {
       "id": "D4J4GCM62OUOT7BTKKRGWKAQ",
@@ -40809,8 +40894,7 @@
       "ebay_brand": "STP",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Filters",
       "stock": 1,
-      "interchange": [],
-      "images": []
+      "interchange": []
     },
     {
       "id": "5AGU32TWKN2NR2V2LOY4VHTI",
@@ -54376,8 +54460,7 @@
       "part_numbers": [],
       "interchange": [],
       "ebay_item_id": "",
-      "ebay_brand": "",
-      "images": []
+      "ebay_brand": ""
     },
     {
       "id": "P3S42QL26HEJARCXKE3OLO6Z",
@@ -66453,8 +66536,7 @@
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Wires & Coil Boots",
       "stock": 1,
       "interchange": [],
-      "vehicles": [],
-      "images": []
+      "vehicles": []
     },
     {
       "id": "HCAFHSPIFMUFT4YV4PKNF74C",
@@ -66981,8 +67063,7 @@
       "ebay_type": "Ignition Coil",
       "ebay_brand": "Wells",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Other Ignition Systems & Components",
-      "stock": 1,
-      "images": []
+      "stock": 1
     },
     {
       "id": "H7D7IOXNSYXGODCPWZ3MSN3R",
@@ -67217,8 +67298,7 @@
       "ebay_brand": "Wells",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps",
       "stock": 1,
-      "interchange": [],
-      "images": []
+      "interchange": []
     },
     {
       "id": "IHLMXFVWTYRVMEYCA6GOEJHM",
@@ -69207,8 +69287,7 @@
       "ebay_brand": "MOOG",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:CV Joints, Boots & Parts",
       "stock": 1,
-      "interchange": [],
-      "images": []
+      "interchange": []
     },
     {
       "id": "3GWF62PZY2JL5TQQGPTT25TB",
@@ -70143,8 +70222,7 @@
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:CV Joints, Boots & Parts",
       "stock": 2,
       "interchange": [],
-      "vehicles": [],
-      "images": []
+      "vehicles": []
     },
     {
       "id": "BDSHXAQZN6J5SCJR4ZEICYIZ",
@@ -71067,8 +71145,7 @@
       "ebay_brand": "Speedi-Boot",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:CV Joints, Boots & Parts",
       "stock": 1,
-      "interchange": [],
-      "images": []
+      "interchange": []
     },
     {
       "id": "Z4DFFERT3JJJJDHG6RFR4Y2P",
@@ -75265,8 +75342,7 @@
       "ebay_type": "PCV Valve",
       "ebay_brand": "Beck Arnley",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Exhaust & Emission Systems:Other Exhaust & Emission Parts",
-      "stock": 1,
-      "images": []
+      "stock": 1
     },
     {
       "id": "SHE3E6GUF5Y56TCXY2CHPLLY",
@@ -93001,411 +93077,6 @@
       "stock": 1
     },
     {
-      "id": "UUOISQ6FYN2YBUOV7KWEA5DD",
-      "name": "Gates 31778 Stant Keyed Locking Fuel Cap 2 Keys 1999-2008 Ford Jeep NOS",
-      "price": 14.99,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/857f286a5d61fb8454d3e9d0e5c7f1636395b8ea/original.jpeg",
-      "url": "https://square.link/u/2olKi8iB",
-      "category": "other",
-      "checkout": true,
-      "variation_id": "TBEMU362UGTH25TSJJX4SG2M",
-      "part_numbers": [
-        "31778"
-      ],
-      "vehicles": [
-        "1975 Buick Apollo",
-        "1975\u20131996 Buick Century",
-        "1991\u20131996 Buick Commercial Chassis",
-        "1976\u20131990 Buick Electra",
-        "1975\u20131983 Buick Estate Wagon",
-        "1975\u20131995 Buick LeSabre",
-        "1991\u20131995 Buick Park Avenue",
-        "1975\u20131996 Buick Regal",
-        "1975\u20131997 Buick Riviera",
-        "1991\u20131996 Buick Roadmaster",
-        "1982\u20131988 Buick Skyhawk",
-        "1975\u20131994 Buick Skylark",
-        "1986\u20131987 Buick Somerset",
-        "1985 Buick Somerset Regal",
-        "1988\u20131992 Cadillac Brougham",
-        "1975\u20131976 Cadillac Calais",
-        "1982\u20131988 Cadillac Cimarron",
-        "1975\u20131996 Cadillac Commercial Chassis",
-        "1975\u20131992 Cadillac DeVille",
-        "1976\u20131987 Cadillac Eldorado",
-        "1977\u20131996 Cadillac Fleetwood",
-        "1976\u20131987 Cadillac Seville",
-        "1985\u20131996 Chevrolet Astro",
-        "1975 Chevrolet Bel Air",
-        "1987\u20131995 Chevrolet Blazer",
-        "1979\u20131986 Chevrolet C10",
-        "1979\u20131986 Chevrolet C10 Suburban",
-        "1988\u20131997 Chevrolet C1500",
-        "1993\u20131999 Chevrolet C1500 Suburban",
-        "1979\u20131982 Chevrolet C20"
-      ],
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "high",
-      "fitment": {
-        "part_numbers": [
-          "31778"
-        ],
-        "interchange": [],
-        "vehicles": [
-          {
-            "year_from": 1975,
-            "year_to": 1975,
-            "make": "Buick",
-            "model": "Apollo",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1975,
-            "year_to": 1996,
-            "make": "Buick",
-            "model": "Century",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1991,
-            "year_to": 1996,
-            "make": "Buick",
-            "model": "Commercial Chassis",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1976,
-            "year_to": 1990,
-            "make": "Buick",
-            "model": "Electra",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1975,
-            "year_to": 1983,
-            "make": "Buick",
-            "model": "Estate Wagon",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1975,
-            "year_to": 1995,
-            "make": "Buick",
-            "model": "LeSabre",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1991,
-            "year_to": 1995,
-            "make": "Buick",
-            "model": "Park Avenue",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1975,
-            "year_to": 1996,
-            "make": "Buick",
-            "model": "Regal",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1975,
-            "year_to": 1997,
-            "make": "Buick",
-            "model": "Riviera",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1991,
-            "year_to": 1996,
-            "make": "Buick",
-            "model": "Roadmaster",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1982,
-            "year_to": 1988,
-            "make": "Buick",
-            "model": "Skyhawk",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1975,
-            "year_to": 1994,
-            "make": "Buick",
-            "model": "Skylark",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1986,
-            "year_to": 1987,
-            "make": "Buick",
-            "model": "Somerset",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1985,
-            "year_to": 1985,
-            "make": "Buick",
-            "model": "Somerset Regal",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1988,
-            "year_to": 1992,
-            "make": "Cadillac",
-            "model": "Brougham",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1975,
-            "year_to": 1976,
-            "make": "Cadillac",
-            "model": "Calais",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1982,
-            "year_to": 1988,
-            "make": "Cadillac",
-            "model": "Cimarron",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1975,
-            "year_to": 1996,
-            "make": "Cadillac",
-            "model": "Commercial Chassis",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1975,
-            "year_to": 1992,
-            "make": "Cadillac",
-            "model": "DeVille",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1976,
-            "year_to": 1987,
-            "make": "Cadillac",
-            "model": "Eldorado",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1977,
-            "year_to": 1996,
-            "make": "Cadillac",
-            "model": "Fleetwood",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1976,
-            "year_to": 1987,
-            "make": "Cadillac",
-            "model": "Seville",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1985,
-            "year_to": 1996,
-            "make": "Chevrolet",
-            "model": "Astro",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1975,
-            "year_to": 1975,
-            "make": "Chevrolet",
-            "model": "Bel Air",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1987,
-            "year_to": 1995,
-            "make": "Chevrolet",
-            "model": "Blazer",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1979,
-            "year_to": 1986,
-            "make": "Chevrolet",
-            "model": "C10",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1979,
-            "year_to": 1986,
-            "make": "Chevrolet",
-            "model": "C10 Suburban",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1988,
-            "year_to": 1997,
-            "make": "Chevrolet",
-            "model": "C1500",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1993,
-            "year_to": 1999,
-            "make": "Chevrolet",
-            "model": "C1500 Suburban",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1979,
-            "year_to": 1982,
-            "make": "Chevrolet",
-            "model": "C20",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          }
-        ],
-        "vehicle_labels": [
-          "1975 Buick Apollo",
-          "1975\u20131996 Buick Century",
-          "1991\u20131996 Buick Commercial Chassis",
-          "1976\u20131990 Buick Electra",
-          "1975\u20131983 Buick Estate Wagon",
-          "1975\u20131995 Buick LeSabre",
-          "1991\u20131995 Buick Park Avenue",
-          "1975\u20131996 Buick Regal",
-          "1975\u20131997 Buick Riviera",
-          "1991\u20131996 Buick Roadmaster",
-          "1982\u20131988 Buick Skyhawk",
-          "1975\u20131994 Buick Skylark",
-          "1986\u20131987 Buick Somerset",
-          "1985 Buick Somerset Regal",
-          "1988\u20131992 Cadillac Brougham",
-          "1975\u20131976 Cadillac Calais",
-          "1982\u20131988 Cadillac Cimarron",
-          "1975\u20131996 Cadillac Commercial Chassis",
-          "1975\u20131992 Cadillac DeVille",
-          "1976\u20131987 Cadillac Eldorado",
-          "1977\u20131996 Cadillac Fleetwood",
-          "1976\u20131987 Cadillac Seville",
-          "1985\u20131996 Chevrolet Astro",
-          "1975 Chevrolet Bel Air",
-          "1987\u20131995 Chevrolet Blazer",
-          "1979\u20131986 Chevrolet C10",
-          "1979\u20131986 Chevrolet C10 Suburban",
-          "1988\u20131997 Chevrolet C1500",
-          "1993\u20131999 Chevrolet C1500 Suburban",
-          "1979\u20131982 Chevrolet C20"
-        ],
-        "raw_compat_rows": 3000,
-        "source": "ebay_listing",
-        "confidence": "high",
-        "ebay_item_id": "398313062073",
-        "type": "Locking Fuel Cap",
-        "brand": "Gates",
-        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Fuel Tank Caps"
-      },
-      "vehicle_count_raw": 3000,
-      "ebay_item_id": "398313062073",
-      "ebay_type": "Locking Fuel Cap",
-      "ebay_brand": "Gates",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Fuel Tank Caps",
-      "images": [
-        "../assets/pdp-gallery/UUOISQ6FYN2YBUOV7KWEA5DD/02.webp",
-        "../assets/pdp-gallery/UUOISQ6FYN2YBUOV7KWEA5DD/03.webp"
-      ],
-      "stock": 1,
-      "interchange": []
-    },
-    {
       "id": "BYO4CA2ORO6PIIHKJ6BAJ7Z5",
       "name": "Gates 33008 Thermostat 180 5.7 5.0 75-96 C10 F-150 Camaro NOS USA",
       "price": 12.99,
@@ -98243,8 +97914,7 @@
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Steering & Suspension:Gearboxes, Rack & Pinions",
       "stock": 1,
       "part_numbers": [],
-      "interchange": [],
-      "images": []
+      "interchange": []
     },
     {
       "id": "3ICV75PAFQP3JSDBQVGMI3LP",
@@ -98418,8 +98088,7 @@
       "ebay_category": "Computers/Tablets & Networking:Printers, Scanners & Supplies:Printer & Scanner Parts & Accs:Power Supplies",
       "stock": 1,
       "interchange": [],
-      "vehicles": [],
-      "images": []
+      "vehicles": []
     },
     {
       "id": "QVTHCYWEVWJHIGJ4FWRBKXUN",
@@ -108760,8 +108429,7 @@
       "stock": 1,
       "part_numbers": [],
       "interchange": [],
-      "vehicles": [],
-      "images": []
+      "vehicles": []
     },
     {
       "id": "WFSUCZEN6UB5VJCHR6GJARSK",
@@ -109933,8 +109601,7 @@
       "ebay_category": "Business & Industrial:Healthcare, Lab & Dental:Medical & Lab Equipment, Devices:Other Medical & Lab Equipment",
       "stock": 1,
       "interchange": [],
-      "vehicles": [],
-      "images": []
+      "vehicles": []
     },
     {
       "id": "UL23E5AWBBQITTWVJSG6DJB2",
@@ -114240,8 +113907,7 @@
       "ebay_type": "Distributor Rotor",
       "ebay_brand": "Standard Motor Products",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors",
-      "stock": 1,
-      "images": []
+      "stock": 1
     },
     {
       "id": "GXECZQPESKZ6IGU2E75QQFGE",
@@ -124920,8 +124586,7 @@
       "stock": 1,
       "part_numbers": [],
       "interchange": [],
-      "vehicles": [],
-      "images": []
+      "vehicles": []
     },
     {
       "id": "QHFINKOODJCK3PAXVGS6UG2M",
@@ -125684,8 +125349,7 @@
       "ebay_brand": "Wagner",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Wheels, Tires & Parts:Wheel Nuts, Bolts & Studs",
       "stock": 1,
-      "interchange": [],
-      "images": []
+      "interchange": []
     },
     {
       "id": "4G347M77RZWOOFBLEGAD5MUV",
@@ -127080,8 +126744,7 @@
       "ebay_type": "Brake Master Cylinder",
       "ebay_brand": "Wagner",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Master Cylinders",
-      "stock": 1,
-      "images": []
+      "stock": 1
     },
     {
       "id": "62VM2GKGQNJXLB3NVG4CTMZG",
@@ -127515,5 +127178,5 @@
       "vehicles": []
     }
   ],
-  "fitment_built": "2026-09-23T03:02:36Z"
+  "fitment_built": "2026-09-23T13:36:34Z"
 }
