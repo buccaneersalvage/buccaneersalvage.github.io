@@ -1,7 +1,7 @@
 {
-  "updated": "2026-09-23T17:02:52Z",
+  "updated": "2026-09-23T18:03:01Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 936,
+  "count": 937,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -96828,7 +96828,6 @@
       "category": "other",
       "checkout": true,
       "variation_id": "T4UOT5CROODQ4UOUJ5C3ZXAY",
-      "stock": 1,
       "part_numbers": [
         "12618735"
       ],
@@ -96847,12 +96846,7 @@
         "2007\u20132009 Pontiac G6",
         "2007\u20132009 Saturn Aura"
       ],
-      "vehicle_count_raw": 97,
-      "ebay_item_id": "398424549827",
-      "ebay_type": "Throttle Body",
-      "ebay_brand": "GM",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Throttle Bodies",
-      "fitment_source": "ebay_listing+title",
+      "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
@@ -96956,13 +96950,18 @@
           "2007\u20132009 Saturn Aura"
         ],
         "raw_compat_rows": 97,
-        "source": "ebay_listing+title",
+        "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398424549827",
         "type": "Throttle Body",
         "brand": "GM",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Throttle Bodies"
       },
+      "vehicle_count_raw": 97,
+      "ebay_item_id": "398424549827",
+      "ebay_type": "Throttle Body",
+      "ebay_brand": "GM",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Throttle Bodies",
       "images": [
         "../assets/pdp-gallery/5ME5JV34BP5FWXXA3ENZQDOI/02.webp",
         "../assets/pdp-gallery/5ME5JV34BP5FWXXA3ENZQDOI/03.webp",
@@ -96970,7 +96969,8 @@
         "../assets/pdp-gallery/5ME5JV34BP5FWXXA3ENZQDOI/05.webp",
         "../assets/pdp-gallery/5ME5JV34BP5FWXXA3ENZQDOI/06.webp",
         "../assets/pdp-gallery/5ME5JV34BP5FWXXA3ENZQDOI/07.webp"
-      ]
+      ],
+      "stock": 1
     },
     {
       "id": "JXSAJGLQRD3AMK6UNNLXN2PX",
@@ -98031,6 +98031,51 @@
       "part_numbers": [],
       "interchange": [],
       "vehicles": []
+    },
+    {
+      "id": "63FRSYWXOGQZL3FRM3ZJVEMS",
+      "name": "Honeywell VR8305M4629 Gas Control Valve 3/4\" Hayward 1501615501 Pool Heater Used",
+      "price": 79.9,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/480572bb4b8e4b1b177f7effc01f77bdb3fea112/original.jpeg",
+      "url": "https://square.link/u/EJy8bQBY",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "3CSSYBCT5RBJL3XZHWE2Q7M3",
+      "stock": 1,
+      "part_numbers": [
+        "VR8305M4629",
+        "1501615501"
+      ],
+      "interchange": [],
+      "vehicles": [],
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398424687111",
+      "ebay_type": "Gas Valve",
+      "ebay_brand": "Honeywell",
+      "ebay_category": "Business & Industrial:HVAC & Refrigeration:HVAC & Refrigeration: Parts & Accessories:HVAC & Refrigeration Valves",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "VR8305M4629",
+          "1501615501"
+        ],
+        "interchange": [],
+        "vehicles": [],
+        "vehicle_labels": [],
+        "raw_compat_rows": 0,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398424687111",
+        "type": "Gas Valve",
+        "brand": "Honeywell",
+        "ebay_category": "Business & Industrial:HVAC & Refrigeration:HVAC & Refrigeration: Parts & Accessories:HVAC & Refrigeration Valves"
+      },
+      "images": [
+        "../assets/pdp-gallery/63FRSYWXOGQZL3FRM3ZJVEMS/02.webp",
+        "../assets/pdp-gallery/63FRSYWXOGQZL3FRM3ZJVEMS/03.webp",
+        "../assets/pdp-gallery/63FRSYWXOGQZL3FRM3ZJVEMS/04.webp"
+      ]
     },
     {
       "id": "ODN4VCTC3BOYRIGRI4RGB2OQ",
@@ -127263,5 +127308,5 @@
       "vehicles": []
     }
   ],
-  "fitment_built": "2026-09-23T17:02:52Z"
+  "fitment_built": "2026-09-23T18:03:01Z"
 }
