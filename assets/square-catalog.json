@@ -1,7 +1,7 @@
 {
-  "updated": "2026-09-23T19:03:08Z",
+  "updated": "2026-09-23T20:02:54Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 937,
+  "count": 938,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -96828,7 +96828,6 @@
       "category": "other",
       "checkout": true,
       "variation_id": "5QSY46JNMTD5NLI5HXO4DDND",
-      "stock": 1,
       "part_numbers": [
         "12570696"
       ],
@@ -96840,12 +96839,7 @@
         "2009\u20132013 GM 12570696",
         "2009\u20132013 GMC Sierra 1500"
       ],
-      "vehicle_count_raw": 121,
-      "ebay_item_id": "398424784947",
-      "ebay_type": "Valve Cover",
-      "ebay_brand": "GM",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Valvetrain Components:Rocker & Valve Covers",
-      "fitment_source": "ebay_listing+title",
+      "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
@@ -96892,17 +96886,23 @@
           "2009\u20132013 GMC Sierra 1500"
         ],
         "raw_compat_rows": 121,
-        "source": "ebay_listing+title",
+        "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398424784947",
         "type": "Valve Cover",
         "brand": "GM",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Valvetrain Components:Rocker & Valve Covers"
       },
+      "vehicle_count_raw": 121,
+      "ebay_item_id": "398424784947",
+      "ebay_type": "Valve Cover",
+      "ebay_brand": "GM",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Valvetrain Components:Rocker & Valve Covers",
       "images": [
         "../assets/pdp-gallery/V76TMPDYOBN5HYL5SM2FBUD7/02.webp",
         "../assets/pdp-gallery/V76TMPDYOBN5HYL5SM2FBUD7/03.webp"
-      ]
+      ],
+      "stock": 1
     },
     {
       "id": "5ME5JV34BP5FWXXA3ENZQDOI",
@@ -122941,6 +122941,45 @@
       "vehicles": []
     },
     {
+      "id": "ZQPLFMIS4CMQTXHDQDATUEYR",
+      "name": "Used Heavy Gauge Baling Wire Roll 6.5 lb Galvanized Farm Tie Wire Coil",
+      "price": 14.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/7eeddb52b420844837eff5cfd667547b877fb88b/original.jpeg",
+      "url": "https://square.link/u/812dhEPG",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "D2KCPMPPH2WY33L7UHKQKLFC",
+      "stock": 1,
+      "part_numbers": [],
+      "interchange": [],
+      "vehicles": [],
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398425010197",
+      "ebay_type": "Baling Wire",
+      "ebay_brand": "Unbranded",
+      "ebay_category": "Business & Industrial:CNC, Metalworking & Manufacturing:Raw Materials:Metals & Alloys:Metal Non-Electrical Wire",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "medium",
+      "fitment": {
+        "part_numbers": [],
+        "interchange": [],
+        "vehicles": [],
+        "vehicle_labels": [],
+        "raw_compat_rows": 0,
+        "source": "ebay_listing",
+        "confidence": "medium",
+        "ebay_item_id": "398425010197",
+        "type": "Baling Wire",
+        "brand": "Unbranded",
+        "ebay_category": "Business & Industrial:CNC, Metalworking & Manufacturing:Raw Materials:Metals & Alloys:Metal Non-Electrical Wire"
+      },
+      "images": [
+        "../assets/pdp-gallery/ZQPLFMIS4CMQTXHDQDATUEYR/02.webp",
+        "../assets/pdp-gallery/ZQPLFMIS4CMQTXHDQDATUEYR/03.webp",
+        "../assets/pdp-gallery/ZQPLFMIS4CMQTXHDQDATUEYR/04.webp"
+      ]
+    },
+    {
       "id": "4IWVMECZEMO5R5Z57FJ4ZNDQ",
       "name": "Victor JV544 Rear Main Kit NOS 87-89 Century 2.8",
       "price": 19.99,
@@ -127349,5 +127388,5 @@
       "vehicles": []
     }
   ],
-  "fitment_built": "2026-09-23T19:03:08Z"
+  "fitment_built": "2026-09-23T20:02:54Z"
 }
