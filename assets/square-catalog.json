@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-23T18:03:01Z",
+  "updated": "2026-09-23T19:03:08Z",
   "store": "https://buccaneersalvage.square.site/",
   "count": 937,
   "items": [
@@ -96820,6 +96820,91 @@
       "interchange": []
     },
     {
+      "id": "V76TMPDYOBN5HYL5SM2FBUD7",
+      "name": "GM 12570696 12570697 LS 5.3 Valve Cover Pair Used 09-13 Silverado Sierra",
+      "price": 49.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/f6ede2f42cbff155a0e3960cb6db2fa6a2fcede6/original.jpeg",
+      "url": "https://square.link/u/6ai8uCpV",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "5QSY46JNMTD5NLI5HXO4DDND",
+      "stock": 1,
+      "part_numbers": [
+        "12570696"
+      ],
+      "interchange": [
+        "12570697"
+      ],
+      "vehicles": [
+        "2009\u20132013 Chevrolet Silverado 1500",
+        "2009\u20132013 GM 12570696",
+        "2009\u20132013 GMC Sierra 1500"
+      ],
+      "vehicle_count_raw": 121,
+      "ebay_item_id": "398424784947",
+      "ebay_type": "Valve Cover",
+      "ebay_brand": "GM",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Valvetrain Components:Rocker & Valve Covers",
+      "fitment_source": "ebay_listing+title",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "12570696"
+        ],
+        "interchange": [
+          "12570697"
+        ],
+        "vehicles": [
+          {
+            "year_from": 2009,
+            "year_to": 2013,
+            "make": "Chevrolet",
+            "model": "Silverado 1500",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2009,
+            "year_to": 2013,
+            "make": "GM",
+            "model": "12570696",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2009,
+            "year_to": 2013,
+            "make": "GMC",
+            "model": "Sierra 1500",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "2009\u20132013 Chevrolet Silverado 1500",
+          "2009\u20132013 GM 12570696",
+          "2009\u20132013 GMC Sierra 1500"
+        ],
+        "raw_compat_rows": 121,
+        "source": "ebay_listing+title",
+        "confidence": "high",
+        "ebay_item_id": "398424784947",
+        "type": "Valve Cover",
+        "brand": "GM",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Valvetrain Components:Rocker & Valve Covers"
+      },
+      "images": [
+        "../assets/pdp-gallery/V76TMPDYOBN5HYL5SM2FBUD7/02.webp",
+        "../assets/pdp-gallery/V76TMPDYOBN5HYL5SM2FBUD7/03.webp"
+      ]
+    },
+    {
       "id": "5ME5JV34BP5FWXXA3ENZQDOI",
       "name": "GM 12618735 RME72-2A Throttle Body Used 4.3 3.6 Silverado Sierra Malibu",
       "price": 37.99,
@@ -98041,18 +98126,10 @@
       "category": "other",
       "checkout": true,
       "variation_id": "3CSSYBCT5RBJL3XZHWE2Q7M3",
-      "stock": 1,
       "part_numbers": [
         "VR8305M4629",
         "1501615501"
       ],
-      "interchange": [],
-      "vehicles": [],
-      "vehicle_count_raw": 0,
-      "ebay_item_id": "398424687111",
-      "ebay_type": "Gas Valve",
-      "ebay_brand": "Honeywell",
-      "ebay_category": "Business & Industrial:HVAC & Refrigeration:HVAC & Refrigeration: Parts & Accessories:HVAC & Refrigeration Valves",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -98071,11 +98148,19 @@
         "brand": "Honeywell",
         "ebay_category": "Business & Industrial:HVAC & Refrigeration:HVAC & Refrigeration: Parts & Accessories:HVAC & Refrigeration Valves"
       },
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398424687111",
+      "ebay_type": "Gas Valve",
+      "ebay_brand": "Honeywell",
+      "ebay_category": "Business & Industrial:HVAC & Refrigeration:HVAC & Refrigeration: Parts & Accessories:HVAC & Refrigeration Valves",
       "images": [
         "../assets/pdp-gallery/63FRSYWXOGQZL3FRM3ZJVEMS/02.webp",
         "../assets/pdp-gallery/63FRSYWXOGQZL3FRM3ZJVEMS/03.webp",
         "../assets/pdp-gallery/63FRSYWXOGQZL3FRM3ZJVEMS/04.webp"
-      ]
+      ],
+      "stock": 1,
+      "interchange": [],
+      "vehicles": []
     },
     {
       "id": "ODN4VCTC3BOYRIGRI4RGB2OQ",
@@ -108814,50 +108899,6 @@
       "images": [
         "../assets/pdp-gallery/BBHH3BA7ZAYOOY32VFTRTJIP/02.webp",
         "../assets/pdp-gallery/BBHH3BA7ZAYOOY32VFTRTJIP/03.webp"
-      ],
-      "stock": 1,
-      "interchange": [],
-      "vehicles": []
-    },
-    {
-      "id": "X5H7UGIHDIETCXFUIXO2DY42",
-      "name": "OEM GE 963D123G043 Dryer Timer w/ Chrome Selector Knob & Bracket Vintage GE",
-      "price": 24.99,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/26d16a75dd00dd411eb994c2477d08db0710ca39/original.jpeg",
-      "url": "https://square.link/u/ubL1t38e",
-      "category": "other",
-      "checkout": true,
-      "variation_id": "SFLBG7FP4FN4QGR7FC4UAGQA",
-      "part_numbers": [
-        "963D123G043",
-        "D123G043"
-      ],
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "high",
-      "fitment": {
-        "part_numbers": [
-          "963D123G043",
-          "D123G043"
-        ],
-        "interchange": [],
-        "vehicles": [],
-        "vehicle_labels": [],
-        "raw_compat_rows": 0,
-        "source": "ebay_listing",
-        "confidence": "high",
-        "ebay_item_id": "398108628511",
-        "type": "Dryer Timer Assembly",
-        "brand": "GE (General Electric)",
-        "ebay_category": "Home & Garden:Major Appliances:Major Appliances Parts & Accessories:Washer & Dryer Parts"
-      },
-      "vehicle_count_raw": 0,
-      "ebay_item_id": "398108628511",
-      "ebay_type": "Dryer Timer Assembly",
-      "ebay_brand": "GE (General Electric)",
-      "ebay_category": "Home & Garden:Major Appliances:Major Appliances Parts & Accessories:Washer & Dryer Parts",
-      "images": [
-        "../assets/pdp-gallery/X5H7UGIHDIETCXFUIXO2DY42/02.webp",
-        "../assets/pdp-gallery/X5H7UGIHDIETCXFUIXO2DY42/03.webp"
       ],
       "stock": 1,
       "interchange": [],
@@ -127308,5 +127349,5 @@
       "vehicles": []
     }
   ],
-  "fitment_built": "2026-09-23T18:03:01Z"
+  "fitment_built": "2026-09-23T19:03:08Z"
 }
