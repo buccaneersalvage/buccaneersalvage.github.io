@@ -1,7 +1,7 @@
 {
-  "updated": "2026-09-23T15:02:47Z",
+  "updated": "2026-09-23T17:02:52Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 935,
+  "count": 936,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -96820,6 +96820,159 @@
       "interchange": []
     },
     {
+      "id": "5ME5JV34BP5FWXXA3ENZQDOI",
+      "name": "GM 12618735 RME72-2A Throttle Body Used 4.3 3.6 Silverado Sierra Malibu",
+      "price": 37.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/15cf292037ba1854cb4992cee3eefd8584635a91/original.jpeg",
+      "url": "https://square.link/u/F1P4bvMs",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "T4UOT5CROODQ4UOUJ5C3ZXAY",
+      "stock": 1,
+      "part_numbers": [
+        "12618735"
+      ],
+      "interchange": [
+        "12615503",
+        "12595829",
+        "RME72-2A"
+      ],
+      "vehicles": [
+        "2008\u20132014 Chevrolet Express 1500",
+        "2008\u20132012 Chevrolet Malibu",
+        "2007\u20132013 Chevrolet Silverado 1500",
+        "GM 12618735",
+        "2008\u20132014 GMC Savana 1500",
+        "2007\u20132013 GMC Sierra 1500",
+        "2007\u20132009 Pontiac G6",
+        "2007\u20132009 Saturn Aura"
+      ],
+      "vehicle_count_raw": 97,
+      "ebay_item_id": "398424549827",
+      "ebay_type": "Throttle Body",
+      "ebay_brand": "GM",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Throttle Bodies",
+      "fitment_source": "ebay_listing+title",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "12618735"
+        ],
+        "interchange": [
+          "12615503",
+          "12595829",
+          "RME72-2A"
+        ],
+        "vehicles": [
+          {
+            "year_from": 2008,
+            "year_to": 2014,
+            "make": "Chevrolet",
+            "model": "Express 1500",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2008,
+            "year_to": 2012,
+            "make": "Chevrolet",
+            "model": "Malibu",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2007,
+            "year_to": 2013,
+            "make": "Chevrolet",
+            "model": "Silverado 1500",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": null,
+            "year_to": null,
+            "make": "GM",
+            "model": "12618735",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2008,
+            "year_to": 2014,
+            "make": "GMC",
+            "model": "Savana 1500",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2007,
+            "year_to": 2013,
+            "make": "GMC",
+            "model": "Sierra 1500",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2007,
+            "year_to": 2009,
+            "make": "Pontiac",
+            "model": "G6",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2007,
+            "year_to": 2009,
+            "make": "Saturn",
+            "model": "Aura",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "2008\u20132014 Chevrolet Express 1500",
+          "2008\u20132012 Chevrolet Malibu",
+          "2007\u20132013 Chevrolet Silverado 1500",
+          "GM 12618735",
+          "2008\u20132014 GMC Savana 1500",
+          "2007\u20132013 GMC Sierra 1500",
+          "2007\u20132009 Pontiac G6",
+          "2007\u20132009 Saturn Aura"
+        ],
+        "raw_compat_rows": 97,
+        "source": "ebay_listing+title",
+        "confidence": "high",
+        "ebay_item_id": "398424549827",
+        "type": "Throttle Body",
+        "brand": "GM",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Throttle Bodies"
+      },
+      "images": [
+        "../assets/pdp-gallery/5ME5JV34BP5FWXXA3ENZQDOI/02.webp",
+        "../assets/pdp-gallery/5ME5JV34BP5FWXXA3ENZQDOI/03.webp",
+        "../assets/pdp-gallery/5ME5JV34BP5FWXXA3ENZQDOI/04.webp",
+        "../assets/pdp-gallery/5ME5JV34BP5FWXXA3ENZQDOI/05.webp",
+        "../assets/pdp-gallery/5ME5JV34BP5FWXXA3ENZQDOI/06.webp",
+        "../assets/pdp-gallery/5ME5JV34BP5FWXXA3ENZQDOI/07.webp"
+      ]
+    },
+    {
       "id": "JXSAJGLQRD3AMK6UNNLXN2PX",
       "name": "GM 14 Bolt Full Floater 4.10 Diff Carrier Ring Pinion 73-00 Chevy",
       "price": 349.99,
@@ -127110,5 +127263,5 @@
       "vehicles": []
     }
   ],
-  "fitment_built": "2026-09-23T15:02:47Z"
+  "fitment_built": "2026-09-23T17:02:52Z"
 }
