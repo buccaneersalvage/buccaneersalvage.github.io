@@ -1,7 +1,7 @@
 {
-  "updated": "2026-09-23T00:02:24Z",
+  "updated": "2026-09-23T02:02:26Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 937,
+  "count": 936,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -97834,112 +97834,6 @@
       "interchange": []
     },
     {
-      "id": "L4K5QDC4JDRMTMBQWYGE3GQG",
-      "name": "GM 5.3L LS Vortec Cable Throttle Body LS Swap Hot Rod Rat Rod 1999-2002",
-      "price": 99.99,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/825fbbedce60b45b3ad2f98adbcd1a9b7601a167/original.jpeg",
-      "url": "https://square.link/u/V79aIX9t",
-      "category": "other",
-      "checkout": true,
-      "variation_id": "NLLVWKDIMM7X5TMBSCDWK4DP",
-      "part_numbers": [
-        "ROD 1999"
-      ],
-      "vehicles": [
-        "1999\u20132002 Cadillac Escalade",
-        "1999\u20132002 Chevrolet Silverado 1500",
-        "1999\u20132002 Chevrolet Tahoe",
-        "1999\u20132002 GMC Sierra 1500",
-        "1999\u20132002 GMC Yukon"
-      ],
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "high",
-      "fitment": {
-        "part_numbers": [
-          "ROD 1999"
-        ],
-        "interchange": [],
-        "vehicles": [
-          {
-            "year_from": 1999,
-            "year_to": 2002,
-            "make": "Cadillac",
-            "model": "Escalade",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1999,
-            "year_to": 2002,
-            "make": "Chevrolet",
-            "model": "Silverado 1500",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1999,
-            "year_to": 2002,
-            "make": "Chevrolet",
-            "model": "Tahoe",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1999,
-            "year_to": 2002,
-            "make": "GMC",
-            "model": "Sierra 1500",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1999,
-            "year_to": 2002,
-            "make": "GMC",
-            "model": "Yukon",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          }
-        ],
-        "vehicle_labels": [
-          "1999\u20132002 Cadillac Escalade",
-          "1999\u20132002 Chevrolet Silverado 1500",
-          "1999\u20132002 Chevrolet Tahoe",
-          "1999\u20132002 GMC Sierra 1500",
-          "1999\u20132002 GMC Yukon"
-        ],
-        "raw_compat_rows": 245,
-        "source": "ebay_listing",
-        "confidence": "high",
-        "ebay_item_id": "398212636994",
-        "type": "Throttle Body",
-        "brand": "GM (OEM)",
-        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Throttle Bodies"
-      },
-      "vehicle_count_raw": 245,
-      "ebay_item_id": "398212636994",
-      "ebay_type": "Throttle Body",
-      "ebay_brand": "GM (OEM)",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Throttle Bodies",
-      "images": [
-        "../assets/pdp-gallery/L4K5QDC4JDRMTMBQWYGE3GQG/02.webp",
-        "../assets/pdp-gallery/L4K5QDC4JDRMTMBQWYGE3GQG/03.webp",
-        "../assets/pdp-gallery/L4K5QDC4JDRMTMBQWYGE3GQG/04.webp"
-      ],
-      "stock": 1,
-      "interchange": []
-    },
-    {
       "id": "D4ADTAA2AU2OQAGUQ2CNE54H",
       "name": "GM 6.0L LS Engine Oil Pump Pickup Tube Flange Bracket OEM 12599377 Truck SUV",
       "price": 34.99,
@@ -127621,5 +127515,5 @@
       "vehicles": []
     }
   ],
-  "fitment_built": "2026-09-23T00:02:24Z"
+  "fitment_built": "2026-09-23T02:02:26Z"
 }
