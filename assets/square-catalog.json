@@ -1,7 +1,7 @@
 {
-  "updated": "2026-09-24T14:50:09Z",
+  "updated": "2026-09-24T19:50:35Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 938,
+  "count": 937,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -98059,51 +98059,6 @@
       "vehicles": []
     },
     {
-      "id": "63FRSYWXOGQZL3FRM3ZJVEMS",
-      "name": "Honeywell VR8305M4629 Gas Control Valve 3/4\" Hayward 1501615501 Pool Heater Used",
-      "price": 79.9,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/480572bb4b8e4b1b177f7effc01f77bdb3fea112/original.jpeg",
-      "url": "https://square.link/u/EJy8bQBY",
-      "category": "other",
-      "checkout": true,
-      "variation_id": "3CSSYBCT5RBJL3XZHWE2Q7M3",
-      "part_numbers": [
-        "VR8305M4629",
-        "1501615501"
-      ],
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "high",
-      "fitment": {
-        "part_numbers": [
-          "VR8305M4629",
-          "1501615501"
-        ],
-        "interchange": [],
-        "vehicles": [],
-        "vehicle_labels": [],
-        "raw_compat_rows": 0,
-        "source": "ebay_listing",
-        "confidence": "high",
-        "ebay_item_id": "398424687111",
-        "type": "Gas Valve",
-        "brand": "Honeywell",
-        "ebay_category": "Business & Industrial:HVAC & Refrigeration:HVAC & Refrigeration: Parts & Accessories:HVAC & Refrigeration Valves"
-      },
-      "vehicle_count_raw": 0,
-      "ebay_item_id": "398424687111",
-      "ebay_type": "Gas Valve",
-      "ebay_brand": "Honeywell",
-      "ebay_category": "Business & Industrial:HVAC & Refrigeration:HVAC & Refrigeration: Parts & Accessories:HVAC & Refrigeration Valves",
-      "images": [
-        "../assets/pdp-gallery/63FRSYWXOGQZL3FRM3ZJVEMS/02.webp",
-        "../assets/pdp-gallery/63FRSYWXOGQZL3FRM3ZJVEMS/03.webp",
-        "../assets/pdp-gallery/63FRSYWXOGQZL3FRM3ZJVEMS/04.webp"
-      ],
-      "stock": 1,
-      "interchange": [],
-      "vehicles": []
-    },
-    {
       "id": "ODN4VCTC3BOYRIGRI4RGB2OQ",
       "name": "Hoover 38777037 Dirty Water Recovery Tank Used SteamVac F5837-900 38777065",
       "price": 29.99,
@@ -101754,19 +101709,12 @@
       "category": "other",
       "checkout": true,
       "variation_id": "WUOIWQOHA2QBLWZT5HSY2H5N",
-      "stock": 1,
       "part_numbers": [
         "128957"
       ],
       "interchange": [
         "158385"
       ],
-      "vehicles": [],
-      "vehicle_count_raw": 0,
-      "ebay_item_id": "398425756107",
-      "ebay_type": "Motor Control Board",
-      "ebay_brand": "Icon",
-      "ebay_category": "Sporting Goods:Fitness, Running & Yoga:Cardio Equipment:Machine Parts & Accessories",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -101786,10 +101734,17 @@
         "brand": "Icon",
         "ebay_category": "Sporting Goods:Fitness, Running & Yoga:Cardio Equipment:Machine Parts & Accessories"
       },
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398425756107",
+      "ebay_type": "Motor Control Board",
+      "ebay_brand": "Icon",
+      "ebay_category": "Sporting Goods:Fitness, Running & Yoga:Cardio Equipment:Machine Parts & Accessories",
       "images": [
         "../assets/pdp-gallery/BIBEZWQ5ACWEHPJ2GSE6RKEF/02.webp",
         "../assets/pdp-gallery/BIBEZWQ5ACWEHPJ2GSE6RKEF/03.webp"
-      ]
+      ],
+      "stock": 1,
+      "vehicles": []
     },
     {
       "id": "76H63SKETSZPZJDX7MN77ILT",
@@ -127375,5 +127330,5 @@
       "vehicles": []
     }
   ],
-  "fitment_built": "2026-09-24T14:50:09Z"
+  "fitment_built": "2026-09-24T19:50:35Z"
 }
