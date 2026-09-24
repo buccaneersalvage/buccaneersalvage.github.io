@@ -1,7 +1,7 @@
 {
-  "updated": "2026-09-24T01:02:47Z",
+  "updated": "2026-09-24T02:02:52Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 937,
+  "count": 938,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -101746,6 +101746,52 @@
       "interchange": []
     },
     {
+      "id": "BIBEZWQ5ACWEHPJ2GSE6RKEF",
+      "name": "Icon MC-60 128957 Motor Controller + PB-121 158385 Power Board Set",
+      "price": 99.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/3991283d43464fb8c9233f28c55b2e477f0e4a47/original.jpeg",
+      "url": "https://square.link/u/1w3AYN4h",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "WUOIWQOHA2QBLWZT5HSY2H5N",
+      "stock": 1,
+      "part_numbers": [
+        "128957"
+      ],
+      "interchange": [
+        "158385"
+      ],
+      "vehicles": [],
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398425756107",
+      "ebay_type": "Motor Control Board",
+      "ebay_brand": "Icon",
+      "ebay_category": "Sporting Goods:Fitness, Running & Yoga:Cardio Equipment:Machine Parts & Accessories",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "128957"
+        ],
+        "interchange": [
+          "158385"
+        ],
+        "vehicles": [],
+        "vehicle_labels": [],
+        "raw_compat_rows": 0,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398425756107",
+        "type": "Motor Control Board",
+        "brand": "Icon",
+        "ebay_category": "Sporting Goods:Fitness, Running & Yoga:Cardio Equipment:Machine Parts & Accessories"
+      },
+      "images": [
+        "../assets/pdp-gallery/BIBEZWQ5ACWEHPJ2GSE6RKEF/02.webp",
+        "../assets/pdp-gallery/BIBEZWQ5ACWEHPJ2GSE6RKEF/03.webp"
+      ]
+    },
+    {
       "id": "76H63SKETSZPZJDX7MN77ILT",
       "name": "Idler Arm New in Box 1999-2007 Chevy Silverado GMC Sierra Tahoe",
       "price": 29.99,
@@ -127329,5 +127375,5 @@
       "vehicles": []
     }
   ],
-  "fitment_built": "2026-09-24T01:02:47Z"
+  "fitment_built": "2026-09-24T02:02:52Z"
 }
