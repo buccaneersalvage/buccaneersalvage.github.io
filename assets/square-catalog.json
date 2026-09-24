@@ -1,7 +1,7 @@
 {
-  "updated": "2026-09-24T20:03:05Z",
+  "updated": "2026-09-24T22:03:00Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 937,
+  "count": 935,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -36570,81 +36570,6 @@
       ],
       "stock": 1,
       "interchange": []
-    },
-    {
-      "id": "QMYCGQTIG6PXJ4XKYY72UR6W",
-      "name": "FRAM PH9688 Extra Guard Oil Filter Hyundai Accent Elantra NOS",
-      "price": 10.99,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/2bdab813f8cf55e691dab79cb79cc350bc04af06/original.jpeg",
-      "url": "https://square.link/u/gZL5h8JH",
-      "category": "filters",
-      "checkout": true,
-      "variation_id": "7FARNWL6MFTOSPM2Y4ELTRNT",
-      "part_numbers": [
-        "PH9688",
-        "A11891"
-      ],
-      "interchange": [
-        "PH9688 A11891"
-      ],
-      "vehicles": [
-        "2012\u20132016 Hyundai Accent",
-        "2011\u20132016 Hyundai Elantra"
-      ],
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "high",
-      "fitment": {
-        "part_numbers": [
-          "PH9688",
-          "A11891"
-        ],
-        "interchange": [
-          "PH9688 A11891"
-        ],
-        "vehicles": [
-          {
-            "year_from": 2012,
-            "year_to": 2016,
-            "make": "Hyundai",
-            "model": "Accent",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 2011,
-            "year_to": 2016,
-            "make": "Hyundai",
-            "model": "Elantra",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          }
-        ],
-        "vehicle_labels": [
-          "2012\u20132016 Hyundai Accent",
-          "2011\u20132016 Hyundai Elantra"
-        ],
-        "raw_compat_rows": 73,
-        "source": "ebay_listing",
-        "confidence": "high",
-        "ebay_item_id": "398411609468",
-        "type": "Oil Filter",
-        "brand": "FRAM",
-        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Filters"
-      },
-      "vehicle_count_raw": 73,
-      "ebay_item_id": "398411609468",
-      "ebay_type": "Oil Filter",
-      "ebay_brand": "FRAM",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Filters",
-      "images": [
-        "../assets/pdp-gallery/QMYCGQTIG6PXJ4XKYY72UR6W/02.webp",
-        "../assets/pdp-gallery/QMYCGQTIG6PXJ4XKYY72UR6W/03.webp"
-      ],
-      "stock": 1
     },
     {
       "id": "NRMGBEVR2TP5XEM4VDG5BGZD",
@@ -97915,62 +97840,6 @@
       "interchange": []
     },
     {
-      "id": "YWCEP45MXI6F3WOTFZT3AX26",
-      "name": "GM OEM LS Flexplate Drive Plate 4.8 5.3 6.0 1999-2007 Truck SUV 4L60E",
-      "price": 69.99,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/34e9f1572f2594a77a3fdb0e99435b2723d196f0/original.jpeg",
-      "url": "https://square.link/u/Tlvfza7y",
-      "category": "other",
-      "checkout": true,
-      "variation_id": "NQGC5FPSWAAR3BGZBSZCXUZ2",
-      "vehicles": [
-        "1999\u20132007 GM"
-      ],
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "medium",
-      "fitment": {
-        "part_numbers": [],
-        "interchange": [],
-        "vehicles": [
-          {
-            "year_from": 1999,
-            "year_to": 2007,
-            "make": "GM",
-            "model": "",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          }
-        ],
-        "vehicle_labels": [
-          "1999\u20132007 GM"
-        ],
-        "raw_compat_rows": 2,
-        "source": "ebay_listing",
-        "confidence": "medium",
-        "ebay_item_id": "398084829644",
-        "type": "LS Flexplate",
-        "brand": "GM OEM",
-        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:Flywheels & Flexplates"
-      },
-      "vehicle_count_raw": 2,
-      "ebay_item_id": "398084829644",
-      "ebay_type": "LS Flexplate",
-      "ebay_brand": "GM OEM",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:Flywheels & Flexplates",
-      "images": [
-        "../assets/pdp-gallery/YWCEP45MXI6F3WOTFZT3AX26/02.webp",
-        "../assets/pdp-gallery/YWCEP45MXI6F3WOTFZT3AX26/03.webp",
-        "../assets/pdp-gallery/YWCEP45MXI6F3WOTFZT3AX26/04.webp",
-        "../assets/pdp-gallery/YWCEP45MXI6F3WOTFZT3AX26/05.webp",
-        "../assets/pdp-gallery/YWCEP45MXI6F3WOTFZT3AX26/06.webp"
-      ],
-      "stock": 1,
-      "part_numbers": [],
-      "interchange": []
-    },
-    {
       "id": "QDIFDITJJPYFABNL67CWRHTU",
       "name": "H&R Pinion Snubber Ford Mustang 79-04 NOS w/ Hardware",
       "price": 99.99,
@@ -127330,5 +127199,5 @@
       "vehicles": []
     }
   ],
-  "fitment_built": "2026-09-24T20:03:05Z"
+  "fitment_built": "2026-09-24T22:03:00Z"
 }
