@@ -1,7 +1,7 @@
 {
-  "updated": "2026-09-23T22:03:07Z",
+  "updated": "2026-09-24T00:02:40Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 938,
+  "count": 937,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -65507,65 +65507,6 @@
       "interchange": []
     },
     {
-      "id": "7CAMRRUVKQIZSNUELV2UAQFJ",
-      "name": "Standard Motor Products JH159 Distributor Cap 2.0 2.1 Prelude NOS",
-      "price": 14.99,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/b00b007a0765c686b8c963e80174280d4e332094/original.jpeg",
-      "url": "https://square.link/u/TgwE7LAP",
-      "category": "ignition",
-      "checkout": true,
-      "variation_id": "7M2ITXGJ5HNW2RTBGOC5BZAL",
-      "part_numbers": [
-        "JH159"
-      ],
-      "vehicles": [
-        "1988\u20131991 Honda Prelude"
-      ],
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "high",
-      "fitment": {
-        "part_numbers": [
-          "JH159"
-        ],
-        "interchange": [],
-        "vehicles": [
-          {
-            "year_from": 1988,
-            "year_to": 1991,
-            "make": "Honda",
-            "model": "Prelude",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          }
-        ],
-        "vehicle_labels": [
-          "1988\u20131991 Honda Prelude"
-        ],
-        "raw_compat_rows": 17,
-        "source": "ebay_listing",
-        "confidence": "high",
-        "ebay_item_id": "398346430644",
-        "type": "Distributor Cap",
-        "brand": "Standard Motor Products",
-        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps"
-      },
-      "vehicle_count_raw": 17,
-      "ebay_item_id": "398346430644",
-      "ebay_type": "Distributor Cap",
-      "ebay_brand": "Standard Motor Products",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps",
-      "images": [
-        "../assets/pdp-gallery/7CAMRRUVKQIZSNUELV2UAQFJ/02.webp",
-        "../assets/pdp-gallery/7CAMRRUVKQIZSNUELV2UAQFJ/03.webp",
-        "../assets/pdp-gallery/7CAMRRUVKQIZSNUELV2UAQFJ/04.webp",
-        "../assets/pdp-gallery/7CAMRRUVKQIZSNUELV2UAQFJ/05.webp"
-      ],
-      "stock": 1,
-      "interchange": []
-    },
-    {
       "id": "F2QNW5I5SEGEKHBTFCHGMRV6",
       "name": "Standard Motor Products JR101 Distributor Rotor NOS 86-92 Spectrum Charade",
       "price": 9.99,
@@ -122949,15 +122890,6 @@
       "category": "other",
       "checkout": true,
       "variation_id": "D2KCPMPPH2WY33L7UHKQKLFC",
-      "stock": 1,
-      "part_numbers": [],
-      "interchange": [],
-      "vehicles": [],
-      "vehicle_count_raw": 0,
-      "ebay_item_id": "398425010197",
-      "ebay_type": "Baling Wire",
-      "ebay_brand": "Unbranded",
-      "ebay_category": "Business & Industrial:CNC, Metalworking & Manufacturing:Raw Materials:Metals & Alloys:Metal Non-Electrical Wire",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "medium",
       "fitment": {
@@ -122973,11 +122905,20 @@
         "brand": "Unbranded",
         "ebay_category": "Business & Industrial:CNC, Metalworking & Manufacturing:Raw Materials:Metals & Alloys:Metal Non-Electrical Wire"
       },
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398425010197",
+      "ebay_type": "Baling Wire",
+      "ebay_brand": "Unbranded",
+      "ebay_category": "Business & Industrial:CNC, Metalworking & Manufacturing:Raw Materials:Metals & Alloys:Metal Non-Electrical Wire",
       "images": [
         "../assets/pdp-gallery/ZQPLFMIS4CMQTXHDQDATUEYR/02.webp",
         "../assets/pdp-gallery/ZQPLFMIS4CMQTXHDQDATUEYR/03.webp",
         "../assets/pdp-gallery/ZQPLFMIS4CMQTXHDQDATUEYR/04.webp"
-      ]
+      ],
+      "stock": 1,
+      "part_numbers": [],
+      "interchange": [],
+      "vehicles": []
     },
     {
       "id": "4IWVMECZEMO5R5Z57FJ4ZNDQ",
@@ -127388,5 +127329,5 @@
       "vehicles": []
     }
   ],
-  "fitment_built": "2026-09-23T22:03:07Z"
+  "fitment_built": "2026-09-24T00:02:40Z"
 }
