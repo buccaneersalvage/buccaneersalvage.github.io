@@ -1,7 +1,7 @@
 {
-  "updated": "2026-09-25T09:02:50Z",
+  "updated": "2026-09-25T11:03:05Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 934,
+  "count": 933,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -105510,138 +105510,6 @@
       "stock": 1
     },
     {
-      "id": "O4NOCO2DUFTKKKYQDQ3G7W54",
-      "name": "National 4040N Engine Camshaft Seal 1.378 Shaft 2.113 OD Fits LeBaron 82-88 NOS",
-      "price": 14.99,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/db23bb147388fa148309eb27617b9ea9ae2f3aae/original.jpeg",
-      "url": "https://square.link/u/6CmBIQZa",
-      "category": "other",
-      "checkout": true,
-      "variation_id": "V7Z7QUU2RJH7PTDCQK2JNA7R",
-      "part_numbers": [
-        "4040N",
-        "4040N, Timken 4040N, SKF 13953, CR 13953, Fel-Pro TCS45495"
-      ],
-      "vehicles": [
-        "1982\u20131988 Chrysler LeBaron",
-        "1984 Dodge 600",
-        "1981\u20131988 Dodge Aries",
-        "1986 Dodge Charger",
-        "1983 Dodge Rampage",
-        "1981\u20131988 Plymouth Horizon",
-        "1988 Plymouth Sundance"
-      ],
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "high",
-      "fitment": {
-        "part_numbers": [
-          "4040N",
-          "4040N, Timken 4040N, SKF 13953, CR 13953, Fel-Pro TCS45495"
-        ],
-        "interchange": [],
-        "vehicles": [
-          {
-            "year_from": 1982,
-            "year_to": 1988,
-            "make": "Chrysler",
-            "model": "LeBaron",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1984,
-            "year_to": 1984,
-            "make": "Dodge",
-            "model": "600",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1981,
-            "year_to": 1988,
-            "make": "Dodge",
-            "model": "Aries",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1986,
-            "year_to": 1986,
-            "make": "Dodge",
-            "model": "Charger",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1983,
-            "year_to": 1983,
-            "make": "Dodge",
-            "model": "Rampage",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1981,
-            "year_to": 1988,
-            "make": "Plymouth",
-            "model": "Horizon",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1988,
-            "year_to": 1988,
-            "make": "Plymouth",
-            "model": "Sundance",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          }
-        ],
-        "vehicle_labels": [
-          "1982\u20131988 Chrysler LeBaron",
-          "1984 Dodge 600",
-          "1981\u20131988 Dodge Aries",
-          "1986 Dodge Charger",
-          "1983 Dodge Rampage",
-          "1981\u20131988 Plymouth Horizon",
-          "1988 Plymouth Sundance"
-        ],
-        "raw_compat_rows": 281,
-        "source": "ebay_listing",
-        "confidence": "high",
-        "ebay_item_id": "398322617659",
-        "type": "Engine Camshaft Seal",
-        "brand": "National",
-        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Exterior Parts & Accessories:Doors, Trunk Lids & Hatches:Liftgates"
-      },
-      "vehicle_count_raw": 281,
-      "ebay_item_id": "398322617659",
-      "ebay_type": "Engine Camshaft Seal",
-      "ebay_brand": "National",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Exterior Parts & Accessories:Doors, Trunk Lids & Hatches:Liftgates",
-      "images": [
-        "../assets/pdp-gallery/O4NOCO2DUFTKKKYQDQ3G7W54/02.webp",
-        "../assets/pdp-gallery/O4NOCO2DUFTKKKYQDQ3G7W54/03.webp",
-        "../assets/pdp-gallery/O4NOCO2DUFTKKKYQDQ3G7W54/04.webp"
-      ],
-      "stock": 1,
-      "interchange": []
-    },
-    {
       "id": "SH6IDYUTJQQX57YUPLMVBEP4",
       "name": "National 4072 Torque Converter Seal 82-10 Cavalier Malibu NOS",
       "price": 11.99,
@@ -127116,5 +126984,5 @@
       "vehicles": []
     }
   ],
-  "fitment_built": "2026-09-25T09:02:50Z"
+  "fitment_built": "2026-09-25T11:03:05Z"
 }
