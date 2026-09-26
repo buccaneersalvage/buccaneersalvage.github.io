@@ -1,7 +1,7 @@
 {
-  "updated": "2026-09-25T18:36:46Z",
+  "updated": "2026-09-26T03:25:45Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 930,
+  "count": 931,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -97258,6 +97258,48 @@
       "vehicles": []
     },
     {
+      "id": "GKKNUBWJMLXJFED53NWYYBHQ",
+      "name": "Honeywell S8600H Ignition Control Module Furnace 100% Shutoff 90 SEC Used",
+      "price": 89.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/d424194a494c51638f68acdfffc51811042c6068/original.jpeg",
+      "url": "https://square.link/u/ZJVynSf6",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "7EDKPHMUQD4SDMYE7MAWI42O",
+      "stock": 1,
+      "part_numbers": [
+        "S8600H"
+      ],
+      "interchange": [],
+      "vehicles": [],
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398432809305",
+      "ebay_type": "Ignition Control Module",
+      "ebay_brand": "Honeywell",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Other Ignition Systems & Components",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "medium",
+      "fitment": {
+        "part_numbers": [
+          "S8600H"
+        ],
+        "interchange": [],
+        "vehicles": [],
+        "vehicle_labels": [],
+        "raw_compat_rows": 0,
+        "source": "ebay_listing",
+        "confidence": "medium",
+        "ebay_item_id": "398432809305",
+        "type": "Ignition Control Module",
+        "brand": "Honeywell",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Other Ignition Systems & Components"
+      },
+      "images": [
+        "../assets/pdp-gallery/GKKNUBWJMLXJFED53NWYYBHQ/02.webp",
+        "../assets/pdp-gallery/GKKNUBWJMLXJFED53NWYYBHQ/03.webp"
+      ]
+    },
+    {
       "id": "ODN4VCTC3BOYRIGRI4RGB2OQ",
       "name": "Hoover 38777037 Dirty Water Recovery Tank Used SteamVac F5837-900 38777065",
       "price": 29.99,
@@ -126355,5 +126397,5 @@
       "vehicles": []
     }
   ],
-  "fitment_built": "2026-09-25T18:36:46Z"
+  "fitment_built": "2026-09-26T03:25:45Z"
 }
