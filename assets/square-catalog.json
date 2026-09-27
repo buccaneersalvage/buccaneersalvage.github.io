@@ -1,7 +1,7 @@
 {
-  "updated": "2026-09-27T21:02:41Z",
+  "updated": "2026-09-27T22:02:42Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 933,
+  "count": 934,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -102125,20 +102125,13 @@
       "category": "other",
       "checkout": true,
       "variation_id": "VH3SMPB5CJAIS7ARJPMIR5CE",
-      "stock": 1,
       "part_numbers": [
         "2752"
       ],
-      "interchange": [],
       "vehicles": [
         "Ram Shock"
       ],
-      "vehicle_count_raw": 1,
-      "ebay_item_id": "398437969786",
-      "ebay_type": "Weight Bench Ram",
-      "ebay_brand": "MDI",
-      "ebay_category": "Sporting Goods:Fitness, Running & Yoga:Fitness Equipment & Gear:Equipment Parts",
-      "fitment_source": "ebay_listing+title",
+      "fitment_source": "ebay_listing",
       "fitment_confidence": "medium",
       "fitment": {
         "part_numbers": [
@@ -102161,17 +102154,24 @@
           "Ram Shock"
         ],
         "raw_compat_rows": 1,
-        "source": "ebay_listing+title",
+        "source": "ebay_listing",
         "confidence": "medium",
         "ebay_item_id": "398437969786",
         "type": "Weight Bench Ram",
         "brand": "MDI",
         "ebay_category": "Sporting Goods:Fitness, Running & Yoga:Fitness Equipment & Gear:Equipment Parts"
       },
+      "vehicle_count_raw": 1,
+      "ebay_item_id": "398437969786",
+      "ebay_type": "Weight Bench Ram",
+      "ebay_brand": "MDI",
+      "ebay_category": "Sporting Goods:Fitness, Running & Yoga:Fitness Equipment & Gear:Equipment Parts",
       "images": [
         "../assets/pdp-gallery/CWS2CBR5SS7M2EYTALEOX425/02.webp",
         "../assets/pdp-gallery/CWS2CBR5SS7M2EYTALEOX425/03.webp"
-      ]
+      ],
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "NRDBN3JUVZD6MI5P7CLGDVIL",
@@ -107797,7 +107797,6 @@
       "category": "other",
       "checkout": true,
       "variation_id": "H3EKYOADBQIMYTTXRHUWMV6Q",
-      "stock": 1,
       "part_numbers": [
         "23300-3TA0A",
         "M0TB0071 M0TB0072 19163 23300-3TA0C 23300-3TA0ARE"
@@ -107810,12 +107809,7 @@
         "2013\u20132016 Nissan Altima",
         "2014\u20132016 Nissan Rogue"
       ],
-      "vehicle_count_raw": 39,
-      "ebay_item_id": "398438001967",
-      "ebay_type": "Starter Motor",
-      "ebay_brand": "Nissan",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Starters, Alternators, ECUs & Wiring:Starter Motors",
-      "fitment_source": "ebay_listing+title",
+      "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
@@ -107863,17 +107857,23 @@
           "2014\u20132016 Nissan Rogue"
         ],
         "raw_compat_rows": 39,
-        "source": "ebay_listing+title",
+        "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398438001967",
         "type": "Starter Motor",
         "brand": "Nissan",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Starters, Alternators, ECUs & Wiring:Starter Motors"
       },
+      "vehicle_count_raw": 39,
+      "ebay_item_id": "398438001967",
+      "ebay_type": "Starter Motor",
+      "ebay_brand": "Nissan",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Starters, Alternators, ECUs & Wiring:Starter Motors",
       "images": [
         "../assets/pdp-gallery/OXYGWSNQPW6G22MW7BN5EBGV/02.webp",
         "../assets/pdp-gallery/OXYGWSNQPW6G22MW7BN5EBGV/03.webp"
-      ]
+      ],
+      "stock": 1
     },
     {
       "id": "YAXJ4FVUEKKJI2TOVTXQKN5J",
@@ -122094,6 +122094,50 @@
       "vehicles": []
     },
     {
+      "id": "J4W2ICPD33U7OLIPWNE6F5FJ",
+      "name": "Used Hayward H400FD FDXLMAN1400 400k NG Pool Heater Gas Manifold 8-Orifice",
+      "price": 49.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/27ade41e701cd81aaa118d81e5207bb482eaee03/original.jpeg",
+      "url": "https://square.link/u/nlSnwlP5",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "6NOFP6WLXFT7VZR3KAR3B2BL",
+      "stock": 1,
+      "part_numbers": [
+        "FDXLMAN1400"
+      ],
+      "interchange": [],
+      "vehicles": [],
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398438045202",
+      "ebay_type": "Gas Manifold",
+      "ebay_brand": "Hayward",
+      "ebay_category": "Home & Garden:Yard, Garden & Outdoor Living:Pools & Spas:Pool Equipment & Parts:Pool Equipment Parts",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "medium",
+      "fitment": {
+        "part_numbers": [
+          "FDXLMAN1400"
+        ],
+        "interchange": [],
+        "vehicles": [],
+        "vehicle_labels": [],
+        "raw_compat_rows": 0,
+        "source": "ebay_listing",
+        "confidence": "medium",
+        "ebay_item_id": "398438045202",
+        "type": "Gas Manifold",
+        "brand": "Hayward",
+        "ebay_category": "Home & Garden:Yard, Garden & Outdoor Living:Pools & Spas:Pool Equipment & Parts:Pool Equipment Parts"
+      },
+      "images": [
+        "../assets/pdp-gallery/J4W2ICPD33U7OLIPWNE6F5FJ/02.webp",
+        "../assets/pdp-gallery/J4W2ICPD33U7OLIPWNE6F5FJ/03.webp",
+        "../assets/pdp-gallery/J4W2ICPD33U7OLIPWNE6F5FJ/04.webp",
+        "../assets/pdp-gallery/J4W2ICPD33U7OLIPWNE6F5FJ/05.webp"
+      ]
+    },
+    {
       "id": "ZQPLFMIS4CMQTXHDQDATUEYR",
       "name": "Used Heavy Gauge Baling Wire Roll 6.5 lb Galvanized Farm Tie Wire Coil",
       "price": 14.99,
@@ -126541,5 +126585,5 @@
       "vehicles": []
     }
   ],
-  "fitment_built": "2026-09-27T21:02:41Z"
+  "fitment_built": "2026-09-27T22:02:42Z"
 }
