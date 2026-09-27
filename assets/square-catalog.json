@@ -1,7 +1,7 @@
 {
-  "updated": "2026-09-26T04:02:44Z",
+  "updated": "2026-09-27T21:02:41Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 931,
+  "count": 933,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -97266,17 +97266,9 @@
       "category": "other",
       "checkout": true,
       "variation_id": "7EDKPHMUQD4SDMYE7MAWI42O",
-      "stock": 1,
       "part_numbers": [
         "S8600H"
       ],
-      "interchange": [],
-      "vehicles": [],
-      "vehicle_count_raw": 0,
-      "ebay_item_id": "398432809305",
-      "ebay_type": "Ignition Control Module",
-      "ebay_brand": "Honeywell",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Other Ignition Systems & Components",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "medium",
       "fitment": {
@@ -97294,10 +97286,18 @@
         "brand": "Honeywell",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Other Ignition Systems & Components"
       },
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398432809305",
+      "ebay_type": "Ignition Control Module",
+      "ebay_brand": "Honeywell",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Other Ignition Systems & Components",
       "images": [
         "../assets/pdp-gallery/GKKNUBWJMLXJFED53NWYYBHQ/02.webp",
         "../assets/pdp-gallery/GKKNUBWJMLXJFED53NWYYBHQ/03.webp"
-      ]
+      ],
+      "stock": 1,
+      "interchange": [],
+      "vehicles": []
     },
     {
       "id": "ODN4VCTC3BOYRIGRI4RGB2OQ",
@@ -102115,6 +102115,63 @@
       ],
       "stock": 1,
       "interchange": []
+    },
+    {
+      "id": "CWS2CBR5SS7M2EYTALEOX425",
+      "name": "MDI 2752 Tested Weight Bench Ram Shock Adjustable DIY Project One-Way Used",
+      "price": 25.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/723623845b75c6081ee4a524a75926cc46e779d1/original.jpeg",
+      "url": "https://square.link/u/jowM7CTr",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "VH3SMPB5CJAIS7ARJPMIR5CE",
+      "stock": 1,
+      "part_numbers": [
+        "2752"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "Ram Shock"
+      ],
+      "vehicle_count_raw": 1,
+      "ebay_item_id": "398437969786",
+      "ebay_type": "Weight Bench Ram",
+      "ebay_brand": "MDI",
+      "ebay_category": "Sporting Goods:Fitness, Running & Yoga:Fitness Equipment & Gear:Equipment Parts",
+      "fitment_source": "ebay_listing+title",
+      "fitment_confidence": "medium",
+      "fitment": {
+        "part_numbers": [
+          "2752"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": null,
+            "year_to": null,
+            "make": "Ram",
+            "model": "Shock",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "Ram Shock"
+        ],
+        "raw_compat_rows": 1,
+        "source": "ebay_listing+title",
+        "confidence": "medium",
+        "ebay_item_id": "398437969786",
+        "type": "Weight Bench Ram",
+        "brand": "MDI",
+        "ebay_category": "Sporting Goods:Fitness, Running & Yoga:Fitness Equipment & Gear:Equipment Parts"
+      },
+      "images": [
+        "../assets/pdp-gallery/CWS2CBR5SS7M2EYTALEOX425/02.webp",
+        "../assets/pdp-gallery/CWS2CBR5SS7M2EYTALEOX425/03.webp"
+      ]
     },
     {
       "id": "NRDBN3JUVZD6MI5P7CLGDVIL",
@@ -107730,6 +107787,93 @@
       "part_numbers": [],
       "interchange": [],
       "vehicles": []
+    },
+    {
+      "id": "OXYGWSNQPW6G22MW7BN5EBGV",
+      "name": "Nissan 23300-3TA0A Starter Used 2013-2016 Altima 2014-2016 Rogue 2.5L OEM",
+      "price": 39.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/59714be880a6fbfe3b3f06007292749b17e3c02b/original.jpeg",
+      "url": "https://square.link/u/iF8JCakU",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "H3EKYOADBQIMYTTXRHUWMV6Q",
+      "stock": 1,
+      "part_numbers": [
+        "23300-3TA0A",
+        "M0TB0071 M0TB0072 19163 23300-3TA0C 23300-3TA0ARE"
+      ],
+      "interchange": [
+        "M000TB0071ZC"
+      ],
+      "vehicles": [
+        "2013\u20132016 Nissan 23300-3TA0A",
+        "2013\u20132016 Nissan Altima",
+        "2014\u20132016 Nissan Rogue"
+      ],
+      "vehicle_count_raw": 39,
+      "ebay_item_id": "398438001967",
+      "ebay_type": "Starter Motor",
+      "ebay_brand": "Nissan",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Starters, Alternators, ECUs & Wiring:Starter Motors",
+      "fitment_source": "ebay_listing+title",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "23300-3TA0A",
+          "M0TB0071 M0TB0072 19163 23300-3TA0C 23300-3TA0ARE"
+        ],
+        "interchange": [
+          "M000TB0071ZC"
+        ],
+        "vehicles": [
+          {
+            "year_from": 2013,
+            "year_to": 2016,
+            "make": "Nissan",
+            "model": "23300-3TA0A",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2013,
+            "year_to": 2016,
+            "make": "Nissan",
+            "model": "Altima",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2014,
+            "year_to": 2016,
+            "make": "Nissan",
+            "model": "Rogue",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "2013\u20132016 Nissan 23300-3TA0A",
+          "2013\u20132016 Nissan Altima",
+          "2014\u20132016 Nissan Rogue"
+        ],
+        "raw_compat_rows": 39,
+        "source": "ebay_listing+title",
+        "confidence": "high",
+        "ebay_item_id": "398438001967",
+        "type": "Starter Motor",
+        "brand": "Nissan",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Starters, Alternators, ECUs & Wiring:Starter Motors"
+      },
+      "images": [
+        "../assets/pdp-gallery/OXYGWSNQPW6G22MW7BN5EBGV/02.webp",
+        "../assets/pdp-gallery/OXYGWSNQPW6G22MW7BN5EBGV/03.webp"
+      ]
     },
     {
       "id": "YAXJ4FVUEKKJI2TOVTXQKN5J",
@@ -126397,5 +126541,5 @@
       "vehicles": []
     }
   ],
-  "fitment_built": "2026-09-26T04:02:44Z"
+  "fitment_built": "2026-09-27T21:02:41Z"
 }
