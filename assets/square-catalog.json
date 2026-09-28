@@ -1,7 +1,7 @@
 {
-  "updated": "2026-09-28T01:50:51Z",
+  "updated": "2026-09-28T02:14:31Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 945,
+  "count": 946,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -75467,6 +75467,45 @@
       "interchange": []
     },
     {
+      "id": "LI5HYTPMBZFXG7MS77THBDO2",
+      "name": "Boston Red Sox Milton Cole Jim Kaplan Hardcover 2004 World Series Johnny Pesky",
+      "price": 8.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/beb74cfa72e7c57db36e7cbd7b0f5766b1258b33/original.jpeg",
+      "url": "https://square.link/u/Rf6eJ5OX",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "EGPUMINNWUICGXVUG5STJXLL",
+      "stock": 1,
+      "part_numbers": [],
+      "interchange": [],
+      "vehicles": [],
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398438713832",
+      "ebay_type": "Book",
+      "ebay_brand": "Unbranded",
+      "ebay_category": "Books & Magazines:Books",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "medium",
+      "fitment": {
+        "part_numbers": [],
+        "interchange": [],
+        "vehicles": [],
+        "vehicle_labels": [],
+        "raw_compat_rows": 0,
+        "source": "ebay_listing",
+        "confidence": "medium",
+        "ebay_item_id": "398438713832",
+        "type": "Book",
+        "brand": "Unbranded",
+        "ebay_category": "Books & Magazines:Books"
+      },
+      "images": [
+        "../assets/pdp-gallery/LI5HYTPMBZFXG7MS77THBDO2/02.webp",
+        "../assets/pdp-gallery/LI5HYTPMBZFXG7MS77THBDO2/03.webp",
+        "../assets/pdp-gallery/LI5HYTPMBZFXG7MS77THBDO2/04.webp"
+      ]
+    },
+    {
       "id": "76EIMHSX67UOCLAWCBIO3NEK",
       "name": "Bulova Accutron 2 Quartz Elgin Ladies Watch Lot of 3 Gold Mesh Tank Parts Repair",
       "price": 74.99,
@@ -102863,15 +102902,6 @@
       "category": "other",
       "checkout": true,
       "variation_id": "VYSWVE4J7QJAPS2R2DZRC6YH",
-      "stock": 1,
-      "part_numbers": [],
-      "interchange": [],
-      "vehicles": [],
-      "vehicle_count_raw": 0,
-      "ebay_item_id": "398438556005",
-      "ebay_type": "",
-      "ebay_brand": "Unbranded",
-      "ebay_category": "Sports Mem, Cards & Fan Shop:Fan Apparel & Souvenirs:Baseball-MLB",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "medium",
       "fitment": {
@@ -102887,10 +102917,19 @@
         "brand": "Unbranded",
         "ebay_category": "Sports Mem, Cards & Fan Shop:Fan Apparel & Souvenirs:Baseball-MLB"
       },
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398438556005",
+      "ebay_brand": "Unbranded",
+      "ebay_category": "Sports Mem, Cards & Fan Shop:Fan Apparel & Souvenirs:Baseball-MLB",
       "images": [
         "../assets/pdp-gallery/5SRKREC5IOVT64UY2XKOVHK6/02.webp",
         "../assets/pdp-gallery/5SRKREC5IOVT64UY2XKOVHK6/03.webp"
-      ]
+      ],
+      "stock": 1,
+      "part_numbers": [],
+      "interchange": [],
+      "vehicles": [],
+      "ebay_type": ""
     },
     {
       "id": "V2MQ7NG3447JFZOS7MY5K2I5",
@@ -121895,15 +121934,6 @@
       "category": "other",
       "checkout": true,
       "variation_id": "65KYTWQMSOUCNF7TZNDAPRYT",
-      "stock": 1,
-      "part_numbers": [],
-      "interchange": [],
-      "vehicles": [],
-      "vehicle_count_raw": 0,
-      "ebay_item_id": "398438553120",
-      "ebay_type": "Book",
-      "ebay_brand": "Unbranded",
-      "ebay_category": "Books & Magazines:Books",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "medium",
       "fitment": {
@@ -121919,10 +121949,19 @@
         "brand": "Unbranded",
         "ebay_category": "Books & Magazines:Books"
       },
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398438553120",
+      "ebay_type": "Book",
+      "ebay_brand": "Unbranded",
+      "ebay_category": "Books & Magazines:Books",
       "images": [
         "../assets/pdp-gallery/T6X32J35WCBGLVT6PA4FPFVV/02.webp",
         "../assets/pdp-gallery/T6X32J35WCBGLVT6PA4FPFVV/03.webp"
-      ]
+      ],
+      "stock": 1,
+      "part_numbers": [],
+      "interchange": [],
+      "vehicles": []
     },
     {
       "id": "BP3WAE6OTPH4X5HN7URTIPKZ",
@@ -126973,5 +127012,5 @@
       "vehicles": []
     }
   ],
-  "fitment_built": "2026-09-28T01:50:51Z"
+  "fitment_built": "2026-09-28T02:14:31Z"
 }
