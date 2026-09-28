@@ -1,7 +1,7 @@
 {
-  "updated": "2026-09-28T13:34:44Z",
+  "updated": "2026-09-28T19:14:19Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 946,
+  "count": 945,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -453,54 +453,6 @@
         "../assets/pdp-gallery/XH7TUMSNXXRPP27X4TVSG7IR/03.webp",
         "../assets/pdp-gallery/XH7TUMSNXXRPP27X4TVSG7IR/04.webp",
         "../assets/pdp-gallery/XH7TUMSNXXRPP27X4TVSG7IR/05.webp"
-      ],
-      "stock": 1,
-      "vehicles": []
-    },
-    {
-      "id": "63GLHEZRBSGQMW33N4D6AWUT",
-      "name": "Automann AB1DK23P-6231 Rolling Lobe Air Spring Replaces W01-358-6231 New",
-      "price": 211.99,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/b8f3ac1b03fb2248c98799783c10767613658632/original.jpeg",
-      "url": "https://square.link/u/3bPqtIRE",
-      "category": "air-spring",
-      "checkout": true,
-      "variation_id": "MC7K5UQOIKLYGXAJOVYV7ZOI",
-      "part_numbers": [
-        "AB1DK23P-6231",
-        "6231; ContiTech AS 9 10-17.5 P 1388"
-      ],
-      "interchange": [
-        "W01-358-6231"
-      ],
-      "fitment_source": "ebay_listing+airspring_inventory",
-      "fitment_confidence": "high",
-      "fitment": {
-        "part_numbers": [
-          "AB1DK23P-6231",
-          "6231; ContiTech AS 9 10-17.5 P 1388"
-        ],
-        "interchange": [
-          "W01-358-6231"
-        ],
-        "vehicles": [],
-        "vehicle_labels": [],
-        "raw_compat_rows": 0,
-        "source": "ebay_listing+airspring_inventory",
-        "confidence": "high",
-        "ebay_item_id": "398104795532",
-        "type": "Rolling Lobe Air Spring",
-        "brand": "Automann",
-        "ebay_category": "eBay Motors:Parts & Accessories:Commercial Truck Parts:Suspension & Steering:Air Ride Suspension"
-      },
-      "vehicle_count_raw": 0,
-      "ebay_item_id": "398104795532",
-      "ebay_type": "Rolling Lobe Air Spring",
-      "ebay_brand": "Automann",
-      "ebay_category": "eBay Motors:Parts & Accessories:Commercial Truck Parts:Suspension & Steering:Air Ride Suspension",
-      "images": [
-        "../assets/pdp-gallery/63GLHEZRBSGQMW33N4D6AWUT/02.webp",
-        "../assets/pdp-gallery/63GLHEZRBSGQMW33N4D6AWUT/03.webp"
       ],
       "stock": 1,
       "vehicles": []
@@ -75475,15 +75427,6 @@
       "category": "other",
       "checkout": true,
       "variation_id": "EGPUMINNWUICGXVUG5STJXLL",
-      "stock": 1,
-      "part_numbers": [],
-      "interchange": [],
-      "vehicles": [],
-      "vehicle_count_raw": 0,
-      "ebay_item_id": "398438713832",
-      "ebay_type": "Book",
-      "ebay_brand": "Unbranded",
-      "ebay_category": "Books & Magazines:Books",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "medium",
       "fitment": {
@@ -75499,11 +75442,20 @@
         "brand": "Unbranded",
         "ebay_category": "Books & Magazines:Books"
       },
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398438713832",
+      "ebay_type": "Book",
+      "ebay_brand": "Unbranded",
+      "ebay_category": "Books & Magazines:Books",
       "images": [
         "../assets/pdp-gallery/LI5HYTPMBZFXG7MS77THBDO2/02.webp",
         "../assets/pdp-gallery/LI5HYTPMBZFXG7MS77THBDO2/03.webp",
         "../assets/pdp-gallery/LI5HYTPMBZFXG7MS77THBDO2/04.webp"
-      ]
+      ],
+      "stock": 1,
+      "part_numbers": [],
+      "interchange": [],
+      "vehicles": []
     },
     {
       "id": "76EIMHSX67UOCLAWCBIO3NEK",
@@ -127012,5 +126964,5 @@
       "vehicles": []
     }
   ],
-  "fitment_built": "2026-09-28T13:34:44Z"
+  "fitment_built": "2026-09-28T19:14:19Z"
 }
