@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-27T23:02:43Z",
+  "updated": "2026-09-28T00:02:40Z",
   "store": "https://buccaneersalvage.square.site/",
   "count": 934,
   "items": [
@@ -60625,78 +60625,6 @@
       "interchange": []
     },
     {
-      "id": "SPEEKI64OKTOPJIT5OSHMI4A",
-      "name": "Standard JH-109 Dist Cap NOS 2.8 Celica Supra Cressida",
-      "price": 19.99,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/75a7b73b807968169e106a5211e036c8370cb1f8/original.jpeg",
-      "url": "https://square.link/u/961oby7b",
-      "category": "ignition",
-      "checkout": true,
-      "variation_id": "NEAK4C66RMYHVJWV4HAE6U26",
-      "part_numbers": [
-        "JH-109",
-        "JH109"
-      ],
-      "vehicles": [
-        "1984\u20131988 Toyota Celica",
-        "1985\u20131988 Toyota Cressida"
-      ],
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "high",
-      "fitment": {
-        "part_numbers": [
-          "JH-109",
-          "JH109"
-        ],
-        "interchange": [],
-        "vehicles": [
-          {
-            "year_from": 1984,
-            "year_to": 1988,
-            "make": "Toyota",
-            "model": "Celica",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1985,
-            "year_to": 1988,
-            "make": "Toyota",
-            "model": "Cressida",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          }
-        ],
-        "vehicle_labels": [
-          "1984\u20131988 Toyota Celica",
-          "1985\u20131988 Toyota Cressida"
-        ],
-        "raw_compat_rows": 40,
-        "source": "ebay_listing",
-        "confidence": "high",
-        "ebay_item_id": "398357180422",
-        "type": "Distributor Cap",
-        "brand": "Standard",
-        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps"
-      },
-      "vehicle_count_raw": 40,
-      "ebay_item_id": "398357180422",
-      "ebay_type": "Distributor Cap",
-      "ebay_brand": "Standard",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps",
-      "images": [
-        "../assets/pdp-gallery/SPEEKI64OKTOPJIT5OSHMI4A/02.webp",
-        "../assets/pdp-gallery/SPEEKI64OKTOPJIT5OSHMI4A/03.webp",
-        "../assets/pdp-gallery/SPEEKI64OKTOPJIT5OSHMI4A/04.webp"
-      ],
-      "stock": 1,
-      "interchange": []
-    },
-    {
       "id": "R7LVGS5MA22XFERSGUIW7ALF",
       "name": "Standard JH-110 Dist Cap NOS 1.5 73-83 Civic Accord",
       "price": 19.99,
@@ -78977,6 +78905,48 @@
         "../assets/pdp-gallery/BQJYLOOROD5CPI26LY53NLX7/04.webp"
       ],
       "stock": 1
+    },
+    {
+      "id": "Y7KX6C4GYBVV3VG6TCIHS2CB",
+      "name": "Danbury Mint Carlton Fisk 12th Home Run 1975 World Series Red Sox Sculpture",
+      "price": 149.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/07a9c390c68dbf907e75f72fb5c783ebf88cc1c4/original.jpeg",
+      "url": "https://square.link/u/JZsBIUUG",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "GZCDH4PHHZGCP2O4THVX2R2R",
+      "stock": 1,
+      "part_numbers": [],
+      "interchange": [],
+      "vehicles": [],
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398438281661",
+      "ebay_type": "Figurine",
+      "ebay_brand": "Danbury Mint",
+      "ebay_category": "Sports Mem, Cards & Fan Shop:Fan Apparel & Souvenirs:Baseball-MLB",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "medium",
+      "fitment": {
+        "part_numbers": [],
+        "interchange": [],
+        "vehicles": [],
+        "vehicle_labels": [],
+        "raw_compat_rows": 0,
+        "source": "ebay_listing",
+        "confidence": "medium",
+        "ebay_item_id": "398438281661",
+        "type": "Figurine",
+        "brand": "Danbury Mint",
+        "ebay_category": "Sports Mem, Cards & Fan Shop:Fan Apparel & Souvenirs:Baseball-MLB"
+      },
+      "images": [
+        "../assets/pdp-gallery/Y7KX6C4GYBVV3VG6TCIHS2CB/02.webp",
+        "../assets/pdp-gallery/Y7KX6C4GYBVV3VG6TCIHS2CB/03.webp",
+        "../assets/pdp-gallery/Y7KX6C4GYBVV3VG6TCIHS2CB/04.webp",
+        "../assets/pdp-gallery/Y7KX6C4GYBVV3VG6TCIHS2CB/05.webp",
+        "../assets/pdp-gallery/Y7KX6C4GYBVV3VG6TCIHS2CB/06.webp",
+        "../assets/pdp-gallery/Y7KX6C4GYBVV3VG6TCIHS2CB/07.webp"
+      ]
     },
     {
       "id": "VKJDX7VEJFPYQ7YKR7IZX6QW",
@@ -122102,17 +122072,9 @@
       "category": "other",
       "checkout": true,
       "variation_id": "6NOFP6WLXFT7VZR3KAR3B2BL",
-      "stock": 1,
       "part_numbers": [
         "FDXLMAN1400"
       ],
-      "interchange": [],
-      "vehicles": [],
-      "vehicle_count_raw": 0,
-      "ebay_item_id": "398438045202",
-      "ebay_type": "Gas Manifold",
-      "ebay_brand": "Hayward",
-      "ebay_category": "Home & Garden:Yard, Garden & Outdoor Living:Pools & Spas:Pool Equipment & Parts:Pool Equipment Parts",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "medium",
       "fitment": {
@@ -122130,12 +122092,20 @@
         "brand": "Hayward",
         "ebay_category": "Home & Garden:Yard, Garden & Outdoor Living:Pools & Spas:Pool Equipment & Parts:Pool Equipment Parts"
       },
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398438045202",
+      "ebay_type": "Gas Manifold",
+      "ebay_brand": "Hayward",
+      "ebay_category": "Home & Garden:Yard, Garden & Outdoor Living:Pools & Spas:Pool Equipment & Parts:Pool Equipment Parts",
       "images": [
         "../assets/pdp-gallery/J4W2ICPD33U7OLIPWNE6F5FJ/02.webp",
         "../assets/pdp-gallery/J4W2ICPD33U7OLIPWNE6F5FJ/03.webp",
         "../assets/pdp-gallery/J4W2ICPD33U7OLIPWNE6F5FJ/04.webp",
         "../assets/pdp-gallery/J4W2ICPD33U7OLIPWNE6F5FJ/05.webp"
-      ]
+      ],
+      "stock": 1,
+      "interchange": [],
+      "vehicles": []
     },
     {
       "id": "ZQPLFMIS4CMQTXHDQDATUEYR",
@@ -126585,5 +126555,5 @@
       "vehicles": []
     }
   ],
-  "fitment_built": "2026-09-27T23:02:43Z"
+  "fitment_built": "2026-09-28T00:02:40Z"
 }
