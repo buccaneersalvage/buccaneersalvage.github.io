@@ -1,7 +1,7 @@
 {
-  "updated": "2026-09-29T16:03:01Z",
+  "updated": "2026-09-29T17:03:11Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 944,
+  "count": 910,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -35208,79 +35208,6 @@
       "images": []
     },
     {
-      "id": "F7X2LR523KDOKA265ZBJIXIW",
-      "name": "Yamaha FJ1100 FJ1200 Rear Brake Master Cylinder Assembly OEM Rebuildable Core",
-      "price": 24.99,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/5ea46b3e4ce548b9311420f06bed5f4a38cd6bb8/original.png",
-      "url": "https://square.link/u/z5q6Xppk",
-      "category": "brake",
-      "checkout": true,
-      "variation_id": "HKRMDQQ7TVWXDMC4XP2C65ZX",
-      "part_numbers": [
-        "FJ1100"
-      ],
-      "vehicles": [
-        "1984\u20131985 Yamaha FJ1100",
-        "1986\u20131993 Yamaha FJ1200"
-      ],
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "high",
-      "fitment": {
-        "part_numbers": [
-          "FJ1100"
-        ],
-        "interchange": [],
-        "vehicles": [
-          {
-            "year_from": 1984,
-            "year_to": 1985,
-            "make": "Yamaha",
-            "model": "FJ1100",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1986,
-            "year_to": 1993,
-            "make": "Yamaha",
-            "model": "FJ1200",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          }
-        ],
-        "vehicle_labels": [
-          "1984\u20131985 Yamaha FJ1100",
-          "1986\u20131993 Yamaha FJ1200"
-        ],
-        "raw_compat_rows": 10,
-        "source": "ebay_listing",
-        "confidence": "high",
-        "ebay_item_id": "398084830121",
-        "type": "OEM Master Cylinder Assembly",
-        "brand": "Yamaha",
-        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware"
-      },
-      "vehicle_count_raw": 10,
-      "ebay_item_id": "398084830121",
-      "ebay_type": "OEM Master Cylinder Assembly",
-      "ebay_brand": "Yamaha",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware",
-      "images": [
-        "../assets/pdp-gallery/F7X2LR523KDOKA265ZBJIXIW/02.webp",
-        "../assets/pdp-gallery/F7X2LR523KDOKA265ZBJIXIW/03.webp",
-        "../assets/pdp-gallery/F7X2LR523KDOKA265ZBJIXIW/04.webp",
-        "../assets/pdp-gallery/F7X2LR523KDOKA265ZBJIXIW/05.webp",
-        "../assets/pdp-gallery/F7X2LR523KDOKA265ZBJIXIW/06.webp",
-        "../assets/pdp-gallery/F7X2LR523KDOKA265ZBJIXIW/07.webp"
-      ],
-      "stock": 1,
-      "interchange": []
-    },
-    {
       "id": "OM7I4RJVT4BDE754HVILSGSO",
       "name": "Bosch 3300 Premium Oil Filter Ford Escort Aspire 94-02 NOS",
       "price": 11.99,
@@ -36054,41 +35981,6 @@
         "../assets/pdp-gallery/NRMGBEVR2TP5XEM4VDG5BGZD/04.webp"
       ],
       "stock": 1
-    },
-    {
-      "id": "LI27QWM3ZP4GE6HYAQ5REDRG",
-      "name": "KN 33-2139 Air Filter Used Grand Cherokee 99-05 4.0 4.7 Cleanable",
-      "price": 24.99,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/e1412ff0816bfa0ec1d69d477b2299e12988a72a/original.jpeg",
-      "url": "https://square.link/u/jucBjggo",
-      "category": "filters",
-      "checkout": true,
-      "variation_id": "SN37BX2RF7WJI6TLVEQTJASA",
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "medium",
-      "fitment": {
-        "part_numbers": [],
-        "interchange": [],
-        "vehicles": [],
-        "vehicle_labels": [],
-        "raw_compat_rows": 0,
-        "source": "ebay_listing",
-        "confidence": "medium",
-        "ebay_item_id": "398084847316",
-        "type": "High-Flow Panel Air Filter",
-        "brand": "K&N Engineering",
-        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Filters"
-      },
-      "vehicle_count_raw": 0,
-      "ebay_item_id": "398084847316",
-      "ebay_type": "High-Flow Panel Air Filter",
-      "ebay_brand": "K&N Engineering",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Filters",
-      "stock": 1,
-      "part_numbers": [],
-      "interchange": [],
-      "vehicles": [],
-      "images": []
     },
     {
       "id": "JDZ3Q3AOVSFQRF4KPLDOHPYX",
@@ -73469,51 +73361,6 @@
       "ebay_brand": ""
     },
     {
-      "id": "FF6CHCLPBXILGHAQESCBZL4V",
-      "name": "1972 US Military Penetrating Oil Can VV-P-216a Vietnam Era Collectible",
-      "price": 19.99,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/0d0333471774802c438a63c16ea65bad3e5154d0/original.jpeg",
-      "url": "https://square.link/u/Vbr3dExk",
-      "category": "other",
-      "checkout": true,
-      "variation_id": "SNOEZ5QWA7JX7DEY6BFINJXC",
-      "part_numbers": [
-        "1972"
-      ],
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "medium",
-      "fitment": {
-        "part_numbers": [
-          "1972"
-        ],
-        "interchange": [],
-        "vehicles": [],
-        "vehicle_labels": [],
-        "raw_compat_rows": 0,
-        "source": "ebay_listing",
-        "confidence": "medium",
-        "ebay_item_id": "398083977440",
-        "type": "Oil Can",
-        "brand": "",
-        "ebay_category": "Collectibles:Advertising:Gas & Oil:Merchandise & Memorabilia:Cans & Buckets"
-      },
-      "vehicle_count_raw": 0,
-      "ebay_item_id": "398083977440",
-      "ebay_type": "Oil Can",
-      "ebay_category": "Collectibles:Advertising:Gas & Oil:Merchandise & Memorabilia:Cans & Buckets",
-      "images": [
-        "../assets/pdp-gallery/FF6CHCLPBXILGHAQESCBZL4V/02.webp",
-        "../assets/pdp-gallery/FF6CHCLPBXILGHAQESCBZL4V/03.webp",
-        "../assets/pdp-gallery/FF6CHCLPBXILGHAQESCBZL4V/04.webp",
-        "../assets/pdp-gallery/FF6CHCLPBXILGHAQESCBZL4V/05.webp",
-        "../assets/pdp-gallery/FF6CHCLPBXILGHAQESCBZL4V/06.webp"
-      ],
-      "stock": 1,
-      "interchange": [],
-      "vehicles": [],
-      "ebay_brand": ""
-    },
-    {
       "id": "QAXNAJ4JJEZZWNSTYTD33NQW",
       "name": "1981-1987 Chevy C10 C20 C30 GMC Right Front Manual Window Regulator OEM RF",
       "price": 59.99,
@@ -73968,74 +73815,6 @@
       "interchange": []
     },
     {
-      "id": "VQCIYBGQBGMF2EGFVLCLNPQV",
-      "name": "99-02 Chevy Silverado GMC Sierra OEM 4WD Transfer Case Selector Switch",
-      "price": 16.99,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/53c046e1454fe1c9714480a3f4381c4eef4499fd/original.jpeg",
-      "url": "https://square.link/u/G6Nspqg6",
-      "category": "other",
-      "checkout": true,
-      "variation_id": "NP6CY6EW45JEKE474RY33335",
-      "vehicles": [
-        "1999\u20132002 Chevrolet Silverado",
-        "1999\u20132002 GMC Sierra"
-      ],
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "medium",
-      "fitment": {
-        "part_numbers": [],
-        "interchange": [],
-        "vehicles": [
-          {
-            "year_from": 1999,
-            "year_to": 2002,
-            "make": "Chevrolet",
-            "model": "Silverado",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1999,
-            "year_to": 2002,
-            "make": "GMC",
-            "model": "Sierra",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          }
-        ],
-        "vehicle_labels": [
-          "1999\u20132002 Chevrolet Silverado",
-          "1999\u20132002 GMC Sierra"
-        ],
-        "raw_compat_rows": 4,
-        "source": "ebay_listing",
-        "confidence": "medium",
-        "ebay_item_id": "398084288704",
-        "type": "Sierra 4WD Transfer Case Selector Switch",
-        "brand": "GM",
-        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Fan & Shroud Assemblies"
-      },
-      "vehicle_count_raw": 4,
-      "ebay_item_id": "398084288704",
-      "ebay_type": "Sierra 4WD Transfer Case Selector Switch",
-      "ebay_brand": "GM",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Fan & Shroud Assemblies",
-      "images": [
-        "../assets/pdp-gallery/VQCIYBGQBGMF2EGFVLCLNPQV/02.webp",
-        "../assets/pdp-gallery/VQCIYBGQBGMF2EGFVLCLNPQV/03.webp",
-        "../assets/pdp-gallery/VQCIYBGQBGMF2EGFVLCLNPQV/04.webp",
-        "../assets/pdp-gallery/VQCIYBGQBGMF2EGFVLCLNPQV/05.webp",
-        "../assets/pdp-gallery/VQCIYBGQBGMF2EGFVLCLNPQV/06.webp"
-      ],
-      "stock": 1,
-      "part_numbers": [],
-      "interchange": []
-    },
-    {
       "id": "BOHM2OSDRIQ6OPA3HQVL5WJY",
       "name": "ACDelco D8041 GM 89057520 Oil Pressure Switch Camaro Firebird 93-02 NOS",
       "price": 34.99,
@@ -74239,67 +74018,6 @@
       "stock": 1,
       "interchange": [],
       "vehicles": []
-    },
-    {
-      "id": "F2WXPYAH536YKTKJDFH4BLI5",
-      "name": "B&M Unimatic Shifter Cable Bracket Chrysler Torqueflite Used",
-      "price": 19.99,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/79617499048c4ab177bbeb15e2fa66fd76c83ac4/original.jpeg",
-      "url": "https://square.link/u/vbXKBRqA",
-      "category": "other",
-      "checkout": true,
-      "variation_id": "Z3YMLWLF3DRXD3SQDJLH6Q26",
-      "part_numbers": [
-        "Chrysler Cable Bracket (B&M Unimatic)"
-      ],
-      "vehicles": [
-        "Chrysler Torqueflite"
-      ],
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "medium",
-      "fitment": {
-        "part_numbers": [
-          "Chrysler Cable Bracket (B&M Unimatic)"
-        ],
-        "interchange": [],
-        "vehicles": [
-          {
-            "year_from": null,
-            "year_to": null,
-            "make": "Chrysler",
-            "model": "Torqueflite",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          }
-        ],
-        "vehicle_labels": [
-          "Chrysler Torqueflite"
-        ],
-        "raw_compat_rows": 1,
-        "source": "ebay_listing",
-        "confidence": "medium",
-        "ebay_item_id": "397849161629",
-        "type": "Shifter Cable Bracket",
-        "brand": "B&M",
-        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:Shifters, Cables & Linkages"
-      },
-      "vehicle_count_raw": 1,
-      "ebay_item_id": "397849161629",
-      "ebay_type": "Shifter Cable Bracket",
-      "ebay_brand": "B&M",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:Shifters, Cables & Linkages",
-      "images": [
-        "../assets/pdp-gallery/F2WXPYAH536YKTKJDFH4BLI5/02.webp",
-        "../assets/pdp-gallery/F2WXPYAH536YKTKJDFH4BLI5/03.webp",
-        "../assets/pdp-gallery/F2WXPYAH536YKTKJDFH4BLI5/04.webp",
-        "../assets/pdp-gallery/F2WXPYAH536YKTKJDFH4BLI5/05.webp",
-        "../assets/pdp-gallery/F2WXPYAH536YKTKJDFH4BLI5/06.webp",
-        "../assets/pdp-gallery/F2WXPYAH536YKTKJDFH4BLI5/07.webp"
-      ],
-      "stock": 1,
-      "interchange": []
     },
     {
       "id": "NRJ7HL52U5SVJXXDHZ6XIZ7U",
@@ -75498,48 +75216,6 @@
       "part_numbers": [],
       "interchange": [],
       "vehicles": []
-    },
-    {
-      "id": "EUPDK3OFO7BFLQP3K7MMG7WO",
-      "name": "Calix 803G GigaPoint GPON Fiber ONT 100-04255 + Power Supply - Used Working",
-      "price": 39.99,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/83a90b7fca35f6a94f0e444e56fdfd24ecde22db/original.jpeg",
-      "url": "https://square.link/u/3IbyfTqO",
-      "category": "other",
-      "checkout": true,
-      "variation_id": "MXOO7PN4BYUA4TVOGTALRFN6",
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "medium",
-      "fitment": {
-        "part_numbers": [],
-        "interchange": [],
-        "vehicles": [],
-        "vehicle_labels": [],
-        "raw_compat_rows": 0,
-        "source": "ebay_listing",
-        "confidence": "medium",
-        "ebay_item_id": "398081593707",
-        "type": "",
-        "brand": "Calix",
-        "ebay_category": "Computers/Tablets & Networking:Enterprise Networking, Servers:Switches & Hubs:Switch Modules"
-      },
-      "vehicle_count_raw": 0,
-      "ebay_item_id": "398081593707",
-      "ebay_brand": "Calix",
-      "ebay_category": "Computers/Tablets & Networking:Enterprise Networking, Servers:Switches & Hubs:Switch Modules",
-      "images": [
-        "../assets/pdp-gallery/EUPDK3OFO7BFLQP3K7MMG7WO/02.webp",
-        "../assets/pdp-gallery/EUPDK3OFO7BFLQP3K7MMG7WO/03.webp",
-        "../assets/pdp-gallery/EUPDK3OFO7BFLQP3K7MMG7WO/04.webp",
-        "../assets/pdp-gallery/EUPDK3OFO7BFLQP3K7MMG7WO/05.webp",
-        "../assets/pdp-gallery/EUPDK3OFO7BFLQP3K7MMG7WO/06.webp",
-        "../assets/pdp-gallery/EUPDK3OFO7BFLQP3K7MMG7WO/07.webp"
-      ],
-      "stock": 1,
-      "part_numbers": [],
-      "interchange": [],
-      "vehicles": [],
-      "ebay_type": ""
     },
     {
       "id": "Y7QDEJQMHZ6SSJIJFDZOIUPL",
@@ -76765,47 +76441,6 @@
         "../assets/pdp-gallery/HLLNWIAZ7ZVGHGUGQHL4LA4P/04.webp"
       ],
       "stock": 1,
-      "interchange": [],
-      "vehicles": []
-    },
-    {
-      "id": "2LN22LKUSIWBSLJZ44RSVLNY",
-      "name": "Central AC Compressor Contactor Relay 30-40 Amp Definite Purpose HVAC",
-      "price": 12.99,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/fa50c3e979fb32883991d84ee9df4306814dddfa/original.jpeg",
-      "url": "https://square.link/u/uJSmaoPF",
-      "category": "other",
-      "checkout": true,
-      "variation_id": "F4ZGVKFEDSBX574ZDN5MZ7DM",
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "medium",
-      "fitment": {
-        "part_numbers": [],
-        "interchange": [],
-        "vehicles": [],
-        "vehicle_labels": [],
-        "raw_compat_rows": 0,
-        "source": "ebay_listing",
-        "confidence": "medium",
-        "ebay_item_id": "398084288062",
-        "type": "Central AC Compressor Contactor Relay",
-        "brand": "Unbranded",
-        "ebay_category": "Business & Industrial:Electrical Equipment & Supplies:Contactors:Definite Purpose Contactors"
-      },
-      "vehicle_count_raw": 0,
-      "ebay_item_id": "398084288062",
-      "ebay_type": "Central AC Compressor Contactor Relay",
-      "ebay_brand": "Unbranded",
-      "ebay_category": "Business & Industrial:Electrical Equipment & Supplies:Contactors:Definite Purpose Contactors",
-      "images": [
-        "../assets/pdp-gallery/2LN22LKUSIWBSLJZ44RSVLNY/02.webp",
-        "../assets/pdp-gallery/2LN22LKUSIWBSLJZ44RSVLNY/03.webp",
-        "../assets/pdp-gallery/2LN22LKUSIWBSLJZ44RSVLNY/04.webp",
-        "../assets/pdp-gallery/2LN22LKUSIWBSLJZ44RSVLNY/05.webp",
-        "../assets/pdp-gallery/2LN22LKUSIWBSLJZ44RSVLNY/06.webp"
-      ],
-      "stock": 1,
-      "part_numbers": [],
       "interchange": [],
       "vehicles": []
     },
@@ -79794,47 +79429,6 @@
       "stock": 1
     },
     {
-      "id": "VKRCNYYQTCMWEG335F4RNOYX",
-      "name": "Fisher CR-9005 Studio Standard Stereo Double Cassette Deck For Parts Repair",
-      "price": 39.99,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/53bea020163146416521050dac85694015e57411/original.jpeg",
-      "url": "https://square.link/u/fANMBPyX",
-      "category": "other",
-      "checkout": true,
-      "variation_id": "HX7TRGKQCW4SCTQWI2KUABCT",
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "medium",
-      "fitment": {
-        "part_numbers": [],
-        "interchange": [],
-        "vehicles": [],
-        "vehicle_labels": [],
-        "raw_compat_rows": 0,
-        "source": "ebay_listing",
-        "confidence": "medium",
-        "ebay_item_id": "398101634781",
-        "type": "Double Cassette Deck",
-        "brand": "Fisher",
-        "ebay_category": "Consumer Electronics:Vintage Electronics:Vintage Audio & Video:Vintage Cassette Decks"
-      },
-      "vehicle_count_raw": 0,
-      "ebay_item_id": "398101634781",
-      "ebay_type": "Double Cassette Deck",
-      "ebay_brand": "Fisher",
-      "ebay_category": "Consumer Electronics:Vintage Electronics:Vintage Audio & Video:Vintage Cassette Decks",
-      "images": [
-        "../assets/pdp-gallery/VKRCNYYQTCMWEG335F4RNOYX/02.webp",
-        "../assets/pdp-gallery/VKRCNYYQTCMWEG335F4RNOYX/03.webp",
-        "../assets/pdp-gallery/VKRCNYYQTCMWEG335F4RNOYX/04.webp",
-        "../assets/pdp-gallery/VKRCNYYQTCMWEG335F4RNOYX/05.webp",
-        "../assets/pdp-gallery/VKRCNYYQTCMWEG335F4RNOYX/06.webp"
-      ],
-      "stock": 1,
-      "part_numbers": [],
-      "interchange": [],
-      "vehicles": []
-    },
-    {
       "id": "VBOO2YTJJ7NMJM77LGGBWAGB",
       "name": "Ford 4.6L Electronic Throttle Body OEM 3L5E-AE F-150 Mustang 2004-2008",
       "price": 69.99,
@@ -81159,48 +80753,6 @@
       "interchange": []
     },
     {
-      "id": "HTCA7TKPNKPKUGO6CRGAOVPD",
-      "name": "Fox Nation Founders Coin 2018 - Gold Challenge Coin w/ Velvet Display Box",
-      "price": 12.99,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/cd6a39bfc0d1e0ed28be99fc91b3bc3a181d6fed/original.jpeg",
-      "url": "https://square.link/u/9tcsaxGe",
-      "category": "other",
-      "checkout": true,
-      "variation_id": "CXV5MKDDIGEYCFQEFD2NRVKX",
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "medium",
-      "fitment": {
-        "part_numbers": [],
-        "interchange": [],
-        "vehicles": [],
-        "vehicle_labels": [],
-        "raw_compat_rows": 0,
-        "source": "ebay_listing",
-        "confidence": "medium",
-        "ebay_item_id": "398081254580",
-        "type": "",
-        "brand": "",
-        "ebay_category": "Collectibles:Militaria:Current Militaria (2001-Now):Original Items:Challenge Coins"
-      },
-      "vehicle_count_raw": 0,
-      "ebay_item_id": "398081254580",
-      "ebay_category": "Collectibles:Militaria:Current Militaria (2001-Now):Original Items:Challenge Coins",
-      "images": [
-        "../assets/pdp-gallery/HTCA7TKPNKPKUGO6CRGAOVPD/02.webp",
-        "../assets/pdp-gallery/HTCA7TKPNKPKUGO6CRGAOVPD/03.webp",
-        "../assets/pdp-gallery/HTCA7TKPNKPKUGO6CRGAOVPD/04.webp",
-        "../assets/pdp-gallery/HTCA7TKPNKPKUGO6CRGAOVPD/05.webp",
-        "../assets/pdp-gallery/HTCA7TKPNKPKUGO6CRGAOVPD/06.webp",
-        "../assets/pdp-gallery/HTCA7TKPNKPKUGO6CRGAOVPD/07.webp"
-      ],
-      "stock": 1,
-      "part_numbers": [],
-      "interchange": [],
-      "vehicles": [],
-      "ebay_type": "",
-      "ebay_brand": ""
-    },
-    {
       "id": "JSUCF24K4IOGXUO37VWJ7JGM",
       "name": "FRAM FV100 PCV Valve 4.6 5.3 NOS 61-66 Impala",
       "price": 9.99,
@@ -81813,52 +81365,6 @@
         "../assets/pdp-gallery/HUHSLMYJAW6SOPA5C2GF23WS/04.webp",
         "../assets/pdp-gallery/HUHSLMYJAW6SOPA5C2GF23WS/05.webp",
         "../assets/pdp-gallery/HUHSLMYJAW6SOPA5C2GF23WS/06.webp"
-      ],
-      "stock": 1,
-      "interchange": [],
-      "vehicles": []
-    },
-    {
-      "id": "J4AK7OFXZBJFJMC3QCALNJRS",
-      "name": "Gas Solenoid Valve 25M16V Type 780 12VDC Dryer Appliance Part Vintage",
-      "price": 22.99,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/17c4380d4920b3295bacb6a2b96d8ca17851913a/original.jpeg",
-      "url": "https://square.link/u/D4dJKTMn",
-      "category": "other",
-      "checkout": true,
-      "variation_id": "4J6SBIR3CSMC5JCX2JJC2CJB",
-      "part_numbers": [
-        "25M16V"
-      ],
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "medium",
-      "fitment": {
-        "part_numbers": [
-          "25M16V"
-        ],
-        "interchange": [],
-        "vehicles": [],
-        "vehicle_labels": [],
-        "raw_compat_rows": 0,
-        "source": "ebay_listing",
-        "confidence": "medium",
-        "ebay_item_id": "398083982450",
-        "type": "Gas Valve",
-        "brand": "Unbranded",
-        "ebay_category": "Home & Garden:Major Appliances:Major Appliances Parts & Accessories:Washer & Dryer Parts"
-      },
-      "vehicle_count_raw": 0,
-      "ebay_item_id": "398083982450",
-      "ebay_type": "Gas Valve",
-      "ebay_brand": "Unbranded",
-      "ebay_category": "Home & Garden:Major Appliances:Major Appliances Parts & Accessories:Washer & Dryer Parts",
-      "images": [
-        "../assets/pdp-gallery/J4AK7OFXZBJFJMC3QCALNJRS/02.webp",
-        "../assets/pdp-gallery/J4AK7OFXZBJFJMC3QCALNJRS/03.webp",
-        "../assets/pdp-gallery/J4AK7OFXZBJFJMC3QCALNJRS/04.webp",
-        "../assets/pdp-gallery/J4AK7OFXZBJFJMC3QCALNJRS/05.webp",
-        "../assets/pdp-gallery/J4AK7OFXZBJFJMC3QCALNJRS/06.webp",
-        "../assets/pdp-gallery/J4AK7OFXZBJFJMC3QCALNJRS/07.webp"
       ],
       "stock": 1,
       "interchange": [],
@@ -95788,93 +95294,6 @@
       "interchange": []
     },
     {
-      "id": "LIJW6ZZIN42CG2YW34FH7V2S",
-      "name": "GE Dryer Blower Wheel WE16M15 WE16X30 Plastic Square Hub for GE Hotpoint Dryer",
-      "price": 34.95,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/f394f7e02875352054bbc1ce4db01d283fe172d4/original.jpeg",
-      "url": "https://square.link/u/Ik6RLuiJ",
-      "category": "other",
-      "checkout": true,
-      "variation_id": "ZIAIKGZU5WP7FEXIIUBPOMEH",
-      "part_numbers": [
-        "WE16X30, WE16X17, WE16X27, WE16M0015, WE16X0030"
-      ],
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "high",
-      "fitment": {
-        "part_numbers": [
-          "WE16X30, WE16X17, WE16X27, WE16M0015, WE16X0030"
-        ],
-        "interchange": [],
-        "vehicles": [],
-        "vehicle_labels": [],
-        "raw_compat_rows": 0,
-        "source": "ebay_listing",
-        "confidence": "high",
-        "ebay_item_id": "398107844835",
-        "type": "Dryer Blower Wheel / Cooling Fan",
-        "brand": "GE / Unbranded",
-        "ebay_category": "Home & Garden:Major Appliances:Major Appliances Parts & Accessories:Washer & Dryer Parts"
-      },
-      "vehicle_count_raw": 0,
-      "ebay_item_id": "398107844835",
-      "ebay_type": "Dryer Blower Wheel / Cooling Fan",
-      "ebay_brand": "GE / Unbranded",
-      "ebay_category": "Home & Garden:Major Appliances:Major Appliances Parts & Accessories:Washer & Dryer Parts",
-      "images": [
-        "../assets/pdp-gallery/LIJW6ZZIN42CG2YW34FH7V2S/02.webp"
-      ],
-      "stock": 1,
-      "interchange": [],
-      "vehicles": []
-    },
-    {
-      "id": "O7BIBDDBD4A3C6UPGTCV46KY",
-      "name": "GE Dryer Motor 5KH47AT43S Open Frame Dual Shaft Tested Working Vintage USA",
-      "price": 44.99,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/b98f99f035d7b73bde59b0c47a9406e18a395be9/original.jpeg",
-      "url": "https://square.link/u/08xCpqWF",
-      "category": "other",
-      "checkout": true,
-      "variation_id": "Q24MHRDM7ETZSQBXRYNRGT2Z",
-      "part_numbers": [
-        "WE17X10010, WE17X21877, 3ASM90E33"
-      ],
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "high",
-      "fitment": {
-        "part_numbers": [
-          "WE17X10010, WE17X21877, 3ASM90E33"
-        ],
-        "interchange": [],
-        "vehicles": [],
-        "vehicle_labels": [],
-        "raw_compat_rows": 0,
-        "source": "ebay_listing",
-        "confidence": "high",
-        "ebay_item_id": "398107841283",
-        "type": "Dryer Motor / Open-Frame AC Motor",
-        "brand": "GE (General Electric)",
-        "ebay_category": "Home & Garden:Major Appliances:Major Appliances Parts & Accessories:Washer & Dryer Parts"
-      },
-      "vehicle_count_raw": 0,
-      "ebay_item_id": "398107841283",
-      "ebay_type": "Dryer Motor / Open-Frame AC Motor",
-      "ebay_brand": "GE (General Electric)",
-      "ebay_category": "Home & Garden:Major Appliances:Major Appliances Parts & Accessories:Washer & Dryer Parts",
-      "images": [
-        "../assets/pdp-gallery/O7BIBDDBD4A3C6UPGTCV46KY/02.webp",
-        "../assets/pdp-gallery/O7BIBDDBD4A3C6UPGTCV46KY/03.webp",
-        "../assets/pdp-gallery/O7BIBDDBD4A3C6UPGTCV46KY/04.webp",
-        "../assets/pdp-gallery/O7BIBDDBD4A3C6UPGTCV46KY/05.webp",
-        "../assets/pdp-gallery/O7BIBDDBD4A3C6UPGTCV46KY/06.webp",
-        "../assets/pdp-gallery/O7BIBDDBD4A3C6UPGTCV46KY/07.webp"
-      ],
-      "stock": 1,
-      "interchange": [],
-      "vehicles": []
-    },
-    {
       "id": "LT2FV2K54ORAWWL6WNUKND4I",
       "name": "Glock Magic DVD GunVideo Lenny Magill Instructional Tested Working",
       "price": 14.99,
@@ -96900,66 +96319,6 @@
       "interchange": []
     },
     {
-      "id": "D4ADTAA2AU2OQAGUQ2CNE54H",
-      "name": "GM 6.0L LS Engine Oil Pump Pickup Tube Flange Bracket OEM 12599377 Truck SUV",
-      "price": 34.99,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/742a5f88159ea943ad7b54aa057ec05fc86e0e96/original.jpeg",
-      "url": "https://square.link/u/9wqzBOGd",
-      "category": "other",
-      "checkout": true,
-      "variation_id": "36A7R5VUOW6YV5YAYJWVWKCP",
-      "part_numbers": [
-        "12599377"
-      ],
-      "vehicles": [
-        "GM"
-      ],
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "medium",
-      "fitment": {
-        "part_numbers": [
-          "12599377"
-        ],
-        "interchange": [],
-        "vehicles": [
-          {
-            "year_from": null,
-            "year_to": null,
-            "make": "GM",
-            "model": "",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          }
-        ],
-        "vehicle_labels": [
-          "GM"
-        ],
-        "raw_compat_rows": 1,
-        "source": "ebay_listing",
-        "confidence": "medium",
-        "ebay_item_id": "398084829442",
-        "type": "GM 6.0L LS Engine Oil Pump Pickup",
-        "brand": "GM OEM",
-        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Pumps & Parts"
-      },
-      "vehicle_count_raw": 1,
-      "ebay_item_id": "398084829442",
-      "ebay_type": "GM 6.0L LS Engine Oil Pump Pickup",
-      "ebay_brand": "GM OEM",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Pumps & Parts",
-      "images": [
-        "../assets/pdp-gallery/D4ADTAA2AU2OQAGUQ2CNE54H/02.webp",
-        "../assets/pdp-gallery/D4ADTAA2AU2OQAGUQ2CNE54H/03.webp",
-        "../assets/pdp-gallery/D4ADTAA2AU2OQAGUQ2CNE54H/04.webp",
-        "../assets/pdp-gallery/D4ADTAA2AU2OQAGUQ2CNE54H/05.webp",
-        "../assets/pdp-gallery/D4ADTAA2AU2OQAGUQ2CNE54H/06.webp"
-      ],
-      "stock": 1,
-      "interchange": []
-    },
-    {
       "id": "2D35U3CCJGIUVG6DZUJPUPHD",
       "name": "GM 918367 Side Marker LH Amber 1.8 2.0 Sunbird J2000 NOS",
       "price": 34.99,
@@ -97049,90 +96408,6 @@
         "../assets/pdp-gallery/2D35U3CCJGIUVG6DZUJPUPHD/02.webp",
         "../assets/pdp-gallery/2D35U3CCJGIUVG6DZUJPUPHD/03.webp",
         "../assets/pdp-gallery/2D35U3CCJGIUVG6DZUJPUPHD/04.webp"
-      ],
-      "stock": 1,
-      "interchange": []
-    },
-    {
-      "id": "KTHLKNRGLAFQXH3DHFTTF33N",
-      "name": "GM Delco OEM Fuel Tank Pressure Sensor 12209219 1996-2002 Chevy GMC Truck SUV",
-      "price": 15.99,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/f8575b4b817da2b5afef6082614e8943cce29791/original.jpeg",
-      "url": "https://square.link/u/ep5fvnTf",
-      "category": "other",
-      "checkout": true,
-      "variation_id": "35GPFOU34FJQB5TE63RHC7VO",
-      "part_numbers": [
-        "12209219",
-        "13392"
-      ],
-      "vehicles": [
-        "1996\u20132002 Chevrolet",
-        "1996\u20132002 GM Delco",
-        "1996\u20132002 GMC"
-      ],
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "medium",
-      "fitment": {
-        "part_numbers": [
-          "12209219",
-          "13392"
-        ],
-        "interchange": [],
-        "vehicles": [
-          {
-            "year_from": 1996,
-            "year_to": 2002,
-            "make": "Chevrolet",
-            "model": "",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1996,
-            "year_to": 2002,
-            "make": "GM",
-            "model": "Delco",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1996,
-            "year_to": 2002,
-            "make": "GMC",
-            "model": "",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          }
-        ],
-        "vehicle_labels": [
-          "1996\u20132002 Chevrolet",
-          "1996\u20132002 GM Delco",
-          "1996\u20132002 GMC"
-        ],
-        "raw_compat_rows": 6,
-        "source": "ebay_listing",
-        "confidence": "medium",
-        "ebay_item_id": "398084846262",
-        "type": "GM Delco Fuel Tank Pressure Sensor",
-        "brand": "ACDelco",
-        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Intake & Fuel Sensors"
-      },
-      "vehicle_count_raw": 6,
-      "ebay_item_id": "398084846262",
-      "ebay_type": "GM Delco Fuel Tank Pressure Sensor",
-      "ebay_brand": "ACDelco",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Intake & Fuel Sensors",
-      "images": [
-        "../assets/pdp-gallery/KTHLKNRGLAFQXH3DHFTTF33N/02.webp",
-        "../assets/pdp-gallery/KTHLKNRGLAFQXH3DHFTTF33N/03.webp",
-        "../assets/pdp-gallery/KTHLKNRGLAFQXH3DHFTTF33N/04.webp"
       ],
       "stock": 1,
       "interchange": []
@@ -101766,47 +101041,6 @@
       "vehicles": []
     },
     {
-      "id": "RT35B2NYUOAGKHFXR7PF3ZBV",
-      "name": "Lot of 3 Whirlpool Washer Cycle Selector Switch W10285512 REV E",
-      "price": 24.99,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/ea74d8e01afc4e522ec86b93dcc92bd10ccb6d20/original.jpeg",
-      "url": "https://square.link/u/PfbClh8P",
-      "category": "other",
-      "checkout": true,
-      "variation_id": "TISHLWMS6RGILEQY6HP5X5N4",
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "medium",
-      "fitment": {
-        "part_numbers": [],
-        "interchange": [],
-        "vehicles": [],
-        "vehicle_labels": [],
-        "raw_compat_rows": 0,
-        "source": "ebay_listing",
-        "confidence": "medium",
-        "ebay_item_id": "398084292895",
-        "type": "Cycle Selector Switch",
-        "brand": "Whirlpool",
-        "ebay_category": "Home & Garden:Major Appliances:Major Appliances Parts & Accessories:Washer & Dryer Parts"
-      },
-      "vehicle_count_raw": 0,
-      "ebay_item_id": "398084292895",
-      "ebay_type": "Cycle Selector Switch",
-      "ebay_brand": "Whirlpool",
-      "ebay_category": "Home & Garden:Major Appliances:Major Appliances Parts & Accessories:Washer & Dryer Parts",
-      "images": [
-        "../assets/pdp-gallery/RT35B2NYUOAGKHFXR7PF3ZBV/02.webp",
-        "../assets/pdp-gallery/RT35B2NYUOAGKHFXR7PF3ZBV/03.webp",
-        "../assets/pdp-gallery/RT35B2NYUOAGKHFXR7PF3ZBV/04.webp",
-        "../assets/pdp-gallery/RT35B2NYUOAGKHFXR7PF3ZBV/05.webp",
-        "../assets/pdp-gallery/RT35B2NYUOAGKHFXR7PF3ZBV/06.webp"
-      ],
-      "stock": 1,
-      "part_numbers": [],
-      "interchange": [],
-      "vehicles": []
-    },
-    {
       "id": "25ZPNHMVBIABVNIG7VUQVIQ3",
       "name": "Lot of Auto Link & Littelfuse Automotive Fuses NOS Japanese Car Misc",
       "price": 29.99,
@@ -102424,208 +101658,6 @@
         "../assets/pdp-gallery/AN7GJ7UMZMRWNOR2GWRAJSVE/04.webp",
         "../assets/pdp-gallery/AN7GJ7UMZMRWNOR2GWRAJSVE/05.webp",
         "../assets/pdp-gallery/AN7GJ7UMZMRWNOR2GWRAJSVE/06.webp"
-      ],
-      "stock": 1,
-      "part_numbers": [],
-      "interchange": [],
-      "vehicles": []
-    },
-    {
-      "id": "B4RQ6HQFWRCA345ELKWA2GEO",
-      "name": "Microwave Turntable Glass Plate 10 1/2 in (10.5\") 3-Notch GE Whirlpool",
-      "price": 24.99,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/e06dd05fbc6f3cf3db173ae887a09af7500c4911/original.jpeg",
-      "url": "https://square.link/u/MIAFnoyS",
-      "category": "other",
-      "checkout": true,
-      "variation_id": "KNCZBV43N2ML3KEOSEDNTPU5",
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "medium",
-      "fitment": {
-        "part_numbers": [],
-        "interchange": [],
-        "vehicles": [],
-        "vehicle_labels": [],
-        "raw_compat_rows": 0,
-        "source": "ebay_listing",
-        "confidence": "medium",
-        "ebay_item_id": "398083677331",
-        "type": "Glass Turntable Plate",
-        "brand": "Unbranded",
-        "ebay_category": "Home & Garden:Kitchen, Dining & Bar:Small Kitchen Appliances:Microwave Parts"
-      },
-      "vehicle_count_raw": 0,
-      "ebay_item_id": "398083677331",
-      "ebay_type": "Glass Turntable Plate",
-      "ebay_brand": "Unbranded",
-      "ebay_category": "Home & Garden:Kitchen, Dining & Bar:Small Kitchen Appliances:Microwave Parts",
-      "images": [
-        "../assets/pdp-gallery/B4RQ6HQFWRCA345ELKWA2GEO/02.webp",
-        "../assets/pdp-gallery/B4RQ6HQFWRCA345ELKWA2GEO/03.webp",
-        "../assets/pdp-gallery/B4RQ6HQFWRCA345ELKWA2GEO/04.webp",
-        "../assets/pdp-gallery/B4RQ6HQFWRCA345ELKWA2GEO/05.webp"
-      ],
-      "stock": 1,
-      "part_numbers": [],
-      "interchange": [],
-      "vehicles": []
-    },
-    {
-      "id": "ZRJ6GD7OPD3XOZ45AAK7YRFC",
-      "name": "Microwave Turntable Glass Plate 11 1/4 in (11.25\") 3-Notch GE Samsung",
-      "price": 24.99,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/aec4765e54e909d55b9725c8f1fb55f709db2a33/original.jpeg",
-      "url": "https://square.link/u/iNquUuaB",
-      "category": "other",
-      "checkout": true,
-      "variation_id": "R6DCU554BXYOAHGH3MVJS35H",
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "medium",
-      "fitment": {
-        "part_numbers": [],
-        "interchange": [],
-        "vehicles": [],
-        "vehicle_labels": [],
-        "raw_compat_rows": 0,
-        "source": "ebay_listing",
-        "confidence": "medium",
-        "ebay_item_id": "398083677834",
-        "type": "Glass Turntable Plate",
-        "brand": "Unbranded",
-        "ebay_category": "Home & Garden:Kitchen, Dining & Bar:Small Kitchen Appliances:Microwave Parts"
-      },
-      "vehicle_count_raw": 0,
-      "ebay_item_id": "398083677834",
-      "ebay_type": "Glass Turntable Plate",
-      "ebay_brand": "Unbranded",
-      "ebay_category": "Home & Garden:Kitchen, Dining & Bar:Small Kitchen Appliances:Microwave Parts",
-      "images": [
-        "../assets/pdp-gallery/ZRJ6GD7OPD3XOZ45AAK7YRFC/02.webp",
-        "../assets/pdp-gallery/ZRJ6GD7OPD3XOZ45AAK7YRFC/03.webp",
-        "../assets/pdp-gallery/ZRJ6GD7OPD3XOZ45AAK7YRFC/04.webp",
-        "../assets/pdp-gallery/ZRJ6GD7OPD3XOZ45AAK7YRFC/05.webp"
-      ],
-      "stock": 1,
-      "part_numbers": [],
-      "interchange": [],
-      "vehicles": []
-    },
-    {
-      "id": "ST2WGS3FWP3OEBJNHEK6WN5P",
-      "name": "Microwave Turntable Glass Plate 13.5 13 1/2 in GE Samsung 3-Notch",
-      "price": 32.99,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/9c14efadb65ec26cf4f66cb0b526f95aad18f974/original.jpeg",
-      "url": "https://square.link/u/ThyvAXF4",
-      "category": "other",
-      "checkout": true,
-      "variation_id": "ODROSFZ7HVDYNTJAOSDCD5ZC",
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "medium",
-      "fitment": {
-        "part_numbers": [],
-        "interchange": [],
-        "vehicles": [],
-        "vehicle_labels": [],
-        "raw_compat_rows": 0,
-        "source": "ebay_listing",
-        "confidence": "medium",
-        "ebay_item_id": "398073070058",
-        "type": "Glass Turntable Plate",
-        "brand": "Unbranded",
-        "ebay_category": "Home & Garden:Kitchen, Dining & Bar:Small Kitchen Appliances:Microwave Parts"
-      },
-      "vehicle_count_raw": 0,
-      "ebay_item_id": "398073070058",
-      "ebay_type": "Glass Turntable Plate",
-      "ebay_brand": "Unbranded",
-      "ebay_category": "Home & Garden:Kitchen, Dining & Bar:Small Kitchen Appliances:Microwave Parts",
-      "images": [
-        "../assets/pdp-gallery/ST2WGS3FWP3OEBJNHEK6WN5P/02.webp",
-        "../assets/pdp-gallery/ST2WGS3FWP3OEBJNHEK6WN5P/03.webp",
-        "../assets/pdp-gallery/ST2WGS3FWP3OEBJNHEK6WN5P/04.webp",
-        "../assets/pdp-gallery/ST2WGS3FWP3OEBJNHEK6WN5P/05.webp",
-        "../assets/pdp-gallery/ST2WGS3FWP3OEBJNHEK6WN5P/06.webp",
-        "../assets/pdp-gallery/ST2WGS3FWP3OEBJNHEK6WN5P/07.webp"
-      ],
-      "stock": 1,
-      "part_numbers": [],
-      "interchange": [],
-      "vehicles": []
-    },
-    {
-      "id": "DKFXZR6MY2NQMUTB5DLH4DSA",
-      "name": "Microwave Turntable Glass Plate 9 1/2 in (9.5\") 3-Notch Hub GE Samsung LG",
-      "price": 19.99,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/78bce40c04d78d4df7c4037cadc309fc7414b05c/original.jpeg",
-      "url": "https://square.link/u/MsmyceU1",
-      "category": "other",
-      "checkout": true,
-      "variation_id": "JFSOBZSVRXIIE5XS2IAZS7PZ",
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "medium",
-      "fitment": {
-        "part_numbers": [],
-        "interchange": [],
-        "vehicles": [],
-        "vehicle_labels": [],
-        "raw_compat_rows": 0,
-        "source": "ebay_listing",
-        "confidence": "medium",
-        "ebay_item_id": "398083677109",
-        "type": "Glass Turntable Plate",
-        "brand": "Unbranded",
-        "ebay_category": "Home & Garden:Kitchen, Dining & Bar:Small Kitchen Appliances:Microwave Parts"
-      },
-      "vehicle_count_raw": 0,
-      "ebay_item_id": "398083677109",
-      "ebay_type": "Glass Turntable Plate",
-      "ebay_brand": "Unbranded",
-      "ebay_category": "Home & Garden:Kitchen, Dining & Bar:Small Kitchen Appliances:Microwave Parts",
-      "images": [
-        "../assets/pdp-gallery/DKFXZR6MY2NQMUTB5DLH4DSA/02.webp",
-        "../assets/pdp-gallery/DKFXZR6MY2NQMUTB5DLH4DSA/03.webp",
-        "../assets/pdp-gallery/DKFXZR6MY2NQMUTB5DLH4DSA/04.webp",
-        "../assets/pdp-gallery/DKFXZR6MY2NQMUTB5DLH4DSA/05.webp"
-      ],
-      "stock": 1,
-      "part_numbers": [],
-      "interchange": [],
-      "vehicles": []
-    },
-    {
-      "id": "6TO36GSQDA7IDCNI5VDDEJIM",
-      "name": "Microwave Turntable Glass Plate 9 1/2 in (9.5\") Flat Hub + Roller Ring",
-      "price": 19.99,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/1aa6f4d3cb1e9e4f6e2c474b4b28af38e0db39af/original.jpeg",
-      "url": "https://square.link/u/6eUq5nja",
-      "category": "other",
-      "checkout": true,
-      "variation_id": "SXRDNBPTC5QMO6IYD7ITYG6R",
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "medium",
-      "fitment": {
-        "part_numbers": [],
-        "interchange": [],
-        "vehicles": [],
-        "vehicle_labels": [],
-        "raw_compat_rows": 0,
-        "source": "ebay_listing",
-        "confidence": "medium",
-        "ebay_item_id": "398083679131",
-        "type": "Glass Turntable Plate",
-        "brand": "Unbranded",
-        "ebay_category": "Home & Garden:Kitchen, Dining & Bar:Small Kitchen Appliances:Microwave Parts"
-      },
-      "vehicle_count_raw": 0,
-      "ebay_item_id": "398083679131",
-      "ebay_type": "Glass Turntable Plate",
-      "ebay_brand": "Unbranded",
-      "ebay_category": "Home & Garden:Kitchen, Dining & Bar:Small Kitchen Appliances:Microwave Parts",
-      "images": [
-        "../assets/pdp-gallery/6TO36GSQDA7IDCNI5VDDEJIM/02.webp",
-        "../assets/pdp-gallery/6TO36GSQDA7IDCNI5VDDEJIM/03.webp",
-        "../assets/pdp-gallery/6TO36GSQDA7IDCNI5VDDEJIM/04.webp",
-        "../assets/pdp-gallery/6TO36GSQDA7IDCNI5VDDEJIM/05.webp"
       ],
       "stock": 1,
       "part_numbers": [],
@@ -108171,48 +107203,6 @@
       "interchange": []
     },
     {
-      "id": "BBHH3BA7ZAYOOY32VFTRTJIP",
-      "name": "OEM GE 123C7003G006 Washer Cycle Selector Switch 5-Button Push Panel Hotpoint",
-      "price": 34.99,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/8e54ef55645b2129d9764ebc2dde1c653ea692d7/original.jpeg",
-      "url": "https://square.link/u/0o0Zeat8",
-      "category": "other",
-      "checkout": true,
-      "variation_id": "WHKITPPJFIPCHWYKAR373DLE",
-      "part_numbers": [
-        "ASP5117-162"
-      ],
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "high",
-      "fitment": {
-        "part_numbers": [
-          "ASP5117-162"
-        ],
-        "interchange": [],
-        "vehicles": [],
-        "vehicle_labels": [],
-        "raw_compat_rows": 0,
-        "source": "ebay_listing",
-        "confidence": "high",
-        "ebay_item_id": "398108578098",
-        "type": "Cycle Selector Switch",
-        "brand": "GE (General Electric)",
-        "ebay_category": "Home & Garden:Major Appliances:Major Appliances Parts & Accessories:Washer & Dryer Parts"
-      },
-      "vehicle_count_raw": 0,
-      "ebay_item_id": "398108578098",
-      "ebay_type": "Cycle Selector Switch",
-      "ebay_brand": "GE (General Electric)",
-      "ebay_category": "Home & Garden:Major Appliances:Major Appliances Parts & Accessories:Washer & Dryer Parts",
-      "images": [
-        "../assets/pdp-gallery/BBHH3BA7ZAYOOY32VFTRTJIP/02.webp",
-        "../assets/pdp-gallery/BBHH3BA7ZAYOOY32VFTRTJIP/03.webp"
-      ],
-      "stock": 1,
-      "interchange": [],
-      "vehicles": []
-    },
-    {
       "id": "62Y6XUVP2RHYQ5L4RPXRIWFX",
       "name": "OEM GM 4L60E Transmission Oil Pan Aluminum 13.5\" x 10.5\" 4L65E Silverado",
       "price": 34.99,
@@ -108868,63 +107858,6 @@
       "stock": 1
     },
     {
-      "id": "WCIQQHM2GHDI6K5GADJQT5XS",
-      "name": "Pair OEM GM 1-Ton RV Chassis Idler Arm Brackets Left Right P30 G30 Motorhome",
-      "price": 129.99,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/bf337c58ed73ddae6fdd76713d6959d722362509/original.jpeg",
-      "url": "https://square.link/u/XUnW3DvI",
-      "category": "other",
-      "checkout": true,
-      "variation_id": "ZSUS4PSX7ZTLKJDPZDMHVWT4",
-      "vehicles": [
-        "GM 1-Ton"
-      ],
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "medium",
-      "fitment": {
-        "part_numbers": [],
-        "interchange": [],
-        "vehicles": [
-          {
-            "year_from": null,
-            "year_to": null,
-            "make": "GM",
-            "model": "1-Ton",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          }
-        ],
-        "vehicle_labels": [
-          "GM 1-Ton"
-        ],
-        "raw_compat_rows": 1,
-        "source": "ebay_listing",
-        "confidence": "medium",
-        "ebay_item_id": "398084289024",
-        "type": "Pair 1-Ton RV Chassis Idler Arm",
-        "brand": "GM",
-        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Exterior Parts & Accessories:Bumpers & Components:Bumpers & Reinforcements"
-      },
-      "vehicle_count_raw": 1,
-      "ebay_item_id": "398084289024",
-      "ebay_type": "Pair 1-Ton RV Chassis Idler Arm",
-      "ebay_brand": "GM",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Exterior Parts & Accessories:Bumpers & Components:Bumpers & Reinforcements",
-      "images": [
-        "../assets/pdp-gallery/WCIQQHM2GHDI6K5GADJQT5XS/02.webp",
-        "../assets/pdp-gallery/WCIQQHM2GHDI6K5GADJQT5XS/03.webp",
-        "../assets/pdp-gallery/WCIQQHM2GHDI6K5GADJQT5XS/04.webp",
-        "../assets/pdp-gallery/WCIQQHM2GHDI6K5GADJQT5XS/05.webp",
-        "../assets/pdp-gallery/WCIQQHM2GHDI6K5GADJQT5XS/06.webp",
-        "../assets/pdp-gallery/WCIQQHM2GHDI6K5GADJQT5XS/07.webp"
-      ],
-      "stock": 2,
-      "part_numbers": [],
-      "interchange": []
-    },
-    {
       "id": "JAWA2W4463RI2SLJT2N4Y4FY",
       "name": "Papi My Story David Ortiz with Michael Holley Hardcover Red Sox Used",
       "price": 9.99,
@@ -109147,47 +108080,6 @@
         "../assets/pdp-gallery/5CEURPF2XQNQBLFSK2IJ2BVQ/04.webp"
       ],
       "stock": 1,
-      "interchange": [],
-      "vehicles": []
-    },
-    {
-      "id": "FB7CHXEJVOF2C2H7ZYWWV4HJ",
-      "name": "Patriotic Eagle Folding Pocket Knife United We Stand Brass USA Flag",
-      "price": 15.99,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/bbbb3c9c5f503c265e9963d5a83d8c0da19ed8d6/original.jpeg",
-      "url": "https://square.link/u/uMWTw6mm",
-      "category": "other",
-      "checkout": true,
-      "variation_id": "SQJIKCDY3ECOU5FYVV6IJNNV",
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "medium",
-      "fitment": {
-        "part_numbers": [],
-        "interchange": [],
-        "vehicles": [],
-        "vehicle_labels": [],
-        "raw_compat_rows": 0,
-        "source": "ebay_listing",
-        "confidence": "medium",
-        "ebay_item_id": "398084831102",
-        "type": "Folding Pocket Knife",
-        "brand": "Unbranded",
-        "ebay_category": "Collectibles:Knives, Swords & Blades:Collectible Folding Knives:Modern Folding Knives:Factory Manufactured"
-      },
-      "vehicle_count_raw": 0,
-      "ebay_item_id": "398084831102",
-      "ebay_type": "Folding Pocket Knife",
-      "ebay_brand": "Unbranded",
-      "ebay_category": "Collectibles:Knives, Swords & Blades:Collectible Folding Knives:Modern Folding Knives:Factory Manufactured",
-      "images": [
-        "../assets/pdp-gallery/FB7CHXEJVOF2C2H7ZYWWV4HJ/02.webp",
-        "../assets/pdp-gallery/FB7CHXEJVOF2C2H7ZYWWV4HJ/03.webp",
-        "../assets/pdp-gallery/FB7CHXEJVOF2C2H7ZYWWV4HJ/04.webp",
-        "../assets/pdp-gallery/FB7CHXEJVOF2C2H7ZYWWV4HJ/05.webp",
-        "../assets/pdp-gallery/FB7CHXEJVOF2C2H7ZYWWV4HJ/06.webp"
-      ],
-      "stock": 1,
-      "part_numbers": [],
       "interchange": [],
       "vehicles": []
     },
@@ -110274,50 +109166,6 @@
       "stock": 1
     },
     {
-      "id": "A7FGQMR2S5N6KCQ3PFCVWVLK",
-      "name": "Qili Power 24V 1.5A Battery Charger Razor E100 E200 E300 E500 Tested",
-      "price": 14.99,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/9e131b36ed830f738fa696e8747348646b7351fe/original.jpeg",
-      "url": "https://square.link/u/kHScKQUq",
-      "category": "other",
-      "checkout": true,
-      "variation_id": "X7O7JT33F4266X4SYBZCUK72",
-      "part_numbers": [
-        "QL-09005-B2401500H",
-        "E239831"
-      ],
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "high",
-      "fitment": {
-        "part_numbers": [
-          "QL-09005-B2401500H",
-          "E239831"
-        ],
-        "interchange": [],
-        "vehicles": [],
-        "vehicle_labels": [],
-        "raw_compat_rows": 0,
-        "source": "ebay_listing",
-        "confidence": "high",
-        "ebay_item_id": "398101202231",
-        "type": "Class 2 Battery Charger",
-        "brand": "",
-        "ebay_category": "Sporting Goods:Outdoor Sports:Scooters:Parts & Accessories"
-      },
-      "vehicle_count_raw": 0,
-      "ebay_item_id": "398101202231",
-      "ebay_type": "Class 2 Battery Charger",
-      "ebay_category": "Sporting Goods:Outdoor Sports:Scooters:Parts & Accessories",
-      "images": [
-        "../assets/pdp-gallery/A7FGQMR2S5N6KCQ3PFCVWVLK/02.webp",
-        "../assets/pdp-gallery/A7FGQMR2S5N6KCQ3PFCVWVLK/03.webp"
-      ],
-      "stock": 1,
-      "interchange": [],
-      "vehicles": [],
-      "ebay_brand": ""
-    },
-    {
       "id": "EMTGAPYHGN52FAVD2P533VRL",
       "name": "Red Sox Fan Handbook Leigh Grossman 2002 Everything to Be a Red Sox Fan Used",
       "price": 11.99,
@@ -110392,63 +109240,6 @@
       "interchange": [],
       "vehicles": [],
       "ebay_type": ""
-    },
-    {
-      "id": "TQQNTH77SNSVMNCTO3IZMFOR",
-      "name": "Samsung 512MB DDR PC3200 CL3 184-Pin DIMM RAM Matched Pair 2x M368L6423FTN",
-      "price": 24.99,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/d98dda9e6e7ced987e1849cc493b6a7a7f790176/original.jpeg",
-      "url": "https://square.link/u/WSzTrP0f",
-      "category": "other",
-      "checkout": true,
-      "variation_id": "JQCVWFXHJWOVM3ISLHMXTI2U",
-      "part_numbers": [
-        "PC3200"
-      ],
-      "vehicles": [
-        "Ram Matched"
-      ],
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "medium",
-      "fitment": {
-        "part_numbers": [
-          "PC3200"
-        ],
-        "interchange": [],
-        "vehicles": [
-          {
-            "year_from": null,
-            "year_to": null,
-            "make": "Ram",
-            "model": "Matched",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          }
-        ],
-        "vehicle_labels": [
-          "Ram Matched"
-        ],
-        "raw_compat_rows": 1,
-        "source": "ebay_listing",
-        "confidence": "medium",
-        "ebay_item_id": "398096110179",
-        "type": "DDR SDRAM",
-        "brand": "Samsung",
-        "ebay_category": "Computers/Tablets & Networking:Computer Components & Parts:Memory (RAM)"
-      },
-      "vehicle_count_raw": 1,
-      "ebay_item_id": "398096110179",
-      "ebay_type": "DDR SDRAM",
-      "ebay_brand": "Samsung",
-      "ebay_category": "Computers/Tablets & Networking:Computer Components & Parts:Memory (RAM)",
-      "images": [
-        "../assets/pdp-gallery/TQQNTH77SNSVMNCTO3IZMFOR/02.webp",
-        "../assets/pdp-gallery/TQQNTH77SNSVMNCTO3IZMFOR/03.webp"
-      ],
-      "stock": 1,
-      "interchange": []
     },
     {
       "id": "UEGM432W64PSHSDLT7YRAXSR",
@@ -123868,131 +122659,6 @@
       "stock": 1
     },
     {
-      "id": "YIDJ25TRSSDESIQDMLDQXHTT",
-      "name": "Vintage 13\" Stillson Pattern Pipe Wrench Solid Steel Plumbing Tool",
-      "price": 14.99,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/00460dd6a676e7ca6a1c77e9e1e35c87d3074240/original.jpeg",
-      "url": "https://square.link/u/GW7myHtx",
-      "category": "other",
-      "checkout": true,
-      "variation_id": "VFCV54XMGKXD2SNX3VJGIVPV",
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "medium",
-      "fitment": {
-        "part_numbers": [],
-        "interchange": [],
-        "vehicles": [],
-        "vehicle_labels": [],
-        "raw_compat_rows": 0,
-        "source": "ebay_listing",
-        "confidence": "medium",
-        "ebay_item_id": "398083976261",
-        "type": "Pipe Wrench",
-        "brand": "Unbranded",
-        "ebay_category": "Collectibles:Tools, Hardware & Locks:Tools:Plumbing, Steam Fitting"
-      },
-      "vehicle_count_raw": 0,
-      "ebay_item_id": "398083976261",
-      "ebay_type": "Pipe Wrench",
-      "ebay_brand": "Unbranded",
-      "ebay_category": "Collectibles:Tools, Hardware & Locks:Tools:Plumbing, Steam Fitting",
-      "images": [
-        "../assets/pdp-gallery/YIDJ25TRSSDESIQDMLDQXHTT/02.webp",
-        "../assets/pdp-gallery/YIDJ25TRSSDESIQDMLDQXHTT/03.webp",
-        "../assets/pdp-gallery/YIDJ25TRSSDESIQDMLDQXHTT/04.webp",
-        "../assets/pdp-gallery/YIDJ25TRSSDESIQDMLDQXHTT/05.webp",
-        "../assets/pdp-gallery/YIDJ25TRSSDESIQDMLDQXHTT/06.webp"
-      ],
-      "stock": 1,
-      "part_numbers": [],
-      "interchange": [],
-      "vehicles": []
-    },
-    {
-      "id": "77J72B6LFMVB7DU65MRZSPN5",
-      "name": "Vintage 1944 Westinghouse PY-5 Portable Ammeter 0-300A WWII Industrial",
-      "price": 84.99,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/f006589c9662355dbaa5b754cac81df331940c1b/original.jpeg",
-      "url": "https://square.link/u/s5LmFaIw",
-      "category": "other",
-      "checkout": true,
-      "variation_id": "FASYK7YALUQ3W3235BJZZXVG",
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "medium",
-      "fitment": {
-        "part_numbers": [],
-        "interchange": [],
-        "vehicles": [],
-        "vehicle_labels": [],
-        "raw_compat_rows": 0,
-        "source": "ebay_listing",
-        "confidence": "medium",
-        "ebay_item_id": "398083977709",
-        "type": "Ammeter",
-        "brand": "Westinghouse",
-        "ebay_category": "Collectibles:Science & Medicine (1930-Now):Scientific Instruments:Other Vintage Science Equip"
-      },
-      "vehicle_count_raw": 0,
-      "ebay_item_id": "398083977709",
-      "ebay_type": "Ammeter",
-      "ebay_brand": "Westinghouse",
-      "ebay_category": "Collectibles:Science & Medicine (1930-Now):Scientific Instruments:Other Vintage Science Equip",
-      "images": [
-        "../assets/pdp-gallery/77J72B6LFMVB7DU65MRZSPN5/02.webp",
-        "../assets/pdp-gallery/77J72B6LFMVB7DU65MRZSPN5/03.webp",
-        "../assets/pdp-gallery/77J72B6LFMVB7DU65MRZSPN5/04.webp",
-        "../assets/pdp-gallery/77J72B6LFMVB7DU65MRZSPN5/05.webp",
-        "../assets/pdp-gallery/77J72B6LFMVB7DU65MRZSPN5/06.webp",
-        "../assets/pdp-gallery/77J72B6LFMVB7DU65MRZSPN5/07.webp"
-      ],
-      "stock": 1,
-      "part_numbers": [],
-      "interchange": [],
-      "vehicles": []
-    },
-    {
-      "id": "76ZJG6NNDY73XL2QXHGWC56L",
-      "name": "Vintage 24 Inch Heavy Duty Manual Tile Cutter Ceramic Floor Wall Contractor",
-      "price": 59.99,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/6a314887498f81404122cc3d0ad9c5ca4ef985af/original.jpeg",
-      "url": "https://square.link/u/DKlpfdbX",
-      "category": "other",
-      "checkout": true,
-      "variation_id": "URLJ6SKZ5XFTF25ZIZYZKKOB",
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "medium",
-      "fitment": {
-        "part_numbers": [],
-        "interchange": [],
-        "vehicles": [],
-        "vehicle_labels": [],
-        "raw_compat_rows": 0,
-        "source": "ebay_listing",
-        "confidence": "medium",
-        "ebay_item_id": "398084830604",
-        "type": "Manual Tile Cutter",
-        "brand": "Unbranded",
-        "ebay_category": "Home & Garden:Tools & Workshop Equipment:Hand Tools:Cutting Tools"
-      },
-      "vehicle_count_raw": 0,
-      "ebay_item_id": "398084830604",
-      "ebay_type": "Manual Tile Cutter",
-      "ebay_brand": "Unbranded",
-      "ebay_category": "Home & Garden:Tools & Workshop Equipment:Hand Tools:Cutting Tools",
-      "images": [
-        "../assets/pdp-gallery/76ZJG6NNDY73XL2QXHGWC56L/02.webp",
-        "../assets/pdp-gallery/76ZJG6NNDY73XL2QXHGWC56L/03.webp",
-        "../assets/pdp-gallery/76ZJG6NNDY73XL2QXHGWC56L/04.webp",
-        "../assets/pdp-gallery/76ZJG6NNDY73XL2QXHGWC56L/05.webp",
-        "../assets/pdp-gallery/76ZJG6NNDY73XL2QXHGWC56L/06.webp",
-        "../assets/pdp-gallery/76ZJG6NNDY73XL2QXHGWC56L/07.webp"
-      ],
-      "stock": 1,
-      "part_numbers": [],
-      "interchange": [],
-      "vehicles": []
-    },
-    {
       "id": "W4MUULZLATJKYPEY6SEKNP25",
       "name": "Vintage 3-9x Variable Rifle Scope Model 102 Red Ring Simmons-Style",
       "price": 24.99,
@@ -124114,46 +122780,6 @@
       "vehicles": []
     },
     {
-      "id": "DJXPSSQS3XFOZSHHJ4NORNKF",
-      "name": "Vintage Carpenter Chrome Spotlight Searchlight Hot Rod Rat Rod Classic Truck",
-      "price": 34.99,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/53fec06fe74b523f527dfe867c5e307739e03fa8/original.jpeg",
-      "url": "https://square.link/u/gOYX7aIM",
-      "category": "other",
-      "checkout": true,
-      "variation_id": "DMNAXZ6663CZGLCAN266KJ7Z",
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "medium",
-      "fitment": {
-        "part_numbers": [],
-        "interchange": [],
-        "vehicles": [],
-        "vehicle_labels": [],
-        "raw_compat_rows": 0,
-        "source": "ebay_listing",
-        "confidence": "medium",
-        "ebay_item_id": "398102947602",
-        "type": "Spotlight / Searchlight",
-        "brand": "Carpenter",
-        "ebay_category": "Collectibles:Transportation:Automobilia:Other Automobilia"
-      },
-      "vehicle_count_raw": 0,
-      "ebay_item_id": "398102947602",
-      "ebay_type": "Spotlight / Searchlight",
-      "ebay_brand": "Carpenter",
-      "ebay_category": "Collectibles:Transportation:Automobilia:Other Automobilia",
-      "images": [
-        "../assets/pdp-gallery/DJXPSSQS3XFOZSHHJ4NORNKF/02.webp",
-        "../assets/pdp-gallery/DJXPSSQS3XFOZSHHJ4NORNKF/03.webp",
-        "../assets/pdp-gallery/DJXPSSQS3XFOZSHHJ4NORNKF/04.webp",
-        "../assets/pdp-gallery/DJXPSSQS3XFOZSHHJ4NORNKF/05.webp"
-      ],
-      "stock": 1,
-      "part_numbers": [],
-      "interchange": [],
-      "vehicles": []
-    },
-    {
       "id": "2S7JO2H7PUIUBUCRV5HLWSZ6",
       "name": "Vintage Chrome Ribbed Gas Cap Non-Locking 4 Inch Classic Car Truck Hot Rod",
       "price": 15.99,
@@ -124250,48 +122876,6 @@
       "stock": 1,
       "part_numbers": [],
       "interchange": []
-    },
-    {
-      "id": "GQ4BXKCZB6AIQMCPFOQ2ZU6C",
-      "name": "Vintage Darra-James Toolkraft 350 Drill Press Motor Mount Pivot Plate",
-      "price": 24.99,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/9f28fb56ccb8eb930c154bd378a0f6d92d6a9d92/original.jpeg",
-      "url": "https://square.link/u/AdKNtIon",
-      "category": "other",
-      "checkout": true,
-      "variation_id": "BH3EZJATDGXBESCBVHCJTED6",
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "medium",
-      "fitment": {
-        "part_numbers": [],
-        "interchange": [],
-        "vehicles": [],
-        "vehicle_labels": [],
-        "raw_compat_rows": 0,
-        "source": "ebay_listing",
-        "confidence": "medium",
-        "ebay_item_id": "398083984844",
-        "type": "Motor Mount / Pivot Plate",
-        "brand": "Toolkraft",
-        "ebay_category": "Home & Garden:Tools & Workshop Equipment:Power Tool & Air Tool Replacement Parts"
-      },
-      "vehicle_count_raw": 0,
-      "ebay_item_id": "398083984844",
-      "ebay_type": "Motor Mount / Pivot Plate",
-      "ebay_brand": "Toolkraft",
-      "ebay_category": "Home & Garden:Tools & Workshop Equipment:Power Tool & Air Tool Replacement Parts",
-      "images": [
-        "../assets/pdp-gallery/GQ4BXKCZB6AIQMCPFOQ2ZU6C/02.webp",
-        "../assets/pdp-gallery/GQ4BXKCZB6AIQMCPFOQ2ZU6C/03.webp",
-        "../assets/pdp-gallery/GQ4BXKCZB6AIQMCPFOQ2ZU6C/04.webp",
-        "../assets/pdp-gallery/GQ4BXKCZB6AIQMCPFOQ2ZU6C/05.webp",
-        "../assets/pdp-gallery/GQ4BXKCZB6AIQMCPFOQ2ZU6C/06.webp",
-        "../assets/pdp-gallery/GQ4BXKCZB6AIQMCPFOQ2ZU6C/07.webp"
-      ],
-      "stock": 1,
-      "part_numbers": [],
-      "interchange": [],
-      "vehicles": []
     },
     {
       "id": "YW7Q6GGGF5MXI7DX5NJ44PKV",
@@ -124406,47 +122990,6 @@
       "ebay_type": ""
     },
     {
-      "id": "ZUQJ6Q4MMJCRFIAZVDRLZ6CC",
-      "name": "Vintage GE General Electric Power Spray Steam Iron For Parts or Repair",
-      "price": 18.99,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/466ed6aac7fe7535eb2d83edb0abb55c6f824aea/original.jpeg",
-      "url": "https://square.link/u/nYOWUlt2",
-      "category": "other",
-      "checkout": true,
-      "variation_id": "RXB4TTD6RDEHWYFKL7JYLPL5",
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "medium",
-      "fitment": {
-        "part_numbers": [],
-        "interchange": [],
-        "vehicles": [],
-        "vehicle_labels": [],
-        "raw_compat_rows": 0,
-        "source": "ebay_listing",
-        "confidence": "medium",
-        "ebay_item_id": "398083982185",
-        "type": "Steam Iron",
-        "brand": "GE",
-        "ebay_category": "Collectibles:Kitchen & Home:Small Appliances:Flat Irons"
-      },
-      "vehicle_count_raw": 0,
-      "ebay_item_id": "398083982185",
-      "ebay_type": "Steam Iron",
-      "ebay_brand": "GE",
-      "ebay_category": "Collectibles:Kitchen & Home:Small Appliances:Flat Irons",
-      "images": [
-        "../assets/pdp-gallery/ZUQJ6Q4MMJCRFIAZVDRLZ6CC/02.webp",
-        "../assets/pdp-gallery/ZUQJ6Q4MMJCRFIAZVDRLZ6CC/03.webp",
-        "../assets/pdp-gallery/ZUQJ6Q4MMJCRFIAZVDRLZ6CC/04.webp",
-        "../assets/pdp-gallery/ZUQJ6Q4MMJCRFIAZVDRLZ6CC/05.webp",
-        "../assets/pdp-gallery/ZUQJ6Q4MMJCRFIAZVDRLZ6CC/06.webp"
-      ],
-      "stock": 1,
-      "part_numbers": [],
-      "interchange": [],
-      "vehicles": []
-    },
-    {
       "id": "3Z6E3FAAX77FGJX25IUYVTOH",
       "name": "Vintage Husky CS85 1/2\" Drive Speeder Handle Crank Speed Brace USA",
       "price": 21.99,
@@ -124528,47 +123071,6 @@
       "vehicles": []
     },
     {
-      "id": "BJDWEYTGPX3Y5NTEIMG446DU",
-      "name": "Vintage Parallel / Serial Printer Cable - D-Sub Connector",
-      "price": 15.0,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/f73ba99cb2d0cda03a186935030c1a72a9e2f2c1/original.jpeg",
-      "url": "https://square.link/u/flHDqdg9",
-      "category": "other",
-      "checkout": true,
-      "variation_id": "77ZQITYFCNXDC2NJGQOFMC64",
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "medium",
-      "fitment": {
-        "part_numbers": [],
-        "interchange": [],
-        "vehicles": [],
-        "vehicle_labels": [],
-        "raw_compat_rows": 0,
-        "source": "ebay_listing",
-        "confidence": "medium",
-        "ebay_item_id": "398035191596",
-        "type": "Parallel or Serial Printer Cable (D-Sub)",
-        "brand": "Unbranded",
-        "ebay_category": "Computers/Tablets & Networking:Computer Cables & Connectors:Parallel, Serial & PS/2"
-      },
-      "vehicle_count_raw": 0,
-      "ebay_item_id": "398035191596",
-      "ebay_type": "Parallel or Serial Printer Cable (D-Sub)",
-      "ebay_brand": "Unbranded",
-      "ebay_category": "Computers/Tablets & Networking:Computer Cables & Connectors:Parallel, Serial & PS/2",
-      "images": [
-        "../assets/pdp-gallery/BJDWEYTGPX3Y5NTEIMG446DU/02.webp",
-        "../assets/pdp-gallery/BJDWEYTGPX3Y5NTEIMG446DU/03.webp",
-        "../assets/pdp-gallery/BJDWEYTGPX3Y5NTEIMG446DU/04.webp",
-        "../assets/pdp-gallery/BJDWEYTGPX3Y5NTEIMG446DU/05.webp",
-        "../assets/pdp-gallery/BJDWEYTGPX3Y5NTEIMG446DU/06.webp"
-      ],
-      "stock": 1,
-      "part_numbers": [],
-      "interchange": [],
-      "vehicles": []
-    },
-    {
       "id": "EPIMS4DGFXKWKY3O2D5ZDTEU",
       "name": "Vintage Rhythm Quartz Cinderella Castle Carriage Mantel Clock Glass Dome Display",
       "price": 54.99,
@@ -124638,48 +123140,6 @@
       "images": [
         "../assets/pdp-gallery/Y4ITU5J3U75TX6CXFWDHUL43/02.webp",
         "../assets/pdp-gallery/Y4ITU5J3U75TX6CXFWDHUL43/03.webp"
-      ],
-      "stock": 1,
-      "part_numbers": [],
-      "interchange": [],
-      "vehicles": []
-    },
-    {
-      "id": "TTX7GLOKQWCODUZ3JANYN7K2",
-      "name": "Vintage Unisonic 739SQ Pocket Calculator Japan w/ Leather Case \u2014 For Parts",
-      "price": 14.99,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/195a23e3a3cdaaedf3b9380b545a7367b34913fc/original.jpeg",
-      "url": "https://square.link/u/F28ttSz3",
-      "category": "other",
-      "checkout": true,
-      "variation_id": "VRHAAPFK74HBSUC4RELLM5BG",
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "medium",
-      "fitment": {
-        "part_numbers": [],
-        "interchange": [],
-        "vehicles": [],
-        "vehicle_labels": [],
-        "raw_compat_rows": 0,
-        "source": "ebay_listing",
-        "confidence": "medium",
-        "ebay_item_id": "398084288933",
-        "type": "Pocket Calculator",
-        "brand": "Unisonic",
-        "ebay_category": "Business & Industrial:Test, Measurement & Inspection:Test Meters & Detectors:Multimeters"
-      },
-      "vehicle_count_raw": 0,
-      "ebay_item_id": "398084288933",
-      "ebay_type": "Pocket Calculator",
-      "ebay_brand": "Unisonic",
-      "ebay_category": "Business & Industrial:Test, Measurement & Inspection:Test Meters & Detectors:Multimeters",
-      "images": [
-        "../assets/pdp-gallery/TTX7GLOKQWCODUZ3JANYN7K2/02.webp",
-        "../assets/pdp-gallery/TTX7GLOKQWCODUZ3JANYN7K2/03.webp",
-        "../assets/pdp-gallery/TTX7GLOKQWCODUZ3JANYN7K2/04.webp",
-        "../assets/pdp-gallery/TTX7GLOKQWCODUZ3JANYN7K2/05.webp",
-        "../assets/pdp-gallery/TTX7GLOKQWCODUZ3JANYN7K2/06.webp",
-        "../assets/pdp-gallery/TTX7GLOKQWCODUZ3JANYN7K2/07.webp"
       ],
       "stock": 1,
       "part_numbers": [],
@@ -126830,45 +125290,6 @@
       "vehicles": []
     },
     {
-      "id": "7KSG56AFIXHN5EVGZKK2RSVB",
-      "name": "WWII 1941-45 Cast Bronze Eagle Award Plaque Military Presentation Piece",
-      "price": 49.99,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/5ca2990801bbb3168c3fbe07410f6773a850cfe1/original.jpeg",
-      "url": "https://square.link/u/HSgbsx7W",
-      "category": "other",
-      "checkout": true,
-      "variation_id": "Z5OYVBT7BXSXSYF5Y4WCFGFH",
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "medium",
-      "fitment": {
-        "part_numbers": [],
-        "interchange": [],
-        "vehicles": [],
-        "vehicle_labels": [],
-        "raw_compat_rows": 0,
-        "source": "ebay_listing",
-        "confidence": "medium",
-        "ebay_item_id": "398083977539",
-        "type": "",
-        "brand": "",
-        "ebay_category": "Collectibles:Militaria:WW II (1939-45):Original Period Items:United States:Other US WWII Original Items"
-      },
-      "vehicle_count_raw": 0,
-      "ebay_item_id": "398083977539",
-      "ebay_category": "Collectibles:Militaria:WW II (1939-45):Original Period Items:United States:Other US WWII Original Items",
-      "images": [
-        "../assets/pdp-gallery/7KSG56AFIXHN5EVGZKK2RSVB/02.webp",
-        "../assets/pdp-gallery/7KSG56AFIXHN5EVGZKK2RSVB/03.webp",
-        "../assets/pdp-gallery/7KSG56AFIXHN5EVGZKK2RSVB/04.webp"
-      ],
-      "stock": 1,
-      "part_numbers": [],
-      "interchange": [],
-      "vehicles": [],
-      "ebay_type": "",
-      "ebay_brand": ""
-    },
-    {
       "id": "R7ZTY4ELGQQPLGRN276VAKUA",
       "name": "YBI-601 Motor Choke Transformer POWIN Treadmill Laminated Core Used",
       "price": 34.99,
@@ -126914,5 +125335,5 @@
       "vehicles": []
     }
   ],
-  "fitment_built": "2026-09-29T16:03:01Z"
+  "fitment_built": "2026-09-29T17:03:11Z"
 }
