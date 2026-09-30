@@ -364,6 +364,37 @@
           <p class="section-aside">Default: I send the draft, you paste it. If you later want me to post it for you, you grant access from your own eBay account and you can turn it off anytime.</p>
         </div>
 
+        <div class="lane-picker" id="jobPicker">
+          <div class="lane-picker-tabs" role="tablist" aria-label="How a listing job moves">
+            <button type="button" class="lane-tab is-on" role="tab" aria-selected="true" aria-controls="job-intake" id="tab-intake" data-lane="intake">Intake</button>
+            <button type="button" class="lane-tab" role="tab" aria-selected="false" aria-controls="job-research" id="tab-research" data-lane="research">Research</button>
+            <button type="button" class="lane-tab" role="tab" aria-selected="false" aria-controls="job-build" id="tab-build" data-lane="build">Build</button>
+            <button type="button" class="lane-tab" role="tab" aria-selected="false" aria-controls="job-live" id="tab-live" data-lane="live">Your yes</button>
+          </div>
+          <div class="lane-stage" aria-live="polite">
+            <article class="lane-panel is-on" id="job-intake" role="tabpanel" aria-labelledby="tab-intake">
+              <p class="lane-fee">1</p>
+              <h3>You send the intake</h3>
+              <p>Photos, brand, part number if you have it, condition, quantity, anything you already know about fit. A messy folder is fine.</p>
+            </article>
+            <article class="lane-panel" id="job-research" role="tabpanel" aria-labelledby="tab-research" hidden>
+              <p class="lane-fee">2</p>
+              <h3>Research runs on real sources</h3>
+              <p>Maker catalogs, interchange books, PDFs, and what is actually selling. I do not invent a row to make the table look full.</p>
+            </article>
+            <article class="lane-panel" id="job-build" role="tabpanel" aria-labelledby="tab-build" hidden>
+              <p class="lane-fee">3</p>
+              <h3>Built to a written definition of done</h3>
+              <p>Title under 80 characters, every required box filled, fitment counted, HTML with no scripts or forms. If I push it, I check the live listing after.</p>
+            </article>
+            <article class="lane-panel" id="job-live" role="tabpanel" aria-labelledby="tab-live" hidden>
+              <p class="lane-fee">4</p>
+              <h3>You approve, then it is live</h3>
+              <p>Default: you get the draft and you publish. Optional: I post it, you get a log, you can cut access anytime. I do not need your password.</p>
+            </article>
+          </div>
+        </div>
+
         <div class="bento mb-6">
           <div class="card reveal"><div class="card-icon">📋</div>
             <h3 class="card-title">You send the intake</h3>
@@ -529,6 +560,7 @@
   </footer>
 
   <script src="formspree-config.js?v=ceb6c76477" integrity="sha384-ueEuUiZOLQaQmHtvI1zEi8sjOSgrPYprb7VdeQEdcuH7rfYE90ZCRu0milOV0TmB" defer></script>
+  <script src="lane-picker.js?v=40142c12b4" integrity="sha384-8hNyZhXJ0XoMnpNwl7nwTr5QcfOHqW8dcz/K4HySV/ef4/FOmIikDbaZpRJ+OBsX" defer></script>
   <script src="services.js?v=103be3a32d" integrity="sha384-X7A3v2lvRVD1fDbz41KhiPmHpOsoKjgN1q9yr5zb9Zt83QHKMTbGeJ1SAtVfbKFe" defer></script>
 </body>
 </html>

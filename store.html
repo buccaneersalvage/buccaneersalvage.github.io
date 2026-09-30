@@ -37,7 +37,7 @@
   <link rel="preload" href="assets/fonts.css?v=d1b92d3ff4" integrity="sha384-IDnmxIHyfCaSAssmrqXZbMSqgbRm8AATad26bBSjsyTVbgLbsvJXqeQW642rJQFS" as="style" />
   <link rel="preload" as="font" href="assets/fonts/QGYvz_MVcBeNP4NJtEtq.woff2" type="font/woff2" crossorigin />
   <link rel="stylesheet" href="assets/fonts.css?v=d1b92d3ff4" integrity="sha384-IDnmxIHyfCaSAssmrqXZbMSqgbRm8AATad26bBSjsyTVbgLbsvJXqeQW642rJQFS" />
-  <link rel="stylesheet" href="styles.css?v=e9c261a233" integrity="sha384-8+UN2qmZ2NC8GALGJsiKUYqzm3NU+kF92hNA/r4yhornXJOiFInzs9lHrvwv4K9q" />
+  <link rel="stylesheet" href="styles.css?v=aee56425d6" integrity="sha384-q8s4wjVaIYGfvKn3AXw7TnS85qHY6CUZ9KcldUE0UY4RkbtsqBnSYGzGImrA/NHo" />
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -283,6 +283,19 @@
                 </label>
               </div>
 
+              <article class="hold-plate" id="holdPlate" hidden>
+                <a class="hold-plate-media" id="holdPlateLink" href="store.html">
+                  <img id="holdPlateImg" alt="" width="640" height="640" />
+                </a>
+                <div class="hold-plate-copy">
+                  <p class="hold-plate-kicker" id="holdPlateKicker">On the hold</p>
+                  <h3 class="hold-plate-title" id="holdPlateTitle"></h3>
+                  <p class="hold-plate-pn" id="holdPlatePn"></p>
+                  <p class="hold-plate-price" id="holdPlatePrice"></p>
+                  <a class="btn btn-primary" id="holdPlateCta" href="store.html">Open this part</a>
+                </div>
+              </article>
+
               <!-- List.js renders cards into .list; only current page visible -->
               <div class="list st-grid" id="stGrid" aria-live="polite">
                 <p class="st-loading visually-hidden">Loading parts…</p>
@@ -394,6 +407,6 @@
 
   <script src="main.js?v=d62911a0a1" integrity="sha384-bjTL+oi4j/tRjU7Pb35mIoEkSoQBENgMgmuTO+kkh1Uy+OYkHUlFwJpFWzgPZoME" defer></script>
   <script src="assets/vendor/list.min.js?v=e487569269" integrity="sha384-ALVzYOJ9WqrjuR53Fze5167Cru+FyZ3w3ZZ02ADXJaB0v47ezFOwU9atbIs7U1KN" defer></script>
-  <script src="store.js?v=ebdcb98fd0" integrity="sha384-071GR9NY6GNbVg2qlrKQZjNMBi33D6egAKu2p+kmOLW3rZrFhyzwxCYmX3P7VdOQ" defer></script>
+  <script src="store.js?v=5e4fa25b53" integrity="sha384-hDOMPcMcu/o8c+8JJID1VAPeH+YIJQo4UcO/6GeTTXv5vqyrlc5exLNniN84KoME" defer></script>
 </body>
 </html>

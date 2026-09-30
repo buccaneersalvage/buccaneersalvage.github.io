@@ -160,9 +160,20 @@
     );
   }
 
+  function initZoomHint() {
+    const stage = document.querySelector(".pdp-stage");
+    const main = document.getElementById("pdpMainImage");
+    if (!stage || !main || stage.querySelector(".pdp-zoom-hint")) return;
+    const hint = document.createElement("p");
+    hint.className = "pdp-zoom-hint";
+    hint.textContent = "Tap photo to zoom";
+    stage.appendChild(hint);
+  }
+
   function init() {
     initThumbs();
     initLightbox();
+    initZoomHint();
   }
 
   if (document.readyState === "loading") {

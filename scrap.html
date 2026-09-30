@@ -40,7 +40,7 @@
     imagesrcset="assets/scrap/yard-truck-loaded-480.webp 480w, assets/scrap/yard-truck-loaded.webp 960w"
     imagesizes="(max-width: 700px) 92vw, 640px" />
   <link rel="stylesheet" href="assets/fonts.css?v=d1b92d3ff4" integrity="sha384-IDnmxIHyfCaSAssmrqXZbMSqgbRm8AATad26bBSjsyTVbgLbsvJXqeQW642rJQFS" />
-  <link rel="stylesheet" href="styles.css?v=e9c261a233" integrity="sha384-8+UN2qmZ2NC8GALGJsiKUYqzm3NU+kF92hNA/r4yhornXJOiFInzs9lHrvwv4K9q" />
+  <link rel="stylesheet" href="styles.css?v=aee56425d6" integrity="sha384-q8s4wjVaIYGfvKn3AXw7TnS85qHY6CUZ9KcldUE0UY4RkbtsqBnSYGzGImrA/NHo" />
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -252,6 +252,32 @@
             </p>
           </div>
         </header>
+
+        <div class="lane-picker" id="lanePicker">
+          <div class="lane-picker-tabs" role="tablist" aria-label="What are you hauling">
+            <button type="button" class="lane-tab is-on" role="tab" aria-selected="true" aria-controls="lane-scrap" id="tab-scrap" data-lane="scrap">Scrap metal</button>
+            <button type="button" class="lane-tab" role="tab" aria-selected="false" aria-controls="lane-junk" id="tab-junk" data-lane="junk">Junk</button>
+            <button type="button" class="lane-tab" role="tab" aria-selected="false" aria-controls="lane-ewaste" id="tab-ewaste" data-lane="ewaste">E-waste</button>
+          </div>
+          <div class="lane-stage" aria-live="polite">
+            <article class="lane-panel is-on" id="lane-scrap" role="tabpanel" aria-labelledby="tab-scrap">
+              <p class="lane-fee">Free</p>
+              <h3>Scrap metal rides free</h3>
+              <p>Pipe, sheet, motors, farm iron, appliances that are mostly steel. Local Carbondale / NEPA, by appointment. If it is metal and it is in the way, it rides at no charge.</p>
+            </article>
+            <article class="lane-panel" id="lane-junk" role="tabpanel" aria-labelledby="tab-junk" hidden>
+              <p class="lane-fee lane-fee--paid">Paid</p>
+              <h3>Junk removal is a quote</h3>
+              <p>Mixed cleanouts and anything that is not worth the steel price. Call or text what you have. You get a number before the truck moves.</p>
+            </article>
+            <article class="lane-panel" id="lane-ewaste" role="tabpanel" aria-labelledby="tab-ewaste" hidden>
+              <p class="lane-fee lane-fee--paid">Paid</p>
+              <h3>Electronics are paid. Drop-off is cheaper.</h3>
+              <p>TVs, computers, and dead electronics cost money to move and process. Bring it to the house by appointment and you skip the trip charge.</p>
+            </article>
+          </div>
+          <p class="lane-next"><a class="btn btn-primary" href="tel:+15704682901">Call or text (570) 468-2901</a></p>
+        </div>
 
         <div class="bento">
           <a class="port reveal" id="scrap-metal" href="#contact">
@@ -552,6 +578,7 @@
     </div>
   </footer>
 
+  <script src="lane-picker.js?v=40142c12b4" integrity="sha384-8hNyZhXJ0XoMnpNwl7nwTr5QcfOHqW8dcz/K4HySV/ef4/FOmIikDbaZpRJ+OBsX" defer></script>
   <script src="main.js?v=d62911a0a1" integrity="sha384-bjTL+oi4j/tRjU7Pb35mIoEkSoQBENgMgmuTO+kkh1Uy+OYkHUlFwJpFWzgPZoME" defer></script>
 </body>
 </html>

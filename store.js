@@ -1367,6 +1367,52 @@
       return true;
     });
     updateShowing();
+    paintHoldPlate(min, max, textQ);
+  }
+
+  function paintHoldPlate(min, max, textQ) {
+    const plate = document.getElementById("holdPlate");
+    if (!plate || !catalog.length) return;
+    const hits = catalog.filter((item) => {
+      if (!itemHitsParent(item, category)) return false;
+      if (activeSub && !itemHitsSub(item, activeSub)) return false;
+      if (!itemHitsVehicle(item)) return false;
+      if (textQ && !itemHitsQuery(item, textQ)) return false;
+      const p = item.price != null ? Number(item.price) : NaN;
+      if (min != null && (!Number.isFinite(p) || p < min)) return false;
+      if (max != null && (!Number.isFinite(p) || p > max)) return false;
+      return true;
+    });
+    const item = hits[0];
+    if (!item) {
+      plate.hidden = true;
+      return;
+    }
+    const id = String(item.id || "");
+    const href = `p/${encodeURIComponent(pdpSlugs[id] || id)}.html`;
+    const img = document.getElementById("holdPlateImg");
+    const link = document.getElementById("holdPlateLink");
+    const cta = document.getElementById("holdPlateCta");
+    const title = document.getElementById("holdPlateTitle");
+    const pn = document.getElementById("holdPlatePn");
+    const price = document.getElementById("holdPlatePrice");
+    const kicker = document.getElementById("holdPlateKicker");
+    const src = cardImageUrl(item) || safeImageUrl(item && item.image) || "";
+    if (img && src) {
+      img.src = src;
+      img.alt = (item.name || "Part").slice(0, 120);
+    }
+    if (link) link.href = href;
+    if (cta) cta.href = href;
+    if (title) title.textContent = item.name || "Part";
+    const pnText = cardXrefHint(item);
+    if (pn) pn.textContent = pnText ? "PN " + pnText : "";
+    if (price) price.textContent = money(item.price) || "";
+    if (kicker) {
+      const parent = STORE_PARENTS.find((p) => p.slug === category);
+      kicker.textContent = parent ? "On the hold · " + parent.label : "On the hold";
+    }
+    plate.hidden = false;
   }
 
   // List.js multiplies sortFunction result by order (±1) — return ASC comparison only.

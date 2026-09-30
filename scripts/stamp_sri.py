@@ -33,6 +33,7 @@ ASSETS = (
     "terms-service.js",
     "templates-example.css",
     "templates-example.js",
+    "lane-picker.js",
     "assets/fonts.css",
     "assets/vendor/list.min.js",
     "assets/redirect-store.js",
