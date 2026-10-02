@@ -1,7 +1,7 @@
 {
-  "updated": "2026-10-02T21:04:19Z",
+  "updated": "2026-10-02T22:03:38Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 899,
+  "count": 902,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -99330,17 +99330,9 @@
       "category": "other",
       "checkout": true,
       "variation_id": "URLFJRVPGAPOHDJX7VOZGIHH",
-      "stock": 1,
       "part_numbers": [
         "40-T95011-M9224C"
       ],
-      "interchange": [],
-      "vehicles": [],
-      "vehicle_count_raw": 0,
-      "ebay_item_id": "920001973324",
-      "ebay_type": "Main Board",
-      "ebay_brand": "Insignia",
-      "ebay_category": "Consumer Electronics:TV, Video & Home Audio:TV, Video & Audio Parts:TV Boards, Parts & Components",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -99358,11 +99350,59 @@
         "brand": "Insignia",
         "ebay_category": "Consumer Electronics:TV, Video & Home Audio:TV, Video & Audio Parts:TV Boards, Parts & Components"
       },
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "920001973324",
+      "ebay_type": "Main Board",
+      "ebay_brand": "Insignia",
+      "ebay_category": "Consumer Electronics:TV, Video & Home Audio:TV, Video & Audio Parts:TV Boards, Parts & Components",
       "images": [
         "../assets/pdp-gallery/ZXALW2LYZ4CTQHO7J7INXLHW/02.webp",
         "../assets/pdp-gallery/ZXALW2LYZ4CTQHO7J7INXLHW/03.webp",
         "../assets/pdp-gallery/ZXALW2LYZ4CTQHO7J7INXLHW/04.webp",
         "../assets/pdp-gallery/ZXALW2LYZ4CTQHO7J7INXLHW/05.webp"
+      ],
+      "stock": 1,
+      "interchange": [],
+      "vehicles": []
+    },
+    {
+      "id": "CATYKVORHNQCLTZWRM3BPNPH",
+      "name": "Insignia NS32-FEFL26 TV Stand Legs Feet Set 2pc w/4 Screws Used",
+      "price": 13.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/4228fcdb7fc9261f9dd340e376d8f73cdf64b518/original.jpeg",
+      "url": "https://square.link/u/FS2vBvTv",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "EIX6HCPTE2ZXZCWZLJITW5V3",
+      "stock": 1,
+      "part_numbers": [],
+      "interchange": [],
+      "vehicles": [],
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "920002017511",
+      "ebay_type": "Stand Legs",
+      "ebay_brand": "Insignia",
+      "ebay_category": "Consumer Electronics:TV, Video & Home Audio:TV, Video & Audio Parts:TV Boards, Parts & Components",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "medium",
+      "fitment": {
+        "part_numbers": [],
+        "interchange": [],
+        "vehicles": [],
+        "vehicle_labels": [],
+        "raw_compat_rows": 0,
+        "source": "ebay_listing",
+        "confidence": "medium",
+        "ebay_item_id": "920002017511",
+        "type": "Stand Legs",
+        "brand": "Insignia",
+        "ebay_category": "Consumer Electronics:TV, Video & Home Audio:TV, Video & Audio Parts:TV Boards, Parts & Components"
+      },
+      "images": [
+        "../assets/pdp-gallery/CATYKVORHNQCLTZWRM3BPNPH/02.webp",
+        "../assets/pdp-gallery/CATYKVORHNQCLTZWRM3BPNPH/03.webp",
+        "../assets/pdp-gallery/CATYKVORHNQCLTZWRM3BPNPH/04.webp",
+        "../assets/pdp-gallery/CATYKVORHNQCLTZWRM3BPNPH/05.webp"
       ]
     },
     {
@@ -99445,6 +99485,102 @@
       ],
       "stock": 1,
       "interchange": []
+    },
+    {
+      "id": "DH5EMRQAC65KWELKEBABDZAM",
+      "name": "John Deere GX21577 Deck Belt Guide Rods Set 0100A L100 LA100 GX20212 Used",
+      "price": 17.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/132f825ba2dde8fc7b4314f100444ca417869f57/original.jpeg",
+      "url": "https://square.link/u/Cyyy6SwF",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "2SRYMLMCKIYY4YD6ZN6RK2DI",
+      "stock": 1,
+      "part_numbers": [
+        "GX21577"
+      ],
+      "interchange": [
+        "GX20212"
+      ],
+      "vehicles": [],
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "920002081941",
+      "ebay_type": "Belt Guide",
+      "ebay_brand": "John Deere",
+      "ebay_category": "Home & Garden:Yard, Garden & Outdoor Living:Lawn Mowers, Parts & Accessories:Lawn Mower Parts",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "GX21577"
+        ],
+        "interchange": [
+          "GX20212"
+        ],
+        "vehicles": [],
+        "vehicle_labels": [],
+        "raw_compat_rows": 0,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "920002081941",
+        "type": "Belt Guide",
+        "brand": "John Deere",
+        "ebay_category": "Home & Garden:Yard, Garden & Outdoor Living:Lawn Mowers, Parts & Accessories:Lawn Mower Parts"
+      },
+      "images": [
+        "../assets/pdp-gallery/DH5EMRQAC65KWELKEBABDZAM/02.webp",
+        "../assets/pdp-gallery/DH5EMRQAC65KWELKEBABDZAM/03.webp",
+        "../assets/pdp-gallery/DH5EMRQAC65KWELKEBABDZAM/04.webp",
+        "../assets/pdp-gallery/DH5EMRQAC65KWELKEBABDZAM/05.webp"
+      ]
+    },
+    {
+      "id": "CIWWGGEO7PKJGAAASXMLL3WX",
+      "name": "John Deere GX21924 Steering Sector Plate Gear Pinion GX20053 OEM LA D Series",
+      "price": 49.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/20dd8e82b44bfd2a09bc352db8df41ddc5167d80/original.jpeg",
+      "url": "https://square.link/u/xt86QiRd",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "U2SOYSE6R635RRM3QAMWI7RO",
+      "stock": 1,
+      "part_numbers": [
+        "GX21924"
+      ],
+      "interchange": [
+        "GX20053"
+      ],
+      "vehicles": [],
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "920002050136",
+      "ebay_type": "Steering Sector Gear",
+      "ebay_brand": "John Deere",
+      "ebay_category": "Home & Garden:Yard, Garden & Outdoor Living:Lawn Mowers, Parts & Accessories:Lawn Mower Parts",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "GX21924"
+        ],
+        "interchange": [
+          "GX20053"
+        ],
+        "vehicles": [],
+        "vehicle_labels": [],
+        "raw_compat_rows": 0,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "920002050136",
+        "type": "Steering Sector Gear",
+        "brand": "John Deere",
+        "ebay_category": "Home & Garden:Yard, Garden & Outdoor Living:Lawn Mowers, Parts & Accessories:Lawn Mower Parts"
+      },
+      "images": [
+        "../assets/pdp-gallery/CIWWGGEO7PKJGAAASXMLL3WX/02.webp",
+        "../assets/pdp-gallery/CIWWGGEO7PKJGAAASXMLL3WX/03.webp",
+        "../assets/pdp-gallery/CIWWGGEO7PKJGAAASXMLL3WX/04.webp",
+        "../assets/pdp-gallery/CIWWGGEO7PKJGAAASXMLL3WX/05.webp"
+      ]
     },
     {
       "id": "5VDV77Z6TZJQEK63EB5WNOJC",
@@ -124005,5 +124141,5 @@
       "vehicles": []
     }
   ],
-  "fitment_built": "2026-10-02T21:04:19Z"
+  "fitment_built": "2026-10-02T22:03:38Z"
 }
