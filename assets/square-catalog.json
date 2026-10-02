@@ -1,7 +1,7 @@
 {
-  "updated": "2026-10-02T14:27:53Z",
+  "updated": "2026-10-02T18:03:27Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 900,
+  "count": 899,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -1330,53 +1330,6 @@
       "images": [
         "../assets/pdp-gallery/V5DQLTXHI7AFC6543NI727CI/02.webp",
         "../assets/pdp-gallery/V5DQLTXHI7AFC6543NI727CI/03.webp"
-      ],
-      "stock": 1,
-      "vehicles": []
-    },
-    {
-      "id": "Y6M4E3EQLZL24OW2FRCYAPTI",
-      "name": "Goodyear 2B12-307 Double Convoluted Air Spring Replaces W01-358-7403 New",
-      "price": 137.99,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/0f2f82d0687ee2f670fa91f90b9b3c17903c32bb/original.jpeg",
-      "url": "https://square.link/u/rhJYzch8",
-      "category": "air-spring",
-      "checkout": true,
-      "variation_id": "CK3DF57ZHDO7IGKTZBHEFWIN",
-      "part_numbers": [
-        "2B12-307"
-      ],
-      "interchange": [
-        "W01-358-7403"
-      ],
-      "fitment_source": "ebay_listing+airspring_inventory",
-      "fitment_confidence": "high",
-      "fitment": {
-        "part_numbers": [
-          "2B12-307"
-        ],
-        "interchange": [
-          "W01-358-7403"
-        ],
-        "vehicles": [],
-        "vehicle_labels": [],
-        "raw_compat_rows": 0,
-        "source": "ebay_listing+airspring_inventory",
-        "confidence": "high",
-        "ebay_item_id": "398028783790",
-        "type": "Rolling Lobe Air Spring",
-        "brand": "Goodyear",
-        "ebay_category": "eBay Motors:Parts & Accessories:Commercial Truck Parts:Suspension & Steering:Air Ride Suspension"
-      },
-      "vehicle_count_raw": 0,
-      "ebay_item_id": "398028783790",
-      "ebay_type": "Rolling Lobe Air Spring",
-      "ebay_brand": "Goodyear",
-      "ebay_category": "eBay Motors:Parts & Accessories:Commercial Truck Parts:Suspension & Steering:Air Ride Suspension",
-      "images": [
-        "../assets/pdp-gallery/Y6M4E3EQLZL24OW2FRCYAPTI/02.webp",
-        "../assets/pdp-gallery/Y6M4E3EQLZL24OW2FRCYAPTI/03.webp",
-        "../assets/pdp-gallery/Y6M4E3EQLZL24OW2FRCYAPTI/04.webp"
       ],
       "stock": 1,
       "vehicles": []
@@ -124123,5 +124076,5 @@
       "vehicles": []
     }
   ],
-  "fitment_built": "2026-10-02T14:27:53Z"
+  "fitment_built": "2026-10-02T18:03:27Z"
 }
