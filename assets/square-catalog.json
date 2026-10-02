@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-02T19:03:27Z",
+  "updated": "2026-10-02T21:04:19Z",
   "store": "https://buccaneersalvage.square.site/",
   "count": 899,
   "items": [
@@ -73611,121 +73611,6 @@
       "stock": 1
     },
     {
-      "id": "QBD2LLJYAQZ2MKJCVGA7YU4E",
-      "name": "Blue Streak FD8081XV Points 3.9 4.7 5.0 NOS 64-73 Mustang",
-      "price": 16.99,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/271f1c58afe7d2db9840f69c086351be9293fa1a/original.jpeg",
-      "url": "https://square.link/u/j5pVi2hg",
-      "category": "other",
-      "checkout": true,
-      "variation_id": "PCSDQ5MHAYZJVMKVZNWEMWL5",
-      "part_numbers": [
-        "FD8081XV",
-        "C9AZ-12171-B, FD8081T"
-      ],
-      "interchange": [
-        "CS749",
-        "DP3",
-        "A97V"
-      ],
-      "vehicles": [
-        "1966\u20131974 Ford Bronco",
-        "1953\u20131977 Ford F-100",
-        "1964\u20131970 Ford Falcon",
-        "1964\u20131973 Ford Mustang",
-        "1968\u20131974 Ford Torino"
-      ],
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "high",
-      "fitment": {
-        "part_numbers": [
-          "FD8081XV",
-          "C9AZ-12171-B, FD8081T"
-        ],
-        "interchange": [
-          "CS749",
-          "DP3",
-          "A97V"
-        ],
-        "vehicles": [
-          {
-            "year_from": 1966,
-            "year_to": 1974,
-            "make": "Ford",
-            "model": "Bronco",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1953,
-            "year_to": 1977,
-            "make": "Ford",
-            "model": "F-100",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1964,
-            "year_to": 1970,
-            "make": "Ford",
-            "model": "Falcon",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1964,
-            "year_to": 1973,
-            "make": "Ford",
-            "model": "Mustang",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1968,
-            "year_to": 1974,
-            "make": "Ford",
-            "model": "Torino",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          }
-        ],
-        "vehicle_labels": [
-          "1966\u20131974 Ford Bronco",
-          "1953\u20131977 Ford F-100",
-          "1964\u20131970 Ford Falcon",
-          "1964\u20131973 Ford Mustang",
-          "1968\u20131974 Ford Torino"
-        ],
-        "raw_compat_rows": 312,
-        "source": "ebay_listing",
-        "confidence": "high",
-        "ebay_item_id": "398315202310",
-        "type": "Ignition Points",
-        "brand": "Blue Streak",
-        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Points"
-      },
-      "vehicle_count_raw": 312,
-      "ebay_item_id": "398315202310",
-      "ebay_type": "Ignition Points",
-      "ebay_brand": "Blue Streak",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Points",
-      "images": [
-        "../assets/pdp-gallery/QBD2LLJYAQZ2MKJCVGA7YU4E/02.webp",
-        "../assets/pdp-gallery/QBD2LLJYAQZ2MKJCVGA7YU4E/03.webp"
-      ],
-      "stock": 1
-    },
-    {
       "id": "JFEDTZDFSENVBGSDFUJEWB2S",
       "name": "Blue Streak IH4281XP Ignition Points NOS 67-80 Scout 5.0 5.6 3.2",
       "price": 14.99,
@@ -99437,6 +99322,50 @@
       "interchange": []
     },
     {
+      "id": "ZXALW2LYZ4CTQHO7J7INXLHW",
+      "name": "Insignia 40-T95011-M9224C Main Board NS32-FEFL26 TP.MS3553W Used",
+      "price": 34.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/289bfe047c5f2b33491f5bfe410556e9975701a2/original.jpeg",
+      "url": "https://square.link/u/WQ4e2hnH",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "URLFJRVPGAPOHDJX7VOZGIHH",
+      "stock": 1,
+      "part_numbers": [
+        "40-T95011-M9224C"
+      ],
+      "interchange": [],
+      "vehicles": [],
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "920001973324",
+      "ebay_type": "Main Board",
+      "ebay_brand": "Insignia",
+      "ebay_category": "Consumer Electronics:TV, Video & Home Audio:TV, Video & Audio Parts:TV Boards, Parts & Components",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "40-T95011-M9224C"
+        ],
+        "interchange": [],
+        "vehicles": [],
+        "vehicle_labels": [],
+        "raw_compat_rows": 0,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "920001973324",
+        "type": "Main Board",
+        "brand": "Insignia",
+        "ebay_category": "Consumer Electronics:TV, Video & Home Audio:TV, Video & Audio Parts:TV Boards, Parts & Components"
+      },
+      "images": [
+        "../assets/pdp-gallery/ZXALW2LYZ4CTQHO7J7INXLHW/02.webp",
+        "../assets/pdp-gallery/ZXALW2LYZ4CTQHO7J7INXLHW/03.webp",
+        "../assets/pdp-gallery/ZXALW2LYZ4CTQHO7J7INXLHW/04.webp",
+        "../assets/pdp-gallery/ZXALW2LYZ4CTQHO7J7INXLHW/05.webp"
+      ]
+    },
+    {
       "id": "DNXJWSJJLRPIJQYHSHJB3XAA",
       "name": "Interstate 700-H Thermostat 190 Deg 1953-1966 Buick Skylark NOS",
       "price": 19.99,
@@ -124076,5 +124005,5 @@
       "vehicles": []
     }
   ],
-  "fitment_built": "2026-10-02T19:03:27Z"
+  "fitment_built": "2026-10-02T21:04:19Z"
 }
