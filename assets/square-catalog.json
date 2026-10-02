@@ -1,7 +1,7 @@
 {
-  "updated": "2026-10-02T22:03:38Z",
+  "updated": "2026-10-02T23:03:48Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 902,
+  "count": 901,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -70811,218 +70811,6 @@
       "vehicles": []
     },
     {
-      "id": "SAXDZSMU5HS3MG3FKA6WGMYQ",
-      "name": "Standard Motor Products DS-68 Headlight Dimmer Switch NOS Dart Charger AMC",
-      "price": 14.95,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/7105be2a687356abf1909e6edb2da9618efd0158/original.jpeg",
-      "url": "https://square.link/u/ibCl9YTo",
-      "category": "interior",
-      "checkout": true,
-      "variation_id": "AJC2MP2M66LZEZ6FFVEN3SOH",
-      "part_numbers": [
-        "DS-68",
-        "1S4831, UDS421, 1972149, B9A13532A, J3160926"
-      ],
-      "interchange": [
-        "DS68T",
-        "DS112",
-        "DS108"
-      ],
-      "vehicles": [
-        "1968\u20131980 AMC AMX",
-        "1959\u20131968 AMC American",
-        "1970\u20131978 AMC Gremlin",
-        "1970\u20131977 AMC Hornet",
-        "1968\u20131974 AMC Javelin",
-        "1970\u20131974 Dodge Challenger",
-        "1966\u20131978 Dodge Charger",
-        "1965\u20131976 Dodge Coronet",
-        "1988\u20131990 Dodge Dakota",
-        "1960\u20131976 Dodge Dart",
-        "1974\u20131990 Dodge Ramcharger",
-        "1959\u20131966 Plymouth Fury",
-        "1960\u20131976 Plymouth Valiant"
-      ],
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "high",
-      "fitment": {
-        "part_numbers": [
-          "DS-68",
-          "1S4831, UDS421, 1972149, B9A13532A, J3160926"
-        ],
-        "interchange": [
-          "DS68T",
-          "DS112",
-          "DS108"
-        ],
-        "vehicles": [
-          {
-            "year_from": 1968,
-            "year_to": 1980,
-            "make": "AMC",
-            "model": "AMX",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1959,
-            "year_to": 1968,
-            "make": "AMC",
-            "model": "American",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1970,
-            "year_to": 1978,
-            "make": "AMC",
-            "model": "Gremlin",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1970,
-            "year_to": 1977,
-            "make": "AMC",
-            "model": "Hornet",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1968,
-            "year_to": 1974,
-            "make": "AMC",
-            "model": "Javelin",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1970,
-            "year_to": 1974,
-            "make": "Dodge",
-            "model": "Challenger",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1966,
-            "year_to": 1978,
-            "make": "Dodge",
-            "model": "Charger",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1965,
-            "year_to": 1976,
-            "make": "Dodge",
-            "model": "Coronet",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1988,
-            "year_to": 1990,
-            "make": "Dodge",
-            "model": "Dakota",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1960,
-            "year_to": 1976,
-            "make": "Dodge",
-            "model": "Dart",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1974,
-            "year_to": 1990,
-            "make": "Dodge",
-            "model": "Ramcharger",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1959,
-            "year_to": 1966,
-            "make": "Plymouth",
-            "model": "Fury",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1960,
-            "year_to": 1976,
-            "make": "Plymouth",
-            "model": "Valiant",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          }
-        ],
-        "vehicle_labels": [
-          "1968\u20131980 AMC AMX",
-          "1959\u20131968 AMC American",
-          "1970\u20131978 AMC Gremlin",
-          "1970\u20131977 AMC Hornet",
-          "1968\u20131974 AMC Javelin",
-          "1970\u20131974 Dodge Challenger",
-          "1966\u20131978 Dodge Charger",
-          "1965\u20131976 Dodge Coronet",
-          "1988\u20131990 Dodge Dakota",
-          "1960\u20131976 Dodge Dart",
-          "1974\u20131990 Dodge Ramcharger",
-          "1959\u20131966 Plymouth Fury",
-          "1960\u20131976 Plymouth Valiant"
-        ],
-        "raw_compat_rows": 3000,
-        "source": "ebay_listing",
-        "confidence": "high",
-        "ebay_item_id": "398346106091",
-        "type": "Headlight Dimmer Switch",
-        "brand": "Standard Motor Products",
-        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Interior Parts & Accessories:Switches & Controls"
-      },
-      "vehicle_count_raw": 3000,
-      "ebay_item_id": "398346106091",
-      "ebay_type": "Headlight Dimmer Switch",
-      "ebay_brand": "Standard Motor Products",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Interior Parts & Accessories:Switches & Controls",
-      "images": [
-        "../assets/pdp-gallery/SAXDZSMU5HS3MG3FKA6WGMYQ/02.webp",
-        "../assets/pdp-gallery/SAXDZSMU5HS3MG3FKA6WGMYQ/03.webp",
-        "../assets/pdp-gallery/SAXDZSMU5HS3MG3FKA6WGMYQ/04.webp"
-      ],
-      "stock": 1
-    },
-    {
       "id": "HXJYNDFNYG7OAOGH5W5IBKPQ",
       "name": "Victor F7210 Exhaust Pipe Ring NOS 82-92 Camaro",
       "price": 9.99,
@@ -99374,15 +99162,6 @@
       "category": "other",
       "checkout": true,
       "variation_id": "EIX6HCPTE2ZXZCWZLJITW5V3",
-      "stock": 1,
-      "part_numbers": [],
-      "interchange": [],
-      "vehicles": [],
-      "vehicle_count_raw": 0,
-      "ebay_item_id": "920002017511",
-      "ebay_type": "Stand Legs",
-      "ebay_brand": "Insignia",
-      "ebay_category": "Consumer Electronics:TV, Video & Home Audio:TV, Video & Audio Parts:TV Boards, Parts & Components",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "medium",
       "fitment": {
@@ -99398,12 +99177,21 @@
         "brand": "Insignia",
         "ebay_category": "Consumer Electronics:TV, Video & Home Audio:TV, Video & Audio Parts:TV Boards, Parts & Components"
       },
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "920002017511",
+      "ebay_type": "Stand Legs",
+      "ebay_brand": "Insignia",
+      "ebay_category": "Consumer Electronics:TV, Video & Home Audio:TV, Video & Audio Parts:TV Boards, Parts & Components",
       "images": [
         "../assets/pdp-gallery/CATYKVORHNQCLTZWRM3BPNPH/02.webp",
         "../assets/pdp-gallery/CATYKVORHNQCLTZWRM3BPNPH/03.webp",
         "../assets/pdp-gallery/CATYKVORHNQCLTZWRM3BPNPH/04.webp",
         "../assets/pdp-gallery/CATYKVORHNQCLTZWRM3BPNPH/05.webp"
-      ]
+      ],
+      "stock": 1,
+      "part_numbers": [],
+      "interchange": [],
+      "vehicles": []
     },
     {
       "id": "DNXJWSJJLRPIJQYHSHJB3XAA",
@@ -99495,19 +99283,12 @@
       "category": "other",
       "checkout": true,
       "variation_id": "2SRYMLMCKIYY4YD6ZN6RK2DI",
-      "stock": 1,
       "part_numbers": [
         "GX21577"
       ],
       "interchange": [
         "GX20212"
       ],
-      "vehicles": [],
-      "vehicle_count_raw": 0,
-      "ebay_item_id": "920002081941",
-      "ebay_type": "Belt Guide",
-      "ebay_brand": "John Deere",
-      "ebay_category": "Home & Garden:Yard, Garden & Outdoor Living:Lawn Mowers, Parts & Accessories:Lawn Mower Parts",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -99527,12 +99308,19 @@
         "brand": "John Deere",
         "ebay_category": "Home & Garden:Yard, Garden & Outdoor Living:Lawn Mowers, Parts & Accessories:Lawn Mower Parts"
       },
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "920002081941",
+      "ebay_type": "Belt Guide",
+      "ebay_brand": "John Deere",
+      "ebay_category": "Home & Garden:Yard, Garden & Outdoor Living:Lawn Mowers, Parts & Accessories:Lawn Mower Parts",
       "images": [
         "../assets/pdp-gallery/DH5EMRQAC65KWELKEBABDZAM/02.webp",
         "../assets/pdp-gallery/DH5EMRQAC65KWELKEBABDZAM/03.webp",
         "../assets/pdp-gallery/DH5EMRQAC65KWELKEBABDZAM/04.webp",
         "../assets/pdp-gallery/DH5EMRQAC65KWELKEBABDZAM/05.webp"
-      ]
+      ],
+      "stock": 1,
+      "vehicles": []
     },
     {
       "id": "CIWWGGEO7PKJGAAASXMLL3WX",
@@ -99543,19 +99331,12 @@
       "category": "other",
       "checkout": true,
       "variation_id": "U2SOYSE6R635RRM3QAMWI7RO",
-      "stock": 1,
       "part_numbers": [
         "GX21924"
       ],
       "interchange": [
         "GX20053"
       ],
-      "vehicles": [],
-      "vehicle_count_raw": 0,
-      "ebay_item_id": "920002050136",
-      "ebay_type": "Steering Sector Gear",
-      "ebay_brand": "John Deere",
-      "ebay_category": "Home & Garden:Yard, Garden & Outdoor Living:Lawn Mowers, Parts & Accessories:Lawn Mower Parts",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -99575,12 +99356,19 @@
         "brand": "John Deere",
         "ebay_category": "Home & Garden:Yard, Garden & Outdoor Living:Lawn Mowers, Parts & Accessories:Lawn Mower Parts"
       },
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "920002050136",
+      "ebay_type": "Steering Sector Gear",
+      "ebay_brand": "John Deere",
+      "ebay_category": "Home & Garden:Yard, Garden & Outdoor Living:Lawn Mowers, Parts & Accessories:Lawn Mower Parts",
       "images": [
         "../assets/pdp-gallery/CIWWGGEO7PKJGAAASXMLL3WX/02.webp",
         "../assets/pdp-gallery/CIWWGGEO7PKJGAAASXMLL3WX/03.webp",
         "../assets/pdp-gallery/CIWWGGEO7PKJGAAASXMLL3WX/04.webp",
         "../assets/pdp-gallery/CIWWGGEO7PKJGAAASXMLL3WX/05.webp"
-      ]
+      ],
+      "stock": 1,
+      "vehicles": []
     },
     {
       "id": "5VDV77Z6TZJQEK63EB5WNOJC",
@@ -124141,5 +123929,5 @@
       "vehicles": []
     }
   ],
-  "fitment_built": "2026-10-02T22:03:38Z"
+  "fitment_built": "2026-10-02T23:03:48Z"
 }
