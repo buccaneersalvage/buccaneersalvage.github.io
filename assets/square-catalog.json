@@ -1,7 +1,7 @@
 {
-  "updated": "2026-10-02T01:03:24Z",
+  "updated": "2026-10-02T02:03:24Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 899,
+  "count": 900,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -76043,6 +76043,49 @@
       "vehicles": []
     },
     {
+      "id": "NSYKRM3AB53JYTQ6BAD6CII3",
+      "name": "CorningWare P-315-B Blue Cornflower 2 Qt Loaf Pan 9x5x3 Used USA",
+      "price": 22.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/ca5b46897e879bcbc63283c6e26fc65af2407b45/original.jpeg",
+      "url": "https://square.link/u/12N4WxOX",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "OUS3PLZRSEB3SHPG4H3FBZAB",
+      "stock": 1,
+      "part_numbers": [
+        "P-315-B"
+      ],
+      "interchange": [],
+      "vehicles": [],
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398452353985",
+      "ebay_type": "Loaf Pan",
+      "ebay_brand": "CorningWare",
+      "ebay_category": "Home & Garden:Kitchen, Dining & Bar:Bakeware:Loaf Pans",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "medium",
+      "fitment": {
+        "part_numbers": [
+          "P-315-B"
+        ],
+        "interchange": [],
+        "vehicles": [],
+        "vehicle_labels": [],
+        "raw_compat_rows": 0,
+        "source": "ebay_listing",
+        "confidence": "medium",
+        "ebay_item_id": "398452353985",
+        "type": "Loaf Pan",
+        "brand": "CorningWare",
+        "ebay_category": "Home & Garden:Kitchen, Dining & Bar:Bakeware:Loaf Pans"
+      },
+      "images": [
+        "../assets/pdp-gallery/NSYKRM3AB53JYTQ6BAD6CII3/02.webp",
+        "../assets/pdp-gallery/NSYKRM3AB53JYTQ6BAD6CII3/03.webp",
+        "../assets/pdp-gallery/NSYKRM3AB53JYTQ6BAD6CII3/04.webp"
+      ]
+    },
+    {
       "id": "J4VDYNXAMHMZAKTBVT3PUEQR",
       "name": "CR 13668 Oil Seal NOS HMSHA4",
       "price": 14.99,
@@ -119762,17 +119805,9 @@
       "category": "other",
       "checkout": true,
       "variation_id": "3EOOTM73LWQLINCV632WOOQ5",
-      "stock": 1,
       "part_numbers": [
         "274"
       ],
-      "interchange": [],
-      "vehicles": [],
-      "vehicle_count_raw": 0,
-      "ebay_item_id": "398452306542",
-      "ebay_type": "Popcorn Bowl",
-      "ebay_brand": "Tupperware",
-      "ebay_category": "Collectibles:Kitchen & Home:Kitchen Storage & Organization:Food Storage Containers",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "medium",
       "fitment": {
@@ -119790,12 +119825,20 @@
         "brand": "Tupperware",
         "ebay_category": "Collectibles:Kitchen & Home:Kitchen Storage & Organization:Food Storage Containers"
       },
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398452306542",
+      "ebay_type": "Popcorn Bowl",
+      "ebay_brand": "Tupperware",
+      "ebay_category": "Collectibles:Kitchen & Home:Kitchen Storage & Organization:Food Storage Containers",
       "images": [
         "../assets/pdp-gallery/J2RN54KBJLJKLHCIS4CRL4DP/02.webp",
         "../assets/pdp-gallery/J2RN54KBJLJKLHCIS4CRL4DP/03.webp",
         "../assets/pdp-gallery/J2RN54KBJLJKLHCIS4CRL4DP/04.webp",
         "../assets/pdp-gallery/J2RN54KBJLJKLHCIS4CRL4DP/05.webp"
-      ]
+      ],
+      "stock": 1,
+      "interchange": [],
+      "vehicles": []
     },
     {
       "id": "KO5NU5EL5YLWV4K3RD4F3FR4",
@@ -124080,5 +124123,5 @@
       "vehicles": []
     }
   ],
-  "fitment_built": "2026-10-02T01:03:24Z"
+  "fitment_built": "2026-10-02T02:03:24Z"
 }
