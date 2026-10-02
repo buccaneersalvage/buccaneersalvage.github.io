@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-02T04:03:20Z",
+  "updated": "2026-10-02T05:03:24Z",
   "store": "https://buccaneersalvage.square.site/",
   "count": 900,
   "items": [
@@ -76051,17 +76051,9 @@
       "category": "other",
       "checkout": true,
       "variation_id": "OUS3PLZRSEB3SHPG4H3FBZAB",
-      "stock": 1,
       "part_numbers": [
         "P-315-B"
       ],
-      "interchange": [],
-      "vehicles": [],
-      "vehicle_count_raw": 0,
-      "ebay_item_id": "398452353985",
-      "ebay_type": "Loaf Pan",
-      "ebay_brand": "CorningWare",
-      "ebay_category": "Home & Garden:Kitchen, Dining & Bar:Bakeware:Loaf Pans",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "medium",
       "fitment": {
@@ -76079,11 +76071,19 @@
         "brand": "CorningWare",
         "ebay_category": "Home & Garden:Kitchen, Dining & Bar:Bakeware:Loaf Pans"
       },
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398452353985",
+      "ebay_type": "Loaf Pan",
+      "ebay_brand": "CorningWare",
+      "ebay_category": "Home & Garden:Kitchen, Dining & Bar:Bakeware:Loaf Pans",
       "images": [
         "../assets/pdp-gallery/NSYKRM3AB53JYTQ6BAD6CII3/02.webp",
         "../assets/pdp-gallery/NSYKRM3AB53JYTQ6BAD6CII3/03.webp",
         "../assets/pdp-gallery/NSYKRM3AB53JYTQ6BAD6CII3/04.webp"
-      ]
+      ],
+      "stock": 1,
+      "interchange": [],
+      "vehicles": []
     },
     {
       "id": "J4VDYNXAMHMZAKTBVT3PUEQR",
@@ -122265,7 +122265,7 @@
         "../assets/pdp-gallery/MNMOQDIY5TFLEOHM3R5TXV7V/02.webp",
         "../assets/pdp-gallery/MNMOQDIY5TFLEOHM3R5TXV7V/03.webp"
       ],
-      "stock": 7,
+      "stock": 1,
       "interchange": []
     },
     {
@@ -124123,5 +124123,5 @@
       "vehicles": []
     }
   ],
-  "fitment_built": "2026-10-02T04:03:20Z"
+  "fitment_built": "2026-10-02T05:03:24Z"
 }
