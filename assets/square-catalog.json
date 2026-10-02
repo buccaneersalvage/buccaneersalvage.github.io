@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-02T00:03:32Z",
+  "updated": "2026-10-02T01:03:24Z",
   "store": "https://buccaneersalvage.square.site/",
   "count": 899,
   "items": [
@@ -3652,307 +3652,6 @@
         "../assets/pdp-gallery/UIR6W6264WMTI3HZOMGZZ2UA/02.webp",
         "../assets/pdp-gallery/UIR6W6264WMTI3HZOMGZZ2UA/03.webp",
         "../assets/pdp-gallery/UIR6W6264WMTI3HZOMGZZ2UA/04.webp"
-      ],
-      "stock": 1
-    },
-    {
-      "id": "56WP3B3J6NRXSPSCPKDKTTRB",
-      "name": "Carlson 13235 Rear Disc Brake Hardware Kit Honda Accord Civic CR-V Acura",
-      "price": 21.99,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/03a28bd73af08afd19e7e4c770dcce6948747016/original.jpeg",
-      "url": "https://square.link/u/i9ArlPVr",
-      "category": "brake",
-      "checkout": true,
-      "variation_id": "66AITNRFMBCG5K3AW6HRYWKL",
-      "part_numbers": [
-        "13235"
-      ],
-      "interchange": [
-        "HW13235"
-      ],
-      "vehicles": [
-        "2013\u20132022 Acura ILX",
-        "1998\u20132001 Acura Integra",
-        "1987\u20131995 Acura Legend",
-        "2007\u20132018 Acura RDX",
-        "1996\u20131998 Acura RL",
-        "2002\u20132006 Acura RSX",
-        "1995\u20131998 Acura TL",
-        "2004\u20132008 Acura TSX",
-        "1992\u20131994 Acura Vigor",
-        "1991\u20132007 Honda Accord",
-        "2010\u20132011 Honda Accord Crosstour",
-        "2002\u20132016 Honda CR-V",
-        "2011\u20132015 Honda CR-Z",
-        "2002\u20132015 Honda Civic",
-        "2012\u20132015 Honda Crosstour",
-        "2003\u20132011 Honda Element",
-        "1995\u20131998 Honda Odyssey",
-        "1992\u20132001 Honda Prelude",
-        "1996\u20131999 Isuzu Oasis",
-        "2007\u20132013 Suzuki SX4",
-        "2012 Suzuki SX4 Crossover"
-      ],
-      "fitment_source": "ebay_listing+carlson_specs",
-      "fitment_confidence": "high",
-      "fitment": {
-        "part_numbers": [
-          "13235"
-        ],
-        "interchange": [
-          "HW13235"
-        ],
-        "vehicles": [
-          {
-            "year_from": 2013,
-            "year_to": 2022,
-            "make": "Acura",
-            "model": "ILX",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1998,
-            "year_to": 2001,
-            "make": "Acura",
-            "model": "Integra",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1987,
-            "year_to": 1995,
-            "make": "Acura",
-            "model": "Legend",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 2007,
-            "year_to": 2018,
-            "make": "Acura",
-            "model": "RDX",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1996,
-            "year_to": 1998,
-            "make": "Acura",
-            "model": "RL",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 2002,
-            "year_to": 2006,
-            "make": "Acura",
-            "model": "RSX",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1995,
-            "year_to": 1998,
-            "make": "Acura",
-            "model": "TL",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 2004,
-            "year_to": 2008,
-            "make": "Acura",
-            "model": "TSX",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1992,
-            "year_to": 1994,
-            "make": "Acura",
-            "model": "Vigor",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1991,
-            "year_to": 2007,
-            "make": "Honda",
-            "model": "Accord",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 2010,
-            "year_to": 2011,
-            "make": "Honda",
-            "model": "Accord Crosstour",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 2002,
-            "year_to": 2016,
-            "make": "Honda",
-            "model": "CR-V",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 2011,
-            "year_to": 2015,
-            "make": "Honda",
-            "model": "CR-Z",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 2002,
-            "year_to": 2015,
-            "make": "Honda",
-            "model": "Civic",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 2012,
-            "year_to": 2015,
-            "make": "Honda",
-            "model": "Crosstour",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 2003,
-            "year_to": 2011,
-            "make": "Honda",
-            "model": "Element",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1995,
-            "year_to": 1998,
-            "make": "Honda",
-            "model": "Odyssey",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1992,
-            "year_to": 2001,
-            "make": "Honda",
-            "model": "Prelude",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1996,
-            "year_to": 1999,
-            "make": "Isuzu",
-            "model": "Oasis",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 2007,
-            "year_to": 2013,
-            "make": "Suzuki",
-            "model": "SX4",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 2012,
-            "year_to": 2012,
-            "make": "Suzuki",
-            "model": "SX4 Crossover",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          }
-        ],
-        "vehicle_labels": [
-          "2013\u20132022 Acura ILX",
-          "1998\u20132001 Acura Integra",
-          "1987\u20131995 Acura Legend",
-          "2007\u20132018 Acura RDX",
-          "1996\u20131998 Acura RL",
-          "2002\u20132006 Acura RSX",
-          "1995\u20131998 Acura TL",
-          "2004\u20132008 Acura TSX",
-          "1992\u20131994 Acura Vigor",
-          "1991\u20132007 Honda Accord",
-          "2010\u20132011 Honda Accord Crosstour",
-          "2002\u20132016 Honda CR-V",
-          "2011\u20132015 Honda CR-Z",
-          "2002\u20132015 Honda Civic",
-          "2012\u20132015 Honda Crosstour",
-          "2003\u20132011 Honda Element",
-          "1995\u20131998 Honda Odyssey",
-          "1992\u20132001 Honda Prelude",
-          "1996\u20131999 Isuzu Oasis",
-          "2007\u20132013 Suzuki SX4",
-          "2012 Suzuki SX4 Crossover"
-        ],
-        "raw_compat_rows": 804,
-        "source": "ebay_listing+carlson_specs",
-        "confidence": "high",
-        "ebay_item_id": "398095523367",
-        "type": "Hardware",
-        "brand": "Carlson",
-        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware"
-      },
-      "vehicle_count_raw": 804,
-      "ebay_item_id": "398095523367",
-      "ebay_type": "Hardware",
-      "ebay_brand": "Carlson",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware",
-      "images": [
-        "../assets/pdp-gallery/56WP3B3J6NRXSPSCPKDKTTRB/02.webp",
-        "../assets/pdp-gallery/56WP3B3J6NRXSPSCPKDKTTRB/03.webp"
       ],
       "stock": 1
     },
@@ -120055,6 +119754,50 @@
       "stock": 1
     },
     {
+      "id": "J2RN54KBJLJKLHCIS4CRL4DP",
+      "name": "Tupperware Blockbuster Video 274 Yellow Popcorn Bowl w/Lid 90s Used",
+      "price": 34.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/f0666529f8a46dc44a33f02ec2df981a6929b165/original.jpeg",
+      "url": "https://square.link/u/tvr7isa6",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "3EOOTM73LWQLINCV632WOOQ5",
+      "stock": 1,
+      "part_numbers": [
+        "274"
+      ],
+      "interchange": [],
+      "vehicles": [],
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "398452306542",
+      "ebay_type": "Popcorn Bowl",
+      "ebay_brand": "Tupperware",
+      "ebay_category": "Collectibles:Kitchen & Home:Kitchen Storage & Organization:Food Storage Containers",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "medium",
+      "fitment": {
+        "part_numbers": [
+          "274"
+        ],
+        "interchange": [],
+        "vehicles": [],
+        "vehicle_labels": [],
+        "raw_compat_rows": 0,
+        "source": "ebay_listing",
+        "confidence": "medium",
+        "ebay_item_id": "398452306542",
+        "type": "Popcorn Bowl",
+        "brand": "Tupperware",
+        "ebay_category": "Collectibles:Kitchen & Home:Kitchen Storage & Organization:Food Storage Containers"
+      },
+      "images": [
+        "../assets/pdp-gallery/J2RN54KBJLJKLHCIS4CRL4DP/02.webp",
+        "../assets/pdp-gallery/J2RN54KBJLJKLHCIS4CRL4DP/03.webp",
+        "../assets/pdp-gallery/J2RN54KBJLJKLHCIS4CRL4DP/04.webp",
+        "../assets/pdp-gallery/J2RN54KBJLJKLHCIS4CRL4DP/05.webp"
+      ]
+    },
+    {
       "id": "KO5NU5EL5YLWV4K3RD4F3FR4",
       "name": "U-Haul 13480 Trailer Wiring Adapter 6-Way Round to 4-Flat Piggyback NOS",
       "price": 16.99,
@@ -124337,5 +124080,5 @@
       "vehicles": []
     }
   ],
-  "fitment_built": "2026-10-02T00:03:32Z"
+  "fitment_built": "2026-10-02T01:03:24Z"
 }
