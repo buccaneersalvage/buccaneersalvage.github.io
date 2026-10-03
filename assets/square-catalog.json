@@ -1,7 +1,7 @@
 {
-  "updated": "2026-10-02T23:03:48Z",
+  "updated": "2026-10-03T00:03:37Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 901,
+  "count": 900,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -44456,111 +44456,6 @@
         "../assets/pdp-gallery/FXPYU5GU432HMPNXDXLVRYEL/02.webp",
         "../assets/pdp-gallery/FXPYU5GU432HMPNXDXLVRYEL/03.webp",
         "../assets/pdp-gallery/FXPYU5GU432HMPNXDXLVRYEL/04.webp"
-      ],
-      "stock": 1
-    },
-    {
-      "id": "PZGQ24MQHBDWWDVKHYWQZGFE",
-      "name": "WIX 46016 Air Filter NOS 80-89 Subaru 1.6 1.8",
-      "price": 19.99,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/87aa93045d35dec48442f9b462d992335dce40d0/original.jpeg",
-      "url": "https://square.link/u/0PvBUTgz",
-      "category": "filters",
-      "checkout": true,
-      "variation_id": "AAGGWQR7R3GAWBB3Q63ST6UF",
-      "part_numbers": [
-        "46016",
-        "Champ AF141, Luber-Finer AF141"
-      ],
-      "interchange": [
-        "WIX-46016",
-        "FRAM CA3621",
-        "NAPA 6016",
-        "Purolator A23538"
-      ],
-      "vehicles": [
-        "1980\u20131987 Subaru Brat",
-        "1980\u20131987 Subaru DL",
-        "1980\u20131989 Subaru GL",
-        "1980\u20131987 Subaru Standard"
-      ],
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "high",
-      "fitment": {
-        "part_numbers": [
-          "46016",
-          "Champ AF141, Luber-Finer AF141"
-        ],
-        "interchange": [
-          "WIX-46016",
-          "FRAM CA3621",
-          "NAPA 6016",
-          "Purolator A23538"
-        ],
-        "vehicles": [
-          {
-            "year_from": 1980,
-            "year_to": 1987,
-            "make": "Subaru",
-            "model": "Brat",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1980,
-            "year_to": 1987,
-            "make": "Subaru",
-            "model": "DL",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1980,
-            "year_to": 1989,
-            "make": "Subaru",
-            "model": "GL",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1980,
-            "year_to": 1987,
-            "make": "Subaru",
-            "model": "Standard",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          }
-        ],
-        "vehicle_labels": [
-          "1980\u20131987 Subaru Brat",
-          "1980\u20131987 Subaru DL",
-          "1980\u20131989 Subaru GL",
-          "1980\u20131987 Subaru Standard"
-        ],
-        "raw_compat_rows": 144,
-        "source": "ebay_listing",
-        "confidence": "high",
-        "ebay_item_id": "398321681218",
-        "type": "Air Filter",
-        "brand": "WIX",
-        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Filters"
-      },
-      "vehicle_count_raw": 144,
-      "ebay_item_id": "398321681218",
-      "ebay_type": "Air Filter",
-      "ebay_brand": "WIX",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Filters",
-      "images": [
-        "../assets/pdp-gallery/PZGQ24MQHBDWWDVKHYWQZGFE/02.webp",
-        "../assets/pdp-gallery/PZGQ24MQHBDWWDVKHYWQZGFE/03.webp"
       ],
       "stock": 1
     },
@@ -123929,5 +123824,5 @@
       "vehicles": []
     }
   ],
-  "fitment_built": "2026-10-02T23:03:48Z"
+  "fitment_built": "2026-10-03T00:03:37Z"
 }
