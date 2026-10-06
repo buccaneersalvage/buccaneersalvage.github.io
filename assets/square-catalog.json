@@ -1,7 +1,7 @@
 {
-  "updated": "2026-10-06T10:36:11Z",
+  "updated": "2026-10-06T11:03:47Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 867,
+  "count": 866,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -92076,121 +92076,6 @@
       "interchange": []
     },
     {
-      "id": "BWZCBSFN6DKI57MWYCUP35FT",
-      "name": "GM 15771662 Steering Column 2003-06 Silverado Sierra w/ Key",
-      "price": 150.0,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/112c56a7f17d927b77d408c1651ebfffa807fcda/original.jpeg",
-      "url": "https://square.link/u/6nDV8CTb",
-      "category": "other",
-      "checkout": true,
-      "variation_id": "FFF6D5IKA35UQYRGLX72UDYY",
-      "part_numbers": [
-        "15771662"
-      ],
-      "interchange": [
-        "35WLL",
-        "S340310493"
-      ],
-      "vehicles": [
-        "2003\u20132006 Chevrolet Silverado 1500",
-        "2003\u20132006 Chevrolet Silverado 2500 HD",
-        "2003\u20132006 Chevrolet Silverado 3500",
-        "2003\u20132006 GM 15771662",
-        "2003\u20132006 GMC Sierra 1500"
-      ],
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "high",
-      "fitment": {
-        "part_numbers": [
-          "15771662"
-        ],
-        "interchange": [
-          "35WLL",
-          "S340310493"
-        ],
-        "vehicles": [
-          {
-            "year_from": 2003,
-            "year_to": 2006,
-            "make": "Chevrolet",
-            "model": "Silverado 1500",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 2003,
-            "year_to": 2006,
-            "make": "Chevrolet",
-            "model": "Silverado 2500 HD",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 2003,
-            "year_to": 2006,
-            "make": "Chevrolet",
-            "model": "Silverado 3500",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 2003,
-            "year_to": 2006,
-            "make": "GM",
-            "model": "15771662",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 2003,
-            "year_to": 2006,
-            "make": "GMC",
-            "model": "Sierra 1500",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          }
-        ],
-        "vehicle_labels": [
-          "2003\u20132006 Chevrolet Silverado 1500",
-          "2003\u20132006 Chevrolet Silverado 2500 HD",
-          "2003\u20132006 Chevrolet Silverado 3500",
-          "2003\u20132006 GM 15771662",
-          "2003\u20132006 GMC Sierra 1500"
-        ],
-        "raw_compat_rows": 679,
-        "source": "ebay_listing",
-        "confidence": "high",
-        "ebay_item_id": "398316735224",
-        "type": "Steering Column",
-        "brand": "GM",
-        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Steering & Suspension:Steering Columns"
-      },
-      "vehicle_count_raw": 679,
-      "ebay_item_id": "398316735224",
-      "ebay_type": "Steering Column",
-      "ebay_brand": "GM",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Steering & Suspension:Steering Columns",
-      "images": [
-        "../assets/pdp-gallery/BWZCBSFN6DKI57MWYCUP35FT/02.webp",
-        "../assets/pdp-gallery/BWZCBSFN6DKI57MWYCUP35FT/03.webp",
-        "../assets/pdp-gallery/BWZCBSFN6DKI57MWYCUP35FT/04.webp",
-        "../assets/pdp-gallery/BWZCBSFN6DKI57MWYCUP35FT/05.webp",
-        "../assets/pdp-gallery/BWZCBSFN6DKI57MWYCUP35FT/06.webp",
-        "../assets/pdp-gallery/BWZCBSFN6DKI57MWYCUP35FT/07.webp"
-      ],
-      "stock": 1
-    },
-    {
       "id": "GHJ2ICH6KGCI2CTGOLC5MMPN",
       "name": "GM 20446341 6 Way Power Seat Control Switch 7 Pin 79-88 Driver Side Tested",
       "price": 99.99,
@@ -120792,5 +120677,5 @@
       "vehicles": []
     }
   ],
-  "fitment_built": "2026-10-06T10:36:11Z"
+  "fitment_built": "2026-10-06T11:03:47Z"
 }
