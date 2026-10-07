@@ -1,7 +1,7 @@
 {
-  "updated": "2026-10-07T23:04:04Z",
+  "updated": "2026-10-07T23:30:31Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 865,
+  "count": 866,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -644,11 +644,7 @@
       "ebay_type": "Air Spring Rolling Lobe (Double Convoluted)",
       "ebay_brand": "Automann",
       "ebay_category": "eBay Motors:Parts & Accessories:Commercial Truck Parts:Suspension & Steering:Air Ride Suspension",
-      "images": [
-        "../assets/pdp-gallery/KJXHVTX3TEN3CUT4DTZVWRPP/02.webp",
-        "../assets/pdp-gallery/KJXHVTX3TEN3CUT4DTZVWRPP/03.webp",
-        "../assets/pdp-gallery/KJXHVTX3TEN3CUT4DTZVWRPP/04.webp"
-      ],
+      "images": [],
       "stock": 1,
       "vehicles": []
     },
@@ -1224,11 +1220,7 @@
       "ebay_type": "Rolling Lobe Air Spring",
       "ebay_brand": "Goodyear",
       "ebay_category": "eBay Motors:Parts & Accessories:Commercial Truck Parts:Suspension & Steering:Air Ride Suspension",
-      "images": [
-        "../assets/pdp-gallery/D4ZN6XUVYQDDEAEE7WMZBY37/02.webp",
-        "../assets/pdp-gallery/D4ZN6XUVYQDDEAEE7WMZBY37/03.webp",
-        "../assets/pdp-gallery/D4ZN6XUVYQDDEAEE7WMZBY37/04.webp"
-      ],
+      "images": [],
       "stock": 1,
       "vehicles": []
     },
@@ -105200,6 +105192,47 @@
       "vehicles": []
     },
     {
+      "id": "VKR2FEZUEQ7QDXDCWQOMQ4OJ",
+      "name": "SERCON R12-14OZ Refrigerant NOS Automotive AC",
+      "price": 99.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/b2358f07ba0cee2851b924ba81f5ff345c89f2ca/original.jpeg",
+      "url": "https://square.link/u/0WHPEwzX",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "X4BQNL3VI3IOJNDUYLTKEMQB",
+      "stock": 1,
+      "part_numbers": [],
+      "interchange": [],
+      "vehicles": [],
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "",
+      "ebay_type": "",
+      "ebay_brand": "",
+      "ebay_category": "",
+      "fitment_source": "title",
+      "fitment_confidence": "low",
+      "fitment": {
+        "part_numbers": [],
+        "interchange": [],
+        "vehicles": [],
+        "vehicle_labels": [],
+        "raw_compat_rows": 0,
+        "source": "title",
+        "confidence": "low",
+        "ebay_item_id": "",
+        "type": "",
+        "brand": "",
+        "ebay_category": ""
+      },
+      "images": [
+        "../assets/pdp-gallery/VKR2FEZUEQ7QDXDCWQOMQ4OJ/02.webp",
+        "../assets/pdp-gallery/VKR2FEZUEQ7QDXDCWQOMQ4OJ/03.webp",
+        "../assets/pdp-gallery/VKR2FEZUEQ7QDXDCWQOMQ4OJ/04.webp",
+        "../assets/pdp-gallery/VKR2FEZUEQ7QDXDCWQOMQ4OJ/05.webp",
+        "../assets/pdp-gallery/VKR2FEZUEQ7QDXDCWQOMQ4OJ/06.webp"
+      ]
+    },
+    {
       "id": "BMFD7RE2ZTNTXVQC6NLRTY6L",
       "name": "Sorensen T-10 Contacts 29667 Briggs Ignition Breaker Points NOS",
       "price": 19.99,
@@ -120625,5 +120658,5 @@
       "vehicles": []
     }
   ],
-  "fitment_built": "2026-10-07T23:04:04Z"
+  "fitment_built": "2026-10-07T23:30:31Z"
 }
