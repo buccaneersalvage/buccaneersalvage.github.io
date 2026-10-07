@@ -600,7 +600,7 @@
     if (!q) return true;
     const blob = item._blob || (item._blob = buildSearchBlob(item));
     const compactBlob = compactToken(blob);
-    const tokens = q.split(/[^\p{L}\p{N}.]+/u).filter(Boolean);
+    const tokens = queryTokens(q);
     if (
       isNonVehicleDept(item) &&
       tokens.length &&
@@ -610,8 +610,40 @@
     }
     return tokens.every((tok) => {
       if (/^(?:19|20)\d{2}$/.test(tok) && yearHitsFitment(item, tok)) return true;
-      return tokenAlts(tok).some((a) => blob.includes(a) || compactBlob.includes(compactToken(a)));
+      return tokenAlts(tok).some((a) => altHitsBlob(blob, compactBlob, a));
     });
+  }
+
+  /**
+   * Digit part numbers match a word prefix (r12 hits R12-14OZ, not 1R12-103).
+   * Letter words stay substring so "camry" and "freon" still hit.
+   */
+  function altHitsBlob(blob, compactBlob, alt) {
+    const a = String(alt || "").toLowerCase();
+    if (!a) return false;
+    const ac = compactToken(a);
+    if (ac && /\d/.test(ac)) {
+      return blob.split(/\s+/).some((word) => {
+        if (!word) return false;
+        if (word === a) return true;
+        if (word.startsWith(a)) {
+          const next = word.charAt(a.length);
+          if (!next || /[^a-z0-9]/.test(next)) return true;
+        }
+        const wc = compactToken(word);
+        return !!wc && (wc === ac || wc.startsWith(ac));
+      });
+    }
+    return blob.includes(a) || !!(ac && compactBlob.includes(ac));
+  }
+
+  function queryTokens(q) {
+    // "r-12" is one part number. "freon can" drops the container word.
+    if (!/\s/.test(q)) return [q];
+    const parts = q.split(/[^\p{L}\p{N}.]+/u).filter(Boolean);
+    if (parts.length < 2) return parts;
+    const kept = parts.filter((t) => t !== "can" && t !== "cans");
+    return kept.length ? kept : parts;
   }
 
   function itemHitsMake(item, makeSlug) {
@@ -865,6 +897,12 @@
       push("ignition distributor cap coil spark plug wire vacuum advance");
     } else if (item.category === "driveline") {
       push("cv boot axle timing belt sprocket driveline");
+    }
+
+    // Shop words buyers type. R12-14OZ is not the 1R12 air-spring family.
+    const shopName = `${name} ${item.ebay_type || ""}`;
+    if (/\br-?12\b|\brefrigerant\b|\bfreon\b/i.test(shopName) && !/\boil\b/i.test(shopName)) {
+      push("freon r-12 r12 refrigerant freon can ac recharge");
     }
 
     // Dedupe tokens (preserve order), lowercase for List.js
