@@ -1,7 +1,7 @@
 {
-  "updated": "2026-10-09T19:03:53Z",
+  "updated": "2026-10-09T23:03:52Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 863,
+  "count": 862,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -49627,140 +49627,6 @@
       ],
       "stock": 1,
       "interchange": []
-    },
-    {
-      "id": "2B73HWPMBZ2GQR7DKTWDORBK",
-      "name": "Beck Arnley 175-5866 Spark Plug Wire Set 1.8L H4 1980-1994 Subaru NOS",
-      "price": 25.0,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/ad73638f90ff929fc3815c14305273f324e17aec/original.jpeg",
-      "url": "https://square.link/u/YP9B8wGS",
-      "category": "ignition",
-      "checkout": true,
-      "variation_id": "7ZRVQMZM3NSAFXGKTW54A7L7",
-      "part_numbers": [
-        "175-5866"
-      ],
-      "interchange": [
-        "NGK 9350",
-        "RC-FE27",
-        "Denso 671-4219",
-        "SMP CH7462",
-        "127462",
-        "35-4005",
-        "35-4"
-      ],
-      "vehicles": [
-        "1980\u20131987 Subaru Brat",
-        "1980\u20131989 Subaru DL",
-        "1980\u20131989 Subaru GL",
-        "1985\u20131989 Subaru GL-10",
-        "1980\u20131982 Subaru GLF",
-        "1990\u20131994 Subaru Loyale"
-      ],
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "high",
-      "fitment": {
-        "part_numbers": [
-          "175-5866"
-        ],
-        "interchange": [
-          "NGK 9350",
-          "RC-FE27",
-          "Denso 671-4219",
-          "SMP CH7462",
-          "127462",
-          "35-4005",
-          "35-4"
-        ],
-        "vehicles": [
-          {
-            "year_from": 1980,
-            "year_to": 1987,
-            "make": "Subaru",
-            "model": "Brat",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1980,
-            "year_to": 1989,
-            "make": "Subaru",
-            "model": "DL",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1980,
-            "year_to": 1989,
-            "make": "Subaru",
-            "model": "GL",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1985,
-            "year_to": 1989,
-            "make": "Subaru",
-            "model": "GL-10",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1980,
-            "year_to": 1982,
-            "make": "Subaru",
-            "model": "GLF",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1990,
-            "year_to": 1994,
-            "make": "Subaru",
-            "model": "Loyale",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          }
-        ],
-        "vehicle_labels": [
-          "1980\u20131987 Subaru Brat",
-          "1980\u20131989 Subaru DL",
-          "1980\u20131989 Subaru GL",
-          "1985\u20131989 Subaru GL-10",
-          "1980\u20131982 Subaru GLF",
-          "1990\u20131994 Subaru Loyale"
-        ],
-        "raw_compat_rows": 142,
-        "source": "ebay_listing",
-        "confidence": "high",
-        "ebay_item_id": "398332908412",
-        "type": "Spark Plug Wire Set",
-        "brand": "Beck Arnley",
-        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Wires & Coil Boots"
-      },
-      "vehicle_count_raw": 142,
-      "ebay_item_id": "398332908412",
-      "ebay_type": "Spark Plug Wire Set",
-      "ebay_brand": "Beck Arnley",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Wires & Coil Boots",
-      "images": [
-        "../assets/pdp-gallery/2B73HWPMBZ2GQR7DKTWDORBK/02.webp",
-        "../assets/pdp-gallery/2B73HWPMBZ2GQR7DKTWDORBK/03.webp",
-        "../assets/pdp-gallery/2B73HWPMBZ2GQR7DKTWDORBK/04.webp"
-      ],
-      "stock": 1
     },
     {
       "id": "V6E6YMVF4CUWOXGYAJ35GSHX",
@@ -120127,5 +119993,5 @@
       "vehicles": []
     }
   ],
-  "fitment_built": "2026-10-09T19:03:53Z"
+  "fitment_built": "2026-10-09T23:03:52Z"
 }
