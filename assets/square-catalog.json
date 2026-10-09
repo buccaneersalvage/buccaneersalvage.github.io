@@ -1,7 +1,7 @@
 {
-  "updated": "2026-10-09T05:03:37Z",
+  "updated": "2026-10-09T13:35:33Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 865,
+  "count": 864,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -44810,66 +44810,6 @@
         "../assets/pdp-gallery/LSN2LRHG4CPLFJHJQURJG377/03.webp"
       ],
       "stock": 1
-    },
-    {
-      "id": "HHYQWZ53RG5G4DUKOEA362V4",
-      "name": "WIX 46443 Air Filter 1998-2002 Honda Accord 2.3L NOS",
-      "price": 12.99,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/ec14ac3e25bcbdba7d767e1e2b3dc9d3783b786e/original.jpeg",
-      "url": "https://square.link/u/7m3QLJ5X",
-      "category": "filters",
-      "checkout": true,
-      "variation_id": "HQCA7WEIR6EMAZZWPSUTWZZC",
-      "part_numbers": [
-        "46443",
-        "CA8133, PA5248"
-      ],
-      "vehicles": [
-        "1998\u20132002 Honda Accord"
-      ],
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "high",
-      "fitment": {
-        "part_numbers": [
-          "46443",
-          "CA8133, PA5248"
-        ],
-        "interchange": [],
-        "vehicles": [
-          {
-            "year_from": 1998,
-            "year_to": 2002,
-            "make": "Honda",
-            "model": "Accord",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          }
-        ],
-        "vehicle_labels": [
-          "1998\u20132002 Honda Accord"
-        ],
-        "raw_compat_rows": 37,
-        "source": "ebay_listing",
-        "confidence": "high",
-        "ebay_item_id": "398414494514",
-        "type": "Air Filter",
-        "brand": "WIX",
-        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Filters"
-      },
-      "vehicle_count_raw": 37,
-      "ebay_item_id": "398414494514",
-      "ebay_type": "Air Filter",
-      "ebay_brand": "WIX",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Filters",
-      "images": [
-        "../assets/pdp-gallery/HHYQWZ53RG5G4DUKOEA362V4/02.webp",
-        "../assets/pdp-gallery/HHYQWZ53RG5G4DUKOEA362V4/03.webp",
-        "../assets/pdp-gallery/HHYQWZ53RG5G4DUKOEA362V4/04.webp"
-      ],
-      "stock": 1,
-      "interchange": []
     },
     {
       "id": "DN7H7EL6DFKNVCLBBAFMSBWW",
@@ -120320,5 +120260,5 @@
       "vehicles": []
     }
   ],
-  "fitment_built": "2026-10-09T05:03:37Z"
+  "fitment_built": "2026-10-09T13:35:33Z"
 }
