@@ -1,7 +1,7 @@
 {
-  "updated": "2026-10-09T14:03:54Z",
+  "updated": "2026-10-09T18:03:48Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 864,
+  "count": 863,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -71908,139 +71908,6 @@
       "stock": 1
     },
     {
-      "id": "AEOP6VWNTLDURMOOLNN4QRNS",
-      "name": "Borg-Warner 20802 Air Switch Valve NOS 2.2 84-87 Caravan",
-      "price": 19.99,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/aa3ce6557ecc6eec883303d5dbe245dac8fdc10f/original.jpeg",
-      "url": "https://square.link/u/WvN3rucM",
-      "category": "other",
-      "checkout": true,
-      "variation_id": "QVDEQXB3ANLNS22WGNWNIFDB",
-      "part_numbers": [
-        "20802",
-        "Chrysler 4275053"
-      ],
-      "vehicles": [
-        "1984\u20131986 Chrysler Laser",
-        "1984\u20131986 Chrysler LeBaron",
-        "1984\u20131986 Chrysler New Yorker",
-        "1984\u20131986 Chrysler Town & Country",
-        "1984\u20131986 Dodge 600",
-        "1984\u20131986 Dodge Aries",
-        "1984\u20131987 Dodge Caravan"
-      ],
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "high",
-      "fitment": {
-        "part_numbers": [
-          "20802",
-          "Chrysler 4275053"
-        ],
-        "interchange": [],
-        "vehicles": [
-          {
-            "year_from": 1984,
-            "year_to": 1986,
-            "make": "Chrysler",
-            "model": "Laser",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1984,
-            "year_to": 1986,
-            "make": "Chrysler",
-            "model": "LeBaron",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1984,
-            "year_to": 1986,
-            "make": "Chrysler",
-            "model": "New Yorker",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1984,
-            "year_to": 1986,
-            "make": "Chrysler",
-            "model": "Town & Country",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1984,
-            "year_to": 1986,
-            "make": "Dodge",
-            "model": "600",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1984,
-            "year_to": 1986,
-            "make": "Dodge",
-            "model": "Aries",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1984,
-            "year_to": 1987,
-            "make": "Dodge",
-            "model": "Caravan",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          }
-        ],
-        "vehicle_labels": [
-          "1984\u20131986 Chrysler Laser",
-          "1984\u20131986 Chrysler LeBaron",
-          "1984\u20131986 Chrysler New Yorker",
-          "1984\u20131986 Chrysler Town & Country",
-          "1984\u20131986 Dodge 600",
-          "1984\u20131986 Dodge Aries",
-          "1984\u20131987 Dodge Caravan"
-        ],
-        "raw_compat_rows": 124,
-        "source": "ebay_listing",
-        "confidence": "high",
-        "ebay_item_id": "398336335030",
-        "type": "Air Switch Valve",
-        "brand": "Borg-Warner",
-        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Exhaust & Emission Systems:Air Bypass Valves"
-      },
-      "vehicle_count_raw": 124,
-      "ebay_item_id": "398336335030",
-      "ebay_type": "Air Switch Valve",
-      "ebay_brand": "Borg-Warner",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Exhaust & Emission Systems:Air Bypass Valves",
-      "images": [
-        "../assets/pdp-gallery/AEOP6VWNTLDURMOOLNN4QRNS/02.webp",
-        "../assets/pdp-gallery/AEOP6VWNTLDURMOOLNN4QRNS/03.webp",
-        "../assets/pdp-gallery/AEOP6VWNTLDURMOOLNN4QRNS/04.webp",
-        "../assets/pdp-gallery/AEOP6VWNTLDURMOOLNN4QRNS/05.webp"
-      ],
-      "stock": 1,
-      "interchange": []
-    },
-    {
       "id": "76EIMHSX67UOCLAWCBIO3NEK",
       "name": "Bulova Accutron 2 Quartz Elgin Ladies Watch Lot of 3 Gold Mesh Tank Parts Repair",
       "price": 74.99,
@@ -120260,5 +120127,5 @@
       "vehicles": []
     }
   ],
-  "fitment_built": "2026-10-09T14:03:54Z"
+  "fitment_built": "2026-10-09T18:03:48Z"
 }
