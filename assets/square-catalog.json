@@ -1,7 +1,7 @@
 {
-  "updated": "2026-10-10T00:04:30Z",
+  "updated": "2026-10-10T14:04:13Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 862,
+  "count": 861,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -102633,86 +102633,6 @@
       "vehicles": []
     },
     {
-      "id": "UVQFAYT3KEY7JBGGEHSW3TV2",
-      "name": "OEM 1981-1987 Chevy GMC Squarebody Radiator Core Support C10 K10 Single Light",
-      "price": 200.0,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/4959449a05977394e635a76735d1200368cd6a67/original.jpeg",
-      "url": "https://square.link/u/Z7UxYyJm",
-      "category": "other",
-      "checkout": true,
-      "variation_id": "TDGZZPNYAUQAXYKTEHOHAWNH",
-      "part_numbers": [
-        "OEM 1981"
-      ],
-      "vehicles": [
-        "1981\u20131986 Chevrolet C10",
-        "1981\u20131986 Chevrolet K10",
-        "1981\u20131987 GMC Squarebody"
-      ],
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "high",
-      "fitment": {
-        "part_numbers": [
-          "OEM 1981"
-        ],
-        "interchange": [],
-        "vehicles": [
-          {
-            "year_from": 1981,
-            "year_to": 1986,
-            "make": "Chevrolet",
-            "model": "C10",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1981,
-            "year_to": 1986,
-            "make": "Chevrolet",
-            "model": "K10",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1981,
-            "year_to": 1987,
-            "make": "GMC",
-            "model": "Squarebody",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          }
-        ],
-        "vehicle_labels": [
-          "1981\u20131986 Chevrolet C10",
-          "1981\u20131986 Chevrolet K10",
-          "1981\u20131987 GMC Squarebody"
-        ],
-        "raw_compat_rows": 156,
-        "source": "ebay_listing",
-        "confidence": "high",
-        "ebay_item_id": "398314527895",
-        "type": "Radiator Support",
-        "brand": "Chevrolet",
-        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Exterior Parts & Accessories:Panels:Additional Panels"
-      },
-      "vehicle_count_raw": 156,
-      "ebay_item_id": "398314527895",
-      "ebay_type": "Radiator Support",
-      "ebay_brand": "Chevrolet",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Exterior Parts & Accessories:Panels:Additional Panels",
-      "images": [
-        "../assets/pdp-gallery/UVQFAYT3KEY7JBGGEHSW3TV2/02.webp"
-      ],
-      "stock": 1,
-      "interchange": []
-    },
-    {
       "id": "62Y6XUVP2RHYQ5L4RPXRIWFX",
       "name": "OEM GM 4L60E Transmission Oil Pan Aluminum 13.5\" x 10.5\" 4L65E Silverado",
       "price": 34.99,
@@ -119993,5 +119913,5 @@
       "vehicles": []
     }
   ],
-  "fitment_built": "2026-10-10T00:04:30Z"
+  "fitment_built": "2026-10-10T14:04:13Z"
 }
