@@ -1,7 +1,7 @@
 {
-  "updated": "2026-10-13T22:04:22Z",
+  "updated": "2026-10-14T01:05:44Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 856,
+  "count": 857,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -75168,6 +75168,80 @@
       "vehicles": []
     },
     {
+      "id": "F3HDFZQ6TG4OLGGJRKOYKCJI",
+      "name": "Delco 25-265316-1 Digital Cluster 88-91 Cadillac Seville Eldorado 4.5 4.9",
+      "price": 199.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/c3393f58ab9b228acd765fed185e0cccf77c98a6/original.jpeg",
+      "url": "https://square.link/u/lAirhBtZ",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "2KTQKF6X4PNHXTUV4HL2Y6SK",
+      "stock": 1,
+      "part_numbers": [
+        "265316",
+        "25-265316-1 47646002312224 W-62 EIP 528"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1988\u20131991 Cadillac Eldorado",
+        "1988\u20131991 Cadillac Seville"
+      ],
+      "vehicle_count_raw": 19,
+      "ebay_item_id": "920037295935",
+      "ebay_type": "Instrument Cluster",
+      "ebay_brand": "Delco",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Engines",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "265316",
+          "25-265316-1 47646002312224 W-62 EIP 528"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1988,
+            "year_to": 1991,
+            "make": "Cadillac",
+            "model": "Eldorado",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1988,
+            "year_to": 1991,
+            "make": "Cadillac",
+            "model": "Seville",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1988\u20131991 Cadillac Eldorado",
+          "1988\u20131991 Cadillac Seville"
+        ],
+        "raw_compat_rows": 19,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "920037295935",
+        "type": "Instrument Cluster",
+        "brand": "Delco",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Engines"
+      },
+      "images": [
+        "../assets/pdp-gallery/F3HDFZQ6TG4OLGGJRKOYKCJI/02.webp",
+        "../assets/pdp-gallery/F3HDFZQ6TG4OLGGJRKOYKCJI/03.webp",
+        "../assets/pdp-gallery/F3HDFZQ6TG4OLGGJRKOYKCJI/04.webp",
+        "../assets/pdp-gallery/F3HDFZQ6TG4OLGGJRKOYKCJI/05.webp",
+        "../assets/pdp-gallery/F3HDFZQ6TG4OLGGJRKOYKCJI/06.webp"
+      ]
+    },
+    {
       "id": "W5PHRTXPG3C5J65NAG7RBJAQ",
       "name": "Delco Pontiac AM/FM Cassette CD Radio 16213372 OEM Tested",
       "price": 64.99,
@@ -119353,5 +119427,5 @@
       "vehicles": []
     }
   ],
-  "fitment_built": "2026-10-13T22:04:22Z"
+  "fitment_built": "2026-10-14T01:05:44Z"
 }
