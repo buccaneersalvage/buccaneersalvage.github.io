@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-14T19:04:18Z",
+  "updated": "2026-10-14T20:03:47Z",
   "store": "https://buccaneersalvage.square.site/",
   "count": 865,
   "items": [
@@ -53658,7 +53658,7 @@
       "ebay_type": "Relay",
       "ebay_brand": "GM",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Other Ignition Systems & Components",
-      "fitment_source": "ebay_listing+title",
+      "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
@@ -53725,7 +53725,7 @@
           "1972 GM 3996297"
         ],
         "raw_compat_rows": 82,
-        "source": "ebay_listing+title",
+        "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "920039910101",
         "type": "Relay",
@@ -53735,8 +53735,7 @@
       "images": [
         "../assets/pdp-gallery/Q3S3PS7ZWHGB2ASRBOUHF6UP/02.webp",
         "../assets/pdp-gallery/Q3S3PS7ZWHGB2ASRBOUHF6UP/03.webp",
-        "../assets/pdp-gallery/Q3S3PS7ZWHGB2ASRBOUHF6UP/04.webp",
-        "../assets/pdp-gallery/Q3S3PS7ZWHGB2ASRBOUHF6UP/05.webp"
+        "../assets/pdp-gallery/Q3S3PS7ZWHGB2ASRBOUHF6UP/04.webp"
       ]
     },
     {
@@ -90943,7 +90942,7 @@
       "ebay_type": "Switch Plate",
       "ebay_brand": "GM",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Exterior Parts & Accessories:Doors, Trunk Lids & Hatches:Hatches & Trunk Lids",
-      "fitment_source": "ebay_listing+title",
+      "fitment_source": "ebay_listing",
       "fitment_confidence": "medium",
       "fitment": {
         "part_numbers": [
@@ -90966,7 +90965,7 @@
           "1968 GM 10063098"
         ],
         "raw_compat_rows": 1,
-        "source": "ebay_listing+title",
+        "source": "ebay_listing",
         "confidence": "medium",
         "ebay_item_id": "920039913335",
         "type": "Switch Plate",
@@ -90976,7 +90975,8 @@
       "images": [
         "../assets/pdp-gallery/GZZTIR7UBCHHBMOANGAXYR4K/02.webp",
         "../assets/pdp-gallery/GZZTIR7UBCHHBMOANGAXYR4K/03.webp",
-        "../assets/pdp-gallery/GZZTIR7UBCHHBMOANGAXYR4K/04.webp"
+        "../assets/pdp-gallery/GZZTIR7UBCHHBMOANGAXYR4K/04.webp",
+        "../assets/pdp-gallery/GZZTIR7UBCHHBMOANGAXYR4K/05.webp"
       ]
     },
     {
@@ -91586,7 +91586,7 @@
       "ebay_type": "Rocker Panel Molding Clip",
       "ebay_brand": "GM",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Exterior Parts & Accessories:Body Moldings & Trims",
-      "fitment_source": "ebay_listing+title",
+      "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
@@ -91622,7 +91622,7 @@
           "1992\u20131999 Pontiac Bonneville"
         ],
         "raw_compat_rows": 34,
-        "source": "ebay_listing+title",
+        "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "920039893625",
         "type": "Rocker Panel Molding Clip",
@@ -91794,7 +91794,7 @@
       "ebay_type": "Pinion Bearing Spacer",
       "ebay_brand": "GM",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:Differentials, Assemblies & Parts:Additional Differential Parts",
-      "fitment_source": "ebay_listing+title",
+      "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
@@ -91828,7 +91828,7 @@
           "1955\u20131964 GM 3705722"
         ],
         "raw_compat_rows": 8,
-        "source": "ebay_listing+title",
+        "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "920039888574",
         "type": "Pinion Bearing Spacer",
@@ -120030,5 +120030,5 @@
       "vehicles": []
     }
   ],
-  "fitment_built": "2026-10-14T19:04:18Z"
+  "fitment_built": "2026-10-14T20:03:47Z"
 }
