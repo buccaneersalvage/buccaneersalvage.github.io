@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-14T15:03:49Z",
+  "updated": "2026-10-14T16:03:44Z",
   "store": "https://buccaneersalvage.square.site/",
   "count": 861,
   "items": [
@@ -91277,7 +91277,7 @@
       "ebay_type": "Side Marker Light",
       "ebay_brand": "GM",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Lighting & Lamps:Side Marker Light Assemblies",
-      "fitment_source": "ebay_listing+title",
+      "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
@@ -91311,7 +91311,7 @@
           "1988\u20131990 GM 16508217"
         ],
         "raw_compat_rows": 47,
-        "source": "ebay_listing+title",
+        "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "920039383972",
         "type": "Side Marker Light",
@@ -119722,5 +119722,5 @@
       "vehicles": []
     }
   ],
-  "fitment_built": "2026-10-14T15:03:49Z"
+  "fitment_built": "2026-10-14T16:03:44Z"
 }
