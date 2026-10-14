@@ -1,7 +1,7 @@
 {
-  "updated": "2026-10-14T11:27:41Z",
+  "updated": "2026-10-14T15:03:49Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 857,
+  "count": 861,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -70733,6 +70733,116 @@
       "interchange": []
     },
     {
+      "id": "INV4SUPULLMTK4WOCT2WQWI6",
+      "name": "ACDelco D1595G 15194803 Headlamp Switch 2003-2007 Silverado Sierra Tahoe Used",
+      "price": 12.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/8799de4d485d7e3160b7a8b2ff0511871b9aec3a/original.jpeg",
+      "url": "https://square.link/u/z0WdoTXO",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "WDOB5QFLMK5LIQNEYB3GMDCJ",
+      "stock": 1,
+      "part_numbers": [
+        "D1595G",
+        "15176678 15198374"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "2003\u20132006 Cadillac Escalade",
+        "2003\u20132006 Chevrolet Tahoe",
+        "2007 GMC Sierra",
+        "2003\u20132006 GMC Yukon",
+        "2003\u20132007 Hummer H2"
+      ],
+      "vehicle_count_raw": 89,
+      "ebay_item_id": "920039398666",
+      "ebay_type": "Headlamp Switch",
+      "ebay_brand": "ACDelco",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Interior Parts & Accessories:Switches & Controls",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "D1595G",
+          "15176678 15198374"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 2003,
+            "year_to": 2006,
+            "make": "Cadillac",
+            "model": "Escalade",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2003,
+            "year_to": 2006,
+            "make": "Chevrolet",
+            "model": "Tahoe",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2007,
+            "year_to": 2007,
+            "make": "GMC",
+            "model": "Sierra",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2003,
+            "year_to": 2006,
+            "make": "GMC",
+            "model": "Yukon",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2003,
+            "year_to": 2007,
+            "make": "Hummer",
+            "model": "H2",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "2003\u20132006 Cadillac Escalade",
+          "2003\u20132006 Chevrolet Tahoe",
+          "2007 GMC Sierra",
+          "2003\u20132006 GMC Yukon",
+          "2003\u20132007 Hummer H2"
+        ],
+        "raw_compat_rows": 89,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "920039398666",
+        "type": "Headlamp Switch",
+        "brand": "ACDelco",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Interior Parts & Accessories:Switches & Controls"
+      },
+      "images": [
+        "../assets/pdp-gallery/INV4SUPULLMTK4WOCT2WQWI6/02.webp",
+        "../assets/pdp-gallery/INV4SUPULLMTK4WOCT2WQWI6/03.webp",
+        "../assets/pdp-gallery/INV4SUPULLMTK4WOCT2WQWI6/04.webp",
+        "../assets/pdp-gallery/INV4SUPULLMTK4WOCT2WQWI6/05.webp",
+        "../assets/pdp-gallery/INV4SUPULLMTK4WOCT2WQWI6/06.webp"
+      ]
+    },
+    {
       "id": "BOHM2OSDRIQ6OPA3HQVL5WJY",
       "name": "ACDelco D8041 GM 89057520 Oil Pressure Switch Camaro Firebird 93-02 NOS",
       "price": 34.99,
@@ -75176,21 +75286,14 @@
       "category": "other",
       "checkout": true,
       "variation_id": "2KTQKF6X4PNHXTUV4HL2Y6SK",
-      "stock": 1,
       "part_numbers": [
         "265316",
         "25-265316-1 47646002312224 W-62 EIP 528"
       ],
-      "interchange": [],
       "vehicles": [
         "1988\u20131991 Cadillac Eldorado",
         "1988\u20131991 Cadillac Seville"
       ],
-      "vehicle_count_raw": 19,
-      "ebay_item_id": "920037295935",
-      "ebay_type": "Instrument Cluster",
-      "ebay_brand": "Delco",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Engines",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -75233,13 +75336,21 @@
         "brand": "Delco",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Engines"
       },
+      "vehicle_count_raw": 19,
+      "ebay_item_id": "920037295935",
+      "ebay_type": "Instrument Cluster",
+      "ebay_brand": "Delco",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Engines",
       "images": [
         "../assets/pdp-gallery/F3HDFZQ6TG4OLGGJRKOYKCJI/02.webp",
         "../assets/pdp-gallery/F3HDFZQ6TG4OLGGJRKOYKCJI/03.webp",
         "../assets/pdp-gallery/F3HDFZQ6TG4OLGGJRKOYKCJI/04.webp",
         "../assets/pdp-gallery/F3HDFZQ6TG4OLGGJRKOYKCJI/05.webp",
-        "../assets/pdp-gallery/F3HDFZQ6TG4OLGGJRKOYKCJI/06.webp"
-      ]
+        "../assets/pdp-gallery/F3HDFZQ6TG4OLGGJRKOYKCJI/06.webp",
+        "../assets/pdp-gallery/F3HDFZQ6TG4OLGGJRKOYKCJI/07.webp"
+      ],
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "W5PHRTXPG3C5J65NAG7RBJAQ",
@@ -91142,6 +91253,148 @@
       "stock": 1,
       "part_numbers": [],
       "interchange": []
+    },
+    {
+      "id": "ZZQZGOFKBEPVZRGCD5PHFH3D",
+      "name": "GM 16508217 LH Rear Side Marker Lamp 1988-1990 Chevrolet Cavalier RS Z24 NOS",
+      "price": 12.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/ea71a842c7af36da6a8c9e35af9d74871122c48c/original.jpeg",
+      "url": "https://square.link/u/j03ms5s6",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "IL45JLJICMRJZWV6VZAOOYTA",
+      "stock": 1,
+      "part_numbers": [
+        "16508217"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1988\u20131990 Chevrolet Cavalier",
+        "1988\u20131990 GM 16508217"
+      ],
+      "vehicle_count_raw": 47,
+      "ebay_item_id": "920039383972",
+      "ebay_type": "Side Marker Light",
+      "ebay_brand": "GM",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Lighting & Lamps:Side Marker Light Assemblies",
+      "fitment_source": "ebay_listing+title",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "16508217"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1988,
+            "year_to": 1990,
+            "make": "Chevrolet",
+            "model": "Cavalier",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1988,
+            "year_to": 1990,
+            "make": "GM",
+            "model": "16508217",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1988\u20131990 Chevrolet Cavalier",
+          "1988\u20131990 GM 16508217"
+        ],
+        "raw_compat_rows": 47,
+        "source": "ebay_listing+title",
+        "confidence": "high",
+        "ebay_item_id": "920039383972",
+        "type": "Side Marker Light",
+        "brand": "GM",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Lighting & Lamps:Side Marker Light Assemblies"
+      },
+      "images": [
+        "../assets/pdp-gallery/ZZQZGOFKBEPVZRGCD5PHFH3D/02.webp",
+        "../assets/pdp-gallery/ZZQZGOFKBEPVZRGCD5PHFH3D/03.webp",
+        "../assets/pdp-gallery/ZZQZGOFKBEPVZRGCD5PHFH3D/04.webp"
+      ]
+    },
+    {
+      "id": "GJCUAJ6UL2JXI53CR7SZMU64",
+      "name": "GM 20701022 Power Seat Switch 86-91 Cadillac Eldorado Seville LH Tested 6 Way",
+      "price": 89.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/6840bba9b7959703c910c8664874ab4be87f33f9/original.jpeg",
+      "url": "https://square.link/u/0i4rA5Qs",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "36577CEVNPIIDKGZKVIAI3RD",
+      "stock": 1,
+      "part_numbers": [
+        "20701022",
+        "Controls Company of America 7-Wire"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1986\u20131991 Cadillac Eldorado",
+        "1986\u20131991 Cadillac Seville"
+      ],
+      "vehicle_count_raw": 26,
+      "ebay_item_id": "920039442407",
+      "ebay_type": "Power Seat Switch",
+      "ebay_brand": "GM",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Interior Parts & Accessories:Switches & Controls",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "20701022",
+          "Controls Company of America 7-Wire"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1986,
+            "year_to": 1991,
+            "make": "Cadillac",
+            "model": "Eldorado",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1986,
+            "year_to": 1991,
+            "make": "Cadillac",
+            "model": "Seville",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1986\u20131991 Cadillac Eldorado",
+          "1986\u20131991 Cadillac Seville"
+        ],
+        "raw_compat_rows": 26,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "920039442407",
+        "type": "Power Seat Switch",
+        "brand": "GM",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Interior Parts & Accessories:Switches & Controls"
+      },
+      "images": [
+        "../assets/pdp-gallery/GJCUAJ6UL2JXI53CR7SZMU64/02.webp",
+        "../assets/pdp-gallery/GJCUAJ6UL2JXI53CR7SZMU64/03.webp",
+        "../assets/pdp-gallery/GJCUAJ6UL2JXI53CR7SZMU64/04.webp"
+      ]
     },
     {
       "id": "M6RXTCCFCS7T3IY57547JJRR",
@@ -115737,6 +115990,48 @@
       "vehicles": []
     },
     {
+      "id": "4RWXJXZFRLRGR4Q3L5AML436",
+      "name": "Valley Forge 28219 1 Inch Anti-Wrap Rotating Flag Mounting Rings Pack of 2 NOS",
+      "price": 12.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/0c2cf911e02db7a6ab461473e52a8485f530a6e9/original.jpeg",
+      "url": "https://square.link/u/VtKcY5f8",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "CHEWYGWN2MHJSYZNWTFH44IT",
+      "stock": 1,
+      "part_numbers": [
+        "28219"
+      ],
+      "interchange": [],
+      "vehicles": [],
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "920039346848",
+      "ebay_type": "Flag Pole Part",
+      "ebay_brand": "Valley Forge",
+      "ebay_category": "Home & Garden:Yard, Garden & Outdoor Living:D\u00e9cor:Flag Poles & Parts",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "medium",
+      "fitment": {
+        "part_numbers": [
+          "28219"
+        ],
+        "interchange": [],
+        "vehicles": [],
+        "vehicle_labels": [],
+        "raw_compat_rows": 0,
+        "source": "ebay_listing",
+        "confidence": "medium",
+        "ebay_item_id": "920039346848",
+        "type": "Flag Pole Part",
+        "brand": "Valley Forge",
+        "ebay_category": "Home & Garden:Yard, Garden & Outdoor Living:D\u00e9cor:Flag Poles & Parts"
+      },
+      "images": [
+        "../assets/pdp-gallery/4RWXJXZFRLRGR4Q3L5AML436/02.webp",
+        "../assets/pdp-gallery/4RWXJXZFRLRGR4Q3L5AML436/03.webp"
+      ]
+    },
+    {
       "id": "4IWVMECZEMO5R5Z57FJ4ZNDQ",
       "name": "Victor JV544 Rear Main Kit NOS 87-89 Century 2.8",
       "price": 19.99,
@@ -119427,5 +119722,5 @@
       "vehicles": []
     }
   ],
-  "fitment_built": "2026-10-14T11:27:41Z"
+  "fitment_built": "2026-10-14T15:03:49Z"
 }
