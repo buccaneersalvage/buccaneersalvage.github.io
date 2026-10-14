@@ -1,7 +1,7 @@
 {
-  "updated": "2026-10-14T16:03:44Z",
+  "updated": "2026-10-14T19:04:18Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 861,
+  "count": 865,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -53633,6 +53633,113 @@
       "interchange": []
     },
     {
+      "id": "Q3S3PS7ZWHGB2ASRBOUHF6UP",
+      "name": "NOS GM 3996297 TCS Vacuum Advance Delay Relay 1972 Corvette Camaro Chevelle Nova",
+      "price": 34.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/e9c3bd4d2111f6ffe2084e8a44392de25000bf79/original.jpeg",
+      "url": "https://square.link/u/pOPM19dU",
+      "category": "ignition",
+      "checkout": true,
+      "variation_id": "XMBLZHELRSNHHLLIKYFE6PYA",
+      "stock": 1,
+      "part_numbers": [
+        "3996297"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1972 Chevrolet Camaro",
+        "1972 Chevrolet Chevelle",
+        "1972 Chevrolet Corvette",
+        "1972 Chevrolet Nova",
+        "1972 GM 3996297"
+      ],
+      "vehicle_count_raw": 82,
+      "ebay_item_id": "920039910101",
+      "ebay_type": "Relay",
+      "ebay_brand": "GM",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Other Ignition Systems & Components",
+      "fitment_source": "ebay_listing+title",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "3996297"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1972,
+            "year_to": 1972,
+            "make": "Chevrolet",
+            "model": "Camaro",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1972,
+            "year_to": 1972,
+            "make": "Chevrolet",
+            "model": "Chevelle",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1972,
+            "year_to": 1972,
+            "make": "Chevrolet",
+            "model": "Corvette",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1972,
+            "year_to": 1972,
+            "make": "Chevrolet",
+            "model": "Nova",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1972,
+            "year_to": 1972,
+            "make": "GM",
+            "model": "3996297",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1972 Chevrolet Camaro",
+          "1972 Chevrolet Chevelle",
+          "1972 Chevrolet Corvette",
+          "1972 Chevrolet Nova",
+          "1972 GM 3996297"
+        ],
+        "raw_compat_rows": 82,
+        "source": "ebay_listing+title",
+        "confidence": "high",
+        "ebay_item_id": "920039910101",
+        "type": "Relay",
+        "brand": "GM",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Other Ignition Systems & Components"
+      },
+      "images": [
+        "../assets/pdp-gallery/Q3S3PS7ZWHGB2ASRBOUHF6UP/02.webp",
+        "../assets/pdp-gallery/Q3S3PS7ZWHGB2ASRBOUHF6UP/03.webp",
+        "../assets/pdp-gallery/Q3S3PS7ZWHGB2ASRBOUHF6UP/04.webp",
+        "../assets/pdp-gallery/Q3S3PS7ZWHGB2ASRBOUHF6UP/05.webp"
+      ]
+    },
+    {
       "id": "PCHJKPBC4UK2ADASIUSBHJYV",
       "name": "Pace Setter PT-1372 Distributor Rotor NOS 1.8 2.0 2.5 S10 Camaro",
       "price": 12.99,
@@ -70741,12 +70848,10 @@
       "category": "other",
       "checkout": true,
       "variation_id": "WDOB5QFLMK5LIQNEYB3GMDCJ",
-      "stock": 1,
       "part_numbers": [
         "D1595G",
         "15176678 15198374"
       ],
-      "interchange": [],
       "vehicles": [
         "2003\u20132006 Cadillac Escalade",
         "2003\u20132006 Chevrolet Tahoe",
@@ -70754,11 +70859,6 @@
         "2003\u20132006 GMC Yukon",
         "2003\u20132007 Hummer H2"
       ],
-      "vehicle_count_raw": 89,
-      "ebay_item_id": "920039398666",
-      "ebay_type": "Headlamp Switch",
-      "ebay_brand": "ACDelco",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Interior Parts & Accessories:Switches & Controls",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -70834,13 +70934,20 @@
         "brand": "ACDelco",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Interior Parts & Accessories:Switches & Controls"
       },
+      "vehicle_count_raw": 89,
+      "ebay_item_id": "920039398666",
+      "ebay_type": "Headlamp Switch",
+      "ebay_brand": "ACDelco",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Interior Parts & Accessories:Switches & Controls",
       "images": [
         "../assets/pdp-gallery/INV4SUPULLMTK4WOCT2WQWI6/02.webp",
         "../assets/pdp-gallery/INV4SUPULLMTK4WOCT2WQWI6/03.webp",
         "../assets/pdp-gallery/INV4SUPULLMTK4WOCT2WQWI6/04.webp",
         "../assets/pdp-gallery/INV4SUPULLMTK4WOCT2WQWI6/05.webp",
         "../assets/pdp-gallery/INV4SUPULLMTK4WOCT2WQWI6/06.webp"
-      ]
+      ],
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "BOHM2OSDRIQ6OPA3HQVL5WJY",
@@ -90815,6 +90922,64 @@
       "interchange": []
     },
     {
+      "id": "GZZTIR7UBCHHBMOANGAXYR4K",
+      "name": "GM 10063098 Door Window Switch Plate Chrome 1968 OEM Lock Power Window",
+      "price": 39.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/bc6f4816061a90a9aebb8b9da124f5e302eea3de/original.jpeg",
+      "url": "https://square.link/u/bJ9LlBvw",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "PTQKXJFYHTVUGS7VOGEYOGQY",
+      "stock": 1,
+      "part_numbers": [
+        "10063098"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1968 GM 10063098"
+      ],
+      "vehicle_count_raw": 1,
+      "ebay_item_id": "920039913335",
+      "ebay_type": "Switch Plate",
+      "ebay_brand": "GM",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Exterior Parts & Accessories:Doors, Trunk Lids & Hatches:Hatches & Trunk Lids",
+      "fitment_source": "ebay_listing+title",
+      "fitment_confidence": "medium",
+      "fitment": {
+        "part_numbers": [
+          "10063098"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1968,
+            "year_to": 1968,
+            "make": "GM",
+            "model": "10063098",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1968 GM 10063098"
+        ],
+        "raw_compat_rows": 1,
+        "source": "ebay_listing+title",
+        "confidence": "medium",
+        "ebay_item_id": "920039913335",
+        "type": "Switch Plate",
+        "brand": "GM",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Exterior Parts & Accessories:Doors, Trunk Lids & Hatches:Hatches & Trunk Lids"
+      },
+      "images": [
+        "../assets/pdp-gallery/GZZTIR7UBCHHBMOANGAXYR4K/02.webp",
+        "../assets/pdp-gallery/GZZTIR7UBCHHBMOANGAXYR4K/03.webp",
+        "../assets/pdp-gallery/GZZTIR7UBCHHBMOANGAXYR4K/04.webp"
+      ]
+    },
+    {
       "id": "CLXMCJWEUVD2O3OXCR5X3TV7",
       "name": "GM 10324036 LH Slide Door Actuator 3.4 3.5 3.9 Uplander NOS",
       "price": 59.99,
@@ -91263,20 +91428,13 @@
       "category": "other",
       "checkout": true,
       "variation_id": "IL45JLJICMRJZWV6VZAOOYTA",
-      "stock": 1,
       "part_numbers": [
         "16508217"
       ],
-      "interchange": [],
       "vehicles": [
         "1988\u20131990 Chevrolet Cavalier",
         "1988\u20131990 GM 16508217"
       ],
-      "vehicle_count_raw": 47,
-      "ebay_item_id": "920039383972",
-      "ebay_type": "Side Marker Light",
-      "ebay_brand": "GM",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Lighting & Lamps:Side Marker Light Assemblies",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -91318,11 +91476,18 @@
         "brand": "GM",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Lighting & Lamps:Side Marker Light Assemblies"
       },
+      "vehicle_count_raw": 47,
+      "ebay_item_id": "920039383972",
+      "ebay_type": "Side Marker Light",
+      "ebay_brand": "GM",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Lighting & Lamps:Side Marker Light Assemblies",
       "images": [
         "../assets/pdp-gallery/ZZQZGOFKBEPVZRGCD5PHFH3D/02.webp",
         "../assets/pdp-gallery/ZZQZGOFKBEPVZRGCD5PHFH3D/03.webp",
         "../assets/pdp-gallery/ZZQZGOFKBEPVZRGCD5PHFH3D/04.webp"
-      ]
+      ],
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "GJCUAJ6UL2JXI53CR7SZMU64",
@@ -91333,21 +91498,14 @@
       "category": "other",
       "checkout": true,
       "variation_id": "36577CEVNPIIDKGZKVIAI3RD",
-      "stock": 1,
       "part_numbers": [
         "20701022",
         "Controls Company of America 7-Wire"
       ],
-      "interchange": [],
       "vehicles": [
         "1986\u20131991 Cadillac Eldorado",
         "1986\u20131991 Cadillac Seville"
       ],
-      "vehicle_count_raw": 26,
-      "ebay_item_id": "920039442407",
-      "ebay_type": "Power Seat Switch",
-      "ebay_brand": "GM",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Interior Parts & Accessories:Switches & Controls",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -91390,10 +91548,90 @@
         "brand": "GM",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Interior Parts & Accessories:Switches & Controls"
       },
+      "vehicle_count_raw": 26,
+      "ebay_item_id": "920039442407",
+      "ebay_type": "Power Seat Switch",
+      "ebay_brand": "GM",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Interior Parts & Accessories:Switches & Controls",
       "images": [
         "../assets/pdp-gallery/GJCUAJ6UL2JXI53CR7SZMU64/02.webp",
         "../assets/pdp-gallery/GJCUAJ6UL2JXI53CR7SZMU64/03.webp",
         "../assets/pdp-gallery/GJCUAJ6UL2JXI53CR7SZMU64/04.webp"
+      ],
+      "stock": 1,
+      "interchange": []
+    },
+    {
+      "id": "PQQ6G2SI6IEUVGSLRGD3JFYZ",
+      "name": "GM 25554845 Outer Rocker Panel Molding Clip NOS 5pc 92-99 Pontiac Bonneville",
+      "price": 24.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/cf46b29f816ae7a065fdf57e1a95e6dc65ed5acc/original.jpeg",
+      "url": "https://square.link/u/ZOxy73Cc",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "XITXAKFPTZYYUY2HUHM76VVV",
+      "stock": 1,
+      "part_numbers": [
+        "25554845"
+      ],
+      "interchange": [
+        "Auveco 19361"
+      ],
+      "vehicles": [
+        "1992\u20131999 GM 25554845",
+        "1992\u20131999 Pontiac Bonneville"
+      ],
+      "vehicle_count_raw": 34,
+      "ebay_item_id": "920039893625",
+      "ebay_type": "Rocker Panel Molding Clip",
+      "ebay_brand": "GM",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Exterior Parts & Accessories:Body Moldings & Trims",
+      "fitment_source": "ebay_listing+title",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "25554845"
+        ],
+        "interchange": [
+          "Auveco 19361"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1992,
+            "year_to": 1999,
+            "make": "GM",
+            "model": "25554845",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1992,
+            "year_to": 1999,
+            "make": "Pontiac",
+            "model": "Bonneville",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1992\u20131999 GM 25554845",
+          "1992\u20131999 Pontiac Bonneville"
+        ],
+        "raw_compat_rows": 34,
+        "source": "ebay_listing+title",
+        "confidence": "high",
+        "ebay_item_id": "920039893625",
+        "type": "Rocker Panel Molding Clip",
+        "brand": "GM",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Exterior Parts & Accessories:Body Moldings & Trims"
+      },
+      "images": [
+        "../assets/pdp-gallery/PQQ6G2SI6IEUVGSLRGD3JFYZ/02.webp",
+        "../assets/pdp-gallery/PQQ6G2SI6IEUVGSLRGD3JFYZ/03.webp"
       ]
     },
     {
@@ -91532,6 +91770,76 @@
         "../assets/pdp-gallery/M6RXTCCFCS7T3IY57547JJRR/07.webp"
       ],
       "stock": 1
+    },
+    {
+      "id": "C2GPH6FU4AAJRELPC3OTDY2D",
+      "name": "GM 3705722 Differential Pinion Bearing Spacer NOS 55-64 Corvette Chevy",
+      "price": 24.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/914e0d4d468d83742ccd2338cc6ad6aca81f6c47/original.jpeg",
+      "url": "https://square.link/u/9nCheQof",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "KOXBLSVYX2OQBM6TPXXD7DCC",
+      "stock": 1,
+      "part_numbers": [
+        "3705722"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1956\u20131962 Chevrolet Corvette",
+        "1955\u20131964 GM 3705722"
+      ],
+      "vehicle_count_raw": 8,
+      "ebay_item_id": "920039888574",
+      "ebay_type": "Pinion Bearing Spacer",
+      "ebay_brand": "GM",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:Differentials, Assemblies & Parts:Additional Differential Parts",
+      "fitment_source": "ebay_listing+title",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "3705722"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1956,
+            "year_to": 1962,
+            "make": "Chevrolet",
+            "model": "Corvette",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1955,
+            "year_to": 1964,
+            "make": "GM",
+            "model": "3705722",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1956\u20131962 Chevrolet Corvette",
+          "1955\u20131964 GM 3705722"
+        ],
+        "raw_compat_rows": 8,
+        "source": "ebay_listing+title",
+        "confidence": "high",
+        "ebay_item_id": "920039888574",
+        "type": "Pinion Bearing Spacer",
+        "brand": "GM",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:Differentials, Assemblies & Parts:Additional Differential Parts"
+      },
+      "images": [
+        "../assets/pdp-gallery/C2GPH6FU4AAJRELPC3OTDY2D/02.webp",
+        "../assets/pdp-gallery/C2GPH6FU4AAJRELPC3OTDY2D/03.webp",
+        "../assets/pdp-gallery/C2GPH6FU4AAJRELPC3OTDY2D/04.webp"
+      ]
     },
     {
       "id": "XRWNFGYE2MCD4QC4SRPF4N2Y",
@@ -115998,17 +116306,9 @@
       "category": "other",
       "checkout": true,
       "variation_id": "CHEWYGWN2MHJSYZNWTFH44IT",
-      "stock": 1,
       "part_numbers": [
         "28219"
       ],
-      "interchange": [],
-      "vehicles": [],
-      "vehicle_count_raw": 0,
-      "ebay_item_id": "920039346848",
-      "ebay_type": "Flag Pole Part",
-      "ebay_brand": "Valley Forge",
-      "ebay_category": "Home & Garden:Yard, Garden & Outdoor Living:D\u00e9cor:Flag Poles & Parts",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "medium",
       "fitment": {
@@ -116026,10 +116326,18 @@
         "brand": "Valley Forge",
         "ebay_category": "Home & Garden:Yard, Garden & Outdoor Living:D\u00e9cor:Flag Poles & Parts"
       },
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "920039346848",
+      "ebay_type": "Flag Pole Part",
+      "ebay_brand": "Valley Forge",
+      "ebay_category": "Home & Garden:Yard, Garden & Outdoor Living:D\u00e9cor:Flag Poles & Parts",
       "images": [
         "../assets/pdp-gallery/4RWXJXZFRLRGR4Q3L5AML436/02.webp",
         "../assets/pdp-gallery/4RWXJXZFRLRGR4Q3L5AML436/03.webp"
-      ]
+      ],
+      "stock": 1,
+      "interchange": [],
+      "vehicles": []
     },
     {
       "id": "4IWVMECZEMO5R5Z57FJ4ZNDQ",
@@ -119722,5 +120030,5 @@
       "vehicles": []
     }
   ],
-  "fitment_built": "2026-10-14T16:03:44Z"
+  "fitment_built": "2026-10-14T19:04:18Z"
 }
