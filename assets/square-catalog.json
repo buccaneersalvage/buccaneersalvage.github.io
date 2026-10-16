@@ -1,7 +1,7 @@
 {
-  "updated": "2026-10-16T20:03:44Z",
+  "updated": "2026-10-16T22:03:41Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 859,
+  "count": 858,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -27916,91 +27916,6 @@
       "images": [
         "../assets/pdp-gallery/GCYBELIKT4IDG4FXQEUQZM2O/02.webp",
         "../assets/pdp-gallery/GCYBELIKT4IDG4FXQEUQZM2O/03.webp"
-      ],
-      "stock": 1
-    },
-    {
-      "id": "PSVKV7V2SM734UBKLJU2MIJV",
-      "name": "Carlson H7355 Drum Brake Hardware Kit 08-12 Ford Escape Mazda Tribute Rear",
-      "price": 20.79,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/8b780290a766199d47ea286414b44deac264c1ff/original.jpeg",
-      "url": "https://square.link/u/smR7Xrq9",
-      "category": "brake",
-      "checkout": true,
-      "variation_id": "E6QJGW7LVYHYNO3KUG374DDS",
-      "part_numbers": [
-        "H7355"
-      ],
-      "interchange": [
-        "118.65018"
-      ],
-      "vehicles": [
-        "2008\u20132012 Ford Escape",
-        "2008\u20132011 Mazda Tribute",
-        "2008\u20132011 Mercury Mariner"
-      ],
-      "fitment_source": "ebay_listing+carlson_specs",
-      "fitment_confidence": "high",
-      "fitment": {
-        "part_numbers": [
-          "H7355"
-        ],
-        "interchange": [
-          "118.65018"
-        ],
-        "vehicles": [
-          {
-            "year_from": 2008,
-            "year_to": 2012,
-            "make": "Ford",
-            "model": "Escape",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 2008,
-            "year_to": 2011,
-            "make": "Mazda",
-            "model": "Tribute",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 2008,
-            "year_to": 2011,
-            "make": "Mercury",
-            "model": "Mariner",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          }
-        ],
-        "vehicle_labels": [
-          "2008\u20132012 Ford Escape",
-          "2008\u20132011 Mazda Tribute",
-          "2008\u20132011 Mercury Mariner"
-        ],
-        "raw_compat_rows": 82,
-        "source": "ebay_listing+carlson_specs",
-        "confidence": "high",
-        "ebay_item_id": "398085068529",
-        "type": "Drum Brake Hardware",
-        "brand": "Carlson",
-        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware"
-      },
-      "vehicle_count_raw": 82,
-      "ebay_item_id": "398085068529",
-      "ebay_type": "Drum Brake Hardware",
-      "ebay_brand": "Carlson",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware",
-      "images": [
-        "../assets/pdp-gallery/PSVKV7V2SM734UBKLJU2MIJV/02.webp",
-        "../assets/pdp-gallery/PSVKV7V2SM734UBKLJU2MIJV/03.webp"
       ],
       "stock": 1
     },
@@ -118468,5 +118383,5 @@
       "vehicles": []
     }
   ],
-  "fitment_built": "2026-10-16T20:03:44Z"
+  "fitment_built": "2026-10-16T22:03:41Z"
 }
