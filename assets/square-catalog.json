@@ -1,7 +1,7 @@
 {
-  "updated": "2026-10-16T23:03:43Z",
+  "updated": "2026-10-17T23:03:42Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 858,
+  "count": 856,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -27916,67 +27916,6 @@
       "images": [
         "../assets/pdp-gallery/GCYBELIKT4IDG4FXQEUQZM2O/02.webp",
         "../assets/pdp-gallery/GCYBELIKT4IDG4FXQEUQZM2O/03.webp"
-      ],
-      "stock": 1
-    },
-    {
-      "id": "E7ELAHEQXJXSKNA2ERDFCK67",
-      "name": "Carlson H7371 Drum Brake Hardware Kit 2002 Jeep Liberty Rear",
-      "price": 10.99,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/bf97a26a08dd1823897de4c09991f6bd78b53a8c/original.jpeg",
-      "url": "https://square.link/u/4bfgRT3j",
-      "category": "brake",
-      "checkout": true,
-      "variation_id": "J65EEOQ4YB2MH46GUWZCDJX6",
-      "part_numbers": [
-        "H7371"
-      ],
-      "interchange": [
-        "118.58006"
-      ],
-      "vehicles": [
-        "2002 Jeep Liberty"
-      ],
-      "fitment_source": "ebay_listing+carlson_specs",
-      "fitment_confidence": "high",
-      "fitment": {
-        "part_numbers": [
-          "H7371"
-        ],
-        "interchange": [
-          "118.58006"
-        ],
-        "vehicles": [
-          {
-            "year_from": 2002,
-            "year_to": 2002,
-            "make": "Jeep",
-            "model": "Liberty",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          }
-        ],
-        "vehicle_labels": [
-          "2002 Jeep Liberty"
-        ],
-        "raw_compat_rows": 5,
-        "source": "ebay_listing+carlson_specs",
-        "confidence": "high",
-        "ebay_item_id": "398085068648",
-        "type": "Drum Brake Hardware",
-        "brand": "Carlson",
-        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware"
-      },
-      "vehicle_count_raw": 5,
-      "ebay_item_id": "398085068648",
-      "ebay_type": "Drum Brake Hardware",
-      "ebay_brand": "Carlson",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware",
-      "images": [
-        "../assets/pdp-gallery/E7ELAHEQXJXSKNA2ERDFCK67/02.webp",
-        "../assets/pdp-gallery/E7ELAHEQXJXSKNA2ERDFCK67/03.webp"
       ],
       "stock": 1
     },
@@ -118336,52 +118275,7 @@
       "stock": 1,
       "interchange": [],
       "vehicles": []
-    },
-    {
-      "id": "R7ZTY4ELGQQPLGRN276VAKUA",
-      "name": "YBI-601 Motor Choke Transformer POWIN Treadmill Laminated Core Used",
-      "price": 34.99,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/9809dc47b0682f398eece25354250ae423a2c54a/original.jpeg",
-      "url": "https://square.link/u/lgEcp8ie",
-      "category": "other",
-      "checkout": true,
-      "variation_id": "ISR4XLUNT22OFBAUKWMDOCBW",
-      "part_numbers": [
-        "YBI-601",
-        "YBI-601 Class F Insulated"
-      ],
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "high",
-      "fitment": {
-        "part_numbers": [
-          "YBI-601",
-          "YBI-601 Class F Insulated"
-        ],
-        "interchange": [],
-        "vehicles": [],
-        "vehicle_labels": [],
-        "raw_compat_rows": 0,
-        "source": "ebay_listing",
-        "confidence": "high",
-        "ebay_item_id": "398418922961",
-        "type": "Choke Transformer",
-        "brand": "POWIN Corp",
-        "ebay_category": "Sporting Goods:Fitness, Running & Yoga:Cardio Equipment:Machine Parts & Accessories"
-      },
-      "vehicle_count_raw": 0,
-      "ebay_item_id": "398418922961",
-      "ebay_type": "Choke Transformer",
-      "ebay_brand": "POWIN Corp",
-      "ebay_category": "Sporting Goods:Fitness, Running & Yoga:Cardio Equipment:Machine Parts & Accessories",
-      "images": [
-        "../assets/pdp-gallery/R7ZTY4ELGQQPLGRN276VAKUA/02.webp",
-        "../assets/pdp-gallery/R7ZTY4ELGQQPLGRN276VAKUA/03.webp",
-        "../assets/pdp-gallery/R7ZTY4ELGQQPLGRN276VAKUA/04.webp"
-      ],
-      "stock": 1,
-      "interchange": [],
-      "vehicles": []
     }
   ],
-  "fitment_built": "2026-10-16T23:03:43Z"
+  "fitment_built": "2026-10-17T23:03:42Z"
 }
