@@ -1,7 +1,7 @@
 {
-  "updated": "2026-10-18T14:03:45Z",
+  "updated": "2026-10-18T16:03:48Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 853,
+  "count": 855,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -114298,6 +114298,49 @@
       "vehicles": []
     },
     {
+      "id": "FHL44FZJOK5T2IMXAHVXXRZO",
+      "name": "U-Haul 17499 4-Wire 4-Flat Trailer Wiring Harness For U-Haul Trailer NOS",
+      "price": 18.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/8d116011b202e9e7146bdb8176ae1121b5e66a42/original.jpeg",
+      "url": "https://square.link/u/7prfcvWd",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "HDZ33RXJ4IWCHRN4S3O3RK5P",
+      "stock": 1,
+      "part_numbers": [
+        "17499"
+      ],
+      "interchange": [],
+      "vehicles": [],
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "920051392868",
+      "ebay_type": "Wiring Harness",
+      "ebay_brand": "U-Haul",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Towing Parts & Accessories:Wiring, Harnesses & Connectors",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "17499"
+        ],
+        "interchange": [],
+        "vehicles": [],
+        "vehicle_labels": [],
+        "raw_compat_rows": 0,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "920051392868",
+        "type": "Wiring Harness",
+        "brand": "U-Haul",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Towing Parts & Accessories:Wiring, Harnesses & Connectors"
+      },
+      "images": [
+        "../assets/pdp-gallery/FHL44FZJOK5T2IMXAHVXXRZO/02.webp",
+        "../assets/pdp-gallery/FHL44FZJOK5T2IMXAHVXXRZO/03.webp",
+        "../assets/pdp-gallery/FHL44FZJOK5T2IMXAHVXXRZO/04.webp"
+      ]
+    },
+    {
       "id": "YN3ZVVIYMAC3QVB4HGFYB4G3",
       "name": "U.S. Games 1025 Space Jockey Atari 2600 Cart AS-IS Untested",
       "price": 5.99,
@@ -114542,6 +114585,51 @@
       "part_numbers": [],
       "interchange": [],
       "vehicles": []
+    },
+    {
+      "id": "E6RONW75GFZXXBQ6IHYPMYMT",
+      "name": "Used Nidec NSAE001N04 Tankless Water Heater Flow Control Valve Assembly Tested",
+      "price": 99.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/4fbc7a833efbd73f8cba7cf366dcf638ffdbcae2/original.jpeg",
+      "url": "https://square.link/u/2sBrwMCd",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "HHVUKIIJCEUDNH42KKXJ7GGU",
+      "stock": 1,
+      "part_numbers": [
+        "NSAE001N04"
+      ],
+      "interchange": [],
+      "vehicles": [],
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "920051389816",
+      "ebay_type": "Flow Control Valve",
+      "ebay_brand": "Nidec",
+      "ebay_category": "Home & Garden:Home Improvement:Heating, Cooling & Air:Water Heaters:Water Heater Parts",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "medium",
+      "fitment": {
+        "part_numbers": [
+          "NSAE001N04"
+        ],
+        "interchange": [],
+        "vehicles": [],
+        "vehicle_labels": [],
+        "raw_compat_rows": 0,
+        "source": "ebay_listing",
+        "confidence": "medium",
+        "ebay_item_id": "920051389816",
+        "type": "Flow Control Valve",
+        "brand": "Nidec",
+        "ebay_category": "Home & Garden:Home Improvement:Heating, Cooling & Air:Water Heaters:Water Heater Parts"
+      },
+      "images": [
+        "../assets/pdp-gallery/E6RONW75GFZXXBQ6IHYPMYMT/02.webp",
+        "../assets/pdp-gallery/E6RONW75GFZXXBQ6IHYPMYMT/03.webp",
+        "../assets/pdp-gallery/E6RONW75GFZXXBQ6IHYPMYMT/04.webp",
+        "../assets/pdp-gallery/E6RONW75GFZXXBQ6IHYPMYMT/05.webp",
+        "../assets/pdp-gallery/E6RONW75GFZXXBQ6IHYPMYMT/06.webp"
+      ]
     },
     {
       "id": "4RWXJXZFRLRGR4Q3L5AML436",
@@ -117895,5 +117983,5 @@
       "vehicles": []
     }
   ],
-  "fitment_built": "2026-10-18T14:03:45Z"
+  "fitment_built": "2026-10-18T16:03:48Z"
 }
