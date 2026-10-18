@@ -1,7 +1,7 @@
 {
-  "updated": "2026-10-18T00:03:52Z",
+  "updated": "2026-10-18T11:23:40Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 856,
+  "count": 855,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -112536,160 +112536,6 @@
       "stock": 1
     },
     {
-      "id": "LGBHD2NUWCAHLUDTUHVL6WNM",
-      "name": "Standard V238 PCV Valve 2.3 2.8 3.0 NOS 77-88 Mustang Ranger",
-      "price": 9.99,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/0badd320d8239cbbfd83a52b4f3ce657265140a5/original.jpeg",
-      "url": "https://square.link/u/06AdTBXW",
-      "category": "other",
-      "checkout": true,
-      "variation_id": "3FFHT2O7UAMCW3AQYNPOSN3O",
-      "part_numbers": [
-        "V238",
-        "FV224, FV249, CV925C, PCV288, PV764B, PCV92"
-      ],
-      "interchange": [
-        "EV94C",
-        "FV196",
-        "D7ZE-6A666-AA",
-        "E3TZ-6A666-A"
-      ],
-      "vehicles": [
-        "1979\u20131980 Ford Mustang",
-        "1977\u20131978 Ford Mustang II",
-        "1977\u20131979 Ford Pinto",
-        "1983\u20131988 Ford Ranger",
-        "1986 Ford Taurus",
-        "1977\u20131980 Mercury Bobcat",
-        "1977 Mercury Capri",
-        "1986 Mercury Sable"
-      ],
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "high",
-      "fitment": {
-        "part_numbers": [
-          "V238",
-          "FV224, FV249, CV925C, PCV288, PV764B, PCV92"
-        ],
-        "interchange": [
-          "EV94C",
-          "FV196",
-          "D7ZE-6A666-AA",
-          "E3TZ-6A666-A"
-        ],
-        "vehicles": [
-          {
-            "year_from": 1979,
-            "year_to": 1980,
-            "make": "Ford",
-            "model": "Mustang",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1977,
-            "year_to": 1978,
-            "make": "Ford",
-            "model": "Mustang II",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1977,
-            "year_to": 1979,
-            "make": "Ford",
-            "model": "Pinto",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1983,
-            "year_to": 1988,
-            "make": "Ford",
-            "model": "Ranger",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1986,
-            "year_to": 1986,
-            "make": "Ford",
-            "model": "Taurus",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1977,
-            "year_to": 1980,
-            "make": "Mercury",
-            "model": "Bobcat",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1977,
-            "year_to": 1977,
-            "make": "Mercury",
-            "model": "Capri",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1986,
-            "year_to": 1986,
-            "make": "Mercury",
-            "model": "Sable",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          }
-        ],
-        "vehicle_labels": [
-          "1979\u20131980 Ford Mustang",
-          "1977\u20131978 Ford Mustang II",
-          "1977\u20131979 Ford Pinto",
-          "1983\u20131988 Ford Ranger",
-          "1986 Ford Taurus",
-          "1977\u20131980 Mercury Bobcat",
-          "1977 Mercury Capri",
-          "1986 Mercury Sable"
-        ],
-        "raw_compat_rows": 136,
-        "source": "ebay_listing",
-        "confidence": "high",
-        "ebay_item_id": "398314755969",
-        "type": "PCV Valve",
-        "brand": "Standard",
-        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Steering & Suspension:Power Steering Pump Parts"
-      },
-      "vehicle_count_raw": 136,
-      "ebay_item_id": "398314755969",
-      "ebay_type": "PCV Valve",
-      "ebay_brand": "Standard",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Steering & Suspension:Power Steering Pump Parts",
-      "images": [
-        "../assets/pdp-gallery/LGBHD2NUWCAHLUDTUHVL6WNM/02.webp",
-        "../assets/pdp-gallery/LGBHD2NUWCAHLUDTUHVL6WNM/03.webp",
-        "../assets/pdp-gallery/LGBHD2NUWCAHLUDTUHVL6WNM/04.webp"
-      ],
-      "stock": 1
-    },
-    {
       "id": "OEBHKY5EY2LR5TTPWACAZEB3",
       "name": "Standard V241 PCV Valve 2.3 3.8 NOS 86-95 Tempo T-Bird",
       "price": 9.99,
@@ -118277,5 +118123,5 @@
       "vehicles": []
     }
   ],
-  "fitment_built": "2026-10-18T00:03:52Z"
+  "fitment_built": "2026-10-18T11:23:40Z"
 }
