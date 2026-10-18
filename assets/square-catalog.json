@@ -1,7 +1,7 @@
 {
-  "updated": "2026-10-18T12:03:38Z",
+  "updated": "2026-10-18T13:35:49Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 855,
+  "count": 853,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -6734,120 +6734,6 @@
       "stock": 1,
       "interchange": [],
       "vehicles": []
-    },
-    {
-      "id": "5PZV4GAHBORB24BFV2TRZIC6",
-      "name": "Carlson H1150-2 Drum Brake Hold Down Spring NOS 67-97 Camaro Firebird Impala",
-      "price": 12.99,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/5f856e368d221f05ab3a9695b8e2907764308f01/original.jpeg",
-      "url": "https://square.link/u/vcuQM0lN",
-      "category": "brake",
-      "checkout": true,
-      "variation_id": "47GNRZ3LXGDTBWDA5YFSO2LD",
-      "part_numbers": [
-        "H1150-2"
-      ],
-      "vehicles": [
-        "1964\u20131998 Buick Skylark",
-        "1968\u20131999 Cadillac DeVille",
-        "1967\u20131997 Chevrolet Camaro",
-        "1966\u20131996 Chevrolet Caprice",
-        "1960\u20131985 Chevrolet Impala",
-        "1967\u20131997 Pontiac Firebird"
-      ],
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "high",
-      "fitment": {
-        "part_numbers": [
-          "H1150-2"
-        ],
-        "interchange": [],
-        "vehicles": [
-          {
-            "year_from": 1964,
-            "year_to": 1998,
-            "make": "Buick",
-            "model": "Skylark",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1968,
-            "year_to": 1999,
-            "make": "Cadillac",
-            "model": "DeVille",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1967,
-            "year_to": 1997,
-            "make": "Chevrolet",
-            "model": "Camaro",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1966,
-            "year_to": 1996,
-            "make": "Chevrolet",
-            "model": "Caprice",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1960,
-            "year_to": 1985,
-            "make": "Chevrolet",
-            "model": "Impala",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1967,
-            "year_to": 1997,
-            "make": "Pontiac",
-            "model": "Firebird",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          }
-        ],
-        "vehicle_labels": [
-          "1964\u20131998 Buick Skylark",
-          "1968\u20131999 Cadillac DeVille",
-          "1967\u20131997 Chevrolet Camaro",
-          "1966\u20131996 Chevrolet Caprice",
-          "1960\u20131985 Chevrolet Impala",
-          "1967\u20131997 Pontiac Firebird"
-        ],
-        "raw_compat_rows": 2672,
-        "source": "ebay_listing",
-        "confidence": "high",
-        "ebay_item_id": "398365460744",
-        "type": "Drum Brake Shoe Hold Down Spring",
-        "brand": "Carlson",
-        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware"
-      },
-      "vehicle_count_raw": 2672,
-      "ebay_item_id": "398365460744",
-      "ebay_type": "Drum Brake Shoe Hold Down Spring",
-      "ebay_brand": "Carlson",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware",
-      "stock": 1,
-      "interchange": [],
-      "images": []
     },
     {
       "id": "DYMI33CWW4NR5RMBNK6AHZFU",
@@ -13703,120 +13589,6 @@
       ],
       "stock": 1,
       "interchange": []
-    },
-    {
-      "id": "CQXMJOSX3TPH7JPQDCXPQRKE",
-      "name": "Carlson H4099-2 Drum Brake Shoe Hold Down Kit NOS 82-00 Cavalier Skylark",
-      "price": 9.99,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/37309c8c45786091834558097082875197e71454/original.jpeg",
-      "url": "https://square.link/u/XlzW3ICd",
-      "category": "brake",
-      "checkout": true,
-      "variation_id": "D4VDS72KERVVZZR7VICSLA46",
-      "part_numbers": [
-        "H4099-2"
-      ],
-      "vehicles": [
-        "1982\u20131992 Buick Century",
-        "1982\u20131998 Buick Skylark",
-        "1991\u20131996 Chevrolet Beretta",
-        "1982\u20132000 Chevrolet Cavalier",
-        "1982\u20131990 Chevrolet Celebrity",
-        "1987\u20131996 Chevrolet Corsica"
-      ],
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "high",
-      "fitment": {
-        "part_numbers": [
-          "H4099-2"
-        ],
-        "interchange": [],
-        "vehicles": [
-          {
-            "year_from": 1982,
-            "year_to": 1992,
-            "make": "Buick",
-            "model": "Century",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1982,
-            "year_to": 1998,
-            "make": "Buick",
-            "model": "Skylark",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1991,
-            "year_to": 1996,
-            "make": "Chevrolet",
-            "model": "Beretta",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1982,
-            "year_to": 2000,
-            "make": "Chevrolet",
-            "model": "Cavalier",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1982,
-            "year_to": 1990,
-            "make": "Chevrolet",
-            "model": "Celebrity",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1987,
-            "year_to": 1996,
-            "make": "Chevrolet",
-            "model": "Corsica",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          }
-        ],
-        "vehicle_labels": [
-          "1982\u20131992 Buick Century",
-          "1982\u20131998 Buick Skylark",
-          "1991\u20131996 Chevrolet Beretta",
-          "1982\u20132000 Chevrolet Cavalier",
-          "1982\u20131990 Chevrolet Celebrity",
-          "1987\u20131996 Chevrolet Corsica"
-        ],
-        "raw_compat_rows": 846,
-        "source": "ebay_listing",
-        "confidence": "high",
-        "ebay_item_id": "398365461940",
-        "type": "Drum Brake Shoe Hold Down Kit",
-        "brand": "Carlson",
-        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware"
-      },
-      "vehicle_count_raw": 846,
-      "ebay_item_id": "398365461940",
-      "ebay_type": "Drum Brake Shoe Hold Down Kit",
-      "ebay_brand": "Carlson",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware",
-      "stock": 1,
-      "interchange": [],
-      "images": []
     },
     {
       "id": "CLMFA7X63KOP4FYYZGX6ZQDR",
@@ -118123,5 +117895,5 @@
       "vehicles": []
     }
   ],
-  "fitment_built": "2026-10-18T12:03:38Z"
+  "fitment_built": "2026-10-18T13:35:49Z"
 }
