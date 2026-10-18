@@ -1,7 +1,7 @@
 {
-  "updated": "2026-10-18T16:03:48Z",
+  "updated": "2026-10-18T17:04:09Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 855,
+  "count": 859,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -102921,6 +102921,57 @@
       "stock": 1
     },
     {
+      "id": "GLSRS2SQRDKFM2JMDSAJND5D",
+      "name": "Samsung BN94-06789E UN32EH4000 Main Power Board Set Tested with Speakers",
+      "price": 44.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/a347c6ab352d72c78e379b6b8c6c06481eba9bb9/original.jpeg",
+      "url": "https://square.link/u/OFdKuUP3",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "GDI25IMIIQ6GNC27WWFTABTG",
+      "stock": 1,
+      "part_numbers": [
+        "BN94-06789E",
+        "PD32AV0_CSM BN97-08356A"
+      ],
+      "interchange": [
+        "BN44-00492A"
+      ],
+      "vehicles": [],
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "920051469651",
+      "ebay_type": "Main Board",
+      "ebay_brand": "Samsung",
+      "ebay_category": "Consumer Electronics:TV, Video & Home Audio:TV, Video & Audio Parts:TV Boards, Parts & Components",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "BN94-06789E",
+          "PD32AV0_CSM BN97-08356A"
+        ],
+        "interchange": [
+          "BN44-00492A"
+        ],
+        "vehicles": [],
+        "vehicle_labels": [],
+        "raw_compat_rows": 0,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "920051469651",
+        "type": "Main Board",
+        "brand": "Samsung",
+        "ebay_category": "Consumer Electronics:TV, Video & Home Audio:TV, Video & Audio Parts:TV Boards, Parts & Components"
+      },
+      "images": [
+        "../assets/pdp-gallery/GLSRS2SQRDKFM2JMDSAJND5D/02.webp",
+        "../assets/pdp-gallery/GLSRS2SQRDKFM2JMDSAJND5D/03.webp",
+        "../assets/pdp-gallery/GLSRS2SQRDKFM2JMDSAJND5D/04.webp",
+        "../assets/pdp-gallery/GLSRS2SQRDKFM2JMDSAJND5D/05.webp",
+        "../assets/pdp-gallery/GLSRS2SQRDKFM2JMDSAJND5D/06.webp"
+      ]
+    },
+    {
       "id": "UEGM432W64PSHSDLT7YRAXSR",
       "name": "Samsung Sears Washer Drive Motor 4787118527 WAS36025EA Tested",
       "price": 49.99,
@@ -102965,6 +103016,50 @@
       "stock": 1,
       "interchange": [],
       "vehicles": []
+    },
+    {
+      "id": "QG2J6GKV74YYHY3JZHSED2CH",
+      "name": "Samsung UN32EH4000 Used TV Stand Base Dusty with Screws 32 Inch Tabletop",
+      "price": 24.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/c597a5abfd4b1bc82c68219de9972b2ec9a1c906/original.jpeg",
+      "url": "https://square.link/u/zxjasxVz",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "U64DFTCVCYHQKZLWH6PXFDMT",
+      "stock": 1,
+      "part_numbers": [
+        "UN32EH4000"
+      ],
+      "interchange": [],
+      "vehicles": [],
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "920051463561",
+      "ebay_type": "TV Stand",
+      "ebay_brand": "Samsung",
+      "ebay_category": "Consumer Electronics:TV, Video & Home Audio:TV, Video & Audio Parts:TV Boards, Parts & Components",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "medium",
+      "fitment": {
+        "part_numbers": [
+          "UN32EH4000"
+        ],
+        "interchange": [],
+        "vehicles": [],
+        "vehicle_labels": [],
+        "raw_compat_rows": 0,
+        "source": "ebay_listing",
+        "confidence": "medium",
+        "ebay_item_id": "920051463561",
+        "type": "TV Stand",
+        "brand": "Samsung",
+        "ebay_category": "Consumer Electronics:TV, Video & Home Audio:TV, Video & Audio Parts:TV Boards, Parts & Components"
+      },
+      "images": [
+        "../assets/pdp-gallery/QG2J6GKV74YYHY3JZHSED2CH/02.webp",
+        "../assets/pdp-gallery/QG2J6GKV74YYHY3JZHSED2CH/03.webp",
+        "../assets/pdp-gallery/QG2J6GKV74YYHY3JZHSED2CH/04.webp",
+        "../assets/pdp-gallery/QG2J6GKV74YYHY3JZHSED2CH/05.webp"
+      ]
     },
     {
       "id": "VKR2FEZUEQ7QDXDCWQOMQ4OJ",
@@ -114306,17 +114401,9 @@
       "category": "other",
       "checkout": true,
       "variation_id": "HDZ33RXJ4IWCHRN4S3O3RK5P",
-      "stock": 1,
       "part_numbers": [
         "17499"
       ],
-      "interchange": [],
-      "vehicles": [],
-      "vehicle_count_raw": 0,
-      "ebay_item_id": "920051392868",
-      "ebay_type": "Wiring Harness",
-      "ebay_brand": "U-Haul",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Towing Parts & Accessories:Wiring, Harnesses & Connectors",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -114334,11 +114421,19 @@
         "brand": "U-Haul",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Towing Parts & Accessories:Wiring, Harnesses & Connectors"
       },
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "920051392868",
+      "ebay_type": "Wiring Harness",
+      "ebay_brand": "U-Haul",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Towing Parts & Accessories:Wiring, Harnesses & Connectors",
       "images": [
         "../assets/pdp-gallery/FHL44FZJOK5T2IMXAHVXXRZO/02.webp",
         "../assets/pdp-gallery/FHL44FZJOK5T2IMXAHVXXRZO/03.webp",
         "../assets/pdp-gallery/FHL44FZJOK5T2IMXAHVXXRZO/04.webp"
-      ]
+      ],
+      "stock": 1,
+      "interchange": [],
+      "vehicles": []
     },
     {
       "id": "YN3ZVVIYMAC3QVB4HGFYB4G3",
@@ -114504,6 +114599,63 @@
       "vehicles": []
     },
     {
+      "id": "NBBQZQG5MWOWN3ZXNX2VCA6R",
+      "name": "Used GM 20702844 Chrome Power Window Switch Dual Rocker Door Windows Tested",
+      "price": 24.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/529a28c0c563b5a3f682928cb30783b0bd177b0c/original.jpeg",
+      "url": "https://square.link/u/Fulfy6KM",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "GAZ3G3JM6DYTFWID5DEQYJLQ",
+      "stock": 1,
+      "part_numbers": [
+        "20702844"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "GM"
+      ],
+      "vehicle_count_raw": 1,
+      "ebay_item_id": "920051425107",
+      "ebay_type": "Power Window Switch",
+      "ebay_brand": "GM",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Interior Parts & Accessories:Switches & Controls",
+      "fitment_source": "ebay_listing+title",
+      "fitment_confidence": "medium",
+      "fitment": {
+        "part_numbers": [
+          "20702844"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": null,
+            "year_to": null,
+            "make": "GM",
+            "model": "",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "GM"
+        ],
+        "raw_compat_rows": 1,
+        "source": "ebay_listing+title",
+        "confidence": "medium",
+        "ebay_item_id": "920051425107",
+        "type": "Power Window Switch",
+        "brand": "GM",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Interior Parts & Accessories:Switches & Controls"
+      },
+      "images": [
+        "../assets/pdp-gallery/NBBQZQG5MWOWN3ZXNX2VCA6R/02.webp",
+        "../assets/pdp-gallery/NBBQZQG5MWOWN3ZXNX2VCA6R/03.webp"
+      ]
+    },
+    {
       "id": "J4W2ICPD33U7OLIPWNE6F5FJ",
       "name": "Used Hayward H400FD FDXLMAN1400 400k NG Pool Heater Gas Manifold 8-Orifice",
       "price": 49.99,
@@ -114595,17 +114747,9 @@
       "category": "other",
       "checkout": true,
       "variation_id": "HHVUKIIJCEUDNH42KKXJ7GGU",
-      "stock": 1,
       "part_numbers": [
         "NSAE001N04"
       ],
-      "interchange": [],
-      "vehicles": [],
-      "vehicle_count_raw": 0,
-      "ebay_item_id": "920051389816",
-      "ebay_type": "Flow Control Valve",
-      "ebay_brand": "Nidec",
-      "ebay_category": "Home & Garden:Home Improvement:Heating, Cooling & Air:Water Heaters:Water Heater Parts",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "medium",
       "fitment": {
@@ -114623,12 +114767,59 @@
         "brand": "Nidec",
         "ebay_category": "Home & Garden:Home Improvement:Heating, Cooling & Air:Water Heaters:Water Heater Parts"
       },
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "920051389816",
+      "ebay_type": "Flow Control Valve",
+      "ebay_brand": "Nidec",
+      "ebay_category": "Home & Garden:Home Improvement:Heating, Cooling & Air:Water Heaters:Water Heater Parts",
       "images": [
         "../assets/pdp-gallery/E6RONW75GFZXXBQ6IHYPMYMT/02.webp",
         "../assets/pdp-gallery/E6RONW75GFZXXBQ6IHYPMYMT/03.webp",
         "../assets/pdp-gallery/E6RONW75GFZXXBQ6IHYPMYMT/04.webp",
         "../assets/pdp-gallery/E6RONW75GFZXXBQ6IHYPMYMT/05.webp",
         "../assets/pdp-gallery/E6RONW75GFZXXBQ6IHYPMYMT/06.webp"
+      ],
+      "stock": 1,
+      "interchange": [],
+      "vehicles": []
+    },
+    {
+      "id": "RGHKPYTQYG4SCVSYEN6N3HJF",
+      "name": "Used Set of 4 Small Plate Casters Swivel Black Rubber Project Cart DIY",
+      "price": 12.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/da10004e87966248f0d9f8c4f8ff7096e175d373/original.jpeg",
+      "url": "https://square.link/u/bPFl34uD",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "WCSY6JLBZRZYYFTZNL5PSCBF",
+      "stock": 1,
+      "part_numbers": [],
+      "interchange": [],
+      "vehicles": [],
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "920051456379",
+      "ebay_type": "Caster",
+      "ebay_brand": "Unbranded",
+      "ebay_category": "Business & Industrial:Material Handling:Casters & Wheels:Casters",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "medium",
+      "fitment": {
+        "part_numbers": [],
+        "interchange": [],
+        "vehicles": [],
+        "vehicle_labels": [],
+        "raw_compat_rows": 0,
+        "source": "ebay_listing",
+        "confidence": "medium",
+        "ebay_item_id": "920051456379",
+        "type": "Caster",
+        "brand": "Unbranded",
+        "ebay_category": "Business & Industrial:Material Handling:Casters & Wheels:Casters"
+      },
+      "images": [
+        "../assets/pdp-gallery/RGHKPYTQYG4SCVSYEN6N3HJF/02.webp",
+        "../assets/pdp-gallery/RGHKPYTQYG4SCVSYEN6N3HJF/03.webp",
+        "../assets/pdp-gallery/RGHKPYTQYG4SCVSYEN6N3HJF/04.webp"
       ]
     },
     {
@@ -117983,5 +118174,5 @@
       "vehicles": []
     }
   ],
-  "fitment_built": "2026-10-18T16:03:48Z"
+  "fitment_built": "2026-10-18T17:04:09Z"
 }
