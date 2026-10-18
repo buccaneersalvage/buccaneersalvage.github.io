@@ -1,7 +1,7 @@
 {
-  "updated": "2026-10-18T17:04:09Z",
+  "updated": "2026-10-18T22:15:50Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 859,
+  "count": 856,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -76274,112 +76274,6 @@
       "stock": 1
     },
     {
-      "id": "Y62SACFH7PBZBZNZOYJXARDL",
-      "name": "Ford FOTZ-9F485-A EGR Connector 90-96 F-150 Bronco NOS",
-      "price": 27.99,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/183e260b34530237372f6b26b1512d749f70c16a/original.jpeg",
-      "url": "https://square.link/u/3ZuKnJfM",
-      "category": "other",
-      "checkout": true,
-      "variation_id": "ER4F2CJIHYGO6TWVSGHFT47I",
-      "part_numbers": [
-        "FOTZ-9F485-A"
-      ],
-      "vehicles": [
-        "1990\u20131996 Ford Bronco",
-        "1990\u20131996 Ford F-150",
-        "1990\u20131997 Ford F-250",
-        "1990\u20131997 Ford F-350",
-        "1990\u20131996 Ford FOTZ-9F485-A"
-      ],
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "high",
-      "fitment": {
-        "part_numbers": [
-          "FOTZ-9F485-A"
-        ],
-        "interchange": [],
-        "vehicles": [
-          {
-            "year_from": 1990,
-            "year_to": 1996,
-            "make": "Ford",
-            "model": "Bronco",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1990,
-            "year_to": 1996,
-            "make": "Ford",
-            "model": "F-150",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1990,
-            "year_to": 1997,
-            "make": "Ford",
-            "model": "F-250",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1990,
-            "year_to": 1997,
-            "make": "Ford",
-            "model": "F-350",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1990,
-            "year_to": 1996,
-            "make": "Ford",
-            "model": "FOTZ-9F485-A",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          }
-        ],
-        "vehicle_labels": [
-          "1990\u20131996 Ford Bronco",
-          "1990\u20131996 Ford F-150",
-          "1990\u20131997 Ford F-250",
-          "1990\u20131997 Ford F-350",
-          "1990\u20131996 Ford FOTZ-9F485-A"
-        ],
-        "raw_compat_rows": 863,
-        "source": "ebay_listing",
-        "confidence": "high",
-        "ebay_item_id": "398403795543",
-        "type": "Electrical Connector (Tube Connector for EGR Manifold)",
-        "brand": "Ford",
-        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Starters, Alternators, ECUs & Wiring:ECUs & Computer Modules"
-      },
-      "vehicle_count_raw": 863,
-      "ebay_item_id": "398403795543",
-      "ebay_type": "Electrical Connector (Tube Connector for EGR Manifold)",
-      "ebay_brand": "Ford",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Starters, Alternators, ECUs & Wiring:ECUs & Computer Modules",
-      "images": [
-        "../assets/pdp-gallery/Y62SACFH7PBZBZNZOYJXARDL/02.webp",
-        "../assets/pdp-gallery/Y62SACFH7PBZBZNZOYJXARDL/03.webp",
-        "../assets/pdp-gallery/Y62SACFH7PBZBZNZOYJXARDL/04.webp"
-      ],
-      "stock": 1,
-      "interchange": []
-    },
-    {
       "id": "SBZMA5DACIXF7NIMKDYPD226",
       "name": "Four Seasons 24110 A/C Compressor O-Ring NOS 10-Pack",
       "price": 9.99,
@@ -94510,46 +94404,6 @@
       "vehicles": []
     },
     {
-      "id": "CATYKVORHNQCLTZWRM3BPNPH",
-      "name": "Insignia NS32-FEFL26 TV Stand Legs Feet Set 2pc w/4 Screws Used",
-      "price": 13.99,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/4228fcdb7fc9261f9dd340e376d8f73cdf64b518/original.jpeg",
-      "url": "https://square.link/u/d4XKmtq4",
-      "category": "other",
-      "checkout": true,
-      "variation_id": "EIX6HCPTE2ZXZCWZLJITW5V3",
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "medium",
-      "fitment": {
-        "part_numbers": [],
-        "interchange": [],
-        "vehicles": [],
-        "vehicle_labels": [],
-        "raw_compat_rows": 0,
-        "source": "ebay_listing",
-        "confidence": "medium",
-        "ebay_item_id": "920002017511",
-        "type": "Stand Legs",
-        "brand": "Insignia",
-        "ebay_category": "Consumer Electronics:TV, Video & Home Audio:TV, Video & Audio Parts:TV Boards, Parts & Components"
-      },
-      "vehicle_count_raw": 0,
-      "ebay_item_id": "920002017511",
-      "ebay_type": "Stand Legs",
-      "ebay_brand": "Insignia",
-      "ebay_category": "Consumer Electronics:TV, Video & Home Audio:TV, Video & Audio Parts:TV Boards, Parts & Components",
-      "images": [
-        "../assets/pdp-gallery/CATYKVORHNQCLTZWRM3BPNPH/02.webp",
-        "../assets/pdp-gallery/CATYKVORHNQCLTZWRM3BPNPH/03.webp",
-        "../assets/pdp-gallery/CATYKVORHNQCLTZWRM3BPNPH/04.webp",
-        "../assets/pdp-gallery/CATYKVORHNQCLTZWRM3BPNPH/05.webp"
-      ],
-      "stock": 1,
-      "part_numbers": [],
-      "interchange": [],
-      "vehicles": []
-    },
-    {
       "id": "DNXJWSJJLRPIJQYHSHJB3XAA",
       "name": "Interstate 700-H Thermostat 190 Deg 1953-1966 Buick Skylark NOS",
       "price": 19.99,
@@ -102929,7 +102783,6 @@
       "category": "other",
       "checkout": true,
       "variation_id": "GDI25IMIIQ6GNC27WWFTABTG",
-      "stock": 1,
       "part_numbers": [
         "BN94-06789E",
         "PD32AV0_CSM BN97-08356A"
@@ -102937,12 +102790,6 @@
       "interchange": [
         "BN44-00492A"
       ],
-      "vehicles": [],
-      "vehicle_count_raw": 0,
-      "ebay_item_id": "920051469651",
-      "ebay_type": "Main Board",
-      "ebay_brand": "Samsung",
-      "ebay_category": "Consumer Electronics:TV, Video & Home Audio:TV, Video & Audio Parts:TV Boards, Parts & Components",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -102963,13 +102810,20 @@
         "brand": "Samsung",
         "ebay_category": "Consumer Electronics:TV, Video & Home Audio:TV, Video & Audio Parts:TV Boards, Parts & Components"
       },
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "920051469651",
+      "ebay_type": "Main Board",
+      "ebay_brand": "Samsung",
+      "ebay_category": "Consumer Electronics:TV, Video & Home Audio:TV, Video & Audio Parts:TV Boards, Parts & Components",
       "images": [
         "../assets/pdp-gallery/GLSRS2SQRDKFM2JMDSAJND5D/02.webp",
         "../assets/pdp-gallery/GLSRS2SQRDKFM2JMDSAJND5D/03.webp",
         "../assets/pdp-gallery/GLSRS2SQRDKFM2JMDSAJND5D/04.webp",
         "../assets/pdp-gallery/GLSRS2SQRDKFM2JMDSAJND5D/05.webp",
         "../assets/pdp-gallery/GLSRS2SQRDKFM2JMDSAJND5D/06.webp"
-      ]
+      ],
+      "stock": 1,
+      "vehicles": []
     },
     {
       "id": "UEGM432W64PSHSDLT7YRAXSR",
@@ -103026,17 +102880,9 @@
       "category": "other",
       "checkout": true,
       "variation_id": "U64DFTCVCYHQKZLWH6PXFDMT",
-      "stock": 1,
       "part_numbers": [
         "UN32EH4000"
       ],
-      "interchange": [],
-      "vehicles": [],
-      "vehicle_count_raw": 0,
-      "ebay_item_id": "920051463561",
-      "ebay_type": "TV Stand",
-      "ebay_brand": "Samsung",
-      "ebay_category": "Consumer Electronics:TV, Video & Home Audio:TV, Video & Audio Parts:TV Boards, Parts & Components",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "medium",
       "fitment": {
@@ -103054,17 +102900,25 @@
         "brand": "Samsung",
         "ebay_category": "Consumer Electronics:TV, Video & Home Audio:TV, Video & Audio Parts:TV Boards, Parts & Components"
       },
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "920051463561",
+      "ebay_type": "TV Stand",
+      "ebay_brand": "Samsung",
+      "ebay_category": "Consumer Electronics:TV, Video & Home Audio:TV, Video & Audio Parts:TV Boards, Parts & Components",
       "images": [
         "../assets/pdp-gallery/QG2J6GKV74YYHY3JZHSED2CH/02.webp",
         "../assets/pdp-gallery/QG2J6GKV74YYHY3JZHSED2CH/03.webp",
         "../assets/pdp-gallery/QG2J6GKV74YYHY3JZHSED2CH/04.webp",
         "../assets/pdp-gallery/QG2J6GKV74YYHY3JZHSED2CH/05.webp"
-      ]
+      ],
+      "stock": 1,
+      "interchange": [],
+      "vehicles": []
     },
     {
       "id": "VKR2FEZUEQ7QDXDCWQOMQ4OJ",
       "name": "SERCON R12-14OZ Refrigerant NOS Automotive AC",
-      "price": 75.00,
+      "price": 75.0,
       "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/b2358f07ba0cee2851b924ba81f5ff345c89f2ca/original.jpeg",
       "url": "https://square.link/u/9NJJJcgB",
       "category": "other",
@@ -114607,20 +114461,13 @@
       "category": "other",
       "checkout": true,
       "variation_id": "GAZ3G3JM6DYTFWID5DEQYJLQ",
-      "stock": 1,
       "part_numbers": [
         "20702844"
       ],
-      "interchange": [],
       "vehicles": [
         "GM"
       ],
-      "vehicle_count_raw": 1,
-      "ebay_item_id": "920051425107",
-      "ebay_type": "Power Window Switch",
-      "ebay_brand": "GM",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Interior Parts & Accessories:Switches & Controls",
-      "fitment_source": "ebay_listing+title",
+      "fitment_source": "ebay_listing",
       "fitment_confidence": "medium",
       "fitment": {
         "part_numbers": [
@@ -114643,17 +114490,24 @@
           "GM"
         ],
         "raw_compat_rows": 1,
-        "source": "ebay_listing+title",
+        "source": "ebay_listing",
         "confidence": "medium",
         "ebay_item_id": "920051425107",
         "type": "Power Window Switch",
         "brand": "GM",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Interior Parts & Accessories:Switches & Controls"
       },
+      "vehicle_count_raw": 1,
+      "ebay_item_id": "920051425107",
+      "ebay_type": "Power Window Switch",
+      "ebay_brand": "GM",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Interior Parts & Accessories:Switches & Controls",
       "images": [
         "../assets/pdp-gallery/NBBQZQG5MWOWN3ZXNX2VCA6R/02.webp",
         "../assets/pdp-gallery/NBBQZQG5MWOWN3ZXNX2VCA6R/03.webp"
-      ]
+      ],
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "J4W2ICPD33U7OLIPWNE6F5FJ",
@@ -114792,15 +114646,6 @@
       "category": "other",
       "checkout": true,
       "variation_id": "WCSY6JLBZRZYYFTZNL5PSCBF",
-      "stock": 1,
-      "part_numbers": [],
-      "interchange": [],
-      "vehicles": [],
-      "vehicle_count_raw": 0,
-      "ebay_item_id": "920051456379",
-      "ebay_type": "Caster",
-      "ebay_brand": "Unbranded",
-      "ebay_category": "Business & Industrial:Material Handling:Casters & Wheels:Casters",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "medium",
       "fitment": {
@@ -114816,11 +114661,20 @@
         "brand": "Unbranded",
         "ebay_category": "Business & Industrial:Material Handling:Casters & Wheels:Casters"
       },
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "920051456379",
+      "ebay_type": "Caster",
+      "ebay_brand": "Unbranded",
+      "ebay_category": "Business & Industrial:Material Handling:Casters & Wheels:Casters",
       "images": [
         "../assets/pdp-gallery/RGHKPYTQYG4SCVSYEN6N3HJF/02.webp",
         "../assets/pdp-gallery/RGHKPYTQYG4SCVSYEN6N3HJF/03.webp",
         "../assets/pdp-gallery/RGHKPYTQYG4SCVSYEN6N3HJF/04.webp"
-      ]
+      ],
+      "stock": 1,
+      "part_numbers": [],
+      "interchange": [],
+      "vehicles": []
     },
     {
       "id": "4RWXJXZFRLRGR4Q3L5AML436",
@@ -116367,44 +116221,6 @@
       "images": [
         "../assets/pdp-gallery/EPIMS4DGFXKWKY3O2D5ZDTEU/02.webp",
         "../assets/pdp-gallery/EPIMS4DGFXKWKY3O2D5ZDTEU/03.webp"
-      ],
-      "stock": 1,
-      "part_numbers": [],
-      "interchange": [],
-      "vehicles": []
-    },
-    {
-      "id": "Y4ITU5J3U75TX6CXFWDHUL43",
-      "name": "Vintage Surface Mount Strap-On Hot Water Control Aquastat Thermostat 150 to 200F",
-      "price": 19.99,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/70518ccb3d7e64cf763d350360059d3731fac213/original.jpeg",
-      "url": "https://square.link/u/UqL3lEgc",
-      "category": "other",
-      "checkout": true,
-      "variation_id": "CVLZ3ZKOOUXG2AIZHLZNYOH4",
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "medium",
-      "fitment": {
-        "part_numbers": [],
-        "interchange": [],
-        "vehicles": [],
-        "vehicle_labels": [],
-        "raw_compat_rows": 0,
-        "source": "ebay_listing",
-        "confidence": "medium",
-        "ebay_item_id": "398315564339",
-        "type": "Aquastat",
-        "brand": "Unbranded",
-        "ebay_category": "Home & Garden:Home Improvement:Heating, Cooling & Air:Water Heaters:Water Heater Parts"
-      },
-      "vehicle_count_raw": 0,
-      "ebay_item_id": "398315564339",
-      "ebay_type": "Aquastat",
-      "ebay_brand": "Unbranded",
-      "ebay_category": "Home & Garden:Home Improvement:Heating, Cooling & Air:Water Heaters:Water Heater Parts",
-      "images": [
-        "../assets/pdp-gallery/Y4ITU5J3U75TX6CXFWDHUL43/02.webp",
-        "../assets/pdp-gallery/Y4ITU5J3U75TX6CXFWDHUL43/03.webp"
       ],
       "stock": 1,
       "part_numbers": [],
@@ -118174,5 +117990,5 @@
       "vehicles": []
     }
   ],
-  "fitment_built": "2026-10-18T17:04:09Z"
+  "fitment_built": "2026-10-18T22:15:50Z"
 }
