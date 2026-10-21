@@ -1,7 +1,7 @@
 {
-  "updated": "2026-10-19T23:03:55Z",
+  "updated": "2026-10-21T16:04:07Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 851,
+  "count": 850,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -8476,88 +8476,6 @@
       "stock": 1,
       "interchange": [],
       "images": []
-    },
-    {
-      "id": "GBUDJ7DEQQ47YXBCGQKMC26U",
-      "name": "Carlson H2303 Rear Drum Brake Hardware Kit 93-03 Ford Windstar Villager Quest",
-      "price": 31.99,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/2759113b015d2e49b1052d214dca72eb0d772d37/original.jpeg",
-      "url": "https://square.link/u/7BSWX9Ik",
-      "category": "brake",
-      "checkout": true,
-      "variation_id": "T2L3DS5OBO6TBOESKPV74AXW",
-      "part_numbers": [
-        "H2303"
-      ],
-      "vehicles": [
-        "1995\u20132003 Ford Windstar",
-        "1993\u20132002 Mercury Villager",
-        "1993\u20132002 Nissan Quest"
-      ],
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "high",
-      "fitment": {
-        "part_numbers": [
-          "H2303"
-        ],
-        "interchange": [],
-        "vehicles": [
-          {
-            "year_from": 1995,
-            "year_to": 2003,
-            "make": "Ford",
-            "model": "Windstar",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1993,
-            "year_to": 2002,
-            "make": "Mercury",
-            "model": "Villager",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1993,
-            "year_to": 2002,
-            "make": "Nissan",
-            "model": "Quest",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          }
-        ],
-        "vehicle_labels": [
-          "1995\u20132003 Ford Windstar",
-          "1993\u20132002 Mercury Villager",
-          "1993\u20132002 Nissan Quest"
-        ],
-        "raw_compat_rows": 150,
-        "source": "ebay_listing",
-        "confidence": "high",
-        "ebay_item_id": "398085250460",
-        "type": "Rear Drum Brake Hardware",
-        "brand": "Carlson",
-        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware"
-      },
-      "vehicle_count_raw": 150,
-      "ebay_item_id": "398085250460",
-      "ebay_type": "Rear Drum Brake Hardware",
-      "ebay_brand": "Carlson",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware",
-      "images": [
-        "../assets/pdp-gallery/GBUDJ7DEQQ47YXBCGQKMC26U/02.webp",
-        "../assets/pdp-gallery/GBUDJ7DEQQ47YXBCGQKMC26U/03.webp",
-        "../assets/pdp-gallery/GBUDJ7DEQQ47YXBCGQKMC26U/04.webp"
-      ],
-      "stock": 1,
-      "interchange": []
     },
     {
       "id": "UFG34XRH6HUX7LMITVKDJPIL",
@@ -117205,5 +117123,5 @@
       "vehicles": []
     }
   ],
-  "fitment_built": "2026-10-19T23:03:55Z"
+  "fitment_built": "2026-10-21T16:04:07Z"
 }
