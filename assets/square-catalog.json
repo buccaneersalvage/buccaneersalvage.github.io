@@ -1,7 +1,7 @@
 {
-  "updated": "2026-10-21T17:04:00Z",
+  "updated": "2026-10-21T19:04:05Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 850,
+  "count": 849,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -48524,158 +48524,6 @@
       ],
       "stock": 1,
       "interchange": []
-    },
-    {
-      "id": "S3MMBXAQQ6QB63DYMILXGBWV",
-      "name": "Blue Streak CH303X Distributor Rotor 60-89 Dart Charger NOS",
-      "price": 19.99,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/edf0a4c61ac4f36ab42c0bf07651054d32dc2cb6/original.jpeg",
-      "url": "https://square.link/u/akbmbgx6",
-      "category": "ignition",
-      "checkout": true,
-      "variation_id": "375SPUA6XKNOHCB6FWLZEUF3",
-      "part_numbers": [
-        "CH303X",
-        "CH-303, CH303, 516"
-      ],
-      "interchange": [
-        "MO13",
-        "D147",
-        "CR903"
-      ],
-      "vehicles": [
-        "1977\u20131982 Chrysler New Yorker",
-        "1970\u20131974 Dodge Challenger",
-        "1966\u20131978 Dodge Charger",
-        "1960\u20131976 Dodge Dart",
-        "1974\u20131989 Dodge Ramcharger",
-        "1970\u20131976 Plymouth Duster",
-        "1959\u20131978 Plymouth Fury",
-        "1976\u20131980 Plymouth Volare"
-      ],
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "high",
-      "fitment": {
-        "part_numbers": [
-          "CH303X",
-          "CH-303, CH303, 516"
-        ],
-        "interchange": [
-          "MO13",
-          "D147",
-          "CR903"
-        ],
-        "vehicles": [
-          {
-            "year_from": 1977,
-            "year_to": 1982,
-            "make": "Chrysler",
-            "model": "New Yorker",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1970,
-            "year_to": 1974,
-            "make": "Dodge",
-            "model": "Challenger",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1966,
-            "year_to": 1978,
-            "make": "Dodge",
-            "model": "Charger",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1960,
-            "year_to": 1976,
-            "make": "Dodge",
-            "model": "Dart",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1974,
-            "year_to": 1989,
-            "make": "Dodge",
-            "model": "Ramcharger",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1970,
-            "year_to": 1976,
-            "make": "Plymouth",
-            "model": "Duster",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1959,
-            "year_to": 1978,
-            "make": "Plymouth",
-            "model": "Fury",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1976,
-            "year_to": 1980,
-            "make": "Plymouth",
-            "model": "Volare",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          }
-        ],
-        "vehicle_labels": [
-          "1977\u20131982 Chrysler New Yorker",
-          "1970\u20131974 Dodge Challenger",
-          "1966\u20131978 Dodge Charger",
-          "1960\u20131976 Dodge Dart",
-          "1974\u20131989 Dodge Ramcharger",
-          "1970\u20131976 Plymouth Duster",
-          "1959\u20131978 Plymouth Fury",
-          "1976\u20131980 Plymouth Volare"
-        ],
-        "raw_compat_rows": 1103,
-        "source": "ebay_listing",
-        "confidence": "high",
-        "ebay_item_id": "398339427340",
-        "type": "Distributor Rotor",
-        "brand": "Blue Streak",
-        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors"
-      },
-      "vehicle_count_raw": 1103,
-      "ebay_item_id": "398339427340",
-      "ebay_type": "Distributor Rotor",
-      "ebay_brand": "Blue Streak",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors",
-      "images": [
-        "../assets/pdp-gallery/S3MMBXAQQ6QB63DYMILXGBWV/02.webp",
-        "../assets/pdp-gallery/S3MMBXAQQ6QB63DYMILXGBWV/03.webp",
-        "../assets/pdp-gallery/S3MMBXAQQ6QB63DYMILXGBWV/04.webp"
-      ],
-      "stock": 1
     },
     {
       "id": "BUGVUS57HE4XDDS5UPYT5XMP",
@@ -117123,5 +116971,5 @@
       "vehicles": []
     }
   ],
-  "fitment_built": "2026-10-21T17:04:00Z"
+  "fitment_built": "2026-10-21T19:04:05Z"
 }
