@@ -1,7 +1,7 @@
 {
-  "updated": "2026-10-21T23:04:45Z",
+  "updated": "2026-10-22T03:04:54Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 848,
+  "count": 847,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -88765,75 +88765,6 @@
       "stock": 1
     },
     {
-      "id": "JXSAJGLQRD3AMK6UNNLXN2PX",
-      "name": "GM 14 Bolt Full Floater 4.10 Diff Carrier Ring Pinion 73-00 Chevy",
-      "price": 349.99,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/2952ae9ad6d7b12ae4da3e797d875eee5ea4a800/original.jpeg",
-      "url": "https://square.link/u/ZBBhDA6j",
-      "category": "other",
-      "checkout": true,
-      "variation_id": "HCUXMKJPCT6TIXI5EL32LJRP",
-      "vehicles": [
-        "1973\u20132000 Chevrolet",
-        "1973\u20132000 GM"
-      ],
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "medium",
-      "fitment": {
-        "part_numbers": [],
-        "interchange": [],
-        "vehicles": [
-          {
-            "year_from": 1973,
-            "year_to": 2000,
-            "make": "Chevrolet",
-            "model": "",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1973,
-            "year_to": 2000,
-            "make": "GM",
-            "model": "",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          }
-        ],
-        "vehicle_labels": [
-          "1973\u20132000 Chevrolet",
-          "1973\u20132000 GM"
-        ],
-        "raw_compat_rows": 4,
-        "source": "ebay_listing",
-        "confidence": "medium",
-        "ebay_item_id": "397853085711",
-        "type": "Differential Carrier Assembly",
-        "brand": "Factory, OEM, OE, Chevy, Chevrolet, GM, GMC",
-        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:Differentials, Assemblies & Parts:Additional Differential Parts"
-      },
-      "vehicle_count_raw": 4,
-      "ebay_item_id": "397853085711",
-      "ebay_type": "Differential Carrier Assembly",
-      "ebay_brand": "Factory, OEM, OE, Chevy, Chevrolet, GM, GMC",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:Differentials, Assemblies & Parts:Additional Differential Parts",
-      "images": [
-        "../assets/pdp-gallery/JXSAJGLQRD3AMK6UNNLXN2PX/02.webp",
-        "../assets/pdp-gallery/JXSAJGLQRD3AMK6UNNLXN2PX/03.webp",
-        "../assets/pdp-gallery/JXSAJGLQRD3AMK6UNNLXN2PX/04.webp",
-        "../assets/pdp-gallery/JXSAJGLQRD3AMK6UNNLXN2PX/05.webp",
-        "../assets/pdp-gallery/JXSAJGLQRD3AMK6UNNLXN2PX/06.webp",
-        "../assets/pdp-gallery/JXSAJGLQRD3AMK6UNNLXN2PX/07.webp"
-      ],
-      "stock": 1,
-      "part_numbers": [],
-      "interchange": []
-    },
-    {
       "id": "ZZQZGOFKBEPVZRGCD5PHFH3D",
       "name": "GM 16508217 LH Rear Side Marker Lamp 1988-1990 Chevrolet Cavalier RS Z24 NOS",
       "price": 12.99,
@@ -116929,5 +116860,5 @@
       "vehicles": []
     }
   ],
-  "fitment_built": "2026-10-21T23:04:45Z"
+  "fitment_built": "2026-10-22T03:04:54Z"
 }
