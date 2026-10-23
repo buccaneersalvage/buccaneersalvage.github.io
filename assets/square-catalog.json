@@ -1,7 +1,7 @@
 {
-  "updated": "2026-10-23T18:04:34Z",
+  "updated": "2026-10-23T21:04:43Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 845,
+  "count": 844,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -47811,75 +47811,6 @@
       "images": [
         "../assets/pdp-gallery/JTJFVAEKFBFL4WGPHP43R27Z/02.webp",
         "../assets/pdp-gallery/JTJFVAEKFBFL4WGPHP43R27Z/03.webp"
-      ],
-      "stock": 1
-    },
-    {
-      "id": "4OMS4IXDFZS6UBGB4SO6SUVV",
-      "name": "WIX 51952 Transmission Filter NOS 97-08 F-150 4.6 5.4",
-      "price": 19.99,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/14e2eb2facc522228e6643ac8b8c55ddd8f1cd3f/original.jpeg",
-      "url": "https://square.link/u/7At2ReZf",
-      "category": "filters",
-      "checkout": true,
-      "variation_id": "RKMOXS4YKW34PKYQWNJKML3U",
-      "part_numbers": [
-        "51952",
-        "F6AZ-7A098-A"
-      ],
-      "interchange": [
-        "WIX-51952",
-        "Motorcraft FT-105",
-        "WIX 58952",
-        "Baldwin 19593"
-      ],
-      "vehicles": [
-        "1997\u20132008 Ford F-150"
-      ],
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "high",
-      "fitment": {
-        "part_numbers": [
-          "51952",
-          "F6AZ-7A098-A"
-        ],
-        "interchange": [
-          "WIX-51952",
-          "Motorcraft FT-105",
-          "WIX 58952",
-          "Baldwin 19593"
-        ],
-        "vehicles": [
-          {
-            "year_from": 1997,
-            "year_to": 2008,
-            "make": "Ford",
-            "model": "F-150",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          }
-        ],
-        "vehicle_labels": [
-          "1997\u20132008 Ford F-150"
-        ],
-        "raw_compat_rows": 472,
-        "source": "ebay_listing",
-        "confidence": "high",
-        "ebay_item_id": "398321571195",
-        "type": "Transmission Filter",
-        "brand": "WIX",
-        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:Transmission Filters"
-      },
-      "vehicle_count_raw": 472,
-      "ebay_item_id": "398321571195",
-      "ebay_type": "Transmission Filter",
-      "ebay_brand": "WIX",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:Transmission Filters",
-      "images": [
-        "../assets/pdp-gallery/4OMS4IXDFZS6UBGB4SO6SUVV/02.webp",
-        "../assets/pdp-gallery/4OMS4IXDFZS6UBGB4SO6SUVV/03.webp"
       ],
       "stock": 1
     },
@@ -115976,5 +115907,5 @@
       "vehicles": []
     }
   ],
-  "fitment_built": "2026-10-23T18:04:34Z"
+  "fitment_built": "2026-10-23T21:04:43Z"
 }
