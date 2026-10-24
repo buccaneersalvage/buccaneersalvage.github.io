@@ -1,7 +1,7 @@
 {
-  "updated": "2026-10-24T21:03:52Z",
+  "updated": "2026-10-24T22:03:52Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 857,
+  "count": 858,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -89736,15 +89736,6 @@
       "category": "other",
       "checkout": true,
       "variation_id": "7ILOAWKBHGEN7D5RG2TDSZ2H",
-      "stock": 1,
-      "part_numbers": [],
-      "interchange": [],
-      "vehicles": [],
-      "vehicle_count_raw": 0,
-      "ebay_item_id": "920071534410",
-      "ebay_type": "Wind Chime",
-      "ebay_brand": "Unbranded",
-      "ebay_category": "Home & Garden:Yard, Garden & Outdoor Living:D\u00e9cor:Wind Chimes",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "medium",
       "fitment": {
@@ -89760,6 +89751,11 @@
         "brand": "Unbranded",
         "ebay_category": "Home & Garden:Yard, Garden & Outdoor Living:D\u00e9cor:Wind Chimes"
       },
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "920071534410",
+      "ebay_type": "Wind Chime",
+      "ebay_brand": "Unbranded",
+      "ebay_category": "Home & Garden:Yard, Garden & Outdoor Living:D\u00e9cor:Wind Chimes",
       "images": [
         "../assets/pdp-gallery/KAH74V3S33UOHPACD3AGKWMH/02.webp",
         "../assets/pdp-gallery/KAH74V3S33UOHPACD3AGKWMH/03.webp",
@@ -89767,7 +89763,11 @@
         "../assets/pdp-gallery/KAH74V3S33UOHPACD3AGKWMH/05.webp",
         "../assets/pdp-gallery/KAH74V3S33UOHPACD3AGKWMH/06.webp",
         "../assets/pdp-gallery/KAH74V3S33UOHPACD3AGKWMH/07.webp"
-      ]
+      ],
+      "stock": 1,
+      "part_numbers": [],
+      "interchange": [],
+      "vehicles": []
     },
     {
       "id": "3ICV75PAFQP3JSDBQVGMI3LP",
@@ -102843,6 +102843,51 @@
         "../assets/pdp-gallery/VDP7T4M56PVMSIKGOKC6XJV2/03.webp"
       ],
       "stock": 1
+    },
+    {
+      "id": "BMGZ2IAOBBY4GYSPHYC6RESF",
+      "name": "Sealed Power V-815 Intake Valve Pair Federal Mogul USA Made",
+      "price": 24.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/0e1bc61817d9177a476050d276687ea8395793da/original.jpeg",
+      "url": "https://square.link/u/rhnTUhS9",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "74HTFLIMEOY3VCEHUWSFCKN2",
+      "stock": 1,
+      "part_numbers": [
+        "V-815",
+        "V815"
+      ],
+      "interchange": [],
+      "vehicles": [],
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "920071690815",
+      "ebay_type": "Intake Valve",
+      "ebay_brand": "Sealed Power",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Valvetrain Components:Valves",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "V-815",
+          "V815"
+        ],
+        "interchange": [],
+        "vehicles": [],
+        "vehicle_labels": [],
+        "raw_compat_rows": 0,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "920071690815",
+        "type": "Intake Valve",
+        "brand": "Sealed Power",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Valvetrain Components:Valves"
+      },
+      "images": [
+        "../assets/pdp-gallery/BMGZ2IAOBBY4GYSPHYC6RESF/02.webp",
+        "../assets/pdp-gallery/BMGZ2IAOBBY4GYSPHYC6RESF/03.webp",
+        "../assets/pdp-gallery/BMGZ2IAOBBY4GYSPHYC6RESF/04.webp"
+      ]
     },
     {
       "id": "VKR2FEZUEQ7QDXDCWQOMQ4OJ",
@@ -117623,5 +117668,5 @@
       "vehicles": []
     }
   ],
-  "fitment_built": "2026-10-24T21:03:52Z"
+  "fitment_built": "2026-10-24T22:03:52Z"
 }
