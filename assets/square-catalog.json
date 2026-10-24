@@ -1,7 +1,7 @@
 {
-  "updated": "2026-10-24T05:03:42Z",
+  "updated": "2026-10-24T06:03:41Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 853,
+  "count": 854,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -66696,7 +66696,6 @@
       "category": "driveline",
       "checkout": true,
       "variation_id": "XDB6XMKJYSS6WQEFBJF5YBZU",
-      "stock": 1,
       "part_numbers": [
         "22335",
         "TRW 22379, GM 7842255, GM 9787052"
@@ -66718,11 +66717,6 @@
         "1986\u20131994 Pontiac Sunbird",
         "1995\u20131997 Pontiac Sunfire"
       ],
-      "vehicle_count_raw": 1028,
-      "ebay_item_id": "920069481825",
-      "ebay_type": "CV Boot Kit",
-      "ebay_brand": "TRW",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:CV Joints, Boots & Parts",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -66857,11 +66851,17 @@
         "brand": "TRW",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:CV Joints, Boots & Parts"
       },
+      "vehicle_count_raw": 1028,
+      "ebay_item_id": "920069481825",
+      "ebay_type": "CV Boot Kit",
+      "ebay_brand": "TRW",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:CV Joints, Boots & Parts",
       "images": [
         "../assets/pdp-gallery/634GJTCADL6XTAJT7UCUO7LY/02.webp",
         "../assets/pdp-gallery/634GJTCADL6XTAJT7UCUO7LY/03.webp",
         "../assets/pdp-gallery/634GJTCADL6XTAJT7UCUO7LY/04.webp"
-      ]
+      ],
+      "stock": 1
     },
     {
       "id": "EI6IIJST5VQ56MZJAZCMIJFV",
@@ -100891,6 +100891,246 @@
       "images": []
     },
     {
+      "id": "D2PQZ6OTG7YH3FADMY7LHBO2",
+      "name": "Perfect Circle 214-1132 Engine Rocker Arm Kit 4.3 5.0 5.7 Cutlass Supreme 80-88",
+      "price": 22.49,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/ca27fa32803606200f1abc3326a6b294fc26d393/original.jpeg",
+      "url": "https://square.link/u/FIDUXlSm",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "MXDWWRSUP4GZD6LRTPQ73SPL",
+      "stock": 1,
+      "part_numbers": [
+        "214-1132",
+        "Melling MRK-550-2, Elgin RK-550-2, Pioneer RK-550-B"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1980\u20131987 Buick Electra",
+        "1980\u20131990 Buick LeSabre",
+        "1982\u20131987 Buick Regal",
+        "1980\u20131985 Buick Riviera",
+        "1980\u20131984 Cadillac DeVille",
+        "1980\u20131985 Cadillac Eldorado",
+        "1980\u20131986 Cadillac Fleetwood",
+        "1980\u20131990 Chevrolet Caprice",
+        "1982\u20131984 Chevrolet Monte Carlo",
+        "1980\u20131984 Oldsmobile 98",
+        "1980\u20131990 Oldsmobile Custom Cruiser",
+        "1980\u20131984 Oldsmobile Cutlass Calais",
+        "1980\u20131988 Oldsmobile Cutlass Supreme",
+        "1980\u20131985 Oldsmobile Delta 88",
+        "1980\u20131985 Oldsmobile Toronado",
+        "1981\u20131984 Pontiac Grand Prix"
+      ],
+      "vehicle_count_raw": 713,
+      "ebay_item_id": "920069590678",
+      "ebay_type": "Engine Rocker Arm Kit",
+      "ebay_brand": "Perfect Circle",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Valvetrain Components:Rocker Arms & Parts",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "214-1132",
+          "Melling MRK-550-2, Elgin RK-550-2, Pioneer RK-550-B"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1980,
+            "year_to": 1987,
+            "make": "Buick",
+            "model": "Electra",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1980,
+            "year_to": 1990,
+            "make": "Buick",
+            "model": "LeSabre",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1982,
+            "year_to": 1987,
+            "make": "Buick",
+            "model": "Regal",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1980,
+            "year_to": 1985,
+            "make": "Buick",
+            "model": "Riviera",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1980,
+            "year_to": 1984,
+            "make": "Cadillac",
+            "model": "DeVille",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1980,
+            "year_to": 1985,
+            "make": "Cadillac",
+            "model": "Eldorado",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1980,
+            "year_to": 1986,
+            "make": "Cadillac",
+            "model": "Fleetwood",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1980,
+            "year_to": 1990,
+            "make": "Chevrolet",
+            "model": "Caprice",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1982,
+            "year_to": 1984,
+            "make": "Chevrolet",
+            "model": "Monte Carlo",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1980,
+            "year_to": 1984,
+            "make": "Oldsmobile",
+            "model": "98",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1980,
+            "year_to": 1990,
+            "make": "Oldsmobile",
+            "model": "Custom Cruiser",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1980,
+            "year_to": 1984,
+            "make": "Oldsmobile",
+            "model": "Cutlass Calais",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1980,
+            "year_to": 1988,
+            "make": "Oldsmobile",
+            "model": "Cutlass Supreme",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1980,
+            "year_to": 1985,
+            "make": "Oldsmobile",
+            "model": "Delta 88",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1980,
+            "year_to": 1985,
+            "make": "Oldsmobile",
+            "model": "Toronado",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1981,
+            "year_to": 1984,
+            "make": "Pontiac",
+            "model": "Grand Prix",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1980\u20131987 Buick Electra",
+          "1980\u20131990 Buick LeSabre",
+          "1982\u20131987 Buick Regal",
+          "1980\u20131985 Buick Riviera",
+          "1980\u20131984 Cadillac DeVille",
+          "1980\u20131985 Cadillac Eldorado",
+          "1980\u20131986 Cadillac Fleetwood",
+          "1980\u20131990 Chevrolet Caprice",
+          "1982\u20131984 Chevrolet Monte Carlo",
+          "1980\u20131984 Oldsmobile 98",
+          "1980\u20131990 Oldsmobile Custom Cruiser",
+          "1980\u20131984 Oldsmobile Cutlass Calais",
+          "1980\u20131988 Oldsmobile Cutlass Supreme",
+          "1980\u20131985 Oldsmobile Delta 88",
+          "1980\u20131985 Oldsmobile Toronado",
+          "1981\u20131984 Pontiac Grand Prix"
+        ],
+        "raw_compat_rows": 713,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "920069590678",
+        "type": "Engine Rocker Arm Kit",
+        "brand": "Perfect Circle",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Valvetrain Components:Rocker Arms & Parts"
+      },
+      "images": [
+        "../assets/pdp-gallery/D2PQZ6OTG7YH3FADMY7LHBO2/02.webp",
+        "../assets/pdp-gallery/D2PQZ6OTG7YH3FADMY7LHBO2/03.webp",
+        "../assets/pdp-gallery/D2PQZ6OTG7YH3FADMY7LHBO2/04.webp"
+      ]
+    },
+    {
       "id": "UL23E5AWBBQITTWVJSG6DJB2",
       "name": "Perfect Circle 214-2059 Rocker NOS 4.7 5.0 5.8 Bronco",
       "price": 12.99,
@@ -117058,5 +117298,5 @@
       "vehicles": []
     }
   ],
-  "fitment_built": "2026-10-24T05:03:42Z"
+  "fitment_built": "2026-10-24T06:03:41Z"
 }
