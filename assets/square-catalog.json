@@ -1,7 +1,7 @@
 {
-  "updated": "2026-10-24T02:03:52Z",
+  "updated": "2026-10-24T03:03:46Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 847,
+  "count": 849,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -62604,7 +62604,6 @@
       "category": "driveline",
       "checkout": true,
       "variation_id": "WO7YGBE5NSGS6265OS5ZKWUK",
-      "stock": 1,
       "part_numbers": [
         "95017",
         "Gates 6404, NAPA 25-90170, Bando 121ZA19, Cloyes B017"
@@ -62634,11 +62633,6 @@
         "1981\u20131983 Volkswagen Rabbit Pickup",
         "1976\u20131980 Volkswagen Scirocco"
       ],
-      "vehicle_count_raw": 316,
-      "ebay_item_id": "920069068536",
-      "ebay_type": "Timing Belt",
-      "ebay_brand": "Dayco",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Timing Components & Kits:Timing Kits",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -62841,10 +62835,16 @@
         "brand": "Dayco",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Timing Components & Kits:Timing Kits"
       },
+      "vehicle_count_raw": 316,
+      "ebay_item_id": "920069068536",
+      "ebay_type": "Timing Belt",
+      "ebay_brand": "Dayco",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Timing Components & Kits:Timing Kits",
       "images": [
         "../assets/pdp-gallery/E7A6YRQ7CNG7HISDP2QXE3VL/02.webp",
         "../assets/pdp-gallery/E7A6YRQ7CNG7HISDP2QXE3VL/03.webp"
-      ]
+      ],
+      "stock": 1
     },
     {
       "id": "X3HGK4WUOKZJLQPBB2M3ABOY",
@@ -94136,7 +94136,6 @@
       "category": "other",
       "checkout": true,
       "variation_id": "2LFEGFBCNAUNOKT4QJRONGLU",
-      "stock": 2,
       "part_numbers": [
         "901951",
         "Mevotech MP901951, NAPA 901951, Doan Anchor 701951"
@@ -94160,11 +94159,6 @@
         "1986\u20131994 Pontiac Sunbird",
         "1990\u20131996 Pontiac Trans Sport"
       ],
-      "vehicle_count_raw": 1274,
-      "ebay_item_id": "920069108491",
-      "ebay_type": "Strut Mount",
-      "ebay_brand": "Monroe",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Steering & Suspension:Shock & Strut Mounts",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -94321,10 +94315,16 @@
         "brand": "Monroe",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Steering & Suspension:Shock & Strut Mounts"
       },
+      "vehicle_count_raw": 1274,
+      "ebay_item_id": "920069108491",
+      "ebay_type": "Strut Mount",
+      "ebay_brand": "Monroe",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Steering & Suspension:Shock & Strut Mounts",
       "images": [
         "../assets/pdp-gallery/WSUV62NXQH4HGFQRO5STTT62/02.webp",
         "../assets/pdp-gallery/WSUV62NXQH4HGFQRO5STTT62/03.webp"
-      ]
+      ],
+      "stock": 2
     },
     {
       "id": "ZBJFR3PUXBOXTNZWIF23XUPX",
@@ -101683,6 +101683,97 @@
       ],
       "stock": 1,
       "interchange": []
+    },
+    {
+      "id": "VDP7T4M56PVMSIKGOKC6XJV2",
+      "name": "Sealed Power V-2316 Intake Valves Pair Nissan Pulsar NX Sentra 1.6L 83-88",
+      "price": 16.5,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/7c8f7ca3b1b64d38253cecf9ecf8c9ab137797df/original.jpeg",
+      "url": "https://square.link/u/iKyzZzNn",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "SDG5YADGOYNUEENHQWTS4EME",
+      "stock": 1,
+      "part_numbers": [
+        "V-2316",
+        "Melling V5255, Beck/Arnley 021-3181, ITM RV9374"
+      ],
+      "interchange": [
+        "Nissan 13201-31M00",
+        "DNJ IV605",
+        "Manley S2518"
+      ],
+      "vehicles": [
+        "1983 Nissan Pulsar",
+        "1983\u20131988 Nissan Pulsar NX",
+        "1983\u20131988 Nissan Sentra"
+      ],
+      "vehicle_count_raw": 65,
+      "ebay_item_id": "920069299631",
+      "ebay_type": "Intake Valve",
+      "ebay_brand": "Sealed Power",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Valvetrain Components:Valves",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "V-2316",
+          "Melling V5255, Beck/Arnley 021-3181, ITM RV9374"
+        ],
+        "interchange": [
+          "Nissan 13201-31M00",
+          "DNJ IV605",
+          "Manley S2518"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1983,
+            "year_to": 1983,
+            "make": "Nissan",
+            "model": "Pulsar",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1983,
+            "year_to": 1988,
+            "make": "Nissan",
+            "model": "Pulsar NX",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1983,
+            "year_to": 1988,
+            "make": "Nissan",
+            "model": "Sentra",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1983 Nissan Pulsar",
+          "1983\u20131988 Nissan Pulsar NX",
+          "1983\u20131988 Nissan Sentra"
+        ],
+        "raw_compat_rows": 65,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "920069299631",
+        "type": "Intake Valve",
+        "brand": "Sealed Power",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Valvetrain Components:Valves"
+      },
+      "images": [
+        "../assets/pdp-gallery/VDP7T4M56PVMSIKGOKC6XJV2/02.webp",
+        "../assets/pdp-gallery/VDP7T4M56PVMSIKGOKC6XJV2/03.webp"
+      ]
     },
     {
       "id": "VKR2FEZUEQ7QDXDCWQOMQ4OJ",
@@ -112331,6 +112422,82 @@
       "vehicles": []
     },
     {
+      "id": "XT6A4QMLJ3MG5ZR67GVCYL5I",
+      "name": "TopLine IV VW-21 Intake Valve Set Jetta Rabbit Beetle 2.5L 06-08",
+      "price": 44.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/63d24f78d80b82f3b57e2976eff94833bc5e0301/original.jpeg",
+      "url": "https://square.link/u/Jf07jETV",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "KQJWHDXCFCWZSKUCNWD2RRKO",
+      "stock": 1,
+      "part_numbers": [
+        "VW-21",
+        "K04B05"
+      ],
+      "interchange": [
+        "VW 2.5L 2480cc intake valve"
+      ],
+      "vehicles": [
+        "2006\u20132008 Volkswagen Jetta",
+        "2006\u20132008 Volkswagen Rabbit"
+      ],
+      "vehicle_count_raw": 17,
+      "ebay_item_id": "920069228269",
+      "ebay_type": "Intake Valve",
+      "ebay_brand": "TopLine",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Valvetrain Components:Valves",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "VW-21",
+          "K04B05"
+        ],
+        "interchange": [
+          "VW 2.5L 2480cc intake valve"
+        ],
+        "vehicles": [
+          {
+            "year_from": 2006,
+            "year_to": 2008,
+            "make": "Volkswagen",
+            "model": "Jetta",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2006,
+            "year_to": 2008,
+            "make": "Volkswagen",
+            "model": "Rabbit",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "2006\u20132008 Volkswagen Jetta",
+          "2006\u20132008 Volkswagen Rabbit"
+        ],
+        "raw_compat_rows": 17,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "920069228269",
+        "type": "Intake Valve",
+        "brand": "TopLine",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Valvetrain Components:Valves"
+      },
+      "images": [
+        "../assets/pdp-gallery/XT6A4QMLJ3MG5ZR67GVCYL5I/02.webp",
+        "../assets/pdp-gallery/XT6A4QMLJ3MG5ZR67GVCYL5I/03.webp",
+        "../assets/pdp-gallery/XT6A4QMLJ3MG5ZR67GVCYL5I/04.webp"
+      ]
+    },
+    {
       "id": "BP3WAE6OTPH4X5HN7URTIPKZ",
       "name": "TRQ Front Rear Sway Bar End Links Set 95-07 Taurus Sable NOS",
       "price": 29.99,
@@ -116429,5 +116596,5 @@
       "vehicles": []
     }
   ],
-  "fitment_built": "2026-10-24T02:03:52Z"
+  "fitment_built": "2026-10-24T03:03:46Z"
 }
