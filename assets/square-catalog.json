@@ -1,7 +1,7 @@
 {
-  "updated": "2026-10-24T03:03:46Z",
+  "updated": "2026-10-24T04:03:56Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 849,
+  "count": 852,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -62596,6 +62596,96 @@
       "interchange": []
     },
     {
+      "id": "3ODS6OOL57763WXCEAJRSXAA",
+      "name": "Dayco 95013 Timing Belt 1.6 2.0 Ford Pinto Dodge Colt Challenger",
+      "price": 19.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/d6939ca137f92d74930a93992dbb9b3e91b42543/original.jpeg",
+      "url": "https://square.link/u/suqW1CPm",
+      "category": "driveline",
+      "checkout": true,
+      "variation_id": "RZCM6BFH33G3DFZOQ2TGXWGW",
+      "stock": 1,
+      "part_numbers": [
+        "95013",
+        "122ZA19, D1FZ6268A, MD008960"
+      ],
+      "interchange": [
+        "Gates TB013",
+        "TB402"
+      ],
+      "vehicles": [
+        "1978\u20131979 Dodge Challenger",
+        "1977\u20131978 Dodge Colt",
+        "1971\u20131974 Ford Pinto"
+      ],
+      "vehicle_count_raw": 57,
+      "ebay_item_id": "920069399647",
+      "ebay_type": "Timing Belt",
+      "ebay_brand": "Dayco",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Timing Components & Kits:Timing Kits",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "95013",
+          "122ZA19, D1FZ6268A, MD008960"
+        ],
+        "interchange": [
+          "Gates TB013",
+          "TB402"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1978,
+            "year_to": 1979,
+            "make": "Dodge",
+            "model": "Challenger",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1977,
+            "year_to": 1978,
+            "make": "Dodge",
+            "model": "Colt",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1971,
+            "year_to": 1974,
+            "make": "Ford",
+            "model": "Pinto",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1978\u20131979 Dodge Challenger",
+          "1977\u20131978 Dodge Colt",
+          "1971\u20131974 Ford Pinto"
+        ],
+        "raw_compat_rows": 57,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "920069399647",
+        "type": "Timing Belt",
+        "brand": "Dayco",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Timing Components & Kits:Timing Kits"
+      },
+      "images": [
+        "../assets/pdp-gallery/3ODS6OOL57763WXCEAJRSXAA/02.webp",
+        "../assets/pdp-gallery/3ODS6OOL57763WXCEAJRSXAA/03.webp",
+        "../assets/pdp-gallery/3ODS6OOL57763WXCEAJRSXAA/04.webp"
+      ]
+    },
+    {
       "id": "E7A6YRQ7CNG7HISDP2QXE3VL",
       "name": "Dayco 95017 Timing Belt VW Rabbit Golf Jetta Audi 4000 Porsche 924 Omni Horizon",
       "price": 19.99,
@@ -65158,6 +65248,98 @@
       ],
       "stock": 1,
       "interchange": []
+    },
+    {
+      "id": "CFPS563CEWLUQ4TF24DJKM6H",
+      "name": "Moog CV8415 CV Joint Boot Kit Ford Probe Mazda 626 MX-6 2.2L 84-92 USA",
+      "price": 19.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/486b6207a40643c9cc92e6a5a458abd833613dbc/original.jpeg",
+      "url": "https://square.link/u/EVteefaF",
+      "category": "driveline",
+      "checkout": true,
+      "variation_id": "DWYW4VQSZC3IARKA6PDRBYT3",
+      "stock": 1,
+      "part_numbers": [
+        "CV8415",
+        "McQuay-Norris 66-1817, Neapco 85-0964"
+      ],
+      "interchange": [
+        "Beck",
+        "Arnley 103-2487",
+        "Precision 8415"
+      ],
+      "vehicles": [
+        "1989\u20131992 Ford Probe",
+        "1988\u20131992 Mazda 626",
+        "1988\u20131992 Mazda MX-6"
+      ],
+      "vehicle_count_raw": 41,
+      "ebay_item_id": "920069356190",
+      "ebay_type": "CV Boot Kit",
+      "ebay_brand": "Moog",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:CV Joints, Boots & Parts",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "CV8415",
+          "McQuay-Norris 66-1817, Neapco 85-0964"
+        ],
+        "interchange": [
+          "Beck",
+          "Arnley 103-2487",
+          "Precision 8415"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1989,
+            "year_to": 1992,
+            "make": "Ford",
+            "model": "Probe",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1988,
+            "year_to": 1992,
+            "make": "Mazda",
+            "model": "626",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1988,
+            "year_to": 1992,
+            "make": "Mazda",
+            "model": "MX-6",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1989\u20131992 Ford Probe",
+          "1988\u20131992 Mazda 626",
+          "1988\u20131992 Mazda MX-6"
+        ],
+        "raw_compat_rows": 41,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "920069356190",
+        "type": "CV Boot Kit",
+        "brand": "Moog",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:CV Joints, Boots & Parts"
+      },
+      "images": [
+        "../assets/pdp-gallery/CFPS563CEWLUQ4TF24DJKM6H/02.webp",
+        "../assets/pdp-gallery/CFPS563CEWLUQ4TF24DJKM6H/03.webp",
+        "../assets/pdp-gallery/CFPS563CEWLUQ4TF24DJKM6H/04.webp"
+      ]
     },
     {
       "id": "7FGRFQ3FFWTU25CSM5IZT5HY",
@@ -93721,6 +93903,110 @@
       "vehicles": []
     },
     {
+      "id": "N7KJTJZAG4SNTRNUCTM7OKAW",
+      "name": "McCord BS 301 Rear Main Seal GM 2.0L 2.8L Cavalier Citation Firenza 80-84",
+      "price": 15.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/e39a1f6a72dc993ebdf862257b66a4ad4478fdcb/original.jpeg",
+      "url": "https://square.link/u/HusC6pfe",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "5GCOZM5DPTXS672GVKCDJXNZ",
+      "stock": 1,
+      "part_numbers": [
+        "BS 301",
+        "GM 14002444, Detroit Gasket 17194"
+      ],
+      "interchange": [
+        "Fel-Pro BS40465",
+        "Victor JV531",
+        "Timken 5210"
+      ],
+      "vehicles": [
+        "1983\u20131984 Chevrolet Cavalier",
+        "1980\u20131984 Chevrolet Citation",
+        "1983\u20131984 Oldsmobile Firenza",
+        "1982\u20131984 Pontiac Phoenix"
+      ],
+      "vehicle_count_raw": 104,
+      "ebay_item_id": "920069331941",
+      "ebay_type": "Rear Main Seal",
+      "ebay_brand": "McCord",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Gaskets, Seals & Hardware:Gaskets & Seals",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "BS 301",
+          "GM 14002444, Detroit Gasket 17194"
+        ],
+        "interchange": [
+          "Fel-Pro BS40465",
+          "Victor JV531",
+          "Timken 5210"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1983,
+            "year_to": 1984,
+            "make": "Chevrolet",
+            "model": "Cavalier",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1980,
+            "year_to": 1984,
+            "make": "Chevrolet",
+            "model": "Citation",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1983,
+            "year_to": 1984,
+            "make": "Oldsmobile",
+            "model": "Firenza",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1982,
+            "year_to": 1984,
+            "make": "Pontiac",
+            "model": "Phoenix",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1983\u20131984 Chevrolet Cavalier",
+          "1980\u20131984 Chevrolet Citation",
+          "1983\u20131984 Oldsmobile Firenza",
+          "1982\u20131984 Pontiac Phoenix"
+        ],
+        "raw_compat_rows": 104,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "920069331941",
+        "type": "Rear Main Seal",
+        "brand": "McCord",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Gaskets, Seals & Hardware:Gaskets & Seals"
+      },
+      "images": [
+        "../assets/pdp-gallery/N7KJTJZAG4SNTRNUCTM7OKAW/02.webp",
+        "../assets/pdp-gallery/N7KJTJZAG4SNTRNUCTM7OKAW/03.webp",
+        "../assets/pdp-gallery/N7KJTJZAG4SNTRNUCTM7OKAW/04.webp"
+      ]
+    },
+    {
       "id": "VTYIPJ7EPD7J54IDW6TTN7BW",
       "name": "McQuay-Norris DS899 Center Link GM Impala Caprice 77-96 NOS",
       "price": 34.99,
@@ -101693,7 +101979,6 @@
       "category": "other",
       "checkout": true,
       "variation_id": "SDG5YADGOYNUEENHQWTS4EME",
-      "stock": 1,
       "part_numbers": [
         "V-2316",
         "Melling V5255, Beck/Arnley 021-3181, ITM RV9374"
@@ -101708,11 +101993,6 @@
         "1983\u20131988 Nissan Pulsar NX",
         "1983\u20131988 Nissan Sentra"
       ],
-      "vehicle_count_raw": 65,
-      "ebay_item_id": "920069299631",
-      "ebay_type": "Intake Valve",
-      "ebay_brand": "Sealed Power",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Valvetrain Components:Valves",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -101770,10 +102050,16 @@
         "brand": "Sealed Power",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Valvetrain Components:Valves"
       },
+      "vehicle_count_raw": 65,
+      "ebay_item_id": "920069299631",
+      "ebay_type": "Intake Valve",
+      "ebay_brand": "Sealed Power",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Valvetrain Components:Valves",
       "images": [
         "../assets/pdp-gallery/VDP7T4M56PVMSIKGOKC6XJV2/02.webp",
         "../assets/pdp-gallery/VDP7T4M56PVMSIKGOKC6XJV2/03.webp"
-      ]
+      ],
+      "stock": 1
     },
     {
       "id": "VKR2FEZUEQ7QDXDCWQOMQ4OJ",
@@ -112430,7 +112716,6 @@
       "category": "other",
       "checkout": true,
       "variation_id": "KQJWHDXCFCWZSKUCNWD2RRKO",
-      "stock": 1,
       "part_numbers": [
         "VW-21",
         "K04B05"
@@ -112442,11 +112727,6 @@
         "2006\u20132008 Volkswagen Jetta",
         "2006\u20132008 Volkswagen Rabbit"
       ],
-      "vehicle_count_raw": 17,
-      "ebay_item_id": "920069228269",
-      "ebay_type": "Intake Valve",
-      "ebay_brand": "TopLine",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Valvetrain Components:Valves",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -112491,11 +112771,17 @@
         "brand": "TopLine",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Valvetrain Components:Valves"
       },
+      "vehicle_count_raw": 17,
+      "ebay_item_id": "920069228269",
+      "ebay_type": "Intake Valve",
+      "ebay_brand": "TopLine",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Valvetrain Components:Valves",
       "images": [
         "../assets/pdp-gallery/XT6A4QMLJ3MG5ZR67GVCYL5I/02.webp",
         "../assets/pdp-gallery/XT6A4QMLJ3MG5ZR67GVCYL5I/03.webp",
         "../assets/pdp-gallery/XT6A4QMLJ3MG5ZR67GVCYL5I/04.webp"
-      ]
+      ],
+      "stock": 1
     },
     {
       "id": "BP3WAE6OTPH4X5HN7URTIPKZ",
@@ -116596,5 +116882,5 @@
       "vehicles": []
     }
   ],
-  "fitment_built": "2026-10-24T03:03:46Z"
+  "fitment_built": "2026-10-24T04:03:56Z"
 }
