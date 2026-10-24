@@ -1,7 +1,7 @@
 {
-  "updated": "2026-10-24T20:03:54Z",
+  "updated": "2026-10-24T21:03:52Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 856,
+  "count": 857,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -68094,7 +68094,6 @@
       "category": "exhaust",
       "checkout": true,
       "variation_id": "XDRA3OK22TW2UF3RDR3BYCTE",
-      "stock": 1,
       "part_numbers": [
         "01-10805S"
       ],
@@ -68117,11 +68116,6 @@
         "1998\u20132005 Volkswagen Passat",
         "2002\u20132006 Volkswagen Sharan"
       ],
-      "vehicle_count_raw": 227,
-      "ebay_item_id": "920071198660",
-      "ebay_type": "Exhaust Valve",
-      "ebay_brand": "Engine Pro",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Exhaust & Emission Systems:Exhaust Gaskets",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -68287,11 +68281,17 @@
         "brand": "Engine Pro",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Exhaust & Emission Systems:Exhaust Gaskets"
       },
+      "vehicle_count_raw": 227,
+      "ebay_item_id": "920071198660",
+      "ebay_type": "Exhaust Valve",
+      "ebay_brand": "Engine Pro",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Exhaust & Emission Systems:Exhaust Gaskets",
       "images": [
         "../assets/pdp-gallery/TTVOG7MX26HFD6WJFQQX7BGR/02.webp",
         "../assets/pdp-gallery/TTVOG7MX26HFD6WJFQQX7BGR/03.webp",
         "../assets/pdp-gallery/TTVOG7MX26HFD6WJFQQX7BGR/04.webp"
-      ]
+      ],
+      "stock": 1
     },
     {
       "id": "YPYOICCQIALRDYOIKK63QP6A",
@@ -68451,20 +68451,13 @@
       "category": "exhaust",
       "checkout": true,
       "variation_id": "ED6YM6BOCKYWMJ76NGWGZVXI",
-      "stock": 1,
       "part_numbers": [
         "H-25",
         "EV H-25"
       ],
-      "interchange": [],
       "vehicles": [
         "1992\u20131995 Honda Civic"
       ],
-      "vehicle_count_raw": 11,
-      "ebay_item_id": "920071210133",
-      "ebay_type": "Exhaust Valve",
-      "ebay_brand": "Topline",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Exhaust & Emission Systems:Exhaust Gaskets",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -68496,12 +68489,19 @@
         "brand": "Topline",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Exhaust & Emission Systems:Exhaust Gaskets"
       },
+      "vehicle_count_raw": 11,
+      "ebay_item_id": "920071210133",
+      "ebay_type": "Exhaust Valve",
+      "ebay_brand": "Topline",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Exhaust & Emission Systems:Exhaust Gaskets",
       "images": [
         "../assets/pdp-gallery/CXPRAT5343UUQGHLLBFWYBG5/02.webp",
         "../assets/pdp-gallery/CXPRAT5343UUQGHLLBFWYBG5/03.webp",
         "../assets/pdp-gallery/CXPRAT5343UUQGHLLBFWYBG5/04.webp",
         "../assets/pdp-gallery/CXPRAT5343UUQGHLLBFWYBG5/05.webp"
-      ]
+      ],
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "HXJYNDFNYG7OAOGH5W5IBKPQ",
@@ -89726,6 +89726,48 @@
       "part_numbers": [],
       "interchange": [],
       "images": []
+    },
+    {
+      "id": "KAH74V3S33UOHPACD3AGKWMH",
+      "name": "Handmade Coconut Shell Bobbing Head Turtle Bamboo Wind Chime Painted",
+      "price": 49.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/991301178355adb0e535a100fc758b4bb67f7ec1/original.jpeg",
+      "url": "https://square.link/u/0Lp7Q90R",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "7ILOAWKBHGEN7D5RG2TDSZ2H",
+      "stock": 1,
+      "part_numbers": [],
+      "interchange": [],
+      "vehicles": [],
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "920071534410",
+      "ebay_type": "Wind Chime",
+      "ebay_brand": "Unbranded",
+      "ebay_category": "Home & Garden:Yard, Garden & Outdoor Living:D\u00e9cor:Wind Chimes",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "medium",
+      "fitment": {
+        "part_numbers": [],
+        "interchange": [],
+        "vehicles": [],
+        "vehicle_labels": [],
+        "raw_compat_rows": 0,
+        "source": "ebay_listing",
+        "confidence": "medium",
+        "ebay_item_id": "920071534410",
+        "type": "Wind Chime",
+        "brand": "Unbranded",
+        "ebay_category": "Home & Garden:Yard, Garden & Outdoor Living:D\u00e9cor:Wind Chimes"
+      },
+      "images": [
+        "../assets/pdp-gallery/KAH74V3S33UOHPACD3AGKWMH/02.webp",
+        "../assets/pdp-gallery/KAH74V3S33UOHPACD3AGKWMH/03.webp",
+        "../assets/pdp-gallery/KAH74V3S33UOHPACD3AGKWMH/04.webp",
+        "../assets/pdp-gallery/KAH74V3S33UOHPACD3AGKWMH/05.webp",
+        "../assets/pdp-gallery/KAH74V3S33UOHPACD3AGKWMH/06.webp",
+        "../assets/pdp-gallery/KAH74V3S33UOHPACD3AGKWMH/07.webp"
+      ]
     },
     {
       "id": "3ICV75PAFQP3JSDBQVGMI3LP",
@@ -117581,5 +117623,5 @@
       "vehicles": []
     }
   ],
-  "fitment_built": "2026-10-24T20:03:54Z"
+  "fitment_built": "2026-10-24T21:03:52Z"
 }
