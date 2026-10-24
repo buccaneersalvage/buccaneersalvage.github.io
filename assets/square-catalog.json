@@ -1,7 +1,7 @@
 {
-  "updated": "2026-10-24T07:03:43Z",
+  "updated": "2026-10-24T18:04:00Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 854,
+  "count": 855,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -70205,6 +70205,62 @@
       "interchange": []
     },
     {
+      "id": "CIHIYVMJAKMSDPJQCDRT4BBO",
+      "name": "Ampco CX12H Starter Brush Set with Plastic Holder and Spring Leads OEM",
+      "price": 12.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/ab68594807b8c10542fe062974f6beb79cd6ec72/original.jpeg",
+      "url": "https://square.link/u/N0fywvv1",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "ON5UDTVNMYX2WIY5FCDLJWYT",
+      "stock": 1,
+      "part_numbers": [
+        "CX12H",
+        "3755761, 30440A"
+      ],
+      "interchange": [
+        "5A1055",
+        "20-1505",
+        "3874345",
+        "88921119",
+        "C761"
+      ],
+      "vehicles": [],
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "920071157483",
+      "ebay_type": "Starter Brush Holder",
+      "ebay_brand": "Ampco",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Starters, Alternators, ECUs & Wiring:Starter Motor Parts",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "CX12H",
+          "3755761, 30440A"
+        ],
+        "interchange": [
+          "5A1055",
+          "20-1505",
+          "3874345",
+          "88921119",
+          "C761"
+        ],
+        "vehicles": [],
+        "vehicle_labels": [],
+        "raw_compat_rows": 0,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "920071157483",
+        "type": "Starter Brush Holder",
+        "brand": "Ampco",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Starters, Alternators, ECUs & Wiring:Starter Motor Parts"
+      },
+      "images": [
+        "../assets/pdp-gallery/CIHIYVMJAKMSDPJQCDRT4BBO/02.webp",
+        "../assets/pdp-gallery/CIHIYVMJAKMSDPJQCDRT4BBO/03.webp"
+      ]
+    },
+    {
       "id": "EUHHRIHKC5CP3XKVETQODNSR",
       "name": "Antique 13\" Ratchet Brace Hand Drill Vintage Woodworking Tool Working",
       "price": 24.99,
@@ -100899,12 +100955,10 @@
       "category": "other",
       "checkout": true,
       "variation_id": "MXDWWRSUP4GZD6LRTPQ73SPL",
-      "stock": 1,
       "part_numbers": [
         "214-1132",
         "Melling MRK-550-2, Elgin RK-550-2, Pioneer RK-550-B"
       ],
-      "interchange": [],
       "vehicles": [
         "1980\u20131987 Buick Electra",
         "1980\u20131990 Buick LeSabre",
@@ -100923,11 +100977,6 @@
         "1980\u20131985 Oldsmobile Toronado",
         "1981\u20131984 Pontiac Grand Prix"
       ],
-      "vehicle_count_raw": 713,
-      "ebay_item_id": "920069590678",
-      "ebay_type": "Engine Rocker Arm Kit",
-      "ebay_brand": "Perfect Circle",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Valvetrain Components:Rocker Arms & Parts",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -101124,11 +101173,18 @@
         "brand": "Perfect Circle",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Valvetrain Components:Rocker Arms & Parts"
       },
+      "vehicle_count_raw": 713,
+      "ebay_item_id": "920069590678",
+      "ebay_type": "Engine Rocker Arm Kit",
+      "ebay_brand": "Perfect Circle",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Valvetrain Components:Rocker Arms & Parts",
       "images": [
         "../assets/pdp-gallery/D2PQZ6OTG7YH3FADMY7LHBO2/02.webp",
         "../assets/pdp-gallery/D2PQZ6OTG7YH3FADMY7LHBO2/03.webp",
         "../assets/pdp-gallery/D2PQZ6OTG7YH3FADMY7LHBO2/04.webp"
-      ]
+      ],
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "UL23E5AWBBQITTWVJSG6DJB2",
@@ -117298,5 +117354,5 @@
       "vehicles": []
     }
   ],
-  "fitment_built": "2026-10-24T07:03:43Z"
+  "fitment_built": "2026-10-24T18:04:00Z"
 }
