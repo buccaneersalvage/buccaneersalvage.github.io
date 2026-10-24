@@ -1,7 +1,7 @@
 {
-  "updated": "2026-10-24T22:03:52Z",
+  "updated": "2026-10-24T23:03:55Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 858,
+  "count": 860,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -30105,6 +30105,509 @@
       "stock": 1,
       "interchange": [],
       "images": []
+    },
+    {
+      "id": "ZSQS4VURYJLP3BAXKFIWOJ53",
+      "name": "Wagner F106342 Rear Center Brake Hose 78-88 Grand Prix LeMans Cutlass",
+      "price": 14.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/cabe934e72204ae6ef858ceda7272db9c59d7231/original.jpeg",
+      "url": "https://square.link/u/HiTqCEjv",
+      "category": "brake",
+      "checkout": true,
+      "variation_id": "HCEVHK5HGF6RXMJH6GQMYJIT",
+      "stock": 1,
+      "part_numbers": [
+        "F106342",
+        "BH106342"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1978\u20131981 Buick Century",
+        "1978\u20131987 Buick Regal",
+        "1978\u20131987 Chevrolet El Camino",
+        "1978\u20131983 Chevrolet Malibu",
+        "1978\u20131988 Chevrolet Monte Carlo",
+        "1985\u20131987 Chevrolet Sprint",
+        "1978\u20131987 GMC Caballero",
+        "1978\u20131987 Oldsmobile Cutlass",
+        "1978\u20131984 Oldsmobile Cutlass Calais",
+        "1982\u20131987 Oldsmobile Cutlass Ciera",
+        "1980\u20131987 Oldsmobile Cutlass Cruiser",
+        "1978\u20131987 Oldsmobile Cutlass Salon",
+        "1978\u20131988 Oldsmobile Cutlass Supreme",
+        "1982\u20131986 Pontiac Bonneville",
+        "1978\u20131980 Pontiac Grand Am",
+        "1978\u20131981 Pontiac Grand LeMans",
+        "1978\u20131987 Pontiac Grand Prix",
+        "1978\u20131981 Pontiac LeMans"
+      ],
+      "vehicle_count_raw": 1561,
+      "ebay_item_id": "920071748252",
+      "ebay_type": "Brake Hydraulic Hose",
+      "ebay_brand": "Wagner",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Hoses, Lines & Fittings",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "F106342",
+          "BH106342"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1978,
+            "year_to": 1981,
+            "make": "Buick",
+            "model": "Century",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1978,
+            "year_to": 1987,
+            "make": "Buick",
+            "model": "Regal",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1978,
+            "year_to": 1987,
+            "make": "Chevrolet",
+            "model": "El Camino",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1978,
+            "year_to": 1983,
+            "make": "Chevrolet",
+            "model": "Malibu",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1978,
+            "year_to": 1988,
+            "make": "Chevrolet",
+            "model": "Monte Carlo",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1987,
+            "make": "Chevrolet",
+            "model": "Sprint",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1978,
+            "year_to": 1987,
+            "make": "GMC",
+            "model": "Caballero",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1978,
+            "year_to": 1987,
+            "make": "Oldsmobile",
+            "model": "Cutlass",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1978,
+            "year_to": 1984,
+            "make": "Oldsmobile",
+            "model": "Cutlass Calais",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1982,
+            "year_to": 1987,
+            "make": "Oldsmobile",
+            "model": "Cutlass Ciera",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1980,
+            "year_to": 1987,
+            "make": "Oldsmobile",
+            "model": "Cutlass Cruiser",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1978,
+            "year_to": 1987,
+            "make": "Oldsmobile",
+            "model": "Cutlass Salon",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1978,
+            "year_to": 1988,
+            "make": "Oldsmobile",
+            "model": "Cutlass Supreme",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1982,
+            "year_to": 1986,
+            "make": "Pontiac",
+            "model": "Bonneville",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1978,
+            "year_to": 1980,
+            "make": "Pontiac",
+            "model": "Grand Am",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1978,
+            "year_to": 1981,
+            "make": "Pontiac",
+            "model": "Grand LeMans",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1978,
+            "year_to": 1987,
+            "make": "Pontiac",
+            "model": "Grand Prix",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1978,
+            "year_to": 1981,
+            "make": "Pontiac",
+            "model": "LeMans",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1978\u20131981 Buick Century",
+          "1978\u20131987 Buick Regal",
+          "1978\u20131987 Chevrolet El Camino",
+          "1978\u20131983 Chevrolet Malibu",
+          "1978\u20131988 Chevrolet Monte Carlo",
+          "1985\u20131987 Chevrolet Sprint",
+          "1978\u20131987 GMC Caballero",
+          "1978\u20131987 Oldsmobile Cutlass",
+          "1978\u20131984 Oldsmobile Cutlass Calais",
+          "1982\u20131987 Oldsmobile Cutlass Ciera",
+          "1980\u20131987 Oldsmobile Cutlass Cruiser",
+          "1978\u20131987 Oldsmobile Cutlass Salon",
+          "1978\u20131988 Oldsmobile Cutlass Supreme",
+          "1982\u20131986 Pontiac Bonneville",
+          "1978\u20131980 Pontiac Grand Am",
+          "1978\u20131981 Pontiac Grand LeMans",
+          "1978\u20131987 Pontiac Grand Prix",
+          "1978\u20131981 Pontiac LeMans"
+        ],
+        "raw_compat_rows": 1561,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "920071748252",
+        "type": "Brake Hydraulic Hose",
+        "brand": "Wagner",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Hoses, Lines & Fittings"
+      },
+      "images": [
+        "../assets/pdp-gallery/ZSQS4VURYJLP3BAXKFIWOJ53/02.webp",
+        "../assets/pdp-gallery/ZSQS4VURYJLP3BAXKFIWOJ53/03.webp"
+      ]
+    },
+    {
+      "id": "5M5O4BCTQLLLCT7OGE5NETN4",
+      "name": "Wagner F106886 Front RH Brake Hose 79-87 Grand Prix Malibu Monte Carlo",
+      "price": 14.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/3ab793ed558bfe60ac3564c3a01d75a670d8c0f5/original.jpeg",
+      "url": "https://square.link/u/2kmGmsZV",
+      "category": "brake",
+      "checkout": true,
+      "variation_id": "AIQDLXSXA4CV55GOKQ5Z52JI",
+      "stock": 1,
+      "part_numbers": [
+        "F106886",
+        "BH106886"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1979\u20131981 Buick Century",
+        "1979\u20131987 Buick Regal",
+        "1979\u20131987 Chevrolet El Camino",
+        "1979\u20131983 Chevrolet Malibu",
+        "1979\u20131988 Chevrolet Monte Carlo",
+        "1979\u20131987 GMC Caballero",
+        "1979\u20131987 Oldsmobile Cutlass",
+        "1978\u20131984 Oldsmobile Cutlass Calais",
+        "1980\u20131983 Oldsmobile Cutlass Cruiser",
+        "1978\u20131987 Oldsmobile Cutlass Salon",
+        "1979\u20131988 Oldsmobile Cutlass Supreme",
+        "1982\u20131986 Pontiac Bonneville",
+        "1979\u20131980 Pontiac Grand Am",
+        "1979\u20131981 Pontiac Grand LeMans",
+        "1979\u20131987 Pontiac Grand Prix",
+        "1979\u20131981 Pontiac LeMans"
+      ],
+      "vehicle_count_raw": 1247,
+      "ebay_item_id": "920071737970",
+      "ebay_type": "Brake Hydraulic Hose",
+      "ebay_brand": "Wagner",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Hoses, Lines & Fittings",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "F106886",
+          "BH106886"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1979,
+            "year_to": 1981,
+            "make": "Buick",
+            "model": "Century",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1979,
+            "year_to": 1987,
+            "make": "Buick",
+            "model": "Regal",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1979,
+            "year_to": 1987,
+            "make": "Chevrolet",
+            "model": "El Camino",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1979,
+            "year_to": 1983,
+            "make": "Chevrolet",
+            "model": "Malibu",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1979,
+            "year_to": 1988,
+            "make": "Chevrolet",
+            "model": "Monte Carlo",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1979,
+            "year_to": 1987,
+            "make": "GMC",
+            "model": "Caballero",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1979,
+            "year_to": 1987,
+            "make": "Oldsmobile",
+            "model": "Cutlass",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1978,
+            "year_to": 1984,
+            "make": "Oldsmobile",
+            "model": "Cutlass Calais",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1980,
+            "year_to": 1983,
+            "make": "Oldsmobile",
+            "model": "Cutlass Cruiser",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1978,
+            "year_to": 1987,
+            "make": "Oldsmobile",
+            "model": "Cutlass Salon",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1979,
+            "year_to": 1988,
+            "make": "Oldsmobile",
+            "model": "Cutlass Supreme",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1982,
+            "year_to": 1986,
+            "make": "Pontiac",
+            "model": "Bonneville",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1979,
+            "year_to": 1980,
+            "make": "Pontiac",
+            "model": "Grand Am",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1979,
+            "year_to": 1981,
+            "make": "Pontiac",
+            "model": "Grand LeMans",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1979,
+            "year_to": 1987,
+            "make": "Pontiac",
+            "model": "Grand Prix",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1979,
+            "year_to": 1981,
+            "make": "Pontiac",
+            "model": "LeMans",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1979\u20131981 Buick Century",
+          "1979\u20131987 Buick Regal",
+          "1979\u20131987 Chevrolet El Camino",
+          "1979\u20131983 Chevrolet Malibu",
+          "1979\u20131988 Chevrolet Monte Carlo",
+          "1979\u20131987 GMC Caballero",
+          "1979\u20131987 Oldsmobile Cutlass",
+          "1978\u20131984 Oldsmobile Cutlass Calais",
+          "1980\u20131983 Oldsmobile Cutlass Cruiser",
+          "1978\u20131987 Oldsmobile Cutlass Salon",
+          "1979\u20131988 Oldsmobile Cutlass Supreme",
+          "1982\u20131986 Pontiac Bonneville",
+          "1979\u20131980 Pontiac Grand Am",
+          "1979\u20131981 Pontiac Grand LeMans",
+          "1979\u20131987 Pontiac Grand Prix",
+          "1979\u20131981 Pontiac LeMans"
+        ],
+        "raw_compat_rows": 1247,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "920071737970",
+        "type": "Brake Hydraulic Hose",
+        "brand": "Wagner",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Hoses, Lines & Fittings"
+      },
+      "images": [
+        "../assets/pdp-gallery/5M5O4BCTQLLLCT7OGE5NETN4/02.webp",
+        "../assets/pdp-gallery/5M5O4BCTQLLLCT7OGE5NETN4/03.webp",
+        "../assets/pdp-gallery/5M5O4BCTQLLLCT7OGE5NETN4/04.webp"
+      ]
     },
     {
       "id": "2QPEKEV63TKSMBTYJXE5357O",
@@ -102853,18 +103356,10 @@
       "category": "other",
       "checkout": true,
       "variation_id": "74HTFLIMEOY3VCEHUWSFCKN2",
-      "stock": 1,
       "part_numbers": [
         "V-815",
         "V815"
       ],
-      "interchange": [],
-      "vehicles": [],
-      "vehicle_count_raw": 0,
-      "ebay_item_id": "920071690815",
-      "ebay_type": "Intake Valve",
-      "ebay_brand": "Sealed Power",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Valvetrain Components:Valves",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -102883,11 +103378,19 @@
         "brand": "Sealed Power",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Valvetrain Components:Valves"
       },
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "920071690815",
+      "ebay_type": "Intake Valve",
+      "ebay_brand": "Sealed Power",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Valvetrain Components:Valves",
       "images": [
         "../assets/pdp-gallery/BMGZ2IAOBBY4GYSPHYC6RESF/02.webp",
         "../assets/pdp-gallery/BMGZ2IAOBBY4GYSPHYC6RESF/03.webp",
         "../assets/pdp-gallery/BMGZ2IAOBBY4GYSPHYC6RESF/04.webp"
-      ]
+      ],
+      "stock": 1,
+      "interchange": [],
+      "vehicles": []
     },
     {
       "id": "VKR2FEZUEQ7QDXDCWQOMQ4OJ",
@@ -117668,5 +118171,5 @@
       "vehicles": []
     }
   ],
-  "fitment_built": "2026-10-24T22:03:52Z"
+  "fitment_built": "2026-10-24T23:03:55Z"
 }
