@@ -1,7 +1,7 @@
 {
-  "updated": "2026-10-24T01:03:59Z",
+  "updated": "2026-10-24T02:03:52Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 845,
+  "count": 847,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -62596,6 +62596,257 @@
       "interchange": []
     },
     {
+      "id": "E7A6YRQ7CNG7HISDP2QXE3VL",
+      "name": "Dayco 95017 Timing Belt VW Rabbit Golf Jetta Audi 4000 Porsche 924 Omni Horizon",
+      "price": 19.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/8e6d73699f5ed62cddc06151f21d92987ef31fdd/original.jpeg",
+      "url": "https://square.link/u/iSOtyPcE",
+      "category": "driveline",
+      "checkout": true,
+      "variation_id": "WO7YGBE5NSGS6265OS5ZKWUK",
+      "stock": 1,
+      "part_numbers": [
+        "95017",
+        "Gates 6404, NAPA 25-90170, Bando 121ZA19, Cloyes B017"
+      ],
+      "interchange": [
+        "Gates T017",
+        "NAPA 250017",
+        "ACDelco TB017",
+        "Beck",
+        "Arnley 026-0176"
+      ],
+      "vehicles": [
+        "1978\u20131979 AMC Concord",
+        "1977\u20131978 AMC Gremlin",
+        "1982\u20131983 Audi 4000",
+        "1988\u20131990 Audi 80",
+        "1973\u20131979 Audi Fox",
+        "1978\u20131983 Dodge Omni",
+        "1978\u20131983 Plymouth Horizon",
+        "1977\u20131982 Porsche 924",
+        "1974\u20131980 Volkswagen Dasher",
+        "1985\u20131998 Volkswagen Golf",
+        "1981\u20131995 Volkswagen Jetta",
+        "1982\u20131985 Volkswagen Quantum",
+        "1976\u20131984 Volkswagen Rabbit",
+        "1980 Volkswagen Rabbit Convertible",
+        "1981\u20131983 Volkswagen Rabbit Pickup",
+        "1976\u20131980 Volkswagen Scirocco"
+      ],
+      "vehicle_count_raw": 316,
+      "ebay_item_id": "920069068536",
+      "ebay_type": "Timing Belt",
+      "ebay_brand": "Dayco",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Timing Components & Kits:Timing Kits",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "95017",
+          "Gates 6404, NAPA 25-90170, Bando 121ZA19, Cloyes B017"
+        ],
+        "interchange": [
+          "Gates T017",
+          "NAPA 250017",
+          "ACDelco TB017",
+          "Beck",
+          "Arnley 026-0176"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1978,
+            "year_to": 1979,
+            "make": "AMC",
+            "model": "Concord",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1977,
+            "year_to": 1978,
+            "make": "AMC",
+            "model": "Gremlin",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1982,
+            "year_to": 1983,
+            "make": "Audi",
+            "model": "4000",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1988,
+            "year_to": 1990,
+            "make": "Audi",
+            "model": "80",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1973,
+            "year_to": 1979,
+            "make": "Audi",
+            "model": "Fox",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1978,
+            "year_to": 1983,
+            "make": "Dodge",
+            "model": "Omni",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1978,
+            "year_to": 1983,
+            "make": "Plymouth",
+            "model": "Horizon",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1977,
+            "year_to": 1982,
+            "make": "Porsche",
+            "model": "924",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1974,
+            "year_to": 1980,
+            "make": "Volkswagen",
+            "model": "Dasher",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1998,
+            "make": "Volkswagen",
+            "model": "Golf",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1981,
+            "year_to": 1995,
+            "make": "Volkswagen",
+            "model": "Jetta",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1982,
+            "year_to": 1985,
+            "make": "Volkswagen",
+            "model": "Quantum",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1976,
+            "year_to": 1984,
+            "make": "Volkswagen",
+            "model": "Rabbit",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1980,
+            "year_to": 1980,
+            "make": "Volkswagen",
+            "model": "Rabbit Convertible",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1981,
+            "year_to": 1983,
+            "make": "Volkswagen",
+            "model": "Rabbit Pickup",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1976,
+            "year_to": 1980,
+            "make": "Volkswagen",
+            "model": "Scirocco",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1978\u20131979 AMC Concord",
+          "1977\u20131978 AMC Gremlin",
+          "1982\u20131983 Audi 4000",
+          "1988\u20131990 Audi 80",
+          "1973\u20131979 Audi Fox",
+          "1978\u20131983 Dodge Omni",
+          "1978\u20131983 Plymouth Horizon",
+          "1977\u20131982 Porsche 924",
+          "1974\u20131980 Volkswagen Dasher",
+          "1985\u20131998 Volkswagen Golf",
+          "1981\u20131995 Volkswagen Jetta",
+          "1982\u20131985 Volkswagen Quantum",
+          "1976\u20131984 Volkswagen Rabbit",
+          "1980 Volkswagen Rabbit Convertible",
+          "1981\u20131983 Volkswagen Rabbit Pickup",
+          "1976\u20131980 Volkswagen Scirocco"
+        ],
+        "raw_compat_rows": 316,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "920069068536",
+        "type": "Timing Belt",
+        "brand": "Dayco",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Timing Components & Kits:Timing Kits"
+      },
+      "images": [
+        "../assets/pdp-gallery/E7A6YRQ7CNG7HISDP2QXE3VL/02.webp",
+        "../assets/pdp-gallery/E7A6YRQ7CNG7HISDP2QXE3VL/03.webp"
+      ]
+    },
+    {
       "id": "X3HGK4WUOKZJLQPBB2M3ABOY",
       "name": "Dorman 55114 AIR Manifold Pipe 82-88 Cutlass NOS",
       "price": 29.99,
@@ -93877,6 +94128,205 @@
       "vehicles": []
     },
     {
+      "id": "WSUV62NXQH4HGFQRO5STTT62",
+      "name": "Monroe 901951 Strut-Mate Rear Strut Mount Kit Cavalier Ciera Skylark Grand Am",
+      "price": 24.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/84de591cf622a6ccdc7cfd0776559716337dfaa9/original.jpeg",
+      "url": "https://square.link/u/kH77tZhl",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "2LFEGFBCNAUNOKT4QJRONGLU",
+      "stock": 2,
+      "part_numbers": [
+        "901951",
+        "Mevotech MP901951, NAPA 901951, Doan Anchor 701951"
+      ],
+      "interchange": [
+        "MOOG K6353",
+        "KYB SM5010",
+        "Gabriel 141974"
+      ],
+      "vehicles": [
+        "1984\u20131996 Buick Century",
+        "1984\u20131998 Buick Skylark",
+        "1984\u20131988 Cadillac Cimarron",
+        "1987\u20131996 Chevrolet Beretta",
+        "1984\u20131994 Chevrolet Cavalier",
+        "1984\u20131990 Chevrolet Celebrity",
+        "1987\u20131996 Chevrolet Corsica",
+        "1992\u20131998 Oldsmobile Achieva",
+        "1984\u20131996 Oldsmobile Cutlass Ciera",
+        "1985\u20131998 Pontiac Grand Am",
+        "1986\u20131994 Pontiac Sunbird",
+        "1990\u20131996 Pontiac Trans Sport"
+      ],
+      "vehicle_count_raw": 1274,
+      "ebay_item_id": "920069108491",
+      "ebay_type": "Strut Mount",
+      "ebay_brand": "Monroe",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Steering & Suspension:Shock & Strut Mounts",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "901951",
+          "Mevotech MP901951, NAPA 901951, Doan Anchor 701951"
+        ],
+        "interchange": [
+          "MOOG K6353",
+          "KYB SM5010",
+          "Gabriel 141974"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1984,
+            "year_to": 1996,
+            "make": "Buick",
+            "model": "Century",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 1998,
+            "make": "Buick",
+            "model": "Skylark",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 1988,
+            "make": "Cadillac",
+            "model": "Cimarron",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1996,
+            "make": "Chevrolet",
+            "model": "Beretta",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 1994,
+            "make": "Chevrolet",
+            "model": "Cavalier",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 1990,
+            "make": "Chevrolet",
+            "model": "Celebrity",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1996,
+            "make": "Chevrolet",
+            "model": "Corsica",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1992,
+            "year_to": 1998,
+            "make": "Oldsmobile",
+            "model": "Achieva",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 1996,
+            "make": "Oldsmobile",
+            "model": "Cutlass Ciera",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1998,
+            "make": "Pontiac",
+            "model": "Grand Am",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1986,
+            "year_to": 1994,
+            "make": "Pontiac",
+            "model": "Sunbird",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1990,
+            "year_to": 1996,
+            "make": "Pontiac",
+            "model": "Trans Sport",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1984\u20131996 Buick Century",
+          "1984\u20131998 Buick Skylark",
+          "1984\u20131988 Cadillac Cimarron",
+          "1987\u20131996 Chevrolet Beretta",
+          "1984\u20131994 Chevrolet Cavalier",
+          "1984\u20131990 Chevrolet Celebrity",
+          "1987\u20131996 Chevrolet Corsica",
+          "1992\u20131998 Oldsmobile Achieva",
+          "1984\u20131996 Oldsmobile Cutlass Ciera",
+          "1985\u20131998 Pontiac Grand Am",
+          "1986\u20131994 Pontiac Sunbird",
+          "1990\u20131996 Pontiac Trans Sport"
+        ],
+        "raw_compat_rows": 1274,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "920069108491",
+        "type": "Strut Mount",
+        "brand": "Monroe",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Steering & Suspension:Shock & Strut Mounts"
+      },
+      "images": [
+        "../assets/pdp-gallery/WSUV62NXQH4HGFQRO5STTT62/02.webp",
+        "../assets/pdp-gallery/WSUV62NXQH4HGFQRO5STTT62/03.webp"
+      ]
+    },
+    {
       "id": "ZBJFR3PUXBOXTNZWIF23XUPX",
       "name": "MOOG K6337 Rack Pinion Mount Bushing 1of2 Cavalier NOS",
       "price": 14.99,
@@ -101171,21 +101621,14 @@
       "category": "other",
       "checkout": true,
       "variation_id": "FTEC6PVGA3QVLBACFUSVRHJ7",
-      "stock": 1,
       "part_numbers": [
         "R-872",
         "44075F"
       ],
-      "interchange": [],
       "vehicles": [
         "1971\u20131974 Ford Pinto",
         "1971\u20131974 Mercury Capri"
       ],
-      "vehicle_count_raw": 27,
-      "ebay_item_id": "920069002951",
-      "ebay_type": "Engine Rocker Arm",
-      "ebay_brand": "Sealed Power",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Valvetrain Components:Rocker Arms & Parts",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -101228,11 +101671,18 @@
         "brand": "Sealed Power",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Valvetrain Components:Rocker Arms & Parts"
       },
+      "vehicle_count_raw": 27,
+      "ebay_item_id": "920069002951",
+      "ebay_type": "Engine Rocker Arm",
+      "ebay_brand": "Sealed Power",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Valvetrain Components:Rocker Arms & Parts",
       "images": [
         "../assets/pdp-gallery/PX4II6EVCIYH6AKTSWNV6WKX/02.webp",
         "../assets/pdp-gallery/PX4II6EVCIYH6AKTSWNV6WKX/03.webp",
         "../assets/pdp-gallery/PX4II6EVCIYH6AKTSWNV6WKX/04.webp"
-      ]
+      ],
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "VKR2FEZUEQ7QDXDCWQOMQ4OJ",
@@ -115979,5 +116429,5 @@
       "vehicles": []
     }
   ],
-  "fitment_built": "2026-10-24T01:03:59Z"
+  "fitment_built": "2026-10-24T02:03:52Z"
 }
