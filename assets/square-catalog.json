@@ -1,7 +1,7 @@
 {
-  "updated": "2026-10-24T04:03:56Z",
+  "updated": "2026-10-24T05:03:42Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 852,
+  "count": 853,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -62604,7 +62604,6 @@
       "category": "driveline",
       "checkout": true,
       "variation_id": "RZCM6BFH33G3DFZOQ2TGXWGW",
-      "stock": 1,
       "part_numbers": [
         "95013",
         "122ZA19, D1FZ6268A, MD008960"
@@ -62618,11 +62617,6 @@
         "1977\u20131978 Dodge Colt",
         "1971\u20131974 Ford Pinto"
       ],
-      "vehicle_count_raw": 57,
-      "ebay_item_id": "920069399647",
-      "ebay_type": "Timing Belt",
-      "ebay_brand": "Dayco",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Timing Components & Kits:Timing Kits",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -62679,11 +62673,17 @@
         "brand": "Dayco",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Timing Components & Kits:Timing Kits"
       },
+      "vehicle_count_raw": 57,
+      "ebay_item_id": "920069399647",
+      "ebay_type": "Timing Belt",
+      "ebay_brand": "Dayco",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Timing Components & Kits:Timing Kits",
       "images": [
         "../assets/pdp-gallery/3ODS6OOL57763WXCEAJRSXAA/02.webp",
         "../assets/pdp-gallery/3ODS6OOL57763WXCEAJRSXAA/03.webp",
         "../assets/pdp-gallery/3ODS6OOL57763WXCEAJRSXAA/04.webp"
-      ]
+      ],
+      "stock": 1
     },
     {
       "id": "E7A6YRQ7CNG7HISDP2QXE3VL",
@@ -65258,7 +65258,6 @@
       "category": "driveline",
       "checkout": true,
       "variation_id": "DWYW4VQSZC3IARKA6PDRBYT3",
-      "stock": 1,
       "part_numbers": [
         "CV8415",
         "McQuay-Norris 66-1817, Neapco 85-0964"
@@ -65273,11 +65272,6 @@
         "1988\u20131992 Mazda 626",
         "1988\u20131992 Mazda MX-6"
       ],
-      "vehicle_count_raw": 41,
-      "ebay_item_id": "920069356190",
-      "ebay_type": "CV Boot Kit",
-      "ebay_brand": "Moog",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:CV Joints, Boots & Parts",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -65335,11 +65329,17 @@
         "brand": "Moog",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:CV Joints, Boots & Parts"
       },
+      "vehicle_count_raw": 41,
+      "ebay_item_id": "920069356190",
+      "ebay_type": "CV Boot Kit",
+      "ebay_brand": "Moog",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:CV Joints, Boots & Parts",
       "images": [
         "../assets/pdp-gallery/CFPS563CEWLUQ4TF24DJKM6H/02.webp",
         "../assets/pdp-gallery/CFPS563CEWLUQ4TF24DJKM6H/03.webp",
         "../assets/pdp-gallery/CFPS563CEWLUQ4TF24DJKM6H/04.webp"
-      ]
+      ],
+      "stock": 1
     },
     {
       "id": "7FGRFQ3FFWTU25CSM5IZT5HY",
@@ -66686,6 +66686,182 @@
       ],
       "stock": 1,
       "interchange": []
+    },
+    {
+      "id": "634GJTCADL6XTAJT7UCUO7LY",
+      "name": "TRW 22335 CV Boot Kit Inner Cavalier Sunbird Beretta Corsica Grand Am",
+      "price": 24.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/132e884d8768be08d7efa3b5b682128f2735aeee/original.jpeg",
+      "url": "https://square.link/u/fiCKNgyU",
+      "category": "driveline",
+      "checkout": true,
+      "variation_id": "XDB6XMKJYSS6WQEFBJF5YBZU",
+      "stock": 1,
+      "part_numbers": [
+        "22335",
+        "TRW 22379, GM 7842255, GM 9787052"
+      ],
+      "interchange": [
+        "Precision 5415",
+        "MOOG CV5415",
+        "GM 7845159"
+      ],
+      "vehicles": [
+        "1985\u20131993 Buick Century",
+        "1985\u20131995 Buick Skylark",
+        "1987\u20131996 Chevrolet Beretta",
+        "1985\u20131997 Chevrolet Cavalier",
+        "1987\u20131996 Chevrolet Corsica",
+        "1985\u20131993 Oldsmobile Cutlass Ciera",
+        "1985\u20131991 Pontiac 6000",
+        "1985\u20131995 Pontiac Grand Am",
+        "1986\u20131994 Pontiac Sunbird",
+        "1995\u20131997 Pontiac Sunfire"
+      ],
+      "vehicle_count_raw": 1028,
+      "ebay_item_id": "920069481825",
+      "ebay_type": "CV Boot Kit",
+      "ebay_brand": "TRW",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:CV Joints, Boots & Parts",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "22335",
+          "TRW 22379, GM 7842255, GM 9787052"
+        ],
+        "interchange": [
+          "Precision 5415",
+          "MOOG CV5415",
+          "GM 7845159"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1985,
+            "year_to": 1993,
+            "make": "Buick",
+            "model": "Century",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1995,
+            "make": "Buick",
+            "model": "Skylark",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1996,
+            "make": "Chevrolet",
+            "model": "Beretta",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1997,
+            "make": "Chevrolet",
+            "model": "Cavalier",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1996,
+            "make": "Chevrolet",
+            "model": "Corsica",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1993,
+            "make": "Oldsmobile",
+            "model": "Cutlass Ciera",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1991,
+            "make": "Pontiac",
+            "model": "6000",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1995,
+            "make": "Pontiac",
+            "model": "Grand Am",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1986,
+            "year_to": 1994,
+            "make": "Pontiac",
+            "model": "Sunbird",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1995,
+            "year_to": 1997,
+            "make": "Pontiac",
+            "model": "Sunfire",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1985\u20131993 Buick Century",
+          "1985\u20131995 Buick Skylark",
+          "1987\u20131996 Chevrolet Beretta",
+          "1985\u20131997 Chevrolet Cavalier",
+          "1987\u20131996 Chevrolet Corsica",
+          "1985\u20131993 Oldsmobile Cutlass Ciera",
+          "1985\u20131991 Pontiac 6000",
+          "1985\u20131995 Pontiac Grand Am",
+          "1986\u20131994 Pontiac Sunbird",
+          "1995\u20131997 Pontiac Sunfire"
+        ],
+        "raw_compat_rows": 1028,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "920069481825",
+        "type": "CV Boot Kit",
+        "brand": "TRW",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:CV Joints, Boots & Parts"
+      },
+      "images": [
+        "../assets/pdp-gallery/634GJTCADL6XTAJT7UCUO7LY/02.webp",
+        "../assets/pdp-gallery/634GJTCADL6XTAJT7UCUO7LY/03.webp",
+        "../assets/pdp-gallery/634GJTCADL6XTAJT7UCUO7LY/04.webp"
+      ]
     },
     {
       "id": "EI6IIJST5VQ56MZJAZCMIJFV",
@@ -93911,7 +94087,6 @@
       "category": "other",
       "checkout": true,
       "variation_id": "5GCOZM5DPTXS672GVKCDJXNZ",
-      "stock": 1,
       "part_numbers": [
         "BS 301",
         "GM 14002444, Detroit Gasket 17194"
@@ -93927,11 +94102,6 @@
         "1983\u20131984 Oldsmobile Firenza",
         "1982\u20131984 Pontiac Phoenix"
       ],
-      "vehicle_count_raw": 104,
-      "ebay_item_id": "920069331941",
-      "ebay_type": "Rear Main Seal",
-      "ebay_brand": "McCord",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Gaskets, Seals & Hardware:Gaskets & Seals",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -94000,11 +94170,17 @@
         "brand": "McCord",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Gaskets, Seals & Hardware:Gaskets & Seals"
       },
+      "vehicle_count_raw": 104,
+      "ebay_item_id": "920069331941",
+      "ebay_type": "Rear Main Seal",
+      "ebay_brand": "McCord",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Gaskets, Seals & Hardware:Gaskets & Seals",
       "images": [
         "../assets/pdp-gallery/N7KJTJZAG4SNTRNUCTM7OKAW/02.webp",
         "../assets/pdp-gallery/N7KJTJZAG4SNTRNUCTM7OKAW/03.webp",
         "../assets/pdp-gallery/N7KJTJZAG4SNTRNUCTM7OKAW/04.webp"
-      ]
+      ],
+      "stock": 1
     },
     {
       "id": "VTYIPJ7EPD7J54IDW6TTN7BW",
@@ -116882,5 +117058,5 @@
       "vehicles": []
     }
   ],
-  "fitment_built": "2026-10-24T04:03:56Z"
+  "fitment_built": "2026-10-24T05:03:42Z"
 }
