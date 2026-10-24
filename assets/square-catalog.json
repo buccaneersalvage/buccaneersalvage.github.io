@@ -1,7 +1,7 @@
 {
-  "updated": "2026-10-23T22:04:14Z",
+  "updated": "2026-10-24T01:03:59Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 844,
+  "count": 845,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -101163,6 +101163,78 @@
       "vehicles": []
     },
     {
+      "id": "PX4II6EVCIYH6AKTSWNV6WKX",
+      "name": "Sealed Power R-872 Engine Rocker Arm Pair Ford Pinto Mercury Capri 2.0L 71-74",
+      "price": 19.73,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/97c8cf8e5bf3a27554c2fbd170c0110627401002/original.jpeg",
+      "url": "https://square.link/u/9envN7F6",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "FTEC6PVGA3QVLBACFUSVRHJ7",
+      "stock": 1,
+      "part_numbers": [
+        "R-872",
+        "44075F"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1971\u20131974 Ford Pinto",
+        "1971\u20131974 Mercury Capri"
+      ],
+      "vehicle_count_raw": 27,
+      "ebay_item_id": "920069002951",
+      "ebay_type": "Engine Rocker Arm",
+      "ebay_brand": "Sealed Power",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Valvetrain Components:Rocker Arms & Parts",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "R-872",
+          "44075F"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1971,
+            "year_to": 1974,
+            "make": "Ford",
+            "model": "Pinto",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1971,
+            "year_to": 1974,
+            "make": "Mercury",
+            "model": "Capri",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1971\u20131974 Ford Pinto",
+          "1971\u20131974 Mercury Capri"
+        ],
+        "raw_compat_rows": 27,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "920069002951",
+        "type": "Engine Rocker Arm",
+        "brand": "Sealed Power",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Valvetrain Components:Rocker Arms & Parts"
+      },
+      "images": [
+        "../assets/pdp-gallery/PX4II6EVCIYH6AKTSWNV6WKX/02.webp",
+        "../assets/pdp-gallery/PX4II6EVCIYH6AKTSWNV6WKX/03.webp",
+        "../assets/pdp-gallery/PX4II6EVCIYH6AKTSWNV6WKX/04.webp"
+      ]
+    },
+    {
       "id": "VKR2FEZUEQ7QDXDCWQOMQ4OJ",
       "name": "SERCON R12-14OZ Refrigerant NOS Automotive AC",
       "price": 75.0,
@@ -115907,5 +115979,5 @@
       "vehicles": []
     }
   ],
-  "fitment_built": "2026-10-23T22:04:14Z"
+  "fitment_built": "2026-10-24T01:03:59Z"
 }
