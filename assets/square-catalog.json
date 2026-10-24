@@ -1,7 +1,7 @@
 {
-  "updated": "2026-10-24T18:04:00Z",
+  "updated": "2026-10-24T19:03:59Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 855,
+  "count": 856,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -68086,6 +68086,214 @@
       "interchange": []
     },
     {
+      "id": "TTVOG7MX26HFD6WJFQQX7BGR",
+      "name": "Engine Pro EX-4511 Exhaust Valve Lot of 3 01-10805S Argentina OEM Valves",
+      "price": 24.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/2e431cceb4574d28936fc86cef47896b1862425e/original.jpeg",
+      "url": "https://square.link/u/3WwgYnSO",
+      "category": "exhaust",
+      "checkout": true,
+      "variation_id": "XDRA3OK22TW2UF3RDR3BYCTE",
+      "stock": 1,
+      "part_numbers": [
+        "01-10805S"
+      ],
+      "interchange": [
+        "058109611E",
+        "EX5173"
+      ],
+      "vehicles": [
+        "1998\u20132006 Audi A4",
+        "2002\u20132006 Audi A4 Quattro",
+        "2002\u20132006 Audi A6",
+        "2002\u20132006 Audi A6 Quattro",
+        "2001\u20132005 Audi Allroad Quattro",
+        "2000\u20132002 Audi S4",
+        "2000\u20132004 Audi TT",
+        "2000\u20132002 Audi TT Quattro",
+        "1999\u20132005 Volkswagen Beetle",
+        "2000\u20132006 Volkswagen Golf",
+        "1999\u20132005 Volkswagen Jetta",
+        "1998\u20132005 Volkswagen Passat",
+        "2002\u20132006 Volkswagen Sharan"
+      ],
+      "vehicle_count_raw": 227,
+      "ebay_item_id": "920071198660",
+      "ebay_type": "Exhaust Valve",
+      "ebay_brand": "Engine Pro",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Exhaust & Emission Systems:Exhaust Gaskets",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "01-10805S"
+        ],
+        "interchange": [
+          "058109611E",
+          "EX5173"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1998,
+            "year_to": 2006,
+            "make": "Audi",
+            "model": "A4",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2002,
+            "year_to": 2006,
+            "make": "Audi",
+            "model": "A4 Quattro",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2002,
+            "year_to": 2006,
+            "make": "Audi",
+            "model": "A6",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2002,
+            "year_to": 2006,
+            "make": "Audi",
+            "model": "A6 Quattro",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2001,
+            "year_to": 2005,
+            "make": "Audi",
+            "model": "Allroad Quattro",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2000,
+            "year_to": 2002,
+            "make": "Audi",
+            "model": "S4",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2000,
+            "year_to": 2004,
+            "make": "Audi",
+            "model": "TT",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2000,
+            "year_to": 2002,
+            "make": "Audi",
+            "model": "TT Quattro",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1999,
+            "year_to": 2005,
+            "make": "Volkswagen",
+            "model": "Beetle",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2000,
+            "year_to": 2006,
+            "make": "Volkswagen",
+            "model": "Golf",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1999,
+            "year_to": 2005,
+            "make": "Volkswagen",
+            "model": "Jetta",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1998,
+            "year_to": 2005,
+            "make": "Volkswagen",
+            "model": "Passat",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2002,
+            "year_to": 2006,
+            "make": "Volkswagen",
+            "model": "Sharan",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1998\u20132006 Audi A4",
+          "2002\u20132006 Audi A4 Quattro",
+          "2002\u20132006 Audi A6",
+          "2002\u20132006 Audi A6 Quattro",
+          "2001\u20132005 Audi Allroad Quattro",
+          "2000\u20132002 Audi S4",
+          "2000\u20132004 Audi TT",
+          "2000\u20132002 Audi TT Quattro",
+          "1999\u20132005 Volkswagen Beetle",
+          "2000\u20132006 Volkswagen Golf",
+          "1999\u20132005 Volkswagen Jetta",
+          "1998\u20132005 Volkswagen Passat",
+          "2002\u20132006 Volkswagen Sharan"
+        ],
+        "raw_compat_rows": 227,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "920071198660",
+        "type": "Exhaust Valve",
+        "brand": "Engine Pro",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Exhaust & Emission Systems:Exhaust Gaskets"
+      },
+      "images": [
+        "../assets/pdp-gallery/TTVOG7MX26HFD6WJFQQX7BGR/02.webp",
+        "../assets/pdp-gallery/TTVOG7MX26HFD6WJFQQX7BGR/03.webp",
+        "../assets/pdp-gallery/TTVOG7MX26HFD6WJFQQX7BGR/04.webp"
+      ]
+    },
+    {
       "id": "YPYOICCQIALRDYOIKK63QP6A",
       "name": "Fair Sun FS-HS04 Headlight Switch NOS",
       "price": 19.99,
@@ -68233,6 +68441,67 @@
       "stock": 1,
       "interchange": [],
       "vehicles": []
+    },
+    {
+      "id": "CXPRAT5343UUQGHLLBFWYBG5",
+      "name": "Topline EV H-25 4pc Exhaust Valve Set 1992-1995 Honda Civic D16Z6 1.6",
+      "price": 12.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/5d2db96de61ba501737f1d83e0d95895f71c88ef/original.jpeg",
+      "url": "https://square.link/u/XM4lIe2v",
+      "category": "exhaust",
+      "checkout": true,
+      "variation_id": "ED6YM6BOCKYWMJ76NGWGZVXI",
+      "stock": 1,
+      "part_numbers": [
+        "H-25",
+        "EV H-25"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1992\u20131995 Honda Civic"
+      ],
+      "vehicle_count_raw": 11,
+      "ebay_item_id": "920071210133",
+      "ebay_type": "Exhaust Valve",
+      "ebay_brand": "Topline",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Exhaust & Emission Systems:Exhaust Gaskets",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "H-25",
+          "EV H-25"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1992,
+            "year_to": 1995,
+            "make": "Honda",
+            "model": "Civic",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1992\u20131995 Honda Civic"
+        ],
+        "raw_compat_rows": 11,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "920071210133",
+        "type": "Exhaust Valve",
+        "brand": "Topline",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Exhaust & Emission Systems:Exhaust Gaskets"
+      },
+      "images": [
+        "../assets/pdp-gallery/CXPRAT5343UUQGHLLBFWYBG5/02.webp",
+        "../assets/pdp-gallery/CXPRAT5343UUQGHLLBFWYBG5/03.webp",
+        "../assets/pdp-gallery/CXPRAT5343UUQGHLLBFWYBG5/04.webp",
+        "../assets/pdp-gallery/CXPRAT5343UUQGHLLBFWYBG5/05.webp"
+      ]
     },
     {
       "id": "HXJYNDFNYG7OAOGH5W5IBKPQ",
@@ -70213,7 +70482,6 @@
       "category": "other",
       "checkout": true,
       "variation_id": "ON5UDTVNMYX2WIY5FCDLJWYT",
-      "stock": 1,
       "part_numbers": [
         "CX12H",
         "3755761, 30440A"
@@ -70225,12 +70493,6 @@
         "88921119",
         "C761"
       ],
-      "vehicles": [],
-      "vehicle_count_raw": 0,
-      "ebay_item_id": "920071157483",
-      "ebay_type": "Starter Brush Holder",
-      "ebay_brand": "Ampco",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Starters, Alternators, ECUs & Wiring:Starter Motor Parts",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -70255,10 +70517,17 @@
         "brand": "Ampco",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Starters, Alternators, ECUs & Wiring:Starter Motor Parts"
       },
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "920071157483",
+      "ebay_type": "Starter Brush Holder",
+      "ebay_brand": "Ampco",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Starters, Alternators, ECUs & Wiring:Starter Motor Parts",
       "images": [
         "../assets/pdp-gallery/CIHIYVMJAKMSDPJQCDRT4BBO/02.webp",
         "../assets/pdp-gallery/CIHIYVMJAKMSDPJQCDRT4BBO/03.webp"
-      ]
+      ],
+      "stock": 1,
+      "vehicles": []
     },
     {
       "id": "EUHHRIHKC5CP3XKVETQODNSR",
@@ -113527,48 +113796,6 @@
       "stock": 1
     },
     {
-      "id": "KO5NU5EL5YLWV4K3RD4F3FR4",
-      "name": "U-Haul 13480 Trailer Wiring Adapter 6-Way Round to 4-Flat Piggyback NOS",
-      "price": 16.99,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/85a6642bd0f777d8b72caac95130b7b401e2600d/original.jpeg",
-      "url": "https://square.link/u/1kWjDHEz",
-      "category": "other",
-      "checkout": true,
-      "variation_id": "HX2JIU45YJM7PAUWEEVUEMXM",
-      "part_numbers": [
-        "13480"
-      ],
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "medium",
-      "fitment": {
-        "part_numbers": [
-          "13480"
-        ],
-        "interchange": [],
-        "vehicles": [],
-        "vehicle_labels": [],
-        "raw_compat_rows": 0,
-        "source": "ebay_listing",
-        "confidence": "medium",
-        "ebay_item_id": "398398949658",
-        "type": "Trailer Wiring Adapter",
-        "brand": "U-Haul",
-        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Towing Parts & Accessories:Wiring, Harnesses & Connectors"
-      },
-      "vehicle_count_raw": 0,
-      "ebay_item_id": "398398949658",
-      "ebay_type": "Trailer Wiring Adapter",
-      "ebay_brand": "U-Haul",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Towing Parts & Accessories:Wiring, Harnesses & Connectors",
-      "images": [
-        "../assets/pdp-gallery/KO5NU5EL5YLWV4K3RD4F3FR4/02.webp",
-        "../assets/pdp-gallery/KO5NU5EL5YLWV4K3RD4F3FR4/03.webp"
-      ],
-      "stock": 1,
-      "interchange": [],
-      "vehicles": []
-    },
-    {
       "id": "2FLP2E6J3TKRSA7K2GNWJ64B",
       "name": "U-Haul 14482 Trailer Wiring Adapter 7-Pin Round to 4-Flat Piggyback NOS",
       "price": 16.99,
@@ -117354,5 +117581,5 @@
       "vehicles": []
     }
   ],
-  "fitment_built": "2026-10-24T18:04:00Z"
+  "fitment_built": "2026-10-24T19:03:59Z"
 }
