@@ -1,7 +1,7 @@
 {
-  "updated": "2026-10-25T16:03:54Z",
+  "updated": "2026-10-25T17:04:03Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 864,
+  "count": 868,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -29497,6 +29497,115 @@
         "../assets/pdp-gallery/UD6AH2CC4HDMSJS6FE7TTMGV/03.webp"
       ],
       "stock": 1
+    },
+    {
+      "id": "BZ7QEE4FYGLJWCOVHAILTQXD",
+      "name": "Wagner CR98670 Reman Unloaded Brake Caliper 1985-2002 Astro Front Left",
+      "price": 34.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/dd4e1d0b4a534235e29e2c2e96f08360a5720fbe/original.jpeg",
+      "url": "https://square.link/u/UphB41LL",
+      "category": "brake",
+      "checkout": true,
+      "variation_id": "AGZYOEUP7TMAX6KMZWDPPDTY",
+      "stock": 1,
+      "part_numbers": [
+        "CR98670",
+        "18-4021"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1978\u20131996 Cadillac Fleetwood",
+        "1978\u20131979 Cadillac Seville",
+        "1985\u20132002 Chevrolet Astro",
+        "1981\u20131986 Chevrolet C10",
+        "1978\u20131981 Chevrolet Camaro"
+      ],
+      "vehicle_count_raw": 390,
+      "ebay_item_id": "920073686555",
+      "ebay_type": "Disc Brake Caliper",
+      "ebay_brand": "Wagner",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Calipers & Brackets",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "CR98670",
+          "18-4021"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1978,
+            "year_to": 1996,
+            "make": "Cadillac",
+            "model": "Fleetwood",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1978,
+            "year_to": 1979,
+            "make": "Cadillac",
+            "model": "Seville",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 2002,
+            "make": "Chevrolet",
+            "model": "Astro",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1981,
+            "year_to": 1986,
+            "make": "Chevrolet",
+            "model": "C10",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1978,
+            "year_to": 1981,
+            "make": "Chevrolet",
+            "model": "Camaro",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1978\u20131996 Cadillac Fleetwood",
+          "1978\u20131979 Cadillac Seville",
+          "1985\u20132002 Chevrolet Astro",
+          "1981\u20131986 Chevrolet C10",
+          "1978\u20131981 Chevrolet Camaro"
+        ],
+        "raw_compat_rows": 390,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "920073686555",
+        "type": "Disc Brake Caliper",
+        "brand": "Wagner",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Calipers & Brackets"
+      },
+      "images": [
+        "../assets/pdp-gallery/BZ7QEE4FYGLJWCOVHAILTQXD/02.webp",
+        "../assets/pdp-gallery/BZ7QEE4FYGLJWCOVHAILTQXD/03.webp",
+        "../assets/pdp-gallery/BZ7QEE4FYGLJWCOVHAILTQXD/04.webp",
+        "../assets/pdp-gallery/BZ7QEE4FYGLJWCOVHAILTQXD/05.webp"
+      ]
     },
     {
       "id": "P7Z5QGCU4NTYW4DFMTMTFKBV",
@@ -62513,6 +62622,54 @@
       "interchange": []
     },
     {
+      "id": "QLAM2O4XPQKXK5NVK3EQNDFO",
+      "name": "Carquest 85-0920 Outer CV Joint Boot Kit Front Wheel Drive 66-1271 Neapco",
+      "price": 14.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/fcea0dc262344d07cde7ad415a7aa027f15f55f0/original.jpeg",
+      "url": "https://square.link/u/QMNrthDC",
+      "category": "driveline",
+      "checkout": true,
+      "variation_id": "XBBAPBAF2UDFC7CVZJ4DGP6J",
+      "stock": 1,
+      "part_numbers": [
+        "85-0920",
+        "66-1271"
+      ],
+      "interchange": [],
+      "vehicles": [],
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "920073683837",
+      "ebay_type": "CV Joint Boot Kit",
+      "ebay_brand": "Carquest",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:CV Joints, Boots & Parts",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "85-0920",
+          "66-1271"
+        ],
+        "interchange": [],
+        "vehicles": [],
+        "vehicle_labels": [],
+        "raw_compat_rows": 0,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "920073683837",
+        "type": "CV Joint Boot Kit",
+        "brand": "Carquest",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:CV Joints, Boots & Parts"
+      },
+      "images": [
+        "../assets/pdp-gallery/QLAM2O4XPQKXK5NVK3EQNDFO/02.webp",
+        "../assets/pdp-gallery/QLAM2O4XPQKXK5NVK3EQNDFO/03.webp",
+        "../assets/pdp-gallery/QLAM2O4XPQKXK5NVK3EQNDFO/04.webp",
+        "../assets/pdp-gallery/QLAM2O4XPQKXK5NVK3EQNDFO/05.webp",
+        "../assets/pdp-gallery/QLAM2O4XPQKXK5NVK3EQNDFO/06.webp",
+        "../assets/pdp-gallery/QLAM2O4XPQKXK5NVK3EQNDFO/07.webp"
+      ]
+    },
+    {
       "id": "IAIDZJM5S2DORUHSQATXP6BM",
       "name": "Cloyes B-061 Timing Belt Chevette NOS",
       "price": 19.99,
@@ -62935,6 +63092,66 @@
         "../assets/pdp-gallery/E7A6YRQ7CNG7HISDP2QXE3VL/03.webp"
       ],
       "stock": 1
+    },
+    {
+      "id": "KEZPDC7KRUY3PU2GNTRBELG3",
+      "name": "Dayco 95039 Synchro-Cog Timing Belt 1.4 1.6 1977-1978 Chevette 184 DF",
+      "price": 19.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/1a05b1d4d8f7fa2206175d401395e3cf6ad9336f/original.jpeg",
+      "url": "https://square.link/u/K2zDTkmY",
+      "category": "driveline",
+      "checkout": true,
+      "variation_id": "OXKL74AJAMPM7KHCTY2NDU6D",
+      "stock": 1,
+      "part_numbers": [
+        "95039",
+        "A371L075"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1977\u20131978 Chevrolet Chevette"
+      ],
+      "vehicle_count_raw": 11,
+      "ebay_item_id": "920073689963",
+      "ebay_type": "Timing Belt",
+      "ebay_brand": "Dayco",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Timing Components & Kits:Timing Kits",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "95039",
+          "A371L075"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1977,
+            "year_to": 1978,
+            "make": "Chevrolet",
+            "model": "Chevette",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1977\u20131978 Chevrolet Chevette"
+        ],
+        "raw_compat_rows": 11,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "920073689963",
+        "type": "Timing Belt",
+        "brand": "Dayco",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Timing Components & Kits:Timing Kits"
+      },
+      "images": [
+        "../assets/pdp-gallery/KEZPDC7KRUY3PU2GNTRBELG3/02.webp",
+        "../assets/pdp-gallery/KEZPDC7KRUY3PU2GNTRBELG3/03.webp",
+        "../assets/pdp-gallery/KEZPDC7KRUY3PU2GNTRBELG3/04.webp"
+      ]
     },
     {
       "id": "X3HGK4WUOKZJLQPBB2M3ABOY",
@@ -95616,22 +95833,15 @@
       "category": "other",
       "checkout": true,
       "variation_id": "YV54GX7472FAF5G5GM7XDMBU",
-      "stock": 1,
       "part_numbers": [
         "5268356",
         "05268356"
       ],
-      "interchange": [],
       "vehicles": [
         "1991\u20131992 Chrysler Town & Country",
         "1991\u20131992 Dodge Caravan",
         "1991\u20131992 Dodge Grand Caravan"
       ],
-      "vehicle_count_raw": 39,
-      "ebay_item_id": "920073496147",
-      "ebay_type": "Speedometer",
-      "ebay_brand": "Mopar",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Interior Parts & Accessories:Gauges:Instrument Clusters",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -95685,11 +95895,18 @@
         "brand": "Mopar",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Interior Parts & Accessories:Gauges:Instrument Clusters"
       },
+      "vehicle_count_raw": 39,
+      "ebay_item_id": "920073496147",
+      "ebay_type": "Speedometer",
+      "ebay_brand": "Mopar",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Interior Parts & Accessories:Gauges:Instrument Clusters",
       "images": [
         "../assets/pdp-gallery/TN7UKMHI2QQYWFCUYANKNPCI/02.webp",
         "../assets/pdp-gallery/TN7UKMHI2QQYWFCUYANKNPCI/03.webp",
         "../assets/pdp-gallery/TN7UKMHI2QQYWFCUYANKNPCI/04.webp"
-      ]
+      ],
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "AC4O5CEFTYDCUZCECOZZFZI4",
@@ -95925,26 +96142,10 @@
       "category": "other",
       "checkout": true,
       "variation_id": "HBAS2XOHYDBOIU5KKYBLLLCZ",
-      "images": [
-        "../assets/pdp-gallery/FZRX7QAPWXCDVASS7T7KIZ2K/02.webp",
-        "../assets/pdp-gallery/FZRX7QAPWXCDVASS7T7KIZ2K/03.webp",
-        "../assets/pdp-gallery/FZRX7QAPWXCDVASS7T7KIZ2K/04.webp",
-        "../assets/pdp-gallery/FZRX7QAPWXCDVASS7T7KIZ2K/05.webp",
-        "../assets/pdp-gallery/FZRX7QAPWXCDVASS7T7KIZ2K/06.webp",
-        "../assets/pdp-gallery/FZRX7QAPWXCDVASS7T7KIZ2K/07.webp"
-      ],
-      "stock": 1,
       "part_numbers": [
         "06-0142",
         "02-3274"
       ],
-      "interchange": [],
-      "vehicles": [],
-      "vehicle_count_raw": 0,
-      "ebay_item_id": "920073437680",
-      "ebay_type": "Turn Signal",
-      "ebay_brand": "Motoasia",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Lighting & Lamps:Turn Signal Light Assemblies",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -95962,7 +96163,23 @@
         "type": "Turn Signal",
         "brand": "Motoasia",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Lighting & Lamps:Turn Signal Light Assemblies"
-      }
+      },
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "920073437680",
+      "ebay_type": "Turn Signal",
+      "ebay_brand": "Motoasia",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Lighting & Lamps:Turn Signal Light Assemblies",
+      "images": [
+        "../assets/pdp-gallery/FZRX7QAPWXCDVASS7T7KIZ2K/02.webp",
+        "../assets/pdp-gallery/FZRX7QAPWXCDVASS7T7KIZ2K/03.webp",
+        "../assets/pdp-gallery/FZRX7QAPWXCDVASS7T7KIZ2K/04.webp",
+        "../assets/pdp-gallery/FZRX7QAPWXCDVASS7T7KIZ2K/05.webp",
+        "../assets/pdp-gallery/FZRX7QAPWXCDVASS7T7KIZ2K/06.webp",
+        "../assets/pdp-gallery/FZRX7QAPWXCDVASS7T7KIZ2K/07.webp"
+      ],
+      "stock": 1,
+      "interchange": [],
+      "vehicles": []
     },
     {
       "id": "G5B6AXB5LJKYO2AI5AVQWT5W",
@@ -102762,6 +102979,154 @@
         "../assets/pdp-gallery/ITOBISKRC7VRZBSBVCPELHHX/03.webp"
       ],
       "stock": 1
+    },
+    {
+      "id": "R66AU7TEHXJK6T7KRNML6HUM",
+      "name": "Raybestos SC360029 Clutch Slave Cylinder 1991-1999 Saturn SL SL1 SL2 USA",
+      "price": 22.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/82bd754e36c3a6dc1311f22a9b87871a9b420f3c/original.jpeg",
+      "url": "https://square.link/u/eMuu4TXN",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "ICM6WLV5CDD44EV65SWNPPBC",
+      "stock": 1,
+      "part_numbers": [
+        "SC360029",
+        "CS360029, 21120474"
+      ],
+      "interchange": [
+        "21120268"
+      ],
+      "vehicles": [
+        "1991\u20131992 Saturn SC",
+        "1993\u20131999 Saturn SC1",
+        "1993\u20131999 Saturn SC2",
+        "1991\u20131999 Saturn SL",
+        "1991\u20131999 Saturn SL1",
+        "1991\u20131999 Saturn SL2",
+        "1993\u20131999 Saturn SW1",
+        "1993\u20131999 Saturn SW2"
+      ],
+      "vehicle_count_raw": 57,
+      "ebay_item_id": "920073670808",
+      "ebay_type": "Clutch Slave Cylinder",
+      "ebay_brand": "Raybestos",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:Clutch Parts & Kits:Additional Clutch Parts",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "SC360029",
+          "CS360029, 21120474"
+        ],
+        "interchange": [
+          "21120268"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1991,
+            "year_to": 1992,
+            "make": "Saturn",
+            "model": "SC",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1993,
+            "year_to": 1999,
+            "make": "Saturn",
+            "model": "SC1",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1993,
+            "year_to": 1999,
+            "make": "Saturn",
+            "model": "SC2",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1991,
+            "year_to": 1999,
+            "make": "Saturn",
+            "model": "SL",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1991,
+            "year_to": 1999,
+            "make": "Saturn",
+            "model": "SL1",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1991,
+            "year_to": 1999,
+            "make": "Saturn",
+            "model": "SL2",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1993,
+            "year_to": 1999,
+            "make": "Saturn",
+            "model": "SW1",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1993,
+            "year_to": 1999,
+            "make": "Saturn",
+            "model": "SW2",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1991\u20131992 Saturn SC",
+          "1993\u20131999 Saturn SC1",
+          "1993\u20131999 Saturn SC2",
+          "1991\u20131999 Saturn SL",
+          "1991\u20131999 Saturn SL1",
+          "1991\u20131999 Saturn SL2",
+          "1993\u20131999 Saturn SW1",
+          "1993\u20131999 Saturn SW2"
+        ],
+        "raw_compat_rows": 57,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "920073670808",
+        "type": "Clutch Slave Cylinder",
+        "brand": "Raybestos",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:Clutch Parts & Kits:Additional Clutch Parts"
+      },
+      "images": [
+        "../assets/pdp-gallery/R66AU7TEHXJK6T7KRNML6HUM/02.webp",
+        "../assets/pdp-gallery/R66AU7TEHXJK6T7KRNML6HUM/03.webp",
+        "../assets/pdp-gallery/R66AU7TEHXJK6T7KRNML6HUM/04.webp"
+      ]
     },
     {
       "id": "GLSRS2SQRDKFM2JMDSAJND5D",
@@ -117958,5 +118323,5 @@
       "vehicles": []
     }
   ],
-  "fitment_built": "2026-10-25T16:03:54Z"
+  "fitment_built": "2026-10-25T17:04:03Z"
 }
