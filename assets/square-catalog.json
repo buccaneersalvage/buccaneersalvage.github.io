@@ -1,7 +1,7 @@
 {
-  "updated": "2026-10-25T03:03:58Z",
+  "updated": "2026-10-25T13:36:07Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 861,
+  "count": 862,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -76222,19 +76222,12 @@
       "category": "other",
       "checkout": true,
       "variation_id": "ZTEXTDCA6RY7S3I5SM5EQG2F",
-      "stock": 1,
       "part_numbers": [
         "16756"
       ],
       "interchange": [
         "Everco A8228"
       ],
-      "vehicles": [],
-      "vehicle_count_raw": 0,
-      "ebay_item_id": "920072074964",
-      "ebay_type": "A/C Compressor Fitting",
-      "ebay_brand": "Four Seasons",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air Conditioning & Heating:A/C Hoses & Fittings",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -76254,11 +76247,18 @@
         "brand": "Four Seasons",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air Conditioning & Heating:A/C Hoses & Fittings"
       },
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "920072074964",
+      "ebay_type": "A/C Compressor Fitting",
+      "ebay_brand": "Four Seasons",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air Conditioning & Heating:A/C Hoses & Fittings",
       "images": [
         "../assets/pdp-gallery/7O7HOWLS7AHSQXATQQHXRW5M/02.webp",
         "../assets/pdp-gallery/7O7HOWLS7AHSQXATQQHXRW5M/03.webp",
         "../assets/pdp-gallery/7O7HOWLS7AHSQXATQQHXRW5M/04.webp"
-      ]
+      ],
+      "stock": 1,
+      "vehicles": []
     },
     {
       "id": "SBZMA5DACIXF7NIMKDYPD226",
@@ -102981,6 +102981,73 @@
       "vehicles": []
     },
     {
+      "id": "ZMPFFZSJU6LS72YJRSJT2AJM",
+      "name": "Sealed Power V1767 Intake Valve Pair Ford 330 1964-77 428 1969-71",
+      "price": 24.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/bd6893b55c28b1114805a14314111e817b174c7e/original.jpeg",
+      "url": "https://square.link/u/sBASMjqL",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "4HSQNFG5Y3BEGG3NB4EFIRH6",
+      "stock": 1,
+      "part_numbers": [
+        "V1767",
+        "211-1964"
+      ],
+      "interchange": [
+        "C4TZ6507J",
+        "C7TE6507E",
+        "S1636"
+      ],
+      "vehicles": [
+        "1964\u20131977 Ford 330"
+      ],
+      "vehicle_count_raw": 1,
+      "ebay_item_id": "920073367187",
+      "ebay_type": "Intake Valve",
+      "ebay_brand": "Sealed Power",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Valvetrain Components:Valves",
+      "fitment_source": "ebay_listing+title",
+      "fitment_confidence": "medium",
+      "fitment": {
+        "part_numbers": [
+          "V1767",
+          "211-1964"
+        ],
+        "interchange": [
+          "C4TZ6507J",
+          "C7TE6507E",
+          "S1636"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1964,
+            "year_to": 1977,
+            "make": "Ford",
+            "model": "330",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1964\u20131977 Ford 330"
+        ],
+        "raw_compat_rows": 1,
+        "source": "ebay_listing+title",
+        "confidence": "medium",
+        "ebay_item_id": "920073367187",
+        "type": "Intake Valve",
+        "brand": "Sealed Power",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Valvetrain Components:Valves"
+      },
+      "images": [
+        "../assets/pdp-gallery/ZMPFFZSJU6LS72YJRSJT2AJM/02.webp",
+        "../assets/pdp-gallery/ZMPFFZSJU6LS72YJRSJT2AJM/03.webp"
+      ]
+    },
+    {
       "id": "VKR2FEZUEQ7QDXDCWQOMQ4OJ",
       "name": "SERCON R12-14OZ Refrigerant NOS Automotive AC",
       "price": 75.0,
@@ -117759,5 +117826,5 @@
       "vehicles": []
     }
   ],
-  "fitment_built": "2026-10-25T03:03:58Z"
+  "fitment_built": "2026-10-25T13:36:07Z"
 }
