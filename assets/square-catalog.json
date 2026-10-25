@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-25T13:36:07Z",
+  "updated": "2026-10-25T14:03:53Z",
   "store": "https://buccaneersalvage.square.site/",
   "count": 862,
   "items": [
@@ -103002,12 +103002,12 @@
       "vehicles": [
         "1964\u20131977 Ford 330"
       ],
-      "vehicle_count_raw": 1,
+      "vehicle_count_raw": 2,
       "ebay_item_id": "920073367187",
       "ebay_type": "Intake Valve",
       "ebay_brand": "Sealed Power",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Valvetrain Components:Valves",
-      "fitment_source": "ebay_listing+title",
+      "fitment_source": "ebay_listing",
       "fitment_confidence": "medium",
       "fitment": {
         "part_numbers": [
@@ -103034,8 +103034,8 @@
         "vehicle_labels": [
           "1964\u20131977 Ford 330"
         ],
-        "raw_compat_rows": 1,
-        "source": "ebay_listing+title",
+        "raw_compat_rows": 2,
+        "source": "ebay_listing",
         "confidence": "medium",
         "ebay_item_id": "920073367187",
         "type": "Intake Valve",
@@ -117826,5 +117826,5 @@
       "vehicles": []
     }
   ],
-  "fitment_built": "2026-10-25T13:36:07Z"
+  "fitment_built": "2026-10-25T14:03:53Z"
 }
