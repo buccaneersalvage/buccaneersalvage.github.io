@@ -1,7 +1,7 @@
 {
-  "updated": "2026-10-25T14:03:53Z",
+  "updated": "2026-10-25T15:04:03Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 862,
+  "count": 864,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -95608,6 +95608,90 @@
       "interchange": []
     },
     {
+      "id": "TN7UKMHI2QQYWFCUYANKNPCI",
+      "name": "Mopar 5268356 100 MPH Speedometer Temp Gauge 2.5 3.0 3.3 1991-1992 Caravan",
+      "price": 59.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/d92ecf5ef4e2ee78e7dd8070c32e8fced5bf0ddf/original.jpeg",
+      "url": "https://square.link/u/gcYubgCR",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "YV54GX7472FAF5G5GM7XDMBU",
+      "stock": 1,
+      "part_numbers": [
+        "5268356",
+        "05268356"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1991\u20131992 Chrysler Town & Country",
+        "1991\u20131992 Dodge Caravan",
+        "1991\u20131992 Dodge Grand Caravan"
+      ],
+      "vehicle_count_raw": 39,
+      "ebay_item_id": "920073496147",
+      "ebay_type": "Speedometer",
+      "ebay_brand": "Mopar",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Interior Parts & Accessories:Gauges:Instrument Clusters",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "5268356",
+          "05268356"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1991,
+            "year_to": 1992,
+            "make": "Chrysler",
+            "model": "Town & Country",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1991,
+            "year_to": 1992,
+            "make": "Dodge",
+            "model": "Caravan",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1991,
+            "year_to": 1992,
+            "make": "Dodge",
+            "model": "Grand Caravan",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1991\u20131992 Chrysler Town & Country",
+          "1991\u20131992 Dodge Caravan",
+          "1991\u20131992 Dodge Grand Caravan"
+        ],
+        "raw_compat_rows": 39,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "920073496147",
+        "type": "Speedometer",
+        "brand": "Mopar",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Interior Parts & Accessories:Gauges:Instrument Clusters"
+      },
+      "images": [
+        "../assets/pdp-gallery/TN7UKMHI2QQYWFCUYANKNPCI/02.webp",
+        "../assets/pdp-gallery/TN7UKMHI2QQYWFCUYANKNPCI/03.webp",
+        "../assets/pdp-gallery/TN7UKMHI2QQYWFCUYANKNPCI/04.webp"
+      ]
+    },
+    {
       "id": "AC4O5CEFTYDCUZCECOZZFZI4",
       "name": "Mopar CH-320L Rotor 5213040 1.6 1.7 2.2 Aries LeBaron NOS",
       "price": 29.99,
@@ -95831,6 +95915,54 @@
         "../assets/pdp-gallery/MFRS5ISFF3IXJAF2P7SVBQUF/05.webp"
       ],
       "stock": 1
+    },
+    {
+      "id": "FZRX7QAPWXCDVASS7T7KIZ2K",
+      "name": "Motoasia 06-0142 Chrome Bullet Turn Signal Lot of 4 Red Amber Rat Rod Hot Rod",
+      "price": 99.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/b2fa7a524a65e429ac9022b0fd71fc6a2c0c9a85/original.jpeg",
+      "url": "https://square.link/u/tViCdQUG",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "HBAS2XOHYDBOIU5KKYBLLLCZ",
+      "images": [
+        "../assets/pdp-gallery/FZRX7QAPWXCDVASS7T7KIZ2K/02.webp",
+        "../assets/pdp-gallery/FZRX7QAPWXCDVASS7T7KIZ2K/03.webp",
+        "../assets/pdp-gallery/FZRX7QAPWXCDVASS7T7KIZ2K/04.webp",
+        "../assets/pdp-gallery/FZRX7QAPWXCDVASS7T7KIZ2K/05.webp",
+        "../assets/pdp-gallery/FZRX7QAPWXCDVASS7T7KIZ2K/06.webp",
+        "../assets/pdp-gallery/FZRX7QAPWXCDVASS7T7KIZ2K/07.webp"
+      ],
+      "stock": 1,
+      "part_numbers": [
+        "06-0142",
+        "02-3274"
+      ],
+      "interchange": [],
+      "vehicles": [],
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "920073437680",
+      "ebay_type": "Turn Signal",
+      "ebay_brand": "Motoasia",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Lighting & Lamps:Turn Signal Light Assemblies",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "06-0142",
+          "02-3274"
+        ],
+        "interchange": [],
+        "vehicles": [],
+        "vehicle_labels": [],
+        "raw_compat_rows": 0,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "920073437680",
+        "type": "Turn Signal",
+        "brand": "Motoasia",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Lighting & Lamps:Turn Signal Light Assemblies"
+      }
     },
     {
       "id": "G5B6AXB5LJKYO2AI5AVQWT5W",
@@ -102989,7 +103121,6 @@
       "category": "other",
       "checkout": true,
       "variation_id": "4HSQNFG5Y3BEGG3NB4EFIRH6",
-      "stock": 1,
       "part_numbers": [
         "V1767",
         "211-1964"
@@ -103002,11 +103133,6 @@
       "vehicles": [
         "1964\u20131977 Ford 330"
       ],
-      "vehicle_count_raw": 2,
-      "ebay_item_id": "920073367187",
-      "ebay_type": "Intake Valve",
-      "ebay_brand": "Sealed Power",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Valvetrain Components:Valves",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "medium",
       "fitment": {
@@ -103042,10 +103168,16 @@
         "brand": "Sealed Power",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Valvetrain Components:Valves"
       },
+      "vehicle_count_raw": 2,
+      "ebay_item_id": "920073367187",
+      "ebay_type": "Intake Valve",
+      "ebay_brand": "Sealed Power",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Valvetrain Components:Valves",
       "images": [
         "../assets/pdp-gallery/ZMPFFZSJU6LS72YJRSJT2AJM/02.webp",
         "../assets/pdp-gallery/ZMPFFZSJU6LS72YJRSJT2AJM/03.webp"
-      ]
+      ],
+      "stock": 1
     },
     {
       "id": "VKR2FEZUEQ7QDXDCWQOMQ4OJ",
@@ -117826,5 +117958,5 @@
       "vehicles": []
     }
   ],
-  "fitment_built": "2026-10-25T14:03:53Z"
+  "fitment_built": "2026-10-25T15:04:03Z"
 }
