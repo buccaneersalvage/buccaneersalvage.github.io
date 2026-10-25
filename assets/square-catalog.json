@@ -1,7 +1,7 @@
 {
-  "updated": "2026-10-25T18:04:03Z",
+  "updated": "2026-10-25T20:04:00Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 868,
+  "count": 867,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -23039,135 +23039,6 @@
       "stock": 1
     },
     {
-      "id": "OBFDECUAZPN4KJPULBJSF77E",
-      "name": "Carlson H5758Q Disc Brake Hardware Kit",
-      "price": 15.99,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/328f9cda26edf3f0ad010ec22805948e585a6a2a/original.jpeg",
-      "url": "https://square.link/u/U6jWTFl9",
-      "category": "brake",
-      "checkout": true,
-      "variation_id": "HRWZR7U5RYE36UZBFEGWEDTN",
-      "part_numbers": [
-        "H5758Q"
-      ],
-      "vehicles": [
-        "2005\u20132008 Chevrolet Cobalt",
-        "2008\u20132010 Chevrolet HHR",
-        "2004\u20132012 Chevrolet Malibu",
-        "2007\u20132010 Pontiac G5",
-        "2005\u20132010 Pontiac G6",
-        "2007\u20132009 Saturn Aura",
-        "2005\u20132007 Saturn Ion"
-      ],
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "high",
-      "fitment": {
-        "part_numbers": [
-          "H5758Q"
-        ],
-        "interchange": [],
-        "vehicles": [
-          {
-            "year_from": 2005,
-            "year_to": 2008,
-            "make": "Chevrolet",
-            "model": "Cobalt",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 2008,
-            "year_to": 2010,
-            "make": "Chevrolet",
-            "model": "HHR",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 2004,
-            "year_to": 2012,
-            "make": "Chevrolet",
-            "model": "Malibu",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 2007,
-            "year_to": 2010,
-            "make": "Pontiac",
-            "model": "G5",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 2005,
-            "year_to": 2010,
-            "make": "Pontiac",
-            "model": "G6",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 2007,
-            "year_to": 2009,
-            "make": "Saturn",
-            "model": "Aura",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 2005,
-            "year_to": 2007,
-            "make": "Saturn",
-            "model": "Ion",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          }
-        ],
-        "vehicle_labels": [
-          "2005\u20132008 Chevrolet Cobalt",
-          "2008\u20132010 Chevrolet HHR",
-          "2004\u20132012 Chevrolet Malibu",
-          "2007\u20132010 Pontiac G5",
-          "2005\u20132010 Pontiac G6",
-          "2007\u20132009 Saturn Aura",
-          "2005\u20132007 Saturn Ion"
-        ],
-        "raw_compat_rows": 14,
-        "source": "ebay_listing",
-        "confidence": "high",
-        "ebay_item_id": "398081941437",
-        "type": "Disc Brake Hardware",
-        "brand": "Carlson",
-        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware"
-      },
-      "vehicle_count_raw": 14,
-      "ebay_item_id": "398081941437",
-      "ebay_type": "Disc Brake Hardware",
-      "ebay_brand": "Carlson",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware",
-      "images": [
-        "../assets/pdp-gallery/OBFDECUAZPN4KJPULBJSF77E/02.webp",
-        "../assets/pdp-gallery/OBFDECUAZPN4KJPULBJSF77E/03.webp"
-      ],
-      "stock": 1,
-      "interchange": []
-    },
-    {
       "id": "OIEKBY47T4B7SOUC5WDL34PA",
       "name": "Carlson H5764Q Rear Disc Brake Hardware Pro Kit New Chevy Silverado GMC Sierra",
       "price": 19.98,
@@ -29507,12 +29378,10 @@
       "category": "brake",
       "checkout": true,
       "variation_id": "AGZYOEUP7TMAX6KMZWDPPDTY",
-      "stock": 1,
       "part_numbers": [
         "CR98670",
         "18-4021"
       ],
-      "interchange": [],
       "vehicles": [
         "1978\u20131996 Cadillac Fleetwood",
         "1978\u20131979 Cadillac Seville",
@@ -29520,11 +29389,6 @@
         "1981\u20131986 Chevrolet C10",
         "1978\u20131981 Chevrolet Camaro"
       ],
-      "vehicle_count_raw": 390,
-      "ebay_item_id": "920073686555",
-      "ebay_type": "Disc Brake Caliper",
-      "ebay_brand": "Wagner",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Calipers & Brackets",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -29600,12 +29464,19 @@
         "brand": "Wagner",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Calipers & Brackets"
       },
+      "vehicle_count_raw": 390,
+      "ebay_item_id": "920073686555",
+      "ebay_type": "Disc Brake Caliper",
+      "ebay_brand": "Wagner",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Calipers & Brackets",
       "images": [
         "../assets/pdp-gallery/BZ7QEE4FYGLJWCOVHAILTQXD/02.webp",
         "../assets/pdp-gallery/BZ7QEE4FYGLJWCOVHAILTQXD/03.webp",
         "../assets/pdp-gallery/BZ7QEE4FYGLJWCOVHAILTQXD/04.webp",
         "../assets/pdp-gallery/BZ7QEE4FYGLJWCOVHAILTQXD/05.webp"
-      ]
+      ],
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "P7Z5QGCU4NTYW4DFMTMTFKBV",
@@ -62630,18 +62501,10 @@
       "category": "driveline",
       "checkout": true,
       "variation_id": "XBBAPBAF2UDFC7CVZJ4DGP6J",
-      "stock": 1,
       "part_numbers": [
         "85-0920",
         "66-1271"
       ],
-      "interchange": [],
-      "vehicles": [],
-      "vehicle_count_raw": 0,
-      "ebay_item_id": "920073683837",
-      "ebay_type": "CV Joint Boot Kit",
-      "ebay_brand": "Carquest",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:CV Joints, Boots & Parts",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -62660,6 +62523,11 @@
         "brand": "Carquest",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:CV Joints, Boots & Parts"
       },
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "920073683837",
+      "ebay_type": "CV Joint Boot Kit",
+      "ebay_brand": "Carquest",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:CV Joints, Boots & Parts",
       "images": [
         "../assets/pdp-gallery/QLAM2O4XPQKXK5NVK3EQNDFO/02.webp",
         "../assets/pdp-gallery/QLAM2O4XPQKXK5NVK3EQNDFO/03.webp",
@@ -62667,7 +62535,10 @@
         "../assets/pdp-gallery/QLAM2O4XPQKXK5NVK3EQNDFO/05.webp",
         "../assets/pdp-gallery/QLAM2O4XPQKXK5NVK3EQNDFO/06.webp",
         "../assets/pdp-gallery/QLAM2O4XPQKXK5NVK3EQNDFO/07.webp"
-      ]
+      ],
+      "stock": 1,
+      "interchange": [],
+      "vehicles": []
     },
     {
       "id": "IAIDZJM5S2DORUHSQATXP6BM",
@@ -63102,20 +62973,13 @@
       "category": "driveline",
       "checkout": true,
       "variation_id": "OXKL74AJAMPM7KHCTY2NDU6D",
-      "stock": 1,
       "part_numbers": [
         "95039",
         "A371L075"
       ],
-      "interchange": [],
       "vehicles": [
         "1977\u20131978 Chevrolet Chevette"
       ],
-      "vehicle_count_raw": 11,
-      "ebay_item_id": "920073689963",
-      "ebay_type": "Timing Belt",
-      "ebay_brand": "Dayco",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Timing Components & Kits:Timing Kits",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -63147,11 +63011,18 @@
         "brand": "Dayco",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Timing Components & Kits:Timing Kits"
       },
+      "vehicle_count_raw": 11,
+      "ebay_item_id": "920073689963",
+      "ebay_type": "Timing Belt",
+      "ebay_brand": "Dayco",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Timing Components & Kits:Timing Kits",
       "images": [
         "../assets/pdp-gallery/KEZPDC7KRUY3PU2GNTRBELG3/02.webp",
         "../assets/pdp-gallery/KEZPDC7KRUY3PU2GNTRBELG3/03.webp",
         "../assets/pdp-gallery/KEZPDC7KRUY3PU2GNTRBELG3/04.webp"
-      ]
+      ],
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "X3HGK4WUOKZJLQPBB2M3ABOY",
@@ -102989,7 +102860,6 @@
       "category": "other",
       "checkout": true,
       "variation_id": "ICM6WLV5CDD44EV65SWNPPBC",
-      "stock": 1,
       "part_numbers": [
         "SC360029",
         "CS360029, 21120474"
@@ -103007,11 +102877,6 @@
         "1993\u20131999 Saturn SW1",
         "1993\u20131999 Saturn SW2"
       ],
-      "vehicle_count_raw": 57,
-      "ebay_item_id": "920073670808",
-      "ebay_type": "Clutch Slave Cylinder",
-      "ebay_brand": "Raybestos",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:Clutch Parts & Kits:Additional Clutch Parts",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -103122,11 +102987,17 @@
         "brand": "Raybestos",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:Clutch Parts & Kits:Additional Clutch Parts"
       },
+      "vehicle_count_raw": 57,
+      "ebay_item_id": "920073670808",
+      "ebay_type": "Clutch Slave Cylinder",
+      "ebay_brand": "Raybestos",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:Clutch Parts & Kits:Additional Clutch Parts",
       "images": [
         "../assets/pdp-gallery/R66AU7TEHXJK6T7KRNML6HUM/02.webp",
         "../assets/pdp-gallery/R66AU7TEHXJK6T7KRNML6HUM/03.webp",
         "../assets/pdp-gallery/R66AU7TEHXJK6T7KRNML6HUM/04.webp"
-      ]
+      ],
+      "stock": 1
     },
     {
       "id": "GLSRS2SQRDKFM2JMDSAJND5D",
@@ -118323,5 +118194,5 @@
       "vehicles": []
     }
   ],
-  "fitment_built": "2026-10-25T18:04:03Z"
+  "fitment_built": "2026-10-25T20:04:00Z"
 }
