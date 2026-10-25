@@ -1,7 +1,7 @@
 {
-  "updated": "2026-10-25T01:03:54Z",
+  "updated": "2026-10-25T02:03:57Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 860,
+  "count": 861,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -76214,6 +76214,53 @@
       "stock": 1
     },
     {
+      "id": "7O7HOWLS7AHSQXATQQHXRW5M",
+      "name": "Four Seasons 16756 A/C Compressor Fitting Compression New",
+      "price": 24.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/76c6e72707187d1d67880cac477241f72113b1d7/original.jpeg",
+      "url": "https://square.link/u/wLEYgBUp",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "ZTEXTDCA6RY7S3I5SM5EQG2F",
+      "stock": 1,
+      "part_numbers": [
+        "16756"
+      ],
+      "interchange": [
+        "Everco A8228"
+      ],
+      "vehicles": [],
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "920072074964",
+      "ebay_type": "A/C Compressor Fitting",
+      "ebay_brand": "Four Seasons",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air Conditioning & Heating:A/C Hoses & Fittings",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "16756"
+        ],
+        "interchange": [
+          "Everco A8228"
+        ],
+        "vehicles": [],
+        "vehicle_labels": [],
+        "raw_compat_rows": 0,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "920072074964",
+        "type": "A/C Compressor Fitting",
+        "brand": "Four Seasons",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air Conditioning & Heating:A/C Hoses & Fittings"
+      },
+      "images": [
+        "../assets/pdp-gallery/7O7HOWLS7AHSQXATQQHXRW5M/02.webp",
+        "../assets/pdp-gallery/7O7HOWLS7AHSQXATQQHXRW5M/03.webp",
+        "../assets/pdp-gallery/7O7HOWLS7AHSQXATQQHXRW5M/04.webp"
+      ]
+    },
+    {
       "id": "SBZMA5DACIXF7NIMKDYPD226",
       "name": "Four Seasons 24110 A/C Compressor O-Ring NOS 10-Pack",
       "price": 9.99,
@@ -93997,17 +94044,9 @@
       "category": "other",
       "checkout": true,
       "variation_id": "ZNNKMDSU6NCNQ6GXRUAOXGKJ",
-      "stock": 1,
       "part_numbers": [
         "LBW14"
       ],
-      "interchange": [],
-      "vehicles": [],
-      "vehicle_count_raw": 0,
-      "ebay_item_id": "920071982346",
-      "ebay_type": "Scooter Parts",
-      "ebay_brand": "Unbranded",
-      "ebay_category": "Sporting Goods:Outdoor Sports:Scooters:Parts & Accessories",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "medium",
       "fitment": {
@@ -94025,12 +94064,20 @@
         "brand": "Unbranded",
         "ebay_category": "Sporting Goods:Outdoor Sports:Scooters:Parts & Accessories"
       },
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "920071982346",
+      "ebay_type": "Scooter Parts",
+      "ebay_brand": "Unbranded",
+      "ebay_category": "Sporting Goods:Outdoor Sports:Scooters:Parts & Accessories",
       "images": [
         "../assets/pdp-gallery/SG6D3VIVGBD6OKKKXM677IGS/02.webp",
         "../assets/pdp-gallery/SG6D3VIVGBD6OKKKXM677IGS/03.webp",
         "../assets/pdp-gallery/SG6D3VIVGBD6OKKKXM677IGS/04.webp",
         "../assets/pdp-gallery/SG6D3VIVGBD6OKKKXM677IGS/05.webp"
-      ]
+      ],
+      "stock": 1,
+      "interchange": [],
+      "vehicles": []
     },
     {
       "id": "UQMRDFUNX2HTT6VT6TYRFQGZ",
@@ -117712,5 +117759,5 @@
       "vehicles": []
     }
   ],
-  "fitment_built": "2026-10-25T01:03:54Z"
+  "fitment_built": "2026-10-25T02:03:57Z"
 }
