@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-25T00:03:56Z",
+  "updated": "2026-10-25T01:03:54Z",
   "store": "https://buccaneersalvage.square.site/",
   "count": 860,
   "items": [
@@ -6491,510 +6491,6 @@
       "images": [
         "../assets/pdp-gallery/KDJ2HS5DZLSH3FVDMR3SRBNZ/02.webp",
         "../assets/pdp-gallery/KDJ2HS5DZLSH3FVDMR3SRBNZ/03.webp"
-      ],
-      "stock": 1,
-      "interchange": []
-    },
-    {
-      "id": "S62XWJUB5U4GC7IWL62L66AX",
-      "name": "Carlson H2104 Rear Drum Brake Self-Adjuster Cable NOS Ford F-350 Dodge",
-      "price": 10.99,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/3c986076579e899b0d1f1caff5cb86951ae52144/original.jpeg",
-      "url": "https://square.link/u/PyYkKest",
-      "category": "brake",
-      "checkout": true,
-      "variation_id": "UIFFF2HSNENNV3TB5QVOKNGJ",
-      "part_numbers": [
-        "H2104",
-        "2104, 2104-2, 54-2104, 80808, HW2104, P2104, Dorman HW2104"
-      ],
-      "vehicles": [
-        "1996\u20131998 Dodge B2500",
-        "1975\u20131980 Dodge B300",
-        "1971\u20131974 Dodge B300 Van",
-        "1981\u20131994 Dodge B350",
-        "1995\u20131998 Dodge B3500",
-        "1973\u20131980 Dodge CB300",
-        "1975\u20131980 Dodge D200",
-        "1972\u20131974 Dodge D200 Pickup",
-        "1984\u20131993 Dodge D250",
-        "1975\u20131980 Dodge D300",
-        "1972\u20131974 Dodge D300 Pickup",
-        "1981\u20131993 Dodge D350",
-        "1978\u20131981 Dodge D400",
-        "1978\u20131981 Dodge D450",
-        "1972\u20131974 Dodge M300",
-        "1974 Dodge M400",
-        "1970\u20131974 Dodge MB300",
-        "1972\u20131974 Dodge P200 Van",
-        "1972\u20131974 Dodge P300 Van",
-        "1972\u20131974 Dodge R300",
-        "1974 Dodge R400",
-        "1978\u20131980 Dodge RD200",
-        "2000\u20132001 Dodge Ram 2500",
-        "1999\u20132003 Dodge Ram 2500 Van",
-        "2000\u20132002 Dodge Ram 3500",
-        "1998\u20132003 Dodge Ram 3500 Van",
-        "2000\u20132001 Dodge Ram 4000",
-        "1975\u20131980 Dodge W200",
-        "1972\u20131974 Dodge W200 Pickup",
-        "1981\u20131993 Dodge W250",
-        "1975\u20131980 Dodge W300",
-        "1972\u20131974 Dodge W300 Pickup",
-        "1981\u20131993 Dodge W350",
-        "1975\u20132002 Ford E-250 Econoline",
-        "1975\u20131991 Ford E-250 Econoline Club Wagon",
-        "1969\u20131974 Ford E-300 Econoline",
-        "1975\u20131978 Ford E-350 Econoline",
-        "Ford F-350"
-      ],
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "high",
-      "fitment": {
-        "part_numbers": [
-          "H2104",
-          "2104, 2104-2, 54-2104, 80808, HW2104, P2104, Dorman HW2104"
-        ],
-        "interchange": [],
-        "vehicles": [
-          {
-            "year_from": 1996,
-            "year_to": 1998,
-            "make": "Dodge",
-            "model": "B2500",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1975,
-            "year_to": 1980,
-            "make": "Dodge",
-            "model": "B300",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1971,
-            "year_to": 1974,
-            "make": "Dodge",
-            "model": "B300 Van",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1981,
-            "year_to": 1994,
-            "make": "Dodge",
-            "model": "B350",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1995,
-            "year_to": 1998,
-            "make": "Dodge",
-            "model": "B3500",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1973,
-            "year_to": 1980,
-            "make": "Dodge",
-            "model": "CB300",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1975,
-            "year_to": 1980,
-            "make": "Dodge",
-            "model": "D200",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1972,
-            "year_to": 1974,
-            "make": "Dodge",
-            "model": "D200 Pickup",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1984,
-            "year_to": 1993,
-            "make": "Dodge",
-            "model": "D250",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1975,
-            "year_to": 1980,
-            "make": "Dodge",
-            "model": "D300",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1972,
-            "year_to": 1974,
-            "make": "Dodge",
-            "model": "D300 Pickup",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1981,
-            "year_to": 1993,
-            "make": "Dodge",
-            "model": "D350",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1978,
-            "year_to": 1981,
-            "make": "Dodge",
-            "model": "D400",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1978,
-            "year_to": 1981,
-            "make": "Dodge",
-            "model": "D450",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1972,
-            "year_to": 1974,
-            "make": "Dodge",
-            "model": "M300",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1974,
-            "year_to": 1974,
-            "make": "Dodge",
-            "model": "M400",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1970,
-            "year_to": 1974,
-            "make": "Dodge",
-            "model": "MB300",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1972,
-            "year_to": 1974,
-            "make": "Dodge",
-            "model": "P200 Van",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1972,
-            "year_to": 1974,
-            "make": "Dodge",
-            "model": "P300 Van",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1972,
-            "year_to": 1974,
-            "make": "Dodge",
-            "model": "R300",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1974,
-            "year_to": 1974,
-            "make": "Dodge",
-            "model": "R400",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1978,
-            "year_to": 1980,
-            "make": "Dodge",
-            "model": "RD200",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 2000,
-            "year_to": 2001,
-            "make": "Dodge",
-            "model": "Ram 2500",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1999,
-            "year_to": 2003,
-            "make": "Dodge",
-            "model": "Ram 2500 Van",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 2000,
-            "year_to": 2002,
-            "make": "Dodge",
-            "model": "Ram 3500",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1998,
-            "year_to": 2003,
-            "make": "Dodge",
-            "model": "Ram 3500 Van",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 2000,
-            "year_to": 2001,
-            "make": "Dodge",
-            "model": "Ram 4000",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1975,
-            "year_to": 1980,
-            "make": "Dodge",
-            "model": "W200",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1972,
-            "year_to": 1974,
-            "make": "Dodge",
-            "model": "W200 Pickup",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1981,
-            "year_to": 1993,
-            "make": "Dodge",
-            "model": "W250",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1975,
-            "year_to": 1980,
-            "make": "Dodge",
-            "model": "W300",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1972,
-            "year_to": 1974,
-            "make": "Dodge",
-            "model": "W300 Pickup",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1981,
-            "year_to": 1993,
-            "make": "Dodge",
-            "model": "W350",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1975,
-            "year_to": 2002,
-            "make": "Ford",
-            "model": "E-250 Econoline",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1975,
-            "year_to": 1991,
-            "make": "Ford",
-            "model": "E-250 Econoline Club Wagon",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1969,
-            "year_to": 1974,
-            "make": "Ford",
-            "model": "E-300 Econoline",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1975,
-            "year_to": 1978,
-            "make": "Ford",
-            "model": "E-350 Econoline",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": null,
-            "year_to": null,
-            "make": "Ford",
-            "model": "F-350",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          }
-        ],
-        "vehicle_labels": [
-          "1996\u20131998 Dodge B2500",
-          "1975\u20131980 Dodge B300",
-          "1971\u20131974 Dodge B300 Van",
-          "1981\u20131994 Dodge B350",
-          "1995\u20131998 Dodge B3500",
-          "1973\u20131980 Dodge CB300",
-          "1975\u20131980 Dodge D200",
-          "1972\u20131974 Dodge D200 Pickup",
-          "1984\u20131993 Dodge D250",
-          "1975\u20131980 Dodge D300",
-          "1972\u20131974 Dodge D300 Pickup",
-          "1981\u20131993 Dodge D350",
-          "1978\u20131981 Dodge D400",
-          "1978\u20131981 Dodge D450",
-          "1972\u20131974 Dodge M300",
-          "1974 Dodge M400",
-          "1970\u20131974 Dodge MB300",
-          "1972\u20131974 Dodge P200 Van",
-          "1972\u20131974 Dodge P300 Van",
-          "1972\u20131974 Dodge R300",
-          "1974 Dodge R400",
-          "1978\u20131980 Dodge RD200",
-          "2000\u20132001 Dodge Ram 2500",
-          "1999\u20132003 Dodge Ram 2500 Van",
-          "2000\u20132002 Dodge Ram 3500",
-          "1998\u20132003 Dodge Ram 3500 Van",
-          "2000\u20132001 Dodge Ram 4000",
-          "1975\u20131980 Dodge W200",
-          "1972\u20131974 Dodge W200 Pickup",
-          "1981\u20131993 Dodge W250",
-          "1975\u20131980 Dodge W300",
-          "1972\u20131974 Dodge W300 Pickup",
-          "1981\u20131993 Dodge W350",
-          "1975\u20132002 Ford E-250 Econoline",
-          "1975\u20131991 Ford E-250 Econoline Club Wagon",
-          "1969\u20131974 Ford E-300 Econoline",
-          "1975\u20131978 Ford E-350 Econoline",
-          "Ford F-350"
-        ],
-        "raw_compat_rows": 3001,
-        "source": "ebay_listing",
-        "confidence": "high",
-        "ebay_item_id": "398095724438",
-        "type": "Drum Brake Self-Adjuster Cable",
-        "brand": "Carlson",
-        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware"
-      },
-      "vehicle_count_raw": 3001,
-      "ebay_item_id": "398095724438",
-      "ebay_type": "Drum Brake Self-Adjuster Cable",
-      "ebay_brand": "Carlson",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware",
-      "images": [
-        "../assets/pdp-gallery/S62XWJUB5U4GC7IWL62L66AX/02.webp",
-        "../assets/pdp-gallery/S62XWJUB5U4GC7IWL62L66AX/03.webp",
-        "../assets/pdp-gallery/S62XWJUB5U4GC7IWL62L66AX/04.webp"
       ],
       "stock": 1,
       "interchange": []
@@ -30115,12 +29611,10 @@
       "category": "brake",
       "checkout": true,
       "variation_id": "HCEVHK5HGF6RXMJH6GQMYJIT",
-      "stock": 1,
       "part_numbers": [
         "F106342",
         "BH106342"
       ],
-      "interchange": [],
       "vehicles": [
         "1978\u20131981 Buick Century",
         "1978\u20131987 Buick Regal",
@@ -30141,11 +29635,6 @@
         "1978\u20131987 Pontiac Grand Prix",
         "1978\u20131981 Pontiac LeMans"
       ],
-      "vehicle_count_raw": 1561,
-      "ebay_item_id": "920071748252",
-      "ebay_type": "Brake Hydraulic Hose",
-      "ebay_brand": "Wagner",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Hoses, Lines & Fittings",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -30364,11 +29853,18 @@
         "brand": "Wagner",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Hoses, Lines & Fittings"
       },
+      "vehicle_count_raw": 1561,
+      "ebay_item_id": "920071748252",
+      "ebay_type": "Brake Hydraulic Hose",
+      "ebay_brand": "Wagner",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Hoses, Lines & Fittings",
       "images": [
         "../assets/pdp-gallery/ZSQS4VURYJLP3BAXKFIWOJ53/02.webp",
         "../assets/pdp-gallery/ZSQS4VURYJLP3BAXKFIWOJ53/03.webp",
         "../assets/pdp-gallery/ZSQS4VURYJLP3BAXKFIWOJ53/04.webp"
-      ]
+      ],
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "5M5O4BCTQLLLCT7OGE5NETN4",
@@ -30379,12 +29875,10 @@
       "category": "brake",
       "checkout": true,
       "variation_id": "AIQDLXSXA4CV55GOKQ5Z52JI",
-      "stock": 1,
       "part_numbers": [
         "F106886",
         "BH106886"
       ],
-      "interchange": [],
       "vehicles": [
         "1979\u20131981 Buick Century",
         "1979\u20131987 Buick Regal",
@@ -30403,11 +29897,6 @@
         "1979\u20131987 Pontiac Grand Prix",
         "1979\u20131981 Pontiac LeMans"
       ],
-      "vehicle_count_raw": 1247,
-      "ebay_item_id": "920071737970",
-      "ebay_type": "Brake Hydraulic Hose",
-      "ebay_brand": "Wagner",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Hoses, Lines & Fittings",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -30604,11 +30093,18 @@
         "brand": "Wagner",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Hoses, Lines & Fittings"
       },
+      "vehicle_count_raw": 1247,
+      "ebay_item_id": "920071737970",
+      "ebay_type": "Brake Hydraulic Hose",
+      "ebay_brand": "Wagner",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Hoses, Lines & Fittings",
       "images": [
         "../assets/pdp-gallery/5M5O4BCTQLLLCT7OGE5NETN4/02.webp",
         "../assets/pdp-gallery/5M5O4BCTQLLLCT7OGE5NETN4/03.webp",
         "../assets/pdp-gallery/5M5O4BCTQLLLCT7OGE5NETN4/04.webp"
-      ]
+      ],
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "2QPEKEV63TKSMBTYJXE5357O",
@@ -94493,6 +93989,50 @@
       "interchange": []
     },
     {
+      "id": "SG6D3VIVGBD6OKKKXM677IGS",
+      "name": "LBW14 Hoverboard Parts Donor 25.2V Motors Wheels Shell Not Tested",
+      "price": 49.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/5e15eac4af939300a27bad956a9f5846b943edcb/original.jpeg",
+      "url": "https://square.link/u/U1gP5CXT",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "ZNNKMDSU6NCNQ6GXRUAOXGKJ",
+      "stock": 1,
+      "part_numbers": [
+        "LBW14"
+      ],
+      "interchange": [],
+      "vehicles": [],
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "920071982346",
+      "ebay_type": "Scooter Parts",
+      "ebay_brand": "Unbranded",
+      "ebay_category": "Sporting Goods:Outdoor Sports:Scooters:Parts & Accessories",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "medium",
+      "fitment": {
+        "part_numbers": [
+          "LBW14"
+        ],
+        "interchange": [],
+        "vehicles": [],
+        "vehicle_labels": [],
+        "raw_compat_rows": 0,
+        "source": "ebay_listing",
+        "confidence": "medium",
+        "ebay_item_id": "920071982346",
+        "type": "Scooter Parts",
+        "brand": "Unbranded",
+        "ebay_category": "Sporting Goods:Outdoor Sports:Scooters:Parts & Accessories"
+      },
+      "images": [
+        "../assets/pdp-gallery/SG6D3VIVGBD6OKKKXM677IGS/02.webp",
+        "../assets/pdp-gallery/SG6D3VIVGBD6OKKKXM677IGS/03.webp",
+        "../assets/pdp-gallery/SG6D3VIVGBD6OKKKXM677IGS/04.webp",
+        "../assets/pdp-gallery/SG6D3VIVGBD6OKKKXM677IGS/05.webp"
+      ]
+    },
+    {
       "id": "UQMRDFUNX2HTT6VT6TYRFQGZ",
       "name": "Liberty 30238 Thermostat 180 Deg 1953-1966 Buick Skylark NOS",
       "price": 19.99,
@@ -118172,5 +117712,5 @@
       "vehicles": []
     }
   ],
-  "fitment_built": "2026-10-25T00:03:56Z"
+  "fitment_built": "2026-10-25T01:03:54Z"
 }
