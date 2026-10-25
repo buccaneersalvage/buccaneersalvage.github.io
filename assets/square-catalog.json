@@ -1,7 +1,7 @@
 {
-  "updated": "2026-10-25T20:04:00Z",
+  "updated": "2026-10-25T21:03:57Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 867,
+  "count": 868,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -70740,6 +70740,80 @@
       "vehicles": []
     },
     {
+      "id": "Y3WZX62TBWSDROVVI2WO7G66",
+      "name": "Autolite DOAF-11001-A 1970 Mustang Cougar 390 Starter",
+      "price": 89.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/ac6bbe382cdcd915580da7cf7bd7a2ec3a7447cb/original.jpeg",
+      "url": "https://square.link/u/PLynOTEr",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "J3VENG443WOVHGLTA3K6J26D",
+      "stock": 1,
+      "part_numbers": [
+        "DOAF-11001-A",
+        "1A25C"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1970 Ford Mustang",
+        "1970 Mercury Cougar"
+      ],
+      "vehicle_count_raw": 83,
+      "ebay_item_id": "920074126372",
+      "ebay_type": "Starter Motor",
+      "ebay_brand": "Autolite",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Starters, Alternators, ECUs & Wiring:Starter Motors",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "DOAF-11001-A",
+          "1A25C"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1970,
+            "year_to": 1970,
+            "make": "Ford",
+            "model": "Mustang",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1970,
+            "year_to": 1970,
+            "make": "Mercury",
+            "model": "Cougar",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1970 Ford Mustang",
+          "1970 Mercury Cougar"
+        ],
+        "raw_compat_rows": 83,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "920074126372",
+        "type": "Starter Motor",
+        "brand": "Autolite",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Starters, Alternators, ECUs & Wiring:Starter Motors"
+      },
+      "images": [
+        "../assets/pdp-gallery/Y3WZX62TBWSDROVVI2WO7G66/02.webp",
+        "../assets/pdp-gallery/Y3WZX62TBWSDROVVI2WO7G66/03.webp",
+        "../assets/pdp-gallery/Y3WZX62TBWSDROVVI2WO7G66/04.webp",
+        "../assets/pdp-gallery/Y3WZX62TBWSDROVVI2WO7G66/05.webp",
+        "../assets/pdp-gallery/Y3WZX62TBWSDROVVI2WO7G66/06.webp"
+      ]
+    },
+    {
       "id": "6QFGK6O5HFAXRNIWBZG3EUR2",
       "name": "Beck Arnley 045-0253 PCV Valve 1.6 1.8 2.5 Miata Escort NOS",
       "price": 10.99,
@@ -118194,5 +118268,5 @@
       "vehicles": []
     }
   ],
-  "fitment_built": "2026-10-25T20:04:00Z"
+  "fitment_built": "2026-10-25T21:03:57Z"
 }
