@@ -1,7 +1,7 @@
 {
-  "updated": "2026-10-25T22:03:51Z",
+  "updated": "2026-10-26T20:04:07Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 868,
+  "count": 870,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -31557,6 +31557,125 @@
       "images": []
     },
     {
+      "id": "BB6QU575YZOYX2KUSIF2PZU3",
+      "name": "31728-AA050 Subaru Transmission Filter 99-05 Forester Legacy Impreza Outback",
+      "price": 14.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/b1dd7a228ef5bc947fccaea98bece9cc34704852/original.jpeg",
+      "url": "https://square.link/u/MH6Foqu3",
+      "category": "filters",
+      "checkout": true,
+      "variation_id": "XRKCEUPYCRQFA6COPRX5VLWT",
+      "stock": 2,
+      "part_numbers": [
+        "31728AA050",
+        "A23010E, 23010B"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "2003\u20132006 Subaru Baja",
+        "1999\u20132004 Subaru Forester",
+        "1999\u20132005 Subaru Impreza",
+        "2000\u20132004 Subaru Legacy",
+        "2000\u20132004 Subaru Outback",
+        "1999\u20132005 Subaru Transmission"
+      ],
+      "vehicle_count_raw": 82,
+      "ebay_item_id": "920077030488",
+      "ebay_type": "Transmission Filter",
+      "ebay_brand": "Unbranded",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:Transmission Filters",
+      "fitment_source": "ebay_listing+title",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "31728AA050",
+          "A23010E, 23010B"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 2003,
+            "year_to": 2006,
+            "make": "Subaru",
+            "model": "Baja",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1999,
+            "year_to": 2004,
+            "make": "Subaru",
+            "model": "Forester",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1999,
+            "year_to": 2005,
+            "make": "Subaru",
+            "model": "Impreza",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2000,
+            "year_to": 2004,
+            "make": "Subaru",
+            "model": "Legacy",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2000,
+            "year_to": 2004,
+            "make": "Subaru",
+            "model": "Outback",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1999,
+            "year_to": 2005,
+            "make": "Subaru",
+            "model": "Transmission",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "2003\u20132006 Subaru Baja",
+          "1999\u20132004 Subaru Forester",
+          "1999\u20132005 Subaru Impreza",
+          "2000\u20132004 Subaru Legacy",
+          "2000\u20132004 Subaru Outback",
+          "1999\u20132005 Subaru Transmission"
+        ],
+        "raw_compat_rows": 82,
+        "source": "ebay_listing+title",
+        "confidence": "high",
+        "ebay_item_id": "920077030488",
+        "type": "Transmission Filter",
+        "brand": "Unbranded",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:Transmission Filters"
+      },
+      "images": [
+        "../assets/pdp-gallery/BB6QU575YZOYX2KUSIF2PZU3/02.webp",
+        "../assets/pdp-gallery/BB6QU575YZOYX2KUSIF2PZU3/03.webp"
+      ]
+    },
+    {
       "id": "OM7I4RJVT4BDE754HVILSGSO",
       "name": "Bosch 3300 Premium Oil Filter Ford Escort Aspire 94-02 NOS",
       "price": 11.99,
@@ -31923,6 +32042,116 @@
       ],
       "stock": 1,
       "interchange": []
+    },
+    {
+      "id": "GM3WOA7OL4IRLKQHCUKGKFCF",
+      "name": "Filtran XL2Z-7A098-DA 4WD Transmission Filter Ranger Explorer Mountaineer",
+      "price": 27.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/8e054aa8e23657d8aa68e8835698fba2df66e03e/original.jpeg",
+      "url": "https://square.link/u/Uh2qXn0S",
+      "category": "filters",
+      "checkout": true,
+      "variation_id": "N6HDL2MNBGBTLNAVS76HQOML",
+      "images": [
+        "../assets/pdp-gallery/GM3WOA7OL4IRLKQHCUKGKFCF/02.webp",
+        "../assets/pdp-gallery/GM3WOA7OL4IRLKQHCUKGKFCF/03.webp",
+        "../assets/pdp-gallery/GM3WOA7OL4IRLKQHCUKGKFCF/04.webp",
+        "../assets/pdp-gallery/GM3WOA7OL4IRLKQHCUKGKFCF/05.webp",
+        "../assets/pdp-gallery/GM3WOA7OL4IRLKQHCUKGKFCF/06.webp"
+      ],
+      "stock": 2,
+      "part_numbers": [
+        "XL2Z7A098DA",
+        "XL2P-7A098-AA, XL2P-7A098-BA"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1999\u20132001 Ford Explorer",
+        "2001\u20132003 Ford Explorer Sport",
+        "2001\u20132005 Ford Explorer Sport Trac",
+        "1999\u20132011 Ford Ranger",
+        "1999\u20132001 Mercury Mountaineer"
+      ],
+      "vehicle_count_raw": 430,
+      "ebay_item_id": "920077033620",
+      "ebay_type": "Transmission Filter",
+      "ebay_brand": "Filtran",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:Transmission Filters",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "XL2Z7A098DA",
+          "XL2P-7A098-AA, XL2P-7A098-BA"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1999,
+            "year_to": 2001,
+            "make": "Ford",
+            "model": "Explorer",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2001,
+            "year_to": 2003,
+            "make": "Ford",
+            "model": "Explorer Sport",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2001,
+            "year_to": 2005,
+            "make": "Ford",
+            "model": "Explorer Sport Trac",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1999,
+            "year_to": 2011,
+            "make": "Ford",
+            "model": "Ranger",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1999,
+            "year_to": 2001,
+            "make": "Mercury",
+            "model": "Mountaineer",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1999\u20132001 Ford Explorer",
+          "2001\u20132003 Ford Explorer Sport",
+          "2001\u20132005 Ford Explorer Sport Trac",
+          "1999\u20132011 Ford Ranger",
+          "1999\u20132001 Mercury Mountaineer"
+        ],
+        "raw_compat_rows": 430,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "920077033620",
+        "type": "Transmission Filter",
+        "brand": "Filtran",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:Transmission Filters"
+      }
     },
     {
       "id": "3GXO52VAZ2V5HL2PCGAWXXL4",
@@ -70748,21 +70977,14 @@
       "category": "other",
       "checkout": true,
       "variation_id": "J3VENG443WOVHGLTA3K6J26D",
-      "stock": 1,
       "part_numbers": [
         "DOAF-11001-A",
         "1A25C"
       ],
-      "interchange": [],
       "vehicles": [
         "1970 Ford Mustang",
         "1970 Mercury Cougar"
       ],
-      "vehicle_count_raw": 83,
-      "ebay_item_id": "920074126372",
-      "ebay_type": "Starter Motor",
-      "ebay_brand": "Autolite",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Starters, Alternators, ECUs & Wiring:Starter Motors",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -70805,13 +71027,20 @@
         "brand": "Autolite",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Starters, Alternators, ECUs & Wiring:Starter Motors"
       },
+      "vehicle_count_raw": 83,
+      "ebay_item_id": "920074126372",
+      "ebay_type": "Starter Motor",
+      "ebay_brand": "Autolite",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Starters, Alternators, ECUs & Wiring:Starter Motors",
       "images": [
         "../assets/pdp-gallery/Y3WZX62TBWSDROVVI2WO7G66/02.webp",
         "../assets/pdp-gallery/Y3WZX62TBWSDROVVI2WO7G66/03.webp",
         "../assets/pdp-gallery/Y3WZX62TBWSDROVVI2WO7G66/04.webp",
         "../assets/pdp-gallery/Y3WZX62TBWSDROVVI2WO7G66/05.webp",
         "../assets/pdp-gallery/Y3WZX62TBWSDROVVI2WO7G66/06.webp"
-      ]
+      ],
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "6QFGK6O5HFAXRNIWBZG3EUR2",
@@ -75042,6 +75271,66 @@
       "stock": 1,
       "interchange": [],
       "vehicles": []
+    },
+    {
+      "id": "MSHAK32K4SS6G2FD5WRIA7PF",
+      "name": "Delco 15-348 GM A/C Hose Repair Kit",
+      "price": 19.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/9b2b336200db491494d055d08899a476faf0b718/original.jpeg",
+      "url": "https://square.link/u/m60iefzy",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "STZPYR52K4KP4PFHPTOMHL5O",
+      "stock": 1,
+      "part_numbers": [
+        "15348",
+        "15-348, 3023687, 12356708, 12306655"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "GM A"
+      ],
+      "vehicle_count_raw": 1,
+      "ebay_item_id": "920077086555",
+      "ebay_type": "Hose Fitting",
+      "ebay_brand": "Delco",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air Conditioning & Heating:A/C Hoses & Fittings",
+      "fitment_source": "ebay_listing+title",
+      "fitment_confidence": "medium",
+      "fitment": {
+        "part_numbers": [
+          "15348",
+          "15-348, 3023687, 12356708, 12306655"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": null,
+            "year_to": null,
+            "make": "GM",
+            "model": "A",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "GM A"
+        ],
+        "raw_compat_rows": 1,
+        "source": "ebay_listing+title",
+        "confidence": "medium",
+        "ebay_item_id": "920077086555",
+        "type": "Hose Fitting",
+        "brand": "Delco",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air Conditioning & Heating:A/C Hoses & Fittings"
+      },
+      "images": [
+        "../assets/pdp-gallery/MSHAK32K4SS6G2FD5WRIA7PF/02.webp",
+        "../assets/pdp-gallery/MSHAK32K4SS6G2FD5WRIA7PF/03.webp",
+        "../assets/pdp-gallery/MSHAK32K4SS6G2FD5WRIA7PF/04.webp"
+      ]
     },
     {
       "id": "F3HDFZQ6TG4OLGGJRKOYKCJI",
@@ -89239,76 +89528,6 @@
         "../assets/pdp-gallery/5ME5JV34BP5FWXXA3ENZQDOI/07.webp"
       ],
       "stock": 1
-    },
-    {
-      "id": "ZZQZGOFKBEPVZRGCD5PHFH3D",
-      "name": "GM 16508217 LH Rear Side Marker Lamp 1988-1990 Chevrolet Cavalier RS Z24 NOS",
-      "price": 12.99,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/ea71a842c7af36da6a8c9e35af9d74871122c48c/original.jpeg",
-      "url": "https://square.link/u/j03ms5s6",
-      "category": "other",
-      "checkout": true,
-      "variation_id": "IL45JLJICMRJZWV6VZAOOYTA",
-      "part_numbers": [
-        "16508217"
-      ],
-      "vehicles": [
-        "1988\u20131990 Chevrolet Cavalier",
-        "1988\u20131990 GM 16508217"
-      ],
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "high",
-      "fitment": {
-        "part_numbers": [
-          "16508217"
-        ],
-        "interchange": [],
-        "vehicles": [
-          {
-            "year_from": 1988,
-            "year_to": 1990,
-            "make": "Chevrolet",
-            "model": "Cavalier",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1988,
-            "year_to": 1990,
-            "make": "GM",
-            "model": "16508217",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          }
-        ],
-        "vehicle_labels": [
-          "1988\u20131990 Chevrolet Cavalier",
-          "1988\u20131990 GM 16508217"
-        ],
-        "raw_compat_rows": 47,
-        "source": "ebay_listing",
-        "confidence": "high",
-        "ebay_item_id": "920039383972",
-        "type": "Side Marker Light",
-        "brand": "GM",
-        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Lighting & Lamps:Side Marker Light Assemblies"
-      },
-      "vehicle_count_raw": 47,
-      "ebay_item_id": "920039383972",
-      "ebay_type": "Side Marker Light",
-      "ebay_brand": "GM",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Lighting & Lamps:Side Marker Light Assemblies",
-      "images": [
-        "../assets/pdp-gallery/ZZQZGOFKBEPVZRGCD5PHFH3D/02.webp",
-        "../assets/pdp-gallery/ZZQZGOFKBEPVZRGCD5PHFH3D/03.webp",
-        "../assets/pdp-gallery/ZZQZGOFKBEPVZRGCD5PHFH3D/04.webp"
-      ],
-      "stock": 1,
-      "interchange": []
     },
     {
       "id": "GJCUAJ6UL2JXI53CR7SZMU64",
@@ -118268,5 +118487,5 @@
       "vehicles": []
     }
   ],
-  "fitment_built": "2026-10-25T22:03:51Z"
+  "fitment_built": "2026-10-26T20:04:07Z"
 }
