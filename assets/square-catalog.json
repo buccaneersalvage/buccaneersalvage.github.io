@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-26T20:04:07Z",
+  "updated": "2026-10-26T20:33:57Z",
   "store": "https://buccaneersalvage.square.site/",
   "count": 870,
   "items": [
@@ -31584,7 +31584,7 @@
       "ebay_type": "Transmission Filter",
       "ebay_brand": "Unbranded",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:Transmission Filters",
-      "fitment_source": "ebay_listing+title",
+      "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
@@ -31663,7 +31663,7 @@
           "1999\u20132005 Subaru Transmission"
         ],
         "raw_compat_rows": 82,
-        "source": "ebay_listing+title",
+        "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "920077030488",
         "type": "Transmission Filter",
@@ -75295,7 +75295,7 @@
       "ebay_type": "Hose Fitting",
       "ebay_brand": "Delco",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air Conditioning & Heating:A/C Hoses & Fittings",
-      "fitment_source": "ebay_listing+title",
+      "fitment_source": "ebay_listing",
       "fitment_confidence": "medium",
       "fitment": {
         "part_numbers": [
@@ -75319,7 +75319,7 @@
           "GM A"
         ],
         "raw_compat_rows": 1,
-        "source": "ebay_listing+title",
+        "source": "ebay_listing",
         "confidence": "medium",
         "ebay_item_id": "920077086555",
         "type": "Hose Fitting",
@@ -118487,5 +118487,5 @@
       "vehicles": []
     }
   ],
-  "fitment_built": "2026-10-26T20:04:07Z"
+  "fitment_built": "2026-10-26T20:33:57Z"
 }
