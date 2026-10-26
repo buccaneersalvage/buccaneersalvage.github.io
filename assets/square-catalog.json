@@ -1,7 +1,7 @@
 {
-  "updated": "2026-10-26T20:33:57Z",
+  "updated": "2026-10-26T21:03:58Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 870,
+  "count": 871,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -31565,12 +31565,10 @@
       "category": "filters",
       "checkout": true,
       "variation_id": "XRKCEUPYCRQFA6COPRX5VLWT",
-      "stock": 2,
       "part_numbers": [
         "31728AA050",
         "A23010E, 23010B"
       ],
-      "interchange": [],
       "vehicles": [
         "2003\u20132006 Subaru Baja",
         "1999\u20132004 Subaru Forester",
@@ -31579,11 +31577,6 @@
         "2000\u20132004 Subaru Outback",
         "1999\u20132005 Subaru Transmission"
       ],
-      "vehicle_count_raw": 82,
-      "ebay_item_id": "920077030488",
-      "ebay_type": "Transmission Filter",
-      "ebay_brand": "Unbranded",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:Transmission Filters",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -31670,10 +31663,17 @@
         "brand": "Unbranded",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:Transmission Filters"
       },
+      "vehicle_count_raw": 82,
+      "ebay_item_id": "920077030488",
+      "ebay_type": "Transmission Filter",
+      "ebay_brand": "Unbranded",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:Transmission Filters",
       "images": [
         "../assets/pdp-gallery/BB6QU575YZOYX2KUSIF2PZU3/02.webp",
         "../assets/pdp-gallery/BB6QU575YZOYX2KUSIF2PZU3/03.webp"
-      ]
+      ],
+      "stock": 2,
+      "interchange": []
     },
     {
       "id": "OM7I4RJVT4BDE754HVILSGSO",
@@ -32052,19 +32052,10 @@
       "category": "filters",
       "checkout": true,
       "variation_id": "N6HDL2MNBGBTLNAVS76HQOML",
-      "images": [
-        "../assets/pdp-gallery/GM3WOA7OL4IRLKQHCUKGKFCF/02.webp",
-        "../assets/pdp-gallery/GM3WOA7OL4IRLKQHCUKGKFCF/03.webp",
-        "../assets/pdp-gallery/GM3WOA7OL4IRLKQHCUKGKFCF/04.webp",
-        "../assets/pdp-gallery/GM3WOA7OL4IRLKQHCUKGKFCF/05.webp",
-        "../assets/pdp-gallery/GM3WOA7OL4IRLKQHCUKGKFCF/06.webp"
-      ],
-      "stock": 2,
       "part_numbers": [
         "XL2Z7A098DA",
         "XL2P-7A098-AA, XL2P-7A098-BA"
       ],
-      "interchange": [],
       "vehicles": [
         "1999\u20132001 Ford Explorer",
         "2001\u20132003 Ford Explorer Sport",
@@ -32072,11 +32063,6 @@
         "1999\u20132011 Ford Ranger",
         "1999\u20132001 Mercury Mountaineer"
       ],
-      "vehicle_count_raw": 430,
-      "ebay_item_id": "920077033620",
-      "ebay_type": "Transmission Filter",
-      "ebay_brand": "Filtran",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:Transmission Filters",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -32151,7 +32137,21 @@
         "type": "Transmission Filter",
         "brand": "Filtran",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:Transmission Filters"
-      }
+      },
+      "vehicle_count_raw": 430,
+      "ebay_item_id": "920077033620",
+      "ebay_type": "Transmission Filter",
+      "ebay_brand": "Filtran",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:Transmission Filters",
+      "images": [
+        "../assets/pdp-gallery/GM3WOA7OL4IRLKQHCUKGKFCF/02.webp",
+        "../assets/pdp-gallery/GM3WOA7OL4IRLKQHCUKGKFCF/03.webp",
+        "../assets/pdp-gallery/GM3WOA7OL4IRLKQHCUKGKFCF/04.webp",
+        "../assets/pdp-gallery/GM3WOA7OL4IRLKQHCUKGKFCF/05.webp",
+        "../assets/pdp-gallery/GM3WOA7OL4IRLKQHCUKGKFCF/06.webp"
+      ],
+      "stock": 2,
+      "interchange": []
     },
     {
       "id": "3GXO52VAZ2V5HL2PCGAWXXL4",
@@ -75281,20 +75281,13 @@
       "category": "other",
       "checkout": true,
       "variation_id": "STZPYR52K4KP4PFHPTOMHL5O",
-      "stock": 1,
       "part_numbers": [
         "15348",
         "15-348, 3023687, 12356708, 12306655"
       ],
-      "interchange": [],
       "vehicles": [
         "GM A"
       ],
-      "vehicle_count_raw": 1,
-      "ebay_item_id": "920077086555",
-      "ebay_type": "Hose Fitting",
-      "ebay_brand": "Delco",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air Conditioning & Heating:A/C Hoses & Fittings",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "medium",
       "fitment": {
@@ -75326,11 +75319,18 @@
         "brand": "Delco",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air Conditioning & Heating:A/C Hoses & Fittings"
       },
+      "vehicle_count_raw": 1,
+      "ebay_item_id": "920077086555",
+      "ebay_type": "Hose Fitting",
+      "ebay_brand": "Delco",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air Conditioning & Heating:A/C Hoses & Fittings",
       "images": [
         "../assets/pdp-gallery/MSHAK32K4SS6G2FD5WRIA7PF/02.webp",
         "../assets/pdp-gallery/MSHAK32K4SS6G2FD5WRIA7PF/03.webp",
         "../assets/pdp-gallery/MSHAK32K4SS6G2FD5WRIA7PF/04.webp"
-      ]
+      ],
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "F3HDFZQ6TG4OLGGJRKOYKCJI",
@@ -103434,6 +103434,85 @@
       "vehicles": []
     },
     {
+      "id": "3KS2AVROER4HIGKLE5DHIAJS",
+      "name": "Sealed Power MV-1231 Valve Stem O-Ring Seals Lot of 37 Ford Mercury 48-53",
+      "price": 29.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/feb3e8f84ee18e56d6fd4c64f410f67239784fc4/original.jpeg",
+      "url": "https://square.link/u/99lofjrJ",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "F5HLOKY43CQ2BBGQSVBZ6VTU",
+      "stock": 1,
+      "part_numbers": [
+        "MV-1231",
+        "MS 15127"
+      ],
+      "interchange": [
+        "TRW G614R",
+        "216-1004"
+      ],
+      "vehicles": [
+        "1948\u20131953 Ford",
+        "1948\u20131953 Mercury"
+      ],
+      "vehicle_count_raw": 2,
+      "ebay_item_id": "920077155474",
+      "ebay_type": "Valve Stem Seal",
+      "ebay_brand": "Sealed Power",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Valvetrain Components:Valves",
+      "fitment_source": "ebay_listing+title",
+      "fitment_confidence": "medium",
+      "fitment": {
+        "part_numbers": [
+          "MV-1231",
+          "MS 15127"
+        ],
+        "interchange": [
+          "TRW G614R",
+          "216-1004"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1948,
+            "year_to": 1953,
+            "make": "Ford",
+            "model": "",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1948,
+            "year_to": 1953,
+            "make": "Mercury",
+            "model": "",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1948\u20131953 Ford",
+          "1948\u20131953 Mercury"
+        ],
+        "raw_compat_rows": 2,
+        "source": "ebay_listing+title",
+        "confidence": "medium",
+        "ebay_item_id": "920077155474",
+        "type": "Valve Stem Seal",
+        "brand": "Sealed Power",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Valvetrain Components:Valves"
+      },
+      "images": [
+        "../assets/pdp-gallery/3KS2AVROER4HIGKLE5DHIAJS/02.webp",
+        "../assets/pdp-gallery/3KS2AVROER4HIGKLE5DHIAJS/03.webp",
+        "../assets/pdp-gallery/3KS2AVROER4HIGKLE5DHIAJS/04.webp",
+        "../assets/pdp-gallery/3KS2AVROER4HIGKLE5DHIAJS/05.webp"
+      ]
+    },
+    {
       "id": "PX4II6EVCIYH6AKTSWNV6WKX",
       "name": "Sealed Power R-872 Engine Rocker Arm Pair Ford Pinto Mercury Capri 2.0L 71-74",
       "price": 19.73,
@@ -118487,5 +118566,5 @@
       "vehicles": []
     }
   ],
-  "fitment_built": "2026-10-26T20:33:57Z"
+  "fitment_built": "2026-10-26T21:03:58Z"
 }
