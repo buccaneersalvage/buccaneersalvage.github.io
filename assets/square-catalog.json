@@ -1,7 +1,7 @@
 {
-  "updated": "2026-10-26T21:03:58Z",
+  "updated": "2026-10-26T22:03:58Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 871,
+  "count": 872,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -103442,7 +103442,6 @@
       "category": "other",
       "checkout": true,
       "variation_id": "F5HLOKY43CQ2BBGQSVBZ6VTU",
-      "stock": 1,
       "part_numbers": [
         "MV-1231",
         "MS 15127"
@@ -103455,12 +103454,7 @@
         "1948\u20131953 Ford",
         "1948\u20131953 Mercury"
       ],
-      "vehicle_count_raw": 2,
-      "ebay_item_id": "920077155474",
-      "ebay_type": "Valve Stem Seal",
-      "ebay_brand": "Sealed Power",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Valvetrain Components:Valves",
-      "fitment_source": "ebay_listing+title",
+      "fitment_source": "ebay_listing",
       "fitment_confidence": "medium",
       "fitment": {
         "part_numbers": [
@@ -103497,20 +103491,26 @@
           "1948\u20131953 Ford",
           "1948\u20131953 Mercury"
         ],
-        "raw_compat_rows": 2,
-        "source": "ebay_listing+title",
+        "raw_compat_rows": 4,
+        "source": "ebay_listing",
         "confidence": "medium",
         "ebay_item_id": "920077155474",
         "type": "Valve Stem Seal",
         "brand": "Sealed Power",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Valvetrain Components:Valves"
       },
+      "vehicle_count_raw": 4,
+      "ebay_item_id": "920077155474",
+      "ebay_type": "Valve Stem Seal",
+      "ebay_brand": "Sealed Power",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Valvetrain Components:Valves",
       "images": [
         "../assets/pdp-gallery/3KS2AVROER4HIGKLE5DHIAJS/02.webp",
         "../assets/pdp-gallery/3KS2AVROER4HIGKLE5DHIAJS/03.webp",
         "../assets/pdp-gallery/3KS2AVROER4HIGKLE5DHIAJS/04.webp",
         "../assets/pdp-gallery/3KS2AVROER4HIGKLE5DHIAJS/05.webp"
-      ]
+      ],
+      "stock": 1
     },
     {
       "id": "PX4II6EVCIYH6AKTSWNV6WKX",
@@ -103674,6 +103674,57 @@
         "../assets/pdp-gallery/VDP7T4M56PVMSIKGOKC6XJV2/03.webp"
       ],
       "stock": 1
+    },
+    {
+      "id": "OUUK57Q7GOZTUTU3RJD2Y6PV",
+      "name": "Sealed Power V-358 Engine Valves Pair of 2 Heavy Duty 8V-358",
+      "price": 18.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/8191954637f664d7b15223e32188bbd23a650679/original.jpeg",
+      "url": "https://square.link/u/D7RflDeM",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "EPAD6WN4OK4WIQZ2LKNJAZOT",
+      "stock": 1,
+      "part_numbers": [
+        "V-358",
+        "Y26"
+      ],
+      "interchange": [
+        "8V-358",
+        "TRW S950"
+      ],
+      "vehicles": [],
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "920077320232",
+      "ebay_type": "Engine Intake Valve",
+      "ebay_brand": "Sealed Power",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Valvetrain Components:Valves",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "V-358",
+          "Y26"
+        ],
+        "interchange": [
+          "8V-358",
+          "TRW S950"
+        ],
+        "vehicles": [],
+        "vehicle_labels": [],
+        "raw_compat_rows": 0,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "920077320232",
+        "type": "Engine Intake Valve",
+        "brand": "Sealed Power",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Valvetrain Components:Valves"
+      },
+      "images": [
+        "../assets/pdp-gallery/OUUK57Q7GOZTUTU3RJD2Y6PV/02.webp",
+        "../assets/pdp-gallery/OUUK57Q7GOZTUTU3RJD2Y6PV/03.webp",
+        "../assets/pdp-gallery/OUUK57Q7GOZTUTU3RJD2Y6PV/04.webp"
+      ]
     },
     {
       "id": "BMGZ2IAOBBY4GYSPHYC6RESF",
@@ -118566,5 +118617,5 @@
       "vehicles": []
     }
   ],
-  "fitment_built": "2026-10-26T21:03:58Z"
+  "fitment_built": "2026-10-26T22:03:58Z"
 }
