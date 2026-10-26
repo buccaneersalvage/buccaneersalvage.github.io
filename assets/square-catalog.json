@@ -1,7 +1,7 @@
 {
-  "updated": "2026-10-26T22:03:58Z",
+  "updated": "2026-10-26T23:06:01Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 872,
+  "count": 874,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -75273,6 +75273,65 @@
       "vehicles": []
     },
     {
+      "id": "NY6EN72MHUIREMVGEH23SNZM",
+      "name": "Delco 15-3385 AC Hose Fitting GM 12307907",
+      "price": 19.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/6f843d1b970f95c7f7ad07b3f1b4f79ad3175346/original.jpeg",
+      "url": "https://square.link/u/4F58pacl",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "5LBPIPYWTME5NCZ7GYMNDQRX",
+      "stock": 1,
+      "part_numbers": [
+        "153385",
+        "15-3385, 12307907"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "GM 12307907"
+      ],
+      "vehicle_count_raw": 1,
+      "ebay_item_id": "920077329509",
+      "ebay_type": "A/C Hose Fitting",
+      "ebay_brand": "Delco",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air Conditioning & Heating:A/C Hoses & Fittings",
+      "fitment_source": "ebay_listing+title",
+      "fitment_confidence": "medium",
+      "fitment": {
+        "part_numbers": [
+          "153385",
+          "15-3385, 12307907"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": null,
+            "year_to": null,
+            "make": "GM",
+            "model": "12307907",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "GM 12307907"
+        ],
+        "raw_compat_rows": 1,
+        "source": "ebay_listing+title",
+        "confidence": "medium",
+        "ebay_item_id": "920077329509",
+        "type": "A/C Hose Fitting",
+        "brand": "Delco",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air Conditioning & Heating:A/C Hoses & Fittings"
+      },
+      "images": [
+        "../assets/pdp-gallery/NY6EN72MHUIREMVGEH23SNZM/02.webp",
+        "../assets/pdp-gallery/NY6EN72MHUIREMVGEH23SNZM/03.webp"
+      ]
+    },
+    {
       "id": "MSHAK32K4SS6G2FD5WRIA7PF",
       "name": "Delco 15-348 GM A/C Hose Repair Kit",
       "price": 19.99,
@@ -103434,6 +103493,196 @@
       "vehicles": []
     },
     {
+      "id": "O6JHBMNMFRGN5X3WLTBEJYCN",
+      "name": "Sealed Power HT-2056 Lifter 1.6 1.8 2.0 Chevette Skyhawk Sunbird GM 76-94",
+      "price": 11.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/7d763fa6c51b2e36d9a24c3842fc34a1115d9711/original.jpeg",
+      "url": "https://square.link/u/ayJnyPCx",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "FSWB6XWGLHLOL7UEPT2OJQT5",
+      "stock": 1,
+      "part_numbers": [
+        "HT-2056",
+        "H2056, ML2056H, L2056"
+      ],
+      "interchange": [
+        "ACDelco HL73",
+        "GM 5233315",
+        "VL208",
+        "Clevite 213-1710"
+      ],
+      "vehicles": [
+        "1982\u20131988 Buick Skyhawk",
+        "1976\u20131987 Chevrolet Chevette",
+        "1982\u20131988 Oldsmobile Firenza",
+        "1976\u20131987 Pontiac Acadian",
+        "1987\u20131989 Pontiac Grand Am",
+        "1982\u20131983 Pontiac J2000",
+        "1984\u20131985 Pontiac J2000 Sunbird",
+        "1988\u20131993 Pontiac LeMans",
+        "1988\u20131991 Pontiac Optima",
+        "1986\u20131994 Pontiac Sunbird",
+        "1981\u20131987 Pontiac T1000"
+      ],
+      "vehicle_count_raw": 565,
+      "ebay_item_id": "920077365820",
+      "ebay_type": "Valve Lifter",
+      "ebay_brand": "Sealed Power",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Valvetrain Components:Tappets & Lifters",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "HT-2056",
+          "H2056, ML2056H, L2056"
+        ],
+        "interchange": [
+          "ACDelco HL73",
+          "GM 5233315",
+          "VL208",
+          "Clevite 213-1710"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1982,
+            "year_to": 1988,
+            "make": "Buick",
+            "model": "Skyhawk",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1976,
+            "year_to": 1987,
+            "make": "Chevrolet",
+            "model": "Chevette",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1982,
+            "year_to": 1988,
+            "make": "Oldsmobile",
+            "model": "Firenza",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1976,
+            "year_to": 1987,
+            "make": "Pontiac",
+            "model": "Acadian",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1989,
+            "make": "Pontiac",
+            "model": "Grand Am",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1982,
+            "year_to": 1983,
+            "make": "Pontiac",
+            "model": "J2000",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 1985,
+            "make": "Pontiac",
+            "model": "J2000 Sunbird",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1988,
+            "year_to": 1993,
+            "make": "Pontiac",
+            "model": "LeMans",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1988,
+            "year_to": 1991,
+            "make": "Pontiac",
+            "model": "Optima",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1986,
+            "year_to": 1994,
+            "make": "Pontiac",
+            "model": "Sunbird",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1981,
+            "year_to": 1987,
+            "make": "Pontiac",
+            "model": "T1000",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1982\u20131988 Buick Skyhawk",
+          "1976\u20131987 Chevrolet Chevette",
+          "1982\u20131988 Oldsmobile Firenza",
+          "1976\u20131987 Pontiac Acadian",
+          "1987\u20131989 Pontiac Grand Am",
+          "1982\u20131983 Pontiac J2000",
+          "1984\u20131985 Pontiac J2000 Sunbird",
+          "1988\u20131993 Pontiac LeMans",
+          "1988\u20131991 Pontiac Optima",
+          "1986\u20131994 Pontiac Sunbird",
+          "1981\u20131987 Pontiac T1000"
+        ],
+        "raw_compat_rows": 565,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "920077365820",
+        "type": "Valve Lifter",
+        "brand": "Sealed Power",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Valvetrain Components:Tappets & Lifters"
+      },
+      "images": [
+        "../assets/pdp-gallery/O6JHBMNMFRGN5X3WLTBEJYCN/02.webp",
+        "../assets/pdp-gallery/O6JHBMNMFRGN5X3WLTBEJYCN/03.webp",
+        "../assets/pdp-gallery/O6JHBMNMFRGN5X3WLTBEJYCN/04.webp"
+      ]
+    },
+    {
       "id": "3KS2AVROER4HIGKLE5DHIAJS",
       "name": "Sealed Power MV-1231 Valve Stem O-Ring Seals Lot of 37 Ford Mercury 48-53",
       "price": 29.99,
@@ -103684,7 +103933,6 @@
       "category": "other",
       "checkout": true,
       "variation_id": "EPAD6WN4OK4WIQZ2LKNJAZOT",
-      "stock": 1,
       "part_numbers": [
         "V-358",
         "Y26"
@@ -103693,12 +103941,6 @@
         "8V-358",
         "TRW S950"
       ],
-      "vehicles": [],
-      "vehicle_count_raw": 0,
-      "ebay_item_id": "920077320232",
-      "ebay_type": "Engine Intake Valve",
-      "ebay_brand": "Sealed Power",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Valvetrain Components:Valves",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -103720,11 +103962,18 @@
         "brand": "Sealed Power",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Valvetrain Components:Valves"
       },
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "920077320232",
+      "ebay_type": "Engine Intake Valve",
+      "ebay_brand": "Sealed Power",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Valvetrain Components:Valves",
       "images": [
         "../assets/pdp-gallery/OUUK57Q7GOZTUTU3RJD2Y6PV/02.webp",
         "../assets/pdp-gallery/OUUK57Q7GOZTUTU3RJD2Y6PV/03.webp",
         "../assets/pdp-gallery/OUUK57Q7GOZTUTU3RJD2Y6PV/04.webp"
-      ]
+      ],
+      "stock": 1,
+      "vehicles": []
     },
     {
       "id": "BMGZ2IAOBBY4GYSPHYC6RESF",
@@ -118617,5 +118866,5 @@
       "vehicles": []
     }
   ],
-  "fitment_built": "2026-10-26T22:03:58Z"
+  "fitment_built": "2026-10-26T23:06:01Z"
 }
