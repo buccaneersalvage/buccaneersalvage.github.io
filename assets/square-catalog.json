@@ -1,7 +1,7 @@
 {
-  "updated": "2026-10-27T00:04:39Z",
+  "updated": "2026-10-27T03:04:26Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 874,
+  "count": 876,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -75281,20 +75281,13 @@
       "category": "other",
       "checkout": true,
       "variation_id": "5LBPIPYWTME5NCZ7GYMNDQRX",
-      "stock": 1,
       "part_numbers": [
         "153385",
         "15-3385, 12307907"
       ],
-      "interchange": [],
       "vehicles": [
         "GM 12307907"
       ],
-      "vehicle_count_raw": 1,
-      "ebay_item_id": "920077329509",
-      "ebay_type": "A/C Hose Fitting",
-      "ebay_brand": "Delco",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air Conditioning & Heating:A/C Hoses & Fittings",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "medium",
       "fitment": {
@@ -75326,10 +75319,17 @@
         "brand": "Delco",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air Conditioning & Heating:A/C Hoses & Fittings"
       },
+      "vehicle_count_raw": 1,
+      "ebay_item_id": "920077329509",
+      "ebay_type": "A/C Hose Fitting",
+      "ebay_brand": "Delco",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air Conditioning & Heating:A/C Hoses & Fittings",
       "images": [
         "../assets/pdp-gallery/NY6EN72MHUIREMVGEH23SNZM/02.webp",
         "../assets/pdp-gallery/NY6EN72MHUIREMVGEH23SNZM/03.webp"
-      ]
+      ],
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "MSHAK32K4SS6G2FD5WRIA7PF",
@@ -89589,6 +89589,63 @@
       "stock": 1
     },
     {
+      "id": "5ZY4NEYHXQUWEN7TIQQVCRVR",
+      "name": "GM 20516001 Molding Clip 5pc 1982-1991 Sunbird",
+      "price": 24.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/049ed6f477ec3b89781e90e60bdfe0d4329be553/original.jpeg",
+      "url": "https://square.link/u/U2YHF2XX",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "3RJC5NZXURLS37WSGF5DZZKH",
+      "stock": 1,
+      "part_numbers": [
+        "20516001"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1982\u20131983 Pontiac J2000"
+      ],
+      "vehicle_count_raw": 38,
+      "ebay_item_id": "920077829537",
+      "ebay_type": "Molding Clip",
+      "ebay_brand": "GM",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Exterior Parts & Accessories:Body Moldings & Trims",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "20516001"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1982,
+            "year_to": 1983,
+            "make": "Pontiac",
+            "model": "J2000",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1982\u20131983 Pontiac J2000"
+        ],
+        "raw_compat_rows": 38,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "920077829537",
+        "type": "Molding Clip",
+        "brand": "GM",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Exterior Parts & Accessories:Body Moldings & Trims"
+      },
+      "images": [
+        "../assets/pdp-gallery/5ZY4NEYHXQUWEN7TIQQVCRVR/02.webp",
+        "../assets/pdp-gallery/5ZY4NEYHXQUWEN7TIQQVCRVR/03.webp"
+      ]
+    },
+    {
       "id": "GJCUAJ6UL2JXI53CR7SZMU64",
       "name": "GM 20701022 Power Seat Switch 86-91 Cadillac Eldorado Seville LH Tested 6 Way",
       "price": 89.99,
@@ -90094,6 +90151,64 @@
       ],
       "stock": 1,
       "interchange": []
+    },
+    {
+      "id": "EE52VHAHGF4GLPMTZOTZ4WJ3",
+      "name": "GM 95007059 Interior Door Handle 1989-1992 Prizm",
+      "price": 15.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/7ffec7d5f99c26d848b81a41d42101ef4a38476f/original.jpeg",
+      "url": "https://square.link/u/2vx9JsY2",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "ZSC6UFJTGY6LBDU3OLGODMU6",
+      "stock": 1,
+      "part_numbers": [
+        "95007059"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1989\u20131992 GM 95007059"
+      ],
+      "vehicle_count_raw": 1,
+      "ebay_item_id": "920077825266",
+      "ebay_type": "Interior Door Handle",
+      "ebay_brand": "GM",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Interior Parts & Accessories:Window Cranks, Grab Handles & Door Pulls",
+      "fitment_source": "ebay_listing+title",
+      "fitment_confidence": "medium",
+      "fitment": {
+        "part_numbers": [
+          "95007059"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1989,
+            "year_to": 1992,
+            "make": "GM",
+            "model": "95007059",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1989\u20131992 GM 95007059"
+        ],
+        "raw_compat_rows": 1,
+        "source": "ebay_listing+title",
+        "confidence": "medium",
+        "ebay_item_id": "920077825266",
+        "type": "Interior Door Handle",
+        "brand": "GM",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Interior Parts & Accessories:Window Cranks, Grab Handles & Door Pulls"
+      },
+      "images": [
+        "../assets/pdp-gallery/EE52VHAHGF4GLPMTZOTZ4WJ3/02.webp",
+        "../assets/pdp-gallery/EE52VHAHGF4GLPMTZOTZ4WJ3/03.webp",
+        "../assets/pdp-gallery/EE52VHAHGF4GLPMTZOTZ4WJ3/04.webp"
+      ]
     },
     {
       "id": "5A2HGX3SZZ43TZDADQQXRAYD",
@@ -103501,7 +103616,6 @@
       "category": "other",
       "checkout": true,
       "variation_id": "FSWB6XWGLHLOL7UEPT2OJQT5",
-      "stock": 1,
       "part_numbers": [
         "HT-2056",
         "H2056, ML2056H, L2056"
@@ -103525,11 +103639,6 @@
         "1986\u20131994 Pontiac Sunbird",
         "1981\u20131987 Pontiac T1000"
       ],
-      "vehicle_count_raw": 565,
-      "ebay_item_id": "920077365820",
-      "ebay_type": "Valve Lifter",
-      "ebay_brand": "Sealed Power",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Valvetrain Components:Tappets & Lifters",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -103676,11 +103785,17 @@
         "brand": "Sealed Power",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Valvetrain Components:Tappets & Lifters"
       },
+      "vehicle_count_raw": 565,
+      "ebay_item_id": "920077365820",
+      "ebay_type": "Valve Lifter",
+      "ebay_brand": "Sealed Power",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Valvetrain Components:Tappets & Lifters",
       "images": [
         "../assets/pdp-gallery/O6JHBMNMFRGN5X3WLTBEJYCN/02.webp",
         "../assets/pdp-gallery/O6JHBMNMFRGN5X3WLTBEJYCN/03.webp",
         "../assets/pdp-gallery/O6JHBMNMFRGN5X3WLTBEJYCN/04.webp"
-      ]
+      ],
+      "stock": 1
     },
     {
       "id": "3KS2AVROER4HIGKLE5DHIAJS",
@@ -118866,5 +118981,5 @@
       "vehicles": []
     }
   ],
-  "fitment_built": "2026-10-27T00:04:39Z"
+  "fitment_built": "2026-10-27T03:04:26Z"
 }
