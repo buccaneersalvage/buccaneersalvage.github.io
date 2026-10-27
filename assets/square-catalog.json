@@ -1,7 +1,7 @@
 {
-  "updated": "2026-10-27T04:03:56Z",
+  "updated": "2026-10-27T15:31:56Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 876,
+  "count": 874,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -89597,19 +89597,12 @@
       "category": "other",
       "checkout": true,
       "variation_id": "3RJC5NZXURLS37WSGF5DZZKH",
-      "stock": 1,
       "part_numbers": [
         "20516001"
       ],
-      "interchange": [],
       "vehicles": [
         "1982\u20131983 Pontiac J2000"
       ],
-      "vehicle_count_raw": 38,
-      "ebay_item_id": "920077829537",
-      "ebay_type": "Molding Clip",
-      "ebay_brand": "GM",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Exterior Parts & Accessories:Body Moldings & Trims",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -89640,10 +89633,17 @@
         "brand": "GM",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Exterior Parts & Accessories:Body Moldings & Trims"
       },
+      "vehicle_count_raw": 38,
+      "ebay_item_id": "920077829537",
+      "ebay_type": "Molding Clip",
+      "ebay_brand": "GM",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Exterior Parts & Accessories:Body Moldings & Trims",
       "images": [
         "../assets/pdp-gallery/5ZY4NEYHXQUWEN7TIQQVCRVR/02.webp",
         "../assets/pdp-gallery/5ZY4NEYHXQUWEN7TIQQVCRVR/03.webp"
-      ]
+      ],
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "GJCUAJ6UL2JXI53CR7SZMU64",
@@ -90161,19 +90161,12 @@
       "category": "other",
       "checkout": true,
       "variation_id": "ZSC6UFJTGY6LBDU3OLGODMU6",
-      "stock": 1,
       "part_numbers": [
         "95007059"
       ],
-      "interchange": [],
       "vehicles": [
         "1989\u20131992 GM 95007059"
       ],
-      "vehicle_count_raw": 2,
-      "ebay_item_id": "920077825266",
-      "ebay_type": "Interior Door Handle",
-      "ebay_brand": "GM",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Interior Parts & Accessories:Window Cranks, Grab Handles & Door Pulls",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "medium",
       "fitment": {
@@ -90204,11 +90197,18 @@
         "brand": "GM",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Interior Parts & Accessories:Window Cranks, Grab Handles & Door Pulls"
       },
+      "vehicle_count_raw": 2,
+      "ebay_item_id": "920077825266",
+      "ebay_type": "Interior Door Handle",
+      "ebay_brand": "GM",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Interior Parts & Accessories:Window Cranks, Grab Handles & Door Pulls",
       "images": [
         "../assets/pdp-gallery/EE52VHAHGF4GLPMTZOTZ4WJ3/02.webp",
         "../assets/pdp-gallery/EE52VHAHGF4GLPMTZOTZ4WJ3/03.webp",
         "../assets/pdp-gallery/EE52VHAHGF4GLPMTZOTZ4WJ3/04.webp"
-      ]
+      ],
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "5A2HGX3SZZ43TZDADQQXRAYD",
@@ -104757,186 +104757,6 @@
       "stock": 1
     },
     {
-      "id": "3D2DUDUP3BOUDHDVS27JF6A3",
-      "name": "Standard DR2270XP Lubripoints 55-80 Camaro Impala Corvette Firebird NOS",
-      "price": 24.99,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/f7378d8c352cfb3c154966bdc823cb7c2c98d0d1/original.jpeg",
-      "url": "https://square.link/u/lOWMFLeQ",
-      "category": "other",
-      "checkout": true,
-      "variation_id": "PITRH4UHFNTF5HS3IPRTC3IL",
-      "part_numbers": [
-        "DR2270XP",
-        "CS786, CS786P, DR2270P, DR-2270XP"
-      ],
-      "vehicles": [
-        "1968\u20131970 AMC AMX",
-        "1958\u20131974 AMC Ambassador",
-        "1967\u20131968 AMC American",
-        "1970\u20131974 AMC Hornet",
-        "1968\u20131974 AMC Javelin",
-        "1971\u20131974 AMC Matador",
-        "1958\u20131970 AMC Rebel",
-        "1967\u20131974 Chevrolet Camaro",
-        "1956\u20131974 Chevrolet Corvette",
-        "1958\u20131974 Chevrolet Impala",
-        "1967\u20131974 Pontiac Firebird"
-      ],
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "high",
-      "fitment": {
-        "part_numbers": [
-          "DR2270XP",
-          "CS786, CS786P, DR2270P, DR-2270XP"
-        ],
-        "interchange": [],
-        "vehicles": [
-          {
-            "year_from": 1968,
-            "year_to": 1970,
-            "make": "AMC",
-            "model": "AMX",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1958,
-            "year_to": 1974,
-            "make": "AMC",
-            "model": "Ambassador",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1967,
-            "year_to": 1968,
-            "make": "AMC",
-            "model": "American",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1970,
-            "year_to": 1974,
-            "make": "AMC",
-            "model": "Hornet",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1968,
-            "year_to": 1974,
-            "make": "AMC",
-            "model": "Javelin",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1971,
-            "year_to": 1974,
-            "make": "AMC",
-            "model": "Matador",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1958,
-            "year_to": 1970,
-            "make": "AMC",
-            "model": "Rebel",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1967,
-            "year_to": 1974,
-            "make": "Chevrolet",
-            "model": "Camaro",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1956,
-            "year_to": 1974,
-            "make": "Chevrolet",
-            "model": "Corvette",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1958,
-            "year_to": 1974,
-            "make": "Chevrolet",
-            "model": "Impala",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1967,
-            "year_to": 1974,
-            "make": "Pontiac",
-            "model": "Firebird",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          }
-        ],
-        "vehicle_labels": [
-          "1968\u20131970 AMC AMX",
-          "1958\u20131974 AMC Ambassador",
-          "1967\u20131968 AMC American",
-          "1970\u20131974 AMC Hornet",
-          "1968\u20131974 AMC Javelin",
-          "1971\u20131974 AMC Matador",
-          "1958\u20131970 AMC Rebel",
-          "1967\u20131974 Chevrolet Camaro",
-          "1956\u20131974 Chevrolet Corvette",
-          "1958\u20131974 Chevrolet Impala",
-          "1967\u20131974 Pontiac Firebird"
-        ],
-        "raw_compat_rows": 1952,
-        "source": "ebay_listing",
-        "confidence": "high",
-        "ebay_item_id": "398358030318",
-        "type": "Ignition Points",
-        "brand": "Standard Motor Products",
-        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Points"
-      },
-      "vehicle_count_raw": 1952,
-      "ebay_item_id": "398358030318",
-      "ebay_type": "Ignition Points",
-      "ebay_brand": "Standard Motor Products",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Points",
-      "images": [
-        "../assets/pdp-gallery/3D2DUDUP3BOUDHDVS27JF6A3/02.webp",
-        "../assets/pdp-gallery/3D2DUDUP3BOUDHDVS27JF6A3/03.webp",
-        "../assets/pdp-gallery/3D2DUDUP3BOUDHDVS27JF6A3/04.webp"
-      ],
-      "stock": 1,
-      "interchange": []
-    },
-    {
       "id": "USFDTZHNMORBCJOD773CEEDJ",
       "name": "Standard DR318 Rotor NOS 5.0 5.7 7.4 Camaro C10",
       "price": 11.99,
@@ -111469,102 +111289,6 @@
         "../assets/pdp-gallery/FDZBNNITS3R5JUQUCYM5FSQP/02.webp",
         "../assets/pdp-gallery/FDZBNNITS3R5JUQUCYM5FSQP/03.webp",
         "../assets/pdp-gallery/FDZBNNITS3R5JUQUCYM5FSQP/04.webp"
-      ],
-      "stock": 1
-    },
-    {
-      "id": "IJBUUL7IGWJJBZ6CPDKHT4FL",
-      "name": "Standard SS-598 Diode Starter Switch NOS 83-99 Mustang Ranger",
-      "price": 21.99,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/38684e9aac3238863a67c89252aeb447aa3c5728/original.jpeg",
-      "url": "https://square.link/u/1RX50YR6",
-      "category": "other",
-      "checkout": true,
-      "variation_id": "XBKBWU4MPZMP2X5HSBG3HH26",
-      "part_numbers": [
-        "SS-598",
-        "D2DZ11450A, D2OZ11450B, E5AZ11450A, E9TZ11450A"
-      ],
-      "interchange": [
-        "SW1533A",
-        "S5049",
-        "FF-138D",
-        "SW95A",
-        "E7TZ11450A"
-      ],
-      "vehicles": [
-        "1985\u20132003 Ford F-150",
-        "1983\u20131999 Ford Mustang",
-        "1985\u20132003 Ford Ranger"
-      ],
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "high",
-      "fitment": {
-        "part_numbers": [
-          "SS-598",
-          "D2DZ11450A, D2OZ11450B, E5AZ11450A, E9TZ11450A"
-        ],
-        "interchange": [
-          "SW1533A",
-          "S5049",
-          "FF-138D",
-          "SW95A",
-          "E7TZ11450A"
-        ],
-        "vehicles": [
-          {
-            "year_from": 1985,
-            "year_to": 2003,
-            "make": "Ford",
-            "model": "F-150",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1983,
-            "year_to": 1999,
-            "make": "Ford",
-            "model": "Mustang",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1985,
-            "year_to": 2003,
-            "make": "Ford",
-            "model": "Ranger",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          }
-        ],
-        "vehicle_labels": [
-          "1985\u20132003 Ford F-150",
-          "1983\u20131999 Ford Mustang",
-          "1985\u20132003 Ford Ranger"
-        ],
-        "raw_compat_rows": 1345,
-        "source": "ebay_listing",
-        "confidence": "high",
-        "ebay_item_id": "398346815674",
-        "type": "Starter Solenoid Switch",
-        "brand": "Standard Motor Products",
-        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Starters, Alternators, ECUs & Wiring:Starter Motor Parts"
-      },
-      "vehicle_count_raw": 1345,
-      "ebay_item_id": "398346815674",
-      "ebay_type": "Starter Solenoid Switch",
-      "ebay_brand": "Standard Motor Products",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Starters, Alternators, ECUs & Wiring:Starter Motor Parts",
-      "images": [
-        "../assets/pdp-gallery/IJBUUL7IGWJJBZ6CPDKHT4FL/02.webp",
-        "../assets/pdp-gallery/IJBUUL7IGWJJBZ6CPDKHT4FL/03.webp",
-        "../assets/pdp-gallery/IJBUUL7IGWJJBZ6CPDKHT4FL/04.webp"
       ],
       "stock": 1
     },
@@ -118981,5 +118705,5 @@
       "vehicles": []
     }
   ],
-  "fitment_built": "2026-10-27T04:03:56Z"
+  "fitment_built": "2026-10-27T15:31:56Z"
 }
