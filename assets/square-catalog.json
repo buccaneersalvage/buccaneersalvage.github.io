@@ -1,7 +1,7 @@
 {
-  "updated": "2026-10-28T19:03:40Z",
+  "updated": "2026-10-28T20:03:49Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 876,
+  "count": 875,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -40043,105 +40043,6 @@
         "../assets/pdp-gallery/QKNYCRAHM6FE62ZI3RYAOMTC/02.webp",
         "../assets/pdp-gallery/QKNYCRAHM6FE62ZI3RYAOMTC/03.webp",
         "../assets/pdp-gallery/QKNYCRAHM6FE62ZI3RYAOMTC/04.webp"
-      ],
-      "stock": 1
-    },
-    {
-      "id": "SUFKU43Z7GTLLYBNL6QJCYW2",
-      "name": "WIX 33811 Fuel Filter Spin-On Diesel 6.9L Ford F-250 F-350 1983-1988 NOS",
-      "price": 19.99,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/0f3a5f65ff2040cf3404dc8ca49a8de7aea1fd9f/original.jpeg",
-      "url": "https://square.link/u/SHlQNirr",
-      "category": "filters",
-      "checkout": true,
-      "variation_id": "42X3MYALBE55HHTAWVI5FW47",
-      "part_numbers": [
-        "33811"
-      ],
-      "interchange": [
-        "NAPA Gold 3811",
-        "WIX-33811"
-      ],
-      "vehicles": [
-        "1983\u20131987 Ford E-350 Econoline",
-        "1983\u20131987 Ford F-250",
-        "1983\u20131987 Ford F-350",
-        "1987\u20131988 International Harvester 1452SC"
-      ],
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "high",
-      "fitment": {
-        "part_numbers": [
-          "33811"
-        ],
-        "interchange": [
-          "NAPA Gold 3811",
-          "WIX-33811"
-        ],
-        "vehicles": [
-          {
-            "year_from": 1983,
-            "year_to": 1987,
-            "make": "Ford",
-            "model": "E-350 Econoline",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1983,
-            "year_to": 1987,
-            "make": "Ford",
-            "model": "F-250",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1983,
-            "year_to": 1987,
-            "make": "Ford",
-            "model": "F-350",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1987,
-            "year_to": 1988,
-            "make": "International Harvester",
-            "model": "1452SC",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          }
-        ],
-        "vehicle_labels": [
-          "1983\u20131987 Ford E-350 Econoline",
-          "1983\u20131987 Ford F-250",
-          "1983\u20131987 Ford F-350",
-          "1987\u20131988 International Harvester 1452SC"
-        ],
-        "raw_compat_rows": 153,
-        "source": "ebay_listing",
-        "confidence": "high",
-        "ebay_item_id": "398324554608",
-        "type": "Fuel Filter",
-        "brand": "WIX",
-        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Fuel Filters"
-      },
-      "vehicle_count_raw": 153,
-      "ebay_item_id": "398324554608",
-      "ebay_type": "Fuel Filter",
-      "ebay_brand": "WIX",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Fuel Filters",
-      "images": [
-        "../assets/pdp-gallery/SUFKU43Z7GTLLYBNL6QJCYW2/02.webp",
-        "../assets/pdp-gallery/SUFKU43Z7GTLLYBNL6QJCYW2/03.webp"
       ],
       "stock": 1
     },
@@ -119293,5 +119194,5 @@
       "vehicles": []
     }
   ],
-  "fitment_built": "2026-10-28T19:03:40Z"
+  "fitment_built": "2026-10-28T20:03:49Z"
 }
