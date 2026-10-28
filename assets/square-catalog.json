@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-28T01:04:48Z",
+  "updated": "2026-10-28T02:04:43Z",
   "store": "https://buccaneersalvage.square.site/",
   "count": 877,
   "items": [
@@ -70489,7 +70489,7 @@
       "ebay_type": "Transmission Filter",
       "ebay_brand": "AC",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:Transmission Filters",
-      "fitment_source": "ebay_listing+title",
+      "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
@@ -70628,7 +70628,7 @@
           "1970\u20131974 Ford Galaxie 500"
         ],
         "raw_compat_rows": 823,
-        "source": "ebay_listing+title",
+        "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "920080741517",
         "type": "Transmission Filter",
@@ -119015,5 +119015,5 @@
       "vehicles": []
     }
   ],
-  "fitment_built": "2026-10-28T01:04:48Z"
+  "fitment_built": "2026-10-28T02:04:43Z"
 }
