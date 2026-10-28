@@ -1,7 +1,7 @@
 {
-  "updated": "2026-10-28T05:04:48Z",
+  "updated": "2026-10-28T17:03:56Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 876,
+  "count": 877,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -76189,6 +76189,432 @@
       "stock": 1
     },
     {
+      "id": "XJ66KO32YJLLLQ6YXJKBEBDH",
+      "name": "Fel-Pro VS 50442 R Perma-Dry Valve Cover Set Impala Malibu Grand Am Century",
+      "price": 23.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/34b73e98f2c52d23669d60e952b201be18fdbb04/original.jpeg",
+      "url": "https://square.link/u/CWGIZ1xU",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "VJ575P3E4PYKINI2624NOVRL",
+      "stock": 1,
+      "part_numbers": [
+        "VS50442R",
+        "Corteco 19693, VS50173A, CV1325"
+      ],
+      "interchange": [
+        "10154775",
+        "VS50174"
+      ],
+      "vehicles": [
+        "1994\u20132005 Buick Century",
+        "2009\u20132011 Buick Lucerne",
+        "1994\u20131996 Buick Regal",
+        "2002\u20132007 Buick Rendezvous",
+        "1994\u20131998 Buick Skylark",
+        "2005\u20132007 Buick Terraza",
+        "1994\u20131996 Chevrolet Beretta",
+        "1994\u20131996 Chevrolet Corsica",
+        "2005\u20132009 Chevrolet Equinox",
+        "2000\u20132011 Chevrolet Impala",
+        "1995\u20132001 Chevrolet Lumina",
+        "1997\u20132010 Chevrolet Malibu",
+        "1995\u20132007 Chevrolet Monte Carlo",
+        "2005\u20132009 Chevrolet Uplander",
+        "1997\u20132005 Chevrolet Venture",
+        "1994\u20131998 Oldsmobile Achieva",
+        "1999\u20132004 Oldsmobile Alero",
+        "1997\u20131999 Oldsmobile Cutlass",
+        "1994\u20131996 Oldsmobile Cutlass Ciera",
+        "1993\u20131997 Oldsmobile Cutlass Supreme",
+        "1996\u20132004 Oldsmobile Silhouette",
+        "2001\u20132005 Pontiac Aztek",
+        "2005\u20132010 Pontiac G6",
+        "1994\u20132005 Pontiac Grand Am",
+        "1994\u20132003 Pontiac Grand Prix",
+        "1999\u20132009 Pontiac Montana",
+        "2006\u20132009 Pontiac Torrent",
+        "1996\u20131999 Pontiac Trans Sport",
+        "2007\u20132008 Saturn Aura",
+        "2005\u20132007 Saturn Relay",
+        "2008\u20132010 Saturn Vue"
+      ],
+      "vehicle_count_raw": 711,
+      "ebay_item_id": "920082494088",
+      "ebay_type": "Valve Cover Gasket Set",
+      "ebay_brand": "Fel-Pro",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Gaskets, Seals & Hardware:Gaskets & Seals",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "VS50442R",
+          "Corteco 19693, VS50173A, CV1325"
+        ],
+        "interchange": [
+          "10154775",
+          "VS50174"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1994,
+            "year_to": 2005,
+            "make": "Buick",
+            "model": "Century",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2009,
+            "year_to": 2011,
+            "make": "Buick",
+            "model": "Lucerne",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1994,
+            "year_to": 1996,
+            "make": "Buick",
+            "model": "Regal",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2002,
+            "year_to": 2007,
+            "make": "Buick",
+            "model": "Rendezvous",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1994,
+            "year_to": 1998,
+            "make": "Buick",
+            "model": "Skylark",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2005,
+            "year_to": 2007,
+            "make": "Buick",
+            "model": "Terraza",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1994,
+            "year_to": 1996,
+            "make": "Chevrolet",
+            "model": "Beretta",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1994,
+            "year_to": 1996,
+            "make": "Chevrolet",
+            "model": "Corsica",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2005,
+            "year_to": 2009,
+            "make": "Chevrolet",
+            "model": "Equinox",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2000,
+            "year_to": 2011,
+            "make": "Chevrolet",
+            "model": "Impala",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1995,
+            "year_to": 2001,
+            "make": "Chevrolet",
+            "model": "Lumina",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1997,
+            "year_to": 2010,
+            "make": "Chevrolet",
+            "model": "Malibu",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1995,
+            "year_to": 2007,
+            "make": "Chevrolet",
+            "model": "Monte Carlo",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2005,
+            "year_to": 2009,
+            "make": "Chevrolet",
+            "model": "Uplander",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1997,
+            "year_to": 2005,
+            "make": "Chevrolet",
+            "model": "Venture",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1994,
+            "year_to": 1998,
+            "make": "Oldsmobile",
+            "model": "Achieva",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1999,
+            "year_to": 2004,
+            "make": "Oldsmobile",
+            "model": "Alero",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1997,
+            "year_to": 1999,
+            "make": "Oldsmobile",
+            "model": "Cutlass",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1994,
+            "year_to": 1996,
+            "make": "Oldsmobile",
+            "model": "Cutlass Ciera",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1993,
+            "year_to": 1997,
+            "make": "Oldsmobile",
+            "model": "Cutlass Supreme",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1996,
+            "year_to": 2004,
+            "make": "Oldsmobile",
+            "model": "Silhouette",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2001,
+            "year_to": 2005,
+            "make": "Pontiac",
+            "model": "Aztek",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2005,
+            "year_to": 2010,
+            "make": "Pontiac",
+            "model": "G6",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1994,
+            "year_to": 2005,
+            "make": "Pontiac",
+            "model": "Grand Am",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1994,
+            "year_to": 2003,
+            "make": "Pontiac",
+            "model": "Grand Prix",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1999,
+            "year_to": 2009,
+            "make": "Pontiac",
+            "model": "Montana",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2006,
+            "year_to": 2009,
+            "make": "Pontiac",
+            "model": "Torrent",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1996,
+            "year_to": 1999,
+            "make": "Pontiac",
+            "model": "Trans Sport",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2007,
+            "year_to": 2008,
+            "make": "Saturn",
+            "model": "Aura",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2005,
+            "year_to": 2007,
+            "make": "Saturn",
+            "model": "Relay",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2008,
+            "year_to": 2010,
+            "make": "Saturn",
+            "model": "Vue",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1994\u20132005 Buick Century",
+          "2009\u20132011 Buick Lucerne",
+          "1994\u20131996 Buick Regal",
+          "2002\u20132007 Buick Rendezvous",
+          "1994\u20131998 Buick Skylark",
+          "2005\u20132007 Buick Terraza",
+          "1994\u20131996 Chevrolet Beretta",
+          "1994\u20131996 Chevrolet Corsica",
+          "2005\u20132009 Chevrolet Equinox",
+          "2000\u20132011 Chevrolet Impala",
+          "1995\u20132001 Chevrolet Lumina",
+          "1997\u20132010 Chevrolet Malibu",
+          "1995\u20132007 Chevrolet Monte Carlo",
+          "2005\u20132009 Chevrolet Uplander",
+          "1997\u20132005 Chevrolet Venture",
+          "1994\u20131998 Oldsmobile Achieva",
+          "1999\u20132004 Oldsmobile Alero",
+          "1997\u20131999 Oldsmobile Cutlass",
+          "1994\u20131996 Oldsmobile Cutlass Ciera",
+          "1993\u20131997 Oldsmobile Cutlass Supreme",
+          "1996\u20132004 Oldsmobile Silhouette",
+          "2001\u20132005 Pontiac Aztek",
+          "2005\u20132010 Pontiac G6",
+          "1994\u20132005 Pontiac Grand Am",
+          "1994\u20132003 Pontiac Grand Prix",
+          "1999\u20132009 Pontiac Montana",
+          "2006\u20132009 Pontiac Torrent",
+          "1996\u20131999 Pontiac Trans Sport",
+          "2007\u20132008 Saturn Aura",
+          "2005\u20132007 Saturn Relay",
+          "2008\u20132010 Saturn Vue"
+        ],
+        "raw_compat_rows": 711,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "920082494088",
+        "type": "Valve Cover Gasket Set",
+        "brand": "Fel-Pro",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Gaskets, Seals & Hardware:Gaskets & Seals"
+      },
+      "images": [
+        "../assets/pdp-gallery/XJ66KO32YJLLLQ6YXJKBEBDH/02.webp",
+        "../assets/pdp-gallery/XJ66KO32YJLLLQ6YXJKBEBDH/03.webp",
+        "../assets/pdp-gallery/XJ66KO32YJLLLQ6YXJKBEBDH/04.webp"
+      ]
+    },
+    {
       "id": "VBOO2YTJJ7NMJM77LGGBWAGB",
       "name": "Ford 4.6L Electronic Throttle Body OEM 3L5E-AE F-150 Mustang 2004-2008",
       "price": 69.99,
@@ -118908,5 +119334,5 @@
       "vehicles": []
     }
   ],
-  "fitment_built": "2026-10-28T05:04:48Z"
+  "fitment_built": "2026-10-28T17:03:56Z"
 }
