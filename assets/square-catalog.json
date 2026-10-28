@@ -1,7 +1,7 @@
 {
-  "updated": "2026-10-28T02:04:43Z",
+  "updated": "2026-10-28T04:04:50Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 877,
+  "count": 876,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -32241,113 +32241,6 @@
       "images": [
         "../assets/pdp-gallery/BOT2ZLJPSPZTSASURL33AFM6/02.webp",
         "../assets/pdp-gallery/BOT2ZLJPSPZTSASURL33AFM6/03.webp"
-      ],
-      "stock": 1,
-      "interchange": []
-    },
-    {
-      "id": "MDJA5ZS6BVW65YD7P3IR2QIU",
-      "name": "FRAM HM3675 High Mileage Oil Filter Cadillac DeVille 4.6 NOS",
-      "price": 10.99,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/af2324d7c55603c31f13990f54c93eb0400294f7/original.jpeg",
-      "url": "https://square.link/u/bQPhGV46",
-      "category": "filters",
-      "checkout": true,
-      "variation_id": "LBNRK3WV4WGWVTRKOMPBWX4J",
-      "part_numbers": [
-        "HM3675",
-        "PH3675"
-      ],
-      "vehicles": [
-        "1997\u20132005 Cadillac DeVille",
-        "1997\u20132002 Cadillac Eldorado",
-        "2004 Cadillac SRX",
-        "1997\u20132004 Cadillac Seville",
-        "2004\u20132005 Cadillac XLR"
-      ],
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "high",
-      "fitment": {
-        "part_numbers": [
-          "HM3675",
-          "PH3675"
-        ],
-        "interchange": [],
-        "vehicles": [
-          {
-            "year_from": 1997,
-            "year_to": 2005,
-            "make": "Cadillac",
-            "model": "DeVille",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1997,
-            "year_to": 2002,
-            "make": "Cadillac",
-            "model": "Eldorado",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 2004,
-            "year_to": 2004,
-            "make": "Cadillac",
-            "model": "SRX",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1997,
-            "year_to": 2004,
-            "make": "Cadillac",
-            "model": "Seville",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 2004,
-            "year_to": 2005,
-            "make": "Cadillac",
-            "model": "XLR",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          }
-        ],
-        "vehicle_labels": [
-          "1997\u20132005 Cadillac DeVille",
-          "1997\u20132002 Cadillac Eldorado",
-          "2004 Cadillac SRX",
-          "1997\u20132004 Cadillac Seville",
-          "2004\u20132005 Cadillac XLR"
-        ],
-        "raw_compat_rows": 80,
-        "source": "ebay_listing",
-        "confidence": "high",
-        "ebay_item_id": "398411484567",
-        "type": "Oil Filter",
-        "brand": "FRAM",
-        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Filters"
-      },
-      "vehicle_count_raw": 80,
-      "ebay_item_id": "398411484567",
-      "ebay_type": "Oil Filter",
-      "ebay_brand": "FRAM",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Filters",
-      "images": [
-        "../assets/pdp-gallery/MDJA5ZS6BVW65YD7P3IR2QIU/02.webp",
-        "../assets/pdp-gallery/MDJA5ZS6BVW65YD7P3IR2QIU/03.webp"
       ],
       "stock": 1,
       "interchange": []
@@ -70460,7 +70353,6 @@
       "category": "other",
       "checkout": true,
       "variation_id": "YTSIQUMIO77SEFMUN7KY6UUE",
-      "stock": 1,
       "part_numbers": [
         "TF-185",
         "12339137"
@@ -70484,11 +70376,6 @@
         "1978\u20131981 Ford Fairmont",
         "1970\u20131974 Ford Galaxie 500"
       ],
-      "vehicle_count_raw": 823,
-      "ebay_item_id": "920080741517",
-      "ebay_type": "Transmission Filter",
-      "ebay_brand": "AC",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:Transmission Filters",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -70635,11 +70522,17 @@
         "brand": "AC",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:Transmission Filters"
       },
+      "vehicle_count_raw": 823,
+      "ebay_item_id": "920080741517",
+      "ebay_type": "Transmission Filter",
+      "ebay_brand": "AC",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:Transmission Filters",
       "images": [
         "../assets/pdp-gallery/MFJEV6GO6DWB5W47PV2XMFST/02.webp",
         "../assets/pdp-gallery/MFJEV6GO6DWB5W47PV2XMFST/03.webp",
         "../assets/pdp-gallery/MFJEV6GO6DWB5W47PV2XMFST/04.webp"
-      ]
+      ],
+      "stock": 1
     },
     {
       "id": "INV4SUPULLMTK4WOCT2WQWI6",
@@ -119015,5 +118908,5 @@
       "vehicles": []
     }
   ],
-  "fitment_built": "2026-10-28T02:04:43Z"
+  "fitment_built": "2026-10-28T04:04:50Z"
 }
