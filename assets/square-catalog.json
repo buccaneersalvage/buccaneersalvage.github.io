@@ -1,7 +1,7 @@
 {
-  "updated": "2026-10-27T21:04:40Z",
+  "updated": "2026-10-28T01:04:48Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 876,
+  "count": 877,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -70452,6 +70452,196 @@
       "interchange": []
     },
     {
+      "id": "MFJEV6GO6DWB5W47PV2XMFST",
+      "name": "AC TF-185 Trans Filter Kit Ford F100 F150 Bronco Econoline 69-81",
+      "price": 49.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/16970caffc8617fedc16b538b53aa32674bbb0d9/original.jpeg",
+      "url": "https://square.link/u/Iu5laCJS",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "YTSIQUMIO77SEFMUN7KY6UUE",
+      "stock": 1,
+      "part_numbers": [
+        "TF-185",
+        "12339137"
+      ],
+      "interchange": [
+        "WIX 58927",
+        "FRAM FT1028",
+        "Motorcraft FT-40A",
+        "Ford D0DZ-7A098A"
+      ],
+      "vehicles": [
+        "1969\u20131977 Ford Bronco",
+        "1970\u20131974 Ford Country Squire",
+        "1969\u20131972 Ford Custom",
+        "1969\u20131977 Ford Custom 500",
+        "1969\u20131974 Ford E-100 Econoline",
+        "1975\u20131976 Ford Elite",
+        "1969\u20131977 Ford F-100",
+        "1977\u20131978 Ford F-150",
+        "1969\u20131981 Ford F100",
+        "1978\u20131981 Ford Fairmont",
+        "1970\u20131974 Ford Galaxie 500"
+      ],
+      "vehicle_count_raw": 823,
+      "ebay_item_id": "920080741517",
+      "ebay_type": "Transmission Filter",
+      "ebay_brand": "AC",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:Transmission Filters",
+      "fitment_source": "ebay_listing+title",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "TF-185",
+          "12339137"
+        ],
+        "interchange": [
+          "WIX 58927",
+          "FRAM FT1028",
+          "Motorcraft FT-40A",
+          "Ford D0DZ-7A098A"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1969,
+            "year_to": 1977,
+            "make": "Ford",
+            "model": "Bronco",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1970,
+            "year_to": 1974,
+            "make": "Ford",
+            "model": "Country Squire",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1969,
+            "year_to": 1972,
+            "make": "Ford",
+            "model": "Custom",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1969,
+            "year_to": 1977,
+            "make": "Ford",
+            "model": "Custom 500",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1969,
+            "year_to": 1974,
+            "make": "Ford",
+            "model": "E-100 Econoline",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1975,
+            "year_to": 1976,
+            "make": "Ford",
+            "model": "Elite",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1969,
+            "year_to": 1977,
+            "make": "Ford",
+            "model": "F-100",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1977,
+            "year_to": 1978,
+            "make": "Ford",
+            "model": "F-150",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1969,
+            "year_to": 1981,
+            "make": "Ford",
+            "model": "F100",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1978,
+            "year_to": 1981,
+            "make": "Ford",
+            "model": "Fairmont",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1970,
+            "year_to": 1974,
+            "make": "Ford",
+            "model": "Galaxie 500",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1969\u20131977 Ford Bronco",
+          "1970\u20131974 Ford Country Squire",
+          "1969\u20131972 Ford Custom",
+          "1969\u20131977 Ford Custom 500",
+          "1969\u20131974 Ford E-100 Econoline",
+          "1975\u20131976 Ford Elite",
+          "1969\u20131977 Ford F-100",
+          "1977\u20131978 Ford F-150",
+          "1969\u20131981 Ford F100",
+          "1978\u20131981 Ford Fairmont",
+          "1970\u20131974 Ford Galaxie 500"
+        ],
+        "raw_compat_rows": 823,
+        "source": "ebay_listing+title",
+        "confidence": "high",
+        "ebay_item_id": "920080741517",
+        "type": "Transmission Filter",
+        "brand": "AC",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:Transmission Filters"
+      },
+      "images": [
+        "../assets/pdp-gallery/MFJEV6GO6DWB5W47PV2XMFST/02.webp",
+        "../assets/pdp-gallery/MFJEV6GO6DWB5W47PV2XMFST/03.webp",
+        "../assets/pdp-gallery/MFJEV6GO6DWB5W47PV2XMFST/04.webp"
+      ]
+    },
+    {
       "id": "INV4SUPULLMTK4WOCT2WQWI6",
       "name": "ACDelco D1595G 15194803 Headlamp Switch 2003-2007 Silverado Sierra Tahoe Used",
       "price": 12.99,
@@ -75900,21 +76090,14 @@
       "category": "other",
       "checkout": true,
       "variation_id": "RWHNVCU26RHOTWMQJDVH6W4F",
-      "stock": 1,
       "part_numbers": [
         "HS9571PT2",
         "11042-12026"
       ],
-      "interchange": [],
       "vehicles": [
         "1986\u20131994 Nissan D21",
         "1987\u20131995 Nissan Pathfinder"
       ],
-      "vehicle_count_raw": 57,
-      "ebay_item_id": "920080154487",
-      "ebay_type": "Head Gasket Set",
-      "ebay_brand": "Fel-Pro",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Gaskets, Seals & Hardware:Gaskets & Seals",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -75957,11 +76140,18 @@
         "brand": "Fel-Pro",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Gaskets, Seals & Hardware:Gaskets & Seals"
       },
+      "vehicle_count_raw": 57,
+      "ebay_item_id": "920080154487",
+      "ebay_type": "Head Gasket Set",
+      "ebay_brand": "Fel-Pro",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Gaskets, Seals & Hardware:Gaskets & Seals",
       "images": [
         "../assets/pdp-gallery/PKHBOAXINJOZDZULODTHXHXI/02.webp",
         "../assets/pdp-gallery/PKHBOAXINJOZDZULODTHXHXI/03.webp",
         "../assets/pdp-gallery/PKHBOAXINJOZDZULODTHXHXI/04.webp"
-      ]
+      ],
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "C275ABHFNG7M5BNMKDSPPPAP",
@@ -75972,19 +76162,12 @@
       "category": "other",
       "checkout": true,
       "variation_id": "5HGOWR7NR5GQ4MFHKBH47O46",
-      "stock": 1,
       "part_numbers": [
         "HS9711PT"
       ],
-      "interchange": [],
       "vehicles": [
         "1993\u20131994 Ford Probe"
       ],
-      "vehicle_count_raw": 4,
-      "ebay_item_id": "920080144944",
-      "ebay_type": "Head Gasket Set",
-      "ebay_brand": "Fel-Pro",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Gaskets, Seals & Hardware:Gaskets & Seals",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -76015,10 +76198,17 @@
         "brand": "Fel-Pro",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Gaskets, Seals & Hardware:Gaskets & Seals"
       },
+      "vehicle_count_raw": 4,
+      "ebay_item_id": "920080144944",
+      "ebay_type": "Head Gasket Set",
+      "ebay_brand": "Fel-Pro",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Gaskets, Seals & Hardware:Gaskets & Seals",
       "images": [
         "../assets/pdp-gallery/C275ABHFNG7M5BNMKDSPPPAP/02.webp",
         "../assets/pdp-gallery/C275ABHFNG7M5BNMKDSPPPAP/03.webp"
-      ]
+      ],
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "BL7UZFKJJ2PYWEDB7VLCPW7X",
@@ -116743,7 +116933,6 @@
       "category": "other",
       "checkout": true,
       "variation_id": "R5RDOZYP2XZX3TOS2CXMEKSP",
-      "stock": 1,
       "part_numbers": [
         "VS38290",
         "08F-13AA1"
@@ -116761,11 +116950,6 @@
         "1965\u20131967 GMC L3500",
         "1960\u20131966 GMC Suburban"
       ],
-      "vehicle_count_raw": 60,
-      "ebay_item_id": "920080198709",
-      "ebay_type": "Valve Cover Gasket",
-      "ebay_brand": "Victor Reinz",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Gaskets, Seals & Hardware:Gaskets & Seals",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -116866,10 +117050,16 @@
         "brand": "Victor Reinz",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Gaskets, Seals & Hardware:Gaskets & Seals"
       },
+      "vehicle_count_raw": 60,
+      "ebay_item_id": "920080198709",
+      "ebay_type": "Valve Cover Gasket",
+      "ebay_brand": "Victor Reinz",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Gaskets, Seals & Hardware:Gaskets & Seals",
       "images": [
         "../assets/pdp-gallery/47CQIEEEKPLX5BQCWVPWCMVR/02.webp",
         "../assets/pdp-gallery/47CQIEEEKPLX5BQCWVPWCMVR/03.webp"
-      ]
+      ],
+      "stock": 1
     },
     {
       "id": "W4MUULZLATJKYPEY6SEKNP25",
@@ -118825,5 +119015,5 @@
       "vehicles": []
     }
   ],
-  "fitment_built": "2026-10-27T21:04:40Z"
+  "fitment_built": "2026-10-28T01:04:48Z"
 }
