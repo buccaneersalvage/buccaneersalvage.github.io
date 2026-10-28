@@ -1,7 +1,7 @@
 {
-  "updated": "2026-10-28T17:03:56Z",
+  "updated": "2026-10-28T18:04:24Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 877,
+  "count": 876,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -76197,7 +76197,6 @@
       "category": "other",
       "checkout": true,
       "variation_id": "VJ575P3E4PYKINI2624NOVRL",
-      "stock": 1,
       "part_numbers": [
         "VS50442R",
         "Corteco 19693, VS50173A, CV1325"
@@ -76239,11 +76238,6 @@
         "2005\u20132007 Saturn Relay",
         "2008\u20132010 Saturn Vue"
       ],
-      "vehicle_count_raw": 711,
-      "ebay_item_id": "920082494088",
-      "ebay_type": "Valve Cover Gasket Set",
-      "ebay_brand": "Fel-Pro",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Gaskets, Seals & Hardware:Gaskets & Seals",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -76608,11 +76602,17 @@
         "brand": "Fel-Pro",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Gaskets, Seals & Hardware:Gaskets & Seals"
       },
+      "vehicle_count_raw": 711,
+      "ebay_item_id": "920082494088",
+      "ebay_type": "Valve Cover Gasket Set",
+      "ebay_brand": "Fel-Pro",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Gaskets, Seals & Hardware:Gaskets & Seals",
       "images": [
         "../assets/pdp-gallery/XJ66KO32YJLLLQ6YXJKBEBDH/02.webp",
         "../assets/pdp-gallery/XJ66KO32YJLLLQ6YXJKBEBDH/03.webp",
         "../assets/pdp-gallery/XJ66KO32YJLLLQ6YXJKBEBDH/04.webp"
-      ]
+      ],
+      "stock": 1
     },
     {
       "id": "VBOO2YTJJ7NMJM77LGGBWAGB",
@@ -101984,47 +101984,6 @@
       "vehicles": []
     },
     {
-      "id": "VBSICXPQ3KKMOTPXG3U3DYFF",
-      "name": "OEM Whirlpool Kenmore Maytag Dryer Lint Filter Screen W10641634 8557857 W1071721",
-      "price": 18.99,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/11b63d010e6b70a7c178a67ba0eb6c7181ad480f/original.jpeg",
-      "url": "https://square.link/u/Zo76Bqqv",
-      "category": "other",
-      "checkout": true,
-      "variation_id": "HEVMXJ2ASA5TT7SW2AO7A3XL",
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "medium",
-      "fitment": {
-        "part_numbers": [],
-        "interchange": [],
-        "vehicles": [],
-        "vehicle_labels": [],
-        "raw_compat_rows": 0,
-        "source": "ebay_listing",
-        "confidence": "medium",
-        "ebay_item_id": "397861888981",
-        "type": "Filter",
-        "brand": "Whirlpool",
-        "ebay_category": "Home & Garden:Major Appliances:Major Appliances Parts & Accessories:Washer & Dryer Parts"
-      },
-      "vehicle_count_raw": 0,
-      "ebay_item_id": "397861888981",
-      "ebay_type": "Filter",
-      "ebay_brand": "Whirlpool",
-      "ebay_category": "Home & Garden:Major Appliances:Major Appliances Parts & Accessories:Washer & Dryer Parts",
-      "images": [
-        "../assets/pdp-gallery/VBSICXPQ3KKMOTPXG3U3DYFF/02.webp",
-        "../assets/pdp-gallery/VBSICXPQ3KKMOTPXG3U3DYFF/03.webp",
-        "../assets/pdp-gallery/VBSICXPQ3KKMOTPXG3U3DYFF/04.webp",
-        "../assets/pdp-gallery/VBSICXPQ3KKMOTPXG3U3DYFF/05.webp",
-        "../assets/pdp-gallery/VBSICXPQ3KKMOTPXG3U3DYFF/06.webp"
-      ],
-      "stock": 1,
-      "part_numbers": [],
-      "interchange": [],
-      "vehicles": []
-    },
-    {
       "id": "DYO7DSK6GVBAU3DCWM7QUOHS",
       "name": "Pace Setter PT285 Ignition Control Module NOS 75-88 GM HEI Chevy Buick",
       "price": 34.99,
@@ -119334,5 +119293,5 @@
       "vehicles": []
     }
   ],
-  "fitment_built": "2026-10-28T17:03:56Z"
+  "fitment_built": "2026-10-28T18:04:24Z"
 }
