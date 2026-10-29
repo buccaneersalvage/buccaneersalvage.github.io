@@ -1,7 +1,7 @@
 {
-  "updated": "2026-10-29T05:03:28Z",
+  "updated": "2026-10-29T06:03:28Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 873,
+  "count": 872,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -77467,125 +77467,6 @@
       "vehicles": []
     },
     {
-      "id": "RX4ESLUMNZ3IYSTPY3AJUOPV",
-      "name": "Four Seasons 74612 Heater Valve NOS 67-68 Mustang F150 CJ7",
-      "price": 14.99,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/4da66d09da2db52c7b45bf3be6cef88aae922548/original.jpeg",
-      "url": "https://square.link/u/oqekVoLB",
-      "category": "other",
-      "checkout": true,
-      "variation_id": "HXYQKD2KGXJG4B63JLLG3L5W",
-      "part_numbers": [
-        "74612",
-        "D4AZ18495A, 3222290, Dorman 801038"
-      ],
-      "interchange": [
-        "YG98",
-        "C5AZ18495A",
-        "14039637",
-        "155221"
-      ],
-      "vehicles": [
-        "1976\u20131984 Buick LeSabre",
-        "1987\u20131993 Dodge D150",
-        "1975\u20131979 Ford F-150",
-        "1967\u20131968 Ford Mustang",
-        "1985\u20131986 Jeep CJ7"
-      ],
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "high",
-      "fitment": {
-        "part_numbers": [
-          "74612",
-          "D4AZ18495A, 3222290, Dorman 801038"
-        ],
-        "interchange": [
-          "YG98",
-          "C5AZ18495A",
-          "14039637",
-          "155221"
-        ],
-        "vehicles": [
-          {
-            "year_from": 1976,
-            "year_to": 1984,
-            "make": "Buick",
-            "model": "LeSabre",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1987,
-            "year_to": 1993,
-            "make": "Dodge",
-            "model": "D150",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1975,
-            "year_to": 1979,
-            "make": "Ford",
-            "model": "F-150",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1967,
-            "year_to": 1968,
-            "make": "Ford",
-            "model": "Mustang",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1985,
-            "year_to": 1986,
-            "make": "Jeep",
-            "model": "CJ7",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          }
-        ],
-        "vehicle_labels": [
-          "1976\u20131984 Buick LeSabre",
-          "1987\u20131993 Dodge D150",
-          "1975\u20131979 Ford F-150",
-          "1967\u20131968 Ford Mustang",
-          "1985\u20131986 Jeep CJ7"
-        ],
-        "raw_compat_rows": 637,
-        "source": "ebay_listing",
-        "confidence": "high",
-        "ebay_item_id": "398336096247",
-        "type": "Heater Control Valve",
-        "brand": "Four Seasons",
-        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air Conditioning & Heating:Heater Control Valves"
-      },
-      "vehicle_count_raw": 637,
-      "ebay_item_id": "398336096247",
-      "ebay_type": "Heater Control Valve",
-      "ebay_brand": "Four Seasons",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air Conditioning & Heating:Heater Control Valves",
-      "images": [
-        "../assets/pdp-gallery/RX4ESLUMNZ3IYSTPY3AJUOPV/02.webp",
-        "../assets/pdp-gallery/RX4ESLUMNZ3IYSTPY3AJUOPV/03.webp",
-        "../assets/pdp-gallery/RX4ESLUMNZ3IYSTPY3AJUOPV/04.webp",
-        "../assets/pdp-gallery/RX4ESLUMNZ3IYSTPY3AJUOPV/05.webp"
-      ],
-      "stock": 1
-    },
-    {
       "id": "DJT2FDICVCMYRBGKSAYFLW23",
       "name": "Four Seasons 74691 Heater Valve NOS 76-90 Buick Olds Pontiac Chevy GM",
       "price": 39.99,
@@ -119109,5 +118990,5 @@
       "vehicles": []
     }
   ],
-  "fitment_built": "2026-10-29T05:03:28Z"
+  "fitment_built": "2026-10-29T06:03:28Z"
 }
