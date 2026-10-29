@@ -1,7 +1,7 @@
 {
-  "updated": "2026-10-29T08:04:15Z",
+  "updated": "2026-10-29T16:04:13Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 872,
+  "count": 873,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -30277,6 +30277,323 @@
       ],
       "stock": 1,
       "interchange": []
+    },
+    {
+      "id": "AYL5XYWMYWBZRGHUCD6CBT67",
+      "name": "Wagner F110260 3/4 Drum Wheel Cylinder Rear LH RH 82-88 Camaro Firebird",
+      "price": 14.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/a2aeb7d741886ca66cede3696fadc3ad1dde152e/original.jpeg",
+      "url": "https://square.link/u/TtJm8JPW",
+      "category": "brake",
+      "checkout": true,
+      "variation_id": "GENYGME2IBPW3DOQ6R5XBDGN",
+      "stock": 1,
+      "part_numbers": [
+        "F110260",
+        "18012303"
+      ],
+      "interchange": [
+        "WC110260"
+      ],
+      "vehicles": [
+        "1978\u20131981 Buick Century",
+        "1978\u20131987 Buick Regal",
+        "1982\u20131988 Chevrolet Camaro",
+        "1978\u20131987 Chevrolet El Camino",
+        "1978\u20131983 Chevrolet Malibu",
+        "1978\u20131988 Chevrolet Monte Carlo",
+        "1983\u20131991 Chevrolet S10",
+        "1983\u20131991 Chevrolet S10 Blazer",
+        "1978\u20131987 GMC Caballero",
+        "1983\u20131990 GMC S15",
+        "1983\u20131991 GMC S15 Jimmy",
+        "1978\u20131987 Oldsmobile Cutlass",
+        "1978\u20131980 Oldsmobile Cutlass Calais",
+        "1982\u20131983 Oldsmobile Cutlass Cruiser",
+        "1978\u20131987 Oldsmobile Cutlass Salon",
+        "1978\u20131988 Oldsmobile Cutlass Supreme",
+        "1982\u20131986 Pontiac Bonneville",
+        "1982\u20131988 Pontiac Firebird",
+        "1978\u20131980 Pontiac Grand Am",
+        "1978\u20131981 Pontiac Grand LeMans",
+        "1978\u20131987 Pontiac Grand Prix",
+        "1978\u20131981 Pontiac LeMans"
+      ],
+      "vehicle_count_raw": 1974,
+      "ebay_item_id": "920084861224",
+      "ebay_type": "Brake Wheel Cylinder",
+      "ebay_brand": "Wagner",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Wheel Cylinders",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "F110260",
+          "18012303"
+        ],
+        "interchange": [
+          "WC110260"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1978,
+            "year_to": 1981,
+            "make": "Buick",
+            "model": "Century",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1978,
+            "year_to": 1987,
+            "make": "Buick",
+            "model": "Regal",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1982,
+            "year_to": 1988,
+            "make": "Chevrolet",
+            "model": "Camaro",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1978,
+            "year_to": 1987,
+            "make": "Chevrolet",
+            "model": "El Camino",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1978,
+            "year_to": 1983,
+            "make": "Chevrolet",
+            "model": "Malibu",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1978,
+            "year_to": 1988,
+            "make": "Chevrolet",
+            "model": "Monte Carlo",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1983,
+            "year_to": 1991,
+            "make": "Chevrolet",
+            "model": "S10",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1983,
+            "year_to": 1991,
+            "make": "Chevrolet",
+            "model": "S10 Blazer",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1978,
+            "year_to": 1987,
+            "make": "GMC",
+            "model": "Caballero",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1983,
+            "year_to": 1990,
+            "make": "GMC",
+            "model": "S15",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1983,
+            "year_to": 1991,
+            "make": "GMC",
+            "model": "S15 Jimmy",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1978,
+            "year_to": 1987,
+            "make": "Oldsmobile",
+            "model": "Cutlass",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1978,
+            "year_to": 1980,
+            "make": "Oldsmobile",
+            "model": "Cutlass Calais",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1982,
+            "year_to": 1983,
+            "make": "Oldsmobile",
+            "model": "Cutlass Cruiser",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1978,
+            "year_to": 1987,
+            "make": "Oldsmobile",
+            "model": "Cutlass Salon",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1978,
+            "year_to": 1988,
+            "make": "Oldsmobile",
+            "model": "Cutlass Supreme",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1982,
+            "year_to": 1986,
+            "make": "Pontiac",
+            "model": "Bonneville",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1982,
+            "year_to": 1988,
+            "make": "Pontiac",
+            "model": "Firebird",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1978,
+            "year_to": 1980,
+            "make": "Pontiac",
+            "model": "Grand Am",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1978,
+            "year_to": 1981,
+            "make": "Pontiac",
+            "model": "Grand LeMans",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1978,
+            "year_to": 1987,
+            "make": "Pontiac",
+            "model": "Grand Prix",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1978,
+            "year_to": 1981,
+            "make": "Pontiac",
+            "model": "LeMans",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1978\u20131981 Buick Century",
+          "1978\u20131987 Buick Regal",
+          "1982\u20131988 Chevrolet Camaro",
+          "1978\u20131987 Chevrolet El Camino",
+          "1978\u20131983 Chevrolet Malibu",
+          "1978\u20131988 Chevrolet Monte Carlo",
+          "1983\u20131991 Chevrolet S10",
+          "1983\u20131991 Chevrolet S10 Blazer",
+          "1978\u20131987 GMC Caballero",
+          "1983\u20131990 GMC S15",
+          "1983\u20131991 GMC S15 Jimmy",
+          "1978\u20131987 Oldsmobile Cutlass",
+          "1978\u20131980 Oldsmobile Cutlass Calais",
+          "1982\u20131983 Oldsmobile Cutlass Cruiser",
+          "1978\u20131987 Oldsmobile Cutlass Salon",
+          "1978\u20131988 Oldsmobile Cutlass Supreme",
+          "1982\u20131986 Pontiac Bonneville",
+          "1982\u20131988 Pontiac Firebird",
+          "1978\u20131980 Pontiac Grand Am",
+          "1978\u20131981 Pontiac Grand LeMans",
+          "1978\u20131987 Pontiac Grand Prix",
+          "1978\u20131981 Pontiac LeMans"
+        ],
+        "raw_compat_rows": 1974,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "920084861224",
+        "type": "Brake Wheel Cylinder",
+        "brand": "Wagner",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Wheel Cylinders"
+      },
+      "images": [
+        "../assets/pdp-gallery/AYL5XYWMYWBZRGHUCD6CBT67/02.webp",
+        "../assets/pdp-gallery/AYL5XYWMYWBZRGHUCD6CBT67/03.webp",
+        "../assets/pdp-gallery/AYL5XYWMYWBZRGHUCD6CBT67/04.webp",
+        "../assets/pdp-gallery/AYL5XYWMYWBZRGHUCD6CBT67/05.webp"
+      ]
     },
     {
       "id": "K7LUL7IBB73YA5JJNNLUKRKZ",
@@ -118990,5 +119307,5 @@
       "vehicles": []
     }
   ],
-  "fitment_built": "2026-10-29T08:04:15Z"
+  "fitment_built": "2026-10-29T16:04:13Z"
 }
