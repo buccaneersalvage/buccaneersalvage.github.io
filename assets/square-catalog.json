@@ -1,7 +1,7 @@
 {
-  "updated": "2026-10-29T16:04:13Z",
+  "updated": "2026-10-29T17:04:55Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 873,
+  "count": 874,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -30287,7 +30287,6 @@
       "category": "brake",
       "checkout": true,
       "variation_id": "GENYGME2IBPW3DOQ6R5XBDGN",
-      "stock": 1,
       "part_numbers": [
         "F110260",
         "18012303"
@@ -30319,11 +30318,6 @@
         "1978\u20131987 Pontiac Grand Prix",
         "1978\u20131981 Pontiac LeMans"
       ],
-      "vehicle_count_raw": 1974,
-      "ebay_item_id": "920084861224",
-      "ebay_type": "Brake Wheel Cylinder",
-      "ebay_brand": "Wagner",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Wheel Cylinders",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -30588,12 +30582,18 @@
         "brand": "Wagner",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Wheel Cylinders"
       },
+      "vehicle_count_raw": 1974,
+      "ebay_item_id": "920084861224",
+      "ebay_type": "Brake Wheel Cylinder",
+      "ebay_brand": "Wagner",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Wheel Cylinders",
       "images": [
         "../assets/pdp-gallery/AYL5XYWMYWBZRGHUCD6CBT67/02.webp",
         "../assets/pdp-gallery/AYL5XYWMYWBZRGHUCD6CBT67/03.webp",
         "../assets/pdp-gallery/AYL5XYWMYWBZRGHUCD6CBT67/04.webp",
         "../assets/pdp-gallery/AYL5XYWMYWBZRGHUCD6CBT67/05.webp"
-      ]
+      ],
+      "stock": 1
     },
     {
       "id": "K7LUL7IBB73YA5JJNNLUKRKZ",
@@ -104112,6 +104112,48 @@
       "vehicles": []
     },
     {
+      "id": "RDKJXEDNH3FRQFOO2BDCSA2T",
+      "name": "Samuel Adams Brewer Patriot Chalkboard Menu Bar Sign 20x30 2017 Used",
+      "price": 49.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/2805b3cd679791e94f5639d21e8cb5720da1c8bb/original.jpeg",
+      "url": "https://square.link/u/cfEHnnWN",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "AUFFMDKPM2OWYCO67XPGLOXA",
+      "stock": 1,
+      "part_numbers": [],
+      "interchange": [],
+      "vehicles": [],
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "920085101422",
+      "ebay_type": "Chalkboard",
+      "ebay_brand": "Samuel Adams",
+      "ebay_category": "Home & Garden:Home D\u00e9cor:Decorative Accessories:Message Boards & Holders",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "medium",
+      "fitment": {
+        "part_numbers": [],
+        "interchange": [],
+        "vehicles": [],
+        "vehicle_labels": [],
+        "raw_compat_rows": 0,
+        "source": "ebay_listing",
+        "confidence": "medium",
+        "ebay_item_id": "920085101422",
+        "type": "Chalkboard",
+        "brand": "Samuel Adams",
+        "ebay_category": "Home & Garden:Home D\u00e9cor:Decorative Accessories:Message Boards & Holders"
+      },
+      "images": [
+        "../assets/pdp-gallery/RDKJXEDNH3FRQFOO2BDCSA2T/02.webp",
+        "../assets/pdp-gallery/RDKJXEDNH3FRQFOO2BDCSA2T/03.webp",
+        "../assets/pdp-gallery/RDKJXEDNH3FRQFOO2BDCSA2T/04.webp",
+        "../assets/pdp-gallery/RDKJXEDNH3FRQFOO2BDCSA2T/05.webp",
+        "../assets/pdp-gallery/RDKJXEDNH3FRQFOO2BDCSA2T/06.webp",
+        "../assets/pdp-gallery/RDKJXEDNH3FRQFOO2BDCSA2T/07.webp"
+      ]
+    },
+    {
       "id": "O6JHBMNMFRGN5X3WLTBEJYCN",
       "name": "Sealed Power HT-2056 Lifter 1.6 1.8 2.0 Chevette Skyhawk Sunbird GM 76-94",
       "price": 11.99,
@@ -119307,5 +119349,5 @@
       "vehicles": []
     }
   ],
-  "fitment_built": "2026-10-29T16:04:13Z"
+  "fitment_built": "2026-10-29T17:04:55Z"
 }
