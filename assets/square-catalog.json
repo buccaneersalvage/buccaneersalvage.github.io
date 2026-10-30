@@ -1,7 +1,7 @@
 {
-  "updated": "2026-10-29T23:04:56Z",
+  "updated": "2026-10-30T11:15:19Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 874,
+  "count": 873,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -107603,112 +107603,6 @@
       "images": []
     },
     {
-      "id": "GXECZQPESKZ6IGU2E75QQFGE",
-      "name": "Standard Motor Products LX301 Ignition Module 4.1 5.0 5.7 Century NOS",
-      "price": 49.84,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/324e9fbe41b26d9d162ea050d0cdba4976bc7106/original.jpeg",
-      "url": "https://square.link/u/eaTOdqcd",
-      "category": "other",
-      "checkout": true,
-      "variation_id": "K3R7AFZ5IZLGLXPEWR3J7WOS",
-      "part_numbers": [
-        "LX301"
-      ],
-      "vehicles": [
-        "1974\u20131981 Buick Century",
-        "1974\u20131988 Buick Electra",
-        "1974\u20131987 Buick LeSabre",
-        "1974\u20131987 Buick Regal",
-        "1975\u20131982 Buick Skylark"
-      ],
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "high",
-      "fitment": {
-        "part_numbers": [
-          "LX301"
-        ],
-        "interchange": [],
-        "vehicles": [
-          {
-            "year_from": 1974,
-            "year_to": 1981,
-            "make": "Buick",
-            "model": "Century",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1974,
-            "year_to": 1988,
-            "make": "Buick",
-            "model": "Electra",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1974,
-            "year_to": 1987,
-            "make": "Buick",
-            "model": "LeSabre",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1974,
-            "year_to": 1987,
-            "make": "Buick",
-            "model": "Regal",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1975,
-            "year_to": 1982,
-            "make": "Buick",
-            "model": "Skylark",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          }
-        ],
-        "vehicle_labels": [
-          "1974\u20131981 Buick Century",
-          "1974\u20131988 Buick Electra",
-          "1974\u20131987 Buick LeSabre",
-          "1974\u20131987 Buick Regal",
-          "1975\u20131982 Buick Skylark"
-        ],
-        "raw_compat_rows": 904,
-        "source": "ebay_listing",
-        "confidence": "high",
-        "ebay_item_id": "398347658609",
-        "type": "Ignition Module",
-        "brand": "Standard Motor Products",
-        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Modules"
-      },
-      "vehicle_count_raw": 904,
-      "ebay_item_id": "398347658609",
-      "ebay_type": "Ignition Module",
-      "ebay_brand": "Standard Motor Products",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Modules",
-      "images": [
-        "../assets/pdp-gallery/GXECZQPESKZ6IGU2E75QQFGE/02.webp",
-        "../assets/pdp-gallery/GXECZQPESKZ6IGU2E75QQFGE/03.webp",
-        "../assets/pdp-gallery/GXECZQPESKZ6IGU2E75QQFGE/04.webp"
-      ],
-      "stock": 1,
-      "interchange": []
-    },
-    {
       "id": "UM4GW2UELQCUJXIO6DOCWF2Q",
       "name": "Standard Motor Products PC7 Crank Sensor 2.2 2.8 3.1 Century NOS",
       "price": 19.99,
@@ -119349,5 +119243,5 @@
       "vehicles": []
     }
   ],
-  "fitment_built": "2026-10-29T23:04:56Z"
+  "fitment_built": "2026-10-30T11:15:19Z"
 }
