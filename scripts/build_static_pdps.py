@@ -1443,7 +1443,7 @@ def main() -> None:
   <meta name="twitter:image" content="{esc(img)}" />
   <link rel="icon" type="image/jpeg" href="../assets/crest-rustjack-web.jpg" />
   <link rel="stylesheet" href="../assets/fonts.css?v=d1b92d3ff4" integrity="sha384-IDnmxIHyfCaSAssmrqXZbMSqgbRm8AATad26bBSjsyTVbgLbsvJXqeQW642rJQFS" />
-  <link rel="stylesheet" href="../styles.css?v=aee56425d6" integrity="sha384-q8s4wjVaIYGfvKn3AXw7TnS85qHY6CUZ9KcldUE0UY4RkbtsqBnSYGzGImrA/NHo" />
+  <link rel="stylesheet" href="../styles.css?v=1e9f3f9b58" integrity="sha384-TZVXWGLVPAVf/Psy6XGm4NpdkKU5isVif5MXUtZ7SKWweSn9DDH+PSmdis8xLHn8" />
   <script type="application/ld+json">{schema_json}</script>
   <script type="application/ld+json">{crumbs_json}</script>
   <script src="../pdp-gallery.js?v=a4902e6df7" integrity="sha384-KQQLGR/29Pbafwd/CA/8AQLVXzcSwYToqVr/2dWq1cdz55pHzirU7ht4CxIXllAs" defer></script>
@@ -1460,6 +1460,9 @@ def main() -> None:
       <nav class="nav-links" aria-label="Primary">
         <a href="../index.html">Home</a>
         <a href="../store.html">Store</a>
+        <a href="../services.html">eBay services</a>
+        <a href="../templates-example.html">Templates</a>
+        <a href="../concierge.html">Concierge</a>
       </nav>
       <button type="button" class="nav-cart" aria-label="Cart">Cart<span class="nav-cart-count" hidden></span></button>
       {nav_cta}
@@ -1470,6 +1473,10 @@ def main() -> None:
     <div class="nav-drawer" id="drawer" hidden>
       <a href="../index.html">Home</a>
       <a href="../store.html">Store catalog</a>
+      <a href="../services.html">eBay services</a>
+      <a href="../templates-example.html">Templates</a>
+      <a href="../concierge.html">Concierge</a>
+      <a href="../scrap.html">Scrap Removal</a>
       <a href="../terms.html">Terms &amp; returns</a>
       <a href="../privacy.html">Privacy</a>
       <a href="../shame.html">Buyer hall of shame</a>

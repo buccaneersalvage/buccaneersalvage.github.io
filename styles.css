@@ -655,6 +655,8 @@ ul { list-style: none; }
   font-weight: 600;
   color: var(--gold-bright);
   letter-spacing: 0.02em;
+  white-space: nowrap;
+  flex-shrink: 0;
 }
 .hero-panel-cap span {
   font-family: var(--font-mono);
@@ -2093,6 +2095,8 @@ ul { list-style: none; }
   }
 }
 .st-toolbar .st-search { display: block; }
+.st-hero-search { display: block; margin-top: 1.1rem; max-width: 40rem; }
+.st-toolbar { justify-content: flex-end; }
 .st-toolbar .st-sort select { min-width: 12rem; }
 
 /* Catalog grid inside PLP: drop full-page max so it fills main column */

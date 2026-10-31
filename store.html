@@ -37,7 +37,7 @@
   <link rel="preload" href="assets/fonts.css?v=d1b92d3ff4" integrity="sha384-IDnmxIHyfCaSAssmrqXZbMSqgbRm8AATad26bBSjsyTVbgLbsvJXqeQW642rJQFS" as="style" />
   <link rel="preload" as="font" href="assets/fonts/QGYvz_MVcBeNP4NJtEtq.woff2" type="font/woff2" crossorigin />
   <link rel="stylesheet" href="assets/fonts.css?v=d1b92d3ff4" integrity="sha384-IDnmxIHyfCaSAssmrqXZbMSqgbRm8AATad26bBSjsyTVbgLbsvJXqeQW642rJQFS" />
-  <link rel="stylesheet" href="styles.css?v=aee56425d6" integrity="sha384-q8s4wjVaIYGfvKn3AXw7TnS85qHY6CUZ9KcldUE0UY4RkbtsqBnSYGzGImrA/NHo" />
+  <link rel="stylesheet" href="styles.css?v=1e9f3f9b58" integrity="sha384-TZVXWGLVPAVf/Psy6XGm4NpdkKU5isVif5MXUtZ7SKWweSn9DDH+PSmdis8xLHn8" />
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -116,13 +116,11 @@
         <a href="index.html">Home</a>
         <a href="store.html" aria-current="page">Store</a>
         <a href="services.html">eBay services</a>
-        <a href="terms.html">Terms</a>
-        <a href="videos.html">Music</a>
-        <a class="nav-port" href="scrap.html"><img class="nav-port-icon" loading="lazy" decoding="async" src="assets/nav/scrap-pirate-48.webp" width="22" height="22" alt="" />Scrap Removal</a>
-        <a href="map.html">Directions</a>
+        <a href="templates-example.html">Templates</a>
+        <a href="concierge.html">Concierge</a>
       </nav>
       <button type="button" class="nav-cart" aria-label="Cart">Cart<span class="nav-cart-count" hidden></span></button>
-      <a class="nav-cta" href="#catalog">Shop parts</a>
+      <a class="nav-cta" href="#stSearch">Search</a>
       <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="drawer" id="navToggle">
         <span></span>
       </button>
@@ -131,6 +129,8 @@
       <a href="index.html">Home</a>
       <a href="store.html" aria-current="page">Store catalog</a>
       <a href="services.html">eBay services</a>
+      <a href="templates-example.html">Templates</a>
+      <a href="concierge.html">Concierge</a>
       <a href="terms.html">Terms &amp; returns</a>
       <a href="privacy.html">Privacy</a>
       <a href="shame.html">Buyer hall of shame</a>
@@ -163,8 +163,15 @@
           <p class="st-count" id="stCount">…</p>
         </div>
         <p class="st-checkout-note" role="note">
-          Browse on this site. When you buy, a <strong>secure checkout</strong> page opens for payment and shipping. <strong>Handling: 1–2 business days</strong> after payment, then we ship (or set pickup).
+          Browse on this site. When you buy, a <strong>secure checkout</strong> page opens for payment and shipping. <strong>Handling: 1-2 business days</strong> after payment, then we ship (or set pickup).
         </p>
+        <label class="st-search st-hero-search">
+          <span class="visually-hidden">Search parts</span>
+          <input type="search" class="st-search-input" id="stSearch"
+                 placeholder="2008 Camry, WIX 33063, or part #"
+                 aria-label="Search by year, make, model, brand, or part number"
+                 autocomplete="off" />
+        </label>
       </div>
     </section>
 
@@ -264,13 +271,6 @@
 
             <div class="st-plp-main">
               <div class="st-toolbar">
-                <label class="st-search">
-                  <span class="visually-hidden">Search parts</span>
-                  <input type="search" class="st-search-input" id="stSearch"
-                         placeholder="2008 Camry, WIX 33063, or part #"
-                         aria-label="Search by year, make, model, brand, or part number"
-                         autocomplete="off" />
-                </label>
                 <label class="st-sort">
                   <span class="visually-hidden">Sort</span>
                   <select id="stSort" aria-label="Sort listings">
