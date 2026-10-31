@@ -1,7 +1,7 @@
 {
-  "updated": "2026-10-31T17:03:06Z",
+  "updated": "2026-10-31T23:03:04Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 872,
+  "count": 871,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -46835,114 +46835,6 @@
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Filters",
       "images": [
         "../assets/pdp-gallery/4JT24LXHKMXA3VF4G4XDLJP7/02.webp"
-      ],
-      "stock": 1
-    },
-    {
-      "id": "TN3CAPL2LU3NBOAZMYODHNAL",
-      "name": "WIX 51620 Oil Filter NOS High Performance High Pressure 51060",
-      "price": 24.99,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/5b50e23584205dabe425f3cd70b4452431a79933/original.jpeg",
-      "url": "https://square.link/u/vfpm4OYC",
-      "category": "filters",
-      "checkout": true,
-      "variation_id": "4HUGHRUE2EAUKHAVWBR6WHPQ",
-      "part_numbers": [
-        "51620"
-      ],
-      "interchange": [
-        "NAPA 1620"
-      ],
-      "vehicles": [
-        "1970\u20131992 Chevrolet Camaro",
-        "1985\u20131997 Chevrolet Corvette",
-        "1991\u20131994 Chevrolet Suburban",
-        "1995\u20132006 Chevrolet Tahoe",
-        "2002\u20132006 Hummer H1"
-      ],
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "high",
-      "fitment": {
-        "part_numbers": [
-          "51620"
-        ],
-        "interchange": [
-          "NAPA 1620"
-        ],
-        "vehicles": [
-          {
-            "year_from": 1970,
-            "year_to": 1992,
-            "make": "Chevrolet",
-            "model": "Camaro",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1985,
-            "year_to": 1997,
-            "make": "Chevrolet",
-            "model": "Corvette",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1991,
-            "year_to": 1994,
-            "make": "Chevrolet",
-            "model": "Suburban",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1995,
-            "year_to": 2006,
-            "make": "Chevrolet",
-            "model": "Tahoe",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 2002,
-            "year_to": 2006,
-            "make": "Hummer",
-            "model": "H1",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          }
-        ],
-        "vehicle_labels": [
-          "1970\u20131992 Chevrolet Camaro",
-          "1985\u20131997 Chevrolet Corvette",
-          "1991\u20131994 Chevrolet Suburban",
-          "1995\u20132006 Chevrolet Tahoe",
-          "2002\u20132006 Hummer H1"
-        ],
-        "raw_compat_rows": 10,
-        "source": "ebay_listing",
-        "confidence": "high",
-        "ebay_item_id": "398268762055",
-        "type": "Oil Filter",
-        "brand": "WIX",
-        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Filters"
-      },
-      "vehicle_count_raw": 10,
-      "ebay_item_id": "398268762055",
-      "ebay_type": "Oil Filter",
-      "ebay_brand": "WIX",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Filters",
-      "images": [
-        "../assets/pdp-gallery/TN3CAPL2LU3NBOAZMYODHNAL/02.webp"
       ],
       "stock": 1
     },
@@ -118835,5 +118727,5 @@
       "vehicles": []
     }
   ],
-  "fitment_built": "2026-10-31T17:03:06Z"
+  "fitment_built": "2026-10-31T23:03:04Z"
 }
