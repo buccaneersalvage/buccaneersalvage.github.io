@@ -1,7 +1,7 @@
 {
-  "updated": "2026-11-01T17:03:14Z",
+  "updated": "2026-11-01T22:03:18Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 872,
+  "count": 871,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -111360,148 +111360,6 @@
       "stock": 1
     },
     {
-      "id": "XCDEUKJSH2JCBQQG7ARIVTI2",
-      "name": "Standard SS200 Starter Solenoid NOS 65-94 Chevy C10 Camaro",
-      "price": 34.99,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/6304d555f430b453eee5ddff092c1a89a4af9ebf/original.jpeg",
-      "url": "https://square.link/u/6slxMdNM",
-      "category": "other",
-      "checkout": true,
-      "variation_id": "KE3BDIBELSSRVPESWUSGQXAW",
-      "part_numbers": [
-        "SS200",
-        "D992, D981, 1114458, 33261, SW100"
-      ],
-      "interchange": [
-        "SS-200",
-        "SS200T",
-        "S100",
-        "ST124"
-      ],
-      "vehicles": [
-        "1965\u20131978 Cadillac Eldorado",
-        "1975\u20131986 Chevrolet C10",
-        "1967\u20131981 Chevrolet Camaro",
-        "1965\u20131966 Chevrolet Chevelle",
-        "1967\u20131981 Chevrolet Corvette",
-        "1983\u20131992 Chevrolet G20",
-        "1967\u20131968 Jeep Wagoneer"
-      ],
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "high",
-      "fitment": {
-        "part_numbers": [
-          "SS200",
-          "D992, D981, 1114458, 33261, SW100"
-        ],
-        "interchange": [
-          "SS-200",
-          "SS200T",
-          "S100",
-          "ST124"
-        ],
-        "vehicles": [
-          {
-            "year_from": 1965,
-            "year_to": 1978,
-            "make": "Cadillac",
-            "model": "Eldorado",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1975,
-            "year_to": 1986,
-            "make": "Chevrolet",
-            "model": "C10",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1967,
-            "year_to": 1981,
-            "make": "Chevrolet",
-            "model": "Camaro",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1965,
-            "year_to": 1966,
-            "make": "Chevrolet",
-            "model": "Chevelle",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1967,
-            "year_to": 1981,
-            "make": "Chevrolet",
-            "model": "Corvette",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1983,
-            "year_to": 1992,
-            "make": "Chevrolet",
-            "model": "G20",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1967,
-            "year_to": 1968,
-            "make": "Jeep",
-            "model": "Wagoneer",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          }
-        ],
-        "vehicle_labels": [
-          "1965\u20131978 Cadillac Eldorado",
-          "1975\u20131986 Chevrolet C10",
-          "1967\u20131981 Chevrolet Camaro",
-          "1965\u20131966 Chevrolet Chevelle",
-          "1967\u20131981 Chevrolet Corvette",
-          "1983\u20131992 Chevrolet G20",
-          "1967\u20131968 Jeep Wagoneer"
-        ],
-        "raw_compat_rows": 1030,
-        "source": "ebay_listing",
-        "confidence": "high",
-        "ebay_item_id": "398336521745",
-        "type": "Starter Solenoid",
-        "brand": "Standard",
-        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Starters, Alternators, ECUs & Wiring:Starter Motor Parts"
-      },
-      "vehicle_count_raw": 1030,
-      "ebay_item_id": "398336521745",
-      "ebay_type": "Starter Solenoid",
-      "ebay_brand": "Standard",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Starters, Alternators, ECUs & Wiring:Starter Motor Parts",
-      "images": [
-        "../assets/pdp-gallery/XCDEUKJSH2JCBQQG7ARIVTI2/02.webp",
-        "../assets/pdp-gallery/XCDEUKJSH2JCBQQG7ARIVTI2/03.webp",
-        "../assets/pdp-gallery/XCDEUKJSH2JCBQQG7ARIVTI2/04.webp"
-      ],
-      "stock": 1
-    },
-    {
       "id": "VNEPLZNTN7VTSBWAZHVONPV6",
       "name": "Standard SS598 Starter Solenoid NOS Ranger Mustang 89-02",
       "price": 22.99,
@@ -118870,5 +118728,5 @@
       "vehicles": []
     }
   ],
-  "fitment_built": "2026-11-01T17:03:14Z"
+  "fitment_built": "2026-11-01T22:03:18Z"
 }
