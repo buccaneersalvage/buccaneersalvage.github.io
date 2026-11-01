@@ -1,7 +1,7 @@
 {
-  "updated": "2026-10-31T23:03:04Z",
+  "updated": "2026-11-01T00:03:11Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 871,
+  "count": 872,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -65217,6 +65217,57 @@
       "interchange": []
     },
     {
+      "id": "NB46ZZU2FGOWYVM4AZ334A4V",
+      "name": "MOOG Superboot CV2460SB CV Joint Boot Kit USA",
+      "price": 24.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/bd34458fc312e9eb87996673454ef7aa988c4193/original.jpeg",
+      "url": "https://square.link/u/4sXH3Rdl",
+      "category": "driveline",
+      "checkout": true,
+      "variation_id": "BP65B32WWNABNVUPP5GXMQOV",
+      "stock": 1,
+      "part_numbers": [
+        "CV2460SB"
+      ],
+      "interchange": [
+        "66-1091",
+        "816-1091"
+      ],
+      "vehicles": [],
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "920092165038",
+      "ebay_type": "CV Joint Boot Kit",
+      "ebay_brand": "MOOG",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:CV Joints, Boots & Parts",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "CV2460SB"
+        ],
+        "interchange": [
+          "66-1091",
+          "816-1091"
+        ],
+        "vehicles": [],
+        "vehicle_labels": [],
+        "raw_compat_rows": 0,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "920092165038",
+        "type": "CV Joint Boot Kit",
+        "brand": "MOOG",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:CV Joints, Boots & Parts"
+      },
+      "images": [
+        "../assets/pdp-gallery/NB46ZZU2FGOWYVM4AZ334A4V/02.webp",
+        "../assets/pdp-gallery/NB46ZZU2FGOWYVM4AZ334A4V/03.webp",
+        "../assets/pdp-gallery/NB46ZZU2FGOWYVM4AZ334A4V/04.webp",
+        "../assets/pdp-gallery/NB46ZZU2FGOWYVM4AZ334A4V/05.webp",
+        "../assets/pdp-gallery/NB46ZZU2FGOWYVM4AZ334A4V/06.webp"
+      ]
+    },
+    {
       "id": "KGPA7N2GXOXA6MAYRD7DD5CH",
       "name": "Motormite Speedi-Boot 03602 Outer CV Split Boot Kit NOS",
       "price": 28.99,
@@ -118727,5 +118778,5 @@
       "vehicles": []
     }
   ],
-  "fitment_built": "2026-10-31T23:03:04Z"
+  "fitment_built": "2026-11-01T00:03:11Z"
 }
