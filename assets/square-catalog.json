@@ -1,7 +1,7 @@
 {
-  "updated": "2026-11-01T02:03:04Z",
+  "updated": "2026-11-01T16:03:15Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 873,
+  "count": 872,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -69713,91 +69713,6 @@
       "interchange": []
     },
     {
-      "id": "SBBEYR7PVUONNSBQIIIXYVIZ",
-      "name": "2000 Dodge Stratus Chrysler Cirrus Breeze ECM PCM 04606852AB 2.0L Computer OEM",
-      "price": 69.99,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/1d7970fcee67898af623ff277d14fa0efc168ab4/original.jpeg",
-      "url": "https://square.link/u/7eiJIyUc",
-      "category": "other",
-      "checkout": true,
-      "variation_id": "V2DPUZUQHMTNLSM2Q5GUN2RJ",
-      "part_numbers": [
-        "04606852AB"
-      ],
-      "vehicles": [
-        "2000 Chrysler Cirrus",
-        "2000 Dodge Stratus",
-        "2000 Plymouth Breeze"
-      ],
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "high",
-      "fitment": {
-        "part_numbers": [
-          "04606852AB"
-        ],
-        "interchange": [],
-        "vehicles": [
-          {
-            "year_from": 2000,
-            "year_to": 2000,
-            "make": "Chrysler",
-            "model": "Cirrus",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 2000,
-            "year_to": 2000,
-            "make": "Dodge",
-            "model": "Stratus",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 2000,
-            "year_to": 2000,
-            "make": "Plymouth",
-            "model": "Breeze",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          }
-        ],
-        "vehicle_labels": [
-          "2000 Chrysler Cirrus",
-          "2000 Dodge Stratus",
-          "2000 Plymouth Breeze"
-        ],
-        "raw_compat_rows": 15,
-        "source": "ebay_listing",
-        "confidence": "high",
-        "ebay_item_id": "398075663438",
-        "type": "Engine Control Unit (ECU)",
-        "brand": "Mopar / OEM",
-        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Starters, Alternators, ECUs & Wiring:ECUs & Computer Modules"
-      },
-      "vehicle_count_raw": 15,
-      "ebay_item_id": "398075663438",
-      "ebay_type": "Engine Control Unit (ECU)",
-      "ebay_brand": "Mopar / OEM",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Starters, Alternators, ECUs & Wiring:ECUs & Computer Modules",
-      "images": [
-        "../assets/pdp-gallery/SBBEYR7PVUONNSBQIIIXYVIZ/02.webp",
-        "../assets/pdp-gallery/SBBEYR7PVUONNSBQIIIXYVIZ/03.webp",
-        "../assets/pdp-gallery/SBBEYR7PVUONNSBQIIIXYVIZ/04.webp",
-        "../assets/pdp-gallery/SBBEYR7PVUONNSBQIIIXYVIZ/05.webp",
-        "../assets/pdp-gallery/SBBEYR7PVUONNSBQIIIXYVIZ/06.webp",
-        "../assets/pdp-gallery/SBBEYR7PVUONNSBQIIIXYVIZ/07.webp"
-      ],
-      "stock": 1,
-      "interchange": []
-    },
-    {
       "id": "KFC7FQ7IOJKB57K2IYWLHKHG",
       "name": "2000-06 Chevy Silverado GMC Sierra Flex Fuel Sensor OEM w/ Bracket LS Swap",
       "price": 60.0,
@@ -103697,7 +103612,6 @@
       "category": "other",
       "checkout": true,
       "variation_id": "RXEPN7JD4HSIODJPGNLV7VME",
-      "stock": 1,
       "part_numbers": [
         "220-1025",
         "27297, GS33267, HB133N"
@@ -103719,11 +103633,6 @@
         "1993\u20131996 Oldsmobile Cutlass Ciera",
         "1995\u20131997 Pontiac Sunfire"
       ],
-      "vehicle_count_raw": 117,
-      "ebay_item_id": "920092250586",
-      "ebay_type": "Cylinder Head Bolt Kit",
-      "ebay_brand": "SBI",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Other Engine Parts",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -103858,12 +103767,18 @@
         "brand": "SBI",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Other Engine Parts"
       },
+      "vehicle_count_raw": 117,
+      "ebay_item_id": "920092250586",
+      "ebay_type": "Cylinder Head Bolt Kit",
+      "ebay_brand": "SBI",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Other Engine Parts",
       "images": [
         "../assets/pdp-gallery/6WB2W5ADZNAOYYOGVM4K6GG4/02.webp",
         "../assets/pdp-gallery/6WB2W5ADZNAOYYOGVM4K6GG4/03.webp",
         "../assets/pdp-gallery/6WB2W5ADZNAOYYOGVM4K6GG4/04.webp",
         "../assets/pdp-gallery/6WB2W5ADZNAOYYOGVM4K6GG4/05.webp"
-      ]
+      ],
+      "stock": 1
     },
     {
       "id": "O6JHBMNMFRGN5X3WLTBEJYCN",
@@ -118955,5 +118870,5 @@
       "vehicles": []
     }
   ],
-  "fitment_built": "2026-11-01T02:03:04Z"
+  "fitment_built": "2026-11-01T16:03:15Z"
 }
