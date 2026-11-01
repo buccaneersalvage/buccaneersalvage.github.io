@@ -1,7 +1,7 @@
 {
-  "updated": "2026-11-01T00:03:11Z",
+  "updated": "2026-11-01T01:03:07Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 872,
+  "count": 873,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -65225,7 +65225,6 @@
       "category": "driveline",
       "checkout": true,
       "variation_id": "BP65B32WWNABNVUPP5GXMQOV",
-      "stock": 1,
       "part_numbers": [
         "CV2460SB"
       ],
@@ -65233,12 +65232,6 @@
         "66-1091",
         "816-1091"
       ],
-      "vehicles": [],
-      "vehicle_count_raw": 0,
-      "ebay_item_id": "920092165038",
-      "ebay_type": "CV Joint Boot Kit",
-      "ebay_brand": "MOOG",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:CV Joints, Boots & Parts",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -65259,13 +65252,20 @@
         "brand": "MOOG",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:CV Joints, Boots & Parts"
       },
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "920092165038",
+      "ebay_type": "CV Joint Boot Kit",
+      "ebay_brand": "MOOG",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:CV Joints, Boots & Parts",
       "images": [
         "../assets/pdp-gallery/NB46ZZU2FGOWYVM4AZ334A4V/02.webp",
         "../assets/pdp-gallery/NB46ZZU2FGOWYVM4AZ334A4V/03.webp",
         "../assets/pdp-gallery/NB46ZZU2FGOWYVM4AZ334A4V/04.webp",
         "../assets/pdp-gallery/NB46ZZU2FGOWYVM4AZ334A4V/05.webp",
         "../assets/pdp-gallery/NB46ZZU2FGOWYVM4AZ334A4V/06.webp"
-      ]
+      ],
+      "stock": 1,
+      "vehicles": []
     },
     {
       "id": "KGPA7N2GXOXA6MAYRD7DD5CH",
@@ -103689,6 +103689,183 @@
       "vehicles": []
     },
     {
+      "id": "6WB2W5ADZNAOYYOGVM4K6GG4",
+      "name": "SBI 220-1025 2.2L Bolt Kit 93-97 Cavalier",
+      "price": 29.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/5c5e53ae40629c13c1adcd9bdd4038bafa8741ff/original.jpeg",
+      "url": "https://square.link/u/w2xdDR4p",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "RXEPN7JD4HSIODJPGNLV7VME",
+      "stock": 1,
+      "part_numbers": [
+        "220-1025",
+        "27297, GS33267, HB133N"
+      ],
+      "interchange": [
+        "ES74016",
+        "2602541",
+        "HB132"
+      ],
+      "vehicles": [
+        "1993\u20131996 Buick Century",
+        "1993\u20131996 Chevrolet Beretta",
+        "1993\u20131997 Chevrolet Cavalier",
+        "1993\u20131996 Chevrolet Corsica",
+        "1994\u20131995 Chevrolet LLV",
+        "1994\u20131997 Chevrolet S10",
+        "1994\u20131997 GMC Sonoma",
+        "1996\u20131997 Isuzu Hombre",
+        "1993\u20131996 Oldsmobile Cutlass Ciera",
+        "1995\u20131997 Pontiac Sunfire"
+      ],
+      "vehicle_count_raw": 117,
+      "ebay_item_id": "920092250586",
+      "ebay_type": "Cylinder Head Bolt Kit",
+      "ebay_brand": "SBI",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Other Engine Parts",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "220-1025",
+          "27297, GS33267, HB133N"
+        ],
+        "interchange": [
+          "ES74016",
+          "2602541",
+          "HB132"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1993,
+            "year_to": 1996,
+            "make": "Buick",
+            "model": "Century",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1993,
+            "year_to": 1996,
+            "make": "Chevrolet",
+            "model": "Beretta",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1993,
+            "year_to": 1997,
+            "make": "Chevrolet",
+            "model": "Cavalier",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1993,
+            "year_to": 1996,
+            "make": "Chevrolet",
+            "model": "Corsica",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1994,
+            "year_to": 1995,
+            "make": "Chevrolet",
+            "model": "LLV",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1994,
+            "year_to": 1997,
+            "make": "Chevrolet",
+            "model": "S10",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1994,
+            "year_to": 1997,
+            "make": "GMC",
+            "model": "Sonoma",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1996,
+            "year_to": 1997,
+            "make": "Isuzu",
+            "model": "Hombre",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1993,
+            "year_to": 1996,
+            "make": "Oldsmobile",
+            "model": "Cutlass Ciera",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1995,
+            "year_to": 1997,
+            "make": "Pontiac",
+            "model": "Sunfire",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1993\u20131996 Buick Century",
+          "1993\u20131996 Chevrolet Beretta",
+          "1993\u20131997 Chevrolet Cavalier",
+          "1993\u20131996 Chevrolet Corsica",
+          "1994\u20131995 Chevrolet LLV",
+          "1994\u20131997 Chevrolet S10",
+          "1994\u20131997 GMC Sonoma",
+          "1996\u20131997 Isuzu Hombre",
+          "1993\u20131996 Oldsmobile Cutlass Ciera",
+          "1995\u20131997 Pontiac Sunfire"
+        ],
+        "raw_compat_rows": 117,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "920092250586",
+        "type": "Cylinder Head Bolt Kit",
+        "brand": "SBI",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Other Engine Parts"
+      },
+      "images": [
+        "../assets/pdp-gallery/6WB2W5ADZNAOYYOGVM4K6GG4/02.webp",
+        "../assets/pdp-gallery/6WB2W5ADZNAOYYOGVM4K6GG4/03.webp",
+        "../assets/pdp-gallery/6WB2W5ADZNAOYYOGVM4K6GG4/04.webp",
+        "../assets/pdp-gallery/6WB2W5ADZNAOYYOGVM4K6GG4/05.webp"
+      ]
+    },
+    {
       "id": "O6JHBMNMFRGN5X3WLTBEJYCN",
       "name": "Sealed Power HT-2056 Lifter 1.6 1.8 2.0 Chevette Skyhawk Sunbird GM 76-94",
       "price": 11.99,
@@ -118778,5 +118955,5 @@
       "vehicles": []
     }
   ],
-  "fitment_built": "2026-11-01T00:03:11Z"
+  "fitment_built": "2026-11-01T01:03:07Z"
 }
