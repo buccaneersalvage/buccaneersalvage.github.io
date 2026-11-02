@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-02T03:03:34Z",
+  "updated": "2026-11-02T03:36:36Z",
   "store": "https://buccaneersalvage.square.site/",
   "count": 874,
   "items": [
@@ -114936,7 +114936,7 @@
       "ebay_type": "Master Overhaul Kit",
       "ebay_brand": "TRW",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:Automatic Transmission Parts",
-      "fitment_source": "ebay_listing+title",
+      "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
@@ -115080,7 +115080,7 @@
           "1970\u20131971 Mercury Montego"
         ],
         "raw_compat_rows": 399,
-        "source": "ebay_listing+title",
+        "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "920095544430",
         "type": "Master Overhaul Kit",
@@ -118980,5 +118980,5 @@
       "vehicles": []
     }
   ],
-  "fitment_built": "2026-11-02T03:03:34Z"
+  "fitment_built": "2026-11-02T03:36:36Z"
 }
