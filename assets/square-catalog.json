@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-01T23:03:17Z",
+  "updated": "2026-11-02T01:03:39Z",
   "store": "https://buccaneersalvage.square.site/",
   "count": 871,
   "items": [
@@ -39124,255 +39124,6 @@
       "interchange": []
     },
     {
-      "id": "JE7HWGNZ7H34CERY5UXS4DG7",
-      "name": "WIX 33086 In-Line Fuel Filter NOS Chrysler Dodge Plymouth 2.2L 81-87",
-      "price": 9.99,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/3f84ef2cd0ef1128b6fc141de6b02b7654830046/original.jpeg",
-      "url": "https://square.link/u/nUKXJjmI",
-      "category": "filters",
-      "checkout": true,
-      "variation_id": "2F4RTSVDXBR6FOWEAO4RAOI4",
-      "part_numbers": [
-        "33086",
-        "WIX-33086, G247, LG247, VG19"
-      ],
-      "interchange": [
-        "NAPA 3086",
-        "FRAM G3587",
-        "Purolator F20036",
-        "GF247"
-      ],
-      "vehicles": [
-        "1983 Chrysler E Class",
-        "1982\u20131984 Chrysler LeBaron",
-        "1983 Chrysler New Yorker",
-        "1982\u20131984 Chrysler Town & Country",
-        "1982\u20131983 Dodge 400",
-        "1983\u20131984 Dodge 600",
-        "1981\u20131984 Dodge Aries",
-        "1984\u20131987 Dodge Caravan",
-        "1983\u20131987 Dodge Charger",
-        "1981\u20131984 Dodge Omni",
-        "1982\u20131984 Dodge Rampage",
-        "1985 Plymouth Horizon",
-        "1981\u20131984 Plymouth Reliant",
-        "1983 Plymouth Scamp",
-        "1983\u20131984 Plymouth Turismo",
-        "1984\u20131987 Plymouth Voyager"
-      ],
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "high",
-      "fitment": {
-        "part_numbers": [
-          "33086",
-          "WIX-33086, G247, LG247, VG19"
-        ],
-        "interchange": [
-          "NAPA 3086",
-          "FRAM G3587",
-          "Purolator F20036",
-          "GF247"
-        ],
-        "vehicles": [
-          {
-            "year_from": 1983,
-            "year_to": 1983,
-            "make": "Chrysler",
-            "model": "E Class",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1982,
-            "year_to": 1984,
-            "make": "Chrysler",
-            "model": "LeBaron",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1983,
-            "year_to": 1983,
-            "make": "Chrysler",
-            "model": "New Yorker",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1982,
-            "year_to": 1984,
-            "make": "Chrysler",
-            "model": "Town & Country",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1982,
-            "year_to": 1983,
-            "make": "Dodge",
-            "model": "400",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1983,
-            "year_to": 1984,
-            "make": "Dodge",
-            "model": "600",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1981,
-            "year_to": 1984,
-            "make": "Dodge",
-            "model": "Aries",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1984,
-            "year_to": 1987,
-            "make": "Dodge",
-            "model": "Caravan",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1983,
-            "year_to": 1987,
-            "make": "Dodge",
-            "model": "Charger",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1981,
-            "year_to": 1984,
-            "make": "Dodge",
-            "model": "Omni",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1982,
-            "year_to": 1984,
-            "make": "Dodge",
-            "model": "Rampage",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1985,
-            "year_to": 1985,
-            "make": "Plymouth",
-            "model": "Horizon",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1981,
-            "year_to": 1984,
-            "make": "Plymouth",
-            "model": "Reliant",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1983,
-            "year_to": 1983,
-            "make": "Plymouth",
-            "model": "Scamp",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1983,
-            "year_to": 1984,
-            "make": "Plymouth",
-            "model": "Turismo",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1984,
-            "year_to": 1987,
-            "make": "Plymouth",
-            "model": "Voyager",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          }
-        ],
-        "vehicle_labels": [
-          "1983 Chrysler E Class",
-          "1982\u20131984 Chrysler LeBaron",
-          "1983 Chrysler New Yorker",
-          "1982\u20131984 Chrysler Town & Country",
-          "1982\u20131983 Dodge 400",
-          "1983\u20131984 Dodge 600",
-          "1981\u20131984 Dodge Aries",
-          "1984\u20131987 Dodge Caravan",
-          "1983\u20131987 Dodge Charger",
-          "1981\u20131984 Dodge Omni",
-          "1982\u20131984 Dodge Rampage",
-          "1985 Plymouth Horizon",
-          "1981\u20131984 Plymouth Reliant",
-          "1983 Plymouth Scamp",
-          "1983\u20131984 Plymouth Turismo",
-          "1984\u20131987 Plymouth Voyager"
-        ],
-        "raw_compat_rows": 316,
-        "source": "ebay_listing",
-        "confidence": "high",
-        "ebay_item_id": "398322089863",
-        "type": "Fuel Filter",
-        "brand": "WIX",
-        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Fuel Filters"
-      },
-      "vehicle_count_raw": 316,
-      "ebay_item_id": "398322089863",
-      "ebay_type": "Fuel Filter",
-      "ebay_brand": "WIX",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Fuel Filters",
-      "images": [
-        "../assets/pdp-gallery/JE7HWGNZ7H34CERY5UXS4DG7/02.webp",
-        "../assets/pdp-gallery/JE7HWGNZ7H34CERY5UXS4DG7/03.webp"
-      ],
-      "stock": 1
-    },
-    {
       "id": "T3CZDAH24DV6I3HTFOWM5TDE",
       "name": "WIX 33293 Fuel Filter NOS Fits Ford T-Bird Cougar Escort 89-02 Mercury Tracer",
       "price": 16.98,
@@ -65352,6 +65103,88 @@
       "stock": 1,
       "interchange": [],
       "vehicles": []
+    },
+    {
+      "id": "UDVYSQKCWSWBDAM3AVJGPE7R",
+      "name": "Motormite Speedi-Boot 03611 Outer CV Split Boot Kit 81-83 GLC",
+      "price": 29.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/1175b618459f7912ee1d1312df3ea6a5b88d8426/original.jpeg",
+      "url": "https://square.link/u/FFoGbtYV",
+      "category": "driveline",
+      "checkout": true,
+      "variation_id": "4L3KP4CKJOTIZMAHDAVBMGCA",
+      "images": [
+        "../assets/pdp-gallery/UDVYSQKCWSWBDAM3AVJGPE7R/02.webp",
+        "../assets/pdp-gallery/UDVYSQKCWSWBDAM3AVJGPE7R/03.webp",
+        "../assets/pdp-gallery/UDVYSQKCWSWBDAM3AVJGPE7R/04.webp"
+      ],
+      "stock": 1,
+      "part_numbers": [
+        "03611"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1979\u20131981 Datsun 310",
+        "1976\u20131978 Datsun F10",
+        "1981\u20131983 Mazda GLC"
+      ],
+      "vehicle_count_raw": 44,
+      "ebay_item_id": "920095240961",
+      "ebay_type": "CV Joint Boot Kit",
+      "ebay_brand": "Motormite",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:CV Joints, Boots & Parts",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "03611"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1979,
+            "year_to": 1981,
+            "make": "Datsun",
+            "model": "310",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1976,
+            "year_to": 1978,
+            "make": "Datsun",
+            "model": "F10",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1981,
+            "year_to": 1983,
+            "make": "Mazda",
+            "model": "GLC",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1979\u20131981 Datsun 310",
+          "1976\u20131978 Datsun F10",
+          "1981\u20131983 Mazda GLC"
+        ],
+        "raw_compat_rows": 44,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "920095240961",
+        "type": "CV Joint Boot Kit",
+        "brand": "Motormite",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:CV Joints, Boots & Parts"
+      }
     },
     {
       "id": "NNSPLDEJTBG4K45OJODL2YSQ",
@@ -118728,5 +118561,5 @@
       "vehicles": []
     }
   ],
-  "fitment_built": "2026-11-01T23:03:17Z"
+  "fitment_built": "2026-11-02T01:03:39Z"
 }
