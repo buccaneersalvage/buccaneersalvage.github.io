@@ -1,7 +1,7 @@
 {
-  "updated": "2026-11-02T06:03:44Z",
+  "updated": "2026-11-02T19:45:05Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 875,
+  "count": 874,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -1223,54 +1223,6 @@
       "images": [
         "../assets/pdp-gallery/V5NGDEKHEKPFMAHEISR3EENN/02.webp",
         "../assets/pdp-gallery/V5NGDEKHEKPFMAHEISR3EENN/03.webp"
-      ],
-      "stock": 1,
-      "vehicles": []
-    },
-    {
-      "id": "V5DQLTXHI7AFC6543NI727CI",
-      "name": "Goodyear 1R14-174 Rolling Lobe Air Spring Replaces W01-358-5503 NOS",
-      "price": 150.05,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/9743781f2d239dd6ce1a39e3106ca22d63e24c54/original.jpeg",
-      "url": "https://square.link/u/lxTORdrP",
-      "category": "air-spring",
-      "checkout": true,
-      "variation_id": "AFRUXVN6OFYNMUC3L5H6GPK7",
-      "part_numbers": [
-        "1R14-174"
-      ],
-      "interchange": [
-        "Firestone 5503",
-        "W01-358-5503"
-      ],
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "high",
-      "fitment": {
-        "part_numbers": [
-          "1R14-174"
-        ],
-        "interchange": [
-          "Firestone 5503",
-          "W01-358-5503"
-        ],
-        "vehicles": [],
-        "vehicle_labels": [],
-        "raw_compat_rows": 0,
-        "source": "ebay_listing",
-        "confidence": "high",
-        "ebay_item_id": "398217622258",
-        "type": "Rolling Lobe Air Spring",
-        "brand": "Goodyear",
-        "ebay_category": "eBay Motors:Parts & Accessories:Commercial Truck Parts:Suspension & Steering:Air Ride Suspension"
-      },
-      "vehicle_count_raw": 0,
-      "ebay_item_id": "398217622258",
-      "ebay_type": "Rolling Lobe Air Spring",
-      "ebay_brand": "Goodyear",
-      "ebay_category": "eBay Motors:Parts & Accessories:Commercial Truck Parts:Suspension & Steering:Air Ride Suspension",
-      "images": [
-        "../assets/pdp-gallery/V5DQLTXHI7AFC6543NI727CI/02.webp",
-        "../assets/pdp-gallery/V5DQLTXHI7AFC6543NI727CI/03.webp"
       ],
       "stock": 1,
       "vehicles": []
@@ -96578,7 +96530,7 @@
         "../assets/pdp-gallery/FPMNHUMHBNJO6KDO2ZKKXCOE/03.webp",
         "../assets/pdp-gallery/FPMNHUMHBNJO6KDO2ZKKXCOE/04.webp"
       ],
-      "stock": 2
+      "stock": 1
     },
     {
       "id": "SPWOVY3GC57GR6OYYFEJF6NK",
@@ -104484,15 +104436,6 @@
       "category": "other",
       "checkout": true,
       "variation_id": "PBWVYBD7DSDFJXLVODXYPPBS",
-      "stock": 1,
-      "part_numbers": [],
-      "interchange": [],
-      "vehicles": [],
-      "vehicle_count_raw": 0,
-      "ebay_item_id": "920095726733",
-      "ebay_type": "Sprayer Tank Cap",
-      "ebay_brand": "Unbranded",
-      "ebay_category": "Home & Garden:Yard, Garden & Outdoor Living:Plant Care, Soil & Accessories:Garden Sprayers",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "medium",
       "fitment": {
@@ -104508,11 +104451,20 @@
         "brand": "Unbranded",
         "ebay_category": "Home & Garden:Yard, Garden & Outdoor Living:Plant Care, Soil & Accessories:Garden Sprayers"
       },
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "920095726733",
+      "ebay_type": "Sprayer Tank Cap",
+      "ebay_brand": "Unbranded",
+      "ebay_category": "Home & Garden:Yard, Garden & Outdoor Living:Plant Care, Soil & Accessories:Garden Sprayers",
       "images": [
         "../assets/pdp-gallery/L4ESGC6QHQLASMENH2GEJUKG/02.webp",
         "../assets/pdp-gallery/L4ESGC6QHQLASMENH2GEJUKG/03.webp",
         "../assets/pdp-gallery/L4ESGC6QHQLASMENH2GEJUKG/04.webp"
-      ]
+      ],
+      "stock": 1,
+      "part_numbers": [],
+      "interchange": [],
+      "vehicles": []
     },
     {
       "id": "BMFD7RE2ZTNTXVQC6NLRTY6L",
@@ -119019,5 +118971,5 @@
       "vehicles": []
     }
   ],
-  "fitment_built": "2026-11-02T06:03:44Z"
+  "fitment_built": "2026-11-02T19:45:05Z"
 }
