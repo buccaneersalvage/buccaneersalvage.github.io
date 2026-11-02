@@ -1,7 +1,7 @@
 {
-  "updated": "2026-11-02T02:03:27Z",
+  "updated": "2026-11-02T03:03:34Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 871,
+  "count": 874,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -65113,26 +65113,14 @@
       "category": "driveline",
       "checkout": true,
       "variation_id": "4L3KP4CKJOTIZMAHDAVBMGCA",
-      "images": [
-        "../assets/pdp-gallery/UDVYSQKCWSWBDAM3AVJGPE7R/02.webp",
-        "../assets/pdp-gallery/UDVYSQKCWSWBDAM3AVJGPE7R/03.webp",
-        "../assets/pdp-gallery/UDVYSQKCWSWBDAM3AVJGPE7R/04.webp"
-      ],
-      "stock": 1,
       "part_numbers": [
         "03611"
       ],
-      "interchange": [],
       "vehicles": [
         "1979\u20131981 Datsun 310",
         "1976\u20131978 Datsun F10",
         "1981\u20131983 Mazda GLC"
       ],
-      "vehicle_count_raw": 44,
-      "ebay_item_id": "920095240961",
-      "ebay_type": "CV Joint Boot Kit",
-      "ebay_brand": "Motormite",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:CV Joints, Boots & Parts",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -65184,7 +65172,19 @@
         "type": "CV Joint Boot Kit",
         "brand": "Motormite",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:CV Joints, Boots & Parts"
-      }
+      },
+      "vehicle_count_raw": 44,
+      "ebay_item_id": "920095240961",
+      "ebay_type": "CV Joint Boot Kit",
+      "ebay_brand": "Motormite",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:CV Joints, Boots & Parts",
+      "images": [
+        "../assets/pdp-gallery/UDVYSQKCWSWBDAM3AVJGPE7R/02.webp",
+        "../assets/pdp-gallery/UDVYSQKCWSWBDAM3AVJGPE7R/03.webp",
+        "../assets/pdp-gallery/UDVYSQKCWSWBDAM3AVJGPE7R/04.webp"
+      ],
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "NNSPLDEJTBG4K45OJODL2YSQ",
@@ -95431,6 +95431,48 @@
       "vehicles": []
     },
     {
+      "id": "VCUJULB5UQJFAXOT3ENGIFJK",
+      "name": "Milwaukee FUEL Hatchet Pruning Saw For Parts No Battery",
+      "price": 49.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/c22d98ba1dca6321e8b9bce235936593ca6cc938/original.jpeg",
+      "url": "https://square.link/u/9pZdQqNi",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "OQFAPFFFPUYFQL32TX3FCYUR",
+      "images": [
+        "../assets/pdp-gallery/VCUJULB5UQJFAXOT3ENGIFJK/02.webp",
+        "../assets/pdp-gallery/VCUJULB5UQJFAXOT3ENGIFJK/03.webp",
+        "../assets/pdp-gallery/VCUJULB5UQJFAXOT3ENGIFJK/04.webp",
+        "../assets/pdp-gallery/VCUJULB5UQJFAXOT3ENGIFJK/05.webp",
+        "../assets/pdp-gallery/VCUJULB5UQJFAXOT3ENGIFJK/06.webp",
+        "../assets/pdp-gallery/VCUJULB5UQJFAXOT3ENGIFJK/07.webp"
+      ],
+      "stock": 1,
+      "part_numbers": [],
+      "interchange": [],
+      "vehicles": [],
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "920095491603",
+      "ebay_type": "Mini Chainsaw",
+      "ebay_brand": "Milwaukee",
+      "ebay_category": "Home & Garden:Yard, Garden & Outdoor Living:Outdoor Power Equipment:Chainsaws",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "medium",
+      "fitment": {
+        "part_numbers": [],
+        "interchange": [],
+        "vehicles": [],
+        "vehicle_labels": [],
+        "raw_compat_rows": 0,
+        "source": "ebay_listing",
+        "confidence": "medium",
+        "ebay_item_id": "920095491603",
+        "type": "Mini Chainsaw",
+        "brand": "Milwaukee",
+        "ebay_category": "Home & Garden:Yard, Garden & Outdoor Living:Outdoor Power Equipment:Chainsaws"
+      }
+    },
+    {
       "id": "WSUV62NXQH4HGFQRO5STTT62",
       "name": "Monroe 901951 Strut-Mate Rear Strut Mount Kit Cavalier Ciera Skylark Grand Am",
       "price": 24.99,
@@ -103612,6 +103654,190 @@
         "../assets/pdp-gallery/6WB2W5ADZNAOYYOGVM4K6GG4/05.webp"
       ],
       "stock": 1
+    },
+    {
+      "id": "6V637VQJB5BIJOOENWTBSYFR",
+      "name": "Sealed Power 270-2378 Transmission Mount Skylark LeSabre Electra 66-72",
+      "price": 19.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/e37972d64d04a3afda9636de05be65d19af0de0f/original.jpeg",
+      "url": "https://square.link/u/BgSUJ62F",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "VTJOA7TSQZWOB3XJEG4Q7QD5",
+      "stock": 1,
+      "part_numbers": [
+        "270-2378",
+        "Anchor 2378",
+        "Westar EM-2378",
+        "Hayden 31-2224",
+        "Carquest 31-2224",
+        "NAPA 620-1024",
+        "Pioneer 622378",
+        "DEA A2378",
+        "Eagle BHP 1704",
+        "Eagle BHP 1813"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1973\u20131974 Buick Apollo",
+        "1967\u20131972 Buick Electra",
+        "1970\u20131972 Buick Estate Wagon",
+        "1968\u20131969 Buick GS 400",
+        "1966\u20131974 Buick LeSabre",
+        "1970\u20131972 Buick Riviera",
+        "1966\u20131972 Buick Skylark",
+        "1968\u20131969 Buick Special",
+        "1966\u20131967 Buick Sportwagon",
+        "1967\u20131969 Buick Wildcat"
+      ],
+      "vehicle_count_raw": 495,
+      "ebay_item_id": "920095544225",
+      "ebay_type": "Transmission Mount",
+      "ebay_brand": "Sealed Power",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:Transmission & Drivetrain Mounts",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "270-2378",
+          "Anchor 2378",
+          "Westar EM-2378",
+          "Hayden 31-2224",
+          "Carquest 31-2224",
+          "NAPA 620-1024",
+          "Pioneer 622378",
+          "DEA A2378",
+          "Eagle BHP 1704",
+          "Eagle BHP 1813"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1973,
+            "year_to": 1974,
+            "make": "Buick",
+            "model": "Apollo",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1967,
+            "year_to": 1972,
+            "make": "Buick",
+            "model": "Electra",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1970,
+            "year_to": 1972,
+            "make": "Buick",
+            "model": "Estate Wagon",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1968,
+            "year_to": 1969,
+            "make": "Buick",
+            "model": "GS 400",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1966,
+            "year_to": 1974,
+            "make": "Buick",
+            "model": "LeSabre",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1970,
+            "year_to": 1972,
+            "make": "Buick",
+            "model": "Riviera",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1966,
+            "year_to": 1972,
+            "make": "Buick",
+            "model": "Skylark",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1968,
+            "year_to": 1969,
+            "make": "Buick",
+            "model": "Special",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1966,
+            "year_to": 1967,
+            "make": "Buick",
+            "model": "Sportwagon",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1967,
+            "year_to": 1969,
+            "make": "Buick",
+            "model": "Wildcat",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1973\u20131974 Buick Apollo",
+          "1967\u20131972 Buick Electra",
+          "1970\u20131972 Buick Estate Wagon",
+          "1968\u20131969 Buick GS 400",
+          "1966\u20131974 Buick LeSabre",
+          "1970\u20131972 Buick Riviera",
+          "1966\u20131972 Buick Skylark",
+          "1968\u20131969 Buick Special",
+          "1966\u20131967 Buick Sportwagon",
+          "1967\u20131969 Buick Wildcat"
+        ],
+        "raw_compat_rows": 495,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "920095544225",
+        "type": "Transmission Mount",
+        "brand": "Sealed Power",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:Transmission & Drivetrain Mounts"
+      },
+      "images": [
+        "../assets/pdp-gallery/6V637VQJB5BIJOOENWTBSYFR/02.webp",
+        "../assets/pdp-gallery/6V637VQJB5BIJOOENWTBSYFR/03.webp",
+        "../assets/pdp-gallery/6V637VQJB5BIJOOENWTBSYFR/04.webp"
+      ]
     },
     {
       "id": "O6JHBMNMFRGN5X3WLTBEJYCN",
@@ -114678,6 +114904,199 @@
       "stock": 1
     },
     {
+      "id": "H6NYCA6VR4GPPRSWW2HD6MDI",
+      "name": "TRW 4A-93F Master Overhaul Gasket Seal Kit Ford Mercury C4 1970-1971",
+      "price": 79.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/e9aec4a59997c427d336a879237916272498cad6/original.jpeg",
+      "url": "https://square.link/u/oDykFgeU",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "5VUPQ33AVTLKX55WSIBSAXDL",
+      "stock": 1,
+      "part_numbers": [
+        "4A-93F"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1970\u20131971 Ford Bronco",
+        "1970\u20131971 Ford F-100",
+        "1970\u20131971 Ford F-250",
+        "1970\u20131971 Ford F-350",
+        "1970\u20131971 Ford Maverick",
+        "1970\u20131971 Ford Mustang",
+        "1970\u20131971 Ford Ranchero",
+        "1970\u20131971 Ford Torino",
+        "1970\u20131971 Mercury C4",
+        "1971 Mercury Comet",
+        "1970\u20131971 Mercury Cougar",
+        "1970\u20131971 Mercury Montego"
+      ],
+      "vehicle_count_raw": 399,
+      "ebay_item_id": "920095544430",
+      "ebay_type": "Master Overhaul Kit",
+      "ebay_brand": "TRW",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:Automatic Transmission Parts",
+      "fitment_source": "ebay_listing+title",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "4A-93F"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1970,
+            "year_to": 1971,
+            "make": "Ford",
+            "model": "Bronco",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1970,
+            "year_to": 1971,
+            "make": "Ford",
+            "model": "F-100",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1970,
+            "year_to": 1971,
+            "make": "Ford",
+            "model": "F-250",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1970,
+            "year_to": 1971,
+            "make": "Ford",
+            "model": "F-350",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1970,
+            "year_to": 1971,
+            "make": "Ford",
+            "model": "Maverick",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1970,
+            "year_to": 1971,
+            "make": "Ford",
+            "model": "Mustang",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1970,
+            "year_to": 1971,
+            "make": "Ford",
+            "model": "Ranchero",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1970,
+            "year_to": 1971,
+            "make": "Ford",
+            "model": "Torino",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1970,
+            "year_to": 1971,
+            "make": "Mercury",
+            "model": "C4",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1971,
+            "year_to": 1971,
+            "make": "Mercury",
+            "model": "Comet",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1970,
+            "year_to": 1971,
+            "make": "Mercury",
+            "model": "Cougar",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1970,
+            "year_to": 1971,
+            "make": "Mercury",
+            "model": "Montego",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1970\u20131971 Ford Bronco",
+          "1970\u20131971 Ford F-100",
+          "1970\u20131971 Ford F-250",
+          "1970\u20131971 Ford F-350",
+          "1970\u20131971 Ford Maverick",
+          "1970\u20131971 Ford Mustang",
+          "1970\u20131971 Ford Ranchero",
+          "1970\u20131971 Ford Torino",
+          "1970\u20131971 Mercury C4",
+          "1971 Mercury Comet",
+          "1970\u20131971 Mercury Cougar",
+          "1970\u20131971 Mercury Montego"
+        ],
+        "raw_compat_rows": 399,
+        "source": "ebay_listing+title",
+        "confidence": "high",
+        "ebay_item_id": "920095544430",
+        "type": "Master Overhaul Kit",
+        "brand": "TRW",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:Automatic Transmission Parts"
+      },
+      "images": [
+        "../assets/pdp-gallery/H6NYCA6VR4GPPRSWW2HD6MDI/02.webp",
+        "../assets/pdp-gallery/H6NYCA6VR4GPPRSWW2HD6MDI/03.webp",
+        "../assets/pdp-gallery/H6NYCA6VR4GPPRSWW2HD6MDI/04.webp",
+        "../assets/pdp-gallery/H6NYCA6VR4GPPRSWW2HD6MDI/05.webp",
+        "../assets/pdp-gallery/H6NYCA6VR4GPPRSWW2HD6MDI/06.webp",
+        "../assets/pdp-gallery/H6NYCA6VR4GPPRSWW2HD6MDI/07.webp"
+      ]
+    },
+    {
       "id": "2FLP2E6J3TKRSA7K2GNWJ64B",
       "name": "U-Haul 14482 Trailer Wiring Adapter 7-Pin Round to 4-Flat Piggyback NOS",
       "price": 16.99,
@@ -118561,5 +118980,5 @@
       "vehicles": []
     }
   ],
-  "fitment_built": "2026-11-02T02:03:27Z"
+  "fitment_built": "2026-11-02T03:03:34Z"
 }
