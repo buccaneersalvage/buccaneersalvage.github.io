@@ -1,7 +1,7 @@
 {
-  "updated": "2026-11-03T02:04:44Z",
+  "updated": "2026-11-03T19:35:58Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 873,
+  "count": 872,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -90554,186 +90554,6 @@
       "interchange": []
     },
     {
-      "id": "6O2WQZ7MQVSSVPITZP3ECJY2",
-      "name": "Hygrade CPA177 Choke Pull-Off Rochester Quadrajet Dualjet GM 1975-1990 NOS",
-      "price": 24.99,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/cbe257352b18a904c68725fff85d78b64cee61cb/original.jpeg",
-      "url": "https://square.link/u/p2TJoY6N",
-      "category": "other",
-      "checkout": true,
-      "variation_id": "C4B3JIZPANUFOFUACSKNQ2JS",
-      "part_numbers": [
-        "CPA177",
-        "CP121, 1C1063, 7153, AP7153, 24885"
-      ],
-      "interchange": [
-        "17067211",
-        "7044435",
-        "779-143",
-        "VC460",
-        "CP105"
-      ],
-      "vehicles": [
-        "1975\u20131988 Buick Century",
-        "1975\u20131990 Buick LeSabre",
-        "1975\u20131990 Buick Regal",
-        "1975\u20131990 Chevrolet Caprice",
-        "1975\u20131985 Chevrolet Impala",
-        "1975\u20131988 Chevrolet Monte Carlo",
-        "1975\u20131987 Oldsmobile Cutlass",
-        "1975\u20131990 Oldsmobile Delta 88",
-        "1977\u20131990 Pontiac Bonneville",
-        "1976\u20131987 Pontiac Grand Prix"
-      ],
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "high",
-      "fitment": {
-        "part_numbers": [
-          "CPA177",
-          "CP121, 1C1063, 7153, AP7153, 24885"
-        ],
-        "interchange": [
-          "17067211",
-          "7044435",
-          "779-143",
-          "VC460",
-          "CP105"
-        ],
-        "vehicles": [
-          {
-            "year_from": 1975,
-            "year_to": 1988,
-            "make": "Buick",
-            "model": "Century",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1975,
-            "year_to": 1990,
-            "make": "Buick",
-            "model": "LeSabre",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1975,
-            "year_to": 1990,
-            "make": "Buick",
-            "model": "Regal",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1975,
-            "year_to": 1990,
-            "make": "Chevrolet",
-            "model": "Caprice",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1975,
-            "year_to": 1985,
-            "make": "Chevrolet",
-            "model": "Impala",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1975,
-            "year_to": 1988,
-            "make": "Chevrolet",
-            "model": "Monte Carlo",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1975,
-            "year_to": 1987,
-            "make": "Oldsmobile",
-            "model": "Cutlass",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1975,
-            "year_to": 1990,
-            "make": "Oldsmobile",
-            "model": "Delta 88",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1977,
-            "year_to": 1990,
-            "make": "Pontiac",
-            "model": "Bonneville",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1976,
-            "year_to": 1987,
-            "make": "Pontiac",
-            "model": "Grand Prix",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          }
-        ],
-        "vehicle_labels": [
-          "1975\u20131988 Buick Century",
-          "1975\u20131990 Buick LeSabre",
-          "1975\u20131990 Buick Regal",
-          "1975\u20131990 Chevrolet Caprice",
-          "1975\u20131985 Chevrolet Impala",
-          "1975\u20131988 Chevrolet Monte Carlo",
-          "1975\u20131987 Oldsmobile Cutlass",
-          "1975\u20131990 Oldsmobile Delta 88",
-          "1977\u20131990 Pontiac Bonneville",
-          "1976\u20131987 Pontiac Grand Prix"
-        ],
-        "raw_compat_rows": 1352,
-        "source": "ebay_listing",
-        "confidence": "high",
-        "ebay_item_id": "398328788004",
-        "type": "Choke Pull-Off",
-        "brand": "Hygrade",
-        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Carburetor Parts"
-      },
-      "vehicle_count_raw": 1352,
-      "ebay_item_id": "398328788004",
-      "ebay_type": "Choke Pull-Off",
-      "ebay_brand": "Hygrade",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Carburetor Parts",
-      "images": [
-        "../assets/pdp-gallery/6O2WQZ7MQVSSVPITZP3ECJY2/02.webp",
-        "../assets/pdp-gallery/6O2WQZ7MQVSSVPITZP3ECJY2/03.webp",
-        "../assets/pdp-gallery/6O2WQZ7MQVSSVPITZP3ECJY2/04.webp"
-      ],
-      "stock": 1
-    },
-    {
       "id": "ZQQQRZMKIIFWIOENNJJHMZ3Z",
       "name": "Hygrade CPA236 Choke Pull-Off 1975-84 GM Quadrajet NOS",
       "price": 19.99,
@@ -118896,5 +118716,5 @@
       "vehicles": []
     }
   ],
-  "fitment_built": "2026-11-03T02:04:44Z"
+  "fitment_built": "2026-11-03T19:35:58Z"
 }
