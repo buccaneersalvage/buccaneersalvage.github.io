@@ -1,7 +1,7 @@
 {
-  "updated": "2026-11-02T20:04:09Z",
+  "updated": "2026-11-03T01:03:33Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 874,
+  "count": 873,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -47172,81 +47172,6 @@
       "images": [
         "../assets/pdp-gallery/JTJFVAEKFBFL4WGPHP43R27Z/02.webp",
         "../assets/pdp-gallery/JTJFVAEKFBFL4WGPHP43R27Z/03.webp"
-      ],
-      "stock": 1
-    },
-    {
-      "id": "BR6DVIZHQSYTAUBRYELDSTEX",
-      "name": "WIX 57202XP XP Oil Filter Duramax 6.6 01-16 Silverado Sierra Open Box",
-      "price": 15.99,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/24854f2ee8a7c6e04c996c234c70a14d75809ea1/original.jpeg",
-      "url": "https://square.link/u/4VYT0LMp",
-      "category": "filters",
-      "checkout": true,
-      "variation_id": "5PFNLI54L2FDIIG7G5VQ3GNP",
-      "part_numbers": [
-        "57202XP",
-        "57202"
-      ],
-      "interchange": [
-        "57202 57202XP"
-      ],
-      "vehicles": [
-        "2001\u20132016 Chevrolet Silverado 2500 HD",
-        "2001\u20132016 GMC Sierra 2500 HD"
-      ],
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "high",
-      "fitment": {
-        "part_numbers": [
-          "57202XP",
-          "57202"
-        ],
-        "interchange": [
-          "57202 57202XP"
-        ],
-        "vehicles": [
-          {
-            "year_from": 2001,
-            "year_to": 2016,
-            "make": "Chevrolet",
-            "model": "Silverado 2500 HD",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 2001,
-            "year_to": 2016,
-            "make": "GMC",
-            "model": "Sierra 2500 HD",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          }
-        ],
-        "vehicle_labels": [
-          "2001\u20132016 Chevrolet Silverado 2500 HD",
-          "2001\u20132016 GMC Sierra 2500 HD"
-        ],
-        "raw_compat_rows": 277,
-        "source": "ebay_listing",
-        "confidence": "high",
-        "ebay_item_id": "398411884048",
-        "type": "Oil Filter",
-        "brand": "WIX",
-        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Filters"
-      },
-      "vehicle_count_raw": 277,
-      "ebay_item_id": "398411884048",
-      "ebay_type": "Oil Filter",
-      "ebay_brand": "WIX",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Filters",
-      "images": [
-        "../assets/pdp-gallery/BR6DVIZHQSYTAUBRYELDSTEX/02.webp",
-        "../assets/pdp-gallery/BR6DVIZHQSYTAUBRYELDSTEX/03.webp"
       ],
       "stock": 1
     },
@@ -118971,5 +118896,5 @@
       "vehicles": []
     }
   ],
-  "fitment_built": "2026-11-02T20:04:09Z"
+  "fitment_built": "2026-11-03T01:03:33Z"
 }
