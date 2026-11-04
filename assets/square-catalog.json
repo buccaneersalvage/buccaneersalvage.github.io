@@ -1,7 +1,7 @@
 {
-  "updated": "2026-11-04T04:03:21Z",
+  "updated": "2026-11-04T13:04:17Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 874,
+  "count": 873,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -60586,119 +60586,6 @@
       "interchange": []
     },
     {
-      "id": "ACG7ZXMDW3S7EUERPKAYAPMY",
-      "name": "Standard VC211 Vacuum Advance 75-81 C10 NOS",
-      "price": 22.95,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/afb16f1254b905853eb98858dbbfdd7da7ba37e0/original.jpeg",
-      "url": "https://square.link/u/I1wWH3On",
-      "category": "ignition",
-      "checkout": true,
-      "variation_id": "QFOI4KMHCRP2FX4NBCV67GZT",
-      "part_numbers": [
-        "VC211"
-      ],
-      "interchange": [
-        "GM 19138060",
-        "1973517",
-        "1973621"
-      ],
-      "vehicles": [
-        "1977\u20131978 Buick Century",
-        "1977\u20131979 Buick Skylark",
-        "1975\u20131981 Chevrolet C10",
-        "1975\u20131981 Chevrolet C20",
-        "1975\u20131978 GMC C15"
-      ],
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "high",
-      "fitment": {
-        "part_numbers": [
-          "VC211"
-        ],
-        "interchange": [
-          "GM 19138060",
-          "1973517",
-          "1973621"
-        ],
-        "vehicles": [
-          {
-            "year_from": 1977,
-            "year_to": 1978,
-            "make": "Buick",
-            "model": "Century",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1977,
-            "year_to": 1979,
-            "make": "Buick",
-            "model": "Skylark",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1975,
-            "year_to": 1981,
-            "make": "Chevrolet",
-            "model": "C10",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1975,
-            "year_to": 1981,
-            "make": "Chevrolet",
-            "model": "C20",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1975,
-            "year_to": 1978,
-            "make": "GMC",
-            "model": "C15",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          }
-        ],
-        "vehicle_labels": [
-          "1977\u20131978 Buick Century",
-          "1977\u20131979 Buick Skylark",
-          "1975\u20131981 Chevrolet C10",
-          "1975\u20131981 Chevrolet C20",
-          "1975\u20131978 GMC C15"
-        ],
-        "raw_compat_rows": 1242,
-        "source": "ebay_listing",
-        "confidence": "high",
-        "ebay_item_id": "398357240636",
-        "type": "Distributor Vacuum Advance",
-        "brand": "Standard",
-        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Other Ignition Systems & Components"
-      },
-      "vehicle_count_raw": 1242,
-      "ebay_item_id": "398357240636",
-      "ebay_type": "Distributor Vacuum Advance",
-      "ebay_brand": "Standard",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Other Ignition Systems & Components",
-      "images": [
-        "../assets/pdp-gallery/ACG7ZXMDW3S7EUERPKAYAPMY/02.webp",
-        "../assets/pdp-gallery/ACG7ZXMDW3S7EUERPKAYAPMY/03.webp"
-      ],
-      "stock": 1
-    },
-    {
       "id": "YI7TDRMI6U7DHCK6NN4DFEP5",
       "name": "Wells 780411 Spark Plug Wire Set 7MM 3 Cyl Sprint Firefly NOS",
       "price": 40.99,
@@ -114301,17 +114188,9 @@
       "category": "other",
       "checkout": true,
       "variation_id": "OSOSX4I2GGROBGUGBZ2ABZST",
-      "stock": 1,
-      "part_numbers": [],
-      "interchange": [],
       "vehicles": [
         "1999\u20132007 GMC Sierra 1500"
       ],
-      "vehicle_count_raw": 231,
-      "ebay_item_id": "920102640690",
-      "ebay_type": "Throttle Body",
-      "ebay_brand": "GM",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Throttle Bodies",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -114340,6 +114219,11 @@
         "brand": "GM",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Throttle Bodies"
       },
+      "vehicle_count_raw": 231,
+      "ebay_item_id": "920102640690",
+      "ebay_type": "Throttle Body",
+      "ebay_brand": "GM",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Throttle Bodies",
       "images": [
         "../assets/pdp-gallery/EMMDHX45KYKKTFMKPGRTGU5U/02.webp",
         "../assets/pdp-gallery/EMMDHX45KYKKTFMKPGRTGU5U/03.webp",
@@ -114347,7 +114231,10 @@
         "../assets/pdp-gallery/EMMDHX45KYKKTFMKPGRTGU5U/05.webp",
         "../assets/pdp-gallery/EMMDHX45KYKKTFMKPGRTGU5U/06.webp",
         "../assets/pdp-gallery/EMMDHX45KYKKTFMKPGRTGU5U/07.webp"
-      ]
+      ],
+      "stock": 1,
+      "part_numbers": [],
+      "interchange": []
     },
     {
       "id": "XT6A4QMLJ3MG5ZR67GVCYL5I",
@@ -114434,17 +114321,9 @@
       "category": "other",
       "checkout": true,
       "variation_id": "5CDF3QFH7BD625EE5OQW4546",
-      "stock": 1,
       "part_numbers": [
         "4751"
       ],
-      "interchange": [],
-      "vehicles": [],
-      "vehicle_count_raw": 0,
-      "ebay_item_id": "920102576034",
-      "ebay_type": "Overhaul Kit",
-      "ebay_brand": "TransTec",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:Transmission Gaskets & Seals",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "medium",
       "fitment": {
@@ -114462,11 +114341,19 @@
         "brand": "TransTec",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:Transmission Gaskets & Seals"
       },
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "920102576034",
+      "ebay_type": "Overhaul Kit",
+      "ebay_brand": "TransTec",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:Transmission Gaskets & Seals",
       "images": [
         "../assets/pdp-gallery/MT2PRSB4TK5VOOW4UA3U7S4L/02.webp",
         "../assets/pdp-gallery/MT2PRSB4TK5VOOW4UA3U7S4L/03.webp",
         "../assets/pdp-gallery/MT2PRSB4TK5VOOW4UA3U7S4L/04.webp"
-      ]
+      ],
+      "stock": 1,
+      "interchange": [],
+      "vehicles": []
     },
     {
       "id": "BP3WAE6OTPH4X5HN7URTIPKZ",
@@ -118816,5 +118703,5 @@
       "vehicles": []
     }
   ],
-  "fitment_built": "2026-11-04T04:03:21Z"
+  "fitment_built": "2026-11-04T13:04:17Z"
 }
