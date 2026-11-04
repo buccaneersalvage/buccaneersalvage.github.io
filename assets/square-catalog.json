@@ -1,7 +1,7 @@
 {
-  "updated": "2026-11-03T20:03:41Z",
+  "updated": "2026-11-04T03:03:52Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 872,
+  "count": 874,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -114293,6 +114293,63 @@
       "vehicles": []
     },
     {
+      "id": "EMMDHX45KYKKTFMKPGRTGU5U",
+      "name": "Tested GMC 5.3 LS Throttle Body Drive By Cable 4.8 6.0 Sierra 1500 99-07 Used",
+      "price": 79.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/9b55fb17dc6826e3a38e6e0150d8a40f3eed52ad/original.jpeg",
+      "url": "https://square.link/u/f27SNXWR",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "OSOSX4I2GGROBGUGBZ2ABZST",
+      "stock": 1,
+      "part_numbers": [],
+      "interchange": [],
+      "vehicles": [
+        "1999\u20132007 GMC Sierra 1500"
+      ],
+      "vehicle_count_raw": 231,
+      "ebay_item_id": "920102640690",
+      "ebay_type": "Throttle Body",
+      "ebay_brand": "GM",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Throttle Bodies",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1999,
+            "year_to": 2007,
+            "make": "GMC",
+            "model": "Sierra 1500",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1999\u20132007 GMC Sierra 1500"
+        ],
+        "raw_compat_rows": 231,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "920102640690",
+        "type": "Throttle Body",
+        "brand": "GM",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Throttle Bodies"
+      },
+      "images": [
+        "../assets/pdp-gallery/EMMDHX45KYKKTFMKPGRTGU5U/02.webp",
+        "../assets/pdp-gallery/EMMDHX45KYKKTFMKPGRTGU5U/03.webp",
+        "../assets/pdp-gallery/EMMDHX45KYKKTFMKPGRTGU5U/04.webp",
+        "../assets/pdp-gallery/EMMDHX45KYKKTFMKPGRTGU5U/05.webp",
+        "../assets/pdp-gallery/EMMDHX45KYKKTFMKPGRTGU5U/06.webp",
+        "../assets/pdp-gallery/EMMDHX45KYKKTFMKPGRTGU5U/07.webp"
+      ]
+    },
+    {
       "id": "XT6A4QMLJ3MG5ZR67GVCYL5I",
       "name": "TopLine IV VW-21 Intake Valve Set Jetta Rabbit Beetle 2.5L 06-08",
       "price": 44.99,
@@ -114367,6 +114424,49 @@
         "../assets/pdp-gallery/XT6A4QMLJ3MG5ZR67GVCYL5I/04.webp"
       ],
       "stock": 1
+    },
+    {
+      "id": "MT2PRSB4TK5VOOW4UA3U7S4L",
+      "name": "TransTec 4751 NP203 Transfer Case Overhaul Kit 1974-1980",
+      "price": 44.95,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/4f765587f771fa8d1c31629a3561b6ef0e243b9d/original.jpeg",
+      "url": "https://square.link/u/ClehImQU",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "5CDF3QFH7BD625EE5OQW4546",
+      "stock": 1,
+      "part_numbers": [
+        "4751"
+      ],
+      "interchange": [],
+      "vehicles": [],
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "920102576034",
+      "ebay_type": "Overhaul Kit",
+      "ebay_brand": "TransTec",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:Transmission Gaskets & Seals",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "medium",
+      "fitment": {
+        "part_numbers": [
+          "4751"
+        ],
+        "interchange": [],
+        "vehicles": [],
+        "vehicle_labels": [],
+        "raw_compat_rows": 0,
+        "source": "ebay_listing",
+        "confidence": "medium",
+        "ebay_item_id": "920102576034",
+        "type": "Overhaul Kit",
+        "brand": "TransTec",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:Transmission Gaskets & Seals"
+      },
+      "images": [
+        "../assets/pdp-gallery/MT2PRSB4TK5VOOW4UA3U7S4L/02.webp",
+        "../assets/pdp-gallery/MT2PRSB4TK5VOOW4UA3U7S4L/03.webp",
+        "../assets/pdp-gallery/MT2PRSB4TK5VOOW4UA3U7S4L/04.webp"
+      ]
     },
     {
       "id": "BP3WAE6OTPH4X5HN7URTIPKZ",
@@ -118716,5 +118816,5 @@
       "vehicles": []
     }
   ],
-  "fitment_built": "2026-11-03T20:03:41Z"
+  "fitment_built": "2026-11-04T03:03:52Z"
 }
