@@ -1,7 +1,7 @@
 {
-  "updated": "2026-11-05T18:03:24Z",
+  "updated": "2026-11-05T20:03:21Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 872,
+  "count": 871,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -47102,7 +47102,7 @@
     },
     {
       "id": "JTJFVAEKFBFL4WGPHP43R27Z",
-      "name": "WIX 51896 Transmission Filter Kit GM 200-4R LeSabre 81-90 Electra 81-89",
+      "name": "WIX 51896 Transmission Filter NOS 03-17 Accord 2.0 2.4 3.5",
       "price": 14.99,
       "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/4ea40875536e7e0feab3e47784b774a0cbd20844/original.jpeg",
       "url": "https://square.link/u/mFDwa7My",
@@ -47124,9 +47124,10 @@
         "1981\u20131989 Buick Electra",
         "1981\u20131983 Buick Estate Wagon",
         "1981\u20131990 Buick LeSabre",
-        "1981\u20131982 Buick Regal"
+        "1981\u20131982 Buick Regal",
+        "2003\u20132017 Honda Accord"
       ],
-      "fitment_source": "ebay_listing",
+      "fitment_source": "ebay_listing+title",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
@@ -47189,6 +47190,16 @@
             "source": "ebay_compat",
             "confidence": "high",
             "trim_count": null
+          },
+          {
+            "year_from": 2003,
+            "year_to": 2017,
+            "make": "Honda",
+            "model": "Accord",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
           }
         ],
         "vehicle_labels": [
@@ -47196,10 +47207,11 @@
           "1981\u20131989 Buick Electra",
           "1981\u20131983 Buick Estate Wagon",
           "1981\u20131990 Buick LeSabre",
-          "1981\u20131982 Buick Regal"
+          "1981\u20131982 Buick Regal",
+          "2003\u20132017 Honda Accord"
         ],
         "raw_compat_rows": 120,
-        "source": "ebay_listing",
+        "source": "ebay_listing+title",
         "confidence": "high",
         "ebay_item_id": "398321569359",
         "type": "Transmission Filter",
@@ -95055,48 +95067,6 @@
       "vehicles": []
     },
     {
-      "id": "VCUJULB5UQJFAXOT3ENGIFJK",
-      "name": "Milwaukee FUEL Hatchet Pruning Saw For Parts No Battery",
-      "price": 49.99,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/c22d98ba1dca6321e8b9bce235936593ca6cc938/original.jpeg",
-      "url": "https://square.link/u/9pZdQqNi",
-      "category": "other",
-      "checkout": true,
-      "variation_id": "OQFAPFFFPUYFQL32TX3FCYUR",
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "medium",
-      "fitment": {
-        "part_numbers": [],
-        "interchange": [],
-        "vehicles": [],
-        "vehicle_labels": [],
-        "raw_compat_rows": 0,
-        "source": "ebay_listing",
-        "confidence": "medium",
-        "ebay_item_id": "920095491603",
-        "type": "Mini Chainsaw",
-        "brand": "Milwaukee",
-        "ebay_category": "Home & Garden:Yard, Garden & Outdoor Living:Outdoor Power Equipment:Chainsaws"
-      },
-      "vehicle_count_raw": 0,
-      "ebay_item_id": "920095491603",
-      "ebay_type": "Mini Chainsaw",
-      "ebay_brand": "Milwaukee",
-      "ebay_category": "Home & Garden:Yard, Garden & Outdoor Living:Outdoor Power Equipment:Chainsaws",
-      "images": [
-        "../assets/pdp-gallery/VCUJULB5UQJFAXOT3ENGIFJK/02.webp",
-        "../assets/pdp-gallery/VCUJULB5UQJFAXOT3ENGIFJK/03.webp",
-        "../assets/pdp-gallery/VCUJULB5UQJFAXOT3ENGIFJK/04.webp",
-        "../assets/pdp-gallery/VCUJULB5UQJFAXOT3ENGIFJK/05.webp",
-        "../assets/pdp-gallery/VCUJULB5UQJFAXOT3ENGIFJK/06.webp",
-        "../assets/pdp-gallery/VCUJULB5UQJFAXOT3ENGIFJK/07.webp"
-      ],
-      "stock": 1,
-      "part_numbers": [],
-      "interchange": [],
-      "vehicles": []
-    },
-    {
       "id": "WSUV62NXQH4HGFQRO5STTT62",
       "name": "Monroe 901951 Strut-Mate Rear Strut Mount Kit Cavalier Ciera Skylark Grand Am",
       "price": 24.99,
@@ -118704,5 +118674,5 @@
       "vehicles": []
     }
   ],
-  "fitment_built": "2026-11-05T18:03:24Z"
+  "fitment_built": "2026-11-05T20:03:21Z"
 }
