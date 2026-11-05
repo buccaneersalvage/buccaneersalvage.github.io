@@ -1,7 +1,7 @@
 {
-  "updated": "2026-11-05T21:03:26Z",
+  "updated": "2026-11-05T22:03:22Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 871,
+  "count": 870,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -76991,121 +76991,6 @@
       "interchange": []
     },
     {
-      "id": "JSUCF24K4IOGXUO37VWJ7JGM",
-      "name": "FRAM FV100 PCV Valve 4.6 5.3 NOS 61-66 Impala",
-      "price": 9.99,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/0185f1396068f4195c1bec446affa94df0a9191f/original.jpeg",
-      "url": "https://square.link/u/HwwuxPTY",
-      "category": "other",
-      "checkout": true,
-      "variation_id": "2CZ5DESS6OCTMBYPSBREKXVC",
-      "part_numbers": [
-        "FV100",
-        "6421934, C1TZ-6A666-A"
-      ],
-      "interchange": [
-        "CV580C",
-        "PCV255",
-        "FV-100"
-      ],
-      "vehicles": [
-        "1961\u20131966 Chevrolet Bel Air",
-        "1964\u20131966 Chevrolet Chevelle",
-        "1962\u20131965 Chevrolet Corvette",
-        "1964\u20131966 Chevrolet El Camino",
-        "1961\u20131966 Chevrolet Impala"
-      ],
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "high",
-      "fitment": {
-        "part_numbers": [
-          "FV100",
-          "6421934, C1TZ-6A666-A"
-        ],
-        "interchange": [
-          "CV580C",
-          "PCV255",
-          "FV-100"
-        ],
-        "vehicles": [
-          {
-            "year_from": 1961,
-            "year_to": 1966,
-            "make": "Chevrolet",
-            "model": "Bel Air",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1964,
-            "year_to": 1966,
-            "make": "Chevrolet",
-            "model": "Chevelle",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1962,
-            "year_to": 1965,
-            "make": "Chevrolet",
-            "model": "Corvette",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1964,
-            "year_to": 1966,
-            "make": "Chevrolet",
-            "model": "El Camino",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1961,
-            "year_to": 1966,
-            "make": "Chevrolet",
-            "model": "Impala",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          }
-        ],
-        "vehicle_labels": [
-          "1961\u20131966 Chevrolet Bel Air",
-          "1964\u20131966 Chevrolet Chevelle",
-          "1962\u20131965 Chevrolet Corvette",
-          "1964\u20131966 Chevrolet El Camino",
-          "1961\u20131966 Chevrolet Impala"
-        ],
-        "raw_compat_rows": 171,
-        "source": "ebay_listing",
-        "confidence": "high",
-        "ebay_item_id": "398315198787",
-        "type": "PCV Valve",
-        "brand": "FRAM",
-        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Steering & Suspension:Power Steering Pump Parts"
-      },
-      "vehicle_count_raw": 171,
-      "ebay_item_id": "398315198787",
-      "ebay_type": "PCV Valve",
-      "ebay_brand": "FRAM",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Steering & Suspension:Power Steering Pump Parts",
-      "images": [
-        "../assets/pdp-gallery/JSUCF24K4IOGXUO37VWJ7JGM/02.webp",
-        "../assets/pdp-gallery/JSUCF24K4IOGXUO37VWJ7JGM/03.webp"
-      ],
-      "stock": 1
-    },
-    {
       "id": "W3AZMNW4A6KI2LCHBUHDRIXU",
       "name": "FRAM FV185 PCV Valve 3.0 3.8 NOS 82-88 Century",
       "price": 9.99,
@@ -118674,5 +118559,5 @@
       "vehicles": []
     }
   ],
-  "fitment_built": "2026-11-05T21:03:26Z"
+  "fitment_built": "2026-11-05T22:03:22Z"
 }
