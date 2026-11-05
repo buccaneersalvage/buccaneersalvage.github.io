@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-05T20:03:21Z",
+  "updated": "2026-11-05T21:03:26Z",
   "store": "https://buccaneersalvage.square.site/",
   "count": 871,
   "items": [
@@ -47127,7 +47127,7 @@
         "1981\u20131982 Buick Regal",
         "2003\u20132017 Honda Accord"
       ],
-      "fitment_source": "ebay_listing+title",
+      "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
@@ -47211,7 +47211,7 @@
           "2003\u20132017 Honda Accord"
         ],
         "raw_compat_rows": 120,
-        "source": "ebay_listing+title",
+        "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398321569359",
         "type": "Transmission Filter",
@@ -118674,5 +118674,5 @@
       "vehicles": []
     }
   ],
-  "fitment_built": "2026-11-05T20:03:21Z"
+  "fitment_built": "2026-11-05T21:03:26Z"
 }
