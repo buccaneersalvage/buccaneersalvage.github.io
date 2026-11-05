@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-04T20:33:53Z",
+  "updated": "2026-11-05T17:03:17Z",
   "store": "https://buccaneersalvage.square.site/",
   "count": 872,
   "items": [
@@ -920,10 +920,7 @@
       "ebay_category": "eBay Motors:Parts & Accessories:Commercial Truck Parts:Suspension & Steering:Air Ride Suspension",
       "images": [
         "../assets/pdp-gallery/MJAQDKIB2WT55I26Q552PZXS/02.webp",
-        "../assets/pdp-gallery/MJAQDKIB2WT55I26Q552PZXS/03.webp",
-        "../assets/pdp-gallery/MJAQDKIB2WT55I26Q552PZXS/04.webp",
-        "../assets/pdp-gallery/MJAQDKIB2WT55I26Q552PZXS/05.webp",
-        "../assets/pdp-gallery/MJAQDKIB2WT55I26Q552PZXS/06.webp"
+        "../assets/pdp-gallery/MJAQDKIB2WT55I26Q552PZXS/03.webp"
       ],
       "stock": 1,
       "interchange": [],
@@ -1370,10 +1367,7 @@
       "ebay_category": "eBay Motors:Parts & Accessories:Commercial Truck Parts:Suspension & Steering:Air Ride Suspension",
       "images": [
         "../assets/pdp-gallery/QONRZTGROGA27RO7HMZAFW4C/02.webp",
-        "../assets/pdp-gallery/QONRZTGROGA27RO7HMZAFW4C/03.webp",
-        "../assets/pdp-gallery/QONRZTGROGA27RO7HMZAFW4C/04.webp",
-        "../assets/pdp-gallery/QONRZTGROGA27RO7HMZAFW4C/05.webp",
-        "../assets/pdp-gallery/QONRZTGROGA27RO7HMZAFW4C/06.webp"
+        "../assets/pdp-gallery/QONRZTGROGA27RO7HMZAFW4C/03.webp"
       ],
       "stock": 1,
       "vehicles": []
@@ -47117,31 +47111,86 @@
       "variation_id": "HFLC2V2DOT2KHWXDFE5LNQKE",
       "part_numbers": [
         "51896",
-        "WIX 58896, 044-0382"
+        "WIX 58896"
       ],
       "interchange": [
-        "WIX-51896",
-        "Honda 25430-PLR-003",
-        "Fram FT-1057B",
-        "ATP B64"
+        "ATP B-64",
+        "FRAM FT1057B",
+        "ACDelco TF234",
+        "GM 8634223"
       ],
       "vehicles": [
+        "1981 Buick Century",
+        "1981\u20131989 Buick Electra",
+        "1981\u20131983 Buick Estate Wagon",
+        "1981\u20131990 Buick LeSabre",
+        "1981\u20131982 Buick Regal",
         "2003\u20132017 Honda Accord"
       ],
-      "fitment_source": "ebay_listing",
+      "fitment_source": "ebay_listing+title",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
           "51896",
-          "WIX 58896, 044-0382"
+          "WIX 58896"
         ],
         "interchange": [
-          "WIX-51896",
-          "Honda 25430-PLR-003",
-          "Fram FT-1057B",
-          "ATP B64"
+          "ATP B-64",
+          "FRAM FT1057B",
+          "ACDelco TF234",
+          "GM 8634223"
         ],
         "vehicles": [
+          {
+            "year_from": 1981,
+            "year_to": 1981,
+            "make": "Buick",
+            "model": "Century",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1981,
+            "year_to": 1989,
+            "make": "Buick",
+            "model": "Electra",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1981,
+            "year_to": 1983,
+            "make": "Buick",
+            "model": "Estate Wagon",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1981,
+            "year_to": 1990,
+            "make": "Buick",
+            "model": "LeSabre",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1981,
+            "year_to": 1982,
+            "make": "Buick",
+            "model": "Regal",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
           {
             "year_from": 2003,
             "year_to": 2017,
@@ -47154,17 +47203,22 @@
           }
         ],
         "vehicle_labels": [
+          "1981 Buick Century",
+          "1981\u20131989 Buick Electra",
+          "1981\u20131983 Buick Estate Wagon",
+          "1981\u20131990 Buick LeSabre",
+          "1981\u20131982 Buick Regal",
           "2003\u20132017 Honda Accord"
         ],
-        "raw_compat_rows": 199,
-        "source": "ebay_listing",
+        "raw_compat_rows": 120,
+        "source": "ebay_listing+title",
         "confidence": "high",
         "ebay_item_id": "398321569359",
         "type": "Transmission Filter",
         "brand": "WIX",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:Transmission Filters"
       },
-      "vehicle_count_raw": 199,
+      "vehicle_count_raw": 120,
       "ebay_item_id": "398321569359",
       "ebay_type": "Transmission Filter",
       "ebay_brand": "WIX",
@@ -72467,9 +72521,7 @@
         "../assets/pdp-gallery/XRMGWBLN7TE2ZZONC3HF4UYR/02.webp",
         "../assets/pdp-gallery/XRMGWBLN7TE2ZZONC3HF4UYR/03.webp",
         "../assets/pdp-gallery/XRMGWBLN7TE2ZZONC3HF4UYR/04.webp",
-        "../assets/pdp-gallery/XRMGWBLN7TE2ZZONC3HF4UYR/05.webp",
-        "../assets/pdp-gallery/XRMGWBLN7TE2ZZONC3HF4UYR/06.webp",
-        "../assets/pdp-gallery/XRMGWBLN7TE2ZZONC3HF4UYR/07.webp"
+        "../assets/pdp-gallery/XRMGWBLN7TE2ZZONC3HF4UYR/05.webp"
       ],
       "stock": 1,
       "interchange": []
@@ -118664,5 +118716,5 @@
       "vehicles": []
     }
   ],
-  "fitment_built": "2026-11-04T20:33:53Z"
+  "fitment_built": "2026-11-05T17:03:17Z"
 }
