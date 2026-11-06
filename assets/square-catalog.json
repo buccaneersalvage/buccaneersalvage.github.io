@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-06T01:03:35Z",
+  "updated": "2026-11-06T02:03:20Z",
   "store": "https://buccaneersalvage.square.site/",
   "count": 871,
   "items": [
@@ -95159,17 +95159,9 @@
       "category": "other",
       "checkout": true,
       "variation_id": "F3ONEBL4XFTBDBJCGEBLYKNP",
-      "stock": 3,
       "part_numbers": [
         "MV1CV-2M"
       ],
-      "interchange": [],
-      "vehicles": [],
-      "vehicle_count_raw": 0,
-      "ebay_item_id": "920110188011",
-      "ebay_type": "Component Video Cable",
-      "ebay_brand": "Monster",
-      "ebay_category": "Consumer Electronics:TV, Video & Home Audio:TV, Video & Audio Accessories:TV & Video Accessories:Video Cables & Interconnects",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "medium",
       "fitment": {
@@ -95187,12 +95179,20 @@
         "brand": "Monster",
         "ebay_category": "Consumer Electronics:TV, Video & Home Audio:TV, Video & Audio Accessories:TV & Video Accessories:Video Cables & Interconnects"
       },
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "920110188011",
+      "ebay_type": "Component Video Cable",
+      "ebay_brand": "Monster",
+      "ebay_category": "Consumer Electronics:TV, Video & Home Audio:TV, Video & Audio Accessories:TV & Video Accessories:Video Cables & Interconnects",
       "images": [
         "../assets/pdp-gallery/RIV6HXTVW6L4HK3EQCJ7AWCN/02.webp",
         "../assets/pdp-gallery/RIV6HXTVW6L4HK3EQCJ7AWCN/03.webp",
         "../assets/pdp-gallery/RIV6HXTVW6L4HK3EQCJ7AWCN/04.webp",
         "../assets/pdp-gallery/RIV6HXTVW6L4HK3EQCJ7AWCN/05.webp"
-      ]
+      ],
+      "stock": 1,
+      "interchange": [],
+      "vehicles": []
     },
     {
       "id": "ZBJFR3PUXBOXTNZWIF23XUPX",
@@ -118603,5 +118603,5 @@
       "vehicles": []
     }
   ],
-  "fitment_built": "2026-11-06T01:03:35Z"
+  "fitment_built": "2026-11-06T02:03:20Z"
 }
