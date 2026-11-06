@@ -1,7 +1,7 @@
 {
-  "updated": "2026-11-06T21:53:32Z",
+  "updated": "2026-11-06T22:34:03Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 870,
+  "count": 869,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -69964,89 +69964,6 @@
       "interchange": []
     },
     {
-      "id": "BOHM2OSDRIQ6OPA3HQVL5WJY",
-      "name": "ACDelco D8041 GM 89057520 Oil Pressure Switch Camaro Firebird 93-02 NOS",
-      "price": 34.99,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/4287dc38bc4158331d12aac890212ca535936d01/original.jpeg",
-      "url": "https://square.link/u/JerTZG7l",
-      "category": "other",
-      "checkout": true,
-      "variation_id": "WVCQGWIEURBTPOCVKEPE2ZWU",
-      "part_numbers": [
-        "D8041",
-        "89057520"
-      ],
-      "vehicles": [
-        "1993\u20132002 Chevrolet Camaro",
-        "1993\u20132002 GM 89057520",
-        "1993\u20132002 Pontiac Firebird"
-      ],
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "high",
-      "fitment": {
-        "part_numbers": [
-          "D8041",
-          "89057520"
-        ],
-        "interchange": [],
-        "vehicles": [
-          {
-            "year_from": 1993,
-            "year_to": 2002,
-            "make": "Chevrolet",
-            "model": "Camaro",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1993,
-            "year_to": 2002,
-            "make": "GM",
-            "model": "89057520",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1993,
-            "year_to": 2002,
-            "make": "Pontiac",
-            "model": "Firebird",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          }
-        ],
-        "vehicle_labels": [
-          "1993\u20132002 Chevrolet Camaro",
-          "1993\u20132002 GM 89057520",
-          "1993\u20132002 Pontiac Firebird"
-        ],
-        "raw_compat_rows": 121,
-        "source": "ebay_listing",
-        "confidence": "high",
-        "ebay_item_id": "398398746286",
-        "type": "Oil Pressure Switch",
-        "brand": "ACDelco",
-        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Engine Sensors & Switches"
-      },
-      "vehicle_count_raw": 121,
-      "ebay_item_id": "398398746286",
-      "ebay_type": "Oil Pressure Switch",
-      "ebay_brand": "ACDelco",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Engine Sensors & Switches",
-      "images": [
-        "../assets/pdp-gallery/BOHM2OSDRIQ6OPA3HQVL5WJY/02.webp",
-        "../assets/pdp-gallery/BOHM2OSDRIQ6OPA3HQVL5WJY/03.webp"
-      ],
-      "stock": 1,
-      "interchange": []
-    },
-    {
       "id": "CIHIYVMJAKMSDPJQCDRT4BBO",
       "name": "Ampco CX12H Starter Brush Set with Plastic Holder and Spring Leads OEM",
       "price": 12.99,
@@ -118559,5 +118476,5 @@
       "vehicles": []
     }
   ],
-  "fitment_built": "2026-11-06T21:53:32Z"
+  "fitment_built": "2026-11-06T22:34:03Z"
 }
