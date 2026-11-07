@@ -1,7 +1,7 @@
 {
-  "updated": "2026-11-07T07:03:41Z",
+  "updated": "2026-11-07T08:03:47Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 874,
+  "count": 876,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -49378,7 +49378,6 @@
       "category": "ignition",
       "checkout": true,
       "variation_id": "EB6MWDYUO7R3QEIQWS6UPDX7",
-      "stock": 1,
       "part_numbers": [
         "236X",
         "DH-367, DH-367-B, FD151T"
@@ -49393,11 +49392,6 @@
         "1977\u20131985 Ford F-250",
         "1977\u20131985 Ford F-350"
       ],
-      "vehicle_count_raw": 492,
-      "ebay_item_id": "920114429224",
-      "ebay_type": "Distributor Cap",
-      "ebay_brand": "KEM",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -49475,12 +49469,18 @@
         "brand": "KEM",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps"
       },
+      "vehicle_count_raw": 492,
+      "ebay_item_id": "920114429224",
+      "ebay_type": "Distributor Cap",
+      "ebay_brand": "KEM",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps",
       "images": [
         "../assets/pdp-gallery/YGQJF7ZM7OZRSQTEXIGNOQUO/02.webp",
         "../assets/pdp-gallery/YGQJF7ZM7OZRSQTEXIGNOQUO/03.webp",
         "../assets/pdp-gallery/YGQJF7ZM7OZRSQTEXIGNOQUO/04.webp",
         "../assets/pdp-gallery/YGQJF7ZM7OZRSQTEXIGNOQUO/05.webp"
-      ]
+      ],
+      "stock": 1
     },
     {
       "id": "BHHWTZK45H7ATL5ZHIKVPEXX",
@@ -50552,6 +50552,91 @@
       ],
       "stock": 1,
       "interchange": []
+    },
+    {
+      "id": "GNDVYF4XBBD4WGDXDASZ7SER",
+      "name": "KEM W399X Distributor Cap Toyota 79-83 Celica Pickup Corona 2.0 2.2 2.4",
+      "price": 12.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/1fb33143fc447ed78be87b3e51e6258d473bd718/original.jpeg",
+      "url": "https://square.link/u/FzT5av9w",
+      "category": "ignition",
+      "checkout": true,
+      "variation_id": "STR2SHIFMNRMK2R5X376JVEH",
+      "stock": 1,
+      "part_numbers": [
+        "W399X",
+        "19101-38210, JH-81, JA-948, C589, EP671"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1981\u20131983 Toyota Celica",
+        "1981\u20131982 Toyota Corona",
+        "1981\u20131983 Toyota Pickup"
+      ],
+      "vehicle_count_raw": 37,
+      "ebay_item_id": "920114532095",
+      "ebay_type": "Distributor Cap",
+      "ebay_brand": "KEM",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "W399X",
+          "19101-38210, JH-81, JA-948, C589, EP671"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1981,
+            "year_to": 1983,
+            "make": "Toyota",
+            "model": "Celica",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1981,
+            "year_to": 1982,
+            "make": "Toyota",
+            "model": "Corona",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1981,
+            "year_to": 1983,
+            "make": "Toyota",
+            "model": "Pickup",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1981\u20131983 Toyota Celica",
+          "1981\u20131982 Toyota Corona",
+          "1981\u20131983 Toyota Pickup"
+        ],
+        "raw_compat_rows": 37,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "920114532095",
+        "type": "Distributor Cap",
+        "brand": "KEM",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps"
+      },
+      "images": [
+        "../assets/pdp-gallery/GNDVYF4XBBD4WGDXDASZ7SER/02.webp",
+        "../assets/pdp-gallery/GNDVYF4XBBD4WGDXDASZ7SER/03.webp",
+        "../assets/pdp-gallery/GNDVYF4XBBD4WGDXDASZ7SER/04.webp",
+        "../assets/pdp-gallery/GNDVYF4XBBD4WGDXDASZ7SER/05.webp"
+      ]
     },
     {
       "id": "FPLMIWUZEASZDLBJRBE2WXG3",
@@ -54985,6 +55070,439 @@
       ],
       "stock": 1,
       "interchange": []
+    },
+    {
+      "id": "QMXOQMCPLSZ6INIXTMF6K74B",
+      "name": "Standard DR326T Distributor Rotor 86-97 Caprice C/K Suburban Tahoe",
+      "price": 14.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/393cca007e197c7400a9f0180e1c5c338bbada8e/original.jpeg",
+      "url": "https://square.link/u/oIVXHYXB",
+      "category": "ignition",
+      "checkout": true,
+      "variation_id": "OCXT6LCA7IJESS66OVMIELOF",
+      "stock": 1,
+      "part_numbers": [
+        "DR326T",
+        "DR326, RR250"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1995\u20131996 AM General Hummer",
+        "1991\u20131993 Buick Commercial Chassis",
+        "1991\u20131993 Buick Roadmaster",
+        "1990\u20131992 Cadillac Brougham",
+        "1992\u20131993 Cadillac Commercial Chassis",
+        "1993 Cadillac Fleetwood",
+        "1987\u20131994 Chevrolet Blazer",
+        "1988\u20131995 Chevrolet C1500",
+        "1992\u20131995 Chevrolet C1500 Suburban",
+        "1988\u20131995 Chevrolet C2500",
+        "1992\u20131996 Chevrolet C2500 Suburban",
+        "1988\u20131995 Chevrolet C3500",
+        "1991\u20131995 Chevrolet C3500HD",
+        "1987\u20131992 Chevrolet Camaro",
+        "1986\u20131993 Chevrolet Caprice",
+        "1991\u20131994 Chevrolet Commercial Chassis",
+        "1987 Chevrolet El Camino",
+        "1996 Chevrolet Express 3500",
+        "1987\u20131995 Chevrolet G10",
+        "1987\u20131995 Chevrolet G20",
+        "1987\u20131996 Chevrolet G30",
+        "1988\u20131995 Chevrolet K1500",
+        "1992\u20131995 Chevrolet K1500 Suburban",
+        "1988\u20131995 Chevrolet K2500",
+        "1992\u20131995 Chevrolet K2500 Suburban",
+        "1988\u20131995 Chevrolet K3500",
+        "1987\u20131988 Chevrolet Monte Carlo",
+        "1987\u20131989 Chevrolet P20",
+        "1987\u20131997 Chevrolet P30",
+        "1987 Chevrolet R10",
+        "1987\u20131988 Chevrolet R10 Suburban",
+        "1989\u20131991 Chevrolet R1500 Suburban"
+      ],
+      "vehicle_count_raw": 2140,
+      "ebay_item_id": "920114506805",
+      "ebay_type": "Distributor Rotor",
+      "ebay_brand": "Standard",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "DR326T",
+          "DR326, RR250"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1995,
+            "year_to": 1996,
+            "make": "AM General",
+            "model": "Hummer",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1991,
+            "year_to": 1993,
+            "make": "Buick",
+            "model": "Commercial Chassis",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1991,
+            "year_to": 1993,
+            "make": "Buick",
+            "model": "Roadmaster",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1990,
+            "year_to": 1992,
+            "make": "Cadillac",
+            "model": "Brougham",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1992,
+            "year_to": 1993,
+            "make": "Cadillac",
+            "model": "Commercial Chassis",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1993,
+            "year_to": 1993,
+            "make": "Cadillac",
+            "model": "Fleetwood",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1994,
+            "make": "Chevrolet",
+            "model": "Blazer",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1988,
+            "year_to": 1995,
+            "make": "Chevrolet",
+            "model": "C1500",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1992,
+            "year_to": 1995,
+            "make": "Chevrolet",
+            "model": "C1500 Suburban",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1988,
+            "year_to": 1995,
+            "make": "Chevrolet",
+            "model": "C2500",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1992,
+            "year_to": 1996,
+            "make": "Chevrolet",
+            "model": "C2500 Suburban",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1988,
+            "year_to": 1995,
+            "make": "Chevrolet",
+            "model": "C3500",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1991,
+            "year_to": 1995,
+            "make": "Chevrolet",
+            "model": "C3500HD",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1992,
+            "make": "Chevrolet",
+            "model": "Camaro",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1986,
+            "year_to": 1993,
+            "make": "Chevrolet",
+            "model": "Caprice",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1991,
+            "year_to": 1994,
+            "make": "Chevrolet",
+            "model": "Commercial Chassis",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1987,
+            "make": "Chevrolet",
+            "model": "El Camino",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1996,
+            "year_to": 1996,
+            "make": "Chevrolet",
+            "model": "Express 3500",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1995,
+            "make": "Chevrolet",
+            "model": "G10",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1995,
+            "make": "Chevrolet",
+            "model": "G20",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1996,
+            "make": "Chevrolet",
+            "model": "G30",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1988,
+            "year_to": 1995,
+            "make": "Chevrolet",
+            "model": "K1500",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1992,
+            "year_to": 1995,
+            "make": "Chevrolet",
+            "model": "K1500 Suburban",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1988,
+            "year_to": 1995,
+            "make": "Chevrolet",
+            "model": "K2500",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1992,
+            "year_to": 1995,
+            "make": "Chevrolet",
+            "model": "K2500 Suburban",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1988,
+            "year_to": 1995,
+            "make": "Chevrolet",
+            "model": "K3500",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1988,
+            "make": "Chevrolet",
+            "model": "Monte Carlo",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1989,
+            "make": "Chevrolet",
+            "model": "P20",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1997,
+            "make": "Chevrolet",
+            "model": "P30",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1987,
+            "make": "Chevrolet",
+            "model": "R10",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1988,
+            "make": "Chevrolet",
+            "model": "R10 Suburban",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1989,
+            "year_to": 1991,
+            "make": "Chevrolet",
+            "model": "R1500 Suburban",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1995\u20131996 AM General Hummer",
+          "1991\u20131993 Buick Commercial Chassis",
+          "1991\u20131993 Buick Roadmaster",
+          "1990\u20131992 Cadillac Brougham",
+          "1992\u20131993 Cadillac Commercial Chassis",
+          "1993 Cadillac Fleetwood",
+          "1987\u20131994 Chevrolet Blazer",
+          "1988\u20131995 Chevrolet C1500",
+          "1992\u20131995 Chevrolet C1500 Suburban",
+          "1988\u20131995 Chevrolet C2500",
+          "1992\u20131996 Chevrolet C2500 Suburban",
+          "1988\u20131995 Chevrolet C3500",
+          "1991\u20131995 Chevrolet C3500HD",
+          "1987\u20131992 Chevrolet Camaro",
+          "1986\u20131993 Chevrolet Caprice",
+          "1991\u20131994 Chevrolet Commercial Chassis",
+          "1987 Chevrolet El Camino",
+          "1996 Chevrolet Express 3500",
+          "1987\u20131995 Chevrolet G10",
+          "1987\u20131995 Chevrolet G20",
+          "1987\u20131996 Chevrolet G30",
+          "1988\u20131995 Chevrolet K1500",
+          "1992\u20131995 Chevrolet K1500 Suburban",
+          "1988\u20131995 Chevrolet K2500",
+          "1992\u20131995 Chevrolet K2500 Suburban",
+          "1988\u20131995 Chevrolet K3500",
+          "1987\u20131988 Chevrolet Monte Carlo",
+          "1987\u20131989 Chevrolet P20",
+          "1987\u20131997 Chevrolet P30",
+          "1987 Chevrolet R10",
+          "1987\u20131988 Chevrolet R10 Suburban",
+          "1989\u20131991 Chevrolet R1500 Suburban"
+        ],
+        "raw_compat_rows": 2140,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "920114506805",
+        "type": "Distributor Rotor",
+        "brand": "Standard",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors"
+      },
+      "images": [
+        "../assets/pdp-gallery/QMXOQMCPLSZ6INIXTMF6K74B/02.webp",
+        "../assets/pdp-gallery/QMXOQMCPLSZ6INIXTMF6K74B/03.webp",
+        "../assets/pdp-gallery/QMXOQMCPLSZ6INIXTMF6K74B/04.webp",
+        "../assets/pdp-gallery/QMXOQMCPLSZ6INIXTMF6K74B/05.webp"
+      ]
     },
     {
       "id": "SNVXS75AFHDNQE724EVZAQ7J",
@@ -94823,12 +95341,10 @@
       "category": "other",
       "checkout": true,
       "variation_id": "L76L2GNUD7HRBDBIE7HFOKTT",
-      "stock": 1,
       "part_numbers": [
         "HR41",
         "HR-151, HR143, R636, DR1037, HR635, 1R1726, 35741"
       ],
-      "interchange": [],
       "vehicles": [
         "1974\u20131975 Buick Apollo",
         "1974\u20131996 Buick Century",
@@ -94861,12 +95377,7 @@
         "1975\u20131979 Chevrolet C20",
         "1974\u20131996 Jeep Cherokee"
       ],
-      "vehicle_count_raw": 3001,
-      "ebay_item_id": "920114441333",
-      "ebay_type": "Horn Relay",
-      "ebay_brand": "KEM",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Starters, Alternators, ECUs & Wiring:Relays",
-      "fitment_source": "ebay_listing+title",
+      "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
@@ -95209,18 +95720,25 @@
           "1974\u20131996 Jeep Cherokee"
         ],
         "raw_compat_rows": 3001,
-        "source": "ebay_listing+title",
+        "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "920114441333",
         "type": "Horn Relay",
         "brand": "KEM",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Starters, Alternators, ECUs & Wiring:Relays"
       },
+      "vehicle_count_raw": 3001,
+      "ebay_item_id": "920114441333",
+      "ebay_type": "Horn Relay",
+      "ebay_brand": "KEM",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Starters, Alternators, ECUs & Wiring:Relays",
       "images": [
         "../assets/pdp-gallery/O6RY5AWYUZ3SG3ZRHTZBDLVF/02.webp",
         "../assets/pdp-gallery/O6RY5AWYUZ3SG3ZRHTZBDLVF/03.webp",
         "../assets/pdp-gallery/O6RY5AWYUZ3SG3ZRHTZBDLVF/04.webp"
-      ]
+      ],
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "GJIFPI534K4HI5EIB3KJBDAO",
@@ -119985,5 +120503,5 @@
       "vehicles": []
     }
   ],
-  "fitment_built": "2026-11-07T07:03:41Z"
+  "fitment_built": "2026-11-07T08:03:47Z"
 }
