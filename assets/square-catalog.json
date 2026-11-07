@@ -1,7 +1,7 @@
 {
-  "updated": "2026-11-06T22:49:12Z",
+  "updated": "2026-11-07T00:35:17Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 869,
+  "count": 871,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -49368,6 +49368,358 @@
         "../assets/pdp-gallery/BR3ZAY7WGKRXVQBYQU4E6DGJ/03.webp"
       ],
       "stock": 1
+    },
+    {
+      "id": "BHHWTZK45H7ATL5ZHIKVPEXX",
+      "name": "KEM 247X Distributor Cap 4-Cyl Chevy C2 Monza Corsa Meriva Tornado 1.6 1.8",
+      "price": 19.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/7e8af48bfcd10d4f141eb60c9ffd5a1484d4d0d5/original.jpeg",
+      "url": "https://square.link/u/4XA7p3r0",
+      "category": "ignition",
+      "checkout": true,
+      "variation_id": "K6BPOOFDHHKC5GG2TG7L7HZU",
+      "stock": 1,
+      "part_numbers": [
+        "247X",
+        "CB-247"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "Chevrolet C2",
+        "2003\u20132008 Chevrolet Corsa",
+        "2004\u20132008 Chevrolet Meriva",
+        "2004\u20132017 Chevrolet Tornado"
+      ],
+      "vehicle_count_raw": 36,
+      "ebay_item_id": "920113765571",
+      "ebay_type": "Distributor Cap",
+      "ebay_brand": "KEM",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps",
+      "fitment_source": "ebay_listing+title",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "247X",
+          "CB-247"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": null,
+            "year_to": null,
+            "make": "Chevrolet",
+            "model": "C2",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2003,
+            "year_to": 2008,
+            "make": "Chevrolet",
+            "model": "Corsa",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2004,
+            "year_to": 2008,
+            "make": "Chevrolet",
+            "model": "Meriva",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2004,
+            "year_to": 2017,
+            "make": "Chevrolet",
+            "model": "Tornado",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "Chevrolet C2",
+          "2003\u20132008 Chevrolet Corsa",
+          "2004\u20132008 Chevrolet Meriva",
+          "2004\u20132017 Chevrolet Tornado"
+        ],
+        "raw_compat_rows": 36,
+        "source": "ebay_listing+title",
+        "confidence": "high",
+        "ebay_item_id": "920113765571",
+        "type": "Distributor Cap",
+        "brand": "KEM",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps"
+      },
+      "images": [
+        "../assets/pdp-gallery/BHHWTZK45H7ATL5ZHIKVPEXX/02.webp",
+        "../assets/pdp-gallery/BHHWTZK45H7ATL5ZHIKVPEXX/03.webp",
+        "../assets/pdp-gallery/BHHWTZK45H7ATL5ZHIKVPEXX/04.webp",
+        "../assets/pdp-gallery/BHHWTZK45H7ATL5ZHIKVPEXX/05.webp"
+      ]
+    },
+    {
+      "id": "K2JERWUOZ7NMVA3RHSTL4U4N",
+      "name": "KEM 342H Ignition Coil 86-92 Buick Regal LeSabre Oldsmobile 88 3.8L",
+      "price": 69.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/a6fa67a8a5a94e71189f416298ade5ca41e1e244/original.jpeg",
+      "url": "https://square.link/u/X7wc092B",
+      "category": "ignition",
+      "checkout": true,
+      "variation_id": "WXGGJ5DCCOVIW5UJUEUUQCLG",
+      "stock": 1,
+      "part_numbers": [
+        "342H",
+        "342HX, IC76, GN10139, U2102"
+      ],
+      "interchange": [
+        "DR36",
+        "C620",
+        "C860",
+        "E45",
+        "IC28"
+      ],
+      "vehicles": [
+        "1985\u20131988 Buick Century",
+        "1986\u20131990 Buick Electra",
+        "1986\u20131992 Buick LeSabre",
+        "1991\u20131992 Buick Park Avenue",
+        "1988\u20131990 Buick Reatta",
+        "1984\u20131987 Buick Regal",
+        "1984\u20131990 Buick Riviera",
+        "1992 Oldsmobile 88",
+        "1986\u20131991 Oldsmobile 98",
+        "1985\u20131988 Oldsmobile Cutlass Ciera",
+        "1987\u20131988 Oldsmobile Cutlass Cruiser",
+        "1986\u20131991 Oldsmobile Delta 88",
+        "1986\u20131990 Oldsmobile Toronado",
+        "1987\u20131992 Pontiac Bonneville",
+        "1989 Pontiac Firebird",
+        "1985 Pontiac Parisienne"
+      ],
+      "vehicle_count_raw": 235,
+      "ebay_item_id": "920113751467",
+      "ebay_type": "Ignition Coil",
+      "ebay_brand": "KEM",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Coils",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "342H",
+          "342HX, IC76, GN10139, U2102"
+        ],
+        "interchange": [
+          "DR36",
+          "C620",
+          "C860",
+          "E45",
+          "IC28"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1985,
+            "year_to": 1988,
+            "make": "Buick",
+            "model": "Century",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1986,
+            "year_to": 1990,
+            "make": "Buick",
+            "model": "Electra",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1986,
+            "year_to": 1992,
+            "make": "Buick",
+            "model": "LeSabre",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1991,
+            "year_to": 1992,
+            "make": "Buick",
+            "model": "Park Avenue",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1988,
+            "year_to": 1990,
+            "make": "Buick",
+            "model": "Reatta",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 1987,
+            "make": "Buick",
+            "model": "Regal",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 1990,
+            "make": "Buick",
+            "model": "Riviera",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1992,
+            "year_to": 1992,
+            "make": "Oldsmobile",
+            "model": "88",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1986,
+            "year_to": 1991,
+            "make": "Oldsmobile",
+            "model": "98",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1988,
+            "make": "Oldsmobile",
+            "model": "Cutlass Ciera",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1988,
+            "make": "Oldsmobile",
+            "model": "Cutlass Cruiser",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1986,
+            "year_to": 1991,
+            "make": "Oldsmobile",
+            "model": "Delta 88",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1986,
+            "year_to": 1990,
+            "make": "Oldsmobile",
+            "model": "Toronado",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1992,
+            "make": "Pontiac",
+            "model": "Bonneville",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1989,
+            "year_to": 1989,
+            "make": "Pontiac",
+            "model": "Firebird",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1985,
+            "make": "Pontiac",
+            "model": "Parisienne",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1985\u20131988 Buick Century",
+          "1986\u20131990 Buick Electra",
+          "1986\u20131992 Buick LeSabre",
+          "1991\u20131992 Buick Park Avenue",
+          "1988\u20131990 Buick Reatta",
+          "1984\u20131987 Buick Regal",
+          "1984\u20131990 Buick Riviera",
+          "1992 Oldsmobile 88",
+          "1986\u20131991 Oldsmobile 98",
+          "1985\u20131988 Oldsmobile Cutlass Ciera",
+          "1987\u20131988 Oldsmobile Cutlass Cruiser",
+          "1986\u20131991 Oldsmobile Delta 88",
+          "1986\u20131990 Oldsmobile Toronado",
+          "1987\u20131992 Pontiac Bonneville",
+          "1989 Pontiac Firebird",
+          "1985 Pontiac Parisienne"
+        ],
+        "raw_compat_rows": 235,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "920113751467",
+        "type": "Ignition Coil",
+        "brand": "KEM",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Coils"
+      },
+      "images": [
+        "../assets/pdp-gallery/K2JERWUOZ7NMVA3RHSTL4U4N/02.webp",
+        "../assets/pdp-gallery/K2JERWUOZ7NMVA3RHSTL4U4N/03.webp",
+        "../assets/pdp-gallery/K2JERWUOZ7NMVA3RHSTL4U4N/04.webp",
+        "../assets/pdp-gallery/K2JERWUOZ7NMVA3RHSTL4U4N/05.webp",
+        "../assets/pdp-gallery/K2JERWUOZ7NMVA3RHSTL4U4N/06.webp",
+        "../assets/pdp-gallery/K2JERWUOZ7NMVA3RHSTL4U4N/07.webp"
+      ]
     },
     {
       "id": "FPLMIWUZEASZDLBJRBE2WXG3",
@@ -118476,5 +118828,5 @@
       "vehicles": []
     }
   ],
-  "fitment_built": "2026-11-06T22:49:12Z"
+  "fitment_built": "2026-11-07T00:35:17Z"
 }
