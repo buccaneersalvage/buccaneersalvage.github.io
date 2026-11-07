@@ -1,7 +1,7 @@
 {
-  "updated": "2026-11-07T06:03:33Z",
+  "updated": "2026-11-07T07:03:41Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 872,
+  "count": 874,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -49370,6 +49370,119 @@
       "stock": 1
     },
     {
+      "id": "YGQJF7ZM7OZRSQTEXIGNOQUO",
+      "name": "KEM 236X Distributor Cap Ford 4.9 F150 Bronco Mustang 1977-1985 6 Cyl",
+      "price": 19.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/60ec379299983798e142856708d69563e931a312/original.jpeg",
+      "url": "https://square.link/u/7Fug6lVH",
+      "category": "ignition",
+      "checkout": true,
+      "variation_id": "EB6MWDYUO7R3QEIQWS6UPDX7",
+      "stock": 1,
+      "part_numbers": [
+        "236X",
+        "DH-367, DH-367-B, FD151T"
+      ],
+      "interchange": [
+        "FD-151"
+      ],
+      "vehicles": [
+        "1980\u20131985 Ford Bronco",
+        "1977\u20131983 Ford F-100",
+        "1977\u20131985 Ford F-150",
+        "1977\u20131985 Ford F-250",
+        "1977\u20131985 Ford F-350"
+      ],
+      "vehicle_count_raw": 492,
+      "ebay_item_id": "920114429224",
+      "ebay_type": "Distributor Cap",
+      "ebay_brand": "KEM",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "236X",
+          "DH-367, DH-367-B, FD151T"
+        ],
+        "interchange": [
+          "FD-151"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1980,
+            "year_to": 1985,
+            "make": "Ford",
+            "model": "Bronco",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1977,
+            "year_to": 1983,
+            "make": "Ford",
+            "model": "F-100",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1977,
+            "year_to": 1985,
+            "make": "Ford",
+            "model": "F-150",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1977,
+            "year_to": 1985,
+            "make": "Ford",
+            "model": "F-250",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1977,
+            "year_to": 1985,
+            "make": "Ford",
+            "model": "F-350",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1980\u20131985 Ford Bronco",
+          "1977\u20131983 Ford F-100",
+          "1977\u20131985 Ford F-150",
+          "1977\u20131985 Ford F-250",
+          "1977\u20131985 Ford F-350"
+        ],
+        "raw_compat_rows": 492,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "920114429224",
+        "type": "Distributor Cap",
+        "brand": "KEM",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps"
+      },
+      "images": [
+        "../assets/pdp-gallery/YGQJF7ZM7OZRSQTEXIGNOQUO/02.webp",
+        "../assets/pdp-gallery/YGQJF7ZM7OZRSQTEXIGNOQUO/03.webp",
+        "../assets/pdp-gallery/YGQJF7ZM7OZRSQTEXIGNOQUO/04.webp",
+        "../assets/pdp-gallery/YGQJF7ZM7OZRSQTEXIGNOQUO/05.webp"
+      ]
+    },
+    {
       "id": "BHHWTZK45H7ATL5ZHIKVPEXX",
       "name": "KEM 247X Distributor Cap 4-Cyl Chevy C2 Monza Corsa Meriva Tornado 1.6 1.8",
       "price": 19.99,
@@ -49475,12 +49588,10 @@
       "category": "ignition",
       "checkout": true,
       "variation_id": "BZDHXMXZE77YXCZV6YFLY5YA",
-      "stock": 1,
       "part_numbers": [
         "342G",
         "DR37, 342GX, 343S, 3IC108"
       ],
-      "interchange": [],
       "vehicles": [
         "1985\u20131986 Buick Century",
         "1985\u20131986 Buick Skylark",
@@ -49533,11 +49644,6 @@
         "1985\u20131986 Pontiac Parisienne",
         "1991 Pontiac Sunbird"
       ],
-      "vehicle_count_raw": 1941,
-      "ebay_item_id": "920114190735",
-      "ebay_type": "Ignition Coil",
-      "ebay_brand": "KEM",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Coils",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -50108,12 +50214,19 @@
         "brand": "KEM",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Coils"
       },
+      "vehicle_count_raw": 1941,
+      "ebay_item_id": "920114190735",
+      "ebay_type": "Ignition Coil",
+      "ebay_brand": "KEM",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Coils",
       "images": [
         "../assets/pdp-gallery/JB5RWD5CCLCAZHFLXZCN34IL/02.webp",
         "../assets/pdp-gallery/JB5RWD5CCLCAZHFLXZCN34IL/03.webp",
         "../assets/pdp-gallery/JB5RWD5CCLCAZHFLXZCN34IL/04.webp",
         "../assets/pdp-gallery/JB5RWD5CCLCAZHFLXZCN34IL/05.webp"
-      ]
+      ],
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "K2JERWUOZ7NMVA3RHSTL4U4N",
@@ -94702,6 +94815,414 @@
       "vehicles": []
     },
     {
+      "id": "O6RY5AWYUZ3SG3ZRHTZBDLVF",
+      "name": "KEM HR41 Horn Relay 74-96 Camaro Firebird Jeep Cherokee HR151",
+      "price": 24.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/be4eff4373161038815915153a46febd8e4b9284/original.jpeg",
+      "url": "https://square.link/u/M1MlrnRJ",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "L76L2GNUD7HRBDBIE7HFOKTT",
+      "stock": 1,
+      "part_numbers": [
+        "HR41",
+        "HR-151, HR143, R636, DR1037, HR635, 1R1726, 35741"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1974\u20131975 Buick Apollo",
+        "1974\u20131996 Buick Century",
+        "1991\u20131992 Buick Commercial Chassis",
+        "1974\u20131989 Buick Electra",
+        "1976\u20131983 Buick Estate Wagon",
+        "1974\u20131990 Buick LeSabre",
+        "1976\u20131979 Buick Opel",
+        "1988 Buick Reatta",
+        "1974\u20131988 Buick Regal",
+        "1974\u20131986 Buick Riviera",
+        "1991\u20131992 Buick Roadmaster",
+        "1975\u20131989 Buick Skyhawk",
+        "1975\u20131998 Buick Skylark",
+        "1986\u20131987 Buick Somerset",
+        "1985 Buick Somerset Regal",
+        "1982\u20131988 Cadillac Cimarron",
+        "1977\u20131984 Cadillac Commercial Chassis",
+        "1977\u20131984 Cadillac DeVille",
+        "1977\u20131984 Cadillac Eldorado",
+        "1977\u20131985 Cadillac Fleetwood",
+        "1977\u20131984 Cadillac Seville",
+        "1985\u20131995 Chevrolet Astro",
+        "1974\u20131981 Chevrolet Bel Air",
+        "1987\u20131996 Chevrolet Beretta",
+        "1973\u20131994 Chevrolet Blazer",
+        "1975\u20131986 Chevrolet C10",
+        "1973\u20131974 Chevrolet C10 Pickup",
+        "1973\u20131986 Chevrolet C10 Suburban",
+        "1975\u20131979 Chevrolet C20",
+        "1974\u20131996 Jeep Cherokee"
+      ],
+      "vehicle_count_raw": 3001,
+      "ebay_item_id": "920114441333",
+      "ebay_type": "Horn Relay",
+      "ebay_brand": "KEM",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Starters, Alternators, ECUs & Wiring:Relays",
+      "fitment_source": "ebay_listing+title",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "HR41",
+          "HR-151, HR143, R636, DR1037, HR635, 1R1726, 35741"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1974,
+            "year_to": 1975,
+            "make": "Buick",
+            "model": "Apollo",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1974,
+            "year_to": 1996,
+            "make": "Buick",
+            "model": "Century",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1991,
+            "year_to": 1992,
+            "make": "Buick",
+            "model": "Commercial Chassis",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1974,
+            "year_to": 1989,
+            "make": "Buick",
+            "model": "Electra",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1976,
+            "year_to": 1983,
+            "make": "Buick",
+            "model": "Estate Wagon",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1974,
+            "year_to": 1990,
+            "make": "Buick",
+            "model": "LeSabre",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1976,
+            "year_to": 1979,
+            "make": "Buick",
+            "model": "Opel",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1988,
+            "year_to": 1988,
+            "make": "Buick",
+            "model": "Reatta",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1974,
+            "year_to": 1988,
+            "make": "Buick",
+            "model": "Regal",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1974,
+            "year_to": 1986,
+            "make": "Buick",
+            "model": "Riviera",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1991,
+            "year_to": 1992,
+            "make": "Buick",
+            "model": "Roadmaster",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1975,
+            "year_to": 1989,
+            "make": "Buick",
+            "model": "Skyhawk",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1975,
+            "year_to": 1998,
+            "make": "Buick",
+            "model": "Skylark",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1986,
+            "year_to": 1987,
+            "make": "Buick",
+            "model": "Somerset",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1985,
+            "make": "Buick",
+            "model": "Somerset Regal",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1982,
+            "year_to": 1988,
+            "make": "Cadillac",
+            "model": "Cimarron",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1977,
+            "year_to": 1984,
+            "make": "Cadillac",
+            "model": "Commercial Chassis",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1977,
+            "year_to": 1984,
+            "make": "Cadillac",
+            "model": "DeVille",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1977,
+            "year_to": 1984,
+            "make": "Cadillac",
+            "model": "Eldorado",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1977,
+            "year_to": 1985,
+            "make": "Cadillac",
+            "model": "Fleetwood",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1977,
+            "year_to": 1984,
+            "make": "Cadillac",
+            "model": "Seville",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1995,
+            "make": "Chevrolet",
+            "model": "Astro",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1974,
+            "year_to": 1981,
+            "make": "Chevrolet",
+            "model": "Bel Air",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1996,
+            "make": "Chevrolet",
+            "model": "Beretta",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1973,
+            "year_to": 1994,
+            "make": "Chevrolet",
+            "model": "Blazer",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1975,
+            "year_to": 1986,
+            "make": "Chevrolet",
+            "model": "C10",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1973,
+            "year_to": 1974,
+            "make": "Chevrolet",
+            "model": "C10 Pickup",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1973,
+            "year_to": 1986,
+            "make": "Chevrolet",
+            "model": "C10 Suburban",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1975,
+            "year_to": 1979,
+            "make": "Chevrolet",
+            "model": "C20",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1974,
+            "year_to": 1996,
+            "make": "Jeep",
+            "model": "Cherokee",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1974\u20131975 Buick Apollo",
+          "1974\u20131996 Buick Century",
+          "1991\u20131992 Buick Commercial Chassis",
+          "1974\u20131989 Buick Electra",
+          "1976\u20131983 Buick Estate Wagon",
+          "1974\u20131990 Buick LeSabre",
+          "1976\u20131979 Buick Opel",
+          "1988 Buick Reatta",
+          "1974\u20131988 Buick Regal",
+          "1974\u20131986 Buick Riviera",
+          "1991\u20131992 Buick Roadmaster",
+          "1975\u20131989 Buick Skyhawk",
+          "1975\u20131998 Buick Skylark",
+          "1986\u20131987 Buick Somerset",
+          "1985 Buick Somerset Regal",
+          "1982\u20131988 Cadillac Cimarron",
+          "1977\u20131984 Cadillac Commercial Chassis",
+          "1977\u20131984 Cadillac DeVille",
+          "1977\u20131984 Cadillac Eldorado",
+          "1977\u20131985 Cadillac Fleetwood",
+          "1977\u20131984 Cadillac Seville",
+          "1985\u20131995 Chevrolet Astro",
+          "1974\u20131981 Chevrolet Bel Air",
+          "1987\u20131996 Chevrolet Beretta",
+          "1973\u20131994 Chevrolet Blazer",
+          "1975\u20131986 Chevrolet C10",
+          "1973\u20131974 Chevrolet C10 Pickup",
+          "1973\u20131986 Chevrolet C10 Suburban",
+          "1975\u20131979 Chevrolet C20",
+          "1974\u20131996 Jeep Cherokee"
+        ],
+        "raw_compat_rows": 3001,
+        "source": "ebay_listing+title",
+        "confidence": "high",
+        "ebay_item_id": "920114441333",
+        "type": "Horn Relay",
+        "brand": "KEM",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Starters, Alternators, ECUs & Wiring:Relays"
+      },
+      "images": [
+        "../assets/pdp-gallery/O6RY5AWYUZ3SG3ZRHTZBDLVF/02.webp",
+        "../assets/pdp-gallery/O6RY5AWYUZ3SG3ZRHTZBDLVF/03.webp",
+        "../assets/pdp-gallery/O6RY5AWYUZ3SG3ZRHTZBDLVF/04.webp"
+      ]
+    },
+    {
       "id": "GJIFPI534K4HI5EIB3KJBDAO",
       "name": "KW DA-20 Voltage Regulator NOS 55-60 Chevy Truck AMC Jeep",
       "price": 79.99,
@@ -119464,5 +119985,5 @@
       "vehicles": []
     }
   ],
-  "fitment_built": "2026-11-07T06:03:33Z"
+  "fitment_built": "2026-11-07T07:03:41Z"
 }
