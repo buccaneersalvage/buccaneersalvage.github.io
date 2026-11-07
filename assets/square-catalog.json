@@ -1,7 +1,7 @@
 {
-  "updated": "2026-11-07T02:03:41Z",
+  "updated": "2026-11-07T03:03:36Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 870,
+  "count": 871,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -49720,6 +49720,76 @@
         "../assets/pdp-gallery/K2JERWUOZ7NMVA3RHSTL4U4N/07.webp"
       ],
       "stock": 1
+    },
+    {
+      "id": "GNSSHPKXLS7PGZDBNILY3AHF",
+      "name": "KEM W3112 Distributor Cap 86-95 Suzuki Samurai Sidekick Tracker 1.3L",
+      "price": 26.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/dcac4700c2e52eca27f098f4d0bccbdfd383125f/original.jpeg",
+      "url": "https://square.link/u/XelRzNlN",
+      "category": "ignition",
+      "checkout": true,
+      "variation_id": "S3NGQCRD54OLBYYAZXSEOSOH",
+      "stock": 1,
+      "part_numbers": [
+        "W3112"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1986\u20131995 Suzuki Samurai",
+        "1989 Suzuki Sidekick"
+      ],
+      "vehicle_count_raw": 20,
+      "ebay_item_id": "920113998509",
+      "ebay_type": "Distributor Cap",
+      "ebay_brand": "KEM",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "W3112"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1986,
+            "year_to": 1995,
+            "make": "Suzuki",
+            "model": "Samurai",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1989,
+            "year_to": 1989,
+            "make": "Suzuki",
+            "model": "Sidekick",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1986\u20131995 Suzuki Samurai",
+          "1989 Suzuki Sidekick"
+        ],
+        "raw_compat_rows": 20,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "920113998509",
+        "type": "Distributor Cap",
+        "brand": "KEM",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps"
+      },
+      "images": [
+        "../assets/pdp-gallery/GNSSHPKXLS7PGZDBNILY3AHF/02.webp",
+        "../assets/pdp-gallery/GNSSHPKXLS7PGZDBNILY3AHF/03.webp",
+        "../assets/pdp-gallery/GNSSHPKXLS7PGZDBNILY3AHF/04.webp"
+      ]
     },
     {
       "id": "FPLMIWUZEASZDLBJRBE2WXG3",
@@ -118745,5 +118815,5 @@
       "vehicles": []
     }
   ],
-  "fitment_built": "2026-11-07T02:03:41Z"
+  "fitment_built": "2026-11-07T03:03:36Z"
 }
