@@ -1,7 +1,7 @@
 {
-  "updated": "2026-11-07T01:03:47Z",
+  "updated": "2026-11-07T02:03:41Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 871,
+  "count": 870,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -49378,23 +49378,16 @@
       "category": "ignition",
       "checkout": true,
       "variation_id": "K6BPOOFDHHKC5GG2TG7L7HZU",
-      "stock": 1,
       "part_numbers": [
         "247X",
         "CB-247"
       ],
-      "interchange": [],
       "vehicles": [
         "Chevrolet C2",
         "2003\u20132008 Chevrolet Corsa",
         "2004\u20132008 Chevrolet Meriva",
         "2004\u20132017 Chevrolet Tornado"
       ],
-      "vehicle_count_raw": 36,
-      "ebay_item_id": "920113765571",
-      "ebay_type": "Distributor Cap",
-      "ebay_brand": "KEM",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -49459,12 +49452,19 @@
         "brand": "KEM",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps"
       },
+      "vehicle_count_raw": 36,
+      "ebay_item_id": "920113765571",
+      "ebay_type": "Distributor Cap",
+      "ebay_brand": "KEM",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps",
       "images": [
         "../assets/pdp-gallery/BHHWTZK45H7ATL5ZHIKVPEXX/02.webp",
         "../assets/pdp-gallery/BHHWTZK45H7ATL5ZHIKVPEXX/03.webp",
         "../assets/pdp-gallery/BHHWTZK45H7ATL5ZHIKVPEXX/04.webp",
         "../assets/pdp-gallery/BHHWTZK45H7ATL5ZHIKVPEXX/05.webp"
-      ]
+      ],
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "K2JERWUOZ7NMVA3RHSTL4U4N",
@@ -49475,7 +49475,6 @@
       "category": "ignition",
       "checkout": true,
       "variation_id": "WXGGJ5DCCOVIW5UJUEUUQCLG",
-      "stock": 1,
       "part_numbers": [
         "342H",
         "342HX, IC76, GN10139, U2102"
@@ -49505,11 +49504,6 @@
         "1989 Pontiac Firebird",
         "1985 Pontiac Parisienne"
       ],
-      "vehicle_count_raw": 235,
-      "ebay_item_id": "920113751467",
-      "ebay_type": "Ignition Coil",
-      "ebay_brand": "KEM",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Coils",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -49712,6 +49706,11 @@
         "brand": "KEM",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Coils"
       },
+      "vehicle_count_raw": 235,
+      "ebay_item_id": "920113751467",
+      "ebay_type": "Ignition Coil",
+      "ebay_brand": "KEM",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Coils",
       "images": [
         "../assets/pdp-gallery/K2JERWUOZ7NMVA3RHSTL4U4N/02.webp",
         "../assets/pdp-gallery/K2JERWUOZ7NMVA3RHSTL4U4N/03.webp",
@@ -49719,7 +49718,8 @@
         "../assets/pdp-gallery/K2JERWUOZ7NMVA3RHSTL4U4N/05.webp",
         "../assets/pdp-gallery/K2JERWUOZ7NMVA3RHSTL4U4N/06.webp",
         "../assets/pdp-gallery/K2JERWUOZ7NMVA3RHSTL4U4N/07.webp"
-      ]
+      ],
+      "stock": 1
     },
     {
       "id": "FPLMIWUZEASZDLBJRBE2WXG3",
@@ -62138,89 +62138,6 @@
       "stock": 1,
       "interchange": [],
       "vehicles": []
-    },
-    {
-      "id": "IAIDZJM5S2DORUHSQATXP6BM",
-      "name": "Cloyes B-061 Timing Belt Chevette NOS",
-      "price": 19.99,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/3617ec81d08a313850edaaa97829e77212e3da3a/original.jpeg",
-      "url": "https://square.link/u/JLo1TgId",
-      "category": "driveline",
-      "checkout": true,
-      "variation_id": "TGV6R7VQ3ZOETEF4TARLVYJ2",
-      "part_numbers": [
-        "B-061",
-        "T061, 95061, 14001168"
-      ],
-      "vehicles": [
-        "1979\u20131987 Chevrolet Chevette",
-        "1981 Pontiac Acadian",
-        "1981\u20131987 Pontiac T1000"
-      ],
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "high",
-      "fitment": {
-        "part_numbers": [
-          "B-061",
-          "T061, 95061, 14001168"
-        ],
-        "interchange": [],
-        "vehicles": [
-          {
-            "year_from": 1979,
-            "year_to": 1987,
-            "make": "Chevrolet",
-            "model": "Chevette",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1981,
-            "year_to": 1981,
-            "make": "Pontiac",
-            "model": "Acadian",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1981,
-            "year_to": 1987,
-            "make": "Pontiac",
-            "model": "T1000",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          }
-        ],
-        "vehicle_labels": [
-          "1979\u20131987 Chevrolet Chevette",
-          "1981 Pontiac Acadian",
-          "1981\u20131987 Pontiac T1000"
-        ],
-        "raw_compat_rows": 70,
-        "source": "ebay_listing",
-        "confidence": "high",
-        "ebay_item_id": "398357213687",
-        "type": "Timing Belt",
-        "brand": "Cloyes",
-        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Timing Components & Kits:Timing Belts"
-      },
-      "vehicle_count_raw": 70,
-      "ebay_item_id": "398357213687",
-      "ebay_type": "Timing Belt",
-      "ebay_brand": "Cloyes",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Timing Components & Kits:Timing Belts",
-      "images": [
-        "../assets/pdp-gallery/IAIDZJM5S2DORUHSQATXP6BM/02.webp",
-        "../assets/pdp-gallery/IAIDZJM5S2DORUHSQATXP6BM/03.webp"
-      ],
-      "stock": 1,
-      "interchange": []
     },
     {
       "id": "3ODS6OOL57763WXCEAJRSXAA",
@@ -118828,5 +118745,5 @@
       "vehicles": []
     }
   ],
-  "fitment_built": "2026-11-07T01:03:47Z"
+  "fitment_built": "2026-11-07T02:03:41Z"
 }
