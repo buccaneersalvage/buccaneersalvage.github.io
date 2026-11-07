@@ -1,7 +1,7 @@
 {
-  "updated": "2026-11-07T04:03:40Z",
+  "updated": "2026-11-07T05:03:38Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 871,
+  "count": 872,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -49467,6 +49467,655 @@
       "interchange": []
     },
     {
+      "id": "JB5RWD5CCLCAZHFLXZCN34IL",
+      "name": "KEM 342G Ignition Coil 1985-1995 Camaro Firebird Astro Caprice Safari S10",
+      "price": 24.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/8d8c3921422955366e412403cc34da0169d9e0c8/original.jpeg",
+      "url": "https://square.link/u/6Si1Tj9O",
+      "category": "ignition",
+      "checkout": true,
+      "variation_id": "BZDHXMXZE77YXCZV6YFLY5YA",
+      "stock": 1,
+      "part_numbers": [
+        "342G",
+        "DR37, 342GX, 343S, 3IC108"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1985\u20131986 Buick Century",
+        "1985\u20131986 Buick Skylark",
+        "1985\u20131986 Cadillac Cimarron",
+        "1985\u20131995 Chevrolet Astro",
+        "1987\u20131995 Chevrolet Blazer",
+        "1985\u20131995 Chevrolet Camaro",
+        "1985\u20131995 Chevrolet Caprice",
+        "1985\u20131986 Chevrolet Cavalier",
+        "1985\u20131986 Chevrolet Celebrity",
+        "1985\u20131987 Chevrolet El Camino",
+        "1987\u20131995 Chevrolet G10",
+        "1987\u20131995 Chevrolet G20",
+        "1987\u20131993 Chevrolet LLV",
+        "1985\u20131988 Chevrolet Monte Carlo",
+        "1987\u20131989 Chevrolet P20",
+        "1987\u20131988 Chevrolet R10 Suburban",
+        "1987\u20131988 Chevrolet R20",
+        "1987\u20131988 Chevrolet R20 Suburban",
+        "1987\u20131988 Chevrolet R30",
+        "1985\u20131995 Chevrolet S10",
+        "1985\u20131994 Chevrolet S10 Blazer",
+        "1987\u20131988 Chevrolet V10 Suburban",
+        "1987\u20131988 Chevrolet V20 Suburban",
+        "1987\u20131988 Chevrolet V30",
+        "1985\u20131987 GMC Caballero",
+        "1987\u20131995 GMC G1500",
+        "1987\u20131995 GMC G2500",
+        "1987\u20131989 GMC P2500",
+        "1987\u20131991 GMC R1500 Suburban",
+        "1987\u20131989 GMC R2500",
+        "1987\u20131991 GMC R2500 Suburban",
+        "1987\u20131991 GMC R3500",
+        "1985\u20131990 GMC S15",
+        "1985\u20131991 GMC S15 Jimmy",
+        "1985\u20131995 GMC Safari",
+        "1987\u20131991 GMC V1500 Suburban",
+        "1987\u20131991 GMC V2500 Suburban",
+        "1987\u20131991 GMC V3500",
+        "1985\u20131986 Jeep Cherokee",
+        "1985\u20131986 Jeep Wagoneer",
+        "1985\u20131986 Oldsmobile Calais",
+        "1985\u20131986 Oldsmobile Cutlass Ciera",
+        "1985\u20131987 Oldsmobile Firenza",
+        "1985\u20131986 Pontiac 6000",
+        "1985\u20131988 Pontiac Fiero",
+        "1985\u20131995 Pontiac Firebird",
+        "1985\u20131989 Pontiac Grand Am",
+        "1986\u20131987 Pontiac Grand Prix",
+        "1985\u20131986 Pontiac Parisienne",
+        "1991 Pontiac Sunbird"
+      ],
+      "vehicle_count_raw": 1941,
+      "ebay_item_id": "920114190735",
+      "ebay_type": "Ignition Coil",
+      "ebay_brand": "KEM",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Coils",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "342G",
+          "DR37, 342GX, 343S, 3IC108"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1985,
+            "year_to": 1986,
+            "make": "Buick",
+            "model": "Century",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1986,
+            "make": "Buick",
+            "model": "Skylark",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1986,
+            "make": "Cadillac",
+            "model": "Cimarron",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1995,
+            "make": "Chevrolet",
+            "model": "Astro",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1995,
+            "make": "Chevrolet",
+            "model": "Blazer",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1995,
+            "make": "Chevrolet",
+            "model": "Camaro",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1995,
+            "make": "Chevrolet",
+            "model": "Caprice",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1986,
+            "make": "Chevrolet",
+            "model": "Cavalier",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1986,
+            "make": "Chevrolet",
+            "model": "Celebrity",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1987,
+            "make": "Chevrolet",
+            "model": "El Camino",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1995,
+            "make": "Chevrolet",
+            "model": "G10",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1995,
+            "make": "Chevrolet",
+            "model": "G20",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1993,
+            "make": "Chevrolet",
+            "model": "LLV",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1988,
+            "make": "Chevrolet",
+            "model": "Monte Carlo",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1989,
+            "make": "Chevrolet",
+            "model": "P20",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1988,
+            "make": "Chevrolet",
+            "model": "R10 Suburban",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1988,
+            "make": "Chevrolet",
+            "model": "R20",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1988,
+            "make": "Chevrolet",
+            "model": "R20 Suburban",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1988,
+            "make": "Chevrolet",
+            "model": "R30",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1995,
+            "make": "Chevrolet",
+            "model": "S10",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1994,
+            "make": "Chevrolet",
+            "model": "S10 Blazer",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1988,
+            "make": "Chevrolet",
+            "model": "V10 Suburban",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1988,
+            "make": "Chevrolet",
+            "model": "V20 Suburban",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1988,
+            "make": "Chevrolet",
+            "model": "V30",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1987,
+            "make": "GMC",
+            "model": "Caballero",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1995,
+            "make": "GMC",
+            "model": "G1500",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1995,
+            "make": "GMC",
+            "model": "G2500",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1989,
+            "make": "GMC",
+            "model": "P2500",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1991,
+            "make": "GMC",
+            "model": "R1500 Suburban",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1989,
+            "make": "GMC",
+            "model": "R2500",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1991,
+            "make": "GMC",
+            "model": "R2500 Suburban",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1991,
+            "make": "GMC",
+            "model": "R3500",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1990,
+            "make": "GMC",
+            "model": "S15",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1991,
+            "make": "GMC",
+            "model": "S15 Jimmy",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1995,
+            "make": "GMC",
+            "model": "Safari",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1991,
+            "make": "GMC",
+            "model": "V1500 Suburban",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1991,
+            "make": "GMC",
+            "model": "V2500 Suburban",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1991,
+            "make": "GMC",
+            "model": "V3500",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1986,
+            "make": "Jeep",
+            "model": "Cherokee",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1986,
+            "make": "Jeep",
+            "model": "Wagoneer",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1986,
+            "make": "Oldsmobile",
+            "model": "Calais",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1986,
+            "make": "Oldsmobile",
+            "model": "Cutlass Ciera",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1987,
+            "make": "Oldsmobile",
+            "model": "Firenza",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1986,
+            "make": "Pontiac",
+            "model": "6000",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1988,
+            "make": "Pontiac",
+            "model": "Fiero",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1995,
+            "make": "Pontiac",
+            "model": "Firebird",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1989,
+            "make": "Pontiac",
+            "model": "Grand Am",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1986,
+            "year_to": 1987,
+            "make": "Pontiac",
+            "model": "Grand Prix",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1986,
+            "make": "Pontiac",
+            "model": "Parisienne",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1991,
+            "year_to": 1991,
+            "make": "Pontiac",
+            "model": "Sunbird",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1985\u20131986 Buick Century",
+          "1985\u20131986 Buick Skylark",
+          "1985\u20131986 Cadillac Cimarron",
+          "1985\u20131995 Chevrolet Astro",
+          "1987\u20131995 Chevrolet Blazer",
+          "1985\u20131995 Chevrolet Camaro",
+          "1985\u20131995 Chevrolet Caprice",
+          "1985\u20131986 Chevrolet Cavalier",
+          "1985\u20131986 Chevrolet Celebrity",
+          "1985\u20131987 Chevrolet El Camino",
+          "1987\u20131995 Chevrolet G10",
+          "1987\u20131995 Chevrolet G20",
+          "1987\u20131993 Chevrolet LLV",
+          "1985\u20131988 Chevrolet Monte Carlo",
+          "1987\u20131989 Chevrolet P20",
+          "1987\u20131988 Chevrolet R10 Suburban",
+          "1987\u20131988 Chevrolet R20",
+          "1987\u20131988 Chevrolet R20 Suburban",
+          "1987\u20131988 Chevrolet R30",
+          "1985\u20131995 Chevrolet S10",
+          "1985\u20131994 Chevrolet S10 Blazer",
+          "1987\u20131988 Chevrolet V10 Suburban",
+          "1987\u20131988 Chevrolet V20 Suburban",
+          "1987\u20131988 Chevrolet V30",
+          "1985\u20131987 GMC Caballero",
+          "1987\u20131995 GMC G1500",
+          "1987\u20131995 GMC G2500",
+          "1987\u20131989 GMC P2500",
+          "1987\u20131991 GMC R1500 Suburban",
+          "1987\u20131989 GMC R2500",
+          "1987\u20131991 GMC R2500 Suburban",
+          "1987\u20131991 GMC R3500",
+          "1985\u20131990 GMC S15",
+          "1985\u20131991 GMC S15 Jimmy",
+          "1985\u20131995 GMC Safari",
+          "1987\u20131991 GMC V1500 Suburban",
+          "1987\u20131991 GMC V2500 Suburban",
+          "1987\u20131991 GMC V3500",
+          "1985\u20131986 Jeep Cherokee",
+          "1985\u20131986 Jeep Wagoneer",
+          "1985\u20131986 Oldsmobile Calais",
+          "1985\u20131986 Oldsmobile Cutlass Ciera",
+          "1985\u20131987 Oldsmobile Firenza",
+          "1985\u20131986 Pontiac 6000",
+          "1985\u20131988 Pontiac Fiero",
+          "1985\u20131995 Pontiac Firebird",
+          "1985\u20131989 Pontiac Grand Am",
+          "1986\u20131987 Pontiac Grand Prix",
+          "1985\u20131986 Pontiac Parisienne",
+          "1991 Pontiac Sunbird"
+        ],
+        "raw_compat_rows": 1941,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "920114190735",
+        "type": "Ignition Coil",
+        "brand": "KEM",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Coils"
+      },
+      "images": [
+        "../assets/pdp-gallery/JB5RWD5CCLCAZHFLXZCN34IL/02.webp",
+        "../assets/pdp-gallery/JB5RWD5CCLCAZHFLXZCN34IL/03.webp",
+        "../assets/pdp-gallery/JB5RWD5CCLCAZHFLXZCN34IL/04.webp",
+        "../assets/pdp-gallery/JB5RWD5CCLCAZHFLXZCN34IL/05.webp"
+      ]
+    },
+    {
       "id": "K2JERWUOZ7NMVA3RHSTL4U4N",
       "name": "KEM 342H Ignition Coil 86-92 Buick Regal LeSabre Oldsmobile 88 3.8L",
       "price": 69.99,
@@ -49730,20 +50379,13 @@
       "category": "ignition",
       "checkout": true,
       "variation_id": "S3NGQCRD54OLBYYAZXSEOSOH",
-      "stock": 1,
       "part_numbers": [
         "W3112"
       ],
-      "interchange": [],
       "vehicles": [
         "1986\u20131995 Suzuki Samurai",
         "1989 Suzuki Sidekick"
       ],
-      "vehicle_count_raw": 20,
-      "ebay_item_id": "920113998509",
-      "ebay_type": "Distributor Cap",
-      "ebay_brand": "KEM",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -49785,11 +50427,18 @@
         "brand": "KEM",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps"
       },
+      "vehicle_count_raw": 20,
+      "ebay_item_id": "920113998509",
+      "ebay_type": "Distributor Cap",
+      "ebay_brand": "KEM",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps",
       "images": [
         "../assets/pdp-gallery/GNSSHPKXLS7PGZDBNILY3AHF/02.webp",
         "../assets/pdp-gallery/GNSSHPKXLS7PGZDBNILY3AHF/03.webp",
         "../assets/pdp-gallery/GNSSHPKXLS7PGZDBNILY3AHF/04.webp"
-      ]
+      ],
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "FPLMIWUZEASZDLBJRBE2WXG3",
@@ -118815,5 +119464,5 @@
       "vehicles": []
     }
   ],
-  "fitment_built": "2026-11-07T04:03:40Z"
+  "fitment_built": "2026-11-07T05:03:38Z"
 }
