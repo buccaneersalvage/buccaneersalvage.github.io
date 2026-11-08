@@ -1,7 +1,7 @@
 {
-  "updated": "2026-11-08T03:04:10Z",
+  "updated": "2026-11-08T05:03:56Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 879,
+  "count": 880,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -95620,6 +95620,365 @@
       "vehicles": []
     },
     {
+      "id": "XJOFDY6W2SA2CJJDTX2VQVRU",
+      "name": "KEM AR251 HVAC Blower Relay 84-99 Camaro Cavalier Blazer Jimmy",
+      "price": 14.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/a5f7a3932cc53f3942b807a07d78193bb3a138b9/original.jpeg",
+      "url": "https://square.link/u/f5VD1Mhr",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "VDXWQGUDGMEYTBYWVWHDOHYQ",
+      "stock": 1,
+      "part_numbers": [
+        "AR251"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1986\u20131989 Buick Electra",
+        "1986\u20131993 Buick LeSabre",
+        "1987\u20131989 Cadillac Allante",
+        "1988\u20131992 Cadillac Brougham",
+        "1986\u20131993 Cadillac DeVille",
+        "1988\u20131993 Cadillac Eldorado",
+        "1986\u20131993 Cadillac Fleetwood",
+        "1985\u20131993 Cadillac Seville",
+        "1988\u20131994 Chevrolet Blazer",
+        "1988\u20131999 Chevrolet C1500",
+        "1988\u20131999 Chevrolet C2500",
+        "1977 Chevrolet C30",
+        "1988\u20131999 Chevrolet C3500",
+        "1984\u20131992 Chevrolet Camaro",
+        "1988\u20131992 Chevrolet Cavalier",
+        "1984 Chevrolet Celebrity",
+        "1988\u20131999 Chevrolet K1500",
+        "1988\u20131999 Chevrolet K2500",
+        "1988\u20131994 Chevrolet K3500",
+        "1988 Chevrolet R10 Suburban",
+        "1988 Chevrolet R20 Suburban",
+        "1988 Chevrolet V10 Suburban",
+        "1988 Chevrolet V20 Suburban",
+        "1988\u20131994 GMC Jimmy",
+        "1988 GMC V1500 Suburban",
+        "1986\u20131993 Oldsmobile 98"
+      ],
+      "vehicle_count_raw": 3000,
+      "ebay_item_id": "920117272756",
+      "ebay_type": "HVAC Blower Relay",
+      "ebay_brand": "KEM",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air Conditioning & Heating:Blowers & Fans:HVAC Blower Motors & Wheels",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "AR251"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1986,
+            "year_to": 1989,
+            "make": "Buick",
+            "model": "Electra",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1986,
+            "year_to": 1993,
+            "make": "Buick",
+            "model": "LeSabre",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1989,
+            "make": "Cadillac",
+            "model": "Allante",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1988,
+            "year_to": 1992,
+            "make": "Cadillac",
+            "model": "Brougham",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1986,
+            "year_to": 1993,
+            "make": "Cadillac",
+            "model": "DeVille",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1988,
+            "year_to": 1993,
+            "make": "Cadillac",
+            "model": "Eldorado",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1986,
+            "year_to": 1993,
+            "make": "Cadillac",
+            "model": "Fleetwood",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1993,
+            "make": "Cadillac",
+            "model": "Seville",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1988,
+            "year_to": 1994,
+            "make": "Chevrolet",
+            "model": "Blazer",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1988,
+            "year_to": 1999,
+            "make": "Chevrolet",
+            "model": "C1500",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1988,
+            "year_to": 1999,
+            "make": "Chevrolet",
+            "model": "C2500",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1977,
+            "year_to": 1977,
+            "make": "Chevrolet",
+            "model": "C30",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1988,
+            "year_to": 1999,
+            "make": "Chevrolet",
+            "model": "C3500",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 1992,
+            "make": "Chevrolet",
+            "model": "Camaro",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1988,
+            "year_to": 1992,
+            "make": "Chevrolet",
+            "model": "Cavalier",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 1984,
+            "make": "Chevrolet",
+            "model": "Celebrity",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1988,
+            "year_to": 1999,
+            "make": "Chevrolet",
+            "model": "K1500",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1988,
+            "year_to": 1999,
+            "make": "Chevrolet",
+            "model": "K2500",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1988,
+            "year_to": 1994,
+            "make": "Chevrolet",
+            "model": "K3500",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1988,
+            "year_to": 1988,
+            "make": "Chevrolet",
+            "model": "R10 Suburban",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1988,
+            "year_to": 1988,
+            "make": "Chevrolet",
+            "model": "R20 Suburban",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1988,
+            "year_to": 1988,
+            "make": "Chevrolet",
+            "model": "V10 Suburban",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1988,
+            "year_to": 1988,
+            "make": "Chevrolet",
+            "model": "V20 Suburban",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1988,
+            "year_to": 1994,
+            "make": "GMC",
+            "model": "Jimmy",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1988,
+            "year_to": 1988,
+            "make": "GMC",
+            "model": "V1500 Suburban",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1986,
+            "year_to": 1993,
+            "make": "Oldsmobile",
+            "model": "98",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1986\u20131989 Buick Electra",
+          "1986\u20131993 Buick LeSabre",
+          "1987\u20131989 Cadillac Allante",
+          "1988\u20131992 Cadillac Brougham",
+          "1986\u20131993 Cadillac DeVille",
+          "1988\u20131993 Cadillac Eldorado",
+          "1986\u20131993 Cadillac Fleetwood",
+          "1985\u20131993 Cadillac Seville",
+          "1988\u20131994 Chevrolet Blazer",
+          "1988\u20131999 Chevrolet C1500",
+          "1988\u20131999 Chevrolet C2500",
+          "1977 Chevrolet C30",
+          "1988\u20131999 Chevrolet C3500",
+          "1984\u20131992 Chevrolet Camaro",
+          "1988\u20131992 Chevrolet Cavalier",
+          "1984 Chevrolet Celebrity",
+          "1988\u20131999 Chevrolet K1500",
+          "1988\u20131999 Chevrolet K2500",
+          "1988\u20131994 Chevrolet K3500",
+          "1988 Chevrolet R10 Suburban",
+          "1988 Chevrolet R20 Suburban",
+          "1988 Chevrolet V10 Suburban",
+          "1988 Chevrolet V20 Suburban",
+          "1988\u20131994 GMC Jimmy",
+          "1988 GMC V1500 Suburban",
+          "1986\u20131993 Oldsmobile 98"
+        ],
+        "raw_compat_rows": 3000,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "920117272756",
+        "type": "HVAC Blower Relay",
+        "brand": "KEM",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air Conditioning & Heating:Blowers & Fans:HVAC Blower Motors & Wheels"
+      },
+      "images": [
+        "../assets/pdp-gallery/XJOFDY6W2SA2CJJDTX2VQVRU/02.webp",
+        "../assets/pdp-gallery/XJOFDY6W2SA2CJJDTX2VQVRU/03.webp",
+        "../assets/pdp-gallery/XJOFDY6W2SA2CJJDTX2VQVRU/04.webp",
+        "../assets/pdp-gallery/XJOFDY6W2SA2CJJDTX2VQVRU/05.webp"
+      ]
+    },
+    {
       "id": "ROQEZYXDFB7ISAVC6P6UTJVF",
       "name": "KEM EG1091HD Stop Light Switch Firebird 1968-1985 Camaro Caprice",
       "price": 16.99,
@@ -120380,5 +120739,5 @@
       "vehicles": []
     }
   ],
-  "fitment_built": "2026-11-08T03:04:10Z"
+  "fitment_built": "2026-11-08T05:03:56Z"
 }
