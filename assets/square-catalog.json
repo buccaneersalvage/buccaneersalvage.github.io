@@ -1,7 +1,7 @@
 {
-  "updated": "2026-11-08T09:03:26Z",
+  "updated": "2026-11-08T17:03:22Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 883,
+  "count": 882,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -62637,11 +62637,9 @@
       "category": "ignition",
       "checkout": true,
       "variation_id": "64PYDYTXA7K26X22JCVU4H5F",
-      "stock": 1,
       "part_numbers": [
         "CH310T"
       ],
-      "interchange": [],
       "vehicles": [
         "1990\u20131991 Chrysler TC Maserati",
         "1990\u20131993 Dodge Daytona",
@@ -62656,11 +62654,6 @@
         "1989\u20131996 Mitsubishi Montero",
         "1989\u20131994 Plymouth Acclaim"
       ],
-      "vehicle_count_raw": 270,
-      "ebay_item_id": "920117608164",
-      "ebay_type": "Distributor Rotor",
-      "ebay_brand": "Tru-Tech",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -62812,11 +62805,18 @@
         "brand": "Tru-Tech",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors"
       },
+      "vehicle_count_raw": 270,
+      "ebay_item_id": "920117608164",
+      "ebay_type": "Distributor Rotor",
+      "ebay_brand": "Tru-Tech",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors",
       "images": [
         "../assets/pdp-gallery/Y73T4EJKFI5MJV6NLS6XDJRM/02.webp",
         "../assets/pdp-gallery/Y73T4EJKFI5MJV6NLS6XDJRM/03.webp",
         "../assets/pdp-gallery/Y73T4EJKFI5MJV6NLS6XDJRM/04.webp"
-      ]
+      ],
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "YI7TDRMI6U7DHCK6NN4DFEP5",
@@ -74904,15 +74904,6 @@
       "category": "other",
       "checkout": true,
       "variation_id": "E4GO43KMWS3YCEHHEECCB4GJ",
-      "stock": 1,
-      "part_numbers": [],
-      "interchange": [],
-      "vehicles": [],
-      "vehicle_count_raw": 0,
-      "ebay_item_id": "920117630233",
-      "ebay_type": "Water Heater Connector",
-      "ebay_brand": "Unbranded",
-      "ebay_category": "Home & Garden:Home Improvement:Heating, Cooling & Air:Water Heaters:Water Heater Parts",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "medium",
       "fitment": {
@@ -74928,10 +74919,19 @@
         "brand": "Unbranded",
         "ebay_category": "Home & Garden:Home Improvement:Heating, Cooling & Air:Water Heaters:Water Heater Parts"
       },
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "920117630233",
+      "ebay_type": "Water Heater Connector",
+      "ebay_brand": "Unbranded",
+      "ebay_category": "Home & Garden:Home Improvement:Heating, Cooling & Air:Water Heaters:Water Heater Parts",
       "images": [
         "../assets/pdp-gallery/ZO3LXFHWKQMMZKZNG5YV2US6/02.webp",
         "../assets/pdp-gallery/ZO3LXFHWKQMMZKZNG5YV2US6/03.webp"
-      ]
+      ],
+      "stock": 1,
+      "part_numbers": [],
+      "interchange": [],
+      "vehicles": []
     },
     {
       "id": "J4VDYNXAMHMZAKTBVT3PUEQR",
@@ -96418,21 +96418,14 @@
       "category": "other",
       "checkout": true,
       "variation_id": "Q3LLQD4SIBMJHWNMSEKUDKAR",
-      "stock": 1,
       "part_numbers": [
         "TW43",
         "TS-66, D1850A, 1T1011, 53-7727, TS6637, 25036035"
       ],
-      "interchange": [],
       "vehicles": [
         "1980\u20131982 AMC Concord",
         "1980\u20131992 GM AMC"
       ],
-      "vehicle_count_raw": 28,
-      "ebay_item_id": "920117610747",
-      "ebay_type": "Engine Coolant Temperature Sender",
-      "ebay_brand": "KEM Manufacturing",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Temperature Sensors",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -96475,10 +96468,17 @@
         "brand": "KEM Manufacturing",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Temperature Sensors"
       },
+      "vehicle_count_raw": 28,
+      "ebay_item_id": "920117610747",
+      "ebay_type": "Engine Coolant Temperature Sender",
+      "ebay_brand": "KEM Manufacturing",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Temperature Sensors",
       "images": [
         "../assets/pdp-gallery/2GLC2JVKPDISWFIYYKOPQW62/02.webp",
         "../assets/pdp-gallery/2GLC2JVKPDISWFIYYKOPQW62/03.webp"
-      ]
+      ],
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "GJIFPI534K4HI5EIB3KJBDAO",
@@ -105550,50 +105550,6 @@
         "../assets/pdp-gallery/UEGM432W64PSHSDLT7YRAXSR/03.webp",
         "../assets/pdp-gallery/UEGM432W64PSHSDLT7YRAXSR/04.webp",
         "../assets/pdp-gallery/UEGM432W64PSHSDLT7YRAXSR/05.webp"
-      ],
-      "stock": 1,
-      "interchange": [],
-      "vehicles": []
-    },
-    {
-      "id": "QG2J6GKV74YYHY3JZHSED2CH",
-      "name": "Samsung UN32EH4000 Used TV Stand Base Dusty with Screws 32 Inch Tabletop",
-      "price": 24.99,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/c597a5abfd4b1bc82c68219de9972b2ec9a1c906/original.jpeg",
-      "url": "https://square.link/u/zxjasxVz",
-      "category": "other",
-      "checkout": true,
-      "variation_id": "U64DFTCVCYHQKZLWH6PXFDMT",
-      "part_numbers": [
-        "UN32EH4000"
-      ],
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "medium",
-      "fitment": {
-        "part_numbers": [
-          "UN32EH4000"
-        ],
-        "interchange": [],
-        "vehicles": [],
-        "vehicle_labels": [],
-        "raw_compat_rows": 0,
-        "source": "ebay_listing",
-        "confidence": "medium",
-        "ebay_item_id": "920051463561",
-        "type": "TV Stand",
-        "brand": "Samsung",
-        "ebay_category": "Consumer Electronics:TV, Video & Home Audio:TV, Video & Audio Parts:TV Boards, Parts & Components"
-      },
-      "vehicle_count_raw": 0,
-      "ebay_item_id": "920051463561",
-      "ebay_type": "TV Stand",
-      "ebay_brand": "Samsung",
-      "ebay_category": "Consumer Electronics:TV, Video & Home Audio:TV, Video & Audio Parts:TV Boards, Parts & Components",
-      "images": [
-        "../assets/pdp-gallery/QG2J6GKV74YYHY3JZHSED2CH/02.webp",
-        "../assets/pdp-gallery/QG2J6GKV74YYHY3JZHSED2CH/03.webp",
-        "../assets/pdp-gallery/QG2J6GKV74YYHY3JZHSED2CH/04.webp",
-        "../assets/pdp-gallery/QG2J6GKV74YYHY3JZHSED2CH/05.webp"
       ],
       "stock": 1,
       "interchange": [],
@@ -121038,5 +120994,5 @@
       "vehicles": []
     }
   ],
-  "fitment_built": "2026-11-08T09:03:26Z"
+  "fitment_built": "2026-11-08T17:03:22Z"
 }
