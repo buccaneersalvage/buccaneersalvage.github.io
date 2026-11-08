@@ -1,7 +1,7 @@
 {
-  "updated": "2026-11-08T06:03:23Z",
+  "updated": "2026-11-08T08:03:46Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 880,
+  "count": 883,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -62629,6 +62629,196 @@
       "interchange": []
     },
     {
+      "id": "Y73T4EJKFI5MJV6NLS6XDJRM",
+      "name": "Tru-Tech CH310T Distributor Rotor 2.5L 3.0L Grand Caravan 1988-2000",
+      "price": 15.0,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/0a0b6720c0fda3832785f80d25d12c0b77c9dc49/original.jpeg",
+      "url": "https://square.link/u/TnfxN54b",
+      "category": "ignition",
+      "checkout": true,
+      "variation_id": "64PYDYTXA7K26X22JCVU4H5F",
+      "stock": 1,
+      "part_numbers": [
+        "CH310T"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1990\u20131991 Chrysler TC Maserati",
+        "1990\u20131993 Dodge Daytona",
+        "1988\u20131993 Dodge Dynasty",
+        "1988\u20132000 Dodge Grand Caravan",
+        "1992\u20131994 Dodge Shadow",
+        "1989\u20131995 Dodge Spirit",
+        "1991\u20131996 Dodge Stealth",
+        "1990\u20131998 Hyundai Sonata",
+        "1992\u20131996 Mitsubishi Diamante",
+        "1990\u20131994 Mitsubishi Mighty Max",
+        "1989\u20131996 Mitsubishi Montero",
+        "1989\u20131994 Plymouth Acclaim"
+      ],
+      "vehicle_count_raw": 270,
+      "ebay_item_id": "920117608164",
+      "ebay_type": "Distributor Rotor",
+      "ebay_brand": "Tru-Tech",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "CH310T"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1990,
+            "year_to": 1991,
+            "make": "Chrysler",
+            "model": "TC Maserati",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1990,
+            "year_to": 1993,
+            "make": "Dodge",
+            "model": "Daytona",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1988,
+            "year_to": 1993,
+            "make": "Dodge",
+            "model": "Dynasty",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1988,
+            "year_to": 2000,
+            "make": "Dodge",
+            "model": "Grand Caravan",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1992,
+            "year_to": 1994,
+            "make": "Dodge",
+            "model": "Shadow",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1989,
+            "year_to": 1995,
+            "make": "Dodge",
+            "model": "Spirit",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1991,
+            "year_to": 1996,
+            "make": "Dodge",
+            "model": "Stealth",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1990,
+            "year_to": 1998,
+            "make": "Hyundai",
+            "model": "Sonata",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1992,
+            "year_to": 1996,
+            "make": "Mitsubishi",
+            "model": "Diamante",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1990,
+            "year_to": 1994,
+            "make": "Mitsubishi",
+            "model": "Mighty Max",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1989,
+            "year_to": 1996,
+            "make": "Mitsubishi",
+            "model": "Montero",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1989,
+            "year_to": 1994,
+            "make": "Plymouth",
+            "model": "Acclaim",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1990\u20131991 Chrysler TC Maserati",
+          "1990\u20131993 Dodge Daytona",
+          "1988\u20131993 Dodge Dynasty",
+          "1988\u20132000 Dodge Grand Caravan",
+          "1992\u20131994 Dodge Shadow",
+          "1989\u20131995 Dodge Spirit",
+          "1991\u20131996 Dodge Stealth",
+          "1990\u20131998 Hyundai Sonata",
+          "1992\u20131996 Mitsubishi Diamante",
+          "1990\u20131994 Mitsubishi Mighty Max",
+          "1989\u20131996 Mitsubishi Montero",
+          "1989\u20131994 Plymouth Acclaim"
+        ],
+        "raw_compat_rows": 270,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "920117608164",
+        "type": "Distributor Rotor",
+        "brand": "Tru-Tech",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors"
+      },
+      "images": [
+        "../assets/pdp-gallery/Y73T4EJKFI5MJV6NLS6XDJRM/02.webp",
+        "../assets/pdp-gallery/Y73T4EJKFI5MJV6NLS6XDJRM/03.webp",
+        "../assets/pdp-gallery/Y73T4EJKFI5MJV6NLS6XDJRM/04.webp"
+      ]
+    },
+    {
       "id": "YI7TDRMI6U7DHCK6NN4DFEP5",
       "name": "Wells 780411 Spark Plug Wire Set 7MM 3 Cyl Sprint Firefly NOS",
       "price": 40.99,
@@ -74704,6 +74894,44 @@
       "part_numbers": [],
       "interchange": [],
       "vehicles": []
+    },
+    {
+      "id": "ZO3LXFHWKQMMZKZNG5YV2US6",
+      "name": "Corrugated Stainless Steel Water Heater Connector Flex Hose FIP Used",
+      "price": 12.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/77cf45f7d4fade13d98451a68bd6f7d0714a9fd2/original.jpeg",
+      "url": "https://square.link/u/v77zperS",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "E4GO43KMWS3YCEHHEECCB4GJ",
+      "stock": 1,
+      "part_numbers": [],
+      "interchange": [],
+      "vehicles": [],
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "920117630233",
+      "ebay_type": "Water Heater Connector",
+      "ebay_brand": "Unbranded",
+      "ebay_category": "Home & Garden:Home Improvement:Heating, Cooling & Air:Water Heaters:Water Heater Parts",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "medium",
+      "fitment": {
+        "part_numbers": [],
+        "interchange": [],
+        "vehicles": [],
+        "vehicle_labels": [],
+        "raw_compat_rows": 0,
+        "source": "ebay_listing",
+        "confidence": "medium",
+        "ebay_item_id": "920117630233",
+        "type": "Water Heater Connector",
+        "brand": "Unbranded",
+        "ebay_category": "Home & Garden:Home Improvement:Heating, Cooling & Air:Water Heaters:Water Heater Parts"
+      },
+      "images": [
+        "../assets/pdp-gallery/ZO3LXFHWKQMMZKZNG5YV2US6/02.webp",
+        "../assets/pdp-gallery/ZO3LXFHWKQMMZKZNG5YV2US6/03.webp"
+      ]
     },
     {
       "id": "J4VDYNXAMHMZAKTBVT3PUEQR",
@@ -95628,11 +95856,9 @@
       "category": "other",
       "checkout": true,
       "variation_id": "VDXWQGUDGMEYTBYWVWHDOHYQ",
-      "stock": 1,
       "part_numbers": [
         "AR251"
       ],
-      "interchange": [],
       "vehicles": [
         "1986\u20131989 Buick Electra",
         "1986\u20131993 Buick LeSabre",
@@ -95661,11 +95887,6 @@
         "1988 GMC V1500 Suburban",
         "1986\u20131993 Oldsmobile 98"
       ],
-      "vehicle_count_raw": 3000,
-      "ebay_item_id": "920117272756",
-      "ebay_type": "HVAC Blower Relay",
-      "ebay_brand": "KEM",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air Conditioning & Heating:Blowers & Fans:HVAC Blower Motors & Wheels",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -95971,12 +96192,19 @@
         "brand": "KEM",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air Conditioning & Heating:Blowers & Fans:HVAC Blower Motors & Wheels"
       },
+      "vehicle_count_raw": 3000,
+      "ebay_item_id": "920117272756",
+      "ebay_type": "HVAC Blower Relay",
+      "ebay_brand": "KEM",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air Conditioning & Heating:Blowers & Fans:HVAC Blower Motors & Wheels",
       "images": [
         "../assets/pdp-gallery/XJOFDY6W2SA2CJJDTX2VQVRU/02.webp",
         "../assets/pdp-gallery/XJOFDY6W2SA2CJJDTX2VQVRU/03.webp",
         "../assets/pdp-gallery/XJOFDY6W2SA2CJJDTX2VQVRU/04.webp",
         "../assets/pdp-gallery/XJOFDY6W2SA2CJJDTX2VQVRU/05.webp"
-      ]
+      ],
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "ROQEZYXDFB7ISAVC6P6UTJVF",
@@ -96180,6 +96408,77 @@
       ],
       "stock": 1,
       "interchange": []
+    },
+    {
+      "id": "2GLC2JVKPDISWFIYYKOPQW62",
+      "name": "KEM Manufacturing TW43 Engine Coolant Temperature Sender Fits GM AMC 1980-92",
+      "price": 14.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/099eeb867a1d0f98e3724f6159056a2500221f87/original.jpeg",
+      "url": "https://square.link/u/XImsHxKv",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "Q3LLQD4SIBMJHWNMSEKUDKAR",
+      "stock": 1,
+      "part_numbers": [
+        "TW43",
+        "TS-66, D1850A, 1T1011, 53-7727, TS6637, 25036035"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1980\u20131982 AMC Concord",
+        "1980\u20131992 GM AMC"
+      ],
+      "vehicle_count_raw": 28,
+      "ebay_item_id": "920117610747",
+      "ebay_type": "Engine Coolant Temperature Sender",
+      "ebay_brand": "KEM Manufacturing",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Temperature Sensors",
+      "fitment_source": "ebay_listing+title",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "TW43",
+          "TS-66, D1850A, 1T1011, 53-7727, TS6637, 25036035"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1980,
+            "year_to": 1982,
+            "make": "AMC",
+            "model": "Concord",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1980,
+            "year_to": 1992,
+            "make": "GM",
+            "model": "AMC",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1980\u20131982 AMC Concord",
+          "1980\u20131992 GM AMC"
+        ],
+        "raw_compat_rows": 28,
+        "source": "ebay_listing+title",
+        "confidence": "high",
+        "ebay_item_id": "920117610747",
+        "type": "Engine Coolant Temperature Sender",
+        "brand": "KEM Manufacturing",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Temperature Sensors"
+      },
+      "images": [
+        "../assets/pdp-gallery/2GLC2JVKPDISWFIYYKOPQW62/02.webp",
+        "../assets/pdp-gallery/2GLC2JVKPDISWFIYYKOPQW62/03.webp"
+      ]
     },
     {
       "id": "GJIFPI534K4HI5EIB3KJBDAO",
@@ -120739,5 +121038,5 @@
       "vehicles": []
     }
   ],
-  "fitment_built": "2026-11-08T06:03:23Z"
+  "fitment_built": "2026-11-08T08:03:46Z"
 }
