@@ -1,7 +1,7 @@
 {
-  "updated": "2026-11-08T02:03:36Z",
+  "updated": "2026-11-08T03:04:10Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 880,
+  "count": 879,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -27511,17 +27511,9 @@
       "category": "brake",
       "checkout": true,
       "variation_id": "JSNLEMDNDEMKJSICVG2F7DG7",
-      "stock": 1,
       "part_numbers": [
         "EG1071"
       ],
-      "interchange": [],
-      "vehicles": [],
-      "vehicle_count_raw": 0,
-      "ebay_item_id": "920116939075",
-      "ebay_type": "Stoplight Switch",
-      "ebay_brand": "KEM",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Additional Brake Sensors & Switches",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "medium",
       "fitment": {
@@ -27539,12 +27531,20 @@
         "brand": "KEM",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Additional Brake Sensors & Switches"
       },
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "920116939075",
+      "ebay_type": "Stoplight Switch",
+      "ebay_brand": "KEM",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Additional Brake Sensors & Switches",
       "images": [
         "../assets/pdp-gallery/YXPS7V2WIIVZFC7V4BEPEJRB/02.webp",
         "../assets/pdp-gallery/YXPS7V2WIIVZFC7V4BEPEJRB/03.webp",
         "../assets/pdp-gallery/YXPS7V2WIIVZFC7V4BEPEJRB/04.webp",
         "../assets/pdp-gallery/YXPS7V2WIIVZFC7V4BEPEJRB/05.webp"
-      ]
+      ],
+      "stock": 1,
+      "interchange": [],
+      "vehicles": []
     },
     {
       "id": "AY6IRRZZJKM42KV3PSO6YDHV",
@@ -50536,7 +50536,6 @@
       "category": "ignition",
       "checkout": true,
       "variation_id": "K6BGMULQFBXK4BG26ZC2RZIK",
-      "stock": 1,
       "part_numbers": [
         "W2054X",
         "JR121T, EP855, 4R1044"
@@ -50548,11 +50547,6 @@
       "vehicles": [
         "1989\u20131992 Chevrolet Sprint"
       ],
-      "vehicle_count_raw": 22,
-      "ebay_item_id": "920116957226",
-      "ebay_type": "Distributor Rotor",
-      "ebay_brand": "KEM",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -50587,11 +50581,17 @@
         "brand": "KEM",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors"
       },
+      "vehicle_count_raw": 22,
+      "ebay_item_id": "920116957226",
+      "ebay_type": "Distributor Rotor",
+      "ebay_brand": "KEM",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors",
       "images": [
         "../assets/pdp-gallery/CGZNUPLTZRCFJZVDDBHOIWQD/02.webp",
         "../assets/pdp-gallery/CGZNUPLTZRCFJZVDDBHOIWQD/03.webp",
         "../assets/pdp-gallery/CGZNUPLTZRCFJZVDDBHOIWQD/04.webp"
-      ]
+      ],
+      "stock": 1
     },
     {
       "id": "RZJHG2KBCGAT5IGXHRUUMJJO",
@@ -50602,7 +50602,6 @@
       "category": "ignition",
       "checkout": true,
       "variation_id": "GCWEHUJI4RE2NLHXIVNYPH6L",
-      "stock": 1,
       "part_numbers": [
         "W3022"
       ],
@@ -50614,11 +50613,6 @@
       "vehicles": [
         "1987\u20131989 Isuzu I-Mark"
       ],
-      "vehicle_count_raw": 7,
-      "ebay_item_id": "920116942704",
-      "ebay_type": "Distributor Cap",
-      "ebay_brand": "KEM",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -50653,12 +50647,18 @@
         "brand": "KEM",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps"
       },
+      "vehicle_count_raw": 7,
+      "ebay_item_id": "920116942704",
+      "ebay_type": "Distributor Cap",
+      "ebay_brand": "KEM",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps",
       "images": [
         "../assets/pdp-gallery/RZJHG2KBCGAT5IGXHRUUMJJO/02.webp",
         "../assets/pdp-gallery/RZJHG2KBCGAT5IGXHRUUMJJO/03.webp",
         "../assets/pdp-gallery/RZJHG2KBCGAT5IGXHRUUMJJO/04.webp",
         "../assets/pdp-gallery/RZJHG2KBCGAT5IGXHRUUMJJO/05.webp"
-      ]
+      ],
+      "stock": 1
     },
     {
       "id": "FH7D3KEJP3FU2GBI2OYXIEHB",
@@ -50669,7 +50669,6 @@
       "category": "ignition",
       "checkout": true,
       "variation_id": "VPJCDBQFJO4GC7WT55KD33DC",
-      "stock": 1,
       "part_numbers": [
         "W3058",
         "W3056, E338A, 174-6918, 174-6939",
@@ -50688,11 +50687,6 @@
         "1991\u20131994 Nissan Ichi Van",
         "1995\u20131996 Nissan Pickup"
       ],
-      "vehicle_count_raw": 40,
-      "ebay_item_id": "920116944382",
-      "ebay_type": "Distributor Cap",
-      "ebay_brand": "KEM",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -50764,11 +50758,17 @@
         "brand": "KEM",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps"
       },
+      "vehicle_count_raw": 40,
+      "ebay_item_id": "920116944382",
+      "ebay_type": "Distributor Cap",
+      "ebay_brand": "KEM",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps",
       "images": [
         "../assets/pdp-gallery/FH7D3KEJP3FU2GBI2OYXIEHB/02.webp",
         "../assets/pdp-gallery/FH7D3KEJP3FU2GBI2OYXIEHB/03.webp",
         "../assets/pdp-gallery/FH7D3KEJP3FU2GBI2OYXIEHB/04.webp"
-      ]
+      ],
+      "stock": 1
     },
     {
       "id": "GNSSHPKXLS7PGZDBNILY3AHF",
@@ -95628,12 +95628,10 @@
       "category": "other",
       "checkout": true,
       "variation_id": "PTPPCLLPO57TURYMSKV2EILV",
-      "stock": 1,
       "part_numbers": [
         "EG1091HD",
         "SLS-159, SL186, S870, 25524845"
       ],
-      "interchange": [],
       "vehicles": [
         "1971\u20131985 Buick LeSabre",
         "1973\u20131985 Buick Regal",
@@ -95649,11 +95647,6 @@
         "1968\u20131985 Pontiac Firebird",
         "1968\u20131985 Pontiac Grand Prix"
       ],
-      "vehicle_count_raw": 2997,
-      "ebay_item_id": "920116946634",
-      "ebay_type": "Stoplight Switch",
-      "ebay_brand": "KEM",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Additional Brake Sensors & Switches",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -95817,10 +95810,17 @@
         "brand": "KEM",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Additional Brake Sensors & Switches"
       },
+      "vehicle_count_raw": 2997,
+      "ebay_item_id": "920116946634",
+      "ebay_type": "Stoplight Switch",
+      "ebay_brand": "KEM",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Additional Brake Sensors & Switches",
       "images": [
         "../assets/pdp-gallery/ROQEZYXDFB7ISAVC6P6UTJVF/02.webp",
         "../assets/pdp-gallery/ROQEZYXDFB7ISAVC6P6UTJVF/03.webp"
-      ]
+      ],
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "GJIFPI534K4HI5EIB3KJBDAO",
@@ -111866,211 +111866,6 @@
       "interchange": []
     },
     {
-      "id": "66S6DE2D4E5L3ZMLR2KVIGFX",
-      "name": "Standard PS-60 Oil Pressure Switch NOS 67-87 Mustang",
-      "price": 17.99,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/7c6a42358cb33207ef2449fd0df97f798824a00c/original.jpeg",
-      "url": "https://square.link/u/vIlvVAel",
-      "category": "other",
-      "checkout": true,
-      "variation_id": "22PPXAMXR2ER2KTUD6BVEIJA",
-      "part_numbers": [
-        "PS-60",
-        "PS60"
-      ],
-      "vehicles": [
-        "1986\u20131987 Ford Aerostar",
-        "1970\u20131988 Ford Bronco",
-        "1985\u20131986 Ford Bronco II",
-        "1965\u20131974 Ford Country Sedan",
-        "1964\u20131974 Ford Country Squire",
-        "1964\u20131972 Ford Custom",
-        "1969\u20131973 Ford E-200 Econoline",
-        "1970\u20131974 Ford E-300 Econoline",
-        "1967 Ford Econoline",
-        "1960\u20131983 Ford F-100",
-        "1975\u20131987 Ford F-150",
-        "1960\u20131987 Ford F-250",
-        "1960\u20131968 Ford F-350"
-      ],
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "high",
-      "fitment": {
-        "part_numbers": [
-          "PS-60",
-          "PS60"
-        ],
-        "interchange": [],
-        "vehicles": [
-          {
-            "year_from": 1986,
-            "year_to": 1987,
-            "make": "Ford",
-            "model": "Aerostar",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1970,
-            "year_to": 1988,
-            "make": "Ford",
-            "model": "Bronco",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1985,
-            "year_to": 1986,
-            "make": "Ford",
-            "model": "Bronco II",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1965,
-            "year_to": 1974,
-            "make": "Ford",
-            "model": "Country Sedan",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1964,
-            "year_to": 1974,
-            "make": "Ford",
-            "model": "Country Squire",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1964,
-            "year_to": 1972,
-            "make": "Ford",
-            "model": "Custom",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1969,
-            "year_to": 1973,
-            "make": "Ford",
-            "model": "E-200 Econoline",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1970,
-            "year_to": 1974,
-            "make": "Ford",
-            "model": "E-300 Econoline",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1967,
-            "year_to": 1967,
-            "make": "Ford",
-            "model": "Econoline",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1960,
-            "year_to": 1983,
-            "make": "Ford",
-            "model": "F-100",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1975,
-            "year_to": 1987,
-            "make": "Ford",
-            "model": "F-150",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1960,
-            "year_to": 1987,
-            "make": "Ford",
-            "model": "F-250",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1960,
-            "year_to": 1968,
-            "make": "Ford",
-            "model": "F-350",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          }
-        ],
-        "vehicle_labels": [
-          "1986\u20131987 Ford Aerostar",
-          "1970\u20131988 Ford Bronco",
-          "1985\u20131986 Ford Bronco II",
-          "1965\u20131974 Ford Country Sedan",
-          "1964\u20131974 Ford Country Squire",
-          "1964\u20131972 Ford Custom",
-          "1969\u20131973 Ford E-200 Econoline",
-          "1970\u20131974 Ford E-300 Econoline",
-          "1967 Ford Econoline",
-          "1960\u20131983 Ford F-100",
-          "1975\u20131987 Ford F-150",
-          "1960\u20131987 Ford F-250",
-          "1960\u20131968 Ford F-350"
-        ],
-        "raw_compat_rows": 3000,
-        "source": "ebay_listing",
-        "confidence": "high",
-        "ebay_item_id": "398346979367",
-        "type": "Oil Pressure Switch",
-        "brand": "Standard Motor Products",
-        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Engine Sensors & Switches"
-      },
-      "vehicle_count_raw": 3000,
-      "ebay_item_id": "398346979367",
-      "ebay_type": "Oil Pressure Switch",
-      "ebay_brand": "Standard Motor Products",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Engine Sensors & Switches",
-      "images": [
-        "../assets/pdp-gallery/66S6DE2D4E5L3ZMLR2KVIGFX/02.webp",
-        "../assets/pdp-gallery/66S6DE2D4E5L3ZMLR2KVIGFX/03.webp",
-        "../assets/pdp-gallery/66S6DE2D4E5L3ZMLR2KVIGFX/04.webp",
-        "../assets/pdp-gallery/66S6DE2D4E5L3ZMLR2KVIGFX/05.webp"
-      ],
-      "stock": 1,
-      "interchange": []
-    },
-    {
       "id": "EXOXMURO33DJ3CQ25LXVBO5G",
       "name": "Standard PS205 Oil Pressure Switch 1987 Daytona Shelby NOS",
       "price": 27.74,
@@ -120585,5 +120380,5 @@
       "vehicles": []
     }
   ],
-  "fitment_built": "2026-11-08T02:03:36Z"
+  "fitment_built": "2026-11-08T03:04:10Z"
 }
