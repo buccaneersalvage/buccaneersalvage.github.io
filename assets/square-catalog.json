@@ -1,7 +1,7 @@
 {
-  "updated": "2026-11-08T00:03:31Z",
+  "updated": "2026-11-08T02:03:36Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 875,
+  "count": 880,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -27503,6 +27503,50 @@
       "interchange": []
     },
     {
+      "id": "YXPS7V2WIIVZFC7V4BEPEJRB",
+      "name": "KEM EG1071 Stoplight Switch Brake Light Lever Roller 2-Pin Zinc Bracket",
+      "price": 12.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/d2530b6bb10c757968d6025e4c8de8c3bbcc6247/original.jpeg",
+      "url": "https://square.link/u/7qAlruFa",
+      "category": "brake",
+      "checkout": true,
+      "variation_id": "JSNLEMDNDEMKJSICVG2F7DG7",
+      "stock": 1,
+      "part_numbers": [
+        "EG1071"
+      ],
+      "interchange": [],
+      "vehicles": [],
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "920116939075",
+      "ebay_type": "Stoplight Switch",
+      "ebay_brand": "KEM",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Additional Brake Sensors & Switches",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "medium",
+      "fitment": {
+        "part_numbers": [
+          "EG1071"
+        ],
+        "interchange": [],
+        "vehicles": [],
+        "vehicle_labels": [],
+        "raw_compat_rows": 0,
+        "source": "ebay_listing",
+        "confidence": "medium",
+        "ebay_item_id": "920116939075",
+        "type": "Stoplight Switch",
+        "brand": "KEM",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Additional Brake Sensors & Switches"
+      },
+      "images": [
+        "../assets/pdp-gallery/YXPS7V2WIIVZFC7V4BEPEJRB/02.webp",
+        "../assets/pdp-gallery/YXPS7V2WIIVZFC7V4BEPEJRB/03.webp",
+        "../assets/pdp-gallery/YXPS7V2WIIVZFC7V4BEPEJRB/04.webp",
+        "../assets/pdp-gallery/YXPS7V2WIIVZFC7V4BEPEJRB/05.webp"
+      ]
+    },
+    {
       "id": "AY6IRRZZJKM42KV3PSO6YDHV",
       "name": "Lee 7071 Drum Brake Hardware Kit NOS 75-96 F-150 Bronco",
       "price": 12.99,
@@ -50482,6 +50526,249 @@
         "../assets/pdp-gallery/K2JERWUOZ7NMVA3RHSTL4U4N/07.webp"
       ],
       "stock": 1
+    },
+    {
+      "id": "CGZNUPLTZRCFJZVDDBHOIWQD",
+      "name": "KEM W2054X Distributor Rotor 1.0L 3-Cyl 89-92 Chevrolet Sprint",
+      "price": 12.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/1ddf4507b873603d06d701a0fc555aac8f6983ae/original.jpeg",
+      "url": "https://square.link/u/vzi8DRCU",
+      "category": "ignition",
+      "checkout": true,
+      "variation_id": "K6BGMULQFBXK4BG26ZC2RZIK",
+      "stock": 1,
+      "part_numbers": [
+        "W2054X",
+        "JR121T, EP855, 4R1044"
+      ],
+      "interchange": [
+        "JR-121",
+        "173-7960"
+      ],
+      "vehicles": [
+        "1989\u20131992 Chevrolet Sprint"
+      ],
+      "vehicle_count_raw": 22,
+      "ebay_item_id": "920116957226",
+      "ebay_type": "Distributor Rotor",
+      "ebay_brand": "KEM",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "W2054X",
+          "JR121T, EP855, 4R1044"
+        ],
+        "interchange": [
+          "JR-121",
+          "173-7960"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1989,
+            "year_to": 1992,
+            "make": "Chevrolet",
+            "model": "Sprint",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1989\u20131992 Chevrolet Sprint"
+        ],
+        "raw_compat_rows": 22,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "920116957226",
+        "type": "Distributor Rotor",
+        "brand": "KEM",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors"
+      },
+      "images": [
+        "../assets/pdp-gallery/CGZNUPLTZRCFJZVDDBHOIWQD/02.webp",
+        "../assets/pdp-gallery/CGZNUPLTZRCFJZVDDBHOIWQD/03.webp",
+        "../assets/pdp-gallery/CGZNUPLTZRCFJZVDDBHOIWQD/04.webp"
+      ]
+    },
+    {
+      "id": "RZJHG2KBCGAT5IGXHRUUMJJO",
+      "name": "KEM W3022 Import Distributor Cap 1986-1989 I-Mark 1.5",
+      "price": 12.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/8e0a350612a51f77e7cf8b5fba22d926cb27196f/original.jpeg",
+      "url": "https://square.link/u/LPB1dDaZ",
+      "category": "ignition",
+      "checkout": true,
+      "variation_id": "GCWEHUJI4RE2NLHXIVNYPH6L",
+      "stock": 1,
+      "part_numbers": [
+        "W3022"
+      ],
+      "interchange": [
+        "JH158",
+        "8944045600",
+        "D378A"
+      ],
+      "vehicles": [
+        "1987\u20131989 Isuzu I-Mark"
+      ],
+      "vehicle_count_raw": 7,
+      "ebay_item_id": "920116942704",
+      "ebay_type": "Distributor Cap",
+      "ebay_brand": "KEM",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "W3022"
+        ],
+        "interchange": [
+          "JH158",
+          "8944045600",
+          "D378A"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1987,
+            "year_to": 1989,
+            "make": "Isuzu",
+            "model": "I-Mark",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1987\u20131989 Isuzu I-Mark"
+        ],
+        "raw_compat_rows": 7,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "920116942704",
+        "type": "Distributor Cap",
+        "brand": "KEM",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps"
+      },
+      "images": [
+        "../assets/pdp-gallery/RZJHG2KBCGAT5IGXHRUUMJJO/02.webp",
+        "../assets/pdp-gallery/RZJHG2KBCGAT5IGXHRUUMJJO/03.webp",
+        "../assets/pdp-gallery/RZJHG2KBCGAT5IGXHRUUMJJO/04.webp",
+        "../assets/pdp-gallery/RZJHG2KBCGAT5IGXHRUUMJJO/05.webp"
+      ]
+    },
+    {
+      "id": "FH7D3KEJP3FU2GBI2OYXIEHB",
+      "name": "KEM W3058 Distributor Cap 2.4 89-90 240SX 86-88 Sentra 95-96 Pickup 90-94 D21",
+      "price": 14.79,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/e7a0344ceea3275beb647f1d8208793bfccfa8f2/original.jpeg",
+      "url": "https://square.link/u/HXH5pQnT",
+      "category": "ignition",
+      "checkout": true,
+      "variation_id": "VPJCDBQFJO4GC7WT55KD33DC",
+      "stock": 1,
+      "part_numbers": [
+        "W3058",
+        "W3056, E338A, 174-6918, 174-6939",
+        "2216223G15, 2216240F10, 2216278A10, 22162AA040"
+      ],
+      "interchange": [
+        "JH-180",
+        "C672",
+        "JP910",
+        "03327",
+        "5D1242"
+      ],
+      "vehicles": [
+        "1989\u20131990 Nissan 240SX",
+        "1990\u20131994 Nissan D21",
+        "1991\u20131994 Nissan Ichi Van",
+        "1995\u20131996 Nissan Pickup"
+      ],
+      "vehicle_count_raw": 40,
+      "ebay_item_id": "920116944382",
+      "ebay_type": "Distributor Cap",
+      "ebay_brand": "KEM",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "W3058",
+          "W3056, E338A, 174-6918, 174-6939",
+          "2216223G15, 2216240F10, 2216278A10, 22162AA040"
+        ],
+        "interchange": [
+          "JH-180",
+          "C672",
+          "JP910",
+          "03327",
+          "5D1242"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1989,
+            "year_to": 1990,
+            "make": "Nissan",
+            "model": "240SX",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1990,
+            "year_to": 1994,
+            "make": "Nissan",
+            "model": "D21",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1991,
+            "year_to": 1994,
+            "make": "Nissan",
+            "model": "Ichi Van",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1995,
+            "year_to": 1996,
+            "make": "Nissan",
+            "model": "Pickup",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1989\u20131990 Nissan 240SX",
+          "1990\u20131994 Nissan D21",
+          "1991\u20131994 Nissan Ichi Van",
+          "1995\u20131996 Nissan Pickup"
+        ],
+        "raw_compat_rows": 40,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "920116944382",
+        "type": "Distributor Cap",
+        "brand": "KEM",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps"
+      },
+      "images": [
+        "../assets/pdp-gallery/FH7D3KEJP3FU2GBI2OYXIEHB/02.webp",
+        "../assets/pdp-gallery/FH7D3KEJP3FU2GBI2OYXIEHB/03.webp",
+        "../assets/pdp-gallery/FH7D3KEJP3FU2GBI2OYXIEHB/04.webp"
+      ]
     },
     {
       "id": "GNSSHPKXLS7PGZDBNILY3AHF",
@@ -95333,6 +95620,209 @@
       "vehicles": []
     },
     {
+      "id": "ROQEZYXDFB7ISAVC6P6UTJVF",
+      "name": "KEM EG1091HD Stop Light Switch Firebird 1968-1985 Camaro Caprice",
+      "price": 16.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/d3d4aebee6a0916ced8cd97afee5e1a9c393c71d/original.jpeg",
+      "url": "https://square.link/u/wde5nobc",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "PTPPCLLPO57TURYMSKV2EILV",
+      "stock": 1,
+      "part_numbers": [
+        "EG1091HD",
+        "SLS-159, SL186, S870, 25524845"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1971\u20131985 Buick LeSabre",
+        "1973\u20131985 Buick Regal",
+        "1975\u20131985 Cadillac DeVille",
+        "1967\u20131986 Chevrolet Camaro",
+        "1967\u20131986 Chevrolet Caprice",
+        "1982\u20131986 Chevrolet Cavalier",
+        "1964\u20131973 Chevrolet Chevelle",
+        "1967\u20131986 Chevrolet El Camino",
+        "1970\u20131986 Chevrolet Monte Carlo",
+        "1969\u20131977 Chevrolet Nova",
+        "1968\u20131985 Oldsmobile Cutlass Supreme",
+        "1968\u20131985 Pontiac Firebird",
+        "1968\u20131985 Pontiac Grand Prix"
+      ],
+      "vehicle_count_raw": 2997,
+      "ebay_item_id": "920116946634",
+      "ebay_type": "Stoplight Switch",
+      "ebay_brand": "KEM",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Additional Brake Sensors & Switches",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "EG1091HD",
+          "SLS-159, SL186, S870, 25524845"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1971,
+            "year_to": 1985,
+            "make": "Buick",
+            "model": "LeSabre",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1973,
+            "year_to": 1985,
+            "make": "Buick",
+            "model": "Regal",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1975,
+            "year_to": 1985,
+            "make": "Cadillac",
+            "model": "DeVille",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1967,
+            "year_to": 1986,
+            "make": "Chevrolet",
+            "model": "Camaro",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1967,
+            "year_to": 1986,
+            "make": "Chevrolet",
+            "model": "Caprice",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1982,
+            "year_to": 1986,
+            "make": "Chevrolet",
+            "model": "Cavalier",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1964,
+            "year_to": 1973,
+            "make": "Chevrolet",
+            "model": "Chevelle",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1967,
+            "year_to": 1986,
+            "make": "Chevrolet",
+            "model": "El Camino",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1970,
+            "year_to": 1986,
+            "make": "Chevrolet",
+            "model": "Monte Carlo",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1969,
+            "year_to": 1977,
+            "make": "Chevrolet",
+            "model": "Nova",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1968,
+            "year_to": 1985,
+            "make": "Oldsmobile",
+            "model": "Cutlass Supreme",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1968,
+            "year_to": 1985,
+            "make": "Pontiac",
+            "model": "Firebird",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1968,
+            "year_to": 1985,
+            "make": "Pontiac",
+            "model": "Grand Prix",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1971\u20131985 Buick LeSabre",
+          "1973\u20131985 Buick Regal",
+          "1975\u20131985 Cadillac DeVille",
+          "1967\u20131986 Chevrolet Camaro",
+          "1967\u20131986 Chevrolet Caprice",
+          "1982\u20131986 Chevrolet Cavalier",
+          "1964\u20131973 Chevrolet Chevelle",
+          "1967\u20131986 Chevrolet El Camino",
+          "1970\u20131986 Chevrolet Monte Carlo",
+          "1969\u20131977 Chevrolet Nova",
+          "1968\u20131985 Oldsmobile Cutlass Supreme",
+          "1968\u20131985 Pontiac Firebird",
+          "1968\u20131985 Pontiac Grand Prix"
+        ],
+        "raw_compat_rows": 2997,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "920116946634",
+        "type": "Stoplight Switch",
+        "brand": "KEM",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Additional Brake Sensors & Switches"
+      },
+      "images": [
+        "../assets/pdp-gallery/ROQEZYXDFB7ISAVC6P6UTJVF/02.webp",
+        "../assets/pdp-gallery/ROQEZYXDFB7ISAVC6P6UTJVF/03.webp"
+      ]
+    },
+    {
       "id": "GJIFPI534K4HI5EIB3KJBDAO",
       "name": "KW DA-20 Voltage Regulator NOS 55-60 Chevy Truck AMC Jeep",
       "price": 79.99,
@@ -120095,5 +120585,5 @@
       "vehicles": []
     }
   ],
-  "fitment_built": "2026-11-08T00:03:31Z"
+  "fitment_built": "2026-11-08T02:03:36Z"
 }
