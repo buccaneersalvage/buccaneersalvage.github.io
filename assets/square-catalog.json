@@ -1,7 +1,7 @@
 {
-  "updated": "2026-11-08T19:53:24Z",
+  "updated": "2026-11-09T04:03:29Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 882,
+  "count": 884,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -49414,6 +49414,219 @@
       "stock": 1
     },
     {
+      "id": "WTHIGFQOKFV3PD3K6LPSW6S7",
+      "name": "KEM 1935 Distributor Cap 3.9 92-03 Dodge Dakota Durango Ram 1500 D150 W150",
+      "price": 14.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/178dda26ae50d785725bf234e600a1c3336c81a0/original.jpeg",
+      "url": "https://square.link/u/310ZZSFD",
+      "category": "ignition",
+      "checkout": true,
+      "variation_id": "WAUMNJHV2A5DBEOZP357DAOD",
+      "stock": 1,
+      "part_numbers": [
+        "1935"
+      ],
+      "interchange": [
+        "FD-176",
+        "FD176T",
+        "56026702",
+        "5142592AA"
+      ],
+      "vehicles": [
+        "1992\u20131994 Dodge B150",
+        "1995\u20131998 Dodge B1500",
+        "1992\u20131994 Dodge B250",
+        "1995\u20131997 Dodge B2500",
+        "1992\u20131993 Dodge D150",
+        "1992\u20131993 Dodge D250",
+        "1992\u20132003 Dodge Dakota",
+        "1998\u20131999 Dodge Durango",
+        "1994\u20132001 Dodge Ram 1500",
+        "1997\u20132003 Dodge Ram 1500 Van",
+        "2001 Dodge Ram 2500 Van",
+        "1992\u20131993 Dodge W150",
+        "1992\u20132003 Ram 1500"
+      ],
+      "vehicle_count_raw": 252,
+      "ebay_item_id": "920120067638",
+      "ebay_type": "Distributor Cap",
+      "ebay_brand": "KEM",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps",
+      "fitment_source": "ebay_listing+title",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "1935"
+        ],
+        "interchange": [
+          "FD-176",
+          "FD176T",
+          "56026702",
+          "5142592AA"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1992,
+            "year_to": 1994,
+            "make": "Dodge",
+            "model": "B150",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1995,
+            "year_to": 1998,
+            "make": "Dodge",
+            "model": "B1500",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1992,
+            "year_to": 1994,
+            "make": "Dodge",
+            "model": "B250",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1995,
+            "year_to": 1997,
+            "make": "Dodge",
+            "model": "B2500",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1992,
+            "year_to": 1993,
+            "make": "Dodge",
+            "model": "D150",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1992,
+            "year_to": 1993,
+            "make": "Dodge",
+            "model": "D250",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1992,
+            "year_to": 2003,
+            "make": "Dodge",
+            "model": "Dakota",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1998,
+            "year_to": 1999,
+            "make": "Dodge",
+            "model": "Durango",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1994,
+            "year_to": 2001,
+            "make": "Dodge",
+            "model": "Ram 1500",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1997,
+            "year_to": 2003,
+            "make": "Dodge",
+            "model": "Ram 1500 Van",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2001,
+            "year_to": 2001,
+            "make": "Dodge",
+            "model": "Ram 2500 Van",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1992,
+            "year_to": 1993,
+            "make": "Dodge",
+            "model": "W150",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1992,
+            "year_to": 2003,
+            "make": "Ram",
+            "model": "1500",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1992\u20131994 Dodge B150",
+          "1995\u20131998 Dodge B1500",
+          "1992\u20131994 Dodge B250",
+          "1995\u20131997 Dodge B2500",
+          "1992\u20131993 Dodge D150",
+          "1992\u20131993 Dodge D250",
+          "1992\u20132003 Dodge Dakota",
+          "1998\u20131999 Dodge Durango",
+          "1994\u20132001 Dodge Ram 1500",
+          "1997\u20132003 Dodge Ram 1500 Van",
+          "2001 Dodge Ram 2500 Van",
+          "1992\u20131993 Dodge W150",
+          "1992\u20132003 Ram 1500"
+        ],
+        "raw_compat_rows": 252,
+        "source": "ebay_listing+title",
+        "confidence": "high",
+        "ebay_item_id": "920120067638",
+        "type": "Distributor Cap",
+        "brand": "KEM",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps"
+      },
+      "images": [
+        "../assets/pdp-gallery/WTHIGFQOKFV3PD3K6LPSW6S7/02.webp",
+        "../assets/pdp-gallery/WTHIGFQOKFV3PD3K6LPSW6S7/03.webp",
+        "../assets/pdp-gallery/WTHIGFQOKFV3PD3K6LPSW6S7/04.webp",
+        "../assets/pdp-gallery/WTHIGFQOKFV3PD3K6LPSW6S7/05.webp"
+      ]
+    },
+    {
       "id": "YGQJF7ZM7OZRSQTEXIGNOQUO",
       "name": "KEM 236X Distributor Cap Ford 4.9 F150 Bronco Mustang 1977-1985 6 Cyl",
       "price": 19.99,
@@ -61643,7 +61856,10 @@
       "images": [
         "../assets/pdp-gallery/WE27LOMVOYUKNSNU27UFYIJZ/02.webp",
         "../assets/pdp-gallery/WE27LOMVOYUKNSNU27UFYIJZ/03.webp",
-        "../assets/pdp-gallery/WE27LOMVOYUKNSNU27UFYIJZ/04.webp"
+        "../assets/pdp-gallery/WE27LOMVOYUKNSNU27UFYIJZ/04.webp",
+        "../assets/pdp-gallery/WE27LOMVOYUKNSNU27UFYIJZ/05.webp",
+        "../assets/pdp-gallery/WE27LOMVOYUKNSNU27UFYIJZ/06.webp",
+        "../assets/pdp-gallery/WE27LOMVOYUKNSNU27UFYIJZ/07.webp"
       ],
       "stock": 1
     },
@@ -96481,6 +96697,112 @@
       "interchange": []
     },
     {
+      "id": "Q5BJX2LD3UW3IN2477EG5CDN",
+      "name": "KEM UL7-16 Ignition Switch 87-91 Ford Bronco F-150 F-250 F-350 Super Duty",
+      "price": 29.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/a944b22101f5a777b465edff04d99ab5dba17563/original.jpeg",
+      "url": "https://square.link/u/IjAKmuyu",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "KWEXHZRD657V6F4C23HAPVY6",
+      "stock": 1,
+      "part_numbers": [
+        "UL7-16"
+      ],
+      "interchange": [
+        "US-130",
+        "IS80",
+        "E7TZ-11572-A",
+        "LS515"
+      ],
+      "vehicles": [
+        "1987\u20131991 Ford Bronco",
+        "1987\u20131991 Ford F-150",
+        "1987\u20131991 Ford F-250",
+        "1987\u20131991 Ford F-350"
+      ],
+      "vehicle_count_raw": 451,
+      "ebay_item_id": "920120151472",
+      "ebay_type": "Ignition Switch",
+      "ebay_brand": "KEM",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Other Ignition Systems & Components",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "UL7-16"
+        ],
+        "interchange": [
+          "US-130",
+          "IS80",
+          "E7TZ-11572-A",
+          "LS515"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1987,
+            "year_to": 1991,
+            "make": "Ford",
+            "model": "Bronco",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1991,
+            "make": "Ford",
+            "model": "F-150",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1991,
+            "make": "Ford",
+            "model": "F-250",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1991,
+            "make": "Ford",
+            "model": "F-350",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1987\u20131991 Ford Bronco",
+          "1987\u20131991 Ford F-150",
+          "1987\u20131991 Ford F-250",
+          "1987\u20131991 Ford F-350"
+        ],
+        "raw_compat_rows": 451,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "920120151472",
+        "type": "Ignition Switch",
+        "brand": "KEM",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Other Ignition Systems & Components"
+      },
+      "images": [
+        "../assets/pdp-gallery/Q5BJX2LD3UW3IN2477EG5CDN/02.webp",
+        "../assets/pdp-gallery/Q5BJX2LD3UW3IN2477EG5CDN/03.webp",
+        "../assets/pdp-gallery/Q5BJX2LD3UW3IN2477EG5CDN/04.webp",
+        "../assets/pdp-gallery/Q5BJX2LD3UW3IN2477EG5CDN/05.webp",
+        "../assets/pdp-gallery/Q5BJX2LD3UW3IN2477EG5CDN/06.webp"
+      ]
+    },
+    {
       "id": "GJIFPI534K4HI5EIB3KJBDAO",
       "name": "KW DA-20 Voltage Regulator NOS 55-60 Chevy Truck AMC Jeep",
       "price": 79.99,
@@ -120994,5 +121316,5 @@
       "vehicles": []
     }
   ],
-  "fitment_built": "2026-11-08T19:53:24Z"
+  "fitment_built": "2026-11-09T04:03:29Z"
 }
