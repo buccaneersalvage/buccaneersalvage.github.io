@@ -1,7 +1,7 @@
 {
-  "updated": "2026-11-09T06:03:42Z",
+  "updated": "2026-11-09T22:51:02Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 883,
+  "count": 884,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -50983,6 +50983,92 @@
       ],
       "stock": 1,
       "interchange": []
+    },
+    {
+      "id": "ZX3UDRCMBCCSQVVVJP75NDWV",
+      "name": "KEM W363 JH-98 Distributor Cap 83-88 Toyota Corolla Tercel Chevrolet Nova",
+      "price": 21.45,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/45e945887105a1225ae5d1ca09ef0b487579ebee/original.jpeg",
+      "url": "https://square.link/u/cRLgSOss",
+      "category": "ignition",
+      "checkout": true,
+      "variation_id": "GKO2SABCV5265YFJTBMTYNL6",
+      "stock": 1,
+      "part_numbers": [
+        "W363"
+      ],
+      "interchange": [
+        "JH-98",
+        "EP707",
+        "1910101010"
+      ],
+      "vehicles": [
+        "1985\u20131988 Chevrolet Nova",
+        "1985\u20131988 Toyota Corolla",
+        "1983\u20131988 Toyota Tercel"
+      ],
+      "vehicle_count_raw": 72,
+      "ebay_item_id": "920123444268",
+      "ebay_type": "Distributor Cap",
+      "ebay_brand": "KEM",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "W363"
+        ],
+        "interchange": [
+          "JH-98",
+          "EP707",
+          "1910101010"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1985,
+            "year_to": 1988,
+            "make": "Chevrolet",
+            "model": "Nova",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1988,
+            "make": "Toyota",
+            "model": "Corolla",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1983,
+            "year_to": 1988,
+            "make": "Toyota",
+            "model": "Tercel",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1985\u20131988 Chevrolet Nova",
+          "1985\u20131988 Toyota Corolla",
+          "1983\u20131988 Toyota Tercel"
+        ],
+        "raw_compat_rows": 72,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "920123444268",
+        "type": "Distributor Cap",
+        "brand": "KEM",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps"
+      },
+      "images": []
     },
     {
       "id": "GNDVYF4XBBD4WGDXDASZ7SER",
@@ -121247,5 +121333,5 @@
       "vehicles": []
     }
   ],
-  "fitment_built": "2026-11-09T06:03:42Z"
+  "fitment_built": "2026-11-09T22:51:02Z"
 }
