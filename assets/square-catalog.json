@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-09T04:03:29Z",
+  "updated": "2026-11-09T04:23:19Z",
   "store": "https://buccaneersalvage.square.site/",
   "count": 884,
   "items": [
@@ -49452,7 +49452,7 @@
       "ebay_type": "Distributor Cap",
       "ebay_brand": "KEM",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps",
-      "fitment_source": "ebay_listing+title",
+      "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
@@ -49612,7 +49612,7 @@
           "1992\u20132003 Ram 1500"
         ],
         "raw_compat_rows": 252,
-        "source": "ebay_listing+title",
+        "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "920120067638",
         "type": "Distributor Cap",
@@ -121316,5 +121316,5 @@
       "vehicles": []
     }
   ],
-  "fitment_built": "2026-11-09T04:03:29Z"
+  "fitment_built": "2026-11-09T04:23:19Z"
 }
