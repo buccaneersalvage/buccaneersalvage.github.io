@@ -1,7 +1,7 @@
 {
-  "updated": "2026-11-09T04:23:19Z",
+  "updated": "2026-11-09T05:32:32Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 884,
+  "count": 883,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -43037,75 +43037,6 @@
       "interchange": []
     },
     {
-      "id": "W5MM5VFJATVRESHXM7OGGXC2",
-      "name": "WIX 46277 Air Filter NOS 88-91 Honda Prelude 2.0 2.1",
-      "price": 19.99,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/fa818062e2dda70bfec6871f3d4c0489a5b25325/original.jpeg",
-      "url": "https://square.link/u/HFOT4rRu",
-      "category": "filters",
-      "checkout": true,
-      "variation_id": "ZQCNR4XBRJ2GPJ3BEBNYLJKM",
-      "part_numbers": [
-        "46277",
-        "INTERFIL F65A43, JAPAN"
-      ],
-      "interchange": [
-        "WIX-46277",
-        "17220PK2003",
-        "17220PK2661",
-        "IAPCO AF18"
-      ],
-      "vehicles": [
-        "1988\u20131991 Honda Prelude"
-      ],
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "high",
-      "fitment": {
-        "part_numbers": [
-          "46277",
-          "INTERFIL F65A43, JAPAN"
-        ],
-        "interchange": [
-          "WIX-46277",
-          "17220PK2003",
-          "17220PK2661",
-          "IAPCO AF18"
-        ],
-        "vehicles": [
-          {
-            "year_from": 1988,
-            "year_to": 1991,
-            "make": "Honda",
-            "model": "Prelude",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          }
-        ],
-        "vehicle_labels": [
-          "1988\u20131991 Honda Prelude"
-        ],
-        "raw_compat_rows": 17,
-        "source": "ebay_listing",
-        "confidence": "high",
-        "ebay_item_id": "398321619150",
-        "type": "Air Filter",
-        "brand": "WIX",
-        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Filters"
-      },
-      "vehicle_count_raw": 17,
-      "ebay_item_id": "398321619150",
-      "ebay_type": "Air Filter",
-      "ebay_brand": "WIX",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Filters",
-      "images": [
-        "../assets/pdp-gallery/W5MM5VFJATVRESHXM7OGGXC2/02.webp",
-        "../assets/pdp-gallery/W5MM5VFJATVRESHXM7OGGXC2/03.webp"
-      ],
-      "stock": 1
-    },
-    {
       "id": "LSN2LRHG4CPLFJHJQURJG377",
       "name": "WIX 46302 Air Filter NOS Chevy Pontiac Buick Olds 94-10",
       "price": 14.99,
@@ -49422,7 +49353,6 @@
       "category": "ignition",
       "checkout": true,
       "variation_id": "WAUMNJHV2A5DBEOZP357DAOD",
-      "stock": 1,
       "part_numbers": [
         "1935"
       ],
@@ -49447,11 +49377,6 @@
         "1992\u20131993 Dodge W150",
         "1992\u20132003 Ram 1500"
       ],
-      "vehicle_count_raw": 252,
-      "ebay_item_id": "920120067638",
-      "ebay_type": "Distributor Cap",
-      "ebay_brand": "KEM",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -49619,12 +49544,18 @@
         "brand": "KEM",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps"
       },
+      "vehicle_count_raw": 252,
+      "ebay_item_id": "920120067638",
+      "ebay_type": "Distributor Cap",
+      "ebay_brand": "KEM",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps",
       "images": [
         "../assets/pdp-gallery/WTHIGFQOKFV3PD3K6LPSW6S7/02.webp",
         "../assets/pdp-gallery/WTHIGFQOKFV3PD3K6LPSW6S7/03.webp",
         "../assets/pdp-gallery/WTHIGFQOKFV3PD3K6LPSW6S7/04.webp",
         "../assets/pdp-gallery/WTHIGFQOKFV3PD3K6LPSW6S7/05.webp"
-      ]
+      ],
+      "stock": 1
     },
     {
       "id": "YGQJF7ZM7OZRSQTEXIGNOQUO",
@@ -96705,7 +96636,6 @@
       "category": "other",
       "checkout": true,
       "variation_id": "KWEXHZRD657V6F4C23HAPVY6",
-      "stock": 1,
       "part_numbers": [
         "UL7-16"
       ],
@@ -96721,11 +96651,6 @@
         "1987\u20131991 Ford F-250",
         "1987\u20131991 Ford F-350"
       ],
-      "vehicle_count_raw": 451,
-      "ebay_item_id": "920120151472",
-      "ebay_type": "Ignition Switch",
-      "ebay_brand": "KEM",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Other Ignition Systems & Components",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -96794,13 +96719,19 @@
         "brand": "KEM",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Other Ignition Systems & Components"
       },
+      "vehicle_count_raw": 451,
+      "ebay_item_id": "920120151472",
+      "ebay_type": "Ignition Switch",
+      "ebay_brand": "KEM",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Other Ignition Systems & Components",
       "images": [
         "../assets/pdp-gallery/Q5BJX2LD3UW3IN2477EG5CDN/02.webp",
         "../assets/pdp-gallery/Q5BJX2LD3UW3IN2477EG5CDN/03.webp",
         "../assets/pdp-gallery/Q5BJX2LD3UW3IN2477EG5CDN/04.webp",
         "../assets/pdp-gallery/Q5BJX2LD3UW3IN2477EG5CDN/05.webp",
         "../assets/pdp-gallery/Q5BJX2LD3UW3IN2477EG5CDN/06.webp"
-      ]
+      ],
+      "stock": 1
     },
     {
       "id": "GJIFPI534K4HI5EIB3KJBDAO",
@@ -121316,5 +121247,5 @@
       "vehicles": []
     }
   ],
-  "fitment_built": "2026-11-09T04:23:19Z"
+  "fitment_built": "2026-11-09T05:32:32Z"
 }
