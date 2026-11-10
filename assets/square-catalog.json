@@ -1,7 +1,7 @@
 {
-  "updated": "2026-11-10T04:03:36Z",
+  "updated": "2026-11-10T04:53:46Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 884,
+  "count": 885,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -96651,12 +96651,10 @@
       "category": "other",
       "checkout": true,
       "variation_id": "X4KSIAQAN3373T2R3BHYUKJF",
-      "stock": 1,
       "part_numbers": [
         "KVR202BX",
         "GR540A; GR540B; E2PZ-10316-A; F0PZ-10316-A; C8SZ-10316-A; VR730"
       ],
-      "interchange": [],
       "vehicles": [
         "1965\u20131977 Ford F-100",
         "1975\u20131977 Ford F-150",
@@ -96668,11 +96666,6 @@
         "1968\u20131971 Ford Torino",
         "1967\u20131973 Mercury Cougar"
       ],
-      "vehicle_count_raw": 3000,
-      "ebay_item_id": "920124283716",
-      "ebay_type": "Voltage Regulator",
-      "ebay_brand": "KEM",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Starters, Alternators, ECUs & Wiring:Voltage Regulators",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -96792,12 +96785,19 @@
         "brand": "KEM",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Starters, Alternators, ECUs & Wiring:Voltage Regulators"
       },
+      "vehicle_count_raw": 3000,
+      "ebay_item_id": "920124283716",
+      "ebay_type": "Voltage Regulator",
+      "ebay_brand": "KEM",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Starters, Alternators, ECUs & Wiring:Voltage Regulators",
       "images": [
         "../assets/pdp-gallery/3SPQXRVHRNJVWTVLE2V46DD5/02.webp",
         "../assets/pdp-gallery/3SPQXRVHRNJVWTVLE2V46DD5/03.webp",
         "../assets/pdp-gallery/3SPQXRVHRNJVWTVLE2V46DD5/04.webp",
         "../assets/pdp-gallery/3SPQXRVHRNJVWTVLE2V46DD5/05.webp"
-      ]
+      ],
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "2GLC2JVKPDISWFIYYKOPQW62",
@@ -96869,6 +96869,121 @@
       ],
       "stock": 1,
       "interchange": []
+    },
+    {
+      "id": "4RKZG7H6JGP4UWHUPCKWRVTQ",
+      "name": "KEM PS4 Oil Pressure Switch 1960-1997 Ford Jeep Lincoln Mercury AMC",
+      "price": 17.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/0b2a1413a511f1bc5f6ddb1b30d68373f42b1142/original.jpeg",
+      "url": "https://square.link/u/fe6FUnil",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "QEPF2LUCYKBOIQ4KDN6KPWWF",
+      "stock": 1,
+      "part_numbers": [
+        "PS4",
+        "1S6570, 1S6753, 1S6912, 2-8145, 3241716, SW1547B, SW5849"
+      ],
+      "interchange": [
+        "PS60",
+        "PS60T",
+        "01972321",
+        "12336297",
+        "F1810",
+        "1972321",
+        "1972469"
+      ],
+      "vehicles": [
+        "1960\u20131997 Ford",
+        "1960\u20131997 Jeep",
+        "1960\u20131997 Lincoln",
+        "1960\u20131997 Mercury AMC"
+      ],
+      "vehicle_count_raw": 4,
+      "ebay_item_id": "920124591241",
+      "ebay_type": "Oil Pressure Switch",
+      "ebay_brand": "KEM",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Engine Sensors & Switches",
+      "fitment_source": "ebay_listing+title",
+      "fitment_confidence": "medium",
+      "fitment": {
+        "part_numbers": [
+          "PS4",
+          "1S6570, 1S6753, 1S6912, 2-8145, 3241716, SW1547B, SW5849"
+        ],
+        "interchange": [
+          "PS60",
+          "PS60T",
+          "01972321",
+          "12336297",
+          "F1810",
+          "1972321",
+          "1972469"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1960,
+            "year_to": 1997,
+            "make": "Ford",
+            "model": "",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1960,
+            "year_to": 1997,
+            "make": "Jeep",
+            "model": "",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1960,
+            "year_to": 1997,
+            "make": "Lincoln",
+            "model": "",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1960,
+            "year_to": 1997,
+            "make": "Mercury",
+            "model": "AMC",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1960\u20131997 Ford",
+          "1960\u20131997 Jeep",
+          "1960\u20131997 Lincoln",
+          "1960\u20131997 Mercury AMC"
+        ],
+        "raw_compat_rows": 4,
+        "source": "ebay_listing+title",
+        "confidence": "medium",
+        "ebay_item_id": "920124591241",
+        "type": "Oil Pressure Switch",
+        "brand": "KEM",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Engine Sensors & Switches"
+      },
+      "images": [
+        "../assets/pdp-gallery/4RKZG7H6JGP4UWHUPCKWRVTQ/02.webp",
+        "../assets/pdp-gallery/4RKZG7H6JGP4UWHUPCKWRVTQ/03.webp",
+        "../assets/pdp-gallery/4RKZG7H6JGP4UWHUPCKWRVTQ/04.webp",
+        "../assets/pdp-gallery/4RKZG7H6JGP4UWHUPCKWRVTQ/05.webp",
+        "../assets/pdp-gallery/4RKZG7H6JGP4UWHUPCKWRVTQ/06.webp",
+        "../assets/pdp-gallery/4RKZG7H6JGP4UWHUPCKWRVTQ/07.webp"
+      ]
     },
     {
       "id": "Q5BJX2LD3UW3IN2477EG5CDN",
@@ -121451,5 +121566,5 @@
       "vehicles": []
     }
   ],
-  "fitment_built": "2026-11-10T04:03:36Z"
+  "fitment_built": "2026-11-10T04:53:46Z"
 }
