@@ -1,7 +1,7 @@
 {
-  "updated": "2026-11-10T03:03:40Z",
+  "updated": "2026-11-10T04:03:36Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 883,
+  "count": 884,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -96643,6 +96643,163 @@
       "interchange": []
     },
     {
+      "id": "3SPQXRVHRNJVWTVLE2V46DD5",
+      "name": "KEM KVR202BX Voltage Regulator 65-96 Ford Mustang Cougar Falcon F-Series Bronco",
+      "price": 34.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/a9d3c1e52c5fd2c1f071aff2c4cd1e2838e974a2/original.jpeg",
+      "url": "https://square.link/u/1hEsO841",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "X4KSIAQAN3373T2R3BHYUKJF",
+      "stock": 1,
+      "part_numbers": [
+        "KVR202BX",
+        "GR540A; GR540B; E2PZ-10316-A; F0PZ-10316-A; C8SZ-10316-A; VR730"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1965\u20131977 Ford F-100",
+        "1975\u20131977 Ford F-150",
+        "1965\u20131977 Ford F-250",
+        "1965\u20131976 Ford F-350",
+        "1965\u20131970 Ford Fairlane",
+        "1965\u20131970 Ford Falcon",
+        "1965\u20131986 Ford Mustang",
+        "1968\u20131971 Ford Torino",
+        "1967\u20131973 Mercury Cougar"
+      ],
+      "vehicle_count_raw": 3000,
+      "ebay_item_id": "920124283716",
+      "ebay_type": "Voltage Regulator",
+      "ebay_brand": "KEM",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Starters, Alternators, ECUs & Wiring:Voltage Regulators",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "KVR202BX",
+          "GR540A; GR540B; E2PZ-10316-A; F0PZ-10316-A; C8SZ-10316-A; VR730"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1965,
+            "year_to": 1977,
+            "make": "Ford",
+            "model": "F-100",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1975,
+            "year_to": 1977,
+            "make": "Ford",
+            "model": "F-150",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1965,
+            "year_to": 1977,
+            "make": "Ford",
+            "model": "F-250",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1965,
+            "year_to": 1976,
+            "make": "Ford",
+            "model": "F-350",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1965,
+            "year_to": 1970,
+            "make": "Ford",
+            "model": "Fairlane",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1965,
+            "year_to": 1970,
+            "make": "Ford",
+            "model": "Falcon",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1965,
+            "year_to": 1986,
+            "make": "Ford",
+            "model": "Mustang",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1968,
+            "year_to": 1971,
+            "make": "Ford",
+            "model": "Torino",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1967,
+            "year_to": 1973,
+            "make": "Mercury",
+            "model": "Cougar",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1965\u20131977 Ford F-100",
+          "1975\u20131977 Ford F-150",
+          "1965\u20131977 Ford F-250",
+          "1965\u20131976 Ford F-350",
+          "1965\u20131970 Ford Fairlane",
+          "1965\u20131970 Ford Falcon",
+          "1965\u20131986 Ford Mustang",
+          "1968\u20131971 Ford Torino",
+          "1967\u20131973 Mercury Cougar"
+        ],
+        "raw_compat_rows": 3000,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "920124283716",
+        "type": "Voltage Regulator",
+        "brand": "KEM",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Starters, Alternators, ECUs & Wiring:Voltage Regulators"
+      },
+      "images": [
+        "../assets/pdp-gallery/3SPQXRVHRNJVWTVLE2V46DD5/02.webp",
+        "../assets/pdp-gallery/3SPQXRVHRNJVWTVLE2V46DD5/03.webp",
+        "../assets/pdp-gallery/3SPQXRVHRNJVWTVLE2V46DD5/04.webp",
+        "../assets/pdp-gallery/3SPQXRVHRNJVWTVLE2V46DD5/05.webp"
+      ]
+    },
+    {
       "id": "2GLC2JVKPDISWFIYYKOPQW62",
       "name": "KEM Manufacturing TW43 Engine Coolant Temperature Sender Fits GM AMC 1980-92",
       "price": 14.99,
@@ -121294,5 +121451,5 @@
       "vehicles": []
     }
   ],
-  "fitment_built": "2026-11-10T03:03:40Z"
+  "fitment_built": "2026-11-10T04:03:36Z"
 }
