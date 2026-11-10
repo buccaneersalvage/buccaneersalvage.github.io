@@ -1,7 +1,7 @@
 {
-  "updated": "2026-11-09T23:03:35Z",
+  "updated": "2026-11-10T03:03:40Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 884,
+  "count": 883,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -50993,7 +50993,6 @@
       "category": "ignition",
       "checkout": true,
       "variation_id": "GKO2SABCV5265YFJTBMTYNL6",
-      "stock": 1,
       "part_numbers": [
         "W363"
       ],
@@ -51007,11 +51006,6 @@
         "1985\u20131988 Toyota Corolla",
         "1983\u20131988 Toyota Tercel"
       ],
-      "vehicle_count_raw": 72,
-      "ebay_item_id": "920123444268",
-      "ebay_type": "Distributor Cap",
-      "ebay_brand": "KEM",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -51068,6 +51062,12 @@
         "brand": "KEM",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps"
       },
+      "vehicle_count_raw": 72,
+      "ebay_item_id": "920123444268",
+      "ebay_type": "Distributor Cap",
+      "ebay_brand": "KEM",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps",
+      "stock": 1,
       "images": []
     },
     {
@@ -97172,45 +97172,6 @@
       "vehicles": []
     },
     {
-      "id": "VWGGJHJEBTTELGYROE64VSNE",
-      "name": "Lot of 2 Gray Rubber 5inch Walker Wheels Black 5spoke Hub Used",
-      "price": 18.99,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/89d75483ce7f97ccf443687f44633f26c79809d1/original.jpeg",
-      "url": "https://square.link/u/rUGlySXG",
-      "category": "other",
-      "checkout": true,
-      "variation_id": "K36CCA2RYWEKZB5ZL3SCWBUB",
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "medium",
-      "fitment": {
-        "part_numbers": [],
-        "interchange": [],
-        "vehicles": [],
-        "vehicle_labels": [],
-        "raw_compat_rows": 0,
-        "source": "ebay_listing",
-        "confidence": "medium",
-        "ebay_item_id": "398418044990",
-        "type": "Walker Wheel",
-        "brand": "Unbranded",
-        "ebay_category": "Business & Industrial:Material Handling:Casters & Wheels:Caster Wheels"
-      },
-      "vehicle_count_raw": 0,
-      "ebay_item_id": "398418044990",
-      "ebay_type": "Walker Wheel",
-      "ebay_brand": "Unbranded",
-      "ebay_category": "Business & Industrial:Material Handling:Casters & Wheels:Caster Wheels",
-      "images": [
-        "../assets/pdp-gallery/VWGGJHJEBTTELGYROE64VSNE/02.webp",
-        "../assets/pdp-gallery/VWGGJHJEBTTELGYROE64VSNE/03.webp",
-        "../assets/pdp-gallery/VWGGJHJEBTTELGYROE64VSNE/04.webp"
-      ],
-      "stock": 1,
-      "part_numbers": [],
-      "interchange": [],
-      "vehicles": []
-    },
-    {
       "id": "XSFWEU4ICEZANCDYVSZAVHW4",
       "name": "Lot of 2 Walker Wheels ~6\" Gray Rubber DIY Cart Project Used",
       "price": 18.99,
@@ -121333,5 +121294,5 @@
       "vehicles": []
     }
   ],
-  "fitment_built": "2026-11-09T23:03:35Z"
+  "fitment_built": "2026-11-10T03:03:40Z"
 }
