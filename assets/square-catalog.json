@@ -1,7 +1,7 @@
 {
-  "updated": "2026-11-11T07:03:42Z",
+  "updated": "2026-11-11T08:04:03Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 893,
+  "count": 894,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -47444,6 +47444,235 @@
         "../assets/pdp-gallery/KBIIBWN6R3GSBS4KQ7IJD3PS/03.webp"
       ],
       "stock": 1
+    },
+    {
+      "id": "6UNIDD477EWWZLMRXPXSV3R4",
+      "name": "1977-1987 Buick Regal Century LeSabre KEM 1441X HEI V6 Distributor Cap 3.8L 4.1L",
+      "price": 19.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/29dafbe6e5daee6a827ecc9e5af8b8ae6c3a823c/original.jpeg",
+      "url": "https://square.link/u/qn5LgH1M",
+      "category": "ignition",
+      "checkout": true,
+      "variation_id": "C3Z4OL726KKWJMTPYXMLA7BZ",
+      "stock": 1,
+      "part_numbers": [
+        "1441X",
+        "Wells DR914"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1978\u20131985 Buick Century",
+        "1980\u20131985 Buick Electra",
+        "1977\u20131985 Buick LeSabre",
+        "1978\u20131987 Buick Regal",
+        "1979\u20131986 Buick Riviera",
+        "1978\u20131980 Buick Skyhawk",
+        "1978\u20131979 Buick Skylark",
+        "1980\u20131982 Cadillac DeVille",
+        "1981\u20131982 Cadillac Eldorado",
+        "1980\u20131982 Cadillac Fleetwood",
+        "1981\u20131982 Cadillac Seville",
+        "1980\u20131982 Checker Marathon",
+        "1980\u20131981 Chevrolet Camaro",
+        "1980\u20131984 Chevrolet Caprice",
+        "1978\u20131984 Chevrolet El Camino"
+      ],
+      "vehicle_count_raw": 410,
+      "ebay_item_id": "920129424472",
+      "ebay_type": "Distributor Cap",
+      "ebay_brand": "KEM Manufacturing",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Additional Distributor Parts",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "1441X",
+          "Wells DR914"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1978,
+            "year_to": 1985,
+            "make": "Buick",
+            "model": "Century",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1980,
+            "year_to": 1985,
+            "make": "Buick",
+            "model": "Electra",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1977,
+            "year_to": 1985,
+            "make": "Buick",
+            "model": "LeSabre",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1978,
+            "year_to": 1987,
+            "make": "Buick",
+            "model": "Regal",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1979,
+            "year_to": 1986,
+            "make": "Buick",
+            "model": "Riviera",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1978,
+            "year_to": 1980,
+            "make": "Buick",
+            "model": "Skyhawk",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1978,
+            "year_to": 1979,
+            "make": "Buick",
+            "model": "Skylark",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1980,
+            "year_to": 1982,
+            "make": "Cadillac",
+            "model": "DeVille",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1981,
+            "year_to": 1982,
+            "make": "Cadillac",
+            "model": "Eldorado",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1980,
+            "year_to": 1982,
+            "make": "Cadillac",
+            "model": "Fleetwood",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1981,
+            "year_to": 1982,
+            "make": "Cadillac",
+            "model": "Seville",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1980,
+            "year_to": 1982,
+            "make": "Checker",
+            "model": "Marathon",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1980,
+            "year_to": 1981,
+            "make": "Chevrolet",
+            "model": "Camaro",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1980,
+            "year_to": 1984,
+            "make": "Chevrolet",
+            "model": "Caprice",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1978,
+            "year_to": 1984,
+            "make": "Chevrolet",
+            "model": "El Camino",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1978\u20131985 Buick Century",
+          "1980\u20131985 Buick Electra",
+          "1977\u20131985 Buick LeSabre",
+          "1978\u20131987 Buick Regal",
+          "1979\u20131986 Buick Riviera",
+          "1978\u20131980 Buick Skyhawk",
+          "1978\u20131979 Buick Skylark",
+          "1980\u20131982 Cadillac DeVille",
+          "1981\u20131982 Cadillac Eldorado",
+          "1980\u20131982 Cadillac Fleetwood",
+          "1981\u20131982 Cadillac Seville",
+          "1980\u20131982 Checker Marathon",
+          "1980\u20131981 Chevrolet Camaro",
+          "1980\u20131984 Chevrolet Caprice",
+          "1978\u20131984 Chevrolet El Camino"
+        ],
+        "raw_compat_rows": 410,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "920129424472",
+        "type": "Distributor Cap",
+        "brand": "KEM Manufacturing",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Additional Distributor Parts"
+      },
+      "images": [
+        "../assets/pdp-gallery/6UNIDD477EWWZLMRXPXSV3R4/02.webp",
+        "../assets/pdp-gallery/6UNIDD477EWWZLMRXPXSV3R4/03.webp",
+        "../assets/pdp-gallery/6UNIDD477EWWZLMRXPXSV3R4/04.webp",
+        "../assets/pdp-gallery/6UNIDD477EWWZLMRXPXSV3R4/05.webp"
+      ]
     },
     {
       "id": "TDECSPKM5Q5LG4MNACR445CN",
@@ -96266,7 +96495,6 @@
       "category": "other",
       "checkout": true,
       "variation_id": "KQODLIDAUVTBE7NNKQM6LTP6",
-      "stock": 1,
       "part_numbers": [
         "AR175"
       ],
@@ -96285,11 +96513,6 @@
         "1982\u20131986 Pontiac 6000",
         "1984\u20131986 Pontiac Fiero"
       ],
-      "vehicle_count_raw": 596,
-      "ebay_item_id": "920129175785",
-      "ebay_type": "Accessory Relay",
-      "ebay_brand": "KEM",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Starters, Alternators, ECUs & Wiring:Relays",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -96421,12 +96644,18 @@
         "brand": "KEM",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Starters, Alternators, ECUs & Wiring:Relays"
       },
+      "vehicle_count_raw": 596,
+      "ebay_item_id": "920129175785",
+      "ebay_type": "Accessory Relay",
+      "ebay_brand": "KEM",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Starters, Alternators, ECUs & Wiring:Relays",
       "images": [
         "../assets/pdp-gallery/GJ74UGLVEPGII2CLCHWYHVR5/02.webp",
         "../assets/pdp-gallery/GJ74UGLVEPGII2CLCHWYHVR5/03.webp",
         "../assets/pdp-gallery/GJ74UGLVEPGII2CLCHWYHVR5/04.webp",
         "../assets/pdp-gallery/GJ74UGLVEPGII2CLCHWYHVR5/05.webp"
-      ]
+      ],
+      "stock": 1
     },
     {
       "id": "B7N7O5H5IOY3GYIT47PYODZV",
@@ -96437,7 +96666,6 @@
       "category": "other",
       "checkout": true,
       "variation_id": "ZJPISDIQNYRHLWUUHO7YQ32M",
-      "stock": 1,
       "part_numbers": [
         "AR180"
       ],
@@ -96477,11 +96705,6 @@
         "1985 Plymouth Turismo",
         "1985 Plymouth Voyager"
       ],
-      "vehicle_count_raw": 662,
-      "ebay_item_id": "920129163364",
-      "ebay_type": "Accessory Relay",
-      "ebay_brand": "KEM",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Starters, Alternators, ECUs & Wiring:Relays",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -96824,12 +97047,18 @@
         "brand": "KEM",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Starters, Alternators, ECUs & Wiring:Relays"
       },
+      "vehicle_count_raw": 662,
+      "ebay_item_id": "920129163364",
+      "ebay_type": "Accessory Relay",
+      "ebay_brand": "KEM",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Starters, Alternators, ECUs & Wiring:Relays",
       "images": [
         "../assets/pdp-gallery/B7N7O5H5IOY3GYIT47PYODZV/02.webp",
         "../assets/pdp-gallery/B7N7O5H5IOY3GYIT47PYODZV/03.webp",
         "../assets/pdp-gallery/B7N7O5H5IOY3GYIT47PYODZV/04.webp",
         "../assets/pdp-gallery/B7N7O5H5IOY3GYIT47PYODZV/05.webp"
-      ]
+      ],
+      "stock": 1
     },
     {
       "id": "NR5MW6ZPP376JBGHQ5HQUACE",
@@ -96840,7 +97069,6 @@
       "category": "other",
       "checkout": true,
       "variation_id": "3QQ7SG32XLWCCT4LTZJH3KHM",
-      "stock": 1,
       "part_numbers": [
         "AR218",
         "Chrysler 4379203, 4419185"
@@ -96860,11 +97088,6 @@
         "1987\u20131989 Plymouth Expo",
         "1987\u20131989 Plymouth Gran Fury"
       ],
-      "vehicle_count_raw": 124,
-      "ebay_item_id": "920129156913",
-      "ebay_type": "Accessory Relay",
-      "ebay_brand": "KEM",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Starters, Alternators, ECUs & Wiring:Relays",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -96977,12 +97200,18 @@
         "brand": "KEM",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Starters, Alternators, ECUs & Wiring:Relays"
       },
+      "vehicle_count_raw": 124,
+      "ebay_item_id": "920129156913",
+      "ebay_type": "Accessory Relay",
+      "ebay_brand": "KEM",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Starters, Alternators, ECUs & Wiring:Relays",
       "images": [
         "../assets/pdp-gallery/NR5MW6ZPP376JBGHQ5HQUACE/02.webp",
         "../assets/pdp-gallery/NR5MW6ZPP376JBGHQ5HQUACE/03.webp",
         "../assets/pdp-gallery/NR5MW6ZPP376JBGHQ5HQUACE/04.webp",
         "../assets/pdp-gallery/NR5MW6ZPP376JBGHQ5HQUACE/05.webp"
-      ]
+      ],
+      "stock": 1
     },
     {
       "id": "WZF6YXZGFHBIKWSKX7MV2MF2",
@@ -96993,7 +97222,6 @@
       "category": "other",
       "checkout": true,
       "variation_id": "4R2SGVNCFHVQ6GQKLZNLLSTI",
-      "stock": 1,
       "part_numbers": [
         "AR228",
         "14089936"
@@ -97014,11 +97242,6 @@
         "1987\u20131995 GMC Jimmy",
         "1985 GMC K1500 Suburban"
       ],
-      "vehicle_count_raw": 641,
-      "ebay_item_id": "920129147931",
-      "ebay_type": "Accessory Relay",
-      "ebay_brand": "KEM",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Starters, Alternators, ECUs & Wiring:Relays",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -97142,12 +97365,18 @@
         "brand": "KEM",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Starters, Alternators, ECUs & Wiring:Relays"
       },
+      "vehicle_count_raw": 641,
+      "ebay_item_id": "920129147931",
+      "ebay_type": "Accessory Relay",
+      "ebay_brand": "KEM",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Starters, Alternators, ECUs & Wiring:Relays",
       "images": [
         "../assets/pdp-gallery/WZF6YXZGFHBIKWSKX7MV2MF2/02.webp",
         "../assets/pdp-gallery/WZF6YXZGFHBIKWSKX7MV2MF2/03.webp",
         "../assets/pdp-gallery/WZF6YXZGFHBIKWSKX7MV2MF2/04.webp",
         "../assets/pdp-gallery/WZF6YXZGFHBIKWSKX7MV2MF2/05.webp"
-      ]
+      ],
+      "stock": 1
     },
     {
       "id": "XJOFDY6W2SA2CJJDTX2VQVRU",
@@ -123341,5 +123570,5 @@
       "vehicles": []
     }
   ],
-  "fitment_built": "2026-11-11T07:03:42Z"
+  "fitment_built": "2026-11-11T08:04:03Z"
 }
