@@ -1,7 +1,7 @@
 {
-  "updated": "2026-11-11T21:04:05Z",
+  "updated": "2026-11-11T22:03:58Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 931,
+  "count": 935,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -47707,7 +47707,6 @@
       "category": "ignition",
       "checkout": true,
       "variation_id": "3NQJNOHX65WZ3BU5ZTYETHEJ",
-      "stock": 1,
       "part_numbers": [
         "U12F"
       ],
@@ -47757,12 +47756,7 @@
         "1964\u20131971 Mercury Cyclone",
         "1963\u20131970 Mercury Marauder"
       ],
-      "vehicle_count_raw": 1751,
-      "ebay_item_id": "920131879086",
-      "ebay_type": "Ignition Coil",
-      "ebay_brand": "KEM Tune-Up Products",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Coils",
-      "fitment_source": "ebay_listing+title",
+      "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
@@ -48227,18 +48221,24 @@
           "1963\u20131970 Mercury Marauder"
         ],
         "raw_compat_rows": 1751,
-        "source": "ebay_listing+title",
+        "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "920131879086",
         "type": "Ignition Coil",
         "brand": "KEM Tune-Up Products",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Coils"
       },
+      "vehicle_count_raw": 1751,
+      "ebay_item_id": "920131879086",
+      "ebay_type": "Ignition Coil",
+      "ebay_brand": "KEM Tune-Up Products",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Coils",
       "images": [
         "../assets/pdp-gallery/6UKUJNWICFTAK45ZMKAIM46G/02.webp",
         "../assets/pdp-gallery/6UKUJNWICFTAK45ZMKAIM46G/03.webp",
         "../assets/pdp-gallery/6UKUJNWICFTAK45ZMKAIM46G/04.webp"
-      ]
+      ],
+      "stock": 1
     },
     {
       "id": "F2G25RY3R2DH6B47FVACCPLP",
@@ -49149,12 +49149,10 @@
       "category": "ignition",
       "checkout": true,
       "variation_id": "MUGLPHFK27Z4M4ZW6NIKRLS6",
-      "stock": 1,
       "part_numbers": [
         "W3034",
         "Standard JH-110"
       ],
-      "interchange": [],
       "vehicles": [
         "1975 Chevrolet LUV",
         "1972\u20131974 Chevrolet Luv Pickup",
@@ -49182,12 +49180,7 @@
         "1977\u20131987 Subaru Standard",
         "1970\u20131972 Subaru Star"
       ],
-      "vehicle_count_raw": 230,
-      "ebay_item_id": "920131784349",
-      "ebay_type": "Distributor Cap",
-      "ebay_brand": "KEM",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors",
-      "fitment_source": "ebay_listing+title",
+      "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
@@ -49475,18 +49468,25 @@
           "1970\u20131972 Subaru Star"
         ],
         "raw_compat_rows": 230,
-        "source": "ebay_listing+title",
+        "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "920131784349",
         "type": "Distributor Cap",
         "brand": "KEM",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors"
       },
+      "vehicle_count_raw": 230,
+      "ebay_item_id": "920131784349",
+      "ebay_type": "Distributor Cap",
+      "ebay_brand": "KEM",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors",
       "images": [
         "../assets/pdp-gallery/EHKGWTLSNACDDL3YUZ3NH7XV/02.webp",
         "../assets/pdp-gallery/EHKGWTLSNACDDL3YUZ3NH7XV/03.webp",
         "../assets/pdp-gallery/EHKGWTLSNACDDL3YUZ3NH7XV/04.webp"
-      ]
+      ],
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "ZNZ7AD4XT2THPMEEVZ5SFMUB",
@@ -82947,12 +82947,10 @@
       "category": "other",
       "checkout": true,
       "variation_id": "WWGIJ74RZPZ2FBDPR2FGXQ5K",
-      "stock": 1,
       "part_numbers": [
         "E119",
         "Standard LX-125"
       ],
-      "interchange": [],
       "vehicles": [
         "1986\u20131993 Chrysler Daytona",
         "1986 Chrysler Laser",
@@ -82970,11 +82968,6 @@
         "1987\u20131991 Plymouth Sundance",
         "1989\u20131990 Plymouth Voyager"
       ],
-      "vehicle_count_raw": 497,
-      "ebay_item_id": "920132037998",
-      "ebay_type": "Pickup Assembly",
-      "ebay_brand": "KEM",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributors",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -83160,13 +83153,20 @@
         "brand": "KEM",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributors"
       },
+      "vehicle_count_raw": 497,
+      "ebay_item_id": "920132037998",
+      "ebay_type": "Pickup Assembly",
+      "ebay_brand": "KEM",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributors",
       "images": [
         "../assets/pdp-gallery/YDZJPYTTRP6E5NEUDFR5NAOH/02.webp",
         "../assets/pdp-gallery/YDZJPYTTRP6E5NEUDFR5NAOH/03.webp",
         "../assets/pdp-gallery/YDZJPYTTRP6E5NEUDFR5NAOH/04.webp",
         "../assets/pdp-gallery/YDZJPYTTRP6E5NEUDFR5NAOH/05.webp",
         "../assets/pdp-gallery/YDZJPYTTRP6E5NEUDFR5NAOH/06.webp"
-      ]
+      ],
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "CF67GX4WVYPRCX7QQ33AQD5K",
@@ -112678,6 +112678,52 @@
       "interchange": []
     },
     {
+      "id": "R6ZZXYN5L6WUW5VPJE7NMN2I",
+      "name": "Metabo HPT WH18DDX 18V Brushless Impact Driver Kit 2 Batteries Charger Case",
+      "price": 59.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/096ba4bc1ab369862190d4dde767309d8adaa046/original.jpeg",
+      "url": "https://square.link/u/hmbY2a0G",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "HWWIC4Z5ZCWTZZZJECCIN37O",
+      "stock": 1,
+      "part_numbers": [
+        "WH18DDX"
+      ],
+      "interchange": [],
+      "vehicles": [],
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "920132213851",
+      "ebay_type": "Impact Driver",
+      "ebay_brand": "Metabo HPT",
+      "ebay_category": "Home & Garden:Tools & Workshop Equipment:Power Tools:Impact Drivers",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "medium",
+      "fitment": {
+        "part_numbers": [
+          "WH18DDX"
+        ],
+        "interchange": [],
+        "vehicles": [],
+        "vehicle_labels": [],
+        "raw_compat_rows": 0,
+        "source": "ebay_listing",
+        "confidence": "medium",
+        "ebay_item_id": "920132213851",
+        "type": "Impact Driver",
+        "brand": "Metabo HPT",
+        "ebay_category": "Home & Garden:Tools & Workshop Equipment:Power Tools:Impact Drivers"
+      },
+      "images": [
+        "../assets/pdp-gallery/R6ZZXYN5L6WUW5VPJE7NMN2I/02.webp",
+        "../assets/pdp-gallery/R6ZZXYN5L6WUW5VPJE7NMN2I/03.webp",
+        "../assets/pdp-gallery/R6ZZXYN5L6WUW5VPJE7NMN2I/04.webp",
+        "../assets/pdp-gallery/R6ZZXYN5L6WUW5VPJE7NMN2I/05.webp",
+        "../assets/pdp-gallery/R6ZZXYN5L6WUW5VPJE7NMN2I/06.webp",
+        "../assets/pdp-gallery/R6ZZXYN5L6WUW5VPJE7NMN2I/07.webp"
+      ]
+    },
+    {
       "id": "NRDBN3JUVZD6MI5P7CLGDVIL",
       "name": "Mevotech GK5252 Front Sway Bar Link Kit Buick Skylark 75-98 NOS",
       "price": 8.99,
@@ -122116,6 +122162,45 @@
         "../assets/pdp-gallery/Z2R6NPAMGTZTYPTOSEJCB2PY/03.webp"
       ],
       "stock": 1
+    },
+    {
+      "id": "I2UUG6KF2LZEFSL7TX54LDQT",
+      "name": "Stairways to the Stars Skywatching in Three Great Ancient Cultures Aveni HC Book",
+      "price": 12.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/1c595c4c6f367398f6b71191b4cccce1df615890/original.jpeg",
+      "url": "https://square.link/u/NKWi8Kl9",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "KI3DT5KQIJYVEN5QQTNP4N4G",
+      "stock": 1,
+      "part_numbers": [],
+      "interchange": [],
+      "vehicles": [],
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "920132203791",
+      "ebay_type": "Book",
+      "ebay_brand": "Unbranded",
+      "ebay_category": "Books & Magazines:Books",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "medium",
+      "fitment": {
+        "part_numbers": [],
+        "interchange": [],
+        "vehicles": [],
+        "vehicle_labels": [],
+        "raw_compat_rows": 0,
+        "source": "ebay_listing",
+        "confidence": "medium",
+        "ebay_item_id": "920132203791",
+        "type": "Book",
+        "brand": "Unbranded",
+        "ebay_category": "Books & Magazines:Books"
+      },
+      "images": [
+        "../assets/pdp-gallery/I2UUG6KF2LZEFSL7TX54LDQT/02.webp",
+        "../assets/pdp-gallery/I2UUG6KF2LZEFSL7TX54LDQT/03.webp",
+        "../assets/pdp-gallery/I2UUG6KF2LZEFSL7TX54LDQT/04.webp"
+      ]
     },
     {
       "id": "HBW7V4XAT5JYO4FEZPTSCZ5M",
@@ -131799,6 +131884,83 @@
       "interchange": []
     },
     {
+      "id": "JYJ3TLJSIPQPSWKJZNSK2W4S",
+      "name": "The Art and Science of CCD Astronomy David Ratledge Practical Astronomy Springer",
+      "price": 15.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/c217bc5739ee099fa0b07150585332df100d3cc8/original.jpeg",
+      "url": "https://square.link/u/1cflKm0e",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "AH7FZI2CZS6UFWPO4N63LOU6",
+      "stock": 1,
+      "part_numbers": [],
+      "interchange": [],
+      "vehicles": [],
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "920132204849",
+      "ebay_type": "Book",
+      "ebay_brand": "Unbranded",
+      "ebay_category": "Books & Magazines:Books",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "medium",
+      "fitment": {
+        "part_numbers": [],
+        "interchange": [],
+        "vehicles": [],
+        "vehicle_labels": [],
+        "raw_compat_rows": 0,
+        "source": "ebay_listing",
+        "confidence": "medium",
+        "ebay_item_id": "920132204849",
+        "type": "Book",
+        "brand": "Unbranded",
+        "ebay_category": "Books & Magazines:Books"
+      },
+      "images": [
+        "../assets/pdp-gallery/JYJ3TLJSIPQPSWKJZNSK2W4S/02.webp",
+        "../assets/pdp-gallery/JYJ3TLJSIPQPSWKJZNSK2W4S/03.webp",
+        "../assets/pdp-gallery/JYJ3TLJSIPQPSWKJZNSK2W4S/04.webp"
+      ]
+    },
+    {
+      "id": "ZCGWYEOZNPO2KEIVA3RVGAEO",
+      "name": "The Far Side Gary Larson Collection #1 First Far Side Book 1982 Paperback Comics",
+      "price": 12.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/290def0d2cafda745de5665af9e8b0a984c3a78f/original.jpeg",
+      "url": "https://square.link/u/oJPLNqTv",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "3RGLHZJYQEZCONSAUJTD7PV2",
+      "stock": 1,
+      "part_numbers": [],
+      "interchange": [],
+      "vehicles": [],
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "920132205341",
+      "ebay_type": "Book",
+      "ebay_brand": "Unbranded",
+      "ebay_category": "Books & Magazines:Books",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "medium",
+      "fitment": {
+        "part_numbers": [],
+        "interchange": [],
+        "vehicles": [],
+        "vehicle_labels": [],
+        "raw_compat_rows": 0,
+        "source": "ebay_listing",
+        "confidence": "medium",
+        "ebay_item_id": "920132205341",
+        "type": "Book",
+        "brand": "Unbranded",
+        "ebay_category": "Books & Magazines:Books"
+      },
+      "images": [
+        "../assets/pdp-gallery/ZCGWYEOZNPO2KEIVA3RVGAEO/02.webp",
+        "../assets/pdp-gallery/ZCGWYEOZNPO2KEIVA3RVGAEO/03.webp"
+      ]
+    },
+    {
       "id": "XT6A4QMLJ3MG5ZR67GVCYL5I",
       "name": "TopLine IV VW-21 Intake Valve Set Jetta Rabbit Beetle 2.5L 06-08",
       "price": 44.99,
@@ -136265,5 +136427,5 @@
       "vehicles": []
     }
   ],
-  "fitment_built": "2026-11-11T21:04:05Z"
+  "fitment_built": "2026-11-11T22:03:58Z"
 }
