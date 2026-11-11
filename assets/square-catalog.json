@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-11T06:03:53Z",
+  "updated": "2026-11-11T07:03:42Z",
   "store": "https://buccaneersalvage.square.site/",
   "count": 893,
   "items": [
@@ -96865,7 +96865,7 @@
       "ebay_type": "Accessory Relay",
       "ebay_brand": "KEM",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Starters, Alternators, ECUs & Wiring:Relays",
-      "fitment_source": "ebay_listing+title",
+      "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
@@ -96970,7 +96970,7 @@
           "1987\u20131989 Plymouth Gran Fury"
         ],
         "raw_compat_rows": 124,
-        "source": "ebay_listing+title",
+        "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "920129156913",
         "type": "Accessory Relay",
@@ -123341,5 +123341,5 @@
       "vehicles": []
     }
   ],
-  "fitment_built": "2026-11-11T06:03:53Z"
+  "fitment_built": "2026-11-11T07:03:42Z"
 }
