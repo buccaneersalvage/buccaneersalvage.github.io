@@ -1,7 +1,7 @@
 {
-  "updated": "2026-11-11T14:36:51Z",
+  "updated": "2026-11-11T15:03:57Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 914,
+  "count": 917,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -47699,6 +47699,367 @@
       "interchange": []
     },
     {
+      "id": "ZNZ7AD4XT2THPMEEVZ5SFMUB",
+      "name": "1970-1995 KEM W292X Distributor Rotor Geo Tracker Subaru 1800 Toyota Corolla",
+      "price": 13.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/cc1bb2008e046b95027b40cce537c5c62d7c9a94/original.jpeg",
+      "url": "https://square.link/u/uqW8RQ2V",
+      "category": "ignition",
+      "checkout": true,
+      "variation_id": "HQRIVCHOKST2P3D4NTCJM2H6",
+      "stock": 1,
+      "part_numbers": [
+        "W292X",
+        "Standard JR-75"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1976\u20131980 Chevrolet LUV",
+        "1985 Chevrolet Spectrum",
+        "1985\u20131988 Chevrolet Sprint",
+        "1989\u20131990 Chevrolet Tracker",
+        "1985\u20131989 Dodge Ram 50",
+        "1989\u20131990 GMC Tracker",
+        "1989\u20131995 Geo Tracker",
+        "1983\u20131984 Isuzu I-Mark",
+        "1985\u20131988 Mitsubishi Cordia",
+        "1985 Mitsubishi Galant",
+        "1985\u20131988 Mitsubishi Tredia",
+        "1985\u20131988 Pontiac Firefly",
+        "1985 Pontiac Sunburst",
+        "1970\u20131995 Subaru 1800",
+        "1978\u20131987 Subaru Brat",
+        "1985\u20131986 Subaru XT",
+        "1985\u20131988 Suzuki Forsa",
+        "1980\u20131985 Suzuki SJ410",
+        "1985\u20131989 Suzuki Samurai",
+        "1989\u20131990 Suzuki Sidekick",
+        "1971\u20131973 Toyota Carina",
+        "1971\u20131979 Toyota Celica",
+        "1971\u20131979 Toyota Corolla",
+        "1970\u20131979 Toyota Corona",
+        "1975\u20131979 Toyota Pickup",
+        "1984\u20131986 Toyota Tercel"
+      ],
+      "vehicle_count_raw": 453,
+      "ebay_item_id": "920130683326",
+      "ebay_type": "Distributor Rotor",
+      "ebay_brand": "KEM",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors",
+      "fitment_source": "ebay_listing+title",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "W292X",
+          "Standard JR-75"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1976,
+            "year_to": 1980,
+            "make": "Chevrolet",
+            "model": "LUV",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1985,
+            "make": "Chevrolet",
+            "model": "Spectrum",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1988,
+            "make": "Chevrolet",
+            "model": "Sprint",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1989,
+            "year_to": 1990,
+            "make": "Chevrolet",
+            "model": "Tracker",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1989,
+            "make": "Dodge",
+            "model": "Ram 50",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1989,
+            "year_to": 1990,
+            "make": "GMC",
+            "model": "Tracker",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1989,
+            "year_to": 1995,
+            "make": "Geo",
+            "model": "Tracker",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1983,
+            "year_to": 1984,
+            "make": "Isuzu",
+            "model": "I-Mark",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1988,
+            "make": "Mitsubishi",
+            "model": "Cordia",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1985,
+            "make": "Mitsubishi",
+            "model": "Galant",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1988,
+            "make": "Mitsubishi",
+            "model": "Tredia",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1988,
+            "make": "Pontiac",
+            "model": "Firefly",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1985,
+            "make": "Pontiac",
+            "model": "Sunburst",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1970,
+            "year_to": 1995,
+            "make": "Subaru",
+            "model": "1800",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1978,
+            "year_to": 1987,
+            "make": "Subaru",
+            "model": "Brat",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1986,
+            "make": "Subaru",
+            "model": "XT",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1988,
+            "make": "Suzuki",
+            "model": "Forsa",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1980,
+            "year_to": 1985,
+            "make": "Suzuki",
+            "model": "SJ410",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1989,
+            "make": "Suzuki",
+            "model": "Samurai",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1989,
+            "year_to": 1990,
+            "make": "Suzuki",
+            "model": "Sidekick",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1971,
+            "year_to": 1973,
+            "make": "Toyota",
+            "model": "Carina",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1971,
+            "year_to": 1979,
+            "make": "Toyota",
+            "model": "Celica",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1971,
+            "year_to": 1979,
+            "make": "Toyota",
+            "model": "Corolla",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1970,
+            "year_to": 1979,
+            "make": "Toyota",
+            "model": "Corona",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1975,
+            "year_to": 1979,
+            "make": "Toyota",
+            "model": "Pickup",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 1986,
+            "make": "Toyota",
+            "model": "Tercel",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1976\u20131980 Chevrolet LUV",
+          "1985 Chevrolet Spectrum",
+          "1985\u20131988 Chevrolet Sprint",
+          "1989\u20131990 Chevrolet Tracker",
+          "1985\u20131989 Dodge Ram 50",
+          "1989\u20131990 GMC Tracker",
+          "1989\u20131995 Geo Tracker",
+          "1983\u20131984 Isuzu I-Mark",
+          "1985\u20131988 Mitsubishi Cordia",
+          "1985 Mitsubishi Galant",
+          "1985\u20131988 Mitsubishi Tredia",
+          "1985\u20131988 Pontiac Firefly",
+          "1985 Pontiac Sunburst",
+          "1970\u20131995 Subaru 1800",
+          "1978\u20131987 Subaru Brat",
+          "1985\u20131986 Subaru XT",
+          "1985\u20131988 Suzuki Forsa",
+          "1980\u20131985 Suzuki SJ410",
+          "1985\u20131989 Suzuki Samurai",
+          "1989\u20131990 Suzuki Sidekick",
+          "1971\u20131973 Toyota Carina",
+          "1971\u20131979 Toyota Celica",
+          "1971\u20131979 Toyota Corolla",
+          "1970\u20131979 Toyota Corona",
+          "1975\u20131979 Toyota Pickup",
+          "1984\u20131986 Toyota Tercel"
+        ],
+        "raw_compat_rows": 453,
+        "source": "ebay_listing+title",
+        "confidence": "high",
+        "ebay_item_id": "920130683326",
+        "type": "Distributor Rotor",
+        "brand": "KEM",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors"
+      },
+      "images": [
+        "../assets/pdp-gallery/ZNZ7AD4XT2THPMEEVZ5SFMUB/02.webp",
+        "../assets/pdp-gallery/ZNZ7AD4XT2THPMEEVZ5SFMUB/03.webp",
+        "../assets/pdp-gallery/ZNZ7AD4XT2THPMEEVZ5SFMUB/04.webp",
+        "../assets/pdp-gallery/ZNZ7AD4XT2THPMEEVZ5SFMUB/05.webp"
+      ]
+    },
+    {
       "id": "6UNIDD477EWWZLMRXPXSV3R4",
       "name": "1977-1987 Buick Regal Century LeSabre KEM 1441X HEI V6 Distributor Cap 3.8L 4.1L",
       "price": 19.99,
@@ -48083,6 +48444,126 @@
       ],
       "stock": 1,
       "interchange": []
+    },
+    {
+      "id": "VRVGROPK6452IGXPF462J3IT",
+      "name": "1980-1989 KEM W298 Distributor Rotor Honda Acura Civic Integra Accord CRX",
+      "price": 12.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/3756a8e43bf02a511f274be7baedd31131f1bea3/original.jpeg",
+      "url": "https://square.link/u/w59IffUt",
+      "category": "ignition",
+      "checkout": true,
+      "variation_id": "JKMDIPFS3EBQZ5C3KC25TIED",
+      "stock": 1,
+      "part_numbers": [
+        "W298",
+        "Standard JR-89"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1980\u20131989 Acura Civic",
+        "1986\u20131987 Acura Integra",
+        "1981\u20131989 Honda Accord",
+        "1980\u20131989 Honda CRX",
+        "1980\u20131987 Honda Civic",
+        "1981\u20131989 Honda Prelude"
+      ],
+      "vehicle_count_raw": 144,
+      "ebay_item_id": "920130700336",
+      "ebay_type": "Distributor Rotor",
+      "ebay_brand": "KEM",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors",
+      "fitment_source": "ebay_listing+title",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "W298",
+          "Standard JR-89"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1980,
+            "year_to": 1989,
+            "make": "Acura",
+            "model": "Civic",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1986,
+            "year_to": 1987,
+            "make": "Acura",
+            "model": "Integra",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1981,
+            "year_to": 1989,
+            "make": "Honda",
+            "model": "Accord",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1980,
+            "year_to": 1989,
+            "make": "Honda",
+            "model": "CRX",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1980,
+            "year_to": 1987,
+            "make": "Honda",
+            "model": "Civic",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1981,
+            "year_to": 1989,
+            "make": "Honda",
+            "model": "Prelude",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1980\u20131989 Acura Civic",
+          "1986\u20131987 Acura Integra",
+          "1981\u20131989 Honda Accord",
+          "1980\u20131989 Honda CRX",
+          "1980\u20131987 Honda Civic",
+          "1981\u20131989 Honda Prelude"
+        ],
+        "raw_compat_rows": 144,
+        "source": "ebay_listing+title",
+        "confidence": "high",
+        "ebay_item_id": "920130700336",
+        "type": "Distributor Rotor",
+        "brand": "KEM",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors"
+      },
+      "images": [
+        "../assets/pdp-gallery/VRVGROPK6452IGXPF462J3IT/02.webp",
+        "../assets/pdp-gallery/VRVGROPK6452IGXPF462J3IT/03.webp",
+        "../assets/pdp-gallery/VRVGROPK6452IGXPF462J3IT/04.webp"
+      ]
     },
     {
       "id": "JJVT65MADMXWDPKE4LXW6Z5D",
@@ -73862,6 +74343,414 @@
       "interchange": []
     },
     {
+      "id": "6GWLBXWDQ53WY6BISVC5KW4G",
+      "name": "1970-1991 KEM W286X Import Rotor Mazda Colt Dodge Challenger Mitsubishi Mirage",
+      "price": 31.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/e73e503263b757d881211fc40c3e9be1ec2ef639/original.jpeg",
+      "url": "https://square.link/u/CfbG4grt",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "5GWMHGPEMVUGQTWFFD5XX6CQ",
+      "stock": 1,
+      "part_numbers": [
+        "W286X",
+        "Standard JR-80"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1978\u20131979 Dodge Challenger",
+        "1974\u20131991 Dodge Colt",
+        "1987\u20131989 Dodge Raider",
+        "1984\u20131989 Dodge Ram 50",
+        "1989\u20131990 Eagle Summit",
+        "1990\u20131991 Eagle Vista",
+        "1972\u20131982 Ford Courier",
+        "1986\u20131989 Hyundai Excel",
+        "1983\u20131987 Hyundai Pony",
+        "1985\u20131987 Hyundai Stellar",
+        "1971 Mazda 1200",
+        "1970\u20131971 Mazda 1800",
+        "1970\u20131972 Mazda 616",
+        "1972 Mazda 618",
+        "1979\u20131982 Mazda 626",
+        "1972\u20131976 Mazda 808",
+        "1970\u20131991 Mazda Colt",
+        "1977\u20131978 Mazda GLC",
+        "1976\u20131977 Mazda Mizer",
+        "1984\u20131988 Mitsubishi Cordia",
+        "1986 Mitsubishi Galant",
+        "1985\u20131988 Mitsubishi Mirage",
+        "1984\u20131989 Mitsubishi Montero",
+        "1987\u20131989 Mitsubishi Precis",
+        "1984\u20131988 Mitsubishi Tredia",
+        "1986\u20131991 Nissan Micra",
+        "1976\u20131980 Plymouth Arrow",
+        "1979\u20131982 Plymouth Champ",
+        "1976\u20131990 Plymouth Colt",
+        "1978\u20131979 Plymouth Sapporo"
+      ],
+      "vehicle_count_raw": 644,
+      "ebay_item_id": "920130671897",
+      "ebay_type": "Import Rotor",
+      "ebay_brand": "KEM",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors",
+      "fitment_source": "ebay_listing+title",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "W286X",
+          "Standard JR-80"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1978,
+            "year_to": 1979,
+            "make": "Dodge",
+            "model": "Challenger",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1974,
+            "year_to": 1991,
+            "make": "Dodge",
+            "model": "Colt",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1989,
+            "make": "Dodge",
+            "model": "Raider",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 1989,
+            "make": "Dodge",
+            "model": "Ram 50",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1989,
+            "year_to": 1990,
+            "make": "Eagle",
+            "model": "Summit",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1990,
+            "year_to": 1991,
+            "make": "Eagle",
+            "model": "Vista",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1972,
+            "year_to": 1982,
+            "make": "Ford",
+            "model": "Courier",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1986,
+            "year_to": 1989,
+            "make": "Hyundai",
+            "model": "Excel",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1983,
+            "year_to": 1987,
+            "make": "Hyundai",
+            "model": "Pony",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1987,
+            "make": "Hyundai",
+            "model": "Stellar",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1971,
+            "year_to": 1971,
+            "make": "Mazda",
+            "model": "1200",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1970,
+            "year_to": 1971,
+            "make": "Mazda",
+            "model": "1800",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1970,
+            "year_to": 1972,
+            "make": "Mazda",
+            "model": "616",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1972,
+            "year_to": 1972,
+            "make": "Mazda",
+            "model": "618",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1979,
+            "year_to": 1982,
+            "make": "Mazda",
+            "model": "626",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1972,
+            "year_to": 1976,
+            "make": "Mazda",
+            "model": "808",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1970,
+            "year_to": 1991,
+            "make": "Mazda",
+            "model": "Colt",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1977,
+            "year_to": 1978,
+            "make": "Mazda",
+            "model": "GLC",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1976,
+            "year_to": 1977,
+            "make": "Mazda",
+            "model": "Mizer",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 1988,
+            "make": "Mitsubishi",
+            "model": "Cordia",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1986,
+            "year_to": 1986,
+            "make": "Mitsubishi",
+            "model": "Galant",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1988,
+            "make": "Mitsubishi",
+            "model": "Mirage",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 1989,
+            "make": "Mitsubishi",
+            "model": "Montero",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1989,
+            "make": "Mitsubishi",
+            "model": "Precis",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 1988,
+            "make": "Mitsubishi",
+            "model": "Tredia",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1986,
+            "year_to": 1991,
+            "make": "Nissan",
+            "model": "Micra",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1976,
+            "year_to": 1980,
+            "make": "Plymouth",
+            "model": "Arrow",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1979,
+            "year_to": 1982,
+            "make": "Plymouth",
+            "model": "Champ",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1976,
+            "year_to": 1990,
+            "make": "Plymouth",
+            "model": "Colt",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1978,
+            "year_to": 1979,
+            "make": "Plymouth",
+            "model": "Sapporo",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1978\u20131979 Dodge Challenger",
+          "1974\u20131991 Dodge Colt",
+          "1987\u20131989 Dodge Raider",
+          "1984\u20131989 Dodge Ram 50",
+          "1989\u20131990 Eagle Summit",
+          "1990\u20131991 Eagle Vista",
+          "1972\u20131982 Ford Courier",
+          "1986\u20131989 Hyundai Excel",
+          "1983\u20131987 Hyundai Pony",
+          "1985\u20131987 Hyundai Stellar",
+          "1971 Mazda 1200",
+          "1970\u20131971 Mazda 1800",
+          "1970\u20131972 Mazda 616",
+          "1972 Mazda 618",
+          "1979\u20131982 Mazda 626",
+          "1972\u20131976 Mazda 808",
+          "1970\u20131991 Mazda Colt",
+          "1977\u20131978 Mazda GLC",
+          "1976\u20131977 Mazda Mizer",
+          "1984\u20131988 Mitsubishi Cordia",
+          "1986 Mitsubishi Galant",
+          "1985\u20131988 Mitsubishi Mirage",
+          "1984\u20131989 Mitsubishi Montero",
+          "1987\u20131989 Mitsubishi Precis",
+          "1984\u20131988 Mitsubishi Tredia",
+          "1986\u20131991 Nissan Micra",
+          "1976\u20131980 Plymouth Arrow",
+          "1979\u20131982 Plymouth Champ",
+          "1976\u20131990 Plymouth Colt",
+          "1978\u20131979 Plymouth Sapporo"
+        ],
+        "raw_compat_rows": 644,
+        "source": "ebay_listing+title",
+        "confidence": "high",
+        "ebay_item_id": "920130671897",
+        "type": "Import Rotor",
+        "brand": "KEM",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors"
+      },
+      "images": [
+        "../assets/pdp-gallery/6GWLBXWDQ53WY6BISVC5KW4G/02.webp",
+        "../assets/pdp-gallery/6GWLBXWDQ53WY6BISVC5KW4G/03.webp",
+        "../assets/pdp-gallery/6GWLBXWDQ53WY6BISVC5KW4G/04.webp"
+      ]
+    },
+    {
       "id": "H6ZVHC255FSYRYVMBGJAKHPJ",
       "name": "1978-1986 KEM E223 Ignition Control Module Buick Lesabre Regal GMC K1500 C1500",
       "price": 27.91,
@@ -75895,11 +76784,9 @@
       "category": "other",
       "checkout": true,
       "variation_id": "HIMHXVSL364ABQQWJW6RUCEU",
-      "stock": 1,
       "part_numbers": [
         "LX218T"
       ],
-      "interchange": [],
       "vehicles": [
         "1986\u20131992 Ford Aerostar",
         "1984\u20131992 Ford Bronco",
@@ -75938,11 +76825,6 @@
         "1988\u20131989 Merkur Scorpio",
         "1985\u20131989 Merkur XR4Ti"
       ],
-      "vehicle_count_raw": 2372,
-      "ebay_item_id": "920130498672",
-      "ebay_type": "Ignition Module",
-      "ebay_brand": "Standard Motor Products",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Modules",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -76358,12 +77240,19 @@
         "brand": "Standard Motor Products",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Modules"
       },
+      "vehicle_count_raw": 2372,
+      "ebay_item_id": "920130498672",
+      "ebay_type": "Ignition Module",
+      "ebay_brand": "Standard Motor Products",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Modules",
       "images": [
         "../assets/pdp-gallery/FWZR6VXJAJ4IMMJMJ5RKMU7E/02.webp",
         "../assets/pdp-gallery/FWZR6VXJAJ4IMMJMJ5RKMU7E/03.webp",
         "../assets/pdp-gallery/FWZR6VXJAJ4IMMJMJ5RKMU7E/04.webp",
         "../assets/pdp-gallery/FWZR6VXJAJ4IMMJMJ5RKMU7E/05.webp"
-      ]
+      ],
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "CF67GX4WVYPRCX7QQ33AQD5K",
@@ -129462,5 +130351,5 @@
       "vehicles": []
     }
   ],
-  "fitment_built": "2026-11-11T14:36:51Z"
+  "fitment_built": "2026-11-11T15:03:57Z"
 }
