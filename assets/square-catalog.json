@@ -1,7 +1,7 @@
 {
-  "updated": "2026-11-11T02:03:53Z",
+  "updated": "2026-11-11T03:03:53Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 888,
+  "count": 889,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -49353,7 +49353,6 @@
       "category": "ignition",
       "checkout": true,
       "variation_id": "4DFAH4GCY75RRCWPEXPRE3FC",
-      "stock": 1,
       "part_numbers": [
         "1831",
         "Chrysler 5142586AA, Jeep 53008778"
@@ -49375,12 +49374,7 @@
         "1993\u20131998 Jeep Grand Cherokee",
         "1992\u20132003 Ram 1500"
       ],
-      "vehicle_count_raw": 681,
-      "ebay_item_id": "920128397679",
-      "ebay_type": "Distributor Rotor",
-      "ebay_brand": "KEM",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors",
-      "fitment_source": "ebay_listing+title",
+      "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
@@ -49507,19 +49501,25 @@
           "1992\u20132003 Ram 1500"
         ],
         "raw_compat_rows": 681,
-        "source": "ebay_listing+title",
+        "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "920128397679",
         "type": "Distributor Rotor",
         "brand": "KEM",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors"
       },
+      "vehicle_count_raw": 681,
+      "ebay_item_id": "920128397679",
+      "ebay_type": "Distributor Rotor",
+      "ebay_brand": "KEM",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors",
       "images": [
         "../assets/pdp-gallery/6CPDLDIAKCPJ6WHDT5TKA5DA/02.webp",
         "../assets/pdp-gallery/6CPDLDIAKCPJ6WHDT5TKA5DA/03.webp",
         "../assets/pdp-gallery/6CPDLDIAKCPJ6WHDT5TKA5DA/04.webp",
         "../assets/pdp-gallery/6CPDLDIAKCPJ6WHDT5TKA5DA/05.webp"
-      ]
+      ],
+      "stock": 1
     },
     {
       "id": "WTHIGFQOKFV3PD3K6LPSW6S7",
@@ -96828,7 +96828,6 @@
       "category": "other",
       "checkout": true,
       "variation_id": "VYWDWN3WKSTAVT2MIQANRLGI",
-      "stock": 1,
       "part_numbers": [
         "KVR202B"
       ],
@@ -96849,11 +96848,6 @@
         "1967\u20131988 Mercury Cougar",
         "1975\u20131991 Mercury Grand Marquis"
       ],
-      "vehicle_count_raw": 2855,
-      "ebay_item_id": "920128390463",
-      "ebay_type": "Voltage Regulator",
-      "ebay_brand": "KEM",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Starters, Alternators, ECUs & Wiring:Voltage Regulators",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -96987,12 +96981,18 @@
         "brand": "KEM",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Starters, Alternators, ECUs & Wiring:Voltage Regulators"
       },
+      "vehicle_count_raw": 2855,
+      "ebay_item_id": "920128390463",
+      "ebay_type": "Voltage Regulator",
+      "ebay_brand": "KEM",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Starters, Alternators, ECUs & Wiring:Voltage Regulators",
       "images": [
         "../assets/pdp-gallery/USKPTIWWASDL2CHYK4SCCNMB/02.webp",
         "../assets/pdp-gallery/USKPTIWWASDL2CHYK4SCCNMB/03.webp",
         "../assets/pdp-gallery/USKPTIWWASDL2CHYK4SCCNMB/04.webp",
         "../assets/pdp-gallery/USKPTIWWASDL2CHYK4SCCNMB/05.webp"
-      ]
+      ],
+      "stock": 1
     },
     {
       "id": "3SPQXRVHRNJVWTVLE2V46DD5",
@@ -97338,6 +97338,123 @@
       "stock": 1
     },
     {
+      "id": "EIEL4ONBGJU62CD6YPTXCWFE",
+      "name": "KEM PS90 Oil Pressure Switch 60-89 Ford Bronco F-250 Mustang LTD Falcon",
+      "price": 34.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/ea09a933632b5c64b757a0d365211418cc26ac75/original.jpeg",
+      "url": "https://square.link/u/3znlW9lL",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "SOZAAS7QTQKRVC2GDTWZR6R7",
+      "stock": 1,
+      "part_numbers": [
+        "PS90"
+      ],
+      "interchange": [
+        "Standard PS-60",
+        "Motorcraft SW1547B",
+        "SW5849",
+        "BWD S334"
+      ],
+      "vehicles": [
+        "1966\u20131988 Ford Bronco",
+        "1960\u20131970 Ford Falcon",
+        "1967\u20131980 Ford LTD",
+        "1979\u20131989 Ford Mustang",
+        "1967\u20131981 Mercury Cougar"
+      ],
+      "vehicle_count_raw": 1356,
+      "ebay_item_id": "920128604191",
+      "ebay_type": "Oil Pressure Switch",
+      "ebay_brand": "KEM",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Engine Sensors & Switches",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "PS90"
+        ],
+        "interchange": [
+          "Standard PS-60",
+          "Motorcraft SW1547B",
+          "SW5849",
+          "BWD S334"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1966,
+            "year_to": 1988,
+            "make": "Ford",
+            "model": "Bronco",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1960,
+            "year_to": 1970,
+            "make": "Ford",
+            "model": "Falcon",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1967,
+            "year_to": 1980,
+            "make": "Ford",
+            "model": "LTD",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1979,
+            "year_to": 1989,
+            "make": "Ford",
+            "model": "Mustang",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1967,
+            "year_to": 1981,
+            "make": "Mercury",
+            "model": "Cougar",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1966\u20131988 Ford Bronco",
+          "1960\u20131970 Ford Falcon",
+          "1967\u20131980 Ford LTD",
+          "1979\u20131989 Ford Mustang",
+          "1967\u20131981 Mercury Cougar"
+        ],
+        "raw_compat_rows": 1356,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "920128604191",
+        "type": "Oil Pressure Switch",
+        "brand": "KEM",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Engine Sensors & Switches"
+      },
+      "images": [
+        "../assets/pdp-gallery/EIEL4ONBGJU62CD6YPTXCWFE/02.webp",
+        "../assets/pdp-gallery/EIEL4ONBGJU62CD6YPTXCWFE/03.webp",
+        "../assets/pdp-gallery/EIEL4ONBGJU62CD6YPTXCWFE/04.webp",
+        "../assets/pdp-gallery/EIEL4ONBGJU62CD6YPTXCWFE/05.webp"
+      ]
+    },
+    {
       "id": "BC6OQ66JUWEXTWANEMB4ESUC",
       "name": "KEM TV59X Ignition Points 62-74 Chevrolet Chevelle Nova Camaro C10 GMC Jeep CJ5",
       "price": 16.99,
@@ -97346,7 +97463,6 @@
       "category": "other",
       "checkout": true,
       "variation_id": "ZBGDBKC2PVQYQUQPYCXBZL5D",
-      "stock": 1,
       "part_numbers": [
         "TV59X"
       ],
@@ -97387,11 +97503,6 @@
         "1966\u20131969 Pontiac Tempest",
         "1971\u20131974 Pontiac Ventura"
       ],
-      "vehicle_count_raw": 1640,
-      "ebay_item_id": "920128490839",
-      "ebay_type": "Ignition Contact Set",
-      "ebay_brand": "KEM",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Points",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -97745,11 +97856,17 @@
         "brand": "KEM",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Points"
       },
+      "vehicle_count_raw": 1640,
+      "ebay_item_id": "920128490839",
+      "ebay_type": "Ignition Contact Set",
+      "ebay_brand": "KEM",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Points",
       "images": [
         "../assets/pdp-gallery/BC6OQ66JUWEXTWANEMB4ESUC/02.webp",
         "../assets/pdp-gallery/BC6OQ66JUWEXTWANEMB4ESUC/03.webp",
         "../assets/pdp-gallery/BC6OQ66JUWEXTWANEMB4ESUC/04.webp"
-      ]
+      ],
+      "stock": 1
     },
     {
       "id": "Q5BJX2LD3UW3IN2477EG5CDN",
@@ -122332,5 +122449,5 @@
       "vehicles": []
     }
   ],
-  "fitment_built": "2026-11-11T02:03:53Z"
+  "fitment_built": "2026-11-11T03:03:53Z"
 }
