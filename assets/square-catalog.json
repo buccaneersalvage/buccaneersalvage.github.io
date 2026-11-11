@@ -1,7 +1,7 @@
 {
-  "updated": "2026-11-11T04:03:53Z",
+  "updated": "2026-11-11T06:03:53Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 889,
+  "count": 893,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -96258,6 +96258,898 @@
       "vehicles": []
     },
     {
+      "id": "GJ74UGLVEPGII2CLCHWYHVR5",
+      "name": "KEM AR175 Accessory Relay 82-89 Buick Century Chevrolet Celebrity Camaro",
+      "price": 36.2,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/120dabf74ab2b713b740541d75bd606db0008811/original.jpeg",
+      "url": "https://square.link/u/FGHyoytn",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "KQODLIDAUVTBE7NNKQM6LTP6",
+      "stock": 1,
+      "part_numbers": [
+        "AR175"
+      ],
+      "interchange": [
+        "GM 14078902"
+      ],
+      "vehicles": [
+        "1982\u20131988 Buick Century",
+        "1984\u20131985 Buick Skylark",
+        "1983\u20131987 Chevrolet Camaro",
+        "1982\u20131988 Chevrolet Celebrity",
+        "1985 Chevrolet Citation",
+        "1984\u20131989 Chevrolet Corvette",
+        "1982\u20131988 Oldsmobile Cutlass Ciera",
+        "1984 Oldsmobile Omega",
+        "1982\u20131986 Pontiac 6000",
+        "1984\u20131986 Pontiac Fiero"
+      ],
+      "vehicle_count_raw": 596,
+      "ebay_item_id": "920129175785",
+      "ebay_type": "Accessory Relay",
+      "ebay_brand": "KEM",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Starters, Alternators, ECUs & Wiring:Relays",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "AR175"
+        ],
+        "interchange": [
+          "GM 14078902"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1982,
+            "year_to": 1988,
+            "make": "Buick",
+            "model": "Century",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 1985,
+            "make": "Buick",
+            "model": "Skylark",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1983,
+            "year_to": 1987,
+            "make": "Chevrolet",
+            "model": "Camaro",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1982,
+            "year_to": 1988,
+            "make": "Chevrolet",
+            "model": "Celebrity",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1985,
+            "make": "Chevrolet",
+            "model": "Citation",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 1989,
+            "make": "Chevrolet",
+            "model": "Corvette",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1982,
+            "year_to": 1988,
+            "make": "Oldsmobile",
+            "model": "Cutlass Ciera",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 1984,
+            "make": "Oldsmobile",
+            "model": "Omega",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1982,
+            "year_to": 1986,
+            "make": "Pontiac",
+            "model": "6000",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 1986,
+            "make": "Pontiac",
+            "model": "Fiero",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1982\u20131988 Buick Century",
+          "1984\u20131985 Buick Skylark",
+          "1983\u20131987 Chevrolet Camaro",
+          "1982\u20131988 Chevrolet Celebrity",
+          "1985 Chevrolet Citation",
+          "1984\u20131989 Chevrolet Corvette",
+          "1982\u20131988 Oldsmobile Cutlass Ciera",
+          "1984 Oldsmobile Omega",
+          "1982\u20131986 Pontiac 6000",
+          "1984\u20131986 Pontiac Fiero"
+        ],
+        "raw_compat_rows": 596,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "920129175785",
+        "type": "Accessory Relay",
+        "brand": "KEM",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Starters, Alternators, ECUs & Wiring:Relays"
+      },
+      "images": [
+        "../assets/pdp-gallery/GJ74UGLVEPGII2CLCHWYHVR5/02.webp",
+        "../assets/pdp-gallery/GJ74UGLVEPGII2CLCHWYHVR5/03.webp",
+        "../assets/pdp-gallery/GJ74UGLVEPGII2CLCHWYHVR5/04.webp",
+        "../assets/pdp-gallery/GJ74UGLVEPGII2CLCHWYHVR5/05.webp"
+      ]
+    },
+    {
+      "id": "B7N7O5H5IOY3GYIT47PYODZV",
+      "name": "KEM AR180 Accessory Relay 85-91 Dodge Caravan Aries Daytona Omni Shadow",
+      "price": 12.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/eea386340c07d91852f912377c32e6f7b61f866f/original.jpeg",
+      "url": "https://square.link/u/uN0gaxoq",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "ZJPISDIQNYRHLWUUHO7YQ32M",
+      "stock": 1,
+      "part_numbers": [
+        "AR180"
+      ],
+      "interchange": [
+        "Echlin AR320",
+        "Standard RY-79",
+        "BWD R709"
+      ],
+      "vehicles": [
+        "1987\u20131989 Chrysler Conquest",
+        "1988\u20131989 Chrysler Dynasty",
+        "1985\u20131989 Chrysler Fifth Avenue",
+        "1986 Chrysler Laser",
+        "1985\u20131989 Chrysler LeBaron",
+        "1985\u20131989 Chrysler New Yorker",
+        "1989 Dodge 2000 GTX",
+        "1985\u20131988 Dodge 600",
+        "1985\u20131989 Dodge Aries",
+        "1985\u20131991 Dodge Caravan",
+        "1985\u20131987 Dodge Charger",
+        "1988\u20131990 Dodge Colt",
+        "1986 Dodge Conquest",
+        "1987\u20131990 Dodge Dakota",
+        "1985\u20131990 Dodge Daytona",
+        "1986\u20131989 Dodge Diplomat",
+        "1988\u20131990 Dodge Dynasty",
+        "1987\u20131990 Dodge Grand Caravan",
+        "1985\u20131989 Dodge Lancer",
+        "1985 Dodge Mini Ram",
+        "1990 Dodge Monaco",
+        "1985\u20131990 Dodge Omni",
+        "1987\u20131990 Dodge Shadow",
+        "1989\u20131990 Dodge Spirit",
+        "1985\u20131987 Plymouth Caravelle",
+        "1985\u20131986 Plymouth Horizon",
+        "1985\u20131987 Plymouth Reliant",
+        "1985 Plymouth Turismo",
+        "1985 Plymouth Voyager"
+      ],
+      "vehicle_count_raw": 662,
+      "ebay_item_id": "920129163364",
+      "ebay_type": "Accessory Relay",
+      "ebay_brand": "KEM",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Starters, Alternators, ECUs & Wiring:Relays",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "AR180"
+        ],
+        "interchange": [
+          "Echlin AR320",
+          "Standard RY-79",
+          "BWD R709"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1987,
+            "year_to": 1989,
+            "make": "Chrysler",
+            "model": "Conquest",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1988,
+            "year_to": 1989,
+            "make": "Chrysler",
+            "model": "Dynasty",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1989,
+            "make": "Chrysler",
+            "model": "Fifth Avenue",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1986,
+            "year_to": 1986,
+            "make": "Chrysler",
+            "model": "Laser",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1989,
+            "make": "Chrysler",
+            "model": "LeBaron",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1989,
+            "make": "Chrysler",
+            "model": "New Yorker",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1989,
+            "year_to": 1989,
+            "make": "Dodge",
+            "model": "2000 GTX",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1988,
+            "make": "Dodge",
+            "model": "600",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1989,
+            "make": "Dodge",
+            "model": "Aries",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1991,
+            "make": "Dodge",
+            "model": "Caravan",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1987,
+            "make": "Dodge",
+            "model": "Charger",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1988,
+            "year_to": 1990,
+            "make": "Dodge",
+            "model": "Colt",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1986,
+            "year_to": 1986,
+            "make": "Dodge",
+            "model": "Conquest",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1990,
+            "make": "Dodge",
+            "model": "Dakota",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1990,
+            "make": "Dodge",
+            "model": "Daytona",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1986,
+            "year_to": 1989,
+            "make": "Dodge",
+            "model": "Diplomat",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1988,
+            "year_to": 1990,
+            "make": "Dodge",
+            "model": "Dynasty",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1990,
+            "make": "Dodge",
+            "model": "Grand Caravan",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1989,
+            "make": "Dodge",
+            "model": "Lancer",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1985,
+            "make": "Dodge",
+            "model": "Mini Ram",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1990,
+            "year_to": 1990,
+            "make": "Dodge",
+            "model": "Monaco",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1990,
+            "make": "Dodge",
+            "model": "Omni",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1990,
+            "make": "Dodge",
+            "model": "Shadow",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1989,
+            "year_to": 1990,
+            "make": "Dodge",
+            "model": "Spirit",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1987,
+            "make": "Plymouth",
+            "model": "Caravelle",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1986,
+            "make": "Plymouth",
+            "model": "Horizon",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1987,
+            "make": "Plymouth",
+            "model": "Reliant",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1985,
+            "make": "Plymouth",
+            "model": "Turismo",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1985,
+            "make": "Plymouth",
+            "model": "Voyager",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1987\u20131989 Chrysler Conquest",
+          "1988\u20131989 Chrysler Dynasty",
+          "1985\u20131989 Chrysler Fifth Avenue",
+          "1986 Chrysler Laser",
+          "1985\u20131989 Chrysler LeBaron",
+          "1985\u20131989 Chrysler New Yorker",
+          "1989 Dodge 2000 GTX",
+          "1985\u20131988 Dodge 600",
+          "1985\u20131989 Dodge Aries",
+          "1985\u20131991 Dodge Caravan",
+          "1985\u20131987 Dodge Charger",
+          "1988\u20131990 Dodge Colt",
+          "1986 Dodge Conquest",
+          "1987\u20131990 Dodge Dakota",
+          "1985\u20131990 Dodge Daytona",
+          "1986\u20131989 Dodge Diplomat",
+          "1988\u20131990 Dodge Dynasty",
+          "1987\u20131990 Dodge Grand Caravan",
+          "1985\u20131989 Dodge Lancer",
+          "1985 Dodge Mini Ram",
+          "1990 Dodge Monaco",
+          "1985\u20131990 Dodge Omni",
+          "1987\u20131990 Dodge Shadow",
+          "1989\u20131990 Dodge Spirit",
+          "1985\u20131987 Plymouth Caravelle",
+          "1985\u20131986 Plymouth Horizon",
+          "1985\u20131987 Plymouth Reliant",
+          "1985 Plymouth Turismo",
+          "1985 Plymouth Voyager"
+        ],
+        "raw_compat_rows": 662,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "920129163364",
+        "type": "Accessory Relay",
+        "brand": "KEM",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Starters, Alternators, ECUs & Wiring:Relays"
+      },
+      "images": [
+        "../assets/pdp-gallery/B7N7O5H5IOY3GYIT47PYODZV/02.webp",
+        "../assets/pdp-gallery/B7N7O5H5IOY3GYIT47PYODZV/03.webp",
+        "../assets/pdp-gallery/B7N7O5H5IOY3GYIT47PYODZV/04.webp",
+        "../assets/pdp-gallery/B7N7O5H5IOY3GYIT47PYODZV/05.webp"
+      ]
+    },
+    {
+      "id": "NR5MW6ZPP376JBGHQ5HQUACE",
+      "name": "KEM AR218 Accessory Relay 86-92 Chrysler Town & Country Dodge Diplomat",
+      "price": 19.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/a836e8b4f76e9e4d5a0642b932c961a0d0343f05/original.jpeg",
+      "url": "https://square.link/u/PQ0vXBRp",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "3QQ7SG32XLWCCT4LTZJH3KHM",
+      "stock": 1,
+      "part_numbers": [
+        "AR218",
+        "Chrysler 4379203, 4419185"
+      ],
+      "interchange": [
+        "Standard RY-98",
+        "Echlin AR152",
+        "BWD R3092"
+      ],
+      "vehicles": [
+        "1986\u20131992 Chrysler Town",
+        "1986\u20131991 Chrysler Town & Country",
+        "1987 Dodge Charger",
+        "1987 Dodge Diplomat",
+        "1987\u20131989 Plymouth Caravelle",
+        "1987\u20131992 Plymouth Colt",
+        "1987\u20131989 Plymouth Expo",
+        "1987\u20131989 Plymouth Gran Fury"
+      ],
+      "vehicle_count_raw": 124,
+      "ebay_item_id": "920129156913",
+      "ebay_type": "Accessory Relay",
+      "ebay_brand": "KEM",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Starters, Alternators, ECUs & Wiring:Relays",
+      "fitment_source": "ebay_listing+title",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "AR218",
+          "Chrysler 4379203, 4419185"
+        ],
+        "interchange": [
+          "Standard RY-98",
+          "Echlin AR152",
+          "BWD R3092"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1986,
+            "year_to": 1992,
+            "make": "Chrysler",
+            "model": "Town",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1986,
+            "year_to": 1991,
+            "make": "Chrysler",
+            "model": "Town & Country",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1987,
+            "make": "Dodge",
+            "model": "Charger",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1987,
+            "make": "Dodge",
+            "model": "Diplomat",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1989,
+            "make": "Plymouth",
+            "model": "Caravelle",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1992,
+            "make": "Plymouth",
+            "model": "Colt",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1989,
+            "make": "Plymouth",
+            "model": "Expo",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1989,
+            "make": "Plymouth",
+            "model": "Gran Fury",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1986\u20131992 Chrysler Town",
+          "1986\u20131991 Chrysler Town & Country",
+          "1987 Dodge Charger",
+          "1987 Dodge Diplomat",
+          "1987\u20131989 Plymouth Caravelle",
+          "1987\u20131992 Plymouth Colt",
+          "1987\u20131989 Plymouth Expo",
+          "1987\u20131989 Plymouth Gran Fury"
+        ],
+        "raw_compat_rows": 124,
+        "source": "ebay_listing+title",
+        "confidence": "high",
+        "ebay_item_id": "920129156913",
+        "type": "Accessory Relay",
+        "brand": "KEM",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Starters, Alternators, ECUs & Wiring:Relays"
+      },
+      "images": [
+        "../assets/pdp-gallery/NR5MW6ZPP376JBGHQ5HQUACE/02.webp",
+        "../assets/pdp-gallery/NR5MW6ZPP376JBGHQ5HQUACE/03.webp",
+        "../assets/pdp-gallery/NR5MW6ZPP376JBGHQ5HQUACE/04.webp",
+        "../assets/pdp-gallery/NR5MW6ZPP376JBGHQ5HQUACE/05.webp"
+      ]
+    },
+    {
+      "id": "WZF6YXZGFHBIKWSKX7MV2MF2",
+      "name": "KEM AR228 Accessory Relay 85-95 Chevrolet Beretta Corsica G10 G20 GMC Jimmy",
+      "price": 17.98,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/7ad69f89f68c9fff53757e64c1e261eed11211a0/original.jpeg",
+      "url": "https://square.link/u/TDyE5WeQ",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "4R2SGVNCFHVQ6GQKLZNLLSTI",
+      "stock": 1,
+      "part_numbers": [
+        "AR228",
+        "14089936"
+      ],
+      "interchange": [
+        "Standard RY-109",
+        "BWD R4005",
+        "ACDelco 14089936"
+      ],
+      "vehicles": [
+        "1987\u20131992 Chevrolet Beretta",
+        "1987\u20131992 Chevrolet Corsica",
+        "1987\u20131994 Chevrolet G10",
+        "1985\u20131994 Chevrolet G20",
+        "1985\u20131989 Chevrolet P20",
+        "1985\u20131994 GMC G2500",
+        "1985\u20131994 GMC G3500",
+        "1987\u20131995 GMC Jimmy",
+        "1985 GMC K1500 Suburban"
+      ],
+      "vehicle_count_raw": 641,
+      "ebay_item_id": "920129147931",
+      "ebay_type": "Accessory Relay",
+      "ebay_brand": "KEM",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Starters, Alternators, ECUs & Wiring:Relays",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "AR228",
+          "14089936"
+        ],
+        "interchange": [
+          "Standard RY-109",
+          "BWD R4005",
+          "ACDelco 14089936"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1987,
+            "year_to": 1992,
+            "make": "Chevrolet",
+            "model": "Beretta",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1992,
+            "make": "Chevrolet",
+            "model": "Corsica",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1994,
+            "make": "Chevrolet",
+            "model": "G10",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1994,
+            "make": "Chevrolet",
+            "model": "G20",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1989,
+            "make": "Chevrolet",
+            "model": "P20",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1994,
+            "make": "GMC",
+            "model": "G2500",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1994,
+            "make": "GMC",
+            "model": "G3500",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1995,
+            "make": "GMC",
+            "model": "Jimmy",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1985,
+            "make": "GMC",
+            "model": "K1500 Suburban",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1987\u20131992 Chevrolet Beretta",
+          "1987\u20131992 Chevrolet Corsica",
+          "1987\u20131994 Chevrolet G10",
+          "1985\u20131994 Chevrolet G20",
+          "1985\u20131989 Chevrolet P20",
+          "1985\u20131994 GMC G2500",
+          "1985\u20131994 GMC G3500",
+          "1987\u20131995 GMC Jimmy",
+          "1985 GMC K1500 Suburban"
+        ],
+        "raw_compat_rows": 641,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "920129147931",
+        "type": "Accessory Relay",
+        "brand": "KEM",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Starters, Alternators, ECUs & Wiring:Relays"
+      },
+      "images": [
+        "../assets/pdp-gallery/WZF6YXZGFHBIKWSKX7MV2MF2/02.webp",
+        "../assets/pdp-gallery/WZF6YXZGFHBIKWSKX7MV2MF2/03.webp",
+        "../assets/pdp-gallery/WZF6YXZGFHBIKWSKX7MV2MF2/04.webp",
+        "../assets/pdp-gallery/WZF6YXZGFHBIKWSKX7MV2MF2/05.webp"
+      ]
+    },
+    {
       "id": "XJOFDY6W2SA2CJJDTX2VQVRU",
       "name": "KEM AR251 HVAC Blower Relay 84-99 Camaro Cavalier Blazer Jimmy",
       "price": 14.99,
@@ -97346,7 +98238,6 @@
       "category": "other",
       "checkout": true,
       "variation_id": "SOZAAS7QTQKRVC2GDTWZR6R7",
-      "stock": 1,
       "part_numbers": [
         "PS90"
       ],
@@ -97363,11 +98254,6 @@
         "1979\u20131989 Ford Mustang",
         "1967\u20131981 Mercury Cougar"
       ],
-      "vehicle_count_raw": 1356,
-      "ebay_item_id": "920128604191",
-      "ebay_type": "Oil Pressure Switch",
-      "ebay_brand": "KEM",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Engine Sensors & Switches",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -97447,12 +98333,18 @@
         "brand": "KEM",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Engine Sensors & Switches"
       },
+      "vehicle_count_raw": 1356,
+      "ebay_item_id": "920128604191",
+      "ebay_type": "Oil Pressure Switch",
+      "ebay_brand": "KEM",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Engine Sensors & Switches",
       "images": [
         "../assets/pdp-gallery/EIEL4ONBGJU62CD6YPTXCWFE/02.webp",
         "../assets/pdp-gallery/EIEL4ONBGJU62CD6YPTXCWFE/03.webp",
         "../assets/pdp-gallery/EIEL4ONBGJU62CD6YPTXCWFE/04.webp",
         "../assets/pdp-gallery/EIEL4ONBGJU62CD6YPTXCWFE/05.webp"
-      ]
+      ],
+      "stock": 1
     },
     {
       "id": "BC6OQ66JUWEXTWANEMB4ESUC",
@@ -122449,5 +123341,5 @@
       "vehicles": []
     }
   ],
-  "fitment_built": "2026-11-11T04:03:53Z"
+  "fitment_built": "2026-11-11T06:03:53Z"
 }
