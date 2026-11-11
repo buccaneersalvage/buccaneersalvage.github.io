@@ -1,7 +1,7 @@
 {
-  "updated": "2026-11-11T11:03:47Z",
+  "updated": "2026-11-11T12:03:59Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 900,
+  "count": 906,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -47454,12 +47454,10 @@
       "category": "ignition",
       "checkout": true,
       "variation_id": "EOOSA3LAPMYRB6DKXAAIYPJG",
-      "stock": 1,
       "part_numbers": [
         "U12GX",
         "Standard FD-476"
       ],
-      "interchange": [],
       "vehicles": [
         "1978\u20131980 AMC AMX",
         "1978\u20131983 AMC Concord",
@@ -47479,11 +47477,6 @@
         "1975\u20131985 Lincoln Continental",
         "1975\u20131986 Mercury Capri"
       ],
-      "vehicle_count_raw": 570,
-      "ebay_item_id": "920129943360",
-      "ebay_type": "Ignition Coil",
-      "ebay_brand": "KEM",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Coils",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -47691,12 +47684,19 @@
         "brand": "KEM",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Coils"
       },
+      "vehicle_count_raw": 570,
+      "ebay_item_id": "920129943360",
+      "ebay_type": "Ignition Coil",
+      "ebay_brand": "KEM",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Coils",
       "images": [
         "../assets/pdp-gallery/32H6H5226DPKD5HC4CGN6PUE/02.webp",
         "../assets/pdp-gallery/32H6H5226DPKD5HC4CGN6PUE/03.webp",
         "../assets/pdp-gallery/32H6H5226DPKD5HC4CGN6PUE/04.webp",
         "../assets/pdp-gallery/32H6H5226DPKD5HC4CGN6PUE/05.webp"
-      ]
+      ],
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "6UNIDD477EWWZLMRXPXSV3R4",
@@ -47926,6 +47926,90 @@
       ],
       "stock": 1,
       "interchange": []
+    },
+    {
+      "id": "JJVT65MADMXWDPKE4LXW6Z5D",
+      "name": "1981-1986 KEM W299 Distributor Rotor for Nissan 720 200SX Stanza 510",
+      "price": 13.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/693727eabc9f955d50e0edd85827e63f13589f51/original.jpeg",
+      "url": "https://square.link/u/UF0kGrE5",
+      "category": "ignition",
+      "checkout": true,
+      "variation_id": "PN4MLCDPHRUYTOFRJLKNQ3AV",
+      "stock": 1,
+      "part_numbers": [
+        "W299",
+        "Standard JR-114"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1984\u20131986 Nissan 200SX",
+        "1983\u20131985 Nissan 720",
+        "1982\u20131986 Nissan Stanza"
+      ],
+      "vehicle_count_raw": 27,
+      "ebay_item_id": "920130132995",
+      "ebay_type": "Distributor Rotor",
+      "ebay_brand": "KEM",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "W299",
+          "Standard JR-114"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1984,
+            "year_to": 1986,
+            "make": "Nissan",
+            "model": "200SX",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1983,
+            "year_to": 1985,
+            "make": "Nissan",
+            "model": "720",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1982,
+            "year_to": 1986,
+            "make": "Nissan",
+            "model": "Stanza",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1984\u20131986 Nissan 200SX",
+          "1983\u20131985 Nissan 720",
+          "1982\u20131986 Nissan Stanza"
+        ],
+        "raw_compat_rows": 27,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "920130132995",
+        "type": "Distributor Rotor",
+        "brand": "KEM",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors"
+      },
+      "images": [
+        "../assets/pdp-gallery/JJVT65MADMXWDPKE4LXW6Z5D/02.webp",
+        "../assets/pdp-gallery/JJVT65MADMXWDPKE4LXW6Z5D/03.webp",
+        "../assets/pdp-gallery/JJVT65MADMXWDPKE4LXW6Z5D/04.webp"
+      ]
     },
     {
       "id": "TDECSPKM5Q5LG4MNACR445CN",
@@ -51397,6 +51481,379 @@
       "stock": 1
     },
     {
+      "id": "ZL267KDJSIA6OVMPEHHL5GHE",
+      "name": "KEM W297X Distributor Rotor 1.4-2.6L Mitsubishi Starion Dodge Colt",
+      "price": 14.36,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/410259669832e3e2e3f26a5e1e717cd5ffecf33b/original.jpeg",
+      "url": "https://square.link/u/6yAAyAnA",
+      "category": "ignition",
+      "checkout": true,
+      "variation_id": "OQR462FJXBNDRBKORVTAV2UD",
+      "stock": 1,
+      "part_numbers": [
+        "W297X",
+        "Standard JR-84"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1987\u20131989 Chrysler Conquest",
+        "1985 Chrysler Executive Limousine",
+        "1983\u20131984 Chrysler Executive Sedan",
+        "1982\u20131985 Chrysler LeBaron",
+        "1983\u20131985 Chrysler New Yorker",
+        "1982\u20131985 Chrysler Town & Country",
+        "1982\u20131983 Dodge 400",
+        "1983\u20131985 Dodge 600",
+        "1981\u20131985 Dodge Aries",
+        "1984\u20131987 Dodge Caravan",
+        "1978\u20131983 Dodge Challenger",
+        "1980 Dodge Colt",
+        "1984\u20131986 Dodge Conquest",
+        "1979\u20131982 Dodge D50",
+        "1984\u20131987 Dodge Mini Ram",
+        "1983\u20131984 Dodge Ram 50",
+        "1983 Mitsubishi Mighty Max",
+        "1983 Mitsubishi Montero",
+        "1983\u20131989 Mitsubishi Starion",
+        "1980 Plymouth Arrow",
+        "1985 Plymouth Caravelle",
+        "1980\u20131982 Plymouth Champ",
+        "1983 Plymouth Colt",
+        "1984\u20131986 Plymouth Conquest",
+        "1981\u20131985 Plymouth Reliant",
+        "1979\u20131983 Plymouth Sapporo",
+        "1984\u20131987 Plymouth Voyager"
+      ],
+      "vehicle_count_raw": 229,
+      "ebay_item_id": "920130017205",
+      "ebay_type": "Distributor Rotor",
+      "ebay_brand": "KEM",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "W297X",
+          "Standard JR-84"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1987,
+            "year_to": 1989,
+            "make": "Chrysler",
+            "model": "Conquest",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1985,
+            "make": "Chrysler",
+            "model": "Executive Limousine",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1983,
+            "year_to": 1984,
+            "make": "Chrysler",
+            "model": "Executive Sedan",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1982,
+            "year_to": 1985,
+            "make": "Chrysler",
+            "model": "LeBaron",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1983,
+            "year_to": 1985,
+            "make": "Chrysler",
+            "model": "New Yorker",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1982,
+            "year_to": 1985,
+            "make": "Chrysler",
+            "model": "Town & Country",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1982,
+            "year_to": 1983,
+            "make": "Dodge",
+            "model": "400",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1983,
+            "year_to": 1985,
+            "make": "Dodge",
+            "model": "600",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1981,
+            "year_to": 1985,
+            "make": "Dodge",
+            "model": "Aries",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 1987,
+            "make": "Dodge",
+            "model": "Caravan",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1978,
+            "year_to": 1983,
+            "make": "Dodge",
+            "model": "Challenger",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1980,
+            "year_to": 1980,
+            "make": "Dodge",
+            "model": "Colt",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 1986,
+            "make": "Dodge",
+            "model": "Conquest",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1979,
+            "year_to": 1982,
+            "make": "Dodge",
+            "model": "D50",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 1987,
+            "make": "Dodge",
+            "model": "Mini Ram",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1983,
+            "year_to": 1984,
+            "make": "Dodge",
+            "model": "Ram 50",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1983,
+            "year_to": 1983,
+            "make": "Mitsubishi",
+            "model": "Mighty Max",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1983,
+            "year_to": 1983,
+            "make": "Mitsubishi",
+            "model": "Montero",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1983,
+            "year_to": 1989,
+            "make": "Mitsubishi",
+            "model": "Starion",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1980,
+            "year_to": 1980,
+            "make": "Plymouth",
+            "model": "Arrow",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1985,
+            "make": "Plymouth",
+            "model": "Caravelle",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1980,
+            "year_to": 1982,
+            "make": "Plymouth",
+            "model": "Champ",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1983,
+            "year_to": 1983,
+            "make": "Plymouth",
+            "model": "Colt",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 1986,
+            "make": "Plymouth",
+            "model": "Conquest",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1981,
+            "year_to": 1985,
+            "make": "Plymouth",
+            "model": "Reliant",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1979,
+            "year_to": 1983,
+            "make": "Plymouth",
+            "model": "Sapporo",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 1987,
+            "make": "Plymouth",
+            "model": "Voyager",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1987\u20131989 Chrysler Conquest",
+          "1985 Chrysler Executive Limousine",
+          "1983\u20131984 Chrysler Executive Sedan",
+          "1982\u20131985 Chrysler LeBaron",
+          "1983\u20131985 Chrysler New Yorker",
+          "1982\u20131985 Chrysler Town & Country",
+          "1982\u20131983 Dodge 400",
+          "1983\u20131985 Dodge 600",
+          "1981\u20131985 Dodge Aries",
+          "1984\u20131987 Dodge Caravan",
+          "1978\u20131983 Dodge Challenger",
+          "1980 Dodge Colt",
+          "1984\u20131986 Dodge Conquest",
+          "1979\u20131982 Dodge D50",
+          "1984\u20131987 Dodge Mini Ram",
+          "1983\u20131984 Dodge Ram 50",
+          "1983 Mitsubishi Mighty Max",
+          "1983 Mitsubishi Montero",
+          "1983\u20131989 Mitsubishi Starion",
+          "1980 Plymouth Arrow",
+          "1985 Plymouth Caravelle",
+          "1980\u20131982 Plymouth Champ",
+          "1983 Plymouth Colt",
+          "1984\u20131986 Plymouth Conquest",
+          "1981\u20131985 Plymouth Reliant",
+          "1979\u20131983 Plymouth Sapporo",
+          "1984\u20131987 Plymouth Voyager"
+        ],
+        "raw_compat_rows": 229,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "920130017205",
+        "type": "Distributor Rotor",
+        "brand": "KEM",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors"
+      },
+      "images": [
+        "../assets/pdp-gallery/ZL267KDJSIA6OVMPEHHL5GHE/02.webp",
+        "../assets/pdp-gallery/ZL267KDJSIA6OVMPEHHL5GHE/03.webp",
+        "../assets/pdp-gallery/ZL267KDJSIA6OVMPEHHL5GHE/04.webp",
+        "../assets/pdp-gallery/ZL267KDJSIA6OVMPEHHL5GHE/05.webp"
+      ]
+    },
+    {
       "id": "RZJHG2KBCGAT5IGXHRUUMJJO",
       "name": "KEM W3022 Import Distributor Cap 1986-1989 I-Mark 1.5",
       "price": 12.99,
@@ -51728,6 +52185,126 @@
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps",
       "stock": 1,
       "images": []
+    },
+    {
+      "id": "2UMIXXU7B3FGVUULWOG2OOZF",
+      "name": "KEM W393X Distributor Cap Hyundai Sonata Plymouth Colt Vista Dodge",
+      "price": 19.67,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/1eb90d88c32425ba747c3dd17b2079c7ba46fb8e/original.jpeg",
+      "url": "https://square.link/u/Qwgt020V",
+      "category": "ignition",
+      "checkout": true,
+      "variation_id": "RWXO3TXRMTFAPKHZVSEND3ZN",
+      "stock": 1,
+      "part_numbers": [
+        "W393X",
+        "Standard JH-67"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1984\u20131990 Dodge Colt",
+        "1989\u20131990 Eagle Summit",
+        "1989\u20131991 Hyundai Sonata",
+        "1979\u20131982 Mazda 626",
+        "1987\u20131988 Mitsubishi Cordia",
+        "1984\u20131990 Plymouth Colt"
+      ],
+      "vehicle_count_raw": 115,
+      "ebay_item_id": "920129981610",
+      "ebay_type": "Distributor Cap",
+      "ebay_brand": "KEM",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "W393X",
+          "Standard JH-67"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1984,
+            "year_to": 1990,
+            "make": "Dodge",
+            "model": "Colt",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1989,
+            "year_to": 1990,
+            "make": "Eagle",
+            "model": "Summit",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1989,
+            "year_to": 1991,
+            "make": "Hyundai",
+            "model": "Sonata",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1979,
+            "year_to": 1982,
+            "make": "Mazda",
+            "model": "626",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1988,
+            "make": "Mitsubishi",
+            "model": "Cordia",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 1990,
+            "make": "Plymouth",
+            "model": "Colt",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1984\u20131990 Dodge Colt",
+          "1989\u20131990 Eagle Summit",
+          "1989\u20131991 Hyundai Sonata",
+          "1979\u20131982 Mazda 626",
+          "1987\u20131988 Mitsubishi Cordia",
+          "1984\u20131990 Plymouth Colt"
+        ],
+        "raw_compat_rows": 115,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "920129981610",
+        "type": "Distributor Cap",
+        "brand": "KEM",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors"
+      },
+      "images": [
+        "../assets/pdp-gallery/2UMIXXU7B3FGVUULWOG2OOZF/02.webp",
+        "../assets/pdp-gallery/2UMIXXU7B3FGVUULWOG2OOZF/03.webp",
+        "../assets/pdp-gallery/2UMIXXU7B3FGVUULWOG2OOZF/04.webp"
+      ]
     },
     {
       "id": "GNDVYF4XBBD4WGDXDASZ7SER",
@@ -69328,12 +69905,10 @@
       "category": "interior",
       "checkout": true,
       "variation_id": "DAD6OUPF2XQVHBXFQ26ZEPBC",
-      "stock": 1,
       "part_numbers": [
         "DS118",
         "Standard DS-79T"
       ],
-      "interchange": [],
       "vehicles": [
         "1978\u20131983 Buick Century",
         "1978\u20131989 Buick Electra",
@@ -69361,11 +69936,6 @@
         "1978\u20132002 Pontiac Firebird",
         "1978\u20131987 Pontiac Grand Prix"
       ],
-      "vehicle_count_raw": 3000,
-      "ebay_item_id": "920129909929",
-      "ebay_type": "Dimmer Switch",
-      "ebay_brand": "KEM",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Interior Parts & Accessories:Switches & Controls",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -69661,13 +70231,20 @@
         "brand": "KEM",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Interior Parts & Accessories:Switches & Controls"
       },
+      "vehicle_count_raw": 3000,
+      "ebay_item_id": "920129909929",
+      "ebay_type": "Dimmer Switch",
+      "ebay_brand": "KEM",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Interior Parts & Accessories:Switches & Controls",
       "images": [
         "../assets/pdp-gallery/HLQYQWHSGPVJVXKDE37AVTIO/02.webp",
         "../assets/pdp-gallery/HLQYQWHSGPVJVXKDE37AVTIO/03.webp",
         "../assets/pdp-gallery/HLQYQWHSGPVJVXKDE37AVTIO/04.webp",
         "../assets/pdp-gallery/HLQYQWHSGPVJVXKDE37AVTIO/05.webp",
         "../assets/pdp-gallery/HLQYQWHSGPVJVXKDE37AVTIO/06.webp"
-      ]
+      ],
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "EI6IIJST5VQ56MZJAZCMIJFV",
@@ -73161,6 +73738,534 @@
       "interchange": []
     },
     {
+      "id": "TXSBBCQZQZWTA35HYAQV3KHV",
+      "name": "1980-1995 KEM E220X Ignition Module Chevrolet Caprice Camaro Pontiac Firebird",
+      "price": 25.0,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/f5ee59162a6e1334f3b510571c49e23eb6e18a67/original.jpeg",
+      "url": "https://square.link/u/GcwPtoyQ",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "ULPWOLW33ZZHDGDQTTSRZIYB",
+      "stock": 1,
+      "part_numbers": [
+        "E220X",
+        "Standard LX-315T"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1980\u20131986 Buick Century",
+        "1981\u20131989 Buick Electra",
+        "1980\u20131990 Buick LeSabre",
+        "1980\u20131987 Buick Regal",
+        "1980\u20131985 Buick Riviera",
+        "1984\u20131993 Cadillac Commercial Chassis",
+        "1981\u20131995 Cadillac DeVille",
+        "1981\u20131993 Cadillac Eldorado",
+        "1981\u20131992 Cadillac Fleetwood",
+        "1980\u20131993 Cadillac Seville",
+        "1982\u20131986 Chevrolet C10",
+        "1981\u20131986 Chevrolet C20 Suburban",
+        "1980\u20131986 Chevrolet Camaro",
+        "1981\u20131990 Chevrolet Caprice",
+        "1981\u20131991 Chevrolet Corvette",
+        "1980\u20131986 Chevrolet El Camino",
+        "1982\u20131986 Chevrolet G10",
+        "1982\u20131986 Chevrolet G20",
+        "1982\u20131986 Chevrolet G30",
+        "1980\u20131985 Chevrolet Impala",
+        "1982\u20131986 Chevrolet K10",
+        "1981\u20131986 Chevrolet K10 Suburban",
+        "1983\u20131986 Chevrolet K20 Suburban",
+        "1981\u20131986 Chevrolet K5 Blazer",
+        "1980\u20131983 Chevrolet Malibu",
+        "1980\u20131986 Chevrolet Monte Carlo",
+        "1982\u20131986 GMC C1500",
+        "1980\u20131986 GMC Caballero",
+        "1981\u20131986 GMC G1500",
+        "1981\u20131986 GMC G2500",
+        "1981\u20131986 GMC Jimmy",
+        "1981\u20131985 Oldsmobile 98",
+        "1981\u20131990 Oldsmobile Custom Cruiser",
+        "1981\u20131984 Oldsmobile Cutlass Calais",
+        "1982\u20131988 Oldsmobile Cutlass Supreme",
+        "1980\u20131985 Oldsmobile Delta 88",
+        "1981\u20131985 Oldsmobile Toronado",
+        "1980\u20131986 Pontiac Bonneville",
+        "1980\u20131986 Pontiac Firebird",
+        "1980\u20131987 Pontiac Grand Prix"
+      ],
+      "vehicle_count_raw": 1750,
+      "ebay_item_id": "920130084919",
+      "ebay_type": "Ignition Module",
+      "ebay_brand": "KEM",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Modules",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "E220X",
+          "Standard LX-315T"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1980,
+            "year_to": 1986,
+            "make": "Buick",
+            "model": "Century",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1981,
+            "year_to": 1989,
+            "make": "Buick",
+            "model": "Electra",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1980,
+            "year_to": 1990,
+            "make": "Buick",
+            "model": "LeSabre",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1980,
+            "year_to": 1987,
+            "make": "Buick",
+            "model": "Regal",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1980,
+            "year_to": 1985,
+            "make": "Buick",
+            "model": "Riviera",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 1993,
+            "make": "Cadillac",
+            "model": "Commercial Chassis",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1981,
+            "year_to": 1995,
+            "make": "Cadillac",
+            "model": "DeVille",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1981,
+            "year_to": 1993,
+            "make": "Cadillac",
+            "model": "Eldorado",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1981,
+            "year_to": 1992,
+            "make": "Cadillac",
+            "model": "Fleetwood",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1980,
+            "year_to": 1993,
+            "make": "Cadillac",
+            "model": "Seville",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1982,
+            "year_to": 1986,
+            "make": "Chevrolet",
+            "model": "C10",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1981,
+            "year_to": 1986,
+            "make": "Chevrolet",
+            "model": "C20 Suburban",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1980,
+            "year_to": 1986,
+            "make": "Chevrolet",
+            "model": "Camaro",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1981,
+            "year_to": 1990,
+            "make": "Chevrolet",
+            "model": "Caprice",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1981,
+            "year_to": 1991,
+            "make": "Chevrolet",
+            "model": "Corvette",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1980,
+            "year_to": 1986,
+            "make": "Chevrolet",
+            "model": "El Camino",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1982,
+            "year_to": 1986,
+            "make": "Chevrolet",
+            "model": "G10",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1982,
+            "year_to": 1986,
+            "make": "Chevrolet",
+            "model": "G20",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1982,
+            "year_to": 1986,
+            "make": "Chevrolet",
+            "model": "G30",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1980,
+            "year_to": 1985,
+            "make": "Chevrolet",
+            "model": "Impala",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1982,
+            "year_to": 1986,
+            "make": "Chevrolet",
+            "model": "K10",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1981,
+            "year_to": 1986,
+            "make": "Chevrolet",
+            "model": "K10 Suburban",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1983,
+            "year_to": 1986,
+            "make": "Chevrolet",
+            "model": "K20 Suburban",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1981,
+            "year_to": 1986,
+            "make": "Chevrolet",
+            "model": "K5 Blazer",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1980,
+            "year_to": 1983,
+            "make": "Chevrolet",
+            "model": "Malibu",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1980,
+            "year_to": 1986,
+            "make": "Chevrolet",
+            "model": "Monte Carlo",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1982,
+            "year_to": 1986,
+            "make": "GMC",
+            "model": "C1500",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1980,
+            "year_to": 1986,
+            "make": "GMC",
+            "model": "Caballero",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1981,
+            "year_to": 1986,
+            "make": "GMC",
+            "model": "G1500",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1981,
+            "year_to": 1986,
+            "make": "GMC",
+            "model": "G2500",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1981,
+            "year_to": 1986,
+            "make": "GMC",
+            "model": "Jimmy",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1981,
+            "year_to": 1985,
+            "make": "Oldsmobile",
+            "model": "98",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1981,
+            "year_to": 1990,
+            "make": "Oldsmobile",
+            "model": "Custom Cruiser",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1981,
+            "year_to": 1984,
+            "make": "Oldsmobile",
+            "model": "Cutlass Calais",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1982,
+            "year_to": 1988,
+            "make": "Oldsmobile",
+            "model": "Cutlass Supreme",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1980,
+            "year_to": 1985,
+            "make": "Oldsmobile",
+            "model": "Delta 88",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1981,
+            "year_to": 1985,
+            "make": "Oldsmobile",
+            "model": "Toronado",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1980,
+            "year_to": 1986,
+            "make": "Pontiac",
+            "model": "Bonneville",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1980,
+            "year_to": 1986,
+            "make": "Pontiac",
+            "model": "Firebird",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1980,
+            "year_to": 1987,
+            "make": "Pontiac",
+            "model": "Grand Prix",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1980\u20131986 Buick Century",
+          "1981\u20131989 Buick Electra",
+          "1980\u20131990 Buick LeSabre",
+          "1980\u20131987 Buick Regal",
+          "1980\u20131985 Buick Riviera",
+          "1984\u20131993 Cadillac Commercial Chassis",
+          "1981\u20131995 Cadillac DeVille",
+          "1981\u20131993 Cadillac Eldorado",
+          "1981\u20131992 Cadillac Fleetwood",
+          "1980\u20131993 Cadillac Seville",
+          "1982\u20131986 Chevrolet C10",
+          "1981\u20131986 Chevrolet C20 Suburban",
+          "1980\u20131986 Chevrolet Camaro",
+          "1981\u20131990 Chevrolet Caprice",
+          "1981\u20131991 Chevrolet Corvette",
+          "1980\u20131986 Chevrolet El Camino",
+          "1982\u20131986 Chevrolet G10",
+          "1982\u20131986 Chevrolet G20",
+          "1982\u20131986 Chevrolet G30",
+          "1980\u20131985 Chevrolet Impala",
+          "1982\u20131986 Chevrolet K10",
+          "1981\u20131986 Chevrolet K10 Suburban",
+          "1983\u20131986 Chevrolet K20 Suburban",
+          "1981\u20131986 Chevrolet K5 Blazer",
+          "1980\u20131983 Chevrolet Malibu",
+          "1980\u20131986 Chevrolet Monte Carlo",
+          "1982\u20131986 GMC C1500",
+          "1980\u20131986 GMC Caballero",
+          "1981\u20131986 GMC G1500",
+          "1981\u20131986 GMC G2500",
+          "1981\u20131986 GMC Jimmy",
+          "1981\u20131985 Oldsmobile 98",
+          "1981\u20131990 Oldsmobile Custom Cruiser",
+          "1981\u20131984 Oldsmobile Cutlass Calais",
+          "1982\u20131988 Oldsmobile Cutlass Supreme",
+          "1980\u20131985 Oldsmobile Delta 88",
+          "1981\u20131985 Oldsmobile Toronado",
+          "1980\u20131986 Pontiac Bonneville",
+          "1980\u20131986 Pontiac Firebird",
+          "1980\u20131987 Pontiac Grand Prix"
+        ],
+        "raw_compat_rows": 1750,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "920130084919",
+        "type": "Ignition Module",
+        "brand": "KEM",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Modules"
+      },
+      "images": [
+        "../assets/pdp-gallery/TXSBBCQZQZWTA35HYAQV3KHV/02.webp",
+        "../assets/pdp-gallery/TXSBBCQZQZWTA35HYAQV3KHV/03.webp",
+        "../assets/pdp-gallery/TXSBBCQZQZWTA35HYAQV3KHV/04.webp"
+      ]
+    },
+    {
       "id": "QAXNAJ4JJEZZWNSTYTD33NQW",
       "name": "1981-1987 Chevy C10 C20 C30 GMC Right Front Manual Window Regulator OEM RF",
       "price": 59.99,
@@ -73228,6 +74333,426 @@
       ],
       "stock": 1,
       "interchange": []
+    },
+    {
+      "id": "UCIBNNROMNJ72HCFCQVHCQR3",
+      "name": "1981-1995 KEM E224X Ignition Module Oldsmobile Cutlass Ciera Chevrolet Cavalier",
+      "price": 25.0,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/73d3ff2499a05b90019705f793f608433be8bdc3/original.jpeg",
+      "url": "https://square.link/u/JLNQTirE",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "4B6UH2MSNWZNYM6EY4HY3HOW",
+      "stock": 1,
+      "part_numbers": [
+        "E224X",
+        "Standard LX-316"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1982\u20131986 Buick Century",
+        "1982\u20131984 Buick Skyhawk",
+        "1981\u20131985 Buick Skylark",
+        "1982\u20131984 Cadillac Cimarron",
+        "1982\u20131984 Chevrolet Camaro",
+        "1982\u20131984 Chevrolet Cavalier",
+        "1982\u20131986 Chevrolet Celebrity",
+        "1981\u20131983 Chevrolet Citation",
+        "1990\u20131995 Chevrolet Lumina APV",
+        "1982\u20131993 Chevrolet S10",
+        "1983\u20131989 Chevrolet S10 Blazer",
+        "1982\u20131990 GMC S15",
+        "1983\u20131989 GMC S15 Jimmy",
+        "1991\u20131993 GMC Sonoma",
+        "1991\u20131994 Isuzu Pickup",
+        "1991\u20131992 Isuzu Rodeo",
+        "1989\u20131991 Isuzu Trooper",
+        "1984\u20131986 Jeep Cherokee",
+        "1986 Jeep Comanche",
+        "1984\u20131986 Jeep Wagoneer",
+        "1981\u20131995 Oldsmobile Cutlass",
+        "1982\u20131986 Oldsmobile Cutlass Ciera",
+        "1982\u20131984 Oldsmobile Firenza",
+        "1981\u20131984 Oldsmobile Omega",
+        "1990\u20131994 Oldsmobile Silhouette",
+        "1982\u20131986 Pontiac 6000",
+        "1982\u20131984 Pontiac Firebird",
+        "1982\u20131983 Pontiac J2000",
+        "1981\u20131984 Pontiac Phoenix",
+        "1982 Pontiac T1000",
+        "1990\u20131995 Pontiac Trans Sport"
+      ],
+      "vehicle_count_raw": 713,
+      "ebay_item_id": "920130078180",
+      "ebay_type": "Ignition Module",
+      "ebay_brand": "KEM",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Modules",
+      "fitment_source": "ebay_listing+title",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "E224X",
+          "Standard LX-316"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1982,
+            "year_to": 1986,
+            "make": "Buick",
+            "model": "Century",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1982,
+            "year_to": 1984,
+            "make": "Buick",
+            "model": "Skyhawk",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1981,
+            "year_to": 1985,
+            "make": "Buick",
+            "model": "Skylark",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1982,
+            "year_to": 1984,
+            "make": "Cadillac",
+            "model": "Cimarron",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1982,
+            "year_to": 1984,
+            "make": "Chevrolet",
+            "model": "Camaro",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1982,
+            "year_to": 1984,
+            "make": "Chevrolet",
+            "model": "Cavalier",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1982,
+            "year_to": 1986,
+            "make": "Chevrolet",
+            "model": "Celebrity",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1981,
+            "year_to": 1983,
+            "make": "Chevrolet",
+            "model": "Citation",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1990,
+            "year_to": 1995,
+            "make": "Chevrolet",
+            "model": "Lumina APV",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1982,
+            "year_to": 1993,
+            "make": "Chevrolet",
+            "model": "S10",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1983,
+            "year_to": 1989,
+            "make": "Chevrolet",
+            "model": "S10 Blazer",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1982,
+            "year_to": 1990,
+            "make": "GMC",
+            "model": "S15",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1983,
+            "year_to": 1989,
+            "make": "GMC",
+            "model": "S15 Jimmy",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1991,
+            "year_to": 1993,
+            "make": "GMC",
+            "model": "Sonoma",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1991,
+            "year_to": 1994,
+            "make": "Isuzu",
+            "model": "Pickup",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1991,
+            "year_to": 1992,
+            "make": "Isuzu",
+            "model": "Rodeo",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1989,
+            "year_to": 1991,
+            "make": "Isuzu",
+            "model": "Trooper",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 1986,
+            "make": "Jeep",
+            "model": "Cherokee",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1986,
+            "year_to": 1986,
+            "make": "Jeep",
+            "model": "Comanche",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 1986,
+            "make": "Jeep",
+            "model": "Wagoneer",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1981,
+            "year_to": 1995,
+            "make": "Oldsmobile",
+            "model": "Cutlass",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1982,
+            "year_to": 1986,
+            "make": "Oldsmobile",
+            "model": "Cutlass Ciera",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1982,
+            "year_to": 1984,
+            "make": "Oldsmobile",
+            "model": "Firenza",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1981,
+            "year_to": 1984,
+            "make": "Oldsmobile",
+            "model": "Omega",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1990,
+            "year_to": 1994,
+            "make": "Oldsmobile",
+            "model": "Silhouette",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1982,
+            "year_to": 1986,
+            "make": "Pontiac",
+            "model": "6000",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1982,
+            "year_to": 1984,
+            "make": "Pontiac",
+            "model": "Firebird",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1982,
+            "year_to": 1983,
+            "make": "Pontiac",
+            "model": "J2000",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1981,
+            "year_to": 1984,
+            "make": "Pontiac",
+            "model": "Phoenix",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1982,
+            "year_to": 1982,
+            "make": "Pontiac",
+            "model": "T1000",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1990,
+            "year_to": 1995,
+            "make": "Pontiac",
+            "model": "Trans Sport",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1982\u20131986 Buick Century",
+          "1982\u20131984 Buick Skyhawk",
+          "1981\u20131985 Buick Skylark",
+          "1982\u20131984 Cadillac Cimarron",
+          "1982\u20131984 Chevrolet Camaro",
+          "1982\u20131984 Chevrolet Cavalier",
+          "1982\u20131986 Chevrolet Celebrity",
+          "1981\u20131983 Chevrolet Citation",
+          "1990\u20131995 Chevrolet Lumina APV",
+          "1982\u20131993 Chevrolet S10",
+          "1983\u20131989 Chevrolet S10 Blazer",
+          "1982\u20131990 GMC S15",
+          "1983\u20131989 GMC S15 Jimmy",
+          "1991\u20131993 GMC Sonoma",
+          "1991\u20131994 Isuzu Pickup",
+          "1991\u20131992 Isuzu Rodeo",
+          "1989\u20131991 Isuzu Trooper",
+          "1984\u20131986 Jeep Cherokee",
+          "1986 Jeep Comanche",
+          "1984\u20131986 Jeep Wagoneer",
+          "1981\u20131995 Oldsmobile Cutlass",
+          "1982\u20131986 Oldsmobile Cutlass Ciera",
+          "1982\u20131984 Oldsmobile Firenza",
+          "1981\u20131984 Oldsmobile Omega",
+          "1990\u20131994 Oldsmobile Silhouette",
+          "1982\u20131986 Pontiac 6000",
+          "1982\u20131984 Pontiac Firebird",
+          "1982\u20131983 Pontiac J2000",
+          "1981\u20131984 Pontiac Phoenix",
+          "1982 Pontiac T1000",
+          "1990\u20131995 Pontiac Trans Sport"
+        ],
+        "raw_compat_rows": 713,
+        "source": "ebay_listing+title",
+        "confidence": "high",
+        "ebay_item_id": "920130078180",
+        "type": "Ignition Module",
+        "brand": "KEM",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Modules"
+      },
+      "images": [
+        "../assets/pdp-gallery/UCIBNNROMNJ72HCFCQVHCQR3/02.webp",
+        "../assets/pdp-gallery/UCIBNNROMNJ72HCFCQVHCQR3/03.webp",
+        "../assets/pdp-gallery/UCIBNNROMNJ72HCFCQVHCQR3/04.webp"
+      ]
     },
     {
       "id": "KFC7FQ7IOJKB57K2IYWLHKHG",
@@ -98670,6 +100195,152 @@
         "../assets/pdp-gallery/B7N7O5H5IOY3GYIT47PYODZV/05.webp"
       ],
       "stock": 1
+    },
+    {
+      "id": "5VYQNAX3RKC6LRX5BKIIKMPM",
+      "name": "KEM AR181 Accessory Relay Ford Bronco E-150 Econoline Escort F-150 Granada",
+      "price": 12.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/d6d9893e073911103e1f3ed84418d042c08e1425/original.jpeg",
+      "url": "https://square.link/u/EPMc9MT0",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "7JF3Y4KLHLBDLX2WB7B4UPWT",
+      "stock": 1,
+      "part_numbers": [
+        "AR181",
+        "Standard RY-46"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1981\u20131991 Ford Bronco",
+        "1980\u20131984 Ford E-150 Econoline",
+        "1980\u20131984 Ford E-350 Econoline Club Wagon",
+        "1981\u20131997 Ford Escort",
+        "1980\u20131995 Ford F-150",
+        "1981\u20131982 Ford Granada",
+        "1981\u20131983 Lincoln Mark VI",
+        "1980\u20131986 Mercury Marquis"
+      ],
+      "vehicle_count_raw": 983,
+      "ebay_item_id": "920129969863",
+      "ebay_type": "Accessory Relay",
+      "ebay_brand": "KEM",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Starters, Alternators, ECUs & Wiring:Relays",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "AR181",
+          "Standard RY-46"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1981,
+            "year_to": 1991,
+            "make": "Ford",
+            "model": "Bronco",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1980,
+            "year_to": 1984,
+            "make": "Ford",
+            "model": "E-150 Econoline",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1980,
+            "year_to": 1984,
+            "make": "Ford",
+            "model": "E-350 Econoline Club Wagon",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1981,
+            "year_to": 1997,
+            "make": "Ford",
+            "model": "Escort",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1980,
+            "year_to": 1995,
+            "make": "Ford",
+            "model": "F-150",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1981,
+            "year_to": 1982,
+            "make": "Ford",
+            "model": "Granada",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1981,
+            "year_to": 1983,
+            "make": "Lincoln",
+            "model": "Mark VI",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1980,
+            "year_to": 1986,
+            "make": "Mercury",
+            "model": "Marquis",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1981\u20131991 Ford Bronco",
+          "1980\u20131984 Ford E-150 Econoline",
+          "1980\u20131984 Ford E-350 Econoline Club Wagon",
+          "1981\u20131997 Ford Escort",
+          "1980\u20131995 Ford F-150",
+          "1981\u20131982 Ford Granada",
+          "1981\u20131983 Lincoln Mark VI",
+          "1980\u20131986 Mercury Marquis"
+        ],
+        "raw_compat_rows": 983,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "920129969863",
+        "type": "Accessory Relay",
+        "brand": "KEM",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Starters, Alternators, ECUs & Wiring:Relays"
+      },
+      "images": [
+        "../assets/pdp-gallery/5VYQNAX3RKC6LRX5BKIIKMPM/02.webp",
+        "../assets/pdp-gallery/5VYQNAX3RKC6LRX5BKIIKMPM/03.webp",
+        "../assets/pdp-gallery/5VYQNAX3RKC6LRX5BKIIKMPM/04.webp",
+        "../assets/pdp-gallery/5VYQNAX3RKC6LRX5BKIIKMPM/05.webp",
+        "../assets/pdp-gallery/5VYQNAX3RKC6LRX5BKIIKMPM/06.webp"
+      ]
     },
     {
       "id": "NR5MW6ZPP376JBGHQ5HQUACE",
@@ -125976,5 +127647,5 @@
       "vehicles": []
     }
   ],
-  "fitment_built": "2026-11-11T11:03:47Z"
+  "fitment_built": "2026-11-11T12:03:59Z"
 }
