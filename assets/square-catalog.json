@@ -1,7 +1,7 @@
 {
-  "updated": "2026-11-11T20:03:57Z",
+  "updated": "2026-11-11T21:04:05Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 928,
+  "count": 931,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -47699,6 +47699,548 @@
       "interchange": []
     },
     {
+      "id": "6UKUJNWICFTAK45ZMKAIM46G",
+      "name": "1950-1977 KEM Tune-Up Products U12F Ignition Coil Ford Country Sedan Country",
+      "price": 24.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/11f63cef6448ababa779a73d1c1353f639a4f237/original.jpeg",
+      "url": "https://square.link/u/vpgcrHef",
+      "category": "ignition",
+      "checkout": true,
+      "variation_id": "3NQJNOHX65WZ3BU5ZTYETHEJ",
+      "stock": 1,
+      "part_numbers": [
+        "U12F"
+      ],
+      "interchange": [
+        "Standard FD-471"
+      ],
+      "vehicles": [
+        "1963 Ford 300",
+        "1966\u20131975 Ford Bronco",
+        "1962\u20131967 Ford Club Wagon",
+        "1950\u20131977 Ford Country",
+        "1950\u20131974 Ford Country Sedan",
+        "1950\u20131974 Ford Country Squire",
+        "1950\u20131972 Ford Custom",
+        "1957\u20131960 Ford Custom 300",
+        "1964\u20131974 Ford Custom 500",
+        "1952\u20131956 Ford Customline",
+        "1957\u20131958 Ford Del Rio Wagon",
+        "1969\u20131977 Ford E-100 Econoline",
+        "1969\u20131974 Ford E-200 Econoline",
+        "1969\u20131974 Ford E-300 Econoline",
+        "1958\u20131975 Ford F-100",
+        "1963\u20131975 Ford F-250",
+        "1963\u20131975 Ford F-350",
+        "1955\u20131970 Ford Fairlane",
+        "1960\u20131970 Ford Falcon",
+        "1959\u20131967 Ford Galaxie",
+        "1962\u20131974 Ford Galaxie 500",
+        "1972\u20131974 Ford Gran Torino",
+        "1965\u20131974 Ford LTD",
+        "1952\u20131956 Ford Mainline",
+        "1964\u20131973 Ford Mustang",
+        "1959\u20131966 Ford P-100",
+        "1959\u20131976 Ford P-350",
+        "1951\u20131974 Ford Ranch Wagon",
+        "1958\u20131975 Ford Ranchero",
+        "1954\u20131959 Ford Skyliner",
+        "1952\u20131960 Ford Sunliner",
+        "1955\u20131974 Ford Thunderbird",
+        "1968\u20131974 Ford Torino",
+        "1954\u20131960 Ford Victoria",
+        "1957\u20131974 Mercury Colony Park",
+        "1960\u20131974 Mercury Comet",
+        "1957\u20131968 Mercury Commuter",
+        "1967\u20131974 Mercury Cougar",
+        "1959\u20131963 Mercury Country Cruiser",
+        "1964\u20131971 Mercury Cyclone",
+        "1963\u20131970 Mercury Marauder"
+      ],
+      "vehicle_count_raw": 1751,
+      "ebay_item_id": "920131879086",
+      "ebay_type": "Ignition Coil",
+      "ebay_brand": "KEM Tune-Up Products",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Coils",
+      "fitment_source": "ebay_listing+title",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "U12F"
+        ],
+        "interchange": [
+          "Standard FD-471"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1963,
+            "year_to": 1963,
+            "make": "Ford",
+            "model": "300",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1966,
+            "year_to": 1975,
+            "make": "Ford",
+            "model": "Bronco",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1962,
+            "year_to": 1967,
+            "make": "Ford",
+            "model": "Club Wagon",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1950,
+            "year_to": 1977,
+            "make": "Ford",
+            "model": "Country",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1950,
+            "year_to": 1974,
+            "make": "Ford",
+            "model": "Country Sedan",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1950,
+            "year_to": 1974,
+            "make": "Ford",
+            "model": "Country Squire",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1950,
+            "year_to": 1972,
+            "make": "Ford",
+            "model": "Custom",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1957,
+            "year_to": 1960,
+            "make": "Ford",
+            "model": "Custom 300",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1964,
+            "year_to": 1974,
+            "make": "Ford",
+            "model": "Custom 500",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1952,
+            "year_to": 1956,
+            "make": "Ford",
+            "model": "Customline",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1957,
+            "year_to": 1958,
+            "make": "Ford",
+            "model": "Del Rio Wagon",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1969,
+            "year_to": 1977,
+            "make": "Ford",
+            "model": "E-100 Econoline",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1969,
+            "year_to": 1974,
+            "make": "Ford",
+            "model": "E-200 Econoline",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1969,
+            "year_to": 1974,
+            "make": "Ford",
+            "model": "E-300 Econoline",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1958,
+            "year_to": 1975,
+            "make": "Ford",
+            "model": "F-100",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1963,
+            "year_to": 1975,
+            "make": "Ford",
+            "model": "F-250",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1963,
+            "year_to": 1975,
+            "make": "Ford",
+            "model": "F-350",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1955,
+            "year_to": 1970,
+            "make": "Ford",
+            "model": "Fairlane",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1960,
+            "year_to": 1970,
+            "make": "Ford",
+            "model": "Falcon",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1959,
+            "year_to": 1967,
+            "make": "Ford",
+            "model": "Galaxie",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1962,
+            "year_to": 1974,
+            "make": "Ford",
+            "model": "Galaxie 500",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1972,
+            "year_to": 1974,
+            "make": "Ford",
+            "model": "Gran Torino",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1965,
+            "year_to": 1974,
+            "make": "Ford",
+            "model": "LTD",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1952,
+            "year_to": 1956,
+            "make": "Ford",
+            "model": "Mainline",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1964,
+            "year_to": 1973,
+            "make": "Ford",
+            "model": "Mustang",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1959,
+            "year_to": 1966,
+            "make": "Ford",
+            "model": "P-100",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1959,
+            "year_to": 1976,
+            "make": "Ford",
+            "model": "P-350",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1951,
+            "year_to": 1974,
+            "make": "Ford",
+            "model": "Ranch Wagon",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1958,
+            "year_to": 1975,
+            "make": "Ford",
+            "model": "Ranchero",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1954,
+            "year_to": 1959,
+            "make": "Ford",
+            "model": "Skyliner",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1952,
+            "year_to": 1960,
+            "make": "Ford",
+            "model": "Sunliner",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1955,
+            "year_to": 1974,
+            "make": "Ford",
+            "model": "Thunderbird",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1968,
+            "year_to": 1974,
+            "make": "Ford",
+            "model": "Torino",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1954,
+            "year_to": 1960,
+            "make": "Ford",
+            "model": "Victoria",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1957,
+            "year_to": 1974,
+            "make": "Mercury",
+            "model": "Colony Park",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1960,
+            "year_to": 1974,
+            "make": "Mercury",
+            "model": "Comet",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1957,
+            "year_to": 1968,
+            "make": "Mercury",
+            "model": "Commuter",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1967,
+            "year_to": 1974,
+            "make": "Mercury",
+            "model": "Cougar",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1959,
+            "year_to": 1963,
+            "make": "Mercury",
+            "model": "Country Cruiser",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1964,
+            "year_to": 1971,
+            "make": "Mercury",
+            "model": "Cyclone",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1963,
+            "year_to": 1970,
+            "make": "Mercury",
+            "model": "Marauder",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1963 Ford 300",
+          "1966\u20131975 Ford Bronco",
+          "1962\u20131967 Ford Club Wagon",
+          "1950\u20131977 Ford Country",
+          "1950\u20131974 Ford Country Sedan",
+          "1950\u20131974 Ford Country Squire",
+          "1950\u20131972 Ford Custom",
+          "1957\u20131960 Ford Custom 300",
+          "1964\u20131974 Ford Custom 500",
+          "1952\u20131956 Ford Customline",
+          "1957\u20131958 Ford Del Rio Wagon",
+          "1969\u20131977 Ford E-100 Econoline",
+          "1969\u20131974 Ford E-200 Econoline",
+          "1969\u20131974 Ford E-300 Econoline",
+          "1958\u20131975 Ford F-100",
+          "1963\u20131975 Ford F-250",
+          "1963\u20131975 Ford F-350",
+          "1955\u20131970 Ford Fairlane",
+          "1960\u20131970 Ford Falcon",
+          "1959\u20131967 Ford Galaxie",
+          "1962\u20131974 Ford Galaxie 500",
+          "1972\u20131974 Ford Gran Torino",
+          "1965\u20131974 Ford LTD",
+          "1952\u20131956 Ford Mainline",
+          "1964\u20131973 Ford Mustang",
+          "1959\u20131966 Ford P-100",
+          "1959\u20131976 Ford P-350",
+          "1951\u20131974 Ford Ranch Wagon",
+          "1958\u20131975 Ford Ranchero",
+          "1954\u20131959 Ford Skyliner",
+          "1952\u20131960 Ford Sunliner",
+          "1955\u20131974 Ford Thunderbird",
+          "1968\u20131974 Ford Torino",
+          "1954\u20131960 Ford Victoria",
+          "1957\u20131974 Mercury Colony Park",
+          "1960\u20131974 Mercury Comet",
+          "1957\u20131968 Mercury Commuter",
+          "1967\u20131974 Mercury Cougar",
+          "1959\u20131963 Mercury Country Cruiser",
+          "1964\u20131971 Mercury Cyclone",
+          "1963\u20131970 Mercury Marauder"
+        ],
+        "raw_compat_rows": 1751,
+        "source": "ebay_listing+title",
+        "confidence": "high",
+        "ebay_item_id": "920131879086",
+        "type": "Ignition Coil",
+        "brand": "KEM Tune-Up Products",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Coils"
+      },
+      "images": [
+        "../assets/pdp-gallery/6UKUJNWICFTAK45ZMKAIM46G/02.webp",
+        "../assets/pdp-gallery/6UKUJNWICFTAK45ZMKAIM46G/03.webp",
+        "../assets/pdp-gallery/6UKUJNWICFTAK45ZMKAIM46G/04.webp"
+      ]
+    },
+    {
       "id": "F2G25RY3R2DH6B47FVACCPLP",
       "name": "1960-1990 KEM 219X Distributor Rotor Ford Mustang Bronco F-250 Jeep CJ7 Wrangler",
       "price": 12.99,
@@ -47707,12 +48249,10 @@
       "category": "ignition",
       "checkout": true,
       "variation_id": "NMTC63LNY3J7NV3ZXU2SY2KM",
-      "stock": 1,
       "part_numbers": [
         "219X",
         "Standard FD-110"
       ],
-      "interchange": [],
       "vehicles": [
         "1978\u20131980 AMC AMX",
         "1978\u20131983 AMC Concord",
@@ -47755,11 +48295,6 @@
         "1975\u20131976 Mercury Monarch",
         "1968\u20131974 Mercury Montego"
       ],
-      "vehicle_count_raw": 1820,
-      "ebay_item_id": "920131722350",
-      "ebay_type": "Distributor Rotor",
-      "ebay_brand": "Kem",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -48220,11 +48755,18 @@
         "brand": "Kem",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors"
       },
+      "vehicle_count_raw": 1820,
+      "ebay_item_id": "920131722350",
+      "ebay_type": "Distributor Rotor",
+      "ebay_brand": "Kem",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors",
       "images": [
         "../assets/pdp-gallery/F2G25RY3R2DH6B47FVACCPLP/02.webp",
         "../assets/pdp-gallery/F2G25RY3R2DH6B47FVACCPLP/03.webp",
         "../assets/pdp-gallery/F2G25RY3R2DH6B47FVACCPLP/04.webp"
-      ]
+      ],
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "PTRTFN2ORSTBHKMWXDSEBXHE",
@@ -48235,12 +48777,10 @@
       "category": "ignition",
       "checkout": true,
       "variation_id": "3U66MW44JQPDFCEWOQRDOWWH",
-      "stock": 1,
       "part_numbers": [
         "W282X",
         "Standard JR-72"
       ],
-      "interchange": [],
       "vehicles": [
         "1975 Chevrolet LUV",
         "1972\u20131974 Chevrolet Luv Pickup",
@@ -48270,11 +48810,6 @@
         "1977\u20131987 Subaru Standard",
         "1970\u20131972 Subaru Star"
       ],
-      "vehicle_count_raw": 312,
-      "ebay_item_id": "920131672469",
-      "ebay_type": "Distributor Rotor",
-      "ebay_brand": "Kem",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -48592,10 +49127,365 @@
         "brand": "Kem",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors"
       },
+      "vehicle_count_raw": 312,
+      "ebay_item_id": "920131672469",
+      "ebay_type": "Distributor Rotor",
+      "ebay_brand": "Kem",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors",
       "images": [
         "../assets/pdp-gallery/PTRTFN2ORSTBHKMWXDSEBXHE/02.webp",
         "../assets/pdp-gallery/PTRTFN2ORSTBHKMWXDSEBXHE/03.webp",
         "../assets/pdp-gallery/PTRTFN2ORSTBHKMWXDSEBXHE/04.webp"
+      ],
+      "stock": 1,
+      "interchange": []
+    },
+    {
+      "id": "EHKGWTLSNACDDL3YUZ3NH7XV",
+      "name": "1968-1987 KEM W3034 Distributor Cap Honda Civic Subaru Gl Mazda Glc Nissan 510",
+      "price": 12.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/353720da2446f615caa621e957fa7e2781dad2a0/original.jpeg",
+      "url": "https://square.link/u/9fM3VZG3",
+      "category": "ignition",
+      "checkout": true,
+      "variation_id": "MUGLPHFK27Z4M4ZW6NIKRLS6",
+      "stock": 1,
+      "part_numbers": [
+        "W3034",
+        "Standard JH-110"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1975 Chevrolet LUV",
+        "1972\u20131974 Chevrolet Luv Pickup",
+        "1982\u20131985 Chevrolet S10",
+        "1983\u20131984 Chevrolet S10 Blazer",
+        "1972\u20131973 Ford Courier",
+        "1982\u20131985 GMC S15",
+        "1983\u20131984 GMC S15 Jimmy",
+        "1979\u20131983 Honda Accord",
+        "1973\u20131974 Honda Civic",
+        "1979\u20131982 Honda Prelude",
+        "1972 Mazda 618",
+        "1972\u20131974 Mazda 808",
+        "1981\u20131985 Mazda GLC",
+        "1976 Mazda Mizer",
+        "1968\u20131987 Nissan 510",
+        "1973\u20131974 Subaru 1400",
+        "1980\u20131987 Subaru Brat",
+        "1973\u20131974 Subaru DL",
+        "1972\u20131973 Subaru Deluxe",
+        "1979 Subaru FE",
+        "1977\u20131979 Subaru GF",
+        "1972\u20131974 Subaru GL",
+        "1980 Subaru GLF",
+        "1977\u20131987 Subaru Standard",
+        "1970\u20131972 Subaru Star"
+      ],
+      "vehicle_count_raw": 230,
+      "ebay_item_id": "920131784349",
+      "ebay_type": "Distributor Cap",
+      "ebay_brand": "KEM",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors",
+      "fitment_source": "ebay_listing+title",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "W3034",
+          "Standard JH-110"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1975,
+            "year_to": 1975,
+            "make": "Chevrolet",
+            "model": "LUV",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1972,
+            "year_to": 1974,
+            "make": "Chevrolet",
+            "model": "Luv Pickup",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1982,
+            "year_to": 1985,
+            "make": "Chevrolet",
+            "model": "S10",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1983,
+            "year_to": 1984,
+            "make": "Chevrolet",
+            "model": "S10 Blazer",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1972,
+            "year_to": 1973,
+            "make": "Ford",
+            "model": "Courier",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1982,
+            "year_to": 1985,
+            "make": "GMC",
+            "model": "S15",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1983,
+            "year_to": 1984,
+            "make": "GMC",
+            "model": "S15 Jimmy",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1979,
+            "year_to": 1983,
+            "make": "Honda",
+            "model": "Accord",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1973,
+            "year_to": 1974,
+            "make": "Honda",
+            "model": "Civic",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1979,
+            "year_to": 1982,
+            "make": "Honda",
+            "model": "Prelude",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1972,
+            "year_to": 1972,
+            "make": "Mazda",
+            "model": "618",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1972,
+            "year_to": 1974,
+            "make": "Mazda",
+            "model": "808",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1981,
+            "year_to": 1985,
+            "make": "Mazda",
+            "model": "GLC",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1976,
+            "year_to": 1976,
+            "make": "Mazda",
+            "model": "Mizer",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1968,
+            "year_to": 1987,
+            "make": "Nissan",
+            "model": "510",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1973,
+            "year_to": 1974,
+            "make": "Subaru",
+            "model": "1400",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1980,
+            "year_to": 1987,
+            "make": "Subaru",
+            "model": "Brat",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1973,
+            "year_to": 1974,
+            "make": "Subaru",
+            "model": "DL",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1972,
+            "year_to": 1973,
+            "make": "Subaru",
+            "model": "Deluxe",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1979,
+            "year_to": 1979,
+            "make": "Subaru",
+            "model": "FE",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1977,
+            "year_to": 1979,
+            "make": "Subaru",
+            "model": "GF",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1972,
+            "year_to": 1974,
+            "make": "Subaru",
+            "model": "GL",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1980,
+            "year_to": 1980,
+            "make": "Subaru",
+            "model": "GLF",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1977,
+            "year_to": 1987,
+            "make": "Subaru",
+            "model": "Standard",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1970,
+            "year_to": 1972,
+            "make": "Subaru",
+            "model": "Star",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1975 Chevrolet LUV",
+          "1972\u20131974 Chevrolet Luv Pickup",
+          "1982\u20131985 Chevrolet S10",
+          "1983\u20131984 Chevrolet S10 Blazer",
+          "1972\u20131973 Ford Courier",
+          "1982\u20131985 GMC S15",
+          "1983\u20131984 GMC S15 Jimmy",
+          "1979\u20131983 Honda Accord",
+          "1973\u20131974 Honda Civic",
+          "1979\u20131982 Honda Prelude",
+          "1972 Mazda 618",
+          "1972\u20131974 Mazda 808",
+          "1981\u20131985 Mazda GLC",
+          "1976 Mazda Mizer",
+          "1968\u20131987 Nissan 510",
+          "1973\u20131974 Subaru 1400",
+          "1980\u20131987 Subaru Brat",
+          "1973\u20131974 Subaru DL",
+          "1972\u20131973 Subaru Deluxe",
+          "1979 Subaru FE",
+          "1977\u20131979 Subaru GF",
+          "1972\u20131974 Subaru GL",
+          "1980 Subaru GLF",
+          "1977\u20131987 Subaru Standard",
+          "1970\u20131972 Subaru Star"
+        ],
+        "raw_compat_rows": 230,
+        "source": "ebay_listing+title",
+        "confidence": "high",
+        "ebay_item_id": "920131784349",
+        "type": "Distributor Cap",
+        "brand": "KEM",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors"
+      },
+      "images": [
+        "../assets/pdp-gallery/EHKGWTLSNACDDL3YUZ3NH7XV/02.webp",
+        "../assets/pdp-gallery/EHKGWTLSNACDDL3YUZ3NH7XV/03.webp",
+        "../assets/pdp-gallery/EHKGWTLSNACDDL3YUZ3NH7XV/04.webp"
       ]
     },
     {
@@ -49558,12 +50448,10 @@
       "category": "ignition",
       "checkout": true,
       "variation_id": "NHWMRIZV47NT6RUUGTI4HD3E",
-      "stock": 1,
       "part_numbers": [
         "1443X",
         "Standard DR-455"
       ],
-      "interchange": [],
       "vehicles": [
         "1982 AMC Concord",
         "1982\u20131983 AMC Eagle",
@@ -49596,11 +50484,6 @@
         "1984 Pontiac J2000 Sunbird",
         "1981\u20131984 Pontiac Phoenix"
       ],
-      "vehicle_count_raw": 569,
-      "ebay_item_id": "920131622194",
-      "ebay_type": "Distributor Cap",
-      "ebay_brand": "KEM Manufacturing",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -49951,12 +50834,19 @@
         "brand": "KEM Manufacturing",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors"
       },
+      "vehicle_count_raw": 569,
+      "ebay_item_id": "920131622194",
+      "ebay_type": "Distributor Cap",
+      "ebay_brand": "KEM Manufacturing",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors",
       "images": [
         "../assets/pdp-gallery/LTZ24EVE7WFRPER6EETGHFLG/02.webp",
         "../assets/pdp-gallery/LTZ24EVE7WFRPER6EETGHFLG/03.webp",
         "../assets/pdp-gallery/LTZ24EVE7WFRPER6EETGHFLG/04.webp",
         "../assets/pdp-gallery/LTZ24EVE7WFRPER6EETGHFLG/05.webp"
-      ]
+      ],
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "QVKDP4JRJF2VOZGV57UQFX33",
@@ -50052,21 +50942,14 @@
       "category": "ignition",
       "checkout": true,
       "variation_id": "NQWYE4PRFK4HGEXJNYVDEFZ4",
-      "stock": 1,
       "part_numbers": [
         "W3030X",
         "Standard JH-116"
       ],
-      "interchange": [],
       "vehicles": [
         "1986\u20131989 Mazda 323",
         "1988\u20131990 Mercury Tracer"
       ],
-      "vehicle_count_raw": 36,
-      "ebay_item_id": "920131768833",
-      "ebay_type": "Distributor Cap",
-      "ebay_brand": "KEM",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -50109,11 +50992,18 @@
         "brand": "KEM",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors"
       },
+      "vehicle_count_raw": 36,
+      "ebay_item_id": "920131768833",
+      "ebay_type": "Distributor Cap",
+      "ebay_brand": "KEM",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors",
       "images": [
         "../assets/pdp-gallery/XUOFII65WVBGFY2CMBX7SGRX/02.webp",
         "../assets/pdp-gallery/XUOFII65WVBGFY2CMBX7SGRX/03.webp",
         "../assets/pdp-gallery/XUOFII65WVBGFY2CMBX7SGRX/04.webp"
-      ]
+      ],
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "TFHK5TLXSMYQR5QT4YLH6IX4",
@@ -75575,12 +76465,10 @@
       "category": "other",
       "checkout": true,
       "variation_id": "YGBG73I2VJ2EA3MI5OVGGUIE",
-      "stock": 1,
       "part_numbers": [
         "TV84",
         "Standard FD-8081"
       ],
-      "interchange": [],
       "vehicles": [
         "1957\u20131959 Dodge D200 Pickup",
         "1966\u20131974 Ford Bronco",
@@ -75624,12 +76512,7 @@
         "1968\u20131974 Mercury Montego",
         "1962\u20131967 Mercury Villager"
       ],
-      "vehicle_count_raw": 2329,
-      "ebay_item_id": "920131668353",
-      "ebay_type": "Point Set",
-      "ebay_brand": "Kem",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Coils",
-      "fitment_source": "ebay_listing+title",
+      "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
@@ -76093,19 +76976,26 @@
           "1962\u20131967 Mercury Villager"
         ],
         "raw_compat_rows": 2329,
-        "source": "ebay_listing+title",
+        "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "920131668353",
         "type": "Point Set",
         "brand": "Kem",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Coils"
       },
+      "vehicle_count_raw": 2329,
+      "ebay_item_id": "920131668353",
+      "ebay_type": "Point Set",
+      "ebay_brand": "Kem",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Coils",
       "images": [
         "../assets/pdp-gallery/W4VRY64QJFNX7XPA3SSABOTR/02.webp",
         "../assets/pdp-gallery/W4VRY64QJFNX7XPA3SSABOTR/03.webp",
         "../assets/pdp-gallery/W4VRY64QJFNX7XPA3SSABOTR/04.webp",
         "../assets/pdp-gallery/W4VRY64QJFNX7XPA3SSABOTR/05.webp"
-      ]
+      ],
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "MDIW4SWTEMO6J2J2UU5VVD4Z",
@@ -76116,12 +77006,10 @@
       "category": "other",
       "checkout": true,
       "variation_id": "3W6KUCUNN7FDNV2EPUOKBOKC",
-      "stock": 1,
       "part_numbers": [
         "TV57X",
         "Standard DR-2270P"
       ],
-      "interchange": [],
       "vehicles": [
         "1958\u20131974 AMC Ambassador",
         "1970\u20131974 AMC Hornet",
@@ -76164,11 +77052,6 @@
         "1970\u20131974 Chevrolet Monte Carlo",
         "1969\u20131974 Chevrolet Nova"
       ],
-      "vehicle_count_raw": 2389,
-      "ebay_item_id": "920131664471",
-      "ebay_type": "Ignition Points Set",
-      "ebay_brand": "KEM",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Coils",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -76629,12 +77512,19 @@
         "brand": "KEM",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Coils"
       },
+      "vehicle_count_raw": 2389,
+      "ebay_item_id": "920131664471",
+      "ebay_type": "Ignition Points Set",
+      "ebay_brand": "KEM",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Coils",
       "images": [
         "../assets/pdp-gallery/MDIW4SWTEMO6J2J2UU5VVD4Z/02.webp",
         "../assets/pdp-gallery/MDIW4SWTEMO6J2J2UU5VVD4Z/03.webp",
         "../assets/pdp-gallery/MDIW4SWTEMO6J2J2UU5VVD4Z/04.webp",
         "../assets/pdp-gallery/MDIW4SWTEMO6J2J2UU5VVD4Z/05.webp"
-      ]
+      ],
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "ONOLBRNAYZWKJZZFWBWVFEOB",
@@ -76645,12 +77535,10 @@
       "category": "other",
       "checkout": true,
       "variation_id": "4F4EM25ZM66IN3W4YXTZLTHK",
-      "stock": 1,
       "part_numbers": [
         "TV201X",
         "Standard CH-14V"
       ],
-      "interchange": [],
       "vehicles": [
         "1961\u20131972 Chrysler Imperial",
         "1967\u20131972 Chrysler New Yorker",
@@ -76693,11 +77581,6 @@
         "1969\u20131972 Plymouth Road Runner",
         "1971\u20131972 Plymouth Satellite"
       ],
-      "vehicle_count_raw": 2141,
-      "ebay_item_id": "920131658010",
-      "ebay_type": "Ignition Point Set",
-      "ebay_brand": "Standard Motor Products",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Additional Distributor Parts",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -77158,12 +78041,19 @@
         "brand": "Standard Motor Products",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Additional Distributor Parts"
       },
+      "vehicle_count_raw": 2141,
+      "ebay_item_id": "920131658010",
+      "ebay_type": "Ignition Point Set",
+      "ebay_brand": "Standard Motor Products",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Additional Distributor Parts",
       "images": [
         "../assets/pdp-gallery/ONOLBRNAYZWKJZZFWBWVFEOB/02.webp",
         "../assets/pdp-gallery/ONOLBRNAYZWKJZZFWBWVFEOB/03.webp",
         "../assets/pdp-gallery/ONOLBRNAYZWKJZZFWBWVFEOB/04.webp",
         "../assets/pdp-gallery/ONOLBRNAYZWKJZZFWBWVFEOB/05.webp"
-      ]
+      ],
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "FUQ4MQGFPUCREXEX5WWCO7N3",
@@ -77174,12 +78064,10 @@
       "category": "other",
       "checkout": true,
       "variation_id": "QAG7HPU4RP4GHK3KYCBVQRCI",
-      "stock": 1,
       "part_numbers": [
         "84U",
         "Standard DR-90"
       ],
-      "interchange": [],
       "vehicles": [
         "1965\u20131971 AMC Ambassador",
         "1963\u20131968 AMC American",
@@ -77212,12 +78100,7 @@
         "1966\u20131973 Jeep J-2600",
         "1964\u20131974 Pontiac LeMans"
       ],
-      "vehicle_count_raw": 1719,
-      "ebay_item_id": "920131713076",
-      "ebay_type": "Condenser",
-      "ebay_brand": "KEM",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Condensers",
-      "fitment_source": "ebay_listing+title",
+      "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
@@ -77560,18 +78443,25 @@
           "1964\u20131974 Pontiac LeMans"
         ],
         "raw_compat_rows": 1719,
-        "source": "ebay_listing+title",
+        "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "920131713076",
         "type": "Condenser",
         "brand": "KEM",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Condensers"
       },
+      "vehicle_count_raw": 1719,
+      "ebay_item_id": "920131713076",
+      "ebay_type": "Condenser",
+      "ebay_brand": "KEM",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Condensers",
       "images": [
         "../assets/pdp-gallery/FUQ4MQGFPUCREXEX5WWCO7N3/02.webp",
         "../assets/pdp-gallery/FUQ4MQGFPUCREXEX5WWCO7N3/03.webp",
         "../assets/pdp-gallery/FUQ4MQGFPUCREXEX5WWCO7N3/04.webp"
-      ]
+      ],
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "UDTLE5WAPCMX5YL4CFZMTJ47",
@@ -78147,7 +79037,6 @@
       "category": "other",
       "checkout": true,
       "variation_id": "XCUSHBN3ITKMVCC55ZC6QJVW",
-      "stock": 1,
       "part_numbers": [
         "229X"
       ],
@@ -78180,11 +79069,6 @@
         "1984\u20131987 Mercury Topaz",
         "1978\u20131983 Mercury Zephyr"
       ],
-      "vehicle_count_raw": 537,
-      "ebay_item_id": "920131631112",
-      "ebay_type": "Rotor",
-      "ebay_brand": "KEM",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -78470,11 +79354,17 @@
         "brand": "KEM",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors"
       },
+      "vehicle_count_raw": 537,
+      "ebay_item_id": "920131631112",
+      "ebay_type": "Rotor",
+      "ebay_brand": "KEM",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors",
       "images": [
         "../assets/pdp-gallery/DKLQZUUQFCQDU5B4YT6UOD5R/02.webp",
         "../assets/pdp-gallery/DKLQZUUQFCQDU5B4YT6UOD5R/03.webp",
         "../assets/pdp-gallery/DKLQZUUQFCQDU5B4YT6UOD5R/04.webp"
-      ]
+      ],
+      "stock": 1
     },
     {
       "id": "H6ZVHC255FSYRYVMBGJAKHPJ",
@@ -79013,12 +79903,10 @@
       "category": "other",
       "checkout": true,
       "variation_id": "GGPADUC25OW3IWTSRKSCMTKH",
-      "stock": 1,
       "part_numbers": [
         "AR167",
         "Standard RY-27"
       ],
-      "interchange": [],
       "vehicles": [
         "1979\u20131995 Buick Century",
         "1984\u20131989 Buick Electra",
@@ -79062,12 +79950,7 @@
         "1981\u20131984 Pontiac Phoenix",
         "1986\u20131991 Pontiac Sunbird"
       ],
-      "vehicle_count_raw": 2677,
-      "ebay_item_id": "920131636376",
-      "ebay_type": "Accessory Relay",
-      "ebay_brand": "KEM",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Starters, Alternators, ECUs & Wiring:Relays",
-      "fitment_source": "ebay_listing+title",
+      "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
@@ -79531,18 +80414,25 @@
           "1986\u20131991 Pontiac Sunbird"
         ],
         "raw_compat_rows": 2677,
-        "source": "ebay_listing+title",
+        "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "920131636376",
         "type": "Accessory Relay",
         "brand": "KEM",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Starters, Alternators, ECUs & Wiring:Relays"
       },
+      "vehicle_count_raw": 2677,
+      "ebay_item_id": "920131636376",
+      "ebay_type": "Accessory Relay",
+      "ebay_brand": "KEM",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Starters, Alternators, ECUs & Wiring:Relays",
       "images": [
         "../assets/pdp-gallery/RJH7EKQTOIV5IEEVMSFZRRBF/02.webp",
         "../assets/pdp-gallery/RJH7EKQTOIV5IEEVMSFZRRBF/03.webp",
         "../assets/pdp-gallery/RJH7EKQTOIV5IEEVMSFZRRBF/04.webp"
-      ]
+      ],
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "346UG7U73Q2SUITEI3G6II6D",
@@ -79553,12 +80443,10 @@
       "category": "other",
       "checkout": true,
       "variation_id": "XDMF4MMSMFKCSWXC5CBASX7G",
-      "stock": 1,
       "part_numbers": [
         "AR178",
         "Standard RY-27"
       ],
-      "interchange": [],
       "vehicles": [
         "1979\u20131995 Buick Century",
         "1984\u20131989 Buick Electra",
@@ -79601,11 +80489,6 @@
         "1981\u20131984 Pontiac Phoenix",
         "1986\u20131991 Pontiac Sunbird"
       ],
-      "vehicle_count_raw": 2746,
-      "ebay_item_id": "920131649569",
-      "ebay_type": "Accessory Relay",
-      "ebay_brand": "KEM",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Starters, Alternators, ECUs & Wiring:Relays",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -80066,11 +80949,18 @@
         "brand": "KEM",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Starters, Alternators, ECUs & Wiring:Relays"
       },
+      "vehicle_count_raw": 2746,
+      "ebay_item_id": "920131649569",
+      "ebay_type": "Accessory Relay",
+      "ebay_brand": "KEM",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Starters, Alternators, ECUs & Wiring:Relays",
       "images": [
         "../assets/pdp-gallery/346UG7U73Q2SUITEI3G6II6D/02.webp",
         "../assets/pdp-gallery/346UG7U73Q2SUITEI3G6II6D/03.webp",
         "../assets/pdp-gallery/346UG7U73Q2SUITEI3G6II6D/04.webp"
-      ]
+      ],
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "TXSBBCQZQZWTA35HYAQV3KHV",
@@ -82047,6 +82937,236 @@
       ],
       "stock": 1,
       "interchange": []
+    },
+    {
+      "id": "YDZJPYTTRP6E5NEUDFR5NAOH",
+      "name": "1986-1995 KEM E119 Pickup Assembly Plymouth Acclaim Sundance Chrysler Daytona",
+      "price": 32.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/4e6a8abdf7d9cfb42e01f29a55a9fe8cef888559/original.jpeg",
+      "url": "https://square.link/u/huziiWuE",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "WWGIJ74RZPZ2FBDPR2FGXQ5K",
+      "stock": 1,
+      "part_numbers": [
+        "E119",
+        "Standard LX-125"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1986\u20131993 Chrysler Daytona",
+        "1986 Chrysler Laser",
+        "1986\u20131992 Chrysler LeBaron",
+        "1986\u20131988 Chrysler New Yorker",
+        "1989\u20131990 Dodge Caravan",
+        "1986\u20131987 Dodge Charger",
+        "1986\u20131993 Dodge Daytona",
+        "1986\u20131989 Dodge Lancer",
+        "1986 Dodge Omni",
+        "1987\u20131992 Dodge Shadow",
+        "1989\u20131992 Dodge Spirit",
+        "1989\u20131995 Plymouth Acclaim",
+        "1986\u20131988 Plymouth Caravelle",
+        "1987\u20131991 Plymouth Sundance",
+        "1989\u20131990 Plymouth Voyager"
+      ],
+      "vehicle_count_raw": 497,
+      "ebay_item_id": "920132037998",
+      "ebay_type": "Pickup Assembly",
+      "ebay_brand": "KEM",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributors",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "E119",
+          "Standard LX-125"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1986,
+            "year_to": 1993,
+            "make": "Chrysler",
+            "model": "Daytona",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1986,
+            "year_to": 1986,
+            "make": "Chrysler",
+            "model": "Laser",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1986,
+            "year_to": 1992,
+            "make": "Chrysler",
+            "model": "LeBaron",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1986,
+            "year_to": 1988,
+            "make": "Chrysler",
+            "model": "New Yorker",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1989,
+            "year_to": 1990,
+            "make": "Dodge",
+            "model": "Caravan",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1986,
+            "year_to": 1987,
+            "make": "Dodge",
+            "model": "Charger",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1986,
+            "year_to": 1993,
+            "make": "Dodge",
+            "model": "Daytona",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1986,
+            "year_to": 1989,
+            "make": "Dodge",
+            "model": "Lancer",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1986,
+            "year_to": 1986,
+            "make": "Dodge",
+            "model": "Omni",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1992,
+            "make": "Dodge",
+            "model": "Shadow",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1989,
+            "year_to": 1992,
+            "make": "Dodge",
+            "model": "Spirit",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1989,
+            "year_to": 1995,
+            "make": "Plymouth",
+            "model": "Acclaim",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1986,
+            "year_to": 1988,
+            "make": "Plymouth",
+            "model": "Caravelle",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1991,
+            "make": "Plymouth",
+            "model": "Sundance",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1989,
+            "year_to": 1990,
+            "make": "Plymouth",
+            "model": "Voyager",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1986\u20131993 Chrysler Daytona",
+          "1986 Chrysler Laser",
+          "1986\u20131992 Chrysler LeBaron",
+          "1986\u20131988 Chrysler New Yorker",
+          "1989\u20131990 Dodge Caravan",
+          "1986\u20131987 Dodge Charger",
+          "1986\u20131993 Dodge Daytona",
+          "1986\u20131989 Dodge Lancer",
+          "1986 Dodge Omni",
+          "1987\u20131992 Dodge Shadow",
+          "1989\u20131992 Dodge Spirit",
+          "1989\u20131995 Plymouth Acclaim",
+          "1986\u20131988 Plymouth Caravelle",
+          "1987\u20131991 Plymouth Sundance",
+          "1989\u20131990 Plymouth Voyager"
+        ],
+        "raw_compat_rows": 497,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "920132037998",
+        "type": "Pickup Assembly",
+        "brand": "KEM",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributors"
+      },
+      "images": [
+        "../assets/pdp-gallery/YDZJPYTTRP6E5NEUDFR5NAOH/02.webp",
+        "../assets/pdp-gallery/YDZJPYTTRP6E5NEUDFR5NAOH/03.webp",
+        "../assets/pdp-gallery/YDZJPYTTRP6E5NEUDFR5NAOH/04.webp",
+        "../assets/pdp-gallery/YDZJPYTTRP6E5NEUDFR5NAOH/05.webp",
+        "../assets/pdp-gallery/YDZJPYTTRP6E5NEUDFR5NAOH/06.webp"
+      ]
     },
     {
       "id": "CF67GX4WVYPRCX7QQ33AQD5K",
@@ -135145,5 +136265,5 @@
       "vehicles": []
     }
   ],
-  "fitment_built": "2026-11-11T20:03:57Z"
+  "fitment_built": "2026-11-11T21:04:05Z"
 }
