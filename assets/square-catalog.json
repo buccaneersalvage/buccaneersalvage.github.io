@@ -1,7 +1,7 @@
 {
-  "updated": "2026-11-10T05:02:42Z",
+  "updated": "2026-11-11T02:03:53Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 885,
+  "count": 888,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -49345,6 +49345,183 @@
       "stock": 1
     },
     {
+      "id": "6CPDLDIAKCPJ6WHDT5TKA5DA",
+      "name": "KEM 1831 Distributor Rotor 3.9 5.2 5.9 92-03 Dodge Ram 1500 Dakota Durango Jeep",
+      "price": 17.67,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/a2f723dc146d6515cc87bd5092e19b1c27a8c403/original.jpeg",
+      "url": "https://square.link/u/hu7dtxlb",
+      "category": "ignition",
+      "checkout": true,
+      "variation_id": "4DFAH4GCY75RRCWPEXPRE3FC",
+      "stock": 1,
+      "part_numbers": [
+        "1831",
+        "Chrysler 5142586AA, Jeep 53008778"
+      ],
+      "interchange": [
+        "Standard FD315",
+        "BWD D223",
+        "Airtex 4R1093"
+      ],
+      "vehicles": [
+        "1992\u20131994 Dodge B150",
+        "1992\u20131994 Dodge B250",
+        "1992\u20131994 Dodge B350",
+        "1992\u20132003 Dodge Dakota",
+        "1998\u20132003 Dodge Durango",
+        "1994\u20132003 Dodge Ram 1500",
+        "1994\u20132002 Dodge Ram 2500",
+        "1994\u20132002 Dodge Ram 3500",
+        "1993\u20131998 Jeep Grand Cherokee",
+        "1992\u20132003 Ram 1500"
+      ],
+      "vehicle_count_raw": 681,
+      "ebay_item_id": "920128397679",
+      "ebay_type": "Distributor Rotor",
+      "ebay_brand": "KEM",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors",
+      "fitment_source": "ebay_listing+title",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "1831",
+          "Chrysler 5142586AA, Jeep 53008778"
+        ],
+        "interchange": [
+          "Standard FD315",
+          "BWD D223",
+          "Airtex 4R1093"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1992,
+            "year_to": 1994,
+            "make": "Dodge",
+            "model": "B150",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1992,
+            "year_to": 1994,
+            "make": "Dodge",
+            "model": "B250",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1992,
+            "year_to": 1994,
+            "make": "Dodge",
+            "model": "B350",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1992,
+            "year_to": 2003,
+            "make": "Dodge",
+            "model": "Dakota",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1998,
+            "year_to": 2003,
+            "make": "Dodge",
+            "model": "Durango",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1994,
+            "year_to": 2003,
+            "make": "Dodge",
+            "model": "Ram 1500",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1994,
+            "year_to": 2002,
+            "make": "Dodge",
+            "model": "Ram 2500",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1994,
+            "year_to": 2002,
+            "make": "Dodge",
+            "model": "Ram 3500",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1993,
+            "year_to": 1998,
+            "make": "Jeep",
+            "model": "Grand Cherokee",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1992,
+            "year_to": 2003,
+            "make": "Ram",
+            "model": "1500",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1992\u20131994 Dodge B150",
+          "1992\u20131994 Dodge B250",
+          "1992\u20131994 Dodge B350",
+          "1992\u20132003 Dodge Dakota",
+          "1998\u20132003 Dodge Durango",
+          "1994\u20132003 Dodge Ram 1500",
+          "1994\u20132002 Dodge Ram 2500",
+          "1994\u20132002 Dodge Ram 3500",
+          "1993\u20131998 Jeep Grand Cherokee",
+          "1992\u20132003 Ram 1500"
+        ],
+        "raw_compat_rows": 681,
+        "source": "ebay_listing+title",
+        "confidence": "high",
+        "ebay_item_id": "920128397679",
+        "type": "Distributor Rotor",
+        "brand": "KEM",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors"
+      },
+      "images": [
+        "../assets/pdp-gallery/6CPDLDIAKCPJ6WHDT5TKA5DA/02.webp",
+        "../assets/pdp-gallery/6CPDLDIAKCPJ6WHDT5TKA5DA/03.webp",
+        "../assets/pdp-gallery/6CPDLDIAKCPJ6WHDT5TKA5DA/04.webp",
+        "../assets/pdp-gallery/6CPDLDIAKCPJ6WHDT5TKA5DA/05.webp"
+      ]
+    },
+    {
       "id": "WTHIGFQOKFV3PD3K6LPSW6S7",
       "name": "KEM 1935 Distributor Cap 3.9 92-03 Dodge Dakota Durango Ram 1500 D150 W150",
       "price": 14.99,
@@ -96643,6 +96820,181 @@
       "interchange": []
     },
     {
+      "id": "USKPTIWWASDL2CHYK4SCCNMB",
+      "name": "KEM KVR202B Voltage Regulator 4-Terminal Ford F-150 Bronco Mustang LTD 63-92",
+      "price": 29.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/88f0dd71c26673cedce77d9ab017d1839a2ffba2/original.jpeg",
+      "url": "https://square.link/u/gxCl3Hxv",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "VYWDWN3WKSTAVT2MIQANRLGI",
+      "stock": 1,
+      "part_numbers": [
+        "KVR202B"
+      ],
+      "interchange": [
+        "Standard VR-166",
+        "Motorcraft GR-540B",
+        "Echlin VR440"
+      ],
+      "vehicles": [
+        "1966\u20131989 Ford Bronco",
+        "1975\u20131992 Ford F-150",
+        "1975\u20131982 Ford Granada",
+        "1965\u20131986 Ford LTD",
+        "1964\u20131973 Ford Mustang",
+        "1966\u20131990 Ford Thunderbird",
+        "1968\u20131976 Ford Torino",
+        "1963\u20131991 Lincoln Continental",
+        "1967\u20131988 Mercury Cougar",
+        "1975\u20131991 Mercury Grand Marquis"
+      ],
+      "vehicle_count_raw": 2855,
+      "ebay_item_id": "920128390463",
+      "ebay_type": "Voltage Regulator",
+      "ebay_brand": "KEM",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Starters, Alternators, ECUs & Wiring:Voltage Regulators",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "KVR202B"
+        ],
+        "interchange": [
+          "Standard VR-166",
+          "Motorcraft GR-540B",
+          "Echlin VR440"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1966,
+            "year_to": 1989,
+            "make": "Ford",
+            "model": "Bronco",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1975,
+            "year_to": 1992,
+            "make": "Ford",
+            "model": "F-150",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1975,
+            "year_to": 1982,
+            "make": "Ford",
+            "model": "Granada",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1965,
+            "year_to": 1986,
+            "make": "Ford",
+            "model": "LTD",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1964,
+            "year_to": 1973,
+            "make": "Ford",
+            "model": "Mustang",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1966,
+            "year_to": 1990,
+            "make": "Ford",
+            "model": "Thunderbird",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1968,
+            "year_to": 1976,
+            "make": "Ford",
+            "model": "Torino",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1963,
+            "year_to": 1991,
+            "make": "Lincoln",
+            "model": "Continental",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1967,
+            "year_to": 1988,
+            "make": "Mercury",
+            "model": "Cougar",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1975,
+            "year_to": 1991,
+            "make": "Mercury",
+            "model": "Grand Marquis",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1966\u20131989 Ford Bronco",
+          "1975\u20131992 Ford F-150",
+          "1975\u20131982 Ford Granada",
+          "1965\u20131986 Ford LTD",
+          "1964\u20131973 Ford Mustang",
+          "1966\u20131990 Ford Thunderbird",
+          "1968\u20131976 Ford Torino",
+          "1963\u20131991 Lincoln Continental",
+          "1967\u20131988 Mercury Cougar",
+          "1975\u20131991 Mercury Grand Marquis"
+        ],
+        "raw_compat_rows": 2855,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "920128390463",
+        "type": "Voltage Regulator",
+        "brand": "KEM",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Starters, Alternators, ECUs & Wiring:Voltage Regulators"
+      },
+      "images": [
+        "../assets/pdp-gallery/USKPTIWWASDL2CHYK4SCCNMB/02.webp",
+        "../assets/pdp-gallery/USKPTIWWASDL2CHYK4SCCNMB/03.webp",
+        "../assets/pdp-gallery/USKPTIWWASDL2CHYK4SCCNMB/04.webp",
+        "../assets/pdp-gallery/USKPTIWWASDL2CHYK4SCCNMB/05.webp"
+      ]
+    },
+    {
       "id": "3SPQXRVHRNJVWTVLE2V46DD5",
       "name": "KEM KVR202BX Voltage Regulator 65-96 Ford Mustang Cougar Falcon F-Series Bronco",
       "price": 34.99,
@@ -96879,7 +97231,6 @@
       "category": "other",
       "checkout": true,
       "variation_id": "QEPF2LUCYKBOIQ4KDN6KPWWF",
-      "stock": 1,
       "part_numbers": [
         "PS4",
         "1S6570, 1S6753, 1S6912, 2-8145, 3241716, SW1547B, SW5849"
@@ -96899,11 +97250,6 @@
         "1960\u20131997 Lincoln",
         "1960\u20131997 Mercury AMC"
       ],
-      "vehicle_count_raw": 8,
-      "ebay_item_id": "920124591241",
-      "ebay_type": "Oil Pressure Switch",
-      "ebay_brand": "KEM",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Engine Sensors & Switches",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "medium",
       "fitment": {
@@ -96976,6 +97322,11 @@
         "brand": "KEM",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Engine Sensors & Switches"
       },
+      "vehicle_count_raw": 8,
+      "ebay_item_id": "920124591241",
+      "ebay_type": "Oil Pressure Switch",
+      "ebay_brand": "KEM",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Engine Sensors & Switches",
       "images": [
         "../assets/pdp-gallery/4RKZG7H6JGP4UWHUPCKWRVTQ/02.webp",
         "../assets/pdp-gallery/4RKZG7H6JGP4UWHUPCKWRVTQ/03.webp",
@@ -96983,6 +97334,421 @@
         "../assets/pdp-gallery/4RKZG7H6JGP4UWHUPCKWRVTQ/05.webp",
         "../assets/pdp-gallery/4RKZG7H6JGP4UWHUPCKWRVTQ/06.webp",
         "../assets/pdp-gallery/4RKZG7H6JGP4UWHUPCKWRVTQ/07.webp"
+      ],
+      "stock": 1
+    },
+    {
+      "id": "BC6OQ66JUWEXTWANEMB4ESUC",
+      "name": "KEM TV59X Ignition Points 62-74 Chevrolet Chevelle Nova Camaro C10 GMC Jeep CJ5",
+      "price": 16.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/a573e92b9cdfccbccbb2e17e624bba95d3dfe8bf/original.jpeg",
+      "url": "https://square.link/u/LA1E2eoN",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "ZBGDBKC2PVQYQUQPYCXBZL5D",
+      "stock": 1,
+      "part_numbers": [
+        "TV59X"
+      ],
+      "interchange": [
+        "Standard DR-2240",
+        "BWD A109",
+        "ACDelco D108P"
+      ],
+      "vehicles": [
+        "1965\u20131971 AMC Ambassador",
+        "1964\u20131968 AMC American",
+        "1970\u20131974 AMC Gremlin",
+        "1970\u20131974 AMC Hornet",
+        "1968\u20131974 AMC Javelin",
+        "1971\u20131974 AMC Matador",
+        "1968\u20131971 Buick Skylark",
+        "1963\u20131973 Chevrolet Bel Air",
+        "1963\u20131972 Chevrolet Biscayne",
+        "1969\u20131974 Chevrolet Blazer",
+        "1963\u20131974 Chevrolet C10 Pickup",
+        "1963\u20131974 Chevrolet C20 Pickup",
+        "1967\u20131974 Chevrolet Camaro",
+        "1964\u20131973 Chevrolet Chevelle",
+        "1962\u20131968 Chevrolet Chevy II",
+        "1964\u20131973 Chevrolet El Camino",
+        "1964\u20131974 Chevrolet G10 Van",
+        "1963\u20131973 Chevrolet Impala",
+        "1964\u20131974 Chevrolet K10 Pickup",
+        "1969\u20131974 Chevrolet Nova",
+        "1967\u20131974 GMC C15/C1500 Pickup",
+        "1970\u20131976 GMC Jimmy",
+        "1972\u20131974 Jeep CJ5",
+        "1972\u20131974 Jeep CJ6",
+        "1966\u20131973 Jeep Wagoneer",
+        "1968\u20131971 Oldsmobile Cutlass",
+        "1967 Pontiac Firebird",
+        "1964\u20131974 Pontiac LeMans",
+        "1966\u20131969 Pontiac Tempest",
+        "1971\u20131974 Pontiac Ventura"
+      ],
+      "vehicle_count_raw": 1640,
+      "ebay_item_id": "920128490839",
+      "ebay_type": "Ignition Contact Set",
+      "ebay_brand": "KEM",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Points",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "TV59X"
+        ],
+        "interchange": [
+          "Standard DR-2240",
+          "BWD A109",
+          "ACDelco D108P"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1965,
+            "year_to": 1971,
+            "make": "AMC",
+            "model": "Ambassador",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1964,
+            "year_to": 1968,
+            "make": "AMC",
+            "model": "American",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1970,
+            "year_to": 1974,
+            "make": "AMC",
+            "model": "Gremlin",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1970,
+            "year_to": 1974,
+            "make": "AMC",
+            "model": "Hornet",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1968,
+            "year_to": 1974,
+            "make": "AMC",
+            "model": "Javelin",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1971,
+            "year_to": 1974,
+            "make": "AMC",
+            "model": "Matador",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1968,
+            "year_to": 1971,
+            "make": "Buick",
+            "model": "Skylark",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1963,
+            "year_to": 1973,
+            "make": "Chevrolet",
+            "model": "Bel Air",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1963,
+            "year_to": 1972,
+            "make": "Chevrolet",
+            "model": "Biscayne",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1969,
+            "year_to": 1974,
+            "make": "Chevrolet",
+            "model": "Blazer",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1963,
+            "year_to": 1974,
+            "make": "Chevrolet",
+            "model": "C10 Pickup",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1963,
+            "year_to": 1974,
+            "make": "Chevrolet",
+            "model": "C20 Pickup",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1967,
+            "year_to": 1974,
+            "make": "Chevrolet",
+            "model": "Camaro",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1964,
+            "year_to": 1973,
+            "make": "Chevrolet",
+            "model": "Chevelle",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1962,
+            "year_to": 1968,
+            "make": "Chevrolet",
+            "model": "Chevy II",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1964,
+            "year_to": 1973,
+            "make": "Chevrolet",
+            "model": "El Camino",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1964,
+            "year_to": 1974,
+            "make": "Chevrolet",
+            "model": "G10 Van",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1963,
+            "year_to": 1973,
+            "make": "Chevrolet",
+            "model": "Impala",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1964,
+            "year_to": 1974,
+            "make": "Chevrolet",
+            "model": "K10 Pickup",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1969,
+            "year_to": 1974,
+            "make": "Chevrolet",
+            "model": "Nova",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1967,
+            "year_to": 1974,
+            "make": "GMC",
+            "model": "C15/C1500 Pickup",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1970,
+            "year_to": 1976,
+            "make": "GMC",
+            "model": "Jimmy",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1972,
+            "year_to": 1974,
+            "make": "Jeep",
+            "model": "CJ5",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1972,
+            "year_to": 1974,
+            "make": "Jeep",
+            "model": "CJ6",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1966,
+            "year_to": 1973,
+            "make": "Jeep",
+            "model": "Wagoneer",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1968,
+            "year_to": 1971,
+            "make": "Oldsmobile",
+            "model": "Cutlass",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1967,
+            "year_to": 1967,
+            "make": "Pontiac",
+            "model": "Firebird",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1964,
+            "year_to": 1974,
+            "make": "Pontiac",
+            "model": "LeMans",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1966,
+            "year_to": 1969,
+            "make": "Pontiac",
+            "model": "Tempest",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1971,
+            "year_to": 1974,
+            "make": "Pontiac",
+            "model": "Ventura",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1965\u20131971 AMC Ambassador",
+          "1964\u20131968 AMC American",
+          "1970\u20131974 AMC Gremlin",
+          "1970\u20131974 AMC Hornet",
+          "1968\u20131974 AMC Javelin",
+          "1971\u20131974 AMC Matador",
+          "1968\u20131971 Buick Skylark",
+          "1963\u20131973 Chevrolet Bel Air",
+          "1963\u20131972 Chevrolet Biscayne",
+          "1969\u20131974 Chevrolet Blazer",
+          "1963\u20131974 Chevrolet C10 Pickup",
+          "1963\u20131974 Chevrolet C20 Pickup",
+          "1967\u20131974 Chevrolet Camaro",
+          "1964\u20131973 Chevrolet Chevelle",
+          "1962\u20131968 Chevrolet Chevy II",
+          "1964\u20131973 Chevrolet El Camino",
+          "1964\u20131974 Chevrolet G10 Van",
+          "1963\u20131973 Chevrolet Impala",
+          "1964\u20131974 Chevrolet K10 Pickup",
+          "1969\u20131974 Chevrolet Nova",
+          "1967\u20131974 GMC C15/C1500 Pickup",
+          "1970\u20131976 GMC Jimmy",
+          "1972\u20131974 Jeep CJ5",
+          "1972\u20131974 Jeep CJ6",
+          "1966\u20131973 Jeep Wagoneer",
+          "1968\u20131971 Oldsmobile Cutlass",
+          "1967 Pontiac Firebird",
+          "1964\u20131974 Pontiac LeMans",
+          "1966\u20131969 Pontiac Tempest",
+          "1971\u20131974 Pontiac Ventura"
+        ],
+        "raw_compat_rows": 1640,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "920128490839",
+        "type": "Ignition Contact Set",
+        "brand": "KEM",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Points"
+      },
+      "images": [
+        "../assets/pdp-gallery/BC6OQ66JUWEXTWANEMB4ESUC/02.webp",
+        "../assets/pdp-gallery/BC6OQ66JUWEXTWANEMB4ESUC/03.webp",
+        "../assets/pdp-gallery/BC6OQ66JUWEXTWANEMB4ESUC/04.webp"
       ]
     },
     {
@@ -121566,5 +122332,5 @@
       "vehicles": []
     }
   ],
-  "fitment_built": "2026-11-10T05:02:42Z"
+  "fitment_built": "2026-11-11T02:03:53Z"
 }
