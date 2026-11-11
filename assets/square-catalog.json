@@ -1,7 +1,7 @@
 {
-  "updated": "2026-11-11T10:03:57Z",
+  "updated": "2026-11-11T11:03:47Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 898,
+  "count": 900,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -47446,6 +47446,259 @@
       "stock": 1
     },
     {
+      "id": "32H6H5226DPKD5HC4CGN6PUE",
+      "name": "- KEM U12GX Ignition Coil TUG Aviation Equip MA50 Aviation Equip MA40",
+      "price": 24.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/5c92311c05c1e8188322c8b01cf5434484ae80f7/original.jpeg",
+      "url": "https://square.link/u/5hkeby9x",
+      "category": "ignition",
+      "checkout": true,
+      "variation_id": "EOOSA3LAPMYRB6DKXAAIYPJG",
+      "stock": 1,
+      "part_numbers": [
+        "U12GX",
+        "Standard FD-476"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1978\u20131980 AMC AMX",
+        "1978\u20131983 AMC Concord",
+        "1980\u20131988 AMC Eagle",
+        "1977\u20131978 AMC Gremlin",
+        "1977 AMC Hornet",
+        "1977\u20131978 AMC Matador",
+        "1977\u20131980 AMC Pacer",
+        "1979\u20131983 AMC Spirit",
+        "1975\u20131976 Bricklin SV-1",
+        "1976\u20131987 Ford Bronco",
+        "1980\u20131986 Ford C600",
+        "1980\u20131986 Ford C700",
+        "1980\u20131986 Ford C800",
+        "1975\u20131977 Ford Custom 500",
+        "1975\u20131986 Ford Thunderbird",
+        "1975\u20131985 Lincoln Continental",
+        "1975\u20131986 Mercury Capri"
+      ],
+      "vehicle_count_raw": 570,
+      "ebay_item_id": "920129943360",
+      "ebay_type": "Ignition Coil",
+      "ebay_brand": "KEM",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Coils",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "U12GX",
+          "Standard FD-476"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1978,
+            "year_to": 1980,
+            "make": "AMC",
+            "model": "AMX",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1978,
+            "year_to": 1983,
+            "make": "AMC",
+            "model": "Concord",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1980,
+            "year_to": 1988,
+            "make": "AMC",
+            "model": "Eagle",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1977,
+            "year_to": 1978,
+            "make": "AMC",
+            "model": "Gremlin",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1977,
+            "year_to": 1977,
+            "make": "AMC",
+            "model": "Hornet",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1977,
+            "year_to": 1978,
+            "make": "AMC",
+            "model": "Matador",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1977,
+            "year_to": 1980,
+            "make": "AMC",
+            "model": "Pacer",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1979,
+            "year_to": 1983,
+            "make": "AMC",
+            "model": "Spirit",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1975,
+            "year_to": 1976,
+            "make": "Bricklin",
+            "model": "SV-1",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1976,
+            "year_to": 1987,
+            "make": "Ford",
+            "model": "Bronco",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1980,
+            "year_to": 1986,
+            "make": "Ford",
+            "model": "C600",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1980,
+            "year_to": 1986,
+            "make": "Ford",
+            "model": "C700",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1980,
+            "year_to": 1986,
+            "make": "Ford",
+            "model": "C800",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1975,
+            "year_to": 1977,
+            "make": "Ford",
+            "model": "Custom 500",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1975,
+            "year_to": 1986,
+            "make": "Ford",
+            "model": "Thunderbird",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1975,
+            "year_to": 1985,
+            "make": "Lincoln",
+            "model": "Continental",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1975,
+            "year_to": 1986,
+            "make": "Mercury",
+            "model": "Capri",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1978\u20131980 AMC AMX",
+          "1978\u20131983 AMC Concord",
+          "1980\u20131988 AMC Eagle",
+          "1977\u20131978 AMC Gremlin",
+          "1977 AMC Hornet",
+          "1977\u20131978 AMC Matador",
+          "1977\u20131980 AMC Pacer",
+          "1979\u20131983 AMC Spirit",
+          "1975\u20131976 Bricklin SV-1",
+          "1976\u20131987 Ford Bronco",
+          "1980\u20131986 Ford C600",
+          "1980\u20131986 Ford C700",
+          "1980\u20131986 Ford C800",
+          "1975\u20131977 Ford Custom 500",
+          "1975\u20131986 Ford Thunderbird",
+          "1975\u20131985 Lincoln Continental",
+          "1975\u20131986 Mercury Capri"
+        ],
+        "raw_compat_rows": 570,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "920129943360",
+        "type": "Ignition Coil",
+        "brand": "KEM",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Coils"
+      },
+      "images": [
+        "../assets/pdp-gallery/32H6H5226DPKD5HC4CGN6PUE/02.webp",
+        "../assets/pdp-gallery/32H6H5226DPKD5HC4CGN6PUE/03.webp",
+        "../assets/pdp-gallery/32H6H5226DPKD5HC4CGN6PUE/04.webp",
+        "../assets/pdp-gallery/32H6H5226DPKD5HC4CGN6PUE/05.webp"
+      ]
+    },
+    {
       "id": "6UNIDD477EWWZLMRXPXSV3R4",
       "name": "1977-1987 Buick Regal Century LeSabre KEM 1441X HEI V6 Distributor Cap 3.8L 4.1L",
       "price": 19.99,
@@ -69067,6 +69320,356 @@
       "stock": 1
     },
     {
+      "id": "HLQYQWHSGPVJVXKDE37AVTIO",
+      "name": "- KEM DS118 Dimmer Switch Chevrolet Caprice Camaro Buick Lesabre Regal",
+      "price": 28.46,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/50c9571a34a604d4c334a0036e9de8a29ad5b6df/original.jpeg",
+      "url": "https://square.link/u/yagZ7mEu",
+      "category": "interior",
+      "checkout": true,
+      "variation_id": "DAD6OUPF2XQVHBXFQ26ZEPBC",
+      "stock": 1,
+      "part_numbers": [
+        "DS118",
+        "Standard DS-79T"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1978\u20131983 Buick Century",
+        "1978\u20131989 Buick Electra",
+        "1978\u20131985 Buick LeSabre",
+        "1978\u20131987 Buick Regal",
+        "1978\u20131986 Buick Riviera",
+        "1978\u20131984 Buick Skylark",
+        "1977\u20131986 Cadillac Eldorado",
+        "1977\u20131992 Cadillac Fleetwood",
+        "1982\u20132002 Chevrolet Camaro",
+        "1978\u20131996 Chevrolet Caprice",
+        "1978\u20131987 Chevrolet El Camino",
+        "1983\u20131991 Chevrolet G10",
+        "1983\u20131991 Chevrolet G20",
+        "1978\u20131985 Chevrolet Impala",
+        "1978\u20131983 Chevrolet Malibu",
+        "1978\u20131988 Chevrolet Monte Carlo",
+        "1982\u20131994 Chevrolet S10",
+        "1983\u20131994 Chevrolet S10 Blazer",
+        "1978\u20131987 GMC Caballero",
+        "1982\u20131988 GMC S15",
+        "1978\u20131988 Oldsmobile Cutlass Supreme",
+        "1978\u20131985 Oldsmobile Delta 88",
+        "1978\u20131986 Pontiac Bonneville",
+        "1978\u20132002 Pontiac Firebird",
+        "1978\u20131987 Pontiac Grand Prix"
+      ],
+      "vehicle_count_raw": 3000,
+      "ebay_item_id": "920129909929",
+      "ebay_type": "Dimmer Switch",
+      "ebay_brand": "KEM",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Interior Parts & Accessories:Switches & Controls",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "DS118",
+          "Standard DS-79T"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1978,
+            "year_to": 1983,
+            "make": "Buick",
+            "model": "Century",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1978,
+            "year_to": 1989,
+            "make": "Buick",
+            "model": "Electra",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1978,
+            "year_to": 1985,
+            "make": "Buick",
+            "model": "LeSabre",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1978,
+            "year_to": 1987,
+            "make": "Buick",
+            "model": "Regal",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1978,
+            "year_to": 1986,
+            "make": "Buick",
+            "model": "Riviera",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1978,
+            "year_to": 1984,
+            "make": "Buick",
+            "model": "Skylark",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1977,
+            "year_to": 1986,
+            "make": "Cadillac",
+            "model": "Eldorado",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1977,
+            "year_to": 1992,
+            "make": "Cadillac",
+            "model": "Fleetwood",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1982,
+            "year_to": 2002,
+            "make": "Chevrolet",
+            "model": "Camaro",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1978,
+            "year_to": 1996,
+            "make": "Chevrolet",
+            "model": "Caprice",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1978,
+            "year_to": 1987,
+            "make": "Chevrolet",
+            "model": "El Camino",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1983,
+            "year_to": 1991,
+            "make": "Chevrolet",
+            "model": "G10",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1983,
+            "year_to": 1991,
+            "make": "Chevrolet",
+            "model": "G20",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1978,
+            "year_to": 1985,
+            "make": "Chevrolet",
+            "model": "Impala",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1978,
+            "year_to": 1983,
+            "make": "Chevrolet",
+            "model": "Malibu",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1978,
+            "year_to": 1988,
+            "make": "Chevrolet",
+            "model": "Monte Carlo",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1982,
+            "year_to": 1994,
+            "make": "Chevrolet",
+            "model": "S10",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1983,
+            "year_to": 1994,
+            "make": "Chevrolet",
+            "model": "S10 Blazer",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1978,
+            "year_to": 1987,
+            "make": "GMC",
+            "model": "Caballero",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1982,
+            "year_to": 1988,
+            "make": "GMC",
+            "model": "S15",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1978,
+            "year_to": 1988,
+            "make": "Oldsmobile",
+            "model": "Cutlass Supreme",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1978,
+            "year_to": 1985,
+            "make": "Oldsmobile",
+            "model": "Delta 88",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1978,
+            "year_to": 1986,
+            "make": "Pontiac",
+            "model": "Bonneville",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1978,
+            "year_to": 2002,
+            "make": "Pontiac",
+            "model": "Firebird",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1978,
+            "year_to": 1987,
+            "make": "Pontiac",
+            "model": "Grand Prix",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1978\u20131983 Buick Century",
+          "1978\u20131989 Buick Electra",
+          "1978\u20131985 Buick LeSabre",
+          "1978\u20131987 Buick Regal",
+          "1978\u20131986 Buick Riviera",
+          "1978\u20131984 Buick Skylark",
+          "1977\u20131986 Cadillac Eldorado",
+          "1977\u20131992 Cadillac Fleetwood",
+          "1982\u20132002 Chevrolet Camaro",
+          "1978\u20131996 Chevrolet Caprice",
+          "1978\u20131987 Chevrolet El Camino",
+          "1983\u20131991 Chevrolet G10",
+          "1983\u20131991 Chevrolet G20",
+          "1978\u20131985 Chevrolet Impala",
+          "1978\u20131983 Chevrolet Malibu",
+          "1978\u20131988 Chevrolet Monte Carlo",
+          "1982\u20131994 Chevrolet S10",
+          "1983\u20131994 Chevrolet S10 Blazer",
+          "1978\u20131987 GMC Caballero",
+          "1982\u20131988 GMC S15",
+          "1978\u20131988 Oldsmobile Cutlass Supreme",
+          "1978\u20131985 Oldsmobile Delta 88",
+          "1978\u20131986 Pontiac Bonneville",
+          "1978\u20132002 Pontiac Firebird",
+          "1978\u20131987 Pontiac Grand Prix"
+        ],
+        "raw_compat_rows": 3000,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "920129909929",
+        "type": "Dimmer Switch",
+        "brand": "KEM",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Interior Parts & Accessories:Switches & Controls"
+      },
+      "images": [
+        "../assets/pdp-gallery/HLQYQWHSGPVJVXKDE37AVTIO/02.webp",
+        "../assets/pdp-gallery/HLQYQWHSGPVJVXKDE37AVTIO/03.webp",
+        "../assets/pdp-gallery/HLQYQWHSGPVJVXKDE37AVTIO/04.webp",
+        "../assets/pdp-gallery/HLQYQWHSGPVJVXKDE37AVTIO/05.webp",
+        "../assets/pdp-gallery/HLQYQWHSGPVJVXKDE37AVTIO/06.webp"
+      ]
+    },
+    {
       "id": "EI6IIJST5VQ56MZJAZCMIJFV",
       "name": "1999-2002 Chevy Silverado Tahoe OEM Headlight & Dimmer Switch Set",
       "price": 17.99,
@@ -72038,12 +72641,10 @@
       "category": "other",
       "checkout": true,
       "variation_id": "XS7AIOV23G5ZETAIUZLG2J7F",
-      "stock": 1,
       "part_numbers": [
         "E223",
         "Standard LX-331"
       ],
-      "interchange": [],
       "vehicles": [
         "1978\u20131980 Buick LeSabre",
         "1978\u20131981 Buick Regal",
@@ -72086,11 +72687,6 @@
         "1980 Pontiac Laurentian",
         "1980 Pontiac LeMans"
       ],
-      "vehicle_count_raw": 855,
-      "ebay_item_id": "920129672690",
-      "ebay_type": "Ignition Control Module",
-      "ebay_brand": "KEM",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Modules",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -72551,11 +73147,18 @@
         "brand": "KEM",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Modules"
       },
+      "vehicle_count_raw": 855,
+      "ebay_item_id": "920129672690",
+      "ebay_type": "Ignition Control Module",
+      "ebay_brand": "KEM",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Modules",
       "images": [
         "../assets/pdp-gallery/H6ZVHC255FSYRYVMBGJAKHPJ/02.webp",
         "../assets/pdp-gallery/H6ZVHC255FSYRYVMBGJAKHPJ/03.webp",
         "../assets/pdp-gallery/H6ZVHC255FSYRYVMBGJAKHPJ/04.webp"
-      ]
+      ],
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "QAXNAJ4JJEZZWNSTYTD33NQW",
@@ -97023,12 +97626,10 @@
       "category": "other",
       "checkout": true,
       "variation_id": "TVCHX3RJ4I5TT47RSCK4KV67",
-      "stock": 1,
       "part_numbers": [
         "AR174",
         "Standard RY-32"
       ],
-      "interchange": [],
       "vehicles": [
         "1980\u20131988 Buick Century",
         "1984\u20131986 Buick Electra",
@@ -97067,12 +97668,7 @@
         "1981\u20131984 Pontiac Phoenix",
         "1986\u20131987 Pontiac Sunbird"
       ],
-      "vehicle_count_raw": 1481,
-      "ebay_item_id": "920129631782",
-      "ebay_type": "Blower Motor Relay",
-      "ebay_brand": "KEM",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Starters, Alternators, ECUs & Wiring:Relays",
-      "fitment_source": "ebay_listing+title",
+      "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
@@ -97481,18 +98077,25 @@
           "1986\u20131987 Pontiac Sunbird"
         ],
         "raw_compat_rows": 1481,
-        "source": "ebay_listing+title",
+        "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "920129631782",
         "type": "Blower Motor Relay",
         "brand": "KEM",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Starters, Alternators, ECUs & Wiring:Relays"
       },
+      "vehicle_count_raw": 1481,
+      "ebay_item_id": "920129631782",
+      "ebay_type": "Blower Motor Relay",
+      "ebay_brand": "KEM",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Starters, Alternators, ECUs & Wiring:Relays",
       "images": [
         "../assets/pdp-gallery/RPPR7J66Q3E2HZZQAILD3JPW/02.webp",
         "../assets/pdp-gallery/RPPR7J66Q3E2HZZQAILD3JPW/03.webp",
         "../assets/pdp-gallery/RPPR7J66Q3E2HZZQAILD3JPW/04.webp"
-      ]
+      ],
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "GJ74UGLVEPGII2CLCHWYHVR5",
@@ -98395,12 +98998,10 @@
       "category": "other",
       "checkout": true,
       "variation_id": "6YT6CWPPWV765VLNABELFH7H",
-      "stock": 1,
       "part_numbers": [
         "AR243",
         "Standard RY-116"
       ],
-      "interchange": [],
       "vehicles": [
         "1980\u20131988 AMC Eagle",
         "1996\u20132002 BMW Z3",
@@ -98437,11 +99038,6 @@
         "1990\u20131996 Chevrolet Lumina APV",
         "1993\u20131995 Chevrolet P30"
       ],
-      "vehicle_count_raw": 3000,
-      "ebay_item_id": "920129640157",
-      "ebay_type": "Accessory Relay",
-      "ebay_brand": "KEM",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Starters, Alternators, ECUs & Wiring:Relays",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -98836,12 +99432,19 @@
         "brand": "KEM",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Starters, Alternators, ECUs & Wiring:Relays"
       },
+      "vehicle_count_raw": 3000,
+      "ebay_item_id": "920129640157",
+      "ebay_type": "Accessory Relay",
+      "ebay_brand": "KEM",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Starters, Alternators, ECUs & Wiring:Relays",
       "images": [
         "../assets/pdp-gallery/PWEKB2UWPKO3RNRKJ4AVXBDB/02.webp",
         "../assets/pdp-gallery/PWEKB2UWPKO3RNRKJ4AVXBDB/03.webp",
         "../assets/pdp-gallery/PWEKB2UWPKO3RNRKJ4AVXBDB/04.webp",
         "../assets/pdp-gallery/PWEKB2UWPKO3RNRKJ4AVXBDB/05.webp"
-      ]
+      ],
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "XJOFDY6W2SA2CJJDTX2VQVRU",
@@ -99211,12 +99814,10 @@
       "category": "other",
       "checkout": true,
       "variation_id": "5Q4UOJQUO33BE5TIJH2MSJPB",
-      "stock": 1,
       "part_numbers": [
         "E118",
         "Standard LX-124"
       ],
-      "interchange": [],
       "vehicles": [
         "1987\u20131993 Chrysler Daytona",
         "1988\u20131992 Chrysler Dynasty",
@@ -99243,11 +99844,6 @@
         "1987\u20131994 Plymouth Sundance",
         "1986\u20131995 Plymouth Voyager"
       ],
-      "vehicle_count_raw": 1024,
-      "ebay_item_id": "920129670277",
-      "ebay_type": "Pick Up Assembly",
-      "ebay_brand": "KEM",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Towing Parts & Accessories:Wiring, Harnesses & Connectors",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -99532,13 +100128,20 @@
         "brand": "KEM",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Towing Parts & Accessories:Wiring, Harnesses & Connectors"
       },
+      "vehicle_count_raw": 1024,
+      "ebay_item_id": "920129670277",
+      "ebay_type": "Pick Up Assembly",
+      "ebay_brand": "KEM",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Towing Parts & Accessories:Wiring, Harnesses & Connectors",
       "images": [
         "../assets/pdp-gallery/GUZZEEGEE54UUT4ODJX7A7GF/02.webp",
         "../assets/pdp-gallery/GUZZEEGEE54UUT4ODJX7A7GF/03.webp",
         "../assets/pdp-gallery/GUZZEEGEE54UUT4ODJX7A7GF/04.webp",
         "../assets/pdp-gallery/GUZZEEGEE54UUT4ODJX7A7GF/05.webp",
         "../assets/pdp-gallery/GUZZEEGEE54UUT4ODJX7A7GF/06.webp"
-      ]
+      ],
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "ROQEZYXDFB7ISAVC6P6UTJVF",
@@ -125373,5 +125976,5 @@
       "vehicles": []
     }
   ],
-  "fitment_built": "2026-11-11T10:03:57Z"
+  "fitment_built": "2026-11-11T11:03:47Z"
 }
