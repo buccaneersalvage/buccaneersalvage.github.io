@@ -1,7 +1,7 @@
 {
-  "updated": "2026-11-11T22:03:58Z",
+  "updated": "2026-11-11T23:03:37Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 935,
+  "count": 938,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -49850,6 +49850,186 @@
       "interchange": []
     },
     {
+      "id": "NHW7ONDFNYFEOOFU22GIZOCR",
+      "name": "1971-1994 KEM W396X Distributor Cap Subaru Standard Toyota Corolla Corona Pickup",
+      "price": 14.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/db84f593ce9dded3d037106c8f51c1c18084fa90/original.jpeg",
+      "url": "https://square.link/u/2RpOkOTH",
+      "category": "ignition",
+      "checkout": true,
+      "variation_id": "TMFM7NYR5SIYDZ5Q4HUEKSVF",
+      "stock": 1,
+      "part_numbers": [
+        "W396X",
+        "Standard JH-71"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1989\u20131994 Geo Tracker",
+        "1986\u20131987 Subaru GL",
+        "1977\u20131987 Subaru Standard",
+        "1985 Suzuki SJ410",
+        "1986\u20131989 Suzuki Samurai",
+        "1989\u20131990 Suzuki Sidekick",
+        "1975\u20131978 Toyota Celica",
+        "1971\u20131979 Toyota Corolla",
+        "1975\u20131978 Toyota Corona",
+        "1975\u20131978 Toyota Pickup",
+        "1981\u20131984 Toyota Starlet"
+      ],
+      "vehicle_count_raw": 161,
+      "ebay_item_id": "920132342081",
+      "ebay_type": "Distributor Cap",
+      "ebay_brand": "KEM",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "W396X",
+          "Standard JH-71"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1989,
+            "year_to": 1994,
+            "make": "Geo",
+            "model": "Tracker",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1986,
+            "year_to": 1987,
+            "make": "Subaru",
+            "model": "GL",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1977,
+            "year_to": 1987,
+            "make": "Subaru",
+            "model": "Standard",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1985,
+            "make": "Suzuki",
+            "model": "SJ410",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1986,
+            "year_to": 1989,
+            "make": "Suzuki",
+            "model": "Samurai",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1989,
+            "year_to": 1990,
+            "make": "Suzuki",
+            "model": "Sidekick",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1975,
+            "year_to": 1978,
+            "make": "Toyota",
+            "model": "Celica",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1971,
+            "year_to": 1979,
+            "make": "Toyota",
+            "model": "Corolla",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1975,
+            "year_to": 1978,
+            "make": "Toyota",
+            "model": "Corona",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1975,
+            "year_to": 1978,
+            "make": "Toyota",
+            "model": "Pickup",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1981,
+            "year_to": 1984,
+            "make": "Toyota",
+            "model": "Starlet",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1989\u20131994 Geo Tracker",
+          "1986\u20131987 Subaru GL",
+          "1977\u20131987 Subaru Standard",
+          "1985 Suzuki SJ410",
+          "1986\u20131989 Suzuki Samurai",
+          "1989\u20131990 Suzuki Sidekick",
+          "1975\u20131978 Toyota Celica",
+          "1971\u20131979 Toyota Corolla",
+          "1975\u20131978 Toyota Corona",
+          "1975\u20131978 Toyota Pickup",
+          "1981\u20131984 Toyota Starlet"
+        ],
+        "raw_compat_rows": 161,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "920132342081",
+        "type": "Distributor Cap",
+        "brand": "KEM",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps"
+      },
+      "images": [
+        "../assets/pdp-gallery/NHW7ONDFNYFEOOFU22GIZOCR/02.webp",
+        "../assets/pdp-gallery/NHW7ONDFNYFEOOFU22GIZOCR/03.webp",
+        "../assets/pdp-gallery/NHW7ONDFNYFEOOFU22GIZOCR/04.webp"
+      ]
+    },
+    {
       "id": "6UNIDD477EWWZLMRXPXSV3R4",
       "name": "1977-1987 Buick Regal Century LeSabre KEM 1441X HEI V6 Distributor Cap 3.8L 4.1L",
       "price": 19.99,
@@ -51004,6 +51184,150 @@
       ],
       "stock": 1,
       "interchange": []
+    },
+    {
+      "id": "LWJUEZBE26VDGIMHU6K2D64W",
+      "name": "1988-2002 KEM W317 Distributor Cap 1.8 2.0 2.1 Volkswagen Jetta Golf Cabrio",
+      "price": 30.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/6f6bde98493b0e150b4c301266bbf0c4b65ba5d4/original.jpeg",
+      "url": "https://square.link/u/7C8cVwj7",
+      "category": "ignition",
+      "checkout": true,
+      "variation_id": "47AFI2S36VIRTIMA5MBHKTE2",
+      "stock": 1,
+      "part_numbers": [
+        "W317",
+        "Standard GB-450"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1995\u20132002 Volkswagen Cabrio",
+        "1991\u20131993 Volkswagen Cabriolet",
+        "1990\u20131992 Volkswagen Corrado",
+        "1991\u20131993 Volkswagen Fox",
+        "1990\u20131998 Volkswagen Golf",
+        "1990\u20131999 Volkswagen Jetta",
+        "1990\u20131996 Volkswagen Passat",
+        "1990\u20131991 Volkswagen Vanagon"
+      ],
+      "vehicle_count_raw": 134,
+      "ebay_item_id": "920132297361",
+      "ebay_type": "Distributor Cap",
+      "ebay_brand": "KEM Automotive",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "W317",
+          "Standard GB-450"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1995,
+            "year_to": 2002,
+            "make": "Volkswagen",
+            "model": "Cabrio",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1991,
+            "year_to": 1993,
+            "make": "Volkswagen",
+            "model": "Cabriolet",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1990,
+            "year_to": 1992,
+            "make": "Volkswagen",
+            "model": "Corrado",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1991,
+            "year_to": 1993,
+            "make": "Volkswagen",
+            "model": "Fox",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1990,
+            "year_to": 1998,
+            "make": "Volkswagen",
+            "model": "Golf",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1990,
+            "year_to": 1999,
+            "make": "Volkswagen",
+            "model": "Jetta",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1990,
+            "year_to": 1996,
+            "make": "Volkswagen",
+            "model": "Passat",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1990,
+            "year_to": 1991,
+            "make": "Volkswagen",
+            "model": "Vanagon",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1995\u20132002 Volkswagen Cabrio",
+          "1991\u20131993 Volkswagen Cabriolet",
+          "1990\u20131992 Volkswagen Corrado",
+          "1991\u20131993 Volkswagen Fox",
+          "1990\u20131998 Volkswagen Golf",
+          "1990\u20131999 Volkswagen Jetta",
+          "1990\u20131996 Volkswagen Passat",
+          "1990\u20131991 Volkswagen Vanagon"
+        ],
+        "raw_compat_rows": 134,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "920132297361",
+        "type": "Distributor Cap",
+        "brand": "KEM Automotive",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps"
+      },
+      "images": [
+        "../assets/pdp-gallery/LWJUEZBE26VDGIMHU6K2D64W/02.webp",
+        "../assets/pdp-gallery/LWJUEZBE26VDGIMHU6K2D64W/03.webp",
+        "../assets/pdp-gallery/LWJUEZBE26VDGIMHU6K2D64W/04.webp"
+      ]
     },
     {
       "id": "TFHK5TLXSMYQR5QT4YLH6IX4",
@@ -112686,17 +113010,9 @@
       "category": "other",
       "checkout": true,
       "variation_id": "HWWIC4Z5ZCWTZZZJECCIN37O",
-      "stock": 1,
       "part_numbers": [
         "WH18DDX"
       ],
-      "interchange": [],
-      "vehicles": [],
-      "vehicle_count_raw": 0,
-      "ebay_item_id": "920132213851",
-      "ebay_type": "Impact Driver",
-      "ebay_brand": "Metabo HPT",
-      "ebay_category": "Home & Garden:Tools & Workshop Equipment:Power Tools:Impact Drivers",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "medium",
       "fitment": {
@@ -112714,6 +113030,11 @@
         "brand": "Metabo HPT",
         "ebay_category": "Home & Garden:Tools & Workshop Equipment:Power Tools:Impact Drivers"
       },
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "920132213851",
+      "ebay_type": "Impact Driver",
+      "ebay_brand": "Metabo HPT",
+      "ebay_category": "Home & Garden:Tools & Workshop Equipment:Power Tools:Impact Drivers",
       "images": [
         "../assets/pdp-gallery/R6ZZXYN5L6WUW5VPJE7NMN2I/02.webp",
         "../assets/pdp-gallery/R6ZZXYN5L6WUW5VPJE7NMN2I/03.webp",
@@ -112721,7 +113042,10 @@
         "../assets/pdp-gallery/R6ZZXYN5L6WUW5VPJE7NMN2I/05.webp",
         "../assets/pdp-gallery/R6ZZXYN5L6WUW5VPJE7NMN2I/06.webp",
         "../assets/pdp-gallery/R6ZZXYN5L6WUW5VPJE7NMN2I/07.webp"
-      ]
+      ],
+      "stock": 1,
+      "interchange": [],
+      "vehicles": []
     },
     {
       "id": "NRDBN3JUVZD6MI5P7CLGDVIL",
@@ -121276,6 +121600,140 @@
       "interchange": []
     },
     {
+      "id": "5ISTDZEYUVAXLDFHNBD3MRJG",
+      "name": "Sealed Power 270-2523 Torque Strut Motor Mount 87-97 Buick Regal Cutlass Lumina",
+      "price": 22.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/13470d0f93c2f6b4d78c37ee11f7d6daaba9f150/original.jpeg",
+      "url": "https://square.link/u/YEjjwDb0",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "EMAUXN7OMZROIGV77FWNKH2L",
+      "stock": 1,
+      "part_numbers": [
+        "270-2523"
+      ],
+      "interchange": [
+        "TRW 83290"
+      ],
+      "vehicles": [
+        "1993\u20131994 Buick Century",
+        "1988\u20131995 Buick Regal",
+        "1990\u20131994 Chevrolet Lumina",
+        "1993\u20131995 Oldsmobile Cutlass Ciera",
+        "1987\u20131989 Oldsmobile Cutlass Cruiser",
+        "1988\u20131997 Oldsmobile Cutlass Supreme",
+        "1988\u20131994 Pontiac Grand Prix"
+      ],
+      "vehicle_count_raw": 299,
+      "ebay_item_id": "920132329560",
+      "ebay_type": "Engine Torque Strut Motor Mount",
+      "ebay_brand": "Sealed Power",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Engine Mounts",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "270-2523"
+        ],
+        "interchange": [
+          "TRW 83290"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1993,
+            "year_to": 1994,
+            "make": "Buick",
+            "model": "Century",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1988,
+            "year_to": 1995,
+            "make": "Buick",
+            "model": "Regal",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1990,
+            "year_to": 1994,
+            "make": "Chevrolet",
+            "model": "Lumina",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1993,
+            "year_to": 1995,
+            "make": "Oldsmobile",
+            "model": "Cutlass Ciera",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1989,
+            "make": "Oldsmobile",
+            "model": "Cutlass Cruiser",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1988,
+            "year_to": 1997,
+            "make": "Oldsmobile",
+            "model": "Cutlass Supreme",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1988,
+            "year_to": 1994,
+            "make": "Pontiac",
+            "model": "Grand Prix",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1993\u20131994 Buick Century",
+          "1988\u20131995 Buick Regal",
+          "1990\u20131994 Chevrolet Lumina",
+          "1993\u20131995 Oldsmobile Cutlass Ciera",
+          "1987\u20131989 Oldsmobile Cutlass Cruiser",
+          "1988\u20131997 Oldsmobile Cutlass Supreme",
+          "1988\u20131994 Pontiac Grand Prix"
+        ],
+        "raw_compat_rows": 299,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "920132329560",
+        "type": "Engine Torque Strut Motor Mount",
+        "brand": "Sealed Power",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Engine Mounts"
+      },
+      "images": [
+        "../assets/pdp-gallery/5ISTDZEYUVAXLDFHNBD3MRJG/02.webp",
+        "../assets/pdp-gallery/5ISTDZEYUVAXLDFHNBD3MRJG/03.webp",
+        "../assets/pdp-gallery/5ISTDZEYUVAXLDFHNBD3MRJG/04.webp"
+      ]
+    },
+    {
       "id": "O6JHBMNMFRGN5X3WLTBEJYCN",
       "name": "Sealed Power HT-2056 Lifter 1.6 1.8 2.0 Chevette Skyhawk Sunbird GM 76-94",
       "price": 11.99,
@@ -122172,15 +122630,6 @@
       "category": "other",
       "checkout": true,
       "variation_id": "KI3DT5KQIJYVEN5QQTNP4N4G",
-      "stock": 1,
-      "part_numbers": [],
-      "interchange": [],
-      "vehicles": [],
-      "vehicle_count_raw": 0,
-      "ebay_item_id": "920132203791",
-      "ebay_type": "Book",
-      "ebay_brand": "Unbranded",
-      "ebay_category": "Books & Magazines:Books",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "medium",
       "fitment": {
@@ -122196,11 +122645,20 @@
         "brand": "Unbranded",
         "ebay_category": "Books & Magazines:Books"
       },
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "920132203791",
+      "ebay_type": "Book",
+      "ebay_brand": "Unbranded",
+      "ebay_category": "Books & Magazines:Books",
       "images": [
         "../assets/pdp-gallery/I2UUG6KF2LZEFSL7TX54LDQT/02.webp",
         "../assets/pdp-gallery/I2UUG6KF2LZEFSL7TX54LDQT/03.webp",
         "../assets/pdp-gallery/I2UUG6KF2LZEFSL7TX54LDQT/04.webp"
-      ]
+      ],
+      "stock": 1,
+      "part_numbers": [],
+      "interchange": [],
+      "vehicles": []
     },
     {
       "id": "HBW7V4XAT5JYO4FEZPTSCZ5M",
@@ -131892,15 +132350,6 @@
       "category": "other",
       "checkout": true,
       "variation_id": "AH7FZI2CZS6UFWPO4N63LOU6",
-      "stock": 1,
-      "part_numbers": [],
-      "interchange": [],
-      "vehicles": [],
-      "vehicle_count_raw": 0,
-      "ebay_item_id": "920132204849",
-      "ebay_type": "Book",
-      "ebay_brand": "Unbranded",
-      "ebay_category": "Books & Magazines:Books",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "medium",
       "fitment": {
@@ -131916,11 +132365,20 @@
         "brand": "Unbranded",
         "ebay_category": "Books & Magazines:Books"
       },
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "920132204849",
+      "ebay_type": "Book",
+      "ebay_brand": "Unbranded",
+      "ebay_category": "Books & Magazines:Books",
       "images": [
         "../assets/pdp-gallery/JYJ3TLJSIPQPSWKJZNSK2W4S/02.webp",
         "../assets/pdp-gallery/JYJ3TLJSIPQPSWKJZNSK2W4S/03.webp",
         "../assets/pdp-gallery/JYJ3TLJSIPQPSWKJZNSK2W4S/04.webp"
-      ]
+      ],
+      "stock": 1,
+      "part_numbers": [],
+      "interchange": [],
+      "vehicles": []
     },
     {
       "id": "ZCGWYEOZNPO2KEIVA3RVGAEO",
@@ -131931,15 +132389,6 @@
       "category": "other",
       "checkout": true,
       "variation_id": "3RGLHZJYQEZCONSAUJTD7PV2",
-      "stock": 1,
-      "part_numbers": [],
-      "interchange": [],
-      "vehicles": [],
-      "vehicle_count_raw": 0,
-      "ebay_item_id": "920132205341",
-      "ebay_type": "Book",
-      "ebay_brand": "Unbranded",
-      "ebay_category": "Books & Magazines:Books",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "medium",
       "fitment": {
@@ -131955,10 +132404,19 @@
         "brand": "Unbranded",
         "ebay_category": "Books & Magazines:Books"
       },
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "920132205341",
+      "ebay_type": "Book",
+      "ebay_brand": "Unbranded",
+      "ebay_category": "Books & Magazines:Books",
       "images": [
         "../assets/pdp-gallery/ZCGWYEOZNPO2KEIVA3RVGAEO/02.webp",
         "../assets/pdp-gallery/ZCGWYEOZNPO2KEIVA3RVGAEO/03.webp"
-      ]
+      ],
+      "stock": 1,
+      "part_numbers": [],
+      "interchange": [],
+      "vehicles": []
     },
     {
       "id": "XT6A4QMLJ3MG5ZR67GVCYL5I",
@@ -136427,5 +136885,5 @@
       "vehicles": []
     }
   ],
-  "fitment_built": "2026-11-11T22:03:58Z"
+  "fitment_built": "2026-11-11T23:03:37Z"
 }
