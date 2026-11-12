@@ -1,7 +1,7 @@
 {
-  "updated": "2026-11-11T23:03:37Z",
+  "updated": "2026-11-12T00:03:36Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 938,
+  "count": 937,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -29047,82 +29047,14 @@
       "ebay_brand": "Wagner",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Disc Rotors",
       "stock": 1,
-      "images": []
-    },
-    {
-      "id": "MCKEHYTQNCFONCABSPRZXC6C",
-      "name": "Wagner BD61988 Front Brake Rotor Audi Cabriolet Coupe Quattro Used",
-      "price": 24.99,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/04c30780c93e566a26a1828e3d046d7ba57c9b9c/original.jpeg",
-      "url": "https://square.link/u/1kEmWLes",
-      "category": "brake",
-      "checkout": true,
-      "variation_id": "XPVNNI5TZZ3ZEVEMHRVL7P3W",
-      "part_numbers": [
-        "BD61988",
-        "639462, 61983"
-      ],
-      "interchange": [
-        "96428"
-      ],
-      "vehicles": [
-        "1994\u20131998 Audi Cabriolet",
-        "1990\u20131991 Audi Coupe Quattro"
-      ],
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "high",
-      "fitment": {
-        "part_numbers": [
-          "BD61988",
-          "639462, 61983"
-        ],
-        "interchange": [
-          "96428"
-        ],
-        "vehicles": [
-          {
-            "year_from": 1994,
-            "year_to": 1998,
-            "make": "Audi",
-            "model": "Cabriolet",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1990,
-            "year_to": 1991,
-            "make": "Audi",
-            "model": "Coupe Quattro",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          }
-        ],
-        "vehicle_labels": [
-          "1994\u20131998 Audi Cabriolet",
-          "1990\u20131991 Audi Coupe Quattro"
-        ],
-        "raw_compat_rows": 7,
-        "source": "ebay_listing",
-        "confidence": "high",
-        "ebay_item_id": "398414732968",
-        "type": "Disc Brake Rotor",
-        "brand": "Wagner",
-        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Disc Rotors"
-      },
-      "vehicle_count_raw": 7,
-      "ebay_item_id": "398414732968",
-      "ebay_type": "Disc Brake Rotor",
-      "ebay_brand": "Wagner",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Disc Rotors",
       "images": [
-        "../assets/pdp-gallery/MCKEHYTQNCFONCABSPRZXC6C/02.webp",
-        "../assets/pdp-gallery/MCKEHYTQNCFONCABSPRZXC6C/03.webp"
-      ],
-      "stock": 1
+        "../assets/pdp-gallery/L65F3756PSQ2AZ4DLLLZESSB/02.webp",
+        "../assets/pdp-gallery/L65F3756PSQ2AZ4DLLLZESSB/03.webp",
+        "../assets/pdp-gallery/L65F3756PSQ2AZ4DLLLZESSB/04.webp",
+        "../assets/pdp-gallery/L65F3756PSQ2AZ4DLLLZESSB/05.webp",
+        "../assets/pdp-gallery/L65F3756PSQ2AZ4DLLLZESSB/06.webp",
+        "../assets/pdp-gallery/L65F3756PSQ2AZ4DLLLZESSB/07.webp"
+      ]
     },
     {
       "id": "UD6AH2CC4HDMSJS6FE7TTMGV",
@@ -49858,12 +49790,10 @@
       "category": "ignition",
       "checkout": true,
       "variation_id": "TMFM7NYR5SIYDZ5Q4HUEKSVF",
-      "stock": 1,
       "part_numbers": [
         "W396X",
         "Standard JH-71"
       ],
-      "interchange": [],
       "vehicles": [
         "1989\u20131994 Geo Tracker",
         "1986\u20131987 Subaru GL",
@@ -49877,11 +49807,6 @@
         "1975\u20131978 Toyota Pickup",
         "1981\u20131984 Toyota Starlet"
       ],
-      "vehicle_count_raw": 161,
-      "ebay_item_id": "920132342081",
-      "ebay_type": "Distributor Cap",
-      "ebay_brand": "KEM",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -50023,11 +49948,18 @@
         "brand": "KEM",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps"
       },
+      "vehicle_count_raw": 161,
+      "ebay_item_id": "920132342081",
+      "ebay_type": "Distributor Cap",
+      "ebay_brand": "KEM",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps",
       "images": [
         "../assets/pdp-gallery/NHW7ONDFNYFEOOFU22GIZOCR/02.webp",
         "../assets/pdp-gallery/NHW7ONDFNYFEOOFU22GIZOCR/03.webp",
         "../assets/pdp-gallery/NHW7ONDFNYFEOOFU22GIZOCR/04.webp"
-      ]
+      ],
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "6UNIDD477EWWZLMRXPXSV3R4",
@@ -51194,12 +51126,10 @@
       "category": "ignition",
       "checkout": true,
       "variation_id": "47AFI2S36VIRTIMA5MBHKTE2",
-      "stock": 1,
       "part_numbers": [
         "W317",
         "Standard GB-450"
       ],
-      "interchange": [],
       "vehicles": [
         "1995\u20132002 Volkswagen Cabrio",
         "1991\u20131993 Volkswagen Cabriolet",
@@ -51210,11 +51140,6 @@
         "1990\u20131996 Volkswagen Passat",
         "1990\u20131991 Volkswagen Vanagon"
       ],
-      "vehicle_count_raw": 134,
-      "ebay_item_id": "920132297361",
-      "ebay_type": "Distributor Cap",
-      "ebay_brand": "KEM Automotive",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -51323,11 +51248,18 @@
         "brand": "KEM Automotive",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps"
       },
+      "vehicle_count_raw": 134,
+      "ebay_item_id": "920132297361",
+      "ebay_type": "Distributor Cap",
+      "ebay_brand": "KEM Automotive",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps",
       "images": [
         "../assets/pdp-gallery/LWJUEZBE26VDGIMHU6K2D64W/02.webp",
         "../assets/pdp-gallery/LWJUEZBE26VDGIMHU6K2D64W/03.webp",
         "../assets/pdp-gallery/LWJUEZBE26VDGIMHU6K2D64W/04.webp"
-      ]
+      ],
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "TFHK5TLXSMYQR5QT4YLH6IX4",
@@ -104273,6 +104205,63 @@
       "vehicles": []
     },
     {
+      "id": "AN7GJ7UMZMRWNOR2GWRAJSVE",
+      "name": "Honda GX340 11HP OHV Engine EG5000 Generator Electric Start For Parts Untested",
+      "price": 199.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/156cda81f2565602bc6807fedbb920674f9cffd7/original.jpeg",
+      "url": "https://square.link/u/WnCpJG7u",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "2RLAYEDPTZZQ6B2MIFV27W6B",
+      "fitment_source": "ebay_listing+title",
+      "fitment_confidence": "medium",
+      "fitment": {
+        "part_numbers": [],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": null,
+            "year_to": null,
+            "make": "Honda",
+            "model": "GX340",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "Honda GX340"
+        ],
+        "raw_compat_rows": 1,
+        "source": "ebay_listing+title",
+        "confidence": "medium",
+        "ebay_item_id": "920132414776",
+        "type": "Turntable Plate",
+        "brand": "Unbranded",
+        "ebay_category": "Home & Garden:Kitchen, Dining & Bar:Small Kitchen Appliances:Microwave Parts"
+      },
+      "vehicle_count_raw": 1,
+      "ebay_item_id": "920132414776",
+      "ebay_type": "Turntable Plate",
+      "ebay_brand": "Unbranded",
+      "ebay_category": "Home & Garden:Kitchen, Dining & Bar:Small Kitchen Appliances:Microwave Parts",
+      "images": [
+        "../assets/pdp-gallery/AN7GJ7UMZMRWNOR2GWRAJSVE/02.webp",
+        "../assets/pdp-gallery/AN7GJ7UMZMRWNOR2GWRAJSVE/03.webp",
+        "../assets/pdp-gallery/AN7GJ7UMZMRWNOR2GWRAJSVE/04.webp",
+        "../assets/pdp-gallery/AN7GJ7UMZMRWNOR2GWRAJSVE/05.webp",
+        "../assets/pdp-gallery/AN7GJ7UMZMRWNOR2GWRAJSVE/06.webp",
+        "../assets/pdp-gallery/AN7GJ7UMZMRWNOR2GWRAJSVE/07.webp"
+      ],
+      "stock": 1,
+      "part_numbers": [],
+      "interchange": [],
+      "vehicles": [
+        "Honda GX340"
+      ]
+    },
+    {
       "id": "GKKNUBWJMLXJFED53NWYYBHQ",
       "name": "Honeywell S8600H Ignition Control Module Furnace 100% Shutoff 90 SEC Used",
       "price": 89.99,
@@ -113189,47 +113178,6 @@
       "interchange": []
     },
     {
-      "id": "AN7GJ7UMZMRWNOR2GWRAJSVE",
-      "name": "Microwave Glass Plate + Roller Ring Set 9.5in OD Used Pull",
-      "price": 14.99,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/156cda81f2565602bc6807fedbb920674f9cffd7/original.jpeg",
-      "url": "https://square.link/u/WnCpJG7u",
-      "category": "other",
-      "checkout": true,
-      "variation_id": "2RLAYEDPTZZQ6B2MIFV27W6B",
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "medium",
-      "fitment": {
-        "part_numbers": [],
-        "interchange": [],
-        "vehicles": [],
-        "vehicle_labels": [],
-        "raw_compat_rows": 0,
-        "source": "ebay_listing",
-        "confidence": "medium",
-        "ebay_item_id": "398314526197",
-        "type": "Turntable Plate",
-        "brand": "Unbranded",
-        "ebay_category": "Home & Garden:Kitchen, Dining & Bar:Small Kitchen Appliances:Microwave Parts"
-      },
-      "vehicle_count_raw": 0,
-      "ebay_item_id": "398314526197",
-      "ebay_type": "Turntable Plate",
-      "ebay_brand": "Unbranded",
-      "ebay_category": "Home & Garden:Kitchen, Dining & Bar:Small Kitchen Appliances:Microwave Parts",
-      "images": [
-        "../assets/pdp-gallery/AN7GJ7UMZMRWNOR2GWRAJSVE/02.webp",
-        "../assets/pdp-gallery/AN7GJ7UMZMRWNOR2GWRAJSVE/03.webp",
-        "../assets/pdp-gallery/AN7GJ7UMZMRWNOR2GWRAJSVE/04.webp",
-        "../assets/pdp-gallery/AN7GJ7UMZMRWNOR2GWRAJSVE/05.webp",
-        "../assets/pdp-gallery/AN7GJ7UMZMRWNOR2GWRAJSVE/06.webp"
-      ],
-      "stock": 1,
-      "part_numbers": [],
-      "interchange": [],
-      "vehicles": []
-    },
-    {
       "id": "WSUV62NXQH4HGFQRO5STTT62",
       "name": "Monroe 901951 Strut-Mate Rear Strut Mount Kit Cavalier Ciera Skylark Grand Am",
       "price": 24.99,
@@ -121608,7 +121556,6 @@
       "category": "other",
       "checkout": true,
       "variation_id": "EMAUXN7OMZROIGV77FWNKH2L",
-      "stock": 1,
       "part_numbers": [
         "270-2523"
       ],
@@ -121624,11 +121571,6 @@
         "1988\u20131997 Oldsmobile Cutlass Supreme",
         "1988\u20131994 Pontiac Grand Prix"
       ],
-      "vehicle_count_raw": 299,
-      "ebay_item_id": "920132329560",
-      "ebay_type": "Engine Torque Strut Motor Mount",
-      "ebay_brand": "Sealed Power",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Engine Mounts",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -121727,11 +121669,17 @@
         "brand": "Sealed Power",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Engine Mounts"
       },
+      "vehicle_count_raw": 299,
+      "ebay_item_id": "920132329560",
+      "ebay_type": "Engine Torque Strut Motor Mount",
+      "ebay_brand": "Sealed Power",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Engine Mounts",
       "images": [
         "../assets/pdp-gallery/5ISTDZEYUVAXLDFHNBD3MRJG/02.webp",
         "../assets/pdp-gallery/5ISTDZEYUVAXLDFHNBD3MRJG/03.webp",
         "../assets/pdp-gallery/5ISTDZEYUVAXLDFHNBD3MRJG/04.webp"
-      ]
+      ],
+      "stock": 1
     },
     {
       "id": "O6JHBMNMFRGN5X3WLTBEJYCN",
@@ -136885,5 +136833,5 @@
       "vehicles": []
     }
   ],
-  "fitment_built": "2026-11-11T23:03:37Z"
+  "fitment_built": "2026-11-12T00:03:36Z"
 }
