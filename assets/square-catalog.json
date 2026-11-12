@@ -1,7 +1,7 @@
 {
-  "updated": "2026-11-12T03:03:20Z",
+  "updated": "2026-11-12T08:03:41Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 937,
+  "count": 936,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -1757,7 +1757,8 @@
       "images": [
         "../assets/pdp-gallery/SCZQEUWMBB4U5WK65UMMW5UP/02.webp",
         "../assets/pdp-gallery/SCZQEUWMBB4U5WK65UMMW5UP/03.webp"
-      ]
+      ],
+      "stock": 1
     },
     {
       "id": "WWLZDHUOEAI4S5LWSYE23P3E",
@@ -1796,7 +1797,7 @@
         "../assets/pdp-gallery/WWLZDHUOEAI4S5LWSYE23P3E/06.webp",
         "../assets/pdp-gallery/WWLZDHUOEAI4S5LWSYE23P3E/07.webp"
       ],
-      "stock": 5,
+      "stock": 4,
       "part_numbers": [],
       "interchange": [],
       "vehicles": []
@@ -23113,7 +23114,8 @@
       "images": [
         "../assets/pdp-gallery/OIEKBY47T4B7SOUC5WDL34PA/02.webp",
         "../assets/pdp-gallery/OIEKBY47T4B7SOUC5WDL34PA/03.webp"
-      ]
+      ],
+      "stock": 1
     },
     {
       "id": "MVORQ6SQ7RP5JWOPX7ULXKUU",
@@ -47002,135 +47004,6 @@
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Filters",
       "images": [
         "../assets/pdp-gallery/WGJ3QGUAXMEZMCOP65SSRVNI/02.webp"
-      ],
-      "stock": 1
-    },
-    {
-      "id": "JTJFVAEKFBFL4WGPHP43R27Z",
-      "name": "WIX 51896 Transmission Filter NOS 03-17 Accord 2.0 2.4 3.5",
-      "price": 14.99,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/4ea40875536e7e0feab3e47784b774a0cbd20844/original.jpeg",
-      "url": "https://square.link/u/mFDwa7My",
-      "category": "filters",
-      "checkout": true,
-      "variation_id": "HFLC2V2DOT2KHWXDFE5LNQKE",
-      "part_numbers": [
-        "51896",
-        "WIX 58896"
-      ],
-      "interchange": [
-        "ATP B-64",
-        "FRAM FT1057B",
-        "ACDelco TF234",
-        "GM 8634223"
-      ],
-      "vehicles": [
-        "1981 Buick Century",
-        "1981\u20131989 Buick Electra",
-        "1981\u20131983 Buick Estate Wagon",
-        "1981\u20131990 Buick LeSabre",
-        "1981\u20131982 Buick Regal",
-        "2003\u20132017 Honda Accord"
-      ],
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "high",
-      "fitment": {
-        "part_numbers": [
-          "51896",
-          "WIX 58896"
-        ],
-        "interchange": [
-          "ATP B-64",
-          "FRAM FT1057B",
-          "ACDelco TF234",
-          "GM 8634223"
-        ],
-        "vehicles": [
-          {
-            "year_from": 1981,
-            "year_to": 1981,
-            "make": "Buick",
-            "model": "Century",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1981,
-            "year_to": 1989,
-            "make": "Buick",
-            "model": "Electra",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1981,
-            "year_to": 1983,
-            "make": "Buick",
-            "model": "Estate Wagon",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1981,
-            "year_to": 1990,
-            "make": "Buick",
-            "model": "LeSabre",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1981,
-            "year_to": 1982,
-            "make": "Buick",
-            "model": "Regal",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 2003,
-            "year_to": 2017,
-            "make": "Honda",
-            "model": "Accord",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          }
-        ],
-        "vehicle_labels": [
-          "1981 Buick Century",
-          "1981\u20131989 Buick Electra",
-          "1981\u20131983 Buick Estate Wagon",
-          "1981\u20131990 Buick LeSabre",
-          "1981\u20131982 Buick Regal",
-          "2003\u20132017 Honda Accord"
-        ],
-        "raw_compat_rows": 120,
-        "source": "ebay_listing",
-        "confidence": "high",
-        "ebay_item_id": "398321569359",
-        "type": "Transmission Filter",
-        "brand": "WIX",
-        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:Transmission Filters"
-      },
-      "vehicle_count_raw": 120,
-      "ebay_item_id": "398321569359",
-      "ebay_type": "Transmission Filter",
-      "ebay_brand": "WIX",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:Transmission Filters",
-      "images": [
-        "../assets/pdp-gallery/JTJFVAEKFBFL4WGPHP43R27Z/02.webp",
-        "../assets/pdp-gallery/JTJFVAEKFBFL4WGPHP43R27Z/03.webp"
       ],
       "stock": 1
     },
@@ -75686,7 +75559,7 @@
         "../assets/pdp-gallery/DJUWJMZ62QDZINW5BBUU7MB7/04.webp",
         "../assets/pdp-gallery/DJUWJMZ62QDZINW5BBUU7MB7/05.webp"
       ],
-      "stock": 2
+      "stock": 1
     },
     {
       "id": "NUS53X4XT3Z3LFKFKJV63WT4",
@@ -90940,7 +90813,7 @@
         "../assets/pdp-gallery/RFDXGDU52BJY763ZLDAL7STH/02.webp",
         "../assets/pdp-gallery/RFDXGDU52BJY763ZLDAL7STH/03.webp"
       ],
-      "stock": 10,
+      "stock": 1,
       "vehicles": []
     },
     {
@@ -112410,7 +112283,7 @@
       "images": [
         "../assets/pdp-gallery/HTGYQ5UPG6YGNTCTFHPGX3RB/02.webp"
       ],
-      "stock": 7,
+      "stock": 6,
       "part_numbers": [],
       "interchange": [],
       "vehicles": []
@@ -114328,7 +114201,7 @@
         "../assets/pdp-gallery/FPMNHUMHBNJO6KDO2ZKKXCOE/03.webp",
         "../assets/pdp-gallery/FPMNHUMHBNJO6KDO2ZKKXCOE/04.webp"
       ],
-      "stock": 2
+      "stock": 1
     },
     {
       "id": "SPWOVY3GC57GR6OYYFEJF6NK",
@@ -135354,7 +135227,7 @@
         "../assets/pdp-gallery/MNMOQDIY5TFLEOHM3R5TXV7V/02.webp",
         "../assets/pdp-gallery/MNMOQDIY5TFLEOHM3R5TXV7V/03.webp"
       ],
-      "stock": 7,
+      "stock": 1,
       "interchange": []
     },
     {
@@ -136831,5 +136704,5 @@
       "vehicles": []
     }
   ],
-  "fitment_built": "2026-11-12T03:03:20Z"
+  "fitment_built": "2026-11-12T08:03:41Z"
 }
