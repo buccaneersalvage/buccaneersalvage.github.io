@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-12T01:03:36Z",
+  "updated": "2026-11-12T02:03:15Z",
   "store": "https://buccaneersalvage.square.site/",
   "count": 937,
   "items": [
@@ -1757,8 +1757,7 @@
       "images": [
         "../assets/pdp-gallery/SCZQEUWMBB4U5WK65UMMW5UP/02.webp",
         "../assets/pdp-gallery/SCZQEUWMBB4U5WK65UMMW5UP/03.webp"
-      ],
-      "stock": 1
+      ]
     },
     {
       "id": "WWLZDHUOEAI4S5LWSYE23P3E",
@@ -1797,7 +1796,7 @@
         "../assets/pdp-gallery/WWLZDHUOEAI4S5LWSYE23P3E/06.webp",
         "../assets/pdp-gallery/WWLZDHUOEAI4S5LWSYE23P3E/07.webp"
       ],
-      "stock": 4,
+      "stock": 5,
       "part_numbers": [],
       "interchange": [],
       "vehicles": []
@@ -23114,8 +23113,7 @@
       "images": [
         "../assets/pdp-gallery/OIEKBY47T4B7SOUC5WDL34PA/02.webp",
         "../assets/pdp-gallery/OIEKBY47T4B7SOUC5WDL34PA/03.webp"
-      ],
-      "stock": 1
+      ]
     },
     {
       "id": "MVORQ6SQ7RP5JWOPX7ULXKUU",
@@ -29046,7 +29044,6 @@
       "ebay_type": "Disc Brake Rotor",
       "ebay_brand": "Wagner",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Disc Rotors",
-      "stock": 1,
       "images": [
         "../assets/pdp-gallery/L65F3756PSQ2AZ4DLLLZESSB/02.webp",
         "../assets/pdp-gallery/L65F3756PSQ2AZ4DLLLZESSB/03.webp",
@@ -29054,7 +29051,8 @@
         "../assets/pdp-gallery/L65F3756PSQ2AZ4DLLLZESSB/05.webp",
         "../assets/pdp-gallery/L65F3756PSQ2AZ4DLLLZESSB/06.webp",
         "../assets/pdp-gallery/L65F3756PSQ2AZ4DLLLZESSB/07.webp"
-      ]
+      ],
+      "stock": 1
     },
     {
       "id": "UD6AH2CC4HDMSJS6FE7TTMGV",
@@ -75688,7 +75686,7 @@
         "../assets/pdp-gallery/DJUWJMZ62QDZINW5BBUU7MB7/04.webp",
         "../assets/pdp-gallery/DJUWJMZ62QDZINW5BBUU7MB7/05.webp"
       ],
-      "stock": 1
+      "stock": 2
     },
     {
       "id": "NUS53X4XT3Z3LFKFKJV63WT4",
@@ -90942,7 +90940,7 @@
         "../assets/pdp-gallery/RFDXGDU52BJY763ZLDAL7STH/02.webp",
         "../assets/pdp-gallery/RFDXGDU52BJY763ZLDAL7STH/03.webp"
       ],
-      "stock": 1,
+      "stock": 10,
       "vehicles": []
     },
     {
@@ -104213,6 +104211,9 @@
       "category": "other",
       "checkout": true,
       "variation_id": "2RLAYEDPTZZQ6B2MIFV27W6B",
+      "vehicles": [
+        "Honda GX340"
+      ],
       "fitment_source": "ebay_listing",
       "fitment_confidence": "medium",
       "fitment": {
@@ -104256,10 +104257,7 @@
       ],
       "stock": 1,
       "part_numbers": [],
-      "interchange": [],
-      "vehicles": [
-        "Honda GX340"
-      ]
+      "interchange": []
     },
     {
       "id": "GKKNUBWJMLXJFED53NWYYBHQ",
@@ -112412,7 +112410,7 @@
       "images": [
         "../assets/pdp-gallery/HTGYQ5UPG6YGNTCTFHPGX3RB/02.webp"
       ],
-      "stock": 6,
+      "stock": 7,
       "part_numbers": [],
       "interchange": [],
       "vehicles": []
@@ -114330,7 +114328,7 @@
         "../assets/pdp-gallery/FPMNHUMHBNJO6KDO2ZKKXCOE/03.webp",
         "../assets/pdp-gallery/FPMNHUMHBNJO6KDO2ZKKXCOE/04.webp"
       ],
-      "stock": 1
+      "stock": 2
     },
     {
       "id": "SPWOVY3GC57GR6OYYFEJF6NK",
@@ -135356,7 +135354,7 @@
         "../assets/pdp-gallery/MNMOQDIY5TFLEOHM3R5TXV7V/02.webp",
         "../assets/pdp-gallery/MNMOQDIY5TFLEOHM3R5TXV7V/03.webp"
       ],
-      "stock": 1,
+      "stock": 7,
       "interchange": []
     },
     {
@@ -136833,5 +136831,5 @@
       "vehicles": []
     }
   ],
-  "fitment_built": "2026-11-12T01:03:36Z"
+  "fitment_built": "2026-11-12T02:03:15Z"
 }
