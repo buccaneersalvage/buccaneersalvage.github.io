@@ -1,7 +1,7 @@
 {
-  "updated": "2026-11-12T17:03:35Z",
+  "updated": "2026-11-13T08:06:22Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 935,
+  "count": 932,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -1757,7 +1757,8 @@
       "images": [
         "../assets/pdp-gallery/SCZQEUWMBB4U5WK65UMMW5UP/02.webp",
         "../assets/pdp-gallery/SCZQEUWMBB4U5WK65UMMW5UP/03.webp"
-      ]
+      ],
+      "stock": 1
     },
     {
       "id": "WWLZDHUOEAI4S5LWSYE23P3E",
@@ -1796,7 +1797,7 @@
         "../assets/pdp-gallery/WWLZDHUOEAI4S5LWSYE23P3E/06.webp",
         "../assets/pdp-gallery/WWLZDHUOEAI4S5LWSYE23P3E/07.webp"
       ],
-      "stock": 5,
+      "stock": 4,
       "part_numbers": [],
       "interchange": [],
       "vehicles": []
@@ -23113,7 +23114,8 @@
       "images": [
         "../assets/pdp-gallery/OIEKBY47T4B7SOUC5WDL34PA/02.webp",
         "../assets/pdp-gallery/OIEKBY47T4B7SOUC5WDL34PA/03.webp"
-      ]
+      ],
+      "stock": 1
     },
     {
       "id": "MVORQ6SQ7RP5JWOPX7ULXKUU",
@@ -25656,91 +25658,6 @@
       "images": [
         "../assets/pdp-gallery/QQ4UASMFRAGBOQ3EF5OZGK3D/02.webp",
         "../assets/pdp-gallery/QQ4UASMFRAGBOQ3EF5OZGK3D/03.webp"
-      ],
-      "stock": 1
-    },
-    {
-      "id": "QR74K5ZZIOULY7Z4FWWVBWQX",
-      "name": "Carlson H7310 Drum Brake Spring Kit Ford Escape Mazda Tribute 01-07 New",
-      "price": 18.99,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/bec8db8724f45d2e08d7a4dac75796ef9a62c79a/original.jpeg",
-      "url": "https://square.link/u/N7TKa8OX",
-      "category": "brake",
-      "checkout": true,
-      "variation_id": "M6LTI3PKGZDWBR7X6EALVRLD",
-      "part_numbers": [
-        "H7310"
-      ],
-      "interchange": [
-        "118.65006"
-      ],
-      "vehicles": [
-        "2001\u20132007 Ford Escape",
-        "2001\u20132006 Mazda Tribute",
-        "2005\u20132007 Mercury Mariner"
-      ],
-      "fitment_source": "ebay_listing+carlson_specs",
-      "fitment_confidence": "high",
-      "fitment": {
-        "part_numbers": [
-          "H7310"
-        ],
-        "interchange": [
-          "118.65006"
-        ],
-        "vehicles": [
-          {
-            "year_from": 2001,
-            "year_to": 2007,
-            "make": "Ford",
-            "model": "Escape",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 2001,
-            "year_to": 2006,
-            "make": "Mazda",
-            "model": "Tribute",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 2005,
-            "year_to": 2007,
-            "make": "Mercury",
-            "model": "Mariner",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          }
-        ],
-        "vehicle_labels": [
-          "2001\u20132007 Ford Escape",
-          "2001\u20132006 Mazda Tribute",
-          "2005\u20132007 Mercury Mariner"
-        ],
-        "raw_compat_rows": 73,
-        "source": "ebay_listing+carlson_specs",
-        "confidence": "high",
-        "ebay_item_id": "398095724318",
-        "type": "Drum Brake Spring",
-        "brand": "Carlson",
-        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware"
-      },
-      "vehicle_count_raw": 73,
-      "ebay_item_id": "398095724318",
-      "ebay_type": "Drum Brake Spring",
-      "ebay_brand": "Carlson",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware",
-      "images": [
-        "../assets/pdp-gallery/QR74K5ZZIOULY7Z4FWWVBWQX/02.webp",
-        "../assets/pdp-gallery/QR74K5ZZIOULY7Z4FWWVBWQX/03.webp"
       ],
       "stock": 1
     },
@@ -31915,117 +31832,6 @@
       ],
       "stock": 1,
       "interchange": []
-    },
-    {
-      "id": "HXJSCSSDTXOLLNIANNNCHETZ",
-      "name": "Bosch 3500 Premium Oil Filter Ford Mustang F150 Bronco NOS",
-      "price": 11.99,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/37a9b1b4fd48a220ca1d2775a309c2deab61087b/original.jpeg",
-      "url": "https://square.link/u/metp7ndt",
-      "category": "filters",
-      "checkout": true,
-      "variation_id": "RS5GFN2KI45DNL5534QVI2H5",
-      "part_numbers": [
-        "3500",
-        "51515 PH8A"
-      ],
-      "interchange": [
-        "WIX51515 PH8A L30001"
-      ],
-      "vehicles": [
-        "1968\u20131996 Ford Bronco",
-        "1991\u20132001 Ford Explorer",
-        "1975\u20131996 Ford F-150",
-        "1968\u20131995 Ford Mustang",
-        "1990\u20132000 Ford Ranger"
-      ],
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "high",
-      "fitment": {
-        "part_numbers": [
-          "3500",
-          "51515 PH8A"
-        ],
-        "interchange": [
-          "WIX51515 PH8A L30001"
-        ],
-        "vehicles": [
-          {
-            "year_from": 1968,
-            "year_to": 1996,
-            "make": "Ford",
-            "model": "Bronco",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1991,
-            "year_to": 2001,
-            "make": "Ford",
-            "model": "Explorer",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1975,
-            "year_to": 1996,
-            "make": "Ford",
-            "model": "F-150",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1968,
-            "year_to": 1995,
-            "make": "Ford",
-            "model": "Mustang",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1990,
-            "year_to": 2000,
-            "make": "Ford",
-            "model": "Ranger",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          }
-        ],
-        "vehicle_labels": [
-          "1968\u20131996 Ford Bronco",
-          "1991\u20132001 Ford Explorer",
-          "1975\u20131996 Ford F-150",
-          "1968\u20131995 Ford Mustang",
-          "1990\u20132000 Ford Ranger"
-        ],
-        "raw_compat_rows": 1128,
-        "source": "ebay_listing",
-        "confidence": "high",
-        "ebay_item_id": "398411825309",
-        "type": "Oil Filter",
-        "brand": "Bosch",
-        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Filters"
-      },
-      "vehicle_count_raw": 1128,
-      "ebay_item_id": "398411825309",
-      "ebay_type": "Oil Filter",
-      "ebay_brand": "Bosch",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Filters",
-      "images": [
-        "../assets/pdp-gallery/HXJSCSSDTXOLLNIANNNCHETZ/02.webp",
-        "../assets/pdp-gallery/HXJSCSSDTXOLLNIANNNCHETZ/03.webp"
-      ],
-      "stock": 1
     },
     {
       "id": "TG6FY434URCRAB3YSQRQBOM4",
@@ -75557,7 +75363,7 @@
         "../assets/pdp-gallery/DJUWJMZ62QDZINW5BBUU7MB7/04.webp",
         "../assets/pdp-gallery/DJUWJMZ62QDZINW5BBUU7MB7/05.webp"
       ],
-      "stock": 2
+      "stock": 1
     },
     {
       "id": "NUS53X4XT3Z3LFKFKJV63WT4",
@@ -85559,48 +85365,6 @@
       "interchange": []
     },
     {
-      "id": "M7FOGX33AFF7DT7B3ILZHHBX",
-      "name": "Calterm 08546 Universal Socket Single Contact 3/4 Inch NOS",
-      "price": 12.99,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/a445ad86cc828bf890242acca2759c982550973b/original.jpeg",
-      "url": "https://square.link/u/syooI6ca",
-      "category": "other",
-      "checkout": true,
-      "variation_id": "YFNB52BL6JIXQOM2LT7VAFKS",
-      "part_numbers": [
-        "08546"
-      ],
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "medium",
-      "fitment": {
-        "part_numbers": [
-          "08546"
-        ],
-        "interchange": [],
-        "vehicles": [],
-        "vehicle_labels": [],
-        "raw_compat_rows": 0,
-        "source": "ebay_listing",
-        "confidence": "medium",
-        "ebay_item_id": "398404172623",
-        "type": "Lamp Socket",
-        "brand": "Calterm",
-        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Towing Parts & Accessories:Wiring, Harnesses & Connectors"
-      },
-      "vehicle_count_raw": 0,
-      "ebay_item_id": "398404172623",
-      "ebay_type": "Lamp Socket",
-      "ebay_brand": "Calterm",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Towing Parts & Accessories:Wiring, Harnesses & Connectors",
-      "images": [
-        "../assets/pdp-gallery/M7FOGX33AFF7DT7B3ILZHHBX/02.webp",
-        "../assets/pdp-gallery/M7FOGX33AFF7DT7B3ILZHHBX/03.webp"
-      ],
-      "stock": 1,
-      "interchange": [],
-      "vehicles": []
-    },
-    {
       "id": "QJGXH54UD7LIET5PBC5YUWTM",
       "name": "Calterm 08552 AMC Chrysler Ford Socket Assembly NOS",
       "price": 9.99,
@@ -90581,7 +90345,7 @@
         "../assets/pdp-gallery/RFDXGDU52BJY763ZLDAL7STH/02.webp",
         "../assets/pdp-gallery/RFDXGDU52BJY763ZLDAL7STH/03.webp"
       ],
-      "stock": 10,
+      "stock": 1,
       "vehicles": []
     },
     {
@@ -112051,7 +111815,7 @@
       "images": [
         "../assets/pdp-gallery/HTGYQ5UPG6YGNTCTFHPGX3RB/02.webp"
       ],
-      "stock": 7,
+      "stock": 6,
       "part_numbers": [],
       "interchange": [],
       "vehicles": []
@@ -113969,7 +113733,7 @@
         "../assets/pdp-gallery/FPMNHUMHBNJO6KDO2ZKKXCOE/03.webp",
         "../assets/pdp-gallery/FPMNHUMHBNJO6KDO2ZKKXCOE/04.webp"
       ],
-      "stock": 2
+      "stock": 1
     },
     {
       "id": "SPWOVY3GC57GR6OYYFEJF6NK",
@@ -134995,7 +134759,7 @@
         "../assets/pdp-gallery/MNMOQDIY5TFLEOHM3R5TXV7V/02.webp",
         "../assets/pdp-gallery/MNMOQDIY5TFLEOHM3R5TXV7V/03.webp"
       ],
-      "stock": 7,
+      "stock": 1,
       "interchange": []
     },
     {
@@ -136472,5 +136236,5 @@
       "vehicles": []
     }
   ],
-  "fitment_built": "2026-11-12T17:03:35Z"
+  "fitment_built": "2026-11-13T08:06:22Z"
 }
