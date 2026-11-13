@@ -1,7 +1,7 @@
 {
-  "updated": "2026-11-13T18:04:00Z",
+  "updated": "2026-11-13T23:04:05Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 931,
+  "count": 932,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -50721,6 +50721,334 @@
       "interchange": []
     },
     {
+      "id": "S5M3KUAOFMJH42V44TRAZYIZ",
+      "name": "1983-1996 KEM KEM-257 Distributor Rotor Ford Bronco F-250 F-150 E-350 Econoline",
+      "price": 12.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/80b4c70a1f80b57c24c3e72e997e96ff197e64ab/original.jpeg",
+      "url": "https://square.link/u/RJGneRjh",
+      "category": "ignition",
+      "checkout": true,
+      "variation_id": "X3KMQ4FTJXWIF4EMSSESONDY",
+      "stock": 1,
+      "part_numbers": [
+        "KEM-257"
+      ],
+      "interchange": [
+        "Standard FD-312"
+      ],
+      "vehicles": [
+        "1984\u20131996 Ford Bronco",
+        "1984\u20131985 Ford Bronco II",
+        "1983 Ford E-100 Econoline",
+        "1983 Ford E-100 Econoline Club Wagon",
+        "1983\u20131989 Ford E-150 Econoline",
+        "1983\u20131989 Ford E-150 Econoline Club Wagon",
+        "1983\u20131989 Ford E-250 Econoline",
+        "1983\u20131989 Ford E-250 Econoline Club Wagon",
+        "1983\u20131989 Ford E-350 Econoline",
+        "1983\u20131989 Ford E-350 Econoline Club Wagon",
+        "1984\u20131989 Ford F-150",
+        "1984\u20131989 Ford F-250",
+        "1984\u20131989 Ford F-350",
+        "1989 Ford F-53 Motorhome Chassis",
+        "1988 Ford F-Super Duty",
+        "1984 Ford LTD",
+        "1984 Ford Mustang",
+        "1983\u20131985 Ford Ranger",
+        "1984 Ford Thunderbird",
+        "1984 Lincoln Continental",
+        "1984 Lincoln Town Car",
+        "1984 Mercury Cougar",
+        "1984 Mercury Grand Marquis"
+      ],
+      "vehicle_count_raw": 808,
+      "ebay_item_id": "920140520120",
+      "ebay_type": "Distributor Rotor",
+      "ebay_brand": "KEM",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "KEM-257"
+        ],
+        "interchange": [
+          "Standard FD-312"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1984,
+            "year_to": 1996,
+            "make": "Ford",
+            "model": "Bronco",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 1985,
+            "make": "Ford",
+            "model": "Bronco II",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1983,
+            "year_to": 1983,
+            "make": "Ford",
+            "model": "E-100 Econoline",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1983,
+            "year_to": 1983,
+            "make": "Ford",
+            "model": "E-100 Econoline Club Wagon",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1983,
+            "year_to": 1989,
+            "make": "Ford",
+            "model": "E-150 Econoline",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1983,
+            "year_to": 1989,
+            "make": "Ford",
+            "model": "E-150 Econoline Club Wagon",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1983,
+            "year_to": 1989,
+            "make": "Ford",
+            "model": "E-250 Econoline",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1983,
+            "year_to": 1989,
+            "make": "Ford",
+            "model": "E-250 Econoline Club Wagon",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1983,
+            "year_to": 1989,
+            "make": "Ford",
+            "model": "E-350 Econoline",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1983,
+            "year_to": 1989,
+            "make": "Ford",
+            "model": "E-350 Econoline Club Wagon",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 1989,
+            "make": "Ford",
+            "model": "F-150",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 1989,
+            "make": "Ford",
+            "model": "F-250",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 1989,
+            "make": "Ford",
+            "model": "F-350",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1989,
+            "year_to": 1989,
+            "make": "Ford",
+            "model": "F-53 Motorhome Chassis",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1988,
+            "year_to": 1988,
+            "make": "Ford",
+            "model": "F-Super Duty",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 1984,
+            "make": "Ford",
+            "model": "LTD",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 1984,
+            "make": "Ford",
+            "model": "Mustang",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1983,
+            "year_to": 1985,
+            "make": "Ford",
+            "model": "Ranger",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 1984,
+            "make": "Ford",
+            "model": "Thunderbird",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 1984,
+            "make": "Lincoln",
+            "model": "Continental",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 1984,
+            "make": "Lincoln",
+            "model": "Town Car",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 1984,
+            "make": "Mercury",
+            "model": "Cougar",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 1984,
+            "make": "Mercury",
+            "model": "Grand Marquis",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1984\u20131996 Ford Bronco",
+          "1984\u20131985 Ford Bronco II",
+          "1983 Ford E-100 Econoline",
+          "1983 Ford E-100 Econoline Club Wagon",
+          "1983\u20131989 Ford E-150 Econoline",
+          "1983\u20131989 Ford E-150 Econoline Club Wagon",
+          "1983\u20131989 Ford E-250 Econoline",
+          "1983\u20131989 Ford E-250 Econoline Club Wagon",
+          "1983\u20131989 Ford E-350 Econoline",
+          "1983\u20131989 Ford E-350 Econoline Club Wagon",
+          "1984\u20131989 Ford F-150",
+          "1984\u20131989 Ford F-250",
+          "1984\u20131989 Ford F-350",
+          "1989 Ford F-53 Motorhome Chassis",
+          "1988 Ford F-Super Duty",
+          "1984 Ford LTD",
+          "1984 Ford Mustang",
+          "1983\u20131985 Ford Ranger",
+          "1984 Ford Thunderbird",
+          "1984 Lincoln Continental",
+          "1984 Lincoln Town Car",
+          "1984 Mercury Cougar",
+          "1984 Mercury Grand Marquis"
+        ],
+        "raw_compat_rows": 808,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "920140520120",
+        "type": "Distributor Rotor",
+        "brand": "KEM",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors"
+      },
+      "images": [
+        "../assets/pdp-gallery/S5M3KUAOFMJH42V44TRAZYIZ/02.webp",
+        "../assets/pdp-gallery/S5M3KUAOFMJH42V44TRAZYIZ/03.webp",
+        "../assets/pdp-gallery/S5M3KUAOFMJH42V44TRAZYIZ/04.webp",
+        "../assets/pdp-gallery/S5M3KUAOFMJH42V44TRAZYIZ/05.webp",
+        "../assets/pdp-gallery/S5M3KUAOFMJH42V44TRAZYIZ/06.webp"
+      ]
+    },
+    {
       "id": "XUOFII65WVBGFY2CMBX7SGRX",
       "name": "1986-1990 KEM W3030X Distributor Cap Mazda 323 Mercury Tracer 1.6",
       "price": 16.99,
@@ -78393,6 +78721,499 @@
       ],
       "stock": 1,
       "interchange": []
+    },
+    {
+      "id": "JL7HTVAI54YTKGEIMFAQKXUB",
+      "name": "1967-2004 KEM SW95AX Starter Solenoid SS-598 Ford Lincoln Town Car Dodge D150",
+      "price": 24.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/f896f63c35269c057b673c303f118e449a5d8ca0/original.jpeg",
+      "url": "https://square.link/u/4lG1F1Ca",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "QVMNQLW3HEQI46RJCJ4CHKQW",
+      "stock": 1,
+      "part_numbers": [
+        "SW95AX",
+        "Standard SS-598"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1993 Chevrolet Corvette",
+        "1984\u20131989 Dodge D100",
+        "1985\u20131990 Dodge D150",
+        "1985\u20131990 Dodge D250",
+        "1985\u20131990 Dodge D350",
+        "1985\u20131990 Dodge Ramcharger",
+        "1985\u20131989 Dodge W100",
+        "1985\u20131990 Dodge W150",
+        "1985\u20131990 Dodge W250",
+        "1985\u20131990 Dodge W350",
+        "1986\u20131989 Ford Aerostar",
+        "1985 Ford B-150",
+        "1986 Ford B-200 Panel",
+        "1986\u20131991 Ford Bronco",
+        "1985\u20131990 Ford Bronco II",
+        "1985\u20131988 Ford Cougar",
+        "1987\u20131991 Ford Country Squire",
+        "1986\u20131991 Ford E-150 Econoline",
+        "1986\u20131991 Ford E-150 Econoline Club Wagon",
+        "1986\u20131991 Ford E-250 Econoline",
+        "1986\u20131991 Ford E-250 Econoline Club Wagon",
+        "1986\u20131991 Ford E-350 Econoline",
+        "1986\u20131991 Ford E-350 Econoline Club Wagon",
+        "1999\u20132004 Ford F-150",
+        "1986\u20131991 Ford F-200",
+        "2000\u20132001 Ford F-250",
+        "1999\u20132000 Ford F-350",
+        "1999\u20132001 Ford F-53 Motorhome Chassis",
+        "1998\u20131999 Ford Mustang",
+        "1970\u20131974 Ford Ranch Wagon",
+        "2003 Ford Ranger",
+        "1987\u20131990 Ford Tempo",
+        "1985\u20131989 Ford Thunderbird",
+        "1980\u20131983 Lincoln Mark VI",
+        "1967\u20132004 Lincoln Town",
+        "1985\u20131989 Lincoln Town Car",
+        "1987\u20131989 Mercury Grand Marquis"
+      ],
+      "vehicle_count_raw": 1304,
+      "ebay_item_id": "920140522171",
+      "ebay_type": "Starter Switch",
+      "ebay_brand": "KEM",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Interior Parts & Accessories:Switches & Controls",
+      "fitment_source": "ebay_listing+title",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "SW95AX",
+          "Standard SS-598"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1993,
+            "year_to": 1993,
+            "make": "Chevrolet",
+            "model": "Corvette",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 1989,
+            "make": "Dodge",
+            "model": "D100",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1990,
+            "make": "Dodge",
+            "model": "D150",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1990,
+            "make": "Dodge",
+            "model": "D250",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1990,
+            "make": "Dodge",
+            "model": "D350",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1990,
+            "make": "Dodge",
+            "model": "Ramcharger",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1989,
+            "make": "Dodge",
+            "model": "W100",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1990,
+            "make": "Dodge",
+            "model": "W150",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1990,
+            "make": "Dodge",
+            "model": "W250",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1990,
+            "make": "Dodge",
+            "model": "W350",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1986,
+            "year_to": 1989,
+            "make": "Ford",
+            "model": "Aerostar",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1985,
+            "make": "Ford",
+            "model": "B-150",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1986,
+            "year_to": 1986,
+            "make": "Ford",
+            "model": "B-200 Panel",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1986,
+            "year_to": 1991,
+            "make": "Ford",
+            "model": "Bronco",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1990,
+            "make": "Ford",
+            "model": "Bronco II",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1988,
+            "make": "Ford",
+            "model": "Cougar",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1991,
+            "make": "Ford",
+            "model": "Country Squire",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1986,
+            "year_to": 1991,
+            "make": "Ford",
+            "model": "E-150 Econoline",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1986,
+            "year_to": 1991,
+            "make": "Ford",
+            "model": "E-150 Econoline Club Wagon",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1986,
+            "year_to": 1991,
+            "make": "Ford",
+            "model": "E-250 Econoline",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1986,
+            "year_to": 1991,
+            "make": "Ford",
+            "model": "E-250 Econoline Club Wagon",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1986,
+            "year_to": 1991,
+            "make": "Ford",
+            "model": "E-350 Econoline",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1986,
+            "year_to": 1991,
+            "make": "Ford",
+            "model": "E-350 Econoline Club Wagon",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1999,
+            "year_to": 2004,
+            "make": "Ford",
+            "model": "F-150",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1986,
+            "year_to": 1991,
+            "make": "Ford",
+            "model": "F-200",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2000,
+            "year_to": 2001,
+            "make": "Ford",
+            "model": "F-250",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1999,
+            "year_to": 2000,
+            "make": "Ford",
+            "model": "F-350",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1999,
+            "year_to": 2001,
+            "make": "Ford",
+            "model": "F-53 Motorhome Chassis",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1998,
+            "year_to": 1999,
+            "make": "Ford",
+            "model": "Mustang",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1970,
+            "year_to": 1974,
+            "make": "Ford",
+            "model": "Ranch Wagon",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2003,
+            "year_to": 2003,
+            "make": "Ford",
+            "model": "Ranger",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1990,
+            "make": "Ford",
+            "model": "Tempo",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1989,
+            "make": "Ford",
+            "model": "Thunderbird",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1980,
+            "year_to": 1983,
+            "make": "Lincoln",
+            "model": "Mark VI",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1967,
+            "year_to": 2004,
+            "make": "Lincoln",
+            "model": "Town",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1989,
+            "make": "Lincoln",
+            "model": "Town Car",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1989,
+            "make": "Mercury",
+            "model": "Grand Marquis",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1993 Chevrolet Corvette",
+          "1984\u20131989 Dodge D100",
+          "1985\u20131990 Dodge D150",
+          "1985\u20131990 Dodge D250",
+          "1985\u20131990 Dodge D350",
+          "1985\u20131990 Dodge Ramcharger",
+          "1985\u20131989 Dodge W100",
+          "1985\u20131990 Dodge W150",
+          "1985\u20131990 Dodge W250",
+          "1985\u20131990 Dodge W350",
+          "1986\u20131989 Ford Aerostar",
+          "1985 Ford B-150",
+          "1986 Ford B-200 Panel",
+          "1986\u20131991 Ford Bronco",
+          "1985\u20131990 Ford Bronco II",
+          "1985\u20131988 Ford Cougar",
+          "1987\u20131991 Ford Country Squire",
+          "1986\u20131991 Ford E-150 Econoline",
+          "1986\u20131991 Ford E-150 Econoline Club Wagon",
+          "1986\u20131991 Ford E-250 Econoline",
+          "1986\u20131991 Ford E-250 Econoline Club Wagon",
+          "1986\u20131991 Ford E-350 Econoline",
+          "1986\u20131991 Ford E-350 Econoline Club Wagon",
+          "1999\u20132004 Ford F-150",
+          "1986\u20131991 Ford F-200",
+          "2000\u20132001 Ford F-250",
+          "1999\u20132000 Ford F-350",
+          "1999\u20132001 Ford F-53 Motorhome Chassis",
+          "1998\u20131999 Ford Mustang",
+          "1970\u20131974 Ford Ranch Wagon",
+          "2003 Ford Ranger",
+          "1987\u20131990 Ford Tempo",
+          "1985\u20131989 Ford Thunderbird",
+          "1980\u20131983 Lincoln Mark VI",
+          "1967\u20132004 Lincoln Town",
+          "1985\u20131989 Lincoln Town Car",
+          "1987\u20131989 Mercury Grand Marquis"
+        ],
+        "raw_compat_rows": 1304,
+        "source": "ebay_listing+title",
+        "confidence": "high",
+        "ebay_item_id": "920140522171",
+        "type": "Starter Switch",
+        "brand": "KEM",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Interior Parts & Accessories:Switches & Controls"
+      },
+      "images": [
+        "../assets/pdp-gallery/JL7HTVAI54YTKGEIMFAQKXUB/02.webp",
+        "../assets/pdp-gallery/JL7HTVAI54YTKGEIMFAQKXUB/03.webp",
+        "../assets/pdp-gallery/JL7HTVAI54YTKGEIMFAQKXUB/04.webp",
+        "../assets/pdp-gallery/JL7HTVAI54YTKGEIMFAQKXUB/05.webp"
+      ]
     },
     {
       "id": "UDTLE5WAPCMX5YL4CFZMTJ47",
@@ -133732,143 +134553,6 @@
       "stock": 1
     },
     {
-      "id": "47CQIEEEKPLX5BQCWVPWCMVR",
-      "name": "Victor Reinz VS38290 Valve Cover Gasket Set GMC 5.0 Truck 60-69",
-      "price": 24.99,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/e640cf8cca96ddd35c1478fef0ef6aab395db92b/original.jpeg",
-      "url": "https://square.link/u/kFgnZheb",
-      "category": "other",
-      "checkout": true,
-      "variation_id": "R5RDOZYP2XZX3TOS2CXMEKSP",
-      "part_numbers": [
-        "VS38290",
-        "08F-13AA1"
-      ],
-      "interchange": [
-        "Fel-Pro VS 12932 C",
-        "VS 12932 R"
-      ],
-      "vehicles": [
-        "1960\u20131965 GMC 1000 Series",
-        "1960\u20131965 GMC 1500 Series",
-        "1960\u20131965 GMC 2500 Series",
-        "1960\u20131966 GMC 3000",
-        "1960\u20131966 GMC 3500",
-        "1965\u20131967 GMC L3500",
-        "1960\u20131966 GMC Suburban"
-      ],
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "high",
-      "fitment": {
-        "part_numbers": [
-          "VS38290",
-          "08F-13AA1"
-        ],
-        "interchange": [
-          "Fel-Pro VS 12932 C",
-          "VS 12932 R"
-        ],
-        "vehicles": [
-          {
-            "year_from": 1960,
-            "year_to": 1965,
-            "make": "GMC",
-            "model": "1000 Series",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1960,
-            "year_to": 1965,
-            "make": "GMC",
-            "model": "1500 Series",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1960,
-            "year_to": 1965,
-            "make": "GMC",
-            "model": "2500 Series",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1960,
-            "year_to": 1966,
-            "make": "GMC",
-            "model": "3000",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1960,
-            "year_to": 1966,
-            "make": "GMC",
-            "model": "3500",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1965,
-            "year_to": 1967,
-            "make": "GMC",
-            "model": "L3500",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1960,
-            "year_to": 1966,
-            "make": "GMC",
-            "model": "Suburban",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          }
-        ],
-        "vehicle_labels": [
-          "1960\u20131965 GMC 1000 Series",
-          "1960\u20131965 GMC 1500 Series",
-          "1960\u20131965 GMC 2500 Series",
-          "1960\u20131966 GMC 3000",
-          "1960\u20131966 GMC 3500",
-          "1965\u20131967 GMC L3500",
-          "1960\u20131966 GMC Suburban"
-        ],
-        "raw_compat_rows": 60,
-        "source": "ebay_listing",
-        "confidence": "high",
-        "ebay_item_id": "920080198709",
-        "type": "Valve Cover Gasket",
-        "brand": "Victor Reinz",
-        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Gaskets, Seals & Hardware:Gaskets & Seals"
-      },
-      "vehicle_count_raw": 60,
-      "ebay_item_id": "920080198709",
-      "ebay_type": "Valve Cover Gasket",
-      "ebay_brand": "Victor Reinz",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Gaskets, Seals & Hardware:Gaskets & Seals",
-      "images": [
-        "../assets/pdp-gallery/47CQIEEEKPLX5BQCWVPWCMVR/02.webp",
-        "../assets/pdp-gallery/47CQIEEEKPLX5BQCWVPWCMVR/03.webp"
-      ],
-      "stock": 1
-    },
-    {
       "id": "W4MUULZLATJKYPEY6SEKNP25",
       "name": "Vintage 3-9x Variable Rifle Scope Model 102 Red Ring Simmons-Style",
       "price": 24.99,
@@ -135822,5 +136506,5 @@
       "vehicles": []
     }
   ],
-  "fitment_built": "2026-11-13T18:04:00Z"
+  "fitment_built": "2026-11-13T23:04:05Z"
 }
