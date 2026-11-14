@@ -1,7 +1,7 @@
 {
-  "updated": "2026-11-14T00:03:56Z",
+  "updated": "2026-11-14T02:03:26Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 932,
+  "count": 933,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -50729,7 +50729,6 @@
       "category": "ignition",
       "checkout": true,
       "variation_id": "X3KMQ4FTJXWIF4EMSSESONDY",
-      "stock": 1,
       "part_numbers": [
         "KEM-257"
       ],
@@ -50761,11 +50760,6 @@
         "1984 Mercury Cougar",
         "1984 Mercury Grand Marquis"
       ],
-      "vehicle_count_raw": 808,
-      "ebay_item_id": "920140520120",
-      "ebay_type": "Distributor Rotor",
-      "ebay_brand": "KEM",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -51040,12 +51034,216 @@
         "brand": "KEM",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors"
       },
+      "vehicle_count_raw": 808,
+      "ebay_item_id": "920140520120",
+      "ebay_type": "Distributor Rotor",
+      "ebay_brand": "KEM",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors",
       "images": [
         "../assets/pdp-gallery/S5M3KUAOFMJH42V44TRAZYIZ/02.webp",
         "../assets/pdp-gallery/S5M3KUAOFMJH42V44TRAZYIZ/03.webp",
         "../assets/pdp-gallery/S5M3KUAOFMJH42V44TRAZYIZ/04.webp",
         "../assets/pdp-gallery/S5M3KUAOFMJH42V44TRAZYIZ/05.webp",
         "../assets/pdp-gallery/S5M3KUAOFMJH42V44TRAZYIZ/06.webp"
+      ],
+      "stock": 1
+    },
+    {
+      "id": "4XIEIWHFPRDVCPOL7VDQU3MD",
+      "name": "1985-1993 KEM Perfect Value 1285X Distributor Rotor DR-327 2.0 2.5 Astro S-10",
+      "price": 14.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/bf975a72e76b2fe44daf8f71818bc7cc68512552/original.jpeg",
+      "url": "https://square.link/u/L3goMEn5",
+      "category": "ignition",
+      "checkout": true,
+      "variation_id": "SYGSQERFPAXXKXWREU5XY4DT",
+      "stock": 1,
+      "part_numbers": [
+        "1285X"
+      ],
+      "interchange": [
+        "Standard DR-327",
+        "GM 10467546",
+        "Echlin RR240"
+      ],
+      "vehicles": [
+        "1985\u20131986 Buick Century",
+        "1985\u20131986 Buick Skylark",
+        "1985\u20131990 Chevrolet Astro",
+        "1985\u20131986 Chevrolet Camaro",
+        "1985\u20131986 Chevrolet Cavalier",
+        "1985\u20131990 GMC Safari",
+        "1991\u20131993 GMC Sonoma",
+        "1985\u20131986 Pontiac Fiero",
+        "1985\u20131986 Pontiac Firebird",
+        "1985\u20131986 Pontiac Grand Am",
+        "1989\u20131990 Pontiac LeMans",
+        "1986 Pontiac Sunbird"
+      ],
+      "vehicle_count_raw": 99,
+      "ebay_item_id": "920140891113",
+      "ebay_type": "Distributor Rotor",
+      "ebay_brand": "KEM",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "1285X"
+        ],
+        "interchange": [
+          "Standard DR-327",
+          "GM 10467546",
+          "Echlin RR240"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1985,
+            "year_to": 1986,
+            "make": "Buick",
+            "model": "Century",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1986,
+            "make": "Buick",
+            "model": "Skylark",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1990,
+            "make": "Chevrolet",
+            "model": "Astro",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1986,
+            "make": "Chevrolet",
+            "model": "Camaro",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1986,
+            "make": "Chevrolet",
+            "model": "Cavalier",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1990,
+            "make": "GMC",
+            "model": "Safari",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1991,
+            "year_to": 1993,
+            "make": "GMC",
+            "model": "Sonoma",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1986,
+            "make": "Pontiac",
+            "model": "Fiero",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1986,
+            "make": "Pontiac",
+            "model": "Firebird",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1986,
+            "make": "Pontiac",
+            "model": "Grand Am",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1989,
+            "year_to": 1990,
+            "make": "Pontiac",
+            "model": "LeMans",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1986,
+            "year_to": 1986,
+            "make": "Pontiac",
+            "model": "Sunbird",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1985\u20131986 Buick Century",
+          "1985\u20131986 Buick Skylark",
+          "1985\u20131990 Chevrolet Astro",
+          "1985\u20131986 Chevrolet Camaro",
+          "1985\u20131986 Chevrolet Cavalier",
+          "1985\u20131990 GMC Safari",
+          "1991\u20131993 GMC Sonoma",
+          "1985\u20131986 Pontiac Fiero",
+          "1985\u20131986 Pontiac Firebird",
+          "1985\u20131986 Pontiac Grand Am",
+          "1989\u20131990 Pontiac LeMans",
+          "1986 Pontiac Sunbird"
+        ],
+        "raw_compat_rows": 99,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "920140891113",
+        "type": "Distributor Rotor",
+        "brand": "KEM",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors"
+      },
+      "images": [
+        "../assets/pdp-gallery/4XIEIWHFPRDVCPOL7VDQU3MD/02.webp",
+        "../assets/pdp-gallery/4XIEIWHFPRDVCPOL7VDQU3MD/03.webp",
+        "../assets/pdp-gallery/4XIEIWHFPRDVCPOL7VDQU3MD/04.webp"
       ]
     },
     {
@@ -78731,12 +78929,10 @@
       "category": "other",
       "checkout": true,
       "variation_id": "QVMNQLW3HEQI46RJCJ4CHKQW",
-      "stock": 1,
       "part_numbers": [
         "SW95AX",
         "Standard SS-598"
       ],
-      "interchange": [],
       "vehicles": [
         "1993 Chevrolet Corvette",
         "1984\u20131989 Dodge D100",
@@ -78776,11 +78972,6 @@
         "1985\u20131989 Lincoln Town Car",
         "1987\u20131989 Mercury Grand Marquis"
       ],
-      "vehicle_count_raw": 1304,
-      "ebay_item_id": "920140522171",
-      "ebay_type": "Starter Switch",
-      "ebay_brand": "KEM",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Interior Parts & Accessories:Switches & Controls",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -79208,12 +79399,19 @@
         "brand": "KEM",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Interior Parts & Accessories:Switches & Controls"
       },
+      "vehicle_count_raw": 1304,
+      "ebay_item_id": "920140522171",
+      "ebay_type": "Starter Switch",
+      "ebay_brand": "KEM",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Interior Parts & Accessories:Switches & Controls",
       "images": [
         "../assets/pdp-gallery/JL7HTVAI54YTKGEIMFAQKXUB/02.webp",
         "../assets/pdp-gallery/JL7HTVAI54YTKGEIMFAQKXUB/03.webp",
         "../assets/pdp-gallery/JL7HTVAI54YTKGEIMFAQKXUB/04.webp",
         "../assets/pdp-gallery/JL7HTVAI54YTKGEIMFAQKXUB/05.webp"
-      ]
+      ],
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "UDTLE5WAPCMX5YL4CFZMTJ47",
@@ -136506,5 +136704,5 @@
       "vehicles": []
     }
   ],
-  "fitment_built": "2026-11-14T00:03:56Z"
+  "fitment_built": "2026-11-14T02:03:26Z"
 }
