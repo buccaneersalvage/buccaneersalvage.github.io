@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-13T23:04:05Z",
+  "updated": "2026-11-14T00:03:56Z",
   "store": "https://buccaneersalvage.square.site/",
   "count": 932,
   "items": [
@@ -78781,7 +78781,7 @@
       "ebay_type": "Starter Switch",
       "ebay_brand": "KEM",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Interior Parts & Accessories:Switches & Controls",
-      "fitment_source": "ebay_listing+title",
+      "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
@@ -79201,7 +79201,7 @@
           "1987\u20131989 Mercury Grand Marquis"
         ],
         "raw_compat_rows": 1304,
-        "source": "ebay_listing+title",
+        "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "920140522171",
         "type": "Starter Switch",
@@ -136506,5 +136506,5 @@
       "vehicles": []
     }
   ],
-  "fitment_built": "2026-11-13T23:04:05Z"
+  "fitment_built": "2026-11-14T00:03:56Z"
 }
