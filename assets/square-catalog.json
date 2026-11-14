@@ -1,7 +1,7 @@
 {
-  "updated": "2026-11-14T03:03:19Z",
+  "updated": "2026-11-14T04:03:20Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 933,
+  "count": 936,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -51049,6 +51049,487 @@
       "stock": 1
     },
     {
+      "id": "2UJEB2GNPVGS6O7EU34LPENA",
+      "name": "1984-1997 KEM 269 Distributor Rotor Ford Ranger F-150 Jeep Cherokee",
+      "price": 12.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/40588f6601a8bbc16ee9e6cdc641e263d691f714/original.jpeg",
+      "url": "https://square.link/u/fsnSXlnm",
+      "category": "ignition",
+      "checkout": true,
+      "variation_id": "JK4N7L6DI46UURW5KHHWXWUX",
+      "stock": 1,
+      "part_numbers": [
+        "269",
+        "BWD D213, Standard FD-308"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1986\u20131997 Ford Aerostar",
+        "1985\u20131992 Ford Bronco",
+        "1986\u20131990 Ford Bronco II",
+        "1985\u20131988 Ford Cougar",
+        "1984\u20131996 Ford E-150 Econoline",
+        "1984\u20131996 Ford E-150 Econoline Club Wagon",
+        "1984\u20131996 Ford E-250 Econoline",
+        "1984\u20131991 Ford E-250 Econoline Club Wagon",
+        "1984\u20131996 Ford E-350 Econoline",
+        "1984\u20131996 Ford E-350 Econoline Club Wagon",
+        "1987\u20131990 Ford Escort",
+        "1984\u20131997 Ford F-150",
+        "1984\u20131996 Ford F-250",
+        "1984\u20131996 Ford F-350",
+        "1991\u20131994 Ford Ghia",
+        "1985\u20131986 Ford LTD",
+        "1987\u20131990 Ford Mustang",
+        "1990\u20131992 Ford Probe",
+        "1985\u20131996 Ford Ranger",
+        "1986\u20131995 Ford Taurus",
+        "1988\u20131994 Ford Tempo",
+        "1985\u20131988 Ford Thunderbird",
+        "1988\u20131994 Ford Topaz",
+        "1987\u20131996 Jeep Cherokee",
+        "1987\u20131992 Jeep Comanche",
+        "1993\u20131995 Jeep Grand Cherokee",
+        "1987\u20131990 Jeep Wagoneer",
+        "1991\u20131995 Jeep Wrangler",
+        "1988\u20131994 Lincoln Continental",
+        "1984\u20131986 Mercury Capri",
+        "1985\u20131995 Mercury Cougar",
+        "1987 Mercury Lynx",
+        "1985\u20131986 Mercury Marquis",
+        "1986\u20131995 Mercury Sable",
+        "1985\u20131994 Mercury Topaz",
+        "1988\u20131989 Merkur Scorpio"
+      ],
+      "vehicle_count_raw": 1796,
+      "ebay_item_id": "920141194700",
+      "ebay_type": "Distributor Rotor",
+      "ebay_brand": "KEM",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "269",
+          "BWD D213, Standard FD-308"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1986,
+            "year_to": 1997,
+            "make": "Ford",
+            "model": "Aerostar",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1992,
+            "make": "Ford",
+            "model": "Bronco",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1986,
+            "year_to": 1990,
+            "make": "Ford",
+            "model": "Bronco II",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1988,
+            "make": "Ford",
+            "model": "Cougar",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 1996,
+            "make": "Ford",
+            "model": "E-150 Econoline",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 1996,
+            "make": "Ford",
+            "model": "E-150 Econoline Club Wagon",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 1996,
+            "make": "Ford",
+            "model": "E-250 Econoline",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 1991,
+            "make": "Ford",
+            "model": "E-250 Econoline Club Wagon",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 1996,
+            "make": "Ford",
+            "model": "E-350 Econoline",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 1996,
+            "make": "Ford",
+            "model": "E-350 Econoline Club Wagon",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1990,
+            "make": "Ford",
+            "model": "Escort",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 1997,
+            "make": "Ford",
+            "model": "F-150",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 1996,
+            "make": "Ford",
+            "model": "F-250",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 1996,
+            "make": "Ford",
+            "model": "F-350",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1991,
+            "year_to": 1994,
+            "make": "Ford",
+            "model": "Ghia",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1986,
+            "make": "Ford",
+            "model": "LTD",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1990,
+            "make": "Ford",
+            "model": "Mustang",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1990,
+            "year_to": 1992,
+            "make": "Ford",
+            "model": "Probe",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1996,
+            "make": "Ford",
+            "model": "Ranger",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1986,
+            "year_to": 1995,
+            "make": "Ford",
+            "model": "Taurus",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1988,
+            "year_to": 1994,
+            "make": "Ford",
+            "model": "Tempo",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1988,
+            "make": "Ford",
+            "model": "Thunderbird",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1988,
+            "year_to": 1994,
+            "make": "Ford",
+            "model": "Topaz",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1996,
+            "make": "Jeep",
+            "model": "Cherokee",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1992,
+            "make": "Jeep",
+            "model": "Comanche",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1993,
+            "year_to": 1995,
+            "make": "Jeep",
+            "model": "Grand Cherokee",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1990,
+            "make": "Jeep",
+            "model": "Wagoneer",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1991,
+            "year_to": 1995,
+            "make": "Jeep",
+            "model": "Wrangler",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1988,
+            "year_to": 1994,
+            "make": "Lincoln",
+            "model": "Continental",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 1986,
+            "make": "Mercury",
+            "model": "Capri",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1995,
+            "make": "Mercury",
+            "model": "Cougar",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1987,
+            "make": "Mercury",
+            "model": "Lynx",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1986,
+            "make": "Mercury",
+            "model": "Marquis",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1986,
+            "year_to": 1995,
+            "make": "Mercury",
+            "model": "Sable",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1994,
+            "make": "Mercury",
+            "model": "Topaz",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1988,
+            "year_to": 1989,
+            "make": "Merkur",
+            "model": "Scorpio",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1986\u20131997 Ford Aerostar",
+          "1985\u20131992 Ford Bronco",
+          "1986\u20131990 Ford Bronco II",
+          "1985\u20131988 Ford Cougar",
+          "1984\u20131996 Ford E-150 Econoline",
+          "1984\u20131996 Ford E-150 Econoline Club Wagon",
+          "1984\u20131996 Ford E-250 Econoline",
+          "1984\u20131991 Ford E-250 Econoline Club Wagon",
+          "1984\u20131996 Ford E-350 Econoline",
+          "1984\u20131996 Ford E-350 Econoline Club Wagon",
+          "1987\u20131990 Ford Escort",
+          "1984\u20131997 Ford F-150",
+          "1984\u20131996 Ford F-250",
+          "1984\u20131996 Ford F-350",
+          "1991\u20131994 Ford Ghia",
+          "1985\u20131986 Ford LTD",
+          "1987\u20131990 Ford Mustang",
+          "1990\u20131992 Ford Probe",
+          "1985\u20131996 Ford Ranger",
+          "1986\u20131995 Ford Taurus",
+          "1988\u20131994 Ford Tempo",
+          "1985\u20131988 Ford Thunderbird",
+          "1988\u20131994 Ford Topaz",
+          "1987\u20131996 Jeep Cherokee",
+          "1987\u20131992 Jeep Comanche",
+          "1993\u20131995 Jeep Grand Cherokee",
+          "1987\u20131990 Jeep Wagoneer",
+          "1991\u20131995 Jeep Wrangler",
+          "1988\u20131994 Lincoln Continental",
+          "1984\u20131986 Mercury Capri",
+          "1985\u20131995 Mercury Cougar",
+          "1987 Mercury Lynx",
+          "1985\u20131986 Mercury Marquis",
+          "1986\u20131995 Mercury Sable",
+          "1985\u20131994 Mercury Topaz",
+          "1988\u20131989 Merkur Scorpio"
+        ],
+        "raw_compat_rows": 1796,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "920141194700",
+        "type": "Distributor Rotor",
+        "brand": "KEM",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors"
+      },
+      "images": [
+        "../assets/pdp-gallery/2UJEB2GNPVGS6O7EU34LPENA/02.webp",
+        "../assets/pdp-gallery/2UJEB2GNPVGS6O7EU34LPENA/03.webp",
+        "../assets/pdp-gallery/2UJEB2GNPVGS6O7EU34LPENA/04.webp",
+        "../assets/pdp-gallery/2UJEB2GNPVGS6O7EU34LPENA/05.webp"
+      ]
+    },
+    {
       "id": "4XIEIWHFPRDVCPOL7VDQU3MD",
       "name": "1985-1993 KEM Perfect Value 1285X Distributor Rotor DR-327 2.0 2.5 Astro S-10",
       "price": 14.99,
@@ -51057,7 +51538,6 @@
       "category": "ignition",
       "checkout": true,
       "variation_id": "SYGSQERFPAXXKXWREU5XY4DT",
-      "stock": 1,
       "part_numbers": [
         "1285X"
       ],
@@ -51080,11 +51560,6 @@
         "1989\u20131990 Pontiac LeMans",
         "1986 Pontiac Sunbird"
       ],
-      "vehicle_count_raw": 99,
-      "ebay_item_id": "920140891113",
-      "ebay_type": "Distributor Rotor",
-      "ebay_brand": "KEM",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -51240,11 +51715,17 @@
         "brand": "KEM",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors"
       },
+      "vehicle_count_raw": 99,
+      "ebay_item_id": "920140891113",
+      "ebay_type": "Distributor Rotor",
+      "ebay_brand": "KEM",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors",
       "images": [
         "../assets/pdp-gallery/4XIEIWHFPRDVCPOL7VDQU3MD/02.webp",
         "../assets/pdp-gallery/4XIEIWHFPRDVCPOL7VDQU3MD/03.webp",
         "../assets/pdp-gallery/4XIEIWHFPRDVCPOL7VDQU3MD/04.webp"
-      ]
+      ],
+      "stock": 1
     },
     {
       "id": "XUOFII65WVBGFY2CMBX7SGRX",
@@ -51317,6 +51798,223 @@
       ],
       "stock": 1,
       "interchange": []
+    },
+    {
+      "id": "FGDDYDHOS7LQMLYIKYJ4X45O",
+      "name": "1987-1996 KEM W2035X Distributor Rotor Dodge Colt Mitsubishi Galant Scoupe",
+      "price": 12.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/07054263aacf4855a8dae42836bb3fe0b9791063/original.jpeg",
+      "url": "https://square.link/u/p3Bm1bGz",
+      "category": "ignition",
+      "checkout": true,
+      "variation_id": "6IYFYE7OFZONZCNGELWIBHE6",
+      "stock": 1,
+      "part_numbers": [
+        "W2035X",
+        "BWD D657, JR-103, W2035"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1989\u20131990 Dodge 2000 GTX",
+        "1987\u20131991 Dodge Colt",
+        "1990\u20131993 Dodge Ram 50",
+        "1989\u20131990 Eagle Summit",
+        "1989\u20131990 Eagle Vista",
+        "1990\u20131994 Hyundai Excel",
+        "1991\u20131992 Hyundai Scoupe",
+        "1992\u20131994 Hyundai Sonata",
+        "1989\u20131990 Mitsubishi Galant",
+        "1990\u20131996 Mitsubishi Mighty Max",
+        "1989\u20131990 Mitsubishi Mirage",
+        "1990\u20131994 Mitsubishi Precis",
+        "1987\u20131990 Mitsubishi Van",
+        "1987\u20131991 Plymouth Colt"
+      ],
+      "vehicle_count_raw": 212,
+      "ebay_item_id": "920141196823",
+      "ebay_type": "Distributor Rotor",
+      "ebay_brand": "KEM",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "W2035X",
+          "BWD D657, JR-103, W2035"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1989,
+            "year_to": 1990,
+            "make": "Dodge",
+            "model": "2000 GTX",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1991,
+            "make": "Dodge",
+            "model": "Colt",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1990,
+            "year_to": 1993,
+            "make": "Dodge",
+            "model": "Ram 50",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1989,
+            "year_to": 1990,
+            "make": "Eagle",
+            "model": "Summit",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1989,
+            "year_to": 1990,
+            "make": "Eagle",
+            "model": "Vista",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1990,
+            "year_to": 1994,
+            "make": "Hyundai",
+            "model": "Excel",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1991,
+            "year_to": 1992,
+            "make": "Hyundai",
+            "model": "Scoupe",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1992,
+            "year_to": 1994,
+            "make": "Hyundai",
+            "model": "Sonata",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1989,
+            "year_to": 1990,
+            "make": "Mitsubishi",
+            "model": "Galant",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1990,
+            "year_to": 1996,
+            "make": "Mitsubishi",
+            "model": "Mighty Max",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1989,
+            "year_to": 1990,
+            "make": "Mitsubishi",
+            "model": "Mirage",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1990,
+            "year_to": 1994,
+            "make": "Mitsubishi",
+            "model": "Precis",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1990,
+            "make": "Mitsubishi",
+            "model": "Van",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1991,
+            "make": "Plymouth",
+            "model": "Colt",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1989\u20131990 Dodge 2000 GTX",
+          "1987\u20131991 Dodge Colt",
+          "1990\u20131993 Dodge Ram 50",
+          "1989\u20131990 Eagle Summit",
+          "1989\u20131990 Eagle Vista",
+          "1990\u20131994 Hyundai Excel",
+          "1991\u20131992 Hyundai Scoupe",
+          "1992\u20131994 Hyundai Sonata",
+          "1989\u20131990 Mitsubishi Galant",
+          "1990\u20131996 Mitsubishi Mighty Max",
+          "1989\u20131990 Mitsubishi Mirage",
+          "1990\u20131994 Mitsubishi Precis",
+          "1987\u20131990 Mitsubishi Van",
+          "1987\u20131991 Plymouth Colt"
+        ],
+        "raw_compat_rows": 212,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "920141196823",
+        "type": "Distributor Rotor",
+        "brand": "KEM",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors"
+      },
+      "images": [
+        "../assets/pdp-gallery/FGDDYDHOS7LQMLYIKYJ4X45O/02.webp",
+        "../assets/pdp-gallery/FGDDYDHOS7LQMLYIKYJ4X45O/03.webp",
+        "../assets/pdp-gallery/FGDDYDHOS7LQMLYIKYJ4X45O/04.webp",
+        "../assets/pdp-gallery/FGDDYDHOS7LQMLYIKYJ4X45O/05.webp"
+      ]
     },
     {
       "id": "LWJUEZBE26VDGIMHU6K2D64W",
@@ -51533,6 +52231,283 @@
       ],
       "stock": 1,
       "interchange": []
+    },
+    {
+      "id": "U4MFIE3KI5CCW6DN4OWSQWVL",
+      "name": "1994-2008 KEM 1459 Distributor Cap 4.3 Chevrolet Blazer GMC Jimmy Savana 1500",
+      "price": 23.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/8aa7db1b51ab06ece54d51a6de5ff15f1ddb4ccd/original.jpeg",
+      "url": "https://square.link/u/YCYJYRXq",
+      "category": "ignition",
+      "checkout": true,
+      "variation_id": "2CJXX7QEG22NBFCCZWJ3XKZL",
+      "stock": 1,
+      "part_numbers": [
+        "1459",
+        "Standard DR-475, BWD C280, Delphi DC20009"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1995\u20132005 Chevrolet Blazer",
+        "1996\u20131998 Chevrolet C1500",
+        "1996\u20132007 Chevrolet Express 1500",
+        "1996\u20132005 Chevrolet Express 2500",
+        "1996\u20131998 Chevrolet K1500",
+        "1996\u20131999 Chevrolet P30",
+        "1995\u20132004 Chevrolet S10",
+        "1999\u20132007 Chevrolet Silverado 1500",
+        "2007 Chevrolet Silverado 1500 Classic",
+        "1996\u20131998 GMC C1500",
+        "1994\u20132003 GMC Jimmy",
+        "1996\u20131998 GMC K1500",
+        "1996\u20131999 GMC P3500",
+        "1996\u20132008 GMC Savana 1500",
+        "1996\u20132005 GMC Savana 2500",
+        "1999\u20132008 GMC Sierra 1500",
+        "2007 GMC Sierra 1500 Classic",
+        "1995\u20132004 GMC Sonoma",
+        "2000 Isuzu Hombre"
+      ],
+      "vehicle_count_raw": 731,
+      "ebay_item_id": "920141198926",
+      "ebay_type": "Distributor Cap",
+      "ebay_brand": "KEM",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "1459",
+          "Standard DR-475, BWD C280, Delphi DC20009"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1995,
+            "year_to": 2005,
+            "make": "Chevrolet",
+            "model": "Blazer",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1996,
+            "year_to": 1998,
+            "make": "Chevrolet",
+            "model": "C1500",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1996,
+            "year_to": 2007,
+            "make": "Chevrolet",
+            "model": "Express 1500",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1996,
+            "year_to": 2005,
+            "make": "Chevrolet",
+            "model": "Express 2500",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1996,
+            "year_to": 1998,
+            "make": "Chevrolet",
+            "model": "K1500",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1996,
+            "year_to": 1999,
+            "make": "Chevrolet",
+            "model": "P30",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1995,
+            "year_to": 2004,
+            "make": "Chevrolet",
+            "model": "S10",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1999,
+            "year_to": 2007,
+            "make": "Chevrolet",
+            "model": "Silverado 1500",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2007,
+            "year_to": 2007,
+            "make": "Chevrolet",
+            "model": "Silverado 1500 Classic",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1996,
+            "year_to": 1998,
+            "make": "GMC",
+            "model": "C1500",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1994,
+            "year_to": 2003,
+            "make": "GMC",
+            "model": "Jimmy",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1996,
+            "year_to": 1998,
+            "make": "GMC",
+            "model": "K1500",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1996,
+            "year_to": 1999,
+            "make": "GMC",
+            "model": "P3500",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1996,
+            "year_to": 2008,
+            "make": "GMC",
+            "model": "Savana 1500",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1996,
+            "year_to": 2005,
+            "make": "GMC",
+            "model": "Savana 2500",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1999,
+            "year_to": 2008,
+            "make": "GMC",
+            "model": "Sierra 1500",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2007,
+            "year_to": 2007,
+            "make": "GMC",
+            "model": "Sierra 1500 Classic",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1995,
+            "year_to": 2004,
+            "make": "GMC",
+            "model": "Sonoma",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2000,
+            "year_to": 2000,
+            "make": "Isuzu",
+            "model": "Hombre",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1995\u20132005 Chevrolet Blazer",
+          "1996\u20131998 Chevrolet C1500",
+          "1996\u20132007 Chevrolet Express 1500",
+          "1996\u20132005 Chevrolet Express 2500",
+          "1996\u20131998 Chevrolet K1500",
+          "1996\u20131999 Chevrolet P30",
+          "1995\u20132004 Chevrolet S10",
+          "1999\u20132007 Chevrolet Silverado 1500",
+          "2007 Chevrolet Silverado 1500 Classic",
+          "1996\u20131998 GMC C1500",
+          "1994\u20132003 GMC Jimmy",
+          "1996\u20131998 GMC K1500",
+          "1996\u20131999 GMC P3500",
+          "1996\u20132008 GMC Savana 1500",
+          "1996\u20132005 GMC Savana 2500",
+          "1999\u20132008 GMC Sierra 1500",
+          "2007 GMC Sierra 1500 Classic",
+          "1995\u20132004 GMC Sonoma",
+          "2000 Isuzu Hombre"
+        ],
+        "raw_compat_rows": 731,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "920141198926",
+        "type": "Distributor Cap",
+        "brand": "KEM",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps"
+      },
+      "images": [
+        "../assets/pdp-gallery/U4MFIE3KI5CCW6DN4OWSQWVL/02.webp",
+        "../assets/pdp-gallery/U4MFIE3KI5CCW6DN4OWSQWVL/03.webp",
+        "../assets/pdp-gallery/U4MFIE3KI5CCW6DN4OWSQWVL/04.webp",
+        "../assets/pdp-gallery/U4MFIE3KI5CCW6DN4OWSQWVL/05.webp"
+      ]
     },
     {
       "id": "TDECSPKM5Q5LG4MNACR445CN",
@@ -136704,5 +137679,5 @@
       "vehicles": []
     }
   ],
-  "fitment_built": "2026-11-14T03:03:19Z"
+  "fitment_built": "2026-11-14T04:03:20Z"
 }
