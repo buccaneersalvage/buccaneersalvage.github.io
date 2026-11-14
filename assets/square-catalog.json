@@ -1,7 +1,7 @@
 {
-  "updated": "2026-11-14T09:03:11Z",
+  "updated": "2026-11-14T11:03:15Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 940,
+  "count": 941,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -49637,6 +49637,546 @@
       "interchange": []
     },
     {
+      "id": "LHWVQNQLSRSMV6S2TJEZOX3X",
+      "name": "1975-2007 KEM W2037 Distributor Rotor Audi 4000 Coupe Volkswagen Jetta Quantum",
+      "price": 12.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/e27f0555fec54e7f036d4b2746b56db35d5ca019/original.jpeg",
+      "url": "https://square.link/u/dcIBbu15",
+      "category": "ignition",
+      "checkout": true,
+      "variation_id": "DN3BRIAHA5JYX6D6WYPEB2RY",
+      "stock": 1,
+      "part_numbers": [
+        "W2037",
+        "Standard GB-344"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1982\u20131988 Alfa Romeo Spider",
+        "1980\u20131986 Audi 4000",
+        "1985\u20131987 Audi 4000 Quattro",
+        "1978\u20131985 Audi 5000",
+        "1990\u20131991 Audi 90",
+        "1990\u20131992 Audi 90 Quattro",
+        "1981\u20131987 Audi Coupe",
+        "1983\u20131985 Audi Quattro",
+        "1984\u20131985 BMW 318i",
+        "1980\u20131983 BMW 320i",
+        "1979\u20131983 Fiat X-1/9",
+        "1978 Mercedes-Benz 230",
+        "1985\u20131991 Peugeot 505",
+        "1977\u20131979 Porsche 924",
+        "1979\u20131980 Saab 900",
+        "1978\u20131980 Saab 99",
+        "1985\u20131987 Volkswagen Atlantic",
+        "1985\u20131989 Volkswagen Cabriolet",
+        "1985\u20131987 Volkswagen Caribe",
+        "1989\u20132001 Volkswagen Combi",
+        "1988 Volkswagen Corsar",
+        "1995\u20132000 Volkswagen Derby",
+        "1987\u20131991 Volkswagen Fox",
+        "1987 Volkswagen Golf",
+        "1981\u20131998 Volkswagen Jetta",
+        "1988\u20132001 Volkswagen Panel",
+        "1998\u20132004 Volkswagen Pointer",
+        "1999\u20132007 Volkswagen Pointer Truck",
+        "1982\u20131988 Volkswagen Quantum",
+        "1981\u20131984 Volkswagen Rabbit",
+        "1981\u20131984 Volkswagen Rabbit Convertible",
+        "1981\u20131983 Volkswagen Rabbit Pickup",
+        "1981\u20131985 Volkswagen Scirocco",
+        "1991\u20132004 Volkswagen Sedan",
+        "1979\u20131985 Volkswagen Transporter",
+        "2003\u20132004 Volkswagen Van",
+        "1980\u20131985 Volkswagen Vanagon",
+        "1975\u20131980 Volvo 242",
+        "1975\u20131985 Volvo 244",
+        "1975\u20131985 Volvo 245",
+        "1980 Volvo 264"
+      ],
+      "vehicle_count_raw": 477,
+      "ebay_item_id": "920142147684",
+      "ebay_type": "Distributor Rotor",
+      "ebay_brand": "KEM",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "W2037",
+          "Standard GB-344"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1982,
+            "year_to": 1988,
+            "make": "Alfa Romeo",
+            "model": "Spider",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1980,
+            "year_to": 1986,
+            "make": "Audi",
+            "model": "4000",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1987,
+            "make": "Audi",
+            "model": "4000 Quattro",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1978,
+            "year_to": 1985,
+            "make": "Audi",
+            "model": "5000",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1990,
+            "year_to": 1991,
+            "make": "Audi",
+            "model": "90",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1990,
+            "year_to": 1992,
+            "make": "Audi",
+            "model": "90 Quattro",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1981,
+            "year_to": 1987,
+            "make": "Audi",
+            "model": "Coupe",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1983,
+            "year_to": 1985,
+            "make": "Audi",
+            "model": "Quattro",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 1985,
+            "make": "BMW",
+            "model": "318i",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1980,
+            "year_to": 1983,
+            "make": "BMW",
+            "model": "320i",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1979,
+            "year_to": 1983,
+            "make": "Fiat",
+            "model": "X-1/9",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1978,
+            "year_to": 1978,
+            "make": "Mercedes-Benz",
+            "model": "230",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1991,
+            "make": "Peugeot",
+            "model": "505",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1977,
+            "year_to": 1979,
+            "make": "Porsche",
+            "model": "924",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1979,
+            "year_to": 1980,
+            "make": "Saab",
+            "model": "900",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1978,
+            "year_to": 1980,
+            "make": "Saab",
+            "model": "99",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1987,
+            "make": "Volkswagen",
+            "model": "Atlantic",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1989,
+            "make": "Volkswagen",
+            "model": "Cabriolet",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1987,
+            "make": "Volkswagen",
+            "model": "Caribe",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1989,
+            "year_to": 2001,
+            "make": "Volkswagen",
+            "model": "Combi",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1988,
+            "year_to": 1988,
+            "make": "Volkswagen",
+            "model": "Corsar",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1995,
+            "year_to": 2000,
+            "make": "Volkswagen",
+            "model": "Derby",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1991,
+            "make": "Volkswagen",
+            "model": "Fox",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1987,
+            "make": "Volkswagen",
+            "model": "Golf",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1981,
+            "year_to": 1998,
+            "make": "Volkswagen",
+            "model": "Jetta",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1988,
+            "year_to": 2001,
+            "make": "Volkswagen",
+            "model": "Panel",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1998,
+            "year_to": 2004,
+            "make": "Volkswagen",
+            "model": "Pointer",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1999,
+            "year_to": 2007,
+            "make": "Volkswagen",
+            "model": "Pointer Truck",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1982,
+            "year_to": 1988,
+            "make": "Volkswagen",
+            "model": "Quantum",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1981,
+            "year_to": 1984,
+            "make": "Volkswagen",
+            "model": "Rabbit",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1981,
+            "year_to": 1984,
+            "make": "Volkswagen",
+            "model": "Rabbit Convertible",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1981,
+            "year_to": 1983,
+            "make": "Volkswagen",
+            "model": "Rabbit Pickup",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1981,
+            "year_to": 1985,
+            "make": "Volkswagen",
+            "model": "Scirocco",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1991,
+            "year_to": 2004,
+            "make": "Volkswagen",
+            "model": "Sedan",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1979,
+            "year_to": 1985,
+            "make": "Volkswagen",
+            "model": "Transporter",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2003,
+            "year_to": 2004,
+            "make": "Volkswagen",
+            "model": "Van",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1980,
+            "year_to": 1985,
+            "make": "Volkswagen",
+            "model": "Vanagon",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1975,
+            "year_to": 1980,
+            "make": "Volvo",
+            "model": "242",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1975,
+            "year_to": 1985,
+            "make": "Volvo",
+            "model": "244",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1975,
+            "year_to": 1985,
+            "make": "Volvo",
+            "model": "245",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1980,
+            "year_to": 1980,
+            "make": "Volvo",
+            "model": "264",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1982\u20131988 Alfa Romeo Spider",
+          "1980\u20131986 Audi 4000",
+          "1985\u20131987 Audi 4000 Quattro",
+          "1978\u20131985 Audi 5000",
+          "1990\u20131991 Audi 90",
+          "1990\u20131992 Audi 90 Quattro",
+          "1981\u20131987 Audi Coupe",
+          "1983\u20131985 Audi Quattro",
+          "1984\u20131985 BMW 318i",
+          "1980\u20131983 BMW 320i",
+          "1979\u20131983 Fiat X-1/9",
+          "1978 Mercedes-Benz 230",
+          "1985\u20131991 Peugeot 505",
+          "1977\u20131979 Porsche 924",
+          "1979\u20131980 Saab 900",
+          "1978\u20131980 Saab 99",
+          "1985\u20131987 Volkswagen Atlantic",
+          "1985\u20131989 Volkswagen Cabriolet",
+          "1985\u20131987 Volkswagen Caribe",
+          "1989\u20132001 Volkswagen Combi",
+          "1988 Volkswagen Corsar",
+          "1995\u20132000 Volkswagen Derby",
+          "1987\u20131991 Volkswagen Fox",
+          "1987 Volkswagen Golf",
+          "1981\u20131998 Volkswagen Jetta",
+          "1988\u20132001 Volkswagen Panel",
+          "1998\u20132004 Volkswagen Pointer",
+          "1999\u20132007 Volkswagen Pointer Truck",
+          "1982\u20131988 Volkswagen Quantum",
+          "1981\u20131984 Volkswagen Rabbit",
+          "1981\u20131984 Volkswagen Rabbit Convertible",
+          "1981\u20131983 Volkswagen Rabbit Pickup",
+          "1981\u20131985 Volkswagen Scirocco",
+          "1991\u20132004 Volkswagen Sedan",
+          "1979\u20131985 Volkswagen Transporter",
+          "2003\u20132004 Volkswagen Van",
+          "1980\u20131985 Volkswagen Vanagon",
+          "1975\u20131980 Volvo 242",
+          "1975\u20131985 Volvo 244",
+          "1975\u20131985 Volvo 245",
+          "1980 Volvo 264"
+        ],
+        "raw_compat_rows": 477,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "920142147684",
+        "type": "Distributor Rotor",
+        "brand": "KEM",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors"
+      },
+      "images": [
+        "../assets/pdp-gallery/LHWVQNQLSRSMV6S2TJEZOX3X/02.webp",
+        "../assets/pdp-gallery/LHWVQNQLSRSMV6S2TJEZOX3X/03.webp",
+        "../assets/pdp-gallery/LHWVQNQLSRSMV6S2TJEZOX3X/04.webp"
+      ]
+    },
+    {
       "id": "6UNIDD477EWWZLMRXPXSV3R4",
       "name": "1977-1987 Buick Regal Century LeSabre KEM 1441X HEI V6 Distributor Cap 3.8L 4.1L",
       "price": 19.99,
@@ -84733,7 +85273,6 @@
       "category": "other",
       "checkout": true,
       "variation_id": "7DVUMJHCTZ6PCDJFNI4BZ5YD",
-      "stock": 1,
       "part_numbers": [
         "EG1092HD",
         "SLS-110"
@@ -84807,11 +85346,6 @@
         "1983\u20131984 Pontiac Phoenix",
         "1985\u20131986 Pontiac T1000"
       ],
-      "vehicle_count_raw": 1454,
-      "ebay_item_id": "920141668152",
-      "ebay_type": "Stoplight Switch",
-      "ebay_brand": "KEM",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Kits",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -85538,11 +86072,17 @@
         "brand": "KEM",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Kits"
       },
+      "vehicle_count_raw": 1454,
+      "ebay_item_id": "920141668152",
+      "ebay_type": "Stoplight Switch",
+      "ebay_brand": "KEM",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Kits",
       "images": [
         "../assets/pdp-gallery/2BWUWDZAZ2RHM7MXQTYHDIZX/02.webp",
         "../assets/pdp-gallery/2BWUWDZAZ2RHM7MXQTYHDIZX/03.webp",
         "../assets/pdp-gallery/2BWUWDZAZ2RHM7MXQTYHDIZX/04.webp"
-      ]
+      ],
+      "stock": 1
     },
     {
       "id": "QAXNAJ4JJEZZWNSTYTD33NQW",
@@ -139881,5 +140421,5 @@
       "vehicles": []
     }
   ],
-  "fitment_built": "2026-11-14T09:03:11Z"
+  "fitment_built": "2026-11-14T11:03:15Z"
 }
