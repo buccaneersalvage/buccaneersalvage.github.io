@@ -1,7 +1,7 @@
 {
-  "updated": "2026-11-19T07:25:21Z",
+  "updated": "2026-11-19T08:00:50Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 1044,
+  "count": 1045,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -214,9 +214,9 @@
     {
       "id": "U7WKMHOVTIULP53SYVFR773L",
       "name": "Automann AB1DK231-9336 Rolling Lobe Air Spring Replaces W01-358-9336 New",
-      "price": 169.99,
+      "price": 167.99,
       "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/111beb7677d17981fb2e95aa4724b61c136a6063/original.jpeg",
-      "url": "https://square.link/u/Rubnm4mQ",
+      "url": "https://square.link/u/uv7IfiEp",
       "category": "air-spring",
       "checkout": true,
       "variation_id": "CZCW6K73BLLCKQORMBUB2NSN",
@@ -89057,6 +89057,48 @@
       "stock": 1
     },
     {
+      "id": "7CESL5VZLPSRKJGWUFCHL5R5",
+      "name": "Craftsman Sears 3/4 HP Capacitor Motor 3450 RPM 115V Tested Working",
+      "price": 99.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/8790007ded602d0c4183a5e69d180c55a928535b/original.jpeg",
+      "url": "https://square.link/u/XFfQZG9G",
+      "category": "electric-motors",
+      "checkout": true,
+      "variation_id": "JJOJ5H3Y37NVROBV7U2MICFV",
+      "images": [
+        "../assets/pdp-gallery/7CESL5VZLPSRKJGWUFCHL5R5/02.webp",
+        "../assets/pdp-gallery/7CESL5VZLPSRKJGWUFCHL5R5/03.webp",
+        "../assets/pdp-gallery/7CESL5VZLPSRKJGWUFCHL5R5/04.webp",
+        "../assets/pdp-gallery/7CESL5VZLPSRKJGWUFCHL5R5/05.webp",
+        "../assets/pdp-gallery/7CESL5VZLPSRKJGWUFCHL5R5/06.webp",
+        "../assets/pdp-gallery/7CESL5VZLPSRKJGWUFCHL5R5/07.webp"
+      ],
+      "ebay_item_id": "920159453714",
+      "stock": 1,
+      "part_numbers": [],
+      "interchange": [],
+      "vehicles": [],
+      "vehicle_count_raw": 0,
+      "ebay_type": "Capacitor Motor",
+      "ebay_brand": "Craftsman",
+      "ebay_category": "Business & Industrial:Industrial Automation & Motion Controls:Electric Motors:General Purpose Motors",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "medium",
+      "fitment": {
+        "part_numbers": [],
+        "interchange": [],
+        "vehicles": [],
+        "vehicle_labels": [],
+        "raw_compat_rows": 0,
+        "source": "ebay_listing",
+        "confidence": "medium",
+        "ebay_item_id": "920159453714",
+        "type": "Capacitor Motor",
+        "brand": "Craftsman",
+        "ebay_category": "Business & Industrial:Industrial Automation & Motion Controls:Electric Motors:General Purpose Motors"
+      }
+    },
+    {
       "id": "W3LT2QSYY5C2YYPE5PYLATNO",
       "name": "Medline Excel 2000 Manual Wheelchair - Used Once - Minimal Wear",
       "price": 150.0,
@@ -161097,5 +161139,5 @@
       "ebay_brand": ""
     }
   ],
-  "fitment_built": "2026-11-19T07:25:21Z"
+  "fitment_built": "2026-11-19T08:00:50Z"
 }
