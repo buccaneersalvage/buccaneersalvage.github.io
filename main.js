@@ -623,7 +623,7 @@
     if (!wanted.length) return;
     let cat;
     try {
-      const res = await fetch("/assets/store-catalog.json?v=d111f86e08", { credentials: "same-origin" });
+      const res = await fetch("/assets/store-catalog.json?v=66aa90d6e1", { credentials: "same-origin" });
       cat = await res.json();
     } catch (_) {
       return;
