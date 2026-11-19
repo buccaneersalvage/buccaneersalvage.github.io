@@ -1,7 +1,7 @@
 {
-  "updated": "2026-11-19T21:00:54Z",
+  "updated": "2026-11-19T21:27:55Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 1244,
+  "count": 1245,
   "items": [
     {
       "id": "RQZ33TSVIESHZ5ZH2SF34Z4A",
@@ -66,6 +66,64 @@
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:Transmission Filters",
       "stock": 1,
       "images": []
+    },
+    {
+      "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
+      "name": "Holset X63 160583P2 1970 Mack ENDT-865 V8 Maxidyne Turbocharger For Parts Core",
+      "price": 149.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/243b7616df7e29c1cd3b4786a2c98b9448f4336c/original.jpeg",
+      "url": "https://square.link/u/CG2v5QB1",
+      "category": "turbo",
+      "checkout": true,
+      "variation_id": "4ACCWZULS5NCP23VGRVBHVTI",
+      "stock": 1,
+      "part_numbers": [
+        "Holset X63"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1970 Mack"
+      ],
+      "vehicle_count_raw": 1,
+      "ebay_item_id": "398246339681",
+      "ebay_type": "Turbocharger",
+      "ebay_brand": "",
+      "ebay_category": "",
+      "fitment_source": "title",
+      "fitment_confidence": "low",
+      "fitment": {
+        "part_numbers": [
+          "Holset X63"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1970,
+            "year_to": 1970,
+            "make": "Mack",
+            "model": "",
+            "notes": "",
+            "source": "title",
+            "confidence": "low",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1970 Mack"
+        ],
+        "raw_compat_rows": 1,
+        "source": "title",
+        "confidence": "low",
+        "ebay_item_id": "398246339681",
+        "type": "Turbocharger",
+        "brand": "",
+        "ebay_category": ""
+      },
+      "images": [
+        "../assets/pdp-gallery/2J3FOCGYVJXELIPUTCWH3MQ4/02.webp",
+        "../assets/pdp-gallery/2J3FOCGYVJXELIPUTCWH3MQ4/03.webp",
+        "../assets/pdp-gallery/2J3FOCGYVJXELIPUTCWH3MQ4/04.webp"
+      ]
     },
     {
       "id": "5LLWTR3B27YDLV6ZR6XMBPWL",
@@ -1810,8 +1868,7 @@
       "images": [
         "../assets/pdp-gallery/SCZQEUWMBB4U5WK65UMMW5UP/02.webp",
         "../assets/pdp-gallery/SCZQEUWMBB4U5WK65UMMW5UP/03.webp"
-      ],
-      "stock": 1
+      ]
     },
     {
       "id": "WWLZDHUOEAI4S5LWSYE23P3E",
@@ -24289,8 +24346,7 @@
       "images": [
         "../assets/pdp-gallery/OIEKBY47T4B7SOUC5WDL34PA/02.webp",
         "../assets/pdp-gallery/OIEKBY47T4B7SOUC5WDL34PA/03.webp"
-      ],
-      "stock": 1
+      ]
     },
     {
       "id": "MVORQ6SQ7RP5JWOPX7ULXKUU",
@@ -191714,9 +191770,9 @@
     {
       "id": "AN7GJ7UMZMRWNOR2GWRAJSVE",
       "name": "Weber Clutch Disc 10-3/8in 1in Input Shaft Fine Spline USA Made Performance",
-      "price": 89.99,
+      "price": 199.99,
       "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/156cda81f2565602bc6807fedbb920674f9cffd7/original.jpeg",
-      "url": "https://square.link/u/2p8Jxv4Y",
+      "url": "https://square.link/u/4kRU7OD4",
       "category": "other",
       "checkout": true,
       "variation_id": "2RLAYEDPTZZQ6B2MIFV27W6B",
@@ -192275,5 +192331,5 @@
       "ebay_brand": ""
     }
   ],
-  "fitment_built": "2026-11-19T21:00:54Z"
+  "fitment_built": "2026-11-19T21:27:55Z"
 }
