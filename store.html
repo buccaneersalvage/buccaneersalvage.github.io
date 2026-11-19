@@ -36,7 +36,7 @@
   <link rel="preload" href="assets/fonts.css?v=d1b92d3ff4" integrity="sha384-IDnmxIHyfCaSAssmrqXZbMSqgbRm8AATad26bBSjsyTVbgLbsvJXqeQW642rJQFS" as="style">
   <link rel="preload" as="font" href="assets/fonts/QGYvz_MVcBeNP4NJtEtq.woff2" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="assets/fonts.css?v=d1b92d3ff4" integrity="sha384-IDnmxIHyfCaSAssmrqXZbMSqgbRm8AATad26bBSjsyTVbgLbsvJXqeQW642rJQFS">
-  <link rel="stylesheet" href="styles.css?v=0c78048885" integrity="sha384-GIs2DnFiVbUqZoq1Lchdvclj8rFEh0OWGx8oo4vNg9m6PMOwldzkBFKeoxA5eAsg">
+  <link rel="stylesheet" href="styles.css?v=d780c5017c" integrity="sha384-8jl5GbUzwEOB8n+OTC3QNr90tw7EzCSq4R9k3DiaH27gvn9fF5Uz0YeotzYQ0owz">
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -186,24 +186,23 @@
                   <option value="all" selected>All parts</option>
                 </select>
               </div>
-              <div class="st-facet-group" id="stTypeGroup" hidden>
+              <div class="st-facet-group" id="stTypeGroup">
                 <label class="st-facet-label" for="stTypeSelect">Type</label>
-                <select id="stTypeSelect" class="st-facet-select"></select>
+                <select id="stTypeSelect" class="st-facet-select" disabled><option value="">Any type</option></select>
               </div>
               <div class="st-facet-group" id="stMakeGroup">
                 <label class="st-facet-label" for="stMakeSelect">Vehicle</label>
                 <select id="stMakeSelect" class="st-facet-select">
                   <option value="">Any vehicle</option>
                 </select>
-                <button type="button" class="st-facet-clear" id="stVehicleClear" hidden>Clear vehicle</button>
               </div>
-              <div class="st-facet-group" id="stModelGroup" hidden>
+              <div class="st-facet-group" id="stModelGroup">
                 <label class="st-facet-label" for="stModelSelect">Model</label>
-                <select id="stModelSelect" class="st-facet-select"></select>
+                <select id="stModelSelect" class="st-facet-select" disabled><option value="">Any model</option></select>
               </div>
-              <div class="st-facet-group" id="stYearGroup" hidden>
+              <div class="st-facet-group" id="stYearGroup">
                 <label class="st-facet-label" for="stYearSelect">Year</label>
-                <select id="stYearSelect" class="st-facet-select"></select>
+                <select id="stYearSelect" class="st-facet-select" disabled><option value="">Any year</option></select>
               </div>
               <div class="st-facet-group st-facet-group--price">
                 <p class="st-facet-label" id="stPriceLabel">Price</p>
@@ -239,6 +238,7 @@
             <h2 id="stHeading" class="st-results-title">All parts</h2>
             <p id="stResultMeta" class="st-result-count" role="status" tabindex="-1">Loading parts…</p>
             <ul class="st-active-tags" id="stActiveTags" aria-label="Active filters" hidden></ul>
+            <button type="button" class="st-facet-clear" id="stVehicleClear" hidden>Clear vehicle</button>
             <button type="button" class="st-facet-clear" id="stClearFilters" hidden>Clear all</button>
             <label class="st-page-size">
               <span class="visually-hidden">Results per page</span>
@@ -333,11 +333,11 @@
     </div>
   </footer>
 
-  <script src="main.js?v=4ebb67350c" integrity="sha384-4XYU3JaxbbAxLV3MB8zqGH3SH+a3DkDnEWeV0CeTDDMezwr4mhgEgwmp8pdBOmqq" defer></script>
+  <script src="main.js?v=b7aaa947b0" integrity="sha384-o1qeUavNBKi8T8CN3Nb4CHrBVYKsTPRWk/fkRNhgbLXvWNYDlt6ZpjSsZysVkZrQ" defer></script>
 
   <script src="fx.js?v=988afbfa87" integrity="sha384-dUzDKeuLmZ93nF/kO5lhZlAXVXjB92f9e4kq9xoInG89gjdOD8F+fRABXcQxFw5D" defer></script>
   <script src="assets/vendor/list.min.js?v=e487569269" integrity="sha384-ALVzYOJ9WqrjuR53Fze5167Cru+FyZ3w3ZZ02ADXJaB0v47ezFOwU9atbIs7U1KN" defer></script>
   <script src="assets/vendor/minisearch.js?v=76e4a1d477" integrity="sha384-vErbuqOQYb2hPR4ejbgR5W3oNL88o1u6N8d5FEp8aZJugAGLTLBk4wmjYuZLBtA3" defer></script>
-  <script src="store.js?v=d0b911ef0b" integrity="sha384-tp6/dAjw6WYpopak2vds2JLpYY+q04+fTwqxKb9gy+SgujchWTeRpWjK/ETmiuH3" defer></script>
+  <script src="store.js?v=f173138952" integrity="sha384-dwa57EMx/IMY8tOKvz+W6+U1gDe1AhPMDS1La7Dzs3BzsjKv2IFpHC+gzImTlLxO" defer></script>
 </body>
 </html>

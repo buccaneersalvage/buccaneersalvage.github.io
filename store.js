@@ -6,7 +6,7 @@
    * Search + category + price filter + sort + pagination (not the full catalog at once).
    * Commerce-style facets; brand-dark gold cards; cores warn on-card.
    */
-  const CATALOG_URL = "assets/store-catalog.json?v=bf9e8c5983";
+  const CATALOG_URL = "assets/store-catalog.json?v=a2862a88d5";
   const SLUGS_URL = "assets/pdp-slugs.json?v=20260909"; // keep in sync with main.js (test_pdp_slugs)
   const CORE_WARN = "FOR PARTS OR REBUILD · UNTESTED · NO RETURNS";
   const DEFAULT_PAGE = 24;
@@ -99,7 +99,8 @@
     }
   }
 
-  const isCore = (item) => item.category === "turbo" || item.category === "pump";
+  // For-parts label: the build sets for_parts from the listing's real eBay condition.
+  const isCore = (item) => item.for_parts === true;
 
   const catLabel = (c) =>
     ({
@@ -268,13 +269,13 @@
 
   /** Map Type / title → eBay department. Wins over a wrong PrimaryCategory. */
   const TYPE_PARENT = [
-    [/oil filter|crankcase|breather|timing|sprocket|air injection/i, "Engines & Engine Parts"],
+    [/oil filter|crankcase|breather|timing|sprocket|air injection|cylinder head/i, "Engines & Engine Parts"],
     [/fuel filter|air filter/i, "Air & Fuel Delivery"],
     [/distributor|ignition|spark plug|vacuum advance|pickup coil|\bhei\b/i, "Ignition Systems & Components"],
-    [/\bcv\b|boot kit|drivetrain/i, "Transmission & Drivetrain"],
+    [/\bcv\b|boot kit|drivetrain|transmission filter/i, "Transmission & Drivetrain"],
     [/brake|caliper/i, "Brakes & Brake Parts"],
     [/air spring|rolling lobe|air ride|convoluted/i, "Suspension & Steering"],
-    [/turbo|injection pump|^pump$/i, "Cores"],
+    [/\bturbo(?:charger)?s?\b(?![\s-]*(?:hydra|\d{3}))|injection pump|^pump$/i, "Cores"],
     [/exhaust|flange gasket/i, "Exhaust & Emission Systems"],
     [/headlight switch|dimmer/i, "Interior Parts & Accessories"],
     [/stop tail|tail light|light socket|sealed beam|headlamp/i, "Lighting & Lamps"],
@@ -426,7 +427,7 @@
     }
     if (/headlight switch|dimmer/.test(blob)) return ["headlight-switches", "Headlight Switches"];
     if (/exhaust|flange gasket/.test(blob)) return ["exhaust-parts", "Exhaust Parts"];
-    if (/turbo|injection pump|holset|mack diesel/.test(blob)) {
+    if (/\bturbo(?:charger)?s?\b(?![\s-]*(?:hydra|\d{3}))|injection pump|holset|mack diesel/.test(blob)) {
       return ["heavy-truck-diesel", "Heavy Truck & Diesel Parts"];
     }
     if (/solenoid|regulator|map sensor|oxygen|o2 sensor|sealed beam|headlamp|alternator/.test(blob)) {
@@ -1217,6 +1218,15 @@
     return `<option value="${escapeAttr(value)}">${escapeHtml(text)}</option>`;
   }
 
+  // Filter slots never appear or disappear: a facet with nothing to pick stays in its
+  // fixed slot, disabled, on its "Any …" choice, so a pick never moves another box.
+  function parkFacet(group, sel, anyLabel) {
+    group.hidden = false;
+    sel.innerHTML = optionHtml("", anyLabel);
+    sel.value = "";
+    sel.disabled = true;
+  }
+
   function renderFacetChips() {
     const cats = catalogCounts();
     const catSel = document.getElementById("stCatSelect");
@@ -1243,8 +1253,7 @@
     const makeSel = document.getElementById("stMakeSelect");
     if (makeGroup && makeSel) {
       if (!isAutoBrowse()) {
-        makeGroup.hidden = true;
-        makeSel.innerHTML = "";
+        parkFacet(makeGroup, makeSel, "Any vehicle");
         activeMake = "";
         activeModel = "";
         activeYear = "";
@@ -1254,6 +1263,7 @@
           (a, b) => b[1].n - a[1].n || a[1].label.localeCompare(b[1].label)
         );
         makeGroup.hidden = false;
+        makeSel.disabled = false;
         makeSel.innerHTML = [optionHtml("", "Any vehicle")].concat(
           makeList.map(([k, v]) => optionHtml(k, v.label, v.n))
         ).join("");
@@ -1275,12 +1285,12 @@
         (a, b) => b[1].n - a[1].n || a[1].label.localeCompare(b[1].label)
       );
       if (!isAutoBrowse() || !activeMake || modelList.length < 1) {
-        modelGroup.hidden = true;
-        modelSel.innerHTML = "";
+        parkFacet(modelGroup, modelSel, "Any model");
         if (!isAutoBrowse()) activeModel = "";
         else if (!activeMake) activeModel = "";
       } else {
         modelGroup.hidden = false;
+        modelSel.disabled = false;
         modelSel.innerHTML = [optionHtml("", "Any model")].concat(
           modelList.map(([k, v]) => optionHtml(k, v.label, v.n))
         ).join("");
@@ -1297,11 +1307,11 @@
       const years = activeMake ? yearCounts(activeMake, activeModel) : {};
       const yearList = Object.entries(years).sort((a, b) => Number(b[0]) - Number(a[0]));
       if (!isAutoBrowse() || !activeMake || yearList.length < 1) {
-        yearGroup.hidden = true;
-        yearSel.innerHTML = "";
+        parkFacet(yearGroup, yearSel, "Any year");
         if (!isAutoBrowse() || !activeMake) activeYear = "";
       } else {
         yearGroup.hidden = false;
+        yearSel.disabled = false;
         yearSel.innerHTML = [optionHtml("", "Any year")].concat(
           yearList.map(([k, v]) => optionHtml(k, v.label, v.n))
         ).join("");
@@ -1321,11 +1331,11 @@
         (a, b) => b[1].n - a[1].n || a[1].label.localeCompare(b[1].label)
       );
       if (!parentOn || typeList.length < 2) {
-        typeGroup.hidden = true;
-        typeSel.innerHTML = "";
+        parkFacet(typeGroup, typeSel, "Any type");
         if (typeList.length < 2) activeSub = "";
       } else {
         typeGroup.hidden = false;
+        typeSel.disabled = false;
         typeSel.innerHTML = [optionHtml("", "Any type")].concat(
           typeList.map(([k, v]) => optionHtml(k, SUB_LABEL[k] || v.label, v.n))
         ).join("");
@@ -2120,7 +2130,7 @@
       urlMode = "push";
       applyFilters();
       const next = document.getElementById("stModelGroup");
-      if (next && !next.hidden) {
+      if (next && !document.getElementById("stModelSelect")?.disabled) {
         next.scrollIntoView({ block: "nearest", behavior: "smooth" });
       }
     });
@@ -2152,7 +2162,7 @@
       urlMode = "push";
       applyFilters();
       const next = document.getElementById("stTypeGroup");
-      if (next && !next.hidden) {
+      if (next && !document.getElementById("stTypeSelect")?.disabled) {
         next.scrollIntoView({ block: "nearest", behavior: "smooth" });
       }
     });

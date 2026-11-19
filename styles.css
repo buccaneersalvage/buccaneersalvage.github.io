@@ -1879,6 +1879,35 @@ ul.pagination .disabled .page {
   min-height: 48px;
   font-size: 1rem;
 }
+/* Stable filter bar (2026-11-19): every control has one fixed height and keeps its
+   text on one line (ellipsis), labels sit on one line, so a pick never resizes or
+   moves another box. Facet slots never hide (store.js parkFacet). */
+.st-filterbar .st-facet-select {
+  height: 48px;
+  max-height: 48px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.st-filterbar .st-facet-select > button,
+.st-filterbar .st-facet-select selectedcontent {
+  display: block;
+  min-width: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.st-filterbar .st-facet-select:disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+}
+.st-filterbar .st-facet-label {
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 1.25;
+}
 .st-filterbar .st-price-row { gap: 0.4rem; }
 .st-filterbar .st-facet-apply {
   width: auto;
@@ -1908,17 +1937,17 @@ ul.pagination .disabled .page {
   .st-filterbar .st-facets.is-open {
     grid-column: 1;
     order: 0;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: flex-end;
+    display: grid;
+    /* Track widths come from the bar width only, never from the selected text. */
+    grid-template-columns: repeat(auto-fill, minmax(10.5rem, 1fr));
+    align-items: start;
     gap: 0.75rem;
     padding: 0;
     background: none;
     border: 0;
   }
-  .st-filterbar .st-facets .st-facet-group { flex: 1 1 9.5rem; max-width: 14rem; }
-  .st-filterbar .st-facets .st-facet-group--price { flex: 1 1 15rem; max-width: 18rem; }
-  .st-filterbar .st-facet-browse { flex: 0 0 auto; }
+  .st-filterbar .st-facets .st-facet-group--price { grid-column: span 2; }
+  .st-filterbar .st-facet-browse { grid-column: auto; align-self: end; }
   .st-filterbar .st-facet-group--sort { grid-column: 2; }
 }
 
