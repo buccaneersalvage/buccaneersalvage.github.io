@@ -1,7 +1,7 @@
 {
-  "updated": "2026-11-19T17:01:04Z",
+  "updated": "2026-11-19T18:01:00Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 1248,
+  "count": 1249,
   "items": [
     {
       "id": "RQZ33TSVIESHZ5ZH2SF34Z4A",
@@ -151785,6 +151785,410 @@
       "interchange": []
     },
     {
+      "id": "6O2WQZ7MQVSSVPITZP3ECJY2",
+      "name": "Hygrade CPA177 Choke Pull-Off Rochester Quadrajet Dualjet GM 1975-1990 NOS",
+      "price": 25.97,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/cbe257352b18a904c68725fff85d78b64cee61cb/original.jpeg",
+      "url": "https://square.link/u/yvqvEtHm",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "C4B3JIZPANUFOFUACSKNQ2JS",
+      "ebay_item_id": "920160966125",
+      "stock": 1,
+      "part_numbers": [
+        "CPA177"
+      ],
+      "interchange": [
+        "17067211",
+        "17067926",
+        "7043469",
+        "7044435"
+      ],
+      "vehicles": [
+        "1977 Buick Century",
+        "1978 Buick Electra",
+        "1977\u20131990 Buick LeSabre",
+        "1977\u20131987 Buick Regal",
+        "1977\u20131985 Buick Riviera",
+        "1977 Buick Skylark",
+        "1987\u20131990 Cadillac Brougham",
+        "1986 Cadillac Fleetwood",
+        "1986\u20131990 Chevrolet Caprice",
+        "1977\u20131984 Oldsmobile 98",
+        "1977\u20131990 Oldsmobile Custom Cruiser",
+        "1975\u20131985 Oldsmobile Cutlass",
+        "1979\u20131984 Oldsmobile Cutlass Calais",
+        "1980\u20131983 Oldsmobile Cutlass Cruiser",
+        "1975\u20131987 Oldsmobile Cutlass Salon",
+        "1975\u20131988 Oldsmobile Cutlass Supreme",
+        "1975\u20131985 Oldsmobile Delta 88",
+        "1977 Oldsmobile Omega",
+        "1977\u20131985 Oldsmobile Toronado",
+        "1977\u20131981 Pontiac Bonneville",
+        "1977\u20131981 Pontiac Catalina",
+        "1977\u20131979 Pontiac Firebird",
+        "1977 Pontiac Grand LeMans",
+        "1977 Pontiac Grand Prix",
+        "1980\u20131981 Pontiac Laurentian",
+        "1977 Pontiac LeMans",
+        "1981\u20131986 Pontiac Parisienne",
+        "1977 Pontiac Phoenix",
+        "1987\u20131989 Pontiac Safari"
+      ],
+      "vehicle_count_raw": 630,
+      "ebay_type": "Choke Pull-Off",
+      "ebay_brand": "Hygrade",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Carburetor Parts",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "CPA177"
+        ],
+        "interchange": [
+          "17067211",
+          "17067926",
+          "7043469",
+          "7044435"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1977,
+            "year_to": 1977,
+            "make": "Buick",
+            "model": "Century",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1978,
+            "year_to": 1978,
+            "make": "Buick",
+            "model": "Electra",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1977,
+            "year_to": 1990,
+            "make": "Buick",
+            "model": "LeSabre",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1977,
+            "year_to": 1987,
+            "make": "Buick",
+            "model": "Regal",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1977,
+            "year_to": 1985,
+            "make": "Buick",
+            "model": "Riviera",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1977,
+            "year_to": 1977,
+            "make": "Buick",
+            "model": "Skylark",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1990,
+            "make": "Cadillac",
+            "model": "Brougham",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1986,
+            "year_to": 1986,
+            "make": "Cadillac",
+            "model": "Fleetwood",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1986,
+            "year_to": 1990,
+            "make": "Chevrolet",
+            "model": "Caprice",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1977,
+            "year_to": 1984,
+            "make": "Oldsmobile",
+            "model": "98",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1977,
+            "year_to": 1990,
+            "make": "Oldsmobile",
+            "model": "Custom Cruiser",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1975,
+            "year_to": 1985,
+            "make": "Oldsmobile",
+            "model": "Cutlass",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1979,
+            "year_to": 1984,
+            "make": "Oldsmobile",
+            "model": "Cutlass Calais",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1980,
+            "year_to": 1983,
+            "make": "Oldsmobile",
+            "model": "Cutlass Cruiser",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1975,
+            "year_to": 1987,
+            "make": "Oldsmobile",
+            "model": "Cutlass Salon",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1975,
+            "year_to": 1988,
+            "make": "Oldsmobile",
+            "model": "Cutlass Supreme",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1975,
+            "year_to": 1985,
+            "make": "Oldsmobile",
+            "model": "Delta 88",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1977,
+            "year_to": 1977,
+            "make": "Oldsmobile",
+            "model": "Omega",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1977,
+            "year_to": 1985,
+            "make": "Oldsmobile",
+            "model": "Toronado",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1977,
+            "year_to": 1981,
+            "make": "Pontiac",
+            "model": "Bonneville",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1977,
+            "year_to": 1981,
+            "make": "Pontiac",
+            "model": "Catalina",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1977,
+            "year_to": 1979,
+            "make": "Pontiac",
+            "model": "Firebird",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1977,
+            "year_to": 1977,
+            "make": "Pontiac",
+            "model": "Grand LeMans",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1977,
+            "year_to": 1977,
+            "make": "Pontiac",
+            "model": "Grand Prix",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1980,
+            "year_to": 1981,
+            "make": "Pontiac",
+            "model": "Laurentian",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1977,
+            "year_to": 1977,
+            "make": "Pontiac",
+            "model": "LeMans",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1981,
+            "year_to": 1986,
+            "make": "Pontiac",
+            "model": "Parisienne",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1977,
+            "year_to": 1977,
+            "make": "Pontiac",
+            "model": "Phoenix",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1989,
+            "make": "Pontiac",
+            "model": "Safari",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1977 Buick Century",
+          "1978 Buick Electra",
+          "1977\u20131990 Buick LeSabre",
+          "1977\u20131987 Buick Regal",
+          "1977\u20131985 Buick Riviera",
+          "1977 Buick Skylark",
+          "1987\u20131990 Cadillac Brougham",
+          "1986 Cadillac Fleetwood",
+          "1986\u20131990 Chevrolet Caprice",
+          "1977\u20131984 Oldsmobile 98",
+          "1977\u20131990 Oldsmobile Custom Cruiser",
+          "1975\u20131985 Oldsmobile Cutlass",
+          "1979\u20131984 Oldsmobile Cutlass Calais",
+          "1980\u20131983 Oldsmobile Cutlass Cruiser",
+          "1975\u20131987 Oldsmobile Cutlass Salon",
+          "1975\u20131988 Oldsmobile Cutlass Supreme",
+          "1975\u20131985 Oldsmobile Delta 88",
+          "1977 Oldsmobile Omega",
+          "1977\u20131985 Oldsmobile Toronado",
+          "1977\u20131981 Pontiac Bonneville",
+          "1977\u20131981 Pontiac Catalina",
+          "1977\u20131979 Pontiac Firebird",
+          "1977 Pontiac Grand LeMans",
+          "1977 Pontiac Grand Prix",
+          "1980\u20131981 Pontiac Laurentian",
+          "1977 Pontiac LeMans",
+          "1981\u20131986 Pontiac Parisienne",
+          "1977 Pontiac Phoenix",
+          "1987\u20131989 Pontiac Safari"
+        ],
+        "raw_compat_rows": 630,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "920160966125",
+        "type": "Choke Pull-Off",
+        "brand": "Hygrade",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Carburetor Parts"
+      },
+      "images": [
+        "../assets/pdp-gallery/6O2WQZ7MQVSSVPITZP3ECJY2/02.webp",
+        "../assets/pdp-gallery/6O2WQZ7MQVSSVPITZP3ECJY2/03.webp",
+        "../assets/pdp-gallery/6O2WQZ7MQVSSVPITZP3ECJY2/04.webp"
+      ]
+    },
+    {
       "id": "ZQQQRZMKIIFWIOENNJJHMZ3Z",
       "name": "Hygrade CPA236 Choke Pull-Off 1975-84 GM Quadrajet NOS",
       "price": 26.99,
@@ -192389,5 +192793,5 @@
       "ebay_brand": ""
     }
   ],
-  "fitment_built": "2026-11-19T17:01:04Z"
+  "fitment_built": "2026-11-19T18:01:00Z"
 }
