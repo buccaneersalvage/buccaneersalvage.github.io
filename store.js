@@ -1705,6 +1705,13 @@
     // List.js copied the child list above, so the panel can go straight back.
     if (notFound) document.getElementById("stGrid")?.appendChild(notFound);
     list.on("parseComplete", onParseDone);
+    // List.js redraws the pager after its own "updated" handlers run, so
+    // re-mark whenever the pager's children change instead.
+    const pager = document.querySelector(".st-pagination");
+    if (pager && "MutationObserver" in window) {
+      new MutationObserver(markPagination).observe(pager, { childList: true });
+      markPagination();
+    }
     list.on("updated", () => {
       updateShowing();
       recoverBrokenThumbs(document.getElementById("stGrid"));
@@ -1712,6 +1719,26 @@
     list.on("searchComplete", updateShowing);
     list.on("filterComplete", updateShowing);
     updateShowing();
+  }
+
+  /**
+   * List.js renders the pager as plain buttons. Name each page, flag the
+   * current one, and take the "..." gap out of the tab order and the
+   * accessibility tree (it is not a control).
+   */
+  function markPagination() {
+    document.querySelectorAll(".st-pagination li").forEach((li) => {
+      const btn = li.querySelector(".page");
+      if (!btn) return;
+      if (li.classList.contains("disabled")) {
+        li.setAttribute("aria-hidden", "true");
+        btn.tabIndex = -1;
+        return;
+      }
+      btn.setAttribute("aria-label", `Page ${btn.textContent.trim()}`);
+      if (li.classList.contains("active")) btn.setAttribute("aria-current", "page");
+      else btn.removeAttribute("aria-current");
+    });
   }
 
   /**

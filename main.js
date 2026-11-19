@@ -329,7 +329,7 @@
       drawer.innerHTML =
         '<button type="button" class="pdp-cart-close" aria-label="Close">×</button>' +
         '<div id="pdpCartBody"></div>' +
-        '<p class="pdp-cart-note">Local pickup by appointment in Carbondale, PA. Checkout opens Square with this item\'s real shipping.</p>' +
+        '<p class="pdp-cart-note">Local pickup by confirmed appointment only in Carbondale, PA. Checkout opens Square with this item\'s real shipping.</p>' +
         '<button type="button" class="btn btn-primary" data-bind="checkout">Continue to checkout</button>';
       document.body.appendChild(drawer);
     } else if (!document.getElementById("pdpCartBody")) {
@@ -442,8 +442,8 @@
       note.hidden = false;
       note.textContent =
         items.length === 1
-          ? "Local pickup by appointment in Carbondale, PA. Checkout opens Square with this item's real shipping."
-          : "Local pickup by appointment in Carbondale, PA. Checkout opens one Square order for everything in the cart. Square will ask for a ship-to address; pickup is also fine.";
+          ? "Local pickup by confirmed appointment only in Carbondale, PA. Checkout opens Square with this item's real shipping."
+          : "Local pickup by confirmed appointment only in Carbondale, PA. Checkout opens one Square order for everything in the cart. Square will ask for a ship-to address; pickup is also fine.";
     }
     if (checkout) {
       checkout.hidden = false;
@@ -787,7 +787,7 @@
       id: "shipping",
       escalate: false,
       keys: ["shipping", "delivery", "ship to", "freight", "how long to ship"],
-      html: "US shipping at Square checkout, or local pickup by appointment. Rates shown at checkout.",
+      html: "US shipping at Square checkout, or local pickup by confirmed appointment only. Rates shown at checkout.",
     },
     {
       id: "fitment",
