@@ -1,7 +1,7 @@
 {
-  "updated": "2026-11-19T20:51:05Z",
+  "updated": "2026-11-19T21:00:54Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 1245,
+  "count": 1244,
   "items": [
     {
       "id": "RQZ33TSVIESHZ5ZH2SF34Z4A",
@@ -34607,113 +34607,6 @@
       "images": [
         "../assets/pdp-gallery/CBTIILXWV6EWPFJHFUOMAZHC/02.webp",
         "../assets/pdp-gallery/CBTIILXWV6EWPFJHFUOMAZHC/03.webp"
-      ],
-      "stock": 1,
-      "interchange": []
-    },
-    {
-      "id": "TG6FY434URCRAB3YSQRQBOM4",
-      "name": "Champion COS9715 Oil Filter Subaru 2.0 2.5 Impreza Legacy NOS",
-      "price": 12.99,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/b19e43517cbc71f5ad8e6397b9903caa49b1b873/original.jpeg",
-      "url": "https://square.link/u/0DB3NueL",
-      "category": "filters",
-      "checkout": true,
-      "variation_id": "KRGXR63ASX6KASJ7LBBZ4RNQ",
-      "part_numbers": [
-        "COS9715",
-        "PH9715"
-      ],
-      "vehicles": [
-        "2005\u20132010 Subaru Forester",
-        "2008\u20132012 Subaru Impreza",
-        "2008\u20132009 Subaru Legacy",
-        "2005\u20132012 Subaru Outback",
-        "2013\u20132016 Subaru WRX STI"
-      ],
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "high",
-      "fitment": {
-        "part_numbers": [
-          "COS9715",
-          "PH9715"
-        ],
-        "interchange": [],
-        "vehicles": [
-          {
-            "year_from": 2005,
-            "year_to": 2010,
-            "make": "Subaru",
-            "model": "Forester",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 2008,
-            "year_to": 2012,
-            "make": "Subaru",
-            "model": "Impreza",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 2008,
-            "year_to": 2009,
-            "make": "Subaru",
-            "model": "Legacy",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 2005,
-            "year_to": 2012,
-            "make": "Subaru",
-            "model": "Outback",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 2013,
-            "year_to": 2016,
-            "make": "Subaru",
-            "model": "WRX STI",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          }
-        ],
-        "vehicle_labels": [
-          "2005\u20132010 Subaru Forester",
-          "2008\u20132012 Subaru Impreza",
-          "2008\u20132009 Subaru Legacy",
-          "2005\u20132012 Subaru Outback",
-          "2013\u20132016 Subaru WRX STI"
-        ],
-        "raw_compat_rows": 88,
-        "source": "ebay_listing",
-        "confidence": "high",
-        "ebay_item_id": "398411607411",
-        "type": "Oil Filter",
-        "brand": "Champion",
-        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Filters"
-      },
-      "vehicle_count_raw": 88,
-      "ebay_item_id": "398411607411",
-      "ebay_type": "Oil Filter",
-      "ebay_brand": "Champion",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Filters",
-      "images": [
-        "../assets/pdp-gallery/TG6FY434URCRAB3YSQRQBOM4/02.webp",
-        "../assets/pdp-gallery/TG6FY434URCRAB3YSQRQBOM4/03.webp"
       ],
       "stock": 1,
       "interchange": []
@@ -192382,5 +192275,5 @@
       "ebay_brand": ""
     }
   ],
-  "fitment_built": "2026-11-19T20:51:05Z"
+  "fitment_built": "2026-11-19T21:00:54Z"
 }
