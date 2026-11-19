@@ -2083,7 +2083,7 @@ ul.pagination .disabled .page {
 }
 .st-banner-link {
   display: block;
-  width: 100%; /* same width as the catalog column above (.shell) */
+  width: 83%; /* 2026-11-18: ~17% smaller than the full catalog column, centred */
   margin: 0 auto;
   text-decoration: none;
   border-radius: 8px;

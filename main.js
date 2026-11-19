@@ -756,7 +756,7 @@
         "pick up scrap",
       ],
       html:
-        "Free scrap metal haul by appointment. Junk removal and e-waste are paid. Drop-off is cheaper than pickup. " +
+        "Free scrap metal haul by appointment only. Junk removal and e-waste are paid. Drop-off is cheaper than pickup. " +
         SCRAP_HINT.charAt(0).toUpperCase() +
         SCRAP_HINT.slice(1) +
         ".",
@@ -766,7 +766,7 @@
       escalate: false,
       keys: ["pickup", "pick up", "pick it up", "come get", "come by", "appointment"],
       html:
-        "Local parts pickup in Carbondale, PA, by appointment. Use " +
+        "Local parts pickup in Carbondale, PA, by appointment only. Use " +
         EMAIL_LINK +
         " to set a time. Scrap or junk: " +
         SCRAP_HINT +
@@ -777,7 +777,7 @@
       escalate: false,
       keys: ["hours", "are you open", "when are you open", "business hours"],
       html:
-        "By appointment. Store questions: " +
+        "By appointment only. Store questions: " +
         EMAIL_LINK +
         ". Scrap or junk: " +
         SCRAP_HINT +
