@@ -1,7 +1,7 @@
 {
-  "updated": "2026-11-19T16:00:50Z",
+  "updated": "2026-11-19T17:01:04Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 1249,
+  "count": 1248,
   "items": [
     {
       "id": "RQZ33TSVIESHZ5ZH2SF34Z4A",
@@ -66,64 +66,6 @@
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:Transmission Filters",
       "stock": 1,
       "images": []
-    },
-    {
-      "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
-      "name": "Holset Mack Truck Turbocharger Untested For Parts Shaft Play X63 160583P2",
-      "price": 149.99,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/243b7616df7e29c1cd3b4786a2c98b9448f4336c/original.jpeg",
-      "url": "https://square.link/u/7o4QqhGz",
-      "category": "turbo",
-      "checkout": true,
-      "variation_id": "4ACCWZULS5NCP23VGRVBHVTI",
-      "part_numbers": [
-        "X63 160583P2"
-      ],
-      "vehicles": [
-        "Mack"
-      ],
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "high",
-      "fitment": {
-        "part_numbers": [
-          "X63 160583P2"
-        ],
-        "interchange": [],
-        "vehicles": [
-          {
-            "year_from": null,
-            "year_to": null,
-            "make": "Mack",
-            "model": "",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          }
-        ],
-        "vehicle_labels": [
-          "Mack"
-        ],
-        "raw_compat_rows": 1,
-        "source": "ebay_listing",
-        "confidence": "high",
-        "ebay_item_id": "398246339681",
-        "type": "Turbocharger",
-        "brand": "Holset",
-        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Turbos, Superchargers & Intercoolers:Turbos & Parts"
-      },
-      "vehicle_count_raw": 1,
-      "ebay_item_id": "398246339681",
-      "ebay_type": "Turbocharger",
-      "ebay_brand": "Holset",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Turbos, Superchargers & Intercoolers:Turbos & Parts",
-      "images": [
-        "../assets/pdp-gallery/2J3FOCGYVJXELIPUTCWH3MQ4/02.webp",
-        "../assets/pdp-gallery/2J3FOCGYVJXELIPUTCWH3MQ4/03.webp",
-        "../assets/pdp-gallery/2J3FOCGYVJXELIPUTCWH3MQ4/04.webp"
-      ],
-      "stock": 1,
-      "interchange": []
     },
     {
       "id": "5LLWTR3B27YDLV6ZR6XMBPWL",
@@ -191888,7 +191830,7 @@
       "name": "Weber Clutch Disc 10-3/8in 1in Input Shaft Fine Spline USA Made Performance",
       "price": 89.99,
       "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/156cda81f2565602bc6807fedbb920674f9cffd7/original.jpeg",
-      "url": "https://square.link/u/WnCpJG7u",
+      "url": "https://square.link/u/T2MOsmef",
       "category": "other",
       "checkout": true,
       "variation_id": "2RLAYEDPTZZQ6B2MIFV27W6B",
@@ -192447,5 +192389,5 @@
       "ebay_brand": ""
     }
   ],
-  "fitment_built": "2026-11-19T16:00:50Z"
+  "fitment_built": "2026-11-19T17:01:04Z"
 }
