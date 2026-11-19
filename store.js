@@ -6,7 +6,7 @@
    * Search + category + price filter + sort + pagination (not the full catalog at once).
    * Commerce-style facets; brand-dark gold cards; cores warn on-card.
    */
-  const CATALOG_URL = "assets/store-catalog.json?v=2983f1fc8a";
+  const CATALOG_URL = "assets/store-catalog.json?v=a58350828f";
   const SLUGS_URL = "assets/pdp-slugs.json?v=20260909"; // keep in sync with main.js (test_pdp_slugs)
   const CORE_WARN = "FOR PARTS OR REBUILD · UNTESTED · NO RETURNS";
   const DEFAULT_PAGE = 24;
@@ -412,7 +412,9 @@
 
   function autoSub(cat, typ, name) {
     const blob = `${cat} ${typ} ${name}`.toLowerCase();
-    if (/oil filter|transmission filter|lube filter/.test(blob)) return ["oil-filters", "Oil Filters"];
+    // A transmission filter kit belongs with the transmission, same as its store parent.
+    if (/transmission filter/.test(blob)) return ["transmission-drivetrain", "Transmission & Drivetrain"];
+    if (/oil filter|lube filter/.test(blob)) return ["oil-filters", "Oil Filters"];
     if (/fuel filter|fuel strainer|sediment/.test(blob)) return ["fuel-filters", "Fuel Filters"];
     if (/air filter|crankcase|breather/.test(blob)) return ["air-filters", "Air Filters"];
     if (
