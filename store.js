@@ -1,0 +1,2302 @@
+(() => {
+  "use strict";
+
+  /**
+   * BuccaneerSalvage Store — List.js PLP
+   * Search + category + price filter + sort + pagination (not the full catalog at once).
+   * Commerce-style facets; brand-dark gold cards; cores warn on-card.
+   */
+  const CATALOG_URL = "assets/store-catalog.json?v=a3e20c5895";
+  const SLUGS_URL = "assets/pdp-slugs.json?v=20260909"; // keep in sync with main.js (test_pdp_slugs)
+  const CORE_WARN = "FOR PARTS OR REBUILD · UNTESTED · NO RETURNS";
+  const DEFAULT_PAGE = 24;
+
+  let catalog = [];
+  let pdpSlugs = Object.create(null);
+  let list = null;
+  let category = "all";
+  let priceMin = null;
+  let priceMax = null;
+  let pageSize = DEFAULT_PAGE;
+  let priceTimer = null;
+
+  const money = (n) =>
+    n == null || Number.isNaN(Number(n))
+      ? ""
+      : new Intl.NumberFormat("en-US", { style: "currency", currency: "USD" }).format(n);
+
+  /** Parse "$50", "50", "1,299.99", "-10" → non-negative number or null. */
+  function parseMoneyInput(raw) {
+    if (raw == null) return null;
+    let s = String(raw).trim();
+    if (!s) return null;
+    s = s.replace(/[$,\s]/g, "");
+    // trailing + / junk: keep first numeric token
+    const m = s.match(/^-?\d+(?:\.\d+)?/);
+    if (!m) return null;
+    const n = parseFloat(m[0]);
+    if (!Number.isFinite(n)) return null;
+    // Min/max filters reject negatives (do not abs-clamp — that made -50 act like 0)
+    if (n < 0) return null;
+    return n;
+  }
+
+  /**
+   * Detect amount-intent search queries so "$50" / "under 40" / "50-100"
+   * filter by price instead of (broken) text substring match.
+   * Bare digits alone stay text search (years, part #s).
+   */
+  function parseAmountQuery(q) {
+    const s = String(q || "").trim().toLowerCase();
+    if (!s) return null;
+    let m;
+    m = s.match(/^(?:under|below|max|upto|up\s*to|<=?)\s*\$?\s*([\d,]+(?:\.\d+)?)\s*$/i);
+    if (m) return { min: null, max: parseMoneyInput(m[1]) };
+    m = s.match(/^(?:over|above|min|from|>=?)\s*\$?\s*([\d,]+(?:\.\d+)?)\s*$/i);
+    if (m) return { min: parseMoneyInput(m[1]), max: null };
+    m = s.match(/^\$?\s*([\d,]+(?:\.\d+)?)\s*[-–—to]+\s*\$?\s*([\d,]+(?:\.\d+)?)\s*$/i);
+    if (m) {
+      let a = parseMoneyInput(m[1]);
+      let b = parseMoneyInput(m[2]);
+      if (a != null && b != null && a > b) [a, b] = [b, a];
+      return { min: a, max: b };
+    }
+    // Explicit currency: $50 or 50$
+    m = s.match(/^\$\s*([\d,]+(?:\.\d+)?)\s*$/);
+    if (m) {
+      const n = parseMoneyInput(m[1]);
+      if (n == null) return null;
+      // tight band around exact price (± $1)
+      return { min: Math.max(0, n - 1), max: n + 1, exactish: true };
+    }
+    m = s.match(/^([\d,]+(?:\.\d+)?)\s*\$\s*$/);
+    if (m) {
+      const n = parseMoneyInput(m[1]);
+      if (n == null) return null;
+      return { min: Math.max(0, n - 1), max: n + 1, exactish: true };
+    }
+    return null;
+  }
+
+  function readFacetPrices() {
+    let min = parseMoneyInput(document.getElementById("stPriceMin")?.value);
+    let max = parseMoneyInput(document.getElementById("stPriceMax")?.value);
+    if (min != null && max != null && min > max) {
+      [min, max] = [max, min];
+    }
+    priceMin = min;
+    priceMax = max;
+    const hint = document.getElementById("stPriceHint");
+    if (hint) {
+      if (min != null || max != null) {
+        const lo = min != null ? money(min) : "any";
+        const hi = max != null ? money(max) : "any";
+        hint.textContent = `Price filter: ${lo} - ${hi}`;
+      } else {
+        hint.textContent =
+          "Min, max, or search under 40.";
+      }
+    }
+  }
+
+  const isCore = (item) => item.category === "turbo" || item.category === "pump";
+
+  const catLabel = (c) =>
+    ({
+      "air-spring": "Air spring",
+      brake: "Brake hardware",
+      filters: "Filter",
+      ignition: "Ignition",
+      driveline: "Driveline",
+      turbo: "Turbo core",
+      pump: "Pump core",
+      mobility: "Mobility",
+      cycling: "Cycling",
+      "material-handling": "Material Handling",
+      "electric-motors": "Electric Motors",
+      interior: "Interior",
+      exhaust: "Exhaust",
+      engines: "Engines",
+    }[c] || "Parts");
+
+  function escapeHtml(s) {
+    return String(s)
+      .replace(/&/g, "&amp;")
+      .replace(/</g, "&lt;")
+      .replace(/>/g, "&gt;")
+      .replace(/"/g, "&quot;");
+  }
+  function escapeAttr(s) {
+    return escapeHtml(s).replace(/'/g, "&#39;");
+  }
+
+  /** Product images: self host + Square CDN / Square S3 only. */
+  function safeImageUrl(u) {
+    const s = String(u || "").trim();
+    if (!/^https:\/\//i.test(s)) return "";
+    try {
+      const host = new URL(s).hostname.toLowerCase();
+      if (
+        host === "buccaneersalvage.github.io" ||
+        host.endsWith(".squareup.com") ||
+        host.endsWith(".squarecdn.com") ||
+        host === "items-images-production.s3.us-west-2.amazonaws.com"
+      ) {
+        return s;
+      }
+    } catch (_) {}
+    return "";
+  }
+
+  /** Prefer self-hosted 400² WebP thumbs; missing files fall back via data-fallback. */
+  function cardImageUrl(item) {
+    const id = String(item && item.id || "").trim();
+    if (!/^[A-Z0-9]{16,32}$/.test(id)) return "";
+    return `assets/product-thumbs/${id}.webp`;
+  }
+
+  function applyThumbFallback(img) {
+    if (!img || img.tagName !== "IMG" || !img.classList.contains("st-img")) return;
+    const next = img.getAttribute("data-fallback") || "";
+    if (!next) return;
+    img.removeAttribute("data-fallback");
+    if (next !== img.getAttribute("src")) img.src = next;
+  }
+
+  function recoverBrokenThumbs(root) {
+    if (!root) return;
+    root.querySelectorAll("img.st-img[data-fallback]").forEach((img) => {
+      if (img.complete && img.naturalWidth === 0) applyThumbFallback(img);
+    });
+  }
+
+  function bindThumbFallbacks(root) {
+    if (!root) return;
+    // error does not bubble. Capture on the grid so idle-inserted cards and
+    // List.js page remounts still swap to the Square original.
+    if (root.dataset.thumbFallbackBound !== "1") {
+      root.dataset.thumbFallbackBound = "1";
+      root.addEventListener("error", (e) => applyThumbFallback(e.target), true);
+    }
+    recoverBrokenThumbs(root);
+  }
+
+  function rankCat(c) {
+    return {
+      turbo: 0,
+      pump: 1,
+      "air-spring": 2,
+      brake: 3,
+      filters: 4,
+      ignition: 5,
+      driveline: 6,
+      engines: 6,
+      interior: 7,
+      exhaust: 7,
+      mobility: 8,
+      cycling: 8,
+      "material-handling": 8,
+      "electric-motors": 8,
+    }[c] ?? 9;
+  }
+
+  /** Brand / manufacturer aliases so "chevy", "contitech", "benz" hit listings. */
+  const BRAND_ALIASES = {
+    chevrolet: "chevy chevrolet gm general motors",
+    chevy: "chevy chevrolet",
+    ford: "ford motor",
+    dodge: "dodge ram",
+    ram: "ram dodge",
+    gmc: "gmc general motors",
+    mercedes: "mercedes mercedes-benz benz",
+    "mercedes-benz": "mercedes mercedes-benz benz",
+    contitech: "contitech continental conti",
+    continental: "continental contitech conti",
+    goodyear: "goodyear",
+    automann: "automann",
+    carlson: "carlson",
+    firestone: "firestone",
+    holset: "holset cummins",
+    mack: "mack truck",
+    wagner: "wagner",
+    econoride: "econoride",
+    toyota: "toyota",
+    lexus: "lexus",
+    jeep: "jeep",
+    chrysler: "chrysler",
+    buick: "buick",
+    cadillac: "cadillac",
+    kia: "kia",
+    nissan: "nissan",
+    infiniti: "infiniti infinity",
+    mazda: "mazda",
+    subaru: "subaru",
+    volkswagen: "volkswagen vw",
+    fiat: "fiat",
+    saturn: "saturn",
+    oldsmobile: "oldsmobile olds",
+    pontiac: "pontiac",
+    isuzu: "isuzu",
+    freightliner: "freightliner",
+  };
+
+  /** Model / PN aliases. Each token matches ANY alt (not AND). */
+  const TOKEN_ALIASES = {
+    f150: ["f-150", "f150", "f 150"],
+    "f-150": ["f-150", "f150"],
+    f250: ["f-250", "f250"],
+    "f-250": ["f-250", "f250"],
+    f350: ["f-350", "f350"],
+    "f-350": ["f-350", "f350"],
+    chevy: ["chevy", "chevrolet"],
+    chevrolet: ["chevrolet", "chevy"],
+    vw: ["vw", "volkswagen"],
+    volkswagen: ["volkswagen", "vw"],
+    benz: ["benz", "mercedes", "mercedes-benz"],
+    mercedes: ["mercedes", "mercedes-benz", "benz"],
+    "mercedes-benz": ["mercedes-benz", "mercedes", "benz"],
+    gm: ["gm", "gmc", "chevrolet", "chevy"],
+  };
+
+  /** Skip eBay root crumbs so chips start at the department. */
+  const EBAY_SKIP = new Set([
+    "ebay motors",
+    "parts & accessories",
+    "car & truck parts & accessories",
+    "commercial truck parts",
+  ]);
+
+  /** Map Type / title → eBay department. Wins over a wrong PrimaryCategory. */
+  const TYPE_PARENT = [
+    [/oil filter|crankcase|breather|timing|sprocket|air injection/i, "Engines & Engine Parts"],
+    [/fuel filter|air filter/i, "Air & Fuel Delivery"],
+    [/distributor|ignition|spark plug|vacuum advance|pickup coil|\bhei\b/i, "Ignition Systems & Components"],
+    [/\bcv\b|boot kit|drivetrain/i, "Transmission & Drivetrain"],
+    [/brake|caliper/i, "Brakes & Brake Parts"],
+    [/air spring|rolling lobe|air ride|convoluted/i, "Suspension & Steering"],
+    [/turbo|injection pump|^pump$/i, "Cores"],
+    [/exhaust|flange gasket/i, "Exhaust & Emission Systems"],
+    [/headlight switch|dimmer/i, "Interior Parts & Accessories"],
+    [/stop tail|tail light|light socket|sealed beam|headlamp/i, "Lighting & Lamps"],
+    [/refrigerant|freon|\br12\b|\br134a\b/i, "Air Conditioning & Heating"],
+    [/wheelchair/i, "Mobility"],
+    [/\bbicycle\b|\bbike\b|\bmasi\b/i, "Cycling"],
+    [/forklift/i, "Material Handling"],
+    [/capacitor motor/i, "Electric Motors"],
+  ];
+
+  /** Non-vehicle eBay-site depts (card/PDP labels). Not the store-parent rail. */
+  const YARD_PARENTS = new Set([
+    "mobility",
+    "cycling",
+    "material-handling",
+    "electric-motors",
+  ]);
+
+  /** eBay store parents, storefront order. Only those with hub stock are shown. */
+  const STORE_PARENTS = [
+    { slug: "carlson-brake-hardware", label: "Carlson Brake Hardware", auto: true },
+    { slug: "truck-air-springs", label: "Truck Air Springs", auto: true },
+    { slug: "auto-parts", label: "Auto Parts & Accessories", auto: true },
+    { slug: "vintage-collectibles", label: "Vintage & Collectibles", auto: false },
+    { slug: "industrial-warehouse", label: "Industrial & Warehouse", auto: false },
+    { slug: "tools", label: "Tools", auto: false },
+    { slug: "home-garden", label: "Home & Garden", auto: false },
+    { slug: "sporting-goods", label: "Sporting Goods", auto: false },
+    { slug: "consumer-electronics", label: "Consumer Electronics", auto: false },
+    { slug: "movies-tv", label: "Movies & TV", auto: false },
+    { slug: "computers-tablets-networking", label: "Computers/Tablets & Networking", auto: false },
+    { slug: "health-beauty", label: "Health & Beauty", auto: false },
+    { slug: "toys-hobbies", label: "Toys & Hobbies", auto: false },
+    { slug: "jewelry-watches", label: "Jewelry & Watches", auto: false },
+    { slug: "cameras-photo", label: "Cameras & Photo", auto: false },
+    { slug: "books-magazines", label: "Books & Magazines", auto: false },
+    { slug: "sports-mem-cards-fan-shop", label: "Sports Mem, Cards & Fan Shop", auto: false },
+  ];
+  const AUTO_STORE = new Set(STORE_PARENTS.filter((p) => p.auto).map((p) => p.slug));
+
+  function isAutoBrowse() {
+    return !category || category === "all" || AUTO_STORE.has(category);
+  }
+
+  const PARENT_SHORT = {
+    "suspension-steering": "Suspension",
+    "brakes-brake-parts": "Brakes",
+    "ignition-systems-components": "Ignition",
+    "air-fuel-delivery": "Air & Fuel",
+    "engines-engine-parts": "Engines",
+    "transmission-drivetrain": "Drivetrain",
+    "other-car-truck-parts-accessories": "Other parts",
+    "interior-parts-accessories": "Interior",
+    "air-conditioning-heating": "HVAC",
+    "exhaust-emission-systems": "Exhaust",
+    cores: "Cores",
+    mobility: "Mobility",
+    cycling: "Cycling",
+    "material-handling": "Material Handling",
+    "electric-motors": "Electric Motors",
+  };
+
+  const SUB_CANON = {
+    "oil-filters": "oil-filter",
+    "fuel-filters": "fuel-filter",
+    "air-filters": "air-filter",
+    "distributor-caps": "distributor-cap",
+    "ignition-coils": "ignition-coil",
+    "brake-pads": "brake-pad",
+    "transmission-filters": "transmission-filter",
+    "exhaust-gaskets": "exhaust-gasket",
+    "wheelchairs": "wheelchair",
+    "bicycles": "bicycle",
+  };
+
+  const SUB_LABEL = {
+    "oil-filter": "Oil Filter",
+    "fuel-filter": "Fuel Filter",
+    "air-filter": "Air Filter",
+    "distributor-cap": "Distributor Cap",
+    "ignition-coil": "Ignition Coil",
+    "brake-pad": "Brake Pad",
+    "transmission-filter": "Transmission Filter",
+    "exhaust-gasket": "Exhaust Gasket",
+    wheelchair: "Wheelchair",
+    bicycle: "Bicycle",
+  };
+
+  function canonSubSlug(s) {
+    const k = slugKey(s);
+    return SUB_CANON[k] || k;
+  }
+
+  function parentChipLabel(slug, fallback) {
+    const store = STORE_PARENTS.find((p) => p.slug === slug);
+    if (store) return store.label;
+    return PARENT_SHORT[slug] || fallback || slug;
+  }
+
+  function packStore(parentSlug, parent, subSlug, sub) {
+    return { parentSlug, parent, subSlug: subSlug || "other", sub: sub || parent };
+  }
+
+  /** Leftover workshop class from catalog fields (not a brand-name blob). */
+  function isWorkshopTools(cat, kept, motors) {
+    if (motors) return false;
+    if (cat === "electric-motors") return true;
+    return (kept || []).some((p) => {
+      const pl = String(p || "").toLowerCase();
+      return pl === "tools & workshop equipment" || pl === "tools, hardware & locks";
+    });
+  }
+
+  function carlsonSub(name, typ) {
+    const blob = `${name} ${typ}`.toLowerCase();
+    if (/self-adjuster|self adjuster/.test(blob)) return ["self-adjuster-kits", "Self-Adjuster Kits"];
+    if (/parking|drum-in-hat|drum in hat/.test(blob)) return ["parking-brake-kits", "Parking Brake Kits"];
+    if (/guide pin|caliper pin|caliper bolt/.test(blob)) return ["caliper-pin-guide-kits", "Caliper Pin & Guide Kits"];
+    if (/abutment|boot|quietglide/.test(blob)) return ["hardware-boot-kits", "Hardware & Boot Kits"];
+    if (/drum/.test(blob)) return ["drum-brake-hardware-kits", "Drum Brake Hardware Kits"];
+    if (/disc/.test(blob)) return ["disc-brake-hardware-kits", "Disc Brake Hardware Kits"];
+    return ["hardware-boot-kits", "Hardware & Boot Kits"];
+  }
+
+  function airSpringSub(name, typ) {
+    const blob = `${name} ${typ}`.toLowerCase();
+    if (/triple/.test(blob)) return ["triple-convoluted", "Triple Convoluted"];
+    if (/double|2b\d/.test(blob)) return ["double-convoluted", "Double Convoluted"];
+    if (/convoluted/.test(blob) && !/rolling/.test(blob)) {
+      return ["double-convoluted", "Double Convoluted"];
+    }
+    return ["rolling-lobe", "Rolling Lobe"];
+  }
+
+  function autoSub(cat, typ, name) {
+    const blob = `${cat} ${typ} ${name}`.toLowerCase();
+    if (/oil filter|transmission filter|lube filter/.test(blob)) return ["oil-filters", "Oil Filters"];
+    if (/fuel filter|fuel strainer|sediment/.test(blob)) return ["fuel-filters", "Fuel Filters"];
+    if (/air filter|crankcase|breather/.test(blob)) return ["air-filters", "Air Filters"];
+    if (
+      /distributor|ignition|spark plug|rotor|coil|vacuum advance|wire set|pickup|\bhei\b/.test(
+        blob
+      )
+    ) {
+      return ["ignition-tune-up", "Ignition & Tune-Up"];
+    }
+    if (/\bcv\b|boot kit|drivetrain|transmission/.test(blob) && !/filter/.test(blob)) {
+      return ["transmission-drivetrain", "Transmission & Drivetrain"];
+    }
+    if (/headlight switch|dimmer/.test(blob)) return ["headlight-switches", "Headlight Switches"];
+    if (/exhaust|flange gasket/.test(blob)) return ["exhaust-parts", "Exhaust Parts"];
+    if (/turbo|injection pump|holset|mack diesel/.test(blob)) {
+      return ["heavy-truck-diesel", "Heavy Truck & Diesel Parts"];
+    }
+    if (/solenoid|regulator|map sensor|oxygen|o2 sensor|sealed beam|headlamp|alternator/.test(blob)) {
+      return ["electrical-sensors", "Electrical & Sensors"];
+    }
+    if (/brake|caliper|wagner|lee /.test(blob)) return ["brakes-suspension", "Brakes & Suspension"];
+    if (/control arm|ball joint|tie rod|idler|sway/.test(blob)) {
+      return ["suspension-steering", "Suspension & Steering"];
+    }
+    if (/timing|thermostat|gasket|sprocket|air injection/.test(blob)) {
+      return ["engine-parts", "Engine Parts"];
+    }
+    if (cat === "filters") return ["oil-filters", "Oil Filters"];
+    if (cat === "ignition") return ["ignition-tune-up", "Ignition & Tune-Up"];
+    if (cat === "driveline") return ["transmission-drivetrain", "Transmission & Drivetrain"];
+    if (cat === "brake") return ["brakes-suspension", "Brakes & Suspension"];
+    return ["engine-parts", "Engine Parts"];
+  }
+
+  /** eBay-store parent + child. Only parents that exist on this catalog. */
+  function itemStoreTree(item) {
+    if (!item) return packStore("auto-parts", "Auto Parts & Accessories", "engine-parts", "Engine Parts");
+    if (item._st) return item._st;
+    const cat = item.category || "";
+    const name = item.name || "";
+    const typ = item.ebay_type || "";
+    const brand = item.ebay_brand || "";
+    const blob = `${name} ${typ} ${brand} ${cat}`.toLowerCase();
+
+    if (cat === "cycling" || /\bmasi\b|\bbicycle\b/.test(blob)) {
+      item._st = packStore(
+        "vintage-collectibles",
+        "Vintage & Collectibles",
+        "vintage-sports",
+        "Vintage Sports & Recreation"
+      );
+      return item._st;
+    }
+    if (cat === "mobility" || /wheelchair/.test(blob)) {
+      item._st = packStore(
+        "vintage-collectibles",
+        "Vintage & Collectibles",
+        "household-medical",
+        "Household & Medical"
+      );
+      return item._st;
+    }
+    if (cat === "material-handling" || (cat !== "filters" && /forklift/.test(blob))) {
+      item._st = packStore(
+        "industrial-warehouse",
+        "Industrial & Warehouse",
+        "forklift-warehouse",
+        "Forklift & Warehouse Parts"
+      );
+      return item._st;
+    }
+
+    if (/\bcarlson\b/.test(blob)) {
+      const [subSlug, sub] = carlsonSub(name, typ);
+      item._st = packStore("carlson-brake-hardware", "Carlson Brake Hardware", subSlug, sub);
+      return item._st;
+    }
+    if (cat === "air-spring" || /air spring|rolling lobe|convoluted/.test(blob)) {
+      const [subSlug, sub] = airSpringSub(name, typ);
+      item._st = packStore("truck-air-springs", "Truck Air Springs", subSlug, sub);
+      return item._st;
+    }
+
+    const rawCat = (
+      item.ebay_category ||
+      (item.fitment && item.fitment.ebay_category) ||
+      ""
+    ).trim();
+    const catParts = rawCat
+      ? rawCat.split(":").map((s) => s.trim()).filter(Boolean)
+      : [];
+    const motors = catParts.length > 0 && catParts[0].toLowerCase() === "ebay motors";
+    const kept = catParts.filter((p) => !EBAY_SKIP.has(p.toLowerCase()));
+    if (isWorkshopTools(cat, kept, motors)) {
+      let subSlug;
+      let sub;
+      if (cat === "electric-motors" && !kept.length) {
+        subSlug = "electric-motors";
+        sub = "Electric Motors";
+      } else {
+        const leaf = kept.length ? kept[kept.length - 1] : "Electric Motors";
+        subSlug = slugKey(leaf) || "other";
+        sub = leaf;
+      }
+      item._st = packStore("tools", "Tools", subSlug, sub);
+      return item._st;
+    }
+    if (!motors && kept.length) {
+      const l1 = kept[0];
+      const leaf = kept[kept.length - 1] || l1;
+      const l1Slug = slugKey(l1);
+      let parentSlug = l1Slug;
+      let parent = l1;
+      if (l1Slug === "collectibles") {
+        parentSlug = "vintage-collectibles";
+        parent = "Vintage & Collectibles";
+      } else if (l1Slug === "business-industrial") {
+        parentSlug = "industrial-warehouse";
+        parent = "Industrial & Warehouse";
+      }
+      item._st = packStore(parentSlug, parent, slugKey(leaf) || "other", leaf);
+      return item._st;
+    }
+
+    const [subSlug, sub] = autoSub(cat, typ, name);
+    item._st = packStore("auto-parts", "Auto Parts & Accessories", subSlug, sub);
+    return item._st;
+  }
+
+  function displayHyphen(s) {
+    return String(s || "").replace(/[–—]/g, "-");
+  }
+
+  let byId = new Map();
+  let activeSub = "";
+  let activeMake = "";
+  let activeModel = "";
+  let activeYear = "";
+
+  function slugKey(s) {
+    return String(s || "")
+      .toLowerCase()
+      .replace(/[^a-z0-9]+/g, "-")
+      .replace(/^-|-$/g, "");
+  }
+
+  function compactToken(s) {
+    return String(s || "").toLowerCase().replace(/[^a-z0-9]+/g, "");
+  }
+
+  function ownValue(map, key) {
+    if (!key || !Object.prototype.hasOwnProperty.call(map, key)) return undefined;
+    return map[key];
+  }
+
+  function tokenAlts(tok) {
+    const t = String(tok || "").toLowerCase();
+    const alts = new Set([t, compactToken(t)]);
+    const extra = ownValue(TOKEN_ALIASES, t) || ownValue(TOKEN_ALIASES, compactToken(t)) || [];
+    if (Array.isArray(extra)) {
+      extra.forEach((a) => {
+        alts.add(a);
+        alts.add(compactToken(a));
+      });
+    }
+    const brand = ownValue(BRAND_ALIASES, t);
+    if (typeof brand === "string") brand.split(/\s+/).forEach((a) => alts.add(a));
+    return [...alts].filter(Boolean);
+  }
+
+  function yearHitsFitment(item, year) {
+    const y = Number(year);
+    if (!Number.isFinite(y)) return false;
+    const vs = (item.fitment && Array.isArray(item.fitment.vehicles) && item.fitment.vehicles) || [];
+    return vs.some((v) => {
+      if (!v || typeof v !== "object") return false;
+      if (v.year != null && Number(v.year) === y) return true;
+      const a = v.year_from != null ? Number(v.year_from) : null;
+      const b = v.year_to != null ? Number(v.year_to) : a;
+      return a != null && Number.isFinite(a) && Number.isFinite(b) && y >= a && y <= b;
+    });
+  }
+
+  function isNonVehicleDept(item) {
+    return !AUTO_STORE.has(itemStoreTree(item).parentSlug);
+  }
+
+  function itemHitsQuery(item, raw, fuzzy) {
+    const q = String(raw || "").trim().toLowerCase();
+    if (!q) return true;
+    const blob = item._blob || (item._blob = buildSearchBlob(item));
+    const compactBlob = item._compactBlob || (item._compactBlob = compactToken(blob));
+    const tokens = queryTokens(q);
+    if (
+      isNonVehicleDept(item) &&
+      tokens.length &&
+      tokens.every((tok) => /^(?:19|20)\d{2}$/.test(tok))
+    ) {
+      return false;
+    }
+    return tokens.every((tok) => {
+      if (/^(?:19|20)\d{2}$/.test(tok) && yearHitsFitment(item, tok)) return true;
+      if (tokenAlts(tok).some((a) => altHitsBlob(blob, compactBlob, a))) return true;
+      const near = fuzzy && fuzzy[tok];
+      return !!near && near.has(String(item.id || ""));
+    });
+  }
+
+  /**
+   * Digit part numbers match a word prefix (r12 hits R12-14OZ, not 1R12-103).
+   * Letter words stay substring so "camry" and "freon" still hit.
+   */
+  function altHitsBlob(blob, compactBlob, alt) {
+    const a = String(alt || "").toLowerCase();
+    if (!a) return false;
+    const ac = compactToken(a);
+    if (ac && /\d/.test(ac)) {
+      return blob.split(/\s+/).some((word) => {
+        if (!word) return false;
+        if (word === a) return true;
+        if (word.startsWith(a)) {
+          const next = word.charAt(a.length);
+          if (!next || /[^a-z0-9]/.test(next)) return true;
+        }
+        const wc = compactToken(word);
+        return !!wc && (wc === ac || wc.startsWith(ac));
+      });
+    }
+    return blob.includes(a) || !!(ac && compactBlob.includes(ac));
+  }
+
+  function queryTokens(q) {
+    // "r-12" is one part number. "freon can" drops the container word.
+    if (!/\s/.test(q)) return [q];
+    const parts = q.split(/[^\p{L}\p{N}.]+/u).filter(Boolean);
+    if (parts.length < 2) return parts;
+    const kept = parts.filter((t) => t !== "can" && t !== "cans");
+    return kept.length ? kept : parts;
+  }
+
+  function itemHitsMake(item, makeSlug) {
+    if (!makeSlug) return true;
+    const vs = (item.fitment && item.fitment.vehicles) || [];
+    if (vs.some((v) => v && slugKey(v.make) === makeSlug)) return true;
+    const labels = item.vehicles || [];
+    return labels.some((lb) => slugKey(lb).includes(makeSlug) || compactToken(lb).includes(makeSlug.replace(/-/g, "")));
+  }
+
+  function itemHitsModel(item, makeSlug, modelSlug) {
+    if (!modelSlug) return true;
+    const vs = (item.fitment && item.fitment.vehicles) || [];
+    if (
+      vs.some(
+        (v) => v && slugKey(v.make) === makeSlug && slugKey(v.model) === modelSlug
+      )
+    ) {
+      return true;
+    }
+    const want = compactToken(modelSlug);
+    return (item.vehicles || []).some((lb) => {
+      const low = slugKey(lb);
+      if (makeSlug && !low.includes(makeSlug) && !compactToken(lb).includes(makeSlug.replace(/-/g, ""))) {
+        return false;
+      }
+      return low.includes(modelSlug) || compactToken(lb).includes(want);
+    });
+  }
+
+  function itemHitsType(item, typeSlug) {
+    if (!typeSlug) return true;
+    const want = canonSubSlug(typeSlug);
+    const have = canonSubSlug(item.ebay_type || (item.fitment && item.fitment.type) || "");
+    return have === want;
+  }
+
+  function typeParentName(typ, name, cat) {
+    if (cat === "electric-motors") return "Electric Motors";
+    const tryOn = [typ || "", name || ""];
+    for (let t = 0; t < tryOn.length; t++) {
+      const s = tryOn[t];
+      if (!s) continue;
+      for (let i = 0; i < TYPE_PARENT.length; i++) {
+        if (TYPE_PARENT[i][0].test(s)) return TYPE_PARENT[i][1];
+      }
+    }
+    return "";
+  }
+
+  function itemEbayTree(item) {
+    if (!item) return { parent: "Other", parentSlug: "other", sub: "Other", subSlug: "other" };
+    if (item._eb) return item._eb;
+    const raw = (
+      item.ebay_category ||
+      (item.fitment && item.fitment.ebay_category) ||
+      ""
+    ).trim();
+    const parts = raw
+      ? raw.split(":").map((s) => s.trim()).filter(Boolean)
+      : [];
+    const kept = parts.filter((p) => !EBAY_SKIP.has(p.toLowerCase()));
+    const typ = (item.ebay_type || (item.fitment && item.fitment.type) || "").trim();
+    let parent = "";
+    let sub = "";
+    if (kept.length >= 2) {
+      parent = kept[0];
+      sub = kept[kept.length - 1];
+    } else if (kept.length === 1) {
+      parent = kept[0];
+      sub = typ || kept[0];
+    }
+    const typed = typeParentName(typ, item.name || "", item.category || "");
+    if (typed && slugKey(parent) !== slugKey(typed)) {
+      parent = typed;
+      if (typ && !/^vintage$/i.test(typ)) sub = typ;
+    }
+    if (!parent) {
+      if (item.category === "turbo" || item.category === "pump") parent = "Cores";
+      else parent = typeParentName(typ, item.name || "", item.category || "");
+    }
+    const rawSlug = slugKey(parent);
+    if (rawSlug === "health-beauty") parent = typeParentName(typ, item.name || "", item.category || "") || "Mobility";
+    else if (rawSlug === "sporting-goods") parent = typeParentName(typ, item.name || "", item.category || "") || "Cycling";
+    else if (rawSlug === "business-industrial") parent = typeParentName(typ, item.name || "", item.category || "") || "Material Handling";
+    if (!sub || /^vintage$/i.test(sub)) {
+      sub = typ && !/^vintage$/i.test(typ) ? typ : kept[kept.length - 1] || parent;
+    }
+    const subSlug = canonSubSlug(sub) || "other";
+    item._eb = {
+      parent,
+      parentSlug: slugKey(parent) || "other",
+      sub: SUB_LABEL[subSlug] || sub,
+      subSlug,
+    };
+    return item._eb;
+  }
+
+  function itemHitsParent(item, parentSlug) {
+    if (!parentSlug || parentSlug === "all") return true;
+    return itemStoreTree(item).parentSlug === parentSlug;
+  }
+
+  function itemHitsSub(item, subSlug) {
+    if (!subSlug) return true;
+    return itemStoreTree(item).subSlug === subSlug;
+  }
+
+  /** Expand "2000–2011" so year queries like 2005 match (List.js is substring). */
+  function expandYearRange(from, to, cap = 45) {
+    const a = Number(from);
+    const b = Number(to);
+    if (!Number.isFinite(a) || !Number.isFinite(b) || a > b) return [];
+    if (b - a > cap) return [String(a), String(b)]; // huge ranges: endpoints only
+    const out = [];
+    for (let y = a; y <= b; y++) out.push(String(y));
+    return out;
+  }
+
+  function yearsFromLabel(label) {
+    const s = String(label || "");
+    // 2000–2011 or 2000-2011
+    let m = s.match(/\b((?:19|20)\d{2})\s*[–—-]\s*((?:19|20)\d{2})\b/);
+    if (m) return expandYearRange(m[1], m[2]);
+    m = s.match(/\b((?:19|20)\d{2})\b/);
+    return m ? [m[1]] : [];
+  }
+
+  /**
+   * Rich List.js search index: title, brand, MPN, interchange, vehicles,
+   * year/make/model (with year-range expansion + brand aliases).
+   */
+  function buildSearchBlob(item) {
+    const parts = [];
+    const push = (v) => {
+      if (v == null || v === "") return;
+      if (Array.isArray(v)) {
+        v.forEach(push);
+        return;
+      }
+      if (typeof v === "object") return;
+      parts.push(String(v));
+    };
+
+    push(item.name);
+    push(item.category);
+    push(catLabel(item.category));
+    push(item.id);
+    push(item.ebay_item_id);
+    push(item.part_numbers);
+    push(item.interchange);
+    push(item.ebay_type);
+    push(item.ebay_brand);
+    push(item.ebay_category);
+    const eb = itemEbayTree(item);
+    push(eb.parent);
+    push(eb.sub);
+    const pns = []
+      .concat(item.part_numbers || [])
+      .concat(item.interchange || []);
+    pns.forEach((p) => {
+      const c = compactToken(p);
+      if (c.length >= 4) push(c);
+    });
+
+    // Title brand / first tokens (OEM Goodyear …)
+    const name = String(item.name || "");
+    const brandTok = name.match(
+      /^(?:OEM\s+)?(Carlson|Automann|Goodyear|Continental|ContiTech|Firestone|Holset|Mack|Wagner|Econoride|Mercedes(?:-Benz)?|Meritor)\b/i
+    );
+    if (brandTok) {
+      push(brandTok[1]);
+      push("brand manufacturer maker");
+      const key = brandTok[1].toLowerCase();
+      const alias = ownValue(BRAND_ALIASES, key);
+      if (typeof alias === "string") push(alias);
+    }
+
+    // Vehicle labels: "2000–2011 Dodge Dakota"
+    const vehLabels = Array.isArray(item.vehicles) ? item.vehicles : [];
+    vehLabels.forEach((label) => {
+      push(label);
+      push(yearsFromLabel(label));
+      // common make/model words already in label; add aliases
+      const low = String(label).toLowerCase();
+      Object.keys(BRAND_ALIASES).forEach((k) => {
+        const a = ownValue(BRAND_ALIASES, k);
+        if (typeof a === "string" && low.includes(k)) push(a);
+      });
+    });
+
+    // Structured fitment.vehicles
+    const fit = item.fitment && typeof item.fitment === "object" ? item.fitment : null;
+    const fitVeh = fit && Array.isArray(fit.vehicles) ? fit.vehicles : [];
+    fitVeh.forEach((v) => {
+      if (!v || typeof v !== "object") return;
+      push(v.make);
+      push(v.model);
+      push(v.trim);
+      push(v.engine);
+      push(v.notes);
+      if (v.year_from != null || v.year_to != null) {
+        const y0 = v.year_from != null ? v.year_from : v.year_to;
+        const y1 = v.year_to != null ? v.year_to : v.year_from;
+        push(expandYearRange(y0, y1));
+        push(String(y0), String(y1));
+      } else if (v.year != null) {
+        push(String(v.year));
+      }
+      if (v.make) {
+        const mk = String(v.make).toLowerCase();
+        const mkAlias = ownValue(BRAND_ALIASES, mk);
+        if (typeof mkAlias === "string") push(mkAlias);
+        // multi-word makes: "Mercedes-Benz"
+        Object.keys(BRAND_ALIASES).forEach((k) => {
+          const a = ownValue(BRAND_ALIASES, k);
+          if (typeof a === "string" && mk.includes(k)) push(a);
+        });
+      }
+    });
+    if (fit) {
+      push(fit.part_numbers);
+      push(fit.interchange);
+      push(fit.vehicle_labels);
+    }
+
+    if (isCore(item)) {
+      push("for parts rebuild untested no returns core turbo pump");
+    }
+
+    // Price tokens so amount-ish text search can still hit (prefer $N query → price filter)
+    if (item.price != null && Number.isFinite(Number(item.price))) {
+      const p = Number(item.price);
+      const whole = Math.floor(p);
+      push(String(p));
+      push(p.toFixed(2));
+      push("$" + p.toFixed(2));
+      push("$" + whole);
+      push(String(whole));
+      push("dollars usd price");
+    }
+
+    // Category synonyms for search
+    if (item.category === "air-spring") {
+      push("air spring airspring air bag airbag bag rolling lobe convoluted suspension");
+    } else if (item.category === "brake") {
+      push("brake brakes caliper pad drum hardware abutment pin kit");
+    } else if (item.category === "filters") {
+      push("filter filters air oil fuel transmission breather wix");
+    } else if (item.category === "ignition") {
+      push("ignition distributor cap coil spark plug wire vacuum advance");
+    } else if (item.category === "driveline") {
+      push("cv boot axle timing belt sprocket driveline");
+    }
+
+    // Shop words buyers type. R12-14OZ is not the 1R12 air-spring family.
+    const shopName = `${name} ${item.ebay_type || ""}`;
+    if (/\br-?12\b|\brefrigerant\b|\bfreon\b/i.test(shopName) && !/\boil\b/i.test(shopName)) {
+      push("freon r-12 r12 refrigerant freon can ac recharge");
+    }
+
+    // Dedupe tokens (preserve order), lowercase for List.js
+    const seen = new Set();
+    const out = [];
+    parts
+      .join(" ")
+      .toLowerCase()
+      .replace(/[^\p{L}\p{N}.\-–—/&+]+/gu, " ")
+      .split(/\s+/)
+      .forEach((t) => {
+        if (!t || seen.has(t)) return;
+        seen.add(t);
+        out.push(t);
+      });
+    return out.join(" ");
+  }
+
+  function pnsFromName(name) {
+    const s = String(name || "");
+    const rxs = [
+      /\bWIX\s+\d{4,6}\b/gi,
+      /\bMOOG\s+CV\d+\b/gi,
+      /\bCloyes\s+[A-Z]-?\d{2,4}\b/gi,
+      /\bStandard\s+JH\d+\b/gi,
+      /\bPace\s*Setter\s+DR-?\d+\b/gi,
+      /\b8VBB-1100\b/gi,
+      /\b780068P\b/gi,
+      /\bKW14\b/gi,
+    ];
+    const out = [];
+    rxs.forEach((rx) => {
+      const hits = s.match(rx);
+      if (hits) hits.forEach((h) => out.push(h));
+    });
+    return out;
+  }
+
+  function cardXrefHint(item) {
+    if (Array.isArray(item.interchange)) {
+      const first = item.interchange.map((x) => String(x || "").trim()).find(Boolean);
+      if (first) return first;
+    }
+    const pns = Array.isArray(item.part_numbers) ? item.part_numbers : [];
+    for (let i = 1; i < pns.length; i++) {
+      const bits = String(pns[i] || "")
+        .split(/[,;/|]+/)
+        .map((s) => s.trim())
+        .filter(Boolean);
+      if (bits[0]) return bits[0];
+    }
+    const named = pnsFromName(item && item.name);
+    return named[0] || "";
+  }
+
+  // First listed part number, same rule as the product page: a title's leading year is not a PN.
+  function cardPn(item) {
+    const raw = Array.isArray(item && item.part_numbers) ? item.part_numbers : [];
+    const name = String((item && item.name) || "");
+    for (const blob of raw) {
+      for (const pn of String(blob || "").split(",")) {
+        const s = pn.trim();
+        if (!s) continue;
+        if (/^(19|20)\d{2}$/.test(s) && name.startsWith(s)) continue;
+        return s.slice(0, 40);
+      }
+    }
+    return "";
+  }
+
+  function pdpHref(item) {
+    const id = String((item && item.id) || "");
+    return `p/${encodeURIComponent(pdpSlugs[id] || id)}.html`;
+  }
+
+  /**
+   * Listings whose own part number is the whole query, ignoring case, spaces and
+   * dashes ("ab1dk10b 5436" = AB1DK10B-5436). Used to open that listing directly.
+   */
+  function exactPnItems(raw) {
+    const key = compactToken(raw);
+    if (key.length < 4 || !/\d/.test(key)) return [];
+    return catalog.filter((item) => {
+      const name = String(item.name || "");
+      const blobs = Array.isArray(item.part_numbers) ? item.part_numbers : [];
+      return blobs.some((blob) =>
+        String(blob || "")
+          .split(/[,;/|]+/)
+          .some((pn) => {
+            const s = pn.trim();
+            if (!s || (/^(19|20)\d{2}$/.test(s) && name.startsWith(s))) return false;
+            if (compactToken(s) === key) return true;
+            // "X63 160583P2": a spaced piece counts only when it mixes letters and digits.
+            return s.split(/\s+/).some(
+              (w) => /[a-z]/i.test(w) && /\d/.test(w) && compactToken(w) === key
+            );
+          })
+      );
+    });
+  }
+
+  function cardHtml(item, { featured = false } = {}) {
+    const id = String((item && item.id) || "");
+    if (!/^[A-Z0-9]{16,32}$/.test(id)) return "";
+    const core = isCore(item);
+    const href = `p/${encodeURIComponent(pdpSlugs[id] || id)}.html`;
+    // Prefer local thumb; else Square original. No inline onerror (CSP script-src 'self').
+    const imgUrl = cardImageUrl(item);
+    const fallback = safeImageUrl(item && item.image);
+    const price = item.price != null ? Number(item.price) : "";
+    const priceLabel = money(item.price);
+    const imgAlt = (item.name || catLabel(item.category) || "Part").slice(0, 120);
+    const img = imgUrl
+      ? `<img class="st-img" src="${escapeAttr(imgUrl)}"${fallback ? ` data-fallback="${escapeAttr(fallback)}"` : ""} alt="${escapeAttr(imgAlt)}" width="400" height="400" loading="${featured ? "eager" : "lazy"}" decoding="async"${featured ? ' fetchpriority="high"' : ""}>`
+      : fallback
+      ? `<img class="st-img" src="${escapeAttr(fallback)}" alt="${escapeAttr(imgAlt)}" width="400" height="400" loading="${featured ? "eager" : "lazy"}" decoding="async"${featured ? ' fetchpriority="high"' : ""}>`
+      : `<div class="st-card-ph" aria-hidden="true"></div>`;
+    const ribbon = core ? `<span class="st-ribbon">FOR PARTS · UNTESTED · NO RETURNS</span>` : "";
+    const warn = core ? `<p class="st-warn">${escapeHtml(CORE_WARN)}</p>` : "";
+    const cta = core ? "View details - for parts · no returns" : "View details";
+    const tip = core
+      ? "For parts or rebuild only. Untested. No returns. View product details."
+      : "View product details";
+    const checkoutUrl = item.checkout && item.url ? String(item.url) : "";
+    const stockN = Number(item.stock);
+    const stockAttr =
+      Number.isFinite(stockN) && stockN >= 0
+        ? ` data-stock="${escapeAttr(String(Math.floor(stockN)))}"`
+        : "";
+    const addBtn =
+      checkoutUrl && /^https:\/\/(?:[\w-]+\.)?square\.link\//i.test(checkoutUrl)
+        ? `<button type="button" class="st-add-cart pdp-add-cart" data-id="${escapeAttr(id)}" data-title="${escapeAttr(item.name || "")}" data-price="${escapeAttr(priceLabel)}" data-photo="${escapeAttr(imgUrl || fallback)}" data-checkout="${escapeAttr(checkoutUrl)}"${stockAttr}>Add to cart</button>`
+        : "";
+    const vehHint = Array.isArray(item.vehicles)
+      ? item.vehicles.filter(Boolean).slice(0, 2).map(displayHyphen)
+      : [];
+    const xrefHint = cardXrefHint(item);
+    const pn = cardPn(item);
+    const rawN = Number(item.vehicle_count_raw);
+    let fitHint = vehHint.length
+      ? "Fits " + vehHint.join(" · ")
+      : xrefHint
+        ? "Interchange " + String(xrefHint)
+        : "";
+    if (fitHint && Number.isFinite(rawN) && rawN > vehHint.length) {
+      fitHint += ` (${rawN} listed)`;
+    }
+
+    // List.js valueNames: .name .category + data-price / data-rank (search runs via item._blob)
+    return `
+      <article class="st-card${core ? " st-card--core" : ""}${featured ? " st-card--featured" : ""}"
+               data-price="${escapeAttr(price)}"
+               data-id="${escapeAttr(item.id || "")}"
+               data-category="${escapeAttr(item.category || "other")}"
+               data-rank="${rankCat(item.category)}">
+        <a class="st-card-link" href="${escapeAttr(href)}" title="${escapeAttr(tip)}">
+          <div class="st-card-media">${ribbon}${img}</div>
+          <div class="st-card-body">
+            <span class="st-card-cat category">${escapeHtml(itemEbayTree(item).sub || item.ebay_type || catLabel(item.category))}</span>
+            <h3 class="st-card-title name">${escapeHtml(item.name)}</h3>
+            ${pn ? `<p class="st-card-pn" translate="no">${escapeHtml(pn)}</p>` : ""}
+            ${fitHint ? `<p class="st-card-fit">${escapeHtml(fitHint)}</p>` : ""}
+            ${warn}
+            <div class="st-card-foot">
+              <p class="st-card-price">${priceLabel ? escapeHtml(priceLabel) : ""}</p>
+              <span class="st-card-cta">${escapeHtml(cta)}</span>
+            </div>
+          </div>
+        </a>
+        ${addBtn}
+      </article>`;
+  }
+
+  function itemHitsYear(item, year) {
+    if (!year) return true;
+    const y = Number(year);
+    if (!Number.isFinite(y)) return false;
+    const vs = (item.fitment && item.fitment.vehicles) || [];
+    if (
+      vs.some((v) => {
+        if (!v) return false;
+        if (activeMake && slugKey(v.make) !== activeMake) return false;
+        if (activeModel && slugKey(v.model) !== activeModel) return false;
+        if (v.year != null && Number(v.year) === y) return true;
+        const a = v.year_from != null ? Number(v.year_from) : null;
+        const b = v.year_to != null ? Number(v.year_to) : a;
+        return a != null && Number.isFinite(a) && Number.isFinite(b) && y >= a && y <= b;
+      })
+    ) {
+      return true;
+    }
+    return yearHitsFitment(item, y);
+  }
+
+  function itemHitsVehicle(item) {
+    if (isNonVehicleDept(item) && (activeMake || activeModel || activeYear)) return false;
+    if (activeMake && !itemHitsMake(item, activeMake)) return false;
+    if (activeModel && !itemHitsModel(item, activeMake, activeModel)) return false;
+    if (activeYear && !itemHitsYear(item, activeYear)) return false;
+    return true;
+  }
+
+  function catalogCounts() {
+    const counts = { all: 0 };
+    catalog.forEach((i) => {
+      const st = itemStoreTree(i);
+      counts.all++;
+      const k = st.parentSlug;
+      if (!counts[k]) counts[k] = { label: st.parent, n: 0 };
+      counts[k].n++;
+    });
+    return counts;
+  }
+
+  function subCounts(parentSlug) {
+    const counts = {};
+    catalog.forEach((i) => {
+      if (!itemHitsVehicle(i)) return;
+      const st = itemStoreTree(i);
+      if (parentSlug && st.parentSlug !== parentSlug) return;
+      const k = st.subSlug;
+      if (!k) return;
+      if (!counts[k]) counts[k] = { label: st.sub, n: 0 };
+      counts[k].n++;
+    });
+    return counts;
+  }
+
+  function inCurrentDept(i) {
+    if (!itemHitsParent(i, category)) return false;
+    if (activeSub && !itemHitsSub(i, activeSub)) return false;
+    return true;
+  }
+
+  function makeCounts() {
+    const counts = {};
+    catalog.forEach((i) => {
+      if (!inCurrentDept(i)) return;
+      const seen = new Set();
+      ((i.fitment && i.fitment.vehicles) || []).forEach((v) => {
+        const make = (v && v.make) || "";
+        const k = slugKey(make);
+        if (!k || seen.has(k)) return;
+        seen.add(k);
+        if (!counts[k]) counts[k] = { label: make, n: 0 };
+        counts[k].n++;
+      });
+    });
+    return counts;
+  }
+
+  function yearCounts(makeSlug, modelSlug) {
+    const counts = {};
+    if (!makeSlug) return counts;
+    catalog.forEach((i) => {
+      if (!inCurrentDept(i)) return;
+      if (!itemHitsMake(i, makeSlug)) return;
+      if (modelSlug && !itemHitsModel(i, makeSlug, modelSlug)) return;
+      const years = new Set();
+      ((i.fitment && i.fitment.vehicles) || []).forEach((v) => {
+        if (!v || slugKey(v.make) !== makeSlug) return;
+        if (modelSlug && slugKey(v.model) !== modelSlug) return;
+        const a = v.year_from != null ? Number(v.year_from) : v.year != null ? Number(v.year) : NaN;
+        const b = v.year_to != null ? Number(v.year_to) : a;
+        if (!Number.isFinite(a)) return;
+        const y0 = Number.isFinite(b) ? Math.min(a, b) : a;
+        const y1 = Number.isFinite(b) ? Math.max(a, b) : a;
+        if (y1 - y0 > 45) {
+          years.add(y0);
+          years.add(y1);
+          return;
+        }
+        for (let y = y0; y <= y1; y++) years.add(y);
+      });
+      years.forEach((y) => {
+        const k = String(y);
+        if (!counts[k]) counts[k] = { label: k, n: 0 };
+        counts[k].n++;
+      });
+    });
+    return counts;
+  }
+
+  function modelCounts(makeSlug) {
+    const counts = {};
+    if (!makeSlug) return counts;
+    catalog.forEach((i) => {
+      if (!inCurrentDept(i)) return;
+      if (!itemHitsMake(i, makeSlug)) return;
+      const seen = new Set();
+      ((i.fitment && i.fitment.vehicles) || []).forEach((v) => {
+        if (!v || slugKey(v.make) !== makeSlug) return;
+        const model = (v.model || "").trim();
+        const k = slugKey(model);
+        if (!k || seen.has(k)) return;
+        seen.add(k);
+        if (!counts[k]) counts[k] = { label: model, n: 0 };
+        counts[k].n++;
+      });
+    });
+    return counts;
+  }
+
+  function optionHtml(value, label, n) {
+    const text = n != null ? `${label} (${n})` : label;
+    return `<option value="${escapeAttr(value)}">${escapeHtml(text)}</option>`;
+  }
+
+  function renderFacetChips() {
+    const cats = catalogCounts();
+    const catSel = document.getElementById("stCatSelect");
+    if (catSel) {
+      const bits = [optionHtml("all", "All parts", cats.all)];
+      STORE_PARENTS.forEach((p) => {
+        const v = cats[p.slug];
+        if (!v || !v.n) return;
+        bits.push(optionHtml(p.slug, p.label, v.n));
+      });
+      // Rewrite only when the options really changed: replacing the option list of
+      // a select the visitor is using can close its open dropdown.
+      const html = bits.join("");
+      if (catSel.innerHTML !== html) catSel.innerHTML = html;
+      const want = category || "all";
+      catSel.value = [...catSel.options].some((o) => o.value === want) ? want : "all";
+      if (catSel.value !== category) {
+        category = catSel.value || "all";
+        activeSub = "";
+      }
+    }
+
+    const makeGroup = document.getElementById("stMakeGroup");
+    const makeSel = document.getElementById("stMakeSelect");
+    if (makeGroup && makeSel) {
+      if (!isAutoBrowse()) {
+        makeGroup.hidden = true;
+        makeSel.innerHTML = "";
+        activeMake = "";
+        activeModel = "";
+        activeYear = "";
+      } else {
+        const makes = makeCounts();
+        const makeList = Object.entries(makes).sort(
+          (a, b) => b[1].n - a[1].n || a[1].label.localeCompare(b[1].label)
+        );
+        makeGroup.hidden = false;
+        makeSel.innerHTML = [optionHtml("", "Any vehicle")].concat(
+          makeList.map(([k, v]) => optionHtml(k, v.label, v.n))
+        ).join("");
+        makeSel.value = activeMake && [...makeSel.options].some((o) => o.value === activeMake)
+          ? activeMake
+          : "";
+        if (makeSel.value !== activeMake) {
+          activeMake = makeSel.value;
+          activeModel = "";
+        }
+      }
+    }
+
+    const modelGroup = document.getElementById("stModelGroup");
+    const modelSel = document.getElementById("stModelSelect");
+    if (modelGroup && modelSel) {
+      const models = activeMake ? modelCounts(activeMake) : {};
+      const modelList = Object.entries(models).sort(
+        (a, b) => b[1].n - a[1].n || a[1].label.localeCompare(b[1].label)
+      );
+      if (!isAutoBrowse() || !activeMake || modelList.length < 1) {
+        modelGroup.hidden = true;
+        modelSel.innerHTML = "";
+        if (!isAutoBrowse()) activeModel = "";
+        else if (!activeMake) activeModel = "";
+      } else {
+        modelGroup.hidden = false;
+        modelSel.innerHTML = [optionHtml("", "Any model")].concat(
+          modelList.map(([k, v]) => optionHtml(k, v.label, v.n))
+        ).join("");
+        modelSel.value = activeModel && [...modelSel.options].some((o) => o.value === activeModel)
+          ? activeModel
+          : "";
+        if (modelSel.value !== activeModel) activeModel = modelSel.value;
+      }
+    }
+
+    const yearGroup = document.getElementById("stYearGroup");
+    const yearSel = document.getElementById("stYearSelect");
+    if (yearGroup && yearSel) {
+      const years = activeMake ? yearCounts(activeMake, activeModel) : {};
+      const yearList = Object.entries(years).sort((a, b) => Number(b[0]) - Number(a[0]));
+      if (!isAutoBrowse() || !activeMake || yearList.length < 1) {
+        yearGroup.hidden = true;
+        yearSel.innerHTML = "";
+        if (!isAutoBrowse() || !activeMake) activeYear = "";
+      } else {
+        yearGroup.hidden = false;
+        yearSel.innerHTML = [optionHtml("", "Any year")].concat(
+          yearList.map(([k, v]) => optionHtml(k, v.label, v.n))
+        ).join("");
+        yearSel.value = activeYear && [...yearSel.options].some((o) => o.value === activeYear)
+          ? activeYear
+          : "";
+        if (yearSel.value !== activeYear) activeYear = yearSel.value;
+      }
+    }
+
+    const typeGroup = document.getElementById("stTypeGroup");
+    const typeSel = document.getElementById("stTypeSelect");
+    if (typeGroup && typeSel) {
+      const parentOn = category && category !== "all";
+      const types = parentOn ? subCounts(category) : {};
+      const typeList = Object.entries(types).sort(
+        (a, b) => b[1].n - a[1].n || a[1].label.localeCompare(b[1].label)
+      );
+      if (!parentOn || typeList.length < 2) {
+        typeGroup.hidden = true;
+        typeSel.innerHTML = "";
+        if (typeList.length < 2) activeSub = "";
+      } else {
+        typeGroup.hidden = false;
+        typeSel.innerHTML = [optionHtml("", "Any type")].concat(
+          typeList.map(([k, v]) => optionHtml(k, SUB_LABEL[k] || v.label, v.n))
+        ).join("");
+        typeSel.value = activeSub && [...typeSel.options].some((o) => o.value === activeSub)
+          ? activeSub
+          : "";
+        if (typeSel.value !== activeSub) activeSub = typeSel.value;
+      }
+    }
+  }
+
+  function fillCounts() {
+    renderFacetChips();
+  }
+
+  function updateShowing() {
+    const meta = document.getElementById("stResultMeta");
+    const showing = document.getElementById("stShowing");
+    if (!list || prefiltering) return;
+    const matching = list.matchingItems.length;
+    // list.i / list.page can be strings (List.js reads data attrs) — coerce before math
+    const i = Number(list.i) || 1; // 1-based start index of page
+    const page = Number(list.page) || pageSize;
+    const from = matching === 0 ? 0 : i;
+    const to = Math.min(i + page - 1, matching);
+    const text =
+      matching === 0
+        ? "No matches. Try another search or clear filters"
+        : `Showing ${from}-${to} of ${matching}` + (fuzzyNote ? ` · ${fuzzyNote}` : "");
+    if (meta) meta.textContent = partsCount(matching);
+    if (showing) showing.textContent = text;
+    renderActiveTags();
+    const heading = document.getElementById("stHeading");
+    if (heading) {
+      const parent = STORE_PARENTS.find((p) => p.slug === category);
+      heading.textContent = parent ? parent.label : "All parts";
+    }
+    updateEmptyState(matching);
+  }
+
+  function partsCount(n) {
+    if (!n) return "No matches";
+    return `${Number(n).toLocaleString("en-US")} ${n === 1 ? "part" : "parts"}`;
+  }
+
+  /** Visible text of a facet select's current option, without the "(n)" count. */
+  function selectedLabel(id) {
+    const sel = document.getElementById(id);
+    const opt = sel && sel.selectedOptions && sel.selectedOptions[0];
+    return opt ? opt.textContent.replace(/\s*\(\d+\)\s*$/, "").trim() : "";
+  }
+
+  /** Active filters as removable tags; each × button clears only its own filter. */
+  function renderActiveTags() {
+    const box = document.getElementById("stActiveTags");
+    if (!box) return;
+    const tags = [];
+    if (category && category !== "all") {
+      tags.push(["cat", selectedLabel("stCatSelect") || "Category"]);
+    }
+    if (activeSub) tags.push(["sub", selectedLabel("stTypeSelect") || "Type"]);
+    if (activeMake) tags.push(["make", selectedLabel("stMakeSelect") || "Vehicle"]);
+    if (activeModel) tags.push(["model", selectedLabel("stModelSelect") || "Model"]);
+    if (activeYear) tags.push(["year", selectedLabel("stYearSelect") || activeYear]);
+    if (priceMin != null || priceMax != null) {
+      const lo = priceMin != null ? money(priceMin) : "";
+      const hi = priceMax != null ? money(priceMax) : "";
+      const label = lo && hi ? `${lo} - ${hi}` : lo ? `${lo} and up` : `Up to ${hi}`;
+      tags.push(["price", label]);
+    }
+    const q = (document.getElementById("stSearch")?.value || "").trim();
+    if (q) tags.push(["q", `“${q.slice(0, 40)}”`]);
+
+    box.innerHTML = tags
+      .map(
+        ([key, label]) =>
+          `<li><button type="button" class="st-tag" data-clear="${escapeAttr(key)}" aria-label="Remove filter: ${escapeAttr(label)}">` +
+          `<span class="st-tag-text">${escapeHtml(label)}</span><span class="st-tag-x" aria-hidden="true">×</span></button></li>`
+      )
+      .join("");
+    box.hidden = tags.length === 0;
+    const clearAll = document.getElementById("stClearFilters");
+    if (clearAll) clearAll.hidden = tags.length < 2;
+    const toggle = document.getElementById("stFiltersToggle");
+    if (toggle) toggle.textContent = tags.length ? `Filters (${tags.length})` : "Filters";
+  }
+
+  function clearOneFilter(key) {
+    const fire = (id, value, type = "change") => {
+      const el = document.getElementById(id);
+      if (!el) return;
+      el.value = value;
+      el.dispatchEvent(new Event(type, { bubbles: true }));
+    };
+    if (key === "cat") fire("stCatSelect", "all");
+    else if (key === "sub") fire("stTypeSelect", "");
+    else if (key === "make") fire("stMakeSelect", "");
+    else if (key === "model") fire("stModelSelect", "");
+    else if (key === "year") fire("stYearSelect", "");
+    else if (key === "q") fire("stSearch", "", "input");
+    else if (key === "price") {
+      const minEl = document.getElementById("stPriceMin");
+      const maxEl = document.getElementById("stPriceMax");
+      if (minEl) minEl.value = "";
+      if (maxEl) maxEl.value = "";
+      clearTimeout(priceTimer);
+      readFacetPrices();
+      applyFilters();
+    }
+  }
+
+  /** In-grid empty state with clear-filters affordance when zero matches. */
+  function updateEmptyState(matching) {
+    const grid = document.getElementById("stGrid");
+    if (!grid) return;
+    let empty = document.getElementById("stEmptyState");
+    if (matching > 0) {
+      if (empty) empty.remove();
+      return;
+    }
+    if (!empty) {
+      empty = document.createElement("div");
+      empty.id = "stEmptyState";
+      empty.className = "st-empty st-empty--panel";
+      empty.setAttribute("role", "status");
+      empty.innerHTML =
+        '<p class="st-empty-msg"></p>' +
+        '<p class="st-empty-hint">Check the number, or browse everything in stock.</p>' +
+        '<div class="st-empty-actions">' +
+        '<button type="button" class="btn btn-secondary" id="stEmptyClear">Browse all parts</button>' +
+        '<a class="link-gold" href="catalog.html">Shop by category</a>' +
+        "</div>";
+      grid.appendChild(empty);
+      empty.querySelector("#stEmptyClear")?.addEventListener("click", () => {
+        document.getElementById("stClearFilters")?.click();
+      });
+    }
+    // Not found: name what was searched so the visitor knows the number was read.
+    const q = (document.getElementById("stSearch")?.value || "").trim().slice(0, 60);
+    const msg = empty.querySelector(".st-empty-msg");
+    if (msg) {
+      msg.textContent = q
+        ? `Not found: no part in stock matches “${q}”.`
+        : "No parts match these filters.";
+    }
+  }
+
+  /**
+   * Unified search + category + price (facets and/or amount-query).
+   * Fixes List.js fight: search alone wiped mental model of min/max;
+   * "$50" used to fail because $ is regex-escaped and price wasn't indexed.
+   */
+  function applyFilters() {
+    if (!list) return;
+    const rawQ = document.getElementById("stSearch")?.value || "";
+    const amountQ = parseAmountQuery(rawQ);
+
+    let min = priceMin;
+    let max = priceMax;
+    let textQ = rawQ.trim();
+
+    if (amountQ) {
+      // Amount-intent query → price bounds (stack tighter with facets)
+      if (amountQ.min != null) {
+        min = min == null ? amountQ.min : Math.max(min, amountQ.min);
+      }
+      if (amountQ.max != null) {
+        max = max == null ? amountQ.max : Math.min(max, amountQ.max);
+      }
+      if (min != null && max != null && min > max) [min, max] = [max, min];
+      textQ = ""; // don't also substring-search "$50"
+      const hint = document.getElementById("stPriceHint");
+      if (hint) {
+        const lo = min != null ? money(min) : "any";
+        const hi = max != null ? money(max) : "any";
+        hint.textContent = `Search amount: ${lo} - ${hi}`;
+      }
+    } else {
+      readFacetPrices();
+    }
+
+    // Do not use List.js search() — hyphenated PNs are treated as regex (W01-358-8091).
+    if (list.searched) list.search("");
+    const fuzzy = fuzzyTokenHits(textQ);
+
+    list.filter((item) => {
+      const el = item.elm;
+      if (!el) return false;
+      const rec = byId.get(el.getAttribute("data-id") || "") || null;
+      if (category !== "all") {
+        if (!rec || !itemHitsParent(rec, category)) return false;
+      }
+      if (rec && isNonVehicleDept(rec) && (activeMake || activeModel || activeYear)) {
+        return false;
+      }
+      if (activeSub) {
+        if (!rec || !itemHitsSub(rec, activeSub)) return false;
+      }
+      if (activeMake) {
+        if (!rec || !itemHitsMake(rec, activeMake)) return false;
+      }
+      if (activeModel) {
+        if (!rec || !itemHitsModel(rec, activeMake, activeModel)) return false;
+      }
+      if (activeYear) {
+        if (!rec || !itemHitsYear(rec, activeYear)) return false;
+      }
+      if (textQ && rec && !itemHitsQuery(rec, textQ, fuzzy)) return false;
+      if (textQ && !rec) return false;
+      const p = parseFloat(el.getAttribute("data-price"));
+      const hasPrice = Number.isFinite(p);
+      if (min != null) {
+        if (!hasPrice || p < min) return false;
+      }
+      if (max != null) {
+        if (!hasPrice || p > max) return false;
+      }
+      return true;
+    });
+    updateShowing();
+    paintHoldPlate(min, max, textQ);
+    paintVehicleClear();
+    syncUrl();
+  }
+
+  function paintHoldPlate(min, max, textQ) {
+    const plate = document.getElementById("holdPlate");
+    if (!plate || !catalog.length) return;
+    const hits = catalog.filter((item) => {
+      if (!itemHitsParent(item, category)) return false;
+      if (activeSub && !itemHitsSub(item, activeSub)) return false;
+      if (!itemHitsVehicle(item)) return false;
+      if (textQ && !itemHitsQuery(item, textQ)) return false;
+      const p = item.price != null ? Number(item.price) : NaN;
+      if (min != null && (!Number.isFinite(p) || p < min)) return false;
+      if (max != null && (!Number.isFinite(p) || p > max)) return false;
+      return true;
+    });
+    const item = hits[0];
+    if (!item) {
+      plate.hidden = true;
+      return;
+    }
+    const id = String(item.id || "");
+    const href = `p/${encodeURIComponent(pdpSlugs[id] || id)}.html`;
+    const img = document.getElementById("holdPlateImg");
+    const link = document.getElementById("holdPlateLink");
+    const cta = document.getElementById("holdPlateCta");
+    const title = document.getElementById("holdPlateTitle");
+    const pn = document.getElementById("holdPlatePn");
+    const price = document.getElementById("holdPlatePrice");
+    const kicker = document.getElementById("holdPlateKicker");
+    const src = cardImageUrl(item) || safeImageUrl(item && item.image) || "";
+    if (img && src) {
+      img.src = src;
+      img.alt = (item.name || "Part").slice(0, 120);
+    }
+    if (link) link.href = href;
+    if (cta) cta.href = href;
+    if (title) title.textContent = item.name || "Part";
+    const pnText = cardXrefHint(item);
+    if (pn) pn.textContent = pnText ? "PN " + pnText : "";
+    if (price) price.textContent = money(item.price) || "";
+    if (kicker) {
+      const parent = STORE_PARENTS.find((p) => p.slug === category);
+      kicker.textContent = parent ? "On the hold · " + parent.label : "On the hold";
+    }
+    plate.hidden = false;
+  }
+
+  // List.js multiplies sortFunction result by order (±1) — return ASC comparison only.
+  function numSort(key, order) {
+    list.sort(key, {
+      order: order === "desc" ? "desc" : "asc",
+      sortFunction(a, b) {
+        const av = parseFloat(a.values()[key]);
+        const bv = parseFloat(b.values()[key]);
+        const an = Number.isFinite(av) ? av : 0;
+        const bn = Number.isFinite(bv) ? bv : 0;
+        if (an === bn) {
+          const na = (a.values().name || "").toString();
+          const nb = (b.values().name || "").toString();
+          return na.localeCompare(nb);
+        }
+        return an < bn ? -1 : 1;
+      },
+    });
+  }
+
+  function applySort(mode) {
+    if (!list) return;
+    if (mode === "price-asc") {
+      numSort("price", "asc");
+    } else if (mode === "price-desc") {
+      numSort("price", "desc");
+    } else if (mode === "name-asc") {
+      list.sort("name", { order: "asc" });
+    } else if (mode === "name-desc") {
+      list.sort("name", { order: "desc" });
+    } else {
+      // Featured: category rank (cores first) then name
+      numSort("rank", "asc");
+    }
+    updateShowing();
+  }
+
+  let listBuild = 0;
+  // True from a filtered first paint until List.js has applied the same filter:
+  // the half-indexed list must not repaint counts or cards in between.
+  let prefiltering = false;
+
+  function mountList(build) {
+    if (typeof List === "undefined") {
+      console.error("[store] List.js not loaded");
+      return;
+    }
+    if (build != null && build !== listBuild) return;
+    document
+      .querySelectorAll("#stGrid .st-card--pending")
+      .forEach((el) => el.classList.remove("st-card--pending"));
+    // The first-paint not-found panel is not a product card: keep it out of the List.js parse.
+    const notFound = document.getElementById("stEmptyState");
+    if (notFound) notFound.remove();
+    const onParseDone = () => {
+      if (build != null && build !== listBuild) return;
+      if (!list) return;
+      updateShowing();
+      setTimeout(() => {
+        if (build != null && build !== listBuild) return;
+        if (!list) return;
+        const sortMode = document.getElementById("stSort")?.value || "featured";
+        // Initial DOM is already sorted in "featured" order (rank asc, name asc).
+        if (sortMode !== "featured") {
+          applySort(sortMode);
+        }
+        const rawQ = (document.getElementById("stSearch")?.value || "").trim();
+        const hasInitialFilters =
+          category !== "all" ||
+          Boolean(activeSub || activeMake || activeModel || activeYear) ||
+          priceMin != null ||
+          priceMax != null ||
+          Boolean(rawQ);
+        prefiltering = false;
+        if (hasInitialFilters) {
+          applyFilters();
+        } else {
+          paintHoldPlate(null, null, "");
+        }
+        // List.js now decides what shows; first-paint hiding no longer applies.
+        list.items.forEach((it) => it.elm && it.elm.classList.remove("st-card--prefiltered"));
+        if (window.BucCart && typeof window.BucCart.refresh === "function") {
+          window.BucCart.refresh();
+        }
+        // Every item is indexed and counted: tests and tooling wait on this.
+        document.getElementById("stGrid")?.setAttribute("data-list-ready", "");
+      }, 0);
+    };
+
+    list = new List("storeList", {
+      indexAsync: true,
+      valueNames: [
+        "name",
+        "category",
+        { data: ["price", "rank"] },
+      ],
+      searchColumns: ["name", "category"],
+      page: pageSize,
+      pagination: {
+        innerWindow: 1,
+        outerWindow: 1,
+        left: 1,
+        right: 1,
+        paginationClass: "pagination",
+        item: "<li><button type='button' class='page'></button></li>",
+      },
+    });
+    // List.js copied the child list above, so the panel can go straight back.
+    if (notFound) document.getElementById("stGrid")?.appendChild(notFound);
+    list.on("parseComplete", onParseDone);
+    list.on("updated", () => {
+      updateShowing();
+      recoverBrokenThumbs(document.getElementById("stGrid"));
+    });
+    list.on("searchComplete", updateShowing);
+    list.on("filterComplete", updateShowing);
+    updateShowing();
+  }
+
+  /**
+   * Record-level copy of the applyFilters test, for the first paint while
+   * List.js is still indexing. Null when no filter is active.
+   */
+  function initialFilterTest() {
+    const rawQ = (document.getElementById("stSearch")?.value || "").trim();
+    const amountQ = parseAmountQuery(rawQ);
+    let min = priceMin;
+    let max = priceMax;
+    let textQ = rawQ;
+    if (amountQ) {
+      if (amountQ.min != null) min = min == null ? amountQ.min : Math.max(min, amountQ.min);
+      if (amountQ.max != null) max = max == null ? amountQ.max : Math.min(max, amountQ.max);
+      if (min != null && max != null && min > max) [min, max] = [max, min];
+      textQ = "";
+    }
+    const vehicle = Boolean(activeMake || activeModel || activeYear);
+    if (category === "all" && !activeSub && !vehicle && min == null && max == null && !textQ) {
+      return null;
+    }
+    const fuzzy = fuzzyTokenHits(textQ);
+    return (rec) => {
+      if (category !== "all" && !itemHitsParent(rec, category)) return false;
+      if (isNonVehicleDept(rec) && vehicle) return false;
+      if (activeSub && !itemHitsSub(rec, activeSub)) return false;
+      if (activeMake && !itemHitsMake(rec, activeMake)) return false;
+      if (activeModel && !itemHitsModel(rec, activeMake, activeModel)) return false;
+      if (activeYear && !itemHitsYear(rec, activeYear)) return false;
+      if (textQ && !itemHitsQuery(rec, textQ, fuzzy)) return false;
+      const p = parseFloat(rec.price);
+      if (min != null && (!Number.isFinite(p) || p < min)) return false;
+      if (max != null && (!Number.isFinite(p) || p > max)) return false;
+      return true;
+    };
+  }
+
+  function initList() {
+    if (typeof List === "undefined") {
+      console.error("[store] List.js not loaded");
+      return;
+    }
+    const grid = document.getElementById("stGrid");
+    if (!grid) return;
+
+    const build = ++listBuild;
+    list = null;
+    grid.removeAttribute("data-list-ready");
+
+    // Sort catalog for initial DOM order (featured)
+    const ordered = catalog.slice().sort(
+      (a, b) =>
+        rankCat(a.category) - rankCat(b.category) ||
+        (a.name || "").localeCompare(b.name || "")
+    );
+    const gridNearFold = grid.getBoundingClientRect().top < window.innerHeight * 1.25;
+    const eagerN = !gridNearFold
+      ? 0
+      : window.matchMedia("(min-width: 900px)").matches
+        ? 8
+        : window.matchMedia("(min-width: 560px)").matches
+          ? 4
+          : 2;
+    // First paint: one page. Rest of the catalog in idle chunks so TBT stays under 50ms/task.
+    // With a search or filter in the link, the first page is the matches (cards that
+    // do not match are painted hidden so DOM order stays the featured order).
+    const pass = initialFilterTest();
+    prefiltering = Boolean(pass);
+    let firstN = Math.min(pageSize, ordered.length);
+    let total = ordered.length;
+    let firstHtml;
+    if (pass) {
+      const hit = ordered.map(pass);
+      total = hit.filter(Boolean).length;
+      let shown = 0;
+      firstN = 0;
+      while (firstN < ordered.length && shown < Math.min(pageSize, total)) {
+        if (hit[firstN]) shown++;
+        firstN++;
+      }
+      let eager = 0;
+      firstHtml = ordered
+        .slice(0, firstN)
+        .map((i, idx) =>
+          hit[idx]
+            ? cardHtml(i, { featured: eager++ < eagerN })
+            : cardHtml(i).replace('class="st-card', 'class="st-card st-card--prefiltered')
+        )
+        .join("");
+    } else {
+      firstHtml = ordered
+        .slice(0, firstN)
+        .map((i, idx) => cardHtml(i, { featured: idx < eagerN }))
+        .join("");
+    }
+    grid.innerHTML = firstHtml;
+    const shownN = Math.min(pageSize, total);
+    const bootText = total
+      ? `Showing 1-${shownN} of ${total}`
+      : "No matches. Try another search or clear filters";
+    const metaEl = document.getElementById("stResultMeta");
+    const showEl = document.getElementById("stShowing");
+    if (metaEl) metaEl.textContent = total ? partsCount(total) : "No matches";
+    if (showEl) showEl.textContent = bootText;
+    if (pass && !total) updateEmptyState(0);
+    // URL ?q= (or a restored search box) is a pre-applied filter: show its
+    // tag + clear button now, not only after List.js mounts.
+    renderActiveTags();
+    bindThumbFallbacks(grid);
+    if (window.BucCart && typeof window.BucCart.refresh === "function") {
+      window.BucCart.refresh();
+    }
+
+    let offset = firstN;
+    const CHUNK = 12;
+    const idle = window.requestIdleCallback
+      ? (fn) => window.requestIdleCallback(fn, { timeout: 32 })
+      : (fn) => setTimeout(fn, 8);
+
+    function pump() {
+      if (build !== listBuild) return;
+      if (offset >= ordered.length) {
+        setTimeout(() => mountList(build), 0);
+        return;
+      }
+      const end = Math.min(offset + CHUNK, ordered.length);
+      const html = ordered
+        .slice(offset, end)
+        .map((i) =>
+          cardHtml(i, { featured: false }).replace(
+            'class="st-card',
+            pass && !pass(i)
+              ? 'class="st-card st-card--pending st-card--prefiltered'
+              : 'class="st-card st-card--pending'
+          )
+        )
+        .join("");
+      grid.insertAdjacentHTML("beforeend", html);
+      recoverBrokenThumbs(grid);
+      offset = end;
+      idle(pump);
+    }
+    idle(pump);
+  }
+
+  function reinitWithPageSize(n) {
+    pageSize = n;
+    if (list) {
+      list.page = n;
+      list.i = 1;
+      list.update();
+      updateShowing();
+      recoverBrokenThumbs(document.getElementById("stGrid"));
+      return;
+    }
+    readFacetPrices();
+    initList();
+  }
+
+  // ── Shareable filters (URL) and the remembered vehicle ──────────────
+  // The URL carries only facet slugs, the price facets and the search text.
+  const VEHICLE_KEY = "buc.store.vehicle";
+  let urlMode = "replace"; // what the next applyFilters does to history: push | replace | none
+
+  function urlSlug(s) {
+    return slugKey(s).slice(0, 80);
+  }
+
+  function urlYear(s) {
+    const y = String(s || "").trim();
+    return /^(?:19|20)\d{2}$/.test(y) ? y : "";
+  }
+
+  function stateFromUrl(search) {
+    let p;
+    try {
+      p = new URLSearchParams(search || "");
+    } catch (_) {
+      p = new URLSearchParams("");
+    }
+    return {
+      q: String(p.get("q") || "").slice(0, 120),
+      cat: urlSlug(p.get("cat")) || "all",
+      type: urlSlug(p.get("type")),
+      make: urlSlug(p.get("make")),
+      model: urlSlug(p.get("model")),
+      year: urlYear(p.get("year")),
+      min: parseMoneyInput(p.get("min")),
+      max: parseMoneyInput(p.get("max")),
+      named: ["make", "model", "year"].some((k) => p.has(k)),
+    };
+  }
+
+  function urlFromState() {
+    const p = new URLSearchParams();
+    const q = (document.getElementById("stSearch")?.value || "").trim();
+    if (q) p.set("q", q.slice(0, 120));
+    if (category && category !== "all") p.set("cat", category);
+    if (activeSub) p.set("type", activeSub);
+    if (activeMake) p.set("make", activeMake);
+    if (activeModel) p.set("model", activeModel);
+    if (activeYear) p.set("year", activeYear);
+    if (priceMin != null) p.set("min", String(priceMin));
+    if (priceMax != null) p.set("max", String(priceMax));
+    const s = p.toString();
+    return location.pathname + (s ? `?${s}` : "") + location.hash;
+  }
+
+  function syncUrl() {
+    const mode = urlMode;
+    urlMode = "replace";
+    if (mode === "none" || !window.history || !history.replaceState) return;
+    const next = urlFromState();
+    const cur = location.pathname + location.search + location.hash;
+    if (next === cur) return;
+    try {
+      if (mode === "push") history.pushState({ store: 1 }, "", next);
+      else history.replaceState(history.state, "", next);
+    } catch (_) {
+      /* sandboxed frame: filters still work, the URL just does not follow */
+    }
+  }
+
+  /** Put a URL / history state into the controls. Facets are re-validated by renderFacetChips. */
+  function applyState(st) {
+    category = st.cat || "all";
+    activeSub = st.type || "";
+    activeMake = st.make || "";
+    activeModel = activeMake ? st.model || "" : "";
+    activeYear = activeMake ? st.year || "" : "";
+    priceMin = st.min;
+    priceMax = st.max;
+    const minEl = document.getElementById("stPriceMin");
+    const maxEl = document.getElementById("stPriceMax");
+    if (minEl) minEl.value = st.min != null ? String(st.min) : "";
+    if (maxEl) maxEl.value = st.max != null ? String(st.max) : "";
+    const search = document.getElementById("stSearch");
+    if (search) search.value = st.q || "";
+  }
+
+  function loadVehicle() {
+    try {
+      const raw = JSON.parse(localStorage.getItem(VEHICLE_KEY) || "null");
+      if (!raw || typeof raw !== "object") return null;
+      const make = urlSlug(raw.make);
+      if (!make) return null;
+      return { make, model: urlSlug(raw.model), year: urlYear(raw.year) };
+    } catch (_) {
+      return null;
+    }
+  }
+
+  /** Mirror the chosen vehicle to this device. No make = forget it. */
+  function rememberVehicle() {
+    try {
+      if (activeMake) {
+        localStorage.setItem(
+          VEHICLE_KEY,
+          JSON.stringify({ make: activeMake, model: activeModel, year: activeYear })
+        );
+      } else {
+        localStorage.removeItem(VEHICLE_KEY);
+      }
+    } catch (_) {
+      /* storage blocked: the vehicle is simply not remembered */
+    }
+  }
+
+  function paintVehicleClear() {
+    const btn = document.getElementById("stVehicleClear");
+    if (!btn) return;
+    const label = activeMake
+      ? [activeYear, selectedLabel("stMakeSelect"), activeModel ? selectedLabel("stModelSelect") : ""]
+          .filter(Boolean)
+          .join(" ")
+      : "";
+    btn.hidden = !activeMake;
+    btn.textContent = "Clear vehicle";
+    btn.setAttribute("aria-label", label ? `Clear vehicle: ${label}` : "Clear vehicle");
+  }
+
+  // ── Typo-tolerant words (MiniSearch, self-hosted) ───────────────────
+  // A word with no exact hit anywhere in the catalog falls back to a close
+  // spelling. Any token with a digit (part numbers, years) stays exact.
+  let fuzzyIndex = null;
+  let fuzzyNote = "";
+
+  function getFuzzyIndex() {
+    if (fuzzyIndex || typeof MiniSearch === "undefined") return fuzzyIndex;
+    fuzzyIndex = new MiniSearch({ fields: ["text"], idField: "id" });
+    fuzzyIndex.addAll(
+      catalog.map((i) => ({
+        id: String(i.id || ""),
+        text: i._blob || (i._blob = buildSearchBlob(i)),
+      }))
+    );
+    return fuzzyIndex;
+  }
+
+  function tokenHasExactHit(tok) {
+    const alts = tokenAlts(tok);
+    return catalog.some((i) => {
+      const blob = i._blob || (i._blob = buildSearchBlob(i));
+      const compactBlob = i._compactBlob || (i._compactBlob = compactToken(blob));
+      return alts.some((a) => altHitsBlob(blob, compactBlob, a));
+    });
+  }
+
+  /** tok -> Set of item ids that match a close spelling of tok. */
+  // The result depends only on the query and the catalog, so facet and price
+  // changes reuse it instead of rescanning every item per token.
+  let fuzzyMemo = { q: null, catalog: null, out: null, note: "" };
+  function fuzzyTokenHits(textQ) {
+    const q = String(textQ || "").trim().toLowerCase();
+    if (fuzzyMemo.q === q && fuzzyMemo.catalog === catalog) {
+      fuzzyNote = fuzzyMemo.note;
+      return fuzzyMemo.out;
+    }
+    const out = Object.create(null);
+    fuzzyNote = "";
+    fuzzyMemo = { q, catalog, out, note: "" };
+    if (!q) return out;
+    const missed = [];
+    queryTokens(q).forEach((tok) => {
+      if (/\d/.test(tok) || tok.length < 4 || tokenHasExactHit(tok)) return;
+      const idx = getFuzzyIndex();
+      if (!idx) return;
+      const ids = new Set(idx.search(tok, { fuzzy: 0.2 }).map((r) => String(r.id)));
+      if (ids.size) {
+        out[tok] = ids;
+        missed.push(tok);
+      }
+    });
+    fuzzyNote = missed.length ? `Close matches for “${missed.join(" ").slice(0, 40)}”` : "";
+    fuzzyMemo.note = fuzzyNote;
+    return out;
+  }
+
+  function onPopState() {
+    if (!list) return;
+    applyState(stateFromUrl(location.search));
+    renderFacetChips();
+    rememberVehicle();
+    urlMode = "none";
+    applyFilters();
+  }
+
+  function wireControls() {
+    window.addEventListener("popstate", onPopState);
+    document.getElementById("stVehicleClear")?.addEventListener("click", () => {
+      const sel = document.getElementById("stMakeSelect");
+      if (!sel) return;
+      sel.value = "";
+      sel.dispatchEvent(new Event("change", { bubbles: true }));
+      sel.focus();
+    });
+
+    document.getElementById("stActiveTags")?.addEventListener("click", (e) => {
+      const btn = e.target.closest("button[data-clear]");
+      if (!btn) return;
+      const li = btn.closest("li");
+      const sibling = li && (li.nextElementSibling || li.previousElementSibling);
+      const nextKey = sibling ? sibling.querySelector("button")?.getAttribute("data-clear") : "";
+      clearOneFilter(btn.getAttribute("data-clear"));
+      // Keep keyboard focus in the tag row (the clicked button was re-rendered away)
+      const again = nextKey
+        ? document.querySelector(`#stActiveTags button[data-clear="${nextKey}"]`)
+        : null;
+      (again || document.getElementById("stResultMeta"))?.focus();
+    });
+
+    document.getElementById("stMakeSelect")?.addEventListener("change", (e) => {
+      activeMake = e.target.value || "";
+      activeModel = "";
+      activeYear = "";
+      renderFacetChips();
+      rememberVehicle();
+      urlMode = "push";
+      applyFilters();
+      const next = document.getElementById("stModelGroup");
+      if (next && !next.hidden) {
+        next.scrollIntoView({ block: "nearest", behavior: "smooth" });
+      }
+    });
+    document.getElementById("stModelSelect")?.addEventListener("change", (e) => {
+      activeModel = e.target.value || "";
+      activeYear = "";
+      renderFacetChips();
+      rememberVehicle();
+      urlMode = "push";
+      applyFilters();
+    });
+    document.getElementById("stYearSelect")?.addEventListener("change", (e) => {
+      activeYear = e.target.value || "";
+      renderFacetChips();
+      rememberVehicle();
+      urlMode = "push";
+      applyFilters();
+    });
+    document.getElementById("stCatSelect")?.addEventListener("change", (e) => {
+      category = e.target.value || "all";
+      activeSub = "";
+      if (!isAutoBrowse()) {
+        activeMake = "";
+        activeModel = "";
+        activeYear = "";
+      }
+      renderFacetChips();
+      rememberVehicle();
+      urlMode = "push";
+      applyFilters();
+      const next = document.getElementById("stTypeGroup");
+      if (next && !next.hidden) {
+        next.scrollIntoView({ block: "nearest", behavior: "smooth" });
+      }
+    });
+    document.getElementById("stTypeSelect")?.addEventListener("change", (e) => {
+      activeSub = e.target.value || "";
+      renderFacetChips();
+      urlMode = "push";
+      applyFilters();
+    });
+
+    const applyPriceFacets = (mode) => {
+      readFacetPrices();
+      urlMode = mode === "replace" ? "replace" : "push";
+      applyFilters();
+    };
+
+    document.getElementById("stPriceApply")?.addEventListener("click", () => applyPriceFacets());
+
+    // Live min/max (debounced) + Enter — type "$50" or "20" in either box
+    ["stPriceMin", "stPriceMax"].forEach((id) => {
+      const el = document.getElementById(id);
+      if (!el) return;
+      el.addEventListener("input", () => {
+        clearTimeout(priceTimer);
+        priceTimer = setTimeout(() => applyPriceFacets("replace"), 220);
+      });
+      el.addEventListener("keydown", (e) => {
+        if (e.key === "Enter") {
+          e.preventDefault();
+          clearTimeout(priceTimer);
+          applyPriceFacets();
+        }
+      });
+      el.addEventListener("blur", () => applyPriceFacets());
+    });
+
+    document.getElementById("stClearFilters")?.addEventListener("click", () => {
+      category = "all";
+      activeSub = "";
+      activeMake = "";
+      activeModel = "";
+      activeYear = "";
+      priceMin = null;
+      priceMax = null;
+      renderFacetChips();
+      const minEl = document.getElementById("stPriceMin");
+      const maxEl = document.getElementById("stPriceMax");
+      if (minEl) minEl.value = "";
+      if (maxEl) maxEl.value = "";
+      const search = document.getElementById("stSearch");
+      if (search) search.value = "";
+      const hint = document.getElementById("stPriceHint");
+      if (hint) {
+        hint.textContent =
+          "Min, max, or search under 40.";
+      }
+      if (list) {
+        list.search("");
+        list.filter(); // clear filter flags
+      }
+      rememberVehicle();
+      urlMode = "push";
+      applyFilters();
+      applySort(document.getElementById("stSort")?.value || "featured");
+    });
+
+    document.getElementById("stSort")?.addEventListener("change", (e) => {
+      applySort(e.target.value || "featured");
+    });
+
+    document.getElementById("stPageSize")?.addEventListener("change", (e) => {
+      const n = parseInt(e.target.value, 10) || DEFAULT_PAGE;
+      reinitWithPageSize(n);
+    });
+
+    // Drive search through applyFilters so price facets + amount queries stack
+    // (List.js also binds .search keyup — our path re-applies category/price after)
+    document.getElementById("stSearch")?.addEventListener("input", () => {
+      if (!list) return;
+      // First keystroke of a new search is a history step; the rest refine it.
+      urlMode = stateFromUrl(location.search).q ? "replace" : "push";
+      applyFilters();
+    });
+    document.getElementById("stSearch")?.addEventListener("keydown", (e) => {
+      if (e.key === "Enter") {
+        e.preventDefault();
+        const direct = exactPnItems(e.target.value);
+        if (direct.length === 1) {
+          location.assign(pdpHref(direct[0]));
+          return;
+        }
+        applyFilters();
+      }
+    });
+  }
+
+  async function boot() {
+    const countEl = document.getElementById("stCount");
+    try {
+      const slugP = fetch(SLUGS_URL, { cache: "no-cache" })
+        .then((r) => (r.ok ? r.json() : {}))
+        .catch(() => ({}));
+      const res = await fetch(CATALOG_URL, { cache: "no-cache" });
+      if (!res.ok) throw new Error(`catalog ${res.status}`);
+      const data = await res.json();
+      const slugs = await slugP;
+      if (slugs && typeof slugs === "object" && !Array.isArray(slugs)) {
+        pdpSlugs = slugs;
+      }
+      await new Promise((r) => setTimeout(r, 0));
+      catalog = (Array.isArray(data.items) ? data.items : []).filter(
+        (i) => Number(i.price) > 0 && /^[A-Z0-9]{16,32}$/.test(String(i.id || ""))
+      );
+      byId = new Map(catalog.map((i) => [String(i.id || ""), i]));
+      if (countEl) {
+        countEl.textContent = `${catalog.length} listings`;
+      }
+      // Shared link first; with no vehicle in the link, the one saved on this device.
+      const boot = stateFromUrl(location.search);
+      // A bare part-number search (home page box) that names one listing opens it.
+      const onlyQ =
+        boot.q && boot.cat === "all" && !boot.type && !boot.named && boot.min == null && boot.max == null;
+      const direct = onlyQ ? exactPnItems(boot.q) : [];
+      if (direct.length === 1) {
+        location.replace(pdpHref(direct[0]));
+        return;
+      }
+      if (!boot.named) {
+        const saved = loadVehicle();
+        if (saved) Object.assign(boot, saved);
+      }
+      applyState(boot);
+      wireControls();
+      await new Promise((r) => setTimeout(r, 0));
+      initList();
+      await new Promise((r) => setTimeout(r, 0));
+      const seenParents = new Set(STORE_PARENTS.map((p) => p.slug));
+      catalog.forEach((i) => {
+        const st = itemStoreTree(i);
+        if (!st.parentSlug || seenParents.has(st.parentSlug)) return;
+        seenParents.add(st.parentSlug);
+        STORE_PARENTS.push({ slug: st.parentSlug, label: st.parent, auto: false });
+      });
+      fillCounts();
+    } catch (err) {
+      if (countEl) countEl.textContent = "Catalog offline";
+      const grid = document.getElementById("stGrid");
+      if (grid) {
+        grid.innerHTML = `<p class="st-empty">Could not load the catalog. Refresh the page.</p>`;
+      }
+      console.warn("[store]", err);
+    }
+  }
+
+  // Phone Filters button: wired at once, not after the catalog download, so the
+  // first tap always opens the Category / Vehicle / Price panel.
+  function wireFiltersToggle() {
+    const filtersToggle = document.getElementById("stFiltersToggle");
+    const facets = document.getElementById("stFacets");
+    filtersToggle?.addEventListener("click", () => {
+      const open = filtersToggle.getAttribute("aria-expanded") !== "true";
+      filtersToggle.setAttribute("aria-expanded", String(open));
+      facets?.classList.toggle("is-open", open);
+    });
+  }
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", wireFiltersToggle);
+    document.addEventListener("DOMContentLoaded", boot);
+  } else {
+    wireFiltersToggle();
+    boot();
+  }
+})();

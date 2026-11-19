@@ -1,0 +1,11 @@
+# BuccaneerSalvage hub + store + ukiri sitemaps (GitHub Pages)
+User-agent: *
+Allow: /
+
+Sitemap: https://buccaneersalvage.github.io/sitemap.xml
+Sitemap: https://buccaneersalvage.github.io/sitemap-hub.xml
+Sitemap: https://buccaneersalvage.github.io/sitemap-store.xml
+Sitemap: https://buccaneersalvage.github.io/sitemap-catalog.xml
+Sitemap: https://buccaneersalvage.github.io/sitemap-media.xml
+Sitemap: https://buccaneersalvage.github.io/ukiri/sitemap.xml
+Sitemap: https://buccaneersalvage.github.io/sitemap.txt
