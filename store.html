@@ -36,7 +36,7 @@
   <link rel="preload" href="assets/fonts.css?v=d1b92d3ff4" integrity="sha384-IDnmxIHyfCaSAssmrqXZbMSqgbRm8AATad26bBSjsyTVbgLbsvJXqeQW642rJQFS" as="style">
   <link rel="preload" as="font" href="assets/fonts/QGYvz_MVcBeNP4NJtEtq.woff2" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="assets/fonts.css?v=d1b92d3ff4" integrity="sha384-IDnmxIHyfCaSAssmrqXZbMSqgbRm8AATad26bBSjsyTVbgLbsvJXqeQW642rJQFS">
-  <link rel="stylesheet" href="styles.css?v=d780c5017c" integrity="sha384-8jl5GbUzwEOB8n+OTC3QNr90tw7EzCSq4R9k3DiaH27gvn9fF5Uz0YeotzYQ0owz">
+  <link rel="stylesheet" href="styles.css?v=e9e91c43e4" integrity="sha384-rEECfautWP9u/fxMGZRtGPjmUZLkORITNV705KRiILPbIi+wonT/eh5crfIPdLc1">
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -182,27 +182,27 @@
             <div class="st-facets" id="stFacets" role="group" aria-label="Filters">
               <div class="st-facet-group">
                 <label class="st-facet-label" for="stCatSelect">Category</label>
-                <select id="stCatSelect" class="st-facet-select">
+                <select id="stCatSelect" class="st-facet-select"><button type="button" class="st-select-face"><selectedcontent></selectedcontent></button>
                   <option value="all" selected>All parts</option>
                 </select>
               </div>
               <div class="st-facet-group" id="stTypeGroup">
                 <label class="st-facet-label" for="stTypeSelect">Type</label>
-                <select id="stTypeSelect" class="st-facet-select" disabled><option value="">Any type</option></select>
+                <select id="stTypeSelect" class="st-facet-select" disabled><button type="button" class="st-select-face"><selectedcontent></selectedcontent></button><option value="">Any type</option></select>
               </div>
               <div class="st-facet-group" id="stMakeGroup">
                 <label class="st-facet-label" for="stMakeSelect">Vehicle</label>
-                <select id="stMakeSelect" class="st-facet-select">
+                <select id="stMakeSelect" class="st-facet-select"><button type="button" class="st-select-face"><selectedcontent></selectedcontent></button>
                   <option value="">Any vehicle</option>
                 </select>
               </div>
               <div class="st-facet-group" id="stModelGroup">
                 <label class="st-facet-label" for="stModelSelect">Model</label>
-                <select id="stModelSelect" class="st-facet-select" disabled><option value="">Any model</option></select>
+                <select id="stModelSelect" class="st-facet-select" disabled><button type="button" class="st-select-face"><selectedcontent></selectedcontent></button><option value="">Any model</option></select>
               </div>
               <div class="st-facet-group" id="stYearGroup">
                 <label class="st-facet-label" for="stYearSelect">Year</label>
-                <select id="stYearSelect" class="st-facet-select" disabled><option value="">Any year</option></select>
+                <select id="stYearSelect" class="st-facet-select" disabled><button type="button" class="st-select-face"><selectedcontent></selectedcontent></button><option value="">Any year</option></select>
               </div>
               <div class="st-facet-group st-facet-group--price">
                 <p class="st-facet-label" id="stPriceLabel">Price</p>
@@ -224,7 +224,7 @@
             </div>
             <div class="st-facet-group st-facet-group--sort">
               <label class="st-facet-label" for="stSort">Sort</label>
-              <select id="stSort" class="st-facet-select">
+              <select id="stSort" class="st-facet-select"><button type="button" class="st-select-face"><selectedcontent></selectedcontent></button>
                 <option value="featured">Featured</option>
                 <option value="price-asc">Price: low → high</option>
                 <option value="price-desc">Price: high → low</option>
@@ -333,11 +333,11 @@
     </div>
   </footer>
 
-  <script src="main.js?v=b7aaa947b0" integrity="sha384-o1qeUavNBKi8T8CN3Nb4CHrBVYKsTPRWk/fkRNhgbLXvWNYDlt6ZpjSsZysVkZrQ" defer></script>
+  <script src="main.js?v=750813b1b5" integrity="sha384-b5hg5t31d3T33UBDLBgfabHVPNDn5fbNC994i96r1fjHkKhikZcvoljiK7umLxcI" defer></script>
 
   <script src="fx.js?v=988afbfa87" integrity="sha384-dUzDKeuLmZ93nF/kO5lhZlAXVXjB92f9e4kq9xoInG89gjdOD8F+fRABXcQxFw5D" defer></script>
   <script src="assets/vendor/list.min.js?v=e487569269" integrity="sha384-ALVzYOJ9WqrjuR53Fze5167Cru+FyZ3w3ZZ02ADXJaB0v47ezFOwU9atbIs7U1KN" defer></script>
   <script src="assets/vendor/minisearch.js?v=76e4a1d477" integrity="sha384-vErbuqOQYb2hPR4ejbgR5W3oNL88o1u6N8d5FEp8aZJugAGLTLBk4wmjYuZLBtA3" defer></script>
-  <script src="store.js?v=f173138952" integrity="sha384-dwa57EMx/IMY8tOKvz+W6+U1gDe1AhPMDS1La7Dzs3BzsjKv2IFpHC+gzImTlLxO" defer></script>
+  <script src="store.js?v=d59829b9b1" integrity="sha384-IijA+H9k4m0wBX12QbMfwKr/3ZDvQ+vP1hvQsabQ4zIMJLVn8k/ZYt5X5kx/1a24" defer></script>
 </body>
 </html>

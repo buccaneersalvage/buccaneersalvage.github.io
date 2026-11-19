@@ -1889,14 +1889,29 @@ ul.pagination .disabled .page {
   overflow: hidden;
   text-overflow: ellipsis;
 }
-.st-filterbar .st-facet-select > button,
+/* The face button fills the box; its text is cut with an ellipsis and the arrow keeps
+   its own spot, so long text never pushes the arrow out or widens the box. */
+.st-filterbar .st-facet-select > button.st-select-face {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  width: 100%;
+  min-width: 0;
+  padding: 0;
+  border: 0;
+  background: none;
+  color: inherit;
+  font: inherit;
+}
 .st-filterbar .st-facet-select selectedcontent {
   display: block;
+  flex: 1 1 auto;
   min-width: 0;
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
 }
+.st-filterbar .st-facet-select::picker-icon { flex: none; }
 .st-filterbar .st-facet-select:disabled {
   opacity: 0.55;
   cursor: not-allowed;

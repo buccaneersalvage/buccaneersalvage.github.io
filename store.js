@@ -6,7 +6,7 @@
    * Search + category + price filter + sort + pagination (not the full catalog at once).
    * Commerce-style facets; brand-dark gold cards; cores warn on-card.
    */
-  const CATALOG_URL = "assets/store-catalog.json?v=a2862a88d5";
+  const CATALOG_URL = "assets/store-catalog.json?v=2983f1fc8a";
   const SLUGS_URL = "assets/pdp-slugs.json?v=20260909"; // keep in sync with main.js (test_pdp_slugs)
   const CORE_WARN = "FOR PARTS OR REBUILD · UNTESTED · NO RETURNS";
   const DEFAULT_PAGE = 24;
@@ -1220,9 +1220,21 @@
 
   // Filter slots never appear or disappear: a facet with nothing to pick stays in its
   // fixed slot, disabled, on its "Any …" choice, so a pick never moves another box.
+  // Each filter select keeps a <button><selectedcontent> face as its first child so the
+  // chosen text can be cut with an ellipsis inside a fixed box (customizable select).
+  // Browsers without it drop the button and keep the native select.
+  const SELECT_FACE = '<button type="button" class="st-select-face"><selectedcontent></selectedcontent></button>';
+  function fillSelect(sel, optionsHtml) {
+    // Rewrite only when the options really changed: replacing the option list of
+    // a select the visitor is using can close its open dropdown.
+    if (sel.dataset.opts === optionsHtml) return;
+    sel.dataset.opts = optionsHtml;
+    sel.innerHTML = SELECT_FACE + optionsHtml;
+  }
+
   function parkFacet(group, sel, anyLabel) {
     group.hidden = false;
-    sel.innerHTML = optionHtml("", anyLabel);
+    fillSelect(sel, optionHtml("", anyLabel));
     sel.value = "";
     sel.disabled = true;
   }
@@ -1237,10 +1249,7 @@
         if (!v || !v.n) return;
         bits.push(optionHtml(p.slug, p.label, v.n));
       });
-      // Rewrite only when the options really changed: replacing the option list of
-      // a select the visitor is using can close its open dropdown.
-      const html = bits.join("");
-      if (catSel.innerHTML !== html) catSel.innerHTML = html;
+      fillSelect(catSel, bits.join(""));
       const want = category || "all";
       catSel.value = [...catSel.options].some((o) => o.value === want) ? want : "all";
       if (catSel.value !== category) {
@@ -1264,9 +1273,9 @@
         );
         makeGroup.hidden = false;
         makeSel.disabled = false;
-        makeSel.innerHTML = [optionHtml("", "Any vehicle")].concat(
+        fillSelect(makeSel, [optionHtml("", "Any vehicle")].concat(
           makeList.map(([k, v]) => optionHtml(k, v.label, v.n))
-        ).join("");
+        ).join(""));
         makeSel.value = activeMake && [...makeSel.options].some((o) => o.value === activeMake)
           ? activeMake
           : "";
@@ -1291,9 +1300,9 @@
       } else {
         modelGroup.hidden = false;
         modelSel.disabled = false;
-        modelSel.innerHTML = [optionHtml("", "Any model")].concat(
+        fillSelect(modelSel, [optionHtml("", "Any model")].concat(
           modelList.map(([k, v]) => optionHtml(k, v.label, v.n))
-        ).join("");
+        ).join(""));
         modelSel.value = activeModel && [...modelSel.options].some((o) => o.value === activeModel)
           ? activeModel
           : "";
@@ -1312,9 +1321,9 @@
       } else {
         yearGroup.hidden = false;
         yearSel.disabled = false;
-        yearSel.innerHTML = [optionHtml("", "Any year")].concat(
+        fillSelect(yearSel, [optionHtml("", "Any year")].concat(
           yearList.map(([k, v]) => optionHtml(k, v.label, v.n))
-        ).join("");
+        ).join(""));
         yearSel.value = activeYear && [...yearSel.options].some((o) => o.value === activeYear)
           ? activeYear
           : "";
@@ -1336,9 +1345,9 @@
       } else {
         typeGroup.hidden = false;
         typeSel.disabled = false;
-        typeSel.innerHTML = [optionHtml("", "Any type")].concat(
+        fillSelect(typeSel, [optionHtml("", "Any type")].concat(
           typeList.map(([k, v]) => optionHtml(k, SUB_LABEL[k] || v.label, v.n))
-        ).join("");
+        ).join(""));
         typeSel.value = activeSub && [...typeSel.options].some((o) => o.value === activeSub)
           ? activeSub
           : "";
