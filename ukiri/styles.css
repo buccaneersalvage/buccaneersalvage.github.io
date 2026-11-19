@@ -1,7 +1,7 @@
 /* ==========================================================================
-   Ukiri Fraud Report — BuccaneerSalvage family design system
-   Mirrors ~/sites/buccaneersalvage-hub/DESIGN.md & styles.css tokens + chrome
-   Obsidian void · brand gold #c5a028 · blood crimson warning · WCAG 2.2 AA
+   Ukiri Fraud Report: case-file styling in the BuccaneerSalvage palette
+   Obsidian void, brand gold #c5a028, blood crimson for warnings, WCAG 2.2 AA
+   Mono type is reserved for record data (dates, case IDs, table heads).
    ========================================================================== */
 
 :root {
@@ -71,18 +71,6 @@
   color-scheme: dark;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --void: #050403;
-    --ink: #0c0907;
-    --ink-elevated: #14100c;
-    --smoke: #1c1612;
-    --parchment: #f3ead8;
-    --parchment-muted: rgba(243, 234, 216, 0.86);
-    --parchment-faint: rgba(243, 234, 216, 0.75);
-  }
-}
-
 @media (prefers-color-scheme: light) {
   :root {
     --void: #0a0806;
@@ -132,7 +120,7 @@ a:hover { color: var(--gold-foil-top); }
   outline: 2px solid var(--gold-bright);
   outline-offset: 3px;
 }
-[id] { scroll-margin-top: 8rem; }
+[id] { scroll-margin-top: 5.5rem; }
 
 .visually-hidden {
   position: absolute;
@@ -172,14 +160,13 @@ a:hover { color: var(--gold-foil-top); }
   outline-offset: 2px;
 }
 
-/* Atmosphere (matches BuccaneerSalvage hub — gradient orbs, zero heavy blur) */
+/* Atmosphere: gradient orbs and light grain, no heavy blur */
 .grain {
   pointer-events: none;
   position: fixed;
   inset: 0;
   z-index: 90;
-  opacity: 0.045;
-  mix-blend-mode: overlay;
+  opacity: 0.03;
   background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
   background-size: 180px;
 }
@@ -215,12 +202,7 @@ a:hover { color: var(--gold-foil-top); }
   margin-inline: auto;
 }
 
-/* Sticky top chrome: public warning strip + Buccaneer family nav ---------- */
-.site-chrome {
-  position: sticky;
-  top: 0;
-  z-index: 50;
-}
+/* Warning strip (scrolls away) ---------------------------------------- */
 .alert-strip {
   background-color: var(--blood-deep);
   background-image: linear-gradient(90deg, #651515 0%, var(--blood-deep) 50%, #651515 100%);
@@ -266,10 +248,11 @@ a:hover { color: var(--gold-foil-top); }
 }
 .alert-strip a:hover { color: #ffffff; }
 
-/* Header / Navigation (mirrors buccaneersalvage-hub) ---------------------- */
+/* Header / Navigation ----------------------------------------------------- */
 .nav {
-  position: relative;
-  z-index: 40;
+  position: sticky;
+  top: 0;
+  z-index: 50;
   background:
     linear-gradient(180deg, rgba(255, 241, 184, 0.05) 0%, transparent 12%),
     rgba(8, 6, 4, 0.94);
@@ -330,10 +313,9 @@ a:hover { color: var(--gold-foil-top); }
   white-space: nowrap;
 }
 .nav-sub {
-  font-family: var(--font-mono);
-  font-size: 0.65rem;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
+  font-family: var(--font-body);
+  font-size: 0.8rem;
+  letter-spacing: 0.01em;
   color: var(--parchment-faint);
   white-space: nowrap;
 }
@@ -358,8 +340,7 @@ a:hover { color: var(--gold-foil-top); }
   border-radius: 999px;
   font-size: 0.76rem;
   font-weight: 500;
-  letter-spacing: 0.07em;
-  text-transform: uppercase;
+  letter-spacing: 0.01em;
   text-decoration: none;
   color: var(--parchment-muted);
   white-space: nowrap;
@@ -452,8 +433,7 @@ a:hover { color: var(--gold-foil-top); }
   padding: 0.6rem 0.35rem;
   border-bottom: 1px solid rgba(255, 255, 255, 0.06);
   font-size: var(--text-sm);
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
+  letter-spacing: 0.01em;
   text-decoration: none;
   color: var(--parchment-muted);
 }
@@ -494,11 +474,10 @@ main {
 }
 .section-kicker,
 .kicker {
-  font-family: var(--font-mono);
-  font-size: var(--text-xs);
-  font-weight: 500;
-  letter-spacing: 0.16em;
-  text-transform: uppercase;
+  font-family: var(--font-body);
+  font-size: var(--text-sm);
+  font-weight: 600;
+  letter-spacing: 0.01em;
   color: var(--gold-bright);
   margin-bottom: var(--space-2);
 }
@@ -552,26 +531,9 @@ main {
   font-size: var(--text-hero);
   line-height: 1.02;
   letter-spacing: -0.01em;
-  color: var(--gold-bright);
+  color: var(--parchment);
   max-width: 18ch;
   margin-bottom: var(--space-4);
-}
-@supports ((-webkit-background-clip: text) or (background-clip: text)) {
-  .hero h1 {
-    background-image: linear-gradient(
-      180deg,
-      #fff8e0 0%,
-      var(--gold-foil-top) 22%,
-      var(--gold-mid) 58%,
-      var(--gold-bright) 100%
-    );
-    -webkit-background-clip: text;
-    background-clip: text;
-    color: transparent;
-  }
-}
-.hero h1 em {
-  font-style: italic;
 }
 .lede {
   max-width: 46rem;
@@ -609,10 +571,9 @@ main {
 
 /* Breadcrumbs (44px touch targets) ---------------------------------------- */
 .breadcrumbs {
-  font-family: var(--font-mono);
-  font-size: 0.75rem;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
+  font-family: var(--font-body);
+  font-size: 0.8rem;
+  letter-spacing: 0.01em;
   color: var(--parchment-faint);
   margin: 0 0 0.75rem;
   display: flex;
@@ -702,9 +663,7 @@ main {
   align-items: center;
   gap: 0.35rem 1rem;
   margin-bottom: var(--space-4);
-  font-family: var(--font-mono);
-  font-size: var(--text-xs);
-  letter-spacing: 0.06em;
+  font-size: var(--text-sm);
   color: var(--parchment-faint);
 }
 .tip-jar-link {
@@ -730,8 +689,11 @@ main {
 @media (min-width: 640px) {
   .stat-row { grid-template-columns: repeat(3, 1fr); }
 }
+@media (max-width: 639px) {
+  .stat-row > .stat:first-child { grid-column: span 2; }
+}
 @media (min-width: 1020px) {
-  .stat-row { grid-template-columns: repeat(6, 1fr); }
+  .stat-row { grid-template-columns: repeat(5, 1fr); }
 }
 .stat {
   padding: 0.9rem 0.95rem;
@@ -750,10 +712,9 @@ main {
 .stat span {
   display: block;
   margin-top: 0.2rem;
-  font-family: var(--font-mono);
-  font-size: 0.68rem;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
+  font-family: var(--font-body);
+  font-size: 0.8rem;
+  letter-spacing: 0.01em;
   color: var(--parchment-faint);
 }
 .stat-note {
@@ -830,10 +791,9 @@ main {
     var(--ink-elevated);
 }
 .entity-badge {
-  font-family: var(--font-mono);
-  font-size: 0.7rem;
-  letter-spacing: 0.14em;
-  text-transform: uppercase;
+  font-family: var(--font-body);
+  font-size: 0.8rem;
+  letter-spacing: 0.01em;
   color: var(--blood-rose);
   font-weight: 500;
 }
@@ -871,10 +831,9 @@ main {
   min-height: 44px;
   min-width: 44px;
   margin-top: 0.25rem;
-  font-family: var(--font-mono);
-  font-size: 0.76rem;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
+  font-family: var(--font-body);
+  font-size: 0.8rem;
+  letter-spacing: 0.01em;
   text-decoration: none;
   color: var(--gold-bright);
   font-weight: 600;
@@ -1080,10 +1039,9 @@ code {
   line-height: 1.55;
 }
 .hub-go {
-  font-family: var(--font-mono);
-  font-size: 0.74rem;
-  letter-spacing: 0.09em;
-  text-transform: uppercase;
+  font-family: var(--font-body);
+  font-size: 0.8rem;
+  letter-spacing: 0.01em;
   color: var(--gold-bright);
   margin-top: 0.35rem;
 }
@@ -1145,10 +1103,9 @@ code {
   color: var(--parchment);
 }
 .name-tags span {
-  font-family: var(--font-mono);
-  font-size: 0.68rem;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
+  font-family: var(--font-body);
+  font-size: 0.8rem;
+  letter-spacing: 0.01em;
   color: var(--parchment-faint);
 }
 
@@ -1162,7 +1119,8 @@ code {
   color: var(--paper-ink);
   border-radius: var(--radius);
   padding: 1.25rem 1.35rem;
-  border-left: 4px solid var(--gold-deep);
+  border: 1px solid rgba(122, 90, 18, 0.55);
+  box-shadow: inset 0 0 0 4px var(--paper), inset 0 0 0 5px rgba(122, 90, 18, 0.25);
   margin-top: 0.75rem;
 }
 .quote p {
@@ -1250,10 +1208,9 @@ code {
 }
 .sources a span {
   display: block;
-  font-family: var(--font-mono);
-  font-size: 0.7rem;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
+  font-family: var(--font-body);
+  font-size: 0.8rem;
+  letter-spacing: 0.01em;
   color: var(--gold-bright);
   margin-bottom: 0.15rem;
 }
@@ -1320,10 +1277,9 @@ code {
   gap: 0.7rem;
 }
 .one-a-kicker {
-  font-family: var(--font-mono);
-  font-size: 0.72rem;
-  letter-spacing: 0.14em;
-  text-transform: uppercase;
+  font-family: var(--font-body);
+  font-size: 0.8rem;
+  letter-spacing: 0.01em;
   color: var(--gold-bright);
 }
 .one-a-banner h2 {
@@ -1385,10 +1341,9 @@ code {
   gap: 0.75rem;
 }
 .gov-blast-kicker {
-  font-family: var(--font-mono);
-  font-size: 0.72rem;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
+  font-family: var(--font-body);
+  font-size: 0.8rem;
+  letter-spacing: 0.01em;
   color: var(--blood-rose);
 }
 .gov-blast h2,
@@ -1420,10 +1375,9 @@ code {
   align-content: start;
 }
 .gov-who {
-  font-family: var(--font-mono);
-  font-size: 0.72rem;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
+  font-family: var(--font-body);
+  font-size: 0.8rem;
+  letter-spacing: 0.01em;
   color: var(--gold-bright);
 }
 .gov-card h3 {
@@ -1462,10 +1416,9 @@ code {
   gap: 0.85rem;
 }
 .gov-share .label {
-  font-family: var(--font-mono);
-  font-size: 0.72rem;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
+  font-family: var(--font-body);
+  font-size: 0.8rem;
+  letter-spacing: 0.01em;
   color: var(--gold-bright);
 }
 .sticky-copy {
@@ -1659,10 +1612,9 @@ a.fund-card:hover {
   background: linear-gradient(160deg, rgba(197, 160, 40, 0.16), rgba(20, 16, 12, 0.95));
 }
 .fund-tag {
-  font-family: var(--font-mono);
-  font-size: 0.7rem;
-  letter-spacing: 0.14em;
-  text-transform: uppercase;
+  font-family: var(--font-body);
+  font-size: 0.8rem;
+  letter-spacing: 0.01em;
   color: var(--gold-bright);
 }
 .fund-card strong {
@@ -1714,10 +1666,9 @@ a.fund-card:hover {
 .field { margin-bottom: 1rem; }
 label {
   display: block;
-  font-family: var(--font-mono);
-  font-size: 0.74rem;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
+  font-family: var(--font-body);
+  font-size: 0.92rem;
+  letter-spacing: 0.01em;
   color: var(--parchment-muted);
   margin-bottom: 0.4rem;
 }
@@ -1848,10 +1799,9 @@ textarea[aria-invalid="true"] {
   background: rgba(240, 208, 120, 0.07);
 }
 .page-nav-link span {
-  font-family: var(--font-mono);
-  font-size: 0.68rem;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
+  font-family: var(--font-body);
+  font-size: 0.8rem;
+  letter-spacing: 0.01em;
   color: var(--parchment-faint);
 }
 .page-nav-link strong {
@@ -1934,10 +1884,9 @@ textarea[aria-invalid="true"] {
   line-height: 1.15;
 }
 .footer-brand-tag {
-  font-family: var(--font-mono);
-  font-size: 0.72rem;
-  letter-spacing: 0.13em;
-  text-transform: uppercase;
+  font-family: var(--font-body);
+  font-size: 0.8rem;
+  letter-spacing: 0.01em;
   color: var(--parchment-faint);
   margin-top: 0.15rem;
 }
@@ -1948,10 +1897,9 @@ textarea[aria-invalid="true"] {
   line-height: 1.55;
 }
 .footer h2 {
-  font-family: var(--font-mono);
-  font-size: 0.75rem;
-  letter-spacing: 0.16em;
-  text-transform: uppercase;
+  font-family: var(--font-body);
+  font-size: 0.8rem;
+  letter-spacing: 0.01em;
   color: var(--parchment-faint);
   margin-bottom: 0.8rem;
 }
@@ -2065,4 +2013,44 @@ textarea[aria-invalid="true"] {
     backdrop-filter: none;
     -webkit-backdrop-filter: none;
   }
+}
+
+/* Chapter contents list (home directory) ---------------------------------- */
+.hub-list {
+  grid-template-columns: 1fr;
+  gap: 0;
+  border-top: 1px solid var(--glass-edge);
+}
+@media (min-width: 960px) {
+  .hub-list { grid-template-columns: 1fr 1fr; column-gap: 2.5rem; }
+}
+.hub-list .hub-card {
+  grid-template-columns: minmax(10rem, 15rem) 1fr;
+  gap: 0.35rem 1.5rem;
+  align-items: baseline;
+  padding: 1.05rem 0.25rem;
+  border: 0;
+  border-bottom: 1px solid var(--glass-edge);
+  border-radius: 0;
+  background: none;
+}
+.hub-list .hub-card:hover {
+  transform: none;
+  box-shadow: none;
+  background: rgba(240, 208, 120, 0.05);
+}
+.hub-list .hub-card:hover h3 { color: var(--gold-bright); text-decoration: underline; text-underline-offset: 0.18em; }
+@media (max-width: 560px) {
+  .hub-list .hub-card { grid-template-columns: 1fr; }
+}
+
+/* Index ledes below the key figures */
+.stat-note + .lede-after { margin-top: var(--space-5); }
+
+/* 44px targets for heading links and the tip row */
+.gov-card h3 a,
+.tip-jar-row span a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
 }

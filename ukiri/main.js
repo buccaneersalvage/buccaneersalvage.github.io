@@ -179,7 +179,7 @@
       }
 
       const submitBtn = tipForm.querySelector('button[type="submit"]');
-      const prevLabel = submitBtn ? submitBtn.textContent : "Send tip";
+      const prevLabel = submitBtn ? submitBtn.textContent : "Send message";
       if (submitBtn instanceof HTMLButtonElement) {
         submitBtn.disabled = true;
         submitBtn.textContent = "Sending...";

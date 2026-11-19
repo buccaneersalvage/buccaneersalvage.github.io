@@ -263,6 +263,8 @@ ul { list-style: none; }
   background: rgba(240, 208, 120, 0.09);
   box-shadow: inset 0 0 0 1px rgba(240, 208, 120, 0.2);
 }
+/* Tip jar link: gold so it reads as the one non-page item in the bar */
+.nav-links a[href="#tips"] { color: var(--gold-bright); }
 .nav-links a.nav-port,
 .nav-drawer a.nav-port {
   display: inline-flex;
