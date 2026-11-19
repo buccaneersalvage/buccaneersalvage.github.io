@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-19T22:47:41Z",
+  "updated": "2026-11-19T22:52:42Z",
   "store": "https://buccaneersalvage.square.site/",
   "count": 1246,
   "items": [
@@ -1008,6 +1008,9 @@
       "part_numbers": [
         "ABSP3B22R-7990"
       ],
+      "interchange": [
+        "W01-358-7990"
+      ],
       "fitment_source": "ebay_listing",
       "fitment_confidence": "medium",
       "fitment": {
@@ -1038,9 +1041,6 @@
         "../assets/pdp-gallery/X3NUIYYQZFUW6KWQVTHBVSBT/04.webp"
       ],
       "stock": 1,
-      "interchange": [
-        "W01-358-7990"
-      ],
       "vehicles": []
     },
     {
@@ -24145,7 +24145,7 @@
     },
     {
       "id": "OIEKBY47T4B7SOUC5WDL34PA",
-      "name": "Carlson H5764Q Rear Disc Brake Hardware Pro Kit New Chevy Silverado GMC Sierra",
+      "name": "Carlson H5764Q Rear Disc Brake Hardware Kit Chevy Silverado GMC Sierra 03-04",
       "price": 16.99,
       "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/33bf062b81e2d7fc957f626f2b45b751945fc20c/original.jpeg",
       "url": "https://square.link/u/05MUdGx5",
@@ -35828,17 +35828,9 @@
       "category": "filters",
       "checkout": true,
       "variation_id": "KRGXR63ASX6KASJ7LBBZ4RNQ",
-      "ebay_item_id": "398411607411",
-      "stock": 1,
-      "part_numbers": [],
-      "interchange": [],
       "vehicles": [
         "2005\u20132016 Subaru"
       ],
-      "vehicle_count_raw": 1,
-      "ebay_type": "Oil Filter",
-      "ebay_brand": "",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Filters",
       "fitment_source": "ebay_listing+title",
       "fitment_confidence": "medium",
       "fitment": {
@@ -35867,10 +35859,18 @@
         "brand": "",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Filters"
       },
+      "vehicle_count_raw": 1,
+      "ebay_item_id": "398411607411",
+      "ebay_type": "Oil Filter",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Filters",
       "images": [
         "../assets/pdp-gallery/TG6FY434URCRAB3YSQRQBOM4/02.webp",
         "../assets/pdp-gallery/TG6FY434URCRAB3YSQRQBOM4/03.webp"
-      ]
+      ],
+      "stock": 1,
+      "part_numbers": [],
+      "interchange": [],
+      "ebay_brand": ""
     },
     {
       "id": "GM3WOA7OL4IRLKQHCUKGKFCF",
@@ -53248,7 +53248,7 @@
     },
     {
       "id": "DZZJP33EXKO4VTYOJB5VS7KZ",
-      "name": "WIX 51372 Oil Filter NOS Fits Ford Lincoln Mercury 91-17 Mazda",
+      "name": "WIX 51372 Oil Filter NOS Ford F150 Mustang Lincoln Mercury 4.6L 91-17 00-10 B329",
       "price": 13.99,
       "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/ce585f7969745d0cc68947987a504db7fc28a861/original.jpeg",
       "url": "https://square.link/u/GpyDygVx",
@@ -53848,7 +53848,7 @@
     },
     {
       "id": "5MOEEWOSEYYREBKVMVTWXBW4",
-      "name": "WIX 51630 Oil Filter NOS Fits GM 2.5L In-Pan 87-92",
+      "name": "WIX 51630 Oil Filter NOS GM 2.5L In-Pan Buick Pontiac 1987-1992 87-92 Century",
       "price": 12.99,
       "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/dfeb8a0a56d0ced1571cd0c6abd2b4d0f562217b/original.jpeg",
       "url": "https://square.link/u/s3F6vLze",
@@ -70334,6 +70334,11 @@
         "Niehoff DR58CS",
         "KEM 1285M"
       ],
+      "vehicles": [
+        "1985\u20131988 Buick Century",
+        "1985\u20131988 Chevrolet",
+        "1985\u20131988 Pontiac"
+      ],
       "fitment_source": "ebay_listing+title",
       "fitment_confidence": "medium",
       "fitment": {
@@ -70401,12 +70406,7 @@
         "../assets/pdp-gallery/2JU4UI5KXZB2BFREAF2UZ2SA/02.webp",
         "../assets/pdp-gallery/2JU4UI5KXZB2BFREAF2UZ2SA/03.webp"
       ],
-      "stock": 1,
-      "vehicles": [
-        "1985\u20131988 Buick Century",
-        "1985\u20131988 Chevrolet",
-        "1985\u20131988 Pontiac"
-      ]
+      "stock": 1
     },
     {
       "id": "5BDMYJHWNRRGAHBZKMRYG4RO",
@@ -94209,6 +94209,12 @@
         "103-2263",
         "1032263"
       ],
+      "vehicles": [
+        "1979\u20131982 Datsun 310",
+        "1976\u20131983 Honda Accord",
+        "1973\u20131983 Honda Civic",
+        "1979\u20131983 Honda Prelude"
+      ],
       "fitment_source": "ebay_listing+title",
       "fitment_confidence": "medium",
       "fitment": {
@@ -94284,13 +94290,7 @@
         "../assets/pdp-gallery/6Z3WSV6LDPXEVTWGLG2DCEWB/04.webp"
       ],
       "stock": 1,
-      "interchange": [],
-      "vehicles": [
-        "1979\u20131982 Datsun 310",
-        "1976\u20131983 Honda Accord",
-        "1973\u20131983 Honda Civic",
-        "1979\u20131983 Honda Prelude"
-      ]
+      "interchange": []
     },
     {
       "id": "DNWRZUOWVO62NLF6IRBCVXDG",
@@ -95990,6 +95990,9 @@
         "66-1091",
         "816-1091"
       ],
+      "vehicles": [
+        "1984\u20131986 Chevrolet Celebrity"
+      ],
       "fitment_source": "ebay_listing+title",
       "fitment_confidence": "medium",
       "fitment": {
@@ -96035,10 +96038,7 @@
         "../assets/pdp-gallery/NB46ZZU2FGOWYVM4AZ334A4V/05.webp",
         "../assets/pdp-gallery/NB46ZZU2FGOWYVM4AZ334A4V/06.webp"
       ],
-      "stock": 3,
-      "vehicles": [
-        "1984\u20131986 Chevrolet Celebrity"
-      ]
+      "stock": 3
     },
     {
       "id": "63Y7ECXTGXSAZATKEXTKORCF",
@@ -98017,6 +98017,10 @@
         "03602",
         "Speedi-Boot 03602, Dorman 03602, 44018-SR1-901"
       ],
+      "vehicles": [
+        "1982\u20131984 Chevrolet Cavalier",
+        "1982\u20131984 Chevrolet Celebrity"
+      ],
       "fitment_source": "ebay_listing+title",
       "fitment_confidence": "medium",
       "fitment": {
@@ -98066,10 +98070,6 @@
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:CV Joints, Boots & Parts",
       "stock": 2,
       "interchange": [],
-      "vehicles": [
-        "1982\u20131984 Chevrolet Cavalier",
-        "1982\u20131984 Chevrolet Celebrity"
-      ],
       "images": []
     },
     {
@@ -103066,6 +103066,10 @@
       "part_numbers": [
         "8749"
       ],
+      "vehicles": [
+        "2013\u20132016 Toyota Corolla",
+        "2013\u20132016 Toyota Tacoma"
+      ],
       "fitment_source": "ebay_listing+title",
       "fitment_confidence": "medium",
       "fitment": {
@@ -103119,11 +103123,7 @@
         "../assets/pdp-gallery/IKQC4V6MSZMN4LU7CXPZ6CZK/05.webp"
       ],
       "stock": 1,
-      "interchange": [],
-      "vehicles": [
-        "2013\u20132016 Toyota Corolla",
-        "2013\u20132016 Toyota Tacoma"
-      ]
+      "interchange": []
     },
     {
       "id": "CXTERVIMFC657Q4W5S7P5M3E",
@@ -103665,6 +103665,11 @@
         "9095",
         "9095, 085337120531"
       ],
+      "vehicles": [
+        "1991\u20132011 Ford Explorer",
+        "1986\u20132011 Ford Ranger",
+        "1986\u20132011 Mazda"
+      ],
       "fitment_source": "ebay_listing+title",
       "fitment_confidence": "medium",
       "fitment": {
@@ -103730,12 +103735,7 @@
         "../assets/pdp-gallery/KDQ2B77T5S2W4VZQ6UEW6FKK/05.webp"
       ],
       "stock": 1,
-      "interchange": [],
-      "vehicles": [
-        "1991\u20132011 Ford Explorer",
-        "1986\u20132011 Ford Ranger",
-        "1986\u20132011 Mazda"
-      ]
+      "interchange": []
     },
     {
       "id": "54JOWHUTZLXVNFAVOW4FQPHS",
@@ -126999,10 +126999,13 @@
       "category": "other",
       "checkout": true,
       "variation_id": "WMKY2XAYRO52SRQ6MSXWCVHK",
+      "part_numbers": [
+        "2000"
+      ],
       "vehicles": [
         "2000\u20132005 Buick LeSabre"
       ],
-      "fitment_source": "ebay_listing+title",
+      "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
@@ -127025,7 +127028,7 @@
           "2000\u20132005 Buick LeSabre"
         ],
         "raw_compat_rows": 12,
-        "source": "ebay_listing+title",
+        "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398338312530",
         "type": "Regulator & Motor Assembly",
@@ -127045,9 +127048,6 @@
         "../assets/pdp-gallery/LFUZRDKKI3EWTYYF2HFS2C2G/06.webp"
       ],
       "stock": 1,
-      "part_numbers": [
-        "2000"
-      ],
       "interchange": []
     },
     {
@@ -131406,6 +131406,11 @@
       "part_numbers": [
         "Timken 3357, National 3357, PTC PT3357, WJB WS3357, CR 14775"
       ],
+      "vehicles": [
+        "1980\u20131987 Chevrolet Chevette",
+        "1984\u20131987 Pontiac Fiero",
+        "1981\u20131987 Pontiac T1000"
+      ],
       "fitment_source": "ebay_listing+title",
       "fitment_confidence": "medium",
       "fitment": {
@@ -131469,12 +131474,7 @@
         "../assets/pdp-gallery/KGGTZKSK7CN3HBPAAGZQ6RUB/04.webp"
       ],
       "stock": 1,
-      "interchange": [],
-      "vehicles": [
-        "1980\u20131987 Chevrolet Chevette",
-        "1984\u20131987 Pontiac Fiero",
-        "1981\u20131987 Pontiac T1000"
-      ]
+      "interchange": []
     },
     {
       "id": "T5JN5YKP6JEIHM3VIV7HN6CG",
@@ -131554,6 +131554,9 @@
         "SKF 15440",
         "Timken 710046"
       ],
+      "vehicles": [
+        "1983\u20131994 Jeep Cherokee"
+      ],
       "fitment_source": "ebay_listing+title",
       "fitment_confidence": "medium",
       "fitment": {
@@ -131601,10 +131604,7 @@
         "../assets/pdp-gallery/ZCD6QVTB3VBA5LVX6U2WW366/04.webp",
         "../assets/pdp-gallery/ZCD6QVTB3VBA5LVX6U2WW366/05.webp"
       ],
-      "stock": 1,
-      "vehicles": [
-        "1983\u20131994 Jeep Cherokee"
-      ]
+      "stock": 1
     },
     {
       "id": "G6CM3IIK5R2VERS5KLCRAF3M",
@@ -131677,6 +131677,13 @@
       "part_numbers": [
         "16119",
         "SKF 16119, CR-16119, CRW1"
+      ],
+      "vehicles": [
+        "1980\u20131994 Ford Bronco",
+        "1980\u20131986 Ford LTD",
+        "1983\u20131994 Ford Ranger",
+        "1980\u20131994 Ford Thunderbird",
+        "1980 Mercury Monarch"
       ],
       "fitment_source": "ebay_listing+title",
       "fitment_confidence": "medium",
@@ -131765,14 +131772,7 @@
         "../assets/pdp-gallery/MS2QFETXHSCGQRFAJKZFJQCP/05.webp"
       ],
       "stock": 1,
-      "interchange": [],
-      "vehicles": [
-        "1980\u20131994 Ford Bronco",
-        "1980\u20131986 Ford LTD",
-        "1983\u20131994 Ford Ranger",
-        "1980\u20131994 Ford Thunderbird",
-        "1980 Mercury Monarch"
-      ]
+      "interchange": []
     },
     {
       "id": "MYY6V7D2NJFGH5LHD3EDPJR4",
@@ -132692,6 +132692,10 @@
         "22835",
         "SKF 22835, CR-22835, HM21"
       ],
+      "vehicles": [
+        "1999\u20132003 Dodge",
+        "1999\u20132003 Ram"
+      ],
       "fitment_source": "ebay_listing+title",
       "fitment_confidence": "medium",
       "fitment": {
@@ -132746,11 +132750,7 @@
         "../assets/pdp-gallery/YFSAAPYIHPTZU52WD2VDOGWM/05.webp"
       ],
       "stock": 1,
-      "interchange": [],
-      "vehicles": [
-        "1999\u20132003 Dodge",
-        "1999\u20132003 Ram"
-      ]
+      "interchange": []
     },
     {
       "id": "BQJYLOOROD5CPI26LY53NLX7",
@@ -133230,6 +133230,16 @@
       "part_numbers": [
         "F-200"
       ],
+      "vehicles": [
+        "1957\u20131959 Dodge D100 Pickup",
+        "1960\u20131961 Dodge D100 Series",
+        "1957\u20131959 Dodge D200 Pickup",
+        "1960\u20131961 Dodge D200 Series",
+        "1957\u20131959 Dodge W100 Pickup",
+        "1960\u20131961 Dodge W100 Series",
+        "1957\u20131959 Dodge W200 Pickup",
+        "1960\u20131961 Dodge W200 Series"
+      ],
       "fitment_source": "ebay_listing+title",
       "fitment_confidence": "medium",
       "fitment": {
@@ -133347,17 +133357,7 @@
         "../assets/pdp-gallery/KLSOLJBWU4FAQ4TGW57X4GFL/03.webp"
       ],
       "stock": 1,
-      "interchange": [],
-      "vehicles": [
-        "1957\u20131959 Dodge D100 Pickup",
-        "1960\u20131961 Dodge D100 Series",
-        "1957\u20131959 Dodge D200 Pickup",
-        "1960\u20131961 Dodge D200 Series",
-        "1957\u20131959 Dodge W100 Pickup",
-        "1960\u20131961 Dodge W100 Series",
-        "1957\u20131959 Dodge W200 Pickup",
-        "1960\u20131961 Dodge W200 Series"
-      ]
+      "interchange": []
     },
     {
       "id": "ZQRXEUPUTPUX5JK75WDYFFTO",
@@ -170620,6 +170620,9 @@
         "CR 21061",
         "SKF 21059"
       ],
+      "vehicles": [
+        "1973\u20131974 Chevrolet Blazer"
+      ],
       "fitment_source": "ebay_listing+title",
       "fitment_confidence": "medium",
       "fitment": {
@@ -170664,10 +170667,7 @@
         "../assets/pdp-gallery/7TKCXD5HBI2CXHU3T54ZRU4C/04.webp",
         "../assets/pdp-gallery/7TKCXD5HBI2CXHU3T54ZRU4C/05.webp"
       ],
-      "stock": 1,
-      "vehicles": [
-        "1973\u20131974 Chevrolet Blazer"
-      ]
+      "stock": 1
     },
     {
       "id": "BMXKE7SOF2TLE64KJZZUFXTK",
@@ -176958,6 +176958,10 @@
         "8V-358",
         "TRW S950"
       ],
+      "vehicles": [
+        "1939\u20131947 Ford",
+        "1939\u20131947 Mercury"
+      ],
       "fitment_source": "ebay_listing+title",
       "fitment_confidence": "medium",
       "fitment": {
@@ -177013,11 +177017,7 @@
         "../assets/pdp-gallery/OUUK57Q7GOZTUTU3RJD2Y6PV/03.webp",
         "../assets/pdp-gallery/OUUK57Q7GOZTUTU3RJD2Y6PV/04.webp"
       ],
-      "stock": 1,
-      "vehicles": [
-        "1939\u20131947 Ford",
-        "1939\u20131947 Mercury"
-      ]
+      "stock": 1
     },
     {
       "id": "BMGZ2IAOBBY4GYSPHYC6RESF",
@@ -180614,6 +180614,9 @@
       "part_numbers": [
         "US-98"
       ],
+      "vehicles": [
+        "1986\u20131991 Ford Aerostar"
+      ],
       "fitment_source": "ebay_listing+title",
       "fitment_confidence": "medium",
       "fitment": {
@@ -180655,10 +180658,7 @@
         "../assets/pdp-gallery/E7XEXBNABGXW3SHRBKH33QBV/04.webp"
       ],
       "stock": 1,
-      "interchange": [],
-      "vehicles": [
-        "1986\u20131991 Ford Aerostar"
-      ]
+      "interchange": []
     },
     {
       "id": "WKFBCUQGCRIFDRKH2HNAVJO5",
@@ -194144,5 +194144,5 @@
       "ebay_brand": ""
     }
   ],
-  "fitment_built": "2026-11-19T22:47:41Z"
+  "fitment_built": "2026-11-19T22:52:42Z"
 }
