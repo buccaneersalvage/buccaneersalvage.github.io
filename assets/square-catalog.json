@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-20T03:00:40Z",
+  "updated": "2026-11-20T04:00:43Z",
   "store": "https://buccaneersalvage.square.site/",
   "count": 1246,
   "items": [
@@ -31385,20 +31385,12 @@
       "category": "brake",
       "checkout": true,
       "variation_id": "OZBSHCTXJMZANZCANNB2UGOQ",
-      "ebay_item_id": "398391633126",
-      "condition_id": "1500",
-      "stock": 1,
       "part_numbers": [
         "Wagner Edge"
       ],
-      "interchange": [],
       "vehicles": [
         "Toyota Camry"
       ],
-      "vehicle_count_raw": 1,
-      "ebay_type": "Brake Hardware",
-      "ebay_brand": "",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware",
       "fitment_source": "ebay_listing+title",
       "fitment_confidence": "medium",
       "fitment": {
@@ -31429,12 +31421,20 @@
         "brand": "",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware"
       },
+      "vehicle_count_raw": 1,
+      "ebay_item_id": "398391633126",
+      "ebay_type": "Brake Hardware",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware",
       "images": [
         "../assets/pdp-gallery/JRJF2VVMS2FFFULQWB3L5FAO/02.webp",
         "../assets/pdp-gallery/JRJF2VVMS2FFFULQWB3L5FAO/03.webp",
         "../assets/pdp-gallery/JRJF2VVMS2FFFULQWB3L5FAO/04.webp",
         "../assets/pdp-gallery/JRJF2VVMS2FFFULQWB3L5FAO/05.webp"
-      ]
+      ],
+      "condition_id": "1500",
+      "stock": 1,
+      "interchange": [],
+      "ebay_brand": ""
     },
     {
       "id": "24RTAKCNUCZTQDRQQ3YCSIXH",
@@ -195196,5 +195196,5 @@
       "ebay_brand": ""
     }
   ],
-  "fitment_built": "2026-11-20T03:00:40Z"
+  "fitment_built": "2026-11-20T04:00:43Z"
 }
