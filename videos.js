@@ -8,10 +8,10 @@
         (() => {
             const BLURBS = {
                 music: "Dark AI music videos: Norse metal, dark country and memorial ballads.",
-                comedy: "Absurdist comedy shorts: Valhalla denials, hell dinners and wasteland parodies."
+                comedy: "Absurdist comedy videos: Valhalla denials, hell dinners and wasteland parodies."
             };
-            const LABELS = { music: "music videos", comedy: "comedy shorts" };
-            const TITLES = { music: "Music videos", comedy: "Comedy shorts" };
+            const LABELS = { music: "music videos", comedy: "comedy videos" };
+            const TITLES = { music: "Music videos", comedy: "Comedy videos" };
 
             let catalog = [];
             try {
