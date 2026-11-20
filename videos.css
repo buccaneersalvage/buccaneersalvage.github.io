@@ -400,6 +400,12 @@ html {
             min-height: 240px;
         }
 
+        /* videos.js hides the switcher when only one fleet has enough videos */
+        .fleet-switch[hidden],
+        .fleet-switch button[hidden] {
+            display: none !important;
+        }
+
         /* Dual prebuilt panels - toggle visibility only (no DOM rebuild / no filter blur).
            Tiles are the yard grid from styles.css; the 16:9 frame lives in yard-wall.css. */
         .gallery-panel[hidden],

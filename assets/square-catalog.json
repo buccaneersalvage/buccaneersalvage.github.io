@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-20T02:00:51Z",
+  "updated": "2026-11-20T03:00:40Z",
   "store": "https://buccaneersalvage.square.site/",
   "count": 1246,
   "items": [
@@ -31377,109 +31377,64 @@
       "interchange": []
     },
     {
-      "id": "P7Z5QGCU4NTYW4DFMTMTFKBV",
-      "name": "Wagner Edge EC707 Ceramic Pad Kit Camry Solara Avalon Replacement Shims NOS",
+      "id": "JRJF2VVMS2FFFULQWB3L5FAO",
+      "name": "Wagner Edge EC707 Ceramic Pads Camry ES300 RX300 Solara + SG707T Kit NOS",
       "price": 39.99,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/7977cff87a1a53029c0ed201eea75dd4f1a98ff3/original.jpeg",
-      "url": "https://square.link/u/Y6LRYOwf",
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/2ce6df68bb21e7d5d4ae4c589b4e4d545df49932/original.jpeg",
+      "url": "https://square.link/u/FbmqetTA",
       "category": "brake",
       "checkout": true,
-      "variation_id": "ALV26NV4F6RWZQXD3WRJ3OID",
+      "variation_id": "OZBSHCTXJMZANZCANNB2UGOQ",
+      "ebay_item_id": "398391633126",
+      "condition_id": "1500",
+      "stock": 1,
       "part_numbers": [
-        "EC707",
-        "EC7581, SG707T"
+        "Wagner Edge"
       ],
+      "interchange": [],
       "vehicles": [
-        "1997\u20132001 Toyota Camry",
-        "1997\u20132001 Lexus ES300",
-        "1999\u20132001 Lexus RX300",
-        "1998\u20132004 Toyota Avalon",
-        "1999\u20132003 Toyota Solara"
+        "Toyota Camry"
       ],
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "high",
+      "vehicle_count_raw": 1,
+      "ebay_type": "Brake Hardware",
+      "ebay_brand": "",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware",
+      "fitment_source": "ebay_listing+title",
+      "fitment_confidence": "medium",
       "fitment": {
         "part_numbers": [
-          "EC707",
-          "EC7581, SG707T"
+          "Wagner Edge"
         ],
         "interchange": [],
         "vehicles": [
           {
-            "year_from": 1997,
-            "year_to": 2001,
-            "make": "Lexus",
-            "model": "ES300",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1999,
-            "year_to": 2001,
-            "make": "Lexus",
-            "model": "RX300",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1998,
-            "year_to": 2004,
-            "make": "Toyota",
-            "model": "Avalon",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1997,
-            "year_to": 2001,
+            "year_from": null,
+            "year_to": null,
             "make": "Toyota",
             "model": "Camry",
             "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1999,
-            "year_to": 2003,
-            "make": "Toyota",
-            "model": "Solara",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
+            "source": "title",
+            "confidence": "low",
             "trim_count": null
           }
         ],
         "vehicle_labels": [
-          "1997\u20132001 Toyota Camry",
-          "1997\u20132001 Lexus ES300",
-          "1999\u20132001 Lexus RX300",
-          "1998\u20132004 Toyota Avalon",
-          "1999\u20132003 Toyota Solara"
+          "Toyota Camry"
         ],
-        "raw_compat_rows": 78,
-        "source": "ebay_listing",
-        "confidence": "high",
+        "raw_compat_rows": 1,
+        "source": "ebay_listing+title",
+        "confidence": "medium",
         "ebay_item_id": "398391633126",
-        "type": "Ceramic Brake Pad",
-        "brand": "Wagner",
-        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pads"
+        "type": "Brake Hardware",
+        "brand": "",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware"
       },
-      "vehicle_count_raw": 78,
-      "ebay_item_id": "398391633126",
-      "ebay_type": "Ceramic Brake Pad",
-      "ebay_brand": "Wagner",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pads",
-      "condition_id": "1500",
-      "stock": 1,
-      "interchange": [],
-      "images": []
+      "images": [
+        "../assets/pdp-gallery/JRJF2VVMS2FFFULQWB3L5FAO/02.webp",
+        "../assets/pdp-gallery/JRJF2VVMS2FFFULQWB3L5FAO/03.webp",
+        "../assets/pdp-gallery/JRJF2VVMS2FFFULQWB3L5FAO/04.webp",
+        "../assets/pdp-gallery/JRJF2VVMS2FFFULQWB3L5FAO/05.webp"
+      ]
     },
     {
       "id": "24RTAKCNUCZTQDRQQ3YCSIXH",
@@ -55149,7 +55104,7 @@
     },
     {
       "id": "DZZJP33EXKO4VTYOJB5VS7KZ",
-      "name": "WIX 51372 Oil Filter NOS Ford F150 Mustang Lincoln Mercury 4.6L 91-17 00-10 B329",
+      "name": "WIX 51372 Oil Filter NOS Fits Ford Lincoln Mercury 91-17 Mazda",
       "price": 13.99,
       "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/ce585f7969745d0cc68947987a504db7fc28a861/original.jpeg",
       "url": "https://square.link/u/GpyDygVx",
@@ -55165,13 +55120,12 @@
         "B329"
       ],
       "vehicles": [
-        "1991\u20132017 Ford Mustang",
         "1991\u20132017 Ford",
         "1991\u20132017 Lincoln",
         "1991\u20132017 Mazda",
         "1991\u20132017 Mercury"
       ],
-      "fitment_source": "ebay_listing+title",
+      "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
@@ -55191,16 +55145,6 @@
             "notes": "",
             "source": "ebay_compat",
             "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1991,
-            "year_to": 2017,
-            "make": "Ford",
-            "model": "Mustang",
-            "notes": "",
-            "source": "title",
-            "confidence": "low",
             "trim_count": null
           },
           {
@@ -55235,14 +55179,13 @@
           }
         ],
         "vehicle_labels": [
-          "1991\u20132017 Ford Mustang",
           "1991\u20132017 Ford",
           "1991\u20132017 Lincoln",
           "1991\u20132017 Mazda",
           "1991\u20132017 Mercury"
         ],
         "raw_compat_rows": 9,
-        "source": "ebay_listing+title",
+        "source": "ebay_listing",
         "confidence": "high",
         "ebay_item_id": "398268695029",
         "type": "Oil Filter",
@@ -55753,7 +55696,7 @@
     },
     {
       "id": "5MOEEWOSEYYREBKVMVTWXBW4",
-      "name": "WIX 51630 Oil Filter NOS GM 2.5L In-Pan Buick Pontiac 1987-1992 87-92 Century",
+      "name": "WIX 51630 Oil Filter NOS Fits GM 2.5L In-Pan 87-92",
       "price": 12.99,
       "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/dfeb8a0a56d0ced1571cd0c6abd2b4d0f562217b/original.jpeg",
       "url": "https://square.link/u/s3F6vLze",
@@ -195253,5 +195196,5 @@
       "ebay_brand": ""
     }
   ],
-  "fitment_built": "2026-11-20T02:00:51Z"
+  "fitment_built": "2026-11-20T03:00:40Z"
 }

@@ -44,6 +44,14 @@
                 )
             };
 
+            /* A fleet other than Music gets its own tab only with MIN_FLEET+ videos.
+               Smaller fleets stay off the switcher (and #comedy falls back to Music)
+               until uploads bring them up to the minimum. */
+            const MIN_FLEET = 6;
+            const shownKinds = Object.keys(byKind).filter(
+                (k) => k === "music" || byKind[k].length >= MIN_FLEET
+            );
+
             const panels = {
                 music: document.getElementById("gallery-music"),
                 comedy: document.getElementById("gallery-comedy")
@@ -66,7 +74,10 @@
             const counts = { music: 0, comedy: 0 };
             let active = "music";
             const bootHash = (location.hash || "").replace(/^#/, "").toLowerCase();
-            const bootKind = bootHash === "comedy" || bootHash === "shorts" ? "comedy" : "music";
+            const bootKind =
+                (bootHash === "comedy" || bootHash === "shorts") && shownKinds.includes("comedy")
+                    ? "comedy"
+                    : "music";
 
             /* ── Dual WAAPI marquees (prebuilt; fleet switch = show/hide only) ── */
             const tickerState = {
@@ -363,7 +374,7 @@
             }
 
             function setFleet(kind, { pushHash } = { pushHash: true }) {
-                if (kind !== "music" && kind !== "comedy") kind = "music";
+                if (!shownKinds.includes(kind)) kind = "music";
                 active = kind;
                 fleetSwitch.dataset.active = kind;
                 fleetSwitch.querySelectorAll("button[data-fleet]").forEach((btn) => {
@@ -396,8 +407,11 @@
             }
 
             fleetSwitch.querySelectorAll("button[data-fleet]").forEach((btn) => {
+                btn.hidden = !shownKinds.includes(btn.dataset.fleet);
                 btn.addEventListener("click", () => setFleet(btn.dataset.fleet));
             });
+            /* One fleet left = no switcher at all */
+            fleetSwitch.hidden = shownKinds.length < 2;
 
             fleetSwitch.addEventListener("keydown", (e) => {
                 if (e.key !== "ArrowLeft" && e.key !== "ArrowRight" && e.key !== "Home" && e.key !== "End") return;
