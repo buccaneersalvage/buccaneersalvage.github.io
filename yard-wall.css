@@ -1,0 +1,180 @@
+/* Yard wall (scrap.html photos, videos.html fleet) + fleet player.
+   Loaded only on those two pages. The canvas stays dark in both colour schemes:
+   it is a lit stage, like the photo viewer. */
+
+.yard-view {
+  display: flex;
+  justify-content: flex-end;
+  margin: 0 0 0.75rem;
+}
+.yard-view[hidden],
+.yard-wall[hidden],
+.fleet-wall[hidden] { display: none; }
+.scrap-hauls.is-wall .yard-grid { display: none; }
+
+.yard-wall,
+.fleet-wall { margin: 0 0 1rem; }
+.fleet-wall {
+  width: min(100% - 2rem, 1180px);
+  margin: clamp(2.5rem, 6vw, 4.5rem) auto 1rem;
+}
+.fleet-wall-title {
+  font-family: var(--font-display);
+  font-size: clamp(1.7rem, 3.6vw, 2.4rem);
+  line-height: 1.1;
+  color: var(--parchment);
+}
+.fleet-wall-lead {
+  max-width: 60ch;
+  margin: 0.5rem 0 1rem;
+  color: var(--parchment-muted);
+}
+.fleet-wall-count {
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  color: var(--gold-bright);
+}
+
+.wall-stage {
+  position: relative;
+  height: clamp(340px, 56vw, 600px);
+  border-radius: var(--radius);
+  overflow: hidden;
+  border: 1px solid var(--glass-edge);
+  background:
+    radial-gradient(120% 80% at 50% 0%, rgba(197, 160, 40, 0.1), transparent 60%),
+    #050403;
+}
+.fleet-wall .wall-stage { height: clamp(300px, 44vw, 520px); }
+.wall-stage:focus-visible {
+  outline: 2px solid var(--gold-bright);
+  outline-offset: 3px;
+}
+.wall-canvas {
+  display: block;
+  width: 100%;
+  height: 100%;
+  touch-action: pan-y;
+  cursor: grab;
+}
+.wall-canvas.is-dragging { cursor: grabbing; }
+.wall-status {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  margin: 0;
+  font-size: var(--text-sm);
+  color: var(--parchment-muted);
+  pointer-events: none;
+}
+.is-live .wall-status { display: none; }
+
+.wall-bar {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) auto auto;
+  align-items: center;
+  gap: 0.6rem;
+  margin-top: 0.75rem;
+}
+.wall-caption {
+  min-width: 0;
+  margin: 0;
+  font-size: var(--text-sm);
+  line-height: 1.35;
+  color: var(--parchment);
+  text-align: center;
+}
+.wall-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 48px;
+  min-height: 48px;
+  padding: 0 1rem;
+  border: 1px solid var(--glass-edge-hot);
+  border-radius: 999px;
+  background: var(--ink-elevated);
+  color: var(--gold-bright);
+  font-family: var(--font-body);
+  font-size: var(--text-sm);
+  font-weight: 600;
+  line-height: 1;
+  cursor: pointer;
+  transition: background-color 0.2s var(--ease), transform 0.15s var(--ease);
+}
+.wall-step { padding: 0; font-size: 1.6rem; }
+.wall-btn:hover { background: rgba(240, 208, 120, 0.14); }
+.wall-btn:active { transform: translateY(1px); }
+.wall-btn:focus-visible {
+  outline: 2px solid var(--gold-bright);
+  outline-offset: 2px;
+}
+.wall-hint {
+  margin: 0.6rem 0 0;
+  font-size: var(--text-xs);
+  color: var(--parchment-muted);
+  text-align: center;
+}
+@media (max-width: 639px) {
+  .wall-bar { grid-template-columns: auto minmax(0, 1fr) auto; }
+  .wall-open { grid-column: 1 / -1; }
+}
+
+/* Swipe in the enlarged photo viewer; vertical pans and pinch still belong to the page. */
+.yard-viewer-stage { touch-action: pan-y pinch-zoom; }
+
+/* Fleet player (youtube-nocookie, created on click) */
+.fleet-player {
+  width: min(96vw, 1100px);
+  max-width: none;
+  margin: auto;
+  padding: 0.75rem;
+  border: 1px solid var(--glass-edge-hot);
+  border-radius: var(--radius);
+  background: #050403;
+  color: var(--parchment);
+}
+.fleet-player::backdrop { background: rgba(15, 11, 7, 0.9); }
+.fleet-player-bar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.6rem 1rem;
+  margin-bottom: 0.6rem;
+}
+.fleet-player-title {
+  flex: 1 1 16rem;
+  min-width: 0;
+  margin: 0;
+  font-size: var(--text-sm);
+  font-weight: 600;
+  line-height: 1.35;
+  color: var(--parchment);
+}
+.fleet-player-yt {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  color: var(--gold-bright);
+  font-size: var(--text-sm);
+}
+.fleet-player-frame {
+  position: relative;
+  aspect-ratio: 16 / 9;
+  border-radius: var(--radius-sm);
+  overflow: hidden;
+  background: #000;
+}
+.fleet-player-frame iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+body.fleet-player-open { overflow: hidden; }
+
+@media (prefers-reduced-motion: reduce) {
+  .wall-btn { transition: none; }
+}

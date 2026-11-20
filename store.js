@@ -6,7 +6,7 @@
    * Search + category + price filter + sort + pagination (not the full catalog at once).
    * Commerce-style facets; brand-dark gold cards; cores warn on-card.
    */
-  const CATALOG_URL = "assets/store-catalog.json?v=a58350828f";
+  const CATALOG_URL = "assets/store-catalog.json?v=87027f6b63";
   const SLUGS_URL = "assets/pdp-slugs.json?v=20260909"; // keep in sync with main.js (test_pdp_slugs)
   const CORE_WARN = "FOR PARTS OR REBUILD · UNTESTED · NO RETURNS";
   const DEFAULT_PAGE = 24;
@@ -295,6 +295,12 @@
   ]);
 
   /** eBay store parents, storefront order. Only those with hub stock are shown. */
+  // eBay site L1 -> eBay-store parent. Same table as dept_tree.py STORE_L1_PARENT.
+  const STORE_L1_PARENT = {
+    collectibles: ["vintage-collectibles", "Vintage & Collectibles"],
+    antiques: ["vintage-collectibles", "Vintage & Collectibles"],
+    "business-industrial": ["industrial-warehouse", "Industrial & Warehouse"],
+  };
   const STORE_PARENTS = [
     { slug: "carlson-brake-hardware", label: "Carlson Brake Hardware", auto: true },
     { slug: "truck-air-springs", label: "Truck Air Springs", auto: true },
@@ -526,15 +532,7 @@
       const l1 = kept[0];
       const leaf = kept[kept.length - 1] || l1;
       const l1Slug = slugKey(l1);
-      let parentSlug = l1Slug;
-      let parent = l1;
-      if (l1Slug === "collectibles") {
-        parentSlug = "vintage-collectibles";
-        parent = "Vintage & Collectibles";
-      } else if (l1Slug === "business-industrial") {
-        parentSlug = "industrial-warehouse";
-        parent = "Industrial & Warehouse";
-      }
+      const [parentSlug, parent] = STORE_L1_PARENT[l1Slug] || [l1Slug, l1];
       item._st = packStore(parentSlug, parent, slugKey(leaf) || "other", leaf);
       return item._st;
     }

@@ -41,6 +41,7 @@
     imagesizes="(max-width: 899px) 92vw, 520px">
   <link rel="stylesheet" href="assets/fonts.css?v=d1b92d3ff4" integrity="sha384-IDnmxIHyfCaSAssmrqXZbMSqgbRm8AATad26bBSjsyTVbgLbsvJXqeQW642rJQFS">
   <link rel="stylesheet" href="styles.css?v=e9e91c43e4" integrity="sha384-rEECfautWP9u/fxMGZRtGPjmUZLkORITNV705KRiILPbIi+wonT/eh5crfIPdLc1">
+  <link rel="stylesheet" href="yard-wall.css?v=bc6847e81c" integrity="sha384-EQAlGMd5Mo5l20rVXaOwv8vAckKwW38ylXkkS+0m3B5wWwnwhW29WHEibe4OC3RK">
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -222,6 +223,22 @@
       <div class="shell">
         <h2 id="yardTitle" class="scrap-h2">Recent local hauls</h2>
         <p class="scrap-lead">Our own truck and trailer work around Carbondale, PA and nearby NEPA. Tap a photo to enlarge it.</p>
+        <div class="yard-view" id="yardView" hidden>
+          <button type="button" class="wall-btn" id="yardViewToggle">Show as grid</button>
+        </div>
+        <div class="yard-wall" id="yardWall" hidden>
+          <div class="wall-stage" tabindex="0" role="group" aria-roledescription="carousel" aria-label="Yard wall of 14 haul photos. Left and right arrow keys move along the rail. Enter enlarges the photo in front." aria-describedby="yardWallCaption">
+            <canvas class="wall-canvas" aria-hidden="true"></canvas>
+            <p class="wall-status">Hanging the photos on the rail</p>
+          </div>
+          <div class="wall-bar">
+            <button type="button" class="wall-btn wall-step" data-step="-1" aria-label="Previous photo">‹</button>
+            <p class="wall-caption" id="yardWallCaption" aria-live="polite">Photo 1 of 14: The truck and trailer, staged for a haul.</p>
+            <button type="button" class="wall-btn wall-step" data-step="1" aria-label="Next photo">›</button>
+            <button type="button" class="wall-btn wall-open">Enlarge photo</button>
+          </div>
+          <p class="wall-hint">Swipe or drag along the rail. The plate in front blasts clean, and a mouse blasts any plate it crosses. Tap a plate to enlarge it.</p>
+        </div>
         <ul class="yard-grid" id="yardGrid">
           <li class="yard-item">
             <figure class="yard-figure">
@@ -399,6 +416,7 @@
     </div>
   </footer>
 
-  <script src="main.js?v=ab8a90f5ca" integrity="sha384-dZoTMVpMtNwA9gsuJt7DmBzycTv+4g5XK/pWCE78gBP+lmIRD/2apKChTXAQUCL/" defer></script>
+  <script src="main.js?v=e4401b28a1" integrity="sha384-vJfLXmt8vIg7psYbunxMMWF40g2Wq+0V7woKmlij17E9Fjul/WBUn8o+7+kO2a4Q" defer></script>
+  <script type="module" src="yard-wall.js?v=d2ac9f4a82" integrity="sha384-tcApd3bKnf46hZtGRCTmFmnVvNrhld7v06zQiYhTiblokQvUftEtEzyCZdlVg9Zf"></script>
 </body>
 </html>
