@@ -3,7 +3,7 @@
    crosses, and the rust creeps back a few seconds later. One tap on a plate opens it.
    three.js (vendored subset, MIT) loads only when the wall nears the viewport.
    Reduced motion, Save-Data, no WebGL2 or a lost GPU context leave the plain grid.
-   Videos: every card and plate plays in a youtube-nocookie player on this page. */
+   Videos: every grid tile and plate plays in a youtube-nocookie player on this page. */
 
 const THREE_URL = "./assets/vendor/three/three-lite-r186.1.js";
 
@@ -549,19 +549,86 @@ function whenNear(el, cb) {
   io.observe(el);
 }
 
+/* items may be a list or a function that reads the grid when the wall is built. */
 function mountWall(root, items, opts) {
   return new Promise((resolve) => {
     whenNear(root, () => {
       import(THREE_URL).then((T) => {
         const wall = createWall(T, root, opts);
         if (!wall) { resolve(null); return; }
-        wall.setItems(items);
+        wall.setItems(typeof items === "function" ? items() : items);
         root.classList.add("is-live");
         window.addEventListener("pagehide", (e) => { if (!e.persisted) wall.destroy(); }, { once: true });
         resolve(wall);
       }).catch(() => resolve(null));
     });
   });
+}
+
+/* Grid tiles (.yard-open) become wall plates. A tile can name its own plate image, size and
+   title with data-wall-src, data-w, data-h and data-title; otherwise the grid image is used. */
+function tileItems(tiles) {
+  return tiles.map((t, i) => {
+    const img = t.querySelector("img");
+    const src = t.querySelector("source");
+    const small = t.dataset.wallSrc || (src && src.srcset ? src.srcset.split(",")[0].trim().split(" ")[0] : img.src);
+    const fc = t.closest("figure") && t.closest("figure").querySelector("figcaption");
+    return {
+      i,
+      id: t.dataset.video || "",
+      src: small,
+      big: t.dataset.full || small,
+      w: Number(t.dataset.w) || Number(img.getAttribute("width")) || 4,
+      h: Number(t.dataset.h) || Number(img.getAttribute("height")) || 3,
+      title: (t.dataset.title || (fc ? fc.textContent : img.alt)).trim()
+    };
+  });
+}
+
+/* One gallery, two views: the wall (default where it can run) and the plain grid.
+   The visitor's choice is remembered per page. Without the wall, the grid simply stays.
+   o: { section, root, view, toggle, key, wallText, label, tiles(), open(item) } */
+function wallOrGrid(o) {
+  const stage = o.root.querySelector(".wall-stage");
+  let wall = null;
+  let mounting = null;
+  let stale = false;
+  const isWall = () => o.section.classList.contains("is-wall");
+  function fail() {
+    wall = null;
+    o.section.classList.remove("is-wall");
+    o.root.hidden = true;
+    o.view.hidden = true;
+  }
+  function setMode(mode) {
+    const on = mode === "wall";
+    o.section.classList.toggle("is-wall", on);
+    o.root.hidden = !on;
+    o.toggle.textContent = on ? "Show as grid" : o.wallText;
+    if (on && !mounting) {
+      mounting = mountWall(o.root, () => tileItems(o.tiles()), { label: o.label, open: o.open, onFail: fail })
+        .then((w) => { if (!w) { fail(); return; } wall = w; stale = false; });
+    } else if (on && wall && stale) {
+      stale = false;
+      wall.setItems(tileItems(o.tiles()));
+    }
+  }
+  o.toggle.addEventListener("click", () => {
+    const next = isWall() ? "grid" : "wall";
+    store(o.key, next);
+    setMode(next);
+    if (next === "wall") stage.focus({ preventScroll: true });
+  });
+  o.view.hidden = false;
+  setMode(store(o.key) === "grid" ? "grid" : "wall");
+  return {
+    stage,
+    /* The grid changed (another fleet): rebuild the plates now, or when the wall is next shown. */
+    refresh() {
+      if (wall && isWall()) wall.setItems(tileItems(o.tiles()));
+      else stale = true;
+    }
+  };
 }
 
 /* ---------------------------------------------------------------- scrap.html */
@@ -592,67 +659,28 @@ function mountWall(root, items, opts) {
   }
 
   if (!root || !tiles.length || !wallOK) return;
-  const view = document.getElementById("yardView");
-  const toggle = document.getElementById("yardViewToggle");
-  const stage = root.querySelector(".wall-stage");
-  const items = tiles.map((t, i) => {
-    const img = t.querySelector("img");
-    const src = t.querySelector("source");
-    const small = src && src.srcset ? src.srcset.split(",")[0].trim().split(" ")[0] : img.src;
-    const fc = t.closest("figure").querySelector("figcaption");
-    return {
-      i,
-      src: small,
-      big: t.dataset.full || small,
-      w: Number(t.dataset.w) || Number(img.getAttribute("width")) || 4,
-      h: Number(t.dataset.h) || Number(img.getAttribute("height")) || 3,
-      title: (fc ? fc.textContent : img.alt).trim()
-    };
-  });
-
-  let wall = null;
-  let mounting = null;
   let fromWall = false;
-  const setMode = (mode) => {
-    const isWall = mode === "wall";
-    section.classList.toggle("is-wall", isWall);
-    root.hidden = !isWall;
-    toggle.textContent = isWall ? "Show as grid" : "Show as yard wall";
-    if (isWall && !mounting) {
-      mounting = mountWall(root, items, {
-        label: "Photo",
-        open: (it) => {
-          fromWall = true;
-          tiles[it.i].click();
-        },
-        onFail: fail
-      }).then((w) => {
-        if (!w) { fail(); return; }
-        wall = w;
-      });
+  const g = wallOrGrid({
+    section,
+    root,
+    view: document.getElementById("yardView"),
+    toggle: document.getElementById("yardViewToggle"),
+    key: "bucYardView",
+    wallText: "Show as yard wall",
+    label: "Photo",
+    tiles: () => tiles,
+    open: (it) => {
+      fromWall = true;
+      tiles[it.i].click();
     }
-  };
-  function fail() {
-    wall = null;
-    section.classList.remove("is-wall");
-    root.hidden = true;
-    if (view) view.hidden = true;
-  }
+  });
   if (dlg) {
     dlg.addEventListener("close", () => {
       if (!fromWall) return;
       fromWall = false;
-      stage.focus({ preventScroll: true });
+      g.stage.focus({ preventScroll: true });
     });
   }
-  toggle.addEventListener("click", () => {
-    const next = section.classList.contains("is-wall") ? "grid" : "wall";
-    store("bucYardView", next);
-    setMode(next);
-    if (next === "wall") stage.focus({ preventScroll: true });
-  });
-  view.hidden = false;
-  setMode(store("bucYardView") === "grid" ? "grid" : "wall");
 })();
 
 /* ---------------------------------------------------------------- videos.html */
@@ -710,54 +738,43 @@ function mountWall(root, items, opts) {
     opener = null;
   });
 
-  /* Poster cards are facades: a plain click plays here; modified clicks still open YouTube. */
+  /* Grid tiles are facades: a plain click plays here; modified clicks still open YouTube. */
   document.addEventListener("click", (e) => {
     if (e.defaultPrevented || e.button !== 0 || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
-    const a = e.target.closest && e.target.closest(".gallery-panel .video-card a[href*='youtube.com/watch']");
+    const a = e.target.closest && e.target.closest(".gallery-panel a.yard-open[data-video]");
     if (!a) return;
-    let id = "";
-    try { id = new URL(a.href).searchParams.get("v") || ""; } catch (err) { return; }
-    const card = a.closest(".video-card");
-    const t = card && card.querySelector(".video-title");
-    if (play(id, t ? t.textContent : "YouTube video", a)) e.preventDefault();
+    if (play(a.dataset.video, a.dataset.title || "YouTube video", a)) e.preventDefault();
   });
 
+  /* The rail shows the grid of whichever fleet is picked (videos.js builds both grids). */
+  const section = document.getElementById("fleetGallery");
   const root = document.getElementById("fleetWall");
   const sw = document.getElementById("fleet-switch");
-  if (!root || !sw || !wallOK) return;
-  const promo = (v) => {
-    const t = String(v.title || "").toLowerCase();
-    return v.kind === "short" || t.includes("#shorts") || t.includes("music short") || t.includes("full mv in description");
+  if (!section || !root || !sw || !wallOK) return;
+  const tiles = () => {
+    const panel = document.getElementById(sw.dataset.active === "comedy" ? "gallery-comedy" : "gallery-music");
+    return panel ? Array.from(panel.querySelectorAll(".yard-open")) : [];
   };
-  const ofKind = (kind) => catalog
-    .filter((v) => v && /^[\w-]{6,}$/.test(v.id || "") && (kind === "comedy" ? v.kind === "comedy" : (v.kind || "music") === "music" && !promo(v)))
-    .map((v, i) => ({
-      i, id: v.id, title: String(v.title || "Video"), w: 16, h: 9,
-      src: "https://i.ytimg.com/vi/" + encodeURIComponent(v.id) + "/mqdefault.jpg"
-    }));
-  const kindNow = () => (sw.dataset.active === "comedy" ? "comedy" : "music");
-  const stage = root.querySelector(".wall-stage");
-  const count = root.querySelector(".fleet-wall-count");
-  const setCount = (n) => { if (count) count.textContent = n + (n === 1 ? " video" : " videos") + " on the rail"; };
-  let kind = kindNow();
-  if (!ofKind(kind).length && !ofKind("music").length) return;
-  root.hidden = false;
-  setCount(ofKind(kind).length);
-  mountWall(root, ofKind(kind), {
+  if (!tiles().length) return;
+  let stage = null;
+  const g = wallOrGrid({
+    section,
+    root,
+    view: document.getElementById("fleetView"),
+    toggle: document.getElementById("fleetViewToggle"),
+    key: "bucFleetView",
+    wallText: "Show on the rail",
     label: "Video",
+    tiles,
     open: (it) => {
       if (!play(it.id, it.title, stage)) window.open(watchUrl(it.id), "_blank", "noopener,noreferrer");
-    },
-    onFail: () => { root.hidden = true; }
-  }).then((wall) => {
-    if (!wall) { root.hidden = true; return; }
-    new MutationObserver(() => {
-      const k = kindNow();
-      if (k === kind) return;
-      kind = k;
-      const list = ofKind(k);
-      setCount(list.length);
-      wall.setItems(list);
-    }).observe(sw, { attributes: true, attributeFilter: ["data-active"] });
+    }
   });
+  stage = g.stage;
+  let kind = sw.dataset.active;
+  new MutationObserver(() => {
+    if (sw.dataset.active === kind) return;
+    kind = sw.dataset.active;
+    g.refresh();
+  }).observe(sw, { attributes: true, attributeFilter: ["data-active"] });
 })();

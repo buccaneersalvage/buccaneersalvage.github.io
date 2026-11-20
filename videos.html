@@ -30,8 +30,7 @@
 
     <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='75' font-size='75'>🎬</text></svg>">
     <title>The Dark Fleet - Music &amp; Comedy | Cap'n Jules the Rustjack</title>
-    <link rel="preconnect" href="https://img.youtube.com" crossorigin>
-    <link rel="preload" as="image" href="https://img.youtube.com/vi/3_pLNUtw-_M/hqdefault.jpg" fetchpriority="high">
+    <link rel="preconnect" href="https://i.ytimg.com">
     <link rel="preload" href="assets/fonts.css?v=d1b92d3ff4" integrity="sha384-IDnmxIHyfCaSAssmrqXZbMSqgbRm8AATad26bBSjsyTVbgLbsvJXqeQW642rJQFS" as="style">
     <link rel="stylesheet" href="assets/fonts.css?v=d1b92d3ff4" integrity="sha384-IDnmxIHyfCaSAssmrqXZbMSqgbRm8AATad26bBSjsyTVbgLbsvJXqeQW642rJQFS">
 
@@ -84,8 +83,8 @@
 <!-- SEO-JSONLD:END -->
 
     <link rel="stylesheet" href="styles.css?v=e9e91c43e4" integrity="sha384-rEECfautWP9u/fxMGZRtGPjmUZLkORITNV705KRiILPbIi+wonT/eh5crfIPdLc1">
-    <link rel="stylesheet" href="videos.css?v=fc4660b4f3" integrity="sha384-PfW/1yUTNsH/9VOYPenuccSNC05eWNLN8zgZMJ+X7bwwjBu1shW9wGGepmmXxjpU">
-    <link rel="stylesheet" href="yard-wall.css?v=bc6847e81c" integrity="sha384-EQAlGMd5Mo5l20rVXaOwv8vAckKwW38ylXkkS+0m3B5wWwnwhW29WHEibe4OC3RK">
+    <link rel="stylesheet" href="videos.css?v=7484bd59aa" integrity="sha384-SmbgB4Lp+Zo+5mkD+wShbxweVyRBPkckOrKvkoOIJPB3CyE7EJpMsk1b+wBz4Ut4">
+    <link rel="stylesheet" href="yard-wall.css?v=00f533a5ee" integrity="sha384-wtNaNTGa1rNAMxM85awS42RH56RwBBYEm9Q0L1XUCgjOJZ4Gw5LpqydaoJcgRSXh">
 </head>
 <body>
     <a class="skip-link" href="#main">Skip to content</a>
@@ -135,7 +134,7 @@
         </div>
     </header>
 
-    <main id="main" data-fx-tilt=".video-card">
+    <main id="main">
         <!-- Hero -->
         <section class="hero" data-fx-embers="dust">
             <h1>The Dark Fleet</h1>
@@ -155,9 +154,7 @@
                 </button>
             </div>
             <div class="fleet-meta" id="fleet-meta" aria-live="polite">
-                <span class="fleet-chip">Fleet <em id="fleet-label">Music</em></span>
-                <span class="fleet-chip">Showing <strong id="fleet-count">-</strong></span>
-                <span class="fleet-chip">Shuffled each visit</span>
+                <span class="fleet-chip"><strong id="fleet-count">-</strong> <em id="fleet-label">music videos</em></span>
             </div>
         </div>
 
@@ -171,38 +168,40 @@
             </div>
         </div>
 
-        <!-- Dual prebuilt fleets - toggle swaps panels only (no rebuild) -->
-        <div class="gallery-shell">
-            <section class="gallery-panel is-on" id="gallery-music" role="tabpanel" aria-labelledby="tab-music" data-kind="music">
-                <article class="video-card is-in" data-kind="music" data-lcp="1">
-                    <div class="video-thumbnail">
-                        <span class="kind-badge">Music</span>
-                        <a href="https://www.youtube.com/watch?v=3_pLNUtw-_M" target="_blank" rel="noopener noreferrer" referrerpolicy="no-referrer" aria-label="Watch Monster in the Darkness – Pearl Audrey Yanick (PsychoSinger) | Official Music Video on YouTube">
-                            <img src="https://img.youtube.com/vi/3_pLNUtw-_M/hqdefault.jpg" alt="Monster in the Darkness – Pearl Audrey Yanick (PsychoSinger) | Official Music Video" width="480" height="360" decoding="async" fetchpriority="high" referrerpolicy="no-referrer-when-downgrade">
-                            <div class="play-button" aria-hidden="true">▶</div>
-                        </a>
-                    </div>
-                    <div class="video-info">
-                        <h2 class="video-title">Monster in the Darkness – Pearl Audrey Yanick (PsychoSinger) | Official Music Video</h2>
-                        <p class="video-description">Watch on YouTube · Aug 05, 2026</p>
-                    </div>
-                </article>
-            </section>
-            <section class="gallery-panel is-off" id="gallery-comedy" role="tabpanel" aria-labelledby="tab-comedy" data-kind="comedy" hidden></section>
-        </div>
-
-        <section class="fleet-wall" id="fleetWall" aria-labelledby="fleetWallTitle" hidden>
-            <h2 class="fleet-wall-title" id="fleetWallTitle">Browse the whole fleet</h2>
-            <p class="fleet-wall-lead">Every video in the fleet you picked above, hung on one rail. Swipe or drag along it, then tap a plate to play it. A few only play on YouTube, so those open there. <span class="fleet-wall-count"></span></p>
-            <div class="wall-stage" tabindex="0" role="group" aria-roledescription="carousel" aria-label="Fleet rail. Left and right arrow keys move along the rail. Enter plays the video in front." aria-describedby="fleetWallCaption">
-                <canvas class="wall-canvas" aria-hidden="true"></canvas>
-                <p class="wall-status">Hanging the fleet on the rail</p>
+        <!-- Fleet gallery: same pattern as the scrap.html yard. One grid per fleet (videos.js),
+             the picked grid hangs on the rail (yard-wall.js) when the browser can run it. -->
+        <section class="fleet-gallery" id="fleetGallery" aria-labelledby="fleetTitle">
+            <h2 class="fleet-wall-title" id="fleetTitle">Music videos</h2>
+            <p class="fleet-wall-lead">Every video in this fleet. Tap one to play it here. A few only play on YouTube, so those open there.</p>
+            <div class="yard-view" id="fleetView" hidden>
+                <button type="button" class="wall-btn" id="fleetViewToggle">Show as grid</button>
             </div>
-            <div class="wall-bar">
-                <button type="button" class="wall-btn wall-step" data-step="-1" aria-label="Previous video">‹</button>
-                <p class="wall-caption" id="fleetWallCaption" aria-live="polite"></p>
-                <button type="button" class="wall-btn wall-step" data-step="1" aria-label="Next video">›</button>
-                <button type="button" class="wall-btn wall-open">Play video</button>
+            <div class="fleet-wall" id="fleetWall" hidden>
+                <div class="wall-stage" tabindex="0" role="group" aria-roledescription="carousel" aria-label="Video rail. Left and right arrow keys move along the rail. Enter plays the video in front." aria-describedby="fleetWallCaption">
+                    <canvas class="wall-canvas" aria-hidden="true"></canvas>
+                    <p class="wall-status">Hanging the videos on the rail</p>
+                </div>
+                <div class="wall-bar">
+                    <button type="button" class="wall-btn wall-step" data-step="-1" aria-label="Previous video">‹</button>
+                    <p class="wall-caption" id="fleetWallCaption" aria-live="polite"></p>
+                    <button type="button" class="wall-btn wall-step" data-step="1" aria-label="Next video">›</button>
+                    <button type="button" class="wall-btn wall-open">Play video</button>
+                </div>
+                <p class="wall-hint">Swipe or drag along the rail. The plate in front blasts clean, and a mouse blasts any plate it crosses. Tap a plate to play it.</p>
+            </div>
+            <!-- Dual prebuilt fleets - toggle swaps panels only (no rebuild) -->
+            <div class="gallery-shell">
+                <section class="gallery-panel is-on" id="gallery-music" role="tabpanel" aria-labelledby="tab-music" data-kind="music">
+                    <ul class="yard-grid yard-grid--video">
+                        <li class="yard-item" data-lcp="1">
+                            <figure class="yard-figure">
+                                <a class="yard-open" href="https://www.youtube.com/watch?v=3_pLNUtw-_M" target="_blank" rel="noopener noreferrer" referrerpolicy="no-referrer" data-video="3_pLNUtw-_M" data-title="Monster in the Darkness – Pearl Audrey Yanick (PsychoSinger) | Official Music Video" data-wall-src="https://i.ytimg.com/vi/3_pLNUtw-_M/mqdefault.jpg" data-w="16" data-h="9" aria-label="Watch on YouTube: Monster in the Darkness – Pearl Audrey Yanick (PsychoSinger) | Official Music Video"><img src="https://i.ytimg.com/vi/3_pLNUtw-_M/hqdefault.jpg" srcset="https://i.ytimg.com/vi/3_pLNUtw-_M/mqdefault.jpg 320w, https://i.ytimg.com/vi/3_pLNUtw-_M/hqdefault.jpg 480w" sizes="(max-width: 639px) 92vw, 760px" alt="" width="480" height="360" decoding="async" fetchpriority="high"></a>
+                                <figcaption><span class="yard-cap">Monster in the Darkness – Pearl Audrey Yanick (PsychoSinger) | Official Music Video</span><span class="yard-when">Aug 05, 2026, plays on YouTube</span></figcaption>
+                            </figure>
+                        </li>
+                    </ul>
+                </section>
+                <section class="gallery-panel is-off" id="gallery-comedy" role="tabpanel" aria-labelledby="tab-comedy" data-kind="comedy" hidden></section>
             </div>
         </section>
 
@@ -329,10 +328,11 @@
     </div>
   </footer>
 
-    <script src="main.js?v=e4401b28a1" integrity="sha384-vJfLXmt8vIg7psYbunxMMWF40g2Wq+0V7woKmlij17E9Fjul/WBUn8o+7+kO2a4Q" defer></script>
+    <script src="shuffle.js?v=831f46fbf6" integrity="sha384-XILnPQMLBoO1Lyp0pvqwKbKITisQIu8XJsr97saw4fPJpmuLPMsFZOgajrrmWAjC" defer></script>
+    <script src="main.js?v=ea8f28249d" integrity="sha384-CcShgNNmgGPR9EFM7i1tsUQi5LZTc7AukIhelnq94A3sf/PC3n69wHB8I5OCVjvn" defer></script>
 
     <script src="fx.js?v=988afbfa87" integrity="sha384-dUzDKeuLmZ93nF/kO5lhZlAXVXjB92f9e4kq9xoInG89gjdOD8F+fRABXcQxFw5D" defer></script>
-    <script src="videos.js?v=b95d8477c7" integrity="sha384-zNw7wP7rbRUxC8+EqZjLLLtUASJVw/Z/zoEhmTNwjUL/WfFEUAyo85Vnr4ecLYFi" defer></script>
-    <script type="module" src="yard-wall.js?v=d2ac9f4a82" integrity="sha384-tcApd3bKnf46hZtGRCTmFmnVvNrhld7v06zQiYhTiblokQvUftEtEzyCZdlVg9Zf"></script>
+    <script src="videos.js?v=becc189985" integrity="sha384-9fV4i/uisY3T7c+MCeXI/CoVPFGORdcs5Xc/7a1rHXsRXlR99CftjEAZyxM+wAbX" defer></script>
+    <script type="module" src="yard-wall.js?v=abc09aa60d" integrity="sha384-fPh1hfF9cbR2/VQPrxgSi0Fg9z+wLWlHM9O+P8CEI4ybJREbal6EZ5EPLWPZ/bc8"></script>
 </body>
 </html>

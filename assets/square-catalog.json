@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-20T00:01:17Z",
+  "updated": "2026-11-20T01:00:44Z",
   "store": "https://buccaneersalvage.square.site/",
   "count": 1246,
   "items": [
@@ -135230,148 +135230,6 @@
       "interchange": []
     },
     {
-      "id": "KLSOLJBWU4FAQ4TGW57X4GFL",
-      "name": "Delco Remy F-200 Ignition Condenser 1957-1961 Dodge D100 D200 W100 W200 NOS",
-      "price": 14.99,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/370d1729a31902651c17660d08f01937f8cefa49/original.jpeg",
-      "url": "https://square.link/u/Xll2P11Q",
-      "category": "other",
-      "checkout": true,
-      "variation_id": "VTCXSFXURIKJL4ICH2AP5JUH",
-      "part_numbers": [
-        "F-200"
-      ],
-      "vehicles": [
-        "1957\u20131959 Dodge D100 Pickup",
-        "1960\u20131961 Dodge D100 Series",
-        "1957\u20131959 Dodge D200 Pickup",
-        "1960\u20131961 Dodge D200 Series",
-        "1957\u20131959 Dodge W100 Pickup",
-        "1960\u20131961 Dodge W100 Series",
-        "1957\u20131959 Dodge W200 Pickup",
-        "1960\u20131961 Dodge W200 Series"
-      ],
-      "fitment_source": "ebay_listing+title",
-      "fitment_confidence": "medium",
-      "fitment": {
-        "part_numbers": [
-          "F-200"
-        ],
-        "interchange": [],
-        "vehicles": [
-          {
-            "year_from": 1957,
-            "year_to": 1959,
-            "make": "Dodge",
-            "model": "D100 Pickup",
-            "notes": "",
-            "source": "title",
-            "confidence": "low",
-            "trim_count": null
-          },
-          {
-            "year_from": 1960,
-            "year_to": 1961,
-            "make": "Dodge",
-            "model": "D100 Series",
-            "notes": "",
-            "source": "title",
-            "confidence": "low",
-            "trim_count": null
-          },
-          {
-            "year_from": 1957,
-            "year_to": 1959,
-            "make": "Dodge",
-            "model": "D200 Pickup",
-            "notes": "",
-            "source": "title",
-            "confidence": "low",
-            "trim_count": null
-          },
-          {
-            "year_from": 1960,
-            "year_to": 1961,
-            "make": "Dodge",
-            "model": "D200 Series",
-            "notes": "",
-            "source": "title",
-            "confidence": "low",
-            "trim_count": null
-          },
-          {
-            "year_from": 1957,
-            "year_to": 1959,
-            "make": "Dodge",
-            "model": "W100 Pickup",
-            "notes": "",
-            "source": "title",
-            "confidence": "low",
-            "trim_count": null
-          },
-          {
-            "year_from": 1960,
-            "year_to": 1961,
-            "make": "Dodge",
-            "model": "W100 Series",
-            "notes": "",
-            "source": "title",
-            "confidence": "low",
-            "trim_count": null
-          },
-          {
-            "year_from": 1957,
-            "year_to": 1959,
-            "make": "Dodge",
-            "model": "W200 Pickup",
-            "notes": "",
-            "source": "title",
-            "confidence": "low",
-            "trim_count": null
-          },
-          {
-            "year_from": 1960,
-            "year_to": 1961,
-            "make": "Dodge",
-            "model": "W200 Series",
-            "notes": "",
-            "source": "title",
-            "confidence": "low",
-            "trim_count": null
-          }
-        ],
-        "vehicle_labels": [
-          "1957\u20131959 Dodge D100 Pickup",
-          "1960\u20131961 Dodge D100 Series",
-          "1957\u20131959 Dodge D200 Pickup",
-          "1960\u20131961 Dodge D200 Series",
-          "1957\u20131959 Dodge W100 Pickup",
-          "1960\u20131961 Dodge W100 Series",
-          "1957\u20131959 Dodge W200 Pickup",
-          "1960\u20131961 Dodge W200 Series"
-        ],
-        "raw_compat_rows": 8,
-        "source": "ebay_listing+title",
-        "confidence": "medium",
-        "ebay_item_id": "398352067972",
-        "type": "Ignition Condenser",
-        "brand": "Delco Remy",
-        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Condensers"
-      },
-      "vehicle_count_raw": 8,
-      "ebay_item_id": "398352067972",
-      "ebay_type": "Ignition Condenser",
-      "ebay_brand": "Delco Remy",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Condensers",
-      "images": [
-        "../assets/pdp-gallery/KLSOLJBWU4FAQ4TGW57X4GFL/02.webp",
-        "../assets/pdp-gallery/KLSOLJBWU4FAQ4TGW57X4GFL/03.webp"
-      ],
-      "condition_id": "1500",
-      "stock": 1,
-      "interchange": []
-    },
-    {
       "id": "ZQRXEUPUTPUX5JK75WDYFFTO",
       "name": "Deltrol 10226-08 10VDC Solenoid Coil Hydraulic Dump Trailer Snow Plow Valve",
       "price": 14.99,
@@ -162250,6 +162108,64 @@
       "interchange": []
     },
     {
+      "id": "KLSOLJBWU4FAQ4TGW57X4GFL",
+      "name": "Ignition Condenser Replaces Delco F-200 NOS 1959-60 Edsel 1949 1957 Ford Custom",
+      "price": 14.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/370d1729a31902651c17660d08f01937f8cefa49/original.jpeg",
+      "url": "https://square.link/u/Xll2P11Q",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "VTCXSFXURIKJL4ICH2AP5JUH",
+      "part_numbers": [
+        "F-200"
+      ],
+      "vehicles": [
+        "1959\u20131960 Ford Custom 300"
+      ],
+      "fitment_source": "ebay_listing+title",
+      "fitment_confidence": "medium",
+      "fitment": {
+        "part_numbers": [
+          "F-200"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1959,
+            "year_to": 1960,
+            "make": "Ford",
+            "model": "Custom 300",
+            "notes": "",
+            "source": "title",
+            "confidence": "low",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1959\u20131960 Ford Custom 300"
+        ],
+        "raw_compat_rows": 8,
+        "source": "ebay_listing+title",
+        "confidence": "medium",
+        "ebay_item_id": "398352067972",
+        "type": "Ignition Condenser",
+        "brand": "Delco Remy",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Condensers"
+      },
+      "vehicle_count_raw": 8,
+      "ebay_item_id": "398352067972",
+      "ebay_type": "Ignition Condenser",
+      "ebay_brand": "Delco Remy",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Ignition Condensers",
+      "images": [
+        "../assets/pdp-gallery/KLSOLJBWU4FAQ4TGW57X4GFL/02.webp",
+        "../assets/pdp-gallery/KLSOLJBWU4FAQ4TGW57X4GFL/03.webp"
+      ],
+      "condition_id": "1500",
+      "stock": 1,
+      "interchange": []
+    },
+    {
       "id": "ZXALW2LYZ4CTQHO7J7INXLHW",
       "name": "Insignia 40-T95011-M9224C Main Board NS32-FEFL26 T95011 TP.MS3553W Power Board",
       "price": 34.99,
@@ -171939,7 +171855,7 @@
     },
     {
       "id": "O4NOCO2DUFTKKKYQDQ3G7W54",
-      "name": "National 4040N Camshaft Seal 1.378 x 2.113 Fits Plymouth Voyager 84-95 NOS",
+      "name": "National 4040N Rear Camshaft Seal 84-87 Plymouth Voyager 2.2L 1.378 x 2.113 NOS",
       "price": 13.99,
       "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/db23bb147388fa148309eb27617b9ea9ae2f3aae/original.jpeg",
       "url": "https://square.link/u/tdSn3w7B",
@@ -178703,9 +178619,9 @@
     {
       "id": "O6JHBMNMFRGN5X3WLTBEJYCN",
       "name": "Sealed Power HT-2056 Lifter 1.6 1.8 2.0 Chevette Skyhawk Sunbird GM 76-94 VL208",
-      "price": 11.99,
+      "price": 12.99,
       "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/7d763fa6c51b2e36d9a24c3842fc34a1115d9711/original.jpeg",
-      "url": "https://square.link/u/ayJnyPCx",
+      "url": "https://square.link/u/7tYBYLMw",
       "category": "other",
       "checkout": true,
       "variation_id": "FSWB6XWGLHLOL7UEPT2OJQT5",
@@ -195385,5 +195301,5 @@
       "ebay_brand": ""
     }
   ],
-  "fitment_built": "2026-11-20T00:01:17Z"
+  "fitment_built": "2026-11-20T01:00:44Z"
 }

@@ -1,16 +1,17 @@
         /**
-         * Dark Fleet — Music ↔ Comedy toggle (no second page, no DOM rebuild).
+         * Dark Fleet: Music / Comedy toggle (no second page, no DOM rebuild). Both fleets are
+         * built once as yard-style tile grids; yard-wall.js hangs the picked one on the rail.
          * Perf: dual prebuilt panels + dual tickers, WAAPI px marquee, no backdrop-filter.
          * Free-agent pass 2026-08-03: no toggle img thrash, resize guard, IO cache, will-change on.
          * Catalog: #videos-data (kind). Refresh: update-dark-fleet-videos
          */
         (() => {
-            const PICK = 9;
             const BLURBS = {
                 music: "Dark AI music videos: Norse metal, dark country and memorial ballads.",
                 comedy: "Absurdist comedy shorts: Valhalla denials, hell dinners and wasteland parodies."
             };
-            const LABELS = { music: "Music Videos", comedy: "Comedy Shorts" };
+            const LABELS = { music: "music videos", comedy: "comedy shorts" };
+            const TITLES = { music: "Music videos", comedy: "Comedy shorts" };
 
             let catalog = [];
             try {
@@ -51,6 +52,7 @@
             const heroBlurb = document.getElementById("hero-blurb");
             const fleetLabel = document.getElementById("fleet-label");
             const fleetCount = document.getElementById("fleet-count");
+            const fleetTitle = document.getElementById("fleetTitle");
             const tickerEl = document.getElementById("ticker");
             const tickerSlots = {
                 music: document.getElementById("ticker-slot-music"),
@@ -77,15 +79,6 @@
                 speed: 48,
                 names: { music: [], comedy: [] }
             };
-
-            function shuffle(arr) {
-                const a = arr.slice();
-                for (let i = a.length - 1; i > 0; i--) {
-                    const j = Math.floor(Math.random() * (i + 1));
-                    [a[i], a[j]] = [a[j], a[i]];
-                }
-                return a;
-            }
 
             function shortTitle(t) {
                 return String(t || "")
@@ -250,97 +243,104 @@
                 { passive: true }
             );
 
-            function makeCard(v, eager) {
-                const kind = v.kind || "music";
-                const card = document.createElement("article");
-                card.className = "video-card is-in";
-                card.dataset.kind = kind;
+            /* Same tile as the yard photo grid (styles.css .yard-*), with a 16:9 frame.
+               yard-wall.js reads these tiles for the rail and plays them in the page player. */
+            const thumb = (id, size) => "https://i.ytimg.com/vi/" + encodeURIComponent(id) + "/" + size + ".jpg";
+            const noEmbed = new Set(catalog.filter((v) => v && v.embed === false).map((v) => v.id));
 
-                const thumb = document.createElement("div");
-                thumb.className = "video-thumbnail";
-
-                const badge = document.createElement("span");
-                badge.className = "kind-badge";
-                badge.textContent =
-                    kind === "comedy" ? "Comedy" : kind === "short" ? "Short" : "Music";
+            function makeTile(v, opts) {
+                const li = document.createElement("li");
+                li.className = "yard-item";
+                if (opts.wide) li.classList.add("yard-item--wide");
+                const fig = document.createElement("figure");
+                fig.className = "yard-figure";
 
                 const a = document.createElement("a");
-                /* id already filtered to [\w-] — still encode for URL safety */
+                a.className = "yard-open";
+                /* id already filtered to [\w-] - still encode for URL safety */
                 a.href = "https://www.youtube.com/watch?v=" + encodeURIComponent(v.id);
                 a.target = "_blank";
                 a.rel = "noopener noreferrer";
                 a.referrerPolicy = "no-referrer";
-                a.setAttribute("aria-label", "Watch " + v.title + " on YouTube");
+                a.dataset.video = v.id;
+                a.dataset.title = v.title;
+                a.dataset.wallSrc = thumb(v.id, "mqdefault");
+                a.dataset.w = "16";
+                a.dataset.h = "9";
+                a.setAttribute("aria-label", (noEmbed.has(v.id) ? "Watch on YouTube: " : "Play ") + v.title);
 
                 const img = document.createElement("img");
-                img.src = "https://img.youtube.com/vi/" + encodeURIComponent(v.id) + "/hqdefault.jpg";
-                img.alt = v.title || "YouTube video";
-                img.decoding = "async";
-                img.loading = eager ? "eager" : "lazy";
-                if (eager) img.fetchPriority = "high";
+                img.src = thumb(v.id, "hqdefault");
+                img.srcset = thumb(v.id, "mqdefault") + " 320w, " + thumb(v.id, "hqdefault") + " 480w";
+                img.sizes = opts.big ? "(max-width: 639px) 92vw, 760px" : "(max-width: 639px) 46vw, 380px";
+                img.alt = "";
                 img.width = 480;
                 img.height = 360;
-                img.referrerPolicy = "no-referrer-when-downgrade";
+                img.decoding = "async";
+                img.loading = opts.eager ? "eager" : "lazy";
+                if (opts.eager) img.fetchPriority = "high";
+                a.append(img);
 
-                const play = document.createElement("div");
-                play.className = "play-button";
-                play.setAttribute("aria-hidden", "true");
-                play.textContent = "\u25B6";
+                const cap = document.createElement("figcaption");
+                const name = document.createElement("span");
+                name.className = "yard-cap";
+                name.textContent = v.title;
+                const when = document.createElement("span");
+                when.className = "yard-when";
+                when.textContent = (v.published || "") + (noEmbed.has(v.id) ? ", plays on YouTube" : "");
+                cap.append(name, when);
 
-                a.append(img, play);
-                thumb.append(badge, a);
-
-                const info = document.createElement("div");
-                info.className = "video-info";
-                const h3 = document.createElement("h2");
-                h3.className = "video-title";
-                h3.textContent = v.title;
-                const desc = document.createElement("p");
-                desc.className = "video-description";
-                desc.textContent = "Watch on YouTube · " + (v.published || "");
-                info.append(h3, desc);
-
-                card.append(thumb, info);
-                return card;
+                fig.append(a, cap);
+                li.append(fig);
+                return li;
             }
 
-            const LCP_ID = "3_pLNUtw-_M";
+            /* Rows stay full on the 3-column grid: the lead tile fills 2x2, and one or two
+               tiles near the end go wide when the count would leave a short last row. */
+            function wideSet(n) {
+                const r = n % 3;
+                if (n < 5 || r === 0) return new Set();
+                return r === 2 ? new Set([n - 1]) : new Set([n - 3, n - 1]);
+            }
+
+            /* Fresh order on every visit (shared BucShuffle helper). The static lead tile in the
+               HTML is first paint only; it stays when the shuffle lands on it, else the shuffled
+               lead takes its 2x2 slot (fixed 16:9 frame, so nothing shifts). */
+            const shuffle = (a) => (window.BucShuffle ? window.BucShuffle.shuffle(a) : a.slice());
             function fillPanel(kind) {
                 const panel = panels[kind];
                 if (!panel) return;
                 const pool = byKind[kind] || [];
                 const lcpEl = panel.querySelector("[data-lcp]");
-                let picks = shuffle(pool);
-                if (kind === "music") {
-                    const pinned = pool.find((v) => v.id === LCP_ID);
-                    if (pinned) {
-                        picks = [pinned, ...picks.filter((v) => v.id !== LCP_ID)];
-                    }
-                }
-                picks = picks.slice(0, Math.min(PICK, pool.length));
-                counts[kind] = { shown: picks.length, total: pool.length };
-                const frag = document.createDocumentFragment();
+                const lcpOpen = lcpEl && lcpEl.querySelector("[data-video]");
+                const lcpId = lcpOpen ? lcpOpen.dataset.video : "";
+                const picks = shuffle(pool);
+                counts[kind] = picks.length;
                 if (!picks.length) {
                     const empty = document.createElement("p");
-                    empty.className = "hero-description span-all";
-                    empty.textContent = "No vessels in this fleet yet — check back after the next haul.";
-                    frag.appendChild(empty);
-                    panel.replaceChildren(frag);
+                    empty.className = "hero-description";
+                    empty.textContent = "No videos in this fleet yet. Check back after the next upload.";
+                    panel.replaceChildren(empty);
                     return;
                 }
-                /* eager only for boot-visible fleet's LCP card — never thrash on toggle */
-                picks.forEach((v, i) => {
-                    if (lcpEl && v.id === LCP_ID) return;
-                    frag.appendChild(makeCard(v, kind === bootKind && i === 0));
-                });
-                if (lcpEl) {
-                    Array.from(panel.children).forEach((c) => {
-                        if (c !== lcpEl) c.remove();
-                    });
-                    panel.appendChild(frag);
-                } else {
-                    panel.replaceChildren(frag);
+                let list = panel.querySelector(".yard-grid");
+                if (!list) {
+                    list = document.createElement("ul");
+                    list.className = "yard-grid yard-grid--video";
+                    panel.replaceChildren(list);
                 }
+                const wide = wideSet(picks.length);
+                const frag = document.createDocumentFragment();
+                picks.forEach((v, i) => {
+                    if (lcpEl && i === 0 && v.id === lcpId) return;
+                    /* eager only for the boot fleet's lead tile - never thrash on toggle */
+                    frag.appendChild(makeTile(v, { eager: kind === bootKind && i === 0, big: i === 0 || wide.has(i), wide: wide.has(i) }));
+                });
+                const keepLead = lcpEl && picks[0].id === lcpId;
+                Array.from(list.children).forEach((c) => {
+                    if (!(keepLead && c === lcpEl)) c.remove();
+                });
+                list.appendChild(frag);
             }
 
             function showPanel(kind) {
@@ -355,9 +355,9 @@
             }
 
             function setMeta(kind) {
-                const c = counts[kind] || { shown: 0, total: 0 };
                 fleetLabel.textContent = LABELS[kind] || kind;
-                fleetCount.textContent = c.shown + " of " + c.total;
+                fleetCount.textContent = String(counts[kind] || 0);
+                if (fleetTitle) fleetTitle.textContent = TITLES[kind] || TITLES.music;
                 heroBlurb.textContent = BLURBS[kind] || BLURBS.music;
                 showTicker(kind);
             }

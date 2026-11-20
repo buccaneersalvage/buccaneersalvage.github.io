@@ -400,21 +400,15 @@ html {
             min-height: 240px;
         }
 
-        /* Dual prebuilt panels — toggle visibility only (no DOM rebuild / no filter blur) */
-        .gallery-panel {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-            gap: 2.5rem;
-            margin: 3rem 0;
-        }
-
+        /* Dual prebuilt panels - toggle visibility only (no DOM rebuild / no filter blur).
+           Tiles are the yard grid from styles.css; the 16:9 frame lives in yard-wall.css. */
         .gallery-panel[hidden],
         .gallery-panel.is-off {
             display: none !important;
         }
 
         .gallery-panel.is-on {
-            display: grid;
+            display: block;
             animation: fleet-in 0.18s var(--ease) both;
         }
 
@@ -423,260 +417,6 @@ html {
             to   { opacity: 1; transform: translate3d(0, 0, 0); }
         }
 
-        .video-card .kind-badge {
-            position: absolute;
-            top: 0.75rem;
-            left: 0.75rem;
-            z-index: 3;
-            font-family: 'IBM Plex Mono', monospace;
-            font-size: 0.75rem;
-            letter-spacing: 0.14em;
-            text-transform: uppercase;
-            padding: 0.35rem 0.55rem;
-            border-radius: 4px;
-            background: rgba(10, 8, 4, 0.88);
-            border: 1px solid rgba(212, 175, 55, 0.45);
-            color: var(--accent-gold);
-            /* no backdrop-filter */
-        }
-
-        .video-card[data-kind="comedy"] .kind-badge {
-            border-color: rgba(255, 120, 80, 0.55);
-            color: #ffb08a;
-        }
-
-        /* Gallery Grid */
-        .gallery {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-            gap: 2.5rem;
-            margin: 3rem 0;
-        }
-
-        @property --card-angle {
-            syntax: '<angle>';
-            initial-value: 0deg;
-            inherits: false;
-        }
-
-        .video-card {
-            border: 1px solid var(--accent-brass);
-            border-radius: 12px;
-            background: rgba(26, 20, 16, 0.6);
-            overflow: hidden;
-            transition: transform 0.35s var(--ease), border-color 0.25s ease, box-shadow 0.35s var(--ease);
-            position: relative;
-            contain: content;
-            content-visibility: auto;
-            contain-intrinsic-size: 360px 320px;
-        }
-
-        /* rotating conic border light on hover */
-        .video-card::before {
-            content: "";
-            position: absolute;
-            inset: -1px;
-            border-radius: 12px;
-            padding: 1px;
-            background: conic-gradient(from var(--card-angle), transparent 0%, rgba(255, 233, 168, 0.9) 8%, rgba(212, 175, 55, 0.6) 14%, transparent 24%);
-            -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
-            -webkit-mask-composite: xor;
-            mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
-            mask-composite: exclude;
-            opacity: 0;
-            transition: opacity 0.4s ease;
-            pointer-events: none;
-            z-index: 2;
-        }
-
-        @keyframes spin-angle {
-            to { --card-angle: 360deg; }
-        }
-
-        .video-card:hover {
-            border-color: var(--accent-gold);
-            box-shadow: 0 24px 50px rgba(0, 0, 0, 0.5), 0 0 40px rgba(212, 175, 55, 0.18);
-            transform: translateY(-6px);
-        }
-
-        /* Spin only on fine-pointer hover — never on touch / idle page */
-        @media (hover: hover) and (pointer: fine) {
-            .video-card:hover::before {
-                opacity: 1;
-                animation: spin-angle 4s linear infinite;
-            }
-        }
-
-        /* filter fade + scroll reveal states */
-        .video-card.is-hidden {
-            opacity: 0;
-            transform: scale(0.92) translateY(10px);
-            pointer-events: none;
-        }
-
-        .video-card.reveal {
-            opacity: 0;
-            transform: translateY(26px);
-        }
-
-        .video-card.reveal.is-in {
-            opacity: 1;
-            transform: none;
-        }
-
-        .video-thumbnail {
-            width: 100%;
-            aspect-ratio: 16 / 9;
-            background: linear-gradient(135deg, rgba(212, 175, 55, 0.1), rgba(201, 169, 97, 0.1));
-            overflow: hidden;
-            position: relative;
-        }
-
-        .video-thumbnail a {
-            width: 100%;
-            height: 100%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            position: relative;
-            text-decoration: none;
-            cursor: pointer;
-        }
-
-        .video-thumbnail img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            transform: none;
-            transition: transform 0.7s var(--ease), filter 0.5s ease;
-        }
-
-        /* Hover zoom only on real hover devices — skips touch-hover sticky bugs + GPU cost */
-        @media (hover: hover) and (pointer: fine) {
-            .video-card:hover .video-thumbnail img {
-                transform: scale(1.05);
-            }
-            /* opening a video: a short press into depth before the new tab takes over */
-            .video-card:active .video-thumbnail img {
-                transform: scale(1.02);
-                transition-duration: 0.12s;
-            }
-        }
-
-        /* bottom scrim + shine sweep */
-        .video-thumbnail::before {
-            content: "";
-            position: absolute;
-            inset: 0;
-            z-index: 1;
-            background: linear-gradient(180deg, rgba(5, 4, 3, 0) 55%, rgba(5, 4, 3, 0.55) 100%);
-            opacity: 0;
-            transition: opacity 0.5s ease;
-            pointer-events: none;
-        }
-
-        .video-card:hover .video-thumbnail::before {
-            opacity: 1;
-        }
-
-        .video-thumbnail::after {
-            content: "";
-            position: absolute;
-            inset: 0;
-            z-index: 1;
-            background: linear-gradient(105deg, transparent 40%, rgba(255, 236, 170, 0.22) 50%, transparent 60%);
-            transform: translateX(-130%) skewX(-8deg);
-            transition: transform 0.9s var(--ease);
-            pointer-events: none;
-        }
-
-        .video-card:hover .video-thumbnail::after {
-            transform: translateX(130%) skewX(-8deg);
-        }
-
-        .play-button {
-            position: absolute;
-            z-index: 2;
-            width: 70px;
-            height: 70px;
-            background: rgba(212, 175, 55, 0.9);
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 2rem;
-            color: var(--primary);
-            opacity: 0;
-            transform: scale(0.7);
-            transition: all 0.35s var(--ease);
-            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
-        }
-
-        .play-button::after {
-            content: "";
-            position: absolute;
-            inset: 0;
-            border-radius: 50%;
-            border: 2px solid rgba(212, 175, 55, 0.7);
-            opacity: 0;
-        }
-
-        .video-card:hover .play-button {
-            opacity: 1;
-            transform: scale(1);
-        }
-
-        .video-card:hover .play-button::after {
-            animation: pulse-ring 1.6s ease-out infinite;
-        }
-
-        @keyframes pulse-ring {
-            0% { transform: scale(1); opacity: 0.8; }
-            100% { transform: scale(1.9); opacity: 0; }
-        }
-
-        .video-info {
-            padding: 2rem;
-        }
-
-        .video-title {
-            font-family: 'Cormorant Garamond', serif;
-            font-size: 1.5rem;
-            font-weight: 700;
-            margin-bottom: 0.75rem;
-            color: var(--accent-gold);
-            transition: color 0.3s ease;
-        }
-
-        .video-card:hover .video-title {
-            color: #e6c200;
-        }
-
-        .video-description {
-            font-size: 0.95rem;
-            color: var(--text-light);
-            margin-bottom: 1.25rem;
-            line-height: 1.7;
-        }
-
-        .video-meta {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            font-size: 0.9rem;
-            color: var(--text-light);
-            border-top: 1px solid rgba(212, 175, 55, 0.2);
-            padding-top: 1rem;
-        }
-
-        .video-stats {
-            display: flex;
-            gap: 1.5rem;
-        }
-
-        .video-stats span {
-            display: inline-block;
-        }
         /* Responsive */
         @media (max-width: 768px) {
             h1 {
@@ -689,13 +429,6 @@ html {
 
             .hero {
                 padding: 2.5rem 1.15rem;
-            }
-
-            .gallery,
-            .gallery-panel {
-                grid-template-columns: 1fr;
-                gap: 1.5rem;
-                margin: 1.5rem 0;
             }
 
             .fleet-switch button {
@@ -823,4 +556,4 @@ body {
 }
 .fleet-switch { background: #261b12; }
 .fleet-switch button[aria-selected="true"] { color: #0f0b07; }
-.video-card { background: #1a130d; border-color: rgba(197, 160, 40, 0.35); }
+

@@ -6,7 +6,7 @@
    * Search + category + price filter + sort + pagination (not the full catalog at once).
    * Commerce-style facets; brand-dark gold cards; cores warn on-card.
    */
-  const CATALOG_URL = "assets/store-catalog.json?v=87027f6b63";
+  const CATALOG_URL = "assets/store-catalog.json?v=9d5084e105";
   const SLUGS_URL = "assets/pdp-slugs.json?v=20260909"; // keep in sync with main.js (test_pdp_slugs)
   const CORE_WARN = "FOR PARTS OR REBUILD · UNTESTED · NO RETURNS";
   const DEFAULT_PAGE = 24;
@@ -182,23 +182,17 @@
     recoverBrokenThumbs(root);
   }
 
-  function rankCat(c) {
-    return {
-      turbo: 0,
-      pump: 1,
-      "air-spring": 2,
-      brake: 3,
-      filters: 4,
-      ignition: 5,
-      driveline: 6,
-      engines: 6,
-      interior: 7,
-      exhaust: 7,
-      mobility: 8,
-      cycling: 8,
-      "material-handling": 8,
-      "electric-motors": 8,
-    }[c] ?? 9;
+  /* Default ("featured") order is a fresh shuffle per page load (shared BucShuffle helper).
+     Built once from the loaded catalog, so re-inits, pagination and re-picking the default
+     all walk the same order for the visit; an explicit sort or filter works on top of it. */
+  let visitOrder = null;
+  function visitRank(item) {
+    if (!visitOrder || visitOrder.src !== catalog) {
+      const ids = catalog.map((i) => String(i.id || ""));
+      const mixed = window.BucShuffle ? window.BucShuffle.shuffle(ids) : ids;
+      visitOrder = { src: catalog, pos: new Map(mixed.map((id, n) => [id, n])) };
+    }
+    return visitOrder.pos.get(String(item.id || "")) ?? visitOrder.pos.size;
   }
 
   /** Brand / manufacturer aliases so "chevy", "contitech", "benz" hit listings. */
@@ -1064,7 +1058,7 @@
                data-price="${escapeAttr(price)}"
                data-id="${escapeAttr(item.id || "")}"
                data-category="${escapeAttr(item.category || "other")}"
-               data-rank="${rankCat(item.category)}">
+               data-rank="${visitRank(item)}">
         <a class="st-card-link" href="${escapeAttr(href)}" title="${escapeAttr(tip)}">
           <div class="st-card-media">${ribbon}${img}</div>
           <div class="st-card-body">
@@ -1645,7 +1639,7 @@
     } else if (mode === "name-desc") {
       list.sort("name", { order: "desc" });
     } else {
-      // Featured: category rank (cores first) then name
+      // Featured: this visit's shuffle
       numSort("rank", "asc");
     }
     updateShowing();
@@ -1676,7 +1670,7 @@
         if (build != null && build !== listBuild) return;
         if (!list) return;
         const sortMode = document.getElementById("stSort")?.value || "featured";
-        // Initial DOM is already sorted in "featured" order (rank asc, name asc).
+        // Initial DOM is already in "featured" order (this visit's shuffle).
         if (sortMode !== "featured") {
           applySort(sortMode);
         }
@@ -1808,12 +1802,8 @@
     list = null;
     grid.removeAttribute("data-list-ready");
 
-    // Sort catalog for initial DOM order (featured)
-    const ordered = catalog.slice().sort(
-      (a, b) =>
-        rankCat(a.category) - rankCat(b.category) ||
-        (a.name || "").localeCompare(b.name || "")
-    );
+    // Initial DOM order is the visit's shuffle (featured)
+    const ordered = catalog.slice().sort((a, b) => visitRank(a) - visitRank(b));
     const gridNearFold = grid.getBoundingClientRect().top < window.innerHeight * 1.25;
     const eagerN = !gridNearFold
       ? 0
