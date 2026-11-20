@@ -1,7 +1,7 @@
 {
-  "updated": "2026-11-20T08:00:36Z",
+  "updated": "2026-11-20T09:00:36Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 1245,
+  "count": 1243,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -13,16 +13,16 @@
       "checkout": true,
       "variation_id": "4ACCWZULS5NCP23VGRVBHVTI",
       "part_numbers": [
-        "Holset X63"
+        "X63 160583P2"
       ],
       "vehicles": [
         "1970 Mack"
       ],
       "fitment_source": "ebay_listing+title",
-      "fitment_confidence": "low",
+      "fitment_confidence": "medium",
       "fitment": {
         "part_numbers": [
-          "Holset X63"
+          "X63 160583P2"
         ],
         "interchange": [],
         "vehicles": [
@@ -42,11 +42,11 @@
         ],
         "raw_compat_rows": 1,
         "source": "ebay_listing+title",
-        "confidence": "low",
+        "confidence": "medium",
         "ebay_item_id": "398246339681",
         "type": "Turbocharger",
-        "brand": "",
-        "ebay_category": ""
+        "brand": "Holset",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Turbos, Superchargers & Intercoolers:Turbos & Parts"
       },
       "vehicle_count_raw": 1,
       "ebay_item_id": "398246339681",
@@ -58,8 +58,8 @@
       ],
       "stock": 1,
       "interchange": [],
-      "ebay_brand": "",
-      "ebay_category": ""
+      "ebay_brand": "Holset",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Turbos, Superchargers & Intercoolers:Turbos & Parts"
     },
     {
       "id": "5LLWTR3B27YDLV6ZR6XMBPWL",
@@ -57961,7 +57961,7 @@
     },
     {
       "id": "F4HOKV6LNMGAFCKA4JMMPIUH",
-      "name": "1959-1994 KEM 1825 Distributor Rotor Chrysler Dodge Plymouth Mopar Avenue NOS",
+      "name": "1959-1989 1994 KEM 1825 Distributor Rotor Chrysler Dodge Plymouth Mopar NOS",
       "price": 19.99,
       "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/232e28475c82b0b6e0e47212fcd85afc7db567c5/original.jpeg",
       "url": "https://square.link/u/wHfogzvU",
@@ -57973,9 +57973,9 @@
         "Standard CH-303"
       ],
       "vehicles": [
-        "1959\u20131994 Chrysler",
-        "1959\u20131994 Dodge",
-        "1959\u20131994 Plymouth"
+        "1959\u20131989 Chrysler",
+        "1959\u20131989 Dodge",
+        "1959\u20131989 Plymouth"
       ],
       "fitment_source": "ebay_listing+title",
       "fitment_confidence": "medium",
@@ -57988,7 +57988,7 @@
         "vehicles": [
           {
             "year_from": 1959,
-            "year_to": 1994,
+            "year_to": 1989,
             "make": "Chrysler",
             "model": "",
             "notes": "",
@@ -57998,7 +57998,7 @@
           },
           {
             "year_from": 1959,
-            "year_to": 1994,
+            "year_to": 1989,
             "make": "Dodge",
             "model": "",
             "notes": "",
@@ -58008,7 +58008,7 @@
           },
           {
             "year_from": 1959,
-            "year_to": 1994,
+            "year_to": 1989,
             "make": "Plymouth",
             "model": "",
             "notes": "",
@@ -58018,9 +58018,9 @@
           }
         ],
         "vehicle_labels": [
-          "1959\u20131994 Chrysler",
-          "1959\u20131994 Dodge",
-          "1959\u20131994 Plymouth"
+          "1959\u20131989 Chrysler",
+          "1959\u20131989 Dodge",
+          "1959\u20131989 Plymouth"
         ],
         "raw_compat_rows": 3,
         "source": "ebay_listing+title",
@@ -89098,103 +89098,6 @@
         "../assets/pdp-gallery/Q5WTI2L7SG2VNGC6WPPTEQQI/02.webp",
         "../assets/pdp-gallery/Q5WTI2L7SG2VNGC6WPPTEQQI/03.webp",
         "../assets/pdp-gallery/Q5WTI2L7SG2VNGC6WPPTEQQI/04.webp"
-      ],
-      "condition_id": "1500",
-      "stock": 1,
-      "interchange": []
-    },
-    {
-      "id": "235ED4WKR2GVOMWFOZ5DVRYD",
-      "name": "Standard JR-105 Distributor Rotor Nissan Sentra NX Pulsar 240SX 1.6 2.4 86-98",
-      "price": 12.99,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/5f189ad581f221355e0b54f4a2ad5e19eea9fa94/original.jpeg",
-      "url": "https://square.link/u/FX1raDsB",
-      "category": "ignition",
-      "checkout": true,
-      "variation_id": "5M2BVWKQ2VZSKAPKRGMM4IAW",
-      "part_numbers": [
-        "JR-105",
-        "173-7933"
-      ],
-      "vehicles": [
-        "1989\u20131998 Nissan 240SX",
-        "1991\u20131993 Nissan NX",
-        "1986\u20131990 Nissan Pulsar NX",
-        "1986\u20131995 Nissan Sentra"
-      ],
-      "fitment_source": "ebay_listing+title",
-      "fitment_confidence": "high",
-      "fitment": {
-        "part_numbers": [
-          "JR-105",
-          "173-7933"
-        ],
-        "interchange": [],
-        "vehicles": [
-          {
-            "year_from": 1989,
-            "year_to": 1998,
-            "make": "Nissan",
-            "model": "240SX",
-            "notes": "",
-            "source": "title",
-            "confidence": "low",
-            "trim_count": null
-          },
-          {
-            "year_from": 1991,
-            "year_to": 1993,
-            "make": "Nissan",
-            "model": "NX",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1986,
-            "year_to": 1990,
-            "make": "Nissan",
-            "model": "Pulsar NX",
-            "notes": "",
-            "source": "title",
-            "confidence": "low",
-            "trim_count": null
-          },
-          {
-            "year_from": 1986,
-            "year_to": 1995,
-            "make": "Nissan",
-            "model": "Sentra",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          }
-        ],
-        "vehicle_labels": [
-          "1989\u20131998 Nissan 240SX",
-          "1991\u20131993 Nissan NX",
-          "1986\u20131990 Nissan Pulsar NX",
-          "1986\u20131995 Nissan Sentra"
-        ],
-        "raw_compat_rows": 110,
-        "source": "ebay_listing+title",
-        "confidence": "high",
-        "ebay_item_id": "398347282519",
-        "type": "Distributor Rotor",
-        "brand": "Standard Motor Products",
-        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors"
-      },
-      "vehicle_count_raw": 110,
-      "ebay_item_id": "398347282519",
-      "ebay_type": "Distributor Rotor",
-      "ebay_brand": "Standard Motor Products",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Rotors",
-      "images": [
-        "../assets/pdp-gallery/235ED4WKR2GVOMWFOZ5DVRYD/02.webp",
-        "../assets/pdp-gallery/235ED4WKR2GVOMWFOZ5DVRYD/03.webp",
-        "../assets/pdp-gallery/235ED4WKR2GVOMWFOZ5DVRYD/04.webp"
       ],
       "condition_id": "1500",
       "stock": 1,
@@ -157935,42 +157838,6 @@
       "vehicles": []
     },
     {
-      "id": "5NW5TFGNUNM2KO5ANJRO57C4",
-      "name": "High Voltage Power Transformer Microwave Oven 120V 60Hz Project Lot of 2 Tested",
-      "price": 49.99,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/b96ac20177c55fb8ddce7affed275d4c16249ae3/original.jpeg",
-      "url": "https://square.link/u/WHwxunX1",
-      "category": "other",
-      "checkout": true,
-      "variation_id": "NTSBW63WMDVGFJOHWM2GAQT2",
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "medium",
-      "fitment": {
-        "part_numbers": [],
-        "interchange": [],
-        "vehicles": [],
-        "vehicle_labels": [],
-        "raw_compat_rows": 0,
-        "source": "ebay_listing",
-        "confidence": "medium",
-        "ebay_item_id": "920082739910",
-        "type": "Transformer",
-        "brand": "Unbranded",
-        "ebay_category": "Home & Garden:Kitchen, Dining & Bar:Small Kitchen Appliances:Microwave Parts"
-      },
-      "vehicle_count_raw": 0,
-      "ebay_item_id": "920082739910",
-      "ebay_type": "Transformer",
-      "ebay_brand": "Unbranded",
-      "ebay_category": "Home & Garden:Kitchen, Dining & Bar:Small Kitchen Appliances:Microwave Parts",
-      "condition_id": "3000",
-      "stock": 1,
-      "part_numbers": [],
-      "interchange": [],
-      "vehicles": [],
-      "images": []
-    },
-    {
       "id": "3ICV75PAFQP3JSDBQVGMI3LP",
       "name": "Hisense 1092-L 1092-R OEM TV Stand Legs Base Feet Pair for 55\" Hisense TV",
       "price": 21.99,
@@ -194961,5 +194828,5 @@
       "ebay_brand": ""
     }
   ],
-  "fitment_built": "2026-11-20T08:00:36Z"
+  "fitment_built": "2026-11-20T09:00:36Z"
 }
