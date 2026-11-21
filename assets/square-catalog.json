@@ -1,7 +1,7 @@
 {
-  "updated": "2026-11-20T23:00:44Z",
+  "updated": "2026-11-21T00:00:47Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 1243,
+  "count": 1242,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -191470,109 +191470,6 @@
       "stock": 1
     },
     {
-      "id": "W2TUDCUW7QAGGGOWXJKSCUTW",
-      "name": "Victor JV554 Rear Main Seal Kit 1-Pc Chevrolet Camaro 4.3 5.0 5.7 86-96 BS40520",
-      "price": 21.99,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/51e147e72890d6876a485a2432258d8b97b1d21a/original.jpeg",
-      "url": "https://square.link/u/nxloNeBg",
-      "category": "other",
-      "checkout": true,
-      "variation_id": "JD3ILHBOJND6CUR6ABC6OV7M",
-      "part_numbers": [
-        "JV554",
-        "10088158, 12337823, Rol RS29465"
-      ],
-      "interchange": [
-        "Fel-Pro BS40520",
-        "14088559"
-      ],
-      "vehicles": [
-        "1986\u20131996 Chevrolet Camaro",
-        "1990\u20131992 Cadillac Brougham",
-        "1986\u20131996 Chevrolet Caprice",
-        "1986\u20131996 Pontiac Firebird"
-      ],
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "high",
-      "fitment": {
-        "part_numbers": [
-          "JV554",
-          "10088158, 12337823, Rol RS29465"
-        ],
-        "interchange": [
-          "Fel-Pro BS40520",
-          "14088559"
-        ],
-        "vehicles": [
-          {
-            "year_from": 1990,
-            "year_to": 1992,
-            "make": "Cadillac",
-            "model": "Brougham",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1986,
-            "year_to": 1996,
-            "make": "Chevrolet",
-            "model": "Camaro",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1986,
-            "year_to": 1996,
-            "make": "Chevrolet",
-            "model": "Caprice",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1986,
-            "year_to": 1996,
-            "make": "Pontiac",
-            "model": "Firebird",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          }
-        ],
-        "vehicle_labels": [
-          "1986\u20131996 Chevrolet Camaro",
-          "1990\u20131992 Cadillac Brougham",
-          "1986\u20131996 Chevrolet Caprice",
-          "1986\u20131996 Pontiac Firebird"
-        ],
-        "raw_compat_rows": 250,
-        "source": "ebay_listing",
-        "confidence": "high",
-        "ebay_item_id": "398315479016",
-        "type": "Rear Main Seal Kit",
-        "brand": "Victor",
-        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Exterior Parts & Accessories:Doors, Trunk Lids & Hatches:Liftgates"
-      },
-      "vehicle_count_raw": 250,
-      "ebay_item_id": "398315479016",
-      "ebay_type": "Rear Main Seal Kit",
-      "ebay_brand": "Victor",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Exterior Parts & Accessories:Doors, Trunk Lids & Hatches:Liftgates",
-      "images": [
-        "../assets/pdp-gallery/W2TUDCUW7QAGGGOWXJKSCUTW/02.webp",
-        "../assets/pdp-gallery/W2TUDCUW7QAGGGOWXJKSCUTW/03.webp",
-        "../assets/pdp-gallery/W2TUDCUW7QAGGGOWXJKSCUTW/04.webp"
-      ],
-      "condition_id": "1500",
-      "stock": 1
-    },
-    {
       "id": "HUBRSZROGEIMOYQFHZOWD6YC",
       "name": "Victor JV555 Rear Main Seal Kit NOS Fel-Pro BS40158 Ford Taurus 1.9 3.0 86-07",
       "price": 25.99,
@@ -194417,7 +194314,7 @@
       "name": "Weber Performance Clutch Disc 10-3/8in 1in Input Shaft Fine Spline NOS",
       "price": 89.99,
       "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/156cda81f2565602bc6807fedbb920674f9cffd7/original.jpeg",
-      "url": "https://square.link/u/b1lwZwDh",
+      "url": "https://square.link/u/rpk471NV",
       "category": "other",
       "checkout": true,
       "variation_id": "2RLAYEDPTZZQ6B2MIFV27W6B",
@@ -194768,5 +194665,5 @@
       "ebay_brand": ""
     }
   ],
-  "fitment_built": "2026-11-20T23:00:44Z"
+  "fitment_built": "2026-11-21T00:00:47Z"
 }
