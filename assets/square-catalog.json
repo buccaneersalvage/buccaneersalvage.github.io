@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-21T19:00:50Z",
+  "updated": "2026-11-21T21:00:48Z",
   "store": "https://buccaneersalvage.square.site/",
   "count": 1241,
   "items": [
@@ -27485,6 +27485,9 @@
         "H9409",
         "H9409-2, Dorman 105396, Dorman 105396-10, Raybestos S22069"
       ],
+      "vehicles": [
+        "Honda Civic"
+      ],
       "fitment_source": "ebay_listing+carlson_specs+title",
       "fitment_confidence": "medium",
       "fitment": {
@@ -27530,10 +27533,7 @@
       ],
       "condition_id": "1500",
       "stock": 1,
-      "interchange": [],
-      "vehicles": [
-        "Honda Civic"
-      ]
+      "interchange": []
     },
     {
       "id": "FZVPMHUXDRF2725FUUTAKTX6",
@@ -47713,7 +47713,7 @@
     },
     {
       "id": "DOHZ4WJO4M73JFBKR7MGNDCW",
-      "name": "WIX 33483 Fuel Filter NOS Chevy Celebrity Buick Cutlass 82-96 Cutlass Ciera",
+      "name": "WIX 33483 Fuel Filter NOS Chevy Celebrity 82-88 Oldsmobile Cutlass Ciera Firenza",
       "price": 16.99,
       "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/cfc54d2e648a8848e355bb77d0a0076e4cd50a7d/original.jpeg",
       "url": "https://square.link/u/TxeJuRfw",
@@ -47727,7 +47727,9 @@
         "NAPA 3483"
       ],
       "vehicles": [
-        "1982\u20131990 Chevrolet Celebrity",
+        "1982\u20131988 Chevrolet Celebrity",
+        "1982\u20131988 Oldsmobile Cutlass Ciera",
+        "1982\u20131988 Oldsmobile Firenza",
         "1983\u20131991 GM"
       ],
       "fitment_source": "ebay_listing+title",
@@ -47742,7 +47744,7 @@
         "vehicles": [
           {
             "year_from": 1982,
-            "year_to": 1990,
+            "year_to": 1988,
             "make": "Chevrolet",
             "model": "Celebrity",
             "notes": "",
@@ -47759,13 +47761,35 @@
             "source": "ebay_compat",
             "confidence": "high",
             "trim_count": null
+          },
+          {
+            "year_from": 1982,
+            "year_to": 1988,
+            "make": "Oldsmobile",
+            "model": "Cutlass Ciera",
+            "notes": "",
+            "source": "title",
+            "confidence": "low",
+            "trim_count": null
+          },
+          {
+            "year_from": 1982,
+            "year_to": 1988,
+            "make": "Oldsmobile",
+            "model": "Firenza",
+            "notes": "",
+            "source": "title",
+            "confidence": "low",
+            "trim_count": null
           }
         ],
         "vehicle_labels": [
-          "1982\u20131990 Chevrolet Celebrity",
+          "1982\u20131988 Chevrolet Celebrity",
+          "1982\u20131988 Oldsmobile Cutlass Ciera",
+          "1982\u20131988 Oldsmobile Firenza",
           "1983\u20131991 GM"
         ],
-        "raw_compat_rows": 4,
+        "raw_compat_rows": 5,
         "source": "ebay_listing+title",
         "confidence": "high",
         "ebay_item_id": "398268418285",
@@ -47773,7 +47797,7 @@
         "brand": "WIX",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Fuel Filters"
       },
-      "vehicle_count_raw": 4,
+      "vehicle_count_raw": 5,
       "ebay_item_id": "398268418285",
       "ebay_type": "Fuel Filter",
       "ebay_brand": "WIX",
@@ -96761,7 +96785,7 @@
     },
     {
       "id": "X3HGK4WUOKZJLQPBB2M3ABOY",
-      "name": "Dorman 55114 Left Air Injection Manifold Pipe NOS 1982-1988 Cutlass 327615",
+      "name": "Dorman 55114 Left Air Injection Manifold Pipe NOS 85-88 Oldsmobile Cutlass",
       "price": 36.99,
       "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/9860448bd253af3598e6ce7f4b183ac3a5281038/original.jpeg",
       "url": "https://square.link/u/qjzmGbll",
@@ -96776,8 +96800,8 @@
         "1593"
       ],
       "vehicles": [
-        "1982\u20131986 Buick LeSabre",
         "1985\u20131988 Oldsmobile Cutlass",
+        "1982\u20131986 Buick LeSabre",
         "1981 Pontiac Grand Prix"
       ],
       "fitment_source": "ebay_listing",
@@ -96823,8 +96847,8 @@
           }
         ],
         "vehicle_labels": [
-          "1982\u20131986 Buick LeSabre",
           "1985\u20131988 Oldsmobile Cutlass",
+          "1982\u20131986 Buick LeSabre",
           "1981 Pontiac Grand Prix"
         ],
         "raw_compat_rows": 109,
@@ -194619,5 +194643,5 @@
       "ebay_brand": ""
     }
   ],
-  "fitment_built": "2026-11-21T19:00:50Z"
+  "fitment_built": "2026-11-21T21:00:48Z"
 }
