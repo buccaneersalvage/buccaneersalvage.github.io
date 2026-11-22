@@ -1,7 +1,7 @@
 {
-  "updated": "2026-11-22T04:00:42Z",
+  "updated": "2026-11-22T06:01:22Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 1240,
+  "count": 1241,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -174754,6 +174754,134 @@
       "interchange": []
     },
     {
+      "id": "FMKN7O3MBFZUGVFMN7AT5C7A",
+      "name": "Pace Setter PT811 Voltage Regulator NOS 63-72 Chevrolet Camaro Chevelle Nova GTO",
+      "price": 59.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/a8087ac9c74dca71d524ca2cb86bc93ec6fe7cb3/original.jpeg",
+      "url": "https://square.link/u/WvALU4nk",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "JXI5U3BLLX5Z452ZNWSCRUFK",
+      "ebay_item_id": "398339326161",
+      "stock": 1,
+      "part_numbers": [
+        "PT811"
+      ],
+      "interchange": [
+        "DR153B",
+        "R281",
+        "UR-103",
+        "UR715"
+      ],
+      "vehicles": [
+        "1968\u20131972 Chevrolet Camaro",
+        "1968\u20131972 Chevrolet Chevelle",
+        "1969\u20131972 Chevrolet Nova",
+        "1968\u20131972 Chevrolet Impala",
+        "1968\u20131972 Pontiac Firebird",
+        "1968\u20131972 Pontiac GTO"
+      ],
+      "vehicle_count_raw": 830,
+      "ebay_type": "Voltage Regulator",
+      "ebay_brand": "Pace Setter",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Starters, Alternators, ECUs & Wiring:Voltage Regulators",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "PT811"
+        ],
+        "interchange": [
+          "DR153B",
+          "R281",
+          "UR-103",
+          "UR715"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1968,
+            "year_to": 1972,
+            "make": "Chevrolet",
+            "model": "Camaro",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1968,
+            "year_to": 1972,
+            "make": "Chevrolet",
+            "model": "Chevelle",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1968,
+            "year_to": 1972,
+            "make": "Chevrolet",
+            "model": "Impala",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1969,
+            "year_to": 1972,
+            "make": "Chevrolet",
+            "model": "Nova",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1968,
+            "year_to": 1972,
+            "make": "Pontiac",
+            "model": "Firebird",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1968,
+            "year_to": 1972,
+            "make": "Pontiac",
+            "model": "GTO",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1968\u20131972 Chevrolet Camaro",
+          "1968\u20131972 Chevrolet Chevelle",
+          "1969\u20131972 Chevrolet Nova",
+          "1968\u20131972 Chevrolet Impala",
+          "1968\u20131972 Pontiac Firebird",
+          "1968\u20131972 Pontiac GTO"
+        ],
+        "raw_compat_rows": 830,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398339326161",
+        "type": "Voltage Regulator",
+        "brand": "Pace Setter",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Starters, Alternators, ECUs & Wiring:Voltage Regulators"
+      },
+      "images": [
+        "../assets/pdp-gallery/FMKN7O3MBFZUGVFMN7AT5C7A/02.webp",
+        "../assets/pdp-gallery/FMKN7O3MBFZUGVFMN7AT5C7A/03.webp",
+        "../assets/pdp-gallery/FMKN7O3MBFZUGVFMN7AT5C7A/04.webp"
+      ]
+    },
+    {
       "id": "WCIQQHM2GHDI6K5GADJQT5XS",
       "name": "Pair OEM GM 1-Ton RV Chassis Idler Arm Brackets Left Right P30 G30 Motorhome",
       "price": 116.99,
@@ -194514,5 +194642,5 @@
       "ebay_brand": ""
     }
   ],
-  "fitment_built": "2026-11-22T04:00:42Z"
+  "fitment_built": "2026-11-22T06:01:22Z"
 }
