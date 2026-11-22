@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-22T06:01:22Z",
+  "updated": "2026-11-22T07:01:20Z",
   "store": "https://buccaneersalvage.square.site/",
   "count": 1241,
   "items": [
@@ -174762,8 +174762,6 @@
       "category": "other",
       "checkout": true,
       "variation_id": "JXI5U3BLLX5Z452ZNWSCRUFK",
-      "ebay_item_id": "398339326161",
-      "stock": 1,
       "part_numbers": [
         "PT811"
       ],
@@ -174781,10 +174779,6 @@
         "1968\u20131972 Pontiac Firebird",
         "1968\u20131972 Pontiac GTO"
       ],
-      "vehicle_count_raw": 830,
-      "ebay_type": "Voltage Regulator",
-      "ebay_brand": "Pace Setter",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Starters, Alternators, ECUs & Wiring:Voltage Regulators",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -174875,11 +174869,17 @@
         "brand": "Pace Setter",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Starters, Alternators, ECUs & Wiring:Voltage Regulators"
       },
+      "vehicle_count_raw": 830,
+      "ebay_item_id": "398339326161",
+      "ebay_type": "Voltage Regulator",
+      "ebay_brand": "Pace Setter",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Starters, Alternators, ECUs & Wiring:Voltage Regulators",
       "images": [
         "../assets/pdp-gallery/FMKN7O3MBFZUGVFMN7AT5C7A/02.webp",
         "../assets/pdp-gallery/FMKN7O3MBFZUGVFMN7AT5C7A/03.webp",
         "../assets/pdp-gallery/FMKN7O3MBFZUGVFMN7AT5C7A/04.webp"
-      ]
+      ],
+      "stock": 1
     },
     {
       "id": "WCIQQHM2GHDI6K5GADJQT5XS",
@@ -194642,5 +194642,5 @@
       "ebay_brand": ""
     }
   ],
-  "fitment_built": "2026-11-22T06:01:22Z"
+  "fitment_built": "2026-11-22T07:01:20Z"
 }
