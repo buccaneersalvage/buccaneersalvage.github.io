@@ -1,7 +1,7 @@
 {
-  "updated": "2026-11-23T18:01:35Z",
+  "updated": "2026-11-23T19:01:42Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 1237,
+  "count": 1236,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -3131,120 +3131,6 @@
       "condition_id": "1500",
       "stock": 2,
       "interchange": []
-    },
-    {
-      "id": "R3JVSMDKJYSGSVS6JHDRDQ2G",
-      "name": "Big A BDK271 Disc Brake Pads NOS Front Ranger Explorer 83-94 Aerostar Bronco II",
-      "price": 29.99,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/0be3814a8f0715e0e5d3ecdfce53a061a3aefe10/original.jpeg",
-      "url": "https://square.link/u/DlSLU0mr",
-      "category": "brake",
-      "checkout": true,
-      "variation_id": "UWINX2XIFT7BBSMFAPITVANC",
-      "part_numbers": [
-        "BDK271",
-        "2M-7125A, 2M-249, MKD205, 17D249M"
-      ],
-      "interchange": [
-        "Bendix MKD205",
-        "FMSI 7125A-D249"
-      ],
-      "vehicles": [
-        "1987\u20131997 Ford Aerostar",
-        "1984\u20131990 Ford Bronco II",
-        "1991\u20131994 Ford Explorer",
-        "1983\u20131994 Ford Ranger",
-        "1991\u20131994 Mazda Navajo"
-      ],
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "high",
-      "fitment": {
-        "part_numbers": [
-          "BDK271",
-          "2M-7125A, 2M-249, MKD205, 17D249M"
-        ],
-        "interchange": [
-          "Bendix MKD205",
-          "FMSI 7125A-D249"
-        ],
-        "vehicles": [
-          {
-            "year_from": 1987,
-            "year_to": 1997,
-            "make": "Ford",
-            "model": "Aerostar",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1984,
-            "year_to": 1990,
-            "make": "Ford",
-            "model": "Bronco II",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1991,
-            "year_to": 1994,
-            "make": "Ford",
-            "model": "Explorer",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1983,
-            "year_to": 1994,
-            "make": "Ford",
-            "model": "Ranger",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1991,
-            "year_to": 1994,
-            "make": "Mazda",
-            "model": "Navajo",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          }
-        ],
-        "vehicle_labels": [
-          "1987\u20131997 Ford Aerostar",
-          "1984\u20131990 Ford Bronco II",
-          "1991\u20131994 Ford Explorer",
-          "1983\u20131994 Ford Ranger",
-          "1991\u20131994 Mazda Navajo"
-        ],
-        "raw_compat_rows": 650,
-        "source": "ebay_listing",
-        "confidence": "high",
-        "ebay_item_id": "398394482746",
-        "type": "Disc Brake Pad",
-        "brand": "Big A",
-        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pads"
-      },
-      "vehicle_count_raw": 650,
-      "ebay_item_id": "398394482746",
-      "ebay_type": "Disc Brake Pad",
-      "ebay_brand": "Big A",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pads",
-      "images": [
-        "../assets/pdp-gallery/R3JVSMDKJYSGSVS6JHDRDQ2G/02.webp",
-        "../assets/pdp-gallery/R3JVSMDKJYSGSVS6JHDRDQ2G/03.webp"
-      ],
-      "condition_id": "1500",
-      "stock": 1
     },
     {
       "id": "UDYCS4GG26CGX3DQBFBCNPQA",
@@ -186323,23 +186209,15 @@
     {
       "id": "NEY2DJPJTR3WGGIDCCFBJGNB",
       "name": "Superior Products YV-50 Oxygen Valved Y Connector B Size 9/16-18 RH Brass NOS",
-      "price": 52.31,
+      "price": 52.99,
       "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/420e1c852da86245ea23f5201ccabbcc1764cec2/original.jpeg",
-      "url": "https://square.link/u/6gaYCooB",
+      "url": "https://square.link/u/AMhMMUNw",
       "category": "other",
       "checkout": true,
       "variation_id": "IJ4S2454557AMGKW3YOCPK7Y",
-      "ebay_item_id": "920176253107",
-      "stock": 1,
       "part_numbers": [
         "YV-50"
       ],
-      "interchange": [],
-      "vehicles": [],
-      "vehicle_count_raw": 0,
-      "ebay_type": "Valved Y Connector",
-      "ebay_brand": "Superior Products",
-      "ebay_category": "Business & Industrial:CNC, Metalworking & Manufacturing:Welding & Soldering Equipment:Welding Equipment & Accessories:Gas Regulators, Valves & Accessories",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "medium",
       "fitment": {
@@ -186357,11 +186235,19 @@
         "brand": "Superior Products",
         "ebay_category": "Business & Industrial:CNC, Metalworking & Manufacturing:Welding & Soldering Equipment:Welding Equipment & Accessories:Gas Regulators, Valves & Accessories"
       },
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "920176253107",
+      "ebay_type": "Valved Y Connector",
+      "ebay_brand": "Superior Products",
+      "ebay_category": "Business & Industrial:CNC, Metalworking & Manufacturing:Welding & Soldering Equipment:Welding Equipment & Accessories:Gas Regulators, Valves & Accessories",
       "images": [
         "../assets/pdp-gallery/NEY2DJPJTR3WGGIDCCFBJGNB/02.webp",
         "../assets/pdp-gallery/NEY2DJPJTR3WGGIDCCFBJGNB/03.webp",
         "../assets/pdp-gallery/NEY2DJPJTR3WGGIDCCFBJGNB/04.webp"
-      ]
+      ],
+      "stock": 1,
+      "interchange": [],
+      "vehicles": []
     },
     {
       "id": "7GJYTQHQNFXOOT6UNZEBX5ML",
@@ -191507,7 +191393,7 @@
       "name": "Weber Performance Clutch Disc 10-3/8in 1in Input Shaft Fine Spline NOS",
       "price": 89.99,
       "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/156cda81f2565602bc6807fedbb920674f9cffd7/original.jpeg",
-      "url": "https://square.link/u/zsBGVRXe",
+      "url": "https://square.link/u/ktQEng5J",
       "category": "other",
       "checkout": true,
       "variation_id": "2RLAYEDPTZZQ6B2MIFV27W6B",
@@ -191858,5 +191744,5 @@
       "ebay_brand": ""
     }
   ],
-  "fitment_built": "2026-11-23T18:01:35Z"
+  "fitment_built": "2026-11-23T19:01:42Z"
 }
