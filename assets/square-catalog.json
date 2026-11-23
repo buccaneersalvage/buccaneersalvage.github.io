@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-23T17:01:26Z",
+  "updated": "2026-11-23T18:01:35Z",
   "store": "https://buccaneersalvage.square.site/",
   "count": 1237,
   "items": [
@@ -77000,77 +77000,6 @@
       ],
       "condition_id": "1500",
       "stock": 2
-    },
-    {
-      "id": "GNSSHPKXLS7PGZDBNILY3AHF",
-      "name": "KEM W3112 Distributor Cap NOS 1990-1995 Suzuki Samurai 1.3L SJ413 33321-80C10",
-      "price": 26.99,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/dcac4700c2e52eca27f098f4d0bccbdfd383125f/original.jpeg",
-      "url": "https://square.link/u/XelRzNlN",
-      "category": "ignition",
-      "checkout": true,
-      "variation_id": "S3NGQCRD54OLBYYAZXSEOSOH",
-      "part_numbers": [
-        "W3112"
-      ],
-      "vehicles": [
-        "1986\u20131995 Suzuki Samurai",
-        "1989 Suzuki Sidekick"
-      ],
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "high",
-      "fitment": {
-        "part_numbers": [
-          "W3112"
-        ],
-        "interchange": [],
-        "vehicles": [
-          {
-            "year_from": 1986,
-            "year_to": 1995,
-            "make": "Suzuki",
-            "model": "Samurai",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1989,
-            "year_to": 1989,
-            "make": "Suzuki",
-            "model": "Sidekick",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          }
-        ],
-        "vehicle_labels": [
-          "1986\u20131995 Suzuki Samurai",
-          "1989 Suzuki Sidekick"
-        ],
-        "raw_compat_rows": 20,
-        "source": "ebay_listing",
-        "confidence": "high",
-        "ebay_item_id": "920113998509",
-        "type": "Distributor Cap",
-        "brand": "KEM",
-        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps"
-      },
-      "vehicle_count_raw": 20,
-      "ebay_item_id": "920113998509",
-      "ebay_type": "Distributor Cap",
-      "ebay_brand": "KEM",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps",
-      "images": [
-        "../assets/pdp-gallery/GNSSHPKXLS7PGZDBNILY3AHF/02.webp",
-        "../assets/pdp-gallery/GNSSHPKXLS7PGZDBNILY3AHF/03.webp",
-        "../assets/pdp-gallery/GNSSHPKXLS7PGZDBNILY3AHF/04.webp"
-      ],
-      "condition_id": "1500",
-      "stock": 1,
-      "interchange": []
     },
     {
       "id": "ZX3UDRCMBCCSQVVVJP75NDWV",
@@ -186392,6 +186321,49 @@
       "vehicles": []
     },
     {
+      "id": "NEY2DJPJTR3WGGIDCCFBJGNB",
+      "name": "Superior Products YV-50 Oxygen Valved Y Connector B Size 9/16-18 RH Brass NOS",
+      "price": 52.31,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/420e1c852da86245ea23f5201ccabbcc1764cec2/original.jpeg",
+      "url": "https://square.link/u/6gaYCooB",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "IJ4S2454557AMGKW3YOCPK7Y",
+      "ebay_item_id": "920176253107",
+      "stock": 1,
+      "part_numbers": [
+        "YV-50"
+      ],
+      "interchange": [],
+      "vehicles": [],
+      "vehicle_count_raw": 0,
+      "ebay_type": "Valved Y Connector",
+      "ebay_brand": "Superior Products",
+      "ebay_category": "Business & Industrial:CNC, Metalworking & Manufacturing:Welding & Soldering Equipment:Welding Equipment & Accessories:Gas Regulators, Valves & Accessories",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "medium",
+      "fitment": {
+        "part_numbers": [
+          "YV-50"
+        ],
+        "interchange": [],
+        "vehicles": [],
+        "vehicle_labels": [],
+        "raw_compat_rows": 0,
+        "source": "ebay_listing",
+        "confidence": "medium",
+        "ebay_item_id": "920176253107",
+        "type": "Valved Y Connector",
+        "brand": "Superior Products",
+        "ebay_category": "Business & Industrial:CNC, Metalworking & Manufacturing:Welding & Soldering Equipment:Welding Equipment & Accessories:Gas Regulators, Valves & Accessories"
+      },
+      "images": [
+        "../assets/pdp-gallery/NEY2DJPJTR3WGGIDCCFBJGNB/02.webp",
+        "../assets/pdp-gallery/NEY2DJPJTR3WGGIDCCFBJGNB/03.webp",
+        "../assets/pdp-gallery/NEY2DJPJTR3WGGIDCCFBJGNB/04.webp"
+      ]
+    },
+    {
       "id": "7GJYTQHQNFXOOT6UNZEBX5ML",
       "name": "Sylvania 5001 PAR46 Sealed Beam Headlamp Front Universal Direct Replacement NOS",
       "price": 27.99,
@@ -191886,5 +191858,5 @@
       "ebay_brand": ""
     }
   ],
-  "fitment_built": "2026-11-23T17:01:26Z"
+  "fitment_built": "2026-11-23T18:01:35Z"
 }
