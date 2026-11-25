@@ -1,7 +1,7 @@
 {
-  "updated": "2026-11-25T06:01:37Z",
+  "updated": "2026-11-25T07:01:38Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 1234,
+  "count": 1235,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -132452,6 +132452,52 @@
       "vehicles": []
     },
     {
+      "id": "OCVMIS7FQWFRU6TIUNV6BEBI",
+      "name": "Easy Street Tarrah 30-8458 Gold Glitter Wedge Sandal Women 8M Ankle Strap NIB",
+      "price": 64.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/44acc2945a074cab7f844e19c9e941d78eff3a6f/original.jpeg",
+      "url": "https://square.link/u/cxdpA21p",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "TIY55WVRJNB657ABFKI44ISI",
+      "ebay_item_id": "920182314675",
+      "stock": 1,
+      "part_numbers": [
+        "30-8458"
+      ],
+      "interchange": [],
+      "vehicles": [],
+      "vehicle_count_raw": 0,
+      "ebay_type": "Sandal",
+      "ebay_brand": "Easy Street",
+      "ebay_category": "Clothing, Shoes & Accessories:Women:Women's Shoes:Sandals",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "medium",
+      "fitment": {
+        "part_numbers": [
+          "30-8458"
+        ],
+        "interchange": [],
+        "vehicles": [],
+        "vehicle_labels": [],
+        "raw_compat_rows": 0,
+        "source": "ebay_listing",
+        "confidence": "medium",
+        "ebay_item_id": "920182314675",
+        "type": "Sandal",
+        "brand": "Easy Street",
+        "ebay_category": "Clothing, Shoes & Accessories:Women:Women's Shoes:Sandals"
+      },
+      "images": [
+        "../assets/pdp-gallery/OCVMIS7FQWFRU6TIUNV6BEBI/02.webp",
+        "../assets/pdp-gallery/OCVMIS7FQWFRU6TIUNV6BEBI/03.webp",
+        "../assets/pdp-gallery/OCVMIS7FQWFRU6TIUNV6BEBI/04.webp",
+        "../assets/pdp-gallery/OCVMIS7FQWFRU6TIUNV6BEBI/05.webp",
+        "../assets/pdp-gallery/OCVMIS7FQWFRU6TIUNV6BEBI/06.webp",
+        "../assets/pdp-gallery/OCVMIS7FQWFRU6TIUNV6BEBI/07.webp"
+      ]
+    },
+    {
       "id": "AITU7RX45TOM5GELQCAGJOJH",
       "name": "Everco 2346 Brass Copper Heater Core NOS 94621 Mustang Thunderbird Cougar 79-93",
       "price": 139.99,
@@ -186039,17 +186085,9 @@
       "category": "other",
       "checkout": true,
       "variation_id": "MJY6HXKIORXMMAQ6Z2VSDNYE",
-      "ebay_item_id": "920182088797",
-      "stock": 1,
       "part_numbers": [
         "SYS-DRI01"
       ],
-      "interchange": [],
-      "vehicles": [],
-      "vehicle_count_raw": 0,
-      "ebay_type": "Laser Trainer",
-      "ebay_brand": "Strikeman",
-      "ebay_category": "Sporting Goods:Hunting:Scopes, Optics & Lasers:Red Dot & Laser",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "medium",
       "fitment": {
@@ -186067,6 +186105,11 @@
         "brand": "Strikeman",
         "ebay_category": "Sporting Goods:Hunting:Scopes, Optics & Lasers:Red Dot & Laser"
       },
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "920182088797",
+      "ebay_type": "Laser Trainer",
+      "ebay_brand": "Strikeman",
+      "ebay_category": "Sporting Goods:Hunting:Scopes, Optics & Lasers:Red Dot & Laser",
       "images": [
         "../assets/pdp-gallery/KO3OG6WIUOKXTNFCND6PMCJ2/02.webp",
         "../assets/pdp-gallery/KO3OG6WIUOKXTNFCND6PMCJ2/03.webp",
@@ -186074,7 +186117,10 @@
         "../assets/pdp-gallery/KO3OG6WIUOKXTNFCND6PMCJ2/05.webp",
         "../assets/pdp-gallery/KO3OG6WIUOKXTNFCND6PMCJ2/06.webp",
         "../assets/pdp-gallery/KO3OG6WIUOKXTNFCND6PMCJ2/07.webp"
-      ]
+      ],
+      "stock": 1,
+      "interchange": [],
+      "vehicles": []
     },
     {
       "id": "DWS3RDJ7XVKWRKBHES4Z2CJE",
@@ -191661,5 +191707,5 @@
       "ebay_brand": ""
     }
   ],
-  "fitment_built": "2026-11-25T06:01:37Z"
+  "fitment_built": "2026-11-25T07:01:38Z"
 }
