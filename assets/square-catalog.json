@@ -1,7 +1,7 @@
 {
-  "updated": "2026-11-25T07:01:38Z",
+  "updated": "2026-11-25T09:01:40Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 1235,
+  "count": 1236,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -98988,6 +98988,90 @@
       "stock": 1
     },
     {
+      "id": "7SGI7Y6CKU5H4SF4CQ6REZLJ",
+      "name": "Moog CV7342 Front Outer CV Joint Boot Kit NOS 1984-1987 Chrysler Dodge Plymouth",
+      "price": 19.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/e71dc327391278332535ec5d9192b1a0898c8769/original.jpeg",
+      "url": "https://square.link/u/531Huce9",
+      "category": "driveline",
+      "checkout": true,
+      "variation_id": "C4FPMCCMGWMMAQZEIZXI7R7G",
+      "ebay_item_id": "920182623283",
+      "stock": 1,
+      "part_numbers": [
+        "CV7342"
+      ],
+      "interchange": [],
+      "vehicles": [
+        "1984\u20131987 Chrysler",
+        "1984\u20131987 Dodge",
+        "1984\u20131987 Plymouth"
+      ],
+      "vehicle_count_raw": 3,
+      "ebay_type": "CV Boot Kit",
+      "ebay_brand": "Moog",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:CV Joints, Boots & Parts",
+      "fitment_source": "ebay_listing+title",
+      "fitment_confidence": "medium",
+      "fitment": {
+        "part_numbers": [
+          "CV7342"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1984,
+            "year_to": 1987,
+            "make": "Chrysler",
+            "model": "",
+            "notes": "",
+            "source": "title",
+            "confidence": "low",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 1987,
+            "make": "Dodge",
+            "model": "",
+            "notes": "",
+            "source": "title",
+            "confidence": "low",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 1987,
+            "make": "Plymouth",
+            "model": "",
+            "notes": "",
+            "source": "title",
+            "confidence": "low",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1984\u20131987 Chrysler",
+          "1984\u20131987 Dodge",
+          "1984\u20131987 Plymouth"
+        ],
+        "raw_compat_rows": 3,
+        "source": "ebay_listing+title",
+        "confidence": "medium",
+        "ebay_item_id": "920182623283",
+        "type": "CV Boot Kit",
+        "brand": "Moog",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:CV Joints, Boots & Parts"
+      },
+      "images": [
+        "../assets/pdp-gallery/7SGI7Y6CKU5H4SF4CQ6REZLJ/02.webp",
+        "../assets/pdp-gallery/7SGI7Y6CKU5H4SF4CQ6REZLJ/03.webp",
+        "../assets/pdp-gallery/7SGI7Y6CKU5H4SF4CQ6REZLJ/04.webp",
+        "../assets/pdp-gallery/7SGI7Y6CKU5H4SF4CQ6REZLJ/05.webp",
+        "../assets/pdp-gallery/7SGI7Y6CKU5H4SF4CQ6REZLJ/06.webp"
+      ]
+    },
+    {
       "id": "FRYLOLNIYQXUP4LRFR4OW4KH",
       "name": "MOOG CV7400 Neoprene Outer CV Boot Town & Country Caravan Grand Caravan 91-04",
       "price": 21.99,
@@ -132460,17 +132544,9 @@
       "category": "other",
       "checkout": true,
       "variation_id": "TIY55WVRJNB657ABFKI44ISI",
-      "ebay_item_id": "920182314675",
-      "stock": 1,
       "part_numbers": [
         "30-8458"
       ],
-      "interchange": [],
-      "vehicles": [],
-      "vehicle_count_raw": 0,
-      "ebay_type": "Sandal",
-      "ebay_brand": "Easy Street",
-      "ebay_category": "Clothing, Shoes & Accessories:Women:Women's Shoes:Sandals",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "medium",
       "fitment": {
@@ -132488,6 +132564,11 @@
         "brand": "Easy Street",
         "ebay_category": "Clothing, Shoes & Accessories:Women:Women's Shoes:Sandals"
       },
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "920182314675",
+      "ebay_type": "Sandal",
+      "ebay_brand": "Easy Street",
+      "ebay_category": "Clothing, Shoes & Accessories:Women:Women's Shoes:Sandals",
       "images": [
         "../assets/pdp-gallery/OCVMIS7FQWFRU6TIUNV6BEBI/02.webp",
         "../assets/pdp-gallery/OCVMIS7FQWFRU6TIUNV6BEBI/03.webp",
@@ -132495,7 +132576,10 @@
         "../assets/pdp-gallery/OCVMIS7FQWFRU6TIUNV6BEBI/05.webp",
         "../assets/pdp-gallery/OCVMIS7FQWFRU6TIUNV6BEBI/06.webp",
         "../assets/pdp-gallery/OCVMIS7FQWFRU6TIUNV6BEBI/07.webp"
-      ]
+      ],
+      "stock": 1,
+      "interchange": [],
+      "vehicles": []
     },
     {
       "id": "AITU7RX45TOM5GELQCAGJOJH",
@@ -191707,5 +191791,5 @@
       "ebay_brand": ""
     }
   ],
-  "fitment_built": "2026-11-25T07:01:38Z"
+  "fitment_built": "2026-11-25T09:01:40Z"
 }
