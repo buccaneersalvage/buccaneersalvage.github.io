@@ -1,7 +1,7 @@
 {
-  "updated": "2026-11-25T05:02:15Z",
+  "updated": "2026-11-25T06:01:37Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 1233,
+  "count": 1234,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -186031,6 +186031,52 @@
       "images": []
     },
     {
+      "id": "KO3OG6WIUOKXTNFCND6PMCJ2",
+      "name": "Strikeman SYS-DRI01 9mm Dry Fire Laser Training System Kit w/ Target Phone Mount",
+      "price": 109.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/6247d31facae76270436d8ea30a17f139693a1ea/original.jpeg",
+      "url": "https://square.link/u/FWC0ymDJ",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "MJY6HXKIORXMMAQ6Z2VSDNYE",
+      "ebay_item_id": "920182088797",
+      "stock": 1,
+      "part_numbers": [
+        "SYS-DRI01"
+      ],
+      "interchange": [],
+      "vehicles": [],
+      "vehicle_count_raw": 0,
+      "ebay_type": "Laser Trainer",
+      "ebay_brand": "Strikeman",
+      "ebay_category": "Sporting Goods:Hunting:Scopes, Optics & Lasers:Red Dot & Laser",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "medium",
+      "fitment": {
+        "part_numbers": [
+          "SYS-DRI01"
+        ],
+        "interchange": [],
+        "vehicles": [],
+        "vehicle_labels": [],
+        "raw_compat_rows": 0,
+        "source": "ebay_listing",
+        "confidence": "medium",
+        "ebay_item_id": "920182088797",
+        "type": "Laser Trainer",
+        "brand": "Strikeman",
+        "ebay_category": "Sporting Goods:Hunting:Scopes, Optics & Lasers:Red Dot & Laser"
+      },
+      "images": [
+        "../assets/pdp-gallery/KO3OG6WIUOKXTNFCND6PMCJ2/02.webp",
+        "../assets/pdp-gallery/KO3OG6WIUOKXTNFCND6PMCJ2/03.webp",
+        "../assets/pdp-gallery/KO3OG6WIUOKXTNFCND6PMCJ2/04.webp",
+        "../assets/pdp-gallery/KO3OG6WIUOKXTNFCND6PMCJ2/05.webp",
+        "../assets/pdp-gallery/KO3OG6WIUOKXTNFCND6PMCJ2/06.webp",
+        "../assets/pdp-gallery/KO3OG6WIUOKXTNFCND6PMCJ2/07.webp"
+      ]
+    },
+    {
       "id": "DWS3RDJ7XVKWRKBHES4Z2CJE",
       "name": "Summit SUM-G1151 Steel Universal Racing Seat Bracket Kit NOS",
       "price": 74.99,
@@ -191615,5 +191661,5 @@
       "ebay_brand": ""
     }
   ],
-  "fitment_built": "2026-11-25T05:02:15Z"
+  "fitment_built": "2026-11-25T06:01:37Z"
 }
