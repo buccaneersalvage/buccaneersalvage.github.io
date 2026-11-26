@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-26T23:12:07Z",
+  "updated": "2026-11-26T23:53:24Z",
   "store": "https://buccaneersalvage.square.site/",
   "count": 1242,
   "items": [
@@ -54680,6 +54680,7 @@
       "vehicles": [
         "1996\u20132001 Ford F-100 Ranger",
         "1996\u20132012 Ford F-150",
+        "1997\u20132012 Ford Lobo",
         "1996\u20132012 Ford Mustang",
         "1991\u20132017 Ford",
         "1991\u20132017 Lincoln",
@@ -54729,6 +54730,16 @@
             "trim_count": null
           },
           {
+            "year_from": 1997,
+            "year_to": 2012,
+            "make": "Ford",
+            "model": "Lobo",
+            "notes": "",
+            "source": "title",
+            "confidence": "low",
+            "trim_count": null
+          },
+          {
             "year_from": 1996,
             "year_to": 2012,
             "make": "Ford",
@@ -54772,13 +54783,14 @@
         "vehicle_labels": [
           "1996\u20132001 Ford F-100 Ranger",
           "1996\u20132012 Ford F-150",
+          "1997\u20132012 Ford Lobo",
           "1996\u20132012 Ford Mustang",
           "1991\u20132017 Ford",
           "1991\u20132017 Lincoln",
           "1991\u20132017 Mazda",
           "1991\u20132017 Mercury"
         ],
-        "raw_compat_rows": 11,
+        "raw_compat_rows": 12,
         "source": "ebay_listing+title",
         "confidence": "high",
         "ebay_item_id": "398268695029",
@@ -54786,7 +54798,7 @@
         "brand": "WIX",
         "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Filters"
       },
-      "vehicle_count_raw": 11,
+      "vehicle_count_raw": 12,
       "ebay_item_id": "398268695029",
       "ebay_type": "Oil Filter",
       "ebay_brand": "WIX",
@@ -95405,6 +95417,7 @@
       "ebay_type": "CV Boot Kit",
       "ebay_brand": "Moog",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:CV Joints, Boots & Parts",
+      "condition_id": "1500",
       "stock": 1,
       "interchange": [],
       "images": []
@@ -95689,6 +95702,7 @@
       "ebay_type": "CV Boot Kit",
       "ebay_brand": "Moog",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:CV Joints, Boots & Parts",
+      "condition_id": "1500",
       "stock": 1,
       "interchange": [],
       "images": []
@@ -97878,6 +97892,7 @@
       "ebay_type": "CV Boot Kit",
       "ebay_brand": "Carquest",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:CV Joints, Boots & Parts",
+      "condition_id": "1500",
       "stock": 1,
       "interchange": [],
       "images": []
@@ -99947,6 +99962,7 @@
         "../assets/pdp-gallery/GVU4CNYCIE7XHS5C7W2WFS2H/04.webp",
         "../assets/pdp-gallery/GVU4CNYCIE7XHS5C7W2WFS2H/05.webp"
       ],
+      "condition_id": "1500",
       "stock": 1,
       "interchange": []
     },
@@ -100194,6 +100210,7 @@
       "ebay_type": "CV Joint Boot Kit",
       "ebay_brand": "Moog",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:CV Joints, Boots & Parts",
+      "condition_id": "1500",
       "stock": 1,
       "interchange": [],
       "images": []
@@ -101325,6 +101342,7 @@
         "../assets/pdp-gallery/7SGI7Y6CKU5H4SF4CQ6REZLJ/05.webp",
         "../assets/pdp-gallery/7SGI7Y6CKU5H4SF4CQ6REZLJ/06.webp"
       ],
+      "condition_id": "1500",
       "stock": 1,
       "interchange": []
     },
@@ -119419,6 +119437,7 @@
       "ebay_type": "Boot Kit",
       "ebay_brand": "Moog",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:CV Joints, Boots & Parts",
+      "condition_id": "1500",
       "stock": 1,
       "interchange": [],
       "images": []
@@ -135057,6 +135076,7 @@
         "../assets/pdp-gallery/OCVMIS7FQWFRU6TIUNV6BEBI/06.webp",
         "../assets/pdp-gallery/OCVMIS7FQWFRU6TIUNV6BEBI/07.webp"
       ],
+      "condition_id": "1000",
       "stock": 1,
       "interchange": [],
       "vehicles": []
@@ -155490,6 +155510,7 @@
       "ebay_type": "Steering Column",
       "ebay_brand": "GM",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Steering & Suspension:Steering Columns",
+      "condition_id": "3000",
       "stock": 1,
       "interchange": [],
       "images": []
@@ -178477,6 +178498,7 @@
         "../assets/pdp-gallery/FLQITPVIGMWPNNNQL6XADYBW/05.webp",
         "../assets/pdp-gallery/FLQITPVIGMWPNNNQL6XADYBW/06.webp"
       ],
+      "condition_id": "3000",
       "stock": 1,
       "interchange": [],
       "vehicles": []
@@ -188829,6 +188851,7 @@
         "../assets/pdp-gallery/KO3OG6WIUOKXTNFCND6PMCJ2/06.webp",
         "../assets/pdp-gallery/KO3OG6WIUOKXTNFCND6PMCJ2/07.webp"
       ],
+      "condition_id": "1500",
       "stock": 1,
       "interchange": [],
       "vehicles": []
@@ -188919,6 +188942,7 @@
         "../assets/pdp-gallery/NEY2DJPJTR3WGGIDCCFBJGNB/03.webp",
         "../assets/pdp-gallery/NEY2DJPJTR3WGGIDCCFBJGNB/04.webp"
       ],
+      "condition_id": "1500",
       "stock": 1,
       "interchange": [],
       "vehicles": []
@@ -192626,6 +192650,7 @@
       "ebay_type": "Wall Plate",
       "ebay_brand": "Edmar Creations",
       "ebay_category": "Antiques:Architectural & Garden:Hardware:Switch Plates & Outlet Covers",
+      "condition_id": "1500",
       "stock": 1,
       "part_numbers": [],
       "interchange": [],
@@ -194418,5 +194443,5 @@
       "ebay_brand": ""
     }
   ],
-  "fitment_built": "2026-11-26T23:12:07Z"
+  "fitment_built": "2026-11-26T23:53:24Z"
 }
