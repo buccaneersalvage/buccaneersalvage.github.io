@@ -1,7 +1,7 @@
 {
-  "updated": "2026-11-26T05:01:38Z",
+  "updated": "2026-11-26T19:00:49Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 1236,
+  "count": 1235,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -41825,108 +41825,6 @@
       "interchange": [],
       "vehicles": [],
       "images": []
-    },
-    {
-      "id": "Z2R6NPAMGTZTYPTOSEJCB2PY",
-      "name": "Sosmetal PV-590 PCV Valve NOS 4.6 5.4 63-67 Chevrolet Camaro Corvette Chevelle",
-      "price": 17.99,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/2ac651f6fac29e6667ea8e519e5b253cd73ca172/original.jpeg",
-      "url": "https://square.link/u/ckF9cIVq",
-      "category": "filters",
-      "checkout": true,
-      "variation_id": "BVFAWWNYKRJWSUSQ4PXLGLPI",
-      "part_numbers": [
-        "PV-590",
-        "40703"
-      ],
-      "interchange": [
-        "6421934",
-        "CV590C"
-      ],
-      "vehicles": [
-        "1967 Chevrolet Camaro",
-        "1964\u20131967 Chevrolet Chevelle",
-        "1963\u20131967 Chevrolet Corvette",
-        "1963\u20131967 Chevrolet Impala"
-      ],
-      "fitment_source": "ebay_listing+title",
-      "fitment_confidence": "high",
-      "fitment": {
-        "part_numbers": [
-          "PV-590",
-          "40703"
-        ],
-        "interchange": [
-          "6421934",
-          "CV590C"
-        ],
-        "vehicles": [
-          {
-            "year_from": 1967,
-            "year_to": 1967,
-            "make": "Chevrolet",
-            "model": "Camaro",
-            "notes": "",
-            "source": "title",
-            "confidence": "low",
-            "trim_count": null
-          },
-          {
-            "year_from": 1964,
-            "year_to": 1967,
-            "make": "Chevrolet",
-            "model": "Chevelle",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1963,
-            "year_to": 1967,
-            "make": "Chevrolet",
-            "model": "Corvette",
-            "notes": "",
-            "source": "title",
-            "confidence": "low",
-            "trim_count": null
-          },
-          {
-            "year_from": 1963,
-            "year_to": 1967,
-            "make": "Chevrolet",
-            "model": "Impala",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          }
-        ],
-        "vehicle_labels": [
-          "1967 Chevrolet Camaro",
-          "1964\u20131967 Chevrolet Chevelle",
-          "1963\u20131967 Chevrolet Corvette",
-          "1963\u20131967 Chevrolet Impala"
-        ],
-        "raw_compat_rows": 83,
-        "source": "ebay_listing+title",
-        "confidence": "high",
-        "ebay_item_id": "398352069004",
-        "type": "PCV Valve",
-        "brand": "Sosmetal",
-        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Filters"
-      },
-      "vehicle_count_raw": 83,
-      "ebay_item_id": "398352069004",
-      "ebay_type": "PCV Valve",
-      "ebay_brand": "Sosmetal",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Filters",
-      "images": [
-        "../assets/pdp-gallery/Z2R6NPAMGTZTYPTOSEJCB2PY/02.webp",
-        "../assets/pdp-gallery/Z2R6NPAMGTZTYPTOSEJCB2PY/03.webp"
-      ],
-      "condition_id": "1500",
-      "stock": 1
     },
     {
       "id": "3JMY33AKKC4BBA62WL4XELE5",
@@ -191560,7 +191458,7 @@
       "name": "Weber Performance Clutch Disc 10-3/8in 1in Input Shaft Fine Spline NOS",
       "price": 89.99,
       "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/156cda81f2565602bc6807fedbb920674f9cffd7/original.jpeg",
-      "url": "https://square.link/u/gKWuCLUl",
+      "url": "https://square.link/u/zz0G21yQ",
       "category": "other",
       "checkout": true,
       "variation_id": "2RLAYEDPTZZQ6B2MIFV27W6B",
@@ -191911,5 +191809,5 @@
       "ebay_brand": ""
     }
   ],
-  "fitment_built": "2026-11-26T05:01:38Z"
+  "fitment_built": "2026-11-26T19:00:49Z"
 }
