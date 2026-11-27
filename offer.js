@@ -16,6 +16,9 @@
   const endpoint = form.dataset.endpoint || "";
   const itemId = form.dataset.id || "";
   const max = Number(form.dataset.max);
+  // Lowest offer the Worker takes (data-min from the builder, same 10% rule).
+  const min = Number(form.dataset.min);
+  const TIMEOUT_MS = 15000;
   const loadedAt = Date.now();
   const EMAIL_RE = /^[^\s@<>]{1,64}@[^\s@<>]{1,190}\.[A-Za-z]{2,24}$/;
 
@@ -46,7 +49,7 @@
     } else if (Number.isFinite(max) && val > max) {
       fieldError(amount, amountErr, "An offer can be up to the list price of $" + max.toFixed(2) + ".");
       first = first || amount;
-    } else if (Number.isFinite(max) && val < Math.round(max * 10) / 100) {
+    } else if (Number.isFinite(min) && val < min) {
       fieldError(amount, amountErr, "That offer is too low for us to consider.");
       first = first || amount;
     } else {
@@ -87,11 +90,14 @@
     submit.disabled = true;
     setStatus("pending", "Sending your offer...");
     try {
+      const ctl = typeof AbortController === "function" ? new AbortController() : null;
+      const timer = ctl ? setTimeout(() => ctl.abort(), TIMEOUT_MS) : 0;
       const res = await fetch(endpoint, {
         method: "POST",
+        signal: ctl ? ctl.signal : undefined,
         headers: { "content-type": "application/json" },
         body: JSON.stringify({ id: itemId, offer: val, email: em, note: note.value.trim().slice(0, 500) }),
-      });
+      }).finally(() => clearTimeout(timer));
       let data = {};
       try {
         data = await res.json();
