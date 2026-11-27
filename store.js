@@ -6,8 +6,8 @@
    * Search + category + price filter + sort + pagination (not the full catalog at once).
    * Commerce-style facets; brand-dark gold cards; cores warn on-card.
    */
-  const CATALOG_URL = "assets/store-catalog.json?v=87b1f547c3";
-  const SLUGS_URL = "assets/pdp-slugs.json?v=b3f3e3b68c"; // keep in sync with main.js (test_pdp_slugs)
+  const CATALOG_URL = "assets/store-catalog.json?v=8d1b85269a";
+  const SLUGS_URL = "assets/pdp-slugs.json?v=c10693649c"; // keep in sync with main.js (test_pdp_slugs)
   const CORE_WARN = "FOR PARTS OR REBUILD · UNTESTED · NO RETURNS";
   const DEFAULT_PAGE = 24;
 
@@ -482,6 +482,12 @@
   function itemStoreTree(item) {
     if (!item) return packStore("auto-parts", "Auto Parts & Accessories", "engine-parts", "Engine Parts");
     if (item._st) return item._st;
+    // Real eBay store category from the catalog build (dept_tree.ebay_store_tree).
+    const real = item.store_tree;
+    if (real && real.parentSlug && real.parent) {
+      item._st = packStore(real.parentSlug, real.parent, real.subSlug, real.sub);
+      return item._st;
+    }
     const cat = item.category || "";
     const name = item.name || "";
     const typ = item.ebay_type || "";
