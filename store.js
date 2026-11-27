@@ -6,8 +6,8 @@
    * Search + category + price filter + sort + pagination (not the full catalog at once).
    * Commerce-style facets; brand-dark gold cards; cores warn on-card.
    */
-  const CATALOG_URL = "assets/store-catalog.json?v=56c0b58804";
-  const SLUGS_URL = "assets/pdp-slugs.json?v=b32b15f9bc"; // keep in sync with main.js (test_pdp_slugs)
+  const CATALOG_URL = "assets/store-catalog.json?v=ef26165989";
+  const SLUGS_URL = "assets/pdp-slugs.json?v=53dedce612"; // keep in sync with main.js (test_pdp_slugs)
   const CORE_WARN = "FOR PARTS OR REBUILD · UNTESTED · NO RETURNS";
   const DEFAULT_PAGE = 24;
 
@@ -263,6 +263,7 @@
 
   /** Map Type / title → eBay department. Wins over a wrong PrimaryCategory. */
   const TYPE_PARENT = [
+    [/\bpcv\b[\w\s-]*\bvalve\b(?!\s*cover)|crankcase[\w\s-]*\bvalve\b(?!\s*cover)/i, "Air & Fuel Delivery"],
     [/oil filter|crankcase|breather|timing|sprocket|air injection|cylinder head/i, "Engines & Engine Parts"],
     [/fuel filter|air filter/i, "Air & Fuel Delivery"],
     [/distributor|ignition|spark plug|vacuum advance|pickup coil|\bhei\b/i, "Ignition Systems & Components"],
@@ -279,6 +280,24 @@
     [/forklift/i, "Material Handling"],
     [/capacitor motor/i, "Electric Motors"],
   ];
+  const PCV_VALVE = TYPE_PARENT[0][0]; // first row; dept_tree.py PCV_VALVE_RX
+  /** Other eBay depts that are a real home for a row's parts (dept_tree.py TYPE_ALT_PARENTS). */
+  const TYPE_ALT_PARENTS = new Map([[PCV_VALVE, ["Exhaust & Emission Systems"]]]);
+
+  function typeParentOk(typ, name, parent) {
+    const tryOn = [typ || "", name || ""];
+    for (let t = 0; t < tryOn.length; t++) {
+      const s = tryOn[t];
+      if (!s) continue;
+      for (let i = 0; i < TYPE_PARENT.length; i++) {
+        if (TYPE_PARENT[i][0].test(s)) {
+          const alt = TYPE_ALT_PARENTS.get(TYPE_PARENT[i][0]) || [];
+          return alt.some((p) => slugKey(p) === slugKey(parent));
+        }
+      }
+    }
+    return false;
+  }
 
   /** Non-vehicle eBay-site depts (card/PDP labels). Not the store-parent rail. */
   const YARD_PARENTS = new Set([
@@ -417,6 +436,8 @@
     if (/transmission filter/.test(blob)) return ["transmission-drivetrain", "Transmission & Drivetrain"];
     if (/oil filter|lube filter/.test(blob)) return ["oil-filters", "Oil Filters"];
     if (/fuel filter|fuel strainer|sediment/.test(blob)) return ["fuel-filters", "Fuel Filters"];
+    // PCV valves sit in the eBay store's Engine Parts, not with the breather filters.
+    if (PCV_VALVE.test(blob)) return ["engine-parts", "Engine Parts"];
     if (/air filter|crankcase|breather/.test(blob)) return ["air-filters", "Air Filters"];
     if (
       /distributor|ignition|spark plug|rotor|coil|vacuum advance|wire set|pickup|\bhei\b/.test(
@@ -719,7 +740,7 @@
       sub = typ || kept[0];
     }
     const typed = typeParentName(typ, item.name || "", item.category || "");
-    if (typed && slugKey(parent) !== slugKey(typed)) {
+    if (typed && slugKey(parent) !== slugKey(typed) && !typeParentOk(typ, item.name || "", parent)) {
       parent = typed;
       if (typ && !/^vintage$/i.test(typ)) sub = typ;
     }
