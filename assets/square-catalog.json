@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-27T04:00:36Z",
+  "updated": "2026-11-27T05:00:36Z",
   "store": "https://buccaneersalvage.square.site/",
   "count": 1242,
   "items": [
@@ -61181,7 +61181,7 @@
     },
     {
       "id": "4XIEIWHFPRDVCPOL7VDQU3MD",
-      "name": "1985-1993 KEM 1285X Distributor Rotor DR-327 2.0 2.5 Chevy Astro GMC Sonoma",
+      "name": "1985-1993 KEM 1285X Distributor Rotor DR-327 Chevy Astro S10 GMC Sonoma NOS",
       "price": 14.99,
       "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/bf975a72e76b2fe44daf8f71818bc7cc68512552/original.jpeg",
       "url": "https://square.link/u/L3goMEn5",
@@ -61198,6 +61198,7 @@
       ],
       "vehicles": [
         "1985\u20131990 Chevrolet Astro",
+        "1985\u20131993 Chevrolet S10",
         "1991\u20131993 GMC Sonoma",
         "1985\u20131986 Buick Century",
         "1985\u20131986 Buick Skylark",
@@ -61210,7 +61211,7 @@
         "1989\u20131990 Pontiac LeMans",
         "1986 Pontiac Sunbird"
       ],
-      "fitment_source": "ebay_listing",
+      "fitment_source": "ebay_listing+title",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
@@ -61270,6 +61271,16 @@
             "notes": "",
             "source": "ebay_compat",
             "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1993,
+            "make": "Chevrolet",
+            "model": "S10",
+            "notes": "",
+            "source": "title",
+            "confidence": "low",
             "trim_count": null
           },
           {
@@ -61345,6 +61356,7 @@
         ],
         "vehicle_labels": [
           "1985\u20131990 Chevrolet Astro",
+          "1985\u20131993 Chevrolet S10",
           "1991\u20131993 GMC Sonoma",
           "1985\u20131986 Buick Century",
           "1985\u20131986 Buick Skylark",
@@ -61358,7 +61370,7 @@
           "1986 Pontiac Sunbird"
         ],
         "raw_compat_rows": 99,
-        "source": "ebay_listing",
+        "source": "ebay_listing+title",
         "confidence": "high",
         "ebay_item_id": "920140891113",
         "type": "Distributor Rotor",
@@ -90245,7 +90257,7 @@
     },
     {
       "id": "APHGTPBDGTCOCOXVAN5GQP4F",
-      "name": "Standard LX-124 Distributor Pickup NOS 86-95 Dodge Caravan Dakota Shadow Spirit",
+      "name": "Standard LX-124 Distributor Pickup NOS 87-95 Dodge Dakota Shadow Aries 2.2L 2.5L",
       "price": 31.99,
       "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/652089804c0399cb87a94cc8a9d855e6d2306990/original.jpeg",
       "url": "https://square.link/u/6DOuBliM",
@@ -90256,10 +90268,9 @@
         "LX-124"
       ],
       "vehicles": [
-        "1986\u20131995 Dodge Caravan",
+        "1987\u20131989 Dodge Aries",
         "1987\u20131995 Dodge Dakota",
         "1987\u20131994 Dodge Shadow",
-        "1989\u20131995 Dodge Spirit",
         "1988\u20131992 Chrysler Dynasty",
         "1986 Chrysler Laser",
         "1988\u20131993 Dodge Dynasty"
@@ -90293,10 +90304,10 @@
             "trim_count": null
           },
           {
-            "year_from": 1986,
-            "year_to": 1995,
+            "year_from": 1987,
+            "year_to": 1989,
             "make": "Dodge",
-            "model": "Caravan",
+            "model": "Aries",
             "notes": "",
             "source": "title",
             "confidence": "low",
@@ -90331,23 +90342,12 @@
             "source": "title",
             "confidence": "low",
             "trim_count": null
-          },
-          {
-            "year_from": 1989,
-            "year_to": 1995,
-            "make": "Dodge",
-            "model": "Spirit",
-            "notes": "",
-            "source": "title",
-            "confidence": "low",
-            "trim_count": null
           }
         ],
         "vehicle_labels": [
-          "1986\u20131995 Dodge Caravan",
+          "1987\u20131989 Dodge Aries",
           "1987\u20131995 Dodge Dakota",
           "1987\u20131994 Dodge Shadow",
-          "1989\u20131995 Dodge Spirit",
           "1988\u20131992 Chrysler Dynasty",
           "1986 Chrysler Laser",
           "1988\u20131993 Dodge Dynasty"
@@ -201620,5 +201620,5 @@
       "ebay_brand": ""
     }
   ],
-  "fitment_built": "2026-11-27T04:00:36Z"
+  "fitment_built": "2026-11-27T05:00:36Z"
 }
