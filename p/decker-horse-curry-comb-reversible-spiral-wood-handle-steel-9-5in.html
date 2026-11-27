@@ -29,7 +29,7 @@
   <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Store", "item": "https://buccaneersalvage.github.io/store.html"}, {"@type": "ListItem", "position": 2, "name": "Vintage Tools & Hardware", "item": "https://buccaneersalvage.github.io/c/vintage-tools-hardware.html"}, {"@type": "ListItem", "position": 3, "name": "Decker Horse Curry Comb Vintage Reversible Spiral Wood Handle Steel 9.5in", "item": "https://buccaneersalvage.github.io/p/decker-horse-curry-comb-reversible-spiral-wood-handle-steel-9-5in.html"}]}</script>
   <script src="../pdp-gallery.js?v=a4902e6df7" integrity="sha384-KQQLGR/29Pbafwd/CA/8AQLVXzcSwYToqVr/2dWq1cdz55pHzirU7ht4CxIXllAs" defer></script>
   <script src="../main.js?v=f256a9cd1e" integrity="sha384-mlDhLxbMLdbPBce6nMGx29c9lqJFZLNnl56OeqY5GB4DEHC4huLZkYdDYIFvGUa6" defer></script>
-
+  <script src="../offer.js?v=5034609c7c" integrity="sha384-Ea5I9Wh+mb5hrAn3QPOr70d1COA4/pkjuKenszCCgjwjitqRqIilA2S4B8HUpN9Y" defer></script>
 </head>
 <body class="page-item">
   <a class="skip-link" href="#main">Skip to content</a>
@@ -97,7 +97,27 @@
             <button class="btn btn-primary pdp-add-cart" type="button" data-id="YW7Q6GGGF5MXI7DX5NJ44PKV" data-photo="../assets/pdp-gallery/YW7Q6GGGF5MXI7DX5NJ44PKV/01.webp" data-title="Decker Horse Curry Comb Vintage Reversible Spiral Wood Handle Steel 9.5in" data-price="$14.99" data-ship="Free shipping" data-checkout="https://square.link/u/RsmnDlgA" data-stock="1">Add to cart</button>
             <a href="../store.html" class="btn btn-secondary">Back to store</a>
           </div>
-
+          <details class="pdp-offer">
+            <summary class="btn btn-secondary pdp-offer-toggle">Make an offer</summary>
+            <form class="contact-form pdp-offer-form" id="pdpOfferForm" novalidate data-endpoint="https://buc-square-checkout.jollyroger1480.workers.dev/offer" data-id="YW7Q6GGGF5MXI7DX5NJ44PKV" data-max="14.99" data-min="1.50">
+              <p class="pdp-offer-lede">Send us a price. We read every offer and reply by email. Nothing is accepted automatically.</p>
+              <label for="o-amount">Your offer in US dollars <span class="req">(required)</span></label>
+              <input id="o-amount" name="offer" type="number" inputmode="decimal" step="0.01" min="0.01" max="14.99" required aria-describedby="o-amount-hint o-amount-err">
+              <p class="pdp-offer-hint" id="o-amount-hint">Up to $14.99.</p>
+              <p class="field-error" id="o-amount-err" role="alert" hidden></p>
+              <label for="o-email">Your email <span class="req">(required)</span></label>
+              <input id="o-email" name="email" type="email" autocomplete="email" maxlength="254" required aria-describedby="o-email-err">
+              <p class="field-error" id="o-email-err" role="alert" hidden></p>
+              <label for="o-note">Note <span class="req">(optional)</span></label>
+              <textarea id="o-note" name="note" rows="3" maxlength="500"></textarea>
+              <div class="hp" aria-hidden="true">
+                <label for="o-gotcha">Leave blank</label>
+                <input id="o-gotcha" name="_gotcha" type="text" tabindex="-1" autocomplete="off">
+              </div>
+              <button type="submit" class="btn btn-primary" id="pdpOfferSubmit">Send offer</button>
+              <p class="contact-status" id="pdpOfferStatus" role="status" aria-live="polite" hidden></p>
+            </form>
+          </details>
 
           <div class="pdp-meta">
             <p><strong>Secure checkout:</strong> Card processing off-site on Square</p>
