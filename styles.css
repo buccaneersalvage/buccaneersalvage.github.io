@@ -2956,6 +2956,9 @@ ul.pagination .disabled .page {
 }
 .pdp-lightbox-stage img {
   display: block;
+  /* The placeholder is 1x1 in the markup; size the zoomed photo from the file. */
+  width: auto;
+  height: auto;
   max-width: 96vw;
   max-height: 88vh;
   object-fit: contain;
