@@ -454,8 +454,15 @@
     if (/\bturbo(?:charger)?s?\b(?![\s-]*(?:hydra|\d{3}))|injection pump|holset|mack diesel/.test(blob)) {
       return ["heavy-truck-diesel", "Heavy Truck & Diesel Parts"];
     }
-    if (/solenoid|regulator|map sensor|oxygen|o2 sensor|sealed beam|headlamp|alternator/.test(blob)) {
+    // A part named a sensor that no earlier rule took (ignition, transmission, exhaust
+    // keep their own sensors) is electrical, same as the eBay store; "sender" stays out
+    // because the store keeps oil pressure senders in Engine Parts (2026-11-27).
+    if (/solenoid|regulator|\bsensors?\b|oxygen|sealed beam|headlamp|alternator/.test(blob)) {
       return ["electrical-sensors", "Electrical & Sensors"];
+    }
+    // Cab and body trim is Body & Frame on the eBay store, never an engine part.
+    if (/\bconsoles?\b|dome light|door handle|\bemblems?\b/.test(blob)) {
+      return ["body-frame", "Body & Frame"];
     }
     if (/brake|caliper|wagner|lee /.test(blob)) return ["brakes-suspension", "Brakes & Suspension"];
     if (/control arm|ball joint|tie rod|idler|sway/.test(blob)) {
