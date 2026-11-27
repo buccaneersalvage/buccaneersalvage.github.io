@@ -1,7 +1,7 @@
 {
-  "updated": "2026-11-27T01:15:07Z",
+  "updated": "2026-11-27T02:00:42Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 1243,
+  "count": 1242,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -31779,6 +31779,7 @@
       "vehicle_count_raw": 78,
       "ebay_item_id": "398391633126",
       "ebay_type": "Ceramic Brake Pad",
+      "ebay_brand": "Wagner",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pads",
       "images": [
         "../assets/pdp-gallery/JRJF2VVMS2FFFULQWB3L5FAO/02.webp",
@@ -31788,8 +31789,7 @@
       ],
       "condition_id": "1500",
       "stock": 1,
-      "interchange": [],
-      "ebay_brand": "Wagner"
+      "interchange": []
     },
     {
       "id": "24RTAKCNUCZTQDRQQ3YCSIXH",
@@ -35886,185 +35886,6 @@
       "images": []
     },
     {
-      "id": "SHE3E6GUF5Y56TCXY2CHPLLY",
-      "name": "Beck Arnley 045-0264 PCV Valve NOS Crankcase Honda Civic CRX 88-91 World Parts",
-      "price": 15.99,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/2ee1ca18b4b59c11dab0759c4b994b181725c310/original.jpeg",
-      "url": "https://square.link/u/vnhOwMP8",
-      "category": "filters",
-      "checkout": true,
-      "variation_id": "Z34OX2IA4O6CQEHIVYZVU3UC",
-      "part_numbers": [
-        "045-0264",
-        "World Parts"
-      ],
-      "vehicles": [
-        "1988\u20131991 Honda CRX",
-        "1988\u20131991 Honda Civic"
-      ],
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "high",
-      "fitment": {
-        "part_numbers": [
-          "045-0264",
-          "World Parts"
-        ],
-        "interchange": [],
-        "vehicles": [
-          {
-            "year_from": 1988,
-            "year_to": 1991,
-            "make": "Honda",
-            "model": "CRX",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1988,
-            "year_to": 1991,
-            "make": "Honda",
-            "model": "Civic",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          }
-        ],
-        "vehicle_labels": [
-          "1988\u20131991 Honda CRX",
-          "1988\u20131991 Honda Civic"
-        ],
-        "raw_compat_rows": 47,
-        "source": "ebay_listing",
-        "confidence": "high",
-        "ebay_item_id": "398358617483",
-        "type": "PCV Valve",
-        "brand": "Beck Arnley",
-        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Other Air & Fuel Delivery",
-        "ebay_category_id": "42604",
-        "fetched": true
-      },
-      "vehicle_count_raw": 47,
-      "ebay_item_id": "398358617483",
-      "ebay_type": "PCV Valve",
-      "ebay_brand": "Beck Arnley",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Other Air & Fuel Delivery",
-      "images": [
-        "../assets/pdp-gallery/SHE3E6GUF5Y56TCXY2CHPLLY/02.webp",
-        "../assets/pdp-gallery/SHE3E6GUF5Y56TCXY2CHPLLY/03.webp",
-        "../assets/pdp-gallery/SHE3E6GUF5Y56TCXY2CHPLLY/04.webp"
-      ],
-      "condition_id": "1500",
-      "stock": 1,
-      "interchange": []
-    },
-    {
-      "id": "FWNIMYENQOUTE3WXX2S22P2I",
-      "name": "Beck/Arnley 045-0250 PCV Positive Crankcase Valve NOS Accord 1.5 1.8 83-87",
-      "price": 12.99,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/ccd6fb3c30664883fe4ece578fa863d838c3e5c5/original.jpeg",
-      "url": "https://square.link/u/w8f2sMve",
-      "category": "filters",
-      "checkout": true,
-      "variation_id": "3PHHYJZZUBHB5H25YJURID2T",
-      "part_numbers": [
-        "045-0250"
-      ],
-      "interchange": [
-        "V235",
-        "17130-PE0-003",
-        "17130-PC6-003"
-      ],
-      "vehicles": [
-        "1984\u20131985 Honda Accord",
-        "1984\u20131987 Honda Civic",
-        "1983\u20131987 Honda Prelude",
-        "1986\u20131987 Honda Wagovan"
-      ],
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "high",
-      "fitment": {
-        "part_numbers": [
-          "045-0250"
-        ],
-        "interchange": [
-          "V235",
-          "17130-PE0-003",
-          "17130-PC6-003"
-        ],
-        "vehicles": [
-          {
-            "year_from": 1984,
-            "year_to": 1985,
-            "make": "Honda",
-            "model": "Accord",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1984,
-            "year_to": 1987,
-            "make": "Honda",
-            "model": "Civic",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1983,
-            "year_to": 1987,
-            "make": "Honda",
-            "model": "Prelude",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1986,
-            "year_to": 1987,
-            "make": "Honda",
-            "model": "Wagovan",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          }
-        ],
-        "vehicle_labels": [
-          "1984\u20131985 Honda Accord",
-          "1984\u20131987 Honda Civic",
-          "1983\u20131987 Honda Prelude",
-          "1986\u20131987 Honda Wagovan"
-        ],
-        "raw_compat_rows": 50,
-        "source": "ebay_listing",
-        "confidence": "high",
-        "ebay_item_id": "398314687571",
-        "type": "PCV Valve",
-        "brand": "Beck/Arnley",
-        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Other Air & Fuel Delivery",
-        "ebay_category_id": "42604",
-        "fetched": true
-      },
-      "vehicle_count_raw": 50,
-      "ebay_item_id": "398314687571",
-      "ebay_type": "PCV Valve",
-      "ebay_brand": "Beck/Arnley",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Other Air & Fuel Delivery",
-      "images": [
-        "../assets/pdp-gallery/FWNIMYENQOUTE3WXX2S22P2I/02.webp",
-        "../assets/pdp-gallery/FWNIMYENQOUTE3WXX2S22P2I/03.webp"
-      ],
-      "condition_id": "1500",
-      "stock": 1
-    },
-    {
       "id": "OM7I4RJVT4BDE754HVILSGSO",
       "name": "Bosch 3300 Premium Oil Filter NOS Ford Escort Aspire Chevy City Express 94-18",
       "price": 12.99,
@@ -36289,6 +36110,10 @@
       "category": "filters",
       "checkout": true,
       "variation_id": "KRGXR63ASX6KASJ7LBBZ4RNQ",
+      "part_numbers": [
+        "COS9715",
+        "PH9715"
+      ],
       "vehicles": [
         "2005\u20132010 Subaru Forester",
         "2008\u20132012 Subaru Impreza",
@@ -36376,6 +36201,7 @@
       "vehicle_count_raw": 88,
       "ebay_item_id": "398411607411",
       "ebay_type": "Oil Filter",
+      "ebay_brand": "Champion",
       "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Filters",
       "images": [
         "../assets/pdp-gallery/TG6FY434URCRAB3YSQRQBOM4/02.webp",
@@ -36383,12 +36209,7 @@
       ],
       "condition_id": "1500",
       "stock": 1,
-      "part_numbers": [
-        "COS9715",
-        "PH9715"
-      ],
-      "interchange": [],
-      "ebay_brand": "Champion"
+      "interchange": []
     },
     {
       "id": "GM3WOA7OL4IRLKQHCUKGKFCF",
@@ -42128,1302 +41949,6 @@
       "images": []
     },
     {
-      "id": "ITOBISKRC7VRZBSBVCPELHHX",
-      "name": "PV-679 PCV Positive Crankcase Valve 67-80 Cadillac DeVille Buick LeSabre Chevy",
-      "price": 14.99,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/5dd37fb6ff0345d9db3728abfa948ec7ed4ec0d6/original.jpeg",
-      "url": "https://square.link/u/nxjaLwyu",
-      "category": "filters",
-      "checkout": true,
-      "variation_id": "WYXIVMEB5FF7OVQMTRB3VQ5V",
-      "part_numbers": [
-        "PV-679",
-        "TC-679"
-      ],
-      "interchange": [
-        "V112",
-        "FV112",
-        "CV679C",
-        "PV679"
-      ],
-      "vehicles": [
-        "1975\u20131979 Buick LeSabre",
-        "1967\u20131980 Cadillac DeVille",
-        "1977 Buick Century",
-        "1977\u20131981 Buick Electra",
-        "1977\u20131979 Buick Estate Wagon",
-        "1977 Buick Regal",
-        "1977\u20131979 Buick Riviera",
-        "1977 Buick Skylark",
-        "1965\u20131976 Cadillac Calais",
-        "1967\u20131980 Cadillac Commercial Chassis",
-        "1967\u20131980 Cadillac Eldorado",
-        "1967\u20131980 Cadillac Fleetwood",
-        "1963\u20131964 Cadillac Series 60 Fleetwood",
-        "1963\u20131964 Cadillac Series 62",
-        "1963\u20131964 Cadillac Series 75 Fleetwood",
-        "1976\u20131980 Cadillac Seville",
-        "1967 Chevrolet Biscayne",
-        "1964\u20131967 Chevrolet C10 Pickup",
-        "1967 Chevrolet C10 Suburban",
-        "1964\u20131967 Chevrolet C20 Pickup",
-        "1967 Chevrolet C20 Suburban",
-        "1964\u20131967 Chevrolet C30 Pickup",
-        "1967 Chevrolet Camaro",
-        "1966\u20131967 Chevrolet Caprice",
-        "1966 Chevrolet Chevelle",
-        "1964\u20131967 Chevrolet Chevy II",
-        "1966\u20131967 Chevrolet Corvette",
-        "1964\u20131967 Chevrolet El Camino",
-        "1966\u20131967 Chevrolet Impala",
-        "1964\u20131967 Chevrolet K10 Pickup",
-        "1967 Chevrolet K10 Suburban",
-        "1964\u20131967 Chevrolet K20 Pickup",
-        "1967 Chevrolet K20 Suburban",
-        "1964\u20131966 Chevrolet Suburban",
-        "1965 GMC 1000 Series",
-        "1965 GMC 1500 Series",
-        "1965 GMC 2500 Series",
-        "1967\u20131969 GMC C15/C1500 Pickup",
-        "1967 GMC C15/C1500 Suburban",
-        "1967 GMC C25/C2500 Pickup",
-        "1967 GMC C25/C2500 Suburban",
-        "1967 GMC C35/C3500 Pickup",
-        "1967\u20131969 GMC G15/G1500 Van",
-        "1967\u20131969 GMC G25/G2500 Van",
-        "1966\u20131969 GMC K15/K1500 Pickup",
-        "1967 GMC K15/K1500 Suburban",
-        "1967 GMC K25/K2500 Pickup",
-        "1967 GMC K25/K2500 Suburban",
-        "1967\u20131969 GMC P15/P1500 Van",
-        "1967 GMC P25/P2500 Van",
-        "1967 GMC P35/P3500 Van",
-        "1963\u20131966 GMC Suburban",
-        "1976\u20131980 International Harvester Scout II",
-        "1965\u20131969 Jeep Gladiator",
-        "1965\u20131971 Jeep J-100",
-        "1965\u20131971 Jeep J-2500",
-        "1965\u20131971 Jeep J-2600",
-        "1965\u20131970 Jeep J-2700",
-        "1965\u20131968 Jeep J-2800",
-        "1965\u20131970 Jeep J-3500",
-        "1965\u20131970 Jeep J-3600",
-        "1965\u20131970 Jeep J-3700",
-        "1965\u20131971 Jeep J-3800",
-        "1970 Jeep J-4500",
-        "1970 Jeep J-4600",
-        "1970 Jeep J-4700",
-        "1970 Jeep J-4800",
-        "1970\u20131971 Jeep Wagoneer",
-        "1965\u20131971 Oldsmobile 442",
-        "1967\u20131979 Oldsmobile 98",
-        "1971\u20131979 Oldsmobile Custom Cruiser",
-        "1965\u20131977 Oldsmobile Cutlass",
-        "1975\u20131977 Oldsmobile Cutlass Salon",
-        "1967\u20131977 Oldsmobile Cutlass Supreme",
-        "1976 Oldsmobile Cutlass Tiara",
-        "1967\u20131968 Oldsmobile Delmont 88",
-        "1967\u20131979 Oldsmobile Delta 88",
-        "1964\u20131966 Oldsmobile Dynamic 88",
-        "1964\u20131972 Oldsmobile F85",
-        "1964\u20131966 Oldsmobile Jetstar 88",
-        "1973\u20131977 Oldsmobile Omega",
-        "1964\u20131966 Oldsmobile Starfire",
-        "1964 Oldsmobile Super 88",
-        "1967\u20131979 Oldsmobile Toronado",
-        "1964\u20131975 Oldsmobile Vista Cruiser",
-        "1964\u20131967 Pontiac Acadian",
-        "1964\u20131967 Pontiac Beaumont",
-        "1967\u20131979 Pontiac Bonneville",
-        "1967\u20131979 Pontiac Catalina",
-        "1967\u20131970 Pontiac Executive",
-        "1967\u20131979 Pontiac Firebird",
-        "1964\u20131973 Pontiac GTO",
-        "1973\u20131975 Pontiac Grand Am",
-        "1975\u20131977 Pontiac Grand LeMans",
-        "1965\u20131977 Pontiac Grand Prix",
-        "1971\u20131975 Pontiac Grandville",
-        "1968\u20131977 Pontiac Laurentian",
-        "1965\u20131977 Pontiac LeMans",
-        "1971\u20131976 Pontiac Parisienne",
-        "1977 Pontiac Phoenix",
-        "1961\u20131966 Pontiac Star Chief",
-        "1961\u20131970 Pontiac Tempest",
-        "1971\u20131977 Pontiac Ventura"
-      ],
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "high",
-      "fitment": {
-        "part_numbers": [
-          "PV-679",
-          "TC-679"
-        ],
-        "interchange": [
-          "V112",
-          "FV112",
-          "CV679C",
-          "PV679"
-        ],
-        "vehicles": [
-          {
-            "year_from": 1977,
-            "year_to": 1977,
-            "make": "Buick",
-            "model": "Century",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1977,
-            "year_to": 1981,
-            "make": "Buick",
-            "model": "Electra",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1977,
-            "year_to": 1979,
-            "make": "Buick",
-            "model": "Estate Wagon",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1975,
-            "year_to": 1979,
-            "make": "Buick",
-            "model": "LeSabre",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1977,
-            "year_to": 1977,
-            "make": "Buick",
-            "model": "Regal",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1977,
-            "year_to": 1979,
-            "make": "Buick",
-            "model": "Riviera",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1977,
-            "year_to": 1977,
-            "make": "Buick",
-            "model": "Skylark",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1965,
-            "year_to": 1976,
-            "make": "Cadillac",
-            "model": "Calais",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1967,
-            "year_to": 1980,
-            "make": "Cadillac",
-            "model": "Commercial Chassis",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1967,
-            "year_to": 1980,
-            "make": "Cadillac",
-            "model": "DeVille",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1967,
-            "year_to": 1980,
-            "make": "Cadillac",
-            "model": "Eldorado",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1967,
-            "year_to": 1980,
-            "make": "Cadillac",
-            "model": "Fleetwood",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1963,
-            "year_to": 1964,
-            "make": "Cadillac",
-            "model": "Series 60 Fleetwood",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1963,
-            "year_to": 1964,
-            "make": "Cadillac",
-            "model": "Series 62",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1963,
-            "year_to": 1964,
-            "make": "Cadillac",
-            "model": "Series 75 Fleetwood",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1976,
-            "year_to": 1980,
-            "make": "Cadillac",
-            "model": "Seville",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1967,
-            "year_to": 1967,
-            "make": "Chevrolet",
-            "model": "Biscayne",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1964,
-            "year_to": 1967,
-            "make": "Chevrolet",
-            "model": "C10 Pickup",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1967,
-            "year_to": 1967,
-            "make": "Chevrolet",
-            "model": "C10 Suburban",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1964,
-            "year_to": 1967,
-            "make": "Chevrolet",
-            "model": "C20 Pickup",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1967,
-            "year_to": 1967,
-            "make": "Chevrolet",
-            "model": "C20 Suburban",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1964,
-            "year_to": 1967,
-            "make": "Chevrolet",
-            "model": "C30 Pickup",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1967,
-            "year_to": 1967,
-            "make": "Chevrolet",
-            "model": "Camaro",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1966,
-            "year_to": 1967,
-            "make": "Chevrolet",
-            "model": "Caprice",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1966,
-            "year_to": 1966,
-            "make": "Chevrolet",
-            "model": "Chevelle",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1964,
-            "year_to": 1967,
-            "make": "Chevrolet",
-            "model": "Chevy II",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1966,
-            "year_to": 1967,
-            "make": "Chevrolet",
-            "model": "Corvette",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1964,
-            "year_to": 1967,
-            "make": "Chevrolet",
-            "model": "El Camino",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1966,
-            "year_to": 1967,
-            "make": "Chevrolet",
-            "model": "Impala",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1964,
-            "year_to": 1967,
-            "make": "Chevrolet",
-            "model": "K10 Pickup",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1967,
-            "year_to": 1967,
-            "make": "Chevrolet",
-            "model": "K10 Suburban",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1964,
-            "year_to": 1967,
-            "make": "Chevrolet",
-            "model": "K20 Pickup",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1967,
-            "year_to": 1967,
-            "make": "Chevrolet",
-            "model": "K20 Suburban",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1964,
-            "year_to": 1966,
-            "make": "Chevrolet",
-            "model": "Suburban",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1965,
-            "year_to": 1965,
-            "make": "GMC",
-            "model": "1000 Series",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1965,
-            "year_to": 1965,
-            "make": "GMC",
-            "model": "1500 Series",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1965,
-            "year_to": 1965,
-            "make": "GMC",
-            "model": "2500 Series",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1967,
-            "year_to": 1969,
-            "make": "GMC",
-            "model": "C15/C1500 Pickup",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1967,
-            "year_to": 1967,
-            "make": "GMC",
-            "model": "C15/C1500 Suburban",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1967,
-            "year_to": 1967,
-            "make": "GMC",
-            "model": "C25/C2500 Pickup",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1967,
-            "year_to": 1967,
-            "make": "GMC",
-            "model": "C25/C2500 Suburban",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1967,
-            "year_to": 1967,
-            "make": "GMC",
-            "model": "C35/C3500 Pickup",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1967,
-            "year_to": 1969,
-            "make": "GMC",
-            "model": "G15/G1500 Van",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1967,
-            "year_to": 1969,
-            "make": "GMC",
-            "model": "G25/G2500 Van",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1966,
-            "year_to": 1969,
-            "make": "GMC",
-            "model": "K15/K1500 Pickup",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1967,
-            "year_to": 1967,
-            "make": "GMC",
-            "model": "K15/K1500 Suburban",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1967,
-            "year_to": 1967,
-            "make": "GMC",
-            "model": "K25/K2500 Pickup",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1967,
-            "year_to": 1967,
-            "make": "GMC",
-            "model": "K25/K2500 Suburban",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1967,
-            "year_to": 1969,
-            "make": "GMC",
-            "model": "P15/P1500 Van",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1967,
-            "year_to": 1967,
-            "make": "GMC",
-            "model": "P25/P2500 Van",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1967,
-            "year_to": 1967,
-            "make": "GMC",
-            "model": "P35/P3500 Van",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1963,
-            "year_to": 1966,
-            "make": "GMC",
-            "model": "Suburban",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1976,
-            "year_to": 1980,
-            "make": "International Harvester",
-            "model": "Scout II",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1965,
-            "year_to": 1969,
-            "make": "Jeep",
-            "model": "Gladiator",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1965,
-            "year_to": 1971,
-            "make": "Jeep",
-            "model": "J-100",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1965,
-            "year_to": 1971,
-            "make": "Jeep",
-            "model": "J-2500",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1965,
-            "year_to": 1971,
-            "make": "Jeep",
-            "model": "J-2600",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1965,
-            "year_to": 1970,
-            "make": "Jeep",
-            "model": "J-2700",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1965,
-            "year_to": 1968,
-            "make": "Jeep",
-            "model": "J-2800",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1965,
-            "year_to": 1970,
-            "make": "Jeep",
-            "model": "J-3500",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1965,
-            "year_to": 1970,
-            "make": "Jeep",
-            "model": "J-3600",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1965,
-            "year_to": 1970,
-            "make": "Jeep",
-            "model": "J-3700",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1965,
-            "year_to": 1971,
-            "make": "Jeep",
-            "model": "J-3800",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1970,
-            "year_to": 1970,
-            "make": "Jeep",
-            "model": "J-4500",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1970,
-            "year_to": 1970,
-            "make": "Jeep",
-            "model": "J-4600",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1970,
-            "year_to": 1970,
-            "make": "Jeep",
-            "model": "J-4700",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1970,
-            "year_to": 1970,
-            "make": "Jeep",
-            "model": "J-4800",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1970,
-            "year_to": 1971,
-            "make": "Jeep",
-            "model": "Wagoneer",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1965,
-            "year_to": 1971,
-            "make": "Oldsmobile",
-            "model": "442",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1967,
-            "year_to": 1979,
-            "make": "Oldsmobile",
-            "model": "98",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1971,
-            "year_to": 1979,
-            "make": "Oldsmobile",
-            "model": "Custom Cruiser",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1965,
-            "year_to": 1977,
-            "make": "Oldsmobile",
-            "model": "Cutlass",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1975,
-            "year_to": 1977,
-            "make": "Oldsmobile",
-            "model": "Cutlass Salon",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1967,
-            "year_to": 1977,
-            "make": "Oldsmobile",
-            "model": "Cutlass Supreme",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1976,
-            "year_to": 1976,
-            "make": "Oldsmobile",
-            "model": "Cutlass Tiara",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1967,
-            "year_to": 1968,
-            "make": "Oldsmobile",
-            "model": "Delmont 88",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1967,
-            "year_to": 1979,
-            "make": "Oldsmobile",
-            "model": "Delta 88",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1964,
-            "year_to": 1966,
-            "make": "Oldsmobile",
-            "model": "Dynamic 88",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1964,
-            "year_to": 1972,
-            "make": "Oldsmobile",
-            "model": "F85",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1964,
-            "year_to": 1966,
-            "make": "Oldsmobile",
-            "model": "Jetstar 88",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1973,
-            "year_to": 1977,
-            "make": "Oldsmobile",
-            "model": "Omega",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1964,
-            "year_to": 1966,
-            "make": "Oldsmobile",
-            "model": "Starfire",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1964,
-            "year_to": 1964,
-            "make": "Oldsmobile",
-            "model": "Super 88",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1967,
-            "year_to": 1979,
-            "make": "Oldsmobile",
-            "model": "Toronado",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1964,
-            "year_to": 1975,
-            "make": "Oldsmobile",
-            "model": "Vista Cruiser",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1964,
-            "year_to": 1967,
-            "make": "Pontiac",
-            "model": "Acadian",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1964,
-            "year_to": 1967,
-            "make": "Pontiac",
-            "model": "Beaumont",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1967,
-            "year_to": 1979,
-            "make": "Pontiac",
-            "model": "Bonneville",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1967,
-            "year_to": 1979,
-            "make": "Pontiac",
-            "model": "Catalina",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1967,
-            "year_to": 1970,
-            "make": "Pontiac",
-            "model": "Executive",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1967,
-            "year_to": 1979,
-            "make": "Pontiac",
-            "model": "Firebird",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1964,
-            "year_to": 1973,
-            "make": "Pontiac",
-            "model": "GTO",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1973,
-            "year_to": 1975,
-            "make": "Pontiac",
-            "model": "Grand Am",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1975,
-            "year_to": 1977,
-            "make": "Pontiac",
-            "model": "Grand LeMans",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1965,
-            "year_to": 1977,
-            "make": "Pontiac",
-            "model": "Grand Prix",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1971,
-            "year_to": 1975,
-            "make": "Pontiac",
-            "model": "Grandville",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1968,
-            "year_to": 1977,
-            "make": "Pontiac",
-            "model": "Laurentian",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1965,
-            "year_to": 1977,
-            "make": "Pontiac",
-            "model": "LeMans",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1971,
-            "year_to": 1976,
-            "make": "Pontiac",
-            "model": "Parisienne",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1977,
-            "year_to": 1977,
-            "make": "Pontiac",
-            "model": "Phoenix",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1961,
-            "year_to": 1966,
-            "make": "Pontiac",
-            "model": "Star Chief",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1961,
-            "year_to": 1970,
-            "make": "Pontiac",
-            "model": "Tempest",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1971,
-            "year_to": 1977,
-            "make": "Pontiac",
-            "model": "Ventura",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          }
-        ],
-        "vehicle_labels": [
-          "1975\u20131979 Buick LeSabre",
-          "1967\u20131980 Cadillac DeVille",
-          "1977 Buick Century",
-          "1977\u20131981 Buick Electra",
-          "1977\u20131979 Buick Estate Wagon",
-          "1977 Buick Regal",
-          "1977\u20131979 Buick Riviera",
-          "1977 Buick Skylark",
-          "1965\u20131976 Cadillac Calais",
-          "1967\u20131980 Cadillac Commercial Chassis",
-          "1967\u20131980 Cadillac Eldorado",
-          "1967\u20131980 Cadillac Fleetwood",
-          "1963\u20131964 Cadillac Series 60 Fleetwood",
-          "1963\u20131964 Cadillac Series 62",
-          "1963\u20131964 Cadillac Series 75 Fleetwood",
-          "1976\u20131980 Cadillac Seville",
-          "1967 Chevrolet Biscayne",
-          "1964\u20131967 Chevrolet C10 Pickup",
-          "1967 Chevrolet C10 Suburban",
-          "1964\u20131967 Chevrolet C20 Pickup",
-          "1967 Chevrolet C20 Suburban",
-          "1964\u20131967 Chevrolet C30 Pickup",
-          "1967 Chevrolet Camaro",
-          "1966\u20131967 Chevrolet Caprice",
-          "1966 Chevrolet Chevelle",
-          "1964\u20131967 Chevrolet Chevy II",
-          "1966\u20131967 Chevrolet Corvette",
-          "1964\u20131967 Chevrolet El Camino",
-          "1966\u20131967 Chevrolet Impala",
-          "1964\u20131967 Chevrolet K10 Pickup",
-          "1967 Chevrolet K10 Suburban",
-          "1964\u20131967 Chevrolet K20 Pickup",
-          "1967 Chevrolet K20 Suburban",
-          "1964\u20131966 Chevrolet Suburban",
-          "1965 GMC 1000 Series",
-          "1965 GMC 1500 Series",
-          "1965 GMC 2500 Series",
-          "1967\u20131969 GMC C15/C1500 Pickup",
-          "1967 GMC C15/C1500 Suburban",
-          "1967 GMC C25/C2500 Pickup",
-          "1967 GMC C25/C2500 Suburban",
-          "1967 GMC C35/C3500 Pickup",
-          "1967\u20131969 GMC G15/G1500 Van",
-          "1967\u20131969 GMC G25/G2500 Van",
-          "1966\u20131969 GMC K15/K1500 Pickup",
-          "1967 GMC K15/K1500 Suburban",
-          "1967 GMC K25/K2500 Pickup",
-          "1967 GMC K25/K2500 Suburban",
-          "1967\u20131969 GMC P15/P1500 Van",
-          "1967 GMC P25/P2500 Van",
-          "1967 GMC P35/P3500 Van",
-          "1963\u20131966 GMC Suburban",
-          "1976\u20131980 International Harvester Scout II",
-          "1965\u20131969 Jeep Gladiator",
-          "1965\u20131971 Jeep J-100",
-          "1965\u20131971 Jeep J-2500",
-          "1965\u20131971 Jeep J-2600",
-          "1965\u20131970 Jeep J-2700",
-          "1965\u20131968 Jeep J-2800",
-          "1965\u20131970 Jeep J-3500",
-          "1965\u20131970 Jeep J-3600",
-          "1965\u20131970 Jeep J-3700",
-          "1965\u20131971 Jeep J-3800",
-          "1970 Jeep J-4500",
-          "1970 Jeep J-4600",
-          "1970 Jeep J-4700",
-          "1970 Jeep J-4800",
-          "1970\u20131971 Jeep Wagoneer",
-          "1965\u20131971 Oldsmobile 442",
-          "1967\u20131979 Oldsmobile 98",
-          "1971\u20131979 Oldsmobile Custom Cruiser",
-          "1965\u20131977 Oldsmobile Cutlass",
-          "1975\u20131977 Oldsmobile Cutlass Salon",
-          "1967\u20131977 Oldsmobile Cutlass Supreme",
-          "1976 Oldsmobile Cutlass Tiara",
-          "1967\u20131968 Oldsmobile Delmont 88",
-          "1967\u20131979 Oldsmobile Delta 88",
-          "1964\u20131966 Oldsmobile Dynamic 88",
-          "1964\u20131972 Oldsmobile F85",
-          "1964\u20131966 Oldsmobile Jetstar 88",
-          "1973\u20131977 Oldsmobile Omega",
-          "1964\u20131966 Oldsmobile Starfire",
-          "1964 Oldsmobile Super 88",
-          "1967\u20131979 Oldsmobile Toronado",
-          "1964\u20131975 Oldsmobile Vista Cruiser",
-          "1964\u20131967 Pontiac Acadian",
-          "1964\u20131967 Pontiac Beaumont",
-          "1967\u20131979 Pontiac Bonneville",
-          "1967\u20131979 Pontiac Catalina",
-          "1967\u20131970 Pontiac Executive",
-          "1967\u20131979 Pontiac Firebird",
-          "1964\u20131973 Pontiac GTO",
-          "1973\u20131975 Pontiac Grand Am",
-          "1975\u20131977 Pontiac Grand LeMans",
-          "1965\u20131977 Pontiac Grand Prix",
-          "1971\u20131975 Pontiac Grandville",
-          "1968\u20131977 Pontiac Laurentian",
-          "1965\u20131977 Pontiac LeMans",
-          "1971\u20131976 Pontiac Parisienne",
-          "1977 Pontiac Phoenix",
-          "1961\u20131966 Pontiac Star Chief",
-          "1961\u20131970 Pontiac Tempest",
-          "1971\u20131977 Pontiac Ventura"
-        ],
-        "raw_compat_rows": 2117,
-        "source": "ebay_listing",
-        "confidence": "high",
-        "ebay_item_id": "398315197368",
-        "type": "PCV Valve",
-        "brand": "Unbranded",
-        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Other Air & Fuel Delivery",
-        "ebay_category_id": "42604",
-        "fetched": true
-      },
-      "vehicle_count_raw": 2117,
-      "ebay_item_id": "398315197368",
-      "ebay_type": "PCV Valve",
-      "ebay_brand": "Unbranded",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Other Air & Fuel Delivery",
-      "images": [
-        "../assets/pdp-gallery/ITOBISKRC7VRZBSBVCPELHHX/02.webp",
-        "../assets/pdp-gallery/ITOBISKRC7VRZBSBVCPELHHX/03.webp"
-      ],
-      "condition_id": "1500",
-      "stock": 1
-    },
-    {
       "id": "BIVYP5AQYNSV4FCPF4F7QCR7",
       "name": "Sentinel FK3722 Trans Filter Kit Ford A4LD 86-88 Ranger Bronco II Aerostar 2.3",
       "price": 19.99,
@@ -43569,1203 +42094,6 @@
       "interchange": [],
       "vehicles": [],
       "images": []
-    },
-    {
-      "id": "3JMY33AKKC4BBA62WL4XELE5",
-      "name": "Standard V187 PCV Positive Crankcase Valve NOS Chevette T1000 Acadian 1.6 76-87",
-      "price": 15.99,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/d9204edc643ebfc8ea49b8b87b40c797eaa481fd/original.jpeg",
-      "url": "https://square.link/u/Xi3c8MAa",
-      "category": "filters",
-      "checkout": true,
-      "variation_id": "ULQSP7AL7T6SZ3FFSGZPB6RJ",
-      "part_numbers": [
-        "V187"
-      ],
-      "interchange": [
-        "PV788",
-        "FV191"
-      ],
-      "vehicles": [
-        "1976\u20131987 Chevrolet Chevette",
-        "1980\u20131987 Pontiac Acadian",
-        "1981\u20131987 Pontiac T1000"
-      ],
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "high",
-      "fitment": {
-        "part_numbers": [
-          "V187"
-        ],
-        "interchange": [
-          "PV788",
-          "FV191"
-        ],
-        "vehicles": [
-          {
-            "year_from": 1976,
-            "year_to": 1987,
-            "make": "Chevrolet",
-            "model": "Chevette",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1980,
-            "year_to": 1987,
-            "make": "Pontiac",
-            "model": "Acadian",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1981,
-            "year_to": 1987,
-            "make": "Pontiac",
-            "model": "T1000",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          }
-        ],
-        "vehicle_labels": [
-          "1976\u20131987 Chevrolet Chevette",
-          "1980\u20131987 Pontiac Acadian",
-          "1981\u20131987 Pontiac T1000"
-        ],
-        "raw_compat_rows": 85,
-        "source": "ebay_listing",
-        "confidence": "high",
-        "ebay_item_id": "398315203427",
-        "type": "PCV Valve",
-        "brand": "Standard",
-        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Other Air & Fuel Delivery",
-        "ebay_category_id": "42604",
-        "fetched": true
-      },
-      "vehicle_count_raw": 85,
-      "ebay_item_id": "398315203427",
-      "ebay_type": "PCV Valve",
-      "ebay_brand": "Standard",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Other Air & Fuel Delivery",
-      "images": [
-        "../assets/pdp-gallery/3JMY33AKKC4BBA62WL4XELE5/02.webp",
-        "../assets/pdp-gallery/3JMY33AKKC4BBA62WL4XELE5/03.webp"
-      ],
-      "condition_id": "1500",
-      "stock": 1
-    },
-    {
-      "id": "BFBGZU3BOXYHHVUTT376VPRC",
-      "name": "Standard V231 PCV Positive Crankcase Valve NOS Eclipse Talon 1.5 2.0 80-19",
-      "price": 17.99,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/6d205257adabe795f66252c7fc9a296329c9fad8/original.jpeg",
-      "url": "https://square.link/u/rgAye6Og",
-      "category": "filters",
-      "checkout": true,
-      "variation_id": "ISPTJUW5L7I4LJXQNSYDTPOR",
-      "part_numbers": [
-        "V231"
-      ],
-      "interchange": [
-        "045-0285",
-        "MD041519",
-        "26740-32804",
-        "FV288"
-      ],
-      "vehicles": [
-        "1983\u20131989 Dodge Ram 50",
-        "1990\u20131998 Eagle Talon",
-        "1986\u20131994 Hyundai Excel",
-        "1992\u20131998 Hyundai Sonata",
-        "1990\u20131999 Mitsubishi Eclipse",
-        "1991\u20131996 Mitsubishi Mirage",
-        "1990\u20131994 Plymouth Laser"
-      ],
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "high",
-      "fitment": {
-        "part_numbers": [
-          "V231"
-        ],
-        "interchange": [
-          "045-0285",
-          "MD041519",
-          "26740-32804",
-          "FV288"
-        ],
-        "vehicles": [
-          {
-            "year_from": 1983,
-            "year_to": 1989,
-            "make": "Dodge",
-            "model": "Ram 50",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1990,
-            "year_to": 1998,
-            "make": "Eagle",
-            "model": "Talon",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1986,
-            "year_to": 1994,
-            "make": "Hyundai",
-            "model": "Excel",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1992,
-            "year_to": 1998,
-            "make": "Hyundai",
-            "model": "Sonata",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1990,
-            "year_to": 1999,
-            "make": "Mitsubishi",
-            "model": "Eclipse",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1991,
-            "year_to": 1996,
-            "make": "Mitsubishi",
-            "model": "Mirage",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1990,
-            "year_to": 1994,
-            "make": "Plymouth",
-            "model": "Laser",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          }
-        ],
-        "vehicle_labels": [
-          "1983\u20131989 Dodge Ram 50",
-          "1990\u20131998 Eagle Talon",
-          "1986\u20131994 Hyundai Excel",
-          "1992\u20131998 Hyundai Sonata",
-          "1990\u20131999 Mitsubishi Eclipse",
-          "1991\u20131996 Mitsubishi Mirage",
-          "1990\u20131994 Plymouth Laser"
-        ],
-        "raw_compat_rows": 192,
-        "source": "ebay_listing",
-        "confidence": "high",
-        "ebay_item_id": "398314685759",
-        "type": "PCV Valve",
-        "brand": "Standard",
-        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Other Air & Fuel Delivery",
-        "ebay_category_id": "42604",
-        "fetched": true
-      },
-      "vehicle_count_raw": 192,
-      "ebay_item_id": "398314685759",
-      "ebay_type": "PCV Valve",
-      "ebay_brand": "Standard",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Other Air & Fuel Delivery",
-      "images": [
-        "../assets/pdp-gallery/BFBGZU3BOXYHHVUTT376VPRC/02.webp",
-        "../assets/pdp-gallery/BFBGZU3BOXYHHVUTT376VPRC/03.webp"
-      ],
-      "condition_id": "1500",
-      "stock": 1
-    },
-    {
-      "id": "EVSHU2UQLT6D33JEMOPHMSGH",
-      "name": "Standard V236 PCV Positive Crankcase Valve Jeep Wrangler CJ5 AMC Eagle 4.2 83-88",
-      "price": 12.99,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/6fe62edf1216e4b3f68ccd19ed16f176010b3c6c/original.jpeg",
-      "url": "https://square.link/u/JLrJBRa4",
-      "category": "filters",
-      "checkout": true,
-      "variation_id": "7HZR6HV6S7C3NFALRTCRX2ZG",
-      "part_numbers": [
-        "V236"
-      ],
-      "interchange": [
-        "33000887",
-        "FV260",
-        "5019492AA",
-        "CV898C"
-      ],
-      "vehicles": [
-        "1983 Jeep CJ5",
-        "1987\u20131990 Jeep Wrangler",
-        "1983 AMC Concord",
-        "1983\u20131988 AMC Eagle",
-        "1983 AMC Spirit",
-        "1983 Jeep Cherokee",
-        "1984\u20131986 Jeep Grand Wagoneer",
-        "1983\u20131987 Jeep J10",
-        "1983\u20131985 Jeep Scrambler",
-        "1983 Jeep Wagoneer"
-      ],
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "high",
-      "fitment": {
-        "part_numbers": [
-          "V236"
-        ],
-        "interchange": [
-          "33000887",
-          "FV260",
-          "5019492AA",
-          "CV898C"
-        ],
-        "vehicles": [
-          {
-            "year_from": 1983,
-            "year_to": 1983,
-            "make": "AMC",
-            "model": "Concord",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1983,
-            "year_to": 1988,
-            "make": "AMC",
-            "model": "Eagle",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1983,
-            "year_to": 1983,
-            "make": "AMC",
-            "model": "Spirit",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1983,
-            "year_to": 1983,
-            "make": "Jeep",
-            "model": "CJ5",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1983,
-            "year_to": 1983,
-            "make": "Jeep",
-            "model": "Cherokee",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1984,
-            "year_to": 1986,
-            "make": "Jeep",
-            "model": "Grand Wagoneer",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1983,
-            "year_to": 1987,
-            "make": "Jeep",
-            "model": "J10",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1983,
-            "year_to": 1985,
-            "make": "Jeep",
-            "model": "Scrambler",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1983,
-            "year_to": 1983,
-            "make": "Jeep",
-            "model": "Wagoneer",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1987,
-            "year_to": 1990,
-            "make": "Jeep",
-            "model": "Wrangler",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          }
-        ],
-        "vehicle_labels": [
-          "1983 Jeep CJ5",
-          "1987\u20131990 Jeep Wrangler",
-          "1983 AMC Concord",
-          "1983\u20131988 AMC Eagle",
-          "1983 AMC Spirit",
-          "1983 Jeep Cherokee",
-          "1984\u20131986 Jeep Grand Wagoneer",
-          "1983\u20131987 Jeep J10",
-          "1983\u20131985 Jeep Scrambler",
-          "1983 Jeep Wagoneer"
-        ],
-        "raw_compat_rows": 71,
-        "source": "ebay_listing",
-        "confidence": "high",
-        "ebay_item_id": "398314686590",
-        "type": "PCV Valve",
-        "brand": "Standard",
-        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Other Air & Fuel Delivery",
-        "ebay_category_id": "42604",
-        "fetched": true
-      },
-      "vehicle_count_raw": 71,
-      "ebay_item_id": "398314686590",
-      "ebay_type": "PCV Valve",
-      "ebay_brand": "Standard",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Other Air & Fuel Delivery",
-      "images": [
-        "../assets/pdp-gallery/EVSHU2UQLT6D33JEMOPHMSGH/02.webp",
-        "../assets/pdp-gallery/EVSHU2UQLT6D33JEMOPHMSGH/03.webp"
-      ],
-      "condition_id": "1500",
-      "stock": 1
-    },
-    {
-      "id": "FDW6RBORFIS2ORNWEL4CNZ65",
-      "name": "Standard V244 PCV Valve NOS 1.9 Ford Escort Mercury Tracer Crankcase Vent 85-92",
-      "price": 14.99,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/d1110636992af7745cb621a227d1432a5e741775/original.jpeg",
-      "url": "https://square.link/u/l31RcZfu",
-      "category": "filters",
-      "checkout": true,
-      "variation_id": "YUHLWDUVND2SHBMDHURLND6R",
-      "part_numbers": [
-        "V244"
-      ],
-      "interchange": [
-        "EV157",
-        "E6FZ-6A666-A",
-        "FV290",
-        "CV904C"
-      ],
-      "vehicles": [
-        "1985\u20131992 Ford Escort",
-        "1991\u20131992 Mercury Tracer"
-      ],
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "high",
-      "fitment": {
-        "part_numbers": [
-          "V244"
-        ],
-        "interchange": [
-          "EV157",
-          "E6FZ-6A666-A",
-          "FV290",
-          "CV904C"
-        ],
-        "vehicles": [
-          {
-            "year_from": 1985,
-            "year_to": 1992,
-            "make": "Ford",
-            "model": "Escort",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1991,
-            "year_to": 1992,
-            "make": "Mercury",
-            "model": "Tracer",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          }
-        ],
-        "vehicle_labels": [
-          "1985\u20131992 Ford Escort",
-          "1991\u20131992 Mercury Tracer"
-        ],
-        "raw_compat_rows": 67,
-        "source": "ebay_listing",
-        "confidence": "high",
-        "ebay_item_id": "398314764500",
-        "type": "PCV Valve",
-        "brand": "Standard Motor Products",
-        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Other Air & Fuel Delivery",
-        "ebay_category_id": "42604",
-        "fetched": true
-      },
-      "vehicle_count_raw": 67,
-      "ebay_item_id": "398314764500",
-      "ebay_type": "PCV Valve",
-      "ebay_brand": "Standard Motor Products",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Other Air & Fuel Delivery",
-      "images": [
-        "../assets/pdp-gallery/FDW6RBORFIS2ORNWEL4CNZ65/02.webp",
-        "../assets/pdp-gallery/FDW6RBORFIS2ORNWEL4CNZ65/03.webp",
-        "../assets/pdp-gallery/FDW6RBORFIS2ORNWEL4CNZ65/04.webp"
-      ],
-      "condition_id": "1500",
-      "stock": 1
-    },
-    {
-      "id": "DDN34YRV2X2BQ4FYKTVIRL3G",
-      "name": "Standard V251 PCV Positive Crankcase Valve 2.5 5.7 Chevy Camaro S10 87-93 FV296",
-      "price": 14.99,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/010f6cf5a71abbde9efc897566dd3d940fecfaa8/original.jpeg",
-      "url": "https://square.link/u/lrvg2tsu",
-      "category": "filters",
-      "checkout": true,
-      "variation_id": "A2DDXNOSFFWOKZYW7UPHM7PR",
-      "part_numbers": [
-        "V251"
-      ],
-      "interchange": [
-        "25095452",
-        "FV296",
-        "CV895C",
-        "PCV145"
-      ],
-      "vehicles": [
-        "1993\u20131997 Chevrolet Camaro",
-        "1987\u20131993 Chevrolet S10",
-        "1987\u20131992 Buick Century",
-        "1994\u20131996 Buick Commercial Chassis",
-        "1994\u20131996 Buick Roadmaster",
-        "1987\u20131991 Buick Skylark",
-        "1987 Buick Somerset",
-        "1994\u20131996 Cadillac Commercial Chassis",
-        "1994\u20131996 Cadillac Fleetwood",
-        "1987\u20131990 Chevrolet Astro",
-        "1994\u20131996 Chevrolet Caprice",
-        "1987\u20131990 Chevrolet Celebrity",
-        "1994 Chevrolet Commercial Chassis",
-        "1996 Chevrolet Corvette",
-        "1994\u20131996 Chevrolet Impala",
-        "1987\u20131993 Chevrolet LLV",
-        "1990\u20131995 Chevrolet Lumina",
-        "1995 Chevrolet Monte Carlo",
-        "1987\u20131988 Chevrolet S10 Blazer",
-        "1987\u20131990 GMC S15",
-        "1987\u20131988 GMC S15 Jimmy",
-        "1987\u20131990 GMC Safari",
-        "1991\u20131993 GMC Sonoma",
-        "1987 Oldsmobile Calais",
-        "1988\u20131991 Oldsmobile Cutlass Calais",
-        "1987\u20131992 Oldsmobile Cutlass Ciera",
-        "1987\u20131990 Oldsmobile Cutlass Cruiser",
-        "1994\u20131995 Oldsmobile Cutlass Supreme",
-        "1987\u20131991 Pontiac 6000",
-        "1987\u20131988 Pontiac Fiero",
-        "1993\u20131997 Pontiac Firebird",
-        "2000 Pontiac Firefly",
-        "1987\u20131991 Pontiac Grand Am",
-        "1994\u20131996 Pontiac Grand Prix"
-      ],
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "high",
-      "fitment": {
-        "part_numbers": [
-          "V251"
-        ],
-        "interchange": [
-          "25095452",
-          "FV296",
-          "CV895C",
-          "PCV145"
-        ],
-        "vehicles": [
-          {
-            "year_from": 1987,
-            "year_to": 1992,
-            "make": "Buick",
-            "model": "Century",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1994,
-            "year_to": 1996,
-            "make": "Buick",
-            "model": "Commercial Chassis",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1994,
-            "year_to": 1996,
-            "make": "Buick",
-            "model": "Roadmaster",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1987,
-            "year_to": 1991,
-            "make": "Buick",
-            "model": "Skylark",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1987,
-            "year_to": 1987,
-            "make": "Buick",
-            "model": "Somerset",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1994,
-            "year_to": 1996,
-            "make": "Cadillac",
-            "model": "Commercial Chassis",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1994,
-            "year_to": 1996,
-            "make": "Cadillac",
-            "model": "Fleetwood",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1987,
-            "year_to": 1990,
-            "make": "Chevrolet",
-            "model": "Astro",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1993,
-            "year_to": 1997,
-            "make": "Chevrolet",
-            "model": "Camaro",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1994,
-            "year_to": 1996,
-            "make": "Chevrolet",
-            "model": "Caprice",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1987,
-            "year_to": 1990,
-            "make": "Chevrolet",
-            "model": "Celebrity",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1994,
-            "year_to": 1994,
-            "make": "Chevrolet",
-            "model": "Commercial Chassis",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1996,
-            "year_to": 1996,
-            "make": "Chevrolet",
-            "model": "Corvette",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1994,
-            "year_to": 1996,
-            "make": "Chevrolet",
-            "model": "Impala",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1987,
-            "year_to": 1993,
-            "make": "Chevrolet",
-            "model": "LLV",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1990,
-            "year_to": 1995,
-            "make": "Chevrolet",
-            "model": "Lumina",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1995,
-            "year_to": 1995,
-            "make": "Chevrolet",
-            "model": "Monte Carlo",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1987,
-            "year_to": 1993,
-            "make": "Chevrolet",
-            "model": "S10",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1987,
-            "year_to": 1988,
-            "make": "Chevrolet",
-            "model": "S10 Blazer",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1987,
-            "year_to": 1990,
-            "make": "GMC",
-            "model": "S15",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1987,
-            "year_to": 1988,
-            "make": "GMC",
-            "model": "S15 Jimmy",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1987,
-            "year_to": 1990,
-            "make": "GMC",
-            "model": "Safari",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1991,
-            "year_to": 1993,
-            "make": "GMC",
-            "model": "Sonoma",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1987,
-            "year_to": 1987,
-            "make": "Oldsmobile",
-            "model": "Calais",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1988,
-            "year_to": 1991,
-            "make": "Oldsmobile",
-            "model": "Cutlass Calais",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1987,
-            "year_to": 1992,
-            "make": "Oldsmobile",
-            "model": "Cutlass Ciera",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1987,
-            "year_to": 1990,
-            "make": "Oldsmobile",
-            "model": "Cutlass Cruiser",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1994,
-            "year_to": 1995,
-            "make": "Oldsmobile",
-            "model": "Cutlass Supreme",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1987,
-            "year_to": 1991,
-            "make": "Pontiac",
-            "model": "6000",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1987,
-            "year_to": 1988,
-            "make": "Pontiac",
-            "model": "Fiero",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1993,
-            "year_to": 1997,
-            "make": "Pontiac",
-            "model": "Firebird",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 2000,
-            "year_to": 2000,
-            "make": "Pontiac",
-            "model": "Firefly",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1987,
-            "year_to": 1991,
-            "make": "Pontiac",
-            "model": "Grand Am",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1994,
-            "year_to": 1996,
-            "make": "Pontiac",
-            "model": "Grand Prix",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          }
-        ],
-        "vehicle_labels": [
-          "1993\u20131997 Chevrolet Camaro",
-          "1987\u20131993 Chevrolet S10",
-          "1987\u20131992 Buick Century",
-          "1994\u20131996 Buick Commercial Chassis",
-          "1994\u20131996 Buick Roadmaster",
-          "1987\u20131991 Buick Skylark",
-          "1987 Buick Somerset",
-          "1994\u20131996 Cadillac Commercial Chassis",
-          "1994\u20131996 Cadillac Fleetwood",
-          "1987\u20131990 Chevrolet Astro",
-          "1994\u20131996 Chevrolet Caprice",
-          "1987\u20131990 Chevrolet Celebrity",
-          "1994 Chevrolet Commercial Chassis",
-          "1996 Chevrolet Corvette",
-          "1994\u20131996 Chevrolet Impala",
-          "1987\u20131993 Chevrolet LLV",
-          "1990\u20131995 Chevrolet Lumina",
-          "1995 Chevrolet Monte Carlo",
-          "1987\u20131988 Chevrolet S10 Blazer",
-          "1987\u20131990 GMC S15",
-          "1987\u20131988 GMC S15 Jimmy",
-          "1987\u20131990 GMC Safari",
-          "1991\u20131993 GMC Sonoma",
-          "1987 Oldsmobile Calais",
-          "1988\u20131991 Oldsmobile Cutlass Calais",
-          "1987\u20131992 Oldsmobile Cutlass Ciera",
-          "1987\u20131990 Oldsmobile Cutlass Cruiser",
-          "1994\u20131995 Oldsmobile Cutlass Supreme",
-          "1987\u20131991 Pontiac 6000",
-          "1987\u20131988 Pontiac Fiero",
-          "1993\u20131997 Pontiac Firebird",
-          "2000 Pontiac Firefly",
-          "1987\u20131991 Pontiac Grand Am",
-          "1994\u20131996 Pontiac Grand Prix"
-        ],
-        "raw_compat_rows": 478,
-        "source": "ebay_listing",
-        "confidence": "high",
-        "ebay_item_id": "398314680527",
-        "type": "PCV Valve",
-        "brand": "Standard",
-        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Other Air & Fuel Delivery",
-        "ebay_category_id": "42604",
-        "fetched": true
-      },
-      "vehicle_count_raw": 478,
-      "ebay_item_id": "398314680527",
-      "ebay_type": "PCV Valve",
-      "ebay_brand": "Standard",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Other Air & Fuel Delivery",
-      "images": [
-        "../assets/pdp-gallery/DDN34YRV2X2BQ4FYKTVIRL3G/02.webp",
-        "../assets/pdp-gallery/DDN34YRV2X2BQ4FYKTVIRL3G/03.webp"
-      ],
-      "condition_id": "1500",
-      "stock": 1
-    },
-    {
-      "id": "FAYKK4S7L2RMREJS5P45QFKZ",
-      "name": "Standard V256 PCV Positive Crankcase Valve 2.6 Isuzu Trooper Pickup Amigo 89-94",
-      "price": 17.99,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/63ad884e1413298f23e9f133cd08675f030292a1/original.jpeg",
-      "url": "https://square.link/u/pWfieSXv",
-      "category": "filters",
-      "checkout": true,
-      "variation_id": "SCSDSKE3DZSPDANDFYJSYF37",
-      "part_numbers": [
-        "V256"
-      ],
-      "interchange": [
-        "CV5019C",
-        "FV307DP",
-        "PCV336",
-        "PV1023"
-      ],
-      "vehicles": [
-        "1989\u20131994 Isuzu Amigo",
-        "1989\u20131995 Isuzu Pickup",
-        "1989\u20131991 Isuzu Trooper",
-        "1994\u20131996 Honda Passport",
-        "1991\u20131997 Isuzu Rodeo"
-      ],
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "high",
-      "fitment": {
-        "part_numbers": [
-          "V256"
-        ],
-        "interchange": [
-          "CV5019C",
-          "FV307DP",
-          "PCV336",
-          "PV1023"
-        ],
-        "vehicles": [
-          {
-            "year_from": 1994,
-            "year_to": 1996,
-            "make": "Honda",
-            "model": "Passport",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1989,
-            "year_to": 1994,
-            "make": "Isuzu",
-            "model": "Amigo",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1989,
-            "year_to": 1995,
-            "make": "Isuzu",
-            "model": "Pickup",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1991,
-            "year_to": 1997,
-            "make": "Isuzu",
-            "model": "Rodeo",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1989,
-            "year_to": 1991,
-            "make": "Isuzu",
-            "model": "Trooper",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          }
-        ],
-        "vehicle_labels": [
-          "1989\u20131994 Isuzu Amigo",
-          "1989\u20131995 Isuzu Pickup",
-          "1989\u20131991 Isuzu Trooper",
-          "1994\u20131996 Honda Passport",
-          "1991\u20131997 Isuzu Rodeo"
-        ],
-        "raw_compat_rows": 71,
-        "source": "ebay_listing",
-        "confidence": "high",
-        "ebay_item_id": "398314854905",
-        "type": "PCV Valve",
-        "brand": "Standard",
-        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Other Air & Fuel Delivery",
-        "ebay_category_id": "42604",
-        "fetched": true
-      },
-      "vehicle_count_raw": 71,
-      "ebay_item_id": "398314854905",
-      "ebay_type": "PCV Valve",
-      "ebay_brand": "Standard",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Other Air & Fuel Delivery",
-      "images": [
-        "../assets/pdp-gallery/FAYKK4S7L2RMREJS5P45QFKZ/02.webp",
-        "../assets/pdp-gallery/FAYKK4S7L2RMREJS5P45QFKZ/03.webp"
-      ],
-      "condition_id": "1500",
-      "stock": 1
-    },
-    {
-      "id": "EJLAERJA2MBJER6IFA7KWJXU",
-      "name": "Standard V268 PCV Positive Crankcase Valve Ford Taurus Mercury Sable 3.0 86-95",
-      "price": 14.99,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/3b8cece8c59d8399719b61f647c7252773dc4646/original.jpeg",
-      "url": "https://square.link/u/qrnxcjzD",
-      "category": "filters",
-      "checkout": true,
-      "variation_id": "CY6G4PHSQZQQM5KINIDZUO6P",
-      "part_numbers": [
-        "V268",
-        "E73Z-6A666-A"
-      ],
-      "interchange": [
-        "FV292",
-        "CV1017C",
-        "EV228-B",
-        "PCV330"
-      ],
-      "vehicles": [
-        "1986\u20131995 Ford Taurus",
-        "1986\u20131995 Mercury Sable",
-        "1986\u20131994 Ford Aerostar",
-        "1991\u20131994 Ford Ranger",
-        "1994 Mazda B3000"
-      ],
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "high",
-      "fitment": {
-        "part_numbers": [
-          "V268",
-          "E73Z-6A666-A"
-        ],
-        "interchange": [
-          "FV292",
-          "CV1017C",
-          "EV228-B",
-          "PCV330"
-        ],
-        "vehicles": [
-          {
-            "year_from": 1986,
-            "year_to": 1994,
-            "make": "Ford",
-            "model": "Aerostar",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1991,
-            "year_to": 1994,
-            "make": "Ford",
-            "model": "Ranger",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1986,
-            "year_to": 1995,
-            "make": "Ford",
-            "model": "Taurus",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1994,
-            "year_to": 1994,
-            "make": "Mazda",
-            "model": "B3000",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1986,
-            "year_to": 1995,
-            "make": "Mercury",
-            "model": "Sable",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          }
-        ],
-        "vehicle_labels": [
-          "1986\u20131995 Ford Taurus",
-          "1986\u20131995 Mercury Sable",
-          "1986\u20131994 Ford Aerostar",
-          "1991\u20131994 Ford Ranger",
-          "1994 Mazda B3000"
-        ],
-        "raw_compat_rows": 220,
-        "source": "ebay_listing",
-        "confidence": "high",
-        "ebay_item_id": "398314853885",
-        "type": "PCV Valve",
-        "brand": "Standard",
-        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Other Air & Fuel Delivery",
-        "ebay_category_id": "42604",
-        "fetched": true
-      },
-      "vehicle_count_raw": 220,
-      "ebay_item_id": "398314853885",
-      "ebay_type": "PCV Valve",
-      "ebay_brand": "Standard",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Other Air & Fuel Delivery",
-      "images": [
-        "../assets/pdp-gallery/EJLAERJA2MBJER6IFA7KWJXU/02.webp",
-        "../assets/pdp-gallery/EJLAERJA2MBJER6IFA7KWJXU/03.webp"
-      ],
-      "condition_id": "1500",
-      "stock": 1
     },
     {
       "id": "D4J4GCM62OUOT7BTKKRGWKAQ",
@@ -64053,6 +61381,88 @@
       "stock": 1
     },
     {
+      "id": "RZJHG2KBCGAT5IGXHRUUMJJO",
+      "name": "1986-1989 KEM W3022 Distributor Cap NOS 1.5L Isuzu I-Mark Chevrolet Spectrum",
+      "price": 16.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/8e0a350612a51f77e7cf8b5fba22d926cb27196f/original.jpeg",
+      "url": "https://square.link/u/28aDe3Xd",
+      "category": "ignition",
+      "checkout": true,
+      "variation_id": "GCWEHUJI4RE2NLHXIVNYPH6L",
+      "part_numbers": [
+        "W3022"
+      ],
+      "interchange": [
+        "JH158",
+        "8944045600",
+        "D378A"
+      ],
+      "vehicles": [
+        "1986\u20131988 Chevrolet Spectrum",
+        "1987\u20131989 Isuzu I-Mark"
+      ],
+      "fitment_source": "ebay_listing+title",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "W3022"
+        ],
+        "interchange": [
+          "JH158",
+          "8944045600",
+          "D378A"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1986,
+            "year_to": 1988,
+            "make": "Chevrolet",
+            "model": "Spectrum",
+            "notes": "",
+            "source": "title",
+            "confidence": "low",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1989,
+            "make": "Isuzu",
+            "model": "I-Mark",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1986\u20131988 Chevrolet Spectrum",
+          "1987\u20131989 Isuzu I-Mark"
+        ],
+        "raw_compat_rows": 7,
+        "source": "ebay_listing+title",
+        "confidence": "high",
+        "ebay_item_id": "920116942704",
+        "type": "Distributor Cap",
+        "brand": "KEM",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps",
+        "ebay_category_id": "",
+        "fetched": true
+      },
+      "vehicle_count_raw": 7,
+      "ebay_item_id": "920116942704",
+      "ebay_type": "Distributor Cap",
+      "ebay_brand": "KEM",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps",
+      "images": [
+        "../assets/pdp-gallery/RZJHG2KBCGAT5IGXHRUUMJJO/02.webp",
+        "../assets/pdp-gallery/RZJHG2KBCGAT5IGXHRUUMJJO/03.webp",
+        "../assets/pdp-gallery/RZJHG2KBCGAT5IGXHRUUMJJO/04.webp",
+        "../assets/pdp-gallery/RZJHG2KBCGAT5IGXHRUUMJJO/05.webp"
+      ],
+      "condition_id": "1500",
+      "stock": 1
+    },
+    {
       "id": "XUOFII65WVBGFY2CMBX7SGRX",
       "name": "1986-1990 KEM W3030X Distributor Cap Mazda 323 Mercury Tracer 1.6 NOS",
       "price": 16.99,
@@ -78938,76 +76348,6 @@
       "images": []
     },
     {
-      "id": "RZJHG2KBCGAT5IGXHRUUMJJO",
-      "name": "KEM W3022 Distributor Cap 1.5 87-89 Isuzu I-Mark Spectrum Sunburst",
-      "price": 16.99,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/8e0a350612a51f77e7cf8b5fba22d926cb27196f/original.jpeg",
-      "url": "https://square.link/u/28aDe3Xd",
-      "category": "ignition",
-      "checkout": true,
-      "variation_id": "GCWEHUJI4RE2NLHXIVNYPH6L",
-      "part_numbers": [
-        "W3022"
-      ],
-      "interchange": [
-        "JH158",
-        "8944045600",
-        "D378A"
-      ],
-      "vehicles": [
-        "1987\u20131989 Isuzu I-Mark"
-      ],
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "high",
-      "fitment": {
-        "part_numbers": [
-          "W3022"
-        ],
-        "interchange": [
-          "JH158",
-          "8944045600",
-          "D378A"
-        ],
-        "vehicles": [
-          {
-            "year_from": 1987,
-            "year_to": 1989,
-            "make": "Isuzu",
-            "model": "I-Mark",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          }
-        ],
-        "vehicle_labels": [
-          "1987\u20131989 Isuzu I-Mark"
-        ],
-        "raw_compat_rows": 7,
-        "source": "ebay_listing",
-        "confidence": "high",
-        "ebay_item_id": "920116942704",
-        "type": "Distributor Cap",
-        "brand": "KEM",
-        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps",
-        "ebay_category_id": "",
-        "fetched": true
-      },
-      "vehicle_count_raw": 7,
-      "ebay_item_id": "920116942704",
-      "ebay_type": "Distributor Cap",
-      "ebay_brand": "KEM",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps",
-      "images": [
-        "../assets/pdp-gallery/RZJHG2KBCGAT5IGXHRUUMJJO/02.webp",
-        "../assets/pdp-gallery/RZJHG2KBCGAT5IGXHRUUMJJO/03.webp",
-        "../assets/pdp-gallery/RZJHG2KBCGAT5IGXHRUUMJJO/04.webp",
-        "../assets/pdp-gallery/RZJHG2KBCGAT5IGXHRUUMJJO/05.webp"
-      ],
-      "condition_id": "1500",
-      "stock": 1
-    },
-    {
       "id": "E7MIWQUGZFRBLIGFQPK2DSB4",
       "name": "KEM W3038 Import Distributor Cap NOS 4 Cyl 88-91 Honda Civic CRX Acura Integra",
       "price": 16.99,
@@ -92905,7 +90245,7 @@
     },
     {
       "id": "APHGTPBDGTCOCOXVAN5GQP4F",
-      "name": "Standard LX-124 Distributor Pickup Chrysler Dynasty Laser LeBaron Shadow 87-94",
+      "name": "Standard LX-124 Distributor Pickup NOS 86-95 Dodge Caravan Dakota Shadow Spirit",
       "price": 31.99,
       "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/652089804c0399cb87a94cc8a9d855e6d2306990/original.jpeg",
       "url": "https://square.link/u/6DOuBliM",
@@ -92916,9 +90256,11 @@
         "LX-124"
       ],
       "vehicles": [
+        "1986\u20131995 Dodge Caravan",
+        "1987\u20131995 Dodge Dakota",
+        "1987\u20131994 Dodge Shadow",
+        "1989\u20131995 Dodge Spirit",
         "1988\u20131992 Chrysler Dynasty",
-        "1987\u20131994 Chrysler LeBaron",
-        "1989\u20131994 Chrysler Shadow",
         "1986 Chrysler Laser",
         "1988\u20131993 Dodge Dynasty"
       ],
@@ -92951,20 +90293,20 @@
             "trim_count": null
           },
           {
-            "year_from": 1987,
-            "year_to": 1994,
-            "make": "Chrysler",
-            "model": "LeBaron",
+            "year_from": 1986,
+            "year_to": 1995,
+            "make": "Dodge",
+            "model": "Caravan",
             "notes": "",
             "source": "title",
             "confidence": "low",
             "trim_count": null
           },
           {
-            "year_from": 1989,
-            "year_to": 1994,
-            "make": "Chrysler",
-            "model": "Shadow",
+            "year_from": 1987,
+            "year_to": 1995,
+            "make": "Dodge",
+            "model": "Dakota",
             "notes": "",
             "source": "title",
             "confidence": "low",
@@ -92979,12 +90321,34 @@
             "source": "ebay_compat",
             "confidence": "high",
             "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1994,
+            "make": "Dodge",
+            "model": "Shadow",
+            "notes": "",
+            "source": "title",
+            "confidence": "low",
+            "trim_count": null
+          },
+          {
+            "year_from": 1989,
+            "year_to": 1995,
+            "make": "Dodge",
+            "model": "Spirit",
+            "notes": "",
+            "source": "title",
+            "confidence": "low",
+            "trim_count": null
           }
         ],
         "vehicle_labels": [
+          "1986\u20131995 Dodge Caravan",
+          "1987\u20131995 Dodge Dakota",
+          "1987\u20131994 Dodge Shadow",
+          "1989\u20131995 Dodge Spirit",
           "1988\u20131992 Chrysler Dynasty",
-          "1987\u20131994 Chrysler LeBaron",
-          "1989\u20131994 Chrysler Shadow",
           "1986 Chrysler Laser",
           "1988\u20131993 Dodge Dynasty"
         ],
@@ -99130,6 +96494,10 @@
         "85-0920",
         "66-1271"
       ],
+      "vehicles": [
+        "1978\u20131983 Dodge Omni",
+        "1978\u20131983 Plymouth Horizon"
+      ],
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
       "fitment": {
@@ -99189,11 +96557,7 @@
       ],
       "condition_id": "1500",
       "stock": 1,
-      "interchange": [],
-      "vehicles": [
-        "1978\u20131983 Dodge Omni",
-        "1978\u20131983 Plymouth Horizon"
-      ]
+      "interchange": []
     },
     {
       "id": "BUHIDEPPRCYO55YDXPE5CXBQ",
@@ -108938,7 +106302,6 @@
       "category": "interior",
       "checkout": true,
       "variation_id": "JFYMPJKQLH7C6JFTMWZARQT5",
-      "part_numbers": [],
       "vehicles": [
         "1999\u20132002 Chevrolet Silverado 1500",
         "2000\u20132002 Chevrolet Silverado 2500",
@@ -109070,6 +106433,7 @@
       ],
       "condition_id": "3000",
       "stock": 1,
+      "part_numbers": [],
       "interchange": []
     },
     {
@@ -133634,6 +130998,185 @@
       "stock": 1
     },
     {
+      "id": "SHE3E6GUF5Y56TCXY2CHPLLY",
+      "name": "Beck Arnley 045-0264 PCV Valve NOS Crankcase Honda Civic CRX 88-91 World Parts",
+      "price": 15.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/2ee1ca18b4b59c11dab0759c4b994b181725c310/original.jpeg",
+      "url": "https://square.link/u/vnhOwMP8",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "Z34OX2IA4O6CQEHIVYZVU3UC",
+      "part_numbers": [
+        "045-0264",
+        "World Parts"
+      ],
+      "vehicles": [
+        "1988\u20131991 Honda CRX",
+        "1988\u20131991 Honda Civic"
+      ],
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "045-0264",
+          "World Parts"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1988,
+            "year_to": 1991,
+            "make": "Honda",
+            "model": "CRX",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1988,
+            "year_to": 1991,
+            "make": "Honda",
+            "model": "Civic",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1988\u20131991 Honda CRX",
+          "1988\u20131991 Honda Civic"
+        ],
+        "raw_compat_rows": 47,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398358617483",
+        "type": "PCV Valve",
+        "brand": "Beck Arnley",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Other Air & Fuel Delivery",
+        "ebay_category_id": "42604",
+        "fetched": true
+      },
+      "vehicle_count_raw": 47,
+      "ebay_item_id": "398358617483",
+      "ebay_type": "PCV Valve",
+      "ebay_brand": "Beck Arnley",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Other Air & Fuel Delivery",
+      "images": [
+        "../assets/pdp-gallery/SHE3E6GUF5Y56TCXY2CHPLLY/02.webp",
+        "../assets/pdp-gallery/SHE3E6GUF5Y56TCXY2CHPLLY/03.webp",
+        "../assets/pdp-gallery/SHE3E6GUF5Y56TCXY2CHPLLY/04.webp"
+      ],
+      "condition_id": "1500",
+      "stock": 1,
+      "interchange": []
+    },
+    {
+      "id": "FWNIMYENQOUTE3WXX2S22P2I",
+      "name": "Beck/Arnley 045-0250 PCV Positive Crankcase Valve NOS Accord 1.5 1.8 83-87",
+      "price": 12.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/ccd6fb3c30664883fe4ece578fa863d838c3e5c5/original.jpeg",
+      "url": "https://square.link/u/w8f2sMve",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "3PHHYJZZUBHB5H25YJURID2T",
+      "part_numbers": [
+        "045-0250"
+      ],
+      "interchange": [
+        "V235",
+        "17130-PE0-003",
+        "17130-PC6-003"
+      ],
+      "vehicles": [
+        "1984\u20131985 Honda Accord",
+        "1984\u20131987 Honda Civic",
+        "1983\u20131987 Honda Prelude",
+        "1986\u20131987 Honda Wagovan"
+      ],
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "045-0250"
+        ],
+        "interchange": [
+          "V235",
+          "17130-PE0-003",
+          "17130-PC6-003"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1984,
+            "year_to": 1985,
+            "make": "Honda",
+            "model": "Accord",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 1987,
+            "make": "Honda",
+            "model": "Civic",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1983,
+            "year_to": 1987,
+            "make": "Honda",
+            "model": "Prelude",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1986,
+            "year_to": 1987,
+            "make": "Honda",
+            "model": "Wagovan",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1984\u20131985 Honda Accord",
+          "1984\u20131987 Honda Civic",
+          "1983\u20131987 Honda Prelude",
+          "1986\u20131987 Honda Wagovan"
+        ],
+        "raw_compat_rows": 50,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398314687571",
+        "type": "PCV Valve",
+        "brand": "Beck/Arnley",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Other Air & Fuel Delivery",
+        "ebay_category_id": "42604",
+        "fetched": true
+      },
+      "vehicle_count_raw": 50,
+      "ebay_item_id": "398314687571",
+      "ebay_type": "PCV Valve",
+      "ebay_brand": "Beck/Arnley",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Other Air & Fuel Delivery",
+      "images": [
+        "../assets/pdp-gallery/FWNIMYENQOUTE3WXX2S22P2I/02.webp",
+        "../assets/pdp-gallery/FWNIMYENQOUTE3WXX2S22P2I/03.webp"
+      ],
+      "condition_id": "1500",
+      "stock": 1
+    },
+    {
       "id": "IKKHA4D7GV63NJ723IU3KZQW",
       "name": "Bendix SW-64 Starter Solenoid Switch 12V NOS Vintage",
       "price": 34.99,
@@ -135616,7 +133159,6 @@
       "category": "other",
       "checkout": true,
       "variation_id": "GUYSIWMPAXWBU3DFSASNXRMR",
-      "part_numbers": [],
       "vehicles": [
         "2000\u20132006 Chevrolet Suburban 1500",
         "2000\u20132006 Chevrolet Suburban 2500",
@@ -135688,6 +133230,7 @@
       ],
       "condition_id": "3000",
       "stock": 1,
+      "part_numbers": [],
       "interchange": []
     },
     {
@@ -136164,6 +133707,57 @@
       "interchange": [
         "National 3543",
         "SKF 13668"
+      ],
+      "vehicles": [
+        "2005\u20132009 Buick Allure",
+        "1982\u20132005 Buick Century",
+        "1985\u20131990 Buick Electra",
+        "2008 Buick Enclave",
+        "2005\u20132009 Buick LaCrosse",
+        "1985\u20132005 Buick LeSabre",
+        "2006\u20132009 Buick Lucerne",
+        "2004\u20132007 Buick Rainier",
+        "2002\u20132007 Buick Rendezvous",
+        "2005\u20132007 Buick Terraza",
+        "1987\u20131988 Cadillac Allante",
+        "1982\u20131988 Cadillac Cimarron",
+        "1985\u20131988 Cadillac DeVille",
+        "1985\u20131988 Cadillac Eldorado",
+        "1985\u20132005 Chevrolet Astro",
+        "1987\u20131996 Chevrolet Beretta",
+        "1982\u20132005 Chevrolet Cavalier",
+        "1982\u20131990 Chevrolet Celebrity",
+        "1980\u20131986 Chevrolet Citation",
+        "2004\u20132005 Chevrolet Classic",
+        "2005\u20132009 Chevrolet Cobalt",
+        "2004\u20132009 Chevrolet Colorado",
+        "2005\u20132009 Chevrolet Equinox",
+        "2006\u20132009 Chevrolet HHR",
+        "1990\u20131996 Chevrolet Lumina APV",
+        "1985\u20131988 Chevrolet Nova",
+        "1985\u20132004 Chevrolet S10",
+        "1986\u20131994 Chevrolet S10 Blazer",
+        "2003\u20132006 Chevrolet SSR",
+        "1985\u20131988 Chevrolet Spectrum",
+        "2001\u20132002 Chrysler PT Cruiser",
+        "1986\u20131997 Ford Aerostar",
+        "1984\u20131990 Ford Bronco II",
+        "1987\u20131988 Ford EXP",
+        "1987\u20131991 Ford Escort",
+        "1991\u20131997 Ford Explorer",
+        "1989\u20131997 Geo Metro",
+        "1989\u20131997 Geo Prizm",
+        "1989 Geo Spectrum",
+        "1989 Isuzu I-Mark",
+        "1989\u20131992 Isuzu Impulse",
+        "1994\u20131997 Mazda B2300",
+        "1994\u20131997 Mazda B3000",
+        "1994\u20131997 Mazda B4000",
+        "1987\u20131991 Mercury Cougar",
+        "1987 Mercury Lynx",
+        "1995 Oldsmobile Achieva",
+        "2000\u20132004 Oldsmobile Alero",
+        "2001\u20132003 Oldsmobile Aurora"
       ],
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
@@ -136741,58 +134335,7 @@
         "../assets/pdp-gallery/J4VDYNXAMHMZAKTBVT3PUEQR/05.webp"
       ],
       "condition_id": "1500",
-      "stock": 3,
-      "vehicles": [
-        "2005\u20132009 Buick Allure",
-        "1982\u20132005 Buick Century",
-        "1985\u20131990 Buick Electra",
-        "2008 Buick Enclave",
-        "2005\u20132009 Buick LaCrosse",
-        "1985\u20132005 Buick LeSabre",
-        "2006\u20132009 Buick Lucerne",
-        "2004\u20132007 Buick Rainier",
-        "2002\u20132007 Buick Rendezvous",
-        "2005\u20132007 Buick Terraza",
-        "1987\u20131988 Cadillac Allante",
-        "1982\u20131988 Cadillac Cimarron",
-        "1985\u20131988 Cadillac DeVille",
-        "1985\u20131988 Cadillac Eldorado",
-        "1985\u20132005 Chevrolet Astro",
-        "1987\u20131996 Chevrolet Beretta",
-        "1982\u20132005 Chevrolet Cavalier",
-        "1982\u20131990 Chevrolet Celebrity",
-        "1980\u20131986 Chevrolet Citation",
-        "2004\u20132005 Chevrolet Classic",
-        "2005\u20132009 Chevrolet Cobalt",
-        "2004\u20132009 Chevrolet Colorado",
-        "2005\u20132009 Chevrolet Equinox",
-        "2006\u20132009 Chevrolet HHR",
-        "1990\u20131996 Chevrolet Lumina APV",
-        "1985\u20131988 Chevrolet Nova",
-        "1985\u20132004 Chevrolet S10",
-        "1986\u20131994 Chevrolet S10 Blazer",
-        "2003\u20132006 Chevrolet SSR",
-        "1985\u20131988 Chevrolet Spectrum",
-        "2001\u20132002 Chrysler PT Cruiser",
-        "1986\u20131997 Ford Aerostar",
-        "1984\u20131990 Ford Bronco II",
-        "1987\u20131988 Ford EXP",
-        "1987\u20131991 Ford Escort",
-        "1991\u20131997 Ford Explorer",
-        "1989\u20131997 Geo Metro",
-        "1989\u20131997 Geo Prizm",
-        "1989 Geo Spectrum",
-        "1989 Isuzu I-Mark",
-        "1989\u20131992 Isuzu Impulse",
-        "1994\u20131997 Mazda B2300",
-        "1994\u20131997 Mazda B3000",
-        "1994\u20131997 Mazda B4000",
-        "1987\u20131991 Mercury Cougar",
-        "1987 Mercury Lynx",
-        "1995 Oldsmobile Achieva",
-        "2000\u20132004 Oldsmobile Alero",
-        "2001\u20132003 Oldsmobile Aurora"
-      ]
+      "stock": 3
     },
     {
       "id": "KGGTZKSK7CN3HBPAAGZQ6RUB",
@@ -136891,6 +134434,9 @@
       "part_numbers": [
         "15305",
         "8610"
+      ],
+      "interchange": [
+        "National 8610"
       ],
       "vehicles": [
         "1980\u20131987 Chevrolet El Camino",
@@ -137050,10 +134596,7 @@
         "../assets/pdp-gallery/T5JN5YKP6JEIHM3VIV7HN6CG/05.webp"
       ],
       "condition_id": "1500",
-      "stock": 1,
-      "interchange": [
-        "National 8610"
-      ]
+      "stock": 1
     },
     {
       "id": "ZCD6QVTB3VBA5LVX6U2WW366",
@@ -140619,7 +138162,7 @@
     },
     {
       "id": "W7XWDYMUTV3UPW53WYURXOHE",
-      "name": "Fel-Pro VS 50029 C Valve Cover Set Ford 302 351W 5.0 5.8 69-98 Engine NOS",
+      "name": "Fel-Pro VS 50029 C Valve Cover Set Ford 302 351W 5.0 5.8 68-98 Engine NOS",
       "price": 24.99,
       "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/9d51822bbce96f708988dc20c495abeeb57feb88/original.jpeg",
       "url": "https://square.link/u/2f6DtVeV",
@@ -140631,7 +138174,7 @@
         "VS 50029 C"
       ],
       "vehicles": [
-        "1969\u20131998 Ford"
+        "1968\u20131998 Ford"
       ],
       "fitment_source": "ebay_listing+title",
       "fitment_confidence": "medium",
@@ -140643,7 +138186,7 @@
         "interchange": [],
         "vehicles": [
           {
-            "year_from": 1969,
+            "year_from": 1968,
             "year_to": 1998,
             "make": "Ford",
             "model": "",
@@ -140654,7 +138197,7 @@
           }
         ],
         "vehicle_labels": [
-          "1969\u20131998 Ford"
+          "1968\u20131998 Ford"
         ],
         "raw_compat_rows": 1,
         "source": "ebay_listing+title",
@@ -142586,6 +140129,8 @@
       },
       "vehicle_count_raw": 0,
       "ebay_item_id": "398444060899",
+      "ebay_type": "Challenge Coin",
+      "ebay_brand": "Fox Nation",
       "ebay_category": "Collectibles:Militaria:Current Militaria (2001-Now):Original Items:Challenge Coins",
       "images": [
         "../assets/pdp-gallery/HTCA7TKPNKPKUGO6CRGAOVPD/02.webp",
@@ -142599,9 +140144,7 @@
       "stock": 1,
       "part_numbers": [],
       "interchange": [],
-      "vehicles": [],
-      "ebay_type": "Challenge Coin",
-      "ebay_brand": "Fox Nation"
+      "vehicles": []
     },
     {
       "id": "W3AZMNW4A6KI2LCHBUHDRIXU",
@@ -169125,212 +166668,6 @@
       "images": []
     },
     {
-      "id": "ROQEZYXDFB7ISAVC6P6UTJVF",
-      "name": "KEM EG1091HD Stop Light Switch NOS 1968-1985 Pontiac Firebird Chevrolet Camaro",
-      "price": 19.99,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/d3d4aebee6a0916ced8cd97afee5e1a9c393c71d/original.jpeg",
-      "url": "https://square.link/u/J9rtEl4h",
-      "category": "other",
-      "checkout": true,
-      "variation_id": "PTPPCLLPO57TURYMSKV2EILV",
-      "part_numbers": [
-        "EG1091HD",
-        "SLS-159, SL186, S870, 25524845"
-      ],
-      "vehicles": [
-        "1967\u20131986 Chevrolet Camaro",
-        "1968\u20131985 Pontiac Firebird",
-        "1971\u20131985 Buick LeSabre",
-        "1973\u20131985 Buick Regal",
-        "1975\u20131985 Cadillac DeVille",
-        "1967\u20131986 Chevrolet Caprice",
-        "1982\u20131986 Chevrolet Cavalier",
-        "1964\u20131973 Chevrolet Chevelle",
-        "1967\u20131986 Chevrolet El Camino",
-        "1970\u20131986 Chevrolet Monte Carlo",
-        "1969\u20131977 Chevrolet Nova",
-        "1968\u20131985 Oldsmobile Cutlass Supreme",
-        "1968\u20131985 Pontiac Grand Prix"
-      ],
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "high",
-      "fitment": {
-        "part_numbers": [
-          "EG1091HD",
-          "SLS-159, SL186, S870, 25524845"
-        ],
-        "interchange": [],
-        "vehicles": [
-          {
-            "year_from": 1971,
-            "year_to": 1985,
-            "make": "Buick",
-            "model": "LeSabre",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1973,
-            "year_to": 1985,
-            "make": "Buick",
-            "model": "Regal",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1975,
-            "year_to": 1985,
-            "make": "Cadillac",
-            "model": "DeVille",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1967,
-            "year_to": 1986,
-            "make": "Chevrolet",
-            "model": "Camaro",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1967,
-            "year_to": 1986,
-            "make": "Chevrolet",
-            "model": "Caprice",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1982,
-            "year_to": 1986,
-            "make": "Chevrolet",
-            "model": "Cavalier",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1964,
-            "year_to": 1973,
-            "make": "Chevrolet",
-            "model": "Chevelle",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1967,
-            "year_to": 1986,
-            "make": "Chevrolet",
-            "model": "El Camino",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1970,
-            "year_to": 1986,
-            "make": "Chevrolet",
-            "model": "Monte Carlo",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1969,
-            "year_to": 1977,
-            "make": "Chevrolet",
-            "model": "Nova",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1968,
-            "year_to": 1985,
-            "make": "Oldsmobile",
-            "model": "Cutlass Supreme",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1968,
-            "year_to": 1985,
-            "make": "Pontiac",
-            "model": "Firebird",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1968,
-            "year_to": 1985,
-            "make": "Pontiac",
-            "model": "Grand Prix",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          }
-        ],
-        "vehicle_labels": [
-          "1967\u20131986 Chevrolet Camaro",
-          "1968\u20131985 Pontiac Firebird",
-          "1971\u20131985 Buick LeSabre",
-          "1973\u20131985 Buick Regal",
-          "1975\u20131985 Cadillac DeVille",
-          "1967\u20131986 Chevrolet Caprice",
-          "1982\u20131986 Chevrolet Cavalier",
-          "1964\u20131973 Chevrolet Chevelle",
-          "1967\u20131986 Chevrolet El Camino",
-          "1970\u20131986 Chevrolet Monte Carlo",
-          "1969\u20131977 Chevrolet Nova",
-          "1968\u20131985 Oldsmobile Cutlass Supreme",
-          "1968\u20131985 Pontiac Grand Prix"
-        ],
-        "raw_compat_rows": 2997,
-        "source": "ebay_listing",
-        "confidence": "high",
-        "ebay_item_id": "920116946634",
-        "type": "Stoplight Switch",
-        "brand": "KEM",
-        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Additional Brake Sensors & Switches",
-        "ebay_category_id": "",
-        "fetched": true
-      },
-      "vehicle_count_raw": 2997,
-      "ebay_item_id": "920116946634",
-      "ebay_type": "Stoplight Switch",
-      "ebay_brand": "KEM",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Additional Brake Sensors & Switches",
-      "images": [
-        "../assets/pdp-gallery/ROQEZYXDFB7ISAVC6P6UTJVF/02.webp",
-        "../assets/pdp-gallery/ROQEZYXDFB7ISAVC6P6UTJVF/03.webp"
-      ],
-      "condition_id": "1500",
-      "stock": 1,
-      "interchange": []
-    },
-    {
       "id": "25MU3FVQGRD56A4P5LIP4MQE",
       "name": "KEM FR56 Ceramic Ignition Ballast Resistor NOS 53-71 Chrysler Imperial Yorker",
       "price": 27.99,
@@ -177310,7 +174647,6 @@
       "part_numbers": [
         "473204"
       ],
-      "interchange": [],
       "vehicles": [
         "1973\u20131974 Chevrolet Blazer",
         "1973\u20131974 Chevrolet K10 Pickup",
@@ -177586,7 +174922,8 @@
         "../assets/pdp-gallery/7TKCXD5HBI2CXHU3T54ZRU4C/05.webp"
       ],
       "condition_id": "1500",
-      "stock": 1
+      "stock": 1,
+      "interchange": []
     },
     {
       "id": "BMXKE7SOF2TLE64KJZZUFXTK",
@@ -183485,6 +180822,1302 @@
       "part_numbers": [],
       "interchange": [],
       "vehicles": []
+    },
+    {
+      "id": "ITOBISKRC7VRZBSBVCPELHHX",
+      "name": "PV-679 PCV Positive Crankcase Valve 67-80 Cadillac DeVille Buick LeSabre Chevy",
+      "price": 14.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/5dd37fb6ff0345d9db3728abfa948ec7ed4ec0d6/original.jpeg",
+      "url": "https://square.link/u/nxjaLwyu",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "WYXIVMEB5FF7OVQMTRB3VQ5V",
+      "part_numbers": [
+        "PV-679",
+        "TC-679"
+      ],
+      "interchange": [
+        "V112",
+        "FV112",
+        "CV679C",
+        "PV679"
+      ],
+      "vehicles": [
+        "1975\u20131979 Buick LeSabre",
+        "1967\u20131980 Cadillac DeVille",
+        "1977 Buick Century",
+        "1977\u20131981 Buick Electra",
+        "1977\u20131979 Buick Estate Wagon",
+        "1977 Buick Regal",
+        "1977\u20131979 Buick Riviera",
+        "1977 Buick Skylark",
+        "1965\u20131976 Cadillac Calais",
+        "1967\u20131980 Cadillac Commercial Chassis",
+        "1967\u20131980 Cadillac Eldorado",
+        "1967\u20131980 Cadillac Fleetwood",
+        "1963\u20131964 Cadillac Series 60 Fleetwood",
+        "1963\u20131964 Cadillac Series 62",
+        "1963\u20131964 Cadillac Series 75 Fleetwood",
+        "1976\u20131980 Cadillac Seville",
+        "1967 Chevrolet Biscayne",
+        "1964\u20131967 Chevrolet C10 Pickup",
+        "1967 Chevrolet C10 Suburban",
+        "1964\u20131967 Chevrolet C20 Pickup",
+        "1967 Chevrolet C20 Suburban",
+        "1964\u20131967 Chevrolet C30 Pickup",
+        "1967 Chevrolet Camaro",
+        "1966\u20131967 Chevrolet Caprice",
+        "1966 Chevrolet Chevelle",
+        "1964\u20131967 Chevrolet Chevy II",
+        "1966\u20131967 Chevrolet Corvette",
+        "1964\u20131967 Chevrolet El Camino",
+        "1966\u20131967 Chevrolet Impala",
+        "1964\u20131967 Chevrolet K10 Pickup",
+        "1967 Chevrolet K10 Suburban",
+        "1964\u20131967 Chevrolet K20 Pickup",
+        "1967 Chevrolet K20 Suburban",
+        "1964\u20131966 Chevrolet Suburban",
+        "1965 GMC 1000 Series",
+        "1965 GMC 1500 Series",
+        "1965 GMC 2500 Series",
+        "1967\u20131969 GMC C15/C1500 Pickup",
+        "1967 GMC C15/C1500 Suburban",
+        "1967 GMC C25/C2500 Pickup",
+        "1967 GMC C25/C2500 Suburban",
+        "1967 GMC C35/C3500 Pickup",
+        "1967\u20131969 GMC G15/G1500 Van",
+        "1967\u20131969 GMC G25/G2500 Van",
+        "1966\u20131969 GMC K15/K1500 Pickup",
+        "1967 GMC K15/K1500 Suburban",
+        "1967 GMC K25/K2500 Pickup",
+        "1967 GMC K25/K2500 Suburban",
+        "1967\u20131969 GMC P15/P1500 Van",
+        "1967 GMC P25/P2500 Van",
+        "1967 GMC P35/P3500 Van",
+        "1963\u20131966 GMC Suburban",
+        "1976\u20131980 International Harvester Scout II",
+        "1965\u20131969 Jeep Gladiator",
+        "1965\u20131971 Jeep J-100",
+        "1965\u20131971 Jeep J-2500",
+        "1965\u20131971 Jeep J-2600",
+        "1965\u20131970 Jeep J-2700",
+        "1965\u20131968 Jeep J-2800",
+        "1965\u20131970 Jeep J-3500",
+        "1965\u20131970 Jeep J-3600",
+        "1965\u20131970 Jeep J-3700",
+        "1965\u20131971 Jeep J-3800",
+        "1970 Jeep J-4500",
+        "1970 Jeep J-4600",
+        "1970 Jeep J-4700",
+        "1970 Jeep J-4800",
+        "1970\u20131971 Jeep Wagoneer",
+        "1965\u20131971 Oldsmobile 442",
+        "1967\u20131979 Oldsmobile 98",
+        "1971\u20131979 Oldsmobile Custom Cruiser",
+        "1965\u20131977 Oldsmobile Cutlass",
+        "1975\u20131977 Oldsmobile Cutlass Salon",
+        "1967\u20131977 Oldsmobile Cutlass Supreme",
+        "1976 Oldsmobile Cutlass Tiara",
+        "1967\u20131968 Oldsmobile Delmont 88",
+        "1967\u20131979 Oldsmobile Delta 88",
+        "1964\u20131966 Oldsmobile Dynamic 88",
+        "1964\u20131972 Oldsmobile F85",
+        "1964\u20131966 Oldsmobile Jetstar 88",
+        "1973\u20131977 Oldsmobile Omega",
+        "1964\u20131966 Oldsmobile Starfire",
+        "1964 Oldsmobile Super 88",
+        "1967\u20131979 Oldsmobile Toronado",
+        "1964\u20131975 Oldsmobile Vista Cruiser",
+        "1964\u20131967 Pontiac Acadian",
+        "1964\u20131967 Pontiac Beaumont",
+        "1967\u20131979 Pontiac Bonneville",
+        "1967\u20131979 Pontiac Catalina",
+        "1967\u20131970 Pontiac Executive",
+        "1967\u20131979 Pontiac Firebird",
+        "1964\u20131973 Pontiac GTO",
+        "1973\u20131975 Pontiac Grand Am",
+        "1975\u20131977 Pontiac Grand LeMans",
+        "1965\u20131977 Pontiac Grand Prix",
+        "1971\u20131975 Pontiac Grandville",
+        "1968\u20131977 Pontiac Laurentian",
+        "1965\u20131977 Pontiac LeMans",
+        "1971\u20131976 Pontiac Parisienne",
+        "1977 Pontiac Phoenix",
+        "1961\u20131966 Pontiac Star Chief",
+        "1961\u20131970 Pontiac Tempest",
+        "1971\u20131977 Pontiac Ventura"
+      ],
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "PV-679",
+          "TC-679"
+        ],
+        "interchange": [
+          "V112",
+          "FV112",
+          "CV679C",
+          "PV679"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1977,
+            "year_to": 1977,
+            "make": "Buick",
+            "model": "Century",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1977,
+            "year_to": 1981,
+            "make": "Buick",
+            "model": "Electra",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1977,
+            "year_to": 1979,
+            "make": "Buick",
+            "model": "Estate Wagon",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1975,
+            "year_to": 1979,
+            "make": "Buick",
+            "model": "LeSabre",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1977,
+            "year_to": 1977,
+            "make": "Buick",
+            "model": "Regal",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1977,
+            "year_to": 1979,
+            "make": "Buick",
+            "model": "Riviera",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1977,
+            "year_to": 1977,
+            "make": "Buick",
+            "model": "Skylark",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1965,
+            "year_to": 1976,
+            "make": "Cadillac",
+            "model": "Calais",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1967,
+            "year_to": 1980,
+            "make": "Cadillac",
+            "model": "Commercial Chassis",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1967,
+            "year_to": 1980,
+            "make": "Cadillac",
+            "model": "DeVille",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1967,
+            "year_to": 1980,
+            "make": "Cadillac",
+            "model": "Eldorado",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1967,
+            "year_to": 1980,
+            "make": "Cadillac",
+            "model": "Fleetwood",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1963,
+            "year_to": 1964,
+            "make": "Cadillac",
+            "model": "Series 60 Fleetwood",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1963,
+            "year_to": 1964,
+            "make": "Cadillac",
+            "model": "Series 62",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1963,
+            "year_to": 1964,
+            "make": "Cadillac",
+            "model": "Series 75 Fleetwood",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1976,
+            "year_to": 1980,
+            "make": "Cadillac",
+            "model": "Seville",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1967,
+            "year_to": 1967,
+            "make": "Chevrolet",
+            "model": "Biscayne",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1964,
+            "year_to": 1967,
+            "make": "Chevrolet",
+            "model": "C10 Pickup",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1967,
+            "year_to": 1967,
+            "make": "Chevrolet",
+            "model": "C10 Suburban",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1964,
+            "year_to": 1967,
+            "make": "Chevrolet",
+            "model": "C20 Pickup",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1967,
+            "year_to": 1967,
+            "make": "Chevrolet",
+            "model": "C20 Suburban",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1964,
+            "year_to": 1967,
+            "make": "Chevrolet",
+            "model": "C30 Pickup",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1967,
+            "year_to": 1967,
+            "make": "Chevrolet",
+            "model": "Camaro",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1966,
+            "year_to": 1967,
+            "make": "Chevrolet",
+            "model": "Caprice",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1966,
+            "year_to": 1966,
+            "make": "Chevrolet",
+            "model": "Chevelle",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1964,
+            "year_to": 1967,
+            "make": "Chevrolet",
+            "model": "Chevy II",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1966,
+            "year_to": 1967,
+            "make": "Chevrolet",
+            "model": "Corvette",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1964,
+            "year_to": 1967,
+            "make": "Chevrolet",
+            "model": "El Camino",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1966,
+            "year_to": 1967,
+            "make": "Chevrolet",
+            "model": "Impala",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1964,
+            "year_to": 1967,
+            "make": "Chevrolet",
+            "model": "K10 Pickup",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1967,
+            "year_to": 1967,
+            "make": "Chevrolet",
+            "model": "K10 Suburban",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1964,
+            "year_to": 1967,
+            "make": "Chevrolet",
+            "model": "K20 Pickup",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1967,
+            "year_to": 1967,
+            "make": "Chevrolet",
+            "model": "K20 Suburban",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1964,
+            "year_to": 1966,
+            "make": "Chevrolet",
+            "model": "Suburban",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1965,
+            "year_to": 1965,
+            "make": "GMC",
+            "model": "1000 Series",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1965,
+            "year_to": 1965,
+            "make": "GMC",
+            "model": "1500 Series",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1965,
+            "year_to": 1965,
+            "make": "GMC",
+            "model": "2500 Series",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1967,
+            "year_to": 1969,
+            "make": "GMC",
+            "model": "C15/C1500 Pickup",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1967,
+            "year_to": 1967,
+            "make": "GMC",
+            "model": "C15/C1500 Suburban",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1967,
+            "year_to": 1967,
+            "make": "GMC",
+            "model": "C25/C2500 Pickup",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1967,
+            "year_to": 1967,
+            "make": "GMC",
+            "model": "C25/C2500 Suburban",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1967,
+            "year_to": 1967,
+            "make": "GMC",
+            "model": "C35/C3500 Pickup",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1967,
+            "year_to": 1969,
+            "make": "GMC",
+            "model": "G15/G1500 Van",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1967,
+            "year_to": 1969,
+            "make": "GMC",
+            "model": "G25/G2500 Van",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1966,
+            "year_to": 1969,
+            "make": "GMC",
+            "model": "K15/K1500 Pickup",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1967,
+            "year_to": 1967,
+            "make": "GMC",
+            "model": "K15/K1500 Suburban",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1967,
+            "year_to": 1967,
+            "make": "GMC",
+            "model": "K25/K2500 Pickup",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1967,
+            "year_to": 1967,
+            "make": "GMC",
+            "model": "K25/K2500 Suburban",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1967,
+            "year_to": 1969,
+            "make": "GMC",
+            "model": "P15/P1500 Van",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1967,
+            "year_to": 1967,
+            "make": "GMC",
+            "model": "P25/P2500 Van",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1967,
+            "year_to": 1967,
+            "make": "GMC",
+            "model": "P35/P3500 Van",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1963,
+            "year_to": 1966,
+            "make": "GMC",
+            "model": "Suburban",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1976,
+            "year_to": 1980,
+            "make": "International Harvester",
+            "model": "Scout II",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1965,
+            "year_to": 1969,
+            "make": "Jeep",
+            "model": "Gladiator",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1965,
+            "year_to": 1971,
+            "make": "Jeep",
+            "model": "J-100",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1965,
+            "year_to": 1971,
+            "make": "Jeep",
+            "model": "J-2500",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1965,
+            "year_to": 1971,
+            "make": "Jeep",
+            "model": "J-2600",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1965,
+            "year_to": 1970,
+            "make": "Jeep",
+            "model": "J-2700",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1965,
+            "year_to": 1968,
+            "make": "Jeep",
+            "model": "J-2800",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1965,
+            "year_to": 1970,
+            "make": "Jeep",
+            "model": "J-3500",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1965,
+            "year_to": 1970,
+            "make": "Jeep",
+            "model": "J-3600",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1965,
+            "year_to": 1970,
+            "make": "Jeep",
+            "model": "J-3700",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1965,
+            "year_to": 1971,
+            "make": "Jeep",
+            "model": "J-3800",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1970,
+            "year_to": 1970,
+            "make": "Jeep",
+            "model": "J-4500",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1970,
+            "year_to": 1970,
+            "make": "Jeep",
+            "model": "J-4600",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1970,
+            "year_to": 1970,
+            "make": "Jeep",
+            "model": "J-4700",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1970,
+            "year_to": 1970,
+            "make": "Jeep",
+            "model": "J-4800",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1970,
+            "year_to": 1971,
+            "make": "Jeep",
+            "model": "Wagoneer",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1965,
+            "year_to": 1971,
+            "make": "Oldsmobile",
+            "model": "442",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1967,
+            "year_to": 1979,
+            "make": "Oldsmobile",
+            "model": "98",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1971,
+            "year_to": 1979,
+            "make": "Oldsmobile",
+            "model": "Custom Cruiser",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1965,
+            "year_to": 1977,
+            "make": "Oldsmobile",
+            "model": "Cutlass",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1975,
+            "year_to": 1977,
+            "make": "Oldsmobile",
+            "model": "Cutlass Salon",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1967,
+            "year_to": 1977,
+            "make": "Oldsmobile",
+            "model": "Cutlass Supreme",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1976,
+            "year_to": 1976,
+            "make": "Oldsmobile",
+            "model": "Cutlass Tiara",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1967,
+            "year_to": 1968,
+            "make": "Oldsmobile",
+            "model": "Delmont 88",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1967,
+            "year_to": 1979,
+            "make": "Oldsmobile",
+            "model": "Delta 88",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1964,
+            "year_to": 1966,
+            "make": "Oldsmobile",
+            "model": "Dynamic 88",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1964,
+            "year_to": 1972,
+            "make": "Oldsmobile",
+            "model": "F85",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1964,
+            "year_to": 1966,
+            "make": "Oldsmobile",
+            "model": "Jetstar 88",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1973,
+            "year_to": 1977,
+            "make": "Oldsmobile",
+            "model": "Omega",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1964,
+            "year_to": 1966,
+            "make": "Oldsmobile",
+            "model": "Starfire",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1964,
+            "year_to": 1964,
+            "make": "Oldsmobile",
+            "model": "Super 88",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1967,
+            "year_to": 1979,
+            "make": "Oldsmobile",
+            "model": "Toronado",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1964,
+            "year_to": 1975,
+            "make": "Oldsmobile",
+            "model": "Vista Cruiser",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1964,
+            "year_to": 1967,
+            "make": "Pontiac",
+            "model": "Acadian",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1964,
+            "year_to": 1967,
+            "make": "Pontiac",
+            "model": "Beaumont",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1967,
+            "year_to": 1979,
+            "make": "Pontiac",
+            "model": "Bonneville",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1967,
+            "year_to": 1979,
+            "make": "Pontiac",
+            "model": "Catalina",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1967,
+            "year_to": 1970,
+            "make": "Pontiac",
+            "model": "Executive",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1967,
+            "year_to": 1979,
+            "make": "Pontiac",
+            "model": "Firebird",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1964,
+            "year_to": 1973,
+            "make": "Pontiac",
+            "model": "GTO",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1973,
+            "year_to": 1975,
+            "make": "Pontiac",
+            "model": "Grand Am",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1975,
+            "year_to": 1977,
+            "make": "Pontiac",
+            "model": "Grand LeMans",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1965,
+            "year_to": 1977,
+            "make": "Pontiac",
+            "model": "Grand Prix",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1971,
+            "year_to": 1975,
+            "make": "Pontiac",
+            "model": "Grandville",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1968,
+            "year_to": 1977,
+            "make": "Pontiac",
+            "model": "Laurentian",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1965,
+            "year_to": 1977,
+            "make": "Pontiac",
+            "model": "LeMans",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1971,
+            "year_to": 1976,
+            "make": "Pontiac",
+            "model": "Parisienne",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1977,
+            "year_to": 1977,
+            "make": "Pontiac",
+            "model": "Phoenix",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1961,
+            "year_to": 1966,
+            "make": "Pontiac",
+            "model": "Star Chief",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1961,
+            "year_to": 1970,
+            "make": "Pontiac",
+            "model": "Tempest",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1971,
+            "year_to": 1977,
+            "make": "Pontiac",
+            "model": "Ventura",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1975\u20131979 Buick LeSabre",
+          "1967\u20131980 Cadillac DeVille",
+          "1977 Buick Century",
+          "1977\u20131981 Buick Electra",
+          "1977\u20131979 Buick Estate Wagon",
+          "1977 Buick Regal",
+          "1977\u20131979 Buick Riviera",
+          "1977 Buick Skylark",
+          "1965\u20131976 Cadillac Calais",
+          "1967\u20131980 Cadillac Commercial Chassis",
+          "1967\u20131980 Cadillac Eldorado",
+          "1967\u20131980 Cadillac Fleetwood",
+          "1963\u20131964 Cadillac Series 60 Fleetwood",
+          "1963\u20131964 Cadillac Series 62",
+          "1963\u20131964 Cadillac Series 75 Fleetwood",
+          "1976\u20131980 Cadillac Seville",
+          "1967 Chevrolet Biscayne",
+          "1964\u20131967 Chevrolet C10 Pickup",
+          "1967 Chevrolet C10 Suburban",
+          "1964\u20131967 Chevrolet C20 Pickup",
+          "1967 Chevrolet C20 Suburban",
+          "1964\u20131967 Chevrolet C30 Pickup",
+          "1967 Chevrolet Camaro",
+          "1966\u20131967 Chevrolet Caprice",
+          "1966 Chevrolet Chevelle",
+          "1964\u20131967 Chevrolet Chevy II",
+          "1966\u20131967 Chevrolet Corvette",
+          "1964\u20131967 Chevrolet El Camino",
+          "1966\u20131967 Chevrolet Impala",
+          "1964\u20131967 Chevrolet K10 Pickup",
+          "1967 Chevrolet K10 Suburban",
+          "1964\u20131967 Chevrolet K20 Pickup",
+          "1967 Chevrolet K20 Suburban",
+          "1964\u20131966 Chevrolet Suburban",
+          "1965 GMC 1000 Series",
+          "1965 GMC 1500 Series",
+          "1965 GMC 2500 Series",
+          "1967\u20131969 GMC C15/C1500 Pickup",
+          "1967 GMC C15/C1500 Suburban",
+          "1967 GMC C25/C2500 Pickup",
+          "1967 GMC C25/C2500 Suburban",
+          "1967 GMC C35/C3500 Pickup",
+          "1967\u20131969 GMC G15/G1500 Van",
+          "1967\u20131969 GMC G25/G2500 Van",
+          "1966\u20131969 GMC K15/K1500 Pickup",
+          "1967 GMC K15/K1500 Suburban",
+          "1967 GMC K25/K2500 Pickup",
+          "1967 GMC K25/K2500 Suburban",
+          "1967\u20131969 GMC P15/P1500 Van",
+          "1967 GMC P25/P2500 Van",
+          "1967 GMC P35/P3500 Van",
+          "1963\u20131966 GMC Suburban",
+          "1976\u20131980 International Harvester Scout II",
+          "1965\u20131969 Jeep Gladiator",
+          "1965\u20131971 Jeep J-100",
+          "1965\u20131971 Jeep J-2500",
+          "1965\u20131971 Jeep J-2600",
+          "1965\u20131970 Jeep J-2700",
+          "1965\u20131968 Jeep J-2800",
+          "1965\u20131970 Jeep J-3500",
+          "1965\u20131970 Jeep J-3600",
+          "1965\u20131970 Jeep J-3700",
+          "1965\u20131971 Jeep J-3800",
+          "1970 Jeep J-4500",
+          "1970 Jeep J-4600",
+          "1970 Jeep J-4700",
+          "1970 Jeep J-4800",
+          "1970\u20131971 Jeep Wagoneer",
+          "1965\u20131971 Oldsmobile 442",
+          "1967\u20131979 Oldsmobile 98",
+          "1971\u20131979 Oldsmobile Custom Cruiser",
+          "1965\u20131977 Oldsmobile Cutlass",
+          "1975\u20131977 Oldsmobile Cutlass Salon",
+          "1967\u20131977 Oldsmobile Cutlass Supreme",
+          "1976 Oldsmobile Cutlass Tiara",
+          "1967\u20131968 Oldsmobile Delmont 88",
+          "1967\u20131979 Oldsmobile Delta 88",
+          "1964\u20131966 Oldsmobile Dynamic 88",
+          "1964\u20131972 Oldsmobile F85",
+          "1964\u20131966 Oldsmobile Jetstar 88",
+          "1973\u20131977 Oldsmobile Omega",
+          "1964\u20131966 Oldsmobile Starfire",
+          "1964 Oldsmobile Super 88",
+          "1967\u20131979 Oldsmobile Toronado",
+          "1964\u20131975 Oldsmobile Vista Cruiser",
+          "1964\u20131967 Pontiac Acadian",
+          "1964\u20131967 Pontiac Beaumont",
+          "1967\u20131979 Pontiac Bonneville",
+          "1967\u20131979 Pontiac Catalina",
+          "1967\u20131970 Pontiac Executive",
+          "1967\u20131979 Pontiac Firebird",
+          "1964\u20131973 Pontiac GTO",
+          "1973\u20131975 Pontiac Grand Am",
+          "1975\u20131977 Pontiac Grand LeMans",
+          "1965\u20131977 Pontiac Grand Prix",
+          "1971\u20131975 Pontiac Grandville",
+          "1968\u20131977 Pontiac Laurentian",
+          "1965\u20131977 Pontiac LeMans",
+          "1971\u20131976 Pontiac Parisienne",
+          "1977 Pontiac Phoenix",
+          "1961\u20131966 Pontiac Star Chief",
+          "1961\u20131970 Pontiac Tempest",
+          "1971\u20131977 Pontiac Ventura"
+        ],
+        "raw_compat_rows": 2117,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398315197368",
+        "type": "PCV Valve",
+        "brand": "Unbranded",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Other Air & Fuel Delivery",
+        "ebay_category_id": "42604",
+        "fetched": true
+      },
+      "vehicle_count_raw": 2117,
+      "ebay_item_id": "398315197368",
+      "ebay_type": "PCV Valve",
+      "ebay_brand": "Unbranded",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Other Air & Fuel Delivery",
+      "images": [
+        "../assets/pdp-gallery/ITOBISKRC7VRZBSBVCPELHHX/02.webp",
+        "../assets/pdp-gallery/ITOBISKRC7VRZBSBVCPELHHX/03.webp"
+      ],
+      "condition_id": "1500",
+      "stock": 1
     },
     {
       "id": "OEGIFLO7NH7BZ7PJYEKWCK4P",
@@ -194159,6 +192792,96 @@
       "interchange": []
     },
     {
+      "id": "3JMY33AKKC4BBA62WL4XELE5",
+      "name": "Standard V187 PCV Positive Crankcase Valve NOS Chevette T1000 Acadian 1.6 76-87",
+      "price": 15.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/d9204edc643ebfc8ea49b8b87b40c797eaa481fd/original.jpeg",
+      "url": "https://square.link/u/Xi3c8MAa",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "ULQSP7AL7T6SZ3FFSGZPB6RJ",
+      "part_numbers": [
+        "V187"
+      ],
+      "interchange": [
+        "PV788",
+        "FV191"
+      ],
+      "vehicles": [
+        "1976\u20131987 Chevrolet Chevette",
+        "1980\u20131987 Pontiac Acadian",
+        "1981\u20131987 Pontiac T1000"
+      ],
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "V187"
+        ],
+        "interchange": [
+          "PV788",
+          "FV191"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1976,
+            "year_to": 1987,
+            "make": "Chevrolet",
+            "model": "Chevette",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1980,
+            "year_to": 1987,
+            "make": "Pontiac",
+            "model": "Acadian",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1981,
+            "year_to": 1987,
+            "make": "Pontiac",
+            "model": "T1000",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1976\u20131987 Chevrolet Chevette",
+          "1980\u20131987 Pontiac Acadian",
+          "1981\u20131987 Pontiac T1000"
+        ],
+        "raw_compat_rows": 85,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398315203427",
+        "type": "PCV Valve",
+        "brand": "Standard",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Other Air & Fuel Delivery",
+        "ebay_category_id": "42604",
+        "fetched": true
+      },
+      "vehicle_count_raw": 85,
+      "ebay_item_id": "398315203427",
+      "ebay_type": "PCV Valve",
+      "ebay_brand": "Standard",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Other Air & Fuel Delivery",
+      "images": [
+        "../assets/pdp-gallery/3JMY33AKKC4BBA62WL4XELE5/02.webp",
+        "../assets/pdp-gallery/3JMY33AKKC4BBA62WL4XELE5/03.webp"
+      ],
+      "condition_id": "1500",
+      "stock": 1
+    },
+    {
       "id": "IYW5PIUSGNARKRAGHPCYOL5E",
       "name": "Standard V201 PCV Valve NOS 5.0 79-02 Ford Mustang Thunderbird EV98B D9ZZ6A666A",
       "price": 14.99,
@@ -194667,6 +193390,326 @@
       "interchange": []
     },
     {
+      "id": "BFBGZU3BOXYHHVUTT376VPRC",
+      "name": "Standard V231 PCV Positive Crankcase Valve NOS Eclipse Talon 1.5 2.0 80-19",
+      "price": 17.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/6d205257adabe795f66252c7fc9a296329c9fad8/original.jpeg",
+      "url": "https://square.link/u/rgAye6Og",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "ISPTJUW5L7I4LJXQNSYDTPOR",
+      "part_numbers": [
+        "V231"
+      ],
+      "interchange": [
+        "045-0285",
+        "MD041519",
+        "26740-32804",
+        "FV288"
+      ],
+      "vehicles": [
+        "1983\u20131989 Dodge Ram 50",
+        "1990\u20131998 Eagle Talon",
+        "1986\u20131994 Hyundai Excel",
+        "1992\u20131998 Hyundai Sonata",
+        "1990\u20131999 Mitsubishi Eclipse",
+        "1991\u20131996 Mitsubishi Mirage",
+        "1990\u20131994 Plymouth Laser"
+      ],
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "V231"
+        ],
+        "interchange": [
+          "045-0285",
+          "MD041519",
+          "26740-32804",
+          "FV288"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1983,
+            "year_to": 1989,
+            "make": "Dodge",
+            "model": "Ram 50",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1990,
+            "year_to": 1998,
+            "make": "Eagle",
+            "model": "Talon",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1986,
+            "year_to": 1994,
+            "make": "Hyundai",
+            "model": "Excel",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1992,
+            "year_to": 1998,
+            "make": "Hyundai",
+            "model": "Sonata",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1990,
+            "year_to": 1999,
+            "make": "Mitsubishi",
+            "model": "Eclipse",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1991,
+            "year_to": 1996,
+            "make": "Mitsubishi",
+            "model": "Mirage",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1990,
+            "year_to": 1994,
+            "make": "Plymouth",
+            "model": "Laser",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1983\u20131989 Dodge Ram 50",
+          "1990\u20131998 Eagle Talon",
+          "1986\u20131994 Hyundai Excel",
+          "1992\u20131998 Hyundai Sonata",
+          "1990\u20131999 Mitsubishi Eclipse",
+          "1991\u20131996 Mitsubishi Mirage",
+          "1990\u20131994 Plymouth Laser"
+        ],
+        "raw_compat_rows": 192,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398314685759",
+        "type": "PCV Valve",
+        "brand": "Standard",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Other Air & Fuel Delivery",
+        "ebay_category_id": "42604",
+        "fetched": true
+      },
+      "vehicle_count_raw": 192,
+      "ebay_item_id": "398314685759",
+      "ebay_type": "PCV Valve",
+      "ebay_brand": "Standard",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Other Air & Fuel Delivery",
+      "images": [
+        "../assets/pdp-gallery/BFBGZU3BOXYHHVUTT376VPRC/02.webp",
+        "../assets/pdp-gallery/BFBGZU3BOXYHHVUTT376VPRC/03.webp"
+      ],
+      "condition_id": "1500",
+      "stock": 1
+    },
+    {
+      "id": "EVSHU2UQLT6D33JEMOPHMSGH",
+      "name": "Standard V236 PCV Positive Crankcase Valve Jeep Wrangler CJ5 AMC Eagle 4.2 83-88",
+      "price": 12.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/6fe62edf1216e4b3f68ccd19ed16f176010b3c6c/original.jpeg",
+      "url": "https://square.link/u/JLrJBRa4",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "7HZR6HV6S7C3NFALRTCRX2ZG",
+      "part_numbers": [
+        "V236"
+      ],
+      "interchange": [
+        "33000887",
+        "FV260",
+        "5019492AA",
+        "CV898C"
+      ],
+      "vehicles": [
+        "1983 Jeep CJ5",
+        "1987\u20131990 Jeep Wrangler",
+        "1983 AMC Concord",
+        "1983\u20131988 AMC Eagle",
+        "1983 AMC Spirit",
+        "1983 Jeep Cherokee",
+        "1984\u20131986 Jeep Grand Wagoneer",
+        "1983\u20131987 Jeep J10",
+        "1983\u20131985 Jeep Scrambler",
+        "1983 Jeep Wagoneer"
+      ],
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "V236"
+        ],
+        "interchange": [
+          "33000887",
+          "FV260",
+          "5019492AA",
+          "CV898C"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1983,
+            "year_to": 1983,
+            "make": "AMC",
+            "model": "Concord",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1983,
+            "year_to": 1988,
+            "make": "AMC",
+            "model": "Eagle",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1983,
+            "year_to": 1983,
+            "make": "AMC",
+            "model": "Spirit",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1983,
+            "year_to": 1983,
+            "make": "Jeep",
+            "model": "CJ5",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1983,
+            "year_to": 1983,
+            "make": "Jeep",
+            "model": "Cherokee",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 1986,
+            "make": "Jeep",
+            "model": "Grand Wagoneer",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1983,
+            "year_to": 1987,
+            "make": "Jeep",
+            "model": "J10",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1983,
+            "year_to": 1985,
+            "make": "Jeep",
+            "model": "Scrambler",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1983,
+            "year_to": 1983,
+            "make": "Jeep",
+            "model": "Wagoneer",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1990,
+            "make": "Jeep",
+            "model": "Wrangler",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1983 Jeep CJ5",
+          "1987\u20131990 Jeep Wrangler",
+          "1983 AMC Concord",
+          "1983\u20131988 AMC Eagle",
+          "1983 AMC Spirit",
+          "1983 Jeep Cherokee",
+          "1984\u20131986 Jeep Grand Wagoneer",
+          "1983\u20131987 Jeep J10",
+          "1983\u20131985 Jeep Scrambler",
+          "1983 Jeep Wagoneer"
+        ],
+        "raw_compat_rows": 71,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398314686590",
+        "type": "PCV Valve",
+        "brand": "Standard",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Other Air & Fuel Delivery",
+        "ebay_category_id": "42604",
+        "fetched": true
+      },
+      "vehicle_count_raw": 71,
+      "ebay_item_id": "398314686590",
+      "ebay_type": "PCV Valve",
+      "ebay_brand": "Standard",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Other Air & Fuel Delivery",
+      "images": [
+        "../assets/pdp-gallery/EVSHU2UQLT6D33JEMOPHMSGH/02.webp",
+        "../assets/pdp-gallery/EVSHU2UQLT6D33JEMOPHMSGH/03.webp"
+      ],
+      "condition_id": "1500",
+      "stock": 1
+    },
+    {
       "id": "VG2MAE2OWNR2UD7DL2T36UBS",
       "name": "Standard V237 PCV Valve NOS Motorcraft EV127A Ford Mustang Ranger 2.0 2.3 84-89",
       "price": 16.99,
@@ -195037,6 +194080,555 @@
       "stock": 1
     },
     {
+      "id": "FDW6RBORFIS2ORNWEL4CNZ65",
+      "name": "Standard V244 PCV Valve NOS 1.9 Ford Escort Mercury Tracer Crankcase Vent 85-92",
+      "price": 14.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/d1110636992af7745cb621a227d1432a5e741775/original.jpeg",
+      "url": "https://square.link/u/l31RcZfu",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "YUHLWDUVND2SHBMDHURLND6R",
+      "part_numbers": [
+        "V244"
+      ],
+      "interchange": [
+        "EV157",
+        "E6FZ-6A666-A",
+        "FV290",
+        "CV904C"
+      ],
+      "vehicles": [
+        "1985\u20131992 Ford Escort",
+        "1991\u20131992 Mercury Tracer"
+      ],
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "V244"
+        ],
+        "interchange": [
+          "EV157",
+          "E6FZ-6A666-A",
+          "FV290",
+          "CV904C"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1985,
+            "year_to": 1992,
+            "make": "Ford",
+            "model": "Escort",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1991,
+            "year_to": 1992,
+            "make": "Mercury",
+            "model": "Tracer",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1985\u20131992 Ford Escort",
+          "1991\u20131992 Mercury Tracer"
+        ],
+        "raw_compat_rows": 67,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398314764500",
+        "type": "PCV Valve",
+        "brand": "Standard Motor Products",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Other Air & Fuel Delivery",
+        "ebay_category_id": "42604",
+        "fetched": true
+      },
+      "vehicle_count_raw": 67,
+      "ebay_item_id": "398314764500",
+      "ebay_type": "PCV Valve",
+      "ebay_brand": "Standard Motor Products",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Other Air & Fuel Delivery",
+      "images": [
+        "../assets/pdp-gallery/FDW6RBORFIS2ORNWEL4CNZ65/02.webp",
+        "../assets/pdp-gallery/FDW6RBORFIS2ORNWEL4CNZ65/03.webp",
+        "../assets/pdp-gallery/FDW6RBORFIS2ORNWEL4CNZ65/04.webp"
+      ],
+      "condition_id": "1500",
+      "stock": 1
+    },
+    {
+      "id": "DDN34YRV2X2BQ4FYKTVIRL3G",
+      "name": "Standard V251 PCV Positive Crankcase Valve 2.5 5.7 Chevy Camaro S10 87-93 FV296",
+      "price": 14.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/010f6cf5a71abbde9efc897566dd3d940fecfaa8/original.jpeg",
+      "url": "https://square.link/u/lrvg2tsu",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "A2DDXNOSFFWOKZYW7UPHM7PR",
+      "part_numbers": [
+        "V251"
+      ],
+      "interchange": [
+        "25095452",
+        "FV296",
+        "CV895C",
+        "PCV145"
+      ],
+      "vehicles": [
+        "1993\u20131997 Chevrolet Camaro",
+        "1987\u20131993 Chevrolet S10",
+        "1987\u20131992 Buick Century",
+        "1994\u20131996 Buick Commercial Chassis",
+        "1994\u20131996 Buick Roadmaster",
+        "1987\u20131991 Buick Skylark",
+        "1987 Buick Somerset",
+        "1994\u20131996 Cadillac Commercial Chassis",
+        "1994\u20131996 Cadillac Fleetwood",
+        "1987\u20131990 Chevrolet Astro",
+        "1994\u20131996 Chevrolet Caprice",
+        "1987\u20131990 Chevrolet Celebrity",
+        "1994 Chevrolet Commercial Chassis",
+        "1996 Chevrolet Corvette",
+        "1994\u20131996 Chevrolet Impala",
+        "1987\u20131993 Chevrolet LLV",
+        "1990\u20131995 Chevrolet Lumina",
+        "1995 Chevrolet Monte Carlo",
+        "1987\u20131988 Chevrolet S10 Blazer",
+        "1987\u20131990 GMC S15",
+        "1987\u20131988 GMC S15 Jimmy",
+        "1987\u20131990 GMC Safari",
+        "1991\u20131993 GMC Sonoma",
+        "1987 Oldsmobile Calais",
+        "1988\u20131991 Oldsmobile Cutlass Calais",
+        "1987\u20131992 Oldsmobile Cutlass Ciera",
+        "1987\u20131990 Oldsmobile Cutlass Cruiser",
+        "1994\u20131995 Oldsmobile Cutlass Supreme",
+        "1987\u20131991 Pontiac 6000",
+        "1987\u20131988 Pontiac Fiero",
+        "1993\u20131997 Pontiac Firebird",
+        "2000 Pontiac Firefly",
+        "1987\u20131991 Pontiac Grand Am",
+        "1994\u20131996 Pontiac Grand Prix"
+      ],
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "V251"
+        ],
+        "interchange": [
+          "25095452",
+          "FV296",
+          "CV895C",
+          "PCV145"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1987,
+            "year_to": 1992,
+            "make": "Buick",
+            "model": "Century",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1994,
+            "year_to": 1996,
+            "make": "Buick",
+            "model": "Commercial Chassis",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1994,
+            "year_to": 1996,
+            "make": "Buick",
+            "model": "Roadmaster",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1991,
+            "make": "Buick",
+            "model": "Skylark",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1987,
+            "make": "Buick",
+            "model": "Somerset",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1994,
+            "year_to": 1996,
+            "make": "Cadillac",
+            "model": "Commercial Chassis",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1994,
+            "year_to": 1996,
+            "make": "Cadillac",
+            "model": "Fleetwood",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1990,
+            "make": "Chevrolet",
+            "model": "Astro",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1993,
+            "year_to": 1997,
+            "make": "Chevrolet",
+            "model": "Camaro",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1994,
+            "year_to": 1996,
+            "make": "Chevrolet",
+            "model": "Caprice",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1990,
+            "make": "Chevrolet",
+            "model": "Celebrity",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1994,
+            "year_to": 1994,
+            "make": "Chevrolet",
+            "model": "Commercial Chassis",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1996,
+            "year_to": 1996,
+            "make": "Chevrolet",
+            "model": "Corvette",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1994,
+            "year_to": 1996,
+            "make": "Chevrolet",
+            "model": "Impala",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1993,
+            "make": "Chevrolet",
+            "model": "LLV",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1990,
+            "year_to": 1995,
+            "make": "Chevrolet",
+            "model": "Lumina",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1995,
+            "year_to": 1995,
+            "make": "Chevrolet",
+            "model": "Monte Carlo",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1993,
+            "make": "Chevrolet",
+            "model": "S10",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1988,
+            "make": "Chevrolet",
+            "model": "S10 Blazer",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1990,
+            "make": "GMC",
+            "model": "S15",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1988,
+            "make": "GMC",
+            "model": "S15 Jimmy",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1990,
+            "make": "GMC",
+            "model": "Safari",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1991,
+            "year_to": 1993,
+            "make": "GMC",
+            "model": "Sonoma",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1987,
+            "make": "Oldsmobile",
+            "model": "Calais",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1988,
+            "year_to": 1991,
+            "make": "Oldsmobile",
+            "model": "Cutlass Calais",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1992,
+            "make": "Oldsmobile",
+            "model": "Cutlass Ciera",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1990,
+            "make": "Oldsmobile",
+            "model": "Cutlass Cruiser",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1994,
+            "year_to": 1995,
+            "make": "Oldsmobile",
+            "model": "Cutlass Supreme",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1991,
+            "make": "Pontiac",
+            "model": "6000",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1988,
+            "make": "Pontiac",
+            "model": "Fiero",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1993,
+            "year_to": 1997,
+            "make": "Pontiac",
+            "model": "Firebird",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2000,
+            "year_to": 2000,
+            "make": "Pontiac",
+            "model": "Firefly",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1991,
+            "make": "Pontiac",
+            "model": "Grand Am",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1994,
+            "year_to": 1996,
+            "make": "Pontiac",
+            "model": "Grand Prix",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1993\u20131997 Chevrolet Camaro",
+          "1987\u20131993 Chevrolet S10",
+          "1987\u20131992 Buick Century",
+          "1994\u20131996 Buick Commercial Chassis",
+          "1994\u20131996 Buick Roadmaster",
+          "1987\u20131991 Buick Skylark",
+          "1987 Buick Somerset",
+          "1994\u20131996 Cadillac Commercial Chassis",
+          "1994\u20131996 Cadillac Fleetwood",
+          "1987\u20131990 Chevrolet Astro",
+          "1994\u20131996 Chevrolet Caprice",
+          "1987\u20131990 Chevrolet Celebrity",
+          "1994 Chevrolet Commercial Chassis",
+          "1996 Chevrolet Corvette",
+          "1994\u20131996 Chevrolet Impala",
+          "1987\u20131993 Chevrolet LLV",
+          "1990\u20131995 Chevrolet Lumina",
+          "1995 Chevrolet Monte Carlo",
+          "1987\u20131988 Chevrolet S10 Blazer",
+          "1987\u20131990 GMC S15",
+          "1987\u20131988 GMC S15 Jimmy",
+          "1987\u20131990 GMC Safari",
+          "1991\u20131993 GMC Sonoma",
+          "1987 Oldsmobile Calais",
+          "1988\u20131991 Oldsmobile Cutlass Calais",
+          "1987\u20131992 Oldsmobile Cutlass Ciera",
+          "1987\u20131990 Oldsmobile Cutlass Cruiser",
+          "1994\u20131995 Oldsmobile Cutlass Supreme",
+          "1987\u20131991 Pontiac 6000",
+          "1987\u20131988 Pontiac Fiero",
+          "1993\u20131997 Pontiac Firebird",
+          "2000 Pontiac Firefly",
+          "1987\u20131991 Pontiac Grand Am",
+          "1994\u20131996 Pontiac Grand Prix"
+        ],
+        "raw_compat_rows": 478,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398314680527",
+        "type": "PCV Valve",
+        "brand": "Standard",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Other Air & Fuel Delivery",
+        "ebay_category_id": "42604",
+        "fetched": true
+      },
+      "vehicle_count_raw": 478,
+      "ebay_item_id": "398314680527",
+      "ebay_type": "PCV Valve",
+      "ebay_brand": "Standard",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Other Air & Fuel Delivery",
+      "images": [
+        "../assets/pdp-gallery/DDN34YRV2X2BQ4FYKTVIRL3G/02.webp",
+        "../assets/pdp-gallery/DDN34YRV2X2BQ4FYKTVIRL3G/03.webp"
+      ],
+      "condition_id": "1500",
+      "stock": 1
+    },
+    {
       "id": "PSBAXEZG4AE3EIBQ5YED4CTL",
       "name": "Standard V253 PCV Valve Chrysler Plymouth 2.2 2.5 86-95 Dodge Caravan NOS",
       "price": 15.99,
@@ -195306,6 +194898,124 @@
       "images": [
         "../assets/pdp-gallery/XYFVZ5XFR7JPIMB2KXVSRG4R/02.webp",
         "../assets/pdp-gallery/XYFVZ5XFR7JPIMB2KXVSRG4R/03.webp"
+      ],
+      "condition_id": "1500",
+      "stock": 1
+    },
+    {
+      "id": "FAYKK4S7L2RMREJS5P45QFKZ",
+      "name": "Standard V256 PCV Positive Crankcase Valve 2.6 Isuzu Trooper Pickup Amigo 89-94",
+      "price": 17.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/63ad884e1413298f23e9f133cd08675f030292a1/original.jpeg",
+      "url": "https://square.link/u/pWfieSXv",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "SCSDSKE3DZSPDANDFYJSYF37",
+      "part_numbers": [
+        "V256"
+      ],
+      "interchange": [
+        "CV5019C",
+        "FV307DP",
+        "PCV336",
+        "PV1023"
+      ],
+      "vehicles": [
+        "1989\u20131994 Isuzu Amigo",
+        "1989\u20131995 Isuzu Pickup",
+        "1989\u20131991 Isuzu Trooper",
+        "1994\u20131996 Honda Passport",
+        "1991\u20131997 Isuzu Rodeo"
+      ],
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "V256"
+        ],
+        "interchange": [
+          "CV5019C",
+          "FV307DP",
+          "PCV336",
+          "PV1023"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1994,
+            "year_to": 1996,
+            "make": "Honda",
+            "model": "Passport",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1989,
+            "year_to": 1994,
+            "make": "Isuzu",
+            "model": "Amigo",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1989,
+            "year_to": 1995,
+            "make": "Isuzu",
+            "model": "Pickup",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1991,
+            "year_to": 1997,
+            "make": "Isuzu",
+            "model": "Rodeo",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1989,
+            "year_to": 1991,
+            "make": "Isuzu",
+            "model": "Trooper",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1989\u20131994 Isuzu Amigo",
+          "1989\u20131995 Isuzu Pickup",
+          "1989\u20131991 Isuzu Trooper",
+          "1994\u20131996 Honda Passport",
+          "1991\u20131997 Isuzu Rodeo"
+        ],
+        "raw_compat_rows": 71,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398314854905",
+        "type": "PCV Valve",
+        "brand": "Standard",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Other Air & Fuel Delivery",
+        "ebay_category_id": "42604",
+        "fetched": true
+      },
+      "vehicle_count_raw": 71,
+      "ebay_item_id": "398314854905",
+      "ebay_type": "PCV Valve",
+      "ebay_brand": "Standard",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Other Air & Fuel Delivery",
+      "images": [
+        "../assets/pdp-gallery/FAYKK4S7L2RMREJS5P45QFKZ/02.webp",
+        "../assets/pdp-gallery/FAYKK4S7L2RMREJS5P45QFKZ/03.webp"
       ],
       "condition_id": "1500",
       "stock": 1
@@ -195583,6 +195293,126 @@
       "images": [
         "../assets/pdp-gallery/MO5OAJUBGXKEFLF5GBCOYZVL/02.webp",
         "../assets/pdp-gallery/MO5OAJUBGXKEFLF5GBCOYZVL/03.webp"
+      ],
+      "condition_id": "1500",
+      "stock": 1
+    },
+    {
+      "id": "EJLAERJA2MBJER6IFA7KWJXU",
+      "name": "Standard V268 PCV Positive Crankcase Valve Ford Taurus Mercury Sable 3.0 86-95",
+      "price": 14.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/3b8cece8c59d8399719b61f647c7252773dc4646/original.jpeg",
+      "url": "https://square.link/u/qrnxcjzD",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "CY6G4PHSQZQQM5KINIDZUO6P",
+      "part_numbers": [
+        "V268",
+        "E73Z-6A666-A"
+      ],
+      "interchange": [
+        "FV292",
+        "CV1017C",
+        "EV228-B",
+        "PCV330"
+      ],
+      "vehicles": [
+        "1986\u20131995 Ford Taurus",
+        "1986\u20131995 Mercury Sable",
+        "1986\u20131994 Ford Aerostar",
+        "1991\u20131994 Ford Ranger",
+        "1994 Mazda B3000"
+      ],
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "V268",
+          "E73Z-6A666-A"
+        ],
+        "interchange": [
+          "FV292",
+          "CV1017C",
+          "EV228-B",
+          "PCV330"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1986,
+            "year_to": 1994,
+            "make": "Ford",
+            "model": "Aerostar",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1991,
+            "year_to": 1994,
+            "make": "Ford",
+            "model": "Ranger",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1986,
+            "year_to": 1995,
+            "make": "Ford",
+            "model": "Taurus",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1994,
+            "year_to": 1994,
+            "make": "Mazda",
+            "model": "B3000",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1986,
+            "year_to": 1995,
+            "make": "Mercury",
+            "model": "Sable",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1986\u20131995 Ford Taurus",
+          "1986\u20131995 Mercury Sable",
+          "1986\u20131994 Ford Aerostar",
+          "1991\u20131994 Ford Ranger",
+          "1994 Mazda B3000"
+        ],
+        "raw_compat_rows": 220,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398314853885",
+        "type": "PCV Valve",
+        "brand": "Standard",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Other Air & Fuel Delivery",
+        "ebay_category_id": "42604",
+        "fetched": true
+      },
+      "vehicle_count_raw": 220,
+      "ebay_item_id": "398314853885",
+      "ebay_type": "PCV Valve",
+      "ebay_brand": "Standard",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Other Air & Fuel Delivery",
+      "images": [
+        "../assets/pdp-gallery/EJLAERJA2MBJER6IFA7KWJXU/02.webp",
+        "../assets/pdp-gallery/EJLAERJA2MBJER6IFA7KWJXU/03.webp"
       ],
       "condition_id": "1500",
       "stock": 1
@@ -197952,16 +197782,6 @@
       "category": "other",
       "checkout": true,
       "variation_id": "XQZNFA4YH73ETAHZZWRUNQDJ",
-      "ebay_item_id": "920189159552",
-      "condition_id": "3000",
-      "stock": 1,
-      "part_numbers": [],
-      "interchange": [],
-      "vehicles": [],
-      "vehicle_count_raw": 0,
-      "ebay_type": "Aquarium Ornament",
-      "ebay_brand": "Unbranded",
-      "ebay_category": "Pet Supplies:Fish & Aquariums:Decorations",
       "fitment_source": "ebay_listing",
       "fitment_confidence": "medium",
       "fitment": {
@@ -197979,11 +197799,21 @@
         "ebay_category_id": "",
         "fetched": true
       },
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "920189159552",
+      "ebay_type": "Aquarium Ornament",
+      "ebay_brand": "Unbranded",
+      "ebay_category": "Pet Supplies:Fish & Aquariums:Decorations",
       "images": [
         "../assets/pdp-gallery/6DY5OFKULGH6GZ2VOQXPD7UY/02.webp",
         "../assets/pdp-gallery/6DY5OFKULGH6GZ2VOQXPD7UY/03.webp",
         "../assets/pdp-gallery/6DY5OFKULGH6GZ2VOQXPD7UY/04.webp"
-      ]
+      ],
+      "condition_id": "3000",
+      "stock": 1,
+      "part_numbers": [],
+      "interchange": [],
+      "vehicles": []
     },
     {
       "id": "MC7XTIXE26KANICPHYDA763W",
@@ -201442,7 +201272,6 @@
       "category": "other",
       "checkout": true,
       "variation_id": "2RLAYEDPTZZQ6B2MIFV27W6B",
-      "vehicles": [],
       "fitment_source": "ebay_listing",
       "fitment_confidence": "medium",
       "fitment": {
@@ -201475,7 +201304,8 @@
       "condition_id": "1500",
       "stock": 1,
       "part_numbers": [],
-      "interchange": []
+      "interchange": [],
+      "vehicles": []
     },
     {
       "id": "C77H4WGAP26TYW4IQU2KA6W4",
@@ -201790,5 +201620,5 @@
       "ebay_brand": ""
     }
   ],
-  "fitment_built": "2026-11-27T01:15:07Z"
+  "fitment_built": "2026-11-27T02:00:42Z"
 }

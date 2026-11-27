@@ -6,8 +6,8 @@
    * Search + category + price filter + sort + pagination (not the full catalog at once).
    * Commerce-style facets; brand-dark gold cards; cores warn on-card.
    */
-  const CATALOG_URL = "assets/store-catalog.json?v=ef26165989";
-  const SLUGS_URL = "assets/pdp-slugs.json?v=53dedce612"; // keep in sync with main.js (test_pdp_slugs)
+  const CATALOG_URL = "assets/store-catalog.json?v=b26ace3303";
+  const SLUGS_URL = "assets/pdp-slugs.json?v=3945f6eaac"; // keep in sync with main.js (test_pdp_slugs)
   const CORE_WARN = "FOR PARTS OR REBUILD · UNTESTED · NO RETURNS";
   const DEFAULT_PAGE = 24;
 
