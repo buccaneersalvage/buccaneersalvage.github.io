@@ -6,8 +6,8 @@
    * Search + category + price filter + sort + pagination (not the full catalog at once).
    * Commerce-style facets; brand-dark gold cards; cores warn on-card.
    */
-  const CATALOG_URL = "assets/store-catalog.json?v=83dd448828";
-  const SLUGS_URL = "assets/pdp-slugs.json?v=809b9df5d5"; // keep in sync with main.js (test_pdp_slugs)
+  const CATALOG_URL = "assets/store-catalog.json?v=56c0b58804";
+  const SLUGS_URL = "assets/pdp-slugs.json?v=b32b15f9bc"; // keep in sync with main.js (test_pdp_slugs)
   const CORE_WARN = "FOR PARTS OR REBUILD · UNTESTED · NO RETURNS";
   const DEFAULT_PAGE = 24;
 
@@ -294,6 +294,7 @@
     collectibles: ["vintage-collectibles", "Vintage & Collectibles"],
     antiques: ["vintage-collectibles", "Vintage & Collectibles"],
     "business-industrial": ["industrial-warehouse", "Industrial & Warehouse"],
+    "sporting-goods": ["outdoor-power-sports", "Outdoor & Power Sports"],
   };
   const STORE_PARENTS = [
     { slug: "carlson-brake-hardware", label: "Carlson Brake Hardware", auto: true },
@@ -303,7 +304,7 @@
     { slug: "industrial-warehouse", label: "Industrial & Warehouse", auto: false },
     { slug: "tools", label: "Tools", auto: false },
     { slug: "home-garden", label: "Home & Garden", auto: false },
-    { slug: "sporting-goods", label: "Sporting Goods", auto: false },
+    { slug: "outdoor-power-sports", label: "Outdoor & Power Sports", auto: false },
     { slug: "consumer-electronics", label: "Consumer Electronics", auto: false },
     { slug: "movies-tv", label: "Movies & TV", auto: false },
     { slug: "computers-tablets-networking", label: "Computers/Tablets & Networking", auto: false },
@@ -726,10 +727,8 @@
       if (item.category === "turbo" || item.category === "pump") parent = "Cores";
       else parent = typeParentName(typ, item.name || "", item.category || "");
     }
-    const rawSlug = slugKey(parent);
-    if (rawSlug === "health-beauty") parent = typeParentName(typ, item.name || "", item.category || "") || "Mobility";
-    else if (rawSlug === "sporting-goods") parent = typeParentName(typ, item.name || "", item.category || "") || "Cycling";
-    else if (rawSlug === "business-industrial") parent = typeParentName(typ, item.name || "", item.category || "") || "Material Handling";
+    // A broad eBay site L1 names its own dept unless the type/name matched
+    // TYPE_PARENT above (same rule as dept_tree.py item_ebay_tree).
     if (!sub || /^vintage$/i.test(sub)) {
       sub = typ && !/^vintage$/i.test(typ) ? typ : kept[kept.length - 1] || parent;
     }
