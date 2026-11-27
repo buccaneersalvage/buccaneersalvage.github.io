@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-27T06:01:15Z",
+  "updated": "2026-11-27T07:00:55Z",
   "store": "https://buccaneersalvage.square.site/",
   "count": 1242,
   "items": [
@@ -1821,6 +1821,270 @@
       "condition_id": "1500",
       "stock": 1,
       "vehicles": []
+    },
+    {
+      "id": "Q7EHR3V6EUFPBQQIFRFWCS3L",
+      "name": "1992-2005 Carlson H5056 Brake Caliper Guide Pin Kit NOS Cadillac Seville DeVille",
+      "price": 14.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/3d75801c28b7fa12f4758009737399a10191db32/original.jpeg",
+      "url": "https://square.link/u/fInNkaKZ",
+      "category": "brake",
+      "checkout": true,
+      "variation_id": "XNKWL7EQCWFKE2QP6M3UHZVJ",
+      "part_numbers": [
+        "H5056",
+        "HW5056, FHH5056, H15031"
+      ],
+      "interchange": [
+        "DORMAN HW5056",
+        "N",
+        "A H5056",
+        "RAYBESTOS H5056"
+      ],
+      "vehicles": [
+        "1994\u20132005 Cadillac DeVille",
+        "1992\u20132004 Cadillac Seville",
+        "2000\u20132005 Buick LeSabre",
+        "1997\u20132005 Buick Park Avenue",
+        "1994\u20131996 Buick Regal",
+        "1992\u20131999 Buick Riviera",
+        "1993 Cadillac Allante",
+        "1992\u20132002 Cadillac Eldorado",
+        "1995\u20131999 Chevrolet Lumina",
+        "1995\u20131999 Chevrolet Monte Carlo",
+        "1995\u20132003 Oldsmobile Aurora",
+        "1995\u20131996 Oldsmobile Cutlass",
+        "1994 Oldsmobile Cutlass Cruiser",
+        "1994\u20131997 Oldsmobile Cutlass Supreme",
+        "1992 Oldsmobile Toronado",
+        "2000\u20132005 Pontiac Bonneville",
+        "1994\u20131996 Pontiac Grand Prix"
+      ],
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "H5056",
+          "HW5056, FHH5056, H15031"
+        ],
+        "interchange": [
+          "DORMAN HW5056",
+          "N",
+          "A H5056",
+          "RAYBESTOS H5056"
+        ],
+        "vehicles": [
+          {
+            "year_from": 2000,
+            "year_to": 2005,
+            "make": "Buick",
+            "model": "LeSabre",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1997,
+            "year_to": 2005,
+            "make": "Buick",
+            "model": "Park Avenue",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1994,
+            "year_to": 1996,
+            "make": "Buick",
+            "model": "Regal",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1992,
+            "year_to": 1999,
+            "make": "Buick",
+            "model": "Riviera",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1993,
+            "year_to": 1993,
+            "make": "Cadillac",
+            "model": "Allante",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1994,
+            "year_to": 2005,
+            "make": "Cadillac",
+            "model": "DeVille",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1992,
+            "year_to": 2002,
+            "make": "Cadillac",
+            "model": "Eldorado",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1992,
+            "year_to": 2004,
+            "make": "Cadillac",
+            "model": "Seville",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1995,
+            "year_to": 1999,
+            "make": "Chevrolet",
+            "model": "Lumina",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1995,
+            "year_to": 1999,
+            "make": "Chevrolet",
+            "model": "Monte Carlo",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1995,
+            "year_to": 2003,
+            "make": "Oldsmobile",
+            "model": "Aurora",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1995,
+            "year_to": 1996,
+            "make": "Oldsmobile",
+            "model": "Cutlass",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1994,
+            "year_to": 1994,
+            "make": "Oldsmobile",
+            "model": "Cutlass Cruiser",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1994,
+            "year_to": 1997,
+            "make": "Oldsmobile",
+            "model": "Cutlass Supreme",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1992,
+            "year_to": 1992,
+            "make": "Oldsmobile",
+            "model": "Toronado",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2000,
+            "year_to": 2005,
+            "make": "Pontiac",
+            "model": "Bonneville",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1994,
+            "year_to": 1996,
+            "make": "Pontiac",
+            "model": "Grand Prix",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1994\u20132005 Cadillac DeVille",
+          "1992\u20132004 Cadillac Seville",
+          "2000\u20132005 Buick LeSabre",
+          "1997\u20132005 Buick Park Avenue",
+          "1994\u20131996 Buick Regal",
+          "1992\u20131999 Buick Riviera",
+          "1993 Cadillac Allante",
+          "1992\u20132002 Cadillac Eldorado",
+          "1995\u20131999 Chevrolet Lumina",
+          "1995\u20131999 Chevrolet Monte Carlo",
+          "1995\u20132003 Oldsmobile Aurora",
+          "1995\u20131996 Oldsmobile Cutlass",
+          "1994 Oldsmobile Cutlass Cruiser",
+          "1994\u20131997 Oldsmobile Cutlass Supreme",
+          "1992 Oldsmobile Toronado",
+          "2000\u20132005 Pontiac Bonneville",
+          "1994\u20131996 Pontiac Grand Prix"
+        ],
+        "raw_compat_rows": 296,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398126368036",
+        "type": "Disc Brake Caliper Guide Pin Kit",
+        "brand": "Carlson",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware",
+        "ebay_category_id": "",
+        "fetched": true
+      },
+      "vehicle_count_raw": 296,
+      "ebay_item_id": "398126368036",
+      "ebay_type": "Disc Brake Caliper Guide Pin Kit",
+      "ebay_brand": "Carlson",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware",
+      "images": [
+        "../assets/pdp-gallery/Q7EHR3V6EUFPBQQIFRFWCS3L/02.webp",
+        "../assets/pdp-gallery/Q7EHR3V6EUFPBQQIFRFWCS3L/03.webp"
+      ],
+      "condition_id": "1500",
+      "stock": 1
     },
     {
       "id": "WWLZDHUOEAI4S5LWSYE23P3E",
@@ -15593,270 +15857,6 @@
         "../assets/pdp-gallery/5GSABM67QLZKTJ3QSQINYUJ4/03.webp"
       ],
       "condition_id": "1000",
-      "stock": 1
-    },
-    {
-      "id": "Q7EHR3V6EUFPBQQIFRFWCS3L",
-      "name": "Carlson H5056 Disc Brake Caliper Guide Pin Kit, NOS 92-05 Buick, 92-05 Cadillac",
-      "price": 14.99,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/3d75801c28b7fa12f4758009737399a10191db32/original.jpeg",
-      "url": "https://square.link/u/fInNkaKZ",
-      "category": "brake",
-      "checkout": true,
-      "variation_id": "XNKWL7EQCWFKE2QP6M3UHZVJ",
-      "part_numbers": [
-        "H5056",
-        "HW5056, FHH5056, H15031"
-      ],
-      "interchange": [
-        "DORMAN HW5056",
-        "N",
-        "A H5056",
-        "RAYBESTOS H5056"
-      ],
-      "vehicles": [
-        "2000\u20132005 Buick LeSabre",
-        "1997\u20132005 Buick Park Avenue",
-        "1994\u20131996 Buick Regal",
-        "1992\u20131999 Buick Riviera",
-        "1993 Cadillac Allante",
-        "1994\u20132005 Cadillac DeVille",
-        "1992\u20132002 Cadillac Eldorado",
-        "1992\u20132004 Cadillac Seville",
-        "1995\u20131999 Chevrolet Lumina",
-        "1995\u20131999 Chevrolet Monte Carlo",
-        "1995\u20132003 Oldsmobile Aurora",
-        "1995\u20131996 Oldsmobile Cutlass",
-        "1994 Oldsmobile Cutlass Cruiser",
-        "1994\u20131997 Oldsmobile Cutlass Supreme",
-        "1992 Oldsmobile Toronado",
-        "2000\u20132005 Pontiac Bonneville",
-        "1994\u20131996 Pontiac Grand Prix"
-      ],
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "high",
-      "fitment": {
-        "part_numbers": [
-          "H5056",
-          "HW5056, FHH5056, H15031"
-        ],
-        "interchange": [
-          "DORMAN HW5056",
-          "N",
-          "A H5056",
-          "RAYBESTOS H5056"
-        ],
-        "vehicles": [
-          {
-            "year_from": 2000,
-            "year_to": 2005,
-            "make": "Buick",
-            "model": "LeSabre",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1997,
-            "year_to": 2005,
-            "make": "Buick",
-            "model": "Park Avenue",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1994,
-            "year_to": 1996,
-            "make": "Buick",
-            "model": "Regal",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1992,
-            "year_to": 1999,
-            "make": "Buick",
-            "model": "Riviera",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1993,
-            "year_to": 1993,
-            "make": "Cadillac",
-            "model": "Allante",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1994,
-            "year_to": 2005,
-            "make": "Cadillac",
-            "model": "DeVille",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1992,
-            "year_to": 2002,
-            "make": "Cadillac",
-            "model": "Eldorado",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1992,
-            "year_to": 2004,
-            "make": "Cadillac",
-            "model": "Seville",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1995,
-            "year_to": 1999,
-            "make": "Chevrolet",
-            "model": "Lumina",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1995,
-            "year_to": 1999,
-            "make": "Chevrolet",
-            "model": "Monte Carlo",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1995,
-            "year_to": 2003,
-            "make": "Oldsmobile",
-            "model": "Aurora",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1995,
-            "year_to": 1996,
-            "make": "Oldsmobile",
-            "model": "Cutlass",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1994,
-            "year_to": 1994,
-            "make": "Oldsmobile",
-            "model": "Cutlass Cruiser",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1994,
-            "year_to": 1997,
-            "make": "Oldsmobile",
-            "model": "Cutlass Supreme",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1992,
-            "year_to": 1992,
-            "make": "Oldsmobile",
-            "model": "Toronado",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 2000,
-            "year_to": 2005,
-            "make": "Pontiac",
-            "model": "Bonneville",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1994,
-            "year_to": 1996,
-            "make": "Pontiac",
-            "model": "Grand Prix",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          }
-        ],
-        "vehicle_labels": [
-          "2000\u20132005 Buick LeSabre",
-          "1997\u20132005 Buick Park Avenue",
-          "1994\u20131996 Buick Regal",
-          "1992\u20131999 Buick Riviera",
-          "1993 Cadillac Allante",
-          "1994\u20132005 Cadillac DeVille",
-          "1992\u20132002 Cadillac Eldorado",
-          "1992\u20132004 Cadillac Seville",
-          "1995\u20131999 Chevrolet Lumina",
-          "1995\u20131999 Chevrolet Monte Carlo",
-          "1995\u20132003 Oldsmobile Aurora",
-          "1995\u20131996 Oldsmobile Cutlass",
-          "1994 Oldsmobile Cutlass Cruiser",
-          "1994\u20131997 Oldsmobile Cutlass Supreme",
-          "1992 Oldsmobile Toronado",
-          "2000\u20132005 Pontiac Bonneville",
-          "1994\u20131996 Pontiac Grand Prix"
-        ],
-        "raw_compat_rows": 296,
-        "source": "ebay_listing",
-        "confidence": "high",
-        "ebay_item_id": "398126368036",
-        "type": "Disc Brake Caliper Guide Pin Kit",
-        "brand": "Carlson",
-        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware",
-        "ebay_category_id": "",
-        "fetched": true
-      },
-      "vehicle_count_raw": 296,
-      "ebay_item_id": "398126368036",
-      "ebay_type": "Disc Brake Caliper Guide Pin Kit",
-      "ebay_brand": "Carlson",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware",
-      "images": [
-        "../assets/pdp-gallery/Q7EHR3V6EUFPBQQIFRFWCS3L/02.webp",
-        "../assets/pdp-gallery/Q7EHR3V6EUFPBQQIFRFWCS3L/03.webp"
-      ],
-      "condition_id": "1500",
       "stock": 1
     },
     {
@@ -35050,6 +35050,821 @@
       "interchange": []
     },
     {
+      "id": "DOHZ4WJO4M73JFBKR7MGNDCW",
+      "name": "1982-1989 WIX 33483 Fuel Filter NOS Chevrolet Celebrity S10 Blazer Pontiac 6000",
+      "price": 16.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/cfc54d2e648a8848e355bb77d0a0076e4cd50a7d/original.jpeg",
+      "url": "https://square.link/u/TxeJuRfw",
+      "category": "filters",
+      "checkout": true,
+      "variation_id": "HUAJRJFMIC4JZESWNJ22XOPM",
+      "part_numbers": [
+        "33483"
+      ],
+      "interchange": [
+        "NAPA 3483"
+      ],
+      "vehicles": [
+        "1982\u20131989 Chevrolet Celebrity",
+        "1983\u20131989 Chevrolet S10 Blazer",
+        "1982\u20131989 Pontiac 6000",
+        "1983\u20131991 GM"
+      ],
+      "fitment_source": "ebay_listing+title",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "33483"
+        ],
+        "interchange": [
+          "NAPA 3483"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1982,
+            "year_to": 1989,
+            "make": "Chevrolet",
+            "model": "Celebrity",
+            "notes": "",
+            "source": "title",
+            "confidence": "low",
+            "trim_count": null
+          },
+          {
+            "year_from": 1983,
+            "year_to": 1989,
+            "make": "Chevrolet",
+            "model": "S10 Blazer",
+            "notes": "",
+            "source": "title",
+            "confidence": "low",
+            "trim_count": null
+          },
+          {
+            "year_from": 1983,
+            "year_to": 1991,
+            "make": "GM",
+            "model": "",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1982,
+            "year_to": 1989,
+            "make": "Pontiac",
+            "model": "6000",
+            "notes": "",
+            "source": "title",
+            "confidence": "low",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1982\u20131989 Chevrolet Celebrity",
+          "1983\u20131989 Chevrolet S10 Blazer",
+          "1982\u20131989 Pontiac 6000",
+          "1983\u20131991 GM"
+        ],
+        "raw_compat_rows": 5,
+        "source": "ebay_listing+title",
+        "confidence": "high",
+        "ebay_item_id": "398268418285",
+        "type": "Fuel Filter",
+        "brand": "WIX",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Fuel Filters",
+        "ebay_category_id": "",
+        "fetched": true
+      },
+      "vehicle_count_raw": 5,
+      "ebay_item_id": "398268418285",
+      "ebay_type": "Fuel Filter",
+      "ebay_brand": "WIX",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Fuel Filters",
+      "images": [
+        "../assets/pdp-gallery/DOHZ4WJO4M73JFBKR7MGNDCW/02.webp",
+        "../assets/pdp-gallery/DOHZ4WJO4M73JFBKR7MGNDCW/03.webp"
+      ],
+      "condition_id": "1500",
+      "stock": 2
+    },
+    {
+      "id": "G7QIDJR7OBABBQOLVA2JX2II",
+      "name": "1985-1995 WIX 42333 Air Filter NOS Toyota 4Runner Supra Cressida MR2 2.8L 3.0L",
+      "price": 16.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/33c95937ac673f487ed7db2ceb779b37ef947c5d/original.jpeg",
+      "url": "https://square.link/u/ONW6Jcnk",
+      "category": "filters",
+      "checkout": true,
+      "variation_id": "XZICDEEAXPP6M5YZVXX7D2CG",
+      "part_numbers": [
+        "42333"
+      ],
+      "interchange": [
+        "NAPA 2333"
+      ],
+      "vehicles": [
+        "1985\u20131995 Toyota 4Runner",
+        "1985\u20131992 Toyota Cressida",
+        "1985\u20131995 Toyota MR2",
+        "1986\u20131995 Toyota Supra",
+        "1988\u20131997 Toyota"
+      ],
+      "fitment_source": "ebay_listing+title",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "42333"
+        ],
+        "interchange": [
+          "NAPA 2333"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1988,
+            "year_to": 1997,
+            "make": "Toyota",
+            "model": "",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1995,
+            "make": "Toyota",
+            "model": "4Runner",
+            "notes": "",
+            "source": "title",
+            "confidence": "low",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1992,
+            "make": "Toyota",
+            "model": "Cressida",
+            "notes": "",
+            "source": "title",
+            "confidence": "low",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1995,
+            "make": "Toyota",
+            "model": "MR2",
+            "notes": "",
+            "source": "title",
+            "confidence": "low",
+            "trim_count": null
+          },
+          {
+            "year_from": 1986,
+            "year_to": 1995,
+            "make": "Toyota",
+            "model": "Supra",
+            "notes": "",
+            "source": "title",
+            "confidence": "low",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1985\u20131995 Toyota 4Runner",
+          "1985\u20131992 Toyota Cressida",
+          "1985\u20131995 Toyota MR2",
+          "1986\u20131995 Toyota Supra",
+          "1988\u20131997 Toyota"
+        ],
+        "raw_compat_rows": 6,
+        "source": "ebay_listing+title",
+        "confidence": "high",
+        "ebay_item_id": "398268432983",
+        "type": "Air Filter",
+        "brand": "WIX",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Filters",
+        "ebay_category_id": "",
+        "fetched": true
+      },
+      "vehicle_count_raw": 6,
+      "ebay_item_id": "398268432983",
+      "ebay_type": "Air Filter",
+      "ebay_brand": "WIX",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Filters",
+      "images": [
+        "../assets/pdp-gallery/G7QIDJR7OBABBQOLVA2JX2II/02.webp",
+        "../assets/pdp-gallery/G7QIDJR7OBABBQOLVA2JX2II/03.webp"
+      ],
+      "condition_id": "1500",
+      "stock": 1
+    },
+    {
+      "id": "ZDQSCARSXQR4TGKC6K5XIQ7B",
+      "name": "1986-1990 WIX 33479 In-Line Fuel Filter NOS Honda Accord Prelude 2.0L Gas Engine",
+      "price": 21.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/9476ee3febb485e548e7f3a8ad2f3c488afbf938/original.jpeg",
+      "url": "https://square.link/u/F4zq30Ds",
+      "category": "filters",
+      "checkout": true,
+      "variation_id": "C5BCGZV7FACYR573QSXY73SE",
+      "part_numbers": [
+        "33479"
+      ],
+      "interchange": [
+        "NAPA 3479"
+      ],
+      "vehicles": [
+        "1986\u20131989 Honda Accord",
+        "1988\u20131990 Honda Prelude"
+      ],
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "33479"
+        ],
+        "interchange": [
+          "NAPA 3479"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1986,
+            "year_to": 1989,
+            "make": "Honda",
+            "model": "Accord",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1988,
+            "year_to": 1990,
+            "make": "Honda",
+            "model": "Prelude",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1986\u20131989 Honda Accord",
+          "1988\u20131990 Honda Prelude"
+        ],
+        "raw_compat_rows": 41,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398274988680",
+        "type": "Fuel Filter",
+        "brand": "WIX",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Fuel Filters",
+        "ebay_category_id": "",
+        "fetched": true
+      },
+      "vehicle_count_raw": 41,
+      "ebay_item_id": "398274988680",
+      "ebay_type": "Fuel Filter",
+      "ebay_brand": "WIX",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Fuel Filters",
+      "images": [
+        "../assets/pdp-gallery/ZDQSCARSXQR4TGKC6K5XIQ7B/02.webp",
+        "../assets/pdp-gallery/ZDQSCARSXQR4TGKC6K5XIQ7B/03.webp"
+      ],
+      "condition_id": "1500",
+      "stock": 1
+    },
+    {
+      "id": "5MOEEWOSEYYREBKVMVTWXBW4",
+      "name": "1987-1992 WIX 51630 Oil Filter NOS 2.5L Buick Century Skylark Pontiac Grand Am",
+      "price": 12.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/dfeb8a0a56d0ced1571cd0c6abd2b4d0f562217b/original.jpeg",
+      "url": "https://square.link/u/s3F6vLze",
+      "category": "filters",
+      "checkout": true,
+      "variation_id": "7TAKK362ALCBA5V4HDYV43RL",
+      "part_numbers": [
+        "51630"
+      ],
+      "interchange": [
+        "NAPA 1630"
+      ],
+      "vehicles": [
+        "1988\u20131992 Buick Century",
+        "1987\u20131991 Buick Skylark",
+        "1987\u20131991 Pontiac Grand Am",
+        "1987 Buick Somerset",
+        "1988\u20131990 Chevrolet Celebrity",
+        "1990\u20131992 Chevrolet Lumina",
+        "1987 Oldsmobile Calais",
+        "1988\u20131991 Oldsmobile Cutlass Calais",
+        "1988\u20131992 Oldsmobile Cutlass Ciera",
+        "1988\u20131990 Oldsmobile Cutlass Cruiser",
+        "1988\u20131991 Pontiac 6000",
+        "1988 Pontiac Fiero"
+      ],
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "51630"
+        ],
+        "interchange": [
+          "NAPA 1630"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1988,
+            "year_to": 1992,
+            "make": "Buick",
+            "model": "Century",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1991,
+            "make": "Buick",
+            "model": "Skylark",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1987,
+            "make": "Buick",
+            "model": "Somerset",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1988,
+            "year_to": 1990,
+            "make": "Chevrolet",
+            "model": "Celebrity",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1990,
+            "year_to": 1992,
+            "make": "Chevrolet",
+            "model": "Lumina",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1987,
+            "make": "Oldsmobile",
+            "model": "Calais",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1988,
+            "year_to": 1991,
+            "make": "Oldsmobile",
+            "model": "Cutlass Calais",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1988,
+            "year_to": 1992,
+            "make": "Oldsmobile",
+            "model": "Cutlass Ciera",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1988,
+            "year_to": 1990,
+            "make": "Oldsmobile",
+            "model": "Cutlass Cruiser",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1988,
+            "year_to": 1991,
+            "make": "Pontiac",
+            "model": "6000",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1988,
+            "year_to": 1988,
+            "make": "Pontiac",
+            "model": "Fiero",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1991,
+            "make": "Pontiac",
+            "model": "Grand Am",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1988\u20131992 Buick Century",
+          "1987\u20131991 Buick Skylark",
+          "1987\u20131991 Pontiac Grand Am",
+          "1987 Buick Somerset",
+          "1988\u20131990 Chevrolet Celebrity",
+          "1990\u20131992 Chevrolet Lumina",
+          "1987 Oldsmobile Calais",
+          "1988\u20131991 Oldsmobile Cutlass Calais",
+          "1988\u20131992 Oldsmobile Cutlass Ciera",
+          "1988\u20131990 Oldsmobile Cutlass Cruiser",
+          "1988\u20131991 Pontiac 6000",
+          "1988 Pontiac Fiero"
+        ],
+        "raw_compat_rows": 469,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398268945790",
+        "type": "Oil Filter",
+        "brand": "WIX",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Filters",
+        "ebay_category_id": "",
+        "fetched": true
+      },
+      "vehicle_count_raw": 469,
+      "ebay_item_id": "398268945790",
+      "ebay_type": "Oil Filter",
+      "ebay_brand": "WIX",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Filters",
+      "images": [
+        "../assets/pdp-gallery/5MOEEWOSEYYREBKVMVTWXBW4/02.webp",
+        "../assets/pdp-gallery/5MOEEWOSEYYREBKVMVTWXBW4/03.webp"
+      ],
+      "condition_id": "1500",
+      "stock": 2
+    },
+    {
+      "id": "GMGS6SWN6G4NX27JJNDPPPLS",
+      "name": "1988-1991 WIX 33321 Fuel Filter w/ Bracket NOS Dodge Dakota Ramcharger 3.9L 5.2L",
+      "price": 12.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/8a97326b26293e96d4e7201063c42294b0e8df27/original.jpeg",
+      "url": "https://square.link/u/fE39aAr1",
+      "category": "filters",
+      "checkout": true,
+      "variation_id": "K7CI52PLHKM2IIZXBR5TF6LD",
+      "part_numbers": [
+        "33321"
+      ],
+      "interchange": [
+        "NAPA 3321"
+      ],
+      "vehicles": [
+        "1988\u20131991 Dodge Dakota",
+        "1988\u20131991 Dodge Ramcharger",
+        "1988\u20131993 Dodge"
+      ],
+      "fitment_source": "ebay_listing+title",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "33321"
+        ],
+        "interchange": [
+          "NAPA 3321"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1988,
+            "year_to": 1993,
+            "make": "Dodge",
+            "model": "",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1988,
+            "year_to": 1991,
+            "make": "Dodge",
+            "model": "Dakota",
+            "notes": "",
+            "source": "title",
+            "confidence": "low",
+            "trim_count": null
+          },
+          {
+            "year_from": 1988,
+            "year_to": 1991,
+            "make": "Dodge",
+            "model": "Ramcharger",
+            "notes": "",
+            "source": "title",
+            "confidence": "low",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1988\u20131991 Dodge Dakota",
+          "1988\u20131991 Dodge Ramcharger",
+          "1988\u20131993 Dodge"
+        ],
+        "raw_compat_rows": 4,
+        "source": "ebay_listing+title",
+        "confidence": "high",
+        "ebay_item_id": "398268392269",
+        "type": "Fuel Filter",
+        "brand": "WIX",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Fuel Filters",
+        "ebay_category_id": "",
+        "fetched": true
+      },
+      "vehicle_count_raw": 4,
+      "ebay_item_id": "398268392269",
+      "ebay_type": "Fuel Filter",
+      "ebay_brand": "WIX",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Fuel Filters",
+      "images": [
+        "../assets/pdp-gallery/GMGS6SWN6G4NX27JJNDPPPLS/02.webp"
+      ],
+      "condition_id": "1500",
+      "stock": 1
+    },
+    {
+      "id": "XFE7EJAA5HJDSTRC3YLKNQV6",
+      "name": "1990-1997 WIX 33318 Fuel Filter NOS Dodge Dakota Ramcharger 2.5L 3.9L 5.2L",
+      "price": 22.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/34cdf651074c5622e05f6a1b3b36f3146bd122b1/original.jpeg",
+      "url": "https://square.link/u/4qbHAEOR",
+      "category": "filters",
+      "checkout": true,
+      "variation_id": "OYBLRHFJGJJJQ26KLKIP6AMS",
+      "vehicles": [
+        "1990\u20131997 Dodge Dakota",
+        "1991\u20131993 Dodge Ramcharger"
+      ],
+      "fitment_source": "ebay_listing+title",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "1990"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1990,
+            "year_to": 1997,
+            "make": "Dodge",
+            "model": "Dakota",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1991,
+            "year_to": 1993,
+            "make": "Dodge",
+            "model": "Ramcharger",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1990\u20131997 Dodge Dakota",
+          "1991\u20131993 Dodge Ramcharger"
+        ],
+        "raw_compat_rows": 104,
+        "source": "ebay_listing+title",
+        "confidence": "high",
+        "ebay_item_id": "398268346162",
+        "type": "Filter",
+        "brand": "Unbranded",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Fuel Filters",
+        "ebay_category_id": "",
+        "fetched": true
+      },
+      "vehicle_count_raw": 104,
+      "ebay_item_id": "398268346162",
+      "ebay_type": "Filter",
+      "ebay_brand": "Unbranded",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Fuel Filters",
+      "images": [
+        "../assets/pdp-gallery/XFE7EJAA5HJDSTRC3YLKNQV6/02.webp",
+        "../assets/pdp-gallery/XFE7EJAA5HJDSTRC3YLKNQV6/03.webp"
+      ],
+      "condition_id": "1500",
+      "stock": 1,
+      "part_numbers": [
+        "1990"
+      ],
+      "interchange": []
+    },
+    {
+      "id": "BVAX2BLPDDMORGLIBDAIVQYG",
+      "name": "1993-2006 WIX 42295 Air Filter NOS Audi A4 A6 VW Passat BMW X5 740i 540i",
+      "price": 29.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/ff5bcf57c6d42233f9427fcb704f5c5bd4a9ebce/original.jpeg",
+      "url": "https://square.link/u/eJrljpbl",
+      "category": "filters",
+      "checkout": true,
+      "variation_id": "K4WR5HCQVG3LXHJ4HKMTAQXV",
+      "part_numbers": [
+        "42295"
+      ],
+      "interchange": [
+        "NAPA 2295"
+      ],
+      "vehicles": [
+        "1996\u20132004 Audi A4",
+        "1998\u20132006 Audi A6",
+        "2000\u20132002 Audi S4",
+        "2002\u20132004 Audi S6",
+        "1994\u20132003 BMW 530i",
+        "1993\u20132001 BMW 740i",
+        "1995\u20131997 BMW 840Ci",
+        "2000\u20132006 BMW X5",
+        "2000\u20132003 BMW Z8",
+        "1998\u20132005 Volkswagen Passat"
+      ],
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "42295"
+        ],
+        "interchange": [
+          "NAPA 2295"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1996,
+            "year_to": 2004,
+            "make": "Audi",
+            "model": "A4",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1998,
+            "year_to": 2006,
+            "make": "Audi",
+            "model": "A6",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2000,
+            "year_to": 2002,
+            "make": "Audi",
+            "model": "S4",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2002,
+            "year_to": 2004,
+            "make": "Audi",
+            "model": "S6",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1994,
+            "year_to": 2003,
+            "make": "BMW",
+            "model": "530i",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1993,
+            "year_to": 2001,
+            "make": "BMW",
+            "model": "740i",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1995,
+            "year_to": 1997,
+            "make": "BMW",
+            "model": "840Ci",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2000,
+            "year_to": 2006,
+            "make": "BMW",
+            "model": "X5",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2000,
+            "year_to": 2003,
+            "make": "BMW",
+            "model": "Z8",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1998,
+            "year_to": 2005,
+            "make": "Volkswagen",
+            "model": "Passat",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1996\u20132004 Audi A4",
+          "1998\u20132006 Audi A6",
+          "2000\u20132002 Audi S4",
+          "2002\u20132004 Audi S6",
+          "1994\u20132003 BMW 530i",
+          "1993\u20132001 BMW 740i",
+          "1995\u20131997 BMW 840Ci",
+          "2000\u20132006 BMW X5",
+          "2000\u20132003 BMW Z8",
+          "1998\u20132005 Volkswagen Passat"
+        ],
+        "raw_compat_rows": 20,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398268428938",
+        "type": "Air Filter",
+        "brand": "WIX",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Filters",
+        "ebay_category_id": "",
+        "fetched": true
+      },
+      "vehicle_count_raw": 20,
+      "ebay_item_id": "398268428938",
+      "ebay_type": "Air Filter",
+      "ebay_brand": "WIX",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Filters",
+      "images": [
+        "../assets/pdp-gallery/BVAX2BLPDDMORGLIBDAIVQYG/02.webp",
+        "../assets/pdp-gallery/BVAX2BLPDDMORGLIBDAIVQYG/03.webp"
+      ],
+      "condition_id": "1500",
+      "stock": 1
+    },
+    {
       "id": "BB6QU575YZOYX2KUSIF2PZU3",
       "name": "31728-AA050 Subaru Transmission Filter NOS 99-05 Forester Legacy Impreza Outback",
       "price": 14.99,
@@ -41399,7 +42214,7 @@
     },
     {
       "id": "JPJOQ4IJV2FPECJFOICGVHGF",
-      "name": "Parts Master 69065 Engine Air Filter NOS 1.8 Honda Civic 06-12 14-15 WIX 49065",
+      "name": "Parts Master 69065 Engine Air Filter NOS Honda Civic 1.8L I4 Replaces WIX 49065",
       "price": 14.99,
       "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/fd8a3bc687745502da7f380cdac5d5e6c0d7053c/original.jpeg",
       "url": "https://square.link/u/foHZibc4",
@@ -45925,7 +46740,7 @@
     },
     {
       "id": "T3CZDAH24DV6I3HTFOWM5TDE",
-      "name": "WIX 33293 Fuel Filter NOS Ford T-Bird Cougar Escort Tracer 89-02 97-03 97-99",
+      "name": "WIX 33293 Fuel Filter NOS Ford Escort Thunderbird Mercury Tracer 2.0L 3.8L",
       "price": 18.99,
       "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/165d5c0790af3d2ed85e39c75ea3026c7c336662/original.jpeg",
       "url": "https://square.link/u/RU9hVl73",
@@ -45936,11 +46751,11 @@
         "33293"
       ],
       "vehicles": [
-        "1991\u20131994 Ford Cougar",
         "1997\u20132003 Ford Escort",
         "1989\u20131991 Ford Thunderbird",
-        "1989\u20131991 Mercury Cougar",
-        "1997\u20131999 Mercury Tracer"
+        "1997\u20131999 Mercury Tracer",
+        "1991\u20131994 Ford Cougar",
+        "1989\u20131991 Mercury Cougar"
       ],
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
@@ -46002,11 +46817,11 @@
           }
         ],
         "vehicle_labels": [
-          "1991\u20131994 Ford Cougar",
           "1997\u20132003 Ford Escort",
           "1989\u20131991 Ford Thunderbird",
-          "1989\u20131991 Mercury Cougar",
-          "1997\u20131999 Mercury Tracer"
+          "1997\u20131999 Mercury Tracer",
+          "1991\u20131994 Ford Cougar",
+          "1989\u20131991 Mercury Cougar"
         ],
         "raw_compat_rows": 74,
         "source": "ebay_listing",
@@ -46030,137 +46845,6 @@
       "condition_id": "1500",
       "stock": 1,
       "interchange": []
-    },
-    {
-      "id": "XFE7EJAA5HJDSTRC3YLKNQV6",
-      "name": "WIX 33318 Fuel Filter NOS Dodge Dakota Ramcharger 2.5 3.9 5.2 1990-1997 90-97",
-      "price": 22.99,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/34cdf651074c5622e05f6a1b3b36f3146bd122b1/original.jpeg",
-      "url": "https://square.link/u/4qbHAEOR",
-      "category": "filters",
-      "checkout": true,
-      "variation_id": "OYBLRHFJGJJJQ26KLKIP6AMS",
-      "vehicles": [
-        "1990\u20131997 Dodge Dakota",
-        "1991\u20131993 Dodge Ramcharger"
-      ],
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "high",
-      "fitment": {
-        "part_numbers": [],
-        "interchange": [],
-        "vehicles": [
-          {
-            "year_from": 1990,
-            "year_to": 1997,
-            "make": "Dodge",
-            "model": "Dakota",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1991,
-            "year_to": 1993,
-            "make": "Dodge",
-            "model": "Ramcharger",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          }
-        ],
-        "vehicle_labels": [
-          "1990\u20131997 Dodge Dakota",
-          "1991\u20131993 Dodge Ramcharger"
-        ],
-        "raw_compat_rows": 104,
-        "source": "ebay_listing",
-        "confidence": "high",
-        "ebay_item_id": "398268346162",
-        "type": "Filter",
-        "brand": "Unbranded",
-        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Fuel Filters",
-        "ebay_category_id": "",
-        "fetched": true
-      },
-      "vehicle_count_raw": 104,
-      "ebay_item_id": "398268346162",
-      "ebay_type": "Filter",
-      "ebay_brand": "Unbranded",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Fuel Filters",
-      "images": [
-        "../assets/pdp-gallery/XFE7EJAA5HJDSTRC3YLKNQV6/02.webp",
-        "../assets/pdp-gallery/XFE7EJAA5HJDSTRC3YLKNQV6/03.webp"
-      ],
-      "condition_id": "1500",
-      "stock": 1,
-      "part_numbers": [],
-      "interchange": []
-    },
-    {
-      "id": "GMGS6SWN6G4NX27JJNDPPPLS",
-      "name": "WIX 33321 Fuel Filter w/ Bracket NOS Dodge Truck Van 1988-1993 88-93 Dakota",
-      "price": 12.99,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/8a97326b26293e96d4e7201063c42294b0e8df27/original.jpeg",
-      "url": "https://square.link/u/fE39aAr1",
-      "category": "filters",
-      "checkout": true,
-      "variation_id": "K7CI52PLHKM2IIZXBR5TF6LD",
-      "part_numbers": [
-        "33321"
-      ],
-      "interchange": [
-        "NAPA 3321"
-      ],
-      "vehicles": [
-        "1988\u20131993 Dodge"
-      ],
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "high",
-      "fitment": {
-        "part_numbers": [
-          "33321"
-        ],
-        "interchange": [
-          "NAPA 3321"
-        ],
-        "vehicles": [
-          {
-            "year_from": 1988,
-            "year_to": 1993,
-            "make": "Dodge",
-            "model": "",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          }
-        ],
-        "vehicle_labels": [
-          "1988\u20131993 Dodge"
-        ],
-        "raw_compat_rows": 2,
-        "source": "ebay_listing",
-        "confidence": "high",
-        "ebay_item_id": "398268392269",
-        "type": "Fuel Filter",
-        "brand": "WIX",
-        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Fuel Filters",
-        "ebay_category_id": "",
-        "fetched": true
-      },
-      "vehicle_count_raw": 2,
-      "ebay_item_id": "398268392269",
-      "ebay_type": "Fuel Filter",
-      "ebay_brand": "WIX",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Fuel Filters",
-      "images": [
-        "../assets/pdp-gallery/GMGS6SWN6G4NX27JJNDPPPLS/02.webp"
-      ],
-      "condition_id": "1500",
-      "stock": 1
     },
     {
       "id": "W2X6KTM65AVJCG5H63ESWO2K",
@@ -46870,182 +47554,6 @@
       ],
       "condition_id": "1500",
       "stock": 1
-    },
-    {
-      "id": "ZDQSCARSXQR4TGKC6K5XIQ7B",
-      "name": "WIX 33479 Fuel Filter NOS Honda Accord 2.0L 86-89 Prelude 1988-1990 88-90",
-      "price": 21.99,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/9476ee3febb485e548e7f3a8ad2f3c488afbf938/original.jpeg",
-      "url": "https://square.link/u/F4zq30Ds",
-      "category": "filters",
-      "checkout": true,
-      "variation_id": "C5BCGZV7FACYR573QSXY73SE",
-      "part_numbers": [
-        "33479"
-      ],
-      "interchange": [
-        "NAPA 3479"
-      ],
-      "vehicles": [
-        "1986\u20131989 Honda Accord",
-        "1988\u20131990 Honda Prelude"
-      ],
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "high",
-      "fitment": {
-        "part_numbers": [
-          "33479"
-        ],
-        "interchange": [
-          "NAPA 3479"
-        ],
-        "vehicles": [
-          {
-            "year_from": 1986,
-            "year_to": 1989,
-            "make": "Honda",
-            "model": "Accord",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1988,
-            "year_to": 1990,
-            "make": "Honda",
-            "model": "Prelude",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          }
-        ],
-        "vehicle_labels": [
-          "1986\u20131989 Honda Accord",
-          "1988\u20131990 Honda Prelude"
-        ],
-        "raw_compat_rows": 41,
-        "source": "ebay_listing",
-        "confidence": "high",
-        "ebay_item_id": "398274988680",
-        "type": "Fuel Filter",
-        "brand": "WIX",
-        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Fuel Filters",
-        "ebay_category_id": "",
-        "fetched": true
-      },
-      "vehicle_count_raw": 41,
-      "ebay_item_id": "398274988680",
-      "ebay_type": "Fuel Filter",
-      "ebay_brand": "WIX",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Fuel Filters",
-      "images": [
-        "../assets/pdp-gallery/ZDQSCARSXQR4TGKC6K5XIQ7B/02.webp",
-        "../assets/pdp-gallery/ZDQSCARSXQR4TGKC6K5XIQ7B/03.webp"
-      ],
-      "condition_id": "1500",
-      "stock": 1
-    },
-    {
-      "id": "DOHZ4WJO4M73JFBKR7MGNDCW",
-      "name": "WIX 33483 Fuel Filter NOS Chevy Celebrity 82-88 Oldsmobile Cutlass Ciera Firenza",
-      "price": 16.99,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/cfc54d2e648a8848e355bb77d0a0076e4cd50a7d/original.jpeg",
-      "url": "https://square.link/u/TxeJuRfw",
-      "category": "filters",
-      "checkout": true,
-      "variation_id": "HUAJRJFMIC4JZESWNJ22XOPM",
-      "part_numbers": [
-        "33483"
-      ],
-      "interchange": [
-        "NAPA 3483"
-      ],
-      "vehicles": [
-        "1982\u20131988 Chevrolet Celebrity",
-        "1982\u20131988 Oldsmobile Cutlass Ciera",
-        "1982\u20131988 Oldsmobile Firenza",
-        "1983\u20131991 GM"
-      ],
-      "fitment_source": "ebay_listing+title",
-      "fitment_confidence": "high",
-      "fitment": {
-        "part_numbers": [
-          "33483"
-        ],
-        "interchange": [
-          "NAPA 3483"
-        ],
-        "vehicles": [
-          {
-            "year_from": 1982,
-            "year_to": 1988,
-            "make": "Chevrolet",
-            "model": "Celebrity",
-            "notes": "",
-            "source": "title",
-            "confidence": "low",
-            "trim_count": null
-          },
-          {
-            "year_from": 1983,
-            "year_to": 1991,
-            "make": "GM",
-            "model": "",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1982,
-            "year_to": 1988,
-            "make": "Oldsmobile",
-            "model": "Cutlass Ciera",
-            "notes": "",
-            "source": "title",
-            "confidence": "low",
-            "trim_count": null
-          },
-          {
-            "year_from": 1982,
-            "year_to": 1988,
-            "make": "Oldsmobile",
-            "model": "Firenza",
-            "notes": "",
-            "source": "title",
-            "confidence": "low",
-            "trim_count": null
-          }
-        ],
-        "vehicle_labels": [
-          "1982\u20131988 Chevrolet Celebrity",
-          "1982\u20131988 Oldsmobile Cutlass Ciera",
-          "1982\u20131988 Oldsmobile Firenza",
-          "1983\u20131991 GM"
-        ],
-        "raw_compat_rows": 5,
-        "source": "ebay_listing+title",
-        "confidence": "high",
-        "ebay_item_id": "398268418285",
-        "type": "Fuel Filter",
-        "brand": "WIX",
-        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Fuel Filters",
-        "ebay_category_id": "",
-        "fetched": true
-      },
-      "vehicle_count_raw": 5,
-      "ebay_item_id": "398268418285",
-      "ebay_type": "Fuel Filter",
-      "ebay_brand": "WIX",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Fuel Filters",
-      "images": [
-        "../assets/pdp-gallery/DOHZ4WJO4M73JFBKR7MGNDCW/02.webp",
-        "../assets/pdp-gallery/DOHZ4WJO4M73JFBKR7MGNDCW/03.webp"
-      ],
-      "condition_id": "1500",
-      "stock": 2
     },
     {
       "id": "D5ZNQ2MEULFAYLNVFGJRY46O",
@@ -47945,266 +48453,6 @@
       "images": [
         "../assets/pdp-gallery/JLRE53HUPS6QGWG4OJOH5Z5V/02.webp",
         "../assets/pdp-gallery/JLRE53HUPS6QGWG4OJOH5Z5V/03.webp"
-      ],
-      "condition_id": "1500",
-      "stock": 1
-    },
-    {
-      "id": "BVAX2BLPDDMORGLIBDAIVQYG",
-      "name": "WIX 42295 Air Filter NOS Audi A4 A6 VW Passat BMW X5 540 93-06 97-05 A6 Quattro",
-      "price": 29.99,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/ff5bcf57c6d42233f9427fcb704f5c5bd4a9ebce/original.jpeg",
-      "url": "https://square.link/u/eJrljpbl",
-      "category": "filters",
-      "checkout": true,
-      "variation_id": "K4WR5HCQVG3LXHJ4HKMTAQXV",
-      "part_numbers": [
-        "42295"
-      ],
-      "interchange": [
-        "NAPA 2295"
-      ],
-      "vehicles": [
-        "1996\u20132004 Audi A4",
-        "1998\u20132006 Audi A6",
-        "2000\u20132002 Audi S4",
-        "2002\u20132004 Audi S6",
-        "1994\u20132003 BMW 530i",
-        "1993\u20132001 BMW 740i",
-        "1995\u20131997 BMW 840Ci",
-        "2000\u20132006 BMW X5",
-        "2000\u20132003 BMW Z8",
-        "1998\u20132005 Volkswagen Passat"
-      ],
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "high",
-      "fitment": {
-        "part_numbers": [
-          "42295"
-        ],
-        "interchange": [
-          "NAPA 2295"
-        ],
-        "vehicles": [
-          {
-            "year_from": 1996,
-            "year_to": 2004,
-            "make": "Audi",
-            "model": "A4",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1998,
-            "year_to": 2006,
-            "make": "Audi",
-            "model": "A6",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 2000,
-            "year_to": 2002,
-            "make": "Audi",
-            "model": "S4",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 2002,
-            "year_to": 2004,
-            "make": "Audi",
-            "model": "S6",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1994,
-            "year_to": 2003,
-            "make": "BMW",
-            "model": "530i",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1993,
-            "year_to": 2001,
-            "make": "BMW",
-            "model": "740i",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1995,
-            "year_to": 1997,
-            "make": "BMW",
-            "model": "840Ci",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 2000,
-            "year_to": 2006,
-            "make": "BMW",
-            "model": "X5",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 2000,
-            "year_to": 2003,
-            "make": "BMW",
-            "model": "Z8",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1998,
-            "year_to": 2005,
-            "make": "Volkswagen",
-            "model": "Passat",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          }
-        ],
-        "vehicle_labels": [
-          "1996\u20132004 Audi A4",
-          "1998\u20132006 Audi A6",
-          "2000\u20132002 Audi S4",
-          "2002\u20132004 Audi S6",
-          "1994\u20132003 BMW 530i",
-          "1993\u20132001 BMW 740i",
-          "1995\u20131997 BMW 840Ci",
-          "2000\u20132006 BMW X5",
-          "2000\u20132003 BMW Z8",
-          "1998\u20132005 Volkswagen Passat"
-        ],
-        "raw_compat_rows": 20,
-        "source": "ebay_listing",
-        "confidence": "high",
-        "ebay_item_id": "398268428938",
-        "type": "Air Filter",
-        "brand": "WIX",
-        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Filters",
-        "ebay_category_id": "",
-        "fetched": true
-      },
-      "vehicle_count_raw": 20,
-      "ebay_item_id": "398268428938",
-      "ebay_type": "Air Filter",
-      "ebay_brand": "WIX",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Filters",
-      "images": [
-        "../assets/pdp-gallery/BVAX2BLPDDMORGLIBDAIVQYG/02.webp",
-        "../assets/pdp-gallery/BVAX2BLPDDMORGLIBDAIVQYG/03.webp"
-      ],
-      "condition_id": "1500",
-      "stock": 1
-    },
-    {
-      "id": "G7QIDJR7OBABBQOLVA2JX2II",
-      "name": "WIX 42333 Air Filter NOS Toyota 4Runner Pickup 88-95 Supra 86-92 Cressida 85-92",
-      "price": 16.99,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/33c95937ac673f487ed7db2ceb779b37ef947c5d/original.jpeg",
-      "url": "https://square.link/u/ONW6Jcnk",
-      "category": "filters",
-      "checkout": true,
-      "variation_id": "XZICDEEAXPP6M5YZVXX7D2CG",
-      "part_numbers": [
-        "42333"
-      ],
-      "interchange": [
-        "NAPA 2333"
-      ],
-      "vehicles": [
-        "1988\u20131995 Toyota 4Runner",
-        "1988\u20131995 Toyota Pickup",
-        "1988\u20131997 Toyota"
-      ],
-      "fitment_source": "ebay_listing+title",
-      "fitment_confidence": "high",
-      "fitment": {
-        "part_numbers": [
-          "42333"
-        ],
-        "interchange": [
-          "NAPA 2333"
-        ],
-        "vehicles": [
-          {
-            "year_from": 1988,
-            "year_to": 1997,
-            "make": "Toyota",
-            "model": "",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1988,
-            "year_to": 1995,
-            "make": "Toyota",
-            "model": "4Runner",
-            "notes": "",
-            "source": "title",
-            "confidence": "low",
-            "trim_count": null
-          },
-          {
-            "year_from": 1988,
-            "year_to": 1995,
-            "make": "Toyota",
-            "model": "Pickup",
-            "notes": "",
-            "source": "title",
-            "confidence": "low",
-            "trim_count": null
-          }
-        ],
-        "vehicle_labels": [
-          "1988\u20131995 Toyota 4Runner",
-          "1988\u20131995 Toyota Pickup",
-          "1988\u20131997 Toyota"
-        ],
-        "raw_compat_rows": 6,
-        "source": "ebay_listing+title",
-        "confidence": "high",
-        "ebay_item_id": "398268432983",
-        "type": "Air Filter",
-        "brand": "WIX",
-        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Filters",
-        "ebay_category_id": "",
-        "fetched": true
-      },
-      "vehicle_count_raw": 6,
-      "ebay_item_id": "398268432983",
-      "ebay_type": "Air Filter",
-      "ebay_brand": "WIX",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Filters",
-      "images": [
-        "../assets/pdp-gallery/G7QIDJR7OBABBQOLVA2JX2II/02.webp",
-        "../assets/pdp-gallery/G7QIDJR7OBABBQOLVA2JX2II/03.webp"
       ],
       "condition_id": "1500",
       "stock": 1
@@ -54292,7 +54540,7 @@
     },
     {
       "id": "4JT24LXHKMXA3VF4G4XDLJP7",
-      "name": "WIX 51522 Oil Filter NOS GM Chevrolet Buick Cadillac Saturn 1980-2012 80-12",
+      "name": "WIX 51522 Oil Filter NOS GM Cadillac DeVille Seville Chevy Colorado Trailblazer",
       "price": 18.99,
       "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/02f4d0fdecdebb9f25401ac9686fd1670fee9406/original.jpeg",
       "url": "https://square.link/u/iIUCcvUK",
@@ -54307,13 +54555,14 @@
         "NAPA 1522"
       ],
       "vehicles": [
+        "2000\u20132005 Cadillac DeVille",
+        "2004\u20132012 Chevrolet Colorado",
+        "2002\u20132009 Chevrolet Trailblazer",
         "2006\u20132011 Buick Lucerne",
         "2004\u20132007 Buick Rainier",
         "2006\u20132011 Cadillac DTS",
-        "2000\u20132005 Cadillac DeVille",
-        "2004\u20132012 Chevrolet Colorado",
+        "Cadillac Seville",
         "2006\u20132011 Chevrolet Impala",
-        "2002\u20132009 Chevrolet Trailblazer",
         "2004\u20132012 GMC Canyon",
         "2002\u20132009 GMC Envoy",
         "2006\u20132010 Hummer H3",
@@ -54322,7 +54571,7 @@
         "1995\u20132003 Oldsmobile Aurora",
         "2006\u20132009 Saab 9-7x"
       ],
-      "fitment_source": "ebay_listing",
+      "fitment_source": "ebay_listing+title",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
@@ -54371,6 +54620,16 @@
             "notes": "",
             "source": "ebay_compat",
             "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": null,
+            "year_to": null,
+            "make": "Cadillac",
+            "model": "Seville",
+            "notes": "",
+            "source": "title",
+            "confidence": "low",
             "trim_count": null
           },
           {
@@ -54475,13 +54734,14 @@
           }
         ],
         "vehicle_labels": [
+          "2000\u20132005 Cadillac DeVille",
+          "2004\u20132012 Chevrolet Colorado",
+          "2002\u20132009 Chevrolet Trailblazer",
           "2006\u20132011 Buick Lucerne",
           "2004\u20132007 Buick Rainier",
           "2006\u20132011 Cadillac DTS",
-          "2000\u20132005 Cadillac DeVille",
-          "2004\u20132012 Chevrolet Colorado",
+          "Cadillac Seville",
           "2006\u20132011 Chevrolet Impala",
-          "2002\u20132009 Chevrolet Trailblazer",
           "2004\u20132012 GMC Canyon",
           "2002\u20132009 GMC Envoy",
           "2006\u20132010 Hummer H3",
@@ -54490,8 +54750,8 @@
           "1995\u20132003 Oldsmobile Aurora",
           "2006\u20132009 Saab 9-7x"
         ],
-        "raw_compat_rows": 28,
-        "source": "ebay_listing",
+        "raw_compat_rows": 29,
+        "source": "ebay_listing+title",
         "confidence": "high",
         "ebay_item_id": "398268753067",
         "type": "Oil Filter",
@@ -54500,7 +54760,7 @@
         "ebay_category_id": "",
         "fetched": true
       },
-      "vehicle_count_raw": 28,
+      "vehicle_count_raw": 29,
       "ebay_item_id": "398268753067",
       "ebay_type": "Oil Filter",
       "ebay_brand": "WIX",
@@ -54689,202 +54949,6 @@
       "condition_id": "1500",
       "stock": 1,
       "interchange": []
-    },
-    {
-      "id": "5MOEEWOSEYYREBKVMVTWXBW4",
-      "name": "WIX 51630 Oil Filter NOS GM 2.5L In-Pan Buick Pontiac 1987-1992 87-92 Century",
-      "price": 12.99,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/dfeb8a0a56d0ced1571cd0c6abd2b4d0f562217b/original.jpeg",
-      "url": "https://square.link/u/s3F6vLze",
-      "category": "filters",
-      "checkout": true,
-      "variation_id": "7TAKK362ALCBA5V4HDYV43RL",
-      "part_numbers": [
-        "51630"
-      ],
-      "interchange": [
-        "NAPA 1630"
-      ],
-      "vehicles": [
-        "1988\u20131992 Buick Century",
-        "1987\u20131991 Buick Skylark",
-        "1987 Buick Somerset",
-        "1988\u20131990 Chevrolet Celebrity",
-        "1990\u20131992 Chevrolet Lumina",
-        "1987 Oldsmobile Calais",
-        "1988\u20131991 Oldsmobile Cutlass Calais",
-        "1988\u20131992 Oldsmobile Cutlass Ciera",
-        "1988\u20131990 Oldsmobile Cutlass Cruiser",
-        "1988\u20131991 Pontiac 6000",
-        "1988 Pontiac Fiero",
-        "1987\u20131991 Pontiac Grand Am"
-      ],
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "high",
-      "fitment": {
-        "part_numbers": [
-          "51630"
-        ],
-        "interchange": [
-          "NAPA 1630"
-        ],
-        "vehicles": [
-          {
-            "year_from": 1988,
-            "year_to": 1992,
-            "make": "Buick",
-            "model": "Century",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1987,
-            "year_to": 1991,
-            "make": "Buick",
-            "model": "Skylark",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1987,
-            "year_to": 1987,
-            "make": "Buick",
-            "model": "Somerset",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1988,
-            "year_to": 1990,
-            "make": "Chevrolet",
-            "model": "Celebrity",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1990,
-            "year_to": 1992,
-            "make": "Chevrolet",
-            "model": "Lumina",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1987,
-            "year_to": 1987,
-            "make": "Oldsmobile",
-            "model": "Calais",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1988,
-            "year_to": 1991,
-            "make": "Oldsmobile",
-            "model": "Cutlass Calais",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1988,
-            "year_to": 1992,
-            "make": "Oldsmobile",
-            "model": "Cutlass Ciera",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1988,
-            "year_to": 1990,
-            "make": "Oldsmobile",
-            "model": "Cutlass Cruiser",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1988,
-            "year_to": 1991,
-            "make": "Pontiac",
-            "model": "6000",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1988,
-            "year_to": 1988,
-            "make": "Pontiac",
-            "model": "Fiero",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1987,
-            "year_to": 1991,
-            "make": "Pontiac",
-            "model": "Grand Am",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          }
-        ],
-        "vehicle_labels": [
-          "1988\u20131992 Buick Century",
-          "1987\u20131991 Buick Skylark",
-          "1987 Buick Somerset",
-          "1988\u20131990 Chevrolet Celebrity",
-          "1990\u20131992 Chevrolet Lumina",
-          "1987 Oldsmobile Calais",
-          "1988\u20131991 Oldsmobile Cutlass Calais",
-          "1988\u20131992 Oldsmobile Cutlass Ciera",
-          "1988\u20131990 Oldsmobile Cutlass Cruiser",
-          "1988\u20131991 Pontiac 6000",
-          "1988 Pontiac Fiero",
-          "1987\u20131991 Pontiac Grand Am"
-        ],
-        "raw_compat_rows": 469,
-        "source": "ebay_listing",
-        "confidence": "high",
-        "ebay_item_id": "398268945790",
-        "type": "Oil Filter",
-        "brand": "WIX",
-        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Filters",
-        "ebay_category_id": "",
-        "fetched": true
-      },
-      "vehicle_count_raw": 469,
-      "ebay_item_id": "398268945790",
-      "ebay_type": "Oil Filter",
-      "ebay_brand": "WIX",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engines & Engine Parts:Oil Filters",
-      "images": [
-        "../assets/pdp-gallery/5MOEEWOSEYYREBKVMVTWXBW4/02.webp",
-        "../assets/pdp-gallery/5MOEEWOSEYYREBKVMVTWXBW4/03.webp"
-      ],
-      "condition_id": "1500",
-      "stock": 2
     },
     {
       "id": "WGJ3QGUAXMEZMCOP65SSRVNI",
@@ -59184,6 +59248,102 @@
         "../assets/pdp-gallery/2UMIXXU7B3FGVUULWOG2OOZF/02.webp",
         "../assets/pdp-gallery/2UMIXXU7B3FGVUULWOG2OOZF/03.webp",
         "../assets/pdp-gallery/2UMIXXU7B3FGVUULWOG2OOZF/04.webp"
+      ],
+      "condition_id": "1500",
+      "stock": 1,
+      "interchange": []
+    },
+    {
+      "id": "3X6CR3Q47CXOBQRDJUXCP7FL",
+      "name": "1980-1989 Standard JH-81 Distributor Cap NOS Toyota Pickup 4Runner 2.2L 2.4L",
+      "price": 17.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/aea78727c94ba9a129ac85746875e457473058ae/original.jpeg",
+      "url": "https://square.link/u/jNMLGGeR",
+      "category": "ignition",
+      "checkout": true,
+      "variation_id": "AZJAGF4BYITQEB4KYSSXPE2M",
+      "part_numbers": [
+        "JH-81"
+      ],
+      "vehicles": [
+        "1984\u20131989 Toyota 4Runner",
+        "1980\u20131989 Toyota Pickup",
+        "1980\u20131981 Toyota Celica",
+        "1980\u20131981 Toyota Corona"
+      ],
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "JH-81"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1984,
+            "year_to": 1989,
+            "make": "Toyota",
+            "model": "4Runner",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1980,
+            "year_to": 1981,
+            "make": "Toyota",
+            "model": "Celica",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1980,
+            "year_to": 1981,
+            "make": "Toyota",
+            "model": "Corona",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1980,
+            "year_to": 1989,
+            "make": "Toyota",
+            "model": "Pickup",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1984\u20131989 Toyota 4Runner",
+          "1980\u20131989 Toyota Pickup",
+          "1980\u20131981 Toyota Celica",
+          "1980\u20131981 Toyota Corona"
+        ],
+        "raw_compat_rows": 140,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398275169882",
+        "type": "Distributor Cap",
+        "brand": "Standard Motor Products",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps",
+        "ebay_category_id": "",
+        "fetched": true
+      },
+      "vehicle_count_raw": 140,
+      "ebay_item_id": "398275169882",
+      "ebay_type": "Distributor Cap",
+      "ebay_brand": "Standard Motor Products",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps",
+      "images": [
+        "../assets/pdp-gallery/3X6CR3Q47CXOBQRDJUXCP7FL/02.webp",
+        "../assets/pdp-gallery/3X6CR3Q47CXOBQRDJUXCP7FL/03.webp"
       ],
       "condition_id": "1500",
       "stock": 1,
@@ -87933,102 +88093,6 @@
       "interchange": []
     },
     {
-      "id": "3X6CR3Q47CXOBQRDJUXCP7FL",
-      "name": "Standard JH-81 Distributor Cap NOS Toyota 4Runner Celica Pickup 80-92 80-85",
-      "price": 17.99,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/aea78727c94ba9a129ac85746875e457473058ae/original.jpeg",
-      "url": "https://square.link/u/jNMLGGeR",
-      "category": "ignition",
-      "checkout": true,
-      "variation_id": "AZJAGF4BYITQEB4KYSSXPE2M",
-      "part_numbers": [
-        "JH-81"
-      ],
-      "vehicles": [
-        "1984\u20131989 Toyota 4Runner",
-        "1980\u20131981 Toyota Celica",
-        "1980\u20131989 Toyota Pickup",
-        "1980\u20131981 Toyota Corona"
-      ],
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "high",
-      "fitment": {
-        "part_numbers": [
-          "JH-81"
-        ],
-        "interchange": [],
-        "vehicles": [
-          {
-            "year_from": 1984,
-            "year_to": 1989,
-            "make": "Toyota",
-            "model": "4Runner",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1980,
-            "year_to": 1981,
-            "make": "Toyota",
-            "model": "Celica",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1980,
-            "year_to": 1981,
-            "make": "Toyota",
-            "model": "Corona",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1980,
-            "year_to": 1989,
-            "make": "Toyota",
-            "model": "Pickup",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          }
-        ],
-        "vehicle_labels": [
-          "1984\u20131989 Toyota 4Runner",
-          "1980\u20131981 Toyota Celica",
-          "1980\u20131989 Toyota Pickup",
-          "1980\u20131981 Toyota Corona"
-        ],
-        "raw_compat_rows": 140,
-        "source": "ebay_listing",
-        "confidence": "high",
-        "ebay_item_id": "398275169882",
-        "type": "Distributor Cap",
-        "brand": "Standard Motor Products",
-        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps",
-        "ebay_category_id": "",
-        "fetched": true
-      },
-      "vehicle_count_raw": 140,
-      "ebay_item_id": "398275169882",
-      "ebay_type": "Distributor Cap",
-      "ebay_brand": "Standard Motor Products",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Ignition Systems & Components:Distributor Caps",
-      "images": [
-        "../assets/pdp-gallery/3X6CR3Q47CXOBQRDJUXCP7FL/02.webp",
-        "../assets/pdp-gallery/3X6CR3Q47CXOBQRDJUXCP7FL/03.webp"
-      ],
-      "condition_id": "1500",
-      "stock": 1,
-      "interchange": []
-    },
-    {
       "id": "IXDPBLFARHHT2XEQJSVKNAJV",
       "name": "Standard JH-98 Distributor Cap NOS 83-88 Toyota Corolla Tercel Ignition",
       "price": 24.99,
@@ -90257,7 +90321,7 @@
     },
     {
       "id": "APHGTPBDGTCOCOXVAN5GQP4F",
-      "name": "Standard LX-124 Distributor Pickup NOS 87-95 Dodge Dakota Shadow Aries 2.2L 2.5L",
+      "name": "Standard LX-124 Distributor Pickup NOS 86-95 Dodge Shadow Caravan 600 2.2L 2.5L",
       "price": 31.99,
       "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/652089804c0399cb87a94cc8a9d855e6d2306990/original.jpeg",
       "url": "https://square.link/u/6DOuBliM",
@@ -90268,8 +90332,8 @@
         "LX-124"
       ],
       "vehicles": [
-        "1987\u20131989 Dodge Aries",
-        "1987\u20131995 Dodge Dakota",
+        "1986\u20131988 Dodge 600",
+        "1986\u20131995 Dodge Caravan",
         "1987\u20131994 Dodge Shadow",
         "1988\u20131992 Chrysler Dynasty",
         "1986 Chrysler Laser",
@@ -90304,20 +90368,20 @@
             "trim_count": null
           },
           {
-            "year_from": 1987,
-            "year_to": 1989,
+            "year_from": 1986,
+            "year_to": 1988,
             "make": "Dodge",
-            "model": "Aries",
+            "model": "600",
             "notes": "",
             "source": "title",
             "confidence": "low",
             "trim_count": null
           },
           {
-            "year_from": 1987,
+            "year_from": 1986,
             "year_to": 1995,
             "make": "Dodge",
-            "model": "Dakota",
+            "model": "Caravan",
             "notes": "",
             "source": "title",
             "confidence": "low",
@@ -90345,8 +90409,8 @@
           }
         ],
         "vehicle_labels": [
-          "1987\u20131989 Dodge Aries",
-          "1987\u20131995 Dodge Dakota",
+          "1986\u20131988 Dodge 600",
+          "1986\u20131995 Dodge Caravan",
           "1987\u20131994 Dodge Shadow",
           "1988\u20131992 Chrysler Dynasty",
           "1986 Chrysler Laser",
@@ -101594,7 +101658,7 @@
     },
     {
       "id": "7SGI7Y6CKU5H4SF4CQ6REZLJ",
-      "name": "Moog CV7342 Front Outer CV Joint Boot Kit NOS 1984-1987 Chrysler Dodge Plymouth",
+      "name": "Moog CV7342 Front Outer CV Joint Boot Kit NOS Axle Clamps and Grease in Box",
       "price": 19.99,
       "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/e71dc327391278332535ec5d9192b1a0898c8769/original.jpeg",
       "url": "https://square.link/u/531Huce9",
@@ -101604,57 +101668,18 @@
       "part_numbers": [
         "CV7342"
       ],
-      "vehicles": [
-        "1984\u20131987 Chrysler",
-        "1984\u20131987 Dodge",
-        "1984\u20131987 Plymouth"
-      ],
-      "fitment_source": "ebay_listing+title",
+      "vehicles": [],
+      "fitment_source": "ebay_listing",
       "fitment_confidence": "medium",
       "fitment": {
         "part_numbers": [
           "CV7342"
         ],
         "interchange": [],
-        "vehicles": [
-          {
-            "year_from": 1984,
-            "year_to": 1987,
-            "make": "Chrysler",
-            "model": "",
-            "notes": "",
-            "source": "title",
-            "confidence": "low",
-            "trim_count": null
-          },
-          {
-            "year_from": 1984,
-            "year_to": 1987,
-            "make": "Dodge",
-            "model": "",
-            "notes": "",
-            "source": "title",
-            "confidence": "low",
-            "trim_count": null
-          },
-          {
-            "year_from": 1984,
-            "year_to": 1987,
-            "make": "Plymouth",
-            "model": "",
-            "notes": "",
-            "source": "title",
-            "confidence": "low",
-            "trim_count": null
-          }
-        ],
-        "vehicle_labels": [
-          "1984\u20131987 Chrysler",
-          "1984\u20131987 Dodge",
-          "1984\u20131987 Plymouth"
-        ],
+        "vehicles": [],
+        "vehicle_labels": [],
         "raw_compat_rows": 3,
-        "source": "ebay_listing+title",
+        "source": "ebay_listing",
         "confidence": "medium",
         "ebay_item_id": "920182623283",
         "type": "CV Boot Kit",
@@ -118468,6 +118493,450 @@
       "interchange": []
     },
     {
+      "id": "3Z3CTEYBJDYCBIMPPBFXDWUJ",
+      "name": "1981-1995 Gates 33268 Thermostat 180F NOS Dodge Omni Caravan Plymouth Voyager",
+      "price": 12.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/69707c052c90695d56ec3935f5f50093a4991bfc/original.jpeg",
+      "url": "https://square.link/u/DYAcWbfg",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "YCO7KWHHYOUXKHMDMWCX5K7H",
+      "part_numbers": [
+        "33268"
+      ],
+      "vehicles": [
+        "1984\u20131995 Dodge Caravan",
+        "1981\u20131990 Dodge Omni",
+        "1984\u20131995 Plymouth Voyager",
+        "1983\u20131984 Chrysler E Class",
+        "1990\u20131992 Chrysler Imperial",
+        "1984\u20131986 Chrysler Laser",
+        "1982\u20131994 Chrysler LeBaron",
+        "1983\u20131992 Chrysler New Yorker",
+        "1987\u20131994 Chrysler Phantom",
+        "1989\u20131994 Chrysler Shadow",
+        "1982\u20131992 Chrysler Town & Country",
+        "1984\u20131987 Chrysler Volare",
+        "1982\u20131983 Dodge 400",
+        "1983\u20131988 Dodge 600",
+        "1981\u20131989 Dodge Aries",
+        "1983\u20131987 Dodge Charger",
+        "1987\u20131995 Dodge Dakota",
+        "1984\u20131993 Dodge Daytona",
+        "1988\u20131993 Dodge Dynasty",
+        "1987\u20131992 Dodge Grand Caravan",
+        "1985\u20131989 Dodge Lancer",
+        "1984\u20131988 Dodge Mini Ram",
+        "1982\u20131984 Dodge Rampage",
+        "1987\u20131994 Dodge Shadow",
+        "1989\u20131995 Dodge Spirit",
+        "1989\u20131995 Plymouth Acclaim",
+        "1985\u20131988 Plymouth Caravelle",
+        "1988\u20131992 Plymouth Grand Voyager",
+        "1981\u20131990 Plymouth Horizon",
+        "1981\u20131989 Plymouth Reliant",
+        "1983 Plymouth Scamp",
+        "1987\u20131994 Plymouth Sundance",
+        "1983\u20131987 Plymouth Turismo"
+      ],
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "33268"
+        ],
+        "interchange": [],
+        "vehicles": [
+          {
+            "year_from": 1983,
+            "year_to": 1984,
+            "make": "Chrysler",
+            "model": "E Class",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1990,
+            "year_to": 1992,
+            "make": "Chrysler",
+            "model": "Imperial",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 1986,
+            "make": "Chrysler",
+            "model": "Laser",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1982,
+            "year_to": 1994,
+            "make": "Chrysler",
+            "model": "LeBaron",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1983,
+            "year_to": 1992,
+            "make": "Chrysler",
+            "model": "New Yorker",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1994,
+            "make": "Chrysler",
+            "model": "Phantom",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1989,
+            "year_to": 1994,
+            "make": "Chrysler",
+            "model": "Shadow",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1982,
+            "year_to": 1992,
+            "make": "Chrysler",
+            "model": "Town & Country",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 1987,
+            "make": "Chrysler",
+            "model": "Volare",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1982,
+            "year_to": 1983,
+            "make": "Dodge",
+            "model": "400",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1983,
+            "year_to": 1988,
+            "make": "Dodge",
+            "model": "600",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1981,
+            "year_to": 1989,
+            "make": "Dodge",
+            "model": "Aries",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 1995,
+            "make": "Dodge",
+            "model": "Caravan",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1983,
+            "year_to": 1987,
+            "make": "Dodge",
+            "model": "Charger",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1995,
+            "make": "Dodge",
+            "model": "Dakota",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 1993,
+            "make": "Dodge",
+            "model": "Daytona",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1988,
+            "year_to": 1993,
+            "make": "Dodge",
+            "model": "Dynasty",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1992,
+            "make": "Dodge",
+            "model": "Grand Caravan",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1989,
+            "make": "Dodge",
+            "model": "Lancer",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 1988,
+            "make": "Dodge",
+            "model": "Mini Ram",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1981,
+            "year_to": 1990,
+            "make": "Dodge",
+            "model": "Omni",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1982,
+            "year_to": 1984,
+            "make": "Dodge",
+            "model": "Rampage",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1994,
+            "make": "Dodge",
+            "model": "Shadow",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1989,
+            "year_to": 1995,
+            "make": "Dodge",
+            "model": "Spirit",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1989,
+            "year_to": 1995,
+            "make": "Plymouth",
+            "model": "Acclaim",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1985,
+            "year_to": 1988,
+            "make": "Plymouth",
+            "model": "Caravelle",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1988,
+            "year_to": 1992,
+            "make": "Plymouth",
+            "model": "Grand Voyager",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1981,
+            "year_to": 1990,
+            "make": "Plymouth",
+            "model": "Horizon",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1981,
+            "year_to": 1989,
+            "make": "Plymouth",
+            "model": "Reliant",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1983,
+            "year_to": 1983,
+            "make": "Plymouth",
+            "model": "Scamp",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1987,
+            "year_to": 1994,
+            "make": "Plymouth",
+            "model": "Sundance",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1983,
+            "year_to": 1987,
+            "make": "Plymouth",
+            "model": "Turismo",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1984,
+            "year_to": 1995,
+            "make": "Plymouth",
+            "model": "Voyager",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1984\u20131995 Dodge Caravan",
+          "1981\u20131990 Dodge Omni",
+          "1984\u20131995 Plymouth Voyager",
+          "1983\u20131984 Chrysler E Class",
+          "1990\u20131992 Chrysler Imperial",
+          "1984\u20131986 Chrysler Laser",
+          "1982\u20131994 Chrysler LeBaron",
+          "1983\u20131992 Chrysler New Yorker",
+          "1987\u20131994 Chrysler Phantom",
+          "1989\u20131994 Chrysler Shadow",
+          "1982\u20131992 Chrysler Town & Country",
+          "1984\u20131987 Chrysler Volare",
+          "1982\u20131983 Dodge 400",
+          "1983\u20131988 Dodge 600",
+          "1981\u20131989 Dodge Aries",
+          "1983\u20131987 Dodge Charger",
+          "1987\u20131995 Dodge Dakota",
+          "1984\u20131993 Dodge Daytona",
+          "1988\u20131993 Dodge Dynasty",
+          "1987\u20131992 Dodge Grand Caravan",
+          "1985\u20131989 Dodge Lancer",
+          "1984\u20131988 Dodge Mini Ram",
+          "1982\u20131984 Dodge Rampage",
+          "1987\u20131994 Dodge Shadow",
+          "1989\u20131995 Dodge Spirit",
+          "1989\u20131995 Plymouth Acclaim",
+          "1985\u20131988 Plymouth Caravelle",
+          "1988\u20131992 Plymouth Grand Voyager",
+          "1981\u20131990 Plymouth Horizon",
+          "1981\u20131989 Plymouth Reliant",
+          "1983 Plymouth Scamp",
+          "1987\u20131994 Plymouth Sundance",
+          "1983\u20131987 Plymouth Turismo"
+        ],
+        "raw_compat_rows": 1581,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "398297616213",
+        "type": "Thermostat",
+        "brand": "Gates",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Thermostats & Housings",
+        "ebay_category_id": "",
+        "fetched": true
+      },
+      "vehicle_count_raw": 1581,
+      "ebay_item_id": "398297616213",
+      "ebay_type": "Thermostat",
+      "ebay_brand": "Gates",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Thermostats & Housings",
+      "images": [
+        "../assets/pdp-gallery/3Z3CTEYBJDYCBIMPPBFXDWUJ/02.webp",
+        "../assets/pdp-gallery/3Z3CTEYBJDYCBIMPPBFXDWUJ/03.webp"
+      ],
+      "condition_id": "1500",
+      "stock": 1,
+      "interchange": []
+    },
+    {
       "id": "KMOFOKITRJGHVED7VLH576T7",
       "name": "1982-1986 KEM E315 Ignition Module LX-217 Ford Escort EXP Mercury Lynx LN7 NOS",
       "price": 32.99,
@@ -121699,6 +122168,259 @@
       "condition_id": "1500",
       "stock": 2,
       "interchange": [],
+      "images": []
+    },
+    {
+      "id": "D2RCQW7CWZG2WXFC3OWBH44A",
+      "name": "1991-2000 KEM 145-610 MAP Sensor NOS Dodge Grand Caravan Chrysler Dynasty",
+      "price": 39.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/e9cb1bc56853dc8e4e3e4304973fe2a5c5a127bc/original.jpeg",
+      "url": "https://square.link/u/gNtoeLYp",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "272ALRKAQJETWBCU3TH2DXHL",
+      "part_numbers": [
+        "145-610"
+      ],
+      "interchange": [
+        "AS26"
+      ],
+      "vehicles": [
+        "1991\u20131993 Chrysler Dynasty",
+        "1992\u20132000 Dodge Grand Caravan",
+        "1991\u20131993 Chrysler Daytona",
+        "2000 Chrysler Grand Voyager",
+        "1991\u20131995 Chrysler LeBaron",
+        "2000 Chrysler Voyager",
+        "1991\u20132000 Dodge Caravan",
+        "1992\u20131995 Dodge Dakota",
+        "1991\u20131993 Dodge Daytona",
+        "1991\u20131993 Dodge Dynasty",
+        "1991\u20131994 Dodge Shadow",
+        "1991\u20131995 Dodge Spirit",
+        "1991\u20131995 Dodge Stealth",
+        "1991\u20131995 Plymouth Acclaim",
+        "1992\u20132000 Plymouth Grand Voyager",
+        "1991\u20131994 Plymouth Sundance",
+        "1991\u20131995 Plymouth Voyager"
+      ],
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "145-610"
+        ],
+        "interchange": [
+          "AS26"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1991,
+            "year_to": 1993,
+            "make": "Chrysler",
+            "model": "Daytona",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1991,
+            "year_to": 1993,
+            "make": "Chrysler",
+            "model": "Dynasty",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2000,
+            "year_to": 2000,
+            "make": "Chrysler",
+            "model": "Grand Voyager",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1991,
+            "year_to": 1995,
+            "make": "Chrysler",
+            "model": "LeBaron",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 2000,
+            "year_to": 2000,
+            "make": "Chrysler",
+            "model": "Voyager",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1991,
+            "year_to": 2000,
+            "make": "Dodge",
+            "model": "Caravan",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1992,
+            "year_to": 1995,
+            "make": "Dodge",
+            "model": "Dakota",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1991,
+            "year_to": 1993,
+            "make": "Dodge",
+            "model": "Daytona",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1991,
+            "year_to": 1993,
+            "make": "Dodge",
+            "model": "Dynasty",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1992,
+            "year_to": 2000,
+            "make": "Dodge",
+            "model": "Grand Caravan",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1991,
+            "year_to": 1994,
+            "make": "Dodge",
+            "model": "Shadow",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1991,
+            "year_to": 1995,
+            "make": "Dodge",
+            "model": "Spirit",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1991,
+            "year_to": 1995,
+            "make": "Dodge",
+            "model": "Stealth",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1991,
+            "year_to": 1995,
+            "make": "Plymouth",
+            "model": "Acclaim",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1992,
+            "year_to": 2000,
+            "make": "Plymouth",
+            "model": "Grand Voyager",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1991,
+            "year_to": 1994,
+            "make": "Plymouth",
+            "model": "Sundance",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1991,
+            "year_to": 1995,
+            "make": "Plymouth",
+            "model": "Voyager",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1991\u20131993 Chrysler Dynasty",
+          "1992\u20132000 Dodge Grand Caravan",
+          "1991\u20131993 Chrysler Daytona",
+          "2000 Chrysler Grand Voyager",
+          "1991\u20131995 Chrysler LeBaron",
+          "2000 Chrysler Voyager",
+          "1991\u20132000 Dodge Caravan",
+          "1992\u20131995 Dodge Dakota",
+          "1991\u20131993 Dodge Daytona",
+          "1991\u20131993 Dodge Dynasty",
+          "1991\u20131994 Dodge Shadow",
+          "1991\u20131995 Dodge Spirit",
+          "1991\u20131995 Dodge Stealth",
+          "1991\u20131995 Plymouth Acclaim",
+          "1992\u20132000 Plymouth Grand Voyager",
+          "1991\u20131994 Plymouth Sundance",
+          "1991\u20131995 Plymouth Voyager"
+        ],
+        "raw_compat_rows": 749,
+        "source": "ebay_listing",
+        "confidence": "high",
+        "ebay_item_id": "920124580876",
+        "type": "MAP Sensor",
+        "brand": "KEM",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Intake & Fuel Sensors",
+        "ebay_category_id": "",
+        "fetched": true
+      },
+      "vehicle_count_raw": 749,
+      "ebay_item_id": "920124580876",
+      "ebay_type": "MAP Sensor",
+      "ebay_brand": "KEM",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Intake & Fuel Sensors",
+      "condition_id": "1500",
+      "stock": 1,
       "images": []
     },
     {
@@ -151158,450 +151880,6 @@
       "images": []
     },
     {
-      "id": "3Z3CTEYBJDYCBIMPPBFXDWUJ",
-      "name": "Gates 33268 Thermostat 180 NOS Plymouth Voyager Sundance 1984-1995 USA 84-95",
-      "price": 12.99,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/69707c052c90695d56ec3935f5f50093a4991bfc/original.jpeg",
-      "url": "https://square.link/u/DYAcWbfg",
-      "category": "other",
-      "checkout": true,
-      "variation_id": "YCO7KWHHYOUXKHMDMWCX5K7H",
-      "part_numbers": [
-        "33268"
-      ],
-      "vehicles": [
-        "1987\u20131994 Plymouth Sundance",
-        "1984\u20131995 Plymouth Voyager",
-        "1983\u20131984 Chrysler E Class",
-        "1990\u20131992 Chrysler Imperial",
-        "1984\u20131986 Chrysler Laser",
-        "1982\u20131994 Chrysler LeBaron",
-        "1983\u20131992 Chrysler New Yorker",
-        "1987\u20131994 Chrysler Phantom",
-        "1989\u20131994 Chrysler Shadow",
-        "1982\u20131992 Chrysler Town & Country",
-        "1984\u20131987 Chrysler Volare",
-        "1982\u20131983 Dodge 400",
-        "1983\u20131988 Dodge 600",
-        "1981\u20131989 Dodge Aries",
-        "1984\u20131995 Dodge Caravan",
-        "1983\u20131987 Dodge Charger",
-        "1987\u20131995 Dodge Dakota",
-        "1984\u20131993 Dodge Daytona",
-        "1988\u20131993 Dodge Dynasty",
-        "1987\u20131992 Dodge Grand Caravan",
-        "1985\u20131989 Dodge Lancer",
-        "1984\u20131988 Dodge Mini Ram",
-        "1981\u20131990 Dodge Omni",
-        "1982\u20131984 Dodge Rampage",
-        "1987\u20131994 Dodge Shadow",
-        "1989\u20131995 Dodge Spirit",
-        "1989\u20131995 Plymouth Acclaim",
-        "1985\u20131988 Plymouth Caravelle",
-        "1988\u20131992 Plymouth Grand Voyager",
-        "1981\u20131990 Plymouth Horizon",
-        "1981\u20131989 Plymouth Reliant",
-        "1983 Plymouth Scamp",
-        "1983\u20131987 Plymouth Turismo"
-      ],
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "high",
-      "fitment": {
-        "part_numbers": [
-          "33268"
-        ],
-        "interchange": [],
-        "vehicles": [
-          {
-            "year_from": 1983,
-            "year_to": 1984,
-            "make": "Chrysler",
-            "model": "E Class",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1990,
-            "year_to": 1992,
-            "make": "Chrysler",
-            "model": "Imperial",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1984,
-            "year_to": 1986,
-            "make": "Chrysler",
-            "model": "Laser",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1982,
-            "year_to": 1994,
-            "make": "Chrysler",
-            "model": "LeBaron",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1983,
-            "year_to": 1992,
-            "make": "Chrysler",
-            "model": "New Yorker",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1987,
-            "year_to": 1994,
-            "make": "Chrysler",
-            "model": "Phantom",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1989,
-            "year_to": 1994,
-            "make": "Chrysler",
-            "model": "Shadow",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1982,
-            "year_to": 1992,
-            "make": "Chrysler",
-            "model": "Town & Country",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1984,
-            "year_to": 1987,
-            "make": "Chrysler",
-            "model": "Volare",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1982,
-            "year_to": 1983,
-            "make": "Dodge",
-            "model": "400",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1983,
-            "year_to": 1988,
-            "make": "Dodge",
-            "model": "600",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1981,
-            "year_to": 1989,
-            "make": "Dodge",
-            "model": "Aries",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1984,
-            "year_to": 1995,
-            "make": "Dodge",
-            "model": "Caravan",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1983,
-            "year_to": 1987,
-            "make": "Dodge",
-            "model": "Charger",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1987,
-            "year_to": 1995,
-            "make": "Dodge",
-            "model": "Dakota",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1984,
-            "year_to": 1993,
-            "make": "Dodge",
-            "model": "Daytona",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1988,
-            "year_to": 1993,
-            "make": "Dodge",
-            "model": "Dynasty",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1987,
-            "year_to": 1992,
-            "make": "Dodge",
-            "model": "Grand Caravan",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1985,
-            "year_to": 1989,
-            "make": "Dodge",
-            "model": "Lancer",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1984,
-            "year_to": 1988,
-            "make": "Dodge",
-            "model": "Mini Ram",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1981,
-            "year_to": 1990,
-            "make": "Dodge",
-            "model": "Omni",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1982,
-            "year_to": 1984,
-            "make": "Dodge",
-            "model": "Rampage",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1987,
-            "year_to": 1994,
-            "make": "Dodge",
-            "model": "Shadow",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1989,
-            "year_to": 1995,
-            "make": "Dodge",
-            "model": "Spirit",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1989,
-            "year_to": 1995,
-            "make": "Plymouth",
-            "model": "Acclaim",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1985,
-            "year_to": 1988,
-            "make": "Plymouth",
-            "model": "Caravelle",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1988,
-            "year_to": 1992,
-            "make": "Plymouth",
-            "model": "Grand Voyager",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1981,
-            "year_to": 1990,
-            "make": "Plymouth",
-            "model": "Horizon",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1981,
-            "year_to": 1989,
-            "make": "Plymouth",
-            "model": "Reliant",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1983,
-            "year_to": 1983,
-            "make": "Plymouth",
-            "model": "Scamp",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1987,
-            "year_to": 1994,
-            "make": "Plymouth",
-            "model": "Sundance",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1983,
-            "year_to": 1987,
-            "make": "Plymouth",
-            "model": "Turismo",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1984,
-            "year_to": 1995,
-            "make": "Plymouth",
-            "model": "Voyager",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          }
-        ],
-        "vehicle_labels": [
-          "1987\u20131994 Plymouth Sundance",
-          "1984\u20131995 Plymouth Voyager",
-          "1983\u20131984 Chrysler E Class",
-          "1990\u20131992 Chrysler Imperial",
-          "1984\u20131986 Chrysler Laser",
-          "1982\u20131994 Chrysler LeBaron",
-          "1983\u20131992 Chrysler New Yorker",
-          "1987\u20131994 Chrysler Phantom",
-          "1989\u20131994 Chrysler Shadow",
-          "1982\u20131992 Chrysler Town & Country",
-          "1984\u20131987 Chrysler Volare",
-          "1982\u20131983 Dodge 400",
-          "1983\u20131988 Dodge 600",
-          "1981\u20131989 Dodge Aries",
-          "1984\u20131995 Dodge Caravan",
-          "1983\u20131987 Dodge Charger",
-          "1987\u20131995 Dodge Dakota",
-          "1984\u20131993 Dodge Daytona",
-          "1988\u20131993 Dodge Dynasty",
-          "1987\u20131992 Dodge Grand Caravan",
-          "1985\u20131989 Dodge Lancer",
-          "1984\u20131988 Dodge Mini Ram",
-          "1981\u20131990 Dodge Omni",
-          "1982\u20131984 Dodge Rampage",
-          "1987\u20131994 Dodge Shadow",
-          "1989\u20131995 Dodge Spirit",
-          "1989\u20131995 Plymouth Acclaim",
-          "1985\u20131988 Plymouth Caravelle",
-          "1988\u20131992 Plymouth Grand Voyager",
-          "1981\u20131990 Plymouth Horizon",
-          "1981\u20131989 Plymouth Reliant",
-          "1983 Plymouth Scamp",
-          "1983\u20131987 Plymouth Turismo"
-        ],
-        "raw_compat_rows": 1581,
-        "source": "ebay_listing",
-        "confidence": "high",
-        "ebay_item_id": "398297616213",
-        "type": "Thermostat",
-        "brand": "Gates",
-        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Thermostats & Housings",
-        "ebay_category_id": "",
-        "fetched": true
-      },
-      "vehicle_count_raw": 1581,
-      "ebay_item_id": "398297616213",
-      "ebay_type": "Thermostat",
-      "ebay_brand": "Gates",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Engine Cooling Components:Thermostats & Housings",
-      "images": [
-        "../assets/pdp-gallery/3Z3CTEYBJDYCBIMPPBFXDWUJ/02.webp",
-        "../assets/pdp-gallery/3Z3CTEYBJDYCBIMPPBFXDWUJ/03.webp"
-      ],
-      "condition_id": "1500",
-      "stock": 1,
-      "interchange": []
-    },
-    {
       "id": "3OWZS3ISWMJZVCMUFT6OS3KN",
       "name": "Gates 33269 Thermostat 192 2.2 Plymouth Turismo 83-86 NOS",
       "price": 14.99,
@@ -151969,7 +152247,7 @@
     },
     {
       "id": "HEJTHZORA24YEBW7HUDRXTC7",
-      "name": "Gates 33429 Thermostat 195 NOS Buick Lucerne LaCrosse 2005-2009 USA 06-08 05-09",
+      "name": "Gates 33429 Thermostat 195F NOS Buick LaCrosse Lucerne Chevy Lumina Van 3.8L USA",
       "price": 21.99,
       "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/69707c052c90695d56ec3935f5f50093a4991bfc/original.jpeg",
       "url": "https://square.link/u/NFa7GaxH",
@@ -151982,9 +152260,10 @@
       "vehicles": [
         "2005\u20132009 Buick LaCrosse",
         "2006\u20132008 Buick Lucerne",
+        "Chevrolet Lumina",
         "1995 Chevrolet Lumina Van"
       ],
-      "fitment_source": "ebay_listing",
+      "fitment_source": "ebay_listing+title",
       "fitment_confidence": "high",
       "fitment": {
         "part_numbers": [
@@ -152013,6 +152292,16 @@
             "trim_count": null
           },
           {
+            "year_from": null,
+            "year_to": null,
+            "make": "Chevrolet",
+            "model": "Lumina",
+            "notes": "",
+            "source": "title",
+            "confidence": "low",
+            "trim_count": null
+          },
+          {
             "year_from": 1995,
             "year_to": 1995,
             "make": "Chevrolet",
@@ -152026,10 +152315,11 @@
         "vehicle_labels": [
           "2005\u20132009 Buick LaCrosse",
           "2006\u20132008 Buick Lucerne",
+          "Chevrolet Lumina",
           "1995 Chevrolet Lumina Van"
         ],
         "raw_compat_rows": 30,
-        "source": "ebay_listing",
+        "source": "ebay_listing+title",
         "confidence": "high",
         "ebay_item_id": "398297612930",
         "type": "Thermostat",
@@ -155979,7 +156269,7 @@
     },
     {
       "id": "4WVO3MW3XR3YA64AQ7MQ55HW",
-      "name": "Gates 5536 Engine Coolant Thermostat 160 NOS 1957-1966 Dodge D100 W100 D200 W200",
+      "name": "Gates 5536 Thermostat 160F NOS 1957-1966 Dodge D100 W100 D200 W200 3.8L 5.2L",
       "price": 14.99,
       "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/3d8a1c9002d1fb50c152d3d68cfcb85b53105459/original.jpeg",
       "url": "https://square.link/u/QJOLDjGp",
@@ -163962,259 +164252,6 @@
       "images": []
     },
     {
-      "id": "D2RCQW7CWZG2WXFC3OWBH44A",
-      "name": "KEM 145-610 MAP Sensor NOS 1991-1993 Chrysler Daytona 1991-1993 Chrysler Dynasty",
-      "price": 39.99,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/e9cb1bc56853dc8e4e3e4304973fe2a5c5a127bc/original.jpeg",
-      "url": "https://square.link/u/gNtoeLYp",
-      "category": "other",
-      "checkout": true,
-      "variation_id": "272ALRKAQJETWBCU3TH2DXHL",
-      "part_numbers": [
-        "145-610"
-      ],
-      "interchange": [
-        "AS26"
-      ],
-      "vehicles": [
-        "1991\u20131993 Chrysler Daytona",
-        "1991\u20131993 Chrysler Dynasty",
-        "2000 Chrysler Grand Voyager",
-        "1991\u20131995 Chrysler LeBaron",
-        "2000 Chrysler Voyager",
-        "1991\u20132000 Dodge Caravan",
-        "1992\u20131995 Dodge Dakota",
-        "1991\u20131993 Dodge Daytona",
-        "1991\u20131993 Dodge Dynasty",
-        "1992\u20132000 Dodge Grand Caravan",
-        "1991\u20131994 Dodge Shadow",
-        "1991\u20131995 Dodge Spirit",
-        "1991\u20131995 Dodge Stealth",
-        "1991\u20131995 Plymouth Acclaim",
-        "1992\u20132000 Plymouth Grand Voyager",
-        "1991\u20131994 Plymouth Sundance",
-        "1991\u20131995 Plymouth Voyager"
-      ],
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "high",
-      "fitment": {
-        "part_numbers": [
-          "145-610"
-        ],
-        "interchange": [
-          "AS26"
-        ],
-        "vehicles": [
-          {
-            "year_from": 1991,
-            "year_to": 1993,
-            "make": "Chrysler",
-            "model": "Daytona",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1991,
-            "year_to": 1993,
-            "make": "Chrysler",
-            "model": "Dynasty",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 2000,
-            "year_to": 2000,
-            "make": "Chrysler",
-            "model": "Grand Voyager",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1991,
-            "year_to": 1995,
-            "make": "Chrysler",
-            "model": "LeBaron",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 2000,
-            "year_to": 2000,
-            "make": "Chrysler",
-            "model": "Voyager",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1991,
-            "year_to": 2000,
-            "make": "Dodge",
-            "model": "Caravan",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1992,
-            "year_to": 1995,
-            "make": "Dodge",
-            "model": "Dakota",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1991,
-            "year_to": 1993,
-            "make": "Dodge",
-            "model": "Daytona",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1991,
-            "year_to": 1993,
-            "make": "Dodge",
-            "model": "Dynasty",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1992,
-            "year_to": 2000,
-            "make": "Dodge",
-            "model": "Grand Caravan",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1991,
-            "year_to": 1994,
-            "make": "Dodge",
-            "model": "Shadow",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1991,
-            "year_to": 1995,
-            "make": "Dodge",
-            "model": "Spirit",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1991,
-            "year_to": 1995,
-            "make": "Dodge",
-            "model": "Stealth",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1991,
-            "year_to": 1995,
-            "make": "Plymouth",
-            "model": "Acclaim",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1992,
-            "year_to": 2000,
-            "make": "Plymouth",
-            "model": "Grand Voyager",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1991,
-            "year_to": 1994,
-            "make": "Plymouth",
-            "model": "Sundance",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1991,
-            "year_to": 1995,
-            "make": "Plymouth",
-            "model": "Voyager",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          }
-        ],
-        "vehicle_labels": [
-          "1991\u20131993 Chrysler Daytona",
-          "1991\u20131993 Chrysler Dynasty",
-          "2000 Chrysler Grand Voyager",
-          "1991\u20131995 Chrysler LeBaron",
-          "2000 Chrysler Voyager",
-          "1991\u20132000 Dodge Caravan",
-          "1992\u20131995 Dodge Dakota",
-          "1991\u20131993 Dodge Daytona",
-          "1991\u20131993 Dodge Dynasty",
-          "1992\u20132000 Dodge Grand Caravan",
-          "1991\u20131994 Dodge Shadow",
-          "1991\u20131995 Dodge Spirit",
-          "1991\u20131995 Dodge Stealth",
-          "1991\u20131995 Plymouth Acclaim",
-          "1992\u20132000 Plymouth Grand Voyager",
-          "1991\u20131994 Plymouth Sundance",
-          "1991\u20131995 Plymouth Voyager"
-        ],
-        "raw_compat_rows": 749,
-        "source": "ebay_listing",
-        "confidence": "high",
-        "ebay_item_id": "920124580876",
-        "type": "MAP Sensor",
-        "brand": "KEM",
-        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Intake & Fuel Sensors",
-        "ebay_category_id": "",
-        "fetched": true
-      },
-      "vehicle_count_raw": 749,
-      "ebay_item_id": "920124580876",
-      "ebay_type": "MAP Sensor",
-      "ebay_brand": "KEM",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Air & Fuel Delivery:Air Intake & Fuel Sensors",
-      "condition_id": "1500",
-      "stock": 1,
-      "images": []
-    },
-    {
       "id": "GJ74UGLVEPGII2CLCHWYHVR5",
       "name": "KEM AR175 Accessory Relay NOS 82-89 Buick Century Chevrolet Celebrity Camaro",
       "price": 35.99,
@@ -172118,7 +172155,7 @@
     },
     {
       "id": "PR55AEFQYMC7NS6ANPX5UIVR",
-      "name": "National 3459 2.2 2.5 Output Shaft Transmission Seal NOS 84-07 Dodge Caravan",
+      "name": "National 3459 Output Shaft Transmission Seal NOS 1984-2007 Dodge Caravan Minivan",
       "price": 13.99,
       "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/7968fc4bc6b52b47be9952073c120b250d4dee76/original.jpeg",
       "url": "https://square.link/u/XcbPKe6z",
@@ -199100,7 +199137,7 @@
     },
     {
       "id": "OEJ7ZYBLP3GM3MGEFYO3YA2J",
-      "name": "Victor Reinz JV856 Timing Cover Gasket 5.0 64-73 Ford Mustang Bronco LTD",
+      "name": "Victor Reinz JV856 Timing Cover Gasket NOS 64-85 Ford Mustang Bronco F-150 LTD",
       "price": 26.99,
       "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/a4a68412b03a161bb939be6d23dd68ac70f92ba0/original.jpeg",
       "url": "https://square.link/u/hvwR6VM0",
@@ -199116,9 +199153,9 @@
       ],
       "vehicles": [
         "1966\u20131985 Ford Bronco",
+        "1975\u20131985 Ford F-150",
         "1965\u20131985 Ford LTD",
-        "1964\u20131973 Ford Mustang",
-        "1975\u20131985 Ford F-150"
+        "1964\u20131973 Ford Mustang"
       ],
       "fitment_source": "ebay_listing",
       "fitment_confidence": "high",
@@ -199174,9 +199211,9 @@
         ],
         "vehicle_labels": [
           "1966\u20131985 Ford Bronco",
+          "1975\u20131985 Ford F-150",
           "1965\u20131985 Ford LTD",
-          "1964\u20131973 Ford Mustang",
-          "1975\u20131985 Ford F-150"
+          "1964\u20131973 Ford Mustang"
         ],
         "raw_compat_rows": 1641,
         "source": "ebay_listing",
@@ -201620,5 +201657,5 @@
       "ebay_brand": ""
     }
   ],
-  "fitment_built": "2026-11-27T06:01:15Z"
+  "fitment_built": "2026-11-27T07:00:55Z"
 }
