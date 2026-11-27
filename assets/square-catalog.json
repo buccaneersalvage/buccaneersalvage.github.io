@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-27T20:47:10Z",
+  "updated": "2026-11-27T21:00:49Z",
   "store": "https://buccaneersalvage.square.site/",
   "count": 1242,
   "items": [
@@ -116712,6 +116712,104 @@
       "interchange": []
     },
     {
+      "id": "L64LR5I3TATJTXXE5IXGN73J",
+      "name": "1980-1988 AMC Eagle Jeep J20 Chevy Corvette Pinion Seal National 5778 NOS 15788",
+      "price": 18.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/cb9f4fd16e4ecd541445feebc437757474a28d1d/original.jpeg",
+      "url": "https://square.link/u/QjpSc6ZG",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "ZBFKG76FVRHQRAGB6WYCB4AW",
+      "part_numbers": [
+        "5778",
+        "CR15788, E1TZ-4676-A, 10046337"
+      ],
+      "interchange": [
+        "CR 15788",
+        "CR 16055",
+        "CR 15779",
+        "National 473442"
+      ],
+      "vehicles": [
+        "1980\u20131988 Chevrolet Corvette",
+        "1980\u20131988 Jeep J20",
+        "1988\u20131992 Eagle Vista"
+      ],
+      "fitment_source": "ebay_listing+title",
+      "fitment_confidence": "high",
+      "fitment": {
+        "part_numbers": [
+          "5778",
+          "CR15788, E1TZ-4676-A, 10046337"
+        ],
+        "interchange": [
+          "CR 15788",
+          "CR 16055",
+          "CR 15779",
+          "National 473442"
+        ],
+        "vehicles": [
+          {
+            "year_from": 1980,
+            "year_to": 1988,
+            "make": "Chevrolet",
+            "model": "Corvette",
+            "notes": "",
+            "source": "title",
+            "confidence": "low",
+            "trim_count": null
+          },
+          {
+            "year_from": 1988,
+            "year_to": 1992,
+            "make": "Eagle",
+            "model": "Vista",
+            "notes": "",
+            "source": "ebay_compat",
+            "confidence": "high",
+            "trim_count": null
+          },
+          {
+            "year_from": 1980,
+            "year_to": 1988,
+            "make": "Jeep",
+            "model": "J20",
+            "notes": "",
+            "source": "title",
+            "confidence": "low",
+            "trim_count": null
+          }
+        ],
+        "vehicle_labels": [
+          "1980\u20131988 Chevrolet Corvette",
+          "1980\u20131988 Jeep J20",
+          "1988\u20131992 Eagle Vista"
+        ],
+        "raw_compat_rows": 301,
+        "source": "ebay_listing+title",
+        "confidence": "high",
+        "ebay_item_id": "398315288847",
+        "type": "Differential Pinion Seal",
+        "brand": "National",
+        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:Differentials, Assemblies & Parts:Seals & Gaskets",
+        "ebay_category_id": "",
+        "fetched": true
+      },
+      "vehicle_count_raw": 301,
+      "ebay_item_id": "398315288847",
+      "ebay_type": "Differential Pinion Seal",
+      "ebay_brand": "National",
+      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:Differentials, Assemblies & Parts:Seals & Gaskets",
+      "images": [
+        "../assets/pdp-gallery/L64LR5I3TATJTXXE5IXGN73J/02.webp",
+        "../assets/pdp-gallery/L64LR5I3TATJTXXE5IXGN73J/03.webp",
+        "../assets/pdp-gallery/L64LR5I3TATJTXXE5IXGN73J/04.webp",
+        "../assets/pdp-gallery/L64LR5I3TATJTXXE5IXGN73J/05.webp"
+      ],
+      "condition_id": "1500",
+      "stock": 1
+    },
+    {
       "id": "2BWUWDZAZ2RHM7MXQTYHDIZX",
       "name": "1980-1996 KEM EG1092HD Stoplight Switch NOS Buick Century Electra Estate Wagon",
       "price": 15.99,
@@ -176734,7 +176832,7 @@
     },
     {
       "id": "BMXKE7SOF2TLE64KJZZUFXTK",
-      "name": "National 473468 Output Shaft Seal Transmission 1980 Plymouth PB100 PB200 PB300",
+      "name": "National 473468 Output Shaft Seal NOS NP205 T18 T19 Transfer Case Transmission",
       "price": 16.99,
       "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/696a13482cccd8aabc7a7d273254a722bd0a477f/original.jpeg",
       "url": "https://square.link/u/f51N5DyV",
@@ -177547,80 +177645,6 @@
       ],
       "condition_id": "1500",
       "stock": 2
-    },
-    {
-      "id": "L64LR5I3TATJTXXE5IXGN73J",
-      "name": "National 5778 Front Differential Pinion Seal NOS Eagle Vista 1.5 88-92 CR 15788",
-      "price": 18.99,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/cb9f4fd16e4ecd541445feebc437757474a28d1d/original.jpeg",
-      "url": "https://square.link/u/QjpSc6ZG",
-      "category": "other",
-      "checkout": true,
-      "variation_id": "ZBFKG76FVRHQRAGB6WYCB4AW",
-      "part_numbers": [
-        "5778",
-        "CR15788, E1TZ-4676-A, 10046337"
-      ],
-      "interchange": [
-        "CR 15788",
-        "CR 16055",
-        "CR 15779",
-        "National 473442"
-      ],
-      "vehicles": [
-        "1988\u20131992 Eagle Vista"
-      ],
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "high",
-      "fitment": {
-        "part_numbers": [
-          "5778",
-          "CR15788, E1TZ-4676-A, 10046337"
-        ],
-        "interchange": [
-          "CR 15788",
-          "CR 16055",
-          "CR 15779",
-          "National 473442"
-        ],
-        "vehicles": [
-          {
-            "year_from": 1988,
-            "year_to": 1992,
-            "make": "Eagle",
-            "model": "Vista",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          }
-        ],
-        "vehicle_labels": [
-          "1988\u20131992 Eagle Vista"
-        ],
-        "raw_compat_rows": 301,
-        "source": "ebay_listing",
-        "confidence": "high",
-        "ebay_item_id": "398315288847",
-        "type": "Differential Pinion Seal",
-        "brand": "National",
-        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:Differentials, Assemblies & Parts:Seals & Gaskets",
-        "ebay_category_id": "",
-        "fetched": true
-      },
-      "vehicle_count_raw": 301,
-      "ebay_item_id": "398315288847",
-      "ebay_type": "Differential Pinion Seal",
-      "ebay_brand": "National",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Transmission & Drivetrain:Differentials, Assemblies & Parts:Seals & Gaskets",
-      "images": [
-        "../assets/pdp-gallery/L64LR5I3TATJTXXE5IXGN73J/02.webp",
-        "../assets/pdp-gallery/L64LR5I3TATJTXXE5IXGN73J/03.webp",
-        "../assets/pdp-gallery/L64LR5I3TATJTXXE5IXGN73J/04.webp",
-        "../assets/pdp-gallery/L64LR5I3TATJTXXE5IXGN73J/05.webp"
-      ],
-      "condition_id": "1500",
-      "stock": 1
     },
     {
       "id": "LAB77KZXUC2CHKA6RQIYLHM3",
@@ -203741,5 +203765,5 @@
       "ebay_brand": ""
     }
   ],
-  "fitment_built": "2026-11-27T20:47:10Z"
+  "fitment_built": "2026-11-27T21:00:49Z"
 }
