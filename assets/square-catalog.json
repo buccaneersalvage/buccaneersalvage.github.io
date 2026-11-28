@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-28T12:00:55Z",
+  "updated": "2026-11-28T13:00:44Z",
   "store": "https://buccaneersalvage.square.site/",
   "count": 1241,
   "items": [
@@ -41920,7 +41920,7 @@
         "../assets/pdp-gallery/HHPPQTUEO3QMR23UVKSSPSG7/04.webp"
       ],
       "condition_id": "1500",
-      "stock": 3,
+      "stock": 2,
       "interchange": []
     },
     {
@@ -163281,6 +163281,50 @@
       "vehicles": []
     },
     {
+      "id": "6DY5OFKULGH6GZ2VOQXPD7UY",
+      "name": "Hollow Log Cave Aquarium Ornament Resin Driftwood Stump Moss Fish Hideout Used",
+      "price": 28.99,
+      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/b3c6a8e566bd4c6afa325be2fb295505830e0a9e/original.jpeg",
+      "url": "https://square.link/u/5FDdnh1n",
+      "category": "other",
+      "checkout": true,
+      "variation_id": "XQZNFA4YH73ETAHZZWRUNQDJ",
+      "fitment_source": "ebay_listing",
+      "fitment_confidence": "medium",
+      "fitment": {
+        "part_numbers": [],
+        "interchange": [],
+        "vehicles": [],
+        "vehicle_labels": [],
+        "raw_compat_rows": 0,
+        "source": "ebay_listing",
+        "confidence": "medium",
+        "ebay_item_id": "920189159552",
+        "type": "Caves",
+        "brand": "Unbranded",
+        "ebay_category": "Pet Supplies:Fish & Aquariums:Decorations",
+        "ebay_category_id": "66789",
+        "fetched": true,
+        "fetch_title": "Hollow Log Cave Aquarium Ornament Resin Driftwood Stump Moss Fish Hideout Used"
+      },
+      "vehicle_count_raw": 0,
+      "ebay_item_id": "920189159552",
+      "ebay_type": "Caves",
+      "ebay_brand": "Unbranded",
+      "ebay_category": "Pet Supplies:Fish & Aquariums:Decorations",
+      "images": [
+        "../assets/pdp-gallery/6DY5OFKULGH6GZ2VOQXPD7UY/02.webp",
+        "../assets/pdp-gallery/6DY5OFKULGH6GZ2VOQXPD7UY/03.webp",
+        "../assets/pdp-gallery/6DY5OFKULGH6GZ2VOQXPD7UY/04.webp",
+        "../assets/pdp-gallery/6DY5OFKULGH6GZ2VOQXPD7UY/05.webp"
+      ],
+      "condition_id": "3000",
+      "stock": 1,
+      "part_numbers": [],
+      "interchange": [],
+      "vehicles": []
+    },
+    {
       "id": "M734SCCPXVRHEM2B275OZFLT",
       "name": "Honda GX340 11HP OHV Engine EG5000 Generator Electric Start For Parts Untested",
       "price": 199.99,
@@ -202366,50 +202410,6 @@
       "vehicles": []
     },
     {
-      "id": "6DY5OFKULGH6GZ2VOQXPD7UY",
-      "name": "Unbranded Aquarium Ornament Lizard Rock Used Reptile Supplies Decorations Fish",
-      "price": 28.99,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/b3c6a8e566bd4c6afa325be2fb295505830e0a9e/original.jpeg",
-      "url": "https://square.link/u/5FDdnh1n",
-      "category": "other",
-      "checkout": true,
-      "variation_id": "XQZNFA4YH73ETAHZZWRUNQDJ",
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "medium",
-      "fitment": {
-        "part_numbers": [],
-        "interchange": [],
-        "vehicles": [],
-        "vehicle_labels": [],
-        "raw_compat_rows": 0,
-        "source": "ebay_listing",
-        "confidence": "medium",
-        "ebay_item_id": "920189159552",
-        "type": "Aquarium Ornament",
-        "brand": "Unbranded",
-        "ebay_category": "Pet Supplies:Fish & Aquariums:Decorations",
-        "ebay_category_id": "",
-        "fetched": true,
-        "fetch_title": "Unbranded Aquarium Ornament Lizard Rock Used Reptile Supplies Decorations Fish"
-      },
-      "vehicle_count_raw": 0,
-      "ebay_item_id": "920189159552",
-      "ebay_type": "Aquarium Ornament",
-      "ebay_brand": "Unbranded",
-      "ebay_category": "Pet Supplies:Fish & Aquariums:Decorations",
-      "images": [
-        "../assets/pdp-gallery/6DY5OFKULGH6GZ2VOQXPD7UY/02.webp",
-        "../assets/pdp-gallery/6DY5OFKULGH6GZ2VOQXPD7UY/03.webp",
-        "../assets/pdp-gallery/6DY5OFKULGH6GZ2VOQXPD7UY/04.webp",
-        "../assets/pdp-gallery/6DY5OFKULGH6GZ2VOQXPD7UY/05.webp"
-      ],
-      "condition_id": "3000",
-      "stock": 1,
-      "part_numbers": [],
-      "interchange": [],
-      "vehicles": []
-    },
-    {
       "id": "MC7XTIXE26KANICPHYDA763W",
       "name": "Unbranded Parallel Serial Printer Cable 25-pin D-Sub DB25 Connector 6-10 ft",
       "price": 12.99,
@@ -206392,5 +206392,5 @@
       "ebay_brand": ""
     }
   ],
-  "fitment_built": "2026-11-28T12:00:55Z"
+  "fitment_built": "2026-11-28T13:00:44Z"
 }
