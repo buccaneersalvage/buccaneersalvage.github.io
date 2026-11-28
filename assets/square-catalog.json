@@ -1,7 +1,7 @@
 {
-  "updated": "2026-11-28T13:00:44Z",
+  "updated": "2026-11-28T20:00:47Z",
   "store": "https://buccaneersalvage.square.site/",
-  "count": 1241,
+  "count": 1240,
   "items": [
     {
       "id": "2J3FOCGYVJXELIPUTCWH3MQ4",
@@ -29596,124 +29596,6 @@
       "condition_id": "1500",
       "stock": 1,
       "interchange": []
-    },
-    {
-      "id": "AY6IRRZZJKM42KV3PSO6YDHV",
-      "name": "Lee 7071 Drum Brake Hardware Kit Ford Bronco F-150 75-96 F-100 68-83 Lincoln",
-      "price": 20.99,
-      "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/7259262a94babf231c2500d4f5c74374d710d9b9/original.jpeg",
-      "url": "https://square.link/u/XGiw3MAT",
-      "category": "brake",
-      "checkout": true,
-      "variation_id": "5DZZ7YY7CDO7YTDLZOJFCPZC",
-      "part_numbers": [
-        "7071",
-        "HW7225",
-        "H7071"
-      ],
-      "interchange": [
-        "H7225"
-      ],
-      "vehicles": [
-        "1976\u20131996 Ford Bronco",
-        "1975\u20131996 Ford F-150",
-        "1968\u20131983 Ford F-100",
-        "1987\u20131991 Ford LTD Crown Victoria",
-        "1981\u20131997 Lincoln Town Car"
-      ],
-      "fitment_source": "ebay_listing",
-      "fitment_confidence": "high",
-      "fitment": {
-        "part_numbers": [
-          "7071",
-          "HW7225",
-          "H7071"
-        ],
-        "interchange": [
-          "H7225"
-        ],
-        "vehicles": [
-          {
-            "year_from": 1976,
-            "year_to": 1996,
-            "make": "Ford",
-            "model": "Bronco",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1968,
-            "year_to": 1983,
-            "make": "Ford",
-            "model": "F-100",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1975,
-            "year_to": 1996,
-            "make": "Ford",
-            "model": "F-150",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1987,
-            "year_to": 1991,
-            "make": "Ford",
-            "model": "LTD Crown Victoria",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          },
-          {
-            "year_from": 1981,
-            "year_to": 1997,
-            "make": "Lincoln",
-            "model": "Town Car",
-            "notes": "",
-            "source": "ebay_compat",
-            "confidence": "high",
-            "trim_count": null
-          }
-        ],
-        "vehicle_labels": [
-          "1976\u20131996 Ford Bronco",
-          "1975\u20131996 Ford F-150",
-          "1968\u20131983 Ford F-100",
-          "1987\u20131991 Ford LTD Crown Victoria",
-          "1981\u20131997 Lincoln Town Car"
-        ],
-        "raw_compat_rows": 1569,
-        "source": "ebay_listing",
-        "confidence": "high",
-        "ebay_item_id": "398314611534",
-        "type": "Drum Brake Hardware Kit",
-        "brand": "Lee",
-        "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware",
-        "ebay_category_id": "",
-        "fetched": true,
-        "fetch_title": "Lee 7071 Drum Brake Hardware Kit Ford Bronco F-150 75-96 F-100 68-83 Lincoln"
-      },
-      "vehicle_count_raw": 1569,
-      "ebay_item_id": "398314611534",
-      "ebay_type": "Drum Brake Hardware Kit",
-      "ebay_brand": "Lee",
-      "ebay_category": "eBay Motors:Parts & Accessories:Car & Truck Parts & Accessories:Brakes & Brake Parts:Brake Pad & Shoe Hardware",
-      "images": [
-        "../assets/pdp-gallery/AY6IRRZZJKM42KV3PSO6YDHV/02.webp",
-        "../assets/pdp-gallery/AY6IRRZZJKM42KV3PSO6YDHV/03.webp",
-        "../assets/pdp-gallery/AY6IRRZZJKM42KV3PSO6YDHV/04.webp"
-      ],
-      "condition_id": "1500",
-      "stock": 1
     },
     {
       "id": "C2GOMQU2PA4LVB6ZPDDZRR3E",
@@ -206392,5 +206274,5 @@
       "ebay_brand": ""
     }
   ],
-  "fitment_built": "2026-11-28T13:00:44Z"
+  "fitment_built": "2026-11-28T20:00:47Z"
 }

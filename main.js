@@ -98,7 +98,7 @@
   const MAX_QTY = 20;
   const MAX_LINES = 30;
   const CHECKOUT_API = "https://buc-square-checkout.jollyroger1480.workers.dev/checkout";
-  const SLUGS_URL = "/assets/pdp-slugs.json?v=41ac0e08e1"; // keep in sync with store.js (test_pdp_slugs)
+  const SLUGS_URL = "/assets/pdp-slugs.json?v=b62013e486"; // keep in sync with store.js (test_pdp_slugs)
   let pdpSlugs = Object.create(null);
 
   // The cart renders on pages at any depth (/, /p/, /v/, /c/, /b/, /shame/)
@@ -623,7 +623,7 @@
     if (!wanted.length) return;
     let cat;
     try {
-      const res = await fetch("/assets/store-catalog.json?v=eec06512f7", { credentials: "same-origin" });
+      const res = await fetch("/assets/store-catalog.json?v=3c9d452675", { credentials: "same-origin" });
       cat = await res.json();
     } catch (_) {
       return;
